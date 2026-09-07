@@ -1,53 +1,53 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-09-07T13:30:32.051Z",
-  "generatedAt": "2026-09-07T13:34:04.787Z",
+  "cutoffAt": "2026-09-07T19:57:50.347Z",
+  "generatedAt": "2026-09-07T20:02:37.603Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "S&P close via FRED",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "BLS employment release",
+      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
     },
     {
       "id": "src2",
-      "label": "Nasdaq close via FRED",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "FRED S&P five hundred data",
+      "url": "https://fred.stlouisfed.org/data/SP500"
     },
     {
       "id": "src3",
-      "label": "CSI three hundred historical closes",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "Associated Press market close report",
+      "url": "https://apnews.com/article/1af16359af43eb8abc66445465f633c8"
     },
     {
       "id": "src4",
-      "label": "Apogee acquisition release",
-      "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000087/ex991-apogacquisitionann.htm"
+      "label": "Lululemon earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000126/lulu-20260802xex991.htm"
     },
     {
       "id": "src5",
-      "label": "Apogee share purchase agreement",
-      "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000087/ex21-redacted20260902xpr.htm"
-    },
-    {
-      "id": "src6",
-      "label": "National Bureau of Statistics industrial profits interpretation",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260827_1965127.html"
+      "label": "GAC investor relations sales data",
+      "url": "https://www.gacgroup.com/cn/invest/"
     },
     {
       "id": "src7",
-      "label": "Market regulator concentration review release",
-      "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_f42708e76e874bcbbdc8a4d9cf8792ee.html"
-    },
-    {
-      "id": "src8",
-      "label": "TCL Zhonghuan investment filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062720.PDF"
+      "label": "National Bureau of Statistics activity release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html"
     },
     {
       "id": "src9",
-      "label": "Mainland market closing report",
-      "url": "https://www.cnfin.com/yw-lb/detail/20260907/4466142_1.html"
+      "label": "Mainland market close report",
+      "url": "https://research.starrquantlab.com/en/a-share/2026-09-07/recap/"
+    },
+    {
+      "id": "src10",
+      "label": "FRED Nasdaq Composite data",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+    },
+    {
+      "id": "src11",
+      "label": "Lululemon quarterly filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000127/lulu-20260802.htm"
     }
   ],
   "markets": [
@@ -58,26 +58,27 @@
       "previousClose": 7747.71,
       "changePercent": -0.3757,
       "sourceIds": [
-        "src1"
+        "src2",
+        "src3"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-09-04",
-      "close": 26506.99,
-      "previousClose": 26584.06,
-      "changePercent": -0.2899,
-      "sourceIds": [
-        "src2"
-      ]
-    },
-    {
-      "id": "sse",
       "sessionDate": null,
       "close": null,
       "previousClose": null,
       "changePercent": null,
       "sourceIds": []
+    },
+    {
+      "id": "sse",
+      "sessionDate": "2026-09-07",
+      "close": 3932.7,
+      "previousClose": 3930.12,
+      "changePercent": 0.0656,
+      "sourceIds": [
+        "src9"
+      ]
     },
     {
       "id": "csi300",
@@ -86,291 +87,825 @@
       "previousClose": 4548.05,
       "changePercent": 0.593,
       "sourceIds": [
-        "src3"
+        "src9"
       ]
     }
   ],
   "stories": [
     {
       "id": "f2",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-09-03",
+      "company": {
+        "name": "lululemon athletica",
+        "ticker": "LULU",
+        "exchange": "Nasdaq"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 2415631000,
+          "unit": "USD",
+          "periodStart": "2026-05-04",
+          "periodEnd": "2026-08-02",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4",
+            "src11"
+          ],
+          "evidence": "The quarterly statement of operations reported net revenue for the fiscal quarter ended August second."
+        },
+        {
+          "id": "m2",
+          "value": 329223000,
+          "unit": "USD",
+          "periodStart": "2026-05-04",
+          "periodEnd": "2026-08-02",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4",
+            "src11"
+          ],
+          "evidence": "The quarterly statement of operations reported net income for the fiscal quarter."
+        },
+        {
+          "id": "m3",
+          "value": 589278000,
+          "unit": "USD",
+          "periodStart": "2026-02-02",
+          "periodEnd": "2026-08-02",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4",
+            "src11"
+          ],
+          "evidence": "The cash flow statement reported cumulative net cash provided by operating activities."
+        },
+        {
+          "id": "m4",
+          "value": -4,
+          "unit": "percent",
+          "periodStart": "2026-05-04",
+          "periodEnd": "2026-08-02",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The earnings release summary reported the quarterly year-over-year change in net revenue."
+        },
+        {
+          "id": "m5",
+          "value": -5,
+          "unit": "percent",
+          "periodStart": "2026-05-04",
+          "periodEnd": "2026-08-02",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The earnings release summary reported the quarterly constant-dollar revenue change."
+        }
+      ],
+      "sourceIds": [
+        "src4",
+        "src11"
+      ],
+      "evidence": "The athletic-apparel retailer reported weaker quarterly sales and profit, while operating cash flow remained positive on a cumulative basis; tariff refunds increased reported profitability and management revised its outlook."
+    },
+    {
+      "id": "f3",
+      "market": "cn",
+      "category": "company",
+      "publishedOn": "2026-09-05",
+      "company": {
+        "name": "Guangzhou Automobile Group",
+        "ticker": "601238",
+        "exchange": "Shanghai Stock Exchange"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 126584,
+          "unit": "count",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "The investor-relations sales panel reported total vehicle sales for August."
+        },
+        {
+          "id": "m2",
+          "value": 1012603,
+          "unit": "count",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "The investor-relations sales panel reported cumulative vehicle sales through August."
+        }
+      ],
+      "sourceIds": [
+        "src5"
+      ],
+      "evidence": "The automaker disclosed monthly and cumulative vehicle volumes, including sales across joint-venture, proprietary, and new-energy brands; the accessible company page did not verify the proposed year-over-year comparisons."
+    },
+    {
+      "id": "f4",
       "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-08-27",
+      "publishedOn": "2026-08-17",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 6.5,
+          "value": 5.3,
           "unit": "percent",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-07-31",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src7"
           ],
-          "evidence": "The official interpretation reports year-on-year operating-revenue growth for above-designated-size industrial enterprises in the cumulative reporting period."
+          "evidence": "The national activity release reported cumulative growth in industrial value added for enterprises above designated scale."
         },
         {
           "id": "m2",
-          "value": 17.6,
+          "value": 1.2,
           "unit": "percent",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-07-31",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src7"
           ],
-          "evidence": "The official interpretation reports cumulative year-on-year profit growth for above-designated-size industrial enterprises."
+          "evidence": "The release table reported cumulative growth in retail sales of consumer goods."
         },
         {
           "id": "m3",
-          "value": 11.2,
+          "value": -19.2,
           "unit": "percent",
-          "periodStart": "2026-07-01",
+          "periodStart": "2026-01-01",
           "periodEnd": "2026-07-31",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src7"
           ],
-          "evidence": "The official interpretation reports year-on-year profit growth for the monthly reporting period."
+          "evidence": "The fixed-investment section reported the cumulative change in property development investment."
+        },
+        {
+          "id": "m4",
+          "value": 17.3,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-07-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "The trade section reported cumulative growth in total goods imports and exports."
         }
       ],
       "sourceIds": [
-        "src6"
+        "src7"
       ],
-      "evidence": "Official data show industrial profit growth supported by product-price changes, electronics and artificial-intelligence demand, and advanced manufacturing, while the interpretation warns that domestic supply remains stronger than demand."
+      "evidence": "The latest opened national activity release showed resilient industrial production and trade alongside modest consumer growth and continued property-investment weakness."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "China industrial profits remain strong but demand balance is unresolved",
-          "summary": "Official data show broad industrial profit growth supported by pricing, electronics and advanced manufacturing.",
-          "impact": "The result supports earnings for technology and materials producers, but the official warning on weak demand limits confidence that the improvement is evenly distributed or cash generative.",
-          "what": "The data cover large industrial enterprises across mining, manufacturing and utilities, with electronics and high-technology manufacturing among the stronger areas.",
-          "why": "Higher product prices and demand for computing and artificial-intelligence hardware can lift accounting profit, while weak end demand can still constrain volumes and working capital.",
-          "uncertainty": "The release does not provide aggregate operating cash flow, and cumulative results combine months with different commodity and demand conditions.",
-          "watch": "Watch subsequent monthly profit, industrial prices, inventories and cash-flow disclosures from listed manufacturers.",
+          "title": "Lululemon reported a weaker quarter and revised its outlook",
+          "summary": "The athletic-apparel retailer reported lower sales and profit as its Americas business weakened, while tariff refunds supported reported profitability.",
+          "impact": "The result raises questions about discretionary consumer demand, inventory productivity, and the durability of international growth.",
+          "what": "The company designs, distributes, and sells technical apparel, footwear, and accessories through stores, digital channels, and other arrangements. Its accounting results weakened, while cumulative operating cash flow remained positive.",
+          "why": "Slower comparable sales can pressure store productivity, promotions, and supplier orders, with implications for apparel demand and retail employment.",
+          "uncertainty": "Reported earnings include tariff refunds, and management’s revised outlook remains exposed to currency, tariffs, consumer sentiment, and product execution.",
+          "watch": "Watch comparable sales, Americas traffic, gross-margin normalization, and operating cash conversion in the next report.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Operating revenue growth"
+              "label": "Quarterly net revenue"
             },
             {
               "id": "m2",
-              "label": "Cumulative industrial profit growth"
+              "label": "Quarterly net income"
             },
             {
               "id": "m3",
-              "label": "Monthly industrial profit growth"
+              "label": "Cumulative operating cash flow"
+            },
+            {
+              "id": "m4",
+              "label": "Revenue change"
+            },
+            {
+              "id": "m5",
+              "label": "Constant-dollar revenue change"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Guangzhou Automobile Group disclosed August vehicle sales",
+          "summary": "The automaker reported August vehicle volume and cumulative sales through the month, without an accessible company-source comparison against the prior year.",
+          "impact": "The disclosure offers a current read on production and distribution activity in China’s passenger-vehicle market, but is insufficient by itself to establish a change in demand.",
+          "what": "The group operates vehicle manufacturing and related automotive businesses across joint-venture, proprietary, and new-energy brands.",
+          "why": "Vehicle volume feeds through to factories, dealers, parts suppliers, and household durable-goods spending.",
+          "uncertainty": "The disclosure is a sales flash rather than an audited income statement, and pricing, mix, inventory, margins, and cash effects are not fully disclosed.",
+          "watch": "Watch new-energy mix, retail deliveries, incentives, inventory, and the next financial report.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Monthly vehicle sales"
+            },
+            {
+              "id": "m2",
+              "label": "Cumulative vehicle sales"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "China activity data showed resilient production but weak property demand",
+          "summary": "The latest national release showed industrial output and trade holding up while consumer growth stayed modest and property investment remained a drag.",
+          "impact": "The mix favors manufacturers and exporters more than property-linked businesses, leaving domestic demand and construction as key transmission channels for broader growth.",
+          "what": "The national statistics release covered industrial production, retail sales, fixed investment, property development, trade, employment, and prices through the latest available period.",
+          "why": "Industrial and trade resilience can support factory utilization and external demand, but weak property investment can restrain construction, local revenues, household confidence, and credit demand.",
+          "uncertainty": "Several figures are nominal, some measures use revised statistical coverage, and the release is cumulative rather than a fresh monthly snapshot for every indicator.",
+          "watch": "Watch monthly retail sales, property sales and investment, private investment, prices, and credit conditions.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Industrial output growth"
+            },
+            {
+              "id": "m2",
+              "label": "Retail sales growth"
+            },
+            {
+              "id": "m3",
+              "label": "Property investment change"
+            },
+            {
+              "id": "m4",
+              "label": "Goods trade growth"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne présentent aucune nouvelle information vérifiée ; les rapports datés restent clairement signalés.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez chaque date de publication ; les rapports récents des entreprises sont présentés comme des éléments de contexte.",
       "marketSummary": {
-        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours.",
-        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
+        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
+        "cn": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Les bénéfices industriels chinois restent solides, mais l’équilibre de la demande demeure incertain",
-          "summary": "Les données officielles montrent une progression généralisée des bénéfices industriels, soutenue par les prix, l’électronique et les industries manufacturières de pointe.",
-          "impact": "Ce résultat soutient les bénéfices des producteurs de technologies et de matériaux, mais l’avertissement officiel concernant la faiblesse de la demande limite la confiance dans le caractère généralisé ou générateur de trésorerie de cette amélioration.",
-          "what": "Les données couvrent les grandes entreprises industrielles des secteurs minier, manufacturier et des services publics. L’électronique et les industries manufacturières de haute technologie figurent parmi les secteurs les plus solides.",
-          "why": "La hausse des prix des produits et la demande de matériel informatique et d’intelligence artificielle peuvent accroître les bénéfices comptables, tandis qu’une demande finale faible peut encore limiter les volumes et le besoin en fonds de roulement.",
-          "uncertainty": "La publication ne fournit pas de flux de trésorerie d’exploitation agrégés, et les résultats cumulés regroupent des périodes marquées par des conditions différentes pour les matières premières et la demande.",
-          "watch": "Surveiller les bénéfices industriels mensuels suivants, les prix industriels, les stocks et les informations sur les flux de trésorerie publiées par les fabricants cotés.",
+          "title": "Lululemon a publié un trimestre plus faible et révisé ses perspectives",
+          "summary": "Le distributeur de vêtements de sport a publié un recul des ventes et du bénéfice, alors que son activité dans les Amériques s’est affaiblie. Des remboursements de droits de douane ont toutefois soutenu la rentabilité publiée.",
+          "impact": "Ces résultats soulèvent des questions sur la demande des consommateurs pour les achats discrétionnaires, la productivité des stocks et la durabilité de la croissance internationale.",
+          "what": "L’entreprise conçoit, distribue et vend des vêtements techniques, des chaussures et des accessoires dans ses magasins, par ses canaux numériques et via d’autres dispositifs. Ses résultats comptables se sont dégradés, tandis que les flux de trésorerie d’exploitation cumulés sont restés positifs.",
+          "why": "Le ralentissement des ventes à magasins comparables peut peser sur la productivité des magasins, les promotions et les commandes aux fournisseurs, avec des conséquences pour la demande de vêtements et l’emploi dans le commerce de détail.",
+          "uncertainty": "Les bénéfices publiés comprennent des remboursements de droits de douane, et les perspectives révisées par la direction restent exposées aux taux de change, aux droits de douane, au moral des consommateurs et à l’exécution de l’offre produit.",
+          "watch": "Surveillez les ventes à magasins comparables, la fréquentation dans les Amériques, la normalisation de la marge brute et la conversion du résultat en flux de trésorerie d’exploitation lors de la prochaine publication.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Croissance du chiffre d’affaires d’exploitation"
+              "label": "Chiffre d’affaires net trimestriel"
             },
             {
               "id": "m2",
-              "label": "Croissance cumulée des bénéfices industriels"
+              "label": "Bénéfice net trimestriel"
             },
             {
               "id": "m3",
-              "label": "Croissance mensuelle des bénéfices industriels"
+              "label": "Flux de trésorerie d’exploitation cumulés"
+            },
+            {
+              "id": "m4",
+              "label": "Variation du chiffre d’affaires"
+            },
+            {
+              "id": "m5",
+              "label": "Variation du chiffre d’affaires à taux de change constants"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Guangzhou Automobile Group a publié ses ventes de véhicules pour août",
+          "summary": "Le constructeur automobile a communiqué le volume de véhicules vendu en août ainsi que les ventes cumulées sur la période, sans comparaison accessible provenant de l’entreprise avec l’année précédente.",
+          "impact": "Cette publication offre un aperçu récent de la production et de la distribution sur le marché chinois des véhicules particuliers, mais ne suffit pas à elle seule à établir une évolution de la demande.",
+          "what": "Le groupe exerce des activités de construction automobile et des activités connexes au travers de coentreprises, de marques propriétaires et de marques de véhicules à énergies nouvelles.",
+          "why": "Le volume de véhicules se répercute sur les usines, les concessionnaires, les fournisseurs de pièces et les dépenses des ménages en biens durables.",
+          "uncertainty": "Cette publication est un point rapide sur les ventes plutôt qu’un compte de résultat audité ; les effets des prix, du mix, des stocks, des marges et de la trésorerie ne sont pas entièrement communiqués.",
+          "watch": "Surveillez la part des véhicules à énergies nouvelles, les livraisons au détail, les mesures incitatives, les stocks et le prochain rapport financier.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ventes mensuelles de véhicules"
+            },
+            {
+              "id": "m2",
+              "label": "Ventes cumulées de véhicules"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Les données d’activité chinoises ont montré une production résistante, mais une faible demande immobilière",
+          "summary": "La dernière publication nationale a montré que la production industrielle et le commerce résistaient, tandis que la croissance de la consommation restait modeste et que l’investissement immobilier continuait de peser.",
+          "impact": "Cette composition favorise davantage les fabricants et les exportateurs que les entreprises liées à l’immobilier, laissant la demande intérieure et la construction comme principaux canaux de transmission pour la croissance globale.",
+          "what": "La publication statistique nationale couvre la production industrielle, les ventes au détail, l’investissement fixe, le développement immobilier, le commerce, l’emploi et les prix sur la dernière période disponible.",
+          "why": "La résistance de l’industrie et du commerce peut soutenir l’utilisation des capacités et la demande extérieure, mais la faiblesse de l’investissement immobilier peut freiner la construction, les recettes locales, la confiance des ménages et la demande de crédit.",
+          "uncertainty": "Plusieurs chiffres sont nominaux, certaines mesures utilisent un périmètre statistique révisé, et la publication est cumulée plutôt qu’un instantané mensuel récent pour chaque indicateur.",
+          "watch": "Surveillez les ventes au détail mensuelles, les ventes et l’investissement immobiliers, l’investissement privé, les prix et les conditions de crédit.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Croissance de la production industrielle"
+            },
+            {
+              "id": "m2",
+              "label": "Croissance des ventes au détail"
+            },
+            {
+              "id": "m3",
+              "label": "Variation de l’investissement immobilier"
+            },
+            {
+              "id": "m4",
+              "label": "Croissance du commerce de marchandises"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期已核实信息覆盖有限。部分市场没有已核实的新故事；有日期的报告均已明确标注。",
+      "status": "本期涵盖美国和中国的发展动态。请核对每篇内容的发布日期；近期公司报告作为背景解读呈现。",
       "marketSummary": {
-        "us": "所跟踪的两个指数在最近已核实交易时段均下跌。有日期的收盘数据描述的是这些交易时段，而非当前交易情况。",
-        "cn": "部分收盘观察无法核实。每个可用指数均保留其对应的交易日期。"
+        "us": "部分收盘观察无法核实。每个可用指数均保留其自身的交易日期。",
+        "cn": "所跟踪的两个指数在最近可核实的交易时段均上涨。带日期的收盘数据描述的是这些交易时段，并不代表当前交易情况。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "中国工业利润保持强劲，但需求平衡仍未解决",
-          "summary": "官方数据显示，受价格、电子产品和先进制造业带动，工业利润整体增长。",
-          "impact": "这一结果支持科技和材料生产商的盈利，但官方关于需求疲弱的警示降低了人们对改善情况分布均衡、且能够转化为现金流的信心。",
-          "what": "数据涵盖采矿业、制造业和公用事业等规模以上工业企业，其中电子产品和高技术制造业表现较强。",
-          "why": "产品价格上涨，以及计算和人工智能硬件需求增加，可能推高账面利润；但终端需求疲弱仍可能限制销量和营运资金状况。",
-          "uncertainty": "该发布内容没有提供整体经营现金流，而累计结果涵盖了大宗商品和需求状况各不相同的月份。",
-          "watch": "关注后续月度利润、工业品价格、库存，以及上市制造商披露的现金流情况。",
+          "title": "Lululemon公布较弱季度业绩并下调展望",
+          "summary": "这家运动服饰零售商表示，受美洲业务走弱影响，销售额和利润下降；关税退款则支撑了报告期盈利能力。",
+          "impact": "这一结果引发了市场对可选消费需求、库存效率以及国际增长持续性的疑问。",
+          "what": "该公司通过门店、数字渠道及其他安排设计、分销和销售功能性服装、鞋类及配饰。其会计业绩走弱，但累计经营现金流仍为正。",
+          "why": "可比销售放缓可能压低门店效率，增加促销压力并减少供应商订单，从而影响服装需求和零售就业。",
+          "uncertainty": "报告期盈利包含关税退款，管理层下调后的展望仍面临汇率、关税、消费者情绪和产品执行方面的影响。",
+          "watch": "关注下一份报告中的可比销售、美洲客流、毛利率正常化情况和经营现金流转化。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "营业收入增速"
+              "label": "季度净营收"
             },
             {
               "id": "m2",
-              "label": "工业利润累计增速"
+              "label": "季度净利润"
             },
             {
               "id": "m3",
-              "label": "工业利润月度增速"
+              "label": "累计经营现金流"
+            },
+            {
+              "id": "m4",
+              "label": "营收变动"
+            },
+            {
+              "id": "m5",
+              "label": "按固定汇率计算的营收变动"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "广汽集团披露八月汽车销量",
+          "summary": "这家汽车制造商公布了八月汽车销量及截至当月的累计销量，但无法从可获取的公司来源中确认与上年同期的对比。",
+          "impact": "这份披露有助于了解中国乘用车市场当前的生产和分销活动，但单凭该信息不足以判断需求是否发生变化。",
+          "what": "该集团经营汽车制造及相关业务，覆盖合资、自主和新能源汽车品牌。",
+          "why": "汽车销量会传导至工厂、经销商、零部件供应商以及家庭耐用品支出。",
+          "uncertainty": "这是一份销量快报，而不是经审计的利润表；价格、产品结构、库存、利润率和现金影响尚未得到充分披露。",
+          "watch": "关注新能源汽车占比、零售交付量、激励措施、库存及下一份财务报告。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "月度汽车销量"
+            },
+            {
+              "id": "m2",
+              "label": "累计汽车销量"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "中国活动数据表明生产保持韧性，但房地产需求疲弱",
+          "summary": "最新全国性发布显示，工业产出和贸易保持稳定，消费增长仍较温和，房地产投资继续拖累经济。",
+          "impact": "这一组合对制造商和出口商更有利，而与房地产相关的企业承压，使内需和建筑业成为影响更广泛增长的关键传导渠道。",
+          "what": "这份国家统计发布涵盖截至最新可用时期的工业生产、零售销售、固定资产投资、房地产开发、贸易、就业和价格。",
+          "why": "工业和贸易的韧性可以支持工厂产能利用率和外部需求，但房地产投资疲弱可能抑制建筑活动、地方财政收入、家庭信心和信贷需求。",
+          "uncertainty": "部分数据为名义值，部分指标采用修订后的统计口径，而且这份发布是累计数据，并非每项指标的最新单月快照。",
+          "watch": "关注月度零售销售、房地产销售和投资、民间投资、价格及信贷状况。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "工业产出增速"
+            },
+            {
+              "id": "m2",
+              "label": "零售销售增速"
+            },
+            {
+              "id": "m3",
+              "label": "房地产投资变动"
+            },
+            {
+              "id": "m4",
+              "label": "货物贸易增速"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes con fecha siguen claramente identificados.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Compruebe la fecha de publicación de cada artículo; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los dos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
-        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Ambos índices seguidos subieron en sus sesiones verificadas más recientes. Los cierres fechados describen esas sesiones, no la negociación actual."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Los beneficios industriales de China siguen siendo sólidos, pero el equilibrio de la demanda aún no está resuelto",
-          "summary": "Los datos oficiales muestran un crecimiento generalizado de los beneficios industriales, respaldado por los precios, la electrónica y la manufactura avanzada.",
-          "impact": "El resultado respalda los beneficios de los productores de tecnología y materiales, pero la advertencia oficial sobre la debilidad de la demanda limita la confianza en que la mejora esté distribuida de manera uniforme o genere efectivo.",
-          "what": "Los datos abarcan grandes empresas industriales de la minería, la manufactura y los servicios públicos, con la electrónica y la manufactura de alta tecnología entre las áreas más fuertes.",
-          "why": "El aumento de los precios de los productos y la demanda de hardware informático y de inteligencia artificial pueden impulsar el beneficio contable, mientras que una demanda final débil aún puede limitar los volúmenes y el capital circulante.",
-          "uncertainty": "El comunicado no proporciona el flujo de caja operativo agregado, y los resultados acumulados combinan meses con distintas condiciones de materias primas y demanda.",
-          "watch": "Conviene seguir los beneficios mensuales posteriores, los precios industriales, los inventarios y la información sobre flujo de caja de los fabricantes cotizados.",
+          "title": "Lululemon informó de un trimestre más débil y revisó sus previsiones",
+          "summary": "La empresa de ropa deportiva registró menores ventas y beneficios debido al debilitamiento de su negocio en América, mientras que los reembolsos arancelarios respaldaron la rentabilidad comunicada.",
+          "impact": "El resultado plantea dudas sobre la demanda de los consumidores en productos discrecionales, la productividad del inventario y la solidez del crecimiento internacional.",
+          "what": "La empresa diseña, distribuye y vende ropa técnica, calzado y accesorios mediante tiendas, canales digitales y otros acuerdos. Sus resultados contables se debilitaron, aunque el flujo de caja operativo acumulado siguió siendo positivo.",
+          "why": "Un menor crecimiento de las ventas comparables puede presionar la productividad de las tiendas, las promociones y los pedidos a proveedores, con implicaciones para la demanda de ropa y el empleo minorista.",
+          "uncertainty": "Los beneficios comunicados incluyen reembolsos arancelarios, y las previsiones revisadas por la dirección siguen expuestas a las divisas, los aranceles, el ánimo de los consumidores y la ejecución de los productos.",
+          "watch": "Observe las ventas comparables, el tráfico en América, la normalización del margen bruto y la conversión de beneficios en flujo de caja operativo en el próximo informe.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Crecimiento de los ingresos operativos"
+              "label": "Ingresos netos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Crecimiento acumulado de los beneficios industriales"
+              "label": "Beneficio neto trimestral"
             },
             {
               "id": "m3",
-              "label": "Crecimiento mensual de los beneficios industriales"
+              "label": "Flujo de caja operativo acumulado"
+            },
+            {
+              "id": "m4",
+              "label": "Variación de los ingresos"
+            },
+            {
+              "id": "m5",
+              "label": "Variación de los ingresos en moneda constante"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Guangzhou Automobile Group comunicó las ventas de vehículos de agosto",
+          "summary": "El fabricante informó del volumen de vehículos vendido en agosto y de las ventas acumuladas hasta ese mes, sin una comparación accesible de la empresa con el año anterior.",
+          "impact": "La comunicación ofrece una visión reciente de la actividad de producción y distribución en el mercado chino de vehículos de pasajeros, pero por sí sola no basta para demostrar un cambio en la demanda.",
+          "what": "El grupo opera en la fabricación de vehículos y en negocios automovilísticos relacionados mediante marcas de empresas conjuntas, marcas propias y marcas de vehículos de nueva energía.",
+          "why": "El volumen de vehículos repercute en las fábricas, los concesionarios, los proveedores de piezas y el gasto de los hogares en bienes duraderos.",
+          "uncertainty": "La comunicación es un avance de ventas, no un estado financiero auditado, y no detalla por completo los efectos de los precios, la combinación de productos, los inventarios, los márgenes y la caja.",
+          "watch": "Observe la combinación de vehículos de nueva energía, las entregas minoristas, los incentivos, los inventarios y el próximo informe financiero.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ventas mensuales de vehículos"
+            },
+            {
+              "id": "m2",
+              "label": "Ventas acumuladas de vehículos"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Los datos de actividad de China mostraron una producción resistente, pero una demanda inmobiliaria débil",
+          "summary": "La última publicación nacional mostró que la producción industrial y el comercio se mantuvieron firmes, mientras que el crecimiento del consumo siguió siendo moderado y la inversión inmobiliaria continuó lastrando la actividad.",
+          "impact": "Esta combinación favorece más a los fabricantes y exportadores que a las empresas vinculadas al sector inmobiliario, por lo que la demanda interna y la construcción siguen siendo canales clave para el crecimiento general.",
+          "what": "La publicación de estadísticas nacionales abarcó la producción industrial, las ventas minoristas, la inversión fija, el desarrollo inmobiliario, el comercio, el empleo y los precios hasta el periodo disponible más reciente.",
+          "why": "La resistencia industrial y comercial puede respaldar la utilización de las fábricas y la demanda externa, pero la debilidad de la inversión inmobiliaria puede frenar la construcción, los ingresos locales, la confianza de los hogares y la demanda de crédito.",
+          "uncertainty": "Varias cifras son nominales, algunas medidas utilizan una cobertura estadística revisada y la publicación es acumulada, no una fotografía mensual nueva de cada indicador.",
+          "watch": "Observe las ventas minoristas mensuales, las ventas y la inversión inmobiliarias, la inversión privada, los precios y las condiciones crediticias.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Crecimiento de la producción industrial"
+            },
+            {
+              "id": "m2",
+              "label": "Crecimiento de las ventas minoristas"
+            },
+            {
+              "id": "m3",
+              "label": "Variación de la inversión inmobiliaria"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento del comercio de bienes"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できた情報は限定的です。一部の市場では、確認できた新しいニュースがありません。日付のある報告は、その旨が明確に示されています。",
+      "status": "本版は米国と中国の動向を扱います。各公表日を確認してください。最近の企業報告は背景説明として示しています。",
       "marketSummary": {
-        "us": "追跡対象の指数はいずれも、直近で確認できた取引日に下落しました。記載された終値はその取引日のもので、現在の取引状況ではありません。",
-        "cn": "一部の終値は確認できませんでした。確認できた各指数には、それぞれの取引日が付されています。"
+        "us": "確認できた指数は、それぞれの取引日を維持しています。一部の終値に関する見解は検証できませんでした。",
+        "cn": "追跡対象の指数は、最新の検証済み取引で上昇しました。記載された終値はその取引時点のもので、現在の取引を示すものではありません。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "中国の鉱工業企業の利益は堅調だが、需要のバランスには不透明感が残る",
-          "summary": "公式データによると、価格の上昇、電子機器、先端製造業に支えられ、鉱工業企業の利益は幅広く増加しました。",
-          "impact": "この結果は、テクノロジー企業や素材メーカーの利益を支える材料です。ただし、公式発表は需要の弱さも指摘しており、改善が広く行き渡っているか、現金を生み出しているかについては、確信が持てません。",
-          "what": "このデータは、鉱業、製造業、公益事業にまたがる大規模な鉱工業企業を対象としています。電子機器やハイテク製造業は、比較的好調な分野に含まれます。",
-          "why": "製品価格の上昇や、コンピューティング機器・人工知能関連ハードウエアへの需要は、会計上の利益を押し上げる可能性があります。一方、最終需要が弱ければ、販売数量や運転資金が制約される可能性があります。",
-          "uncertainty": "発表資料には、鉱工業企業全体の営業キャッシュフローは示されていません。また、累計の結果には、商品市況や需要の状況が異なる複数の月が含まれています。",
-          "watch": "今後の月次利益、鉱工業製品価格、在庫、上場製造企業のキャッシュフロー開示を確認します。",
+          "title": "ルルレモンは低調な四半期業績を報告し、見通しを修正",
+          "summary": "スポーツ衣料小売企業は、米州事業の低迷を受け、売上高と利益の減少を報告しました。一方、関税還付が報告上の収益性を支えました。",
+          "impact": "この結果は、選択的消費への需要、在庫効率、海外成長の持続性に疑問を投げかけます。",
+          "what": "同社は、技術素材の衣料品、靴、アクセサリーを設計・流通・販売しており、店舗、デジタルチャネルなどを通じて事業を展開しています。会計上の業績は悪化しましたが、累計の営業キャッシュフローはプラスを維持しました。",
+          "why": "既存店売上高の減速は、店舗の生産性、値引き、仕入先への発注に圧力をかける可能性があり、衣料品需要や小売雇用にも影響します。",
+          "uncertainty": "報告利益には関税還付が含まれており、経営陣が修正した見通しは、為替、関税、消費者心理、商品の実行力に左右されます。",
+          "watch": "次回の報告では、既存店売上高、米州の来店動向、粗利益率の正常化、営業キャッシュフローへの転換を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "営業収入の伸び率"
+              "label": "四半期純売上高"
             },
             {
               "id": "m2",
-              "label": "鉱工業利益の累計伸び率"
+              "label": "四半期純利益"
             },
             {
               "id": "m3",
-              "label": "鉱工業利益の月次伸び率"
+              "label": "累計営業キャッシュフロー"
+            },
+            {
+              "id": "m4",
+              "label": "売上高変化率"
+            },
+            {
+              "id": "m5",
+              "label": "恒常為替レートベースの売上高変化率"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "広州汽車集団が月次の自動車販売を公表",
+          "summary": "自動車メーカーは、月間の販売台数と当月までの累計販売台数を公表しましたが、前年との比較を示す企業の確認可能な情報源はありませんでした。",
+          "impact": "この開示は、中国の乗用車市場における生産・流通活動を把握する材料になりますが、これだけで需要の変化を示すことはできません。",
+          "what": "同グループは、合弁ブランド、自主ブランド、新エネルギーブランドを含む自動車製造および関連事業を展開しています。",
+          "why": "自動車販売台数は、工場、販売店、部品供給業者、耐久消費財への家計支出に波及します。",
+          "uncertainty": "今回の開示は監査済み損益計算書ではなく販売速報であり、価格、車種構成、在庫、利益率、キャッシュへの影響は十分に開示されていません。",
+          "watch": "新エネルギー車の構成、実売台数、販売奨励策、在庫、次回の決算報告を確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "月間自動車販売台数"
+            },
+            {
+              "id": "m2",
+              "label": "累計自動車販売台数"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "中国の活動指標は生産の底堅さと不動産需要の弱さを示した",
+          "summary": "最新の全国統計では、鉱工業生産と貿易が持ちこたえる一方、消費の伸びは穏やかで、不動産投資は引き続き重荷となりました。",
+          "impact": "この組み合わせは、不動産関連企業よりも製造業や輸出企業に有利で、幅広い成長への波及経路として内需と建設が重要になります。",
+          "what": "全国統計は、最新の入手可能な期間までの鉱工業生産、小売売上高、固定資産投資、不動産開発、貿易、雇用、物価を扱いました。",
+          "why": "鉱工業と貿易の底堅さは工場稼働率や外需を支えますが、不動産投資の弱さは建設、地方政府の収入、家計の信頼感、信用需要を抑える可能性があります。",
+          "uncertainty": "複数の数値は名目値で、一部の指標では統計対象が見直されています。また、この公表はすべての指標について新たな月次状況を示すものではなく、累計ベースです。",
+          "watch": "月次の小売売上高、不動産販売と投資、民間投資、物価、信用環境を確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "鉱工業生産伸び率"
+            },
+            {
+              "id": "m2",
+              "label": "小売売上高伸び率"
+            },
+            {
+              "id": "m3",
+              "label": "不動産投資変化率"
+            },
+            {
+              "id": "m4",
+              "label": "商品貿易伸び率"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas histórias verificadas; os relatórios datados continuam claramente identificados.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados recuaram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Algumas observações de fechamento não puderam ser verificadas. Os índices disponíveis mantêm suas próprias datas de negociação."
+        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Ambos os índices acompanhados subiram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não a negociação atual."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Os lucros industriais da China continuam fortes, mas o equilíbrio da demanda permanece incerto",
-          "summary": "Dados oficiais mostram crescimento amplo dos lucros industriais, apoiado por preços, eletrônicos e manufatura avançada.",
-          "impact": "O resultado apoia os lucros de produtores de tecnologia e materiais, mas o alerta oficial sobre a fraqueza da demanda limita a confiança de que a melhora seja distribuída de forma uniforme ou gere caixa.",
-          "what": "Os dados abrangem grandes empresas industriais de mineração, manufatura e serviços públicos, com eletrônicos e manufatura de alta tecnologia entre as áreas mais fortes.",
-          "why": "Preços mais altos dos produtos e a demanda por hardware de computação e inteligência artificial podem elevar o lucro contábil, enquanto a demanda final fraca ainda pode restringir os volumes e o capital de giro.",
-          "uncertainty": "O comunicado não apresenta o fluxo de caixa operacional agregado, e os resultados acumulados combinam períodos com condições diferentes de commodities e demanda.",
-          "watch": "Acompanhe os lucros mensais subsequentes, os preços industriais, os estoques e as divulgações de fluxo de caixa dos fabricantes listados.",
+          "title": "A Lululemon divulgou um trimestre mais fraco e revisou suas perspectivas",
+          "summary": "A varejista de roupas esportivas registrou menor receita e lucro, com enfraquecimento de seus negócios nas Américas, enquanto reembolsos de tarifas apoiaram a rentabilidade divulgada.",
+          "impact": "O resultado levanta dúvidas sobre a demanda por bens de consumo discricionários, a eficiência dos estoques e a durabilidade do crescimento internacional.",
+          "what": "A empresa cria, distribui e vende roupas técnicas, calçados e acessórios por meio de lojas, canais digitais e outros formatos. Seus resultados contábeis enfraqueceram, enquanto o fluxo de caixa operacional acumulado permaneceu positivo.",
+          "why": "Vendas comparáveis mais lentas podem pressionar a produtividade das lojas, as promoções e os pedidos aos fornecedores, com efeitos sobre a demanda por roupas e o emprego no varejo.",
+          "uncertainty": "Os lucros divulgados incluem reembolsos de tarifas, e as perspectivas revisadas pela administração continuam expostas a câmbio, tarifas, sentimento do consumidor e execução dos produtos.",
+          "watch": "Acompanhe as vendas comparáveis, o fluxo de clientes nas Américas, a normalização da margem bruta e a conversão do lucro em fluxo de caixa operacional no próximo relatório.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Crescimento da receita operacional"
+              "label": "Receita líquida trimestral"
             },
             {
               "id": "m2",
-              "label": "Crescimento acumulado do lucro industrial"
+              "label": "Lucro líquido trimestral"
             },
             {
               "id": "m3",
-              "label": "Crescimento mensal do lucro industrial"
+              "label": "Fluxo de caixa operacional acumulado"
+            },
+            {
+              "id": "m4",
+              "label": "Variação da receita"
+            },
+            {
+              "id": "m5",
+              "label": "Variação da receita em moeda constante"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "O Guangzhou Automobile Group divulgou as vendas de veículos de agosto",
+          "summary": "A montadora informou o volume de veículos vendido em agosto e as vendas acumuladas até esse mês, sem uma comparação com o ano anterior em fonte acessível da empresa.",
+          "impact": "A divulgação oferece uma leitura atual da produção e da distribuição no mercado chinês de veículos de passageiros, mas, sozinha, não é suficiente para estabelecer uma mudança na demanda.",
+          "what": "O grupo atua na fabricação de veículos e em negócios automotivos relacionados, abrangendo marcas de joint ventures, próprias e de veículos de nova energia.",
+          "why": "O volume de veículos afeta fábricas, concessionárias, fornecedores de peças e os gastos das famílias com bens duráveis.",
+          "uncertainty": "A divulgação é um informe de vendas, não uma demonstração de resultados auditada, e preços, composição, estoques, margens e efeitos sobre o caixa não são totalmente informados.",
+          "watch": "Acompanhe a participação de veículos de nova energia, as entregas no varejo, os incentivos, os estoques e o próximo relatório financeiro.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Vendas mensais de veículos"
+            },
+            {
+              "id": "m2",
+              "label": "Vendas acumuladas de veículos"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Os dados de atividade da China mostraram produção resistente, mas demanda imobiliária fraca",
+          "summary": "A divulgação nacional mais recente mostrou a produção industrial e o comércio sustentados, enquanto o crescimento do consumo permaneceu moderado e o investimento imobiliário continuou sendo um obstáculo.",
+          "impact": "A composição favorece mais os fabricantes e exportadores do que os negócios ligados ao setor imobiliário, tornando a demanda doméstica e a construção canais de transmissão importantes para o crescimento mais amplo.",
+          "what": "A divulgação do instituto nacional de estatística cobriu produção industrial, vendas no varejo, investimento fixo, desenvolvimento imobiliário, comércio, emprego e preços até o período mais recente disponível.",
+          "why": "A resistência da indústria e do comércio pode apoiar a utilização das fábricas e a demanda externa, mas o investimento imobiliário fraco pode limitar a construção, as receitas locais, a confiança das famílias e a demanda por crédito.",
+          "uncertainty": "Alguns números são nominais, algumas medidas usam cobertura estatística revisada, e a divulgação é acumulada, em vez de representar uma nova fotografia mensal de cada indicador.",
+          "watch": "Acompanhe as vendas mensais no varejo, as vendas e o investimento imobiliários, o investimento privado, os preços e as condições de crédito.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Crescimento da produção industrial"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento das vendas no varejo"
+            },
+            {
+              "id": "m3",
+              "label": "Variação do investimento imobiliário"
+            },
+            {
+              "id": "m4",
+              "label": "Crescimento do comércio de bens"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期可驗證內容有限。部分市場沒有已驗證的新消息；具日期的報告仍清楚標示其所屬期間。",
+      "status": "本期涵蓋美國與中國的發展。請查閱各發布日期；近期公司報告以背景說明呈現。",
       "marketSummary": {
-        "us": "兩項追蹤指數在最近已驗證的交易時段均下跌。具日期的收盤數據描述的是那些交易時段，而非目前交易情況。",
-        "cn": "部分收盤觀察無法驗證。每項可取得的指數均保留其自身的交易日期。"
+        "us": "部分收盤觀察無法核實。各可取得的指數均保留其自身交易日期。",
+        "cn": "所追蹤的指數在最近核實的交易時段均上漲。標示日期的收盤數據反映該交易時段，不代表目前交易情況。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "中國工業利潤維持強勁，但需求平衡仍未解決",
-          "summary": "官方數據顯示，廣泛的工業利潤增長受到價格、電子產品及先進製造業支持。",
-          "impact": "這項結果支持科技及材料生產商的獲利，但官方對需求疲弱的警告，限制了市場對改善情況是否普遍、以及能否轉化為現金的信心。",
-          "what": "數據涵蓋採礦、製造及公用事業等大型工業企業，其中電子產品及高科技製造業表現較強。",
-          "why": "產品價格上升，以及對運算和人工智慧硬體的需求，可能推高帳面利潤；但終端需求疲弱，仍可能限制銷量及營運資金。",
-          "uncertainty": "這份發布資料沒有提供整體經營現金流，而累計結果涵蓋商品及需求狀況各異的月份。",
-          "watch": "留意後續每月利潤、工業價格、庫存，以及上市製造商披露的現金流。",
+          "title": "Lululemon公布較弱季度業績並修訂展望",
+          "summary": "這家運動服飾零售商公布銷售額與利潤下降，原因是美洲業務轉弱；關稅退款則支撐了報告中的盈利表現。",
+          "impact": "這項結果引發對非必需消費需求、庫存效率及國際成長持續性的疑問。",
+          "what": "公司透過門市、數位通路及其他安排，設計、配送並銷售機能服飾、鞋類及配件。其會計業績轉弱，但累計經營現金流仍為正。",
+          "why": "可比銷售放緩可能壓縮門市生產力、促銷活動及供應商訂單，並影響服飾需求與零售就業。",
+          "uncertainty": "報告中的盈利包含關稅退款，而管理層修訂後的展望仍受匯率、關稅、消費者情緒及產品執行影響。",
+          "watch": "留意可比銷售、美洲客流、毛利率正常化，以及下一份報告中的經營現金流轉換。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "營收增長"
+              "label": "季度營收"
             },
             {
               "id": "m2",
-              "label": "累計工業利潤增長"
+              "label": "季度淨利"
             },
             {
               "id": "m3",
-              "label": "每月工業利潤增長"
+              "label": "累計經營現金流"
+            },
+            {
+              "id": "m4",
+              "label": "營收變化"
+            },
+            {
+              "id": "m5",
+              "label": "按固定匯率計算的營收變化"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "廣汽集團披露當月汽車銷量",
+          "summary": "這家汽車製造商公布當月汽車銷量及截至該月的累計銷量，但無法取得公司來源的同比比較。",
+          "impact": "這項披露提供中國乘用車市場生產與分銷活動的最新觀察，但單憑此資料不足以確認需求變化。",
+          "what": "集團透過合資、自主及新能源品牌，經營汽車製造及相關汽車業務。",
+          "why": "汽車銷量會傳導至工廠、經銷商、零組件供應商及家庭耐久財支出。",
+          "uncertainty": "這項披露屬於銷量速報，而非經審計的損益表；價格、產品組合、庫存、利潤率及現金影響均未充分披露。",
+          "watch": "留意新能源車占比、零售交付量、優惠措施、庫存及下一份財務報告。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "當月汽車銷量"
+            },
+            {
+              "id": "m2",
+              "label": "累計汽車銷量"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "中國活動數據顯示生產具韌性，但房地產需求疲弱",
+          "summary": "最新全國數據顯示工業產出與貿易維持穩健，消費成長仍溫和，房地產投資則持續拖累表現。",
+          "impact": "這種組合較有利於製造商與出口商，而非房地產相關企業；內需與建設仍是影響更廣泛成長的關鍵傳導管道。",
+          "what": "全國統計發布涵蓋截至最新可取得期間的工業生產、零售銷售、固定資產投資、房地產開發、貿易、就業及價格。",
+          "why": "工業與貿易的韌性可支撐工廠利用率及外部需求，但房地產投資疲弱可能抑制建設、地方收入、家庭信心及信貸需求。",
+          "uncertainty": "部分數據為名目值，部分指標採用修訂後的統計範圍；此外，這項發布是累計數據，不是所有指標的最新單月快照。",
+          "watch": "留意月度零售銷售、房地產銷售與投資、民間投資、價格及信貸狀況。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "工業產出成長"
+            },
+            {
+              "id": "m2",
+              "label": "零售銷售成長"
+            },
+            {
+              "id": "m3",
+              "label": "房地產投資變化"
+            },
+            {
+              "id": "m4",
+              "label": "商品貿易成長"
             }
           ]
         }
