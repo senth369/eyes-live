@@ -1,0 +1,1256 @@
+{
+  "schemaVersion": 1,
+  "cutoffAt": "2026-09-07T00:32:33.155Z",
+  "generatedAt": "2026-09-07T00:34:31.459Z",
+  "model": "gpt-5.6-luna",
+  "sources": [
+    {
+      "id": "src1",
+      "label": "BLS · August employment release",
+      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+    },
+    {
+      "id": "src2",
+      "label": "国家统计局 · 制造业采购经理调查",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260831_1965154.html"
+    },
+    {
+      "id": "src3",
+      "label": "NVIDIA · quarterly earnings release",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+    },
+    {
+      "id": "src4",
+      "label": "NVIDIA · SEC quarterly filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    },
+    {
+      "id": "src5",
+      "label": "比亚迪 · 巨潮资讯半年报摘要",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531834.PDF"
+    },
+    {
+      "id": "src6",
+      "label": "FRED · S&P Dow Jones Indices",
+      "url": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "src7",
+      "label": "FRED · Nasdaq",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+    },
+    {
+      "id": "src8",
+      "label": "新华财经 · A股收盘",
+      "url": "https://m.cnfin.com/yw-lb/zixun/20260904/4465240_1.html"
+    },
+    {
+      "id": "src9",
+      "label": "Investing · 沪深三百历史收盘",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp500",
+      "sessionDate": "2026-09-04",
+      "close": 7718.6,
+      "previousClose": 7747.71,
+      "changePercent": -0.38,
+      "sourceIds": [
+        "src6"
+      ]
+    },
+    {
+      "id": "nasdaq",
+      "sessionDate": "2026-09-04",
+      "close": 26506.99,
+      "previousClose": 26584.06,
+      "changePercent": -0.29,
+      "sourceIds": [
+        "src7"
+      ]
+    },
+    {
+      "id": "sse",
+      "sessionDate": "2026-09-04",
+      "close": 3930.12,
+      "previousClose": null,
+      "changePercent": -0.3,
+      "sourceIds": [
+        "src8"
+      ]
+    },
+    {
+      "id": "csi300",
+      "sessionDate": "2026-09-04",
+      "close": 4548.05,
+      "previousClose": 4552.58,
+      "changePercent": -0.1,
+      "sourceIds": [
+        "src9"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "f1",
+      "market": "us",
+      "category": "economy",
+      "publishedOn": "2026-09-04",
+      "company": null,
+      "sourceIds": [
+        "src1"
+      ],
+      "evidence": "BLS release opening paragraphs and earnings section: seasonally adjusted August payroll change, unemployment and hourly earnings.",
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 162000,
+          "unit": "count",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Opening paragraph: nonfarm payroll employment increased by 162,000."
+        },
+        {
+          "id": "m2",
+          "value": 4.1,
+          "unit": "percent",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Opening paragraph: unemployment rate unchanged at 4.1 percent."
+        },
+        {
+          "id": "m3",
+          "value": 37.75,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Earnings paragraph: average hourly earnings for private nonfarm employees."
+        },
+        {
+          "id": "m4",
+          "value": 3.1,
+          "unit": "percent",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Earnings paragraph: hourly earnings increased 3.1 percent over the past 12 months."
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-08-31",
+      "company": null,
+      "sourceIds": [
+        "src2"
+      ],
+      "evidence": "Manufacturing section and August table: PMI 49.8, up 0.6 percentage points; new orders 50.6. PMI survey diffusion index, not GDP growth.",
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 49.8,
+          "unit": "index",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Manufacturing PMI August table: 49.8."
+        },
+        {
+          "id": "m2",
+          "value": 0.6,
+          "unit": "percentage-points",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Manufacturing opening paragraph: 0.6 percentage points above July."
+        },
+        {
+          "id": "m3",
+          "value": 50.6,
+          "unit": "index",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Manufacturing table: August new orders 50.6."
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-08-26",
+      "company": {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "exchange": "NASDAQ"
+      },
+      "sourceIds": [
+        "src3",
+        "src4"
+      ],
+      "evidence": "Earnings release GAAP income and cash-flow tables, THREE months ended July 26; SEC report identifies preceding quarter ended April 26. Source amounts in millions converted to base USD. Not the six-month cash-flow column.",
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 96221000000,
+          "unit": "USD",
+          "periodStart": "2026-04-27",
+          "periodEnd": "2026-07-26",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "GAAP quarterly revenue 96,221 million USD."
+        },
+        {
+          "id": "m2",
+          "value": 59688000000,
+          "unit": "USD",
+          "periodStart": "2026-04-27",
+          "periodEnd": "2026-07-26",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "GAAP quarterly net income 59,688 million USD."
+        },
+        {
+          "id": "m3",
+          "value": 24077000000,
+          "unit": "USD",
+          "periodStart": "2026-04-27",
+          "periodEnd": "2026-07-26",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Cash flow table, three months ended July 26: net cash provided by operating activities 24,077 million USD."
+        },
+        {
+          "id": "m4",
+          "value": 106,
+          "unit": "percent",
+          "periodStart": "2026-04-27",
+          "periodEnd": "2026-07-26",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Quarterly revenue growth Y/Y column: 106 percent."
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "earnings",
+      "publishedOn": "2026-08-29",
+      "company": {
+        "name": "比亚迪 / BYD",
+        "ticker": "002594",
+        "exchange": "SZSE"
+      },
+      "sourceIds": [
+        "src5"
+      ],
+      "evidence": "Half-year summary physical pages 1–2, main accounting data. Values explicitly in yuan. Net profit is attributable to listed-company shareholders; cash flow from operating activities.",
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 344815421000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-06-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Revenue row: 344,815,421,000 yuan."
+        },
+        {
+          "id": "m2",
+          "value": 12325408000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-06-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Attributable net profit row: 12,325,408,000 yuan."
+        },
+        {
+          "id": "m3",
+          "value": 37334744000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-06-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Operating cash flow row on physical page 2: 37,334,744,000 yuan."
+        },
+        {
+          "id": "m4",
+          "value": -7.13,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-06-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Revenue comparison column: -7.13 percent."
+        },
+        {
+          "id": "m5",
+          "value": -20.54,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-06-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Attributable net profit comparison column: -20.54 percent."
+        },
+        {
+          "id": "m6",
+          "value": 17.28,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-06-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Operating cash flow comparison column: 17.28 percent."
+        }
+      ]
+    }
+  ],
+  "locales": {
+    "en": {
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
+      "marketSummary": {
+        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "US employment: hiring continues while wage growth stays positive",
+          "summary": "The latest official employment report shows more nonfarm jobs, steady unemployment and higher average hourly pay.",
+          "impact": "Employment income supports household spending, while wage pressure is part of the evidence policymakers consider when setting borrowing costs.",
+          "what": "The Bureau of Labor Statistics reported another monthly increase in nonfarm payroll employment. This measure counts jobs at employers outside agriculture; it is different from the unemployment rate, which comes from a household survey. Average hourly earnings rose from a year earlier. The key figures below all refer to the latest observation month, with the wage growth comparison looking back to the same month a year earlier.",
+          "why": "For a household, employment and pay help determine how much can be spent or saved. For a business, that spending can support revenue, while higher wages also affect costs. Strong hiring does not automatically mean interest rates will rise: policymakers weigh employment alongside inflation and other evidence. A loan payment depends on the contract and lender as well as central-bank policy, so a jobs headline is not a direct forecast of an individual borrowing bill.",
+          "uncertainty": "Employment estimates can be revised as more employers respond. An average wage is not a typical worker’s guaranteed pay rise; changes in which jobs are being filled can move the average. This release alone cannot establish the next interest-rate decision or the performance of any particular stock.",
+          "watch": "Look for confirmation in later employment revisions, unemployment claims and inflation releases. Distinguish the official data from commentary about what policymakers might do next.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Monthly nonfarm job addition"
+            },
+            {
+              "id": "m2",
+              "label": "Unemployment rate"
+            },
+            {
+              "id": "m3",
+              "label": "Average hourly earnings"
+            },
+            {
+              "id": "m4",
+              "label": "Hourly earnings growth from a year earlier"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "China manufacturing: demand improves but the recovery needs confirmation",
+          "summary": "The official manufacturing survey improved from the previous month, with new orders above the expansion threshold while the overall index remained below it.",
+          "impact": "Improving orders can help factories plan production, but the survey does not yet establish a sustained rise in output or company profits.",
+          "what": "The National Bureau of Statistics asked purchasing managers about changes in their businesses. The manufacturing PMI and its new-orders component improved. These are survey indicators of how widely activity is improving or deteriorating; they do not measure the percentage growth of the economy. The month-to-month improvement shown below is in percentage points, which is different from a percentage growth rate.",
+          "why": "Orders can provide an early clue about demand before finished goods are produced and sales are recorded. For a manufacturer, more orders may influence staffing, inventories and purchases from suppliers. For a household, stronger production can eventually matter for job opportunities. Those are possible channels rather than outcomes proved by the survey. A broad indicator also combines very different industries, so it cannot tell us that every listed manufacturer is doing better.",
+          "uncertainty": "A stronger monthly reading can coexist with an overall reading below the expansion threshold. Seasonal patterns, survey responses and differences between large and small businesses complicate interpretation. The survey should not be used to claim that the economy or an individual company’s sales changed by the PMI value.",
+          "watch": "Check whether new orders remain strong in later surveys and whether official production, retail-sales data and company reports confirm the improvement. Keep the survey date separate from the dates of market price movements.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Manufacturing PMI"
+            },
+            {
+              "id": "m2",
+              "label": "PMI change from the preceding month"
+            },
+            {
+              "id": "m3",
+              "label": "New-orders index"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "NVIDIA earnings: sales, profit and operating cash flow answer different questions",
+          "summary": "The AI computing supplier reported sharply higher quarterly revenue, with positive net income and operating cash flow that was smaller than accounting profit.",
+          "impact": "The report helps explain AI infrastructure demand, while the gap between profit and cash makes collection timing and other accounting adjustments worth reading.",
+          "what": "This is a dated earnings explainer about the company’s fiscal quarter, not a new release today or a calendar-quarter report. The key figures use the reported quarter’s exact dates and GAAP accounting results. Revenue measures sales recognized in the period; net income is what remains after the expenses and other items included in the accounts. Operating cash flow records cash generated through running the business. The quarterly cash figure must not be confused with the larger year-to-date figure in the filing.",
+          "why": "A company can recognize a sale before receiving the customer’s payment, and cash payments do not always occur when expenses are recognized. That is why profit and operating cash flow may differ. The filing discusses payment timing under large customer arrangements. This is a reason to examine receivables and the cash-flow reconciliation, not proof that every difference comes from delayed customer payments. Strong sales growth can benefit suppliers and reflect customers’ investment plans, but those effects vary across businesses.",
+          "uncertainty": "The company’s outlook concerns future results and is separate from the realized figures shown here. No verified analyst-consensus comparison is included, so this explainer makes no claim that earnings beat expectations. Future demand, customer spending and payment timing can change.",
+          "watch": "Compare the next reported revenue and cash collections with management’s separately identified outlook. Read the reporting-period headings before comparing quarters, and examine whether cash generation keeps pace over time.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Quarterly revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Quarterly GAAP net income"
+            },
+            {
+              "id": "m3",
+              "label": "Quarterly operating cash flow"
+            },
+            {
+              "id": "m4",
+              "label": "Revenue growth from a year earlier"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "BYD’s half-year report: lower profit alongside stronger operating cash flow",
+          "summary": "The automaker’s half-year summary showed lower revenue and shareholder-attributable profit than a year earlier, while net operating cash flow increased.",
+          "impact": "The different directions show why evaluating a business requires both its income statement and its cash-flow statement.",
+          "what": "The figures below cover the first half of the reporting year, not a single quarter. The profit measure is specifically the amount attributable to shareholders of the listed company. Revenue, attributable profit and operating cash flow are all stated in yuan in the original disclosure. Their growth comparisons use the corresponding half of the preceding year, avoiding a comparison between a half year and a full year.",
+          "why": "Revenue tells us the amount of sales recognized, while profit reflects the costs and other accounting items included in earning those sales. Operating cash flow focuses on cash coming in and going out through business operations. Customer receipts and supplier payments can occur in different periods from the corresponding revenue and expense. As a result, cash can improve while profit falls. That general explanation helps read the accounts; it does not establish which specific factor caused this company’s reported change.",
+          "uncertainty": "The summary figures alone cannot isolate the effects of selling prices, product mix, costs, collections or payment timing. A rise in operating cash flow does not prove that profitability has recovered, and a fall in profit does not by itself prove a cash shortage. No analyst-expectation or management-forecast comparison is claimed here.",
+          "watch": "Look for the detailed statement reconciliation and business discussion explaining the difference between earnings and cash. In later reports, check whether the decline in revenue and profit persists, using comparable periods and the same profit definition.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Half-year revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Half-year shareholder-attributable net profit"
+            },
+            {
+              "id": "m3",
+              "label": "Half-year operating cash flow"
+            },
+            {
+              "id": "m4",
+              "label": "Revenue growth from a year earlier"
+            },
+            {
+              "id": "m5",
+              "label": "Attributable profit growth from a year earlier"
+            },
+            {
+              "id": "m6",
+              "label": "Operating cash-flow growth from a year earlier"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-CN": {
+      "status": "本期涵盖美国和中国的市场动态。请核对每篇内容的发布日期；近期公司报告作为背景解读呈现。",
+      "marketSummary": {
+        "us": "所跟踪的两个指数在最近已核实的交易时段均下跌。标注日期的收盘表现描述的是这些交易时段，而非当前交易情况。",
+        "cn": "所跟踪的两个指数在最近已核实的交易时段均下跌。标注日期的收盘表现描述的是这些交易时段，而非当前交易情况。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "美国就业：招聘持续，工资增速保持正值",
+          "summary": "最新官方就业报告显示，非农就业人数增加，失业率保持稳定，平均时薪上升。",
+          "impact": "就业收入支持家庭支出，而工资压力也是政策制定者设定借贷成本时考量的证据之一。",
+          "what": "美国劳工统计局报告称，非农就业人数再次按月增加。该指标统计农业以外雇主提供的就业岗位；失业率则来自住户调查，二者并不相同。平均时薪较上年同期上升。下方关键数据均对应最新观测月份，工资增幅则与上年同期进行比较。",
+          "why": "对家庭而言，就业和收入有助于决定可用于消费或储蓄的金额。对企业而言，这类支出可能支持营收，而更高的工资也会影响成本。招聘强劲并不自动意味着利率会上升：政策制定者会将就业与通胀及其他证据一并考量。贷款还款额取决于合同和贷款机构，也取决于央行政策，因此就业新闻并不能直接预测个人的借款账单。",
+          "uncertainty": "随着更多雇主提交回应，就业估计可能被修订。平均工资并不代表典型劳动者可以得到有保障的加薪；就业岗位构成的变化也可能推动平均值变动。仅凭这份报告，无法确定下一次利率决定，也无法判断任何特定股票的表现。",
+          "watch": "关注后续就业修订、失业救济申请和通胀数据是否提供进一步确认。要区分官方数据与对政策制定者下一步行动的评论。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "月度非农就业人数增量"
+            },
+            {
+              "id": "m2",
+              "label": "失业率"
+            },
+            {
+              "id": "m3",
+              "label": "平均时薪"
+            },
+            {
+              "id": "m4",
+              "label": "平均时薪同比增幅"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "中国制造业：需求改善，但复苏仍需确认",
+          "summary": "官方制造业调查较上月改善，新订单高于扩张阈值，但整体指数仍低于该阈值。",
+          "impact": "订单改善有助于工厂安排生产，但这项调查尚不足以证明产出或公司利润持续上升。",
+          "what": "国家统计局询问采购经理所在企业的经营变化。制造业采购经理指数及其新订单分项均有所改善。这些是反映活动改善或恶化范围的调查指标，并不衡量经济增速。下方显示的月度改善幅度以百分点表示，不同于经济增长率。",
+          "why": "在成品生产和销售入账之前，订单可能提前提供需求线索。对制造商而言，订单增加可能影响人员安排、库存和向供应商采购。对家庭而言，生产增强最终可能影响就业机会。这些只是可能的传导渠道，并非调查已经证明的结果。综合指标还涵盖差异很大的行业，因此不能说明每一家上市制造商的经营都在改善。",
+          "uncertainty": "月度读数增强，可能与整体读数低于扩张阈值同时存在。季节性规律、调查回应，以及大企业和小企业之间的差异，都会增加解读难度。不应使用这项调查声称经济或某家公司的销售额按采购经理指数的数值发生变化。",
+          "watch": "查看后续调查中新订单是否保持强劲，并观察官方产出、零售销售数据和公司报告是否确认改善。要将调查日期与市场价格变动日期分开。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "制造业采购经理指数"
+            },
+            {
+              "id": "m2",
+              "label": "采购经理指数较上月变动"
+            },
+            {
+              "id": "m3",
+              "label": "新订单指数"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "英伟达业绩：营收、利润和经营现金流回答的是不同问题",
+          "summary": "这家人工智能计算供应商报告称，季度营收大幅上升，同时实现正的净利润和经营现金流，但经营现金流低于会计利润。",
+          "impact": "这份报告有助于解释人工智能基础设施需求，而利润与现金之间的差异，也使回款时间和其他会计调整值得关注。",
+          "what": "这是关于该公司财务季度的有日期业绩解读，并非今日的新发布，也不是日历季度报告。关键数据使用报告期的确切日期，并依据公认会计准则编制。营收衡量期间确认的销售额；净利润是扣除账目中计入的费用和其他项目后剩余的金额。经营现金流记录企业经营活动产生的现金。季度现金数据不得与文件中更大的年初至今数据混淆。",
+          "why": "企业可能在收到客户付款之前确认销售，而现金收支也不一定发生在费用确认的同时。因此，利润与经营现金流可能不同。文件讨论了大型客户安排下的付款时间。这说明应查看应收款项和现金流调节，而不能据此证明每项差异都来自客户延迟付款。销售强劲增长可能使供应商受益，也可能反映客户的投资计划，但这些影响因企业而异。",
+          "uncertainty": "公司展望涉及未来业绩，与此处展示的已实现数据不同。由于没有经过核实的分析师一致预期比较，本解读不声称业绩超过预期。未来需求、客户支出和付款时间都可能变化。",
+          "watch": "将下一次报告的营收和现金回收情况，与管理层单独列示的展望进行比较。比较季度前先阅读报告期标题，并观察现金生成能力是否随着时间保持同步。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度营收"
+            },
+            {
+              "id": "m2",
+              "label": "季度公认会计准则净利润"
+            },
+            {
+              "id": "m3",
+              "label": "季度经营现金流"
+            },
+            {
+              "id": "m4",
+              "label": "营收同比增幅"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "比亚迪半年度报告：利润下降，经营现金流增强",
+          "summary": "这家汽车制造商的半年度摘要显示，营收和归属于上市公司股东的利润低于上年同期，而经营活动净现金流增加。",
+          "impact": "不同指标朝不同方向变化，说明评估企业需要同时查看利润表和现金流量表。",
+          "what": "下方数据涵盖报告年度的上半年，而不是单个季度。利润指标具体指归属于上市公司股东的金额。原始披露中的营收、归属于股东的利润和经营现金流均以人民币计价。它们的增长比较均采用上年同期，避免将半年度与完整年度进行比较。",
+          "why": "营收告诉我们确认的销售金额，而利润反映计入这些销售收入形成过程的成本和其他会计项目。经营现金流关注经营活动中的现金流入和流出。客户收款与供应商付款，可能发生在相应营收和费用确认的不同期间。因此，现金流可能改善而利润下降。这一通用解释有助于阅读财务报表，但不能确定造成该公司报告期变化的具体因素。",
+          "uncertainty": "仅凭摘要数据，无法单独判断售价、产品组合、成本、回款或付款时间的影响。经营现金流上升不等于盈利能力已经恢复，利润下降本身也不等于出现现金短缺。本文不声称与分析师预期或管理层预测进行了比较。",
+          "watch": "查看详细报表调节和业务讨论，了解盈利与现金之间的差异。后续报告中，使用可比期间和相同的利润定义，观察营收和利润下降是否持续。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "半年度营收"
+            },
+            {
+              "id": "m2",
+              "label": "半年度归属于上市公司股东的净利润"
+            },
+            {
+              "id": "m3",
+              "label": "半年度经营现金流"
+            },
+            {
+              "id": "m4",
+              "label": "营收同比增幅"
+            },
+            {
+              "id": "m5",
+              "label": "归属于股东的利润同比增幅"
+            },
+            {
+              "id": "m6",
+              "label": "经营现金流同比增幅"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
+      "marketSummary": {
+        "us": "Les deux indices suivis ont baissé lors de leur dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Les deux indices suivis ont baissé lors de leur dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "Emploi aux États-Unis : les embauches continuent, tandis que la progression des salaires reste positive",
+          "summary": "Le dernier rapport officiel sur l’emploi fait état de créations supplémentaires d’emplois non agricoles, d’un chômage stable et d’une hausse du salaire horaire moyen.",
+          "impact": "Les revenus du travail soutiennent les dépenses des ménages, tandis que les pressions salariales font partie des éléments pris en compte par les responsables lorsqu’ils fixent le coût de l’emprunt.",
+          "what": "Le Bureau of Labor Statistics a fait état d’une nouvelle hausse mensuelle de l’emploi salarié non agricole. Cet indicateur compte les emplois chez les employeurs en dehors de l’agriculture ; il diffère du taux de chômage, qui provient d’une enquête auprès des ménages. Le salaire horaire moyen a augmenté par rapport à l’année précédente. Les chiffres clés ci-dessous concernent tous le dernier mois observé, tandis que la comparaison de la progression des salaires porte sur le même mois de l’année précédente.",
+          "why": "Pour un ménage, l’emploi et le salaire contribuent à déterminer la part qui peut être dépensée ou épargnée. Pour une entreprise, ces dépenses peuvent soutenir les revenus, tandis que des salaires plus élevés influencent aussi les coûts. Des embauches solides ne signifient pas automatiquement que les taux d’intérêt augmenteront : les responsables évaluent l’emploi avec l’inflation et d’autres éléments. Une mensualité de prêt dépend du contrat et du prêteur, ainsi que de la politique de la banque centrale ; un titre sur l’emploi ne permet donc pas de prévoir directement la facture d’emprunt d’une personne.",
+          "uncertainty": "Les estimations de l’emploi peuvent être révisées lorsque davantage d’employeurs répondent. Un salaire moyen ne représente pas nécessairement une hausse garantie pour un travailleur type ; la modification des emplois pourvus peut faire varier cette moyenne. Ce communiqué ne permet pas à lui seul d’établir la prochaine décision de taux ni l’évolution d’une action particulière.",
+          "watch": "Recherchez une confirmation dans les révisions ultérieures de l’emploi, les demandes d’allocations chômage et les publications sur l’inflation. Distinguez les données officielles des commentaires sur les décisions que les responsables pourraient prendre ensuite.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Créations mensuelles d’emplois non agricoles"
+            },
+            {
+              "id": "m2",
+              "label": "Taux de chômage"
+            },
+            {
+              "id": "m3",
+              "label": "Salaire horaire moyen"
+            },
+            {
+              "id": "m4",
+              "label": "Progression du salaire horaire par rapport à l’année précédente"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Industrie chinoise : la demande s’améliore, mais la reprise doit encore être confirmée",
+          "summary": "L’enquête officielle sur l’industrie manufacturière s’est améliorée par rapport au mois précédent, les nouvelles commandes dépassant le seuil d’expansion tandis que l’indice global restait en dessous.",
+          "impact": "L’amélioration des commandes peut aider les usines à planifier leur production, mais l’enquête ne permet pas encore d’établir une hausse durable de la production ou des bénéfices des entreprises.",
+          "what": "Le Bureau national des statistiques a interrogé des directeurs des achats sur l’évolution de leur activité. Le PMI manufacturier et sa composante des nouvelles commandes se sont améliorés. Ces indicateurs d’enquête montrent dans quelle mesure l’activité s’améliore ou se dégrade ; ils ne mesurent pas le taux de croissance de l’économie. L’amélioration mensuelle présentée ci-dessous est exprimée en points de pourcentage, ce qui diffère d’un taux de croissance en pourcentage.",
+          "why": "Les commandes peuvent donner un premier indice de la demande avant la production des biens finis et l’enregistrement des ventes. Pour un fabricant, davantage de commandes peuvent influencer les effectifs, les stocks et les achats auprès des fournisseurs. Pour un ménage, une production plus forte peut éventuellement influencer les possibilités d’emploi. Il s’agit de mécanismes possibles, et non de résultats démontrés par l’enquête. Un indicateur global regroupe aussi des secteurs très différents ; il ne permet donc pas d’affirmer que chaque fabricant coté se porte mieux.",
+          "uncertainty": "Une lecture mensuelle plus élevée peut coexister avec un indice global inférieur au seuil d’expansion. Les effets saisonniers, les réponses à l’enquête et les différences entre grandes et petites entreprises compliquent l’interprétation. L’enquête ne doit pas servir à affirmer que l’économie ou les ventes d’une entreprise particulière ont évolué du même montant que le PMI.",
+          "watch": "Vérifiez si les nouvelles commandes restent solides dans les enquêtes suivantes et si les données officielles de production, les ventes au détail et les rapports des entreprises confirment l’amélioration. Gardez la date de l’enquête distincte des dates d’évolution des cours.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "PMI manufacturier"
+            },
+            {
+              "id": "m2",
+              "label": "Variation du PMI par rapport au mois précédent"
+            },
+            {
+              "id": "m3",
+              "label": "Indice des nouvelles commandes"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Résultats de NVIDIA : les ventes, le bénéfice et la trésorerie d’exploitation répondent à des questions différentes",
+          "summary": "Le fournisseur de capacités de calcul pour l’intelligence artificielle a publié une forte hausse de sa营收 trimestrielle, avec un bénéfice net et une trésorerie d’exploitation positifs, cette dernière étant inférieure au bénéfice comptable.",
+          "impact": "Le rapport aide à comprendre la demande en infrastructures d’intelligence artificielle, tandis que l’écart entre bénéfice et trésorerie rend importants le calendrier des encaissements et les autres ajustements comptables.",
+          "what": "Il s’agit d’une explication datée du trimestre fiscal de l’entreprise, et non d’une nouvelle publication du jour ni d’un rapport portant sur un trimestre civil. Les chiffres clés utilisent les dates exactes de la période publiée et les résultats comptables selon les normes GAAP. La營收 mesure les ventes comptabilisées sur la période ; le bénéfice net correspond à ce qui reste après les charges et autres éléments inclus dans les comptes. La trésorerie d’exploitation mesure les liquidités générées par l’activité. Le montant trimestriel de trésorerie ne doit pas être confondu avec le montant plus élevé cumulé depuis le début de l’exercice dans le document publié.",
+          "why": "Une entreprise peut comptabiliser une vente avant de recevoir le paiement du client, et les paiements en espèces n’interviennent pas toujours au moment où les charges sont comptabilisées. C’est pourquoi le bénéfice et la trésorerie d’exploitation peuvent différer. Le document traite du calendrier des paiements dans le cadre de grands contrats clients. Cela justifie l’examen des créances et du rapprochement des flux de trésorerie, mais ne prouve pas que chaque écart provient de paiements clients différés. Une forte croissance des ventes peut profiter aux fournisseurs et refléter les projets d’investissement des clients, mais ces effets varient selon les entreprises.",
+          "uncertainty": "Les perspectives de l’entreprise concernent les résultats futurs et sont distinctes des chiffres réalisés présentés ici. Aucune comparaison vérifiée avec le consensus des analystes n’est incluse ; cette explication ne prétend donc pas que les résultats ont dépassé les attentes. La demande future, les dépenses des clients et le calendrier des paiements peuvent changer.",
+          "watch": "Comparez la prochaine營收 publiée et les encaissements avec les perspectives identifiées séparément par la direction. Lisez les intitulés des périodes avant de comparer les trimestres et examinez si la génération de trésorerie reste soutenue dans le temps.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "营收 trimestrielle"
+            },
+            {
+              "id": "m2",
+              "label": "Bénéfice net trimestriel selon les normes GAAP"
+            },
+            {
+              "id": "m3",
+              "label": "Trésorerie d’exploitation trimestrielle"
+            },
+            {
+              "id": "m4",
+              "label": "Progression de la營收 par rapport à l’année précédente"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Rapport semestriel de BYD : baisse du bénéfice avec une hausse de la trésorerie d’exploitation",
+          "summary": "Le résumé semestriel du constructeur automobile montre une baisse de la營收 et du bénéfice attribuable aux actionnaires par rapport à l’année précédente, tandis que la trésorerie nette d’exploitation a augmenté.",
+          "impact": "Ces évolutions divergentes montrent pourquoi l’évaluation d’une entreprise nécessite d’examiner à la fois le compte de résultat et le tableau des flux de trésorerie.",
+          "what": "Les chiffres ci-dessous couvrent le premier semestre de l’exercice publié, et non un trimestre isolé. La mesure du bénéfice correspond précisément au montant attribuable aux actionnaires de la société cotée. La營收, le bénéfice attribuable et la trésorerie d’exploitation sont tous exprimés en yuans dans la publication originale. Leurs comparaisons de croissance portent sur le semestre correspondant de l’exercice précédent, évitant de comparer un semestre à un exercice complet.",
+          "why": "La營收 indique le montant des ventes comptabilisées, tandis que le bénéfice reflète les coûts et autres éléments comptables inclus dans la réalisation de ces ventes. La trésorerie d’exploitation se concentre sur les entrées et sorties de liquidités liées à l’activité. Les encaissements des clients et les paiements aux fournisseurs peuvent intervenir à des périodes différentes de celles des produits et charges correspondants. Ainsi, la trésorerie peut s’améliorer tandis que le bénéfice diminue. Cette explication générale aide à lire les comptes ; elle n’établit pas quel facteur précis a causé l’évolution publiée par cette entreprise.",
+          "uncertainty": "Les chiffres résumés ne permettent pas d’isoler les effets des prix de vente, de la composition des produits, des coûts, des encaissements ou du calendrier des paiements. Une hausse de la trésorerie d’exploitation ne prouve pas que la rentabilité s’est redressée, et une baisse du bénéfice ne prouve pas à elle seule l’existence d’une pénurie de liquidités. Aucune comparaison avec les attentes des analystes ou les prévisions de la direction n’est avancée ici.",
+          "watch": "Consultez le rapprochement détaillé des états financiers et les commentaires sur l’activité expliquant l’écart entre bénéfice et trésorerie. Dans les prochains rapports, vérifiez si la baisse de la營收 et du bénéfice persiste, en utilisant des périodes comparables et la même définition du bénéfice.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "營收 semestrielle"
+            },
+            {
+              "id": "m2",
+              "label": "Bénéfice net semestriel attribuable aux actionnaires"
+            },
+            {
+              "id": "m3",
+              "label": "Trésorerie d’exploitation semestrielle"
+            },
+            {
+              "id": "m4",
+              "label": "Progression de la營收 par rapport à l’année précédente"
+            },
+            {
+              "id": "m5",
+              "label": "Progression du bénéfice attribuable par rapport à l’année précédente"
+            },
+            {
+              "id": "m6",
+              "label": "Progression de la trésorerie d’exploitation par rapport à l’année précédente"
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Compruebe la fecha de publicación de cada artículo; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "marketSummary": {
+        "us": "Ambos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la negociación actual.",
+        "cn": "Ambos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la negociación actual."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "Empleo en Estados Unidos: la contratación continúa mientras el crecimiento salarial sigue siendo positivo",
+          "summary": "El último informe oficial de empleo muestra más empleos no agrícolas, una tasa de desempleo estable y un aumento del salario medio por hora.",
+          "impact": "Los ingresos laborales respaldan el gasto de los hogares, mientras que la presión salarial forma parte de la información que las autoridades consideran al fijar los costes de endeudamiento.",
+          "what": "La Oficina de Estadísticas Laborales informó de otro aumento mensual del empleo no agrícola. Esta medida cuenta los empleos en empresas fuera de la agricultura; es distinta de la tasa de desempleo, que procede de una encuesta a los hogares. Los ingresos medios por hora aumentaron frente al año anterior. Todas las cifras clave que aparecen a continuación corresponden al último mes observado, y la comparación del crecimiento salarial se hace con el mismo mes del año anterior.",
+          "why": "Para un hogar, el empleo y el salario ayudan a determinar cuánto puede gastar o ahorrar. Para una empresa, ese gasto puede respaldar la facturación, mientras que los salarios más altos también afectan a los costes. Una contratación fuerte no significa automáticamente que subirán los tipos de interés: las autoridades evalúan el empleo junto con la inflación y otros datos. El pago de un préstamo depende tanto del contrato y del prestamista como de la política del banco central, por lo que un titular sobre empleo no es una previsión directa de la cuota de endeudamiento de una persona.",
+          "uncertainty": "Las estimaciones de empleo pueden revisarse a medida que responden más empresas. Un salario medio no es un aumento garantizado para el trabajador típico; los cambios en los tipos de empleos que se están cubriendo pueden mover el promedio. Este informe por sí solo no permite establecer la próxima decisión sobre los tipos de interés ni el comportamiento de una acción concreta.",
+          "watch": "Busque confirmación en revisiones posteriores del empleo, las solicitudes de subsidio de desempleo y los informes de inflación. Distinga los datos oficiales de los comentarios sobre lo que podrían hacer después las autoridades.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Aumento mensual del empleo no agrícola"
+            },
+            {
+              "id": "m2",
+              "label": "Tasa de desempleo"
+            },
+            {
+              "id": "m3",
+              "label": "Ingresos medios por hora"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento de los ingresos por hora frente al año anterior"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Manufactura en China: la demanda mejora, pero la recuperación necesita confirmación",
+          "summary": "La encuesta oficial del sector manufacturero mejoró frente al mes anterior, con nuevos pedidos por encima del umbral de expansión, mientras que el índice general siguió por debajo de ese nivel.",
+          "impact": "La mejora de los pedidos puede ayudar a las fábricas a planificar la producción, pero la encuesta aún no demuestra un aumento sostenido de la producción ni de los beneficios empresariales.",
+          "what": "La Oficina Nacional de Estadística preguntó a los responsables de compras sobre los cambios en sus empresas. El PMI manufacturero y su componente de nuevos pedidos mejoraron. Son indicadores obtenidos mediante encuestas sobre la amplitud de la mejora o el deterioro de la actividad; no miden el crecimiento porcentual de la economía. La mejora mensual que aparece a continuación se expresa en puntos porcentuales, lo que es distinto de una tasa de crecimiento porcentual.",
+          "why": "Los pedidos pueden ofrecer una señal temprana de la demanda antes de que se produzcan los bienes terminados y se registren las ventas. Para un fabricante, más pedidos pueden influir en la contratación, los inventarios y las compras a proveedores. Para un hogar, una producción más fuerte puede acabar afectando a las oportunidades laborales. Esos son posibles canales, no resultados demostrados por la encuesta. Un indicador amplio también combina sectores muy distintos, por lo que no puede decirnos que todos los fabricantes cotizados estén mejorando.",
+          "uncertainty": "Una lectura mensual más fuerte puede coexistir con una lectura general por debajo del umbral de expansión. Los patrones estacionales, las respuestas de la encuesta y las diferencias entre empresas grandes y pequeñas complican la interpretación. La encuesta no debe utilizarse para afirmar que la economía o las ventas de una empresa concreta cambiaron en el valor del PMI.",
+          "watch": "Compruebe si los nuevos pedidos siguen siendo sólidos en encuestas posteriores y si los datos oficiales de producción, ventas minoristas y los informes empresariales confirman la mejora. Mantenga separada la fecha de la encuesta de las fechas de los movimientos de los precios de mercado.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "PMI manufacturero"
+            },
+            {
+              "id": "m2",
+              "label": "Variación del PMI frente al mes anterior"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de nuevos pedidos"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Resultados de NVIDIA: las ventas, el beneficio y el flujo de caja operativo responden a preguntas diferentes",
+          "summary": "El proveedor de computación para inteligencia artificial comunicó un fuerte aumento de los ingresos trimestrales, con un beneficio neto y un flujo de caja operativo positivos, aunque este último fue inferior al beneficio contable.",
+          "impact": "El informe ayuda a entender la demanda de infraestructura para inteligencia artificial, mientras que la diferencia entre beneficio y efectivo hace importante analizar el calendario de cobros y otros ajustes contables.",
+          "what": "Se trata de una explicación fechada sobre el trimestre fiscal de la empresa, no de un comunicado nuevo ni de un informe correspondiente a un trimestre natural. Las cifras clave utilizan las fechas exactas del trimestre comunicado y resultados contables conforme a los principios contables generalmente aceptados. Los ingresos miden las ventas reconocidas en el periodo; el beneficio neto es lo que queda después de los gastos y otros conceptos incluidos en las cuentas. El flujo de caja operativo registra el efectivo generado por la actividad empresarial. La cifra trimestral de efectivo no debe confundirse con la cifra acumulada del ejercicio que aparece en la documentación presentada.",
+          "why": "Una empresa puede reconocer una venta antes de recibir el pago del cliente, y los pagos en efectivo no siempre se producen cuando se reconocen los gastos. Por eso el beneficio y el flujo de caja operativo pueden diferir. La documentación analiza el calendario de pagos en determinados acuerdos con grandes clientes. Esto justifica examinar las cuentas por cobrar y la conciliación del flujo de caja, pero no demuestra que toda diferencia proceda de pagos retrasados de clientes. Un fuerte crecimiento de las ventas puede beneficiar a los proveedores y reflejar los planes de inversión de los clientes, pero esos efectos varían entre empresas.",
+          "uncertainty": "Las previsiones de la empresa se refieren a resultados futuros y son distintas de las cifras realizadas que se muestran aquí. No se incluye una comparación verificada con el consenso de analistas, por lo que esta explicación no afirma que los resultados superaran las expectativas. La demanda futura, el gasto de los clientes y el calendario de cobros pueden cambiar.",
+          "watch": "Compare los próximos ingresos comunicados y los cobros de efectivo con las previsiones que la dirección haya identificado por separado. Lea los encabezados del periodo informado antes de comparar trimestres y examine si la generación de efectivo mantiene el ritmo con el tiempo.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos trimestrales"
+            },
+            {
+              "id": "m2",
+              "label": "Beneficio neto trimestral conforme a los principios contables generalmente aceptados"
+            },
+            {
+              "id": "m3",
+              "label": "Flujo de caja operativo trimestral"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento de los ingresos frente al año anterior"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Informe semestral de BYD: menor beneficio junto con un flujo de caja operativo más fuerte",
+          "summary": "El resumen semestral del fabricante de automóviles mostró menores ingresos y un menor beneficio atribuible a los accionistas que el año anterior, mientras que el flujo de caja neto de las operaciones aumentó.",
+          "impact": "La evolución en direcciones distintas muestra por qué evaluar una empresa requiere tanto su cuenta de resultados como su estado de flujos de efectivo.",
+          "what": "Las cifras que aparecen a continuación cubren el semestre del ejercicio informado, no un solo trimestre. La medida de beneficio es específicamente el importe atribuible a los accionistas de la empresa cotizada. Los ingresos, el beneficio atribuible y el flujo de caja operativo se expresan en yuanes en la divulgación original. Sus comparaciones de crecimiento utilizan el semestre correspondiente del año anterior, evitando comparar un semestre con un ejercicio completo.",
+          "why": "Los ingresos indican el importe de las ventas reconocidas, mientras que el beneficio refleja los costes y otros conceptos contables incluidos en la obtención de esas ventas. El flujo de caja operativo se centra en las entradas y salidas de efectivo derivadas de las operaciones. Los cobros de clientes y los pagos a proveedores pueden producirse en periodos distintos de los ingresos y gastos correspondientes. Por ello, el efectivo puede mejorar mientras el beneficio cae. Esta explicación general ayuda a leer las cuentas; no establece qué factor concreto causó el cambio comunicado por esta empresa.",
+          "uncertainty": "Las cifras resumidas por sí solas no pueden aislar los efectos de los precios de venta, la combinación de productos, los costes, los cobros o el calendario de pagos. Un aumento del flujo de caja operativo no demuestra que la rentabilidad se haya recuperado, y una caída del beneficio no demuestra por sí misma que exista una escasez de efectivo. Aquí no se afirma ninguna comparación con las expectativas de analistas ni con previsiones de la dirección.",
+          "watch": "Busque la conciliación detallada de los estados financieros y la explicación empresarial de la diferencia entre resultados y efectivo. En informes posteriores, compruebe si persiste el descenso de los ingresos y del beneficio, utilizando periodos comparables y la misma definición de beneficio.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos semestrales"
+            },
+            {
+              "id": "m2",
+              "label": "Beneficio neto semestral atribuible a los accionistas"
+            },
+            {
+              "id": "m3",
+              "label": "Flujo de caja operativo semestral"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento de los ingresos frente al año anterior"
+            },
+            {
+              "id": "m5",
+              "label": "Crecimiento del beneficio atribuible frente al año anterior"
+            },
+            {
+              "id": "m6",
+              "label": "Crecimiento del flujo de caja operativo frente al año anterior"
+            }
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "status": "この版では、米国と中国の動きを扱います。各記事の公表日を確認してください。最近の企業報告は、背景を説明する記事として掲載しています。",
+      "marketSummary": {
+        "us": "追跡している両指数は、直近の確認済み取引セッションで下落しました。記載された終値はそのセッションのもので、現在の取引状況を示すものではありません。",
+        "cn": "追跡している両指数は、直近の確認済み取引セッションで下落しました。記載された終値はそのセッションのもので、現在の取引状況を示すものではありません。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "米国雇用：採用は続く一方、賃金の伸びはプラスを維持",
+          "summary": "最新の公式雇用統計では、非農業部門雇用者数が増え、失業率は安定し、平均時給は上昇しました。",
+          "impact": "雇用所得は家計の支出を支えます。また、賃金上昇圧力は、政策当局が借入コストを決める際に検討する材料の一つです。",
+          "what": "米国労働統計局は、非農業部門雇用者数が前月から増加したと発表しました。この指標は農業以外の雇用主のもとにある仕事を数えるもので、家計調査から算出される失業率とは異なります。平均時給は前年同月から上昇しました。以下の主要な数値はすべて最新の観測月を対象とし、賃金の伸びは前年同月と比較しています。",
+          "why": "家計にとって、雇用と賃金は、どれだけ支出または貯蓄できるかを左右します。企業にとっては、その支出が売上を支える可能性がある一方、賃金上昇はコストにも影響します。雇用が強いからといって、金利が必ず上昇するわけではありません。政策当局は、雇用に加えてインフレなどの材料も検討します。ローンの返済額は、中央銀行の政策だけでなく、契約や貸し手にも左右されます。そのため、雇用統計の見出しだけで個人の借入返済額を直接予測することはできません。",
+          "uncertainty": "雇用統計は、より多くの雇用主から回答が集まると改定されることがあります。平均賃金は、典型的な労働者が確実に受け取る昇給率ではありません。どのような仕事が採用されているかの変化によって、平均値が動くこともあります。この発表だけでは、次の金利決定や特定の株式の値動きを判断できません。",
+          "watch": "その後の雇用統計の改定、失業保険申請件数、インフレ指標で確認してください。公式データと、政策当局が次に何をするかについての解説を区別しましょう。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "月間の非農業部門雇用者数の増加"
+            },
+            {
+              "id": "m2",
+              "label": "失業率"
+            },
+            {
+              "id": "m3",
+              "label": "平均時給"
+            },
+            {
+              "id": "m4",
+              "label": "前年同月比の時給上昇率"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "中国製造業：需要は改善するも、回復には確認が必要",
+          "summary": "公式の製造業調査は前月から改善し、新規受注は拡大の境目を上回りました。一方、総合指数はその境目を下回ったままです。",
+          "impact": "受注の改善は工場の生産計画に役立つ可能性がありますが、この調査だけでは、生産や企業利益の持続的な増加は確認できません。",
+          "what": "国家統計局は、購買担当者に事業の変化を尋ねました。製造業購買担当者景気指数と新規受注指数は改善しました。これらは、活動が改善または悪化している範囲を示す調査指標であり、経済の成長率を測るものではありません。以下に示す前月からの改善幅はパーセントポイントで、成長率とは異なります。",
+          "why": "受注は、完成品が生産され、売上として計上される前に、需要を知る手がかりになることがあります。製造業者にとって、受注の増加は、人員配置、在庫、仕入先からの購入に影響する可能性があります。家計にとっては、生産の強まりが将来の雇用機会に関係することもあります。ただし、これらは調査から確定した結果ではなく、考えられる経路です。また、総合指標には大きく異なる業種が含まれるため、上場製造業者のすべてが改善したとは判断できません。",
+          "uncertainty": "月次の数値が強くても、総合指数が拡大の境目を下回ることはあります。季節的なパターン、調査回答、大企業と中小企業の違いが解釈を難しくします。この調査を使って、経済全体や特定企業の売上が購買担当者景気指数の数値分だけ変化したと主張することはできません。",
+          "watch": "その後の調査でも新規受注が強いか、公式の生産統計、小売売上高、企業報告が改善を確認しているかを見てください。調査の公表日と市場価格が動いた日を区別しましょう。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "製造業購買担当者景気指数"
+            },
+            {
+              "id": "m2",
+              "label": "前月からの購買担当者景気指数の変化"
+            },
+            {
+              "id": "m3",
+              "label": "新規受注指数"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "NVIDIA決算：売上、利益、営業キャッシュフローは異なる問いに答える",
+          "summary": "AIコンピューティング企業は、四半期の売上が大幅に増え、純利益と営業キャッシュフローがプラスだったと報告しました。ただし、営業キャッシュフローは会計上の利益を下回りました。",
+          "impact": "この報告はAIインフラ需要を理解する手がかりになります。一方、利益と現金の差があるため、回収時期やその他の会計上の調整を確認することが重要です。",
+          "what": "これは同社の会計年度の四半期を扱う、日付付きの決算解説です。本日の新しい発表でも、暦年ベースの四半期報告でもありません。主要な数値は、報告対象期間の正確な日付と、米国会計基準に基づく実績です。売上は、その期間に認識された販売額を示します。純利益は、会計に含まれる費用やその他の項目を差し引いた後に残る金額です。営業キャッシュフローは、事業運営によって生み出された現金を記録します。四半期の現金額を、提出書類にある年初来のより大きな金額と混同してはいけません。",
+          "why": "企業は、顧客から代金を受け取る前に売上を認識することがあります。また、現金の支払いは、費用が認識される時期と常に一致するわけではありません。そのため、利益と営業キャッシュフローが異なることがあります。提出書類では、大口顧客との契約における支払い時期について説明されています。ただし、これは売掛金とキャッシュフローの調整を確認する理由であり、差のすべてが顧客の支払い遅延によると証明するものではありません。売上の強い伸びは、供給企業に恩恵をもたらしたり、顧客の投資計画を反映したりする可能性がありますが、その影響は企業ごとに異なります。",
+          "uncertainty": "会社の見通しは将来の実績に関するもので、ここに示す実現した数値とは別のものです。確認済みのアナリスト予想との比較は含まれていないため、決算が予想を上回ったとは述べていません。将来の需要、顧客支出、支払い時期は変わる可能性があります。",
+          "watch": "次回報告の売上と現金回収を、経営陣が別に示した見通しと比較してください。四半期を比較する前に、報告対象期間の見出しを確認し、時間の経過とともに現金創出が維持されているかを見てください。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "四半期売上"
+            },
+            {
+              "id": "m2",
+              "label": "四半期の米国会計基準ベース純利益"
+            },
+            {
+              "id": "m3",
+              "label": "四半期営業キャッシュフロー"
+            },
+            {
+              "id": "m4",
+              "label": "前年同期比の売上成長率"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "BYDの半期報告：利益は減少する一方、営業キャッシュフローは改善",
+          "summary": "自動車メーカーの半期概要では、売上と上場会社株主に帰属する利益が前年同期を下回った一方、営業キャッシュフローは増加しました。",
+          "impact": "動きが異なることは、企業を評価する際に損益計算書とキャッシュフロー計算書の両方が必要な理由を示しています。",
+          "what": "以下の数値は報告年度の上半期を対象としており、単一の四半期ではありません。利益の指標は、上場会社の株主に帰属する金額に限定されています。売上、帰属利益、営業キャッシュフローは、原開示ではすべて人民元で示されています。成長率の比較は前年の対応する半期と行っており、半期と通期を比較していません。",
+          "why": "売上は認識された販売額を示し、利益はその売上を得るための費用やその他の会計項目を反映します。営業キャッシュフローは、事業活動を通じた現金の流入と流出に注目します。顧客からの入金と仕入先への支払いは、対応する売上や費用とは異なる期間に発生することがあります。その結果、利益が減少しても現金が改善する場合があります。この一般的な説明は財務諸表を読む助けになりますが、この企業の変化を引き起こした具体的な要因を示すものではありません。",
+          "uncertainty": "概要の数値だけでは、販売価格、製品構成、コスト、回収、支払い時期の影響を分けて判断できません。営業キャッシュフローの増加は収益性が回復したことを証明せず、利益の減少だけで資金不足と判断することもできません。アナリスト予想や経営陣の予想との比較は、ここでは示していません。",
+          "watch": "利益と現金の差を説明する詳細な調整表と事業説明を確認してください。その後の報告では、同じ比較期間と同じ利益の定義を使い、売上と利益の減少が続いているかを見てください。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "半期売上"
+            },
+            {
+              "id": "m2",
+              "label": "半期の上場会社株主に帰属する純利益"
+            },
+            {
+              "id": "m3",
+              "label": "半期営業キャッシュフロー"
+            },
+            {
+              "id": "m4",
+              "label": "前年同期比の売上成長率"
+            },
+            {
+              "id": "m5",
+              "label": "前年同期比の帰属利益成長率"
+            },
+            {
+              "id": "m6",
+              "label": "前年同期比の営業キャッシュフロー成長率"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "status": "Esta edição abrange acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
+      "marketSummary": {
+        "us": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "Emprego nos Estados Unidos: as contratações continuam enquanto o crescimento dos salários permanece positivo",
+          "summary": "O relatório oficial de emprego mais recente mostra aumento do emprego não agrícola, desemprego estável e alta na remuneração média por hora.",
+          "impact": "A renda do trabalho sustenta os gastos das famílias, enquanto a pressão salarial é uma das evidências consideradas pelos formuladores de política ao definir os custos de crédito.",
+          "what": "O Bureau of Labor Statistics informou novo aumento mensal do emprego não agrícola. Essa medida contabiliza empregos em empregadores fora da agricultura; ela é diferente da taxa de desemprego, que vem de uma pesquisa domiciliar. A remuneração média por hora aumentou em relação ao ano anterior. Os principais números abaixo referem-se ao mês de observação mais recente, e a comparação do crescimento salarial é com o mesmo mês do ano anterior.",
+          "why": "Para uma família, o emprego e a remuneração ajudam a determinar quanto pode ser gasto ou poupado. Para uma empresa, esses gastos podem sustentar a receita, enquanto salários maiores também afetam os custos. Contratações fortes não significam automaticamente que as taxas de juros subirão: os formuladores de política avaliam o emprego junto com a inflação e outras evidências. A prestação de um empréstimo depende do contrato e do credor, além da política do banco central; portanto, uma manchete sobre empregos não é uma previsão direta da prestação individual de crédito.",
+          "uncertainty": "As estimativas de emprego podem ser revisadas à medida que mais empregadores respondem. Uma remuneração média não é um aumento garantido para o trabalhador típico; mudanças nos tipos de empregos preenchidos podem alterar a média. Este comunicado, sozinho, não permite determinar a próxima decisão sobre juros nem o desempenho de qualquer ação específica.",
+          "watch": "Observe as revisões posteriores do emprego, os pedidos de seguro-desemprego e os dados de inflação. Diferencie os dados oficiais dos comentários sobre o que os formuladores de política poderão fazer em seguida.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Aumento mensal do emprego não agrícola"
+            },
+            {
+              "id": "m2",
+              "label": "Taxa de desemprego"
+            },
+            {
+              "id": "m3",
+              "label": "Remuneração média por hora"
+            },
+            {
+              "id": "m4",
+              "label": "Crescimento da remuneração por hora em relação ao ano anterior"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Indústria chinesa: a demanda melhora, mas a recuperação precisa de confirmação",
+          "summary": "A pesquisa oficial sobre a indústria melhorou em relação ao mês anterior, com novas encomendas acima do limiar de expansão, enquanto o índice geral permaneceu abaixo dele.",
+          "impact": "A melhora das encomendas pode ajudar as fábricas a planejar a produção, mas a pesquisa ainda não comprova um aumento sustentado da produção ou dos lucros empresariais.",
+          "what": "O National Bureau of Statistics perguntou aos gerentes de compras sobre mudanças em suas empresas. O PMI industrial e seu componente de novas encomendas melhoraram. Esses são indicadores de pesquisa sobre a amplitude da melhora ou piora da atividade; eles não medem o crescimento percentual da economia. A melhora mensal mostrada abaixo está em pontos percentuais, o que é diferente de uma taxa de crescimento percentual.",
+          "why": "As encomendas podem oferecer uma indicação inicial da demanda antes que os produtos acabados sejam produzidos e as vendas registradas. Para um fabricante, mais encomendas podem influenciar contratações, estoques e compras de fornecedores. Para uma família, uma produção mais forte pode eventualmente afetar as oportunidades de emprego. Esses são canais possíveis, não resultados comprovados pela pesquisa. Um indicador amplo também reúne setores muito diferentes e, portanto, não mostra que todos os fabricantes listados estejam se saindo melhor.",
+          "uncertainty": "Uma leitura mensal mais forte pode coexistir com um índice geral abaixo do limiar de expansão. Padrões sazonais, respostas da pesquisa e diferenças entre empresas grandes e pequenas dificultam a interpretação. A pesquisa não deve ser usada para afirmar que a economia ou as vendas de uma empresa específica mudaram pelo valor do PMI.",
+          "watch": "Verifique se as novas encomendas continuam fortes nas pesquisas seguintes e se a produção oficial, os dados de vendas no varejo e os relatórios empresariais confirmam a melhora. Mantenha a data da pesquisa separada das datas dos movimentos de preços de mercado.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "PMI industrial"
+            },
+            {
+              "id": "m2",
+              "label": "Variação do PMI em relação ao mês anterior"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de novas encomendas"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Resultados da NVIDIA: vendas, lucro e fluxo de caixa operacional respondem a perguntas diferentes",
+          "summary": "A fornecedora de computação para inteligência artificial informou forte alta da receita trimestral, com lucro líquido e fluxo de caixa operacional positivos, sendo este menor que o lucro contábil.",
+          "impact": "O relatório ajuda a explicar a demanda por infraestrutura de inteligência artificial, enquanto a diferença entre lucro e caixa torna importante analisar o prazo de recebimento e outros ajustes contábeis.",
+          "what": "Esta é uma explicação datada sobre o trimestre fiscal da empresa, não um novo comunicado de hoje nem um relatório de trimestre do calendário. Os principais números usam as datas exatas do trimestre informado e resultados contábeis segundo o GAAP. A receita mede as vendas reconhecidas no período; o lucro líquido é o que resta após as despesas e outros itens incluídos nas contas. O fluxo de caixa operacional registra o caixa gerado pela operação do negócio. O valor trimestral de caixa não deve ser confundido com o valor acumulado no ano apresentado no documento.",
+          "why": "Uma empresa pode reconhecer uma venda antes de receber o pagamento do cliente, e os pagamentos em caixa nem sempre ocorrem quando as despesas são reconhecidas. Por isso, o lucro e o fluxo de caixa operacional podem divergir. O documento aborda o prazo de pagamento em contratos com grandes clientes. Isso é motivo para examinar contas a receber e a conciliação do fluxo de caixa, não prova de que toda diferença decorra de pagamentos atrasados. Um forte crescimento das vendas pode beneficiar fornecedores e refletir planos de investimento dos clientes, mas esses efeitos variam entre as empresas.",
+          "uncertainty": "A projeção da empresa diz respeito a resultados futuros e é separada dos valores realizados mostrados aqui. Não há comparação verificada com o consenso de analistas; portanto, esta explicação não afirma que os resultados superaram as expectativas. A demanda futura, os gastos dos clientes e o prazo de pagamento podem mudar.",
+          "watch": "Compare a próxima receita divulgada e os recebimentos de caixa com a projeção apresentada separadamente pela administração. Leia os títulos dos períodos de reporte antes de comparar trimestres e examine se a geração de caixa acompanha o desempenho ao longo do tempo.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita trimestral"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro líquido trimestral segundo o GAAP"
+            },
+            {
+              "id": "m3",
+              "label": "Fluxo de caixa operacional trimestral"
+            },
+            {
+              "id": "m4",
+              "label": "Crescimento da receita em relação ao ano anterior"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Relatório semestral da BYD: lucro menor junto com fluxo de caixa operacional mais forte",
+          "summary": "O resumo semestral da montadora mostrou receita e lucro atribuível aos acionistas menores que no ano anterior, enquanto o fluxo de caixa operacional líquido aumentou.",
+          "impact": "As direções diferentes mostram por que avaliar uma empresa exige tanto a demonstração de resultados quanto a demonstração de fluxo de caixa.",
+          "what": "Os valores abaixo abrangem o período semestral do ano de reporte, não um único trimestre. A medida de lucro é especificamente o valor atribuível aos acionistas da companhia listada. Receita, lucro atribuível e fluxo de caixa operacional estão expressos em yuans na divulgação original. As comparações de crescimento usam o semestre correspondente do ano anterior, evitando comparar um semestre com um ano completo.",
+          "why": "A receita mostra o valor das vendas reconhecidas, enquanto o lucro reflete os custos e outros itens contábeis incluídos na obtenção dessas vendas. O fluxo de caixa operacional concentra-se nas entradas e saídas de caixa das operações. Os recebimentos de clientes e os pagamentos a fornecedores podem ocorrer em períodos diferentes do reconhecimento da receita e da despesa correspondentes. Assim, o caixa pode melhorar enquanto o lucro cai. Essa explicação geral ajuda a ler as contas; ela não determina qual fator específico causou a mudança divulgada por esta empresa.",
+          "uncertainty": "Os valores resumidos, sozinhos, não permitem separar os efeitos de preços de venda, composição de produtos, custos, recebimentos ou prazos de pagamento. Um aumento do fluxo de caixa operacional não prova que a rentabilidade se recuperou, e uma queda do lucro não prova, por si só, uma falta de caixa. Não há aqui comparação com expectativas de analistas ou projeções da administração.",
+          "watch": "Procure a reconciliação detalhada das demonstrações e a discussão empresarial que explique a diferença entre lucro e caixa. Nos relatórios seguintes, verifique se a queda da receita e do lucro persiste, usando períodos comparáveis e a mesma definição de lucro.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita semestral"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro líquido semestral atribuível aos acionistas"
+            },
+            {
+              "id": "m3",
+              "label": "Fluxo de caixa operacional semestral"
+            },
+            {
+              "id": "m4",
+              "label": "Crescimento da receita em relação ao ano anterior"
+            },
+            {
+              "id": "m5",
+              "label": "Crescimento do lucro atribuível em relação ao ano anterior"
+            },
+            {
+              "id": "m6",
+              "label": "Crescimento do fluxo de caixa operacional em relação ao ano anterior"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-TW": {
+      "status": "本期涵蓋美國與中國的發展。請確認各篇發布日期；近期公司報告以背景解說呈現。",
+      "marketSummary": {
+        "us": "所追蹤的兩項指數在最近一次已確認的交易時段均下跌。標示日期的收盤價描述的是那些交易時段，而非目前交易情況。",
+        "cn": "所追蹤的兩項指數在最近一次已確認的交易時段均下跌。標示日期的收盤價描述的是那些交易時段，而非目前交易情況。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "美國就業：持續增聘，薪資成長維持正值",
+          "summary": "最新官方就業報告顯示，非農就業人數增加，失業率穩定，平均時薪上升。",
+          "impact": "就業所得支持家庭支出，而薪資壓力也是政策制定者設定借貸成本時考量的證據之一。",
+          "what": "美國勞工統計局公布，非農就業人數再度按月增加。這項指標計算農業以外雇主提供的職位，與來自家庭調查的失業率不同。平均時薪較同期上升。以下關鍵數據均指最新觀察月份；薪資成長比較則回看同期。",
+          "why": "對家庭而言，就業與薪資有助於決定可支出或儲蓄的金額。對企業而言，這些支出可能支持營收，而較高薪資也會影響成本。強勁的招聘不代表利率必然上升：政策制定者會把就業與通膨及其他證據一併衡量。貸款還款金額取決於合約與貸款機構，也取決於央行政策，因此就業數據標題不能直接預測個人的借款帳單。",
+          "uncertainty": "隨著更多雇主回覆，就業估計可能修正。平均薪資不是典型勞工保證獲得的加薪幅度；職位結構變化也可能推動平均值變動。單靠這份公布資料，無法確定下一次利率決策或任何特定股票的表現。",
+          "watch": "留意後續就業修正、失業申請與通膨發布，以尋求確認。應區分官方數據與對政策制定者下一步可能行動的評論。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "每月非農就業人數增加"
+            },
+            {
+              "id": "m2",
+              "label": "失業率"
+            },
+            {
+              "id": "m3",
+              "label": "平均時薪"
+            },
+            {
+              "id": "m4",
+              "label": "平均時薪較同期成長"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "中國製造業：需求改善，但復甦仍需確認",
+          "summary": "官方製造業調查較前月改善，新訂單高於擴張門檻，但整體指數仍低於該門檻。",
+          "impact": "訂單改善有助工廠規劃生產，但這項調查尚不能證明產出或企業獲利已持續上升。",
+          "what": "國家統計局詢問採購經理人企業業務的變化。製造業採購經理人指數與新訂單分項均改善。這些是顯示活動改善或惡化範圍的調查指標，不是經濟成長率。以下所示的月度改善以百分點表示，與百分比成長率不同。",
+          "why": "在成品生產並記錄銷售前，訂單可提供需求的早期線索。對製造商而言，更多訂單可能影響人力、庫存及向供應商採購。對家庭而言，生產增強最終可能影響就業機會。這些是可能的傳導管道，而非調查已證實的結果。廣泛指標也涵蓋差異很大的產業，因此不能說每家上市製造商都表現更好。",
+          "uncertainty": "月度讀數較強，可能與整體讀數低於擴張門檻同時存在。季節性、調查回覆，以及大型與小型企業之間的差異，都會使解讀更複雜。不能用這項調查宣稱經濟或個別公司的銷售額按採購經理人指數的數值變動。",
+          "watch": "確認後續調查中的新訂單是否維持強勁，以及官方生產、零售銷售數據與公司報告是否確認改善。應將調查日期與市場價格變動日期分開。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "製造業採購經理人指數"
+            },
+            {
+              "id": "m2",
+              "label": "採購經理人指數較前月變化"
+            },
+            {
+              "id": "m3",
+              "label": "新訂單指數"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "NVIDIA 財報：營收、淨利與經營現金流回答不同問題",
+          "summary": "這家人工智慧運算供應商公布季度營收大幅增加，淨利為正，經營現金流則低於會計利潤。",
+          "impact": "這份報告有助了解人工智慧基礎設施需求，而利潤與現金之間的差距值得搭配收款時點及其他會計調整閱讀。",
+          "what": "這是針對公司財政季度的有日期財報解說，不是今日的新發布，也不是曆年季度報告。關鍵數據採用報告季度的確切日期與美國公認會計原則會計結果。營收衡量該期間確認的銷售；淨利是扣除帳目中包含的費用及其他項目後的剩餘金額。經營現金流記錄營運產生的現金。季度現金數據不可與申報文件中較大的年初至今數據混淆。",
+          "why": "企業可能在收到客戶付款前確認銷售，而現金付款也不一定與費用確認同時發生。因此，利潤與經營現金流可能不同。申報文件討論大型客戶安排下的付款時點。這表示應檢視應收款項與現金流量調節，而非證明所有差異都來自客戶延遲付款。銷售強勁成長可能使供應商受益，也可能反映客戶的投資計畫，但影響會因企業而異。",
+          "uncertainty": "公司的展望涉及未來結果，與此處呈現的已實現數據不同。由於未納入經確認的分析師共識比較，本解說不主張財報優於預期。未來需求、客戶支出與付款時點都可能改變。",
+          "watch": "將下一次公布的營收與現金收款，與管理層另行列出的展望比較。比較季度前先閱讀報告期間標題，並檢視現金產生是否隨時間保持同步。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度營收"
+            },
+            {
+              "id": "m2",
+              "label": "季度美國公認會計原則淨利"
+            },
+            {
+              "id": "m3",
+              "label": "季度經營現金流"
+            },
+            {
+              "id": "m4",
+              "label": "營收較同期成長"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "比亞迪半年度報告：利潤下降，經營現金流增強",
+          "summary": "這家汽車製造商的半年度摘要顯示，營收與歸屬上市公司股東的利潤低於同期，而經營現金流增加。",
+          "impact": "不同方向的變化顯示，評估企業需要同時查看損益表與現金流量表。",
+          "what": "以下數據涵蓋報告年度上半年，而非單一季度。利潤指標特別指歸屬上市公司股東的金額。營收、歸屬股東利潤與經營現金流，均以原始披露中的人民幣列示。成長比較採用前一報告年度的對應上半年，避免將半年度與完整年度比較。",
+          "why": "營收告訴我們已確認的銷售金額，利潤則反映計入這些銷售收益的成本及其他會計項目。經營現金流聚焦於營運產生的現金流入與流出。客戶收款與供應商付款，可能與相關營收及費用在不同期間發生。因此，現金可能改善而利潤下降。這項一般性解釋有助閱讀帳目，但不能確定造成公司報告變化的具體因素。",
+          "uncertainty": "僅憑摘要數據，無法分離售價、產品組合、成本、收款或付款時點的影響。經營現金流上升不代表獲利能力已恢復，利潤下降本身也不代表現金短缺。本處不主張與分析師預期或管理層預測進行比較。",
+          "watch": "留意詳細報表調節與業務討論，了解獲利與現金之間的差異。後續報告中，使用可比期間與相同利潤定義，檢查營收與利潤下降是否持續。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "半年度營收"
+            },
+            {
+              "id": "m2",
+              "label": "半年度歸屬股東淨利"
+            },
+            {
+              "id": "m3",
+              "label": "半年度經營現金流"
+            },
+            {
+              "id": "m4",
+              "label": "營收較同期成長"
+            },
+            {
+              "id": "m5",
+              "label": "歸屬股東利潤較同期成長"
+            },
+            {
+              "id": "m6",
+              "label": "經營現金流較同期成長"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
