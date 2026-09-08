@@ -1,43 +1,53 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-09-08T00:25:26.972Z",
-  "generatedAt": "2026-09-08T00:28:40.489Z",
+  "cutoffAt": "2026-09-08T05:58:11.886Z",
+  "generatedAt": "2026-09-08T06:01:59.911Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Federal Reserve Bank of St. Louis, large-cap index series",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Zscaler SEC earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm"
     },
     {
       "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis, Nasdaq Composite index series",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "Zscaler SEC current report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
     },
     {
       "id": "src3",
-      "label": "Investing.com, CSI Three Hundred historical data",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "BYD mainland exchange filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531834.PDF"
     },
     {
       "id": "src4",
-      "label": "Xinhua, Chinese market close",
-      "url": "https://english.news.cn/20260907/a431392d4b8c4821a99a18d895b33c7d/c.html"
+      "label": "China official manufacturing survey",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260831_1965154.html"
     },
     {
       "id": "src5",
-      "label": "Bureau of Labor Statistics, archived employment release",
-      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+      "label": "Apogee SEC acquisition release",
+      "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000087/ex991-apogacquisitionann.htm"
     },
     {
       "id": "src6",
-      "label": "WEC Energy Group, investor update filed with the Securities and Exchange Commission",
-      "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000099/a092026septemberfinal002.htm"
+      "label": "S&P Five Hundred FRED close",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src7",
-      "label": "Baidu investor-relations release",
-      "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-inclusion-its-class-ordinary-shares-shenzhen"
+      "label": "Nasdaq Composite FRED close",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+    },
+    {
+      "id": "src8",
+      "label": "Xinhua Finance mainland closing report",
+      "url": "https://www.cnfin.com/yw-lb/detail/20260907/4466142_1.html"
+    },
+    {
+      "id": "src9",
+      "label": "CSI Three Hundred historical close",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
     }
   ],
   "markets": [
@@ -48,7 +58,7 @@
       "previousClose": 7747.71,
       "changePercent": -0.3757,
       "sourceIds": [
-        "src1"
+        "src6"
       ]
     },
     {
@@ -58,18 +68,16 @@
       "previousClose": 26584.06,
       "changePercent": -0.2899,
       "sourceIds": [
-        "src2"
+        "src7"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-09-07",
-      "close": 3932.7,
+      "sessionDate": null,
+      "close": null,
       "previousClose": null,
-      "changePercent": 0.07,
-      "sourceIds": [
-        "src4"
-      ]
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
@@ -78,7 +86,7 @@
       "previousClose": 4548.05,
       "changePercent": 0.593,
       "sourceIds": [
-        "src3"
+        "src9"
       ]
     }
   ],
@@ -86,110 +94,115 @@
     {
       "id": "f1",
       "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-09-04",
-      "company": null,
+      "category": "earnings",
+      "publishedOn": "2026-09-03",
+      "company": {
+        "name": "Zscaler",
+        "ticker": "ZS",
+        "exchange": "Nasdaq"
+      },
       "metrics": [
         {
           "id": "m1",
-          "value": 162000,
-          "unit": "count",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-08-31",
+          "value": 898200000,
+          "unit": "USD",
+          "periodStart": "2026-05-01",
+          "periodEnd": "2026-07-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src1"
           ],
-          "evidence": "The establishment survey summary reports the monthly change in total nonfarm payroll employment."
+          "evidence": "Exhibit results bullets and consolidated operations table report quarterly revenue."
         },
         {
           "id": "m2",
-          "value": 4.1,
-          "unit": "percent",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-08-31",
+          "value": -3369000,
+          "unit": "USD",
+          "periodStart": "2026-05-01",
+          "periodEnd": "2026-07-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src1"
           ],
-          "evidence": "The release summary and household survey report the monthly unemployment rate."
+          "evidence": "Consolidated operations table reports GAAP net loss for the quarter."
         },
         {
           "id": "m3",
-          "value": 37.75,
+          "value": 279285000,
           "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-08-31",
+          "periodStart": "2026-05-01",
+          "periodEnd": "2026-07-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Results bullets and cash-flow statement report cash provided by operating activities."
+        },
+        {
+          "id": "m4",
+          "value": 25,
+          "unit": "percent",
+          "periodStart": "2026-05-01",
+          "periodEnd": "2026-07-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Release headline and results bullets report year-on-year revenue growth."
+        },
+        {
+          "id": "m5",
+          "value": 3,
+          "unit": "percent",
+          "periodStart": "2026-09-01",
+          "periodEnd": "2026-09-01",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Form current report exit-activities disclosure states the expected worldwide headcount reduction."
+        }
+      ],
+      "sourceIds": [
+        "src1",
+        "src2"
+      ],
+      "evidence": "The earnings exhibit reports quarterly accounting and cash results; the current report separately records a restructuring to reallocate resources toward artificial-intelligence and growth initiatives, with estimated charges disclosed in the same item."
+    },
+    {
+      "id": "f4",
+      "market": "us",
+      "category": "company",
+      "publishedOn": "2026-09-02",
+      "company": {
+        "name": "Apogee Enterprises",
+        "ticker": "APOG",
+        "exchange": "Nasdaq"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 72500000,
+          "unit": "USD",
+          "periodStart": "2026-09-02",
+          "periodEnd": "2026-09-02",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src5"
           ],
-          "evidence": "Table B-three reports average hourly earnings for private nonfarm employees."
-        },
-        {
-          "id": "m4",
-          "value": 3.1,
-          "unit": "percent",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-08-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "The earnings discussion reports the change in average hourly earnings over the year."
+          "evidence": "SEC exhibit announcement states maximum transaction consideration for GroGlass, including contingent consideration."
         }
       ],
       "sourceIds": [
         "src5"
       ],
-      "evidence": "The archived employment release reports payroll growth, unemployment, wages, and revisions to earlier months in the summary and establishment survey sections."
-    },
-    {
-      "id": "f2",
-      "market": "us",
-      "category": "company",
-      "publishedOn": "2026-09-04",
-      "company": {
-        "name": "WEC Energy Group",
-        "ticker": "WEC",
-        "exchange": "NYSE"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 37500000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2030-12-31",
-          "comparison": "level",
-          "basis": "guidance",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The investor presentation capital-plan slides show projected spending across electric transmission, gas distribution, electric distribution, liquefied natural gas capacity, and generation."
-        },
-        {
-          "id": "m2",
-          "value": 5.56,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-12-31",
-          "comparison": "level",
-          "basis": "guidance",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The earnings slide identifies the midpoint of the full-year adjusted earnings-per-share outlook."
-        }
-      ],
-      "sourceIds": [
-        "src6"
-      ],
-      "evidence": "The filed investor presentation describes a regulated utility expanding generation, transmission, storage, and large-customer capacity while seeking regulatory approvals."
+      "evidence": "The SEC exhibit records a definitive agreement to acquire a European coated-materials supplier and separately describes management projections for post-closing revenue, margin, and synergies; those projections are not included as realized financial metrics."
     }
   ],
   "locales": {
@@ -197,396 +210,396 @@
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Employment stayed firm enough to complicate rate expectations",
-          "summary": "The latest US labor report showed continued hiring and steady unemployment, with wage growth still positive.",
-          "impact": "A resilient labor market can support household income but may keep borrowing costs higher if policymakers see less need to ease financial conditions.",
-          "what": "The report covers August employment and combines establishment and household surveys. It also revised the prior two months upward.",
-          "why": "More employment supports consumer spending, while firmer wages can sustain service inflation and influence interest-rate decisions affecting mortgages, credit, and business financing.",
-          "uncertainty": "The report is one monthly observation, and payroll estimates are revised as more employer data arrive.",
-          "watch": "Watch subsequent inflation, labor-demand, and central-bank communications for confirmation of whether labor resilience persists.",
+          "title": "Cloud security growth remained strong as Zscaler began restructuring",
+          "summary": "Zscaler reported strong revenue growth and positive operating cash flow while announcing a workforce reduction to redirect resources toward artificial intelligence and growth initiatives.",
+          "impact": "The filing combination shows continued commercial expansion alongside a deliberate cost and capacity reshaping effort.",
+          "what": "Zscaler provides cloud security through its Zero Trust platform, connecting users, devices, workloads, and applications. The reported quarter produced strong revenue growth, a smaller GAAP loss than the comparable quarter, and substantial operating cash flow. The restructuring is a separate forward-looking action rather than a realized financial result.",
+          "why": "For business customers, cloud security supports access control and protection of distributed applications and workloads. For financial analysis, the key distinction is positive operating cash flow despite a GAAP loss, while restructuring charges may affect near-term comparability.",
+          "uncertainty": "The workforce reduction and estimated charges depend on management assumptions, and the filing does not establish that the reallocated resources will accelerate growth. Operating cash flow can also vary with billing and deferred-revenue timing.",
+          "watch": "Watch the next quarterly filing for restructuring charges, headcount effects, revenue growth excluding acquisitions, and operating cash-flow continuity.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Payroll change"
+              "label": "Quarterly revenue"
             },
             {
               "id": "m2",
-              "label": "Unemployment rate"
+              "label": "Quarterly GAAP net loss"
             },
             {
               "id": "m3",
-              "label": "Average hourly earnings"
+              "label": "Quarterly operating cash flow"
             },
             {
               "id": "m4",
-              "label": "Hourly earnings growth"
+              "label": "Quarterly revenue growth"
+            },
+            {
+              "id": "m5",
+              "label": "Planned workforce reduction"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "WEC outlines a large regulated investment cycle",
-          "summary": "The utility presented an expansion plan centered on grid infrastructure, generation, storage, and new large-load customers.",
-          "impact": "The plan could increase long-term rate-base growth and power capacity, while requiring substantial external financing and regulatory execution.",
-          "what": "WEC's investor update links future demand to data centers and regional economic growth, while retaining a mix of gas, nuclear, renewable, storage, and transmission investments.",
-          "why": "Regulated capital spending can create future earnings through approved rates, but construction costs, financing needs, customer commitments, and regulator decisions determine how much value reaches shareholders or customers.",
-          "uncertainty": "The presentation contains guidance and proposed projects rather than realized results; several investments depend on approvals and customer execution.",
-          "watch": "Watch state rate decisions, project approvals, financing actions, and evidence that large-load demand converts into contracted revenue.",
+          "id": "f4",
+          "title": "Apogee agreed to expand specialty coatings through a European acquisition",
+          "summary": "Apogee agreed to acquire GroGlass, a European supplier of coated glass and polymer solutions used in display, architectural, and technical applications.",
+          "impact": "The transaction broadens Apogee’s materials and geographic capabilities but creates execution, financing, and integration risks before projected benefits are realized.",
+          "what": "Apogee supplies architectural building products and high-performance coated materials. GroGlass specializes in advanced surface coatings and materials science, and Apogee plans to add the business to its Performance Surfaces segment.",
+          "why": "The acquisition could broaden Apogee’s technology base and cross-selling opportunities while giving customers a wider supplier for optical and architectural applications. The deal’s value depends on closing, integration, and the target’s post-closing performance.",
+          "uncertainty": "The revenue, margin, and synergy figures in the announcement are management projections rather than realized results. Closing remains subject to customary conditions, and contingent consideration depends on financial targets.",
+          "watch": "Watch subsequent filings for closing completion, purchase accounting, financing effects, acquired revenue, and realized operating improvements.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Capital plan"
-            },
-            {
-              "id": "m2",
-              "label": "Adjusted earnings guidance midpoint"
+              "label": "Maximum transaction consideration"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道范围有限。部分市场没有经核实的新故事；有日期的报告仍会明确标注。",
+      "status": "本期已核实覆盖有限。部分市场没有已核实的新故事；有日期标注的报告仍清楚标明其日期。",
       "marketSummary": {
-        "us": "所跟踪的两个指数在最近经核实的交易时段均下跌。有日期的收盘数据描述的是相应交易时段，而非当前交易。",
-        "cn": "所跟踪的两个指数在最近经核实的交易时段均上涨。有日期的收盘数据描述的是相应交易时段，而非当前交易。"
+        "us": "所跟踪指数在最近已核实交易时段均下跌。有日期标注的收盘数据描述的是相应交易时段，而非当前交易。",
+        "cn": "部分收盘观察无法核实。每个可用指数均保留其自身交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "就业保持稳健，使利率预期更加复杂",
-          "summary": "最新美国劳动力报告显示，就业人数继续增加，失业率保持稳定，工资增速仍为正。",
-          "impact": "有韧性的劳动力市场可以支撑家庭收入，但如果政策制定者认为没有那么需要放松金融条件，借贷成本可能保持较高水平。",
-          "what": "该报告涵盖本期就业情况，并结合企业调查和住户调查；此前月份的数据也被上调。",
-          "why": "就业增加有助于支持消费支出，而较为坚挺的工资可能延续服务业通胀，并影响利率决策，进而影响住房贷款、信贷和企业融资。",
-          "uncertainty": "这份报告只是单个月度观察，随着更多雇主数据到来，非农就业人数估算还会被修订。",
-          "watch": "关注后续通胀、劳动力需求和央行沟通，以确认劳动力市场的韧性是否持续。",
+          "title": "云安全业务增长保持强劲，Zscaler 启动重组",
+          "summary": "Zscaler 报告营收强劲增长和正的经营现金流，同时宣布裁减员工，以将资源重新投向人工智能和增长计划。",
+          "impact": "这些申报信息表明，公司商业扩张仍在继续，同时也在有意调整成本结构和业务能力配置。",
+          "what": "Zscaler 通过其零信任平台提供云安全服务，连接用户、设备、工作负载和应用程序。报告期实现营收强劲增长，按 GAAP 口径的亏损较可比季度收窄，并产生可观的经营现金流。重组是独立的前瞻性行动，并非已经实现的财务结果。",
+          "why": "对于企业客户而言，云安全有助于管理访问权限，并保护分散式应用程序和工作负载。对于财务分析而言，关键区别在于公司在 GAAP 口径亏损的同时仍有正的经营现金流；重组费用可能影响近期业绩的可比性。",
+          "uncertainty": "裁员规模和预计费用取决于管理层假设，申报文件并未证明重新配置资源将加快增长。经营现金流也可能受到开票和递延收入时点影响而波动。",
+          "watch": "关注下一份季度申报文件中的重组费用、员工人数影响、剔除收购影响后的营收增长，以及经营现金流是否持续。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非农就业人数变动"
+              "label": "季度营收"
             },
             {
               "id": "m2",
-              "label": "失业率"
+              "label": "季度 GAAP 净亏损"
             },
             {
               "id": "m3",
-              "label": "平均时薪"
+              "label": "季度经营现金流"
             },
             {
               "id": "m4",
-              "label": "时薪增速"
+              "label": "季度营收增长"
+            },
+            {
+              "id": "m5",
+              "label": "计划裁员规模"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "WEC描绘大规模受监管投资周期",
-          "summary": "这家公用事业公司公布了一项扩张计划，重点包括电网基础设施、发电、储能和新的大型用电客户。",
-          "impact": "该计划可能推动长期费率基数增长和电力供应能力提升，同时需要大量外部融资，并依赖监管执行。",
-          "what": "WEC的投资者更新将未来需求与数据中心和区域经济增长联系起来，同时保留燃气、核能、可再生能源、储能和输电等多种投资组合。",
-          "why": "受监管资本支出可以通过获批费率创造未来盈利，但建设成本、融资需求、客户承诺和监管机构决定，将影响多少价值最终惠及股东或客户。",
-          "uncertainty": "这份演示材料包含指引和拟议项目，而非已经实现的结果；多项投资取决于审批和客户执行。",
-          "watch": "关注州级费率决定、项目审批、融资行动，以及大型用电需求是否转化为签约营收。",
+          "id": "f4",
+          "title": "Apogee 同意通过欧洲收购扩大特种涂层业务",
+          "summary": "Apogee 同意收购欧洲涂层玻璃及聚合物解决方案供应商 GroGlass，其产品用于显示、建筑和技术应用。",
+          "impact": "这项交易将拓展 Apogee 的材料和地域能力，但在预期收益实现前也会带来执行、融资和整合风险。",
+          "what": "Apogee 供应建筑产品和高性能涂层材料。GroGlass 专注于先进表面涂层和材料科学，Apogee 计划将该业务纳入其高性能表面材料部门。",
+          "why": "这项收购可能拓展 Apogee 的技术基础和交叉销售机会，并让客户在光学和建筑应用方面获得更广泛的供应来源。交易价值取决于完成交割、整合情况以及标的公司交割后的表现。",
+          "uncertainty": "公告中的营收、利润率和协同效应数据属于管理层预测，而非已经实现的结果。交割仍须满足惯常条件，或有对价取决于财务目标。",
+          "watch": "关注后续申报文件中的交割完成情况、购买会计处理、融资影响、收购带来的营收，以及实际实现的经营改善。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "资本计划"
-            },
-            {
-              "id": "m2",
-              "label": "调整后盈利指引中点"
+              "label": "最高交易对价"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont pas de nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
+      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne présentent aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
       "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+        "us": "Les deux indices suivis ont baissé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "L’emploi est resté suffisamment solide pour compliquer les anticipations de taux",
-          "summary": "Le dernier rapport américain sur l’emploi fait état de créations d’emplois persistantes et d’un chômage stable, tandis que la croissance des salaires reste positive.",
-          "impact": "Un marché du travail résilient peut soutenir les revenus des ménages, mais maintenir les coûts d’emprunt à un niveau élevé si les responsables estiment moins nécessaire d’assouplir les conditions financières.",
-          "what": "Le rapport porte sur l’emploi d’août et combine les enquêtes auprès des établissements et des ménages. Il a également révisé à la hausse les estimations des périodes précédentes.",
-          "why": "Une hausse de l’emploi soutient les dépenses de consommation, tandis que des salaires plus fermes peuvent entretenir l’inflation des services et influencer les décisions de taux d’intérêt, qui affectent les prêts immobiliers, le crédit et le financement des entreprises.",
-          "uncertainty": "Le rapport ne constitue qu’une observation mensuelle, et les estimations de l’emploi salarié sont révisées à mesure que de nouvelles données des employeurs deviennent disponibles.",
-          "watch": "Surveiller l’inflation à venir, la demande de travail et les communications des banques centrales afin de confirmer la persistance de la résilience de l’emploi.",
+          "title": "La croissance de la sécurité cloud reste forte alors que Zscaler lance une restructuration",
+          "summary": "Zscaler a annoncé une forte croissance de son chiffre d’affaires et un flux de trésorerie d’exploitation positif, tout en annonçant une réduction des effectifs pour réorienter ses ressources vers l’intelligence artificielle et des initiatives de croissance.",
+          "impact": "Ces informations montrent une poursuite de l’expansion commerciale, parallèlement à un effort volontaire de réorganisation des coûts et des capacités.",
+          "what": "Zscaler fournit des services de sécurité cloud via sa plateforme Zero Trust, qui relie les utilisateurs, les appareils, les charges de travail et les applications. Le trimestre présenté affiche une forte croissance du chiffre d’affaires, une perte nette GAAP inférieure à celle du trimestre comparable et un flux de trésorerie d’exploitation important. La restructuration est une mesure distincte tournée vers l’avenir, et non un résultat financier déjà réalisé.",
+          "why": "Pour les entreprises clientes, la sécurité cloud facilite le contrôle des accès et la protection des applications et charges de travail distribuées. Pour l’analyse financière, le point essentiel est l’existence d’un flux de trésorerie d’exploitation positif malgré une perte nette GAAP, tandis que les coûts de restructuration peuvent nuire à la comparabilité à court terme.",
+          "uncertainty": "La réduction des effectifs et l’estimation des charges dépendent des hypothèses de la direction. Le document ne montre pas que les ressources réaffectées accéléreront la croissance. Le flux de trésorerie d’exploitation peut aussi varier selon le calendrier des facturations et des produits constatés d’avance.",
+          "watch": "Surveillez le prochain rapport trimestriel pour connaître les charges de restructuration, les effets sur les effectifs, la croissance du chiffre d’affaires hors acquisitions et la continuité du flux de trésorerie d’exploitation.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variation de l’emploi salarié"
+              "label": "Chiffre d’affaires trimestriel"
             },
             {
               "id": "m2",
-              "label": "Taux de chômage"
+              "label": "Perte nette GAAP trimestrielle"
             },
             {
               "id": "m3",
-              "label": "Rémunération horaire moyenne"
+              "label": "Flux de trésorerie d’exploitation trimestriel"
             },
             {
               "id": "m4",
-              "label": "Croissance de la rémunération horaire"
+              "label": "Croissance trimestrielle du chiffre d’affaires"
+            },
+            {
+              "id": "m5",
+              "label": "Réduction prévue des effectifs"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "WEC présente un important cycle d’investissements réglementés",
-          "summary": "Le groupe énergétique a présenté un plan d’expansion axé sur les infrastructures du réseau, la production, le stockage et de nouveaux grands clients consommateurs d’électricité.",
-          "impact": "Le plan pourrait accroître la croissance à long terme de la base tarifaire et les capacités électriques, tout en nécessitant un financement externe important et une bonne exécution réglementaire.",
-          "what": "La présentation aux investisseurs de WEC relie la demande future aux centres de données et à la croissance économique régionale, tout en conservant une combinaison d’investissements dans le gaz, le nucléaire, les énergies renouvelables, le stockage et le transport d’électricité.",
-          "why": "Les dépenses d’investissement réglementées peuvent créer de futurs bénéfices grâce aux tarifs approuvés, mais les coûts de construction, les besoins de financement, les engagements des clients et les décisions des autorités de régulation déterminent la part de valeur revenant aux actionnaires ou aux clients.",
-          "uncertainty": "La présentation contient des prévisions et des projets proposés plutôt que des résultats réalisés ; plusieurs investissements dépendent d’autorisations et de la concrétisation des engagements des clients.",
-          "watch": "Surveiller les décisions tarifaires des États, les autorisations de projets, les opérations de financement et les signes indiquant que la demande des grands consommateurs se transforme en revenus contractuels.",
+          "id": "f4",
+          "title": "Apogee a accepté de développer ses revêtements spécialisés grâce à une acquisition européenne",
+          "summary": "Apogee a accepté d’acquérir GroGlass, un fournisseur européen de verre revêtu et de solutions en polymères utilisés dans les applications d’affichage, d’architecture et les applications techniques.",
+          "impact": "L’opération élargit les capacités matérielles et géographiques d’Apogee, mais crée des risques d’exécution, de financement et d’intégration avant la réalisation des bénéfices attendus.",
+          "what": "Apogee fournit des produits de construction architecturaux et des matériaux revêtus haute performance. GroGlass est spécialisé dans les revêtements de surface avancés et la science des matériaux. Apogee prévoit d’intégrer cette activité à son segment Performance Surfaces.",
+          "why": "L’acquisition pourrait élargir la base technologique d’Apogee et les possibilités de ventes croisées, tout en offrant aux clients un fournisseur plus complet pour les applications optiques et architecturales. La valeur de l’opération dépend de sa finalisation, de l’intégration et des résultats de la cible après la clôture.",
+          "uncertainty": "Les chiffres de chiffre d’affaires, de marge et de synergies annoncés sont des projections de la direction et non des résultats réalisés. La finalisation reste soumise aux conditions habituelles, et la contrepartie éventuelle dépend d’objectifs financiers.",
+          "watch": "Surveillez les prochains documents publiés pour vérifier la finalisation, la comptabilisation de l’acquisition, les effets du financement, le chiffre d’affaires acquis et les améliorations opérationnelles réalisées.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Plan d’investissement"
-            },
-            {
-              "id": "m2",
-              "label": "Point médian des prévisions de bénéfice ajusté"
+              "label": "Contrepartie maximale de l’opération"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes fechados siguen claramente identificados.",
+      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes con fecha siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
-        "cn": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
+        "us": "Ambos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
+        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "El empleo se mantuvo firme y complicó las expectativas sobre los tipos",
-          "summary": "El último informe laboral de Estados Unidos mostró una contratación continua y un desempleo estable, mientras el crecimiento salarial siguió siendo positivo.",
-          "impact": "Un mercado laboral resistente puede respaldar los ingresos de los hogares, pero también mantener más altos los costes de endeudamiento si las autoridades consideran menos necesario relajar las condiciones financieras.",
-          "what": "El informe cubre el empleo de agosto y combina encuestas a empresas y hogares. También revisó al alza los datos de los meses anteriores.",
-          "why": "Un mayor empleo respalda el gasto de los consumidores, mientras que unos salarios más firmes pueden mantener la inflación de los servicios e influir en las decisiones sobre tipos de interés que afectan a hipotecas, crédito y financiación empresarial.",
-          "uncertainty": "El informe ofrece una observación mensual, y las estimaciones de empleo se revisan cuando llegan más datos de los empleadores.",
-          "watch": "Conviene seguir la inflación posterior, la demanda de trabajo y las comunicaciones de los bancos centrales para confirmar si la fortaleza laboral continúa.",
+          "title": "El crecimiento de la seguridad en la nube siguió siendo sólido mientras Zscaler inició una reestructuración",
+          "summary": "Zscaler informó un fuerte crecimiento de los ingresos y un flujo de caja operativo positivo, al tiempo que anunció una reducción de personal para redirigir recursos hacia la inteligencia artificial y las iniciativas de crecimiento.",
+          "impact": "La combinación de información presentada muestra una expansión comercial continua junto con un esfuerzo deliberado para reajustar costos y capacidad.",
+          "what": "Zscaler ofrece seguridad en la nube mediante su plataforma Zero Trust, que conecta usuarios, dispositivos, cargas de trabajo y aplicaciones. El trimestre informado produjo un fuerte crecimiento de los ingresos, una pérdida GAAP menor que en el trimestre comparable y un flujo de caja operativo considerable. La reestructuración es una acción independiente orientada al futuro, no un resultado financiero ya realizado.",
+          "why": "Para los clientes empresariales, la seguridad en la nube ayuda a controlar el acceso y proteger aplicaciones y cargas de trabajo distribuidas. Para el análisis financiero, la distinción clave es el flujo de caja operativo positivo pese a una pérdida GAAP, mientras que los gastos de reestructuración pueden afectar la comparabilidad a corto plazo.",
+          "uncertainty": "La reducción de personal y los cargos estimados dependen de los supuestos de la dirección, y la información presentada no demuestra que los recursos redistribuidos aceleren el crecimiento. El flujo de caja operativo también puede variar según el momento de la facturación y de los ingresos diferidos.",
+          "watch": "Conviene revisar la próxima presentación trimestral para observar los cargos de reestructuración, los efectos sobre la plantilla, el crecimiento de los ingresos excluyendo adquisiciones y la continuidad del flujo de caja operativo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variación de las nóminas"
+              "label": "Ingresos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Tasa de desempleo"
+              "label": "Pérdida neta GAAP trimestral"
             },
             {
               "id": "m3",
-              "label": "Ingresos medios por hora"
+              "label": "Flujo de caja operativo trimestral"
             },
             {
               "id": "m4",
-              "label": "Crecimiento de los ingresos por hora"
+              "label": "Crecimiento trimestral de los ingresos"
+            },
+            {
+              "id": "m5",
+              "label": "Reducción de personal prevista"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "WEC presenta un amplio ciclo de inversión regulada",
-          "summary": "La compañía eléctrica presentó un plan de expansión centrado en infraestructura de red, generación, almacenamiento y nuevos grandes consumidores de electricidad.",
-          "impact": "El plan podría aumentar a largo plazo el crecimiento de la base tarifaria y la capacidad eléctrica, aunque exigiría una financiación externa considerable y una ejecución regulatoria eficaz.",
-          "what": "La actualización para inversores de WEC vincula la demanda futura con los centros de datos y el crecimiento económico regional, manteniendo una combinación de inversiones en gas, energía nuclear, renovables, almacenamiento y transmisión.",
-          "why": "El gasto de capital regulado puede generar beneficios futuros mediante tarifas aprobadas, pero los costes de construcción, las necesidades de financiación, los compromisos de los clientes y las decisiones de los reguladores determinan cuánto valor llega a los accionistas o a los clientes.",
-          "uncertainty": "La presentación contiene previsiones y proyectos propuestos, no resultados realizados; varias inversiones dependen de aprobaciones y de la ejecución de los clientes.",
-          "watch": "Conviene seguir las decisiones tarifarias estatales, las aprobaciones de proyectos, las operaciones de financiación y las pruebas de que la demanda de grandes consumidores se convierte en ingresos contratados.",
+          "id": "f4",
+          "title": "Apogee acordó ampliar sus recubrimientos especializados mediante una adquisición europea",
+          "summary": "Apogee acordó adquirir GroGlass, un proveedor europeo de vidrio recubierto y soluciones de polímeros utilizadas en aplicaciones de pantallas, arquitectura y sectores técnicos.",
+          "impact": "La operación amplía las capacidades materiales y geográficas de Apogee, pero genera riesgos de ejecución, financiación e integración antes de que se concreten los beneficios previstos.",
+          "what": "Apogee suministra productos arquitectónicos para la construcción y materiales recubiertos de alto rendimiento. GroGlass se especializa en recubrimientos avanzados de superficies y ciencia de materiales, y Apogee planea incorporar el negocio a su segmento Performance Surfaces.",
+          "why": "La adquisición podría ampliar la base tecnológica de Apogee y las oportunidades de venta cruzada, además de ofrecer a los clientes un proveedor más amplio para aplicaciones ópticas y arquitectónicas. El valor de la operación depende del cierre, la integración y el desempeño de la empresa adquirida después del cierre.",
+          "uncertainty": "Las cifras de ingresos, margen y sinergias anunciadas son proyecciones de la dirección, no resultados realizados. El cierre sigue sujeto a las condiciones habituales, y la contraprestación contingente depende de objetivos financieros.",
+          "watch": "Conviene revisar las presentaciones posteriores para confirmar el cierre, la contabilidad de la compra, los efectos de la financiación, los ingresos adquiridos y las mejoras operativas realizadas.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Plan de inversiones"
-            },
-            {
-              "id": "m2",
-              "label": "Punto medio de la previsión de beneficios ajustados"
+              "label": "Contraprestación máxima de la operación"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できる情報は限定的です。一部の市場には確認済みの新しいニュースがなく、日付付きの報告は対象期間を明確に示しています。",
+      "status": "この版で確認できた情報は限定的です。新たな確認済みニュースがない市場もあり、過去の日付の報告は明確に区別しています。",
       "marketSummary": {
-        "us": "追跡対象の指数はいずれも、直近の確認済み取引で下落しました。日付付きの終値はその取引を示すもので、現在の取引状況ではありません。",
-        "cn": "追跡対象の指数はいずれも、直近の確認済み取引で上昇しました。日付付きの終値はその取引を示すもので、現在の取引状況ではありません。"
+        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。記載された終値はその取引時点のもので、現在の取引状況ではありません。",
+        "cn": "一部の終値は確認できませんでした。利用可能な各指数には、それぞれの取引日を付けています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "雇用の堅調さが利下げ見通しを複雑にしている",
-          "summary": "直近の米国雇用統計では、雇用の増加が続き、失業率も安定していました。賃金の伸びもプラスを維持しています。",
-          "impact": "底堅い労働市場は家計所得を支える一方、政策当局が金融環境を緩和する必要性が小さいと判断すれば、借入コストが高止まりする可能性があります。",
-          "what": "この統計は報告対象月の雇用を示し、事業所調査と家計調査を組み合わせています。過去の雇用統計も上方修正されました。",
-          "why": "雇用の増加は個人消費を支え、賃金の底堅さはサービスインフレを長引かせる可能性があります。また、住宅ローン、信用、企業融資に影響する金利判断にも影響します。",
-          "uncertainty": "この統計は月次の一時点の結果であり、雇用主からの追加データを受けて雇用者数の推計が修正されます。",
-          "watch": "労働市場の底堅さが続いているかを確認するため、今後のインフレ、労働需要、中央銀行の発言に注目します。",
+          "title": "ゼットスケーラー、事業再編を開始する一方でクラウドセキュリティの成長は堅調",
+          "summary": "ゼットスケーラーは、堅調な増収とプラスの営業キャッシュフローを報告するとともに、人工知能や成長施策へ資源を振り向けるため、人員削減を発表しました。",
+          "impact": "この発表の組み合わせは、商業面での拡大が続く一方、コストと事業能力を意図的に見直していることを示しています。",
+          "what": "ゼットスケーラーは、利用者、端末、業務負荷、アプリケーションを接続するゼロトラスト基盤を通じて、クラウドセキュリティを提供しています。当四半期は堅調な増収となり、前年同期よりGAAPベースの損失が縮小し、営業キャッシュフローも大幅なプラスとなりました。今回の再編は、実現済みの財務結果ではなく、別途発表された将来に向けた施策です。",
+          "why": "法人顧客にとって、クラウドセキュリティは分散したアプリケーションや業務負荷へのアクセス管理と保護を支えます。財務分析では、GAAPベースで損失が出ている一方、営業キャッシュフローがプラスである点が重要です。また、再編費用は短期的な比較可能性に影響する可能性があります。",
+          "uncertainty": "人員削減や見積もり費用は経営陣の前提に左右されます。また、資源の再配分が成長を加速させることを、この発表だけで確認することはできません。営業キャッシュフローも、請求や繰延収益の計上時期によって変動する可能性があります。",
+          "watch": "次回の四半期報告では、再編費用、人員数への影響、買収を除いた売上成長、営業キャッシュフローの継続性を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農業部門雇用者数の変化"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "失業率"
+              "label": "四半期GAAPベース純損失"
             },
             {
               "id": "m3",
-              "label": "平均時給"
+              "label": "四半期営業キャッシュフロー"
             },
             {
               "id": "m4",
-              "label": "時給の伸び率"
+              "label": "四半期売上成長率"
+            },
+            {
+              "id": "m5",
+              "label": "予定人員削減数"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "WECが大規模な規制事業投資サイクルを示す",
-          "summary": "この公益企業は、送電網インフラ、発電、蓄電、将来の大口需要家を中心とする拡張計画を示しました。",
-          "impact": "この計画は長期的な規制料金算定基盤と電力供給能力の拡大につながる可能性がある一方、大規模な外部資金調達と規制対応の実行を必要とします。",
-          "what": "WECの投資家向け説明では、データセンターと地域経済の成長を将来の需要と結び付けています。同時に、ガス、原子力、再生可能エネルギー、蓄電、送電への投資を組み合わせています。",
-          "why": "規制対象の設備投資は、承認された料金を通じて将来の利益を生む可能性があります。ただし、建設費、資金需要、顧客との契約、規制当局の判断によって、株主や顧客にどれだけ価値が届くかが決まります。",
-          "uncertainty": "この説明には実績ではなく、見通しや計画中の案件が含まれています。複数の投資は承認と顧客側の実行に左右されます。",
-          "watch": "州当局による料金判断、案件の承認、資金調達の動き、大口需要が契約済みの収益に転換している証拠に注目します。",
+          "id": "f4",
+          "title": "アポジー、欧州企業の買収で特殊コーティング事業を拡大へ",
+          "summary": "アポジーは、ディスプレー、建築、技術用途向けのコーティングガラスやポリマーソリューションを供給する欧州企業グログラスの買収に合意しました。",
+          "impact": "この取引により、アポジーの素材分野と地域面での能力は広がりますが、想定される効果が実現するまでには、実行、資金調達、統合に関するリスクがあります。",
+          "what": "アポジーは、建築用製品と高性能コーティング素材を供給しています。グログラスは高度な表面コーティングと材料科学を専門としており、アポジーは同社をパフォーマンス・サーフェス部門に加える計画です。",
+          "why": "この買収により、アポジーの技術基盤や相互販売の機会が広がり、光学用途や建築用途の顧客に、より幅広い供給元を提供できる可能性があります。ただし、取引の価値は、買収完了、統合、買収対象会社の完了後の業績に左右されます。",
+          "uncertainty": "発表に含まれる売上高、利益率、相乗効果の数値は、実現済みの結果ではなく経営陣の予測です。買収完了には通常の条件があり、追加対価は財務目標の達成度に左右されます。",
+          "watch": "今後の開示では、買収完了、取得会計、資金調達の影響、買収対象会社の売上高、実現した事業改善を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "設備投資計画"
-            },
-            {
-              "id": "m2",
-              "label": "調整後利益見通しの中央値"
+              "label": "取引対価の上限"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios datados continuam claramente identificados.",
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados permanecem claramente identificados.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados subiram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+        "us": "Os dois índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "O emprego permaneceu firme, complicando as expectativas sobre juros",
-          "summary": "O relatório trabalhista mais recente dos Estados Unidos mostrou continuidade das contratações e desemprego estável, com crescimento dos salários ainda positivo.",
-          "impact": "Um mercado de trabalho resiliente pode sustentar a renda das famílias, mas manter os custos de empréstimos elevados se os formuladores de política monetária perceberem menos necessidade de aliviar as condições financeiras.",
-          "what": "O relatório cobre o emprego de agosto e combina pesquisas com empresas e famílias. Também revisou para cima os dados de períodos anteriores.",
-          "why": "Mais empregos sustentam os gastos dos consumidores, enquanto salários mais firmes podem manter a inflação de serviços e influenciar decisões sobre juros que afetam hipotecas, crédito e financiamento empresarial.",
-          "uncertainty": "O relatório é uma observação mensal, e as estimativas de emprego são revisadas à medida que chegam mais dados dos empregadores.",
-          "watch": "Acompanhe os próximos dados de inflação e de demanda por trabalho, além das comunicações dos bancos centrais, para confirmar se a resiliência do mercado de trabalho persiste.",
+          "title": "O crescimento da segurança em nuvem permaneceu forte enquanto a Zscaler iniciou uma reestruturação",
+          "summary": "A Zscaler registrou forte crescimento da receita e fluxo de caixa operacional positivo, enquanto anunciou uma redução da força de trabalho para redirecionar recursos à inteligência artificial e a iniciativas de crescimento.",
+          "impact": "A combinação de informações divulgadas mostra expansão comercial contínua ao lado de um esforço deliberado de redimensionamento de custos e capacidade.",
+          "what": "A Zscaler oferece segurança em nuvem por meio de sua plataforma Zero Trust, conectando usuários, dispositivos, cargas de trabalho e aplicações. O trimestre divulgado apresentou forte crescimento da receita, prejuízo GAAP menor que no trimestre comparável e fluxo de caixa operacional substancial. A reestruturação é uma ação prospectiva separada, não um resultado financeiro já realizado.",
+          "why": "Para clientes empresariais, a segurança em nuvem ajuda no controle de acesso e na proteção de aplicações e cargas de trabalho distribuídas. Na análise financeira, a distinção central é o fluxo de caixa operacional positivo apesar do prejuízo GAAP, enquanto as despesas de reestruturação podem afetar a comparabilidade no curto prazo.",
+          "uncertainty": "A redução da força de trabalho e as despesas estimadas dependem das premissas da administração, e o documento divulgado não demonstra que os recursos realocados acelerarão o crescimento. O fluxo de caixa operacional também pode variar conforme o momento do faturamento e da receita diferida.",
+          "watch": "Acompanhe o próximo relatório trimestral em busca de despesas de reestruturação, efeitos sobre o quadro de funcionários, crescimento da receita excluindo aquisições e continuidade do fluxo de caixa operacional.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação do emprego não agrícola"
+              "label": "Receita trimestral"
             },
             {
               "id": "m2",
-              "label": "Taxa de desemprego"
+              "label": "Prejuízo líquido GAAP trimestral"
             },
             {
               "id": "m3",
-              "label": "Ganhos médios por hora"
+              "label": "Fluxo de caixa operacional trimestral"
             },
             {
               "id": "m4",
-              "label": "Crescimento dos ganhos por hora"
+              "label": "Crescimento da receita trimestral"
+            },
+            {
+              "id": "m5",
+              "label": "Redução planejada da força de trabalho"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "A WEC apresenta um amplo ciclo de investimentos regulados",
-          "summary": "A empresa de serviços públicos apresentou um plano de expansão centrado em infraestrutura de rede, geração, armazenamento e novos clientes de grande consumo.",
-          "impact": "O plano pode aumentar o crescimento de longo prazo da base de ativos regulados e a capacidade de geração, mas exigirá financiamento externo substancial e execução regulatória.",
-          "what": "A atualização para investidores da WEC relaciona a demanda futura a data centers e ao crescimento econômico regional, mantendo uma combinação de investimentos em gás, energia nuclear, fontes renováveis, armazenamento e transmissão.",
-          "why": "Os investimentos de capital regulados podem gerar lucros futuros por meio de tarifas aprovadas, mas os custos de construção, as necessidades de financiamento, os compromissos dos clientes e as decisões dos reguladores determinam quanto valor chegará aos acionistas ou clientes.",
-          "uncertainty": "A apresentação contém projeções e projetos propostos, não resultados realizados; vários investimentos dependem de aprovações e da execução pelos clientes.",
-          "watch": "Acompanhe as decisões tarifárias estaduais, as aprovações de projetos, as medidas de financiamento e as evidências de que a demanda de grandes consumidores se converte em receita contratada.",
+          "id": "f4",
+          "title": "A Apogee concordou em expandir os revestimentos especiais por meio de uma aquisição europeia",
+          "summary": "A Apogee concordou em adquirir a GroGlass, fornecedora europeia de vidro revestido e soluções de polímeros usadas em aplicações de displays, arquitetura e tecnologia.",
+          "impact": "A transação amplia as capacidades de materiais e o alcance geográfico da Apogee, mas cria riscos de execução, financiamento e integração antes que os benefícios projetados sejam realizados.",
+          "what": "A Apogee fornece produtos para construção arquitetônica e materiais revestidos de alto desempenho. A GroGlass é especializada em revestimentos avançados de superfície e ciência dos materiais, e a Apogee planeja incluir o negócio em seu segmento Performance Surfaces.",
+          "why": "A aquisição pode ampliar a base tecnológica da Apogee e as oportunidades de vendas cruzadas, além de oferecer aos clientes um fornecedor mais abrangente para aplicações ópticas e arquitetônicas. O valor do negócio depende da conclusão, da integração e do desempenho da adquirida após o fechamento.",
+          "uncertainty": "Os valores de receita, margem e sinergias apresentados no anúncio são projeções da administração, não resultados realizados. A conclusão continua sujeita às condições usuais, e a contraprestação contingente depende de metas financeiras.",
+          "watch": "Acompanhe os próximos documentos divulgados para verificar a conclusão, a contabilização da aquisição, os efeitos do financiamento, a receita adquirida e as melhorias operacionais realizadas.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Plano de investimentos"
-            },
-            {
-              "id": "m2",
-              "label": "Ponto médio da projeção de lucro ajustado"
+              "label": "Contraprestação máxima da transação"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期已驗證報導涵蓋有限。部分市場沒有已驗證的新消息；有日期的報告仍清楚標示為相應時段。",
+      "status": "本期已驗證涵蓋範圍有限。部分市場沒有已驗證的新故事；有日期的報告仍清楚標示為既有資料。",
       "marketSummary": {
-        "us": "追蹤指數在最近已驗證交易時段均下跌。有日期的收盤表現描述的是該時段，而非目前交易情況。",
-        "cn": "追蹤指數在最近已驗證交易時段均上漲。有日期的收盤表現描述的是該時段，而非目前交易情況。"
+        "us": "追蹤的指數在最近已驗證的交易時段均下跌。有日期的收盤資料描述的是那些交易時段，而非目前交易情況。",
+        "cn": "部分收盤觀察無法驗證。每個可取得的指數資料都保留其交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "就業維持穩健，使利率預期更加複雜",
-          "summary": "最新美國勞動報告顯示，就業持續增加，失業率保持穩定，薪資增長仍為正。",
-          "impact": "具韌性的勞動市場有助於支撐家庭收入，但若政策制定者認為沒有迫切需要放鬆金融環境，借貸成本可能維持較高。",
-          "what": "這份就業報告涵蓋該期就業情況，並結合企業調查與家庭調查；先前月份的數據也獲得上修。",
-          "why": "就業增加有助於消費支出，而較強的薪資可能延續服務通膨，並影響攸關房貸、信貸與企業融資的利率決策。",
-          "uncertainty": "這份報告只是單月觀察，且隨著更多雇主資料到位，非農就業人數估計可能修正。",
-          "watch": "留意後續通膨、勞動需求及央行官員溝通，以確認勞動市場韌性是否持續。",
+          "title": "Zscaler 開始重整之際，雲端安全業務仍維持強勁成長",
+          "summary": "Zscaler 回報營收強勁成長及正數經營現金流，同時宣布縮減員工人數，把資源重新配置至人工智慧及成長計畫。",
+          "impact": "這些申報資料合併顯示，公司持續商業擴張，同時有意調整成本與產能配置。",
+          "what": "Zscaler 透過零信任平台提供雲端安全服務，連接使用者、裝置、工作負載及應用程式。該申報季度營收強勁成長，按公認會計原則計算的虧損較可比季度縮小，並產生可觀的經營現金流。重整是另一項前瞻性行動，不代表已實現的財務結果。",
+          "why": "對企業客戶而言，雲端安全有助於控管存取，並保護分散式應用程式及工作負載。就財務分析而言，重點在於即使按公認會計原則計算出現虧損，公司仍有正數經營現金流；同時，重整費用可能影響近期業績的可比性。",
+          "uncertainty": "縮減員工人數及估計費用取決於管理層假設，而申報資料並未證明重新配置的資源將加速成長。經營現金流也可能因開票及遞延營收時點而有所變動。",
+          "watch": "留意下一次季度申報，觀察重整費用、員工人數影響、排除收購因素後的營收成長，以及經營現金流是否延續。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農就業人數變化"
+              "label": "季度營收"
             },
             {
               "id": "m2",
-              "label": "失業率"
+              "label": "季度按公認會計原則計算的淨虧損"
             },
             {
               "id": "m3",
-              "label": "平均時薪"
+              "label": "季度經營現金流"
             },
             {
               "id": "m4",
-              "label": "時薪增幅"
+              "label": "季度營收成長"
+            },
+            {
+              "id": "m5",
+              "label": "計畫中的員工縮減"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "WEC 描繪大型受監管投資週期",
-          "summary": "這家公用事業公司提出擴張計畫，重點包括電網基礎設施、發電、儲能及新的大型用電客戶。",
-          "impact": "該計畫可能推動長期受監管資產基礎成長與供電容量增加，但也需要大量外部融資及監管執行。",
-          "what": "WEC 的投資人更新資料將未來需求與資料中心及區域經濟成長連結，同時保留天然氣、核能、再生能源、儲能及輸電等多元投資組合。",
-          "why": "受監管資本支出可透過核准費率創造未來收益，但建設成本、融資需求、客戶承諾及監管機關決策，將決定有多少價值能由股東或客戶取得。",
-          "uncertainty": "簡報內容是指引與擬議中的專案，而非已實現的結果；部分投資仍取決於核准及客戶執行。",
-          "watch": "留意各州費率決策、專案核准、融資行動，以及大型用電需求轉化為合約營收的證據。",
+          "id": "f4",
+          "title": "Apogee 同意透過收購歐洲企業擴大特殊塗層業務",
+          "summary": "Apogee 同意收購 GroGlass；該公司是歐洲塗層玻璃及聚合物解決方案供應商，產品應用於顯示器、建築及技術領域。",
+          "impact": "這項交易擴大 Apogee 的材料及地理布局能力，但在預期效益實現前，也會帶來執行、融資及整合風險。",
+          "what": "Apogee 供應建築產品及高性能塗層材料。GroGlass 專注於先進表面塗層及材料科學，而 Apogee 計畫將該業務納入其高性能表面事業部。",
+          "why": "這項收購可能擴大 Apogee 的技術基礎及交叉銷售機會，並讓客戶在光學及建築應用方面擁有更廣泛的供應商選擇。交易價值取決於完成交易、整合，以及標的公司完成交易後的表現。",
+          "uncertainty": "公告中的營收、利潤率及協同效益數據是管理層預測，而非已實現的結果。交易完成仍須符合慣常條件，或有對價則取決於財務目標。",
+          "watch": "留意後續申報，觀察交易是否完成、收購會計處理、融資影響、收購業務帶來的營收，以及已實現的營運改善。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "資本支出計畫"
-            },
-            {
-              "id": "m2",
-              "label": "調整後每股盈餘指引中點"
+              "label": "最高交易對價"
             }
           ]
         }
