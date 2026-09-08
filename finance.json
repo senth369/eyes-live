@@ -1,53 +1,53 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-09-08T05:58:11.886Z",
-  "generatedAt": "2026-09-08T06:01:59.911Z",
-  "model": "gpt-5.6-luna",
+  "cutoffAt": "2026-09-08T17:16:03.298Z",
+  "generatedAt": "2026-09-08T17:32:01.539Z",
+  "model": "gpt-5.6-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Zscaler SEC earnings release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm"
-    },
-    {
-      "id": "src2",
-      "label": "Zscaler SEC current report",
-      "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
-    },
-    {
-      "id": "src3",
-      "label": "BYD mainland exchange filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531834.PDF"
-    },
-    {
-      "id": "src4",
-      "label": "China official manufacturing survey",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260831_1965154.html"
-    },
-    {
-      "id": "src5",
-      "label": "Apogee SEC acquisition release",
-      "url": "https://www.sec.gov/Archives/edgar/data/6845/000000684526000087/ex991-apogacquisitionann.htm"
-    },
-    {
-      "id": "src6",
-      "label": "S&P Five Hundred FRED close",
+      "label": "FRED S and P index series",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
-      "id": "src7",
-      "label": "Nasdaq Composite FRED close",
+      "id": "src2",
+      "label": "FRED Nasdaq Composite series",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
+      "id": "src3",
+      "label": "Xinhua Finance mainland close report",
+      "url": "https://www.cnfin.com/yw-lb/detail/20260908/4466766_1.html"
+    },
+    {
+      "id": "src4",
+      "label": "Investing CSI large-cap index history",
+      "url": "https://hk.investing.com/indices/csi300-historical-data"
+    },
+    {
+      "id": "src5",
+      "label": "ABM earnings exhibit filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/771497/000119312526384364/abm-ex99_1.htm"
+    },
+    {
+      "id": "src6",
+      "label": "United Natural Foods earnings exhibit filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1020859/000102085926000022/f26q4earningsrelease.htm"
+    },
+    {
+      "id": "src7",
+      "label": "CICC merger approval filing at the Shanghai exchange",
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-09-08/244894_20260908_PGEO.pdf"
+    },
+    {
       "id": "src8",
-      "label": "Xinhua Finance mainland closing report",
-      "url": "https://www.cnfin.com/yw-lb/detail/20260907/4466142_1.html"
+      "label": "Bureau of Labor Statistics employment release",
+      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
     },
     {
       "id": "src9",
-      "label": "CSI Three Hundred historical close",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "State Administration of Foreign Exchange reserve release",
+      "url": "https://www.safe.gov.cn/safe/2026/0907/27859.html"
     }
   ],
   "markets": [
@@ -58,7 +58,7 @@
       "previousClose": 7747.71,
       "changePercent": -0.3757,
       "sourceIds": [
-        "src6"
+        "src1"
       ]
     },
     {
@@ -68,538 +68,490 @@
       "previousClose": 26584.06,
       "changePercent": -0.2899,
       "sourceIds": [
-        "src7"
+        "src2"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": null,
-      "close": null,
+      "sessionDate": "2026-09-08",
+      "close": 3940.55,
       "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "changePercent": 0.2,
+      "sourceIds": [
+        "src3"
+      ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-09-07",
-      "close": 4575.02,
-      "previousClose": 4548.05,
-      "changePercent": 0.593,
+      "sessionDate": "2026-09-08",
+      "close": 4558.74,
+      "previousClose": 4575.02,
+      "changePercent": -0.36,
       "sourceIds": [
-        "src9"
+        "src4"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f1",
+      "id": "f4",
       "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-09-03",
-      "company": {
-        "name": "Zscaler",
-        "ticker": "ZS",
-        "exchange": "Nasdaq"
-      },
+      "category": "economy",
+      "publishedOn": "2026-09-04",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 898200000,
-          "unit": "USD",
-          "periodStart": "2026-05-01",
-          "periodEnd": "2026-07-31",
+          "value": 162000,
+          "unit": "count",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src8"
           ],
-          "evidence": "Exhibit results bullets and consolidated operations table report quarterly revenue."
+          "evidence": "Release opening and establishment-survey section report the seasonally adjusted payroll change."
         },
         {
           "id": "m2",
-          "value": -3369000,
-          "unit": "USD",
-          "periodStart": "2026-05-01",
-          "periodEnd": "2026-07-31",
+          "value": 4.1,
+          "unit": "percent",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src8"
           ],
-          "evidence": "Consolidated operations table reports GAAP net loss for the quarter."
+          "evidence": "Release opening and household-survey section report the seasonally adjusted unemployment rate."
         },
         {
           "id": "m3",
-          "value": 279285000,
-          "unit": "USD",
-          "periodStart": "2026-05-01",
-          "periodEnd": "2026-07-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Results bullets and cash-flow statement report cash provided by operating activities."
-        },
-        {
-          "id": "m4",
-          "value": 25,
+          "value": 3.1,
           "unit": "percent",
-          "periodStart": "2026-05-01",
-          "periodEnd": "2026-07-31",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src8"
           ],
-          "evidence": "Release headline and results bullets report year-on-year revenue growth."
-        },
-        {
-          "id": "m5",
-          "value": 3,
-          "unit": "percent",
-          "periodStart": "2026-09-01",
-          "periodEnd": "2026-09-01",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "Form current report exit-activities disclosure states the expected worldwide headcount reduction."
+          "evidence": "Establishment-survey earnings section reports the annual change in average hourly earnings."
         }
       ],
       "sourceIds": [
-        "src1",
-        "src2"
+        "src8"
       ],
-      "evidence": "The earnings exhibit reports quarterly accounting and cash results; the current report separately records a restructuring to reallocate resources toward artificial-intelligence and growth initiatives, with estimated charges disclosed in the same item."
+      "evidence": "Archived federal employment release; opening summary, household survey and establishment survey."
     },
     {
-      "id": "f4",
-      "market": "us",
-      "category": "company",
-      "publishedOn": "2026-09-02",
-      "company": {
-        "name": "Apogee Enterprises",
-        "ticker": "APOG",
-        "exchange": "Nasdaq"
-      },
+      "id": "f5",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-09-07",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 72500000,
+          "value": 3438300000000,
           "unit": "USD",
-          "periodStart": "2026-09-02",
-          "periodEnd": "2026-09-02",
+          "periodStart": "2026-08-31",
+          "periodEnd": "2026-08-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src9"
           ],
-          "evidence": "SEC exhibit announcement states maximum transaction consideration for GroGlass, including contingent consideration."
+          "evidence": "Official release opening states the foreign-exchange reserve balance at month-end."
+        },
+        {
+          "id": "m2",
+          "value": 0.57,
+          "unit": "percent",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-08-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "Official release opening states the monthly percentage change in the reserve balance."
         }
       ],
       "sourceIds": [
-        "src5"
+        "src9"
       ],
-      "evidence": "The SEC exhibit records a definitive agreement to acquire a European coated-materials supplier and separately describes management projections for post-closing revenue, margin, and synergies; those projections are not included as realized financial metrics."
+      "evidence": "Official reserve release; opening data paragraph and explanation of valuation and exchange-rate effects."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "cn": "The tracked indexes showed mixed or unchanged moves. Each card identifies the completed session it describes."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Cloud security growth remained strong as Zscaler began restructuring",
-          "summary": "Zscaler reported strong revenue growth and positive operating cash flow while announcing a workforce reduction to redirect resources toward artificial intelligence and growth initiatives.",
-          "impact": "The filing combination shows continued commercial expansion alongside a deliberate cost and capacity reshaping effort.",
-          "what": "Zscaler provides cloud security through its Zero Trust platform, connecting users, devices, workloads, and applications. The reported quarter produced strong revenue growth, a smaller GAAP loss than the comparable quarter, and substantial operating cash flow. The restructuring is a separate forward-looking action rather than a realized financial result.",
-          "why": "For business customers, cloud security supports access control and protection of distributed applications and workloads. For financial analysis, the key distinction is positive operating cash flow despite a GAAP loss, while restructuring charges may affect near-term comparability.",
-          "uncertainty": "The workforce reduction and estimated charges depend on management assumptions, and the filing does not establish that the reallocated resources will accelerate growth. Operating cash flow can also vary with billing and deferred-revenue timing.",
-          "watch": "Watch the next quarterly filing for restructuring charges, headcount effects, revenue growth excluding acquisitions, and operating cash-flow continuity.",
+          "id": "f4",
+          "title": "US payroll growth strengthens while unemployment holds steady",
+          "summary": "The latest federal labor report showed stronger payroll growth, an unchanged unemployment rate and continued wage gains, with hiring concentrated in food services and local public education.",
+          "impact": "A resilient labor market supports household income and consumer demand, but persistent wage pressure can complicate the path toward lower inflation and borrowing costs for families and businesses.",
+          "what": "The report combines an establishment survey of employer payrolls with a household survey of people's employment status. Payroll change measures jobs on business and government payrolls rather than unique workers. The unemployment rate measures jobless people who are available for work and actively seeking employment as a share of the labor force. Average hourly earnings provide a broad gauge of wage pressure before adjusting for consumer inflation.",
+          "why": "Employment income is the main source of spending power for many households, so continued hiring can support retail, housing-related services and loan performance. Businesses may benefit from steady demand but face tighter labor costs if wage growth remains firm. For financial markets, stronger labor conditions can affect expectations for inflation, interest rates and corporate margins, although employment data alone do not determine central-bank decisions.",
+          "uncertainty": "Monthly payroll estimates are revised as additional employer reports arrive, and the release already revised prior months. Seasonal adjustment can be difficult around school calendars, holidays and unusual hiring patterns. Payroll and household surveys measure different concepts and may diverge. Nominal wage growth also does not show whether purchasing power improved after inflation.",
+          "watch": "Watch subsequent payroll revisions, labor-force participation, hours worked, wage growth and the breadth of hiring across private industries. Upcoming inflation and employment releases will help show whether labor resilience is consistent with easing price pressure or renewed cost pressure.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly revenue"
+              "label": "Payroll change"
             },
             {
               "id": "m2",
-              "label": "Quarterly GAAP net loss"
+              "label": "Unemployment rate"
             },
             {
               "id": "m3",
-              "label": "Quarterly operating cash flow"
-            },
-            {
-              "id": "m4",
-              "label": "Quarterly revenue growth"
-            },
-            {
-              "id": "m5",
-              "label": "Planned workforce reduction"
+              "label": "Average hourly earnings growth"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Apogee agreed to expand specialty coatings through a European acquisition",
-          "summary": "Apogee agreed to acquire GroGlass, a European supplier of coated glass and polymer solutions used in display, architectural, and technical applications.",
-          "impact": "The transaction broadens Apogee’s materials and geographic capabilities but creates execution, financing, and integration risks before projected benefits are realized.",
-          "what": "Apogee supplies architectural building products and high-performance coated materials. GroGlass specializes in advanced surface coatings and materials science, and Apogee plans to add the business to its Performance Surfaces segment.",
-          "why": "The acquisition could broaden Apogee’s technology base and cross-selling opportunities while giving customers a wider supplier for optical and architectural applications. The deal’s value depends on closing, integration, and the target’s post-closing performance.",
-          "uncertainty": "The revenue, margin, and synergy figures in the announcement are management projections rather than realized results. Closing remains subject to customary conditions, and contingent consideration depends on financial targets.",
-          "watch": "Watch subsequent filings for closing completion, purchase accounting, financing effects, acquired revenue, and realized operating improvements.",
+          "id": "f5",
+          "title": "China's foreign-exchange reserves rise with valuation support",
+          "summary": "China's official foreign-exchange reserves increased as a weaker dollar and changes in global asset prices raised the reported value of the reserve portfolio.",
+          "impact": "A stable reserve buffer can reinforce confidence in external payment capacity and currency-market resilience, but the monthly movement does not necessarily indicate an equivalent cash inflow or policy intervention.",
+          "what": "Foreign-exchange reserves are overseas currency assets managed by the central bank and related authorities. They support international payment capacity and can provide a buffer during periods of capital-market stress. The published dollar value changes when reserve assets earn income, are bought or sold, or are translated from other currencies at different exchange rates. Market-price changes in bonds and other holdings can also affect the total.",
+          "why": "Reserve adequacy matters to importers, exporters and international lenders because it influences confidence that foreign-currency obligations can be met. Greater stability can reduce fears of disruptive currency moves that would raise imported costs or complicate debt servicing. However, reserves are not the same as government budget cash and are managed for liquidity, safety and external stability rather than ordinary domestic spending.",
+          "uncertainty": "The headline increase cannot be separated cleanly into valuation effects, investment income, trade settlement, capital flows and official transactions using this release alone. A weaker dollar can mechanically raise the dollar value of assets denominated in other currencies. Reserve growth therefore should not be interpreted automatically as evidence of stronger underlying inflows or a change in exchange-rate policy.",
+          "watch": "Watch balance-of-payments data, bank foreign-exchange settlement, cross-border portfolio flows and movements in the currency against major trading partners. Persistent reserve stability alongside orderly capital flows would provide stronger evidence than an isolated valuation-driven monthly change.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Maximum transaction consideration"
+              "label": "Foreign-exchange reserve balance"
+            },
+            {
+              "id": "m2",
+              "label": "Monthly reserve change"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期已核实覆盖有限。部分市场没有已核实的新故事；有日期标注的报告仍清楚标明其日期。",
+      "status": "本期涵盖美国和中国的动态。请核对各项发布日期；近期公司报告仅作为背景解读。",
       "marketSummary": {
-        "us": "所跟踪指数在最近已核实交易时段均下跌。有日期标注的收盘数据描述的是相应交易时段，而非当前交易。",
-        "cn": "部分收盘观察无法核实。每个可用指数均保留其自身交易日期。"
+        "us": "所跟踪的指数在最近已核实的交易日均下跌。标注日期的收盘数据反映的是对应交易日，并非当前行情。",
+        "cn": "所跟踪的指数走势有涨有跌，也有持平。每张卡片均注明其对应的已结束交易日。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "云安全业务增长保持强劲，Zscaler 启动重组",
-          "summary": "Zscaler 报告营收强劲增长和正的经营现金流，同时宣布裁减员工，以将资源重新投向人工智能和增长计划。",
-          "impact": "这些申报信息表明，公司商业扩张仍在继续，同时也在有意调整成本结构和业务能力配置。",
-          "what": "Zscaler 通过其零信任平台提供云安全服务，连接用户、设备、工作负载和应用程序。报告期实现营收强劲增长，按 GAAP 口径的亏损较可比季度收窄，并产生可观的经营现金流。重组是独立的前瞻性行动，并非已经实现的财务结果。",
-          "why": "对于企业客户而言，云安全有助于管理访问权限，并保护分散式应用程序和工作负载。对于财务分析而言，关键区别在于公司在 GAAP 口径亏损的同时仍有正的经营现金流；重组费用可能影响近期业绩的可比性。",
-          "uncertainty": "裁员规模和预计费用取决于管理层假设，申报文件并未证明重新配置资源将加快增长。经营现金流也可能受到开票和递延收入时点影响而波动。",
-          "watch": "关注下一份季度申报文件中的重组费用、员工人数影响、剔除收购影响后的营收增长，以及经营现金流是否持续。",
+          "id": "f4",
+          "title": "美国非农就业人数增长加快，失业率保持稳定",
+          "summary": "最新联邦劳动力报告显示，非农就业人数增长加快，失业率保持不变，工资继续上涨；新增就业主要集中在餐饮服务和地方公立教育领域。",
+          "impact": "有韧性的劳动力市场有助于支撑家庭收入和消费需求，但持续的工资压力可能让通胀和家庭及企业借贷成本下降的过程更加复杂。",
+          "what": "该报告结合了针对雇主非农就业人数的机构调查，以及针对个人就业状况的家庭调查。非农就业人数变动衡量企业和政府雇员岗位的变化，并不代表不同就业者的人数。失业率是劳动力人口中没有工作、可以工作且正在积极求职者的占比。平均时薪是衡量工资压力的广泛指标，尚未扣除消费通胀影响。",
+          "why": "就业收入是许多家庭消费能力的主要来源，因此持续招聘可支撑零售、住房相关服务和贷款偿还表现。企业可能受益于稳定需求，但如果工资增长仍然强劲，也会面临更高的用工成本。对金融市场而言，更强的劳动力市场状况会影响对通胀、利率和企业利润率的预期，不过就业数据本身不能决定央行决策。",
+          "uncertainty": "随着更多雇主报告提交，月度非农就业人数估算会被修订，本次发布也已修订此前月份的数据。在学校校历、节假日和异常招聘模式影响下，季节性调整可能较为困难。机构调查和家庭调查衡量的概念不同，结果可能出现分歧。名义工资增长也无法说明扣除通胀后购买力是否提高。",
+          "watch": "关注后续非农就业人数修订、劳动参与率、工作时长、工资增长，以及私营行业招聘是否广泛。即将发布的通胀和就业数据将有助于判断，劳动力市场韧性是否与价格压力缓解一致，还是意味着成本压力再次上升。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度营收"
+              "label": "非农就业人数变动"
             },
             {
               "id": "m2",
-              "label": "季度 GAAP 净亏损"
+              "label": "失业率"
             },
             {
               "id": "m3",
-              "label": "季度经营现金流"
-            },
-            {
-              "id": "m4",
-              "label": "季度营收增长"
-            },
-            {
-              "id": "m5",
-              "label": "计划裁员规模"
+              "label": "平均时薪增速"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Apogee 同意通过欧洲收购扩大特种涂层业务",
-          "summary": "Apogee 同意收购欧洲涂层玻璃及聚合物解决方案供应商 GroGlass，其产品用于显示、建筑和技术应用。",
-          "impact": "这项交易将拓展 Apogee 的材料和地域能力，但在预期收益实现前也会带来执行、融资和整合风险。",
-          "what": "Apogee 供应建筑产品和高性能涂层材料。GroGlass 专注于先进表面涂层和材料科学，Apogee 计划将该业务纳入其高性能表面材料部门。",
-          "why": "这项收购可能拓展 Apogee 的技术基础和交叉销售机会，并让客户在光学和建筑应用方面获得更广泛的供应来源。交易价值取决于完成交割、整合情况以及标的公司交割后的表现。",
-          "uncertainty": "公告中的营收、利润率和协同效应数据属于管理层预测，而非已经实现的结果。交割仍须满足惯常条件，或有对价取决于财务目标。",
-          "watch": "关注后续申报文件中的交割完成情况、购买会计处理、融资影响、收购带来的营收，以及实际实现的经营改善。",
+          "id": "f5",
+          "title": "估值因素支撑中国外汇储备上升",
+          "summary": "随着美元走弱和全球资产价格变化推高储备资产组合的报告价值，中国官方外汇储备有所增加。",
+          "impact": "稳定的外汇储备缓冲有助于增强市场对对外支付能力和汇率市场韧性的信心，但月度变化不一定代表等额现金流入或政策干预。",
+          "what": "外汇储备是由央行及相关部门管理的海外货币资产。它们可支持国际支付能力，并在资本市场承压时提供缓冲。当储备资产产生收益、被买卖，或以不同汇率将其他货币资产折算成美元时，公布的美元价值会发生变化。债券和其他持有资产的市场价格变化也会影响总额。",
+          "why": "外汇储备是否充足会影响进口商、出口商和国际贷款机构的信心，因为这关系到外币债务能否得到偿付。更稳定的外汇储备可减轻市场对汇率剧烈波动的担忧，避免进口成本上升或债务偿还变得更困难。不过，外汇储备并不等同于政府预算资金，其管理目标是流动性、安全性和对外稳定，而不是普通国内支出。",
+          "uncertainty": "仅凭本次发布，无法清楚区分储备增加中来自估值影响、投资收益、贸易结算、资本流动和官方交易的部分。美元走弱会自然推高其他货币计价资产折算后的美元价值。因此，外汇储备增长不应被自动解读为基础资金流入增强，或汇率政策发生变化。",
+          "watch": "关注国际收支数据、银行结售汇、跨境投资组合资金流动，以及人民币对主要贸易伙伴货币的走势。相比孤立且由估值推动的月度变化，外汇储备持续稳定并伴随资本有序流动，能提供更有力的证据。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "最高交易对价"
+              "label": "外汇储备余额"
+            },
+            {
+              "id": "m2",
+              "label": "外汇储备月度变动"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne présentent aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de chaque publication ; les récents rapports d’entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Les deux indices suivis ont baissé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels.",
-        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
+        "us": "L’ensemble des indices suivis a reculé lors des dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Les indices suivis ont affiché des évolutions contrastées ou sont restés stables. Chaque fiche indique la séance achevée qu’elle décrit."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "La croissance de la sécurité cloud reste forte alors que Zscaler lance une restructuration",
-          "summary": "Zscaler a annoncé une forte croissance de son chiffre d’affaires et un flux de trésorerie d’exploitation positif, tout en annonçant une réduction des effectifs pour réorienter ses ressources vers l’intelligence artificielle et des initiatives de croissance.",
-          "impact": "Ces informations montrent une poursuite de l’expansion commerciale, parallèlement à un effort volontaire de réorganisation des coûts et des capacités.",
-          "what": "Zscaler fournit des services de sécurité cloud via sa plateforme Zero Trust, qui relie les utilisateurs, les appareils, les charges de travail et les applications. Le trimestre présenté affiche une forte croissance du chiffre d’affaires, une perte nette GAAP inférieure à celle du trimestre comparable et un flux de trésorerie d’exploitation important. La restructuration est une mesure distincte tournée vers l’avenir, et non un résultat financier déjà réalisé.",
-          "why": "Pour les entreprises clientes, la sécurité cloud facilite le contrôle des accès et la protection des applications et charges de travail distribuées. Pour l’analyse financière, le point essentiel est l’existence d’un flux de trésorerie d’exploitation positif malgré une perte nette GAAP, tandis que les coûts de restructuration peuvent nuire à la comparabilité à court terme.",
-          "uncertainty": "La réduction des effectifs et l’estimation des charges dépendent des hypothèses de la direction. Le document ne montre pas que les ressources réaffectées accéléreront la croissance. Le flux de trésorerie d’exploitation peut aussi varier selon le calendrier des facturations et des produits constatés d’avance.",
-          "watch": "Surveillez le prochain rapport trimestriel pour connaître les charges de restructuration, les effets sur les effectifs, la croissance du chiffre d’affaires hors acquisitions et la continuité du flux de trésorerie d’exploitation.",
+          "id": "f4",
+          "title": "La croissance de l’emploi salarié américain se renforce tandis que le chômage reste stable",
+          "summary": "Le dernier rapport fédéral sur l’emploi fait état d’une croissance plus forte de l’emploi salarié, d’un taux de chômage inchangé et d’une poursuite de la hausse des salaires. Les embauches se sont concentrées dans la restauration et l’enseignement public local.",
+          "impact": "Un marché du travail résilient soutient les revenus des ménages et la demande des consommateurs. Toutefois, des tensions salariales persistantes peuvent compliquer le recul de l’inflation et des coûts d’emprunt pour les familles et les entreprises.",
+          "what": "Le rapport associe une enquête menée auprès des établissements sur l’emploi salarié à une enquête auprès des ménages sur la situation professionnelle des personnes. La variation de l’emploi salarié mesure les postes inscrits dans les entreprises et les administrations, et non le nombre de travailleurs distincts. Le taux de chômage correspond à la part de la population active sans emploi, disponible et recherchant activement un travail. Le salaire horaire moyen donne une indication générale des tensions salariales avant prise en compte de l’inflation à la consommation.",
+          "why": "Les revenus du travail constituent la principale source de pouvoir d’achat de nombreux ménages. La poursuite des embauches peut donc soutenir le commerce de détail, les services liés au logement et le remboursement des prêts. Les entreprises peuvent profiter d’une demande stable, mais subir des coûts de main-d’œuvre plus élevés si les salaires continuent de progresser fermement. Sur les marchés financiers, la vigueur de l’emploi peut modifier les attentes concernant l’inflation, les taux d’intérêt et les marges des entreprises. Les données sur l’emploi ne déterminent toutefois pas les décisions des banques centrales.",
+          "uncertainty": "Les estimations mensuelles de l’emploi salarié sont révisées à mesure que de nouveaux rapports d’employeurs sont reçus, et cette publication a déjà révisé les mois précédents. Les ajustements saisonniers peuvent être difficiles autour des calendriers scolaires, des périodes de fêtes et des schémas d’embauche inhabituels. Les enquêtes auprès des établissements et des ménages mesurent des concepts différents et peuvent diverger. La croissance nominale des salaires ne montre pas non plus si le pouvoir d’achat s’est amélioré après inflation.",
+          "watch": "Surveillez les prochaines révisions de l’emploi salarié, la participation à la population active, les heures travaillées, la croissance des salaires et la répartition des embauches dans les secteurs privés. Les prochaines publications sur l’inflation et l’emploi aideront à déterminer si la résilience du marché du travail s’accompagne d’un apaisement ou d’un retour des tensions sur les prix.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires trimestriel"
+              "label": "Variation de l’emploi salarié"
             },
             {
               "id": "m2",
-              "label": "Perte nette GAAP trimestrielle"
+              "label": "Taux de chômage"
             },
             {
               "id": "m3",
-              "label": "Flux de trésorerie d’exploitation trimestriel"
-            },
-            {
-              "id": "m4",
-              "label": "Croissance trimestrielle du chiffre d’affaires"
-            },
-            {
-              "id": "m5",
-              "label": "Réduction prévue des effectifs"
+              "label": "Croissance du salaire horaire moyen"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Apogee a accepté de développer ses revêtements spécialisés grâce à une acquisition européenne",
-          "summary": "Apogee a accepté d’acquérir GroGlass, un fournisseur européen de verre revêtu et de solutions en polymères utilisés dans les applications d’affichage, d’architecture et les applications techniques.",
-          "impact": "L’opération élargit les capacités matérielles et géographiques d’Apogee, mais crée des risques d’exécution, de financement et d’intégration avant la réalisation des bénéfices attendus.",
-          "what": "Apogee fournit des produits de construction architecturaux et des matériaux revêtus haute performance. GroGlass est spécialisé dans les revêtements de surface avancés et la science des matériaux. Apogee prévoit d’intégrer cette activité à son segment Performance Surfaces.",
-          "why": "L’acquisition pourrait élargir la base technologique d’Apogee et les possibilités de ventes croisées, tout en offrant aux clients un fournisseur plus complet pour les applications optiques et architecturales. La valeur de l’opération dépend de sa finalisation, de l’intégration et des résultats de la cible après la clôture.",
-          "uncertainty": "Les chiffres de chiffre d’affaires, de marge et de synergies annoncés sont des projections de la direction et non des résultats réalisés. La finalisation reste soumise aux conditions habituelles, et la contrepartie éventuelle dépend d’objectifs financiers.",
-          "watch": "Surveillez les prochains documents publiés pour vérifier la finalisation, la comptabilisation de l’acquisition, les effets du financement, le chiffre d’affaires acquis et les améliorations opérationnelles réalisées.",
+          "id": "f5",
+          "title": "Les réserves de change de la Chine augmentent grâce aux effets de valorisation",
+          "summary": "Les réserves de change officielles de la Chine ont augmenté, car l’affaiblissement du dollar et l’évolution des prix des actifs mondiaux ont accru la valeur déclarée du portefeuille de réserves.",
+          "impact": "Un niveau stable de réserves peut renforcer la confiance dans la capacité de paiement extérieur et la résistance du marché des changes. Toutefois, l’évolution mensuelle ne traduit pas nécessairement une entrée de liquidités ou une intervention publique équivalente.",
+          "what": "Les réserves de change sont des actifs en devises étrangères gérés par la banque centrale et les autorités concernées. Elles soutiennent la capacité de paiement international et peuvent servir de protection pendant les périodes de tensions sur les marchés de capitaux. Leur valeur publiée en dollars évolue lorsque les actifs produisent des revenus, sont achetés ou vendus, ou sont convertis depuis d’autres devises à des taux de change différents. Les variations du prix des obligations et d’autres actifs peuvent également modifier le total.",
+          "why": "Le niveau adéquat des réserves compte pour les importateurs, les exportateurs et les prêteurs internationaux, car il influence la confiance dans la capacité à honorer les obligations en devises. Une plus grande stabilité peut réduire les craintes de mouvements désordonnés de la monnaie, susceptibles d’accroître le coût des importations ou de compliquer le remboursement des dettes. Toutefois, les réserves ne correspondent pas aux liquidités budgétaires de l’État. Elles sont gérées pour assurer la liquidité, la sécurité et la stabilité extérieure, et non pour financer les dépenses intérieures courantes.",
+          "uncertainty": "Cette publication ne permet pas de distinguer clairement, dans la hausse annoncée, les effets de valorisation, les revenus de placement, les règlements commerciaux, les flux de capitaux et les opérations officielles. Un dollar plus faible peut automatiquement augmenter la valeur en dollars des actifs libellés dans d’autres devises. La hausse des réserves ne doit donc pas être interprétée automatiquement comme la preuve d’entrées de capitaux sous-jacentes plus fortes ou d’un changement de politique de change.",
+          "watch": "Surveillez les données de la balance des paiements, les règlements bancaires en devises, les flux de portefeuille transfrontaliers et les mouvements de la monnaie face à celles des principaux partenaires commerciaux. Une stabilité durable des réserves accompagnée de flux de capitaux ordonnés constituerait un signal plus solide qu’une variation mensuelle isolée liée à la valorisation.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Contrepartie maximale de l’opération"
+              "label": "Encours des réserves de change"
+            },
+            {
+              "id": "m2",
+              "label": "Variation mensuelle des réserves"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes con fecha siguen claramente identificados.",
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Revise la fecha de publicación de cada caso; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Ambos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
-        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "Ambos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la negociación actual.",
+        "cn": "Los índices seguidos mostraron movimientos mixtos o sin cambios. Cada ficha identifica la sesión finalizada que describe."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "El crecimiento de la seguridad en la nube siguió siendo sólido mientras Zscaler inició una reestructuración",
-          "summary": "Zscaler informó un fuerte crecimiento de los ingresos y un flujo de caja operativo positivo, al tiempo que anunció una reducción de personal para redirigir recursos hacia la inteligencia artificial y las iniciativas de crecimiento.",
-          "impact": "La combinación de información presentada muestra una expansión comercial continua junto con un esfuerzo deliberado para reajustar costos y capacidad.",
-          "what": "Zscaler ofrece seguridad en la nube mediante su plataforma Zero Trust, que conecta usuarios, dispositivos, cargas de trabajo y aplicaciones. El trimestre informado produjo un fuerte crecimiento de los ingresos, una pérdida GAAP menor que en el trimestre comparable y un flujo de caja operativo considerable. La reestructuración es una acción independiente orientada al futuro, no un resultado financiero ya realizado.",
-          "why": "Para los clientes empresariales, la seguridad en la nube ayuda a controlar el acceso y proteger aplicaciones y cargas de trabajo distribuidas. Para el análisis financiero, la distinción clave es el flujo de caja operativo positivo pese a una pérdida GAAP, mientras que los gastos de reestructuración pueden afectar la comparabilidad a corto plazo.",
-          "uncertainty": "La reducción de personal y los cargos estimados dependen de los supuestos de la dirección, y la información presentada no demuestra que los recursos redistribuidos aceleren el crecimiento. El flujo de caja operativo también puede variar según el momento de la facturación y de los ingresos diferidos.",
-          "watch": "Conviene revisar la próxima presentación trimestral para observar los cargos de reestructuración, los efectos sobre la plantilla, el crecimiento de los ingresos excluyendo adquisiciones y la continuidad del flujo de caja operativo.",
+          "id": "f4",
+          "title": "El crecimiento del empleo en Estados Unidos se fortalece mientras el desempleo se mantiene estable",
+          "summary": "El informe laboral federal más reciente mostró un crecimiento más fuerte del empleo, una tasa de desempleo sin cambios y aumentos salariales continuos, con la contratación concentrada en los servicios de alimentación y la educación pública local.",
+          "impact": "Un mercado laboral resistente respalda los ingresos de los hogares y la demanda de los consumidores, pero la presión salarial persistente puede dificultar el avance hacia una menor inflación y menores costes de financiación para familias y empresas.",
+          "what": "El informe combina una encuesta a empresas sobre el empleo en nóminas con una encuesta a hogares sobre la situación laboral de las personas. La variación del empleo mide los puestos registrados en las nóminas de empresas y administraciones públicas, no los trabajadores únicos. La tasa de desempleo mide la proporción de la población activa que no tiene trabajo, está disponible para trabajar y busca empleo activamente. El salario promedio por hora ofrece una medida amplia de la presión salarial antes de ajustarla por la inflación al consumidor.",
+          "why": "Los ingresos laborales son la principal fuente de capacidad de gasto para muchos hogares, por lo que la contratación continua puede respaldar el comercio minorista, los servicios relacionados con la vivienda y el pago de préstamos. Las empresas pueden beneficiarse de una demanda estable, pero afrontar mayores costes laborales si el crecimiento salarial sigue firme. En los mercados financieros, la fortaleza laboral puede influir en las expectativas sobre inflación, tipos de interés y márgenes empresariales, aunque los datos de empleo por sí solos no determinan las decisiones del banco central.",
+          "uncertainty": "Las estimaciones mensuales de empleo se revisan cuando llegan informes adicionales de las empresas, y la publicación ya revisó meses anteriores. El ajuste estacional puede ser difícil por los calendarios escolares, los festivos y patrones de contratación inusuales. Las encuestas a empresas y hogares miden conceptos distintos y pueden mostrar resultados diferentes. El crecimiento salarial nominal tampoco indica si el poder adquisitivo mejoró después de la inflación.",
+          "watch": "Observe las revisiones posteriores del empleo, la participación laboral, las horas trabajadas, el crecimiento salarial y la amplitud de la contratación entre las industrias privadas. Las próximas publicaciones sobre inflación y empleo ayudarán a determinar si la resistencia laboral es compatible con una menor presión sobre los precios o con una renovada presión de costes.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos trimestrales"
+              "label": "Variación del empleo no agrícola"
             },
             {
               "id": "m2",
-              "label": "Pérdida neta GAAP trimestral"
+              "label": "Tasa de desempleo"
             },
             {
               "id": "m3",
-              "label": "Flujo de caja operativo trimestral"
-            },
-            {
-              "id": "m4",
-              "label": "Crecimiento trimestral de los ingresos"
-            },
-            {
-              "id": "m5",
-              "label": "Reducción de personal prevista"
+              "label": "Crecimiento del salario promedio por hora"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Apogee acordó ampliar sus recubrimientos especializados mediante una adquisición europea",
-          "summary": "Apogee acordó adquirir GroGlass, un proveedor europeo de vidrio recubierto y soluciones de polímeros utilizadas en aplicaciones de pantallas, arquitectura y sectores técnicos.",
-          "impact": "La operación amplía las capacidades materiales y geográficas de Apogee, pero genera riesgos de ejecución, financiación e integración antes de que se concreten los beneficios previstos.",
-          "what": "Apogee suministra productos arquitectónicos para la construcción y materiales recubiertos de alto rendimiento. GroGlass se especializa en recubrimientos avanzados de superficies y ciencia de materiales, y Apogee planea incorporar el negocio a su segmento Performance Surfaces.",
-          "why": "La adquisición podría ampliar la base tecnológica de Apogee y las oportunidades de venta cruzada, además de ofrecer a los clientes un proveedor más amplio para aplicaciones ópticas y arquitectónicas. El valor de la operación depende del cierre, la integración y el desempeño de la empresa adquirida después del cierre.",
-          "uncertainty": "Las cifras de ingresos, margen y sinergias anunciadas son proyecciones de la dirección, no resultados realizados. El cierre sigue sujeto a las condiciones habituales, y la contraprestación contingente depende de objetivos financieros.",
-          "watch": "Conviene revisar las presentaciones posteriores para confirmar el cierre, la contabilidad de la compra, los efectos de la financiación, los ingresos adquiridos y las mejoras operativas realizadas.",
+          "id": "f5",
+          "title": "Las reservas de divisas de China aumentan con el apoyo de los efectos de valoración",
+          "summary": "Las reservas oficiales de divisas de China aumentaron porque la debilidad del dólar y los cambios en los precios de los activos mundiales elevaron el valor declarado de la cartera de reservas.",
+          "impact": "Un colchón estable de reservas puede reforzar la confianza en la capacidad de realizar pagos externos y en la resistencia del mercado cambiario, pero el movimiento mensual no implica necesariamente una entrada de efectivo equivalente ni una intervención de las autoridades.",
+          "what": "Las reservas de divisas son activos en monedas extranjeras gestionados por el banco central y otras autoridades relacionadas. Respaldan la capacidad de realizar pagos internacionales y pueden servir de protección durante periodos de tensión en los mercados de capitales. El valor publicado en dólares cambia cuando los activos de reserva generan ingresos, se compran o venden, o se convierten desde otras monedas usando tipos de cambio diferentes. Las variaciones de los precios de mercado de los bonos y otras tenencias también pueden afectar al total.",
+          "why": "La suficiencia de las reservas importa a importadores, exportadores y prestamistas internacionales porque influye en la confianza de que podrán cumplirse las obligaciones en moneda extranjera. Una mayor estabilidad puede reducir el temor a movimientos cambiarios bruscos que elevarían los costes de importación o dificultarían el pago de deudas. Sin embargo, las reservas no equivalen al efectivo del presupuesto público y se gestionan para aportar liquidez, seguridad y estabilidad externa, no para el gasto interno ordinario.",
+          "uncertainty": "Esta publicación por sí sola no permite separar con claridad el aumento general entre efectos de valoración, ingresos de inversión, liquidación comercial, flujos de capital y operaciones oficiales. Un dólar más débil puede elevar de forma mecánica el valor en dólares de los activos denominados en otras monedas. Por tanto, el crecimiento de las reservas no debe interpretarse automáticamente como prueba de entradas subyacentes más fuertes ni de un cambio en la política cambiaria.",
+          "watch": "Observe los datos de la balanza de pagos, la liquidación de divisas de los bancos, los flujos transfronterizos de cartera y los movimientos de la moneda frente a las de los principales socios comerciales. Una estabilidad persistente de las reservas junto con flujos de capital ordenados ofrecería pruebas más sólidas que un cambio mensual aislado impulsado por la valoración.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Contraprestación máxima de la operación"
+              "label": "Saldo de las reservas de divisas"
+            },
+            {
+              "id": "m2",
+              "label": "Variación mensual de las reservas"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できた情報は限定的です。新たな確認済みニュースがない市場もあり、過去の日付の報告は明確に区別しています。",
+      "status": "この版では米国と中国の動向を扱います。公表日を確認してください。最近の企業報告は背景解説として掲載しています。",
       "marketSummary": {
-        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。記載された終値はその取引時点のもので、現在の取引状況ではありません。",
-        "cn": "一部の終値は確認できませんでした。利用可能な各指数には、それぞれの取引日を付けています。"
+        "us": "追跡対象の指数はいずれも、確認済みの直近取引で下落しました。日付付きの終値は現在の取引ではなく、その取引を示しています。",
+        "cn": "追跡対象の指数は、まちまちまたは横ばいでした。各カードには、対象となる終了済みの取引が示されています。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "ゼットスケーラー、事業再編を開始する一方でクラウドセキュリティの成長は堅調",
-          "summary": "ゼットスケーラーは、堅調な増収とプラスの営業キャッシュフローを報告するとともに、人工知能や成長施策へ資源を振り向けるため、人員削減を発表しました。",
-          "impact": "この発表の組み合わせは、商業面での拡大が続く一方、コストと事業能力を意図的に見直していることを示しています。",
-          "what": "ゼットスケーラーは、利用者、端末、業務負荷、アプリケーションを接続するゼロトラスト基盤を通じて、クラウドセキュリティを提供しています。当四半期は堅調な増収となり、前年同期よりGAAPベースの損失が縮小し、営業キャッシュフローも大幅なプラスとなりました。今回の再編は、実現済みの財務結果ではなく、別途発表された将来に向けた施策です。",
-          "why": "法人顧客にとって、クラウドセキュリティは分散したアプリケーションや業務負荷へのアクセス管理と保護を支えます。財務分析では、GAAPベースで損失が出ている一方、営業キャッシュフローがプラスである点が重要です。また、再編費用は短期的な比較可能性に影響する可能性があります。",
-          "uncertainty": "人員削減や見積もり費用は経営陣の前提に左右されます。また、資源の再配分が成長を加速させることを、この発表だけで確認することはできません。営業キャッシュフローも、請求や繰延収益の計上時期によって変動する可能性があります。",
-          "watch": "次回の四半期報告では、再編費用、人員数への影響、買収を除いた売上成長、営業キャッシュフローの継続性を確認します。",
+          "id": "f4",
+          "title": "米国の雇用者数の伸びが強まり、失業率は横ばい",
+          "summary": "最新の連邦政府の雇用統計では、雇用者数の伸びが強まり、失業率は変わらず、賃金上昇も続きました。採用は飲食サービスと地方自治体の公教育に集中しました。",
+          "impact": "底堅い労働市場は家計所得と消費需要を支えます。一方、賃金上昇圧力が続くと、インフレの鈍化や、家計と企業の借入コスト低下が難しくなる可能性があります。",
+          "what": "この統計は、企業や政府の雇用者数を調べる事業所調査と、人々の就業状況を調べる家計調査を組み合わせています。雇用者数の増減は、個々の労働者ではなく、企業や政府の給与支払い対象となる仕事の増減を示します。失業率は、働く意思と能力があり、積極的に仕事を探している失業者が労働力人口に占める割合です。平均時給は、消費者物価上昇の影響を調整する前の、幅広い賃金圧力を示します。",
+          "why": "雇用所得は多くの家計にとって主な購買力の源です。採用が続けば、小売り、住宅関連サービス、融資の返済状況を支える可能性があります。企業は安定した需要の恩恵を受ける一方、賃金上昇が続けば人件費の負担が強まります。金融市場では、強い労働環境がインフレ、金利、企業利益率の見通しに影響することがあります。ただし、雇用統計だけで中央銀行の判断が決まるわけではありません。",
+          "uncertainty": "月次の雇用者数推計は、企業から追加報告が届くと改定されます。今回の発表でも過去分が改定されました。学校の日程、祝日、通常と異なる採用動向がある時期は、季節調整が難しくなることがあります。事業所調査と家計調査は異なる対象を測るため、結果が一致しない場合があります。名目賃金の伸びだけでは、インフレ調整後の購買力が改善したかは分かりません。",
+          "watch": "今後の雇用者数の改定、労働参加率、労働時間、賃金の伸び、民間業種への採用の広がりに注目です。今後のインフレ統計と雇用統計から、労働市場の底堅さが物価上昇圧力の緩和と両立しているのか、それともコスト圧力が再び強まっているのかが見えてきます。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期売上高"
+              "label": "非農業部門雇用者数の増減"
             },
             {
               "id": "m2",
-              "label": "四半期GAAPベース純損失"
+              "label": "失業率"
             },
             {
               "id": "m3",
-              "label": "四半期営業キャッシュフロー"
-            },
-            {
-              "id": "m4",
-              "label": "四半期売上成長率"
-            },
-            {
-              "id": "m5",
-              "label": "予定人員削減数"
+              "label": "平均時給の伸び"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "アポジー、欧州企業の買収で特殊コーティング事業を拡大へ",
-          "summary": "アポジーは、ディスプレー、建築、技術用途向けのコーティングガラスやポリマーソリューションを供給する欧州企業グログラスの買収に合意しました。",
-          "impact": "この取引により、アポジーの素材分野と地域面での能力は広がりますが、想定される効果が実現するまでには、実行、資金調達、統合に関するリスクがあります。",
-          "what": "アポジーは、建築用製品と高性能コーティング素材を供給しています。グログラスは高度な表面コーティングと材料科学を専門としており、アポジーは同社をパフォーマンス・サーフェス部門に加える計画です。",
-          "why": "この買収により、アポジーの技術基盤や相互販売の機会が広がり、光学用途や建築用途の顧客に、より幅広い供給元を提供できる可能性があります。ただし、取引の価値は、買収完了、統合、買収対象会社の完了後の業績に左右されます。",
-          "uncertainty": "発表に含まれる売上高、利益率、相乗効果の数値は、実現済みの結果ではなく経営陣の予測です。買収完了には通常の条件があり、追加対価は財務目標の達成度に左右されます。",
-          "watch": "今後の開示では、買収完了、取得会計、資金調達の影響、買収対象会社の売上高、実現した事業改善を確認します。",
+          "id": "f5",
+          "title": "評価要因の押し上げで中国の外貨準備高が増加",
+          "summary": "ドル安と世界の資産価格の変化により、準備資産の報告上の評価額が押し上げられ、中国の公式な外貨準備高は増加しました。",
+          "impact": "安定した外貨準備は、対外支払い能力や通貨市場の安定性への信頼を支えます。ただし、月ごとの変化が同額の現金流入や政策介入を示すとは限りません。",
+          "what": "外貨準備は、中央銀行や関係当局が管理する海外通貨建ての資産です。国際的な支払い能力を支え、資本市場が不安定な時期の備えになります。公表されるドル換算額は、準備資産から収益を得た場合、資産を売買した場合、ほかの通貨建て資産を異なる為替レートで換算した場合に変化します。債券などの保有資産の市場価格も総額に影響します。",
+          "why": "外貨準備が十分かどうかは、輸入業者、輸出業者、国際的な貸し手にとって重要です。外貨建ての支払い義務を果たせるという信頼に影響するためです。安定性が高まれば、輸入コストの上昇や債務返済の難化につながる急激な通貨変動への懸念が和らぐ可能性があります。ただし、外貨準備は政府の予算資金とは異なり、通常の国内支出ではなく、流動性、安全性、対外安定のために管理されます。",
+          "uncertainty": "今回の発表だけでは、増加分を評価要因、運用収益、貿易決済、資本移動、当局の取引に明確に分けられません。ドル安になると、ほかの通貨建て資産のドル換算額は機械的に増えることがあります。このため、外貨準備の増加を、基調的な資金流入の強まりや為替政策の変更を示すものと自動的に解釈すべきではありません。",
+          "watch": "国際収支、銀行の外貨決済、国境を越える証券投資資金、主要貿易相手国の通貨に対する為替の動きに注目です。秩序ある資本移動とともに外貨準備の安定が続けば、評価要因による特定の月だけの変化よりも強い材料になります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "取引対価の上限"
-            }
-          ]
-        }
-      ]
-    },
-    "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados permanecem claramente identificados.",
-      "marketSummary": {
-        "us": "Os dois índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "O crescimento da segurança em nuvem permaneceu forte enquanto a Zscaler iniciou uma reestruturação",
-          "summary": "A Zscaler registrou forte crescimento da receita e fluxo de caixa operacional positivo, enquanto anunciou uma redução da força de trabalho para redirecionar recursos à inteligência artificial e a iniciativas de crescimento.",
-          "impact": "A combinação de informações divulgadas mostra expansão comercial contínua ao lado de um esforço deliberado de redimensionamento de custos e capacidade.",
-          "what": "A Zscaler oferece segurança em nuvem por meio de sua plataforma Zero Trust, conectando usuários, dispositivos, cargas de trabalho e aplicações. O trimestre divulgado apresentou forte crescimento da receita, prejuízo GAAP menor que no trimestre comparável e fluxo de caixa operacional substancial. A reestruturação é uma ação prospectiva separada, não um resultado financeiro já realizado.",
-          "why": "Para clientes empresariais, a segurança em nuvem ajuda no controle de acesso e na proteção de aplicações e cargas de trabalho distribuídas. Na análise financeira, a distinção central é o fluxo de caixa operacional positivo apesar do prejuízo GAAP, enquanto as despesas de reestruturação podem afetar a comparabilidade no curto prazo.",
-          "uncertainty": "A redução da força de trabalho e as despesas estimadas dependem das premissas da administração, e o documento divulgado não demonstra que os recursos realocados acelerarão o crescimento. O fluxo de caixa operacional também pode variar conforme o momento do faturamento e da receita diferida.",
-          "watch": "Acompanhe o próximo relatório trimestral em busca de despesas de reestruturação, efeitos sobre o quadro de funcionários, crescimento da receita excluindo aquisições e continuidade do fluxo de caixa operacional.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita trimestral"
+              "label": "外貨準備高"
             },
             {
               "id": "m2",
-              "label": "Prejuízo líquido GAAP trimestral"
-            },
-            {
-              "id": "m3",
-              "label": "Fluxo de caixa operacional trimestral"
-            },
-            {
-              "id": "m4",
-              "label": "Crescimento da receita trimestral"
-            },
-            {
-              "id": "m5",
-              "label": "Redução planejada da força de trabalho"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "A Apogee concordou em expandir os revestimentos especiais por meio de uma aquisição europeia",
-          "summary": "A Apogee concordou em adquirir a GroGlass, fornecedora europeia de vidro revestido e soluções de polímeros usadas em aplicações de displays, arquitetura e tecnologia.",
-          "impact": "A transação amplia as capacidades de materiais e o alcance geográfico da Apogee, mas cria riscos de execução, financiamento e integração antes que os benefícios projetados sejam realizados.",
-          "what": "A Apogee fornece produtos para construção arquitetônica e materiais revestidos de alto desempenho. A GroGlass é especializada em revestimentos avançados de superfície e ciência dos materiais, e a Apogee planeja incluir o negócio em seu segmento Performance Surfaces.",
-          "why": "A aquisição pode ampliar a base tecnológica da Apogee e as oportunidades de vendas cruzadas, além de oferecer aos clientes um fornecedor mais abrangente para aplicações ópticas e arquitetônicas. O valor do negócio depende da conclusão, da integração e do desempenho da adquirida após o fechamento.",
-          "uncertainty": "Os valores de receita, margem e sinergias apresentados no anúncio são projeções da administração, não resultados realizados. A conclusão continua sujeita às condições usuais, e a contraprestação contingente depende de metas financeiras.",
-          "watch": "Acompanhe os próximos documentos divulgados para verificar a conclusão, a contabilização da aquisição, os efeitos do financiamento, a receita adquirida e as melhorias operacionais realizadas.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Contraprestação máxima da transação"
+              "label": "外貨準備高の月次増減"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期已驗證涵蓋範圍有限。部分市場沒有已驗證的新故事；有日期的報告仍清楚標示為既有資料。",
+      "status": "本期涵蓋美國與中國的發展。請查看各項發布日期；近期公司報告以背景說明形式呈現。",
       "marketSummary": {
-        "us": "追蹤的指數在最近已驗證的交易時段均下跌。有日期的收盤資料描述的是那些交易時段，而非目前交易情況。",
-        "cn": "部分收盤觀察無法驗證。每個可取得的指數資料都保留其交易日期。"
+        "us": "所追蹤指數在最近已核實的交易日全數下跌。所列收盤資料描述的是當時交易日，而非目前交易情況。",
+        "cn": "所追蹤指數走勢分歧或持平。各張卡片均會註明所描述的已結束交易日。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Zscaler 開始重整之際，雲端安全業務仍維持強勁成長",
-          "summary": "Zscaler 回報營收強勁成長及正數經營現金流，同時宣布縮減員工人數，把資源重新配置至人工智慧及成長計畫。",
-          "impact": "這些申報資料合併顯示，公司持續商業擴張，同時有意調整成本與產能配置。",
-          "what": "Zscaler 透過零信任平台提供雲端安全服務，連接使用者、裝置、工作負載及應用程式。該申報季度營收強勁成長，按公認會計原則計算的虧損較可比季度縮小，並產生可觀的經營現金流。重整是另一項前瞻性行動，不代表已實現的財務結果。",
-          "why": "對企業客戶而言，雲端安全有助於控管存取，並保護分散式應用程式及工作負載。就財務分析而言，重點在於即使按公認會計原則計算出現虧損，公司仍有正數經營現金流；同時，重整費用可能影響近期業績的可比性。",
-          "uncertainty": "縮減員工人數及估計費用取決於管理層假設，而申報資料並未證明重新配置的資源將加速成長。經營現金流也可能因開票及遞延營收時點而有所變動。",
-          "watch": "留意下一次季度申報，觀察重整費用、員工人數影響、排除收購因素後的營收成長，以及經營現金流是否延續。",
+          "id": "f4",
+          "title": "美國非農就業人數成長加快，失業率持平",
+          "summary": "最新聯邦勞動報告顯示，非農就業人數成長加快、失業率維持不變，薪資持續上升；新增聘僱主要集中在餐飲服務業與地方公立教育部門。",
+          "impact": "有韌性的勞動市場有助支撐家庭收入與消費需求，但持續的薪資壓力，可能讓通膨與家庭及企業借貸成本下降的過程更複雜。",
+          "what": "這份報告結合針對雇主非農就業人數的機構調查，以及針對民眾就業狀況的家庭調查。非農就業人數變化衡量企業與政府聘僱的職位，而非不重複計算的個別勞工。失業率衡量可工作、正在積極求職的失業人口占勞動力的比率。平均時薪則廣泛反映薪資壓力，尚未扣除消費者通膨影響。",
+          "why": "就業收入是許多家庭消費能力的主要來源，因此持續聘僱可支撐零售、住宅相關服務與貸款償還表現。企業可能受惠於穩定需求，但若薪資成長保持強勁，也會面臨較高的人力成本。對金融市場而言，較強的勞動市場可能影響通膨、利率與企業利潤率預期，但就業資料本身不會決定央行政策。",
+          "uncertainty": "隨著更多雇主回報資料到齊，每月非農就業人數估計會被修正，本次發布也已修正先前月份。遇到學校行事曆、假期與異常聘僱型態時，季節調整可能較困難。機構調查與家庭調查衡量的概念不同，因此結果可能分歧。名目薪資成長也無法顯示扣除通膨後的購買力是否改善。",
+          "watch": "留意後續非農就業人數修正、勞動參與率、工時、薪資成長，以及民間產業聘僱是否廣泛。即將發布的通膨與就業資料，將有助判斷勞動市場韌性是否與價格壓力緩和一致，或成本壓力是否再度升高。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度營收"
+              "label": "非農就業人數變化"
             },
             {
               "id": "m2",
-              "label": "季度按公認會計原則計算的淨虧損"
+              "label": "失業率"
             },
             {
               "id": "m3",
-              "label": "季度經營現金流"
-            },
-            {
-              "id": "m4",
-              "label": "季度營收成長"
-            },
-            {
-              "id": "m5",
-              "label": "計畫中的員工縮減"
+              "label": "平均時薪成長率"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Apogee 同意透過收購歐洲企業擴大特殊塗層業務",
-          "summary": "Apogee 同意收購 GroGlass；該公司是歐洲塗層玻璃及聚合物解決方案供應商，產品應用於顯示器、建築及技術領域。",
-          "impact": "這項交易擴大 Apogee 的材料及地理布局能力，但在預期效益實現前，也會帶來執行、融資及整合風險。",
-          "what": "Apogee 供應建築產品及高性能塗層材料。GroGlass 專注於先進表面塗層及材料科學，而 Apogee 計畫將該業務納入其高性能表面事業部。",
-          "why": "這項收購可能擴大 Apogee 的技術基礎及交叉銷售機會，並讓客戶在光學及建築應用方面擁有更廣泛的供應商選擇。交易價值取決於完成交易、整合，以及標的公司完成交易後的表現。",
-          "uncertainty": "公告中的營收、利潤率及協同效益數據是管理層預測，而非已實現的結果。交易完成仍須符合慣常條件，或有對價則取決於財務目標。",
-          "watch": "留意後續申報，觀察交易是否完成、收購會計處理、融資影響、收購業務帶來的營收，以及已實現的營運改善。",
+          "id": "f5",
+          "title": "估值因素支撐中國外匯存底上升",
+          "summary": "中國官方外匯存底增加，原因是美元走弱與全球資產價格變化，推高了存底投資組合的申報價值。",
+          "impact": "穩定的外匯存底緩衝可增強市場對外部支付能力與匯市韌性的信心，但每月變動不一定代表有等額現金流入或政策干預。",
+          "what": "外匯存底是由央行與相關主管機關管理的海外外幣資產，可支援國際支付能力，並在資本市場承壓期間提供緩衝。當存底資產產生收益、被買入或賣出，或其他幣別資產按不同匯率換算時，公布的美元價值便會改變。債券與其他持有資產的市場價格變化也會影響總額。",
+          "why": "外匯存底是否充足，會影響進口商、出口商與國際貸款機構對外幣債務能否履行的信心。穩定度提高可降低市場對匯率劇烈波動的擔憂，避免進口成本上升或償債變得更困難。不過，外匯存底不等同於政府預算現金，其管理目標是流動性、安全性與外部穩定，而非一般國內支出。",
+          "uncertainty": "僅憑這份發布資料，無法明確區分整體增幅來自估值影響、投資收益、貿易結算、資本流動或官方交易。美元走弱會自然提高其他幣別資產換算成美元後的價值。因此，不應自動把外匯存底成長解讀為基礎資金流入轉強或匯率政策改變的證據。",
+          "watch": "留意國際收支資料、銀行外匯結算、跨境投資組合資金流動，以及人民幣相對主要貿易夥伴貨幣的走勢。若外匯存底持續穩定且資本流動有序，會比個別月份由估值帶動的變化提供更有力的證據。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "最高交易對價"
+              "label": "外匯存底餘額"
+            },
+            {
+              "id": "m2",
+              "label": "外匯存底月度變化"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "status": "Esta edição cobre acontecimentos nos EUA e na China. Confira a data de cada publicação; relatórios recentes de empresas são apresentados como explicações de contexto.",
+      "marketSummary": {
+        "us": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Os índices acompanhados tiveram movimentos mistos ou ficaram estáveis. Cada cartão identifica a sessão concluída que descreve."
+      },
+      "stories": [
+        {
+          "id": "f4",
+          "title": "Crescimento do emprego não agrícola acelera nos EUA, enquanto desemprego permanece estável",
+          "summary": "O relatório federal mais recente sobre o mercado de trabalho mostrou crescimento mais forte do emprego não agrícola, taxa de desemprego inalterada e continuidade dos ganhos salariais, com contratações concentradas em serviços de alimentação e educação pública local.",
+          "impact": "Um mercado de trabalho resiliente sustenta a renda das famílias e a demanda dos consumidores, mas a pressão salarial persistente pode dificultar a redução da inflação e dos custos de empréstimos para famílias e empresas.",
+          "what": "O relatório combina uma pesquisa com estabelecimentos sobre empregos registrados por empregadores e uma pesquisa domiciliar sobre a situação profissional das pessoas. A variação do emprego não agrícola mede postos registrados por empresas e governos, não trabalhadores distintos. A taxa de desemprego mede a parcela da força de trabalho sem emprego, disponível e procurando trabalho ativamente. O salário médio por hora oferece uma medida ampla da pressão salarial antes do ajuste pela inflação ao consumidor.",
+          "why": "A renda do trabalho é a principal fonte de poder de compra de muitas famílias. Assim, a continuidade das contratações pode sustentar o varejo, os serviços ligados à habitação e o pagamento de empréstimos. As empresas podem se beneficiar da demanda estável, mas enfrentar custos trabalhistas maiores se o crescimento salarial continuar firme. Nos mercados financeiros, condições mais fortes de emprego podem afetar as expectativas para inflação, juros e margens empresariais, embora os dados de emprego, isoladamente, não determinem as decisões do banco central.",
+          "uncertainty": "As estimativas mensais do emprego não agrícola são revisadas à medida que chegam novos relatórios de empregadores, e a própria divulgação já revisou meses anteriores. O ajuste sazonal pode ser difícil perto de calendários escolares, feriados e padrões incomuns de contratação. As pesquisas com estabelecimentos e domicílios medem conceitos diferentes e podem divergir. O crescimento nominal dos salários também não mostra se o poder de compra melhorou após a inflação.",
+          "watch": "Acompanhe revisões posteriores do emprego não agrícola, participação na força de trabalho, horas trabalhadas, crescimento salarial e abrangência das contratações entre os setores privados. As próximas divulgações de inflação e emprego ajudarão a mostrar se a resiliência do trabalho é compatível com menor pressão sobre os preços ou com nova pressão de custos.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Variação do emprego não agrícola"
+            },
+            {
+              "id": "m2",
+              "label": "Taxa de desemprego"
+            },
+            {
+              "id": "m3",
+              "label": "Crescimento do salário médio por hora"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Reservas cambiais da China aumentam com apoio de efeitos de avaliação",
+          "summary": "As reservas cambiais oficiais da China aumentaram porque o dólar mais fraco e as mudanças nos preços dos ativos globais elevaram o valor divulgado da carteira de reservas.",
+          "impact": "Uma reserva estável pode reforçar a confiança na capacidade de pagamentos externos e na resistência do mercado cambial, mas o movimento mensal não indica necessariamente uma entrada equivalente de dinheiro ou uma intervenção do governo.",
+          "what": "Reservas cambiais são ativos em moedas estrangeiras administrados pelo banco central e por autoridades relacionadas. Elas sustentam a capacidade de pagamentos internacionais e podem servir de proteção durante períodos de tensão nos mercados de capitais. O valor divulgado em dólares muda quando os ativos geram rendimentos, são comprados ou vendidos, ou são convertidos de outras moedas usando taxas de câmbio diferentes. Mudanças nos preços de mercado de títulos e outros ativos também podem afetar o total.",
+          "why": "A suficiência das reservas importa para importadores, exportadores e credores internacionais porque influencia a confiança na capacidade de cumprir obrigações em moeda estrangeira. Maior estabilidade pode reduzir o medo de movimentos cambiais desordenados que aumentariam os custos de importação ou dificultariam o pagamento de dívidas. Contudo, as reservas não equivalem ao dinheiro disponível no orçamento público e são administradas para garantir liquidez, segurança e estabilidade externa, não para gastos domésticos comuns.",
+          "uncertainty": "Somente com esta divulgação, não é possível separar claramente o aumento total entre efeitos de avaliação, renda de investimentos, liquidação comercial, fluxos de capital e transações oficiais. Um dólar mais fraco pode elevar mecanicamente o valor em dólares dos ativos denominados em outras moedas. Portanto, o crescimento das reservas não deve ser interpretado automaticamente como prova de entradas subjacentes mais fortes ou de mudança na política cambial.",
+          "watch": "Acompanhe os dados do balanço de pagamentos, a liquidação bancária de câmbio, os fluxos internacionais de investimentos em carteira e os movimentos da moeda em relação às moedas dos principais parceiros comerciais. A estabilidade persistente das reservas, junto com fluxos de capital ordenados, forneceria evidência mais forte do que uma mudança mensal isolada causada por efeitos de avaliação.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Saldo das reservas cambiais"
+            },
+            {
+              "id": "m2",
+              "label": "Variação mensal das reservas"
             }
           ]
         }
