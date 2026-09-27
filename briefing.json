@@ -1,23 +1,23 @@
 {
   "schemaVersion": 2,
-  "cutoffAt": "2026-09-26T19:00:00Z",
-  "generatedAt": "2026-09-26T19:10:46Z",
+  "cutoffAt": "2026-09-27T01:00:00Z",
+  "generatedAt": "2026-09-27T01:05:00Z",
   "edition": "economy-three-hourly",
   "model": "Codex local source-reviewed fallback",
   "reports": {
     "en": {
-      "asOf": "As of Sep 26, 2026, 19:00 UTC",
+      "asOf": "As of Sep 27, 2026, 01:00 UTC",
       "politics": [
         {
           "id": "p1",
-          "title": "Updated · Trump publicly rejects Iran's Hormuz proposal",
+          "title": "Updated · Iran sets nuclear red lines alongside Hormuz proposal",
           "fact": "On 26 September, Trump told reporters at the White House that he had rejected Iran's proposal to reopen the Strait of Hormuz and end regional fighting.",
-          "positions": "Iran had proposed reopening the strait and pausing regional fighting within seven days of an agreement, followed by wider negotiations on mutually agreed subjects. Trump rejected this proposal while indicating that he remained interested in reaching a deal.",
-          "analysis": "Inference: the public rejection is a setback for this proposal, not evidence that all negotiations have ended. No agreement to reopen the strait has been established."
+          "positions": "Trump publicly rejected the proposal while indicating he remained interested in a deal. Iran's foreign minister said the Strait could reopen within seven days if necessary conditions were met; the proposal included ending the U.S. naval blockade on Iranian ports, releasing frozen funds and waiving oil sanctions. A senior Iranian official told Reuters that Tehran would make no nuclear concessions even if Washington accepted the Hormuz plan, and would keep the Strait closed until Iran's conditions were met.",
+          "analysis": "Inference: the public rejection and Tehran's stated conditions leave both Hormuz reopening and nuclear terms unsettled; accepting the reopening proposal alone would not resolve the nuclear dispute."
         },
         {
           "id": "p2",
-          "title": "Continuing · Trump–Xi summit ends with trade truce extended",
+          "title": "Updated · Trump–Xi summit ends with trade truce extended",
           "fact": "Reuters reported that the 25 September summit extended the trade truce by two months. Limited trade-deal details are due on Monday; major strategic disputes remain.",
           "positions": "Trump highlighted prospective agricultural gains; Xi called for respect and reciprocity. Both identified AI dialogue, while China maintained its Taiwan position.",
           "analysis": "Inference: the extension reduces immediate tariff risk, but results depend on details and implementation, not dialogue alone."
@@ -66,7 +66,7 @@
         }
       ],
       "tennis": {
-        "status": "Team World leads Europe 5–3 after the Laver Cup daytime matches. Alcaraz–Fritz is marked live on the official scoreboard; status may lag. Ukraine beat Italy 2–0 to reach the Billie Jean King Cup final against Czechia; individual scores and final nominations remain unverified. Singapore and Seoul singles finals are on 27 September, with exact times unverified. Hangzhou quarterfinal pairings are also for 27 September. Some ATP pages were inaccessible; coverage is not exhaustive.",
+        "status": "After Day 2, Europe leads Team World 7–5 in the Laver Cup. Alcaraz beat Fritz 6-3, 4-6, [13-11]; Ruud and Zverev beat Bublik and Nakashima 6-4, 7-6(7), both on Sep 26. Ukraine beat Italy 2–0 and will face Czechia in the Billie Jean King Cup final; individual scores and final nominations remain unverified. Singapore's Fernandez–Gibson singles final is not before 17:00 local on Sep 27. Seoul's Birrell–Joint final remains TBD. Hangzhou's four singles quarter-finals are confirmed for Sep 27: Marozsan–Jacquet at 13:30, Gaston–Rublev and Safiullin–Bu followed by, and Medvedev–Wong not before 19:30, all Shanghai time. Chengdu results and some other tour coverage could not be verified; this is not exhaustive.",
         "resultItems": [
           {
             "winnerNames": [
@@ -313,46 +313,64 @@
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska"
             ],
             "id": "r13"
-          }
-        ],
-        "scheduleItems": [
-          {
-            "sideANames": [
-              "Carlos Alcaraz"
-            ],
-            "sideBNames": [
-              "Taylor Fritz"
-            ],
-            "startsAt": "2026-09-26T19:00:00+01:00",
-            "timeZone": "Europe/London",
-            "timeQualifier": "not-before",
-            "id": "s01",
-            "tournament": "Laver Cup",
-            "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
-            ],
-            "status": "in-progress"
           },
           {
-            "sideANames": [
+            "id": "r14",
+            "winnerNames": [
+              "Carlos Alcaraz"
+            ],
+            "loserNames": [
+              "Taylor Fritz"
+            ],
+            "score": "6-3, 4-6, [13-11]",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "Day 2, match 7 · deciding match tie-break [13-11] · 26 Sep",
+            "tournament": "Laver Cup",
+            "sourceUrls": [
+              "https://lavercup.com/match/london-2026-match-7"
+            ]
+          },
+          {
+            "id": "r15",
+            "winnerNames": [
               "Casper Ruud",
               "Alexander Zverev"
             ],
-            "sideBNames": [
+            "loserNames": [
               "Alexander Bublik",
               "Brandon Nakashima"
             ],
-            "startsAt": null,
-            "timeZone": "Europe/London",
-            "timeQualifier": "followed-by",
-            "id": "s02",
+            "score": "6-4, 7-6(9)",
+            "tags": [
+              "straight-sets"
+            ],
+            "completedOn": "2026-09-26",
+            "note": "Day 2, match 8, doubles · tie-break 9-7 · 26 Sep",
             "tournament": "Laver Cup",
             "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
+              "https://lavercup.com/match/london-2026-match-8"
             ]
           },
+          {
+            "id": "r16",
+            "winnerNames": [
+              "Yunchaokete Bu"
+            ],
+            "loserNames": [
+              "Kamil Majchrzak"
+            ],
+            "score": "7-6(4), 6-7(5), 6-2",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "Round of 16 · 26 Sep",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/results"
+            ]
+          }
+        ],
+        "scheduleItems": [
           {
             "sideANames": [
               "Daniil Medvedev"
@@ -367,23 +385,7 @@
             "sourceUrls": [
               "https://www.hangzhouopen.com/en/scores/schedule"
             ],
-            "id": "s03"
-          },
-          {
-            "sideANames": [
-              "Hugo Gaston"
-            ],
-            "sideBNames": [
-              "Andrey Rublev"
-            ],
-            "startsAt": null,
-            "timeZone": "Asia/Shanghai",
-            "timeQualifier": "followed-by",
-            "tournament": "Hangzhou Open",
-            "sourceUrls": [
-              "https://www.hangzhouopen.com/en/scores/schedule"
-            ],
-            "id": "s04"
+            "id": "s01"
           },
           {
             "sideANames": [
@@ -392,14 +394,15 @@
             "sideBNames": [
               "Talia Gibson"
             ],
-            "startsAt": null,
+            "startsAt": "2026-09-27T17:00:00+08:00",
             "timeZone": "Asia/Singapore",
-            "timeQualifier": "tbd",
-            "id": "s05",
+            "timeQualifier": "not-before",
+            "id": "s02",
             "tournament": "Singapore Tennis Open",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska",
-              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play",
+              "https://www.wtatennis.com/news/4578150/singapore-411-dates-draws-schedule-prize-money-and-more"
             ]
           },
           {
@@ -412,28 +415,76 @@
             "startsAt": null,
             "timeZone": "Asia/Seoul",
             "timeQualifier": "tbd",
-            "id": "s06",
+            "id": "s03",
             "tournament": "Korea Open",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582090/birrell-joint-to-contest-first-all-australian-final-since-2017-in-seoul"
+            ]
+          },
+          {
+            "id": "s04",
+            "sideANames": [
+              "Fabian Marozsan"
+            ],
+            "sideBNames": [
+              "Kyrian Jacquet"
+            ],
+            "startsAt": "2026-09-27T13:30:00+08:00",
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "fixed",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s05",
+            "sideANames": [
+              "Hugo Gaston"
+            ],
+            "sideBNames": [
+              "Andrey Rublev"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s06",
+            "sideANames": [
+              "Roman Safiullin"
+            ],
+            "sideBNames": [
+              "Yunchaokete Bu"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
             ]
           }
         ]
       }
     },
     "fr": {
-      "asOf": "Au 26 sept. 2026, 19:00 UTC",
+      "asOf": "Au 27 sept. 2026, 01:00 UTC",
       "politics": [
         {
           "id": "p1",
-          "title": "Mis à jour · Trump rejette publiquement la proposition iranienne sur Ormuz",
+          "title": "Mis à jour · L’Iran fixe ses lignes rouges nucléaires dans le cadre de la proposition sur Ormuz",
           "fact": "Le 26 septembre, Trump a déclaré à des journalistes à la Maison-Blanche qu'il avait rejeté la proposition iranienne de rouvrir le détroit d'Ormuz et de mettre fin aux combats dans la région.",
-          "positions": "L'Iran avait proposé de rouvrir le détroit et de suspendre les combats dans la région dans les sept jours suivant un accord, puis d'engager des négociations plus larges sur des sujets convenus d'un commun accord. Trump a rejeté cette proposition tout en indiquant qu'il restait intéressé par la conclusion d'un accord.",
-          "analysis": "Déduction : ce rejet public constitue un revers pour cette proposition, et non la preuve que toutes les négociations ont pris fin. Aucun accord de réouverture du détroit n'a été établi."
+          "positions": "Trump a rejeté publiquement la proposition tout en indiquant qu’il restait intéressé par un accord. Le ministre iranien des Affaires étrangères a déclaré que le détroit pourrait rouvrir dans les sept jours si les conditions nécessaires étaient réunies ; la proposition prévoyait notamment la fin du blocus naval américain des ports iraniens, la libération de fonds gelés et une dérogation aux sanctions pétrolières. Un haut responsable iranien a déclaré à Reuters que Téhéran ne ferait aucune concession nucléaire même si Washington acceptait le plan sur Ormuz, et que le détroit resterait fermé jusqu’à ce que les conditions iraniennes soient remplies.",
+          "analysis": "Déduction : le rejet public et les conditions énoncées par Téhéran laissent en suspens la réouverture d’Ormuz comme le dossier nucléaire ; accepter la proposition de réouverture ne réglerait pas à lui seul le différend nucléaire."
         },
         {
           "id": "p2",
-          "title": "Suivi · Le sommet entre Trump et Xi se termine par une prolongation de la trêve commerciale",
+          "title": "Mis à jour · Le sommet Trump–Xi s’achève sur la prolongation de la trêve commerciale",
           "fact": "Reuters a rapporté que le sommet du 25 septembre avait prolongé la trêve commerciale de deux mois. Les détails des accords commerciaux limités sont attendus lundi ; les grands différends stratégiques persistent.",
           "positions": "Trump a mis en avant les bénéfices agricoles attendus ; Xi a appelé au respect et à la réciprocité. Tous deux ont identifié l’IA comme un domaine de dialogue, tandis que la Chine a maintenu sa position sur Taïwan.",
           "analysis": "Inférence : la prolongation réduit le risque immédiat de droits de douane, mais les résultats dépendent des détails et de leur mise en œuvre, pas du seul dialogue."
@@ -482,7 +533,7 @@
         }
       ],
       "tennis": {
-        "status": "L'équipe Monde mène 5–3 face à l'Europe après les rencontres de journée de la Laver Cup. Le tableau officiel indique Alcaraz–Fritz en cours ; ce statut peut être décalé. L'Ukraine a battu l'Italie 2–0 et affrontera la Tchéquie en finale de la Billie Jean King Cup ; les scores individuels et les joueuses désignées pour la finale restent non vérifiés. Les finales de simple de Singapour et de Séoul auront lieu le 27 septembre, sans heure précise vérifiée. Les quarts de finale de Hangzhou sont également prévus le 27 septembre. Certaines pages ATP étaient inaccessibles ; cette couverture n'est pas exhaustive.",
+        "status": "Après le jour 2, l’Europe mène l’équipe Monde 7–5 à la Laver Cup. Alcaraz a battu Fritz 6-3, 4-6, [13-11] ; Ruud et Zverev ont battu Bublik et Nakashima 6-4, 7-6(7), les deux rencontres ayant eu lieu le 26 sept. L’Ukraine a battu l’Italie 2–0 et affrontera la Tchéquie en finale de la Billie Jean King Cup ; les scores individuels et les joueuses désignées pour la finale restent non vérifiés. La finale de simple de Singapour entre Fernandez et Gibson est prévue le 27 sept. pas avant 17 h, heure locale. L’heure de la finale de Séoul entre Birrell et Joint reste à confirmer. Les quatre quarts de finale de simple de Hangzhou sont confirmés le 27 sept. : Marozsan–Jacquet à 13 h 30, Gaston–Rublev et Safiullin–Bu à la suite, puis Medvedev–Wong pas avant 19 h 30, toutes heures de Shanghai. Les résultats de Chengdu et d’autres rencontres du circuit n’ont pas pu être vérifiés ; la couverture n’est pas exhaustive.",
         "resultItems": [
           {
             "winnerNames": [
@@ -729,46 +780,64 @@
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska"
             ],
             "id": "r13"
-          }
-        ],
-        "scheduleItems": [
-          {
-            "sideANames": [
-              "Carlos Alcaraz"
-            ],
-            "sideBNames": [
-              "Taylor Fritz"
-            ],
-            "startsAt": "2026-09-26T19:00:00+01:00",
-            "timeZone": "Europe/London",
-            "timeQualifier": "not-before",
-            "id": "s01",
-            "tournament": "Laver Cup",
-            "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
-            ],
-            "status": "in-progress"
           },
           {
-            "sideANames": [
+            "id": "r14",
+            "winnerNames": [
+              "Carlos Alcaraz"
+            ],
+            "loserNames": [
+              "Taylor Fritz"
+            ],
+            "score": "6-3, 4-6, [13-11]",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "Jour 2, match 7 · super tie-break décisif [13-11] · 26 sept.",
+            "tournament": "Laver Cup",
+            "sourceUrls": [
+              "https://lavercup.com/match/london-2026-match-7"
+            ]
+          },
+          {
+            "id": "r15",
+            "winnerNames": [
               "Casper Ruud",
               "Alexander Zverev"
             ],
-            "sideBNames": [
+            "loserNames": [
               "Alexander Bublik",
               "Brandon Nakashima"
             ],
-            "startsAt": null,
-            "timeZone": "Europe/London",
-            "timeQualifier": "followed-by",
-            "id": "s02",
+            "score": "6-4, 7-6(9)",
+            "tags": [
+              "straight-sets"
+            ],
+            "completedOn": "2026-09-26",
+            "note": "Jour 2, match 8, double · tie-break 9-7 · 26 sept.",
             "tournament": "Laver Cup",
             "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
+              "https://lavercup.com/match/london-2026-match-8"
             ]
           },
+          {
+            "id": "r16",
+            "winnerNames": [
+              "Yunchaokete Bu"
+            ],
+            "loserNames": [
+              "Kamil Majchrzak"
+            ],
+            "score": "7-6(4), 6-7(5), 6-2",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "Huitième de finale · 26 sept.",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/results"
+            ]
+          }
+        ],
+        "scheduleItems": [
           {
             "sideANames": [
               "Daniil Medvedev"
@@ -783,23 +852,7 @@
             "sourceUrls": [
               "https://www.hangzhouopen.com/en/scores/schedule"
             ],
-            "id": "s03"
-          },
-          {
-            "sideANames": [
-              "Hugo Gaston"
-            ],
-            "sideBNames": [
-              "Andrey Rublev"
-            ],
-            "startsAt": null,
-            "timeZone": "Asia/Shanghai",
-            "timeQualifier": "followed-by",
-            "tournament": "Tournoi de Hangzhou",
-            "sourceUrls": [
-              "https://www.hangzhouopen.com/en/scores/schedule"
-            ],
-            "id": "s04"
+            "id": "s01"
           },
           {
             "sideANames": [
@@ -808,14 +861,15 @@
             "sideBNames": [
               "Talia Gibson"
             ],
-            "startsAt": null,
+            "startsAt": "2026-09-27T17:00:00+08:00",
             "timeZone": "Asia/Singapore",
-            "timeQualifier": "tbd",
-            "id": "s05",
+            "timeQualifier": "not-before",
+            "id": "s02",
             "tournament": "Open de Singapour",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska",
-              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play",
+              "https://www.wtatennis.com/news/4578150/singapore-411-dates-draws-schedule-prize-money-and-more"
             ]
           },
           {
@@ -828,28 +882,76 @@
             "startsAt": null,
             "timeZone": "Asia/Seoul",
             "timeQualifier": "tbd",
-            "id": "s06",
+            "id": "s03",
             "tournament": "Open de Corée",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582090/birrell-joint-to-contest-first-all-australian-final-since-2017-in-seoul"
+            ]
+          },
+          {
+            "id": "s04",
+            "sideANames": [
+              "Fabian Marozsan"
+            ],
+            "sideBNames": [
+              "Kyrian Jacquet"
+            ],
+            "startsAt": "2026-09-27T13:30:00+08:00",
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "fixed",
+            "tournament": "Tournoi de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s05",
+            "sideANames": [
+              "Hugo Gaston"
+            ],
+            "sideBNames": [
+              "Andrey Rublev"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "Tournoi de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s06",
+            "sideANames": [
+              "Roman Safiullin"
+            ],
+            "sideBNames": [
+              "Yunchaokete Bu"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "Tournoi de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
             ]
           }
         ]
       }
     },
     "zh-CN": {
-      "asOf": "截至 2026年9月26日 UTC 19:00",
+      "asOf": "截至 2026年9月27日 01:00 UTC",
       "politics": [
         {
           "id": "p1",
-          "title": "更新 · 特朗普公开拒绝伊朗的霍尔木兹海峡方案",
+          "title": "更新 · 伊朗在霍尔木兹方案之外划定核问题红线",
           "fact": "9月26日，特朗普在白宫对记者表示，他已拒绝伊朗关于重新开放霍尔木兹海峡并结束地区战斗的提议。",
-          "positions": "伊朗此前提议在达成协议后七天内重新开放海峡、暂停地区战斗，再就双方同意的议题展开更广泛谈判。特朗普拒绝了这一方案，同时表示仍有意达成协议。",
-          "analysis": "推断：公开拒绝意味着这一方案受挫，但不能据此认定所有谈判已结束。目前尚未达成重新开放海峡的协议。"
+          "positions": "特朗普公开拒绝该提议，同时表示仍有意达成协议。伊朗外长称，若必要条件得到满足，海峡可在七天内重新开放；方案包括结束美国对伊朗港口的海上封锁、解冻资金并豁免石油制裁。一名伊朗高级官员向路透社表示，即使华盛顿接受霍尔木兹方案，德黑兰也不会在核问题上让步；在伊朗条件得到满足前，海峡将继续关闭。",
+          "analysis": "推断：美国公开拒绝方案、德黑兰提出的条件，使霍尔木兹海峡重开和核问题都仍未解决；仅接受重开海峡的提议并不能解决核争端。"
         },
         {
           "id": "p2",
-          "title": "持续 · 特朗普与习近平峰会结束，贸易休战延长",
+          "title": "更新 · 特朗普—习近平峰会结束，贸易休战延长",
           "fact": "据路透社报道，9月25日的峰会将贸易休战延长两个月。有限贸易协议的细节拟于周一公布，重大战略分歧仍存。",
           "positions": "特朗普强调潜在农业收益；习近平提出尊重与互惠。双方均提到人工智能对话，中国同时维持其台湾立场。",
           "analysis": "推断：延期降低了近期关税升级风险，但成效取决于细节及落实，不能仅凭对话判断。"
@@ -898,7 +1000,7 @@
         }
       ],
       "tennis": {
-        "status": "拉沃尔杯白天场结束后，世界队以5–3领先欧洲队。官方比分页将阿尔卡拉斯对弗里茨标为进行中，状态可能延迟。乌克兰以2–0击败意大利，将与捷克争夺比利·简·金杯冠军；个人比分及决赛出场名单尚未核实。新加坡、首尔女单决赛均在9月27日，具体钟点未核实；杭州四分之一决赛对阵也安排在9月27日。部分ATP页面无法访问，本期并非完整赛程。",
+        "status": "拉沃尔杯第二日结束后，欧洲队以7–5领先世界队。阿尔卡拉斯以6–3、4–6、[13–11]击败弗里茨；鲁德/兹维列夫以6–4、7–6(7)击败布勃利克/中岛，两场均于9月26日进行。乌克兰以2–0击败意大利，将在比莉·简·金杯决赛对阵捷克；个人比分及决赛出场名单仍未核实。新加坡费尔南德斯对吉布森的女单决赛9月27日不早于当地17:00。首尔比勒尔对乔因特决赛时间待定。杭州四场单打四分之一决赛已确认于9月27日进行：马洛桑对雅凯13:30，加斯顿对卢布列夫、萨菲乌林对布云朝随后进行，梅德韦杰夫对黄泽林不早于19:30，均为上海时间。成都赛果及部分其他巡回赛未能核实；本报道并非完整赛程。",
         "resultItems": [
           {
             "winnerNames": [
@@ -1145,46 +1247,64 @@
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska"
             ],
             "id": "r13"
-          }
-        ],
-        "scheduleItems": [
-          {
-            "sideANames": [
-              "卡洛斯·阿尔卡拉斯（Carlos Alcaraz）"
-            ],
-            "sideBNames": [
-              "泰勒·弗里茨（Taylor Fritz）"
-            ],
-            "startsAt": "2026-09-26T19:00:00+01:00",
-            "timeZone": "Europe/London",
-            "timeQualifier": "not-before",
-            "id": "s01",
-            "tournament": "拉沃尔杯",
-            "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
-            ],
-            "status": "in-progress"
           },
           {
-            "sideANames": [
+            "id": "r14",
+            "winnerNames": [
+              "卡洛斯·阿尔卡拉斯（Carlos Alcaraz）"
+            ],
+            "loserNames": [
+              "泰勒·弗里茨（Taylor Fritz）"
+            ],
+            "score": "6-3, 4-6, [13-11]",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "第2日第7场，决胜抢十 [13–11] · 9月26日",
+            "tournament": "Laver Cup",
+            "sourceUrls": [
+              "https://lavercup.com/match/london-2026-match-7"
+            ]
+          },
+          {
+            "id": "r15",
+            "winnerNames": [
               "卡斯珀·鲁德（Casper Ruud）",
               "亚历山大·兹维列夫（Alexander Zverev）"
             ],
-            "sideBNames": [
+            "loserNames": [
               "亚历山大·布勃利克（Alexander Bublik）",
               "布兰登·中岛（Brandon Nakashima）"
             ],
-            "startsAt": null,
-            "timeZone": "Europe/London",
-            "timeQualifier": "followed-by",
-            "id": "s02",
-            "tournament": "拉沃尔杯",
+            "score": "6-4, 7-6(9)",
+            "tags": [
+              "straight-sets"
+            ],
+            "completedOn": "2026-09-26",
+            "note": "第2日第8场，双打 · 抢七9–7 · 9月26日",
+            "tournament": "Laver Cup",
             "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
+              "https://lavercup.com/match/london-2026-match-8"
             ]
           },
+          {
+            "id": "r16",
+            "winnerNames": [
+              "布云朝（Yunchaokete Bu）"
+            ],
+            "loserNames": [
+              "卡米尔·马吉赫扎克（Kamil Majchrzak）"
+            ],
+            "score": "7-6(4), 6-7(5), 6-2",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "十六强赛 · 9月26日",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/results"
+            ]
+          }
+        ],
+        "scheduleItems": [
           {
             "sideANames": [
               "丹尼尔·梅德韦杰夫（Daniil Medvedev）"
@@ -1199,23 +1319,7 @@
             "sourceUrls": [
               "https://www.hangzhouopen.com/en/scores/schedule"
             ],
-            "id": "s03"
-          },
-          {
-            "sideANames": [
-              "雨果·加斯东（Hugo Gaston）"
-            ],
-            "sideBNames": [
-              "安德烈·卢布列夫（Andrey Rublev）"
-            ],
-            "startsAt": null,
-            "timeZone": "Asia/Shanghai",
-            "timeQualifier": "followed-by",
-            "tournament": "杭州网球公开赛",
-            "sourceUrls": [
-              "https://www.hangzhouopen.com/en/scores/schedule"
-            ],
-            "id": "s04"
+            "id": "s01"
           },
           {
             "sideANames": [
@@ -1224,14 +1328,15 @@
             "sideBNames": [
               "塔莉娅·吉布森（Talia Gibson）"
             ],
-            "startsAt": null,
+            "startsAt": "2026-09-27T17:00:00+08:00",
             "timeZone": "Asia/Singapore",
-            "timeQualifier": "tbd",
-            "id": "s05",
+            "timeQualifier": "not-before",
+            "id": "s02",
             "tournament": "新加坡网球公开赛",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska",
-              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play",
+              "https://www.wtatennis.com/news/4578150/singapore-411-dates-draws-schedule-prize-money-and-more"
             ]
           },
           {
@@ -1244,28 +1349,76 @@
             "startsAt": null,
             "timeZone": "Asia/Seoul",
             "timeQualifier": "tbd",
-            "id": "s06",
+            "id": "s03",
             "tournament": "韩国网球公开赛",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582090/birrell-joint-to-contest-first-all-australian-final-since-2017-in-seoul"
+            ]
+          },
+          {
+            "id": "s04",
+            "sideANames": [
+              "法比安·马洛桑（Fabian Marozsan）"
+            ],
+            "sideBNames": [
+              "基里安·雅凯（Kyrian Jacquet）"
+            ],
+            "startsAt": "2026-09-27T13:30:00+08:00",
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "fixed",
+            "tournament": "杭州网球公开赛",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s05",
+            "sideANames": [
+              "雨果·加斯顿（Hugo Gaston）"
+            ],
+            "sideBNames": [
+              "安德烈·卢布列夫（Andrey Rublev）"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "杭州网球公开赛",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s06",
+            "sideANames": [
+              "罗曼·萨菲乌林（Roman Safiullin）"
+            ],
+            "sideBNames": [
+              "布云朝（Yunchaokete Bu）"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "杭州网球公开赛",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
             ]
           }
         ]
       }
     },
     "es": {
-      "asOf": "Al 26 sept 2026, 19:00 UTC",
+      "asOf": "Al 27 sept 2026, 01:00 UTC",
       "politics": [
         {
           "id": "p1",
-          "title": "Actualizado · Trump rechaza públicamente la propuesta de Irán sobre Ormuz",
+          "title": "Actualización · Irán fija líneas rojas nucleares junto a su propuesta sobre Ormuz",
           "fact": "El 26 de septiembre, Trump dijo a periodistas en la Casa Blanca que había rechazado la propuesta de Irán de reabrir el estrecho de Ormuz y poner fin a los combates en la región.",
-          "positions": "Irán había propuesto reabrir el estrecho y suspender los combates en la región en un plazo de siete días a partir de un acuerdo, para después celebrar negociaciones más amplias sobre temas acordados mutuamente. Trump rechazó esta propuesta, al tiempo que indicó que seguía interesado en alcanzar un acuerdo.",
-          "analysis": "Inferencia: el rechazo público supone un revés para esta propuesta, no una prueba de que hayan terminado todas las negociaciones. No se ha establecido ningún acuerdo para reabrir el estrecho."
+          "positions": "Trump rechazó públicamente la propuesta, aunque indicó que seguía interesado en alcanzar un acuerdo. El ministro de Exteriores iraní dijo que el estrecho podría reabrirse en un plazo de siete días si se cumplían las condiciones necesarias; la propuesta incluía poner fin al bloqueo naval estadounidense de los puertos iraníes, liberar fondos congelados y eximir el petróleo de las sanciones. Un alto cargo iraní dijo a Reuters que Teherán no haría concesiones nucleares aunque Washington aceptase el plan sobre Ormuz y que mantendría cerrado el estrecho hasta que se cumplieran las condiciones de Irán.",
+          "analysis": "Inferencia: el rechazo público y las condiciones declaradas por Teherán dejan sin resolver tanto la reapertura de Ormuz como los términos nucleares; aceptar por sí sola la propuesta de reapertura no resolvería la disputa nuclear."
         },
         {
           "id": "p2",
-          "title": "En seguimiento · La cumbre entre Trump y Xi termina con una prórroga de la tregua comercial",
+          "title": "Actualización · La cumbre Trump–Xi concluye con una prórroga de la tregua comercial",
           "fact": "Reuters informó de que la cumbre del 25 de septiembre había prolongado la tregua comercial dos meses. Los detalles de los acuerdos comerciales limitados se esperan para el lunes; persisten importantes disputas estratégicas.",
           "positions": "Trump destacó los posibles beneficios agrícolas; Xi pidió respeto y reciprocidad. Ambos señalaron la IA como un ámbito de diálogo, mientras China mantuvo su posición sobre Taiwán.",
           "analysis": "Inferencia: la prórroga reduce el riesgo arancelario inmediato, pero los resultados dependen de los detalles y de su aplicación, no solo del diálogo."
@@ -1314,7 +1467,7 @@
         }
       ],
       "tennis": {
-        "status": "El Equipo Mundo aventaja a Europa por 5–3 tras los partidos diurnos de la Laver Cup. El marcador oficial indica que Alcaraz–Fritz está en juego; el estado puede llevar retraso. Ucrania venció a Italia por 2–0 y disputará la final de la Billie Jean King Cup ante Chequia; siguen sin verificarse los resultados individuales y las jugadoras designadas para la final. Las finales individuales de Singapur y Seúl se disputarán el 27 de septiembre, sin hora exacta verificada. Los cuartos de final de Hangzhou también están previstos para el 27 de septiembre. Algunas páginas de la ATP no eran accesibles; la cobertura no es exhaustiva.",
+        "status": "Tras la segunda jornada, Europa aventaja por 7–5 al Equipo Mundo en la Laver Cup. Alcaraz venció a Fritz por 6-3, 4-6, [13-11]; Ruud y Zverev derrotaron a Bublik y Nakashima por 6-4, 7-6(7), ambos partidos el 26 de septiembre. Ucrania venció a Italia por 2–0 y jugará la final de la Billie Jean King Cup contra Chequia; los resultados individuales y las jugadoras designadas para la final siguen sin verificarse. La final individual de Singapur entre Fernandez y Gibson será el 27 de septiembre no antes de las 17:00, hora local. La hora de la final de Seúl entre Birrell y Joint está pendiente. Los cuatro cuartos de final individuales de Hangzhou están confirmados para el 27 de septiembre: Marozsan–Jacquet a las 13:30, Gaston–Rublev y Safiullin–Bu a continuación, y Medvedev–Wong no antes de las 19:30, todas horas de Shanghái. No se pudieron verificar los resultados de Chengdu ni algunos otros partidos del circuito; la cobertura no es exhaustiva.",
         "resultItems": [
           {
             "winnerNames": [
@@ -1561,46 +1714,64 @@
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska"
             ],
             "id": "r13"
-          }
-        ],
-        "scheduleItems": [
-          {
-            "sideANames": [
-              "Carlos Alcaraz"
-            ],
-            "sideBNames": [
-              "Taylor Fritz"
-            ],
-            "startsAt": "2026-09-26T19:00:00+01:00",
-            "timeZone": "Europe/London",
-            "timeQualifier": "not-before",
-            "id": "s01",
-            "tournament": "Laver Cup",
-            "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
-            ],
-            "status": "in-progress"
           },
           {
-            "sideANames": [
+            "id": "r14",
+            "winnerNames": [
+              "Carlos Alcaraz"
+            ],
+            "loserNames": [
+              "Taylor Fritz"
+            ],
+            "score": "6-3, 4-6, [13-11]",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "Día 2, partido 7 · super tie-break decisivo [13-11] · 26 sep.",
+            "tournament": "Laver Cup",
+            "sourceUrls": [
+              "https://lavercup.com/match/london-2026-match-7"
+            ]
+          },
+          {
+            "id": "r15",
+            "winnerNames": [
               "Casper Ruud",
               "Alexander Zverev"
             ],
-            "sideBNames": [
+            "loserNames": [
               "Alexander Bublik",
               "Brandon Nakashima"
             ],
-            "startsAt": null,
-            "timeZone": "Europe/London",
-            "timeQualifier": "followed-by",
-            "id": "s02",
+            "score": "6-4, 7-6(9)",
+            "tags": [
+              "straight-sets"
+            ],
+            "completedOn": "2026-09-26",
+            "note": "Día 2, partido 8, dobles · tie-break 9-7 · 26 sep.",
             "tournament": "Laver Cup",
             "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
+              "https://lavercup.com/match/london-2026-match-8"
             ]
           },
+          {
+            "id": "r16",
+            "winnerNames": [
+              "Yunchaokete Bu"
+            ],
+            "loserNames": [
+              "Kamil Majchrzak"
+            ],
+            "score": "7-6(4), 6-7(5), 6-2",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "Octavos de final · 26 sep.",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/results"
+            ]
+          }
+        ],
+        "scheduleItems": [
           {
             "sideANames": [
               "Daniil Medvedev"
@@ -1615,23 +1786,7 @@
             "sourceUrls": [
               "https://www.hangzhouopen.com/en/scores/schedule"
             ],
-            "id": "s03"
-          },
-          {
-            "sideANames": [
-              "Hugo Gaston"
-            ],
-            "sideBNames": [
-              "Andrey Rublev"
-            ],
-            "startsAt": null,
-            "timeZone": "Asia/Shanghai",
-            "timeQualifier": "followed-by",
-            "tournament": "Abierto de Hangzhou",
-            "sourceUrls": [
-              "https://www.hangzhouopen.com/en/scores/schedule"
-            ],
-            "id": "s04"
+            "id": "s01"
           },
           {
             "sideANames": [
@@ -1640,14 +1795,15 @@
             "sideBNames": [
               "Talia Gibson"
             ],
-            "startsAt": null,
+            "startsAt": "2026-09-27T17:00:00+08:00",
             "timeZone": "Asia/Singapore",
-            "timeQualifier": "tbd",
-            "id": "s05",
+            "timeQualifier": "not-before",
+            "id": "s02",
             "tournament": "Abierto de Singapur",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska",
-              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play",
+              "https://www.wtatennis.com/news/4578150/singapore-411-dates-draws-schedule-prize-money-and-more"
             ]
           },
           {
@@ -1660,28 +1816,76 @@
             "startsAt": null,
             "timeZone": "Asia/Seoul",
             "timeQualifier": "tbd",
-            "id": "s06",
+            "id": "s03",
             "tournament": "Abierto de Corea",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582090/birrell-joint-to-contest-first-all-australian-final-since-2017-in-seoul"
+            ]
+          },
+          {
+            "id": "s04",
+            "sideANames": [
+              "Fabian Marozsan"
+            ],
+            "sideBNames": [
+              "Kyrian Jacquet"
+            ],
+            "startsAt": "2026-09-27T13:30:00+08:00",
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "fixed",
+            "tournament": "Abierto de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s05",
+            "sideANames": [
+              "Hugo Gaston"
+            ],
+            "sideBNames": [
+              "Andrey Rublev"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "Abierto de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s06",
+            "sideANames": [
+              "Roman Safiullin"
+            ],
+            "sideBNames": [
+              "Yunchaokete Bu"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "Abierto de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
             ]
           }
         ]
       }
     },
     "ja": {
-      "asOf": "情報基準時刻 2026年9月26日 19:00 UTC",
+      "asOf": "情報基準時刻 2026年9月27日 01:00 UTC",
       "politics": [
         {
           "id": "p1",
-          "title": "更新 · トランプ氏、イランのホルムズ海峡再開案の拒否を公言",
+          "title": "更新 · イラン、ホルムズ海峡案とは別に核問題の譲歩拒否を表明",
           "fact": "9月26日、トランプ氏はホワイトハウスで記者団に対し、ホルムズ海峡の航行を再開し、地域内の戦闘を終結させるイランの提案を拒否したと述べた。",
-          "positions": "イランは、合意から7日以内に海峡の航行を再開して地域内の戦闘を一時停止し、その後、相互に合意した議題について幅広い交渉を行うことを提案していた。トランプ氏は、引き続き合意の成立に関心を示しつつ、この提案を拒否した。",
-          "analysis": "推論：公の拒否表明はこの提案にとって後退を意味するが、すべての交渉が終了したことを示す証拠ではない。海峡の航行再開に関する合意は成立していない。"
+          "positions": "トランプ大統領は提案を公に拒否した一方、合意には引き続き関心があると示した。イラン外相は、必要な条件が満たされれば海峡は7日以内に再開できると述べた。提案には、米国によるイラン港湾の海上封鎖の終了、凍結資金の解放、石油制裁の免除が含まれる。イラン高官はロイターに対し、米国がホルムズ案を受け入れてもテヘランは核問題で譲歩せず、イランの条件が満たされるまで海峡を閉鎖すると述べた。",
+          "analysis": "推論：米国の公的な拒否とテヘランが示した条件により、ホルムズ海峡の再開と核問題の双方が未解決のままである。再開案だけを受け入れても核問題の争いは解決しない。"
         },
         {
           "id": "p2",
-          "title": "継続 · トランプ・習近平会談、貿易休戦の延長で終了",
+          "title": "更新 · 米中首脳会談が終了、貿易休戦を延長",
           "fact": "ロイターによると、9月25日の首脳会談で貿易休戦が2か月延長された。限定的な通商合意の詳細は月曜日に公表される予定だが、主要な戦略上の対立は残っている。",
           "positions": "トランプ氏は農業分野で見込まれる利益を強調し、習氏は尊重と互恵を求めた。双方はAIに関する対話を挙げる一方、中国は台湾に関する立場を維持した。",
           "analysis": "推論：延長により当面の関税リスクは低下するが、成果は対話だけでなく、具体的な内容とその履行に左右される。"
@@ -1730,7 +1934,7 @@
         }
       ],
       "tennis": {
-        "status": "レーバーカップの日中の試合終了後、世界選抜が欧州選抜を5–3でリード。公式スコアボードはアルカラス対フリッツを試合中と表示していますが、状態の反映が遅れる場合があります。ウクライナはイタリアに2–0で勝ち、ビリー・ジーン・キング・カップ決勝でチェコと対戦します。個別のスコアと決勝の出場選手は未確認です。シンガポールとソウルの女子シングルス決勝は9月27日で、正確な開始時刻は未確認。杭州の準々決勝も9月27日の予定です。一部ATPページにアクセスできず、全日程は網羅していません。",
+        "status": "レーバーカップ第2日終了時点で、欧州選抜が世界選抜を7–5でリード。アルカラスはフリッツに6-3、4-6、[13-11]で勝利し、ルード／ズベレフはブブリク／ナカシマに6-4、7-6(7)で勝利した。いずれも9月26日の試合。ウクライナはイタリアに2–0で勝ち、ビリー・ジーン・キング・カップ決勝でチェコと対戦する。個別スコアと決勝の出場選手は未確認。シンガポールのフェルナンデス対ギブソンの女子シングルス決勝は、現地時間9月27日17時以降。ソウルのビレル対ジョイントの決勝開始時刻は未定。杭州のシングルス準々決勝4試合は9月27日と確認済み。マロジャン対ジャケは13時30分、ガストン対ルブレフとサフィウリン対布雲朝は順次、メドベージェフ対黄澤林は19時30分以降（すべて上海時間）。成都の結果と一部ツアーの他試合は確認できず、網羅的な報道ではない。",
         "resultItems": [
           {
             "winnerNames": [
@@ -1977,46 +2181,64 @@
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska"
             ],
             "id": "r13"
-          }
-        ],
-        "scheduleItems": [
-          {
-            "sideANames": [
-              "カルロス・アルカラス（Carlos Alcaraz）"
-            ],
-            "sideBNames": [
-              "テイラー・フリッツ（Taylor Fritz）"
-            ],
-            "startsAt": "2026-09-26T19:00:00+01:00",
-            "timeZone": "Europe/London",
-            "timeQualifier": "not-before",
-            "id": "s01",
-            "tournament": "レーバーカップ",
-            "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
-            ],
-            "status": "in-progress"
           },
           {
-            "sideANames": [
+            "id": "r14",
+            "winnerNames": [
+              "カルロス・アルカラス（Carlos Alcaraz）"
+            ],
+            "loserNames": [
+              "テイラー・フリッツ（Taylor Fritz）"
+            ],
+            "score": "6-3, 4-6, [13-11]",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "第2日第7試合 · 決定タイブレーク [13-11] · 9月26日",
+            "tournament": "Laver Cup",
+            "sourceUrls": [
+              "https://lavercup.com/match/london-2026-match-7"
+            ]
+          },
+          {
+            "id": "r15",
+            "winnerNames": [
               "キャスパー・ルード（Casper Ruud）",
               "アレクサンダー・ズベレフ（Alexander Zverev）"
             ],
-            "sideBNames": [
+            "loserNames": [
               "アレクサンダー・ブブリク（Alexander Bublik）",
               "ブランドン・ナカシマ（Brandon Nakashima）"
             ],
-            "startsAt": null,
-            "timeZone": "Europe/London",
-            "timeQualifier": "followed-by",
-            "id": "s02",
-            "tournament": "レーバーカップ",
+            "score": "6-4, 7-6(9)",
+            "tags": [
+              "straight-sets"
+            ],
+            "completedOn": "2026-09-26",
+            "note": "第2日第8試合、ダブルス · タイブレーク9-7 · 9月26日",
+            "tournament": "Laver Cup",
             "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
+              "https://lavercup.com/match/london-2026-match-8"
             ]
           },
+          {
+            "id": "r16",
+            "winnerNames": [
+              "布雲朝（Yunchaokete Bu）"
+            ],
+            "loserNames": [
+              "カミル・マイフシャク（Kamil Majchrzak）"
+            ],
+            "score": "7-6(4), 6-7(5), 6-2",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "ラウンド16 · 9月26日",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/results"
+            ]
+          }
+        ],
+        "scheduleItems": [
           {
             "sideANames": [
               "ダニール・メドベージェフ（Daniil Medvedev）"
@@ -2031,23 +2253,7 @@
             "sourceUrls": [
               "https://www.hangzhouopen.com/en/scores/schedule"
             ],
-            "id": "s03"
-          },
-          {
-            "sideANames": [
-              "ユーゴ・ガストン（Hugo Gaston）"
-            ],
-            "sideBNames": [
-              "アンドレイ・ルブレフ（Andrey Rublev）"
-            ],
-            "startsAt": null,
-            "timeZone": "Asia/Shanghai",
-            "timeQualifier": "followed-by",
-            "tournament": "杭州オープン",
-            "sourceUrls": [
-              "https://www.hangzhouopen.com/en/scores/schedule"
-            ],
-            "id": "s04"
+            "id": "s01"
           },
           {
             "sideANames": [
@@ -2056,14 +2262,15 @@
             "sideBNames": [
               "タリア・ギブソン（Talia Gibson）"
             ],
-            "startsAt": null,
+            "startsAt": "2026-09-27T17:00:00+08:00",
             "timeZone": "Asia/Singapore",
-            "timeQualifier": "tbd",
-            "id": "s05",
+            "timeQualifier": "not-before",
+            "id": "s02",
             "tournament": "シンガポール・テニス・オープン",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska",
-              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play",
+              "https://www.wtatennis.com/news/4578150/singapore-411-dates-draws-schedule-prize-money-and-more"
             ]
           },
           {
@@ -2076,28 +2283,76 @@
             "startsAt": null,
             "timeZone": "Asia/Seoul",
             "timeQualifier": "tbd",
-            "id": "s06",
+            "id": "s03",
             "tournament": "韓国オープン",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582090/birrell-joint-to-contest-first-all-australian-final-since-2017-in-seoul"
+            ]
+          },
+          {
+            "id": "s04",
+            "sideANames": [
+              "ファビアン・マロジャン（Fabian Marozsan）"
+            ],
+            "sideBNames": [
+              "キリアン・ジャケ（Kyrian Jacquet）"
+            ],
+            "startsAt": "2026-09-27T13:30:00+08:00",
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "fixed",
+            "tournament": "杭州オープン",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s05",
+            "sideANames": [
+              "ユーゴ・ガストン（Hugo Gaston）"
+            ],
+            "sideBNames": [
+              "アンドレイ・ルブレフ（Andrey Rublev）"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "杭州オープン",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s06",
+            "sideANames": [
+              "ロマン・サフィウリン（Roman Safiullin）"
+            ],
+            "sideBNames": [
+              "布雲朝（Yunchaokete Bu）"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "杭州オープン",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
             ]
           }
         ]
       }
     },
     "pt": {
-      "asOf": "Até 26 de set. de 2026, 19:00 UTC",
+      "asOf": "Até 27 de set. de 2026, 01:00 UTC",
       "politics": [
         {
           "id": "p1",
-          "title": "Atualizado · Trump rejeita publicamente a proposta do Irão sobre Ormuz",
+          "title": "Atualização · Irão define linhas vermelhas nucleares além da proposta para Ormuz",
           "fact": "Em 26 de setembro, Trump disse a jornalistas na Casa Branca que tinha rejeitado a proposta do Irão de reabrir o estreito de Ormuz e pôr fim aos combates na região.",
-          "positions": "O Irão tinha proposto reabrir o estreito e suspender os combates na região no prazo de sete dias após um acordo, seguindo-se negociações mais amplas sobre assuntos acordados mutuamente. Trump rejeitou esta proposta, ao mesmo tempo que indicou que continuava interessado em chegar a um acordo.",
-          "analysis": "Inferência: a rejeição pública constitui um revés para esta proposta, não uma prova de que todas as negociações terminaram. Não foi estabelecido nenhum acordo para reabrir o estreito."
+          "positions": "Trump rejeitou publicamente a proposta, embora tenha indicado que continuava interessado num acordo. O ministro dos Negócios Estrangeiros do Irão afirmou que o estreito poderia reabrir no prazo de sete dias se as condições necessárias fossem cumpridas; a proposta incluía pôr fim ao bloqueio naval dos EUA aos portos iranianos, libertar fundos congelados e dispensar o petróleo das sanções. Um alto responsável iraniano disse à Reuters que Teerão não faria concessões nucleares mesmo que Washington aceitasse o plano para Ormuz e manteria o estreito fechado até as condições do Irão serem satisfeitas.",
+          "analysis": "Inferência: a rejeição pública e as condições declaradas por Teerão deixam por resolver tanto a reabertura de Ormuz como os termos nucleares; aceitar apenas a proposta de reabertura não resolveria a disputa nuclear."
         },
         {
           "id": "p2",
-          "title": "Em acompanhamento · Cimeira Trump–Xi termina com prorrogação da trégua comercial",
+          "title": "Atualização · Cimeira Trump–Xi termina com prolongamento da trégua comercial",
           "fact": "A Reuters noticiou que a cimeira de 25 de setembro prorrogou a trégua comercial por dois meses. Está prevista para segunda-feira a divulgação dos pormenores de acordos comerciais limitados; persistem grandes divergências estratégicas.",
           "positions": "Trump destacou possíveis ganhos agrícolas; Xi apelou ao respeito e à reciprocidade. Ambos apontaram o diálogo sobre inteligência artificial, enquanto a China manteve a sua posição sobre Taiwan.",
           "analysis": "Inferência: a prorrogação reduz o risco imediato de tarifas, mas os resultados dependem dos pormenores e da aplicação, e não apenas do diálogo."
@@ -2146,7 +2401,7 @@
         }
       ],
       "tennis": {
-        "status": "A Equipa Mundo lidera por 5–3 frente à Europa após os jogos diurnos da Laver Cup. O marcador oficial indica Alcaraz–Fritz em curso; o estado pode estar atrasado. A Ucrânia venceu a Itália por 2–0 e disputará a final da Billie Jean King Cup contra a Chéquia; os resultados individuais e as jogadoras designadas para a final continuam por verificar. As finais de singulares de Singapura e Seul serão a 27 de setembro, sem hora exata verificada. Os quartos de final de Hangzhou também estão previstos para 27 de setembro. Algumas páginas da ATP estavam inacessíveis; a cobertura não é exaustiva.",
+        "status": "Após o segundo dia, a Europa lidera a Equipa Mundo por 7–5 na Laver Cup. Alcaraz venceu Fritz por 6-3, 4-6, [13-11]; Ruud e Zverev derrotaram Bublik e Nakashima por 6-4, 7-6(7), ambos os jogos a 26 de setembro. A Ucrânia venceu a Itália por 2–0 e defrontará a Chéquia na final da Billie Jean King Cup; os resultados individuais e as jogadoras designadas para a final continuam por verificar. A final de singulares de Singapura entre Fernandez e Gibson será a 27 de setembro, não antes das 17:00 locais. A hora da final de Seul entre Birrell e Joint está por confirmar. Os quatro quartos de final de singulares de Hangzhou estão confirmados para 27 de setembro: Marozsan–Jacquet às 13:30, Gaston–Rublev e Safiullin–Bu a seguir, e Medvedev–Wong não antes das 19:30, todas horas de Xangai. Não foi possível verificar os resultados de Chengdu nem alguns outros jogos do circuito; a cobertura não é exaustiva.",
         "resultItems": [
           {
             "winnerNames": [
@@ -2393,46 +2648,64 @@
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska"
             ],
             "id": "r13"
-          }
-        ],
-        "scheduleItems": [
-          {
-            "sideANames": [
-              "Carlos Alcaraz"
-            ],
-            "sideBNames": [
-              "Taylor Fritz"
-            ],
-            "startsAt": "2026-09-26T19:00:00+01:00",
-            "timeZone": "Europe/London",
-            "timeQualifier": "not-before",
-            "id": "s01",
-            "tournament": "Laver Cup",
-            "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
-            ],
-            "status": "in-progress"
           },
           {
-            "sideANames": [
+            "id": "r14",
+            "winnerNames": [
+              "Carlos Alcaraz"
+            ],
+            "loserNames": [
+              "Taylor Fritz"
+            ],
+            "score": "6-3, 4-6, [13-11]",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "Dia 2, encontro 7 · super tie-break decisivo [13-11] · 26 set.",
+            "tournament": "Laver Cup",
+            "sourceUrls": [
+              "https://lavercup.com/match/london-2026-match-7"
+            ]
+          },
+          {
+            "id": "r15",
+            "winnerNames": [
               "Casper Ruud",
               "Alexander Zverev"
             ],
-            "sideBNames": [
+            "loserNames": [
               "Alexander Bublik",
               "Brandon Nakashima"
             ],
-            "startsAt": null,
-            "timeZone": "Europe/London",
-            "timeQualifier": "followed-by",
-            "id": "s02",
+            "score": "6-4, 7-6(9)",
+            "tags": [
+              "straight-sets"
+            ],
+            "completedOn": "2026-09-26",
+            "note": "Dia 2, encontro 8, pares · tie-break 9-7 · 26 set.",
             "tournament": "Laver Cup",
             "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
+              "https://lavercup.com/match/london-2026-match-8"
             ]
           },
+          {
+            "id": "r16",
+            "winnerNames": [
+              "Yunchaokete Bu"
+            ],
+            "loserNames": [
+              "Kamil Majchrzak"
+            ],
+            "score": "7-6(4), 6-7(5), 6-2",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "Oitavos de final · 26 set.",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/results"
+            ]
+          }
+        ],
+        "scheduleItems": [
           {
             "sideANames": [
               "Daniil Medvedev"
@@ -2447,23 +2720,7 @@
             "sourceUrls": [
               "https://www.hangzhouopen.com/en/scores/schedule"
             ],
-            "id": "s03"
-          },
-          {
-            "sideANames": [
-              "Hugo Gaston"
-            ],
-            "sideBNames": [
-              "Andrey Rublev"
-            ],
-            "startsAt": null,
-            "timeZone": "Asia/Shanghai",
-            "timeQualifier": "followed-by",
-            "tournament": "Open de Hangzhou",
-            "sourceUrls": [
-              "https://www.hangzhouopen.com/en/scores/schedule"
-            ],
-            "id": "s04"
+            "id": "s01"
           },
           {
             "sideANames": [
@@ -2472,14 +2729,15 @@
             "sideBNames": [
               "Talia Gibson"
             ],
-            "startsAt": null,
+            "startsAt": "2026-09-27T17:00:00+08:00",
             "timeZone": "Asia/Singapore",
-            "timeQualifier": "tbd",
-            "id": "s05",
+            "timeQualifier": "not-before",
+            "id": "s02",
             "tournament": "Open de Singapura",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska",
-              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play",
+              "https://www.wtatennis.com/news/4578150/singapore-411-dates-draws-schedule-prize-money-and-more"
             ]
           },
           {
@@ -2492,28 +2750,76 @@
             "startsAt": null,
             "timeZone": "Asia/Seoul",
             "timeQualifier": "tbd",
-            "id": "s06",
+            "id": "s03",
             "tournament": "Open da Coreia",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582090/birrell-joint-to-contest-first-all-australian-final-since-2017-in-seoul"
+            ]
+          },
+          {
+            "id": "s04",
+            "sideANames": [
+              "Fabian Marozsan"
+            ],
+            "sideBNames": [
+              "Kyrian Jacquet"
+            ],
+            "startsAt": "2026-09-27T13:30:00+08:00",
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "fixed",
+            "tournament": "Open de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s05",
+            "sideANames": [
+              "Hugo Gaston"
+            ],
+            "sideBNames": [
+              "Andrey Rublev"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "Open de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s06",
+            "sideANames": [
+              "Roman Safiullin"
+            ],
+            "sideBNames": [
+              "Yunchaokete Bu"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "Open de Hangzhou",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
             ]
           }
         ]
       }
     },
     "zh-TW": {
-      "asOf": "截至 2026年9月26日 19:00 [UTC]",
+      "asOf": "截至 2026年9月27日 01:00 UTC",
       "politics": [
         {
           "id": "p1",
-          "title": "更新 · 川普公開拒絕伊朗的荷姆茲海峽方案",
+          "title": "更新 · 伊朗在荷姆茲方案之外劃定核問題紅線",
           "fact": "9月26日，川普在白宮對記者表示，他已拒絕伊朗關於重新開放荷姆茲海峽並結束地區戰鬥的提議。",
-          "positions": "伊朗此前提議在達成協議後七天內重新開放海峽、暫停地區戰鬥，再就雙方同意的議題展開更廣泛談判。川普拒絕了這一方案，同時表示仍有意達成協議。",
-          "analysis": "推論：公開拒絕意味著這一方案受挫，但不能據此認定所有談判已結束。目前尚未達成重新開放海峽的協議。"
+          "positions": "川普公開拒絕該提議，同時表示仍有意達成協議。伊朗外長稱，若必要條件獲得滿足，海峽可在七天內重新開放；方案包括結束美國對伊朗港口的海上封鎖、解凍資金並豁免石油制裁。一名伊朗高級官員告訴路透社，即使華府接受荷姆茲方案，德黑蘭也不會在核問題上讓步；在伊朗條件獲得滿足前，海峽將維持關閉。",
+          "analysis": "推論：美國公開拒絕方案、德黑蘭提出的條件，使荷姆茲海峽重開和核問題都仍未解決；僅接受重開海峽的提議並不能解決核爭端。"
         },
         {
           "id": "p2",
-          "title": "持續 · 川普與習近平峰會結束，貿易休戰延長",
+          "title": "更新 · 川普—習近平峰會結束，貿易休戰延長",
           "fact": "據路透社報導，9月25日的峰會將貿易休戰延長兩個月。有限貿易協議的細節擬於週一公布，重大戰略分歧仍存。",
           "positions": "川普強調潛在農業收益；習近平提出尊重與互惠。雙方均提到人工智慧對話，中國同時維持其臺灣立場。",
           "analysis": "推斷：延期降低了近期關稅升級風險，但成效取決於細節及落實，不能僅憑對話判斷。"
@@ -2562,7 +2868,7 @@
         }
       ],
       "tennis": {
-        "status": "拉沃盃白天場結束後，世界隊以5–3領先歐洲隊。官方比分頁將阿爾卡拉斯對弗里茨標為進行中，狀態可能延遲。烏克蘭以2–0擊敗義大利，將與捷克爭奪比莉·珍·金盃冠軍；個人比分及決賽出場名單尚未核實。新加坡、首爾女單決賽均在9月27日，具體鐘點未核實；杭州八強賽對陣也安排在9月27日。部分ATP頁面無法存取，本期並非完整賽程。",
+        "status": "拉沃盃第二日結束後，歐洲隊以7–5領先世界隊。阿爾卡拉斯以6–3、4–6、[13–11]擊敗弗里茨；魯德／茲維列夫以6–4、7–6(7)擊敗布勃利克／中島，兩場均於9月26日進行。烏克蘭以2–0擊敗義大利，將在比莉·珍·金盃決賽對陣捷克；個人比分及決賽出場名單仍未核實。新加坡費爾南德斯對吉布森的女單決賽9月27日不早於當地17:00。首爾比勒爾對喬因特決賽時間待定。杭州四場單打八強賽已確認於9月27日進行：馬洛桑對雅凱13:30，加斯頓對盧布列夫、薩菲烏林對布雲朝隨後進行，梅德韋傑夫對黃澤林不早於19:30，均為上海時間。成都賽果及部分其他巡迴賽未能核實；本報導並非完整賽程。",
         "resultItems": [
           {
             "winnerNames": [
@@ -2809,46 +3115,64 @@
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska"
             ],
             "id": "r13"
-          }
-        ],
-        "scheduleItems": [
-          {
-            "sideANames": [
-              "卡洛斯·阿爾卡拉斯（Carlos Alcaraz）"
-            ],
-            "sideBNames": [
-              "泰勒·弗里茨（Taylor Fritz）"
-            ],
-            "startsAt": "2026-09-26T19:00:00+01:00",
-            "timeZone": "Europe/London",
-            "timeQualifier": "not-before",
-            "id": "s01",
-            "tournament": "拉沃盃",
-            "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
-            ],
-            "status": "in-progress"
           },
           {
-            "sideANames": [
+            "id": "r14",
+            "winnerNames": [
+              "卡洛斯·阿爾卡拉斯（Carlos Alcaraz）"
+            ],
+            "loserNames": [
+              "泰勒·弗里茨（Taylor Fritz）"
+            ],
+            "score": "6-3, 4-6, [13-11]",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "第2日第7場，決勝搶十 [13-11] · 9月26日",
+            "tournament": "Laver Cup",
+            "sourceUrls": [
+              "https://lavercup.com/match/london-2026-match-7"
+            ]
+          },
+          {
+            "id": "r15",
+            "winnerNames": [
               "卡斯珀·魯德（Casper Ruud）",
               "亞歷山大·茲維列夫（Alexander Zverev）"
             ],
-            "sideBNames": [
+            "loserNames": [
               "亞歷山大·布勃利克（Alexander Bublik）",
               "布蘭登·中島（Brandon Nakashima）"
             ],
-            "startsAt": null,
-            "timeZone": "Europe/London",
-            "timeQualifier": "followed-by",
-            "id": "s02",
-            "tournament": "拉沃盃",
+            "score": "6-4, 7-6(9)",
+            "tags": [
+              "straight-sets"
+            ],
+            "completedOn": "2026-09-26",
+            "note": "第2日第8場，雙打 · 搶七9-7 · 9月26日",
+            "tournament": "Laver Cup",
             "sourceUrls": [
-              "https://lavercup.com/schedule",
-              "https://lavercup.com/scores-results-2026"
+              "https://lavercup.com/match/london-2026-match-8"
             ]
           },
+          {
+            "id": "r16",
+            "winnerNames": [
+              "布雲朝（Yunchaokete Bu）"
+            ],
+            "loserNames": [
+              "卡米爾·馬吉赫扎克（Kamil Majchrzak）"
+            ],
+            "score": "7-6(4), 6-7(5), 6-2",
+            "tags": [],
+            "completedOn": "2026-09-26",
+            "note": "十六強賽 · 9月26日",
+            "tournament": "Hangzhou Open",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/results"
+            ]
+          }
+        ],
+        "scheduleItems": [
           {
             "sideANames": [
               "丹尼爾·梅德維夫（Daniil Medvedev）"
@@ -2863,23 +3187,7 @@
             "sourceUrls": [
               "https://www.hangzhouopen.com/en/scores/schedule"
             ],
-            "id": "s03"
-          },
-          {
-            "sideANames": [
-              "雨果·加斯東（Hugo Gaston）"
-            ],
-            "sideBNames": [
-              "安德烈·盧布列夫（Andrey Rublev）"
-            ],
-            "startsAt": null,
-            "timeZone": "Asia/Shanghai",
-            "timeQualifier": "followed-by",
-            "tournament": "杭州網球公開賽",
-            "sourceUrls": [
-              "https://www.hangzhouopen.com/en/scores/schedule"
-            ],
-            "id": "s04"
+            "id": "s01"
           },
           {
             "sideANames": [
@@ -2888,14 +3196,15 @@
             "sideBNames": [
               "塔莉婭·吉布森（Talia Gibson）"
             ],
-            "startsAt": null,
+            "startsAt": "2026-09-27T17:00:00+08:00",
             "timeZone": "Asia/Singapore",
-            "timeQualifier": "tbd",
-            "id": "s05",
+            "timeQualifier": "not-before",
+            "id": "s02",
             "tournament": "新加坡網球公開賽",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582131/from-1-6-down-to-the-final-fernandez-rallies-past-chwalinska",
-              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1152/singapore/2026/order-of-play",
+              "https://www.wtatennis.com/news/4578150/singapore-411-dates-draws-schedule-prize-money-and-more"
             ]
           },
           {
@@ -2908,10 +3217,58 @@
             "startsAt": null,
             "timeZone": "Asia/Seoul",
             "timeQualifier": "tbd",
-            "id": "s06",
+            "id": "s03",
             "tournament": "韓國網球公開賽",
             "sourceUrls": [
               "https://www.wtatennis.com/news/4582090/birrell-joint-to-contest-first-all-australian-final-since-2017-in-seoul"
+            ]
+          },
+          {
+            "id": "s04",
+            "sideANames": [
+              "法比安·馬洛桑（Fabian Marozsan）"
+            ],
+            "sideBNames": [
+              "基里安·雅凱（Kyrian Jacquet）"
+            ],
+            "startsAt": "2026-09-27T13:30:00+08:00",
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "fixed",
+            "tournament": "杭州網球公開賽",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s05",
+            "sideANames": [
+              "雨果·加斯東（Hugo Gaston）"
+            ],
+            "sideBNames": [
+              "安德烈·盧布列夫（Andrey Rublev）"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "杭州網球公開賽",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
+            ]
+          },
+          {
+            "id": "s06",
+            "sideANames": [
+              "羅曼·薩菲烏林（Roman Safiullin）"
+            ],
+            "sideBNames": [
+              "布雲朝（Yunchaokete Bu）"
+            ],
+            "startsAt": null,
+            "timeZone": "Asia/Shanghai",
+            "timeQualifier": "followed-by",
+            "tournament": "杭州網球公開賽",
+            "sourceUrls": [
+              "https://www.hangzhouopen.com/en/scores/schedule"
             ]
           }
         ]
@@ -2927,6 +3284,10 @@
       {
         "label": "The Guardian · Public rejection and continuing diplomacy",
         "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz"
+      },
+      {
+        "label": "Reuters · Iranian official rejects nuclear concessions",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/iran-will-make-no-nuclear-concessions-iranian-official-says"
       }
     ],
     "p2": [
@@ -3051,6 +3412,18 @@
       {
         "label": "Billie Jean King Cup · Official tie results: Ukraine 2–0 Italy",
         "url": "https://www.billiejeankingcup.com/en"
+      },
+      {
+        "label": "Laver Cup · Alcaraz defeats Fritz, Day 2 match 7",
+        "url": "https://lavercup.com/match/london-2026-match-7"
+      },
+      {
+        "label": "Laver Cup · Ruud/Zverev doubles, Day 2 match 8",
+        "url": "https://lavercup.com/match/london-2026-match-8"
+      },
+      {
+        "label": "WTA · Singapore final schedule, not before 17:00 local",
+        "url": "https://www.wtatennis.com/news/4578150/singapore-411-dates-draws-schedule-prize-money-and-more"
       }
     ]
   }
