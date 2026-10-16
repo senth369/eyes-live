@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "cutoffAt": "2026-10-16T12:09:26.697Z",
-  "generatedAt": "2026-10-16T12:11:28.414Z",
+  "cutoffAt": "2026-10-16T12:17:27.210Z",
+  "generatedAt": "2026-10-16T12:18:50.582Z",
   "edition": "economy-three-hourly",
   "model": "Local Codex source-verified fallback",
   "reports": {
     "en": {
-      "asOf": "As of Oct 16, 2026, 08:09 EDT",
+      "asOf": "As of Oct 16, 2026, 08:17 EDT",
       "politics": [
         {
           "id": "p1",
@@ -66,7 +66,7 @@
         }
       ],
       "tennis": {
-        "status": "The latest official WTA feed shows two Wuhan matches in progress; its doubles score string conflicts with the per-side set fields, so neither team is assigned the disputed sequence. The official Shanghai live page shows no active score; one earlier quarter-final has no result and remains unverified. Published local start/not-before/followed-by designations are retained. The board selects the 20 verified results available within the schema limit; the ITF Luanda page was inaccessible, so no Luanda score or live state is claimed.",
+        "status": "The latest official WTA feed shows one Wuhan match in progress and a second match now carrying feed state D with no winner or final result; the latter is listed as suspended without inferring why. The doubles aggregate score conflicts with the player-side set fields, so neither team is assigned the disputed sequence. The official Shanghai live page shows no active score; one earlier quarter-final has no result and remains unverified. Published local start/not-before/followed-by designations are retained. The board selects the 20 verified results available within the schema limit; the ITF Luanda page was inaccessible, so no Luanda score or live state is claimed.",
         "resultItems": [
           {
             "id": "r01",
@@ -503,9 +503,9 @@
             "startsAt": null,
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "tbd",
-            "status": "in-progress",
+            "status": "suspended",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "The official feed's last update at 08:09 EDT shows Ann Li trailing Iga Świątek 4-5 in the first set; the match state is in progress.",
+            "note": "At 08:15 EDT the official feed changed LS004 to state D and supplied no winner or final result. Its score string is 6-4,0-0, but per-side fields show Ann Li lost set one 4-6 and set two at 0-0; it is listed as suspended with no cause inferred.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -527,7 +527,7 @@
             "timeQualifier": "tbd",
             "status": "in-progress",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "The official feed's last update at 08:08 EDT marks this match in progress. Its score string reads 6-4,1-4, but per-side fields show Guo/Mladenovic lost set one 4-6 and trail 1-4 in set two; do not assign the reversed first-set string to either pair.",
+            "note": "The official feed's last update at 08:17 EDT marks LD006 in progress. Its score string reads 6-4,2-5, but per-side fields show Guo/Mladenovic lost set one 4-6 and lead 5-2 in set two; do not assign the reversed first-set string to either pair.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -706,7 +706,7 @@
       }
     },
     "fr": {
-      "asOf": "Au 16 oct. 2026, 08:09 UTC−4",
+      "asOf": "Au 16 oct. 2026, 08:17 UTC−4",
       "politics": [
         {
           "id": "p1",
@@ -766,7 +766,7 @@
         }
       ],
       "tennis": {
-        "status": "Le dernier flux officiel de la WTA montre deux matchs en cours à Wuhan; pour le double, son score global contredit les champs par équipe, donc la séquence contestée n’est attribuée à aucune paire. La page en direct officielle de Shanghai ne montre aucun score actif; un quart de finale antérieur reste sans résultat vérifié. Les horaires locaux publiés, les mentions « pas avant » et « après le match précédent » sont conservés. Le tableau sélectionne les 20 résultats vérifiés permis par le schéma; la page ITF de Luanda étant inaccessible, aucun score ni état en direct n’est affirmé pour Luanda.",
+        "status": "Le dernier flux officiel de la WTA montre un match en cours à Wuhan et un second dont l’état est désormais D, sans vainqueur ni résultat final; celui-ci est présenté comme suspendu, sans en inférer la cause. Pour le double, le score global contredit les champs par équipe; la séquence contestée n’est attribuée à aucune paire. La page en direct officielle de Shanghai ne montre aucun score actif; un quart de finale antérieur reste sans résultat vérifié. Les horaires locaux publiés, les mentions « pas avant » et « après le match précédent » sont conservés. Le tableau sélectionne les 20 résultats vérifiés permis par le schéma; la page ITF de Luanda étant inaccessible, aucun score ni état en direct n’est affirmé pour Luanda.",
         "resultItems": [
           {
             "id": "r01",
@@ -1203,9 +1203,9 @@
             "startsAt": null,
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "tbd",
-            "status": "in-progress",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "La dernière mise à jour officielle à 08:09 UTC−4 montre Ann Li menée 4-5 par Iga Świątek dans le premier set; le match est en cours.",
+            "status": "suspended",
+            "note": "À 08:15 UTC−4, le flux officiel a fait passer LS004 à l’état D, sans vainqueur ni résultat final. Son score global affiche 6-4,0-0, mais les champs par équipe montrent qu’Ann Li a perdu le premier set 4-6 et que le deuxième en est à 0-0; le match est indiqué comme suspendu, sans cause inférée.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -1227,7 +1227,7 @@
             "timeQualifier": "tbd",
             "status": "in-progress",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "La dernière mise à jour officielle à 08:08 UTC−4 indique que le match est en cours. Le score global affiche 6-4,1-4, mais les champs par équipe montrent que Guo/Mladenovic ont perdu le premier set 4-6 et sont menées 1-4 dans le deuxième; ne pas attribuer le premier set inversé à l’une des paires.",
+            "note": "La dernière mise à jour officielle à 08:17 UTC−4 indique que LD006 est en cours. Le score global affiche 6-4,2-5, mais les champs par équipe montrent que Guo/Mladenovic ont perdu le premier set 4-6 et mènent 5-2 dans le deuxième; ne pas attribuer le premier set inversé à l’une des paires.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -1406,7 +1406,7 @@
       }
     },
     "zh-CN": {
-      "asOf": "截至 2026年10月16日 GMT-4 08:09",
+      "asOf": "截至 2026年10月16日 GMT-4 08:17",
       "politics": [
         {
           "id": "p1",
@@ -1466,7 +1466,7 @@
         }
       ],
       "tennis": {
-        "status": "WTA 最新官方 feed 显示武汉有两场比赛进行中；其中一场双打的总比分字符串与分队盘分字段冲突，因此不把有争议的比分归给任何一队。上海官方实时页没有活动比分，较早的一场八强赛也没有可核实结果。保留官方公布的当地开赛时间、“不早于”和“前场结束后”等标记。赛果栏按项目结构上限选入20条已核实结果；ITF罗安达页面无法读取，因此不声称其比分或实时状态。",
+        "status": "WTA最新官方feed显示武汉有一场比赛进行中，另一场的feed状态改为D，且没有胜者或终场结果；本期将后者列为暂停，不推断原因。双打总比分与分队盘分字段冲突，因此不把有争议的比分归给任何一队。上海官方实时页没有活动比分，较早的一场八强赛也没有可核实结果。保留官方公布的当地开赛时间、“不早于”和“前场结束后”等标记。赛果栏按项目结构上限选入20条已核实结果；ITF罗安达页面无法读取，因此不声称其比分或实时状态。",
         "resultItems": [
           {
             "id": "r01",
@@ -1903,9 +1903,9 @@
             "startsAt": null,
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "tbd",
-            "status": "in-progress",
             "tournament": "武汉网球公开赛",
-            "note": "WTA官方feed于08:09 EDT最后更新时显示安·李在首盘以4-5落后伊加·斯维亚特克；比赛仍在进行。",
+            "status": "suspended",
+            "note": "WTA官方feed于08:15 EDT将LS004状态改为D，未给胜者或终场结果。总比分字符串为6-4、0-0，但按选手分列的字段显示安·李首盘以4-6告负、次盘0-0；本期将其列为暂停，未推断原因。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -1927,7 +1927,7 @@
             "timeQualifier": "tbd",
             "status": "in-progress",
             "tournament": "武汉网球公开赛",
-            "note": "WTA官方feed于08:08 EDT最后更新时显示这场比赛进行中；总比分字符串为6-4、1-4，但按选手分列的盘分显示郭涵煜/克里斯蒂娜·姆拉德诺维奇首盘以4-6告负、第二盘以1-4落后；不把顺序相反的首盘比分归给任何一队。",
+            "note": "WTA官方feed于08:17 EDT最后更新时显示LD006仍在进行；总比分字符串为6-4、2-5，但按选手分列的盘分显示郭涵煜/克里斯蒂娜·姆拉德诺维奇首盘以4-6告负、次盘以5-2领先；不把顺序相反的首盘比分归给任何一队。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -2106,7 +2106,7 @@
       }
     },
     "es": {
-      "asOf": "Al 16 oct 2026, 08:09 GMT-4",
+      "asOf": "Al 16 oct 2026, 08:17 GMT-4",
       "politics": [
         {
           "id": "p1",
@@ -2166,7 +2166,7 @@
         }
       ],
       "tennis": {
-        "status": "El último feed oficial de la WTA muestra dos partidos en juego en Wuhan; en el dobles, la cadena de marcador contradice los campos por pareja y no se atribuye la secuencia discutida. La página oficial en directo de Shanghái no muestra un marcador activo y un cuarto de final anterior sigue sin resultado verificado. Se conservan las horas locales, las indicaciones «no antes de» y «después del partido anterior» publicadas. El tablero selecciona los 20 resultados verificados permitidos por el esquema; como la página ITF de Luanda fue inaccesible, no se afirma ningún marcador ni estado en directo de Luanda.",
+        "status": "El último feed oficial de la WTA muestra un partido en juego en Wuhan y otro con estado D, sin ganador ni resultado final; este último se presenta como suspendido, sin inferir la causa. En el dobles, la cadena de marcador contradice los campos por pareja y no se atribuye la secuencia discutida. La página oficial en directo de Shanghái no muestra un marcador activo y un cuarto de final anterior sigue sin resultado verificado. Se conservan las horas locales, las indicaciones «no antes de» y «después del partido anterior» publicadas. El tablero selecciona los 20 resultados verificados permitidos por el esquema; como la página ITF de Luanda fue inaccesible, no se afirma ningún marcador ni estado en directo de Luanda.",
         "resultItems": [
           {
             "id": "r01",
@@ -2603,9 +2603,9 @@
             "startsAt": null,
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "tbd",
-            "status": "in-progress",
             "tournament": "Abierto de Wuhan",
-            "note": "La última actualización oficial, a las 08:09 GMT-4, muestra a Ann Li abajo 4-5 ante Iga Świątek en el primer set; el partido sigue en juego.",
+            "status": "suspended",
+            "note": "A las 08:15 GMT-4, el feed oficial cambió LS004 al estado D, sin ganador ni resultado final. La cadena del marcador muestra 6-4,0-0, pero los campos por pareja indican que Ann Li perdió el primer set 4-6 y el segundo está 0-0; se indica como suspendido, sin inferir la causa.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -2627,7 +2627,7 @@
             "timeQualifier": "tbd",
             "status": "in-progress",
             "tournament": "Abierto de Wuhan",
-            "note": "La última actualización oficial, a las 08:08 GMT-4, indica que el partido sigue en juego. La cadena de marcador muestra 6-4,1-4, pero los campos por pareja indican que Guo/Mladenovic perdieron el primer set 4-6 y van 1-4 en el segundo; no debe atribuirse el primer set invertido a ninguna pareja.",
+            "note": "La última actualización oficial, a las 08:17 GMT-4, indica que LD006 sigue en juego. La cadena de marcador muestra 6-4,2-5, pero los campos por pareja indican que Guo/Mladenovic perdieron el primer set 4-6 y lideran 5-2 en el segundo; no debe atribuirse el primer set invertido a ninguna pareja.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -2806,7 +2806,7 @@
       }
     },
     "ja": {
-      "asOf": "情報基準時刻 2026年10月16日 08:09 GMT-4",
+      "asOf": "情報基準時刻 2026年10月16日 08:17 GMT-4",
       "politics": [
         {
           "id": "p1",
@@ -2866,7 +2866,7 @@
         }
       ],
       "tennis": {
-        "status": "WTAの最新公式フィードでは武漢の2試合が進行中。ダブルスの全体スコア文字列はペア別セット欄と食い違うため、問題の並びをどちらのペアにも割り当てない。上海の公式ライブページには進行中のスコアがなく、先の準々決勝1試合は結果を確認できない。公表された現地開始時刻、「○時以降」「前の試合終了後」の表記を保持する。結果欄はスキーマ上限の確認済み20試合を掲載。ITFルアンダのページを読めなかったため、同大会のスコアや進行状態は主張しない。",
+        "status": "WTAの最新公式フィードでは武漢の1試合が進行中。もう1試合は状態コードDとなり、勝者も最終結果もないため、理由を推測せず中断として掲載する。ダブルスの全体スコア文字列はペア別セット欄と食い違うため、問題の並びをどちらのペアにも割り当てない。上海の公式ライブページには進行中のスコアがなく、先の準々決勝1試合は結果を確認できない。公表された現地開始時刻、「○時以降」「前の試合終了後」の表記を保持する。結果欄はスキーマ上限の確認済み20試合を掲載。ITFルアンダのページを読めなかったため、同大会のスコアや進行状態は主張しない。",
         "resultItems": [
           {
             "id": "r01",
@@ -3303,9 +3303,9 @@
             "startsAt": null,
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "tbd",
-            "status": "in-progress",
             "tournament": "武漢オープン",
-            "note": "08:09 GMT-4時点の公式フィードでは、第1セットでアン・リーがイガ・シフィオンテクに4-5でリードされており、試合は進行中。",
+            "status": "suspended",
+            "note": "08:15 GMT-4に公式フィードはLS004を状態コードDに変更し、勝者も最終結果も示していない。全体スコアは6-4,0-0だが、選手別欄ではアン・リーが第1セットを4-6で落とし、第2セットは0-0。理由は推測せず、中断として掲載する。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -3327,7 +3327,7 @@
             "timeQualifier": "tbd",
             "status": "in-progress",
             "tournament": "武漢オープン",
-            "note": "08:08 GMT-4時点の公式フィードでは試合は進行中。全体スコアは6-4,1-4だが、ペア別のセット欄では郭涵煜／クリスティーナ・ムラデノビッチが第1セットを4-6で落とし、第2セットも1-4でリードを許しているため、逆順の第1セット表示をどちらのペアにも割り当てない。",
+            "note": "08:17 GMT-4時点の公式フィードではLD006は進行中。全体スコアは6-4,2-5だが、ペア別のセット欄では郭涵煜／クリスティーナ・ムラデノビッチが第1セットを4-6で落とし、第2セットは5-2でリードしているため、逆順の第1セット表示をどちらのペアにも割り当てない。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -3506,7 +3506,7 @@
       }
     },
     "pt": {
-      "asOf": "Até 16 de out. de 2026, 08:09 GMT-4",
+      "asOf": "Até 16 de out. de 2026, 08:17 GMT-4",
       "politics": [
         {
           "id": "p1",
@@ -3566,7 +3566,7 @@
         }
       ],
       "tennis": {
-        "status": "O feed oficial mais recente da WTA mostra duas partidas em andamento em Wuhan; no jogo de duplas, a sequência geral contradiz os campos por dupla, então o placar contestado não é atribuído a nenhuma equipe. A página oficial ao vivo de Xangai não mostra placar ativo e uma partida anterior das quartas segue sem resultado confirmado. Mantêm-se os horários locais e as indicações publicadas de “não antes de” e “após a partida anterior”. O quadro seleciona os 20 resultados verificados permitidos pelo esquema; como a página ITF de Luanda estava inacessível, não se afirma placar nem estado ao vivo de Luanda.",
+        "status": "O feed oficial mais recente da WTA mostra uma partida em andamento em Wuhan e outra com estado D, sem vencedor nem resultado final; esta é listada como suspensa, sem inferir o motivo. No jogo de duplas, a sequência geral contradiz os campos por dupla, então o placar contestado não é atribuído a nenhuma equipe. A página oficial ao vivo de Xangai não mostra placar ativo e uma partida anterior das quartas segue sem resultado confirmado. Mantêm-se os horários locais e as indicações publicadas de “não antes de” e “após a partida anterior”. O quadro seleciona os 20 resultados verificados permitidos pelo esquema; como a página ITF de Luanda estava inacessível, não se afirma placar nem estado ao vivo de Luanda.",
         "resultItems": [
           {
             "id": "r01",
@@ -4003,9 +4003,9 @@
             "startsAt": null,
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "tbd",
-            "status": "in-progress",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "A última atualização oficial, às 08:09 GMT-4, mostra Ann Li perdendo por 4-5 para Iga Świątek no primeiro set; a partida segue em andamento.",
+            "status": "suspended",
+            "note": "Às 08:15 GMT-4, o feed oficial mudou LS004 para o estado D, sem vencedora nem resultado final. A sequência de placar é 6-4,0-0, mas os campos por jogadora mostram Ann Li derrotada por 4-6 no primeiro set e o segundo em 0-0; a partida é listada como suspensa, sem inferir o motivo.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -4027,7 +4027,7 @@
             "timeQualifier": "tbd",
             "status": "in-progress",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "A última atualização oficial, às 08:08 GMT-4, indica que a partida segue em andamento. A sequência geral exibe 6-4,1-4, mas os campos por dupla mostram Guo/Mladenovic derrotadas por 4-6 no primeiro set e atrás por 1-4 no segundo; não atribua o primeiro set invertido a nenhuma dupla.",
+            "note": "A última atualização oficial, às 08:17 GMT-4, indica que LD006 segue em andamento. A sequência geral exibe 6-4,2-5, mas os campos por dupla mostram Guo/Mladenovic derrotadas por 4-6 no primeiro set e liderando por 5-2 no segundo; não atribua o primeiro set invertido a nenhuma dupla.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -4206,7 +4206,7 @@
       }
     },
     "zh-TW": {
-      "asOf": "截至 2026年10月16日 08:09 [EDT]",
+      "asOf": "截至 2026年10月16日 08:17 [EDT]",
       "politics": [
         {
           "id": "p1",
@@ -4266,7 +4266,7 @@
         }
       ],
       "tennis": {
-        "status": "WTA 最新官方 feed 顯示武漢有兩場比賽進行中；其中一場雙打的總比分字串與分隊盤分欄位衝突，因此不把有爭議的比分歸給任何一隊。上海官方直播頁沒有活動比分，較早的一場八強賽也沒有可核實結果。保留官方公布的當地開賽時間、「不早於」與「前場結束後」等標記。賽果欄依專案結構上限選入20條已核實結果；ITF羅安達頁面無法讀取，因此不宣稱其比分或即時狀態。",
+        "status": "WTA 最新官方 feed 顯示武漢有一場比賽進行中，另一場的 feed 狀態變為 D，且沒有勝者或終場結果；本期將後者列為暫停，不推斷原因。雙打總比分與分隊盤分欄位衝突，因此不把有爭議的比分歸給任何一隊。上海官方直播頁沒有活動比分，較早的一場八強賽也沒有可核實結果。保留官方公布的當地開賽時間、「不早於」與「前場結束後」等標記。賽果欄依專案結構上限選入20條已核實結果；ITF羅安達頁面無法讀取，因此不宣稱其比分或即時狀態。",
         "resultItems": [
           {
             "id": "r01",
@@ -4703,9 +4703,9 @@
             "startsAt": null,
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "tbd",
-            "status": "in-progress",
             "tournament": "武漢網球公開賽",
-            "note": "WTA 官方 feed 於 08:09 EDT 最後更新時顯示安·李首盤以 4-5 落後伊加·斯威雅蒂；比賽仍在進行。",
+            "status": "suspended",
+            "note": "WTA 官方 feed 於 08:15 EDT 將 LS004 狀態改為 D，未提供勝者或終場結果。總比分字串為 6-4、0-0，但選手分列欄位顯示安·李首盤以 4-6 落敗、次盤 0-0；本期將其列為暫停，不推斷原因。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -4727,7 +4727,7 @@
             "timeQualifier": "tbd",
             "status": "in-progress",
             "tournament": "武漢網球公開賽",
-            "note": "WTA 官方 feed 於 08:08 EDT 最後更新時標示賽事進行中；總比分字串為 6-4、1-4，但按選手分列的盤分顯示郭涵煜／克莉絲汀娜·姆拉德諾維奇首盤以 4-6 落敗、第二盤以 1-4 落後；不把順序相反的首盤比分歸給任何一隊。",
+            "note": "WTA 官方 feed 於 08:17 EDT 最後更新時標示 LD006 仍在進行；總比分字串為 6-4、2-5，但按選手分列的盤分顯示郭涵煜／克莉絲汀娜·姆拉德諾維奇首盤以 4-6 落敗、次盤以 5-2 領先；不把順序相反的首盤比分歸給任何一隊。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18",
               "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
@@ -4909,7 +4909,7 @@
   "sourceLinks": {
     "tennis": [
       {
-        "label": "Official WTA Wuhan match feed, scores and match states; last update 16 Oct 2026 08:09 EDT",
+        "label": "Official WTA Wuhan match feed, scores and match states; last update 16 Oct 2026 08:17 EDT",
         "url": "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-14&to=2026-10-18"
       },
       {
