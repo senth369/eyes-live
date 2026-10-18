@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "cutoffAt": "2026-10-18T02:05:00.000Z",
-  "generatedAt": "2026-10-18T02:05:00.000Z",
+  "cutoffAt": "2026-10-18T08:10:47.142Z",
+  "generatedAt": "2026-10-18T08:10:47.142Z",
   "edition": "economy-three-hourly",
   "model": "Local Codex source-first fallback",
   "reports": {
     "en": {
-      "asOf": "As of 17 Oct 2026, 22:05 EDT · Toronto time",
+      "asOf": "As of 18 Oct 2026, 04:10 EDT · Toronto time",
       "politics": [
         {
           "id": "p1",
@@ -45,10 +45,10 @@
         },
         {
           "id": "p6",
-          "title": "Updated · France cost-of-living protests: government reports 1,200 arrests and 150 police injured",
-          "fact": "Nationwide demonstrations on Saturday, 17 October, answered calls to revive the Yellow Vest movement and included student grievances over the cost of living. France’s Interior Ministry estimated 550,000 participants, including 110,000 in Paris; organisers put the national figure at about 800,000. Late Saturday, Prime Minister Sébastien Lecornu said 1,200 people had been detained and 150 police officers and gendarmes injured during violence around the protests. Le Monde reporters described clashes and damage in several cities.",
-          "positions": "Demonstrators cited higher fuel, energy and food prices. Lecornu condemned the violence and said it was time to choose between the Republic and those causing destruction; the arrest and injury figures were government statements, not an independent tally.",
-          "analysis": "Inference: attendance estimates differ by source, and the later arrest figure supersedes the Interior Ministry’s earlier count of about 400. Reported clashes do not establish that all demonstrators were involved in violence."
+          "title": "New · Global News reports at least seven dead in Wainwright base fire; CAF has not confirmed toll or cause",
+          "fact": "An incident at Canadian Forces Base (CFB) Wainwright in Alberta caused a major fire on 17 October, and Defence Minister David McGuinty confirmed deaths and injuries without giving figures. The RCMP said it was called shortly after 4 p.m. local time to a report of fire in a training area; the Municipal District of Wainwright said high winds carried flames beyond the base. The Canadian Armed Forces (CAF) said it would not confirm casualty details until next of kin had been notified. Global News, citing multiple CAF sources, reported at least seven dead and dozens injured, and attributed the explosion and fire to a live-fire exercise hitting a gas line or gas well; those details had not been officially confirmed. By 11 p.m. local time, the municipal district said the fire was being held, property and critical infrastructure were protected, and no evacuation order was in effect. Elections Alberta said the Wainwright Communiplex advance-voting site was closed after the fire spread into the municipal district.",
+          "positions": "McGuinty described the situation as “very, very active and delicate” and said authorities were still determining what happened. The CAF and RCMP were investigating. Prime Minister Mark Carney said federal authorities were working closely with Alberta and local officials. Alberta Premier Danielle Smith described the fire as “significant and tragic” and said it was affecting military personnel.",
+          "analysis": "Inference: Global News’s seven-death figure and proposed gas-line or gas-well cause are attributed reports from unnamed military sources, not figures or findings confirmed by the CAF. The official statement withheld casualty details pending next-of-kin notifications; the toll and cause therefore remain publicly unconfirmed."
         },
         {
           "id": "p7",
@@ -66,7 +66,7 @@
         }
       ],
       "tennis": {
-        "status": "Official WTA match data shows 22 Wuhan matches completed through 17 October; the singles and doubles finals are scheduled for 18 October. Shanghai’s official order of play lists the men’s doubles final at 14:00 and men’s singles final not before 16:30, local time (Asia/Shanghai). No listed final had started as of the Toronto cutoff. The WTA lists Ningbo as a 19–25 October event; its official score and order-of-play pages showed qualifying dates for 17 and 18 October but no match rows when checked. ITF M25 Luanda’s official pages exposed no match rows beyond 16 October. No missing pairings, results or times are inferred.",
+        "status": "Official WTA data showed 22 Wuhan matches completed through 17 October. At 08:10:37 UTC on 18 October, its feed showed the women’s doubles final, Dabrowski/Stefani versus Hunter/Siniakova, in progress at 1-0 in the first set; the next game was 0-0 with Hunter/Siniakova serving. The WTA’s 17 October preview lists doubles at 16:00 local and singles not before 18:30 (Asia/Shanghai). At 08:10:47 UTC, Shanghai’s official results page still displayed Miedler/Oberleitner leading Cabral/Tracy 6-3, 6-4 and facing match point, without a completed-match notice; its separate live-scores page showed no match row, so no winner is reported. Shanghai’s order lists the men’s singles final not before 16:30 local. WTA lists Ningbo for 19–25 October; its official scores and order pages showed qualifying dates for 17–18 but no match rows when checked. ITF M25 Luanda’s official pages showed no match rows after 16 October. No other fixtures, results or times are inferred.",
         "resultItems": [
           {
             "winnerNames": [
@@ -468,10 +468,12 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "Women’s doubles final · scheduled 18 Oct at 16:00 local time · Asia/Shanghai.",
+            "note": "Women’s doubles final · in progress at 1-0 in the first set; the next game was 0-0, with Hunter/Siniakova serving at 08:10:37 UTC on 18 Oct · Asia/Shanghai.",
+            "status": "in-progress",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-15&to=2026-10-19",
-              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play",
+              "https://www.wtatennis.com/news/4593447/maja-chwalinska-sonay-kartal-wuhan-open-final-2026-everything-to-know"
             ]
           },
           {
@@ -523,8 +525,10 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Rolex Shanghai Masters",
-            "note": "Men’s doubles final · scheduled 18 Oct at 14:00 local time · Asia/Shanghai.",
+            "note": "Men’s doubles final · at 08:10:47 UTC on 18 Oct the official results page still showed 6-3, 6-4 and match point for Miedler/Oberleitner, without a completed-match notice; live-scores page showed no match row · Asia/Shanghai.",
+            "status": "in-progress",
             "sourceUrls": [
+              "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=14",
               "https://en.rolexshanghaimasters.com/en/scores/schedule?dayToDisplay=14"
             ]
           }
@@ -532,7 +536,7 @@
       }
     },
     "fr": {
-      "asOf": "Au 17 oct. 2026 à 22 h 05 HAE · heure de Toronto",
+      "asOf": "Au 18 oct. 2026 à 04 h 10 HAE · heure de Toronto",
       "politics": [
         {
           "id": "p1",
@@ -571,10 +575,10 @@
         },
         {
           "id": "p6",
-          "title": "Mis à jour · Manifestations contre la vie chère en France : 1 200 interpellations et 150 policiers blessés, selon le gouvernement",
-          "fact": "Les manifestations nationales de samedi 17 octobre ont répondu aux appels à relancer les Gilets jaunes et repris des revendications étudiantes sur le coût de la vie. Le ministère français de l’Intérieur a estimé la participation à 550 000 personnes, dont 110 000 à Paris; les organisateurs l’ont évaluée à environ 800 000 dans le pays. Tard samedi, le premier ministre Sébastien Lecornu a déclaré que 1 200 personnes avaient été interpellées et que 150 policiers et gendarmes avaient été blessés lors des violences en marge des manifestations. Des journalistes du Monde ont signalé des affrontements et des dégâts dans plusieurs villes.",
-          "positions": "Les manifestants ont cité la hausse des prix du carburant, de l’énergie et de l’alimentation. Lecornu a condamné les violences et dit qu’il était temps de choisir entre la République et les auteurs de destructions; les chiffres des interpellations et des blessures sont des déclarations gouvernementales, non un décompte indépendant.",
-          "analysis": "Inférence : les estimations de participation diffèrent selon les sources; le bilan ultérieur de 1 200 interpellations remplace le chiffre antérieur d’environ 400 avancé par le ministère. Les affrontements rapportés ne prouvent pas que tous les manifestants aient participé aux violences."
+          "title": "Nouveau · Global News rapporte au moins sept morts à Wainwright; les Forces armées canadiennes ne confirment ni bilan ni cause",
+          "fact": "Un incident survenu le 17 octobre à la base des Forces canadiennes (BFC) Wainwright, en Alberta, a provoqué un incendie majeur; le ministre de la Défense David McGuinty a confirmé des morts et des blessés sans en préciser le nombre. La GRC a dit avoir été appelée peu après 16 h, heure locale, après un signalement de feu dans une zone d’entraînement; le district municipal de Wainwright a déclaré que de forts vents avaient poussé les flammes au-delà de la base. Les Forces armées canadiennes (FAC) ont dit qu’elles ne confirmeraient pas les détails sur les victimes avant que les proches aient été avisés. Global News, citant plusieurs sources des FAC, a rapporté au moins sept morts et des dizaines de blessés, et attribué l’explosion et l’incendie à un exercice de tir réel ayant atteint une conduite ou un puits de gaz; ces détails n’avaient pas été officiellement confirmés. À 23 h, heure locale, le district municipal a dit que l’incendie était contenu, que les biens et les infrastructures essentielles étaient protégés et qu’aucun ordre d’évacuation n’était en vigueur. Élections Alberta a annoncé la fermeture du lieu de vote anticipé du Wainwright Communiplex après la propagation du feu dans le district municipal.",
+          "positions": "McGuinty a qualifié la situation de « très, très active et délicate » et dit que les autorités cherchaient encore à établir ce qui s’était passé. Les FAC et la GRC enquêtaient. Le premier ministre Mark Carney a dit que les autorités fédérales travaillaient étroitement avec l’Alberta et les autorités locales. La première ministre albertaine Danielle Smith a qualifié l’incendie de « grave et tragique » et dit qu’il touchait des militaires.",
+          "analysis": "Inférence : le bilan d’au moins sept morts et la cause possible liée à une conduite ou à un puits de gaz sont des informations attribuées par Global News à des sources militaires anonymes, et non des chiffres ou conclusions confirmés par les FAC. Le communiqué officiel réservait les détails sur les victimes jusqu’à ce que les proches aient été avisés; le bilan et la cause restent donc non confirmés publiquement."
         },
         {
           "id": "p7",
@@ -592,7 +596,7 @@
         }
       ],
       "tennis": {
-        "status": "Les données officielles de la WTA indiquent 22 matchs terminés à Wuhan au 17 octobre; les finales du simple et du double sont prévues le 18 octobre. Le programme officiel de Shanghai fixe la finale du double messieurs à 14 h et celle du simple messieurs à partir de 16 h 30, heure locale (Asia/Shanghai). Aucune finale répertoriée n’avait commencé à l’heure limite de Toronto. La WTA présente Ningbo comme un tournoi du 19 au 25 octobre; ses pages officielles des scores et du programme affichaient des dates de qualifications les 17 et 18 octobre, mais aucune ligne de match lors de la vérification. Les pages officielles de l’ITF pour le M25 de Luanda n’affichaient aucun match après le 16 octobre. Aucun match, score ou horaire manquant n’est déduit.",
+        "status": "Au 17 octobre, la WTA comptait 22 matchs terminés à Wuhan. Le 18 octobre à 08:10:37 UTC, son flux affichait en cours la finale du double dames Dabrowski/Stefani–Hunter/Siniakova, à 1-0 au premier set; le jeu suivant était à 0-0, Hunter/Siniakova au service. L’aperçu WTA du 17 octobre indique le double à 16 h locales et le simple pas avant 18 h 30 (Asia/Shanghai). À 08:10:47 UTC, la page officielle de Shanghai affichait encore Miedler/Oberleitner devant Cabral/Tracy 6-3, 6-4, avec balle de match et sans mention de fin; sa page distincte de scores en direct n’affichait aucun match. Aucun vainqueur n’est confirmé. Le programme fixe le simple messieurs pas avant 16 h 30. La WTA programme Ningbo du 19 au 25 octobre; ses pages scores/programme montraient les dates de qualification des 17-18, sans match. Les pages ITF du M25 Luanda n’affichaient aucun match après le 16 octobre. Aucun autre match, résultat ou horaire n’est déduit.",
         "resultItems": [
           {
             "winnerNames": [
@@ -994,10 +998,12 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "Finale du double féminin · prévue le 18 oct. à 16 h, heure locale · Asia/Shanghai.",
+            "note": "Finale du double féminin · en cours à 1-0 dans le premier set; le jeu suivant était à 0-0 avec Hunter/Siniakova au service à 08:10:37 UTC le 18 oct. · Asia/Shanghai.",
+            "status": "in-progress",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-15&to=2026-10-19",
-              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play",
+              "https://www.wtatennis.com/news/4593447/maja-chwalinska-sonay-kartal-wuhan-open-final-2026-everything-to-know"
             ]
           },
           {
@@ -1049,8 +1055,10 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Rolex Shanghai Masters",
-            "note": "Finale du double messieurs · prévue le 18 oct. à 14 h, heure locale · Asia/Shanghai.",
+            "note": "Finale du double messieurs · à 08:10:47 UTC le 18 oct., la page officielle affichait encore 6-3, 6-4 et une balle de match pour Miedler/Oberleitner, sans mention de fin; la page des scores en direct n’affichait aucun match · Asia/Shanghai.",
+            "status": "in-progress",
             "sourceUrls": [
+              "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=14",
               "https://en.rolexshanghaimasters.com/en/scores/schedule?dayToDisplay=14"
             ]
           }
@@ -1058,7 +1066,7 @@
       }
     },
     "zh-CN": {
-      "asOf": "截至2026年10月17日 22:05（EDT，多伦多时间）",
+      "asOf": "截至2026年10月18日 04:10（EDT，多伦多时间）",
       "politics": [
         {
           "id": "p1",
@@ -1097,10 +1105,10 @@
         },
         {
           "id": "p6",
-          "title": "更新 · 法国生活成本示威后，政府称已逮捕1,200人、150名警员受伤",
-          "fact": "10月17日周六，法国各地示威者响应重振“黄背心”运动的呼吁，也提出学生对生活成本的诉求。法国内政部估计参加者为55万人，其中巴黎11万人；组织者估计全国约80万人。周六晚些时候，总理勒科尔尼称，示威周边暴力事件中已有1,200人被拘留，150名警察和宪兵受伤。《世界报》记者报道多个城市发生冲突和破坏。",
-          "positions": "示威者提及燃料、能源和食品价格上涨。勒科尔尼谴责暴力，并称现在必须在共和国与破坏者之间作出选择；逮捕和受伤数字是政府说法，并非独立统计。",
-          "analysis": "推断：参加人数的政府估计与组织者估计不同；较晚公布的1,200人逮捕数取代内政部早前约400人的数字。发生冲突不代表所有示威者都参与暴力。"
+          "title": "新增 · Wainwright基地火灾：Global News引述军方消息称至少7人死亡；军方未确认伤亡数字和起因",
+          "fact": "加拿大阿尔伯塔省Wainwright加拿大军队基地（CFB Wainwright）于10月17日发生事故并引发大火；国防部长David McGuinty确认有人死亡和受伤，但未公布人数。加拿大皇家骑警称，当地时间下午4时刚过接到训练区起火通报后出警；Wainwright市政区称强风把火势吹出基地。加拿大武装部队（CAF）表示，在通知近亲前不会确认伤亡细节。Global News引述多名CAF消息人士报道称至少7人死亡、数十人受伤，并将爆炸和火灾归因于实弹训练击中燃气管线或气井；这些细节尚未获官方确认。当地时间23时，市政区称火势已得到控制，财产和关键基础设施受到保护，且没有发布撤离令。阿尔伯塔选举局称，火势蔓延至Wainwright市政区后，Wainwright Communiplex提前投票点关闭。",
+          "positions": "McGuinty称局势“非常活跃且微妙”，并表示当局仍在查明经过。CAF和皇家骑警正在调查。总理Mark Carney称联邦当局正与阿尔伯塔省及地方官员密切合作。阿尔伯塔省省长Danielle Smith称这场火灾“严重且令人悲痛”，影响了军人。",
+          "analysis": "推断：Global News所报至少7人死亡及可能涉及燃气管线或气井的起因，是该媒体引述未具名军方消息人士的报道，并非CAF确认的数字或结论。CAF官方声明称需待通知近亲后才公布伤亡细节；因此，公开伤亡总数和起因仍未获官方确认。"
         },
         {
           "id": "p7",
@@ -1118,7 +1126,7 @@
         }
       ],
       "tennis": {
-        "status": "WTA官方比赛数据截至10月17日列出武汉站22场完赛；单打和双打决赛安排在10月18日。上海大师赛官方赛程列明男双决赛当地时间14:00开始、男单决赛不早于16:30开始（Asia/Shanghai）。截至多伦多截稿时，所列决赛均未开赛。WTA将宁波站列为10月19日至25日举行的赛事；核查时，其官方比分和赛程页面显示10月17、18日资格赛日期，但没有列出具体比赛。ITF M25罗安达官方页面在10月16日后也未显示比赛记录。不推测缺失的对阵、赛果或时间。",
+        "status": "WTA官方数据截至10月17日列出武汉站22场完赛。10月18日08:10:37 UTC，WTA赛况源显示女双决赛达布罗斯基/斯特凡尼对亨特/西尼亚科娃仍在进行，首盘1-0；下一局0-0，由后者发球。WTA 10月17日的赛前稿列女双当地时间16:00开赛、女单不早于18:30（Asia/Shanghai）。08:10:47 UTC，上海官方结果页仍显示米德勒/奥伯莱特纳以6-3、6-4领先卡布拉尔/特雷西且已获赛点，但未显示完赛；另一个官方实时比分页未列该场，因此不报告胜者。上海赛程列男单决赛不早于当地16:30。WTA列宁波站10月19日至25日；其官方比分及赛程页显示17、18日资格赛日期，但无具体比赛行。ITF M25罗安达官方页未显示10月16日后比赛。不推测其他对阵、赛果或时间。",
         "resultItems": [
           {
             "winnerNames": [
@@ -1520,10 +1528,12 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "女双决赛 · 计划于当地时间10月18日16:00举行 · Asia/Shanghai。",
+            "note": "女双决赛 · 进行中，首盘1-0；10月18日08:10:37 UTC时下一局0-0，由亨特/西尼亚科娃发球 · Asia/Shanghai。",
+            "status": "in-progress",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-15&to=2026-10-19",
-              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play",
+              "https://www.wtatennis.com/news/4593447/maja-chwalinska-sonay-kartal-wuhan-open-final-2026-everything-to-know"
             ]
           },
           {
@@ -1575,8 +1585,10 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Rolex Shanghai Masters",
-            "note": "男双决赛 · 安排于10月18日当地时间14:00开始 · Asia/Shanghai。",
+            "note": "男双决赛 · 10月18日08:10:47 UTC，上海官方结果页仍显示6-3、6-4且米德勒/奥伯莱特纳获赛点，但无完赛标记；独立实时比分页未列该场 · Asia/Shanghai。",
+            "status": "in-progress",
             "sourceUrls": [
+              "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=14",
               "https://en.rolexshanghaimasters.com/en/scores/schedule?dayToDisplay=14"
             ]
           }
@@ -1584,7 +1596,7 @@
       }
     },
     "es": {
-      "asOf": "Al 17 oct 2026, 22:05 EDT · hora de Toronto",
+      "asOf": "Al 18 oct 2026, 04:10 EDT · hora de Toronto",
       "politics": [
         {
           "id": "p1",
@@ -1623,10 +1635,10 @@
         },
         {
           "id": "p6",
-          "title": "Actualizado · Protestas por el coste de vida en Francia: el Gobierno cifra 1.200 detenciones y 150 policías heridos",
-          "fact": "Las manifestaciones nacionales del sábado 17 de octubre respondieron a llamamientos para revivir a los Chalecos Amarillos e incorporaron reivindicaciones estudiantiles sobre el coste de vida. El Ministerio del Interior francés estimó 550.000 participantes, incluidos 110.000 en París; los organizadores calcularon unos 800.000 en todo el país. A última hora del sábado, el primer ministro Sébastien Lecornu dijo que 1.200 personas habían sido detenidas y 150 policías y gendarmes heridos durante la violencia en torno a las protestas. Periodistas de Le Monde informaron de enfrentamientos y daños en varias ciudades.",
-          "positions": "Los manifestantes citaron el encarecimiento del combustible, la energía y los alimentos. Lecornu condenó la violencia y dijo que había que elegir entre la República y quienes destruyen; las cifras de detenciones y heridos fueron declaraciones del Gobierno, no un recuento independiente.",
-          "analysis": "Inferencia: las estimaciones de asistencia difieren según la fuente; la cifra posterior de 1.200 detenciones sustituye el recuento previo de unas 400 del Ministerio del Interior. Los enfrentamientos reportados no demuestran que todos los manifestantes participaran en la violencia."
+          "title": "Nuevo · Global News informa de al menos siete muertos en el incendio de Wainwright; las Fuerzas Armadas no confirman cifra ni causa",
+          "fact": "Un incidente en la Base de las Fuerzas Canadienses (CFB) Wainwright, en Alberta, provocó un gran incendio el 17 de octubre; el ministro de Defensa, David McGuinty, confirmó muertes y lesiones sin dar cifras. La RCMP dijo que fue llamada poco después de las 16:00, hora local, por un aviso de fuego en una zona de entrenamiento; el Distrito Municipal de Wainwright dijo que los fuertes vientos llevaron las llamas más allá de la base. Las Fuerzas Armadas Canadienses (CAF) dijeron que no confirmarían detalles de las víctimas hasta notificar a sus familiares. Global News, citando a varias fuentes de las CAF, informó de al menos siete muertos y decenas de heridos, y atribuyó la explosión y el incendio a un ejercicio con fuego real que habría alcanzado una tubería o un pozo de gas; esos detalles no habían sido confirmados oficialmente. A las 23:00, hora local, el distrito dijo que el fuego estaba contenido, que los bienes y la infraestructura crítica estaban protegidos y que no regía ninguna orden de evacuación. Elections Alberta dijo que cerró el centro de voto anticipado Wainwright Communiplex después de que el fuego se extendiera al distrito municipal.",
+          "positions": "McGuinty describió la situación como «muy, muy activa y delicada» y dijo que las autoridades aún intentaban determinar qué ocurrió. Las CAF y la RCMP investigaban. El primer ministro Mark Carney dijo que las autoridades federales trabajaban estrechamente con Alberta y las autoridades locales. La primera ministra de Alberta, Danielle Smith, calificó el incendio de «grave y trágico» y dijo que afectaba a personal militar.",
+          "analysis": "Inferencia: la cifra de al menos siete muertos y la posible causa relacionada con una tubería o un pozo de gas son datos que Global News atribuyó a fuentes militares anónimas, no cifras ni conclusiones confirmadas por las CAF. El comunicado oficial aplazó los detalles de las víctimas hasta notificar a sus familiares; por ello, la cifra y la causa siguen sin confirmación oficial pública."
         },
         {
           "id": "p7",
@@ -1644,7 +1656,7 @@
         }
       ],
       "tennis": {
-        "status": "Los datos oficiales de la WTA muestran 22 partidos de Wuhan completados hasta el 17 de octubre; las finales individuales y de dobles están previstas para el 18. El orden de juego oficial de Shanghái fija la final de dobles masculinos a las 14:00 y la final individual masculina no antes de las 16:30, hora local (Asia/Shanghai). Ninguna final listada había comenzado a la hora de corte de Toronto. La WTA incluye Ningbo del 19 al 25 de octubre; sus páginas oficiales de resultados y orden de juego mostraban fechas de clasificación para el 17 y el 18, pero ninguna fila de partidos al consultarlas. Las páginas oficiales de la ITF del M25 de Luanda tampoco mostraban partidos posteriores al 16 de octubre. No se infieren enfrentamientos, resultados ni horarios ausentes.",
+        "status": "La WTA registraba 22 partidos de Wuhan completados al 17 de octubre. El 18 de octubre a las 08:10:37 UTC, su feed mostraba en curso la final femenina de dobles Dabrowski/Stefani–Hunter/Siniakova, 1-0 en el primer set; el juego siguiente estaba 0-0 y sacaba Hunter/Siniakova. La previa WTA del 17 de octubre fija el dobles a las 16:00 locales y el individual no antes de las 18:30 (Asia/Shanghai). A las 08:10:47 UTC, la página oficial de Shanghái aún mostraba a Miedler/Oberleitner delante de Cabral/Tracy 6-3, 6-4 y con punto de partido, sin aviso de final; la página separada de marcadores en vivo no mostraba el partido. No se confirma ganador. El orden fija la final masculina individual no antes de las 16:30 locales. La WTA programa Ningbo del 19 al 25 de octubre; sus páginas de resultados y orden mostraban fechas de clasificación del 17-18, sin partidos. Las páginas ITF del M25 de Luanda no mostraban partidos después del 16 de octubre. No se infieren otros resultados ni horarios.",
         "resultItems": [
           {
             "winnerNames": [
@@ -2046,10 +2058,12 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "Final de dobles femenino · programada para el 18 oct. a las 16:00 locales · Asia/Shanghai.",
+            "note": "Final de dobles femenino · en curso, 1-0 en el primer set; el siguiente juego estaba 0-0 y sacaba Hunter/Siniakova a las 08:10:37 UTC del 18 oct. · Asia/Shanghai.",
+            "status": "in-progress",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-15&to=2026-10-19",
-              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play",
+              "https://www.wtatennis.com/news/4593447/maja-chwalinska-sonay-kartal-wuhan-open-final-2026-everything-to-know"
             ]
           },
           {
@@ -2101,8 +2115,10 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Rolex Shanghai Masters",
-            "note": "Final de dobles masculino · prevista para el 18 oct. a las 14:00 locales · Asia/Shanghai.",
+            "note": "Final de dobles masculino · a las 08:10:47 UTC del 18 oct., la página oficial aún mostraba 6-3, 6-4 y punto de partido para Miedler/Oberleitner, sin aviso de final; la página de marcadores en vivo no mostraba el partido · Asia/Shanghai.",
+            "status": "in-progress",
             "sourceUrls": [
+              "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=14",
               "https://en.rolexshanghaimasters.com/en/scores/schedule?dayToDisplay=14"
             ]
           }
@@ -2110,7 +2126,7 @@
       }
     },
     "ja": {
-      "asOf": "情報基準時刻：2026年10月17日 22:05 EDT（トロント時間）",
+      "asOf": "情報基準時刻：2026年10月18日 04:10 EDT（トロント時間）",
       "politics": [
         {
           "id": "p1",
@@ -2149,10 +2165,10 @@
         },
         {
           "id": "p6",
-          "title": "更新 · フランスの生活費抗議で政府は1,200人拘束、警察官ら150人負傷と発表",
-          "fact": "10月17日土曜日のフランス全土のデモは、「黄色いベスト」運動再燃の呼びかけに応じ、生活費をめぐる学生の要求も掲げた。フランス内務省は参加者を55万人、うちパリで11万人と推計し、主催者側は全国で約80万人とした。土曜夜、セバスチャン・ルコルニュ首相はデモ周辺の暴力で1,200人が拘束され、警察官と憲兵150人が負傷したと述べた。ル・モンドの記者は複数都市で衝突や被害を報じた。",
-          "positions": "参加者は燃料、エネルギー、食品価格の上昇を訴えた。ルコルニュ氏は暴力を非難し、共和国と破壊行為を行う者のどちらかを選ぶ時だと述べた。逮捕者数と負傷者数は政府発表であり、独立した集計ではない。",
-          "analysis": "推論：参加者数は発表主体により異なり、後に示された1,200人の拘束者数は内務省の先行発表約400人から増えた。衝突が報じられたことは、全ての参加者が暴力に関与したことを示さない。"
+          "title": "新規 · Global NewsはWainwright基地火災で少なくとも7人死亡と報道、カナダ軍は犠牲者数と原因を未確認",
+          "fact": "アルバータ州のカナダ軍基地（CFB）Wainwrightで10月17日に起きた事故が大規模火災につながり、デビッド・マクギンティー国防相は死者と負傷者が出たと認めたが、人数は明らかにしなかった。RCMPは現地時間午後4時過ぎ、訓練区域で火災が起きたとの通報を受けて出動したと説明。Wainwright市政区は強風で炎が基地外に広がったと述べた。カナダ軍（CAF）は遺族への通知が終わるまで死傷者の詳細を公表しないとした。Global Newsは複数のCAF関係者を情報源として、少なくとも7人が死亡し数十人が負傷したと報じ、実弾訓練でガス管またはガス井を撃ったことが爆発と火災の原因だと伝えたが、これらの詳細は公式には確認されていない。現地時間23時、市政区は火災を食い止め、財産と重要インフラを守っているとし、避難命令は発令していないと発表した。Elections Albertaは、火災が市政区に広がったためWainwright Communiplexの期日前投票所を閉鎖したと発表した。",
+          "positions": "マクギンティー氏は状況を「非常に活発で繊細」と表現し、当局は何が起きたかを調べていると述べた。CAFとRCMPが調査している。マーク・カーニー首相は、連邦当局がアルバータ州政府や地元当局と緊密に連携していると述べた。アルバータ州のダニエル・スミス州首相は、軍人に影響する「重大で悲劇的」な火災だと述べた。",
+          "analysis": "推論：Global Newsが報じた死者少なくとも7人という数字と、ガス管またはガス井に関する原因説は、匿名の軍関係者に帰属する報道であり、CAFが確認した数字や結論ではない。公式声明は遺族への通知まで詳細を保留したため、死傷者数と原因は公には未確認のままである。"
         },
         {
           "id": "p7",
@@ -2170,7 +2186,7 @@
         }
       ],
       "tennis": {
-        "status": "WTA公式試合データでは、10月17日までに武漢で22試合が終了し、シングルスとダブルスの決勝は10月18日に予定されている。上海の公式日程は、男子ダブルス決勝を現地時間14時開始、男子シングルス決勝を16時30分以降開始としている（Asia/Shanghai）。トロントの締切時点で、掲載された決勝はまだ始まっていない。WTAは寧波大会を10月19～25日開催と掲載している。公式スコアと日程ページには10月17、18日の予選日程欄があったが、確認時に試合行は表示されなかった。ITFのM25ルアンダ公式ページにも10月16日以降の試合欄はなかった。不明な対戦、結果、時刻は推測していない。",
+        "status": "WTA公式データでは10月17日までに武漢で22試合が終了。10月18日08:10:37 UTCのフィードは女子ダブルス決勝、ダブロウスキー／ステファニ対ハンター／シニアコバを第1セット1-0で進行中と表示し、次ゲームは0-0で後者がサーブ。10月17日付WTAプレビューはダブルスを現地16時、シングルスを18時30分以降（Asia/Shanghai）と掲載。08:10:47 UTC、上海公式結果ページはミードラー／オーバーライトナーがカブラル／トレイシーに6-3、6-4でリードしマッチポイントと表示したが、終了表示はなかった。別のライブスコアページに試合行はなく、勝者は報じない。上海の日程は男子シングルス決勝を現地16時30分以降とする。WTAは寧波大会を10月19～25日と掲載。公式スコア／日程ページには17・18日の予選日があったが試合行はなし。ITF M25ルアンダ公式ページに10月16日後の試合行なし。他の対戦、結果、時刻は推測しない。",
         "resultItems": [
           {
             "winnerNames": [
@@ -2572,10 +2588,12 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "女子ダブルス決勝 · 10月18日現地時間16時開始予定 · Asia/Shanghai。",
+            "note": "女子ダブルス決勝 · 進行中、第1セット1-0。10月18日08:10:37 UTC時点で次ゲームは0-0、ハンター／シニアコバがサーブ · Asia/Shanghai。",
+            "status": "in-progress",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-15&to=2026-10-19",
-              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play",
+              "https://www.wtatennis.com/news/4593447/maja-chwalinska-sonay-kartal-wuhan-open-final-2026-everything-to-know"
             ]
           },
           {
@@ -2627,8 +2645,10 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Rolex Shanghai Masters",
-            "note": "男子ダブルス決勝 · 10月18日現地時間14時開始予定 · Asia/Shanghai。",
+            "note": "男子ダブルス決勝 · 10月18日08:10:47 UTC、上海公式結果ページは6-3、6-4とミードラー／オーバーライトナーのマッチポイントを表示したが終了表示なし。別のライブスコアページに試合行なし · Asia/Shanghai。",
+            "status": "in-progress",
             "sourceUrls": [
+              "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=14",
               "https://en.rolexshanghaimasters.com/en/scores/schedule?dayToDisplay=14"
             ]
           }
@@ -2636,7 +2656,7 @@
       }
     },
     "pt": {
-      "asOf": "Até 17 out. 2026, 22:05 EDT · hora de Toronto",
+      "asOf": "Até 18 out. 2026, 04:10 EDT · hora de Toronto",
       "politics": [
         {
           "id": "p1",
@@ -2675,10 +2695,10 @@
         },
         {
           "id": "p6",
-          "title": "Atualizado · Protestos contra custo de vida na França: governo informa 1.200 detenções e 150 policiais feridos",
-          "fact": "As manifestações nacionais de sábado, 17 de outubro, responderam a apelos para reviver o movimento dos Coletes Amarelos e incluíram reivindicações estudantis sobre o custo de vida. O Ministério do Interior francês estimou 550 mil participantes, 110 mil em Paris; os organizadores calcularam cerca de 800 mil em todo o país. No fim do sábado, o primeiro-ministro Sébastien Lecornu disse que 1.200 pessoas foram detidas e 150 policiais e gendarmes ficaram feridos durante a violência em torno dos protestos. Repórteres do Le Monde relataram confrontos e danos em várias cidades.",
-          "positions": "Manifestantes citaram a alta dos preços de combustível, energia e alimentos. Lecornu condenou a violência e disse que era hora de escolher entre a República e quem destrói; os números de detenções e feridos foram declarações do governo, não uma contagem independente.",
-          "analysis": "Inferência: as estimativas de público variam conforme a fonte; o número posterior de 1.200 detidos substitui a contagem anterior de cerca de 400 do Ministério do Interior. Os confrontos relatados não demonstram que todos os manifestantes participaram da violência."
+          "title": "Novo · Global News informa pelo menos sete mortos em incêndio na base de Wainwright; as Forças Armadas não confirmam número nem causa",
+          "fact": "Um incidente na Base das Forças Canadenses (CFB) Wainwright, em Alberta, provocou um grande incêndio em 17 de outubro; o ministro da Defesa, David McGuinty, confirmou mortes e feridos sem divulgar números. A RCMP disse que foi chamada pouco depois das 16h, hora local, após um relato de incêndio numa área de treinamento; o Distrito Municipal de Wainwright disse que ventos fortes levaram as chamas para além da base. As Forças Armadas Canadenses (CAF) disseram que não confirmarão detalhes sobre as vítimas até que os familiares sejam notificados. O Global News, citando várias fontes da CAF, informou pelo menos sete mortos e dezenas de feridos e atribuiu a explosão e o incêndio a um exercício de fogo real que teria atingido uma tubulação ou um poço de gás; esses detalhes não haviam sido confirmados oficialmente. Às 23h locais, o distrito disse que o fogo estava contido, que propriedades e infraestrutura crítica estavam protegidas e que não havia ordem de evacuação em vigor. A Elections Alberta disse que o local de votação antecipada do Wainwright Communiplex foi fechado depois que o fogo se espalhou para o distrito municipal.",
+          "positions": "McGuinty descreveu a situação como “muito, muito ativa e delicada” e disse que as autoridades ainda tentavam determinar o que ocorreu. CAF e RCMP investigavam. O primeiro-ministro Mark Carney disse que autoridades federais trabalhavam estreitamente com Alberta e autoridades locais. A primeira-ministra de Alberta, Danielle Smith, chamou o incêndio de “grave e trágico” e disse que afetava militares.",
+          "analysis": "Inferência: o número de pelo menos sete mortos e a possível causa ligada a uma tubulação ou poço de gás são relatos atribuídos pelo Global News a fontes militares anônimas, não números ou conclusões confirmados pela CAF. O comunicado oficial adiou detalhes sobre as vítimas até a notificação dos familiares; portanto, o total e a causa seguem sem confirmação pública oficial."
         },
         {
           "id": "p7",
@@ -2696,7 +2716,7 @@
         }
       ],
       "tennis": {
-        "status": "Os dados oficiais da WTA mostram 22 partidas de Wuhan concluídas até 17 de outubro; as finais de simples e duplas estão marcadas para 18 de outubro. A ordem de jogo oficial de Xangai lista a final de duplas masculinas às 14h e a final masculina de simples não antes das 16h30, horário local (Asia/Shanghai). Nenhuma final listada havia começado no horário-limite de Toronto. A WTA lista Ningbo de 19 a 25 de outubro; suas páginas oficiais de resultados e ordem de jogo mostravam datas de qualificação em 17 e 18 de outubro, mas nenhuma linha de partida quando consultadas. As páginas oficiais da ITF do M25 de Luanda também não exibiam partidas após 16 de outubro. Não se inferem confrontos, resultados ou horários ausentes.",
+        "status": "Até 17 de outubro, dados oficiais da WTA registravam 22 partidas de Wuhan concluídas. Em 18 de outubro às 08:10:37 UTC, seu feed mostrava em andamento a final feminina de duplas Dabrowski/Stefani–Hunter/Siniakova, 1-0 no primeiro set; o game seguinte estava 0-0, com Hunter/Siniakova sacando. A prévia da WTA de 17 de outubro indica duplas às 16h locais e simples não antes das 18h30 (Asia/Shanghai). Às 08:10:47 UTC, a página oficial de Xangai ainda mostrava Miedler/Oberleitner à frente de Cabral/Tracy por 6-3, 6-4 e com match point, sem aviso de fim; a página separada de placares ao vivo não mostrava a partida. Nenhum vencedor está confirmado. A ordem marca a final masculina de simples não antes das 16h30 locais. A WTA agenda Ningbo de 19 a 25 de outubro; páginas oficiais de resultados e ordem mostravam datas de qualificação em 17-18, sem partidas. As páginas da ITF do M25 de Luanda não exibiam partidas após 16 de outubro. Não se inferem outros resultados ou horários.",
         "resultItems": [
           {
             "winnerNames": [
@@ -3098,10 +3118,12 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "Final de duplas femininas · marcada para 18 out. às 16h locais · Asia/Shanghai.",
+            "note": "Final feminina de duplas · em andamento, 1-0 no primeiro set; o game seguinte estava 0-0 e Hunter/Siniakova sacavam às 08:10:37 UTC de 18 out. · Asia/Shanghai.",
+            "status": "in-progress",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-15&to=2026-10-19",
-              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play",
+              "https://www.wtatennis.com/news/4593447/maja-chwalinska-sonay-kartal-wuhan-open-final-2026-everything-to-know"
             ]
           },
           {
@@ -3153,8 +3175,10 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Rolex Shanghai Masters",
-            "note": "Final de duplas masculinas · marcada para 18 out. às 14h locais · Asia/Shanghai.",
+            "note": "Final masculina de duplas · às 08:10:47 UTC de 18 out., a página oficial ainda mostrava 6-3, 6-4 e match point para Miedler/Oberleitner, sem aviso de fim; a página de placares ao vivo não mostrava a partida · Asia/Shanghai.",
+            "status": "in-progress",
             "sourceUrls": [
+              "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=14",
               "https://en.rolexshanghaimasters.com/en/scores/schedule?dayToDisplay=14"
             ]
           }
@@ -3162,7 +3186,7 @@
       }
     },
     "zh-TW": {
-      "asOf": "截至2026年10月17日 22:05（EDT，多倫多時間）",
+      "asOf": "截至2026年10月18日 04:10（EDT，多倫多時間）",
       "politics": [
         {
           "id": "p1",
@@ -3201,10 +3225,10 @@
         },
         {
           "id": "p6",
-          "title": "更新 · 法國生活成本示威後，政府稱逮捕1,200人、150名警員受傷",
-          "fact": "10月17日週六，法國各地示威響應重振「黃背心」運動的呼籲，也提出學生對生活成本的訴求。法國內政部估計參與者為55萬人，其中巴黎11萬人；主辦方估計全國約80萬人。週六晚間，總理勒科爾尼稱，示威周邊暴力事件中已有1,200人遭拘留，150名警察和憲兵受傷。《世界報》記者報導多座城市出現衝突和損壞。",
-          "positions": "示威者提及燃料、能源和食品價格上漲。勒科爾尼譴責暴力，並稱如今必須在共和國與破壞者之間選擇；逮捕和受傷數字是政府說法，並非獨立統計。",
-          "analysis": "推論：參與人數估計因來源而異；較晚公布的1,200人拘留數取代內政部先前約400人的統計。發生衝突不代表所有示威者都參與暴力。"
+          "title": "新增 · Wainwright基地火災：Global News引述軍方消息稱至少7人死亡；軍方未確認傷亡數字與起因",
+          "fact": "加拿大亞伯達省Wainwright加拿大軍隊基地（CFB Wainwright）於10月17日發生事故並引發大火；國防部長David McGuinty確認有人死亡及受傷，但未公布數字。加拿大皇家騎警稱，當地時間下午4時剛過接獲訓練區起火通報後出勤；Wainwright市政區稱強風將火勢吹出基地。加拿大武裝部隊（CAF）表示，通知近親前不會確認傷亡細節。Global News引述多名CAF消息人士報導至少7人死亡、數十人受傷，並將爆炸和火災歸因於實彈訓練擊中燃氣管線或氣井；官方尚未確認這些細節。當地時間23時，市政區稱火勢已受控制、財產和關鍵基礎設施受到保護，且未發布撤離令。亞伯達選舉局表示，火勢蔓延至市政區後，Wainwright Communiplex提前投票地點關閉。",
+          "positions": "McGuinty形容局勢「非常活躍且微妙」，並表示當局仍在釐清經過。CAF和皇家騎警正在調查。總理Mark Carney稱聯邦當局正與亞伯達省及地方官員密切合作。亞伯達省省長Danielle Smith稱火災「嚴重且令人悲痛」，並表示事件影響軍人。",
+          "analysis": "推論：Global News所報至少7人死亡及可能涉及燃氣管線或氣井的起因，是該媒體引述未具名軍方消息人士的報導，並非CAF確認的數字或結論。官方聲明表示需待通知近親後才公布傷亡細節，因此公開傷亡總數與起因仍未獲官方確認。"
         },
         {
           "id": "p7",
@@ -3222,7 +3246,7 @@
         }
       ],
       "tennis": {
-        "status": "WTA官方比賽資料截至10月17日列出武漢站22場完賽；單打和雙打決賽排定於10月18日。上海大師賽官方賽程列明男雙決賽當地時間14:00開始、男單決賽不早於16:30開始（Asia/Shanghai）。截至多倫多截稿時間，所列決賽均尚未開賽。WTA將寧波站列為10月19日至25日舉行；核查時，其官方比分和賽程頁面列出10月17、18日資格賽日期，但沒有具體比賽資料。ITF M25羅安達官方頁面在10月16日後也未顯示比賽紀錄。不推測缺少的對戰、賽果或時間。",
+        "status": "WTA官方資料截至10月17日列出武漢站22場完賽。10月18日08:10:37 UTC，WTA賽況資料顯示女雙決賽達布羅斯基／史蒂芬妮對杭特／絲妮雅可娃仍在進行，首盤1-0；下一局0-0，由後者發球。WTA 10月17日賽前稿列女雙當地時間16:00開賽、女單不早於18:30（Asia/Shanghai）。08:10:47 UTC，上海官方結果頁仍顯示米德勒／奧伯萊特納以6-3、6-4領先卡布拉爾／特雷西且已取得賽末點，但未顯示完賽；另一官方即時比分頁未列該場，因此不報告勝者。上海賽程列男單決賽不早於當地16:30。WTA列寧波站10月19日至25日；其官方比分及賽程頁顯示17、18日資格賽日期，但無具體比賽行。ITF M25羅安達官方頁未顯示10月16日後比賽。不推測其他對戰、賽果或時間。",
         "resultItems": [
           {
             "winnerNames": [
@@ -3624,10 +3648,12 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Dongfeng · Voyah Wuhan Open",
-            "note": "女雙決賽 · 排定於當地時間10月18日16:00舉行 · Asia/Shanghai。",
+            "note": "女雙決賽 · 進行中，首盤1-0；10月18日08:10:37 UTC時下一局0-0，由杭特／絲妮雅可娃發球 · Asia/Shanghai。",
+            "status": "in-progress",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-15&to=2026-10-19",
-              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play"
+              "https://www.wtatennis.com/tournaments/1075/wuhan/2026/order-of-play",
+              "https://www.wtatennis.com/news/4593447/maja-chwalinska-sonay-kartal-wuhan-open-final-2026-everything-to-know"
             ]
           },
           {
@@ -3679,8 +3705,10 @@
             "timeZone": "Asia/Shanghai",
             "timeQualifier": "fixed",
             "tournament": "Rolex Shanghai Masters",
-            "note": "男雙決賽 · 排定於10月18日當地時間14:00開始 · Asia/Shanghai。",
+            "note": "男雙決賽 · 10月18日08:10:47 UTC，上海官方結果頁仍顯示6-3、6-4且米德勒／奧伯萊特納取得賽末點，但無完賽標記；獨立即時比分頁未列該場 · Asia/Shanghai。",
+            "status": "in-progress",
             "sourceUrls": [
+              "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=14",
               "https://en.rolexshanghaimasters.com/en/scores/schedule?dayToDisplay=14"
             ]
           }
@@ -3751,20 +3779,6 @@
         "url": "https://apnews.com/article/aaf6d7e5367f99869eaf4b419c66e0df"
       }
     ],
-    "p6": [
-      {
-        "label": "Le Monde live report with the 17 October protest and late government figures, updated 18 October 2026",
-        "url": "https://www.lemonde.fr/societe/live/2026/10/17/en-direct-manifestations-du-17-octobre-le-gouvernement-annonce-550-000-manifestants-les-organisateurs-800-000-environ-400-interpellations-des-violences-urbaines-d-une-gravite-inouie-se-sont-deroulees-et-se-deroulent-encore_6795855_3224.html"
-      },
-      {
-        "label": "AP report on French demonstrations and police response, 17 October 2026",
-        "url": "https://apnews.com/article/44b9d3ba91ffad4029f975dced7e31cb"
-      },
-      {
-        "label": "AFP report on planned French demonstrations and organisers’ positions, 16 October 2026",
-        "url": "https://www.afp.com/fr/node/3847871"
-      }
-    ],
     "p7": [
       {
         "label": "US National Hurricane Center Public Advisory 18A for Hurricane Trudy, 18 October 2026 UTC",
@@ -3787,7 +3801,7 @@
     ],
     "tennis": [
       {
-        "label": "Official WTA Wuhan match feed, checked 18 October 2026",
+        "label": "Official WTA Wuhan match feed, checked 18 October 2026 at 08:10:37 UTC",
         "url": "https://api.wtatennis.com/tennis/tournaments/1075/2026/matches?from=2026-10-15&to=2026-10-19"
       },
       {
@@ -3809,6 +3823,10 @@
       {
         "label": "Official Shanghai Masters results, 17 October",
         "url": "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=13"
+      },
+      {
+        "label": "Official Shanghai Masters results, checked 18 October 2026 at 08:10:47 UTC",
+        "url": "https://en.rolexshanghaimasters.com/en/scores/results?resultDay=14"
       },
       {
         "label": "Official Shanghai Masters live scores, checked 18 October",
@@ -3841,6 +3859,32 @@
       {
         "label": "Official Shanghai Masters report on Jodar’s semifinal win, 17 October 2026",
         "url": "https://en.rolexshanghaimasters.com/en/media/news/medvedev-jodar-shanghai-2026-saturday"
+      },
+      {
+        "label": "Official WTA Wuhan finals preview with local start times, 17 October 2026",
+        "url": "https://www.wtatennis.com/news/4593447/maja-chwalinska-sonay-kartal-wuhan-open-final-2026-everything-to-know"
+      }
+    ],
+    "p6": [
+      {
+        "label": "AP report on deaths and injuries, fire spread, investigation and response at CFB Wainwright, 18 October 2026",
+        "url": "https://apnews.com/article/1a41899da5b6e797b000061fa4da9c6a"
+      },
+      {
+        "label": "Global News report citing multiple Canadian Armed Forces sources on alleged toll and cause, 18 October 2026",
+        "url": "https://globalnews.ca/news/12106709/cfb-wainwright-fire/"
+      },
+      {
+        "label": "CBC live updates with the CAF statement withholding casualty details pending next-of-kin notifications",
+        "url": "https://www.cbc.ca/news/canada/edmonton/livestory/cfb-wainwright-fire-live-updates-9.7385537"
+      },
+      {
+        "label": "Elections Alberta official notice closing the Wainwright Communiplex advance-voting location, 17 October 2026",
+        "url": "https://www.elections.ab.ca/resources/media/news-releases/2026-10-17-2/"
+      },
+      {
+        "label": "Reuters report on the incident and official statements, French edition via Boursorama, 18 October 2026",
+        "url": "https://www.boursorama.com/actualite-economique/actualites-amp/canada-plusieurs-morts-apres-un-grave-incident-sur-une-base-militaire-8396fb9dee54378b3cd5f07062574bcf"
       }
     ]
   }
