@@ -1,542 +1,814 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-09-08T17:16:03.298Z",
-  "generatedAt": "2026-09-08T17:32:01.539Z",
-  "model": "gpt-5.6-sol",
+  "cutoffAt": "2026-10-30T10:52:02.110Z",
+  "generatedAt": "2026-10-30T10:55:57.939Z",
+  "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "FRED S and P index series",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Quanta quarterly earnings release",
+      "url": "https://investors.quantaservices.com/_assets/_01c9c3f1ac58364ad0eaebaeeddaa06e/quantaservices/news/2026-10-29_QUANTA_SERVICES_REPORTS_THIRD_QUARTER_2026_407.pdf"
     },
     {
       "id": "src2",
-      "label": "FRED Nasdaq Composite series",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "Illumina quarterly earnings release",
+      "url": "https://investor.illumina.com/static-files/425680f5-fad9-4b9e-af2b-d863bdaa9ac9"
     },
     {
       "id": "src3",
-      "label": "Xinhua Finance mainland close report",
-      "url": "https://www.cnfin.com/yw-lb/detail/20260908/4466766_1.html"
+      "label": "Shenwan Hongyuan quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637707.PDF"
     },
     {
       "id": "src4",
-      "label": "Investing CSI large-cap index history",
-      "url": "https://hk.investing.com/indices/csi300-historical-data"
+      "label": "China National Bureau of Statistics GDP release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html"
+    },
+    {
+      "id": "src5",
+      "label": "United States BEA GDP release",
+      "url": "https://bea.gov/index.php/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+    },
+    {
+      "id": "src6",
+      "label": "Federal Reserve policy statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "id": "src7",
+      "label": "S&P five hundred session data",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close/october-29-2026"
     },
     {
       "id": "src8",
-      "label": "Bureau of Labor Statistics employment release",
-      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+      "label": "Nasdaq Composite session data",
+      "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=COMP%3ANAS"
     },
     {
       "id": "src9",
-      "label": "State Administration of Foreign Exchange reserve release",
-      "url": "https://www.safe.gov.cn/safe/2026/0907/27859.html"
+      "label": "Shanghai Composite session data",
+      "url": "https://hk.investing.com/indices/shanghai-composite"
+    },
+    {
+      "id": "src10",
+      "label": "CSI three hundred session data",
+      "url": "https://hk.investing.com/indices/csi300-historical-data"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-09-04",
-      "close": 7718.6,
-      "previousClose": 7747.71,
-      "changePercent": -0.3757,
+      "sessionDate": "2026-10-29",
+      "close": 7720.39,
+      "previousClose": 7743.98,
+      "changePercent": -0.3,
       "sourceIds": [
-        "src1"
+        "src7"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-09-04",
-      "close": 26506.99,
-      "previousClose": 26584.06,
-      "changePercent": -0.2899,
-      "sourceIds": [
-        "src2"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "sse",
-      "sessionDate": "2026-09-08",
-      "close": 3940.55,
-      "previousClose": null,
-      "changePercent": 0.2,
+      "sessionDate": "2026-10-30",
+      "close": 3599.02,
+      "previousClose": 3651.43,
+      "changePercent": -1.44,
       "sourceIds": [
-        "src3"
+        "src9"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-09-08",
-      "close": 4558.74,
-      "previousClose": 4575.02,
-      "changePercent": -0.36,
+      "sessionDate": "2026-10-30",
+      "close": 3985.5,
+      "previousClose": 4041.84,
+      "changePercent": -1.39,
       "sourceIds": [
-        "src4"
+        "src10"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f4",
+      "id": "f2",
       "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-09-04",
-      "company": null,
+      "category": "company",
+      "publishedOn": "2026-10-29",
+      "company": {
+        "name": "Illumina",
+        "ticker": "ILMN",
+        "exchange": "Nasdaq"
+      },
       "metrics": [
         {
           "id": "m1",
-          "value": 162000,
-          "unit": "count",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-08-31",
+          "value": 1129000000,
+          "unit": "USD",
+          "periodStart": "2026-06-28",
+          "periodEnd": "2026-09-27",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src2"
           ],
-          "evidence": "Release opening and establishment-survey section report the seasonally adjusted payroll change."
+          "evidence": "Quarterly GAAP revenue from the condensed operations table."
         },
         {
           "id": "m2",
-          "value": 4.1,
+          "value": 4.2,
           "unit": "percent",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-08-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "Release opening and household-survey section report the seasonally adjusted unemployment rate."
-        },
-        {
-          "id": "m3",
-          "value": 3.1,
-          "unit": "percent",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-08-31",
+          "periodStart": "2026-06-28",
+          "periodEnd": "2026-09-27",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src2"
           ],
-          "evidence": "Establishment-survey earnings section reports the annual change in average hourly earnings."
-        }
-      ],
-      "sourceIds": [
-        "src8"
-      ],
-      "evidence": "Archived federal employment release; opening summary, household survey and establishment survey."
-    },
-    {
-      "id": "f5",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-09-07",
-      "company": null,
-      "metrics": [
+          "evidence": "Reported quarterly revenue growth in the headline results section."
+        },
         {
-          "id": "m1",
-          "value": 3438300000000,
+          "id": "m3",
+          "value": 220000000,
           "unit": "USD",
-          "periodStart": "2026-08-31",
-          "periodEnd": "2026-08-31",
+          "periodStart": "2026-06-28",
+          "periodEnd": "2026-09-27",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src2"
           ],
-          "evidence": "Official release opening states the foreign-exchange reserve balance at month-end."
+          "evidence": "Quarterly GAAP net income from the condensed operations table."
         },
         {
-          "id": "m2",
-          "value": 0.57,
-          "unit": "percent",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-08-31",
-          "comparison": "mom",
+          "id": "m4",
+          "value": 419000000,
+          "unit": "USD",
+          "periodStart": "2026-06-28",
+          "periodEnd": "2026-09-27",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src2"
           ],
-          "evidence": "Official release opening states the monthly percentage change in the reserve balance."
+          "evidence": "Quarterly operating cash flow from the cash flow statement."
+        },
+        {
+          "id": "m5",
+          "value": 4640000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Lower end of full-year revenue guidance excluding tariff refunds."
+        },
+        {
+          "id": "m6",
+          "value": 4660000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Upper end of full-year revenue guidance excluding tariff refunds."
         }
       ],
       "sourceIds": [
-        "src9"
+        "src2"
       ],
-      "evidence": "Official reserve release; opening data paragraph and explanation of valuation and exchange-rate effects."
+      "evidence": "The release attributes performance to clinical demand and instrument placements, while separately identifying tariff refunds and other adjustments that affect reported and adjusted results."
+    },
+    {
+      "id": "f3",
+      "market": "cn",
+      "category": "company",
+      "publishedOn": "2026-10-29",
+      "company": {
+        "name": "Shenwan Hongyuan Group",
+        "ticker": "000166",
+        "exchange": "SZSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 4022904877.37,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Quarterly operating revenue in the principal financial data table."
+        },
+        {
+          "id": "m2",
+          "value": -48.45,
+          "unit": "percent",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Quarterly revenue change shown beside the reported revenue amount."
+        },
+        {
+          "id": "m3",
+          "value": 1410223133.86,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Quarterly net profit attributable to shareholders in the principal financial data table."
+        },
+        {
+          "id": "m4",
+          "value": 8884419811.3,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Year-to-date net cash provided by operating activities in the principal financial data table."
+        },
+        {
+          "id": "m5",
+          "value": -10.92,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Year-to-date shareholder net profit change shown in the same table."
+        }
+      ],
+      "sourceIds": [
+        "src3"
+      ],
+      "evidence": "The filing shows weaker quarterly revenue and shareholder profit but materially positive operating cash generation; it identifies the securities subsidiary as a major contributor to group earnings."
     }
   ],
   "locales": {
     "en": {
-      "status": "Dated archive of US and China markets and economic releases. Automatic content updates are delayed; use each card’s actual session or publication date.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "The tracked indexes showed mixed or unchanged moves. Each card identifies the completed session it describes."
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "US payroll growth strengthens while unemployment holds steady",
-          "summary": "The latest federal labor report showed stronger payroll growth, an unchanged unemployment rate and continued wage gains, with hiring concentrated in food services and local public education.",
-          "impact": "A resilient labor market supports household income and consumer demand, but persistent wage pressure can complicate the path toward lower inflation and borrowing costs for families and businesses.",
-          "what": "The report combines an establishment survey of employer payrolls with a household survey of people's employment status. Payroll change measures jobs on business and government payrolls rather than unique workers. The unemployment rate measures jobless people who are available for work and actively seeking employment as a share of the labor force. Average hourly earnings provide a broad gauge of wage pressure before adjusting for consumer inflation.",
-          "why": "Employment income is the main source of spending power for many households, so continued hiring can support retail, housing-related services and loan performance. Businesses may benefit from steady demand but face tighter labor costs if wage growth remains firm. For financial markets, stronger labor conditions can affect expectations for inflation, interest rates and corporate margins, although employment data alone do not determine central-bank decisions.",
-          "uncertainty": "Monthly payroll estimates are revised as additional employer reports arrive, and the release already revised prior months. Seasonal adjustment can be difficult around school calendars, holidays and unusual hiring patterns. Payroll and household surveys measure different concepts and may diverge. Nominal wage growth also does not show whether purchasing power improved after inflation.",
-          "watch": "Watch subsequent payroll revisions, labor-force participation, hours worked, wage growth and the breadth of hiring across private industries. Upcoming inflation and employment releases will help show whether labor resilience is consistent with easing price pressure or renewed cost pressure.",
+          "id": "f2",
+          "title": "Illumina raises outlook as clinical demand supports sequencing",
+          "summary": "Illumina reported higher quarterly revenue and operating cash flow, helped by clinical demand and new instrument placements.",
+          "impact": "The result supports continued spending on genomic testing and research tools, but reported earnings include a material tariff refund effect that should not be treated as recurring demand.",
+          "what": "Illumina sells sequencing and array technologies to research, clinical, oncology, reproductive health, agriculture, and other customers; management raised full-year revenue and earnings guidance.",
+          "why": "Health-system adoption and instrument placements can expand recurring consumables revenue, while tariff treatment, currency, acquisitions, and China exposure affect comparability.",
+          "uncertainty": "The release separates GAAP results from non-GAAP measures and identifies tariff refunds, regulatory exposure, product launches, and customer demand as important variables.",
+          "watch": "Future consumables growth, clinical placements, operating cash flow, tariff treatment, and regional demand outside the company’s China constraints.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Payroll change"
+              "label": "Quarterly GAAP revenue"
             },
             {
               "id": "m2",
-              "label": "Unemployment rate"
+              "label": "Quarterly revenue growth"
             },
             {
               "id": "m3",
-              "label": "Average hourly earnings growth"
+              "label": "Quarterly GAAP net income"
+            },
+            {
+              "id": "m4",
+              "label": "Quarterly operating cash flow"
+            },
+            {
+              "id": "m5",
+              "label": "Lower revenue outlook"
+            },
+            {
+              "id": "m6",
+              "label": "Upper revenue outlook"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "China's foreign-exchange reserves rise with valuation support",
-          "summary": "China's official foreign-exchange reserves increased as a weaker dollar and changes in global asset prices raised the reported value of the reserve portfolio.",
-          "impact": "A stable reserve buffer can reinforce confidence in external payment capacity and currency-market resilience, but the monthly movement does not necessarily indicate an equivalent cash inflow or policy intervention.",
-          "what": "Foreign-exchange reserves are overseas currency assets managed by the central bank and related authorities. They support international payment capacity and can provide a buffer during periods of capital-market stress. The published dollar value changes when reserve assets earn income, are bought or sold, or are translated from other currencies at different exchange rates. Market-price changes in bonds and other holdings can also affect the total.",
-          "why": "Reserve adequacy matters to importers, exporters and international lenders because it influences confidence that foreign-currency obligations can be met. Greater stability can reduce fears of disruptive currency moves that would raise imported costs or complicate debt servicing. However, reserves are not the same as government budget cash and are managed for liquidity, safety and external stability rather than ordinary domestic spending.",
-          "uncertainty": "The headline increase cannot be separated cleanly into valuation effects, investment income, trade settlement, capital flows and official transactions using this release alone. A weaker dollar can mechanically raise the dollar value of assets denominated in other currencies. Reserve growth therefore should not be interpreted automatically as evidence of stronger underlying inflows or a change in exchange-rate policy.",
-          "watch": "Watch balance-of-payments data, bank foreign-exchange settlement, cross-border portfolio flows and movements in the currency against major trading partners. Persistent reserve stability alongside orderly capital flows would provide stronger evidence than an isolated valuation-driven monthly change.",
+          "id": "f3",
+          "title": "Brokerage earnings weaken while cash generation improves",
+          "summary": "Shenwan Hongyuan posted lower quarterly revenue and shareholder profit but strong operating cash generation through the reporting period.",
+          "impact": "The split between accounting earnings and cash flow matters for financial-sector resilience, especially as trading, underwriting, investment, and financing conditions change.",
+          "what": "The group provides securities brokerage, investment banking, asset management, investment, and related financial services; the filing says its securities subsidiary supplied most group shareholder profit.",
+          "why": "Lower market activity or investment income can reduce reported profit, while cash movements may reflect settlement, receivables, trading balances, and financing flows that do not move in lockstep with earnings.",
+          "uncertainty": "The filing is unaudited, quarterly revenue was volatile, and operating cash flow is reported year to date rather than for the quarter alone.",
+          "watch": "Brokerage turnover, investment-banking pipelines, client assets, credit quality, and whether cash generation remains aligned with recurring earnings.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Foreign-exchange reserve balance"
+              "label": "Quarterly operating revenue"
             },
             {
               "id": "m2",
-              "label": "Monthly reserve change"
+              "label": "Quarterly revenue growth"
+            },
+            {
+              "id": "m3",
+              "label": "Quarterly shareholder net income"
+            },
+            {
+              "id": "m4",
+              "label": "Year-to-date operating cash flow"
+            },
+            {
+              "id": "m5",
+              "label": "Year-to-date shareholder profit growth"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "以下为注明日期的美中市场及经济数据存档。自动内容更新延迟，请以每张卡片的实际交易日或发布日期为准。",
+      "status": "本期涵盖美国和中国市场动态。请核对每篇内容的发布日期；近期公司报告仅作为背景解读。",
       "marketSummary": {
-        "us": "所跟踪的指数在最近已核实的交易日均下跌。标注日期的收盘数据反映的是对应交易日，并非当前行情。",
-        "cn": "所跟踪的指数走势有涨有跌，也有持平。每张卡片均注明其对应的已结束交易日。"
+        "us": "部分收盘观察无法核实。每个可用指数均保留自身的交易日期。",
+        "cn": "所跟踪的两个指数在最近可核实的交易日均下跌。带日期的收盘数据仅描述对应交易日，并非当前交易情况。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "美国非农就业人数增长加快，失业率保持稳定",
-          "summary": "最新联邦劳动力报告显示，非农就业人数增长加快，失业率保持不变，工资继续上涨；新增就业主要集中在餐饮服务和地方公立教育领域。",
-          "impact": "有韧性的劳动力市场有助于支撑家庭收入和消费需求，但持续的工资压力可能让通胀和家庭及企业借贷成本下降的过程更加复杂。",
-          "what": "该报告结合了针对雇主非农就业人数的机构调查，以及针对个人就业状况的家庭调查。非农就业人数变动衡量企业和政府雇员岗位的变化，并不代表不同就业者的人数。失业率是劳动力人口中没有工作、可以工作且正在积极求职者的占比。平均时薪是衡量工资压力的广泛指标，尚未扣除消费通胀影响。",
-          "why": "就业收入是许多家庭消费能力的主要来源，因此持续招聘可支撑零售、住房相关服务和贷款偿还表现。企业可能受益于稳定需求，但如果工资增长仍然强劲，也会面临更高的用工成本。对金融市场而言，更强的劳动力市场状况会影响对通胀、利率和企业利润率的预期，不过就业数据本身不能决定央行决策。",
-          "uncertainty": "随着更多雇主报告提交，月度非农就业人数估算会被修订，本次发布也已修订此前月份的数据。在学校校历、节假日和异常招聘模式影响下，季节性调整可能较为困难。机构调查和家庭调查衡量的概念不同，结果可能出现分歧。名义工资增长也无法说明扣除通胀后购买力是否提高。",
-          "watch": "关注后续非农就业人数修订、劳动参与率、工作时长、工资增长，以及私营行业招聘是否广泛。即将发布的通胀和就业数据将有助于判断，劳动力市场韧性是否与价格压力缓解一致，还是意味着成本压力再次上升。",
+          "id": "f2",
+          "title": "临床需求支撑测序业务，Illumina上调展望",
+          "summary": "Illumina季度营收和经营现金流均有所增加，主要受临床需求和新仪器装机支持。",
+          "impact": "这一业绩支持基因组检测和研究工具领域继续投入，但报告期收益包含较大的关税退款影响，不应将其视为可持续的需求表现。",
+          "what": "Illumina向科研、临床、肿瘤、生殖健康、农业及其他客户销售测序和芯片技术；管理层上调了全年营收和盈利指引。",
+          "why": "医疗系统的采用和仪器装机可以扩大经常性耗材营收，但关税处理、汇率、并购以及中国市场敞口会影响可比性。",
+          "uncertainty": "公告区分了GAAP业绩和非GAAP指标，并指出关税退款、监管风险、产品发布和客户需求是重要变量。",
+          "watch": "未来耗材增长、临床装机、经营现金流、关税处理，以及公司在中国市场限制下的其他地区需求。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非农就业人数变动"
+              "label": "季度GAAP营收"
             },
             {
               "id": "m2",
-              "label": "失业率"
+              "label": "季度营收增长"
             },
             {
               "id": "m3",
-              "label": "平均时薪增速"
+              "label": "季度GAAP净利润"
+            },
+            {
+              "id": "m4",
+              "label": "季度经营现金流"
+            },
+            {
+              "id": "m5",
+              "label": "营收展望下限"
+            },
+            {
+              "id": "m6",
+              "label": "营收展望上限"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "估值因素支撑中国外汇储备上升",
-          "summary": "随着美元走弱和全球资产价格变化推高储备资产组合的报告价值，中国官方外汇储备有所增加。",
-          "impact": "稳定的外汇储备缓冲有助于增强市场对对外支付能力和汇率市场韧性的信心，但月度变化不一定代表等额现金流入或政策干预。",
-          "what": "外汇储备是由央行及相关部门管理的海外货币资产。它们可支持国际支付能力，并在资本市场承压时提供缓冲。当储备资产产生收益、被买卖，或以不同汇率将其他货币资产折算成美元时，公布的美元价值会发生变化。债券和其他持有资产的市场价格变化也会影响总额。",
-          "why": "外汇储备是否充足会影响进口商、出口商和国际贷款机构的信心，因为这关系到外币债务能否得到偿付。更稳定的外汇储备可减轻市场对汇率剧烈波动的担忧，避免进口成本上升或债务偿还变得更困难。不过，外汇储备并不等同于政府预算资金，其管理目标是流动性、安全性和对外稳定，而不是普通国内支出。",
-          "uncertainty": "仅凭本次发布，无法清楚区分储备增加中来自估值影响、投资收益、贸易结算、资本流动和官方交易的部分。美元走弱会自然推高其他货币计价资产折算后的美元价值。因此，外汇储备增长不应被自动解读为基础资金流入增强，或汇率政策发生变化。",
-          "watch": "关注国际收支数据、银行结售汇、跨境投资组合资金流动，以及人民币对主要贸易伙伴货币的走势。相比孤立且由估值推动的月度变化，外汇储备持续稳定并伴随资本有序流动，能提供更有力的证据。",
+          "id": "f3",
+          "title": "券商盈利走弱，但现金生成改善",
+          "summary": "申万宏源季度营收和股东净利润下降，但在报告期内经营现金生成表现强劲。",
+          "impact": "会计盈利与现金流之间的分化关系到金融行业的韧性，尤其是在交易、承销、投资和融资环境发生变化时。",
+          "what": "集团提供证券经纪、投资银行、资产管理、投资及相关金融服务；公告称，其证券子公司是集团股东净利润的重要来源。",
+          "why": "市场活跃度或投资收益下降可能压低报告期利润，而现金变动可能反映结算、应收款、交易余额和融资流动，这些项目不一定与盈利同步变化。",
+          "uncertainty": "公告未经审计，季度营收波动较大，经营现金流按年初至今口径披露，而非仅覆盖单个季度。",
+          "watch": "经纪业务成交额、投行业务储备、客户资产、资产质量，以及现金生成是否继续与经常性盈利保持一致。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "外汇储备余额"
+              "label": "季度营业收入"
             },
             {
               "id": "m2",
-              "label": "外汇储备月度变动"
+              "label": "季度营收增长"
+            },
+            {
+              "id": "m3",
+              "label": "季度股东净利润"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今经营现金流"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今股东利润增长"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Archives datées des marchés américain et chinois et des publications économiques. La mise à jour automatique est retardée ; consultez la date de séance ou de publication de chaque fiche.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "L’ensemble des indices suivis a reculé lors des dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Les indices suivis ont affiché des évolutions contrastées ou sont restés stables. Chaque fiche indique la séance achevée qu’elle décrit."
+        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "La croissance de l’emploi salarié américain se renforce tandis que le chômage reste stable",
-          "summary": "Le dernier rapport fédéral sur l’emploi fait état d’une croissance plus forte de l’emploi salarié, d’un taux de chômage inchangé et d’une poursuite de la hausse des salaires. Les embauches se sont concentrées dans la restauration et l’enseignement public local.",
-          "impact": "Un marché du travail résilient soutient les revenus des ménages et la demande des consommateurs. Toutefois, des tensions salariales persistantes peuvent compliquer le recul de l’inflation et des coûts d’emprunt pour les familles et les entreprises.",
-          "what": "Le rapport associe une enquête menée auprès des établissements sur l’emploi salarié à une enquête auprès des ménages sur la situation professionnelle des personnes. La variation de l’emploi salarié mesure les postes inscrits dans les entreprises et les administrations, et non le nombre de travailleurs distincts. Le taux de chômage correspond à la part de la population active sans emploi, disponible et recherchant activement un travail. Le salaire horaire moyen donne une indication générale des tensions salariales avant prise en compte de l’inflation à la consommation.",
-          "why": "Les revenus du travail constituent la principale source de pouvoir d’achat de nombreux ménages. La poursuite des embauches peut donc soutenir le commerce de détail, les services liés au logement et le remboursement des prêts. Les entreprises peuvent profiter d’une demande stable, mais subir des coûts de main-d’œuvre plus élevés si les salaires continuent de progresser fermement. Sur les marchés financiers, la vigueur de l’emploi peut modifier les attentes concernant l’inflation, les taux d’intérêt et les marges des entreprises. Les données sur l’emploi ne déterminent toutefois pas les décisions des banques centrales.",
-          "uncertainty": "Les estimations mensuelles de l’emploi salarié sont révisées à mesure que de nouveaux rapports d’employeurs sont reçus, et cette publication a déjà révisé les mois précédents. Les ajustements saisonniers peuvent être difficiles autour des calendriers scolaires, des périodes de fêtes et des schémas d’embauche inhabituels. Les enquêtes auprès des établissements et des ménages mesurent des concepts différents et peuvent diverger. La croissance nominale des salaires ne montre pas non plus si le pouvoir d’achat s’est amélioré après inflation.",
-          "watch": "Surveillez les prochaines révisions de l’emploi salarié, la participation à la population active, les heures travaillées, la croissance des salaires et la répartition des embauches dans les secteurs privés. Les prochaines publications sur l’inflation et l’emploi aideront à déterminer si la résilience du marché du travail s’accompagne d’un apaisement ou d’un retour des tensions sur les prix.",
+          "id": "f2",
+          "title": "Illumina relève ses prévisions, portée par la demande clinique en séquençage",
+          "summary": "Illumina a publié une hausse de son chiffre d’affaires trimestriel et de ses flux de trésorerie liés aux activités opérationnelles, soutenue par la demande clinique et les nouvelles installations d’instruments.",
+          "impact": "Le résultat soutient la poursuite des dépenses consacrées aux tests génomiques et aux outils de recherche, mais le bénéfice publié comprend un effet important lié au remboursement de droits de douane, qui ne doit pas être considéré comme une demande récurrente.",
+          "what": "Illumina vend des technologies de séquençage et de réseaux à des clients de la recherche, du secteur clinique, de l’oncologie, de la santé reproductive, de l’agriculture et d’autres domaines ; la direction a relevé ses prévisions annuelles de chiffre d’affaires et de bénéfice.",
+          "why": "L’adoption par les systèmes de santé et l’installation d’instruments peuvent accroître les revenus récurrents liés aux consommables, tandis que le traitement douanier, les devises, les acquisitions et l’exposition à la Chine influencent la comparabilité.",
+          "uncertainty": "Le communiqué distingue les résultats selon les normes GAAP des mesures non conformes aux normes GAAP et présente les remboursements de droits de douane, l’exposition réglementaire, les lancements de produits et la demande des clients comme des variables importantes.",
+          "watch": "La croissance future des consommables, les installations cliniques, les flux de trésorerie liés aux activités opérationnelles, le traitement douanier et la demande régionale en dehors des contraintes de l’entreprise en Chine.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variation de l’emploi salarié"
+              "label": "Chiffre d’affaires trimestriel selon les normes GAAP"
             },
             {
               "id": "m2",
-              "label": "Taux de chômage"
+              "label": "Croissance du chiffre d’affaires trimestriel"
             },
             {
               "id": "m3",
-              "label": "Croissance du salaire horaire moyen"
+              "label": "Bénéfice net trimestriel selon les normes GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie trimestriels liés aux activités opérationnelles"
+            },
+            {
+              "id": "m5",
+              "label": "Borne basse des prévisions de chiffre d’affaires"
+            },
+            {
+              "id": "m6",
+              "label": "Borne haute des prévisions de chiffre d’affaires"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Les réserves de change de la Chine augmentent grâce aux effets de valorisation",
-          "summary": "Les réserves de change officielles de la Chine ont augmenté, car l’affaiblissement du dollar et l’évolution des prix des actifs mondiaux ont accru la valeur déclarée du portefeuille de réserves.",
-          "impact": "Un niveau stable de réserves peut renforcer la confiance dans la capacité de paiement extérieur et la résistance du marché des changes. Toutefois, l’évolution mensuelle ne traduit pas nécessairement une entrée de liquidités ou une intervention publique équivalente.",
-          "what": "Les réserves de change sont des actifs en devises étrangères gérés par la banque centrale et les autorités concernées. Elles soutiennent la capacité de paiement international et peuvent servir de protection pendant les périodes de tensions sur les marchés de capitaux. Leur valeur publiée en dollars évolue lorsque les actifs produisent des revenus, sont achetés ou vendus, ou sont convertis depuis d’autres devises à des taux de change différents. Les variations du prix des obligations et d’autres actifs peuvent également modifier le total.",
-          "why": "Le niveau adéquat des réserves compte pour les importateurs, les exportateurs et les prêteurs internationaux, car il influence la confiance dans la capacité à honorer les obligations en devises. Une plus grande stabilité peut réduire les craintes de mouvements désordonnés de la monnaie, susceptibles d’accroître le coût des importations ou de compliquer le remboursement des dettes. Toutefois, les réserves ne correspondent pas aux liquidités budgétaires de l’État. Elles sont gérées pour assurer la liquidité, la sécurité et la stabilité extérieure, et non pour financer les dépenses intérieures courantes.",
-          "uncertainty": "Cette publication ne permet pas de distinguer clairement, dans la hausse annoncée, les effets de valorisation, les revenus de placement, les règlements commerciaux, les flux de capitaux et les opérations officielles. Un dollar plus faible peut automatiquement augmenter la valeur en dollars des actifs libellés dans d’autres devises. La hausse des réserves ne doit donc pas être interprétée automatiquement comme la preuve d’entrées de capitaux sous-jacentes plus fortes ou d’un changement de politique de change.",
-          "watch": "Surveillez les données de la balance des paiements, les règlements bancaires en devises, les flux de portefeuille transfrontaliers et les mouvements de la monnaie face à celles des principaux partenaires commerciaux. Une stabilité durable des réserves accompagnée de flux de capitaux ordonnés constituerait un signal plus solide qu’une variation mensuelle isolée liée à la valorisation.",
+          "id": "f3",
+          "title": "Les bénéfices du courtage diminuent, tandis que la génération de trésorerie s’améliore",
+          "summary": "Shenwan Hongyuan a publié un recul de son chiffre d’affaires trimestriel et de son bénéfice net attribuable aux actionnaires, mais une forte génération de trésorerie opérationnelle sur la période de présentation.",
+          "impact": "L’écart entre les bénéfices comptables et les flux de trésorerie est important pour la solidité du secteur financier, notamment lorsque les conditions de négociation, de souscription, d’investissement et de financement évoluent.",
+          "what": "Le groupe fournit des services de courtage de titres, de banque d’investissement, de gestion d’actifs, d’investissement et d’autres services financiers connexes ; le document indique que sa filiale de courtage a généré l’essentiel du bénéfice net attribuable aux actionnaires du groupe.",
+          "why": "Une baisse de l’activité de marché ou des revenus d’investissement peut réduire le bénéfice publié, tandis que les mouvements de trésorerie peuvent refléter les règlements, les créances, les soldes de négociation et les flux de financement, qui n’évoluent pas nécessairement au même rythme que les bénéfices.",
+          "uncertainty": "Le document n’est pas audité, le chiffre d’affaires trimestriel a été volatil et les flux de trésorerie liés aux activités opérationnelles sont présentés depuis le début de l’exercice, plutôt que pour le trimestre seul.",
+          "watch": "Le volume des transactions de courtage, les opérations de banque d’investissement, les actifs des clients, la qualité du crédit et le maintien d’une génération de trésorerie cohérente avec les bénéfices récurrents.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Encours des réserves de change"
+              "label": "Produits d’exploitation trimestriels"
             },
             {
               "id": "m2",
-              "label": "Variation mensuelle des réserves"
+              "label": "Croissance du chiffre d’affaires trimestriel"
+            },
+            {
+              "id": "m3",
+              "label": "Bénéfice net trimestriel attribuable aux actionnaires"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie liés aux activités opérationnelles depuis le début de l’exercice"
+            },
+            {
+              "id": "m5",
+              "label": "Croissance du bénéfice attribuable aux actionnaires depuis le début de l’exercice"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Archivo fechado de mercados de EE. UU. y China y publicaciones económicas. La actualización automática está retrasada; consulte la fecha de sesión o publicación en cada ficha.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Compruebe la fecha de publicación de cada artículo; los informes recientes de empresas se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Ambos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la negociación actual.",
-        "cn": "Los índices seguidos mostraron movimientos mixtos o sin cambios. Cada ficha identifica la sesión finalizada que describe."
+        "us": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Ambos índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la negociación actual."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "El crecimiento del empleo en Estados Unidos se fortalece mientras el desempleo se mantiene estable",
-          "summary": "El informe laboral federal más reciente mostró un crecimiento más fuerte del empleo, una tasa de desempleo sin cambios y aumentos salariales continuos, con la contratación concentrada en los servicios de alimentación y la educación pública local.",
-          "impact": "Un mercado laboral resistente respalda los ingresos de los hogares y la demanda de los consumidores, pero la presión salarial persistente puede dificultar el avance hacia una menor inflación y menores costes de financiación para familias y empresas.",
-          "what": "El informe combina una encuesta a empresas sobre el empleo en nóminas con una encuesta a hogares sobre la situación laboral de las personas. La variación del empleo mide los puestos registrados en las nóminas de empresas y administraciones públicas, no los trabajadores únicos. La tasa de desempleo mide la proporción de la población activa que no tiene trabajo, está disponible para trabajar y busca empleo activamente. El salario promedio por hora ofrece una medida amplia de la presión salarial antes de ajustarla por la inflación al consumidor.",
-          "why": "Los ingresos laborales son la principal fuente de capacidad de gasto para muchos hogares, por lo que la contratación continua puede respaldar el comercio minorista, los servicios relacionados con la vivienda y el pago de préstamos. Las empresas pueden beneficiarse de una demanda estable, pero afrontar mayores costes laborales si el crecimiento salarial sigue firme. En los mercados financieros, la fortaleza laboral puede influir en las expectativas sobre inflación, tipos de interés y márgenes empresariales, aunque los datos de empleo por sí solos no determinan las decisiones del banco central.",
-          "uncertainty": "Las estimaciones mensuales de empleo se revisan cuando llegan informes adicionales de las empresas, y la publicación ya revisó meses anteriores. El ajuste estacional puede ser difícil por los calendarios escolares, los festivos y patrones de contratación inusuales. Las encuestas a empresas y hogares miden conceptos distintos y pueden mostrar resultados diferentes. El crecimiento salarial nominal tampoco indica si el poder adquisitivo mejoró después de la inflación.",
-          "watch": "Observe las revisiones posteriores del empleo, la participación laboral, las horas trabajadas, el crecimiento salarial y la amplitud de la contratación entre las industrias privadas. Las próximas publicaciones sobre inflación y empleo ayudarán a determinar si la resistencia laboral es compatible con una menor presión sobre los precios o con una renovada presión de costes.",
+          "id": "f2",
+          "title": "Illumina eleva sus previsiones mientras la demanda clínica impulsa la secuenciación",
+          "summary": "Illumina informó de una mayor facturación trimestral y un mayor flujo de caja operativo, favorecidos por la demanda clínica y la instalación de nuevos instrumentos.",
+          "impact": "El resultado respalda la continuidad del gasto en pruebas genómicas y herramientas de investigación, pero los beneficios informados incluyen un efecto material por la devolución de aranceles que no debe interpretarse como demanda recurrente.",
+          "what": "Illumina vende tecnologías de secuenciación y matrices a clientes de investigación, del ámbito clínico, oncológico y de salud reproductiva, así como de agricultura y otros sectores; la dirección elevó sus previsiones de facturación y beneficios para todo el año.",
+          "why": "La adopción por parte de los sistemas sanitarios y la instalación de instrumentos pueden ampliar los ingresos recurrentes por consumibles, mientras que el tratamiento arancelario, las divisas, las adquisiciones y la exposición a China afectan la comparabilidad.",
+          "uncertainty": "El comunicado separa los resultados conforme a GAAP de las medidas no conformes con GAAP e identifica las devoluciones de aranceles, la exposición regulatoria, los lanzamientos de productos y la demanda de los clientes como variables importantes.",
+          "watch": "El crecimiento futuro de los consumibles, las instalaciones clínicas, el flujo de caja operativo, el tratamiento arancelario y la demanda regional fuera de las restricciones de la empresa en China.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variación del empleo no agrícola"
+              "label": "Facturación trimestral conforme a GAAP"
             },
             {
               "id": "m2",
-              "label": "Tasa de desempleo"
+              "label": "Crecimiento de la facturación trimestral"
             },
             {
               "id": "m3",
-              "label": "Crecimiento del salario promedio por hora"
+              "label": "Beneficio neto trimestral conforme a GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de caja operativo trimestral"
+            },
+            {
+              "id": "m5",
+              "label": "Previsión inferior de facturación"
+            },
+            {
+              "id": "m6",
+              "label": "Previsión superior de facturación"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Las reservas de divisas de China aumentan con el apoyo de los efectos de valoración",
-          "summary": "Las reservas oficiales de divisas de China aumentaron porque la debilidad del dólar y los cambios en los precios de los activos mundiales elevaron el valor declarado de la cartera de reservas.",
-          "impact": "Un colchón estable de reservas puede reforzar la confianza en la capacidad de realizar pagos externos y en la resistencia del mercado cambiario, pero el movimiento mensual no implica necesariamente una entrada de efectivo equivalente ni una intervención de las autoridades.",
-          "what": "Las reservas de divisas son activos en monedas extranjeras gestionados por el banco central y otras autoridades relacionadas. Respaldan la capacidad de realizar pagos internacionales y pueden servir de protección durante periodos de tensión en los mercados de capitales. El valor publicado en dólares cambia cuando los activos de reserva generan ingresos, se compran o venden, o se convierten desde otras monedas usando tipos de cambio diferentes. Las variaciones de los precios de mercado de los bonos y otras tenencias también pueden afectar al total.",
-          "why": "La suficiencia de las reservas importa a importadores, exportadores y prestamistas internacionales porque influye en la confianza de que podrán cumplirse las obligaciones en moneda extranjera. Una mayor estabilidad puede reducir el temor a movimientos cambiarios bruscos que elevarían los costes de importación o dificultarían el pago de deudas. Sin embargo, las reservas no equivalen al efectivo del presupuesto público y se gestionan para aportar liquidez, seguridad y estabilidad externa, no para el gasto interno ordinario.",
-          "uncertainty": "Esta publicación por sí sola no permite separar con claridad el aumento general entre efectos de valoración, ingresos de inversión, liquidación comercial, flujos de capital y operaciones oficiales. Un dólar más débil puede elevar de forma mecánica el valor en dólares de los activos denominados en otras monedas. Por tanto, el crecimiento de las reservas no debe interpretarse automáticamente como prueba de entradas subyacentes más fuertes ni de un cambio en la política cambiaria.",
-          "watch": "Observe los datos de la balanza de pagos, la liquidación de divisas de los bancos, los flujos transfronterizos de cartera y los movimientos de la moneda frente a las de los principales socios comerciales. Una estabilidad persistente de las reservas junto con flujos de capital ordenados ofrecería pruebas más sólidas que un cambio mensual aislado impulsado por la valoración.",
+          "id": "f3",
+          "title": "Los beneficios de la correduría se debilitan mientras mejora la generación de caja",
+          "summary": "Shenwan Hongyuan registró una menor facturación trimestral y un menor beneficio atribuible a los accionistas, pero una sólida generación de caja operativa durante el periodo informado.",
+          "impact": "La diferencia entre los beneficios contables y el flujo de caja es relevante para la resiliencia del sector financiero, especialmente cuando cambian las condiciones de negociación, suscripción, inversión y financiación.",
+          "what": "El grupo ofrece corretaje de valores, banca de inversión, gestión de activos, inversión y servicios financieros relacionados; el informe indica que su filial de valores aportó la mayor parte del beneficio atribuible a los accionistas del grupo.",
+          "why": "Una menor actividad de mercado o unos menores ingresos de inversión pueden reducir el beneficio informado, mientras que los movimientos de caja pueden reflejar liquidaciones, cuentas por cobrar, saldos de negociación y flujos de financiación que no evolucionan al mismo ritmo que los beneficios.",
+          "uncertainty": "El informe no está auditado, la facturación trimestral fue volátil y el flujo de caja operativo se presenta acumulado en el año, no solo para el trimestre.",
+          "watch": "El volumen de operaciones de corretaje, la cartera de banca de inversión, los activos de clientes, la calidad crediticia y si la generación de caja sigue alineada con los beneficios recurrentes.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Saldo de las reservas de divisas"
+              "label": "Ingresos operativos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Variación mensual de las reservas"
+              "label": "Crecimiento de los ingresos trimestrales"
+            },
+            {
+              "id": "m3",
+              "label": "Beneficio neto trimestral atribuible a los accionistas"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de caja operativo acumulado en el año"
+            },
+            {
+              "id": "m5",
+              "label": "Crecimiento del beneficio atribuible a los accionistas acumulado en el año"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "以下は米中市場と経済発表の日付付き保存版です。自動更新が遅れています。各項目に記載された実際の取引日・発表日をご確認ください。",
+      "status": "この版では、米国と中国の動きを扱います。各記事の公表日を確認してください。最近の企業報告は、背景を説明する資料として紹介しています。",
       "marketSummary": {
-        "us": "追跡対象の指数はいずれも、確認済みの直近取引で下落しました。日付付きの終値は現在の取引ではなく、その取引を示しています。",
-        "cn": "追跡対象の指数は、まちまちまたは横ばいでした。各カードには、対象となる終了済みの取引が示されています。"
+        "us": "一部の終値は確認できませんでした。確認できた各指数には、それぞれの取引日が付いています。",
+        "cn": "追跡している両方の指数は、直近で確認できた取引日に下落しました。日付付きの終値は、その取引日のものであり、現在の取引を示すものではありません。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "米国の雇用者数の伸びが強まり、失業率は横ばい",
-          "summary": "最新の連邦政府の雇用統計では、雇用者数の伸びが強まり、失業率は変わらず、賃金上昇も続きました。採用は飲食サービスと地方自治体の公教育に集中しました。",
-          "impact": "底堅い労働市場は家計所得と消費需要を支えます。一方、賃金上昇圧力が続くと、インフレの鈍化や、家計と企業の借入コスト低下が難しくなる可能性があります。",
-          "what": "この統計は、企業や政府の雇用者数を調べる事業所調査と、人々の就業状況を調べる家計調査を組み合わせています。雇用者数の増減は、個々の労働者ではなく、企業や政府の給与支払い対象となる仕事の増減を示します。失業率は、働く意思と能力があり、積極的に仕事を探している失業者が労働力人口に占める割合です。平均時給は、消費者物価上昇の影響を調整する前の、幅広い賃金圧力を示します。",
-          "why": "雇用所得は多くの家計にとって主な購買力の源です。採用が続けば、小売り、住宅関連サービス、融資の返済状況を支える可能性があります。企業は安定した需要の恩恵を受ける一方、賃金上昇が続けば人件費の負担が強まります。金融市場では、強い労働環境がインフレ、金利、企業利益率の見通しに影響することがあります。ただし、雇用統計だけで中央銀行の判断が決まるわけではありません。",
-          "uncertainty": "月次の雇用者数推計は、企業から追加報告が届くと改定されます。今回の発表でも過去分が改定されました。学校の日程、祝日、通常と異なる採用動向がある時期は、季節調整が難しくなることがあります。事業所調査と家計調査は異なる対象を測るため、結果が一致しない場合があります。名目賃金の伸びだけでは、インフレ調整後の購買力が改善したかは分かりません。",
-          "watch": "今後の雇用者数の改定、労働参加率、労働時間、賃金の伸び、民間業種への採用の広がりに注目です。今後のインフレ統計と雇用統計から、労働市場の底堅さが物価上昇圧力の緩和と両立しているのか、それともコスト圧力が再び強まっているのかが見えてきます。",
+          "id": "f2",
+          "title": "臨床需要がシーケンシングを支え、イルミナが見通しを引き上げ",
+          "summary": "イルミナは、臨床需要と新しい装置の導入に支えられ、四半期の売上高と営業キャッシュフローが増加したと報告しました。",
+          "impact": "この結果は、ゲノム検査や研究用ツールへの支出が続く可能性を示します。ただし、報告利益には重要な関税還付の影響が含まれており、継続的な需要とみなすべきではありません。",
+          "what": "イルミナは、研究、臨床、腫瘍、リプロダクティブヘルス、農業などの顧客向けに、シーケンシング技術とアレイ技術を提供しています。経営陣は通期の売上高と利益の見通しを引き上げました。",
+          "why": "医療システムでの導入や装置の設置が進むと、消耗品による継続的な売上高が拡大する可能性があります。一方、関税の扱い、為替、買収、中国事業への依存度が比較に影響します。",
+          "uncertainty": "発表資料は、GAAPベースの業績と非GAAP指標を分けて示しています。また、関税還付、規制上の影響、新製品の発売、顧客需要を重要な変動要因として挙げています。",
+          "watch": "今後の消耗品の伸び、臨床分野での装置導入、営業キャッシュフロー、関税の扱い、中国事業の制約を除く地域需要に注目します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農業部門雇用者数の増減"
+              "label": "四半期GAAP売上高"
             },
             {
               "id": "m2",
-              "label": "失業率"
+              "label": "四半期売上高成長率"
             },
             {
               "id": "m3",
-              "label": "平均時給の伸び"
+              "label": "四半期GAAP純利益"
+            },
+            {
+              "id": "m4",
+              "label": "四半期営業キャッシュフロー"
+            },
+            {
+              "id": "m5",
+              "label": "売上高見通しの下限"
+            },
+            {
+              "id": "m6",
+              "label": "売上高見通しの上限"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "評価要因の押し上げで中国の外貨準備高が増加",
-          "summary": "ドル安と世界の資産価格の変化により、準備資産の報告上の評価額が押し上げられ、中国の公式な外貨準備高は増加しました。",
-          "impact": "安定した外貨準備は、対外支払い能力や通貨市場の安定性への信頼を支えます。ただし、月ごとの変化が同額の現金流入や政策介入を示すとは限りません。",
-          "what": "外貨準備は、中央銀行や関係当局が管理する海外通貨建ての資産です。国際的な支払い能力を支え、資本市場が不安定な時期の備えになります。公表されるドル換算額は、準備資産から収益を得た場合、資産を売買した場合、ほかの通貨建て資産を異なる為替レートで換算した場合に変化します。債券などの保有資産の市場価格も総額に影響します。",
-          "why": "外貨準備が十分かどうかは、輸入業者、輸出業者、国際的な貸し手にとって重要です。外貨建ての支払い義務を果たせるという信頼に影響するためです。安定性が高まれば、輸入コストの上昇や債務返済の難化につながる急激な通貨変動への懸念が和らぐ可能性があります。ただし、外貨準備は政府の予算資金とは異なり、通常の国内支出ではなく、流動性、安全性、対外安定のために管理されます。",
-          "uncertainty": "今回の発表だけでは、増加分を評価要因、運用収益、貿易決済、資本移動、当局の取引に明確に分けられません。ドル安になると、ほかの通貨建て資産のドル換算額は機械的に増えることがあります。このため、外貨準備の増加を、基調的な資金流入の強まりや為替政策の変更を示すものと自動的に解釈すべきではありません。",
-          "watch": "国際収支、銀行の外貨決済、国境を越える証券投資資金、主要貿易相手国の通貨に対する為替の動きに注目です。秩序ある資本移動とともに外貨準備の安定が続けば、評価要因による特定の月だけの変化よりも強い材料になります。",
+          "id": "f3",
+          "title": "証券会社の利益は減少する一方、キャッシュ創出力は改善",
+          "summary": "申万宏源は、報告期間を通じて、四半期の売上高と株主帰属利益が減少した一方、営業キャッシュフローは強かったと報告しました。",
+          "impact": "会計上の利益とキャッシュフローの違いは、取引、引き受け、投資、資金調達の環境が変化する中で、金融セクターの耐久力を考えるうえで重要です。",
+          "what": "同グループは、証券仲介、投資銀行、資産運用、投資など、関連する金融サービスを提供しています。提出書類によると、グループの株主帰属利益の大部分は証券子会社が生み出しました。",
+          "why": "市場活動や投資収益が減少すると、報告利益が縮小する可能性があります。一方、キャッシュの動きは、決済、売掛金、取引残高、資金調達の流れを反映することがあり、利益と同じ動きをするとは限りません。",
+          "uncertainty": "提出書類は未監査です。また、四半期の売上高は変動が大きく、営業キャッシュフローは四半期単独ではなく累計期間で報告されています。",
+          "watch": "証券売買の回転、投資銀行案件の進捗、顧客資産、信用の質、キャッシュ創出が継続的な利益と連動し続けるかに注目します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "外貨準備高"
+              "label": "四半期営業収益"
             },
             {
               "id": "m2",
-              "label": "外貨準備高の月次増減"
-            }
-          ]
-        }
-      ]
-    },
-    "zh-TW": {
-      "status": "以下為註明日期的美中市場及經濟數據存檔。自動內容更新延遲，請以每張卡片的實際交易日或發布日期為準。",
-      "marketSummary": {
-        "us": "所追蹤指數在最近已核實的交易日全數下跌。所列收盤資料描述的是當時交易日，而非目前交易情況。",
-        "cn": "所追蹤指數走勢分歧或持平。各張卡片均會註明所描述的已結束交易日。"
-      },
-      "stories": [
-        {
-          "id": "f4",
-          "title": "美國非農就業人數成長加快，失業率持平",
-          "summary": "最新聯邦勞動報告顯示，非農就業人數成長加快、失業率維持不變，薪資持續上升；新增聘僱主要集中在餐飲服務業與地方公立教育部門。",
-          "impact": "有韌性的勞動市場有助支撐家庭收入與消費需求，但持續的薪資壓力，可能讓通膨與家庭及企業借貸成本下降的過程更複雜。",
-          "what": "這份報告結合針對雇主非農就業人數的機構調查，以及針對民眾就業狀況的家庭調查。非農就業人數變化衡量企業與政府聘僱的職位，而非不重複計算的個別勞工。失業率衡量可工作、正在積極求職的失業人口占勞動力的比率。平均時薪則廣泛反映薪資壓力，尚未扣除消費者通膨影響。",
-          "why": "就業收入是許多家庭消費能力的主要來源，因此持續聘僱可支撐零售、住宅相關服務與貸款償還表現。企業可能受惠於穩定需求，但若薪資成長保持強勁，也會面臨較高的人力成本。對金融市場而言，較強的勞動市場可能影響通膨、利率與企業利潤率預期，但就業資料本身不會決定央行政策。",
-          "uncertainty": "隨著更多雇主回報資料到齊，每月非農就業人數估計會被修正，本次發布也已修正先前月份。遇到學校行事曆、假期與異常聘僱型態時，季節調整可能較困難。機構調查與家庭調查衡量的概念不同，因此結果可能分歧。名目薪資成長也無法顯示扣除通膨後的購買力是否改善。",
-          "watch": "留意後續非農就業人數修正、勞動參與率、工時、薪資成長，以及民間產業聘僱是否廣泛。即將發布的通膨與就業資料，將有助判斷勞動市場韌性是否與價格壓力緩和一致，或成本壓力是否再度升高。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "非農就業人數變化"
-            },
-            {
-              "id": "m2",
-              "label": "失業率"
+              "label": "四半期売上高成長率"
             },
             {
               "id": "m3",
-              "label": "平均時薪成長率"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "估值因素支撐中國外匯存底上升",
-          "summary": "中國官方外匯存底增加，原因是美元走弱與全球資產價格變化，推高了存底投資組合的申報價值。",
-          "impact": "穩定的外匯存底緩衝可增強市場對外部支付能力與匯市韌性的信心，但每月變動不一定代表有等額現金流入或政策干預。",
-          "what": "外匯存底是由央行與相關主管機關管理的海外外幣資產，可支援國際支付能力，並在資本市場承壓期間提供緩衝。當存底資產產生收益、被買入或賣出，或其他幣別資產按不同匯率換算時，公布的美元價值便會改變。債券與其他持有資產的市場價格變化也會影響總額。",
-          "why": "外匯存底是否充足，會影響進口商、出口商與國際貸款機構對外幣債務能否履行的信心。穩定度提高可降低市場對匯率劇烈波動的擔憂，避免進口成本上升或償債變得更困難。不過，外匯存底不等同於政府預算現金，其管理目標是流動性、安全性與外部穩定，而非一般國內支出。",
-          "uncertainty": "僅憑這份發布資料，無法明確區分整體增幅來自估值影響、投資收益、貿易結算、資本流動或官方交易。美元走弱會自然提高其他幣別資產換算成美元後的價值。因此，不應自動把外匯存底成長解讀為基礎資金流入轉強或匯率政策改變的證據。",
-          "watch": "留意國際收支資料、銀行外匯結算、跨境投資組合資金流動，以及人民幣相對主要貿易夥伴貨幣的走勢。若外匯存底持續穩定且資本流動有序，會比個別月份由估值帶動的變化提供更有力的證據。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "外匯存底餘額"
+              "label": "四半期株主帰属純利益"
             },
             {
-              "id": "m2",
-              "label": "外匯存底月度變化"
+              "id": "m4",
+              "label": "累計営業キャッシュフロー"
+            },
+            {
+              "id": "m5",
+              "label": "累計株主帰属利益成長率"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Arquivo datado dos mercados dos EUA e da China e de divulgações econômicas. A atualização automática está atrasada; confira a data de cada sessão ou publicação.",
+      "status": "Esta edição aborda desenvolvimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados tiveram movimentos mistos ou ficaram estáveis. Cada cartão identifica a sessão concluída que descreve."
+        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não a negociação atual."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "Crescimento do emprego não agrícola acelera nos EUA, enquanto desemprego permanece estável",
-          "summary": "O relatório federal mais recente sobre o mercado de trabalho mostrou crescimento mais forte do emprego não agrícola, taxa de desemprego inalterada e continuidade dos ganhos salariais, com contratações concentradas em serviços de alimentação e educação pública local.",
-          "impact": "Um mercado de trabalho resiliente sustenta a renda das famílias e a demanda dos consumidores, mas a pressão salarial persistente pode dificultar a redução da inflação e dos custos de empréstimos para famílias e empresas.",
-          "what": "O relatório combina uma pesquisa com estabelecimentos sobre empregos registrados por empregadores e uma pesquisa domiciliar sobre a situação profissional das pessoas. A variação do emprego não agrícola mede postos registrados por empresas e governos, não trabalhadores distintos. A taxa de desemprego mede a parcela da força de trabalho sem emprego, disponível e procurando trabalho ativamente. O salário médio por hora oferece uma medida ampla da pressão salarial antes do ajuste pela inflação ao consumidor.",
-          "why": "A renda do trabalho é a principal fonte de poder de compra de muitas famílias. Assim, a continuidade das contratações pode sustentar o varejo, os serviços ligados à habitação e o pagamento de empréstimos. As empresas podem se beneficiar da demanda estável, mas enfrentar custos trabalhistas maiores se o crescimento salarial continuar firme. Nos mercados financeiros, condições mais fortes de emprego podem afetar as expectativas para inflação, juros e margens empresariais, embora os dados de emprego, isoladamente, não determinem as decisões do banco central.",
-          "uncertainty": "As estimativas mensais do emprego não agrícola são revisadas à medida que chegam novos relatórios de empregadores, e a própria divulgação já revisou meses anteriores. O ajuste sazonal pode ser difícil perto de calendários escolares, feriados e padrões incomuns de contratação. As pesquisas com estabelecimentos e domicílios medem conceitos diferentes e podem divergir. O crescimento nominal dos salários também não mostra se o poder de compra melhorou após a inflação.",
-          "watch": "Acompanhe revisões posteriores do emprego não agrícola, participação na força de trabalho, horas trabalhadas, crescimento salarial e abrangência das contratações entre os setores privados. As próximas divulgações de inflação e emprego ajudarão a mostrar se a resiliência do trabalho é compatível com menor pressão sobre os preços ou com nova pressão de custos.",
+          "id": "f2",
+          "title": "Illumina eleva projeção com apoio da demanda clínica por sequenciamento",
+          "summary": "A Illumina registrou maior receita trimestral e maior fluxo de caixa operacional, apoiada pela demanda clínica e por novas instalações de instrumentos.",
+          "impact": "O resultado apoia a continuidade dos gastos com testes genômicos e ferramentas de pesquisa, mas o lucro divulgado inclui um efeito relevante de restituição tarifária que não deve ser interpretado como demanda recorrente.",
+          "what": "A Illumina vende tecnologias de sequenciamento e microarranjos para clientes de pesquisa, áreas clínicas, oncologia, saúde reprodutiva, agricultura e outros setores; a administração elevou a projeção anual de receita e lucro.",
+          "why": "A adoção por sistemas de saúde e a instalação de instrumentos podem ampliar a receita recorrente de consumíveis, enquanto o tratamento tarifário, o câmbio, as aquisições e a exposição à China afetam a comparabilidade.",
+          "uncertainty": "O comunicado separa os resultados segundo os princípios contábeis geralmente aceitos das medidas não conformes a esses princípios e identifica restituições tarifárias, exposição regulatória, lançamentos de produtos e demanda dos clientes como variáveis importantes.",
+          "watch": "Crescimento futuro de consumíveis, instalações clínicas, fluxo de caixa operacional, tratamento tarifário e demanda regional fora das restrições da empresa na China.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação do emprego não agrícola"
+              "label": "Receita trimestral segundo os princípios contábeis geralmente aceitos"
             },
             {
               "id": "m2",
-              "label": "Taxa de desemprego"
+              "label": "Crescimento da receita trimestral"
             },
             {
               "id": "m3",
-              "label": "Crescimento do salário médio por hora"
+              "label": "Lucro líquido trimestral segundo os princípios contábeis geralmente aceitos"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional trimestral"
+            },
+            {
+              "id": "m5",
+              "label": "Limite inferior da projeção de receita"
+            },
+            {
+              "id": "m6",
+              "label": "Limite superior da projeção de receita"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Reservas cambiais da China aumentam com apoio de efeitos de avaliação",
-          "summary": "As reservas cambiais oficiais da China aumentaram porque o dólar mais fraco e as mudanças nos preços dos ativos globais elevaram o valor divulgado da carteira de reservas.",
-          "impact": "Uma reserva estável pode reforçar a confiança na capacidade de pagamentos externos e na resistência do mercado cambial, mas o movimento mensal não indica necessariamente uma entrada equivalente de dinheiro ou uma intervenção do governo.",
-          "what": "Reservas cambiais são ativos em moedas estrangeiras administrados pelo banco central e por autoridades relacionadas. Elas sustentam a capacidade de pagamentos internacionais e podem servir de proteção durante períodos de tensão nos mercados de capitais. O valor divulgado em dólares muda quando os ativos geram rendimentos, são comprados ou vendidos, ou são convertidos de outras moedas usando taxas de câmbio diferentes. Mudanças nos preços de mercado de títulos e outros ativos também podem afetar o total.",
-          "why": "A suficiência das reservas importa para importadores, exportadores e credores internacionais porque influencia a confiança na capacidade de cumprir obrigações em moeda estrangeira. Maior estabilidade pode reduzir o medo de movimentos cambiais desordenados que aumentariam os custos de importação ou dificultariam o pagamento de dívidas. Contudo, as reservas não equivalem ao dinheiro disponível no orçamento público e são administradas para garantir liquidez, segurança e estabilidade externa, não para gastos domésticos comuns.",
-          "uncertainty": "Somente com esta divulgação, não é possível separar claramente o aumento total entre efeitos de avaliação, renda de investimentos, liquidação comercial, fluxos de capital e transações oficiais. Um dólar mais fraco pode elevar mecanicamente o valor em dólares dos ativos denominados em outras moedas. Portanto, o crescimento das reservas não deve ser interpretado automaticamente como prova de entradas subjacentes mais fortes ou de mudança na política cambial.",
-          "watch": "Acompanhe os dados do balanço de pagamentos, a liquidação bancária de câmbio, os fluxos internacionais de investimentos em carteira e os movimentos da moeda em relação às moedas dos principais parceiros comerciais. A estabilidade persistente das reservas, junto com fluxos de capital ordenados, forneceria evidência mais forte do que uma mudança mensal isolada causada por efeitos de avaliação.",
+          "id": "f3",
+          "title": "Lucro da corretora enfraquece enquanto a geração de caixa melhora",
+          "summary": "A Shenwan Hongyuan registrou menor receita trimestral e menor lucro atribuível aos acionistas, mas forte geração de caixa operacional acumulada no período de divulgação.",
+          "impact": "A diferença entre lucro contábil e fluxo de caixa é relevante para a resiliência do setor financeiro, especialmente à medida que mudam as condições de negociação, subscrição, investimento e financiamento.",
+          "what": "O grupo oferece corretagem de valores mobiliários, banco de investimento, gestão de ativos, investimentos e serviços financeiros relacionados; o documento informa que a subsidiária de valores mobiliários foi responsável pela maior parte do lucro atribuível aos acionistas do grupo.",
+          "why": "Menor atividade de mercado ou menor receita de investimentos pode reduzir o lucro divulgado, enquanto os movimentos de caixa podem refletir liquidações, contas a receber, saldos de negociação e fluxos de financiamento que não evoluem no mesmo ritmo que o lucro.",
+          "uncertainty": "O documento não foi auditado, a receita trimestral foi volátil e o fluxo de caixa operacional é informado de forma acumulada no ano, e não apenas para o trimestre.",
+          "watch": "Volume de negócios da corretora, carteira de banco de investimento, ativos de clientes, qualidade do crédito e se a geração de caixa continuará alinhada ao lucro recorrente.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Saldo das reservas cambiais"
+              "label": "Receita operacional trimestral"
             },
             {
               "id": "m2",
-              "label": "Variação mensal das reservas"
+              "label": "Crescimento da receita trimestral"
+            },
+            {
+              "id": "m3",
+              "label": "Lucro líquido trimestral atribuível aos acionistas"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional acumulado no ano"
+            },
+            {
+              "id": "m5",
+              "label": "Crescimento do lucro atribuível aos acionistas acumulado no ano"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-TW": {
+      "status": "本期涵蓋美國與中國的發展。請核對各則發布日期；近期公司報告以背景解說呈現。",
+      "marketSummary": {
+        "us": "部分收盤觀察無法驗證。每個可取得的指數都保留其自身交易日期。",
+        "cn": "追蹤的兩個指數在最近一次可驗證交易時段均下跌。標示日期的收盤數據僅描述那些交易時段，不代表目前交易情況。"
+      },
+      "stories": [
+        {
+          "id": "f2",
+          "title": "臨床需求支撐定序業務，Illumina 上調展望",
+          "summary": "Illumina 公布季度營收與經營現金流增加，受臨床需求及新儀器配置帶動。",
+          "impact": "這項結果支持基因體檢測與研究工具的持續支出，但公布的盈餘包含重大關稅退款影響，不應視為可持續的需求。",
+          "what": "Illumina 向研究、臨床、腫瘤、 生殖健康、農業及其他客戶銷售定序與陣列技術；管理層上調全年營收與盈餘指引。",
+          "why": "醫療體系採用與儀器配置可擴大持續性耗材營收，而關稅處理、匯率、併購及中國曝險會影響可比性。",
+          "uncertainty": "公告區分 GAAP 結果與非 GAAP 指標，並指出關稅退款、監管曝險、產品上市及客戶需求是重要變數。",
+          "watch": "未來耗材成長、臨床儀器配置、經營現金流、關稅處理，以及公司在中國限制下以外地區的需求。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度 GAAP 營收"
+            },
+            {
+              "id": "m2",
+              "label": "季度營收成長"
+            },
+            {
+              "id": "m3",
+              "label": "季度 GAAP 淨利潤"
+            },
+            {
+              "id": "m4",
+              "label": "季度經營現金流"
+            },
+            {
+              "id": "m5",
+              "label": "營收展望下限"
+            },
+            {
+              "id": "m6",
+              "label": "營收展望上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "券商盈餘轉弱，但現金生成改善",
+          "summary": "申萬宏源公布季度營收與股東應佔利潤下降，但在報告期間維持強勁的經營現金生成。",
+          "impact": "會計盈餘與現金流之間的分歧，對金融業韌性具有重要意義，尤其是在交易、承銷、投資及融資條件變化之際。",
+          "what": "集團提供證券經紀、投資銀行、資產管理、投資及相關金融服務；申報文件表示，其證券子公司貢獻集團大部分股東應佔利潤。",
+          "why": "市場活動或投資收益下降可能壓低公布利潤，而現金流動可能反映結算、應收款、交易餘額及融資流量，未必與盈餘同步變化。",
+          "uncertainty": "申報文件未經審計，季度營收波動較大，且經營現金流按年初至今期間公布，而非僅涵蓋該季度。",
+          "watch": "券商成交量、投資銀行業務管線、客戶資產、信用品質，以及現金生成是否持續與經常性盈餘一致。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度營業收入"
+            },
+            {
+              "id": "m2",
+              "label": "季度營收成長"
+            },
+            {
+              "id": "m3",
+              "label": "季度股東應佔淨利潤"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今經營現金流"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今股東應佔利潤成長"
             }
           ]
         }
