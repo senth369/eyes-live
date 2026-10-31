@@ -1,53 +1,48 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-10-30T20:47:33.749Z",
-  "generatedAt": "2026-10-30T20:51:30.776Z",
+  "cutoffAt": "2026-10-31T01:35:37.085Z",
+  "generatedAt": "2026-10-31T01:39:19.441Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "ExxonMobil third-quarter results",
-      "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results"
+      "label": "Mastercard third-quarter earnings release",
+      "url": "https://investor.mastercard.com/files/content_files/3Q26-Mastercard-Earnings-Release.pdf"
     },
     {
       "id": "src2",
-      "label": "TriNet quarterly results",
-      "url": "https://investor.trinet.com/news/news-details/2026/TriNet-Announces-Third-Quarter-2026-Results-and-Now-Expects-to-Deliver-Earnings-at-the-Top-End-of-Earnings-per-Share-Guidance-Range/default.aspx"
+      "label": "Illumina third-quarter earnings release",
+      "url": "https://investor.illumina.com/static-files/425680f5-fad9-4b9e-af2b-d863bdaa9ac9"
     },
     {
       "id": "src3",
-      "label": "SiE Information quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616992.PDF"
+      "label": "China industrial enterprise profits release",
+      "url": "https://www.stats.gov.cn//sj/zxfb/202610/t20261027_1965697.html"
     },
     {
       "id": "src4",
-      "label": "China National Bureau of Statistics economic release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965618.html"
+      "label": "China cultural enterprise revenue release",
+      "url": "https://www.stats.gov.cn//sj/zxfb/202610/t20261030_1965708.html"
     },
     {
       "id": "src5",
-      "label": "China retail sales release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html"
+      "label": "S&P five hundred closing report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
     },
     {
       "id": "src6",
-      "label": "Federal Reserve policy statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      "label": "Nasdaq Composite FRED data",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src7",
-      "label": "US market close report",
-      "url": "https://apnews.com/article/a01d3551e794fed1a0c317c20bc3f0a2"
+      "label": "SSE Composite historical data",
+      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src8",
-      "label": "China market closing report",
-      "url": "https://m.cnfin.com/gs-lb/zixun/20261030/4488836_1.html"
-    },
-    {
-      "id": "src9",
-      "label": "CSI three hundred historical close",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "CSI three hundred historical data",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
     }
   ],
   "markets": [
@@ -55,30 +50,28 @@
       "id": "sp500",
       "sessionDate": "2026-10-30",
       "close": 7580.07,
-      "previousClose": null,
-      "changePercent": -1.8,
+      "previousClose": 7720.39,
+      "changePercent": -1.8175,
       "sourceIds": [
-        "src7"
+        "src5"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-10-30",
-      "close": 25437,
+      "sessionDate": null,
+      "close": null,
       "previousClose": null,
-      "changePercent": -2.9,
-      "sourceIds": [
-        "src7"
-      ]
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "sse",
       "sessionDate": "2026-10-30",
       "close": 3599.02,
-      "previousClose": null,
+      "previousClose": 3651.43,
       "changePercent": -1.44,
       "sourceIds": [
-        "src8"
+        "src7"
       ]
     },
     {
@@ -88,657 +81,291 @@
       "previousClose": 4041.84,
       "changePercent": -1.39,
       "sourceIds": [
-        "src9"
+        "src8"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f1",
-      "market": "us",
-      "category": "company",
-      "publishedOn": "2026-10-30",
-      "company": {
-        "name": "ExxonMobil Holdings Corporation",
-        "ticker": "XOM",
-        "exchange": "NYSE"
-      },
+      "id": "f3",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-10-27",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 15413000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Issuer results summary table reports quarterly United States generally accepted accounting principles earnings."
-        },
-        {
-          "id": "m2",
-          "value": 25650000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Issuer cash-flow reconciliation reports quarterly cash flow from operating activities."
-        },
-        {
-          "id": "m3",
-          "value": 19109000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Issuer free-cash-flow reconciliation reports quarterly non-generally accepted accounting principles free cash flow."
-        }
-      ],
-      "sourceIds": [
-        "src1"
-      ],
-      "evidence": "The issuer release reports segment earnings, operating cash generation, capital investment and free cash flow in the results summary and cash-flow tables."
-    },
-    {
-      "id": "f2",
-      "market": "us",
-      "category": "company",
-      "publishedOn": "2026-10-29",
-      "company": {
-        "name": "TriNet Group",
-        "ticker": "TNET",
-        "exchange": "NYSE"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 1175000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "Issuer income-statement table reports quarterly total revenue."
-        },
-        {
-          "id": "m2",
-          "value": 31000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "Issuer income-statement table reports quarterly net income."
-        },
-        {
-          "id": "m3",
-          "value": 317000000,
-          "unit": "USD",
+          "value": 106206600000000,
+          "unit": "CNY",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src3"
           ],
-          "evidence": "Issuer cash-flow table reports year-to-date net cash provided by operating activities."
-        }
-      ],
-      "sourceIds": [
-        "src2"
-      ],
-      "evidence": "The issuer release describes human-capital management services for small and medium-sized businesses and reports lower quarterly revenue, lower quarterly net income, improved insurance-cost performance and higher year-to-date operating cash flow."
-    },
-    {
-      "id": "f5",
-      "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-10-28",
-      "company": null,
-      "metrics": [
+          "evidence": "The official financial-indicators table reports cumulative operating revenue for industrial enterprises above the designated size."
+        },
         {
-          "id": "m1",
-          "value": 4,
-          "unit": "percent",
-          "periodStart": "2026-10-28",
-          "periodEnd": "2026-10-28",
+          "id": "m2",
+          "value": 6033740000000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src3"
           ],
-          "evidence": "Federal Reserve statement reports the upper bound of the federal funds target range and says the range was maintained."
+          "evidence": "The release opening statement and table report cumulative total profit."
+        },
+        {
+          "id": "m3",
+          "value": 15.5,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "The release reports comparable cumulative profit growth."
         }
       ],
       "sourceIds": [
-        "src6"
+        "src3"
       ],
-      "evidence": "The Federal Reserve said economic activity was expanding at a strong pace, domestic spending was resilient, productivity growth was strong, capital investment was robust and inflation remained elevated."
+      "evidence": "Official data show aggregate industrial profit growth, with especially strong results in electronics and selected materials, while automobiles, utilities and several metals-related industries weakened."
     }
   ],
   "locales": {
     "en": {
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "ExxonMobil combines strong earnings with substantial investment cash needs",
-          "summary": "The integrated energy company reported strong quarterly accounting earnings and operating cash generation while upstream, refining and chemical operations remained central to performance.",
-          "impact": "The result supports continued investment and capital returns, but future cash generation remains sensitive to commodity prices, refining margins and project spending.",
-          "what": "ExxonMobil produces oil and gas and sells fuels, chemicals and specialty products. The issuer attributes operating performance to production, refining utilization, margins and structural cost actions, while its cash-flow tables show the distinction between accounting earnings, operating cash and free cash after investment.",
-          "why": "Energy costs affect transportation, manufacturing and household budgets, while operating cash determines how much the company can invest, distribute or retain without relying on additional financing.",
-          "uncertainty": "The release is issuer-reported, free cash flow is a non-generally accepted accounting principles measure, and future cash flow remains exposed to commodity prices, maintenance, project execution and geopolitical disruption.",
-          "watch": "Watch the next quarterly filing for realized prices, segment margins, capital spending, distributions and whether planned capital returns continue to be funded by operating cash.",
+          "id": "f3",
+          "title": "Industrial profit growth remained uneven",
+          "summary": "Official data showed aggregate industrial profit growth, but performance diverged widely among manufacturing, resource and utility industries.",
+          "impact": "Stronger profitability can support investment and supplier payments in leading sectors, while weak industries may continue to restrain employment and capital spending.",
+          "what": "The statistics cover large mining, manufacturing and utility enterprises and combine accounting revenue, costs and profit.",
+          "why": "Profit growth can improve corporate financial capacity, but it is not the same as operating cash flow and can reflect prices, product mix and cost changes.",
+          "uncertainty": "The release provides no consolidated operating cash flow and aggregate results conceal differences among firms, industries and ownership groups.",
+          "watch": "Next evidence includes receivables, inventories, margins and whether gains broaden beyond electronics and selected resource producers.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "reported quarterly earnings"
+              "label": "Industrial operating revenue"
             },
             {
               "id": "m2",
-              "label": "reported quarterly operating cash flow"
+              "label": "Industrial total profit"
             },
             {
               "id": "m3",
-              "label": "reported quarterly free cash flow"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "TriNet reports softer quarterly revenue but higher operating cash flow year to date",
-          "summary": "The payroll, human-resources and employer-insurance provider reported lower quarterly revenue and net income, alongside improved year-to-date operating cash flow and insurance-cost performance.",
-          "impact": "The figures show weaker quarterly business volume but better cash generation, giving the company more operating flexibility while customer counts and benefit costs remain important variables.",
-          "what": "TriNet combines payroll and human-resources services with insurance and benefits administration for small and medium-sized employers. The release reports lower workforce counts and quarterly revenue, a lower insurance-cost ratio and higher year-to-date operating cash flow.",
-          "why": "Employer demand, labor-market conditions and medical or workers-compensation costs directly affect the service economics experienced by employers and employees through payroll and benefits.",
-          "uncertainty": "The release does not fully explain the workforce decline, and quarterly results can be affected by benefit-cost timing, customer mix and seasonal selling patterns.",
-          "watch": "Watch customer counts, professional-service revenue, insurance costs, retention and operating cash flow in the next filing.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "reported quarterly revenue"
-            },
-            {
-              "id": "m2",
-              "label": "reported quarterly net income"
-            },
-            {
-              "id": "m3",
-              "label": "reported year-to-date operating cash flow"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "The Federal Reserve keeps policy restrictive as activity remains resilient",
-          "summary": "The Federal Reserve maintained its policy range while describing strong activity, resilient domestic spending, robust capital investment and elevated inflation.",
-          "impact": "The stance supports the inflation fight but keeps financing conditions restrictive for households, commercial borrowers and capital-intensive companies.",
-          "what": "The central bank said economic activity was expanding at a strong pace, productivity growth was strong, capital investment was robust and job gains had kept pace with the workforce. It also said inflation remained elevated and maintained the existing target range.",
-          "why": "Restrictive financing conditions raise borrowing costs and the hurdle rate for housing, equipment, data centers and other investment, even as resilient spending supports demand-sensitive businesses.",
-          "uncertainty": "The statement leaves future policy decisions dependent on incoming information and does not specify the timing of any later change.",
-          "watch": "Watch inflation, employment, consumer spending, credit conditions and subsequent policy communications.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "reported policy-rate upper bound"
-            }
-          ]
-        }
-      ]
-    },
-    "zh-CN": {
-      "status": "本期经核实的覆盖范围有限。部分市场没有经核实的新故事；有日期的报告仍已明确标注。",
-      "marketSummary": {
-        "us": "所跟踪的两个指数在最近经核实的交易时段均下跌。有日期的收盘数据描述的是这些交易时段，而不是当前交易。",
-        "cn": "所跟踪的两个指数在最近经核实的交易时段均下跌。有日期的收盘数据描述的是这些交易时段，而不是当前交易。"
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "埃克森美孚盈利强劲，但投资现金需求较大",
-          "summary": "这家综合能源公司公布了强劲的季度会计利润和经营现金流；上游、炼油及化工业务仍是业绩的核心。",
-          "impact": "这一结果支持公司继续投资和回报资本，但未来现金生成仍容易受到大宗商品价格、炼油利润率和项目支出的影响。",
-          "what": "埃克森美孚生产石油和天然气，并销售燃料、化学品及特种产品。公司将经营表现归因于产量、炼厂利用率、利润率和结构性成本措施；其现金流表则区分了会计利润、经营现金和投资后的自由现金流。",
-          "why": "能源成本会影响运输、制造业和家庭预算，而经营现金决定公司在不依赖额外融资的情况下能够投资、分配或留存多少资金。",
-          "uncertainty": "该公告由公司提供；自由现金流属于非公认会计准则指标，未来现金流仍会受到大宗商品价格、维护、项目执行和地缘政治干扰的影响。",
-          "watch": "关注下一份季度申报文件中的实现价格、分部利润率、资本支出、分配情况，以及计划中的资本回报是否继续由经营现金支持。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "公布的季度盈利"
-            },
-            {
-              "id": "m2",
-              "label": "公布的季度经营现金流"
-            },
-            {
-              "id": "m3",
-              "label": "公布的季度自由现金流"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "TriNet季度营收走弱，但年初至今经营现金流增加",
-          "summary": "这家提供薪资、人力资源和雇主保险服务的公司公布季度营收和净利润下降，同时年初至今经营现金流改善，保险成本表现也有所提升。",
-          "impact": "这些数据表明季度业务量较弱，但现金生成能力更好；在客户数量和福利成本仍是重要变量的情况下，公司获得了更大的经营灵活性。",
-          "what": "TriNet将薪资和人力资源服务，与面向中小型雇主的保险及福利管理结合起来。公告显示，员工人数和季度营收下降，保险成本率降低，年初至今经营现金流增加。",
-          "why": "雇主需求、劳动力市场状况以及医疗或工伤赔偿成本，会通过薪资和福利直接影响雇主及员工所体验到的服务经济性。",
-          "uncertainty": "公告没有充分解释员工人数下降的原因；季度业绩可能受到福利成本确认时点、客户结构和季节性销售模式的影响。",
-          "watch": "关注下一份申报文件中的客户数量、专业服务营收、保险成本、客户留存率和经营现金流。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "公布的季度营收"
-            },
-            {
-              "id": "m2",
-              "label": "公布的季度净利润"
-            },
-            {
-              "id": "m3",
-              "label": "公布的年初至今经营现金流"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "美联储在经济活动保持韧性的情况下维持限制性政策",
-          "summary": "美联储维持政策利率区间，同时表示经济活动强劲、国内支出具有韧性、资本投资稳健，通胀仍处于较高水平。",
-          "impact": "这一立场有助于遏制通胀，但会让家庭、商业借款人和资本密集型企业继续面临偏紧的融资条件。",
-          "what": "这家央行表示，经济活动正以强劲步伐扩张，生产率增长强劲，资本投资稳健，就业增长跟上了劳动力规模的扩张。央行还表示通胀仍处于较高水平，并维持现有目标区间。",
-          "why": "偏紧的融资条件会提高住房、设备、数据中心及其他投资的借款成本和投资门槛，即使有韧性的支出仍在支持对需求敏感的企业。",
-          "uncertainty": "声明表示，未来政策决定将取决于后续信息，但没有说明之后任何调整的时间。",
-          "watch": "关注通胀、就业、消费者支出、信贷条件以及后续政策沟通。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "公布的政策利率上限"
+              "label": "Industrial profit growth"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont pas de nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
+      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne disposent d’aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
       "marketSummary": {
-        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "ExxonMobil combine de solides résultats et d’importants besoins de trésorerie pour ses investissements",
-          "summary": "La société énergétique intégrée a publié de solides bénéfices trimestriels comptables et une importante génération de trésorerie d’exploitation, tandis que les activités de production, de raffinage et de chimie sont restées centrales dans sa performance.",
-          "impact": "Ces résultats soutiennent la poursuite des investissements et des retours aux actionnaires, mais la génération future de trésorerie reste sensible aux prix des matières premières, aux marges de raffinage et aux dépenses de projets.",
-          "what": "ExxonMobil produit du pétrole et du gaz, et vend des carburants, des produits chimiques et des produits spécialisés. L’émetteur attribue sa performance opérationnelle à la production, à l’utilisation des raffineries, aux marges et aux mesures structurelles de réduction des coûts, tandis que ses tableaux de trésorerie distinguent les bénéfices comptables, la trésorerie d’exploitation et la trésorerie disponible après investissements.",
-          "why": "Les coûts de l’énergie influencent les transports, la production industrielle et les budgets des ménages, tandis que la trésorerie d’exploitation détermine combien l’entreprise peut investir, distribuer ou conserver sans recourir à un financement supplémentaire.",
-          "uncertainty": "Le communiqué est fourni par l’émetteur, la trésorerie disponible est une mesure qui ne relève pas des principes comptables généralement admis, et les flux de trésorerie futurs restent exposés aux prix des matières premières, aux dépenses de maintenance, à l’exécution des projets et aux perturbations géopolitiques.",
-          "watch": "Surveiller le prochain rapport trimestriel pour les prix réalisés, les marges par activité, les dépenses d’investissement, les distributions et la poursuite éventuelle du financement des retours de capitaux par la trésorerie d’exploitation.",
+          "id": "f3",
+          "title": "La croissance des bénéfices industriels est restée inégale",
+          "summary": "Les données officielles montrent une croissance globale des bénéfices industriels, mais les résultats varient fortement entre les secteurs manufacturier, des ressources et des services publics.",
+          "impact": "Une rentabilité plus solide peut soutenir l’investissement et les paiements aux fournisseurs dans les secteurs les plus performants, tandis que les secteurs fragiles pourraient continuer à peser sur l’emploi et les dépenses d’investissement.",
+          "what": "Les statistiques couvrent les grandes entreprises minières, manufacturières et de services publics. Elles regroupent le chiffre d’affaires comptable, les coûts et les bénéfices.",
+          "why": "La croissance des bénéfices peut renforcer la capacité financière des entreprises, mais elle ne correspond pas à la même chose que les flux de trésorerie liés à l’exploitation et peut refléter les variations des prix, de la composition des produits et des coûts.",
+          "uncertainty": "La publication ne fournit pas de flux de trésorerie liés à l’exploitation consolidés, et les résultats globaux masquent les écarts entre les entreprises, les secteurs et les groupes de propriété.",
+          "watch": "Les prochains éléments à surveiller comprennent les créances clients, les stocks, les marges et la question de savoir si les gains s’étendent au-delà de l’électronique et de certains producteurs de ressources.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "bénéfices trimestriels publiés"
+              "label": "Chiffre d’affaires d’exploitation industriel"
             },
             {
               "id": "m2",
-              "label": "trésorerie d’exploitation trimestrielle publiée"
+              "label": "Bénéfice total de l’industrie"
             },
             {
               "id": "m3",
-              "label": "trésorerie disponible trimestrielle publiée"
+              "label": "Croissance des bénéfices industriels"
             }
           ]
-        },
+        }
+      ]
+    },
+    "zh-CN": {
+      "status": "本期经核实的覆盖范围有限。部分市场没有经核实的新消息；有日期的报告仍会明确标注。",
+      "marketSummary": {
+        "us": "部分收盘情况无法核实。每个可用指数均保留其自身的交易日期。",
+        "cn": "所跟踪指数在最近经核实的交易时段均下跌。有日期的收盘数据仅描述相应交易时段，不代表当前交易情况。"
+      },
+      "stories": [
         {
-          "id": "f2",
-          "title": "TriNet publie une baisse de ses revenus trimestriels, mais une hausse de sa trésorerie d’exploitation depuis le début de l’exercice",
-          "summary": "Le prestataire de services de paie, de ressources humaines et d’assurance employeur a publié une baisse de ses revenus et de son bénéfice net trimestriels, ainsi qu’une amélioration de sa trésorerie d’exploitation depuis le début de l’exercice et de la performance des coûts d’assurance.",
-          "impact": "Ces chiffres montrent un volume d’activité trimestriel plus faible, mais une meilleure génération de trésorerie, ce qui donne à l’entreprise davantage de souplesse opérationnelle, tandis que le nombre de clients et les coûts des prestations restent des variables importantes.",
-          "what": "TriNet associe des services de paie et de ressources humaines à l’administration des assurances et des avantages sociaux pour les petites et moyennes entreprises. Le communiqué fait état d’une baisse des effectifs et des revenus trimestriels, d’un ratio de coûts d’assurance plus faible et d’une hausse de la trésorerie d’exploitation depuis le début de l’exercice.",
-          "why": "La demande des employeurs, les conditions du marché du travail et les coûts médicaux ou liés aux accidents du travail influencent directement l’économie des services proposés aux employeurs et aux salariés par l’intermédiaire de la paie et des avantages sociaux.",
-          "uncertainty": "Le communiqué n’explique pas entièrement la baisse des effectifs, et les résultats trimestriels peuvent être influencés par le calendrier des coûts de prestations, la composition de la clientèle et les tendances saisonnières des ventes.",
-          "watch": "Surveiller le nombre de clients, les revenus des services professionnels, les coûts d’assurance, la fidélisation et la trésorerie d’exploitation dans le prochain rapport.",
+          "id": "f3",
+          "title": "工业利润增长仍不均衡",
+          "summary": "官方数据显示，工业利润总额有所增长，但制造业、资源行业和公用事业之间的表现差异很大。",
+          "impact": "盈利能力较强的行业可以支持投资和供应商付款，而表现疲弱的行业可能继续限制就业和资本支出。",
+          "what": "这些统计涵盖大型采矿、制造和公用事业企业，并综合了会计口径的营收、成本和利润。",
+          "why": "利润增长可以改善企业的财务能力，但不等同于经营现金流，也可能受到价格、产品结构和成本变化的影响。",
+          "uncertainty": "该报告没有提供合并口径的经营现金流，整体结果也掩盖了不同企业、行业和所有制群体之间的差异。",
+          "watch": "后续可关注应收账款、库存、利润率，以及利润增长是否扩展到电子行业以外和更多资源生产商。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "revenus trimestriels publiés"
+              "label": "工业营业收入"
             },
             {
               "id": "m2",
-              "label": "bénéfice net trimestriel publié"
+              "label": "工业利润总额"
             },
             {
               "id": "m3",
-              "label": "trésorerie d’exploitation publiée depuis le début de l’exercice"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "La Réserve fédérale maintient une politique restrictive alors que l’activité reste résistante",
-          "summary": "La Réserve fédérale a maintenu sa fourchette de taux directeurs tout en décrivant une activité soutenue, une demande intérieure résistante, des investissements robustes et une inflation élevée.",
-          "impact": "Cette orientation contribue à la lutte contre l’inflation, mais maintient des conditions de financement restrictives pour les ménages, les emprunteurs commerciaux et les entreprises nécessitant beaucoup de capitaux.",
-          "what": "La banque centrale a indiqué que l’activité économique progressait à un rythme soutenu, que la productivité augmentait fortement, que les investissements étaient robustes et que les créations d’emplois avaient suivi l’évolution de la population active. Elle a également déclaré que l’inflation restait élevée et maintenu la fourchette cible existante.",
-          "why": "Des conditions de financement restrictives augmentent les coûts d’emprunt et le taux de rendement minimal exigé pour le logement, les équipements, les centres de données et d’autres investissements, même si une demande résistante soutient les entreprises sensibles à la consommation.",
-          "uncertainty": "Le communiqué indique que les futures décisions de politique monétaire dépendront des nouvelles informations disponibles, sans préciser le calendrier d’un éventuel changement ultérieur.",
-          "watch": "Surveiller l’inflation, l’emploi, les dépenses de consommation, les conditions de crédit et les communications ultérieures de politique monétaire.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "borne supérieure publiée du taux directeur"
+              "label": "工业利润增速"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes fechados siguen identificados claramente.",
+      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes fechados siguen claramente identificados.",
       "marketSummary": {
-        "us": "Ambos índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
-        "cn": "Ambos índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
+        "us": "No se pudieron verificar algunas observaciones de cierre. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Ambos índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la negociación actual."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "ExxonMobil combina sólidos resultados con importantes necesidades de inversión",
-          "summary": "La empresa energética integrada informó sólidos resultados contables trimestrales y una sólida generación de efectivo operativo, mientras las operaciones de producción, refinación y productos químicos siguieron siendo fundamentales para su desempeño.",
-          "impact": "El resultado respalda la continuidad de las inversiones y las retribuciones al capital, pero la futura generación de efectivo sigue siendo sensible a los precios de las materias primas, los márgenes de refinación y el gasto en proyectos.",
-          "what": "ExxonMobil produce petróleo y gas, y vende combustibles, productos químicos y productos especializados. La empresa atribuye su desempeño operativo a la producción, la utilización de las refinerías, los márgenes y las medidas estructurales de reducción de costos, mientras que sus tablas de flujo de efectivo muestran la diferencia entre las ganancias contables, el efectivo operativo y el efectivo libre después de la inversión.",
-          "why": "Los costos de la energía afectan al transporte, la manufactura y los presupuestos de los hogares, mientras que el efectivo operativo determina cuánto puede invertir, distribuir o retener la empresa sin recurrir a financiación adicional.",
-          "uncertainty": "El comunicado procede de la empresa, el flujo de efectivo libre es una medida no contemplada por los principios contables generalmente aceptados y el flujo de efectivo futuro sigue expuesto a los precios de las materias primas, el mantenimiento, la ejecución de proyectos y las alteraciones geopolíticas.",
-          "watch": "Conviene seguir el próximo informe trimestral para conocer los precios realizados, los márgenes por segmento, el gasto de capital, las distribuciones y si las retribuciones al capital previstas siguen financiándose con efectivo operativo.",
+          "id": "f3",
+          "title": "El crecimiento de los beneficios industriales siguió siendo desigual",
+          "summary": "Los datos oficiales mostraron un crecimiento agregado de los beneficios industriales, pero el desempeño varió ampliamente entre las industrias manufactureras, de recursos y de servicios públicos.",
+          "impact": "Una rentabilidad más sólida puede respaldar la inversión y los pagos a proveedores en los sectores líderes, mientras que las industrias débiles podrían seguir frenando el empleo y el gasto de capital.",
+          "what": "Las estadísticas cubren grandes empresas mineras, manufactureras y de servicios públicos, y combinan ingresos contables, costos y beneficios.",
+          "why": "El crecimiento de los beneficios puede mejorar la capacidad financiera de las empresas, pero no equivale al flujo de caja operativo y puede reflejar cambios en los precios, la combinación de productos y los costos.",
+          "uncertainty": "El informe no proporciona un flujo de caja operativo consolidado, y los resultados agregados ocultan diferencias entre empresas, industrias y grupos de propiedad.",
+          "watch": "Las próximas evidencias incluyen las cuentas por cobrar, los inventarios, los márgenes y si las mejoras se extienden más allá de la electrónica y de determinados productores de recursos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "ganancias trimestrales declaradas"
+              "label": "Ingresos operativos industriales"
             },
             {
               "id": "m2",
-              "label": "flujo de efectivo operativo trimestral declarado"
+              "label": "Beneficio industrial total"
             },
             {
               "id": "m3",
-              "label": "flujo de efectivo libre trimestral declarado"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "TriNet informa de una menor facturación trimestral, pero de un mayor flujo de efectivo operativo en lo que va de año",
-          "summary": "El proveedor de nóminas, recursos humanos y seguros para empleadores informó de una menor facturación y un menor beneficio neto trimestrales, junto con una mejora del flujo de efectivo operativo acumulado en el año y del desempeño de los costos de seguros.",
-          "impact": "Las cifras muestran un menor volumen de negocio trimestral, pero una mejor generación de efectivo, lo que da a la empresa mayor flexibilidad operativa mientras el número de clientes y los costos de beneficios siguen siendo variables importantes.",
-          "what": "TriNet combina servicios de nóminas y recursos humanos con la administración de seguros y beneficios para empleadores pequeños y medianos. El comunicado informa de una reducción de la plantilla y de la facturación trimestral, una menor proporción de costos de seguros y un mayor flujo de efectivo operativo acumulado en el año.",
-          "why": "La demanda de los empleadores, las condiciones del mercado laboral y los costos médicos o de indemnización laboral afectan directamente a la economía de los servicios que reciben empleadores y empleados mediante las nóminas y los beneficios.",
-          "uncertainty": "El comunicado no explica plenamente la disminución de la plantilla, y los resultados trimestrales pueden verse afectados por el momento en que se registran los costos de beneficios, la combinación de clientes y los patrones estacionales de ventas.",
-          "watch": "Conviene seguir el número de clientes, los ingresos por servicios profesionales, los costos de seguros, la retención y el flujo de efectivo operativo en el próximo informe.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "facturación trimestral declarada"
-            },
-            {
-              "id": "m2",
-              "label": "beneficio neto trimestral declarado"
-            },
-            {
-              "id": "m3",
-              "label": "flujo de efectivo operativo acumulado en el año declarado"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "La Reserva Federal mantiene una política restrictiva mientras la actividad sigue siendo resistente",
-          "summary": "La Reserva Federal mantuvo su rango de política monetaria al describir una actividad sólida, un gasto interno resistente, una inversión de capital robusta y una inflación elevada.",
-          "impact": "La postura respalda la lucha contra la inflación, pero mantiene restrictivas las condiciones de financiación para los hogares, los prestatarios comerciales y las empresas intensivas en capital.",
-          "what": "El banco central afirmó que la actividad económica se expandía a un ritmo sólido, que el crecimiento de la productividad era fuerte, que la inversión de capital era robusta y que la creación de empleo había mantenido el ritmo de la fuerza laboral. También señaló que la inflación seguía elevada y mantuvo el rango objetivo existente.",
-          "why": "Las condiciones restrictivas de financiación elevan los costos de endeudamiento y el rendimiento mínimo exigido para la vivienda, los equipos, los centros de datos y otras inversiones, aunque el gasto resistente respalda a las empresas sensibles a la demanda.",
-          "uncertainty": "El comunicado deja las decisiones futuras de política monetaria sujetas a la información que vaya llegando y no especifica el momento de ningún cambio posterior.",
-          "watch": "Conviene seguir la inflación, el empleo, el gasto de los consumidores, las condiciones crediticias y las comunicaciones posteriores de política monetaria.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "límite superior del tipo de política monetaria declarado"
+              "label": "Crecimiento del beneficio industrial"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できた情報は限定的です。市場によっては確認済みの新しいニュースがなく、日付のある報告は該当する取引を明確に示しています。",
+      "status": "この版で確認できた情報は限定的です。一部の市場では、確認できる新しい材料がありません。日付のある報告は、その日付を明示しています。",
       "marketSummary": {
-        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。日付のある終値はその取引を示すもので、現在の取引状況ではありません。",
-        "cn": "追跡対象の両指数は、直近の確認済み取引で下落しました。日付のある終値はその取引を示すもので、現在の取引状況ではありません。"
+        "us": "一部の終値は確認できませんでした。利用可能な各指数には、それぞれの取引日が付されています。",
+        "cn": "追跡対象の指数は、最新の確認済み取引で下落しました。日付のある終値は、その取引日のものであり、現在の取引を示すものではありません。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "エクソンモービル、好調な利益と大規模な投資資金需要が併存",
-          "summary": "総合エネルギー企業は、四半期の会計上の利益と営業キャッシュフローが好調だったと報告しました。上流、精製、化学品事業は引き続き業績の中心です。",
-          "impact": "今回の結果は、投資と株主還元の継続を支えます。一方、将来のキャッシュ創出は、商品価格、精製マージン、プロジェクト支出の影響を受けやすい状態です。",
-          "what": "エクソンモービルは、石油・天然ガスを生産し、燃料、化学品、特殊製品を販売しています。同社は、業績が生産量、精製設備の稼働率、マージン、構造的なコスト削減策の影響を受けると説明しています。また、キャッシュフロー表は、会計上の利益、営業キャッシュ、投資後のフリーキャッシュフローの違いを示しています。",
-          "why": "エネルギーコストは、輸送、製造、家計の支出に影響します。また、営業キャッシュフローは、追加の資金調達に頼らずに、同社がどれだけ投資、分配、留保できるかを左右します。",
-          "uncertainty": "発表内容は企業による報告です。フリーキャッシュフローは一般に認められた会計原則に基づく指標ではなく、将来のキャッシュフローは、商品価格、維持投資、プロジェクトの実行、地政学的混乱の影響を受けます。",
-          "watch": "次の四半期報告では、実現価格、部門別マージン、設備投資、株主還元、計画された株主還元が営業キャッシュフローで引き続き賄われているかを確認します。",
+          "id": "f3",
+          "title": "鉱工業企業の利益の伸びは一様ではなかった",
+          "summary": "公式データでは、鉱工業企業全体の利益が伸びた一方、製造業、資源関連業種、公益事業の間で業績には大きな差がありました。",
+          "impact": "収益性の改善は、主要業種の投資や取引先への支払いを支える可能性があります。一方、低迷する業種は雇用や設備投資の抑制要因となり続ける可能性があります。",
+          "what": "統計の対象は、大規模な鉱業、製造業、公益事業の企業で、会計上の売上高、費用、利益を合算しています。",
+          "why": "利益の伸びは企業の財務余力を高める可能性がありますが、経営活動によるキャッシュフローと同じではなく、価格、製品構成、費用の変化を反映している可能性があります。",
+          "uncertainty": "発表には、統合された経営活動によるキャッシュフローが示されていません。また、全体の結果からは、企業、業種、所有形態による違いが分かりません。",
+          "watch": "今後は、売上債権、棚卸資産、利益率に加え、電子機器や一部の資源生産企業以外にも改善が広がるかが焦点になります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "報告された四半期利益"
+              "label": "鉱工業企業の営業収益"
             },
             {
               "id": "m2",
-              "label": "報告された四半期営業キャッシュフロー"
+              "label": "鉱工業企業の利益総額"
             },
             {
               "id": "m3",
-              "label": "報告された四半期フリーキャッシュフロー"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "トライネット、四半期の売上高は減少するも年初来の営業キャッシュフローは増加",
-          "summary": "給与計算、人事、雇用主向け保険を提供する同社は、四半期の売上高と純利益が減少した一方、年初来の営業キャッシュフローと保険コストの実績は改善したと報告しました。",
-          "impact": "今回の数値は、四半期の事業規模が弱まった一方、キャッシュ創出が改善したことを示します。顧客数と給付費用が重要な変動要因として残る中、同社の事業運営上の柔軟性は高まります。",
-          "what": "トライネットは、中小企業向けに給与計算・人事サービスと保険・福利厚生管理を組み合わせて提供しています。発表では、労働者数と四半期売上高の減少、保険コスト比率の低下、年初来の営業キャッシュフローの増加が報告されています。",
-          "why": "雇用主の需要、労働市場の状況、医療費や労災補償費用は、給与や福利厚生を通じて雇用主と従業員が受けるサービスの採算に直接影響します。",
-          "uncertainty": "発表では、労働者数の減少について十分に説明されていません。また、四半期の結果は、給付費用の計上時期、顧客構成、季節的な販売パターンの影響を受ける可能性があります。",
-          "watch": "次回の報告では、顧客数、専門サービス売上高、保険コスト、顧客維持率、営業キャッシュフローを確認します。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "報告された四半期売上高"
-            },
-            {
-              "id": "m2",
-              "label": "報告された四半期純利益"
-            },
-            {
-              "id": "m3",
-              "label": "報告された年初来営業キャッシュフロー"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "米連邦準備制度、経済活動が底堅い中で金融政策を引き締め的に維持",
-          "summary": "米連邦準備制度は政策金利のレンジを維持し、力強い経済活動、底堅い国内支出、堅調な設備投資、上昇したインフレ率について説明しました。",
-          "impact": "この姿勢はインフレ抑制を支えますが、家計、商業向け借り手、資本集約型企業にとって、資金調達環境は引き続き厳しい状態です。",
-          "what": "中央銀行は、経済活動が力強いペースで拡大し、生産性の伸びが強く、設備投資が堅調で、雇用者数の増加が労働力の増加に見合っていると述べました。また、インフレ率は高止まりしているとし、既存の政策金利の誘導目標レンジを維持しました。",
-          "why": "引き締め的な資金調達環境は、住宅、設備、データセンターなどへの借入コストと投資の要求収益率を押し上げます。一方、底堅い支出は需要に左右される企業を支えます。",
-          "uncertainty": "声明は、今後の政策判断が入ってくる情報次第になるとしていますが、その後の変更時期は示していません。",
-          "watch": "インフレ、雇用、個人消費、信用環境、今後の政策発信を確認します。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "報告された政策金利の上限"
-            }
-          ]
-        }
-      ]
-    },
-    "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
-      "marketSummary": {
-        "us": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "A ExxonMobil combina lucros fortes com necessidades substanciais de caixa para investimentos",
-          "summary": "A empresa integrada de energia reportou fortes lucros contábeis trimestrais e geração de caixa operacional, enquanto as operações de exploração e produção, refino e produtos químicos continuaram centrais para o desempenho.",
-          "impact": "O resultado apoia a continuidade dos investimentos e dos retornos de capital, mas a geração futura de caixa continua sensível aos preços das commodities, às margens de refino e aos gastos com projetos.",
-          "what": "A ExxonMobil produz petróleo e gás e vende combustíveis, produtos químicos e produtos especiais. A empresa atribui o desempenho operacional à produção, à utilização das refinarias, às margens e às medidas estruturais de redução de custos, enquanto suas tabelas de fluxo de caixa mostram a distinção entre lucro contábil, caixa operacional e caixa livre após investimentos.",
-          "why": "Os custos de energia afetam o transporte, a indústria e os orçamentos domésticos, enquanto o caixa operacional determina quanto a empresa pode investir, distribuir ou reter sem depender de financiamento adicional.",
-          "uncertainty": "O comunicado é reportado pela própria empresa, o fluxo de caixa livre é uma medida que não segue os princípios contábeis geralmente aceitos, e o fluxo de caixa futuro continua exposto aos preços das commodities, à manutenção, à execução de projetos e a interrupções geopolíticas.",
-          "watch": "Acompanhe o próximo relatório trimestral para verificar preços realizados, margens por segmento, gastos de capital, distribuições e se os retornos de capital planejados continuam sendo financiados pelo caixa operacional.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "lucros trimestrais reportados"
-            },
-            {
-              "id": "m2",
-              "label": "fluxo de caixa operacional trimestral reportado"
-            },
-            {
-              "id": "m3",
-              "label": "fluxo de caixa livre trimestral reportado"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "A TriNet reporta uma receita trimestral mais fraca, mas maior fluxo de caixa operacional no acumulado do ano",
-          "summary": "A fornecedora de serviços de folha de pagamento, recursos humanos e seguros empresariais reportou menor receita e menor lucro líquido trimestrais, junto com melhora no fluxo de caixa operacional acumulado no ano e no desempenho dos custos de seguros.",
-          "impact": "Os números mostram menor volume de negócios no trimestre, mas melhor geração de caixa, dando à empresa mais flexibilidade operacional enquanto a quantidade de clientes e os custos de benefícios continuam sendo variáveis importantes.",
-          "what": "A TriNet combina serviços de folha de pagamento e recursos humanos com administração de seguros e benefícios para empregadores de pequeno e médio porte. O comunicado informa menor quantidade de trabalhadores e menor receita trimestral, uma taxa de custos de seguros mais baixa e maior fluxo de caixa operacional acumulado no ano.",
-          "why": "A demanda dos empregadores, as condições do mercado de trabalho e os custos médicos ou de indenizações trabalhistas afetam diretamente a economia dos serviços recebidos por empregadores e funcionários por meio da folha de pagamento e dos benefícios.",
-          "uncertainty": "O comunicado não explica completamente a queda na quantidade de trabalhadores, e os resultados trimestrais podem ser afetados pelo momento dos custos de benefícios, pelo perfil dos clientes e pelos padrões sazonais de vendas.",
-          "watch": "Acompanhe a quantidade de clientes, a receita de serviços profissionais, os custos de seguros, a retenção e o fluxo de caixa operacional no próximo relatório.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "receita trimestral reportada"
-            },
-            {
-              "id": "m2",
-              "label": "lucro líquido trimestral reportado"
-            },
-            {
-              "id": "m3",
-              "label": "fluxo de caixa operacional acumulado no ano, reportado"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "O Federal Reserve mantém a política restritiva enquanto a atividade continua resiliente",
-          "summary": "O Federal Reserve manteve sua faixa de política monetária ao descrever atividade forte, consumo doméstico resiliente, investimento robusto em capital e inflação elevada.",
-          "impact": "A postura apoia o combate à inflação, mas mantém condições de financiamento restritivas para famílias, tomadores comerciais e empresas intensivas em capital.",
-          "what": "O banco central afirmou que a atividade econômica estava se expandindo em ritmo forte, que o crescimento da produtividade era forte, que o investimento em capital era robusto e que os ganhos de emprego acompanhavam o crescimento da força de trabalho. Também afirmou que a inflação permanecia elevada e manteve a faixa-alvo vigente.",
-          "why": "Condições restritivas de financiamento elevam os custos de empréstimos e a taxa mínima de retorno exigida para moradia, equipamentos, centros de dados e outros investimentos, mesmo enquanto o consumo resiliente apoia empresas sensíveis à demanda.",
-          "uncertainty": "O comunicado deixa as decisões futuras de política monetária dependentes das novas informações e não especifica o momento de qualquer mudança posterior.",
-          "watch": "Acompanhe a inflação, o emprego, os gastos dos consumidores, as condições de crédito e as comunicações posteriores de política monetária.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "limite superior reportado da taxa de política monetária"
+              "label": "鉱工業企業の利益の伸び率"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期已驗證內容有限。部分市場沒有已驗證的新故事；具日期的報告仍清楚標示為歷史資料。",
+      "status": "本期可驗證的報導有限。部分市場沒有已驗證的新消息；有日期的報告仍清楚標示。",
       "marketSummary": {
-        "us": "追蹤的兩個指數在最近已驗證的交易時段均下跌。具日期的收盤資料描述的是該交易時段，而非目前交易情況。",
-        "cn": "追蹤的兩個指數在最近已驗證的交易時段均下跌。具日期的收盤資料描述的是該交易時段，而非目前交易情況。"
+        "us": "部分收盤觀察無法驗證。每個可取得的指數都保留各自的交易日期。",
+        "cn": "追蹤的兩個指數在最新已驗證交易時段均下跌。有日期的收盤資料描述的是那些交易時段，而非目前交易情況。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "埃克森美孚以強勁獲利搭配可觀的投資現金需求",
-          "summary": "這家綜合能源公司公布強勁的季度會計獲利與營業現金流，同時上游、煉油及化學品業務仍是業績的核心。",
-          "impact": "這項結果支持持續投資與資本回饋，但未來現金生成仍容易受到商品價格、煉油利潤及專案支出的影響。",
-          "what": "埃克森美孚生產石油與天然氣，並銷售燃料、化學品及特種產品。該發行人表示，營運表現受到產量、煉油利用率、利潤及結構性成本措施影響；其現金流量表則顯示會計獲利、營業現金及投資後自由現金流之間的差異。",
-          "why": "能源成本會影響運輸、製造業及家庭預算，而營業現金則決定公司在不依賴額外融資的情況下，能投入、分配或保留多少資金。",
-          "uncertainty": "這份公告由發行人提供；自由現金流屬於非一般公認會計原則衡量指標，未來現金流仍受到商品價格、維護、專案執行及地緣政治干擾的影響。",
-          "watch": "留意下一份季度申報中的實現價格、部門利潤、資本支出、資本分配，以及計畫中的資本回饋是否持續由營業現金支應。",
+          "id": "f3",
+          "title": "工業利潤增長仍不均衡",
+          "summary": "官方數據顯示工業整體利潤有所增長，但製造業、資源業與公用事業之間的表現差異很大。",
+          "impact": "較強的盈利能力可支持領先產業的投資與供應商付款，而疲弱產業可能繼續抑制就業與資本支出。",
+          "what": "統計涵蓋大型採礦、製造及公用事業企業，並合併計算會計營收、成本與利潤。",
+          "why": "利潤增長可改善企業的財務能力，但不等同於經營現金流，也可能反映價格、產品組合與成本變化。",
+          "uncertainty": "該報告沒有提供合併經營現金流，而整體結果掩蓋了不同企業、產業與所有權群體之間的差異。",
+          "watch": "後續可觀察的證據包括應收帳款、存貨、利潤率，以及利潤增長是否擴大至電子業以外和更多資源生產商。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "已公布季度獲利"
+              "label": "工業營業收入"
             },
             {
               "id": "m2",
-              "label": "已公布季度營業現金流"
+              "label": "工業利潤總額"
             },
             {
               "id": "m3",
-              "label": "已公布季度自由現金流"
+              "label": "工業利潤增長"
             }
           ]
-        },
+        }
+      ]
+    },
+    "pt": {
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas histórias verificadas; relatórios datados continuam claramente identificados.",
+      "marketSummary": {
+        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Os índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+      },
+      "stories": [
         {
-          "id": "f2",
-          "title": "TriNet 公布季度營收較疲弱，但今年迄今營業現金流增加",
-          "summary": "這家薪資、人力資源及雇主保險服務商公布季度營收與淨利下降，但今年迄今營業現金流改善，保險成本表現也有所提升。",
-          "impact": "這些數據顯示季度業務量較弱，但現金生成能力改善，讓公司具備更多營運彈性；客戶數量與福利成本仍是重要變數。",
-          "what": "TriNet 將薪資與人力資源服務，結合保險及福利管理，服務中小型雇主。公告指出，員工人數與季度營收下降，保險成本率降低，而今年迄今營業現金流增加。",
-          "why": "雇主需求、勞動市場狀況，以及醫療或工傷賠償成本，會直接影響雇主與員工透過薪資及福利所感受到的服務經濟效益。",
-          "uncertainty": "公告未充分說明員工人數下降的原因；季度業績也可能受到福利成本認列時點、客戶組合及季節性銷售模式影響。",
-          "watch": "留意下一份申報中的客戶數量、專業服務營收、保險成本、客戶留存率及營業現金流。",
+          "id": "f3",
+          "title": "O crescimento dos lucros industriais continuou desigual",
+          "summary": "Dados oficiais mostraram crescimento agregado dos lucros industriais, mas o desempenho divergiu amplamente entre os setores de manufatura, recursos naturais e serviços públicos.",
+          "impact": "Uma lucratividade mais forte pode apoiar investimentos e pagamentos a fornecedores nos setores líderes, enquanto os setores mais fracos podem continuar limitando o emprego e os gastos de capital.",
+          "what": "As estatísticas abrangem grandes empresas de mineração, manufatura e serviços públicos, combinando receita, custos e lucro contábeis.",
+          "why": "O crescimento dos lucros pode melhorar a capacidade financeira das empresas, mas não equivale ao fluxo de caixa operacional e pode refletir mudanças nos preços, no mix de produtos e nos custos.",
+          "uncertainty": "O comunicado não apresenta o fluxo de caixa operacional consolidado, e os resultados agregados ocultam diferenças entre empresas, setores e grupos de propriedade.",
+          "watch": "As próximas evidências incluem contas a receber, estoques, margens e a possibilidade de os ganhos se ampliarem para além da eletrônica e de alguns produtores de recursos naturais.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "已公布季度營收"
+              "label": "Receita operacional industrial"
             },
             {
               "id": "m2",
-              "label": "已公布季度淨利"
+              "label": "Lucro total industrial"
             },
             {
               "id": "m3",
-              "label": "已公布今年迄今營業現金流"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "聯準會在經濟活動保持韌性之際維持限制性政策",
-          "summary": "聯準會維持政策利率區間，同時表示經濟活動強勁、國內支出具韌性、資本投資穩健，且通膨仍處於高檔。",
-          "impact": "這項立場有助於抑制通膨，但也讓家庭、商業借款人及資本密集型企業持續面臨緊縮的融資條件。",
-          "what": "央行表示，經濟活動正以強勁速度擴張，生產力成長強勁、資本投資穩健，就業增加與勞動力成長保持同步。央行也表示通膨仍處於高檔，並維持現行目標區間。",
-          "why": "限制性的融資條件會提高借款成本，以及住宅、設備、資料中心及其他投資的門檻報酬率；即使支出具韌性，仍能支持對需求敏感的企業。",
-          "uncertainty": "聲明表示，未來政策決定將取決於後續取得的資訊，但未說明日後任何調整的時間。",
-          "watch": "留意通膨、就業、消費支出、信貸條件及後續政策溝通。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "已公布政策利率上限"
+              "label": "Crescimento do lucro industrial"
             }
           ]
         }
