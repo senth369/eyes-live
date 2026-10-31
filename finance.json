@@ -1,48 +1,48 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-10-31T01:35:37.085Z",
-  "generatedAt": "2026-10-31T01:39:19.441Z",
+  "cutoffAt": "2026-10-31T10:23:17.867Z",
+  "generatedAt": "2026-10-31T10:28:13.928Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Mastercard third-quarter earnings release",
-      "url": "https://investor.mastercard.com/files/content_files/3Q26-Mastercard-Earnings-Release.pdf"
+      "label": "Chevron SEC earnings exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/a09302026ex9918-k.htm"
     },
     {
       "id": "src2",
-      "label": "Illumina third-quarter earnings release",
-      "url": "https://investor.illumina.com/static-files/425680f5-fad9-4b9e-af2b-d863bdaa9ac9"
+      "label": "Quanta Services earnings release",
+      "url": "https://investors.quantaservices.com/_assets/_01c9c3f1ac58364ad0eaebaeeddaa06e/quantaservices/news/2026-10-29_QUANTA_SERVICES_REPORTS_THIRD_QUARTER_2026_407.pdf"
     },
     {
       "id": "src3",
-      "label": "China industrial enterprise profits release",
-      "url": "https://www.stats.gov.cn//sj/zxfb/202610/t20261027_1965697.html"
+      "label": "Exelon earnings release",
+      "url": "https://exeloncorporation.gcs-web.com/static-files/040f9e43-facc-4747-bd2f-c223047caf70"
     },
     {
       "id": "src4",
-      "label": "China cultural enterprise revenue release",
-      "url": "https://www.stats.gov.cn//sj/zxfb/202610/t20261030_1965708.html"
+      "label": "Gujing Liquor quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642369.PDF"
     },
     {
       "id": "src5",
-      "label": "S&P five hundred closing report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
+      "label": "China National Bureau of Statistics economic release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html"
     },
     {
       "id": "src6",
-      "label": "Nasdaq Composite FRED data",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "Associated Press US market close",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
     },
     {
       "id": "src7",
-      "label": "SSE Composite historical data",
+      "label": "Shanghai Composite historical data",
       "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src8",
-      "label": "CSI three hundred historical data",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "CSI Three Hundred historical data",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
     }
   ],
   "markets": [
@@ -53,11 +53,21 @@
       "previousClose": 7720.39,
       "changePercent": -1.8175,
       "sourceIds": [
-        "src5"
+        "src6"
       ]
     },
     {
       "id": "nasdaq",
+      "sessionDate": "2026-10-30",
+      "close": 25437,
+      "previousClose": 26184.73,
+      "changePercent": -2.8556,
+      "sourceIds": [
+        "src6"
+      ]
+    },
+    {
+      "id": "sse",
       "sessionDate": null,
       "close": null,
       "previousClose": null,
@@ -65,21 +75,11 @@
       "sourceIds": []
     },
     {
-      "id": "sse",
-      "sessionDate": "2026-10-30",
-      "close": 3599.02,
-      "previousClose": 3651.43,
-      "changePercent": -1.44,
-      "sourceIds": [
-        "src7"
-      ]
-    },
-    {
       "id": "csi300",
       "sessionDate": "2026-10-30",
       "close": 3985.5,
       "previousClose": 4041.84,
-      "changePercent": -1.39,
+      "changePercent": -1.3939,
       "sourceIds": [
         "src8"
       ]
@@ -87,285 +87,1244 @@
   ],
   "stories": [
     {
+      "id": "f1",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-10-30",
+      "company": {
+        "name": "Chevron Corporation",
+        "ticker": "CVX",
+        "exchange": "NYSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 9924000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "GAAP earnings in the earnings and cash flow summary table."
+        },
+        {
+          "id": "m2",
+          "value": 16014000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Net cash provided by operating activities in the cash flow reconciliation."
+        },
+        {
+          "id": "m3",
+          "value": 10361000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Adjusted earnings in the earnings and cash flow summary table."
+        },
+        {
+          "id": "m4",
+          "value": 17.7,
+          "unit": "percent",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Return on capital employed in the release highlights."
+        }
+      ],
+      "sourceIds": [
+        "src1"
+      ],
+      "evidence": "The release reports quarterly earnings, operating cash generation, adjusted earnings and return on capital employed, with refining margins, crude realizations and refinery throughput discussed in the operating review."
+    },
+    {
+      "id": "f2",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-10-29",
+      "company": {
+        "name": "Quanta Services",
+        "ticker": "PWR",
+        "exchange": "NYSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 12014877000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Quarterly consolidated revenue in the consolidated statements of operations."
+        },
+        {
+          "id": "m2",
+          "value": 694859000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Quarterly GAAP net income attributable to common stock in the release."
+        },
+        {
+          "id": "m3",
+          "value": 1453741000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Quarterly net cash provided by operating activities in the cash flow statements."
+        },
+        {
+          "id": "m4",
+          "value": 41300000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Low end of the updated annual revenue outlook."
+        },
+        {
+          "id": "m5",
+          "value": 41600000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "High end of the updated annual revenue outlook."
+        }
+      ],
+      "sourceIds": [
+        "src2"
+      ],
+      "evidence": "The infrastructure contractor reports quarterly revenue, GAAP earnings, operating cash flow, a higher annual outlook, record backlog and remaining performance obligations."
+    },
+    {
       "id": "f3",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-10-30",
+      "company": {
+        "name": "Exelon Corporation",
+        "ticker": "EXC",
+        "exchange": "Nasdaq"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 729000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Quarterly GAAP net income in the earnings reconciliation."
+        },
+        {
+          "id": "m2",
+          "value": 897000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Quarterly adjusted operating earnings in the earnings reconciliation."
+        },
+        {
+          "id": "m3",
+          "value": 0.87,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Adjusted operating earnings per diluted share in the release highlights."
+        },
+        {
+          "id": "m4",
+          "value": 2.85,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Low end of the narrowed annual adjusted operating earnings guidance."
+        },
+        {
+          "id": "m5",
+          "value": 2.91,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "High end of the narrowed annual adjusted operating earnings guidance."
+        }
+      ],
+      "sourceIds": [
+        "src3"
+      ],
+      "evidence": "The utility holding company reports GAAP and adjusted earnings, narrowed annual guidance, regulatory progress, completed debt financing and storm-related effects."
+    },
+    {
+      "id": "f5",
       "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-10-27",
+      "publishedOn": "2026-10-19",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 106206600000000,
+          "value": 107107100000000,
           "unit": "CNY",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src3"
+            "src5"
           ],
-          "evidence": "The official financial-indicators table reports cumulative operating revenue for industrial enterprises above the designated size."
+          "evidence": "Cumulative gross domestic product in the national accounts table."
         },
         {
           "id": "m2",
-          "value": 6033740000000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src3"
-          ],
-          "evidence": "The release opening statement and table report cumulative total profit."
-        },
-        {
-          "id": "m3",
-          "value": 15.5,
+          "value": 4.6,
           "unit": "percent",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-09-30",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src3"
+            "src5"
           ],
-          "evidence": "The release reports comparable cumulative profit growth."
+          "evidence": "Real year-on-year cumulative gross domestic product growth in the national accounts table."
+        },
+        {
+          "id": "m3",
+          "value": 37000100000000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Cumulative retail sales of consumer goods in the official statistical table."
+        },
+        {
+          "id": "m4",
+          "value": 1.1,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Year-on-year cumulative retail sales growth in the official statistical table."
+        },
+        {
+          "id": "m5",
+          "value": -7.2,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Year-on-year fixed-asset investment change excluding rural households in the official statistical table."
         }
       ],
       "sourceIds": [
-        "src3"
+        "src5"
       ],
-      "evidence": "Official data show aggregate industrial profit growth, with especially strong results in electronics and selected materials, while automobiles, utilities and several metals-related industries weakened."
+      "evidence": "The official release describes stable aggregate growth, stronger industrial and high-technology output, restrained retail growth, weak fixed-asset investment and insufficient domestic demand."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "Industrial profit growth remained uneven",
-          "summary": "Official data showed aggregate industrial profit growth, but performance diverged widely among manufacturing, resource and utility industries.",
-          "impact": "Stronger profitability can support investment and supplier payments in leading sectors, while weak industries may continue to restrain employment and capital spending.",
-          "what": "The statistics cover large mining, manufacturing and utility enterprises and combine accounting revenue, costs and profit.",
-          "why": "Profit growth can improve corporate financial capacity, but it is not the same as operating cash flow and can reflect prices, product mix and cost changes.",
-          "uncertainty": "The release provides no consolidated operating cash flow and aggregate results conceal differences among firms, industries and ownership groups.",
-          "watch": "Next evidence includes receivables, inventories, margins and whether gains broaden beyond electronics and selected resource producers.",
+          "id": "f1",
+          "title": "Earnings explainer: Chevron reports stronger energy cash generation",
+          "summary": "Chevron’s latest report showed higher earnings supported by refining margins and crude realizations.",
+          "impact": "The result indicates substantial cash capacity for debt reduction, distributions and upstream investment, while commodity and operating exposure remain important.",
+          "what": "The integrated energy company produces oil and gas, refines crude and sells fuels and chemicals; its release presents accounting earnings separately from operating cash flow.",
+          "why": "Stronger refining margins and crude realizations can improve cash available for investment and capital returns, but weaker commodity conditions could reverse the benefit.",
+          "uncertainty": "The release identifies special items, foreign exchange effects, timing effects and exposure to commodity prices and operating disruptions.",
+          "watch": "Watch production, refining margins, debt balances and operating cash flow.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Industrial operating revenue"
+              "label": "GAAP earnings"
             },
             {
               "id": "m2",
-              "label": "Industrial total profit"
+              "label": "Operating cash flow"
             },
             {
               "id": "m3",
-              "label": "Industrial profit growth"
+              "label": "Adjusted earnings"
+            },
+            {
+              "id": "m4",
+              "label": "Return on capital employed"
             }
           ]
-        }
-      ]
-    },
-    "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne disposent d’aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
-      "marketSummary": {
-        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
-      },
-      "stories": [
+        },
         {
-          "id": "f3",
-          "title": "La croissance des bénéfices industriels est restée inégale",
-          "summary": "Les données officielles montrent une croissance globale des bénéfices industriels, mais les résultats varient fortement entre les secteurs manufacturier, des ressources et des services publics.",
-          "impact": "Une rentabilité plus solide peut soutenir l’investissement et les paiements aux fournisseurs dans les secteurs les plus performants, tandis que les secteurs fragiles pourraient continuer à peser sur l’emploi et les dépenses d’investissement.",
-          "what": "Les statistiques couvrent les grandes entreprises minières, manufacturières et de services publics. Elles regroupent le chiffre d’affaires comptable, les coûts et les bénéfices.",
-          "why": "La croissance des bénéfices peut renforcer la capacité financière des entreprises, mais elle ne correspond pas à la même chose que les flux de trésorerie liés à l’exploitation et peut refléter les variations des prix, de la composition des produits et des coûts.",
-          "uncertainty": "La publication ne fournit pas de flux de trésorerie liés à l’exploitation consolidés, et les résultats globaux masquent les écarts entre les entreprises, les secteurs et les groupes de propriété.",
-          "watch": "Les prochains éléments à surveiller comprennent les créances clients, les stocks, les marges et la question de savoir si les gains s’étendent au-delà de l’électronique et de certains producteurs de ressources.",
+          "id": "f2",
+          "title": "Earnings explainer: Quanta raises its infrastructure outlook",
+          "summary": "Quanta reported strong demand across utility, power, industrial and technology infrastructure work.",
+          "impact": "A larger backlog and higher outlook point to sustained construction demand, while execution and financing determine how revenue converts into cash.",
+          "what": "The contractor builds and maintains electric grids, power facilities and related infrastructure, and reports both GAAP earnings and operating cash flow.",
+          "why": "Grid expansion and data-center power needs can support employment, supplier orders and capital spending, while project timing affects margins and cash conversion.",
+          "uncertainty": "Weather, permitting, regulation, supply chains, acquisitions and interest rates can delay projects or change returns.",
+          "watch": "Watch backlog conversion, operating cash flow, acquisition integration and the next outlook update.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires d’exploitation industriel"
+              "label": "Quarterly revenue"
             },
             {
               "id": "m2",
-              "label": "Bénéfice total de l’industrie"
+              "label": "Quarterly GAAP net income"
             },
             {
               "id": "m3",
-              "label": "Croissance des bénéfices industriels"
+              "label": "Quarterly operating cash flow"
+            },
+            {
+              "id": "m4",
+              "label": "Low end of revenue outlook"
+            },
+            {
+              "id": "m5",
+              "label": "High end of revenue outlook"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Earnings explainer: Exelon narrows its utility earnings range",
+          "summary": "Exelon’s adjusted operating result improved modestly even as reported GAAP earnings declined.",
+          "impact": "The update reflects continued grid investment and regulatory progress, while storm effects and financing costs remain pressure points for profitability and cash needs.",
+          "what": "The company owns regulated electric and gas utilities whose earnings depend heavily on approved rate recovery, reliability investment, weather and operating costs.",
+          "why": "Rate-base investment can support grid modernization and reliability, while storm spending and financing costs can reduce near-term earnings and cash available for other uses.",
+          "uncertainty": "Adjusted earnings exclude specified items, and the reviewed release provides operating cash flow for the year-to-date period rather than the quarter alone.",
+          "watch": "Watch rate-case decisions, storm costs, capital spending, debt funding and cash flow in the filing.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "GAAP net income"
+            },
+            {
+              "id": "m2",
+              "label": "Adjusted operating earnings"
+            },
+            {
+              "id": "m3",
+              "label": "Adjusted earnings per share"
+            },
+            {
+              "id": "m4",
+              "label": "Low end of earnings guidance"
+            },
+            {
+              "id": "m5",
+              "label": "High end of earnings guidance"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "China macro explainer: growth remains steady while domestic demand lags",
+          "summary": "Official data show continued aggregate growth alongside restrained consumption and weak fixed-asset investment.",
+          "impact": "The mix supports industrial activity more clearly than broad consumer or property recovery, leaving the revenue outlook uneven across businesses.",
+          "what": "The national release combines output, retail sales, investment, prices, employment and income measures rather than describing a single market event.",
+          "why": "Stable production can support supplier activity and employment, but restrained consumption and weak investment limit broad-based revenue growth.",
+          "uncertainty": "The data are preliminary, growth measures use different price bases, and the statistical authority says domestic demand remains insufficient.",
+          "watch": "Watch subsequent retail sales, property activity, private investment, prices and company guidance.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Cumulative gross domestic product"
+            },
+            {
+              "id": "m2",
+              "label": "Gross domestic product year-on-year growth"
+            },
+            {
+              "id": "m3",
+              "label": "Cumulative retail sales"
+            },
+            {
+              "id": "m4",
+              "label": "Retail sales year-on-year growth"
+            },
+            {
+              "id": "m5",
+              "label": "Fixed-asset investment year-on-year change"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的覆盖范围有限。部分市场没有经核实的新消息；有日期的报告仍会明确标注。",
+      "status": "本期涵盖美国和中国的最新动态。请核对每篇内容的发布日期；近期公司报告作为背景解读呈现。",
       "marketSummary": {
-        "us": "部分收盘情况无法核实。每个可用指数均保留其自身的交易日期。",
-        "cn": "所跟踪指数在最近经核实的交易时段均下跌。有日期的收盘数据仅描述相应交易时段，不代表当前交易情况。"
+        "us": "所跟踪的两项指数在最近已核实的交易时段均下跌。标注日期的收盘数据对应这些交易时段，不代表当前交易情况。",
+        "cn": "部分收盘观察结果无法核实。每项可用指数均保留其自身的交易日期。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "工业利润增长仍不均衡",
-          "summary": "官方数据显示，工业利润总额有所增长，但制造业、资源行业和公用事业之间的表现差异很大。",
-          "impact": "盈利能力较强的行业可以支持投资和供应商付款，而表现疲弱的行业可能继续限制就业和资本支出。",
-          "what": "这些统计涵盖大型采矿、制造和公用事业企业，并综合了会计口径的营收、成本和利润。",
-          "why": "利润增长可以改善企业的财务能力，但不等同于经营现金流，也可能受到价格、产品结构和成本变化的影响。",
-          "uncertainty": "该报告没有提供合并口径的经营现金流，整体结果也掩盖了不同企业、行业和所有制群体之间的差异。",
-          "watch": "后续可关注应收账款、库存、利润率，以及利润增长是否扩展到电子行业以外和更多资源生产商。",
+          "id": "f1",
+          "title": "财报解读：雪佛龙的能源现金创造能力增强",
+          "summary": "雪佛龙最新报告显示，炼油利润率和原油实现价格改善，推动盈利提高。",
+          "impact": "这一结果表明，公司拥有较强现金能力，可用于减少债务、向股东分配以及上游投资；但大宗商品价格和运营风险仍然重要。",
+          "what": "这家综合能源公司从事油气生产、原油炼制以及燃料和化学品销售；其公告将会计口径盈利与经营现金流分开列示。",
+          "why": "更高的炼油利润率和原油实现价格可以增加可用于投资和资本回报的现金，但大宗商品环境转弱可能逆转这一好处。",
+          "uncertainty": "公告指出，公司面临特殊项目、汇率影响、时间因素以及大宗商品价格和运营中断风险。",
+          "watch": "关注产量、炼油利润率、债务余额和经营现金流。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "工业营业收入"
+              "label": "美国通用会计准则盈利"
             },
             {
               "id": "m2",
-              "label": "工业利润总额"
+              "label": "经营现金流"
             },
             {
               "id": "m3",
-              "label": "工业利润增速"
+              "label": "调整后盈利"
+            },
+            {
+              "id": "m4",
+              "label": "投入资本回报率"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "财报解读：Quanta上调基础设施前景",
+          "summary": "Quanta表示，公用事业、电力、工业和科技基础设施业务的需求均较为强劲。",
+          "impact": "积压订单增加和前景改善指向持续的建设需求，但执行情况和融资状况将决定营收如何转化为现金。",
+          "what": "这家承包商建设和维护电网、发电设施及相关基础设施，同时披露美国通用会计准则盈利和经营现金流。",
+          "why": "电网扩建和数据中心的电力需求可以支持就业、供应商订单和资本支出，但项目时点会影响利润率和现金转化。",
+          "uncertainty": "天气、许可、监管、供应链、收购和利率都可能推迟项目或改变回报。",
+          "watch": "关注积压订单转化、经营现金流、收购整合以及下一次前景更新。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度营收"
+            },
+            {
+              "id": "m2",
+              "label": "季度美国通用会计准则净利润"
+            },
+            {
+              "id": "m3",
+              "label": "季度经营现金流"
+            },
+            {
+              "id": "m4",
+              "label": "营收指引下限"
+            },
+            {
+              "id": "m5",
+              "label": "营收指引上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "财报解读：Exelon收窄公用事业盈利区间",
+          "summary": "Exelon的调整后经营业绩小幅改善，但报告口径的美国通用会计准则盈利下降。",
+          "impact": "这一更新反映出电网投资和监管进展持续推进，但风暴影响和融资成本仍是盈利能力与现金需求的压力来源。",
+          "what": "该公司拥有受监管的电力和燃气公用事业，其盈利高度取决于获批的费率回收、可靠性投资、天气和运营成本。",
+          "why": "费率基数投资可以支持电网现代化和可靠性，而风暴支出和融资成本可能减少短期盈利以及可用于其他用途的现金。",
+          "uncertainty": "调整后盈利不包括特定项目；经审阅的公告提供的是年初至今期间的经营现金流，而非仅一个季度的数据。",
+          "watch": "关注费率案件决定、风暴成本、资本支出、债务融资以及申报文件中的现金流。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "美国通用会计准则净利润"
+            },
+            {
+              "id": "m2",
+              "label": "调整后经营盈利"
+            },
+            {
+              "id": "m3",
+              "label": "调整后每股盈利"
+            },
+            {
+              "id": "m4",
+              "label": "盈利指引下限"
+            },
+            {
+              "id": "m5",
+              "label": "盈利指引上限"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "中国宏观解读：增长保持稳定，但内需仍然滞后",
+          "summary": "官方数据显示，总体经济持续增长，同时消费受到抑制，固定资产投资疲弱。",
+          "impact": "这一结构对工业活动的支持比对广泛消费或房地产复苏的支持更加明确，使不同企业的营收前景出现分化。",
+          "what": "这份国家层面的公告综合了产出、零售销售、投资、价格、就业和收入指标，而不是描述单一市场事件。",
+          "why": "生产保持稳定可以支持供应商活动和就业，但消费受到抑制、投资疲弱，限制了广泛的营收增长。",
+          "uncertainty": "数据为初步数据，增长指标采用不同的价格基础；统计部门表示内需仍然不足。",
+          "watch": "关注后续零售销售、房地产活动、民间投资、价格以及公司指引。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "累计国内生产总值"
+            },
+            {
+              "id": "m2",
+              "label": "国内生产总值同比增速"
+            },
+            {
+              "id": "m3",
+              "label": "累计零售销售额"
+            },
+            {
+              "id": "m4",
+              "label": "零售销售额同比增速"
+            },
+            {
+              "id": "m5",
+              "label": "固定资产投资同比变动"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
+      "marketSummary": {
+        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "Explication des résultats : Chevron affiche une génération de trésorerie énergétique plus solide",
+          "summary": "Le dernier rapport de Chevron fait état d’une hausse des bénéfices, soutenue par les marges de raffinage et les prix réalisés du pétrole brut.",
+          "impact": "Le résultat indique une capacité importante à générer de la trésorerie pour réduire la dette, effectuer des distributions et investir dans les activités de production, tandis que l’exposition aux matières premières et aux risques opérationnels reste importante.",
+          "what": "Cette entreprise énergétique intégrée produit du pétrole et du gaz, raffine le pétrole brut et vend des carburants et des produits chimiques ; sa publication présente séparément les bénéfices comptables et les flux de trésorerie liés aux activités opérationnelles.",
+          "why": "De meilleures marges de raffinage et de meilleurs prix réalisés du pétrole brut peuvent accroître la trésorerie disponible pour les investissements et les retours aux actionnaires, mais une dégradation des conditions sur les matières premières pourrait inverser cet effet.",
+          "uncertainty": "La publication mentionne les éléments exceptionnels, les effets de change, les effets de calendrier ainsi que l’exposition aux prix des matières premières et aux perturbations opérationnelles.",
+          "watch": "Surveillez la production, les marges de raffinage, les soldes de dette et les flux de trésorerie liés aux activités opérationnelles.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Bénéfice selon les normes GAAP"
+            },
+            {
+              "id": "m2",
+              "label": "Flux de trésorerie liés aux activités opérationnelles"
+            },
+            {
+              "id": "m3",
+              "label": "Bénéfice ajusté"
+            },
+            {
+              "id": "m4",
+              "label": "Rentabilité des capitaux employés"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Explication des résultats : Quanta relève ses perspectives dans les infrastructures",
+          "summary": "Quanta a fait état d’une forte demande dans les travaux liés aux services publics, à l’électricité, à l’industrie et aux infrastructures technologiques.",
+          "impact": "Un carnet de commandes plus important et des perspectives relevées indiquent une demande soutenue dans la construction, tandis que l’exécution des projets et leur financement déterminent la conversion du chiffre d’affaires en trésorerie.",
+          "what": "L’entreprise construit et entretient les réseaux électriques, les installations de production d’électricité et les infrastructures associées, et publie à la fois ses bénéfices GAAP et ses flux de trésorerie liés aux activités opérationnelles.",
+          "why": "L’expansion des réseaux et les besoins en électricité des centres de données peuvent soutenir l’emploi, les commandes auprès des fournisseurs et les dépenses d’investissement, tandis que le calendrier des projets influence les marges et la conversion en trésorerie.",
+          "uncertainty": "Les conditions météorologiques, les autorisations, la réglementation, les chaînes d’approvisionnement, les acquisitions et les taux d’intérêt peuvent retarder les projets ou modifier leur rentabilité.",
+          "watch": "Surveillez la conversion du carnet de commandes, les flux de trésorerie liés aux activités opérationnelles, l’intégration des acquisitions et la prochaine mise à jour des perspectives.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires trimestriel"
+            },
+            {
+              "id": "m2",
+              "label": "Résultat net GAAP trimestriel"
+            },
+            {
+              "id": "m3",
+              "label": "Flux de trésorerie trimestriels liés aux activités opérationnelles"
+            },
+            {
+              "id": "m4",
+              "label": "Borne basse des perspectives de chiffre d’affaires"
+            },
+            {
+              "id": "m5",
+              "label": "Borne haute des perspectives de chiffre d’affaires"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Explication des résultats : Exelon resserre sa fourchette de bénéfices dans les services publics",
+          "summary": "Le résultat opérationnel ajusté d’Exelon s’est légèrement amélioré, tandis que le bénéfice GAAP publié a reculé.",
+          "impact": "Cette mise à jour reflète la poursuite des investissements dans les réseaux et les progrès réglementaires, tandis que les effets des tempêtes et les coûts de financement restent des facteurs de pression sur la rentabilité et les besoins de trésorerie.",
+          "what": "L’entreprise possède des services publics réglementés d’électricité et de gaz, dont les bénéfices dépendent fortement de la récupération des coûts autorisée par les tarifs, des investissements de fiabilité, des conditions météorologiques et des coûts opérationnels.",
+          "why": "Les investissements dans la base tarifaire peuvent soutenir la modernisation et la fiabilité des réseaux, tandis que les dépenses liées aux tempêtes et les coûts de financement peuvent réduire les bénéfices à court terme et la trésorerie disponible pour d’autres usages.",
+          "uncertainty": "Les bénéfices ajustés excluent certains éléments précisés, et la publication examinée fournit les flux de trésorerie liés aux activités opérationnelles pour la période depuis le début de l’exercice, plutôt que pour le trimestre seul.",
+          "watch": "Surveillez les décisions relatives aux tarifs, les coûts liés aux tempêtes, les dépenses d’investissement, le financement de la dette et les flux de trésorerie dans le document réglementaire.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Résultat net GAAP"
+            },
+            {
+              "id": "m2",
+              "label": "Résultat opérationnel ajusté"
+            },
+            {
+              "id": "m3",
+              "label": "Bénéfice ajusté par action"
+            },
+            {
+              "id": "m4",
+              "label": "Borne basse des prévisions de bénéfices"
+            },
+            {
+              "id": "m5",
+              "label": "Borne haute des prévisions de bénéfices"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Explication macroéconomique de la Chine : la croissance reste stable, tandis que la demande intérieure accuse du retard",
+          "summary": "Les données officielles montrent une croissance globale persistante, associée à une consommation modérée et à un investissement en actifs fixes faible.",
+          "impact": "Cette combinaison soutient plus clairement l’activité industrielle qu’une reprise généralisée de la consommation ou de l’immobilier, ce qui rend les perspectives de chiffre d’affaires inégales selon les entreprises.",
+          "what": "La publication nationale rassemble des indicateurs de production, de ventes au détail, d’investissement, de prix, d’emploi et de revenus, plutôt que de décrire un événement de marché isolé.",
+          "why": "Une production stable peut soutenir l’activité des fournisseurs et l’emploi, mais une consommation modérée et un investissement faible limitent la croissance généralisée du chiffre d’affaires.",
+          "uncertainty": "Les données sont préliminaires, les mesures de croissance reposent sur des bases de prix différentes, et l’autorité statistique indique que la demande intérieure reste insuffisante.",
+          "watch": "Surveillez les prochaines données sur les ventes au détail, l’activité immobilière, l’investissement privé, les prix et les perspectives des entreprises.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Produit intérieur brut cumulé"
+            },
+            {
+              "id": "m2",
+              "label": "Croissance du produit intérieur brut sur un an"
+            },
+            {
+              "id": "m3",
+              "label": "Ventes au détail cumulées"
+            },
+            {
+              "id": "m4",
+              "label": "Croissance des ventes au détail sur un an"
+            },
+            {
+              "id": "m5",
+              "label": "Variation de l’investissement en actifs fixes sur un an"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes fechados siguen claramente identificados.",
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Compruebe la fecha de publicación de cada artículo; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunas observaciones de cierre. Cada índice disponible conserva su propia fecha de negociación.",
-        "cn": "Ambos índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la negociación actual."
+        "us": "Ambos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
+        "cn": "No se pudieron verificar algunas observaciones de cierre. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "El crecimiento de los beneficios industriales siguió siendo desigual",
-          "summary": "Los datos oficiales mostraron un crecimiento agregado de los beneficios industriales, pero el desempeño varió ampliamente entre las industrias manufactureras, de recursos y de servicios públicos.",
-          "impact": "Una rentabilidad más sólida puede respaldar la inversión y los pagos a proveedores en los sectores líderes, mientras que las industrias débiles podrían seguir frenando el empleo y el gasto de capital.",
-          "what": "Las estadísticas cubren grandes empresas mineras, manufactureras y de servicios públicos, y combinan ingresos contables, costos y beneficios.",
-          "why": "El crecimiento de los beneficios puede mejorar la capacidad financiera de las empresas, pero no equivale al flujo de caja operativo y puede reflejar cambios en los precios, la combinación de productos y los costos.",
-          "uncertainty": "El informe no proporciona un flujo de caja operativo consolidado, y los resultados agregados ocultan diferencias entre empresas, industrias y grupos de propiedad.",
-          "watch": "Las próximas evidencias incluyen las cuentas por cobrar, los inventarios, los márgenes y si las mejoras se extienden más allá de la electrónica y de determinados productores de recursos.",
+          "id": "f1",
+          "title": "Explicación de resultados: Chevron informa de una mayor generación de efectivo en energía",
+          "summary": "El informe más reciente de Chevron mostró mayores ganancias, respaldadas por los márgenes de refinación y los precios obtenidos por el crudo.",
+          "impact": "El resultado indica una capacidad considerable de efectivo para reducir deuda, hacer distribuciones e invertir en producción, aunque la exposición a las materias primas y a las operaciones sigue siendo importante.",
+          "what": "La empresa integrada de energía produce petróleo y gas, refina crudo y vende combustibles y productos químicos; su comunicado presenta por separado las ganancias contables y el flujo de efectivo operativo.",
+          "why": "Unos márgenes de refinación y precios del crudo más sólidos pueden mejorar el efectivo disponible para inversión y retornos de capital, pero un debilitamiento de las materias primas podría revertir el beneficio.",
+          "uncertainty": "El comunicado identifica partidas especiales, efectos cambiarios, efectos de calendario y exposición a los precios de las materias primas y a interrupciones operativas.",
+          "watch": "Vigile la producción, los márgenes de refinación, los saldos de deuda y el flujo de efectivo operativo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos operativos industriales"
+              "label": "Ganancias según los PCGA"
             },
             {
               "id": "m2",
-              "label": "Beneficio industrial total"
+              "label": "Flujo de efectivo operativo"
             },
             {
               "id": "m3",
-              "label": "Crecimiento del beneficio industrial"
+              "label": "Ganancias ajustadas"
+            },
+            {
+              "id": "m4",
+              "label": "Rendimiento del capital empleado"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Explicación de resultados: Quanta eleva sus perspectivas de infraestructura",
+          "summary": "Quanta informó de una fuerte demanda en trabajos de servicios públicos, energía, industria e infraestructura tecnológica.",
+          "impact": "Una cartera de pedidos más grande y unas perspectivas más altas apuntan a una demanda sostenida de construcción, mientras que la ejecución y la financiación determinan cómo se convierte la facturación en efectivo.",
+          "what": "El contratista construye y mantiene redes eléctricas, instalaciones energéticas e infraestructura relacionada, y presenta tanto ganancias según los PCGA como flujo de efectivo operativo.",
+          "why": "La expansión de la red y las necesidades energéticas de los centros de datos pueden respaldar el empleo, los pedidos a proveedores y el gasto de capital, mientras que el calendario de los proyectos afecta a los márgenes y la conversión en efectivo.",
+          "uncertainty": "El clima, los permisos, la regulación, las cadenas de suministro, las adquisiciones y las tasas de interés pueden retrasar proyectos o cambiar los rendimientos.",
+          "watch": "Vigile la conversión de la cartera de pedidos, el flujo de efectivo operativo, la integración de adquisiciones y la próxima actualización de perspectivas.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos trimestrales"
+            },
+            {
+              "id": "m2",
+              "label": "Utilidad neta trimestral según los PCGA"
+            },
+            {
+              "id": "m3",
+              "label": "Flujo de efectivo operativo trimestral"
+            },
+            {
+              "id": "m4",
+              "label": "Límite inferior de las perspectivas de ingresos"
+            },
+            {
+              "id": "m5",
+              "label": "Límite superior de las perspectivas de ingresos"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Explicación de resultados: Exelon estrecha su rango de ganancias de servicios públicos",
+          "summary": "El resultado operativo ajustado de Exelon mejoró modestamente, aunque las ganancias declaradas según los PCGA disminuyeron.",
+          "impact": "La actualización refleja la continuidad de la inversión en redes y los avances regulatorios, mientras que los efectos de las tormentas y los costos de financiación siguen presionando la rentabilidad y las necesidades de efectivo.",
+          "what": "La empresa posee servicios públicos regulados de electricidad y gas, cuyas ganancias dependen en gran medida de la recuperación tarifaria aprobada, la inversión en fiabilidad, el clima y los costos operativos.",
+          "why": "La inversión en la base tarifaria puede respaldar la modernización y fiabilidad de la red, mientras que el gasto por tormentas y los costos de financiación pueden reducir las ganancias de corto plazo y el efectivo disponible para otros usos.",
+          "uncertainty": "Las ganancias ajustadas excluyen partidas específicas, y el comunicado revisado proporciona el flujo de efectivo operativo del periodo acumulado del año, no solo del trimestre.",
+          "watch": "Vigile las decisiones sobre tarifas, los costos de las tormentas, el gasto de capital, la financiación de la deuda y el flujo de efectivo en la presentación regulatoria.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Utilidad neta según los PCGA"
+            },
+            {
+              "id": "m2",
+              "label": "Ganancias operativas ajustadas"
+            },
+            {
+              "id": "m3",
+              "label": "Ganancias ajustadas por acción"
+            },
+            {
+              "id": "m4",
+              "label": "Límite inferior de la previsión de ganancias"
+            },
+            {
+              "id": "m5",
+              "label": "Límite superior de la previsión de ganancias"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Explicación macroeconómica de China: el crecimiento se mantiene estable mientras la demanda interna queda rezagada",
+          "summary": "Los datos oficiales muestran un crecimiento agregado continuo junto con un consumo contenido y una inversión débil en activos fijos.",
+          "impact": "La combinación respalda con mayor claridad la actividad industrial que una recuperación general del consumo o del sector inmobiliario, por lo que las perspectivas de ingresos siguen siendo desiguales entre las empresas.",
+          "what": "El comunicado nacional combina medidas de producción, ventas minoristas, inversión, precios, empleo e ingresos, en lugar de describir un único acontecimiento de mercado.",
+          "why": "Una producción estable puede respaldar la actividad de los proveedores y el empleo, pero el consumo contenido y la inversión débil limitan el crecimiento generalizado de los ingresos.",
+          "uncertainty": "Los datos son preliminares, las medidas de crecimiento utilizan distintas bases de precios y la autoridad estadística afirma que la demanda interna sigue siendo insuficiente.",
+          "watch": "Vigile las posteriores ventas minoristas, la actividad inmobiliaria, la inversión privada, los precios y las previsiones de las empresas.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Producto interno bruto acumulado"
+            },
+            {
+              "id": "m2",
+              "label": "Crecimiento interanual del producto interno bruto"
+            },
+            {
+              "id": "m3",
+              "label": "Ventas minoristas acumuladas"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento interanual de las ventas minoristas"
+            },
+            {
+              "id": "m5",
+              "label": "Variación interanual de la inversión en activos fijos"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できた情報は限定的です。一部の市場では、確認できる新しい材料がありません。日付のある報告は、その日付を明示しています。",
+      "status": "本版では、米国と中国の動きを扱います。各記事の公表日を確認してください。最近の企業報告は、背景を説明する資料として掲載しています。",
       "marketSummary": {
-        "us": "一部の終値は確認できませんでした。利用可能な各指数には、それぞれの取引日が付されています。",
-        "cn": "追跡対象の指数は、最新の確認済み取引で下落しました。日付のある終値は、その取引日のものであり、現在の取引を示すものではありません。"
+        "us": "追跡対象の指数は、直近の確認済み取引日でいずれも下落しました。日付付きの終値はその取引日のもので、現在の取引状況を示すものではありません。",
+        "cn": "一部の終値は確認できませんでした。確認できた各指数には、それぞれの取引日を付しています。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "鉱工業企業の利益の伸びは一様ではなかった",
-          "summary": "公式データでは、鉱工業企業全体の利益が伸びた一方、製造業、資源関連業種、公益事業の間で業績には大きな差がありました。",
-          "impact": "収益性の改善は、主要業種の投資や取引先への支払いを支える可能性があります。一方、低迷する業種は雇用や設備投資の抑制要因となり続ける可能性があります。",
-          "what": "統計の対象は、大規模な鉱業、製造業、公益事業の企業で、会計上の売上高、費用、利益を合算しています。",
-          "why": "利益の伸びは企業の財務余力を高める可能性がありますが、経営活動によるキャッシュフローと同じではなく、価格、製品構成、費用の変化を反映している可能性があります。",
-          "uncertainty": "発表には、統合された経営活動によるキャッシュフローが示されていません。また、全体の結果からは、企業、業種、所有形態による違いが分かりません。",
-          "watch": "今後は、売上債権、棚卸資産、利益率に加え、電子機器や一部の資源生産企業以外にも改善が広がるかが焦点になります。",
+          "id": "f1",
+          "title": "決算解説：シェブロン、エネルギー事業のキャッシュ創出力が改善",
+          "summary": "シェブロンの最新報告では、精製マージンと原油実現価格に支えられ、利益が増加しました。",
+          "impact": "この結果は、債務削減、株主還元、上流投資に充てられる十分なキャッシュ創出力を示します。一方、商品市況と事業運営への依存は重要です。",
+          "what": "この総合エネルギー企業は、石油・ガスの生産、原油の精製、燃料・化学品の販売を行っています。同社の発表では、会計上の利益と営業キャッシュフローを分けて示しています。",
+          "why": "精製マージンと原油実現価格の改善は、投資や資本還元に使えるキャッシュを増やす可能性があります。ただし、商品市況が悪化すれば効果が逆転する可能性があります。",
+          "uncertainty": "発表では、特別項目、為替の影響、計上時期の影響、商品価格へのエクスポージャー、事業中断へのエクスポージャーが示されています。",
+          "watch": "生産量、精製マージン、債務残高、営業キャッシュフローを確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "鉱工業企業の営業収益"
+              "label": "GAAPベースの利益"
             },
             {
               "id": "m2",
-              "label": "鉱工業企業の利益総額"
+              "label": "営業キャッシュフロー"
             },
             {
               "id": "m3",
-              "label": "鉱工業企業の利益の伸び率"
+              "label": "調整後利益"
+            },
+            {
+              "id": "m4",
+              "label": "投下資本利益率"
             }
           ]
-        }
-      ]
-    },
-    "zh-TW": {
-      "status": "本期可驗證的報導有限。部分市場沒有已驗證的新消息；有日期的報告仍清楚標示。",
-      "marketSummary": {
-        "us": "部分收盤觀察無法驗證。每個可取得的指數都保留各自的交易日期。",
-        "cn": "追蹤的兩個指數在最新已驗證交易時段均下跌。有日期的收盤資料描述的是那些交易時段，而非目前交易情況。"
-      },
-      "stories": [
+        },
         {
-          "id": "f3",
-          "title": "工業利潤增長仍不均衡",
-          "summary": "官方數據顯示工業整體利潤有所增長，但製造業、資源業與公用事業之間的表現差異很大。",
-          "impact": "較強的盈利能力可支持領先產業的投資與供應商付款，而疲弱產業可能繼續抑制就業與資本支出。",
-          "what": "統計涵蓋大型採礦、製造及公用事業企業，並合併計算會計營收、成本與利潤。",
-          "why": "利潤增長可改善企業的財務能力，但不等同於經營現金流，也可能反映價格、產品組合與成本變化。",
-          "uncertainty": "該報告沒有提供合併經營現金流，而整體結果掩蓋了不同企業、產業與所有權群體之間的差異。",
-          "watch": "後續可觀察的證據包括應收帳款、存貨、利潤率，以及利潤增長是否擴大至電子業以外和更多資源生產商。",
+          "id": "f2",
+          "title": "決算解説：クアンタ、インフラ見通しを引き上げ",
+          "summary": "クアンタは、公益事業、電力、産業、テクノロジー関連のインフラ工事で強い需要を報告しました。",
+          "impact": "受注残高の増加と見通しの引き上げは、建設需要の持続を示します。一方、売上がキャッシュに変わるかどうかは、事業遂行と資金調達に左右されます。",
+          "what": "同社は送電網、電力施設、関連インフラの建設・保守を行い、GAAPベースの利益と営業キャッシュフローの両方を報告しています。",
+          "why": "送電網の拡張やデータセンターの電力需要は、雇用、サプライヤーの受注、設備投資を支える可能性があります。一方、プロジェクトの時期はマージンとキャッシュ化に影響します。",
+          "uncertainty": "天候、許認可、規制、サプライチェーン、買収、金利により、プロジェクトが遅れたり投資収益が変わったりする可能性があります。",
+          "watch": "受注残高の売上化、営業キャッシュフロー、買収の統合、次回の見通し更新を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "工業營業收入"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "工業利潤總額"
+              "label": "四半期GAAPベース純利益"
             },
             {
               "id": "m3",
-              "label": "工業利潤增長"
+              "label": "四半期営業キャッシュフロー"
+            },
+            {
+              "id": "m4",
+              "label": "売上高見通しの下限"
+            },
+            {
+              "id": "m5",
+              "label": "売上高見通しの上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "決算解説：エクセロン、公益事業の利益見通しレンジを縮小",
+          "summary": "エクセロンの調整後営業利益は小幅に改善しましたが、報告ベースのGAAP利益は減少しました。",
+          "impact": "今回の更新は、送電網への継続的な投資と規制面の進展を反映しています。一方、暴風雨の影響と資金調達コストは、利益とキャッシュ需要への圧力として残ります。",
+          "what": "同社は規制下の電力・ガス公益事業を保有しており、利益は認可された料金回収、信頼性向上投資、天候、事業運営コストに大きく左右されます。",
+          "why": "料金算定基礎への投資は、送電網の近代化と信頼性を支える可能性があります。一方、暴風雨対応費用と資金調達コストは、短期的な利益や他の用途に使えるキャッシュを減らす可能性があります。",
+          "uncertainty": "調整後利益には指定された項目が除外されています。また、確認した発表で示されている営業キャッシュフローは、四半期だけでなく年初来の期間が対象です。",
+          "watch": "料金認可案件の判断、暴風雨対応費用、設備投資、債務による資金調達、提出書類のキャッシュフローを確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "GAAPベース純利益"
+            },
+            {
+              "id": "m2",
+              "label": "調整後営業利益"
+            },
+            {
+              "id": "m3",
+              "label": "調整後一株当たり利益"
+            },
+            {
+              "id": "m4",
+              "label": "利益見通しの下限"
+            },
+            {
+              "id": "m5",
+              "label": "利益見通しの上限"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "中国マクロ解説：成長は安定する一方、国内需要は出遅れ",
+          "summary": "公表データは、総合的な成長が続く一方、消費が抑制され、固定資産投資が弱いことを示しています。",
+          "impact": "この組み合わせは、幅広い消費や不動産の回復よりも、産業活動を明確に支えています。そのため、企業ごとの売上見通しにはばらつきが残ります。",
+          "what": "国の発表は、生産、小売売上高、投資、物価、雇用、所得に関する指標を組み合わせたもので、個別の市場イベントを説明するものではありません。",
+          "why": "生産の安定はサプライヤーの活動や雇用を支える可能性がありますが、消費の抑制と投資の弱さは、広範な売上成長を制限します。",
+          "uncertainty": "データは暫定値です。成長指標には異なる価格基準が使われており、統計当局は国内需要がなお不十分だと説明しています。",
+          "watch": "その後の小売売上高、不動産活動、民間投資、物価、企業見通しを確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "累計国内総生産"
+            },
+            {
+              "id": "m2",
+              "label": "国内総生産の前年同期比成長率"
+            },
+            {
+              "id": "m3",
+              "label": "累計小売売上高"
+            },
+            {
+              "id": "m4",
+              "label": "小売売上高の前年同期比成長率"
+            },
+            {
+              "id": "m5",
+              "label": "固定資産投資の前年同期比変化"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas histórias verificadas; relatórios datados continuam claramente identificados.",
+      "status": "Esta edição cobre desenvolvimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação.",
-        "cn": "Os índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+        "us": "Ambos os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos com data descrevem essas sessões, não as negociações atuais.",
+        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "O crescimento dos lucros industriais continuou desigual",
-          "summary": "Dados oficiais mostraram crescimento agregado dos lucros industriais, mas o desempenho divergiu amplamente entre os setores de manufatura, recursos naturais e serviços públicos.",
-          "impact": "Uma lucratividade mais forte pode apoiar investimentos e pagamentos a fornecedores nos setores líderes, enquanto os setores mais fracos podem continuar limitando o emprego e os gastos de capital.",
-          "what": "As estatísticas abrangem grandes empresas de mineração, manufatura e serviços públicos, combinando receita, custos e lucro contábeis.",
-          "why": "O crescimento dos lucros pode melhorar a capacidade financeira das empresas, mas não equivale ao fluxo de caixa operacional e pode refletir mudanças nos preços, no mix de produtos e nos custos.",
-          "uncertainty": "O comunicado não apresenta o fluxo de caixa operacional consolidado, e os resultados agregados ocultam diferenças entre empresas, setores e grupos de propriedade.",
-          "watch": "As próximas evidências incluem contas a receber, estoques, margens e a possibilidade de os ganhos se ampliarem para além da eletrônica e de alguns produtores de recursos naturais.",
+          "id": "f1",
+          "title": "Explicação de resultados: a Chevron registra maior geração de caixa no setor de energia",
+          "summary": "O relatório mais recente da Chevron mostrou lucro maior, apoiado pelas margens de refino e pelos preços realizados do petróleo bruto.",
+          "impact": "O resultado indica capacidade significativa de caixa para reduzir dívidas, fazer distribuições e investir na produção, embora a exposição às commodities e às operações continue importante.",
+          "what": "A empresa integrada de energia produz petróleo e gás, refina petróleo bruto e vende combustíveis e produtos químicos; seu comunicado apresenta separadamente o lucro contábil e o fluxo de caixa operacional.",
+          "why": "Margens de refino mais fortes e melhores preços realizados do petróleo bruto podem aumentar o caixa disponível para investimentos e retornos de capital, mas condições mais fracas das commodities podem reverter esse benefício.",
+          "uncertainty": "O comunicado identifica itens especiais, efeitos cambiais, efeitos de período e exposição aos preços das commodities e a interrupções operacionais.",
+          "watch": "Acompanhe a produção, as margens de refino, os saldos de dívida e o fluxo de caixa operacional.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita operacional industrial"
+              "label": "Lucro segundo o GAAP"
             },
             {
               "id": "m2",
-              "label": "Lucro total industrial"
+              "label": "Fluxo de caixa operacional"
             },
             {
               "id": "m3",
-              "label": "Crescimento do lucro industrial"
+              "label": "Lucro ajustado"
+            },
+            {
+              "id": "m4",
+              "label": "Retorno sobre o capital empregado"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Explicação de resultados: a Quanta eleva sua perspectiva para infraestrutura",
+          "summary": "A Quanta registrou demanda forte em projetos de serviços públicos, energia, indústria e infraestrutura tecnológica.",
+          "impact": "Uma carteira de pedidos maior e uma perspectiva mais alta apontam para uma demanda de construção sustentada, enquanto a execução e o financiamento determinam como a receita se converte em caixa.",
+          "what": "A contratada constrói e mantém redes elétricas, instalações de energia e infraestrutura relacionada, e apresenta tanto o lucro segundo o GAAP quanto o fluxo de caixa operacional.",
+          "why": "A expansão das redes e a necessidade de energia dos centros de dados podem apoiar o emprego, os pedidos a fornecedores e os investimentos, enquanto o calendário dos projetos afeta as margens e a conversão em caixa.",
+          "uncertainty": "Clima, licenças, regulamentação, cadeias de suprimento, aquisições e taxas de juros podem atrasar projetos ou alterar os retornos.",
+          "watch": "Acompanhe a conversão da carteira de pedidos, o fluxo de caixa operacional, a integração de aquisições e a próxima atualização da perspectiva.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita trimestral"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro líquido trimestral segundo o GAAP"
+            },
+            {
+              "id": "m3",
+              "label": "Fluxo de caixa operacional trimestral"
+            },
+            {
+              "id": "m4",
+              "label": "Limite inferior da perspectiva de receita"
+            },
+            {
+              "id": "m5",
+              "label": "Limite superior da perspectiva de receita"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Explicação de resultados: a Exelon reduz sua faixa de projeção para o lucro das concessionárias",
+          "summary": "O resultado operacional ajustado da Exelon melhorou modestamente, enquanto o lucro divulgado segundo o GAAP caiu.",
+          "impact": "A atualização reflete a continuidade dos investimentos na rede e avanços regulatórios, enquanto os efeitos de tempestades e os custos de financiamento continuam pressionando a rentabilidade e as necessidades de caixa.",
+          "what": "A empresa possui concessionárias reguladas de eletricidade e gás, cujos resultados dependem fortemente da recuperação tarifária aprovada, dos investimentos em confiabilidade, do clima e dos custos operacionais.",
+          "why": "Investimentos na base regulatória de ativos podem apoiar a modernização e a confiabilidade da rede, enquanto gastos com tempestades e custos de financiamento podem reduzir o lucro no curto prazo e o caixa disponível para outros usos.",
+          "uncertainty": "O lucro ajustado exclui itens específicos, e o comunicado analisado apresenta o fluxo de caixa operacional do período acumulado, e não apenas do trimestre.",
+          "watch": "Acompanhe decisões sobre tarifas, custos de tempestades, investimentos, financiamento da dívida e fluxo de caixa no documento divulgado.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Lucro líquido segundo o GAAP"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro operacional ajustado"
+            },
+            {
+              "id": "m3",
+              "label": "Lucro ajustado por ação"
+            },
+            {
+              "id": "m4",
+              "label": "Limite inferior da projeção de lucro"
+            },
+            {
+              "id": "m5",
+              "label": "Limite superior da projeção de lucro"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Explicação macroeconômica da China: o crescimento permanece estável, enquanto a demanda interna fica para trás",
+          "summary": "Dados oficiais mostram crescimento agregado contínuo, acompanhado por consumo contido e investimento fraco em ativos fixos.",
+          "impact": "A composição favorece mais claramente a atividade industrial do que uma recuperação ampla do consumo ou do setor imobiliário, deixando a perspectiva de receita desigual entre as empresas.",
+          "what": "A divulgação nacional combina medidas de produção, vendas no varejo, investimento, preços, emprego e renda, em vez de descrever um único evento de mercado.",
+          "why": "A produção estável pode apoiar a atividade dos fornecedores e o emprego, mas o consumo contido e o investimento fraco limitam o crescimento amplo da receita.",
+          "uncertainty": "Os dados são preliminares, as medidas de crescimento usam diferentes bases de preços e a autoridade estatística afirma que a demanda interna continua insuficiente.",
+          "watch": "Acompanhe as vendas no varejo, a atividade imobiliária, o investimento privado, os preços e as projeções das empresas.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Produto interno bruto acumulado"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento do produto interno bruto em relação ao ano anterior"
+            },
+            {
+              "id": "m3",
+              "label": "Vendas no varejo acumuladas"
+            },
+            {
+              "id": "m4",
+              "label": "Crescimento das vendas no varejo em relação ao ano anterior"
+            },
+            {
+              "id": "m5",
+              "label": "Variação do investimento em ativos fixos em relação ao ano anterior"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-TW": {
+      "status": "本期涵蓋美國與中國的發展。請查看各則內容的發布日期；近期公司報告以背景解說呈現。",
+      "marketSummary": {
+        "us": "追蹤的指數在最新可驗證交易時段均下跌。標示日期的收盤數據描述的是那些交易時段，而非目前交易情況。",
+        "cn": "部分收盤觀察無法驗證。每個可取得的指數均保留其交易日期。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "財報解說：雪佛龍能源現金創造能力增強",
+          "summary": "雪佛龍最新報告顯示，煉油利差改善與原油實現價格上升帶動獲利增加。",
+          "impact": "這項結果顯示公司具備可觀的現金能力，可用於降低債務、配發資金及上游投資；但大宗商品與營運曝險仍然重要。",
+          "what": "這家綜合能源公司生產石油與天然氣、提煉原油，並銷售燃料與化學品；其公告將會計獲利與經營現金流分開呈現。",
+          "why": "較強的煉油利差與原油實現價格，可能增加可用於投資與資本回報的現金；但大宗商品環境轉弱可能抵銷這項好處。",
+          "uncertainty": "公告指出特殊項目、外匯影響、時點效應，以及大宗商品價格與營運中斷曝險。",
+          "watch": "留意產量、煉油利差、債務餘額與經營現金流。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "GAAP 獲利"
+            },
+            {
+              "id": "m2",
+              "label": "經營現金流"
+            },
+            {
+              "id": "m3",
+              "label": "調整後獲利"
+            },
+            {
+              "id": "m4",
+              "label": "投入資本報酬率"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "財報解說：Quanta 上調基礎設施展望",
+          "summary": "Quanta 表示，公用事業、電力、工業與科技基礎設施工程的需求都很強勁。",
+          "impact": "較大的積壓訂單與較高的展望指向持續的建設需求；但執行能力與融資條件將決定營收如何轉化為現金。",
+          "what": "這家承包商建造並維護電網、電力設施及相關基礎設施，並同時報告 GAAP 獲利與經營現金流。",
+          "why": "電網擴建與資料中心電力需求可能支持就業、供應商訂單及資本支出；但專案時程會影響利潤率與現金轉換。",
+          "uncertainty": "天候、許可、法規、供應鏈、併購與利率，都可能延後專案或改變報酬。",
+          "watch": "留意積壓訂單轉換、經營現金流、併購整合，以及下一次展望更新。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度營收"
+            },
+            {
+              "id": "m2",
+              "label": "季度 GAAP 淨利潤"
+            },
+            {
+              "id": "m3",
+              "label": "季度經營現金流"
+            },
+            {
+              "id": "m4",
+              "label": "營收展望下限"
+            },
+            {
+              "id": "m5",
+              "label": "營收展望上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "財報解說：Exelon 縮小公用事業獲利區間",
+          "summary": "Exelon 的調整後營運結果小幅改善，但申報的 GAAP 獲利下滑。",
+          "impact": "這項更新反映電網持續投資與監管進展；同時，風暴影響與融資成本仍是獲利能力及現金需求的壓力來源。",
+          "what": "公司擁有受監管的電力與天然氣公用事業，其獲利高度取決於核准的費率回收、可靠度投資、天候與營運成本。",
+          "why": "費率基礎投資可支持電網現代化與可靠度；但風暴支出與融資成本可能壓低近期獲利，以及可用於其他用途的現金。",
+          "uncertainty": "調整後獲利排除特定項目；經審閱的公告提供的是年初至今期間的經營現金流，而非僅季度數據。",
+          "watch": "留意費率案件決定、風暴成本、資本支出、債務融資與申報文件中的現金流。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "GAAP 淨利潤"
+            },
+            {
+              "id": "m2",
+              "label": "調整後營運獲利"
+            },
+            {
+              "id": "m3",
+              "label": "調整後每股獲利"
+            },
+            {
+              "id": "m4",
+              "label": "獲利指引下限"
+            },
+            {
+              "id": "m5",
+              "label": "獲利指引上限"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "中國總體經濟解說：成長維持穩定，但內需落後",
+          "summary": "官方數據顯示，整體成長持續，但消費受到抑制，固定資產投資疲弱。",
+          "impact": "這種組合較明確支持工業活動，而非廣泛的消費或房地產復甦，使各企業的營收展望呈現不均。",
+          "what": "官方發布的數據結合產出、零售銷售、投資、價格、就業與收入指標，而非描述特定市場事件。",
+          "why": "穩定的生產可支持供應商活動與就業；但受到抑制的消費與疲弱的投資，限制廣泛的營收成長。",
+          "uncertainty": "數據屬初步資料，成長指標採用不同的價格基礎；統計機關表示內需仍然不足。",
+          "watch": "留意後續零售銷售、房地產活動、民間投資、價格與公司指引。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "累計國內生產毛額"
+            },
+            {
+              "id": "m2",
+              "label": "國內生產毛額年增率"
+            },
+            {
+              "id": "m3",
+              "label": "累計零售銷售額"
+            },
+            {
+              "id": "m4",
+              "label": "零售銷售年增率"
+            },
+            {
+              "id": "m5",
+              "label": "固定資產投資年增變動"
             }
           ]
         }
