@@ -1,63 +1,58 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-10-31T17:45:42.750Z",
-  "generatedAt": "2026-10-31T17:58:50.749Z",
-  "model": "gpt-5.6-sol",
+  "cutoffAt": "2026-10-31T19:58:44.346Z",
+  "generatedAt": "2026-10-31T20:03:43.831Z",
+  "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "S and P historical data",
-      "url": "https://www.investing.com/indices/us-spx-500-historical-data"
+      "label": "Federal Reserve monetary policy statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
     },
     {
       "id": "src2",
-      "label": "Nasdaq Composite historical data",
-      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
+      "label": "Elevance Health earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm"
     },
     {
       "id": "src3",
-      "label": "Shanghai Composite historical data",
-      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      "label": "Elevance Health quarterly filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
     },
     {
       "id": "src4",
-      "label": "CSI historical data",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "UPS earnings release",
+      "url": "https://investors.ups.com/news-events/press-releases/detail/2172/ups-releases-3q-2026-earnings"
     },
     {
       "id": "src5",
-      "label": "Amazon quarterly earnings release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+      "label": "Ningbo Bank quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639596.PDF"
     },
     {
       "id": "src6",
-      "label": "Amazon quarterly filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+      "label": "National Bureau of Statistics purchasing managers report",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
     },
     {
       "id": "src7",
-      "label": "Intel quarterly earnings release",
-      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm"
+      "label": "Associated Press market close report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
     },
     {
       "id": "src8",
-      "label": "Employment Cost Index release",
-      "url": "https://www.bls.gov/news.release/archives/eci_10302026.htm"
+      "label": "Xinhua Finance A share close report",
+      "url": "https://m.cnfin.com/gs-lb/zixun/20261030/4488836_1.html"
     },
     {
       "id": "src9",
-      "label": "BYD quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+      "label": "CSI three hundred historical close table",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src10",
-      "label": "Midea quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF"
-    },
-    {
-      "id": "src11",
-      "label": "China purchasing managers release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
+      "label": "Xinhua Finance prior session close report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261029/4488114_1.html"
     }
   ],
   "markets": [
@@ -68,28 +63,26 @@
       "previousClose": 7720.39,
       "changePercent": -1.82,
       "sourceIds": [
-        "src1"
+        "src7"
       ]
     },
     {
       "id": "nasdaq",
       "sessionDate": "2026-10-30",
       "close": 25437,
-      "previousClose": 26184.72,
+      "previousClose": 26184.73,
       "changePercent": -2.86,
       "sourceIds": [
-        "src2"
+        "src7"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-10-30",
-      "close": 3599.02,
-      "previousClose": 3651.43,
-      "changePercent": -1.44,
-      "sourceIds": [
-        "src3"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
@@ -98,7 +91,7 @@
       "previousClose": 4041.84,
       "changePercent": -1.39,
       "sourceIds": [
-        "src4"
+        "src9"
       ]
     }
   ],
@@ -106,248 +99,100 @@
     {
       "id": "f1",
       "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-10-29",
-      "company": {
-        "name": "Amazon.com, Inc.",
-        "ticker": "AMZN",
-        "exchange": "NASDAQ"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 201944000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Consolidated net-sales row in the segment results table."
-        },
-        {
-          "id": "m2",
-          "value": 20685000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Consolidated net-income row in the segment results table."
-        },
-        {
-          "id": "m3",
-          "value": 42422000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Operating-activities row in the consolidated cash-flow statement."
-        },
-        {
-          "id": "m4",
-          "value": 39.3,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Cloud sales growth appears in the earnings-release headline and segment bullet."
-        },
-        {
-          "id": "m5",
-          "value": 75900000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Cash capital spending appears in the liquidity discussion."
-        }
-      ],
-      "sourceIds": [
-        "src5",
-        "src6"
-      ],
-      "evidence": "The earnings release and filing provide consolidated results, cloud performance, operating cash flow and infrastructure spending."
-    },
-    {
-      "id": "f2",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-10-29",
-      "company": {
-        "name": "Intel Corporation",
-        "ticker": "INTC",
-        "exchange": "NASDAQ"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 16513000000,
-          "unit": "USD",
-          "periodStart": "2026-06-28",
-          "periodEnd": "2026-09-26",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Net revenue appears in the consolidated operations statement."
-        },
-        {
-          "id": "m2",
-          "value": 3320000000,
-          "unit": "USD",
-          "periodStart": "2026-06-28",
-          "periodEnd": "2026-09-26",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Income attributable to Intel appears in the consolidated operations statement."
-        },
-        {
-          "id": "m3",
-          "value": 5082000000,
-          "unit": "USD",
-          "periodStart": "2026-06-28",
-          "periodEnd": "2026-09-26",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Operating cash flow appears in the supplemental cash reconciliation."
-        },
-        {
-          "id": "m4",
-          "value": 43,
-          "unit": "percent",
-          "periodStart": "2026-06-28",
-          "periodEnd": "2026-09-26",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Reported gross margin appears in the quarterly results table."
-        },
-        {
-          "id": "m5",
-          "value": 21,
-          "unit": "percent",
-          "periodStart": "2026-06-28",
-          "periodEnd": "2026-09-26",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Revenue growth appears in the earnings summary and results table."
-        }
-      ],
-      "sourceIds": [
-        "src7"
-      ],
-      "evidence": "The issuer release contains consolidated accounting results, operating cash generation and segment commentary."
-    },
-    {
-      "id": "f3",
-      "market": "us",
       "category": "economy",
-      "publishedOn": "2026-10-30",
+      "publishedOn": "2026-10-28",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 0.8,
+          "value": 3.875,
           "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
+          "periodStart": "2026-10-28",
+          "periodEnd": "2026-10-28",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src1"
           ],
-          "evidence": "Civilian compensation change appears in the opening release text and summary table."
-        },
-        {
-          "id": "m2",
-          "value": 0.7,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "Civilian wage change appears in the opening release text."
-        },
-        {
-          "id": "m3",
-          "value": 0.9,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "Civilian benefit-cost change appears in the opening release text."
-        },
-        {
-          "id": "m4",
-          "value": 3.4,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "Annual civilian compensation change appears in the release summary."
-        },
-        {
-          "id": "m5",
-          "value": -0.6,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "Inflation-adjusted private wage change appears in the private-industry discussion."
+          "evidence": "The FOMC statement records an unchanged federal funds target range, implying the stated midpoint."
         }
       ],
       "sourceIds": [
-        "src8"
+        "src1"
       ],
-      "evidence": "The archived labor release reports quarterly and annual changes for compensation, wages and benefits."
+      "evidence": "The Federal Reserve statement says policy was maintained, domestic spending remained resilient, inflation remained elevated, and ample reserves continued."
     },
     {
-      "id": "f6",
+      "id": "f3",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-10-27",
+      "company": {
+        "name": "United Parcel Service",
+        "ticker": "UPS",
+        "exchange": "NYSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 22900000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The release headline and financial schedules report consolidated quarterly revenue."
+        },
+        {
+          "id": "m2",
+          "value": 1163000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The reconciliation table reports quarterly GAAP net income."
+        },
+        {
+          "id": "m3",
+          "value": 92600000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Management raises full-year consolidated revenue guidance to approximately the stated amount."
+        },
+        {
+          "id": "m4",
+          "value": 6100000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Management raises its non-GAAP adjusted free cash flow target to approximately the stated amount."
+        }
+      ],
+      "sourceIds": [
+        "src4"
+      ],
+      "evidence": "The logistics company reports revenue growth across segments and cites premium growth and network efficiency. GAAP results include transformation costs and a goodwill impairment, separating accounting profit from operating cash economics."
+    },
+    {
+      "id": "f5",
       "market": "cn",
       "category": "economy",
       "publishedOn": "2026-10-31",
@@ -356,15 +201,15 @@
         {
           "id": "m1",
           "value": 49.3,
-          "unit": "index",
+          "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Manufacturing purchasing managers index appears in the opening paragraph and main table."
+          "evidence": "The official manufacturing PMI table reports the seasonally adjusted monthly index."
         },
         {
           "id": "m2",
@@ -375,67 +220,41 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Monthly manufacturing-index change appears in the opening paragraph."
+          "evidence": "The official release states that manufacturing PMI declined from the prior month by the reported amount."
         },
         {
           "id": "m3",
-          "value": 49.8,
-          "unit": "index",
+          "value": 49.7,
+          "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Production index appears in the manufacturing components discussion."
+          "evidence": "The official release reports the non-manufacturing business activity index."
         },
         {
           "id": "m4",
-          "value": 49.4,
-          "unit": "index",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "New-orders index appears in the manufacturing components discussion."
-        },
-        {
-          "id": "m5",
           "value": 49.7,
-          "unit": "index",
+          "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Nonmanufacturing activity index appears in the services release section."
-        },
-        {
-          "id": "m6",
-          "value": 49.7,
-          "unit": "index",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Composite output index appears in the concluding release section."
+          "evidence": "The official release reports the composite PMI output index."
         }
       ],
       "sourceIds": [
-        "src11"
+        "src6"
       ],
-      "evidence": "The official release provides seasonally adjusted manufacturing, nonmanufacturing and composite readings with component detail."
+      "evidence": "The official survey reports manufacturing and non-manufacturing activity below the expansion threshold, with weaker manufacturing production and new orders."
     }
   ],
   "locales": {
@@ -443,984 +262,564 @@
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Amazon pairs cloud acceleration with heavy infrastructure spending",
-          "summary": "Amazon reported broad sales growth led by its cloud platform, while consolidated operating profit expanded and accounting earnings remained substantial.",
-          "impact": "Stronger cloud demand supports the profit engine, but exceptional infrastructure spending means reported operating cash generation does not translate directly into discretionary cash.",
-          "what": "Amazon operates online stores, marketplace services, advertising, subscriptions and a global cloud-computing platform. Its filing shows that cloud sales expanded rapidly and supplied most segment operating income, while retail operations also remained profitable. The cash-flow statement records solid cash from operations, yet the liquidity discussion shows far larger cash capital spending as Amazon added technology infrastructure and fulfillment capacity. Net income was slightly lower than the prior-year quarter because the comparison included investment-related gains outside core operations.",
-          "why": "Cloud growth matters because computing infrastructure carries different economics from retail and can support consolidated margins as customer usage rises. At the same time, data centers require heavy upfront spending on servers, networking equipment, power and facilities. That spending reaches equipment suppliers and construction providers, but it also reduces the cash available for debt reduction, acquisitions or shareholder distributions even when accounting profit is strong.",
-          "uncertainty": "Cloud demand can change with customer optimization, contract pricing and competition. Capital projects have long lead times, and their returns depend on future utilization. Quarterly working capital and financing flows can also obscure the relationship between operating performance and cash available after investment.",
-          "watch": "Watch cloud sales and operating income, cash capital spending, data-center utilization commentary and whether operating cash flow begins to cover the infrastructure program more comfortably.",
+          "title": "The Federal Reserve keeps policy restrictive",
+          "summary": "The central bank left its policy setting unchanged while describing spending as resilient and inflation as elevated.",
+          "impact": "Borrowing costs remain a constraint for households, commercial borrowers, and interest-sensitive equity valuations.",
+          "what": "The committee maintained its policy range and continued its ample-reserves framework.",
+          "why": "Stable rates support lenders but keep financing conditions tight for companies refinancing debt or funding expansion.",
+          "uncertainty": "The statement gives no commitment to the timing of a future move and flags continuing uncertainty around inflation and external risks.",
+          "watch": "Watch upcoming inflation, employment, and spending releases for evidence that could change the policy stance.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly net sales"
-            },
-            {
-              "id": "m2",
-              "label": "Quarterly net income"
-            },
-            {
-              "id": "m3",
-              "label": "Quarterly operating cash flow"
-            },
-            {
-              "id": "m4",
-              "label": "Quarterly cloud sales growth"
-            },
-            {
-              "id": "m5",
-              "label": "Quarterly cash capital spending"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Intel improves revenue and margin while cash generation strengthens",
-          "summary": "Intel delivered higher revenue, a wider reported gross margin and positive operating cash flow as server demand offset weakness in personal computers.",
-          "impact": "Better product economics and cash generation improve Intel's ability to fund manufacturing and product development, though foundry losses and market cyclicality remain material constraints.",
-          "what": "Intel designs processors and operates advanced semiconductor factories, with products serving personal computers, data centers and emerging computing workloads. The latest report shows revenue growth, stronger gross profit and positive income attributable to the company. Operating cash flow also improved. Management linked momentum to server processors and additional supply, while warning that the personal-computer slowdown could persist. The foundry operation remained loss-making despite higher internal and external activity, showing that consolidated improvement is not evenly distributed across the business.",
-          "why": "Semiconductor manufacturing requires sustained spending before new capacity produces saleable chips. Higher gross margin and operating cash flow provide more internal funding for factories, process technology and product launches. Stronger server demand may also benefit suppliers of manufacturing tools, memory, networking and power equipment. Weak personal-computer demand, however, can pressure volumes across retailers, component makers and contract manufacturers.",
-          "uncertainty": "Some reported income reflects investment and other non-operating items, while manufacturing results depend on yields, product mix and customer adoption. The foundry business has large fixed costs, and cash generation can move sharply with inventory, customer payments and capital spending.",
-          "watch": "Watch server revenue, foundry operating losses, manufacturing yields, product availability, personal-computer demand and the conversion of reported earnings into sustained operating cash flow.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Quarterly net revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Quarterly income attributable to Intel"
-            },
-            {
-              "id": "m3",
-              "label": "Quarterly operating cash flow"
-            },
-            {
-              "id": "m4",
-              "label": "Quarterly gross margin"
-            },
-            {
-              "id": "m5",
-              "label": "Quarterly revenue growth"
+              "label": "Federal funds rate midpoint"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "United States labor costs keep rising as real private wages weaken",
-          "summary": "Employer compensation costs continued to rise, with benefits increasing faster than wages during the latest quarter.",
-          "impact": "Persistent labor-cost growth can support household income but may also keep pressure on business margins, service prices and monetary-policy decisions.",
-          "what": "The Employment Cost Index tracks wages, salaries and benefit costs while controlling for changes in the composition of employment. The official release shows continued quarterly growth in civilian compensation, with benefit costs outpacing wages. Annual compensation growth remained firm, while inflation-adjusted wages in private industry declined. The combination suggests employers are still paying more in nominal terms even though purchasing-power gains for workers are not assured.",
-          "why": "Labor is a major cost for service businesses, manufacturers, hospitals, schools and local governments. Rising compensation can sustain consumer spending because workers receive more income, but firms may respond by raising prices, accepting lower margins, slowing hiring or investing in automation. Benefit costs matter because employers pay them even when they are less visible in workers' paychecks. For policymakers, persistent compensation growth can signal that inflation pressure may fade only gradually.",
-          "uncertainty": "The index measures employer costs rather than household take-home pay, and inflation-adjusted results depend on the price measure used. National averages can also hide large differences across industries, occupations and regions. A quarterly reading does not establish a lasting trend.",
-          "watch": "Watch subsequent wage, benefit and productivity releases, along with hiring, unemployment and service-price data, to judge whether labor costs are becoming easier for businesses to absorb.",
+          "title": "UPS raises its outlook despite restructuring charges",
+          "summary": "The parcel carrier reported broad revenue growth and lifted its outlook, although accounting earnings absorbed transformation and impairment charges.",
+          "impact": "Stronger delivery demand and network efficiency could support business shipping capacity, while restructuring costs show that reported profit and cash economics differ.",
+          "what": "UPS handles domestic, international, and supply-chain logistics; management cited premium growth and network efficiency, while the release separately identified transformation costs and a goodwill impairment.",
+          "why": "Higher revenue per package can improve margins even when shipment volumes are uneven, but restructuring and asset charges reduce reported earnings.",
+          "uncertainty": "The outlook is management guidance, not realized performance, and remains exposed to fuel, labor, trade, and customer concentration.",
+          "watch": "Watch shipping volumes, adjusted versus GAAP operating profit, and realized free cash flow.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly civilian compensation change"
+              "label": "Quarterly consolidated revenue"
             },
             {
               "id": "m2",
-              "label": "Quarterly civilian wage change"
+              "label": "Quarterly GAAP net income"
             },
             {
               "id": "m3",
-              "label": "Quarterly civilian benefit-cost change"
+              "label": "Full-year revenue guidance"
             },
             {
               "id": "m4",
-              "label": "Annual civilian compensation change"
-            },
-            {
-              "id": "m5",
-              "label": "Annual real private wage change"
+              "label": "Full-year adjusted free cash flow guidance"
             }
           ]
         },
         {
-          "id": "f6",
-          "title": "China business surveys move back into contraction territory",
-          "summary": "China's official surveys showed weaker manufacturing, nonmanufacturing and overall business activity, with production and orders losing momentum.",
-          "impact": "Softer demand signals may weigh on industrial volumes, employment and corporate pricing power even as expectations remain more resilient than current activity.",
-          "what": "The purchasing managers surveys collect monthly responses from manufacturing, construction and service businesses. Readings below the expansion threshold indicate that activity declined from the prior month rather than showing an absolute fall in output. The manufacturing headline moved lower, while production and new orders also entered contraction territory. Nonmanufacturing activity weakened, with construction particularly soft and services near stagnation. The composite measure indicates that overall business production and operations slowed.",
-          "why": "New orders influence future factory schedules, purchases of raw materials, freight demand and staffing. Weak construction activity can affect steel, cement, machinery and local service providers. Softer service demand can limit pricing power and household-facing business revenue. These surveys arrive before many hard-data releases, making them useful early signals, but they describe direction and breadth rather than the size of economic output.",
-          "uncertainty": "Survey responses can be affected by holidays, seasonal adjustment and temporary order timing. The indicators do not directly measure gross domestic product, company profit or cash flow. Industry divergence also means technology-related manufacturers may perform differently from property-linked and commodity-intensive businesses.",
-          "watch": "Watch industrial production, retail sales, fixed-asset investment, property activity, exports and the next survey's orders and employment components for confirmation or reversal.",
+          "id": "f5",
+          "title": "China activity indicators soften",
+          "summary": "The official purchasing managers survey showed manufacturing and non-manufacturing activity below the expansion threshold.",
+          "impact": "Softer reported orders and production imply continued pressure on industrial demand, services activity, pricing power, and corporate planning.",
+          "what": "The survey samples manufacturing and non-manufacturing enterprises and reports activity, production, new orders, and employment-related indicators.",
+          "why": "A broad slowdown can restrain revenue growth and capital spending, while subdued demand can limit margin recovery for suppliers.",
+          "uncertainty": "PMI is a diffusion survey and can be volatile; it is an early signal rather than a direct measure of output or profit.",
+          "watch": "Watch industrial production, retail sales, corporate profits, credit growth, and the next PMI release.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Manufacturing purchasing managers index"
+              "label": "Manufacturing PMI"
             },
             {
               "id": "m2",
-              "label": "Monthly manufacturing-index change"
+              "label": "Manufacturing PMI monthly change"
             },
             {
               "id": "m3",
-              "label": "Manufacturing production index"
+              "label": "Non-manufacturing activity index"
             },
             {
               "id": "m4",
-              "label": "Manufacturing new-orders index"
-            },
-            {
-              "id": "m5",
-              "label": "Nonmanufacturing activity index"
-            },
-            {
-              "id": "m6",
-              "label": "Composite output index"
-            }
-          ]
-        }
-      ]
-    },
-    "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请核对各项发布日期；近期公司报告作为背景解读呈现。",
-      "marketSummary": {
-        "us": "所跟踪指数在最近经核实的交易日均下跌。标注日期的收盘数据仅反映相应交易日，并非当前行情。",
-        "cn": "所跟踪指数在最近经核实的交易日均下跌。标注日期的收盘数据仅反映相应交易日，并非当前行情。"
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "亚马逊云业务加速增长，同时大举投入基础设施",
-          "summary": "亚马逊实现广泛的销售增长，主要由云平台带动；合并营业利润增加，会计利润仍相当可观。",
-          "impact": "更强的云服务需求有助于支撑利润核心，但规模很大的基础设施支出意味着，报告中的经营现金流不能直接转化为可自由支配现金。",
-          "what": "亚马逊经营网上商店、平台服务、广告、订阅业务和全球云计算平台。申报文件显示，云业务销售快速增长，并贡献了大部分分部营业利润，零售业务也保持盈利。现金流量表显示经营活动带来稳健现金流，但流动性说明显示，随着亚马逊扩充技术基础设施和履约能力，现金资本支出远高于经营现金流。净利润较上年同期略低，因为对比期包含了核心业务之外的投资相关收益。",
-          "why": "云业务增长很重要，因为计算基础设施的经济模式不同于零售业务。随着客户使用量上升，云业务可以支撑合并利润率。与此同时，数据中心需要预先大量投入服务器、网络设备、电力和设施。这些支出会惠及设备供应商和建筑服务商，但即使会计利润强劲，也会减少可用于偿债、收购或股东分配的现金。",
-          "uncertainty": "云服务需求可能随客户成本优化、合同定价和竞争而变化。资本项目建设周期较长，回报取决于未来利用率。季度营运资金和融资现金流也可能掩盖经营表现与投资后可用现金之间的关系。",
-          "watch": "关注云业务销售和营业利润、现金资本支出、有关数据中心利用率的说明，以及经营现金流能否更轻松地覆盖基础设施投入计划。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度净销售额"
-            },
-            {
-              "id": "m2",
-              "label": "季度净利润"
-            },
-            {
-              "id": "m3",
-              "label": "季度经营现金流"
-            },
-            {
-              "id": "m4",
-              "label": "季度云业务销售增长"
-            },
-            {
-              "id": "m5",
-              "label": "季度现金资本支出"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "英特尔营收和利润率改善，现金创造能力增强",
-          "summary": "随着服务器需求抵消个人电脑业务疲软，英特尔实现营收增长、报告口径毛利率扩大，并取得正向经营现金流。",
-          "impact": "产品经济效益和现金创造能力改善，有助于英特尔为制造和产品研发提供资金，但晶圆代工业务亏损和市场周期性仍是重要制约。",
-          "what": "英特尔设计处理器并运营先进半导体工厂，产品服务于个人电脑、数据中心和新兴计算工作负载。最新报告显示，营收增长、毛利润改善，归属于公司的利润为正。经营现金流也有所改善。管理层认为，增长动力来自服务器处理器和供应增加，同时警告个人电脑市场低迷可能持续。尽管内部和外部业务活动增加，晶圆代工业务仍然亏损，说明合并业绩改善并未均匀分布于各业务。",
-          "why": "半导体制造需要持续投入，新产能才能开始生产可销售芯片。更高的毛利率和经营现金流可以为工厂、制程技术和产品发布提供更多内部资金。服务器需求增强也可能惠及制造设备、存储器、网络和电力设备供应商。不过，个人电脑需求疲软可能压低零售商、零部件制造商和代工厂的业务量。",
-          "uncertainty": "部分报告利润来自投资及其他非经营项目，而制造业绩取决于良率、产品组合和客户采用情况。晶圆代工业务的固定成本很高，现金创造能力也可能随库存、客户付款和资本支出大幅波动。",
-          "watch": "关注服务器营收、晶圆代工业务营业亏损、制造良率、产品供应情况、个人电脑需求，以及报告利润能否持续转化为经营现金流。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度净营收"
-            },
-            {
-              "id": "m2",
-              "label": "季度归属于英特尔的净利润"
-            },
-            {
-              "id": "m3",
-              "label": "季度经营现金流"
-            },
-            {
-              "id": "m4",
-              "label": "季度毛利率"
-            },
-            {
-              "id": "m5",
-              "label": "季度营收增长"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "美国劳动力成本继续上升，私营部门实际工资走弱",
-          "summary": "雇主薪酬成本继续上升，最近季度的福利成本增速超过工资。",
-          "impact": "劳动力成本持续增长可以支撑家庭收入，但也可能继续给企业利润率、服务价格和货币政策决策带来压力。",
-          "what": "就业成本指数在控制就业结构变化后，跟踪工资、薪金和福利成本。官方数据表明，民用部门薪酬继续按季度增长，福利成本增速超过工资。年度薪酬增幅仍较稳健，而经通胀调整后的私营部门工资下降。这种组合表明，雇主按名义金额支付的成本仍在增加，但劳动者购买力未必提高。",
-          "why": "劳动力是服务企业、制造商、医院、学校和地方政府的重要成本。薪酬上涨能让劳动者获得更多收入，从而支撑消费支出，但企业可能通过涨价、接受较低利润率、放缓招聘或投资自动化来应对。福利成本很重要，因为即使工资单上不太明显，雇主仍需承担。对政策制定者而言，薪酬持续增长可能意味着通胀压力只能逐渐缓解。",
-          "uncertainty": "该指数衡量的是雇主成本，而不是家庭税后到手收入；经通胀调整的结果取决于采用的价格指标。全国平均值也可能掩盖行业、职业和地区之间的明显差异。单季数据无法证明趋势会持续。",
-          "watch": "关注后续工资、福利和生产率数据，以及招聘、失业和服务价格数据，以判断企业是否更容易消化劳动力成本。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度民用部门薪酬变动"
-            },
-            {
-              "id": "m2",
-              "label": "季度民用部门工资变动"
-            },
-            {
-              "id": "m3",
-              "label": "季度民用部门福利成本变动"
-            },
-            {
-              "id": "m4",
-              "label": "年度民用部门薪酬变动"
-            },
-            {
-              "id": "m5",
-              "label": "年度私营部门实际工资变动"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "中国企业调查重回收缩区间",
-          "summary": "中国官方调查显示，制造业、非制造业和整体商业活动走弱，生产和订单动能减弱。",
-          "impact": "需求走软的信号可能拖累工业产量、就业和企业定价能力，但预期仍比当前活动更有韧性。",
-          "what": "采购经理调查每月收集制造业、建筑业和服务业企业的反馈。读数低于扩张分界线，表示活动较上月下降，并不代表产出绝对水平下降。制造业主要指数走低，生产和新订单也进入收缩区间。非制造业活动减弱，其中建筑业尤其疲软，服务业接近停滞。综合指标显示，整体企业生产经营活动放缓。",
-          "why": "新订单会影响未来的工厂排产、原材料采购、货运需求和用工。建筑活动疲软可能影响钢铁、水泥、机械和本地服务商。服务需求走软可能限制企业定价能力和面向家庭的业务营收。这些调查早于许多实际统计数据发布，因此可作为有用的早期信号，但反映的是变化方向和覆盖范围，而不是经济产出的规模。",
-          "uncertainty": "调查结果可能受到假期、季节调整和临时订单时间安排的影响。这些指标不直接衡量国内生产总值、公司利润或现金流。行业表现分化也意味着，科技相关制造商的表现可能不同于房地产相关和大宗商品密集型企业。",
-          "watch": "关注工业生产、零售销售、固定资产投资、房地产活动、出口，以及下期调查中的订单和就业分项，以确认趋势是否持续或逆转。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "制造业采购经理指数"
-            },
-            {
-              "id": "m2",
-              "label": "制造业指数月度变动"
-            },
-            {
-              "id": "m3",
-              "label": "制造业生产指数"
-            },
-            {
-              "id": "m4",
-              "label": "制造业新订单指数"
-            },
-            {
-              "id": "m5",
-              "label": "非制造业商务活动指数"
-            },
-            {
-              "id": "m6",
-              "label": "综合产出指数"
+              "label": "Composite PMI output index"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez chaque date de publication ; les récents rapports d’entreprise sont présentés comme des éléments de contexte.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Chacun des indices suivis a reculé lors de sa dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Chacun des indices suivis a reculé lors de sa dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+        "us": "Les deux indices suivis ont baissé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Amazon associe l’accélération du cloud à de lourdes dépenses d’infrastructure",
-          "summary": "Amazon a enregistré une croissance généralisée de ses ventes, portée par sa plateforme cloud, tandis que son résultat d’exploitation consolidé progressait et que son bénéfice comptable restait important.",
-          "impact": "La demande accrue pour le cloud soutient le moteur de bénéfices, mais les dépenses d’infrastructure exceptionnellement élevées empêchent de convertir directement la trésorerie d’exploitation publiée en liquidités librement utilisables.",
-          "what": "Amazon exploite des boutiques en ligne, une place de marché, des services publicitaires, des abonnements et une plateforme mondiale de cloud. Son rapport montre que les ventes du cloud ont rapidement progressé et généré l’essentiel du résultat d’exploitation des segments, tandis que les activités de vente au détail sont aussi restées rentables. Le tableau des flux de trésorerie fait apparaître de solides entrées de trésorerie d’exploitation. Toutefois, l’analyse des liquidités montre des dépenses d’investissement décaissées bien plus élevées, Amazon ayant renforcé ses infrastructures technologiques et ses capacités logistiques. Le bénéfice net a légèrement reculé par rapport au trimestre correspondant de l’exercice précédent, car la période de comparaison comprenait des gains liés à des investissements hors des activités principales.",
-          "why": "La croissance du cloud est importante, car les infrastructures informatiques ont une économie différente de celle du commerce de détail et peuvent soutenir les marges consolidées lorsque l’utilisation par les clients augmente. Parallèlement, les centres de données exigent d’importantes dépenses initiales pour les serveurs, les équipements de réseau, l’énergie et les bâtiments. Ces dépenses profitent aux fournisseurs d’équipements et aux entreprises de construction, mais réduisent aussi les liquidités disponibles pour diminuer la dette, réaliser des acquisitions ou verser des fonds aux actionnaires, même lorsque le bénéfice comptable est solide.",
-          "uncertainty": "La demande de cloud peut varier selon les efforts d’optimisation des clients, les prix des contrats et la concurrence. Les projets d’investissement prennent du temps, et leur rendement dépend de leur utilisation future. Les variations trimestrielles du fonds de roulement et des financements peuvent aussi masquer le lien entre les performances d’exploitation et la trésorerie disponible après investissement.",
-          "watch": "Surveillez les ventes et le résultat d’exploitation du cloud, les dépenses d’investissement décaissées, les commentaires sur l’utilisation des centres de données et la capacité du flux de trésorerie d’exploitation à financer plus confortablement le programme d’infrastructure.",
+          "title": "La Réserve fédérale maintient une politique restrictive",
+          "summary": "La banque centrale a laissé son orientation de politique monétaire inchangée, tout en décrivant les dépenses comme résilientes et l’inflation comme élevée.",
+          "impact": "Les coûts d’emprunt restent une contrainte pour les ménages, les emprunteurs commerciaux et les valorisations des actions sensibles aux taux d’intérêt.",
+          "what": "Le comité a maintenu sa fourchette de taux et poursuivi son cadre de réserves abondantes.",
+          "why": "Des taux stables soutiennent les prêteurs, mais maintiennent des conditions de financement strictes pour les entreprises qui refinancent leur dette ou financent leur expansion.",
+          "uncertainty": "Le communiqué ne prend aucun engagement sur le calendrier d’une future décision et souligne l’incertitude persistante autour de l’inflation et des risques externes.",
+          "watch": "Surveillez les prochaines publications sur l’inflation, l’emploi et les dépenses pour repérer des éléments susceptibles de modifier l’orientation de la politique monétaire.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires net trimestriel"
-            },
-            {
-              "id": "m2",
-              "label": "Bénéfice net trimestriel"
-            },
-            {
-              "id": "m3",
-              "label": "Flux de trésorerie d’exploitation trimestriel"
-            },
-            {
-              "id": "m4",
-              "label": "Croissance trimestrielle des ventes du cloud"
-            },
-            {
-              "id": "m5",
-              "label": "Dépenses d’investissement trimestrielles décaissées"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Intel améliore son chiffre d’affaires et sa marge, tandis que sa génération de trésorerie se renforce",
-          "summary": "Intel a enregistré une hausse de son chiffre d’affaires, une amélioration de sa marge brute publiée et un flux de trésorerie d’exploitation positif, la demande de serveurs ayant compensé la faiblesse des ordinateurs personnels.",
-          "impact": "L’amélioration de la rentabilité des produits et de la génération de trésorerie renforce la capacité d’Intel à financer sa production et le développement de ses produits. Les pertes de la fonderie et les cycles du marché restent toutefois des contraintes importantes.",
-          "what": "Intel conçoit des processeurs et exploite des usines avancées de semi-conducteurs, avec des produits destinés aux ordinateurs personnels, aux centres de données et aux nouveaux usages informatiques. Le dernier rapport montre une croissance du chiffre d’affaires, une hausse du bénéfice brut et un résultat positif attribuable à l’entreprise. Le flux de trésorerie d’exploitation s’est également amélioré. La direction a associé cette dynamique aux processeurs pour serveurs et à une offre accrue, tout en avertissant que le ralentissement des ordinateurs personnels pourrait durer. L’activité de fonderie est restée déficitaire malgré une activité interne et externe plus soutenue, ce qui montre que l’amélioration consolidée n’est pas répartie uniformément dans l’entreprise.",
-          "why": "La fabrication de semi-conducteurs exige des dépenses durables avant que les nouvelles capacités puissent produire des puces commercialisables. Une marge brute et un flux de trésorerie d’exploitation plus élevés apportent davantage de financement interne aux usines, aux procédés de fabrication et aux lancements de produits. Une demande plus forte pour les serveurs peut aussi profiter aux fournisseurs d’outils de production, de mémoire, d’équipements de réseau et d’alimentation électrique. La faiblesse de la demande d’ordinateurs personnels peut toutefois peser sur les volumes des distributeurs, des fabricants de composants et des sous-traitants.",
-          "uncertainty": "Une partie du résultat publié provient d’investissements et d’autres éléments hors exploitation, tandis que les performances industrielles dépendent des rendements de production, de la gamme de produits et de leur adoption par les clients. La fonderie supporte d’importants coûts fixes, et la génération de trésorerie peut fortement varier selon les stocks, les paiements des clients et les dépenses d’investissement.",
-          "watch": "Surveillez le chiffre d’affaires des serveurs, les pertes d’exploitation de la fonderie, les rendements de production, la disponibilité des produits, la demande d’ordinateurs personnels et la conversion des bénéfices publiés en flux de trésorerie d’exploitation durable.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires net trimestriel"
-            },
-            {
-              "id": "m2",
-              "label": "Résultat trimestriel attribuable à Intel"
-            },
-            {
-              "id": "m3",
-              "label": "Flux de trésorerie d’exploitation trimestriel"
-            },
-            {
-              "id": "m4",
-              "label": "Marge brute trimestrielle"
-            },
-            {
-              "id": "m5",
-              "label": "Croissance trimestrielle du chiffre d’affaires"
+              "label": "Point médian du taux des fonds fédéraux"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "Les coûts du travail continuent d’augmenter aux États-Unis tandis que les salaires réels du secteur privé reculent",
-          "summary": "Les coûts de rémunération supportés par les employeurs ont continué d’augmenter, les avantages sociaux progressant plus vite que les salaires durant le dernier trimestre.",
-          "impact": "Une croissance persistante des coûts du travail peut soutenir le revenu des ménages, mais aussi maintenir la pression sur les marges des entreprises, les prix des services et les décisions de politique monétaire.",
-          "what": "L’indice du coût de l’emploi suit les salaires, les traitements et les avantages sociaux tout en corrigeant les changements dans la composition de l’emploi. La publication officielle montre que la rémunération des salariés civils a continué de progresser sur le trimestre, les coûts des avantages sociaux augmentant plus vite que les salaires. La croissance annuelle de la rémunération est restée solide, tandis que les salaires corrigés de l’inflation ont reculé dans le secteur privé. Cela suggère que les employeurs continuent de payer davantage en valeur nominale, sans garantie d’un gain de pouvoir d’achat pour les salariés.",
-          "why": "Le travail représente un coût majeur pour les entreprises de services, les fabricants, les hôpitaux, les écoles et les administrations locales. Une hausse de la rémunération peut soutenir la consommation grâce à l’augmentation du revenu des salariés. Les entreprises peuvent toutefois réagir en relevant leurs prix, en acceptant des marges plus faibles, en ralentissant les embauches ou en investissant dans l’automatisation. Les avantages sociaux comptent, car les employeurs les financent même s’ils sont moins visibles sur les fiches de paie. Pour les responsables de la politique monétaire, une croissance persistante des rémunérations peut indiquer que les tensions inflationnistes ne diminueront que progressivement.",
-          "uncertainty": "L’indice mesure les coûts des employeurs plutôt que le revenu net perçu par les ménages, et les résultats corrigés de l’inflation dépendent de l’indice des prix utilisé. Les moyennes nationales peuvent aussi masquer d’importants écarts entre les secteurs, les métiers et les régions. Une observation trimestrielle ne suffit pas à établir une tendance durable.",
-          "watch": "Surveillez les prochaines publications sur les salaires, les avantages sociaux et la productivité, ainsi que les données sur les embauches, le chômage et les prix des services, afin d’évaluer si les entreprises absorbent plus facilement les coûts du travail.",
+          "title": "UPS relève ses prévisions malgré les charges de restructuration",
+          "summary": "Le transporteur de colis a annoncé une croissance générale de son chiffre d’affaires et relevé ses prévisions, même si les bénéfices comptables ont subi des charges de transformation et de dépréciation.",
+          "impact": "Une demande plus forte pour les livraisons et une meilleure efficacité du réseau pourraient soutenir la capacité de transport des entreprises, tandis que les coûts de restructuration montrent que le bénéfice publié et la génération de trésorerie peuvent différer.",
+          "what": "UPS gère des activités de logistique nationales, internationales et de chaîne d’approvisionnement ; la direction a cité la croissance des services haut de gamme et l’efficacité du réseau, tandis que le communiqué a identifié séparément les coûts de transformation et une dépréciation du goodwill.",
+          "why": "Une hausse du chiffre d’affaires par colis peut améliorer les marges même lorsque les volumes d’expédition sont irréguliers, mais les charges de restructuration et d’actifs réduisent le bénéfice publié.",
+          "uncertainty": "Les prévisions sont des indications de la direction, et non des performances réalisées ; elles restent exposées aux coûts du carburant, au travail, au commerce et à la concentration de la clientèle.",
+          "watch": "Surveillez les volumes d’expédition, le résultat d’exploitation ajusté par rapport au résultat d’exploitation GAAP, ainsi que les flux de trésorerie disponibles effectivement générés.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variation trimestrielle de la rémunération des salariés civils"
+              "label": "Chiffre d’affaires consolidé trimestriel"
             },
             {
               "id": "m2",
-              "label": "Variation trimestrielle des salaires des salariés civils"
+              "label": "Bénéfice net GAAP trimestriel"
             },
             {
               "id": "m3",
-              "label": "Variation trimestrielle du coût des avantages sociaux des salariés civils"
+              "label": "Prévisions de chiffre d’affaires pour l’exercice"
             },
             {
               "id": "m4",
-              "label": "Variation annuelle de la rémunération des salariés civils"
-            },
-            {
-              "id": "m5",
-              "label": "Variation annuelle des salaires réels du secteur privé"
+              "label": "Prévisions de flux de trésorerie disponibles ajustés pour l’exercice"
             }
           ]
         },
         {
-          "id": "f6",
-          "title": "Les enquêtes auprès des entreprises chinoises signalent de nouveau une contraction",
-          "summary": "Les enquêtes officielles chinoises ont montré un affaiblissement de l’industrie manufacturière, des activités non manufacturières et de l’activité globale des entreprises, avec un ralentissement de la production et des commandes.",
-          "impact": "Les signes d’une demande plus faible pourraient peser sur les volumes industriels, l’emploi et la capacité des entreprises à fixer leurs prix, même si les attentes résistent mieux que l’activité actuelle.",
-          "what": "Les enquêtes auprès des directeurs d’achat recueillent chaque mois les réponses d’entreprises de l’industrie manufacturière, de la construction et des services. Un niveau inférieur au seuil d’expansion indique que l’activité a reculé par rapport au mois précédent, et non que la production a baissé en valeur absolue. L’indice principal du secteur manufacturier a diminué, tandis que la production et les nouvelles commandes sont également passées en zone de contraction. L’activité non manufacturière s’est affaiblie, avec une construction particulièrement faible et des services proches de la stagnation. L’indice composite indique un ralentissement global de la production et des activités des entreprises.",
-          "why": "Les nouvelles commandes influencent les futurs programmes de production, les achats de matières premières, la demande de transport de marchandises et les effectifs. Une faible activité dans la construction peut affecter l’acier, le ciment, les machines et les prestataires de services locaux. Une demande plus faible dans les services peut limiter la capacité à relever les prix et le chiffre d’affaires des entreprises tournées vers les ménages. Ces enquêtes sont publiées avant les statistiques concrètes généralement disponibles plus tard, ce qui en fait des indicateurs précoces utiles. Elles décrivent toutefois la direction et l’étendue des évolutions, et non la taille de la production économique.",
-          "uncertainty": "Les réponses aux enquêtes peuvent être influencées par les jours fériés, les corrections saisonnières et le calendrier temporaire des commandes. Ces indicateurs ne mesurent pas directement le produit intérieur brut, les bénéfices des entreprises ou les flux de trésorerie. Les écarts entre secteurs signifient aussi que les fabricants liés aux technologies peuvent évoluer différemment des entreprises liées à l’immobilier ou fortement dépendantes des matières premières.",
-          "watch": "Surveillez la production industrielle, les ventes au détail, l’investissement en actifs fixes, l’activité immobilière, les exportations ainsi que les composantes des commandes et de l’emploi de la prochaine enquête, afin de rechercher une confirmation ou un retournement.",
+          "id": "f5",
+          "title": "Les indicateurs d’activité chinois s’affaiblissent",
+          "summary": "L’enquête officielle auprès des directeurs d’achat a montré une activité manufacturière et non manufacturière inférieure au seuil d’expansion.",
+          "impact": "La faiblesse des nouvelles commandes et de la production signalées implique une pression persistante sur la demande industrielle, l’activité des services, le pouvoir de fixation des prix et la planification des entreprises.",
+          "what": "L’enquête couvre des entreprises manufacturières et non manufacturières et publie des indicateurs liés à l’activité, à la production, aux nouvelles commandes et à l’emploi.",
+          "why": "Un ralentissement généralisé peut freiner la croissance du chiffre d’affaires et les dépenses d’investissement, tandis qu’une demande modérée peut limiter le redressement des marges des fournisseurs.",
+          "uncertainty": "Le PMI est une enquête de diffusion qui peut être volatile ; il s’agit d’un signal précoce, et non d’une mesure directe de la production ou des bénéfices.",
+          "watch": "Surveillez la production industrielle, les ventes au détail, les bénéfices des entreprises, la croissance du crédit et la prochaine publication du PMI.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Indice des directeurs d’achat du secteur manufacturier"
+              "label": "PMI manufacturier"
             },
             {
               "id": "m2",
-              "label": "Variation mensuelle de l’indice manufacturier"
+              "label": "Variation mensuelle du PMI manufacturier"
             },
             {
               "id": "m3",
-              "label": "Indice de production manufacturière"
-            },
-            {
-              "id": "m4",
-              "label": "Indice des nouvelles commandes manufacturières"
-            },
-            {
-              "id": "m5",
               "label": "Indice d’activité non manufacturière"
             },
             {
-              "id": "m6",
-              "label": "Indice composite de production"
+              "id": "m4",
+              "label": "Indice de production du PMI composite"
             }
           ]
         }
       ]
     },
-    "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Revise la fecha de cada publicación; los informes recientes de empresas se presentan como explicaciones de contexto.",
+    "zh-CN": {
+      "status": "本期涵盖美国和中国的动态。请查看每条内容的发布日期；近期公司报告作为背景解读呈现。",
       "marketSummary": {
-        "us": "Todos los índices seguidos cayeron en sus sesiones verificadas más recientes. Los cierres con fecha describen esas sesiones, no la negociación actual.",
-        "cn": "Todos los índices seguidos cayeron en sus sesiones verificadas más recientes. Los cierres con fecha describen esas sesiones, no la negociación actual."
+        "us": "所跟踪的两个指数在最近经核实的交易日均下跌。标注日期的收盘数据仅描述相应交易日，并非当前交易情况。",
+        "cn": "部分收盘观察结果无法核实。每个可用指数均保留其自身的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Amazon combina la aceleración de la nube con un fuerte gasto en infraestructura",
-          "summary": "Amazon informó de un crecimiento generalizado de las ventas, liderado por su plataforma de nube, mientras aumentó el beneficio operativo consolidado y el beneficio contable siguió siendo considerable.",
-          "impact": "La mayor demanda de servicios en la nube apoya el principal motor de beneficios, pero el gasto excepcional en infraestructura significa que la generación de efectivo operativo declarada no se convierte directamente en efectivo de libre disposición.",
-          "what": "Amazon opera tiendas en línea, servicios de comercio electrónico para terceros, publicidad, suscripciones y una plataforma mundial de computación en la nube. Su informe muestra que las ventas de la nube crecieron con rapidez y aportaron la mayor parte del beneficio operativo por segmentos, mientras las operaciones minoristas también siguieron siendo rentables. El estado de flujos de efectivo registra una sólida generación de efectivo de las operaciones, pero el análisis de liquidez muestra un gasto de capital en efectivo mucho mayor, ya que Amazon amplió su infraestructura tecnológica y su capacidad logística. El beneficio neto fue ligeramente inferior al del mismo trimestre del año anterior porque la comparación incluía ganancias relacionadas con inversiones ajenas a las operaciones principales.",
-          "why": "El crecimiento de la nube importa porque la infraestructura informática tiene una estructura económica distinta de la actividad minorista y puede apoyar los márgenes consolidados a medida que aumenta el uso por parte de los clientes. Al mismo tiempo, los centros de datos exigen un fuerte gasto inicial en servidores, equipos de red, energía e instalaciones. Ese gasto beneficia a proveedores de equipos y empresas de construcción, pero también reduce el efectivo disponible para disminuir deuda, realizar adquisiciones o distribuir fondos a los accionistas, incluso cuando el beneficio contable es sólido.",
-          "uncertainty": "La demanda de servicios en la nube puede variar por la optimización de los clientes, los precios de los contratos y la competencia. Los proyectos de capital tardan mucho en completarse y su rentabilidad depende del uso futuro. Los movimientos trimestrales del capital circulante y la financiación también pueden dificultar la relación entre el desempeño operativo y el efectivo disponible después de invertir.",
-          "watch": "Observe las ventas y el beneficio operativo de la nube, el gasto de capital en efectivo, los comentarios sobre el uso de los centros de datos y si el flujo de efectivo operativo empieza a cubrir con mayor holgura el programa de infraestructura.",
+          "title": "美联储维持限制性政策",
+          "summary": "央行维持政策设置不变，同时表示支出具有韧性，通胀仍处于高位。",
+          "impact": "借贷成本仍对家庭、商业借款者和利率敏感型股票估值构成约束。",
+          "what": "委员会维持政策区间，并继续实施充足准备金框架。",
+          "why": "利率稳定有利于贷款机构，但会让需要再融资或筹资扩张的企业面临紧缩的融资条件。",
+          "uncertainty": "声明没有承诺未来调整的时间，并指出通胀和外部风险仍存在持续不确定性。",
+          "watch": "关注即将发布的通胀、就业和支出数据，观察是否出现可能改变政策立场的证据。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ventas netas trimestrales"
-            },
-            {
-              "id": "m2",
-              "label": "Beneficio neto trimestral"
-            },
-            {
-              "id": "m3",
-              "label": "Flujo de efectivo operativo trimestral"
-            },
-            {
-              "id": "m4",
-              "label": "Crecimiento trimestral de las ventas de la nube"
-            },
-            {
-              "id": "m5",
-              "label": "Gasto de capital trimestral en efectivo"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Intel mejora sus ingresos y su margen mientras se fortalece la generación de efectivo",
-          "summary": "Intel registró mayores ingresos, un margen bruto declarado más amplio y un flujo de efectivo operativo positivo, ya que la demanda de servidores compensó la debilidad de las computadoras personales.",
-          "impact": "La mejora de la rentabilidad de los productos y de la generación de efectivo aumenta la capacidad de Intel para financiar la fabricación y el desarrollo de productos, aunque las pérdidas de su negocio de fundición y el carácter cíclico del mercado siguen siendo limitaciones importantes.",
-          "what": "Intel diseña procesadores y opera fábricas avanzadas de semiconductores, con productos para computadoras personales, centros de datos y nuevas cargas de trabajo informáticas. El informe más reciente muestra crecimiento de los ingresos, mayor beneficio bruto y beneficio positivo atribuible a la empresa. El flujo de efectivo operativo también mejoró. La dirección relacionó el impulso con los procesadores para servidores y una mayor oferta, pero advirtió que la desaceleración de las computadoras personales podría continuar. El negocio de fundición siguió generando pérdidas pese al aumento de la actividad interna y externa, lo que muestra que la mejora consolidada no se distribuye de manera uniforme por toda la empresa.",
-          "why": "La fabricación de semiconductores requiere gasto sostenido antes de que la nueva capacidad produzca chips que puedan venderse. Un margen bruto y un flujo de efectivo operativo mayores aportan más financiación interna para fábricas, tecnología de procesos y lanzamientos de productos. La mayor demanda de servidores también puede beneficiar a proveedores de herramientas de fabricación, memoria, redes y equipos eléctricos. Sin embargo, la débil demanda de computadoras personales puede presionar los volúmenes de minoristas, fabricantes de componentes y fabricantes por contrato.",
-          "uncertainty": "Parte del beneficio declarado procede de inversiones y otras partidas no operativas, mientras los resultados de fabricación dependen del rendimiento de producción, la combinación de productos y la adopción por parte de los clientes. El negocio de fundición tiene grandes costes fijos y la generación de efectivo puede variar mucho por los inventarios, los pagos de clientes y el gasto de capital.",
-          "watch": "Observe los ingresos por servidores, las pérdidas operativas de la fundición, el rendimiento de producción, la disponibilidad de productos, la demanda de computadoras personales y la conversión del beneficio declarado en un flujo de efectivo operativo sostenido.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos netos trimestrales"
-            },
-            {
-              "id": "m2",
-              "label": "Beneficio trimestral atribuible a Intel"
-            },
-            {
-              "id": "m3",
-              "label": "Flujo de efectivo operativo trimestral"
-            },
-            {
-              "id": "m4",
-              "label": "Margen bruto trimestral"
-            },
-            {
-              "id": "m5",
-              "label": "Crecimiento trimestral de los ingresos"
+              "label": "联邦基金利率中点"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "Los costes laborales de Estados Unidos siguen aumentando mientras se debilitan los salarios reales del sector privado",
-          "summary": "Los costes de remuneración para los empleadores siguieron aumentando, y las prestaciones crecieron más rápido que los salarios durante el trimestre más reciente.",
-          "impact": "El crecimiento persistente de los costes laborales puede apoyar los ingresos de los hogares, pero también mantener la presión sobre los márgenes empresariales, los precios de los servicios y las decisiones de política monetaria.",
-          "what": "El Índice de Costes Laborales sigue los salarios, los sueldos y el coste de las prestaciones, ajustando los cambios en la composición del empleo. La publicación oficial muestra un crecimiento trimestral continuo de la remuneración de los trabajadores civiles, con los costes de las prestaciones creciendo más que los salarios. El crecimiento anual de la remuneración siguió siendo sólido, mientras los salarios ajustados por inflación del sector privado disminuyeron. Esta combinación sugiere que los empleadores continúan pagando más en términos nominales, aunque no están garantizadas las mejoras del poder adquisitivo de los trabajadores.",
-          "why": "El trabajo es un coste importante para empresas de servicios, fabricantes, hospitales, escuelas y gobiernos locales. El aumento de la remuneración puede sostener el consumo porque los trabajadores reciben más ingresos, pero las empresas pueden responder subiendo precios, aceptando márgenes más bajos, frenando la contratación o invirtiendo en automatización. Los costes de las prestaciones importan porque los empleadores los pagan aunque sean menos visibles en las nóminas de los trabajadores. Para las autoridades, el crecimiento persistente de la remuneración puede indicar que la presión inflacionaria solo disminuirá gradualmente.",
-          "uncertainty": "El índice mide los costes de los empleadores, no los ingresos netos que reciben los hogares, y los resultados ajustados por inflación dependen de la medida de precios utilizada. Los promedios nacionales también pueden ocultar grandes diferencias entre sectores, ocupaciones y regiones. Un dato trimestral no confirma una tendencia duradera.",
-          "watch": "Observe las próximas publicaciones sobre salarios, prestaciones y productividad, junto con los datos de contratación, desempleo y precios de los servicios, para evaluar si los costes laborales están resultando más fáciles de absorber para las empresas.",
+          "title": "UPS在重组费用影响下上调业绩展望",
+          "summary": "这家包裹运输商报告营收广泛增长并上调展望，但转型和减值费用影响了会计口径下的盈利。",
+          "impact": "更强的配送需求和网络效率可能支持商业运输能力，但重组费用也表明，报告利润与现金收益情况并不相同。",
+          "what": "UPS提供国内、国际和供应链物流服务；管理层提到高端业务增长和网络效率，同时公告单独列出了转型费用和商誉减值。",
+          "why": "即使货运量表现不均衡，每件包裹的更高营收也可能改善利润率，但重组和资产费用会减少报告利润。",
+          "uncertainty": "展望是管理层指引，并非已经实现的业绩，仍会受到燃料、劳动力、贸易和客户集中度的影响。",
+          "watch": "关注运输量、调整后与美国通用会计准则口径下的营业利润，以及实际自由现金流。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variación trimestral de la remuneración de los trabajadores civiles"
+              "label": "季度合并营收"
             },
             {
               "id": "m2",
-              "label": "Variación trimestral de los salarios de los trabajadores civiles"
+              "label": "季度美国通用会计准则净利润"
             },
             {
               "id": "m3",
-              "label": "Variación trimestral del coste de las prestaciones de los trabajadores civiles"
+              "label": "全年营收指引"
             },
             {
               "id": "m4",
-              "label": "Variación anual de la remuneración de los trabajadores civiles"
-            },
-            {
-              "id": "m5",
-              "label": "Variación anual del salario real del sector privado"
+              "label": "全年调整后自由现金流指引"
             }
           ]
         },
         {
-          "id": "f6",
-          "title": "Las encuestas empresariales de China vuelven a terreno de contracción",
-          "summary": "Las encuestas oficiales de China mostraron un debilitamiento de la actividad manufacturera, no manufacturera y empresarial general, con una pérdida de impulso en la producción y los pedidos.",
-          "impact": "Las señales de menor demanda pueden perjudicar los volúmenes industriales, el empleo y la capacidad de las empresas para fijar precios, aunque las expectativas sigan siendo más resistentes que la actividad actual.",
-          "what": "Las encuestas de gestores de compras recogen respuestas mensuales de empresas manufactureras, constructoras y de servicios. Los valores inferiores al umbral de expansión indican que la actividad disminuyó frente al mes anterior, no una caída absoluta de la producción. El indicador principal de manufactura bajó, mientras la producción y los nuevos pedidos también entraron en terreno de contracción. La actividad no manufacturera se debilitó, con una construcción especialmente floja y unos servicios cercanos al estancamiento. El indicador compuesto señala que la producción y las operaciones empresariales generales se desaceleraron.",
-          "why": "Los nuevos pedidos influyen en los futuros programas de las fábricas, las compras de materias primas, la demanda de transporte y la dotación de personal. La debilidad de la construcción puede afectar al acero, el cemento, la maquinaria y los proveedores locales de servicios. Una menor demanda de servicios puede limitar la capacidad para fijar precios y los ingresos de las empresas orientadas a los hogares. Estas encuestas se publican antes que muchos datos económicos observados, por lo que son señales tempranas útiles, pero describen la dirección y la amplitud, no el tamaño de la producción económica.",
-          "uncertainty": "Las respuestas a las encuestas pueden verse afectadas por días festivos, ajustes estacionales y cambios temporales en el momento de los pedidos. Los indicadores no miden directamente el producto interior bruto, el beneficio empresarial ni el flujo de efectivo. Las diferencias entre sectores también significan que los fabricantes vinculados a la tecnología pueden comportarse de manera distinta a las empresas relacionadas con el sector inmobiliario y las materias primas.",
-          "watch": "Observe la producción industrial, las ventas minoristas, la inversión en activos fijos, la actividad inmobiliaria, las exportaciones y los componentes de pedidos y empleo de la próxima encuesta para confirmar un cambio o una reversión.",
+          "id": "f5",
+          "title": "中国经济活动指标走弱",
+          "summary": "官方采购经理人调查显示，制造业和非制造业活动均低于扩张阈值。",
+          "impact": "报告中的订单和产出走弱，意味着工业需求、服务业活动、定价能力和企业规划仍承受压力。",
+          "what": "该调查覆盖制造业和非制造业企业，并报告活动、生产、新订单及就业相关指标。",
+          "why": "广泛放缓可能抑制营收增长和资本开支，而需求疲软可能限制供应商利润率的修复。",
+          "uncertainty": "采购经理人指数属于扩散调查，可能出现波动；它是早期信号，并非产出或利润的直接衡量指标。",
+          "watch": "关注工业增加值、零售销售、企业利润、信贷增长和下一次采购经理人指数发布。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice de gestores de compras del sector manufacturero"
+              "label": "制造业采购经理人指数"
             },
             {
               "id": "m2",
-              "label": "Variación mensual del índice manufacturero"
+              "label": "制造业采购经理人指数月度变化"
             },
             {
               "id": "m3",
-              "label": "Índice de producción manufacturera"
+              "label": "非制造业商务活动指数"
             },
             {
               "id": "m4",
-              "label": "Índice de nuevos pedidos manufactureros"
-            },
-            {
-              "id": "m5",
-              "label": "Índice de actividad no manufacturera"
-            },
-            {
-              "id": "m6",
-              "label": "Índice compuesto de producción"
+              "label": "综合采购经理人指数产出指数"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版では米国と中国の動向を扱います。各公表日を確認してください。直近の企業報告は背景解説として掲載しています。",
+      "status": "この版では、米国と中国の動きを扱います。各公表日を確認してください。最近の企業報告は、背景を説明する資料として掲載しています。",
       "marketSummary": {
-        "us": "対象指数はいずれも、確認済みの直近取引で下落しました。日付付きの終値はその取引時点のもので、現在の取引状況ではありません。",
-        "cn": "対象指数はいずれも、確認済みの直近取引で下落しました。日付付きの終値はその取引時点のもので、現在の取引状況ではありません。"
+        "us": "追跡対象の指数は、直近の確認済み取引で下落しました。記載された終値はその取引時点のもので、現在の取引状況を示すものではありません。",
+        "cn": "一部の終値は確認できませんでした。確認できた各指数には、それぞれの取引日を付しています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "アマゾン、クラウド成長の加速と巨額インフラ投資が並行",
-          "summary": "アマゾンはクラウド部門を中心に幅広い売上成長を報告しました。連結営業利益も拡大し、会計上の利益は引き続き大きな規模でした。",
-          "impact": "クラウド需要の拡大は利益の柱を支えます。ただし、例外的に大きなインフラ投資があるため、営業活動によるキャッシュ創出が、そのまま自由に使える資金になるわけではありません。",
-          "what": "アマゾンはオンラインストア、マーケットプレイス、広告、定額サービス、世界規模のクラウド基盤を運営しています。提出資料によると、クラウド売上は急速に伸び、事業別営業利益の主な源泉となりました。小売事業も黒字を維持しました。キャッシュフロー計算書では営業活動による堅調なキャッシュが示されましたが、流動性に関する説明では、技術インフラや物流能力の増強に伴う現金ベースの設備投資が、それを大きく上回りました。純利益は前年同期をやや下回りました。前年同期には本業以外の投資関連利益が含まれていたためです。",
-          "why": "クラウドの成長が重要なのは、コンピューティング基盤の収益構造が小売とは異なり、顧客利用の増加に伴って連結利益率を支えられるためです。一方、データセンターにはサーバー、ネットワーク機器、電力、施設への多額の先行投資が必要です。この支出は機器供給会社や建設会社に恩恵をもたらしますが、会計上の利益が好調でも、債務削減、買収、株主還元に使える資金を減らします。",
-          "uncertainty": "クラウド需要は、顧客のコスト最適化、契約価格、競争によって変化します。設備計画は完成まで時間がかかり、収益性は将来の稼働率に左右されます。運転資本や資金調達による資金の動きも、事業実績と投資後に残る資金の関係を分かりにくくする場合があります。",
-          "watch": "クラウド売上と営業利益、現金ベースの設備投資、データセンター稼働率に関する説明、営業キャッシュフローがインフラ投資をより余裕を持って賄えるようになるかに注目です。",
+          "title": "米連邦準備制度は金融政策を引き締め的に維持",
+          "summary": "中央銀行は政策設定を据え置き、支出は底堅い一方、インフレは高い水準にあると説明しました。",
+          "impact": "借入コストは、家計、商業借り手、金利に敏感な株式のバリュエーションにとって引き続き重しとなります。",
+          "what": "委員会は政策金利のレンジを維持し、十分な準備預金の枠組みを継続しました。",
+          "why": "金利の安定は金融機関を支えますが、債務の借り換えや事業拡大の資金調達を行う企業にとって、金融環境は厳しいままです。",
+          "uncertainty": "声明は、今後の変更時期について約束しておらず、インフレと外部リスクをめぐる不確実性が続いていると指摘しています。",
+          "watch": "今後発表されるインフレ、雇用、支出の指標を確認し、政策姿勢を変える根拠があるかを見ます。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期純売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期純利益"
-            },
-            {
-              "id": "m3",
-              "label": "四半期営業キャッシュフロー"
-            },
-            {
-              "id": "m4",
-              "label": "四半期クラウド売上成長率"
-            },
-            {
-              "id": "m5",
-              "label": "四半期の現金ベース設備投資"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "インテル、売上高と利益率が改善し、キャッシュ創出も強まる",
-          "summary": "インテルは、パソコン需要の弱さをサーバー需要が補い、売上高の増加、報告ベースの売上総利益率の改善、営業キャッシュフローの黒字を達成しました。",
-          "impact": "製品の採算性とキャッシュ創出の改善により、製造や製品開発へ資金を振り向けやすくなります。ただし、ファウンドリー事業の損失と市場の景気循環は、引き続き大きな制約です。",
-          "what": "インテルはプロセッサーを設計し、先端半導体工場を運営しています。製品はパソコン、データセンター、新しいコンピューティング分野で使われます。最新の報告では、売上高と売上総利益が増え、インテルに帰属する利益も黒字でした。営業キャッシュフローも改善しました。経営陣は、サーバー向けプロセッサーと供給拡大が勢いを支えたと説明する一方、パソコン市場の低迷が続く可能性を警告しました。ファウンドリー事業は社内外の取引が増えても赤字が続き、全社的な改善が事業全体に均等には広がっていないことを示しました。",
-          "why": "半導体製造では、新しい生産能力が販売可能な製品を生み出す前から、継続的な支出が必要です。売上総利益率と営業キャッシュフローの改善により、工場、製造技術、製品投入へ回せる社内資金が増えます。サーバー需要の拡大は、製造装置、メモリー、ネットワーク機器、電源機器の供給会社にも恩恵をもたらす可能性があります。一方、パソコン需要の弱さは、小売会社、部品メーカー、受託製造会社の販売量を圧迫する可能性があります。",
-          "uncertainty": "報告利益の一部には、投資や本業以外の項目が含まれます。製造実績は歩留まり、製品構成、顧客の採用状況に左右されます。ファウンドリー事業は固定費が大きく、キャッシュ創出は在庫、顧客からの入金、設備投資によって大きく変動する可能性があります。",
-          "watch": "サーバー売上高、ファウンドリー事業の営業損失、製造歩留まり、製品供給、パソコン需要、報告利益が持続的な営業キャッシュフローにつながるかに注目です。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期純売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期のインテル帰属利益"
-            },
-            {
-              "id": "m3",
-              "label": "四半期営業キャッシュフロー"
-            },
-            {
-              "id": "m4",
-              "label": "四半期売上総利益率"
-            },
-            {
-              "id": "m5",
-              "label": "四半期売上高成長率"
+              "label": "フェデラルファンド金利の中央値"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "米国の労働コストは上昇が続く一方、民間部門の実質賃金は低下",
-          "summary": "雇用主が負担する報酬コストは引き続き上昇し、直近の四半期では福利厚生費の伸びが賃金を上回りました。",
-          "impact": "労働コストの持続的な上昇は家計所得を支える可能性がありますが、企業の利益率、サービス価格、金融政策判断への圧力が続く可能性もあります。",
-          "what": "雇用コスト指数は、雇用構成の変化による影響を抑えながら、賃金、給与、福利厚生費を追跡します。公式発表では、民間企業と公的部門を合わせた報酬が四半期ベースで引き続き増え、福利厚生費の伸びが賃金を上回りました。年間の報酬の伸びも堅調でしたが、物価調整後の民間部門の賃金は低下しました。これは、雇用主の名目負担が増える一方、働く人の購買力が必ずしも高まっていないことを示します。",
-          "why": "人件費は、サービス業、製造業、病院、学校、地方政府にとって主要なコストです。報酬の増加は働く人の所得を増やし、個人消費を支える可能性があります。一方、企業は値上げ、利益率の低下、人員採用の抑制、自動化投資で対応する場合があります。福利厚生費は給与明細では見えにくくても、雇用主が負担するため重要です。政策担当者にとって、報酬の持続的な増加は、インフレ圧力の低下が緩やかにしか進まない可能性を示します。",
-          "uncertainty": "この指数が測るのは雇用主のコストであり、家計の手取り収入ではありません。物価調整後の結果は、使用する物価指標によって変わります。全国平均では、業種、職種、地域ごとの大きな違いが見えにくくなります。単独の四半期データだけでは、持続的な傾向とは判断できません。",
-          "watch": "今後の賃金、福利厚生、生産性の発表に加え、採用、失業、サービス価格のデータを確認し、企業が労働コストを吸収しやすくなっているかに注目です。",
+          "title": "UPS、再編費用がある中でも見通しを引き上げ",
+          "summary": "小口配送会社は全体として増収を報告し、見通しを引き上げました。ただし、会計上の利益は事業変革費用と減損費用の影響を受けました。",
+          "impact": "配送需要の強さとネットワーク効率の改善は企業向け配送能力を支える可能性があります。一方、再編費用は、報告利益と現金面の実態が異なることを示しています。",
+          "what": "UPSは国内、国際、サプライチェーンの物流を手がけています。経営陣は高付加価値サービスの成長とネットワーク効率を挙げ、発表資料では事業変革費用とのれんの減損も別途示しました。",
+          "why": "荷物一個当たりの収入が増えれば、配送量にばらつきがあっても利益率が改善する可能性があります。ただし、再編費用と資産関連費用は報告利益を押し下げます。",
+          "uncertainty": "見通しは経営陣によるガイダンスであり、実現した業績ではありません。燃料、労働、貿易、顧客集中の影響も受けます。",
+          "watch": "配送量、調整後とGAAPベースの営業利益、実現したフリーキャッシュフローを確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期の民間・公的部門報酬変化率"
+              "label": "四半期連結売上高"
             },
             {
               "id": "m2",
-              "label": "四半期の民間・公的部門賃金変化率"
+              "label": "四半期GAAPベースの純利益"
             },
             {
               "id": "m3",
-              "label": "四半期の民間・公的部門福利厚生費変化率"
+              "label": "通期売上高ガイダンス"
             },
             {
               "id": "m4",
-              "label": "年間の民間・公的部門報酬変化率"
-            },
-            {
-              "id": "m5",
-              "label": "年間の民間部門実質賃金変化率"
+              "label": "通期調整後フリーキャッシュフローガイダンス"
             }
           ]
         },
         {
-          "id": "f6",
-          "title": "中国の景況調査、再び縮小圏へ",
-          "summary": "中国の公式調査では、製造業、非製造業、事業活動全体が弱まり、生産と受注の勢いも鈍化しました。",
-          "impact": "需要の弱さを示す動きは、足元の活動よりも先行き期待が底堅い場合でも、工業生産量、雇用、企業の価格決定力を圧迫する可能性があります。",
-          "what": "購買担当者調査は、製造業、建設業、サービス業から毎月回答を集めます。景気拡大と縮小の分かれ目を下回る数値は、前月から活動が低下したことを示しますが、生産量自体が絶対的に減ったことを意味するわけではありません。製造業の総合指数は低下し、生産と新規受注も縮小圏に入りました。非製造業も弱まり、特に建設業が低調で、サービス業は停滞に近い状態でした。総合指数は、事業全体の生産・営業活動が鈍化したことを示しています。",
-          "why": "新規受注は、今後の工場の生産計画、原材料の購入、貨物需要、人員配置に影響します。建設活動の弱さは、鉄鋼、セメント、機械、地域のサービス会社に影響する可能性があります。サービス需要の低迷は、価格決定力や家計向け企業の売上高を抑える可能性があります。これらの調査は多くの実績データより早く公表されるため、早期の手掛かりとして役立ちます。ただし、示すのは方向性と広がりであり、経済生産の規模ではありません。",
-          "uncertainty": "回答は祝日、季節調整、受注時期の一時的なずれに左右される場合があります。これらの指標は、国内総生産、企業利益、キャッシュフローを直接測るものではありません。業種間の違いもあるため、技術関連メーカーは、不動産関連企業や資源を多く使う企業とは異なる動きをする可能性があります。",
-          "watch": "鉱工業生産、小売売上高、固定資産投資、不動産活動、輸出に加え、次回調査の受注と雇用の項目を確認し、今回の動きが裏付けられるか反転するかに注目です。",
+          "id": "f5",
+          "title": "中国の景況指標が軟化",
+          "summary": "政府の購買担当者景気指数調査では、製造業と非製造業の活動が拡大・縮小の境目を下回りました。",
+          "impact": "報告された受注と生産の弱さは、産業需要、サービス活動、価格決定力、企業の計画に引き続き圧力があることを示します。",
+          "what": "この調査は製造業と非製造業の企業を対象とし、活動、生産、新規受注、雇用関連の指標を報告します。",
+          "why": "幅広い減速は売上成長と設備投資を抑える可能性があります。また、需要の弱さは供給企業の利益率回復を制限する可能性があります。",
+          "uncertainty": "PMIは景況感の広がりを示す調査で、変動する可能性があります。生産や利益を直接測るものではなく、早期のシグナルです。",
+          "watch": "鉱工業生産、小売売上高、企業利益、信用の伸び、次回のPMI発表を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "製造業購買担当者指数"
+              "label": "製造業PMI"
             },
             {
               "id": "m2",
-              "label": "製造業指数の前月比変化"
+              "label": "製造業PMIの前月差"
             },
             {
               "id": "m3",
-              "label": "製造業生産指数"
-            },
-            {
-              "id": "m4",
-              "label": "製造業新規受注指数"
-            },
-            {
-              "id": "m5",
               "label": "非製造業活動指数"
             },
             {
-              "id": "m6",
-              "label": "総合産出指数"
+              "id": "m4",
+              "label": "総合PMI産出指数"
             }
           ]
         }
       ]
     },
-    "pt": {
-      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; os relatórios recentes de empresas são apresentados como explicações de contexto.",
+    "es": {
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Comprueba la fecha de publicación de cada artículo; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
+        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Amazon combina aceleração da nuvem com altos gastos em infraestrutura",
-          "summary": "A Amazon registrou crescimento amplo das vendas, liderado por sua plataforma de nuvem, enquanto o lucro operacional consolidado aumentou e o lucro contábil permaneceu relevante.",
-          "impact": "A demanda mais forte por nuvem sustenta o principal motor de lucro, mas os gastos excepcionais com infraestrutura significam que a geração de caixa operacional divulgada não se transforma diretamente em caixa de uso livre.",
-          "what": "A Amazon opera lojas on-line, serviços de marketplace, publicidade, assinaturas e uma plataforma global de computação em nuvem. O documento da empresa mostra que as vendas de nuvem cresceram rapidamente e geraram a maior parte do lucro operacional dos segmentos, enquanto o varejo também permaneceu lucrativo. A demonstração dos fluxos de caixa registra uma geração sólida de caixa operacional, mas a análise de liquidez mostra gastos de capital em caixa muito maiores, devido à expansão da infraestrutura tecnológica e da capacidade de distribuição. O lucro líquido ficou ligeiramente abaixo do trimestre do ano anterior porque a comparação incluía ganhos relacionados a investimentos fora das operações principais.",
-          "why": "O crescimento da nuvem importa porque a infraestrutura de computação tem uma dinâmica econômica diferente da do varejo e pode sustentar as margens consolidadas à medida que o uso pelos clientes aumenta. Ao mesmo tempo, centros de dados exigem altos gastos antecipados com servidores, equipamentos de rede, energia e instalações. Esses gastos beneficiam fornecedores de equipamentos e empresas de construção, mas também reduzem o caixa disponível para diminuir dívidas, fazer aquisições ou distribuir recursos aos acionistas, mesmo quando o lucro contábil é forte.",
-          "uncertainty": "A demanda por nuvem pode mudar conforme a otimização dos clientes, os preços dos contratos e a concorrência. Projetos de capital têm prazos longos, e seus retornos dependem da utilização futura. Variações trimestrais no capital de giro e nos fluxos de financiamento também podem dificultar a avaliação da relação entre o desempenho operacional e o caixa disponível após os investimentos.",
-          "watch": "Acompanhe as vendas e o lucro operacional da nuvem, os gastos de capital em caixa, os comentários sobre a utilização dos centros de dados e se o fluxo de caixa operacional começa a cobrir o programa de infraestrutura com mais folga.",
+          "title": "La Reserva Federal mantiene una política restrictiva",
+          "summary": "El banco central mantuvo sin cambios su orientación de política mientras describía el gasto como resiliente y la inflación como elevada.",
+          "impact": "Los costes de endeudamiento siguen siendo una limitación para los hogares, los prestatarios comerciales y las valoraciones de acciones sensibles a los tipos de interés.",
+          "what": "El comité mantuvo su rango de política y continuó con su marco de reservas abundantes.",
+          "why": "Los tipos estables apoyan a los prestamistas, pero mantienen restrictivas las condiciones de financiación para las empresas que refinancian deuda o financian su expansión.",
+          "uncertainty": "El comunicado no se compromete con el momento de un futuro cambio y señala la incertidumbre persistente en torno a la inflación y los riesgos externos.",
+          "watch": "Observa los próximos datos de inflación, empleo y gasto en busca de señales que puedan cambiar la orientación de la política monetaria.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Vendas líquidas trimestrais"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro líquido trimestral"
-            },
-            {
-              "id": "m3",
-              "label": "Fluxo de caixa operacional trimestral"
-            },
-            {
-              "id": "m4",
-              "label": "Crescimento trimestral das vendas de nuvem"
-            },
-            {
-              "id": "m5",
-              "label": "Gastos de capital trimestrais em caixa"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Intel melhora receita e margem enquanto a geração de caixa se fortalece",
-          "summary": "A Intel apresentou receita maior, margem bruta divulgada mais ampla e fluxo de caixa operacional positivo, pois a demanda por servidores compensou a fraqueza dos computadores pessoais.",
-          "impact": "A melhora da rentabilidade dos produtos e da geração de caixa aumenta a capacidade da Intel de financiar a fabricação e o desenvolvimento de produtos, embora os prejuízos da operação de fundição e os ciclos do mercado continuem sendo restrições relevantes.",
-          "what": "A Intel projeta processadores e opera fábricas avançadas de semicondutores, com produtos destinados a computadores pessoais, centros de dados e novas cargas de trabalho computacionais. O relatório mais recente mostra crescimento da receita, lucro bruto mais forte e lucro positivo atribuível à empresa. O fluxo de caixa operacional também melhorou. A administração associou o avanço aos processadores para servidores e à oferta adicional, mas alertou que a desaceleração dos computadores pessoais pode persistir. A operação de fundição continuou registrando prejuízo, apesar da maior atividade interna e externa, mostrando que a melhora consolidada não está distribuída igualmente pelo negócio.",
-          "why": "A fabricação de semicondutores exige gastos contínuos antes que a nova capacidade produza chips comercializáveis. Margem bruta e fluxo de caixa operacional maiores fornecem mais recursos internos para fábricas, tecnologias de processo e lançamentos de produtos. A demanda mais forte por servidores também pode beneficiar fornecedores de equipamentos de fabricação, memória, redes e energia. Porém, a demanda fraca por computadores pessoais pode pressionar os volumes de varejistas, fabricantes de componentes e fabricantes terceirizados.",
-          "uncertainty": "Parte do lucro divulgado reflete investimentos e outros itens não operacionais, enquanto os resultados da fabricação dependem do rendimento produtivo, da combinação de produtos e da adoção pelos clientes. A operação de fundição tem custos fixos elevados, e a geração de caixa pode variar fortemente com estoques, pagamentos de clientes e gastos de capital.",
-          "watch": "Acompanhe a receita de servidores, os prejuízos operacionais da fundição, o rendimento da fabricação, a disponibilidade de produtos, a demanda por computadores pessoais e a conversão do lucro divulgado em fluxo de caixa operacional sustentável.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita líquida trimestral"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro trimestral atribuível à Intel"
-            },
-            {
-              "id": "m3",
-              "label": "Fluxo de caixa operacional trimestral"
-            },
-            {
-              "id": "m4",
-              "label": "Margem bruta trimestral"
-            },
-            {
-              "id": "m5",
-              "label": "Crescimento trimestral da receita"
+              "label": "Punto medio del tipo de los fondos federales"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "Custos do trabalho nos Estados Unidos continuam subindo enquanto salários reais do setor privado enfraquecem",
-          "summary": "Os custos de remuneração dos empregadores continuaram subindo, com os benefícios crescendo mais rapidamente que os salários no trimestre mais recente.",
-          "impact": "O crescimento persistente dos custos do trabalho pode sustentar a renda das famílias, mas também pode manter a pressão sobre as margens empresariais, os preços dos serviços e as decisões de política monetária.",
-          "what": "O Índice de Custo do Emprego acompanha salários, remunerações e custos de benefícios, controlando mudanças na composição do emprego. A divulgação oficial mostra crescimento trimestral contínuo da remuneração dos trabalhadores civis, com os custos de benefícios avançando mais que os salários. O crescimento anual da remuneração permaneceu firme, enquanto os salários ajustados pela inflação no setor privado caíram. Essa combinação sugere que os empregadores ainda estão pagando mais em termos nominais, embora não haja garantia de ganhos de poder de compra para os trabalhadores.",
-          "why": "O trabalho é um custo importante para empresas de serviços, fabricantes, hospitais, escolas e governos locais. O aumento da remuneração pode sustentar o consumo porque os trabalhadores recebem mais renda, mas as empresas podem reagir elevando preços, aceitando margens menores, reduzindo o ritmo das contratações ou investindo em automação. Os custos de benefícios importam porque são pagos pelos empregadores, mesmo sendo menos visíveis nos contracheques. Para os responsáveis pela política econômica, o crescimento persistente da remuneração pode indicar que a pressão inflacionária diminuirá apenas gradualmente.",
-          "uncertainty": "O índice mede os custos dos empregadores, não a renda líquida recebida pelas famílias, e os resultados ajustados pela inflação dependem da medida de preços utilizada. As médias nacionais também podem esconder grandes diferenças entre setores, ocupações e regiões. Uma leitura trimestral não estabelece uma tendência duradoura.",
-          "watch": "Acompanhe as próximas divulgações sobre salários, benefícios e produtividade, além dos dados de contratação, desemprego e preços dos serviços, para avaliar se os custos do trabalho estão ficando mais fáceis de absorver pelas empresas.",
+          "title": "UPS eleva sus previsiones pese a los costes de reestructuración",
+          "summary": "La empresa de paquetería informó de un crecimiento generalizado de la facturación y elevó sus previsiones, aunque los beneficios contables absorbieron costes de transformación y deterioros de activos.",
+          "impact": "Una demanda más sólida de entregas y una mayor eficiencia de la red podrían respaldar la capacidad de envíos empresariales, mientras que los costes de reestructuración muestran que el beneficio declarado y la generación de efectivo pueden diferir.",
+          "what": "UPS gestiona logística nacional, internacional y de cadenas de suministro; la dirección citó el crecimiento de servicios prémium y la eficiencia de la red, mientras que el comunicado identificó por separado los costes de transformación y un deterioro del fondo de comercio.",
+          "why": "Una mayor facturación por paquete puede mejorar los márgenes aunque los volúmenes de envíos sean desiguales, pero los costes de reestructuración y los cargos por activos reducen los beneficios declarados.",
+          "uncertainty": "Las previsiones reflejan la orientación de la dirección, no resultados realizados, y siguen expuestas a los costes de combustible, la mano de obra, el comercio y la concentración de clientes.",
+          "watch": "Observa los volúmenes de envíos, el beneficio operativo ajustado frente al beneficio operativo conforme a GAAP y el flujo de caja libre realizado.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação trimestral da remuneração dos trabalhadores civis"
+              "label": "Ingresos consolidados trimestrales"
             },
             {
               "id": "m2",
-              "label": "Variação trimestral dos salários dos trabalhadores civis"
+              "label": "Beneficio neto trimestral conforme a GAAP"
             },
             {
               "id": "m3",
-              "label": "Variação trimestral dos custos de benefícios dos trabalhadores civis"
+              "label": "Previsión de ingresos para el ejercicio completo"
             },
             {
               "id": "m4",
-              "label": "Variação anual da remuneração dos trabalhadores civis"
-            },
-            {
-              "id": "m5",
-              "label": "Variação anual dos salários reais no setor privado"
+              "label": "Previsión de flujo de caja libre ajustado para el ejercicio completo"
             }
           ]
         },
         {
-          "id": "f6",
-          "title": "Pesquisas empresariais da China voltam ao território de contração",
-          "summary": "As pesquisas oficiais da China mostraram enfraquecimento da indústria, dos setores não industriais e da atividade empresarial geral, com perda de ritmo na produção e nos pedidos.",
-          "impact": "Sinais de demanda mais fraca podem pesar sobre os volumes industriais, o emprego e o poder de precificação das empresas, mesmo com as expectativas mais resistentes que a atividade atual.",
-          "what": "As pesquisas dos gerentes de compras coletam mensalmente respostas de empresas da indústria, construção e serviços. Leituras abaixo do limite de expansão indicam que a atividade caiu em relação ao mês anterior, e não uma queda absoluta da produção. O indicador principal da indústria recuou, enquanto a produção e os novos pedidos também entraram em território de contração. A atividade não industrial enfraqueceu, com a construção particularmente fraca e os serviços próximos da estagnação. O indicador composto mostra desaceleração da produção e das operações empresariais em geral.",
-          "why": "Novos pedidos influenciam os futuros cronogramas das fábricas, as compras de matérias-primas, a demanda por transporte de cargas e o nível de pessoal. A fraqueza da construção pode afetar aço, cimento, máquinas e prestadores locais de serviços. A demanda mais fraca por serviços pode limitar o poder de precificação e a receita de empresas voltadas às famílias. Essas pesquisas são divulgadas antes de muitos dados concretos, tornando-se sinais iniciais úteis, mas descrevem a direção e a abrangência da atividade, não o tamanho da produção econômica.",
-          "uncertainty": "As respostas às pesquisas podem ser afetadas por feriados, ajustes sazonais e pelo momento temporário dos pedidos. Os indicadores não medem diretamente o produto interno bruto, o lucro das empresas ou o fluxo de caixa. As diferenças entre setores também significam que fabricantes ligados à tecnologia podem ter desempenho diferente de empresas ligadas ao setor imobiliário e de atividades intensivas em commodities.",
-          "watch": "Acompanhe a produção industrial, as vendas no varejo, o investimento em ativos fixos, a atividade imobiliária, as exportações e os componentes de pedidos e emprego da próxima pesquisa em busca de confirmação ou reversão.",
+          "id": "f5",
+          "title": "Los indicadores de actividad de China se debilitan",
+          "summary": "La encuesta oficial de gestores de compras mostró que la actividad manufacturera y no manufacturera se situó por debajo del umbral de expansión.",
+          "impact": "La debilidad de los pedidos y la producción declarados implica una presión persistente sobre la demanda industrial, la actividad de servicios, el poder de fijación de precios y la planificación empresarial.",
+          "what": "La encuesta incluye empresas manufactureras y no manufactureras, y comunica indicadores de actividad, producción, nuevos pedidos y empleo.",
+          "why": "Una desaceleración generalizada puede limitar el crecimiento de los ingresos y el gasto de capital, mientras que una demanda débil puede frenar la recuperación de los márgenes de los proveedores.",
+          "uncertainty": "El PMI es una encuesta de difusión y puede ser volátil; constituye una señal temprana, no una medición directa de la producción o los beneficios.",
+          "watch": "Observa la producción industrial, las ventas minoristas, los beneficios empresariales, el crecimiento del crédito y la próxima publicación del PMI.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice de gerentes de compras da indústria"
+              "label": "PMI manufacturero"
             },
             {
               "id": "m2",
-              "label": "Variação mensal do índice da indústria"
+              "label": "Variación mensual del PMI manufacturero"
             },
             {
               "id": "m3",
-              "label": "Índice de produção da indústria"
+              "label": "Índice de actividad no manufacturera"
             },
             {
               "id": "m4",
-              "label": "Índice de novos pedidos da indústria"
-            },
-            {
-              "id": "m5",
-              "label": "Índice de atividade não industrial"
-            },
-            {
-              "id": "m6",
-              "label": "Índice composto de produção"
+              "label": "Índice compuesto de producción del PMI"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的動態。請留意各項發布日期；近期公司報告是作為背景解說。",
+      "status": "本期涵蓋美國與中國的發展。請查看各則內容的發布日期；近期公司報告以背景解說呈現。",
       "marketSummary": {
-        "us": "追蹤的指數在最近經核實的交易時段皆下跌。所列日期的收盤資料描述的是當時的交易時段，並非目前交易狀況。",
-        "cn": "追蹤的指數在最近經核實的交易時段皆下跌。所列日期的收盤資料描述的是當時的交易時段，並非目前交易狀況。"
+        "us": "追蹤的指數在最近經核實的交易時段均下跌。標示日期的收盤價僅反映該交易時段，不代表目前交易情況。",
+        "cn": "部分收盤觀察無法核實。每個可取得的指數均保留其自身的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "亞馬遜雲端業務加速成長，同時大舉投入基礎設施",
-          "summary": "亞馬遜各業務銷售普遍成長，主要由雲端平台帶動；合併營業利益擴大，帳面獲利仍相當可觀。",
-          "impact": "更強的雲端需求有助於支撐獲利引擎，但龐大的基礎設施支出，代表財報所示的營業現金產生能力不會直接等同可自由運用的現金。",
-          "what": "亞馬遜經營網路商店、市集服務、廣告、訂閱服務與全球雲端運算平台。申報資料顯示，雲端銷售快速成長，並貢獻大部分部門營業利益，零售業務也維持獲利。現金流量表顯示營業活動帶來穩健現金，但流動性說明也顯示，隨著亞馬遜擴充科技基礎設施與履約能力，現金資本支出規模更為龐大。由於去年同期包含核心營運以外的投資相關收益，最新季度淨利略低於去年同期。",
-          "why": "雲端成長很重要，因為運算基礎設施的獲利模式不同於零售，隨著客戶用量增加，可支撐整體利潤率。同時，資料中心需要預先大筆投入伺服器、網路設備、電力與設施。這些支出會流向設備供應商與營建業者，但即使帳面獲利強勁，也會減少可用於降低債務、收購或分配給股東的現金。",
-          "uncertainty": "雲端需求可能因客戶成本最佳化、合約定價與競爭而改變。資本計畫的準備期很長，回報取決於未來使用率。季度營運資金與融資現金流也可能模糊營運表現與投資後可用現金之間的關係。",
-          "watch": "留意雲端銷售與營業利益、現金資本支出、資料中心使用率相關說明，以及營業現金流能否更充裕地支應基礎設施計畫。",
+          "title": "聯準會維持限制性政策",
+          "summary": "央行維持政策設定不變，同時表示支出仍具韌性，通膨仍處高位。",
+          "impact": "借貸成本持續限制家庭、商業借款人及對利率敏感的股票估值。",
+          "what": "聯邦公開市場委員會維持政策利率區間，並持續採用充足準備金制度。",
+          "why": "穩定的利率有利於放款機構，但會讓企業再融資或資助擴張時面臨緊縮的融資條件。",
+          "uncertainty": "聲明未承諾未來調整政策的時間，並指出通膨與外部風險仍存在不確定性。",
+          "watch": "留意即將公布的通膨、就業與支出數據，觀察是否出現可能改變政策立場的證據。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度淨銷售額"
-            },
-            {
-              "id": "m2",
-              "label": "季度淨利潤"
-            },
-            {
-              "id": "m3",
-              "label": "季度營業現金流"
-            },
-            {
-              "id": "m4",
-              "label": "季度雲端銷售成長率"
-            },
-            {
-              "id": "m5",
-              "label": "季度現金資本支出"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "英特爾營收與利潤率改善，現金產生能力轉強",
-          "summary": "伺服器需求抵銷個人電腦市場疲弱，使英特爾營收增加、財報毛利率擴大，並產生正值的營業現金流。",
-          "impact": "產品獲利能力與現金產生能力改善，有助於英特爾支應製造與產品開發，但晶圓代工虧損及市場循環仍是重要限制。",
-          "what": "英特爾設計處理器並經營先進半導體工廠，產品用於個人電腦、資料中心與新興運算需求。最新報告顯示營收成長、毛利增加，歸屬公司的淨利為正，營業現金流也有所改善。管理層將動能歸因於伺服器處理器與供應增加，同時警告個人電腦市場低迷可能持續。儘管內部與外部業務活動增加，晶圓代工業務仍然虧損，顯示整體改善並未平均分布於各項業務。",
-          "why": "半導體製造需要持續投入資金，新產能之後才能生產可銷售的晶片。較高的毛利率與營業現金流，可提供更多內部資金，用於工廠、製程技術與產品推出。更強的伺服器需求也可能帶動製造設備、記憶體、網路與電力設備供應商。個人電腦需求疲弱則可能壓低零售商、零組件製造商與代工廠的銷量。",
-          "uncertainty": "部分財報獲利來自投資與其他非營業項目，製造業績則取決於良率、產品組合及客戶採用情況。晶圓代工業務的固定成本龐大，現金產生能力也可能隨庫存、客戶付款與資本支出大幅波動。",
-          "watch": "留意伺服器營收、晶圓代工營業虧損、製造良率、產品供應情況、個人電腦需求，以及財報獲利能否持續轉化為營業現金流。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度淨營收"
-            },
-            {
-              "id": "m2",
-              "label": "季度歸屬英特爾淨利"
-            },
-            {
-              "id": "m3",
-              "label": "季度營業現金流"
-            },
-            {
-              "id": "m4",
-              "label": "季度毛利率"
-            },
-            {
-              "id": "m5",
-              "label": "季度營收成長率"
+              "label": "聯邦基金利率中點"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "美國勞動成本持續上升，民營產業實質工資走弱",
-          "summary": "雇主薪酬成本持續上升，最新季度的福利成本增幅高於工資。",
-          "impact": "勞動成本持續成長可支撐家庭收入，但也可能繼續對企業利潤率、服務價格與貨幣政策決策造成壓力。",
-          "what": "就業成本指數追蹤工資、薪資與福利成本，同時控制就業組成變動的影響。官方資料顯示，非軍職勞工薪酬持續按季成長，福利成本增幅高於工資。年度薪酬成長仍然穩健，但經通膨調整後的民營產業工資下降。這表示雇主支付的名目成本仍在增加，但勞工的購買力不一定改善。",
-          "why": "勞動力是服務業、製造業、醫院、學校與地方政府的重要成本。薪酬上升可增加勞工收入，進而支撐消費支出，但企業也可能透過漲價、接受較低利潤率、減緩招聘或投資自動化來因應。福利成本很重要，因為即使不容易反映在勞工實領薪資中，雇主仍須支付。對政策制定者而言，薪酬持續成長可能代表通膨壓力只會逐步減弱。",
-          "uncertainty": "這項指數衡量的是雇主成本，而非家庭實領收入；經通膨調整後的結果也取決於採用的物價指標。全國平均值可能掩蓋產業、職業與地區之間的巨大差異。季度數據本身不足以確立持久趨勢。",
-          "watch": "留意後續的工資、福利與生產力資料，以及招聘、失業與服務價格資料，以判斷企業是否更容易吸收勞動成本。",
+          "title": "UPS 儘管面臨重組費用仍上調展望",
+          "summary": "這家包裹運輸商公布營收廣泛成長並上調展望，但轉型與減損費用拖累會計獲利。",
+          "impact": "較強的配送需求與網絡效率可能支持商業運輸量能，但重組成本也顯示，帳面獲利與現金經濟效益並不相同。",
+          "what": "UPS 經營國內、國際及供應鏈物流業務；管理層提到高端服務成長與網絡效率，而公司公告也另行列出轉型成本與商譽減損。",
+          "why": "即使貨件量不均，每件包裹較高的營收仍可能改善利潤率；但重組與資產費用會降低帳面獲利。",
+          "uncertainty": "展望是管理層指引，不是已實現的業績，且仍受燃料、勞動力、貿易及客戶集中度影響。",
+          "watch": "留意運輸量、調整後與 GAAP 營業利益，以及實際自由現金流。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非軍職勞工薪酬季度變動"
+              "label": "季度合併營收"
             },
             {
               "id": "m2",
-              "label": "非軍職勞工工資季度變動"
+              "label": "季度 GAAP 淨利潤"
             },
             {
               "id": "m3",
-              "label": "非軍職勞工福利成本季度變動"
+              "label": "全年營收指引"
             },
             {
               "id": "m4",
-              "label": "非軍職勞工薪酬年度變動"
-            },
-            {
-              "id": "m5",
-              "label": "民營產業實質工資年度變動"
+              "label": "全年調整後自由現金流指引"
             }
           ]
         },
         {
-          "id": "f6",
-          "title": "中國企業調查重回收縮區間",
-          "summary": "中國官方調查顯示，製造業、非製造業與整體商業活動轉弱，生產及訂單動能減弱。",
-          "impact": "需求轉弱的訊號可能壓低工業產量、就業與企業定價能力，即使未來預期仍比當前活動更有韌性。",
-          "what": "採購經理人調查每月蒐集製造業、營建業與服務業企業的回覆。讀數低於榮枯分界線，表示活動較前月轉弱，不代表產出水準必然出現絕對下降。製造業總指數下滑，生產與新訂單也進入收縮區間。非製造業活動走弱，其中營建業尤其疲弱，服務業則接近停滯。綜合指標顯示，整體企業生產與經營活動放緩。",
-          "why": "新訂單會影響未來工廠排程、原物料採購、貨運需求與人力配置。營建活動疲弱可能影響鋼鐵、水泥、機械與當地服務供應商。服務需求轉弱可能限制企業定價能力及面向家庭消費者的企業營收。這些調查通常早於許多實際經濟資料發布，因此可作為早期訊號，但反映的是變化方向與涵蓋範圍，而非經濟產出的規模。",
-          "uncertainty": "調查回覆可能受到假期、季節調整與訂單時間暫時變化的影響。這些指標不會直接衡量國內生產毛額、公司利潤或現金流。產業表現也可能分化，因此科技相關製造商的表現可能不同於房地產相關及高度依賴大宗商品的企業。",
-          "watch": "留意工業生產、零售銷售、固定資產投資、房地產活動、出口，以及後續調查中的訂單與就業分項，以確認趨勢是否延續或反轉。",
+          "id": "f5",
+          "title": "中國活動指標走弱",
+          "summary": "官方採購經理人調查顯示，製造業與非製造業活動均低於擴張門檻。",
+          "impact": "回報較弱的訂單與生產，意味著工業需求、服務業活動、定價能力及企業規劃仍承受壓力。",
+          "what": "調查涵蓋製造業與非製造業企業，並公布活動、生產、新訂單及就業相關指標。",
+          "why": "廣泛放緩可能抑制營收成長與資本支出，而需求疲弱也可能限制供應商利潤率的復甦。",
+          "uncertainty": "PMI 是擴散指數調查，可能出現波動；它是早期訊號，而非產出或獲利的直接衡量。",
+          "watch": "留意工業生產、零售銷售、企業獲利、信貸成長及下一次 PMI 公布結果。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "製造業採購經理人指數"
+              "label": "製造業 PMI"
             },
             {
               "id": "m2",
-              "label": "製造業採購經理人指數月度變動"
+              "label": "製造業 PMI 月度變化"
             },
             {
               "id": "m3",
-              "label": "製造業生產指數"
+              "label": "非製造業活動指數"
             },
             {
               "id": "m4",
-              "label": "製造業新訂單指數"
+              "label": "綜合 PMI 產出指數"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios corporativos recentes são apresentados como explicadores de contexto.",
+      "marketSummary": {
+        "us": "Ambos os índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "O Federal Reserve mantém a política monetária restritiva",
+          "summary": "O banco central manteve sua orientação de política inalterada, descrevendo os gastos como resilientes e a inflação como elevada.",
+          "impact": "Os custos de empréstimos continuam sendo uma restrição para famílias, tomadores comerciais e avaliações de ações sensíveis aos juros.",
+          "what": "O comitê manteve sua faixa de política monetária e continuou usando seu sistema de reservas amplas.",
+          "why": "Taxas estáveis apoiam os credores, mas mantêm apertadas as condições de financiamento para empresas que refinanciam dívidas ou financiam expansões.",
+          "uncertainty": "O comunicado não se compromete com o momento de uma futura mudança e destaca a incerteza contínua em torno da inflação e dos riscos externos.",
+          "watch": "Acompanhe os próximos dados de inflação, emprego e gastos em busca de evidências que possam mudar a orientação da política monetária.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ponto médio da taxa dos fundos federais"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "A UPS eleva sua perspectiva apesar dos encargos de reestruturação",
+          "summary": "A transportadora de encomendas registrou crescimento generalizado da receita e elevou sua perspectiva, embora os lucros contábeis tenham absorvido encargos de transformação e perda por redução ao valor recuperável.",
+          "impact": "A demanda mais forte por entregas e a eficiência da rede podem apoiar a capacidade de remessas comerciais, enquanto os custos de reestruturação mostram que o lucro divulgado e a geração de caixa podem diferir.",
+          "what": "A UPS atua em logística doméstica, internacional e de cadeias de suprimentos; a administração citou crescimento de serviços premium e eficiência da rede, enquanto o comunicado identificou separadamente custos de transformação e uma perda por redução ao valor recuperável do ágio.",
+          "why": "Uma receita maior por pacote pode melhorar as margens mesmo quando os volumes de remessas são irregulares, mas os custos de reestruturação e os encargos sobre ativos reduzem o lucro divulgado.",
+          "uncertainty": "A perspectiva é uma orientação da administração, não um resultado realizado, e continua exposta a combustível, mão de obra, comércio e concentração de clientes.",
+          "watch": "Acompanhe os volumes de remessas, o lucro operacional ajustado em comparação com o GAAP e o fluxo de caixa livre realizado.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita consolidada trimestral"
             },
             {
-              "id": "m5",
-              "label": "非製造業商務活動指數"
+              "id": "m2",
+              "label": "Lucro líquido trimestral segundo o GAAP"
             },
             {
-              "id": "m6",
-              "label": "綜合產出指數"
+              "id": "m3",
+              "label": "Orientação de receita para o ano completo"
+            },
+            {
+              "id": "m4",
+              "label": "Orientação de fluxo de caixa livre ajustado para o ano completo"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Os indicadores de atividade da China enfraquecem",
+          "summary": "A pesquisa oficial de gerentes de compras mostrou atividade industrial e não industrial abaixo do nível de expansão.",
+          "impact": "A redução relatada em pedidos e produção indica pressão contínua sobre a demanda industrial, a atividade de serviços, o poder de definir preços e o planejamento corporativo.",
+          "what": "A pesquisa inclui empresas industriais e não industriais e apresenta indicadores de atividade, produção, novos pedidos e emprego.",
+          "why": "Uma desaceleração ampla pode limitar o crescimento da receita e os investimentos, enquanto a demanda fraca pode restringir a recuperação das margens dos fornecedores.",
+          "uncertainty": "O PMI é uma pesquisa de difusão e pode ser volátil; é um sinal antecipado, não uma medida direta de produção ou lucro.",
+          "watch": "Acompanhe a produção industrial, as vendas no varejo, os lucros corporativos, o crescimento do crédito e a próxima divulgação do PMI.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "PMI industrial"
+            },
+            {
+              "id": "m2",
+              "label": "Variação mensal do PMI industrial"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de atividade não industrial"
+            },
+            {
+              "id": "m4",
+              "label": "Índice composto de produção do PMI"
             }
           ]
         }
