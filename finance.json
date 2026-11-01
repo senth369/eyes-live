@@ -1,53 +1,48 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-01T01:08:45.072Z",
-  "generatedAt": "2026-11-01T01:11:57.320Z",
+  "cutoffAt": "2026-11-01T07:31:21.492Z",
+  "generatedAt": "2026-11-01T07:35:50.051Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Exelon third-quarter release",
-      "url": "https://www.exeloncorp.com/newsroom/exelon-reports-third-quarter-2026-results"
+      "label": "Amazon quarterly filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
     },
     {
       "id": "src2",
-      "label": "Exelon release tables",
-      "url": "https://exeloncorporation.gcs-web.com/static-files/040f9e43-facc-4747-bd2f-c223047caf70"
+      "label": "Intel earnings release",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm"
     },
     {
       "id": "src3",
-      "label": "Elevance earnings release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm"
+      "label": "China International Capital quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648780.PDF"
     },
     {
       "id": "src4",
-      "label": "Elevance quarterly filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
-    },
-    {
-      "id": "src5",
-      "label": "Gujing Gongjiu quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642369.PDF"
-    },
-    {
-      "id": "src6",
-      "label": "China official purchasing managers report",
+      "label": "National Bureau of Statistics PMI release",
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
     },
     {
-      "id": "src7",
-      "label": "China market closing report",
+      "id": "src5",
+      "label": "Xinhua Finance mainland market close",
       "url": "https://m.cnfin.com/gs-lb/zixun/20261030/4488836_1.html"
     },
     {
-      "id": "src8",
-      "label": "US market closing report",
+      "id": "src6",
+      "label": "Xinhua Finance United States market close",
       "url": "https://www.cnfin.com/gs-lb/detail/20261031/4489230_1.html"
     },
     {
-      "id": "src9",
-      "label": "CSI three hundred historical table",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "id": "src7",
+      "label": "Nasdaq Composite index page",
+      "url": "https://indexes.nasdaq.com/Index/Breakdown/COMP"
+    },
+    {
+      "id": "src8",
+      "label": "CSI three hundred quote page",
+      "url": "https://search.cnfin.com/quotes?q=%E6%B2%AA%E6%B7%B1300&t=exponent"
     }
   ],
   "markets": [
@@ -55,21 +50,19 @@
       "id": "sp500",
       "sessionDate": "2026-10-30",
       "close": 7580.07,
-      "previousClose": 7720.39,
+      "previousClose": null,
       "changePercent": -1.82,
       "sourceIds": [
-        "src8"
+        "src6"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-10-30",
-      "close": 25436.999,
+      "sessionDate": null,
+      "close": null,
       "previousClose": null,
-      "changePercent": -2.86,
-      "sourceIds": [
-        "src8"
-      ]
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "sse",
@@ -78,18 +71,16 @@
       "previousClose": null,
       "changePercent": -1.44,
       "sourceIds": [
-        "src7"
+        "src5"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-10-30",
-      "close": 3985.5,
-      "previousClose": 4041.84,
-      "changePercent": -1.39,
-      "sourceIds": [
-        "src9"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     }
   ],
   "stories": [
@@ -97,290 +88,976 @@
       "id": "f1",
       "market": "us",
       "category": "earnings",
-      "publishedOn": "2026-10-30",
+      "publishedOn": "2026-10-29",
       "company": {
-        "name": "Exelon",
-        "ticker": "EXC",
-        "exchange": "Nasdaq"
+        "name": "Amazon.com, Inc.",
+        "ticker": "AMZN",
+        "exchange": "NASDAQ"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 0.7,
+          "value": 201944000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1",
-            "src2"
+            "src1"
           ],
-          "evidence": "The release highlights GAAP diluted earnings in its earnings-release highlights and reconciliation tables."
+          "evidence": "The consolidated segment table reports quarterly net sales in millions; the amount is converted to base dollars."
         },
         {
           "id": "m2",
-          "value": 0.87,
+          "value": 20685000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1",
-            "src2"
+            "src1"
           ],
-          "evidence": "The release reports adjusted operating earnings in its highlights and non-GAAP reconciliation."
+          "evidence": "The consolidated income statement reports quarterly net income in millions; the amount is converted to base dollars."
         },
         {
           "id": "m3",
-          "value": 2.91,
+          "value": 168300000000,
+          "unit": "USD",
+          "periodStart": "2025-10-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "The cash-flow reconciliation reports trailing operating cash flow in millions; the amount is converted to base dollars."
+        },
+        {
+          "id": "m4",
+          "value": -42357000000,
+          "unit": "USD",
+          "periodStart": "2025-10-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "The free-cash-flow reconciliation reports trailing operating cash flow less property and equipment purchases in millions; the amount is converted to base dollars."
+        },
+        {
+          "id": "m5",
+          "value": 220000000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-12-31",
           "comparison": "level",
           "basis": "guidance",
           "sourceIds": [
-            "src1",
-            "src2"
+            "src1"
           ],
-          "evidence": "The release narrows full-year adjusted operating earnings guidance; the upper bound appears in the guidance section."
+          "evidence": "The outlook section maintains expected full-year cash capital expenditures of approximately this amount."
         }
       ],
       "sourceIds": [
-        "src1",
-        "src2"
+        "src1"
       ],
-      "evidence": "The release attributes utility earnings strength to updated distribution and transmission recovery rates, customer-serving investment, favorable weather, and higher allowance for funds used during construction; it also identifies storm, interest, depreciation, tax, and contracting-cost pressure."
+      "evidence": "The filing’s segment table shows AWS sales and operating income growth, while the cash-flow reconciliation and outlook section show substantial infrastructure investment and continued capital-spending guidance."
+    },
+    {
+      "id": "f3",
+      "market": "cn",
+      "category": "earnings",
+      "publishedOn": "2026-10-31",
+      "company": {
+        "name": "China International Capital Corporation Limited",
+        "ticker": "601995",
+        "exchange": "SSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 11412401839,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "The quarterly report’s principal financial-data table reports current-quarter operating revenue in yuan."
+        },
+        {
+          "id": "m2",
+          "value": 5046092100,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "The principal financial-data table reports current-quarter net profit attributable to parent shareholders in yuan."
+        },
+        {
+          "id": "m3",
+          "value": 30714869811,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "The year-to-date financial-data table reports operating revenue in yuan."
+        },
+        {
+          "id": "m4",
+          "value": 13245360368,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "The year-to-date financial-data table reports net profit attributable to parent shareholders in yuan."
+        },
+        {
+          "id": "m5",
+          "value": 32206148585,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "The cash-flow statement reports year-to-date net cash generated from operating activities in yuan and provides the prior comparison period."
+        }
+      ],
+      "sourceIds": [
+        "src3"
+      ],
+      "evidence": "The unaudited filing reports stronger accounting revenue and profit alongside lower year-to-date operating cash flow; cash-flow tables show movements involving interest and commission receipts, financing balances, and operating payments."
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-10-31",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 49.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The official manufacturing survey states that the seasonally adjusted manufacturing purchasing managers index was this level."
+        },
+        {
+          "id": "m2",
+          "value": 49.7,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The official nonmanufacturing table reports this seasonally adjusted business-activity index."
+        },
+        {
+          "id": "m3",
+          "value": 49.7,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The official release reports this composite output index for the month."
+        },
+        {
+          "id": "m4",
+          "value": 49.4,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The manufacturing table reports this new-orders subindex."
+        },
+        {
+          "id": "m5",
+          "value": 50,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "The official release separately reports the services business-activity index at this level."
+        }
+      ],
+      "sourceIds": [
+        "src4"
+      ],
+      "evidence": "The official survey shows manufacturing and composite activity below the expansion threshold, nonmanufacturing activity also below it, and services activity at the threshold rather than below it; manufacturing new orders also weakened."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Regulated utility earnings hold up as grid investment expands",
-          "summary": "The utility reported mixed quarterly accounting results while approved rates and infrastructure investment supported operating performance.",
-          "impact": "The result matters for regulated electricity bills, financing needs, reliability spending, and the pace at which grid investment can earn authorized returns.",
-          "what": "The company operates regulated transmission and distribution utilities. Management linked stronger operations to updated recovery rates, investment serving customers, favorable weather, and higher allowance for funds used during construction, while other units faced storm, depreciation, interest, tax, and contracting-cost pressure.",
-          "why": "Rate-base growth can support utility earnings and reliability, but financing costs and regulatory recovery determine how investment affects future cash needs and customer bills.",
-          "uncertainty": "The release presents a non-GAAP operating measure alongside GAAP income, and future results remain exposed to regulation, weather, financing, storms, and operating costs.",
-          "watch": "Subsequent regulatory orders, storm-cost recovery, financing disclosures, and cash-flow reporting.",
+          "title": "Cloud growth meets a heavy cash-investment burden",
+          "summary": "The latest quarterly filing shows strong consolidated sales and profit, with cloud services a major operating engine.",
+          "impact": "Negative free cash flow and continued infrastructure spending make financing capacity and investment discipline central to the outlook.",
+          "what": "The business combines online retail, advertising, subscriptions, and cloud services; the filing shows cloud sales and operating income growth while infrastructure purchases weighed heavily on cash generation.",
+          "why": "Infrastructure can support artificial-intelligence and cloud demand, but heavy spending reduces financial flexibility and increases the need for durable customer utilization.",
+          "uncertainty": "The capital-spending figure is management guidance rather than a realized outcome, while demand, foreign exchange, energy costs, and technology investment remain variable.",
+          "watch": "Watch operating cash flow, cloud margins, capital spending, financing activity, and evidence that infrastructure additions produce durable customer demand.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "GAAP diluted earnings per share"
+              "label": "Quarterly revenue"
             },
             {
               "id": "m2",
-              "label": "Adjusted operating earnings per share"
+              "label": "Quarterly net income"
             },
             {
               "id": "m3",
-              "label": "Annual adjusted earnings guidance upper end"
+              "label": "Trailing operating cash flow"
+            },
+            {
+              "id": "m4",
+              "label": "Trailing free cash flow"
+            },
+            {
+              "id": "m5",
+              "label": "Full-year cash capital expenditure guidance"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Brokerage earnings accelerate while operating cash conversion weakens",
+          "summary": "The mainland financial-services issuer reported stronger quarterly accounting results and higher year-to-date revenue.",
+          "impact": "Lower operating cash inflow despite stronger profit highlights the difference between securities-business earnings and cash movements tied to client and financing balances.",
+          "what": "The unaudited quarterly report records higher revenue and parent-attributable profit, while its cash-flow statement records lower year-to-date operating cash generation and movements in interest, commission, financing, and other operating balances.",
+          "why": "Financial-institution cash flow can move with client funds, financing activity, underwriting, trading, and settlement timing, so accounting profit alone is an incomplete liquidity measure.",
+          "uncertainty": "The report is unaudited, and the filing does not fully separate recurring cash generation from market-sensitive and balance-sheet timing effects.",
+          "watch": "Watch financing balances, commission income, underwriting activity, trading results, provisions, and operating cash flow in the next filing.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Quarterly revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Quarterly net income"
+            },
+            {
+              "id": "m3",
+              "label": "Year-to-date revenue"
+            },
+            {
+              "id": "m4",
+              "label": "Year-to-date net income"
+            },
+            {
+              "id": "m5",
+              "label": "Year-to-date operating cash flow"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Official survey points to softer operating momentum",
+          "summary": "The latest official business survey showed manufacturing and composite activity below the expansion threshold, while services remained at the threshold.",
+          "impact": "Softer orders and activity can restrain industrial pricing power, hiring, investment demand, and earnings visibility for domestically exposed businesses.",
+          "what": "The survey measures purchasing managers across manufacturing and nonmanufacturing firms; manufacturing production and new orders weakened, nonmanufacturing activity fell below the threshold, and services held at the threshold.",
+          "why": "A broad slowdown can reduce utilization and bargaining power before it appears in reported company earnings, especially for suppliers tied to domestic demand.",
+          "uncertainty": "Purchasing-manager indexes are diffusion measures and leading indicators, not direct measures of output, profit, or household income.",
+          "watch": "Watch subsequent orders, production, employment, prices, credit demand, and company filings for confirmation or reversal.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Manufacturing purchasing managers index"
+            },
+            {
+              "id": "m2",
+              "label": "Nonmanufacturing business activity index"
+            },
+            {
+              "id": "m3",
+              "label": "Composite output index"
+            },
+            {
+              "id": "m4",
+              "label": "Manufacturing new-orders index"
+            },
+            {
+              "id": "m5",
+              "label": "Services business activity index"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Les résultats d’un fournisseur d’électricité réglementé résistent grâce à l’expansion des investissements dans le réseau",
-          "summary": "Le fournisseur a publié des résultats comptables trimestriels contrastés, tandis que les tarifs approuvés et les investissements dans les infrastructures ont soutenu sa performance opérationnelle.",
-          "impact": "Ce résultat concerne les factures d’électricité réglementées, les besoins de financement, les dépenses consacrées à la fiabilité et le rythme auquel les investissements dans le réseau peuvent générer des rendements autorisés.",
-          "what": "L’entreprise exploite des réseaux réglementés de transport et de distribution d’électricité. La direction a associé l’amélioration des activités à la mise à jour des tarifs de recouvrement, aux investissements destinés aux clients, à des conditions météorologiques favorables et à une allocation plus élevée des fonds utilisés pendant la construction. D’autres unités ont toutefois subi la pression des tempêtes, des amortissements, des intérêts, des impôts et des coûts de sous-traitance.",
-          "why": "La croissance de la base tarifaire peut soutenir les bénéfices du fournisseur et la fiabilité du réseau, mais les coûts de financement et le recouvrement réglementaire déterminent la manière dont les investissements influencent les besoins futurs de trésorerie et les factures des clients.",
-          "uncertainty": "Le communiqué présente une mesure opérationnelle hors normes GAAP en complément du résultat selon les normes GAAP. Les résultats futurs restent exposés à la réglementation, aux conditions météorologiques, au financement, aux tempêtes et aux coûts d’exploitation.",
-          "watch": "Les prochaines décisions réglementaires, le recouvrement des coûts liés aux tempêtes, les informations sur le financement et les publications relatives aux flux de trésorerie.",
+          "title": "La croissance du cloud se heurte à de lourds investissements en liquidités",
+          "summary": "Le dernier rapport trimestriel fait apparaître une forte progression du chiffre d’affaires et du bénéfice consolidés, les services cloud constituant un moteur opérationnel majeur.",
+          "impact": "Un flux de trésorerie disponible négatif et la poursuite des dépenses d’infrastructure rendent la capacité de financement et la discipline d’investissement déterminantes pour les perspectives.",
+          "what": "L’activité combine commerce en ligne, publicité, abonnements et services cloud ; le rapport montre une croissance des ventes et du résultat d’exploitation du cloud, tandis que les achats d’infrastructures ont fortement pesé sur la génération de trésorerie.",
+          "why": "Les infrastructures peuvent soutenir la demande en intelligence artificielle et dans le cloud, mais des dépenses élevées réduisent la flexibilité financière et renforcent la nécessité d’une utilisation durable par les clients.",
+          "uncertainty": "Le montant des dépenses d’investissement est une prévision de la direction et non un résultat réalisé, tandis que la demande, les changes, les coûts de l’énergie et les investissements technologiques restent variables.",
+          "watch": "Surveillez le flux de trésorerie d’exploitation, les marges du cloud, les dépenses d’investissement, les opérations de financement et les signes montrant que l’ajout d’infrastructures génère une demande client durable.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Bénéfice dilué par action selon les normes GAAP"
+              "label": "Chiffre d’affaires trimestriel"
             },
             {
               "id": "m2",
-              "label": "Bénéfice d’exploitation ajusté par action"
+              "label": "Résultat net trimestriel"
             },
             {
               "id": "m3",
-              "label": "Limite supérieure des prévisions annuelles de bénéfice ajusté"
+              "label": "Flux de trésorerie d’exploitation cumulé"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie disponible cumulé"
+            },
+            {
+              "id": "m5",
+              "label": "Prévision annuelle des dépenses d’investissement en trésorerie"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Les résultats du courtage accélèrent tandis que la conversion en trésorerie d’exploitation se dégrade",
+          "summary": "L’émetteur des services financiers de Chine continentale a publié de meilleurs résultats comptables trimestriels et une hausse du chiffre d’affaires depuis le début de l’année.",
+          "impact": "La baisse des entrées de trésorerie d’exploitation malgré la progression du bénéfice souligne la différence entre les résultats des activités de titres et les mouvements de trésorerie liés aux soldes des clients et au financement.",
+          "what": "Le rapport trimestriel non audité fait état d’une hausse du chiffre d’affaires et du bénéfice attribuable aux actionnaires de la société mère, tandis que le tableau des flux de trésorerie indique une baisse de la génération de trésorerie d’exploitation depuis le début de l’année et des variations des soldes d’intérêts, de commissions, de financement et d’autres activités d’exploitation.",
+          "why": "Les flux de trésorerie des établissements financiers peuvent évoluer avec les fonds des clients, l’activité de financement, la prise ferme, les opérations de marché et le calendrier des règlements ; le bénéfice comptable seul ne suffit donc pas à mesurer la liquidité.",
+          "uncertainty": "Le rapport n’est pas audité et le document ne distingue pas entièrement la génération récurrente de trésorerie des effets sensibles au marché et des décalages liés au bilan.",
+          "watch": "Surveillez les soldes de financement, les revenus de commissions, l’activité de prise ferme, les résultats de marché, les provisions et le flux de trésorerie d’exploitation dans le prochain rapport.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires trimestriel"
+            },
+            {
+              "id": "m2",
+              "label": "Résultat net trimestriel"
+            },
+            {
+              "id": "m3",
+              "label": "Chiffre d’affaires depuis le début de l’année"
+            },
+            {
+              "id": "m4",
+              "label": "Résultat net depuis le début de l’année"
+            },
+            {
+              "id": "m5",
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’année"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Une enquête officielle signale un ralentissement de la dynamique opérationnelle",
+          "summary": "La dernière enquête officielle auprès des entreprises montre une activité manufacturière et une activité globale sous le seuil d’expansion, tandis que les services restent à ce seuil.",
+          "impact": "La faiblesse des commandes et de l’activité peut limiter le pouvoir de fixation des prix dans l’industrie, les embauches, la demande d’investissement et la visibilité des bénéfices des entreprises exposées au marché intérieur.",
+          "what": "L’enquête mesure l’activité des directeurs des achats dans les entreprises manufacturières et non manufacturières ; la production et les nouvelles commandes manufacturières ont ralenti, l’activité non manufacturière est passée sous le seuil et les services sont restés à ce seuil.",
+          "why": "Un ralentissement général peut réduire l’utilisation des capacités et le pouvoir de négociation avant d’apparaître dans les résultats publiés des entreprises, en particulier chez les fournisseurs liés à la demande intérieure.",
+          "uncertainty": "Les indices des directeurs des achats sont des mesures de diffusion et des indicateurs avancés, et non des mesures directes de la production, des bénéfices ou du revenu des ménages.",
+          "watch": "Surveillez les commandes, la production, l’emploi, les prix, la demande de crédit et les rapports des entreprises à venir pour confirmer ou infirmer cette évolution.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Indice des directeurs d’achats du secteur manufacturier"
+            },
+            {
+              "id": "m2",
+              "label": "Indice d’activité des entreprises non manufacturières"
+            },
+            {
+              "id": "m3",
+              "label": "Indice de production globale"
+            },
+            {
+              "id": "m4",
+              "label": "Indice des nouvelles commandes manufacturières"
+            },
+            {
+              "id": "m5",
+              "label": "Indice d’activité des services"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期已核实覆盖有限。部分市场没有已核实的新故事；带日期的报告仍会明确标注。",
+      "status": "本期涵盖美国和中国的发展动态。请查看每篇内容的发布日期；近期公司报告作为背景解读呈现。",
       "marketSummary": {
-        "us": "跟踪的指数在最近已核实的交易时段均下跌。带日期的收盘数据描述的是这些交易时段，而非当前交易。",
-        "cn": "跟踪的指数在最近已核实的交易时段均下跌。带日期的收盘数据描述的是这些交易时段，而非当前交易。"
+        "us": "部分收盘观察未能核实。每个可用指数均保留其自身交易日期。",
+        "cn": "部分收盘观察未能核实。每个可用指数均保留其自身交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "电网投资扩大，受监管公用事业盈利保持韧性",
-          "summary": "这家公用事业公司公布的季度会计业绩喜忧参半，但获批准的费率和基础设施投资支撑了经营表现。",
-          "impact": "这一结果关系到受监管电费、融资需求、可靠性支出，以及电网投资以获准回报实现收益的进度。",
-          "what": "该公司经营受监管的输电和配电公用事业。管理层表示，经营表现改善得益于更新后的成本回收费率、服务客户的投资、有利天气，以及建设期间使用资金的资本化利息增加；与此同时，其他业务部门承受了风暴、折旧、利息、税项和合同成本压力。",
-          "why": "计价资产基础增长可以支撑公用事业盈利和可靠性，但融资成本及监管机构是否允许回收相关成本，将决定投资如何影响未来现金需求和客户账单。",
-          "uncertainty": "公告同时列示了非公认会计准则经营指标和公认会计准则下的利润；未来业绩仍面临监管、天气、融资、风暴及经营成本方面的影响。",
-          "watch": "后续监管命令、风暴成本回收、融资披露及现金流报告。",
+          "title": "云业务增长面临沉重的现金投资负担",
+          "summary": "最新季度申报显示，公司合并营收和利润表现强劲，云服务是重要的经营引擎。",
+          "impact": "自由现金流为负且基础设施支出持续，使融资能力和投资纪律成为前景判断的核心。",
+          "what": "该业务涵盖在线零售、广告、订阅和云服务；申报显示云服务营收和经营利润增长，但基础设施采购严重拖累现金生成。",
+          "why": "基础设施能够支撑人工智能和云需求，但高额支出会降低财务灵活性，并提高对客户持续使用的要求。",
+          "uncertainty": "资本支出金额是管理层指引，而非已经实现的结果；需求、汇率、能源成本和技术投资仍存在变化。",
+          "watch": "关注经营现金流、云业务利润率、资本支出、融资活动，以及基础设施扩张能否带来持久的客户需求。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "公认会计准则每股摊薄收益"
+              "label": "季度营收"
             },
             {
               "id": "m2",
-              "label": "调整后每股经营收益"
+              "label": "季度净利润"
             },
             {
               "id": "m3",
-              "label": "年度调整后收益指引上限"
+              "label": "过去一段时期经营现金流"
+            },
+            {
+              "id": "m4",
+              "label": "过去一段时期自由现金流"
+            },
+            {
+              "id": "m5",
+              "label": "全年现金资本支出指引"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "券商盈利加速，但经营现金转化能力减弱",
+          "summary": "这家中国大陆金融服务公司公布了更强的季度会计业绩，年初至今营收也有所上升。",
+          "impact": "在利润增强的同时，经营现金流入减少，凸显证券业务盈利与客户及融资余额相关现金变动之间的差异。",
+          "what": "未经审计的季度报告记录了更高的营收和归属于母公司股东的利润；现金流量表则显示，年初至今经营现金生成减少，利息、佣金、融资及其他经营性余额发生变动。",
+          "why": "金融机构的现金流可能随客户资金、融资活动、承销、交易和结算时点变化，因此单看会计利润并不能完整衡量流动性。",
+          "uncertainty": "该报告未经审计，申报文件也没有充分区分经常性现金生成与受市场影响及资产负债表时点影响的部分。",
+          "watch": "关注融资余额、佣金收入、承销活动、交易结果、拨备，以及下一份申报中的经营现金流。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度营收"
+            },
+            {
+              "id": "m2",
+              "label": "季度净利润"
+            },
+            {
+              "id": "m3",
+              "label": "年初至今营收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今净利润"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今经营现金流"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "官方调查显示经营动能趋弱",
+          "summary": "最新官方商业调查显示，制造业和综合活动低于扩张线，而服务业仍处于该线。",
+          "impact": "订单和活动走弱，可能抑制工业定价能力、招聘、投资需求，以及面向国内市场企业的盈利可见度。",
+          "what": "该调查覆盖制造业和非制造业企业的采购经理；制造业生产和新订单走弱，非制造业活动降至该线以下，服务业维持在该线。",
+          "why": "广泛放缓可能在公司盈利报告出现之前，先降低产能利用率和议价能力，尤其会影响依赖国内需求的供应商。",
+          "uncertainty": "采购经理指数是扩散指标和领先指标，并非产出、利润或居民收入的直接衡量。",
+          "watch": "关注后续订单、生产、就业、价格、信贷需求和公司申报，以确认或推翻这一变化。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "制造业采购经理指数"
+            },
+            {
+              "id": "m2",
+              "label": "非制造业商务活动指数"
+            },
+            {
+              "id": "m3",
+              "label": "综合产出指数"
+            },
+            {
+              "id": "m4",
+              "label": "制造业新订单指数"
+            },
+            {
+              "id": "m5",
+              "label": "服务业商务活动指数"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes fechados siguen claramente identificados.",
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Comprueba la fecha de publicación de cada noticia; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
-        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual."
+        "us": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Los resultados de la empresa eléctrica regulada resisten mientras se amplía la inversión en la red",
-          "summary": "La empresa informó resultados contables trimestrales mixtos, mientras que las tarifas aprobadas y la inversión en infraestructura respaldaron el desempeño operativo.",
-          "impact": "El resultado es relevante para las tarifas reguladas de electricidad, las necesidades de financiación, el gasto en fiabilidad y el ritmo al que la inversión en la red puede generar rendimientos autorizados.",
-          "what": "La empresa opera servicios regulados de transmisión y distribución. La dirección relacionó la mejora operativa con tarifas de recuperación actualizadas, inversiones para atender a los clientes, condiciones meteorológicas favorables y una mayor asignación de fondos utilizados durante la construcción, mientras que otras unidades afrontaron presiones por tormentas, depreciación, intereses, impuestos y costes de contratación.",
-          "why": "El crecimiento de la base regulatoria de activos puede respaldar los beneficios de la empresa eléctrica y la fiabilidad, pero los costes de financiación y la recuperación regulatoria determinan cómo la inversión afecta a las necesidades futuras de efectivo y a las facturas de los clientes.",
-          "uncertainty": "El comunicado presenta una medida operativa no conforme con los principios contables generalmente aceptados junto con el resultado conforme a esos principios, y los resultados futuros siguen expuestos a la regulación, el clima, la financiación, las tormentas y los costes operativos.",
-          "watch": "Resoluciones regulatorias posteriores, recuperación de costes por tormentas, información sobre financiación e informes de flujo de caja.",
+          "title": "El crecimiento de la nube afronta una pesada carga de inversión en efectivo",
+          "summary": "El último informe trimestral muestra sólidas ventas y beneficios consolidados, con los servicios en la nube como motor operativo importante.",
+          "impact": "El flujo de caja libre negativo y el gasto continuo en infraestructura hacen que la capacidad de financiación y la disciplina de inversión sean fundamentales para las perspectivas.",
+          "what": "El negocio combina comercio minorista en línea, publicidad, suscripciones y servicios en la nube; el informe muestra crecimiento de las ventas y del beneficio operativo de la nube, mientras las compras de infraestructura pesaron mucho sobre la generación de efectivo.",
+          "why": "La infraestructura puede respaldar la demanda de inteligencia artificial y servicios en la nube, pero el gasto elevado reduce la flexibilidad financiera y aumenta la necesidad de un uso duradero por parte de los clientes.",
+          "uncertainty": "La cifra de gasto de capital es una previsión de la dirección, no un resultado realizado, mientras que la demanda, las divisas, los costes energéticos y la inversión tecnológica siguen siendo variables.",
+          "watch": "Conviene observar el flujo de caja operativo, los márgenes de la nube, el gasto de capital, la actividad de financiación y las pruebas de que las ampliaciones de infraestructura generan una demanda duradera de los clientes.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Beneficio diluido por acción conforme a los principios contables generalmente aceptados"
+              "label": "Ingresos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Beneficio operativo ajustado por acción"
+              "label": "Beneficio neto trimestral"
             },
             {
               "id": "m3",
-              "label": "Límite superior de la previsión anual de beneficios ajustados"
+              "label": "Flujo de caja operativo de los últimos periodos"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de caja libre de los últimos periodos"
+            },
+            {
+              "id": "m5",
+              "label": "Previsión anual de gasto de capital en efectivo"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Los beneficios de la correduría se aceleran mientras empeora la conversión en efectivo operativo",
+          "summary": "El emisor de servicios financieros de China continental informó de mejores resultados contables trimestrales y mayores ingresos acumulados en el año.",
+          "impact": "La menor entrada de efectivo operativo pese al mayor beneficio destaca la diferencia entre los resultados del negocio de valores y los movimientos de efectivo vinculados a los saldos de clientes y de financiación.",
+          "what": "El informe trimestral no auditado registra mayores ingresos y beneficio atribuible a la matriz, mientras que el estado de flujos de efectivo registra una menor generación de efectivo operativo acumulada en el año y movimientos en intereses, comisiones, financiación y otros saldos operativos.",
+          "why": "El flujo de caja de las instituciones financieras puede variar con los fondos de clientes, la actividad de financiación, la suscripción de emisiones, la negociación y los plazos de liquidación; por eso, el beneficio contable por sí solo no mide completamente la liquidez.",
+          "uncertainty": "El informe no está auditado, y la presentación no separa por completo la generación recurrente de efectivo de los efectos sensibles al mercado y de los desfases temporales del balance.",
+          "watch": "Conviene observar los saldos de financiación, los ingresos por comisiones, la actividad de suscripción de emisiones, los resultados de negociación, las provisiones y el flujo de caja operativo en el próximo informe.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos trimestrales"
+            },
+            {
+              "id": "m2",
+              "label": "Beneficio neto trimestral"
+            },
+            {
+              "id": "m3",
+              "label": "Ingresos acumulados en el año"
+            },
+            {
+              "id": "m4",
+              "label": "Beneficio neto acumulado en el año"
+            },
+            {
+              "id": "m5",
+              "label": "Flujo de caja operativo acumulado en el año"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "La encuesta oficial apunta a un menor impulso operativo",
+          "summary": "La última encuesta empresarial oficial mostró una actividad manufacturera y compuesta por debajo del umbral de expansión, mientras los servicios se mantuvieron en el umbral.",
+          "impact": "El menor volumen de pedidos y actividad puede limitar el poder de fijación de precios industriales, la contratación, la demanda de inversión y la visibilidad de beneficios de las empresas expuestas al mercado interno.",
+          "what": "La encuesta mide a directores de compras de empresas manufactureras y no manufactureras; la producción y los nuevos pedidos manufactureros se debilitaron, la actividad no manufacturera cayó por debajo del umbral y los servicios se mantuvieron en el umbral.",
+          "why": "Una desaceleración general puede reducir la utilización de la capacidad y el poder de negociación antes de reflejarse en los beneficios empresariales publicados, especialmente en los proveedores vinculados a la demanda interna.",
+          "uncertainty": "Los índices de directores de compras son medidas de difusión e indicadores adelantados, no mediciones directas de producción, beneficios o ingresos de los hogares.",
+          "watch": "Conviene observar los pedidos posteriores, la producción, el empleo, los precios, la demanda de crédito y los informes empresariales para confirmar o revertir esta señal.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Índice de directores de compras de manufactura"
+            },
+            {
+              "id": "m2",
+              "label": "Índice de actividad empresarial no manufacturera"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de producción compuesta"
+            },
+            {
+              "id": "m4",
+              "label": "Índice de nuevos pedidos manufactureros"
+            },
+            {
+              "id": "m5",
+              "label": "Índice de actividad empresarial de servicios"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版では、確認済みの情報が限定されています。一部の市場には確認済みの新しいニュースがなく、日付付きの報告は現在の取引状況とは明確に区別されています。",
+      "status": "この版では、米国と中国の動きを扱います。各記事の公表日を確認してください。最近の企業報告は背景説明として紹介しています。",
       "marketSummary": {
-        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。日付付きの終値は、現在の取引ではなく、それぞれの取引状況を示しています。",
-        "cn": "追跡対象の両指数は、直近の確認済み取引で下落しました。日付付きの終値は、現在の取引ではなく、それぞれの取引状況を示しています。"
+        "us": "一部の終値は確認できませんでした。確認できた各指数には、それぞれの取引日を記載しています。",
+        "cn": "一部の終値は確認できませんでした。確認できた各指数には、それぞれの取引日を記載しています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "送電網への投資拡大を背景に、規制公益事業の業績が底堅く推移",
-          "summary": "この公益企業は、四半期の会計上の結果がまちまちでした。一方、認可料金とインフラ投資が営業面の業績を支えました。",
-          "impact": "この結果は、規制対象の電気料金、資金調達の必要性、信頼性向上のための支出、そして送電網投資が認可された収益を生み始めるペースに関係します。",
-          "what": "この企業は、規制対象の送電・配電事業を運営しています。経営陣は、営業面の改善について、料金回収条件の更新、顧客向け投資、天候に恵まれたこと、建設期間中の資金調達コストに対する控除の増加が寄与したと説明しました。一方、その他の事業では、暴風雨、減価償却、利払い、税金、契約関連費用が重しとなりました。",
-          "why": "料金算定の基礎となる資産の拡大は、公益企業の利益と信頼性を支える可能性があります。ただし、投資が将来の資金需要や顧客料金にどう影響するかは、資金調達コストと規制当局による費用回収の承認に左右されます。",
-          "uncertainty": "発表資料では、GAAPに基づく利益と並んで、非GAAPの営業指標も示されています。また、今後の結果は、規制、天候、資金調達、暴風雨、営業費用の影響を受ける可能性があります。",
-          "watch": "今後の規制当局の命令、暴風雨関連費用の回収、資金調達に関する開示、キャッシュフローの報告。",
+          "title": "クラウドの成長に、巨額の現金投資負担が重なる",
+          "summary": "直近の四半期報告では、連結売上高と利益が堅調で、クラウドサービスが主要な事業エンジンとなっています。",
+          "impact": "フリーキャッシュフローがマイナスで、インフラ投資も続いているため、資金調達力と投資規律が今後の重要な焦点になります。",
+          "what": "この事業はオンライン小売、広告、サブスクリプション、クラウドサービスを組み合わせています。報告ではクラウドの売上高と営業利益が伸びた一方、インフラの購入が現金創出を大きく圧迫しました。",
+          "why": "インフラは人工知能やクラウド需要を支えられますが、多額の投資は財務上の柔軟性を低下させ、顧客による継続的な利用の必要性を高めます。",
+          "uncertainty": "設備投資額は実績ではなく経営陣の見通しです。また、需要、為替、エネルギーコスト、技術投資には変動が残ります。",
+          "watch": "営業キャッシュフロー、クラウドの利益率、設備投資、資金調達の動き、インフラの増強が持続的な顧客需要につながっている証拠を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "GAAP希薄化後一株当たり利益"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "調整後営業利益（一株当たり）"
+              "label": "四半期純利益"
             },
             {
               "id": "m3",
-              "label": "年間調整後利益見通しの上限"
+              "label": "直近の営業キャッシュフロー"
+            },
+            {
+              "id": "m4",
+              "label": "直近のフリーキャッシュフロー"
+            },
+            {
+              "id": "m5",
+              "label": "通期の現金設備投資見通し"
             }
           ]
-        }
-      ]
-    },
-    "zh-TW": {
-      "status": "本期僅有有限的已驗證涵蓋內容。部分市場沒有已驗證的新消息；有日期的報告仍清楚標示。",
-      "marketSummary": {
-        "us": "追蹤的兩個指數在最近已驗證的交易時段均下跌。有日期的收盤表現描述的是那些交易時段，不代表目前交易情況。",
-        "cn": "追蹤的兩個指數在最近已驗證的交易時段均下跌。有日期的收盤表現描述的是那些交易時段，不代表目前交易情況。"
-      },
-      "stories": [
+        },
         {
-          "id": "f1",
-          "title": "電網投資擴大，受監管公用事業的獲利表現維持韌性",
-          "summary": "這家公用事業公司公布好壞不一的季度會計業績，但核准費率與基礎設施投資支撐了營運表現。",
-          "impact": "這項結果攸關受監管電價、融資需求、供電可靠度支出，以及電網投資取得核准報酬的速度。",
-          "what": "該公司經營受監管的輸電與配電公用事業。管理層表示，較強的營運表現來自更新後的成本回收費率、服務客戶的投資、有利天候，以及較高的建造期間資金成本資本化金額；同時，其他業務部門則受到風暴、折舊、利息、稅項與合約成本上升的壓力。",
-          "why": "電價基礎擴張可以支撐公用事業獲利與供電可靠度，但融資成本與監管機關的成本回收安排，會決定投資如何影響未來現金需求與客戶帳單。",
-          "uncertainty": "公告同時呈現非公認會計原則的營運指標與公認會計原則下的淨利；未來業績仍受到監管、天候、融資、風暴與營運成本影響。",
-          "watch": "後續監管命令、風暴成本回收、融資揭露，以及現金流量報告。",
+          "id": "f3",
+          "title": "証券会社の業績が加速する一方、営業キャッシュフローへの転換は弱まる",
+          "summary": "中国本土の金融サービス発行体は、四半期の会計上の業績が改善し、年初来の売上高も増加したと報告しました。",
+          "impact": "利益が増えたにもかかわらず営業キャッシュの流入が減少しており、証券事業の利益と、顧客残高や資金調達残高に結び付く現金の動きの違いが浮き彫りになっています。",
+          "what": "未監査の四半期報告では、売上高と親会社株主に帰属する利益が増加しました。一方、キャッシュフロー計算書では、年初来の営業キャッシュ創出が減少し、利息、手数料、資金調達、その他の営業残高が変動しました。",
+          "why": "金融機関のキャッシュフローは、顧客資金、資金調達、引受、取引、決済のタイミングによって動くことがあります。そのため、会計上の利益だけでは流動性を十分に測れません。",
+          "uncertainty": "この報告は未監査です。また、提出書類だけでは、継続的な現金創出と、市場や貸借対照表のタイミングに左右される影響を完全には切り分けられません。",
+          "watch": "次回の報告では、資金調達残高、手数料収入、引受業務、取引実績、引当金、営業キャッシュフローを確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "公認會計原則稀釋後每股盈餘"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "調整後營運每股盈餘"
+              "label": "四半期純利益"
             },
             {
               "id": "m3",
-              "label": "全年調整後盈餘指引上限"
+              "label": "年初来売上高"
+            },
+            {
+              "id": "m4",
+              "label": "年初来純利益"
+            },
+            {
+              "id": "m5",
+              "label": "年初来営業キャッシュフロー"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "公的調査が事業の勢いの鈍化を示す",
+          "summary": "直近の公的な企業調査では、製造業と総合の活動が景気拡大の境目を下回り、サービス業は境目にとどまりました。",
+          "impact": "受注と活動の鈍化は、国内需要に依存する企業の工業製品の価格決定力、雇用、投資需要、業績の見通しを抑える可能性があります。",
+          "what": "この調査は、製造業と非製造業の企業に所属する購買担当者を対象としています。製造業の生産と新規受注は弱まり、非製造業の活動は境目を下回り、サービス業は境目を維持しました。",
+          "why": "幅広い減速は、企業の決算に表れる前に、稼働率や交渉力を低下させる可能性があります。特に国内需要に結び付く供給業者ではその傾向が出やすくなります。",
+          "uncertainty": "購買担当者景気指数は、回答の広がりを示す指標であり、産出、利益、家計所得を直接測るものではありません。また、先行指標でもあります。",
+          "watch": "その後の受注、生産、雇用、価格、信用需要、企業の提出書類を確認し、状況の裏付けや反転を見ます。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "製造業購買担当者景気指数"
+            },
+            {
+              "id": "m2",
+              "label": "非製造業業務活動指数"
+            },
+            {
+              "id": "m3",
+              "label": "総合産出指数"
+            },
+            {
+              "id": "m4",
+              "label": "製造業新規受注指数"
+            },
+            {
+              "id": "m5",
+              "label": "サービス業業務活動指数"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Resultados de empresa regulada de serviços públicos resistem com expansão dos investimentos na rede",
-          "summary": "A empresa divulgou resultados contábeis trimestrais mistos, enquanto tarifas aprovadas e investimentos em infraestrutura sustentaram o desempenho operacional.",
-          "impact": "O resultado é relevante para as tarifas reguladas de eletricidade, as necessidades de financiamento, os gastos com confiabilidade e o ritmo em que os investimentos na rede podem gerar retornos autorizados.",
-          "what": "A empresa opera serviços regulados de transmissão e distribuição. A administração associou a melhora operacional a tarifas de recuperação atualizadas, investimentos voltados aos clientes, condições climáticas favoráveis e maior compensação por fundos utilizados durante a construção, enquanto outras unidades enfrentaram pressão de tempestades, depreciação, juros, impostos e custos de contratação.",
-          "why": "O crescimento da base tarifária pode sustentar os resultados da empresa e a confiabilidade, mas os custos de financiamento e a recuperação regulatória determinam como os investimentos afetarão as necessidades futuras de caixa e as tarifas dos clientes.",
-          "uncertainty": "O comunicado apresenta uma medida operacional não baseada em GAAP junto com o lucro segundo GAAP, e os resultados futuros continuam expostos à regulação, ao clima, ao financiamento, a tempestades e aos custos operacionais.",
-          "watch": "Próximas decisões regulatórias, recuperação de custos relacionados a tempestades, divulgações sobre financiamento e relatórios de fluxo de caixa.",
+          "title": "O crescimento da nuvem encontra uma pesada necessidade de investimento em caixa",
+          "summary": "O relatório trimestral mais recente mostra fortes vendas consolidadas e lucro, com os serviços de nuvem como importante motor operacional.",
+          "impact": "O fluxo de caixa livre negativo e a continuidade dos gastos em infraestrutura tornam a capacidade de financiamento e a disciplina de investimento centrais para as perspectivas.",
+          "what": "O negócio combina varejo on-line, publicidade, assinaturas e serviços de nuvem; o relatório mostra crescimento das vendas e do lucro operacional da nuvem, enquanto as compras de infraestrutura pesaram fortemente sobre a geração de caixa.",
+          "why": "A infraestrutura pode apoiar a demanda por inteligência artificial e serviços de nuvem, mas os gastos elevados reduzem a flexibilidade financeira e aumentam a necessidade de uma utilização duradoura pelos clientes.",
+          "uncertainty": "O valor de gastos de capital é uma orientação da administração, e não um resultado realizado, enquanto a demanda, o câmbio, os custos de energia e o investimento em tecnologia continuam variáveis.",
+          "watch": "Acompanhe o fluxo de caixa operacional, as margens da nuvem, os gastos de capital, a atividade de financiamento e as evidências de que a expansão da infraestrutura gera demanda duradoura dos clientes.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Lucro diluído por ação segundo o GAAP"
+              "label": "Receita trimestral"
             },
             {
               "id": "m2",
-              "label": "Lucro operacional ajustado por ação"
+              "label": "Lucro líquido trimestral"
             },
             {
               "id": "m3",
-              "label": "Limite superior da projeção anual de lucro ajustado"
+              "label": "Fluxo de caixa operacional acumulado"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa livre acumulado"
+            },
+            {
+              "id": "m5",
+              "label": "Orientação anual para gastos de capital em caixa"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Os resultados da corretora aceleram, enquanto a conversão em caixa operacional enfraquece",
+          "summary": "A instituição de serviços financeiros do continente informou resultados contábeis trimestrais mais fortes e receita acumulada mais elevada.",
+          "impact": "A menor entrada de caixa operacional apesar do lucro mais forte destaca a diferença entre os resultados do negócio de valores mobiliários e os movimentos de caixa ligados aos saldos de clientes e de financiamento.",
+          "what": "O relatório trimestral não auditado registra receita e lucro atribuível à controladora mais elevados, enquanto a demonstração de fluxo de caixa registra menor geração de caixa operacional acumulada e movimentos em juros, comissões, financiamento e outros saldos operacionais.",
+          "why": "O fluxo de caixa de instituições financeiras pode variar com recursos de clientes, atividade de financiamento, subscrição, negociação e o momento da liquidação; por isso, o lucro contábil isolado é uma medida incompleta de liquidez.",
+          "uncertainty": "O relatório não é auditado, e o documento não separa completamente a geração recorrente de caixa dos efeitos sensíveis ao mercado e aos momentos do balanço patrimonial.",
+          "watch": "Acompanhe os saldos de financiamento, a receita de comissões, a atividade de subscrição, os resultados de negociação, as provisões e o fluxo de caixa operacional no próximo relatório.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita trimestral"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro líquido trimestral"
+            },
+            {
+              "id": "m3",
+              "label": "Receita acumulada"
+            },
+            {
+              "id": "m4",
+              "label": "Lucro líquido acumulado"
+            },
+            {
+              "id": "m5",
+              "label": "Fluxo de caixa operacional acumulado"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Pesquisa oficial aponta para uma desaceleração do ritmo operacional",
+          "summary": "A pesquisa empresarial oficial mais recente mostrou atividade industrial e composta abaixo do limiar de expansão, enquanto os serviços permaneceram no limiar.",
+          "impact": "Pedidos e atividade mais fracos podem limitar o poder de precificação industrial, as contratações, a demanda por investimentos e a visibilidade dos resultados de empresas expostas ao mercado doméstico.",
+          "what": "A pesquisa mede os gerentes de compras de empresas industriais e não industriais; a produção e os novos pedidos industriais enfraqueceram, a atividade não industrial caiu abaixo do limiar, e os serviços permaneceram no limiar.",
+          "why": "Uma desaceleração ampla pode reduzir a utilização e o poder de negociação antes de aparecer nos resultados divulgados pelas empresas, especialmente entre fornecedores ligados à demanda doméstica.",
+          "uncertainty": "Os índices de gerentes de compras são medidas de difusão e indicadores antecedentes, não medidas diretas de produção, lucro ou renda das famílias.",
+          "watch": "Acompanhe os pedidos, a produção, o emprego, os preços, a demanda por crédito e os relatórios empresariais seguintes em busca de confirmação ou reversão.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Índice de gerentes de compras da indústria"
+            },
+            {
+              "id": "m2",
+              "label": "Índice de atividade empresarial não industrial"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de produção composta"
+            },
+            {
+              "id": "m4",
+              "label": "Índice de novos pedidos industriais"
+            },
+            {
+              "id": "m5",
+              "label": "Índice de atividade empresarial dos serviços"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-TW": {
+      "status": "本期涵蓋美國與中國的發展。請確認各項發布日期；近期公司報告以背景說明呈現。",
+      "marketSummary": {
+        "us": "部分收盤觀察無法驗證。各項可取得的指數均保留自身交易日期。",
+        "cn": "部分收盤觀察無法驗證。各項可取得的指數均保留自身交易日期。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "雲端成長面臨沉重的現金投資負擔",
+          "summary": "最新季度申報顯示合併營收與獲利強勁，雲端服務是主要營運引擎。",
+          "impact": "自由現金流為負，加上基礎設施支出持續，使融資能力與投資紀律成為展望的核心。",
+          "what": "業務涵蓋線上零售、廣告、訂閱與雲端服務；申報顯示雲端營收與營業利益成長，但基礎設施採購大幅壓低現金產生能力。",
+          "why": "基礎設施可支撐人工智慧與雲端需求，但高額支出會降低財務彈性，也提高持續客戶使用率的必要性。",
+          "uncertainty": "資本支出數字屬於管理階層指引，而非已實現結果；需求、匯率、能源成本與科技投資仍具變動性。",
+          "watch": "關注經營現金流、雲端利潤率、資本支出、融資活動，以及基礎設施增加是否帶來持續的客戶需求。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度營收"
+            },
+            {
+              "id": "m2",
+              "label": "季度淨利"
+            },
+            {
+              "id": "m3",
+              "label": "追蹤期經營現金流"
+            },
+            {
+              "id": "m4",
+              "label": "追蹤期自由現金流"
+            },
+            {
+              "id": "m5",
+              "label": "全年現金資本支出指引"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "券商獲利加速，但營運現金轉換走弱",
+          "summary": "這家中國大陸金融服務發行商公布較強的季度會計業績，年初至今營收也有所提高。",
+          "impact": "儘管獲利增強，經營現金流入卻下降，凸顯證券業務獲利與客戶及融資餘額相關現金變動之間的差異。",
+          "what": "未經查核的季度報告記錄較高的營收與歸屬母公司股東淨利；現金流量表則記錄年初至今經營現金產生額下降，以及利息、佣金、融資與其他營運餘額的變動。",
+          "why": "金融機構現金流可能隨客戶資金、融資活動、承銷、交易與結算時點變化，因此單看會計獲利不足以衡量流動性。",
+          "uncertainty": "該報告未經查核，申報資料也未充分區分經常性現金產生能力與受市場影響及資產負債表時點影響的因素。",
+          "watch": "關注下一份申報中的融資餘額、佣金收入、承銷活動、交易結果、提撥與經營現金流。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度營收"
+            },
+            {
+              "id": "m2",
+              "label": "季度淨利"
+            },
+            {
+              "id": "m3",
+              "label": "年初至今營收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今淨利"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今經營現金流"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "官方調查指向營運動能轉弱",
+          "summary": "最新官方企業調查顯示，製造業與綜合活動低於擴張門檻，而服務業仍處於門檻。",
+          "impact": "訂單與活動轉弱，可能抑制工業定價能力、招聘、投資需求，以及面向內需企業的獲利能見度。",
+          "what": "該調查衡量製造業與非製造業企業的採購經理人；製造業生產與新訂單走弱，非製造業活動低於門檻，服務業則維持在門檻。",
+          "why": "廣泛放緩可能在企業獲利反映前，先降低產能利用率與議價能力，尤其會影響依賴內需的供應商。",
+          "uncertainty": "採購經理人指數是擴散指標與領先指標，並非產出、獲利或家庭收入的直接衡量。",
+          "watch": "關注後續訂單、生產、就業、價格、信貸需求，以及公司申報，以確認情勢延續或反轉。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "製造業採購經理人指數"
+            },
+            {
+              "id": "m2",
+              "label": "非製造業商務活動指數"
+            },
+            {
+              "id": "m3",
+              "label": "綜合產出指數"
+            },
+            {
+              "id": "m4",
+              "label": "製造業新訂單指數"
+            },
+            {
+              "id": "m5",
+              "label": "服務業商務活動指數"
             }
           ]
         }
