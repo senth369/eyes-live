@@ -1,58 +1,53 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-10-31T19:58:44.346Z",
-  "generatedAt": "2026-10-31T20:03:43.831Z",
+  "cutoffAt": "2026-11-01T01:08:45.072Z",
+  "generatedAt": "2026-11-01T01:11:57.320Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Federal Reserve monetary policy statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      "label": "Exelon third-quarter release",
+      "url": "https://www.exeloncorp.com/newsroom/exelon-reports-third-quarter-2026-results"
     },
     {
       "id": "src2",
-      "label": "Elevance Health earnings release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm"
+      "label": "Exelon release tables",
+      "url": "https://exeloncorporation.gcs-web.com/static-files/040f9e43-facc-4747-bd2f-c223047caf70"
     },
     {
       "id": "src3",
-      "label": "Elevance Health quarterly filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+      "label": "Elevance earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm"
     },
     {
       "id": "src4",
-      "label": "UPS earnings release",
-      "url": "https://investors.ups.com/news-events/press-releases/detail/2172/ups-releases-3q-2026-earnings"
+      "label": "Elevance quarterly filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
     },
     {
       "id": "src5",
-      "label": "Ningbo Bank quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639596.PDF"
+      "label": "Gujing Gongjiu quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642369.PDF"
     },
     {
       "id": "src6",
-      "label": "National Bureau of Statistics purchasing managers report",
+      "label": "China official purchasing managers report",
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
     },
     {
       "id": "src7",
-      "label": "Associated Press market close report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
-    },
-    {
-      "id": "src8",
-      "label": "Xinhua Finance A share close report",
+      "label": "China market closing report",
       "url": "https://m.cnfin.com/gs-lb/zixun/20261030/4488836_1.html"
     },
     {
-      "id": "src9",
-      "label": "CSI three hundred historical close table",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "id": "src8",
+      "label": "US market closing report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261031/4489230_1.html"
     },
     {
-      "id": "src10",
-      "label": "Xinhua Finance prior session close report",
-      "url": "https://www.cnfin.com/gs-lb/detail/20261029/4488114_1.html"
+      "id": "src9",
+      "label": "CSI three hundred historical table",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
     }
   ],
   "markets": [
@@ -63,26 +58,28 @@
       "previousClose": 7720.39,
       "changePercent": -1.82,
       "sourceIds": [
-        "src7"
+        "src8"
       ]
     },
     {
       "id": "nasdaq",
       "sessionDate": "2026-10-30",
-      "close": 25437,
-      "previousClose": 26184.73,
+      "close": 25436.999,
+      "previousClose": null,
       "changePercent": -2.86,
       "sourceIds": [
-        "src7"
+        "src8"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": null,
-      "close": null,
+      "sessionDate": "2026-10-30",
+      "close": 3599.02,
       "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "changePercent": -1.44,
+      "sourceIds": [
+        "src7"
+      ]
     },
     {
       "id": "csi300",
@@ -99,727 +96,291 @@
     {
       "id": "f1",
       "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-10-28",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 3.875,
-          "unit": "percent",
-          "periodStart": "2026-10-28",
-          "periodEnd": "2026-10-28",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "The FOMC statement records an unchanged federal funds target range, implying the stated midpoint."
-        }
-      ],
-      "sourceIds": [
-        "src1"
-      ],
-      "evidence": "The Federal Reserve statement says policy was maintained, domestic spending remained resilient, inflation remained elevated, and ample reserves continued."
-    },
-    {
-      "id": "f3",
-      "market": "us",
       "category": "earnings",
-      "publishedOn": "2026-10-27",
+      "publishedOn": "2026-10-30",
       "company": {
-        "name": "United Parcel Service",
-        "ticker": "UPS",
-        "exchange": "NYSE"
+        "name": "Exelon",
+        "ticker": "EXC",
+        "exchange": "Nasdaq"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 22900000000,
+          "value": 0.7,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src1",
+            "src2"
           ],
-          "evidence": "The release headline and financial schedules report consolidated quarterly revenue."
+          "evidence": "The release highlights GAAP diluted earnings in its earnings-release highlights and reconciliation tables."
         },
         {
           "id": "m2",
-          "value": 1163000000,
+          "value": 0.87,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src1",
+            "src2"
           ],
-          "evidence": "The reconciliation table reports quarterly GAAP net income."
+          "evidence": "The release reports adjusted operating earnings in its highlights and non-GAAP reconciliation."
         },
         {
           "id": "m3",
-          "value": 92600000000,
+          "value": 2.91,
           "unit": "USD",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-12-31",
           "comparison": "level",
           "basis": "guidance",
           "sourceIds": [
-            "src4"
+            "src1",
+            "src2"
           ],
-          "evidence": "Management raises full-year consolidated revenue guidance to approximately the stated amount."
-        },
-        {
-          "id": "m4",
-          "value": 6100000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-12-31",
-          "comparison": "level",
-          "basis": "guidance",
-          "sourceIds": [
-            "src4"
-          ],
-          "evidence": "Management raises its non-GAAP adjusted free cash flow target to approximately the stated amount."
+          "evidence": "The release narrows full-year adjusted operating earnings guidance; the upper bound appears in the guidance section."
         }
       ],
       "sourceIds": [
-        "src4"
+        "src1",
+        "src2"
       ],
-      "evidence": "The logistics company reports revenue growth across segments and cites premium growth and network efficiency. GAAP results include transformation costs and a goodwill impairment, separating accounting profit from operating cash economics."
-    },
-    {
-      "id": "f5",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-10-31",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 49.3,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The official manufacturing PMI table reports the seasonally adjusted monthly index."
-        },
-        {
-          "id": "m2",
-          "value": -0.8,
-          "unit": "percentage-points",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The official release states that manufacturing PMI declined from the prior month by the reported amount."
-        },
-        {
-          "id": "m3",
-          "value": 49.7,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The official release reports the non-manufacturing business activity index."
-        },
-        {
-          "id": "m4",
-          "value": 49.7,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The official release reports the composite PMI output index."
-        }
-      ],
-      "sourceIds": [
-        "src6"
-      ],
-      "evidence": "The official survey reports manufacturing and non-manufacturing activity below the expansion threshold, with weaker manufacturing production and new orders."
+      "evidence": "The release attributes utility earnings strength to updated distribution and transmission recovery rates, customer-serving investment, favorable weather, and higher allowance for funds used during construction; it also identifies storm, interest, depreciation, tax, and contracting-cost pressure."
     }
   ],
   "locales": {
     "en": {
-      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
+      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "The Federal Reserve keeps policy restrictive",
-          "summary": "The central bank left its policy setting unchanged while describing spending as resilient and inflation as elevated.",
-          "impact": "Borrowing costs remain a constraint for households, commercial borrowers, and interest-sensitive equity valuations.",
-          "what": "The committee maintained its policy range and continued its ample-reserves framework.",
-          "why": "Stable rates support lenders but keep financing conditions tight for companies refinancing debt or funding expansion.",
-          "uncertainty": "The statement gives no commitment to the timing of a future move and flags continuing uncertainty around inflation and external risks.",
-          "watch": "Watch upcoming inflation, employment, and spending releases for evidence that could change the policy stance.",
+          "title": "Regulated utility earnings hold up as grid investment expands",
+          "summary": "The utility reported mixed quarterly accounting results while approved rates and infrastructure investment supported operating performance.",
+          "impact": "The result matters for regulated electricity bills, financing needs, reliability spending, and the pace at which grid investment can earn authorized returns.",
+          "what": "The company operates regulated transmission and distribution utilities. Management linked stronger operations to updated recovery rates, investment serving customers, favorable weather, and higher allowance for funds used during construction, while other units faced storm, depreciation, interest, tax, and contracting-cost pressure.",
+          "why": "Rate-base growth can support utility earnings and reliability, but financing costs and regulatory recovery determine how investment affects future cash needs and customer bills.",
+          "uncertainty": "The release presents a non-GAAP operating measure alongside GAAP income, and future results remain exposed to regulation, weather, financing, storms, and operating costs.",
+          "watch": "Subsequent regulatory orders, storm-cost recovery, financing disclosures, and cash-flow reporting.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Federal funds rate midpoint"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "UPS raises its outlook despite restructuring charges",
-          "summary": "The parcel carrier reported broad revenue growth and lifted its outlook, although accounting earnings absorbed transformation and impairment charges.",
-          "impact": "Stronger delivery demand and network efficiency could support business shipping capacity, while restructuring costs show that reported profit and cash economics differ.",
-          "what": "UPS handles domestic, international, and supply-chain logistics; management cited premium growth and network efficiency, while the release separately identified transformation costs and a goodwill impairment.",
-          "why": "Higher revenue per package can improve margins even when shipment volumes are uneven, but restructuring and asset charges reduce reported earnings.",
-          "uncertainty": "The outlook is management guidance, not realized performance, and remains exposed to fuel, labor, trade, and customer concentration.",
-          "watch": "Watch shipping volumes, adjusted versus GAAP operating profit, and realized free cash flow.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Quarterly consolidated revenue"
+              "label": "GAAP diluted earnings per share"
             },
             {
               "id": "m2",
-              "label": "Quarterly GAAP net income"
+              "label": "Adjusted operating earnings per share"
             },
             {
               "id": "m3",
-              "label": "Full-year revenue guidance"
-            },
-            {
-              "id": "m4",
-              "label": "Full-year adjusted free cash flow guidance"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "China activity indicators soften",
-          "summary": "The official purchasing managers survey showed manufacturing and non-manufacturing activity below the expansion threshold.",
-          "impact": "Softer reported orders and production imply continued pressure on industrial demand, services activity, pricing power, and corporate planning.",
-          "what": "The survey samples manufacturing and non-manufacturing enterprises and reports activity, production, new orders, and employment-related indicators.",
-          "why": "A broad slowdown can restrain revenue growth and capital spending, while subdued demand can limit margin recovery for suppliers.",
-          "uncertainty": "PMI is a diffusion survey and can be volatile; it is an early signal rather than a direct measure of output or profit.",
-          "watch": "Watch industrial production, retail sales, corporate profits, credit growth, and the next PMI release.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Manufacturing PMI"
-            },
-            {
-              "id": "m2",
-              "label": "Manufacturing PMI monthly change"
-            },
-            {
-              "id": "m3",
-              "label": "Non-manufacturing activity index"
-            },
-            {
-              "id": "m4",
-              "label": "Composite PMI output index"
+              "label": "Annual adjusted earnings guidance upper end"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
+      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
       "marketSummary": {
-        "us": "Les deux indices suivis ont baissé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
+        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La Réserve fédérale maintient une politique restrictive",
-          "summary": "La banque centrale a laissé son orientation de politique monétaire inchangée, tout en décrivant les dépenses comme résilientes et l’inflation comme élevée.",
-          "impact": "Les coûts d’emprunt restent une contrainte pour les ménages, les emprunteurs commerciaux et les valorisations des actions sensibles aux taux d’intérêt.",
-          "what": "Le comité a maintenu sa fourchette de taux et poursuivi son cadre de réserves abondantes.",
-          "why": "Des taux stables soutiennent les prêteurs, mais maintiennent des conditions de financement strictes pour les entreprises qui refinancent leur dette ou financent leur expansion.",
-          "uncertainty": "Le communiqué ne prend aucun engagement sur le calendrier d’une future décision et souligne l’incertitude persistante autour de l’inflation et des risques externes.",
-          "watch": "Surveillez les prochaines publications sur l’inflation, l’emploi et les dépenses pour repérer des éléments susceptibles de modifier l’orientation de la politique monétaire.",
+          "title": "Les résultats d’un fournisseur d’électricité réglementé résistent grâce à l’expansion des investissements dans le réseau",
+          "summary": "Le fournisseur a publié des résultats comptables trimestriels contrastés, tandis que les tarifs approuvés et les investissements dans les infrastructures ont soutenu sa performance opérationnelle.",
+          "impact": "Ce résultat concerne les factures d’électricité réglementées, les besoins de financement, les dépenses consacrées à la fiabilité et le rythme auquel les investissements dans le réseau peuvent générer des rendements autorisés.",
+          "what": "L’entreprise exploite des réseaux réglementés de transport et de distribution d’électricité. La direction a associé l’amélioration des activités à la mise à jour des tarifs de recouvrement, aux investissements destinés aux clients, à des conditions météorologiques favorables et à une allocation plus élevée des fonds utilisés pendant la construction. D’autres unités ont toutefois subi la pression des tempêtes, des amortissements, des intérêts, des impôts et des coûts de sous-traitance.",
+          "why": "La croissance de la base tarifaire peut soutenir les bénéfices du fournisseur et la fiabilité du réseau, mais les coûts de financement et le recouvrement réglementaire déterminent la manière dont les investissements influencent les besoins futurs de trésorerie et les factures des clients.",
+          "uncertainty": "Le communiqué présente une mesure opérationnelle hors normes GAAP en complément du résultat selon les normes GAAP. Les résultats futurs restent exposés à la réglementation, aux conditions météorologiques, au financement, aux tempêtes et aux coûts d’exploitation.",
+          "watch": "Les prochaines décisions réglementaires, le recouvrement des coûts liés aux tempêtes, les informations sur le financement et les publications relatives aux flux de trésorerie.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Point médian du taux des fonds fédéraux"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "UPS relève ses prévisions malgré les charges de restructuration",
-          "summary": "Le transporteur de colis a annoncé une croissance générale de son chiffre d’affaires et relevé ses prévisions, même si les bénéfices comptables ont subi des charges de transformation et de dépréciation.",
-          "impact": "Une demande plus forte pour les livraisons et une meilleure efficacité du réseau pourraient soutenir la capacité de transport des entreprises, tandis que les coûts de restructuration montrent que le bénéfice publié et la génération de trésorerie peuvent différer.",
-          "what": "UPS gère des activités de logistique nationales, internationales et de chaîne d’approvisionnement ; la direction a cité la croissance des services haut de gamme et l’efficacité du réseau, tandis que le communiqué a identifié séparément les coûts de transformation et une dépréciation du goodwill.",
-          "why": "Une hausse du chiffre d’affaires par colis peut améliorer les marges même lorsque les volumes d’expédition sont irréguliers, mais les charges de restructuration et d’actifs réduisent le bénéfice publié.",
-          "uncertainty": "Les prévisions sont des indications de la direction, et non des performances réalisées ; elles restent exposées aux coûts du carburant, au travail, au commerce et à la concentration de la clientèle.",
-          "watch": "Surveillez les volumes d’expédition, le résultat d’exploitation ajusté par rapport au résultat d’exploitation GAAP, ainsi que les flux de trésorerie disponibles effectivement générés.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires consolidé trimestriel"
+              "label": "Bénéfice dilué par action selon les normes GAAP"
             },
             {
               "id": "m2",
-              "label": "Bénéfice net GAAP trimestriel"
+              "label": "Bénéfice d’exploitation ajusté par action"
             },
             {
               "id": "m3",
-              "label": "Prévisions de chiffre d’affaires pour l’exercice"
-            },
-            {
-              "id": "m4",
-              "label": "Prévisions de flux de trésorerie disponibles ajustés pour l’exercice"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Les indicateurs d’activité chinois s’affaiblissent",
-          "summary": "L’enquête officielle auprès des directeurs d’achat a montré une activité manufacturière et non manufacturière inférieure au seuil d’expansion.",
-          "impact": "La faiblesse des nouvelles commandes et de la production signalées implique une pression persistante sur la demande industrielle, l’activité des services, le pouvoir de fixation des prix et la planification des entreprises.",
-          "what": "L’enquête couvre des entreprises manufacturières et non manufacturières et publie des indicateurs liés à l’activité, à la production, aux nouvelles commandes et à l’emploi.",
-          "why": "Un ralentissement généralisé peut freiner la croissance du chiffre d’affaires et les dépenses d’investissement, tandis qu’une demande modérée peut limiter le redressement des marges des fournisseurs.",
-          "uncertainty": "Le PMI est une enquête de diffusion qui peut être volatile ; il s’agit d’un signal précoce, et non d’une mesure directe de la production ou des bénéfices.",
-          "watch": "Surveillez la production industrielle, les ventes au détail, les bénéfices des entreprises, la croissance du crédit et la prochaine publication du PMI.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "PMI manufacturier"
-            },
-            {
-              "id": "m2",
-              "label": "Variation mensuelle du PMI manufacturier"
-            },
-            {
-              "id": "m3",
-              "label": "Indice d’activité non manufacturière"
-            },
-            {
-              "id": "m4",
-              "label": "Indice de production du PMI composite"
+              "label": "Limite supérieure des prévisions annuelles de bénéfice ajusté"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请查看每条内容的发布日期；近期公司报告作为背景解读呈现。",
+      "status": "本期已核实覆盖有限。部分市场没有已核实的新故事；带日期的报告仍会明确标注。",
       "marketSummary": {
-        "us": "所跟踪的两个指数在最近经核实的交易日均下跌。标注日期的收盘数据仅描述相应交易日，并非当前交易情况。",
-        "cn": "部分收盘观察结果无法核实。每个可用指数均保留其自身的交易日期。"
+        "us": "跟踪的指数在最近已核实的交易时段均下跌。带日期的收盘数据描述的是这些交易时段，而非当前交易。",
+        "cn": "跟踪的指数在最近已核实的交易时段均下跌。带日期的收盘数据描述的是这些交易时段，而非当前交易。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美联储维持限制性政策",
-          "summary": "央行维持政策设置不变，同时表示支出具有韧性，通胀仍处于高位。",
-          "impact": "借贷成本仍对家庭、商业借款者和利率敏感型股票估值构成约束。",
-          "what": "委员会维持政策区间，并继续实施充足准备金框架。",
-          "why": "利率稳定有利于贷款机构，但会让需要再融资或筹资扩张的企业面临紧缩的融资条件。",
-          "uncertainty": "声明没有承诺未来调整的时间，并指出通胀和外部风险仍存在持续不确定性。",
-          "watch": "关注即将发布的通胀、就业和支出数据，观察是否出现可能改变政策立场的证据。",
+          "title": "电网投资扩大，受监管公用事业盈利保持韧性",
+          "summary": "这家公用事业公司公布的季度会计业绩喜忧参半，但获批准的费率和基础设施投资支撑了经营表现。",
+          "impact": "这一结果关系到受监管电费、融资需求、可靠性支出，以及电网投资以获准回报实现收益的进度。",
+          "what": "该公司经营受监管的输电和配电公用事业。管理层表示，经营表现改善得益于更新后的成本回收费率、服务客户的投资、有利天气，以及建设期间使用资金的资本化利息增加；与此同时，其他业务部门承受了风暴、折旧、利息、税项和合同成本压力。",
+          "why": "计价资产基础增长可以支撑公用事业盈利和可靠性，但融资成本及监管机构是否允许回收相关成本，将决定投资如何影响未来现金需求和客户账单。",
+          "uncertainty": "公告同时列示了非公认会计准则经营指标和公认会计准则下的利润；未来业绩仍面临监管、天气、融资、风暴及经营成本方面的影响。",
+          "watch": "后续监管命令、风暴成本回收、融资披露及现金流报告。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "联邦基金利率中点"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "UPS在重组费用影响下上调业绩展望",
-          "summary": "这家包裹运输商报告营收广泛增长并上调展望，但转型和减值费用影响了会计口径下的盈利。",
-          "impact": "更强的配送需求和网络效率可能支持商业运输能力，但重组费用也表明，报告利润与现金收益情况并不相同。",
-          "what": "UPS提供国内、国际和供应链物流服务；管理层提到高端业务增长和网络效率，同时公告单独列出了转型费用和商誉减值。",
-          "why": "即使货运量表现不均衡，每件包裹的更高营收也可能改善利润率，但重组和资产费用会减少报告利润。",
-          "uncertainty": "展望是管理层指引，并非已经实现的业绩，仍会受到燃料、劳动力、贸易和客户集中度的影响。",
-          "watch": "关注运输量、调整后与美国通用会计准则口径下的营业利润，以及实际自由现金流。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度合并营收"
+              "label": "公认会计准则每股摊薄收益"
             },
             {
               "id": "m2",
-              "label": "季度美国通用会计准则净利润"
+              "label": "调整后每股经营收益"
             },
             {
               "id": "m3",
-              "label": "全年营收指引"
-            },
-            {
-              "id": "m4",
-              "label": "全年调整后自由现金流指引"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中国经济活动指标走弱",
-          "summary": "官方采购经理人调查显示，制造业和非制造业活动均低于扩张阈值。",
-          "impact": "报告中的订单和产出走弱，意味着工业需求、服务业活动、定价能力和企业规划仍承受压力。",
-          "what": "该调查覆盖制造业和非制造业企业，并报告活动、生产、新订单及就业相关指标。",
-          "why": "广泛放缓可能抑制营收增长和资本开支，而需求疲软可能限制供应商利润率的修复。",
-          "uncertainty": "采购经理人指数属于扩散调查，可能出现波动；它是早期信号，并非产出或利润的直接衡量指标。",
-          "watch": "关注工业增加值、零售销售、企业利润、信贷增长和下一次采购经理人指数发布。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "制造业采购经理人指数"
-            },
-            {
-              "id": "m2",
-              "label": "制造业采购经理人指数月度变化"
-            },
-            {
-              "id": "m3",
-              "label": "非制造业商务活动指数"
-            },
-            {
-              "id": "m4",
-              "label": "综合采购经理人指数产出指数"
-            }
-          ]
-        }
-      ]
-    },
-    "ja": {
-      "status": "この版では、米国と中国の動きを扱います。各公表日を確認してください。最近の企業報告は、背景を説明する資料として掲載しています。",
-      "marketSummary": {
-        "us": "追跡対象の指数は、直近の確認済み取引で下落しました。記載された終値はその取引時点のもので、現在の取引状況を示すものではありません。",
-        "cn": "一部の終値は確認できませんでした。確認できた各指数には、それぞれの取引日を付しています。"
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "米連邦準備制度は金融政策を引き締め的に維持",
-          "summary": "中央銀行は政策設定を据え置き、支出は底堅い一方、インフレは高い水準にあると説明しました。",
-          "impact": "借入コストは、家計、商業借り手、金利に敏感な株式のバリュエーションにとって引き続き重しとなります。",
-          "what": "委員会は政策金利のレンジを維持し、十分な準備預金の枠組みを継続しました。",
-          "why": "金利の安定は金融機関を支えますが、債務の借り換えや事業拡大の資金調達を行う企業にとって、金融環境は厳しいままです。",
-          "uncertainty": "声明は、今後の変更時期について約束しておらず、インフレと外部リスクをめぐる不確実性が続いていると指摘しています。",
-          "watch": "今後発表されるインフレ、雇用、支出の指標を確認し、政策姿勢を変える根拠があるかを見ます。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "フェデラルファンド金利の中央値"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "UPS、再編費用がある中でも見通しを引き上げ",
-          "summary": "小口配送会社は全体として増収を報告し、見通しを引き上げました。ただし、会計上の利益は事業変革費用と減損費用の影響を受けました。",
-          "impact": "配送需要の強さとネットワーク効率の改善は企業向け配送能力を支える可能性があります。一方、再編費用は、報告利益と現金面の実態が異なることを示しています。",
-          "what": "UPSは国内、国際、サプライチェーンの物流を手がけています。経営陣は高付加価値サービスの成長とネットワーク効率を挙げ、発表資料では事業変革費用とのれんの減損も別途示しました。",
-          "why": "荷物一個当たりの収入が増えれば、配送量にばらつきがあっても利益率が改善する可能性があります。ただし、再編費用と資産関連費用は報告利益を押し下げます。",
-          "uncertainty": "見通しは経営陣によるガイダンスであり、実現した業績ではありません。燃料、労働、貿易、顧客集中の影響も受けます。",
-          "watch": "配送量、調整後とGAAPベースの営業利益、実現したフリーキャッシュフローを確認します。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期連結売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期GAAPベースの純利益"
-            },
-            {
-              "id": "m3",
-              "label": "通期売上高ガイダンス"
-            },
-            {
-              "id": "m4",
-              "label": "通期調整後フリーキャッシュフローガイダンス"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中国の景況指標が軟化",
-          "summary": "政府の購買担当者景気指数調査では、製造業と非製造業の活動が拡大・縮小の境目を下回りました。",
-          "impact": "報告された受注と生産の弱さは、産業需要、サービス活動、価格決定力、企業の計画に引き続き圧力があることを示します。",
-          "what": "この調査は製造業と非製造業の企業を対象とし、活動、生産、新規受注、雇用関連の指標を報告します。",
-          "why": "幅広い減速は売上成長と設備投資を抑える可能性があります。また、需要の弱さは供給企業の利益率回復を制限する可能性があります。",
-          "uncertainty": "PMIは景況感の広がりを示す調査で、変動する可能性があります。生産や利益を直接測るものではなく、早期のシグナルです。",
-          "watch": "鉱工業生産、小売売上高、企業利益、信用の伸び、次回のPMI発表を確認します。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "製造業PMI"
-            },
-            {
-              "id": "m2",
-              "label": "製造業PMIの前月差"
-            },
-            {
-              "id": "m3",
-              "label": "非製造業活動指数"
-            },
-            {
-              "id": "m4",
-              "label": "総合PMI産出指数"
+              "label": "年度调整后收益指引上限"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Comprueba la fecha de publicación de cada artículo; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes fechados siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
-        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
+        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La Reserva Federal mantiene una política restrictiva",
-          "summary": "El banco central mantuvo sin cambios su orientación de política mientras describía el gasto como resiliente y la inflación como elevada.",
-          "impact": "Los costes de endeudamiento siguen siendo una limitación para los hogares, los prestatarios comerciales y las valoraciones de acciones sensibles a los tipos de interés.",
-          "what": "El comité mantuvo su rango de política y continuó con su marco de reservas abundantes.",
-          "why": "Los tipos estables apoyan a los prestamistas, pero mantienen restrictivas las condiciones de financiación para las empresas que refinancian deuda o financian su expansión.",
-          "uncertainty": "El comunicado no se compromete con el momento de un futuro cambio y señala la incertidumbre persistente en torno a la inflación y los riesgos externos.",
-          "watch": "Observa los próximos datos de inflación, empleo y gasto en busca de señales que puedan cambiar la orientación de la política monetaria.",
+          "title": "Los resultados de la empresa eléctrica regulada resisten mientras se amplía la inversión en la red",
+          "summary": "La empresa informó resultados contables trimestrales mixtos, mientras que las tarifas aprobadas y la inversión en infraestructura respaldaron el desempeño operativo.",
+          "impact": "El resultado es relevante para las tarifas reguladas de electricidad, las necesidades de financiación, el gasto en fiabilidad y el ritmo al que la inversión en la red puede generar rendimientos autorizados.",
+          "what": "La empresa opera servicios regulados de transmisión y distribución. La dirección relacionó la mejora operativa con tarifas de recuperación actualizadas, inversiones para atender a los clientes, condiciones meteorológicas favorables y una mayor asignación de fondos utilizados durante la construcción, mientras que otras unidades afrontaron presiones por tormentas, depreciación, intereses, impuestos y costes de contratación.",
+          "why": "El crecimiento de la base regulatoria de activos puede respaldar los beneficios de la empresa eléctrica y la fiabilidad, pero los costes de financiación y la recuperación regulatoria determinan cómo la inversión afecta a las necesidades futuras de efectivo y a las facturas de los clientes.",
+          "uncertainty": "El comunicado presenta una medida operativa no conforme con los principios contables generalmente aceptados junto con el resultado conforme a esos principios, y los resultados futuros siguen expuestos a la regulación, el clima, la financiación, las tormentas y los costes operativos.",
+          "watch": "Resoluciones regulatorias posteriores, recuperación de costes por tormentas, información sobre financiación e informes de flujo de caja.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Punto medio del tipo de los fondos federales"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "UPS eleva sus previsiones pese a los costes de reestructuración",
-          "summary": "La empresa de paquetería informó de un crecimiento generalizado de la facturación y elevó sus previsiones, aunque los beneficios contables absorbieron costes de transformación y deterioros de activos.",
-          "impact": "Una demanda más sólida de entregas y una mayor eficiencia de la red podrían respaldar la capacidad de envíos empresariales, mientras que los costes de reestructuración muestran que el beneficio declarado y la generación de efectivo pueden diferir.",
-          "what": "UPS gestiona logística nacional, internacional y de cadenas de suministro; la dirección citó el crecimiento de servicios prémium y la eficiencia de la red, mientras que el comunicado identificó por separado los costes de transformación y un deterioro del fondo de comercio.",
-          "why": "Una mayor facturación por paquete puede mejorar los márgenes aunque los volúmenes de envíos sean desiguales, pero los costes de reestructuración y los cargos por activos reducen los beneficios declarados.",
-          "uncertainty": "Las previsiones reflejan la orientación de la dirección, no resultados realizados, y siguen expuestas a los costes de combustible, la mano de obra, el comercio y la concentración de clientes.",
-          "watch": "Observa los volúmenes de envíos, el beneficio operativo ajustado frente al beneficio operativo conforme a GAAP y el flujo de caja libre realizado.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos consolidados trimestrales"
+              "label": "Beneficio diluido por acción conforme a los principios contables generalmente aceptados"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto trimestral conforme a GAAP"
+              "label": "Beneficio operativo ajustado por acción"
             },
             {
               "id": "m3",
-              "label": "Previsión de ingresos para el ejercicio completo"
-            },
-            {
-              "id": "m4",
-              "label": "Previsión de flujo de caja libre ajustado para el ejercicio completo"
+              "label": "Límite superior de la previsión anual de beneficios ajustados"
             }
           ]
-        },
+        }
+      ]
+    },
+    "ja": {
+      "status": "この版では、確認済みの情報が限定されています。一部の市場には確認済みの新しいニュースがなく、日付付きの報告は現在の取引状況とは明確に区別されています。",
+      "marketSummary": {
+        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。日付付きの終値は、現在の取引ではなく、それぞれの取引状況を示しています。",
+        "cn": "追跡対象の両指数は、直近の確認済み取引で下落しました。日付付きの終値は、現在の取引ではなく、それぞれの取引状況を示しています。"
+      },
+      "stories": [
         {
-          "id": "f5",
-          "title": "Los indicadores de actividad de China se debilitan",
-          "summary": "La encuesta oficial de gestores de compras mostró que la actividad manufacturera y no manufacturera se situó por debajo del umbral de expansión.",
-          "impact": "La debilidad de los pedidos y la producción declarados implica una presión persistente sobre la demanda industrial, la actividad de servicios, el poder de fijación de precios y la planificación empresarial.",
-          "what": "La encuesta incluye empresas manufactureras y no manufactureras, y comunica indicadores de actividad, producción, nuevos pedidos y empleo.",
-          "why": "Una desaceleración generalizada puede limitar el crecimiento de los ingresos y el gasto de capital, mientras que una demanda débil puede frenar la recuperación de los márgenes de los proveedores.",
-          "uncertainty": "El PMI es una encuesta de difusión y puede ser volátil; constituye una señal temprana, no una medición directa de la producción o los beneficios.",
-          "watch": "Observa la producción industrial, las ventas minoristas, los beneficios empresariales, el crecimiento del crédito y la próxima publicación del PMI.",
+          "id": "f1",
+          "title": "送電網への投資拡大を背景に、規制公益事業の業績が底堅く推移",
+          "summary": "この公益企業は、四半期の会計上の結果がまちまちでした。一方、認可料金とインフラ投資が営業面の業績を支えました。",
+          "impact": "この結果は、規制対象の電気料金、資金調達の必要性、信頼性向上のための支出、そして送電網投資が認可された収益を生み始めるペースに関係します。",
+          "what": "この企業は、規制対象の送電・配電事業を運営しています。経営陣は、営業面の改善について、料金回収条件の更新、顧客向け投資、天候に恵まれたこと、建設期間中の資金調達コストに対する控除の増加が寄与したと説明しました。一方、その他の事業では、暴風雨、減価償却、利払い、税金、契約関連費用が重しとなりました。",
+          "why": "料金算定の基礎となる資産の拡大は、公益企業の利益と信頼性を支える可能性があります。ただし、投資が将来の資金需要や顧客料金にどう影響するかは、資金調達コストと規制当局による費用回収の承認に左右されます。",
+          "uncertainty": "発表資料では、GAAPに基づく利益と並んで、非GAAPの営業指標も示されています。また、今後の結果は、規制、天候、資金調達、暴風雨、営業費用の影響を受ける可能性があります。",
+          "watch": "今後の規制当局の命令、暴風雨関連費用の回収、資金調達に関する開示、キャッシュフローの報告。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "PMI manufacturero"
+              "label": "GAAP希薄化後一株当たり利益"
             },
             {
               "id": "m2",
-              "label": "Variación mensual del PMI manufacturero"
+              "label": "調整後営業利益（一株当たり）"
             },
             {
               "id": "m3",
-              "label": "Índice de actividad no manufacturera"
-            },
-            {
-              "id": "m4",
-              "label": "Índice compuesto de producción del PMI"
+              "label": "年間調整後利益見通しの上限"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的發展。請查看各則內容的發布日期；近期公司報告以背景解說呈現。",
+      "status": "本期僅有有限的已驗證涵蓋內容。部分市場沒有已驗證的新消息；有日期的報告仍清楚標示。",
       "marketSummary": {
-        "us": "追蹤的指數在最近經核實的交易時段均下跌。標示日期的收盤價僅反映該交易時段，不代表目前交易情況。",
-        "cn": "部分收盤觀察無法核實。每個可取得的指數均保留其自身的交易日期。"
+        "us": "追蹤的兩個指數在最近已驗證的交易時段均下跌。有日期的收盤表現描述的是那些交易時段，不代表目前交易情況。",
+        "cn": "追蹤的兩個指數在最近已驗證的交易時段均下跌。有日期的收盤表現描述的是那些交易時段，不代表目前交易情況。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "聯準會維持限制性政策",
-          "summary": "央行維持政策設定不變，同時表示支出仍具韌性，通膨仍處高位。",
-          "impact": "借貸成本持續限制家庭、商業借款人及對利率敏感的股票估值。",
-          "what": "聯邦公開市場委員會維持政策利率區間，並持續採用充足準備金制度。",
-          "why": "穩定的利率有利於放款機構，但會讓企業再融資或資助擴張時面臨緊縮的融資條件。",
-          "uncertainty": "聲明未承諾未來調整政策的時間，並指出通膨與外部風險仍存在不確定性。",
-          "watch": "留意即將公布的通膨、就業與支出數據，觀察是否出現可能改變政策立場的證據。",
+          "title": "電網投資擴大，受監管公用事業的獲利表現維持韌性",
+          "summary": "這家公用事業公司公布好壞不一的季度會計業績，但核准費率與基礎設施投資支撐了營運表現。",
+          "impact": "這項結果攸關受監管電價、融資需求、供電可靠度支出，以及電網投資取得核准報酬的速度。",
+          "what": "該公司經營受監管的輸電與配電公用事業。管理層表示，較強的營運表現來自更新後的成本回收費率、服務客戶的投資、有利天候，以及較高的建造期間資金成本資本化金額；同時，其他業務部門則受到風暴、折舊、利息、稅項與合約成本上升的壓力。",
+          "why": "電價基礎擴張可以支撐公用事業獲利與供電可靠度，但融資成本與監管機關的成本回收安排，會決定投資如何影響未來現金需求與客戶帳單。",
+          "uncertainty": "公告同時呈現非公認會計原則的營運指標與公認會計原則下的淨利；未來業績仍受到監管、天候、融資、風暴與營運成本影響。",
+          "watch": "後續監管命令、風暴成本回收、融資揭露，以及現金流量報告。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "聯邦基金利率中點"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "UPS 儘管面臨重組費用仍上調展望",
-          "summary": "這家包裹運輸商公布營收廣泛成長並上調展望，但轉型與減損費用拖累會計獲利。",
-          "impact": "較強的配送需求與網絡效率可能支持商業運輸量能，但重組成本也顯示，帳面獲利與現金經濟效益並不相同。",
-          "what": "UPS 經營國內、國際及供應鏈物流業務；管理層提到高端服務成長與網絡效率，而公司公告也另行列出轉型成本與商譽減損。",
-          "why": "即使貨件量不均，每件包裹較高的營收仍可能改善利潤率；但重組與資產費用會降低帳面獲利。",
-          "uncertainty": "展望是管理層指引，不是已實現的業績，且仍受燃料、勞動力、貿易及客戶集中度影響。",
-          "watch": "留意運輸量、調整後與 GAAP 營業利益，以及實際自由現金流。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度合併營收"
+              "label": "公認會計原則稀釋後每股盈餘"
             },
             {
               "id": "m2",
-              "label": "季度 GAAP 淨利潤"
+              "label": "調整後營運每股盈餘"
             },
             {
               "id": "m3",
-              "label": "全年營收指引"
-            },
-            {
-              "id": "m4",
-              "label": "全年調整後自由現金流指引"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中國活動指標走弱",
-          "summary": "官方採購經理人調查顯示，製造業與非製造業活動均低於擴張門檻。",
-          "impact": "回報較弱的訂單與生產，意味著工業需求、服務業活動、定價能力及企業規劃仍承受壓力。",
-          "what": "調查涵蓋製造業與非製造業企業，並公布活動、生產、新訂單及就業相關指標。",
-          "why": "廣泛放緩可能抑制營收成長與資本支出，而需求疲弱也可能限制供應商利潤率的復甦。",
-          "uncertainty": "PMI 是擴散指數調查，可能出現波動；它是早期訊號，而非產出或獲利的直接衡量。",
-          "watch": "留意工業生產、零售銷售、企業獲利、信貸成長及下一次 PMI 公布結果。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "製造業 PMI"
-            },
-            {
-              "id": "m2",
-              "label": "製造業 PMI 月度變化"
-            },
-            {
-              "id": "m3",
-              "label": "非製造業活動指數"
-            },
-            {
-              "id": "m4",
-              "label": "綜合 PMI 產出指數"
+              "label": "全年調整後盈餘指引上限"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios corporativos recentes são apresentados como explicadores de contexto.",
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
       "marketSummary": {
-        "us": "Ambos os índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
+        "us": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "O Federal Reserve mantém a política monetária restritiva",
-          "summary": "O banco central manteve sua orientação de política inalterada, descrevendo os gastos como resilientes e a inflação como elevada.",
-          "impact": "Os custos de empréstimos continuam sendo uma restrição para famílias, tomadores comerciais e avaliações de ações sensíveis aos juros.",
-          "what": "O comitê manteve sua faixa de política monetária e continuou usando seu sistema de reservas amplas.",
-          "why": "Taxas estáveis apoiam os credores, mas mantêm apertadas as condições de financiamento para empresas que refinanciam dívidas ou financiam expansões.",
-          "uncertainty": "O comunicado não se compromete com o momento de uma futura mudança e destaca a incerteza contínua em torno da inflação e dos riscos externos.",
-          "watch": "Acompanhe os próximos dados de inflação, emprego e gastos em busca de evidências que possam mudar a orientação da política monetária.",
+          "title": "Resultados de empresa regulada de serviços públicos resistem com expansão dos investimentos na rede",
+          "summary": "A empresa divulgou resultados contábeis trimestrais mistos, enquanto tarifas aprovadas e investimentos em infraestrutura sustentaram o desempenho operacional.",
+          "impact": "O resultado é relevante para as tarifas reguladas de eletricidade, as necessidades de financiamento, os gastos com confiabilidade e o ritmo em que os investimentos na rede podem gerar retornos autorizados.",
+          "what": "A empresa opera serviços regulados de transmissão e distribuição. A administração associou a melhora operacional a tarifas de recuperação atualizadas, investimentos voltados aos clientes, condições climáticas favoráveis e maior compensação por fundos utilizados durante a construção, enquanto outras unidades enfrentaram pressão de tempestades, depreciação, juros, impostos e custos de contratação.",
+          "why": "O crescimento da base tarifária pode sustentar os resultados da empresa e a confiabilidade, mas os custos de financiamento e a recuperação regulatória determinam como os investimentos afetarão as necessidades futuras de caixa e as tarifas dos clientes.",
+          "uncertainty": "O comunicado apresenta uma medida operacional não baseada em GAAP junto com o lucro segundo GAAP, e os resultados futuros continuam expostos à regulação, ao clima, ao financiamento, a tempestades e aos custos operacionais.",
+          "watch": "Próximas decisões regulatórias, recuperação de custos relacionados a tempestades, divulgações sobre financiamento e relatórios de fluxo de caixa.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ponto médio da taxa dos fundos federais"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "A UPS eleva sua perspectiva apesar dos encargos de reestruturação",
-          "summary": "A transportadora de encomendas registrou crescimento generalizado da receita e elevou sua perspectiva, embora os lucros contábeis tenham absorvido encargos de transformação e perda por redução ao valor recuperável.",
-          "impact": "A demanda mais forte por entregas e a eficiência da rede podem apoiar a capacidade de remessas comerciais, enquanto os custos de reestruturação mostram que o lucro divulgado e a geração de caixa podem diferir.",
-          "what": "A UPS atua em logística doméstica, internacional e de cadeias de suprimentos; a administração citou crescimento de serviços premium e eficiência da rede, enquanto o comunicado identificou separadamente custos de transformação e uma perda por redução ao valor recuperável do ágio.",
-          "why": "Uma receita maior por pacote pode melhorar as margens mesmo quando os volumes de remessas são irregulares, mas os custos de reestruturação e os encargos sobre ativos reduzem o lucro divulgado.",
-          "uncertainty": "A perspectiva é uma orientação da administração, não um resultado realizado, e continua exposta a combustível, mão de obra, comércio e concentração de clientes.",
-          "watch": "Acompanhe os volumes de remessas, o lucro operacional ajustado em comparação com o GAAP e o fluxo de caixa livre realizado.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita consolidada trimestral"
+              "label": "Lucro diluído por ação segundo o GAAP"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido trimestral segundo o GAAP"
+              "label": "Lucro operacional ajustado por ação"
             },
             {
               "id": "m3",
-              "label": "Orientação de receita para o ano completo"
-            },
-            {
-              "id": "m4",
-              "label": "Orientação de fluxo de caixa livre ajustado para o ano completo"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Os indicadores de atividade da China enfraquecem",
-          "summary": "A pesquisa oficial de gerentes de compras mostrou atividade industrial e não industrial abaixo do nível de expansão.",
-          "impact": "A redução relatada em pedidos e produção indica pressão contínua sobre a demanda industrial, a atividade de serviços, o poder de definir preços e o planejamento corporativo.",
-          "what": "A pesquisa inclui empresas industriais e não industriais e apresenta indicadores de atividade, produção, novos pedidos e emprego.",
-          "why": "Uma desaceleração ampla pode limitar o crescimento da receita e os investimentos, enquanto a demanda fraca pode restringir a recuperação das margens dos fornecedores.",
-          "uncertainty": "O PMI é uma pesquisa de difusão e pode ser volátil; é um sinal antecipado, não uma medida direta de produção ou lucro.",
-          "watch": "Acompanhe a produção industrial, as vendas no varejo, os lucros corporativos, o crescimento do crédito e a próxima divulgação do PMI.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "PMI industrial"
-            },
-            {
-              "id": "m2",
-              "label": "Variação mensal do PMI industrial"
-            },
-            {
-              "id": "m3",
-              "label": "Índice de atividade não industrial"
-            },
-            {
-              "id": "m4",
-              "label": "Índice composto de produção do PMI"
+              "label": "Limite superior da projeção anual de lucro ajustado"
             }
           ]
         }
