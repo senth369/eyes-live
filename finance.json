@@ -1,48 +1,68 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-02T02:30:17.628Z",
-  "generatedAt": "2026-11-02T02:34:46.528Z",
+  "cutoffAt": "2026-11-02T13:29:47.135Z",
+  "generatedAt": "2026-11-02T13:36:42.776Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "ExxonMobil third-quarter results release",
-      "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results"
+      "label": "Quanta Services third-quarter earnings release",
+      "url": "https://investors.quantaservices.com/_assets/_01c9c3f1ac58364ad0eaebaeeddaa06e/quantaservices/news/2026-10-29_QUANTA_SERVICES_REPORTS_THIRD_QUARTER_2026_407.pdf"
     },
     {
       "id": "src2",
-      "label": "Coca-Cola third-quarter results release",
-      "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance"
+      "label": "Quanta Services quarterly filing",
+      "url": "https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001050915-26-000041/0001050915-26-000041.pdf"
     },
     {
       "id": "src3",
-      "label": "Coca-Cola quarterly filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm"
+      "label": "Teradyne quarterly filing",
+      "url": "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-441091/ter-20260927.htm"
     },
     {
       "id": "src4",
-      "label": "BYD third-quarter report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+      "label": "Bank of Shanghai third-quarter report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648947.PDF"
     },
     {
       "id": "src5",
-      "label": "China National Bureau of Statistics purchasing managers release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
+      "label": "National Bureau of Statistics GDP release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html"
     },
     {
       "id": "src6",
-      "label": "S&P five hundred and Nasdaq closing table",
-      "url": "https://portfolio-terminal.com/markets/stock-market-close"
+      "label": "Coca-Cola third-quarter earnings release",
+      "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance"
     },
     {
       "id": "src7",
-      "label": "CSI three hundred historical closing table",
-      "url": "https://ca.investing.com/indices/csi300-historical-data"
+      "label": "FRED S&P 500 daily series",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src8",
-      "label": "Shanghai Composite closing report",
-      "url": "https://m.cnfin.com/gs-lb/zixun/20261030/4488836_1.html"
+      "label": "FRED Nasdaq Composite daily series",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+    },
+    {
+      "id": "src9",
+      "label": "Associated Press United States market close report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
+    },
+    {
+      "id": "src10",
+      "label": "CSI Three Hundred historical closing table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
+    },
+    {
+      "id": "src11",
+      "label": "Mainland China market closing report",
+      "url": "https://yuanchuang.10jqka.com.cn/20261102/c681350783.shtml"
+    },
+    {
+      "id": "src12",
+      "label": "National Bureau of Statistics retail sales release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html"
     }
   ],
   "markets": [
@@ -51,9 +71,9 @@
       "sessionDate": "2026-10-30",
       "close": 7580.07,
       "previousClose": 7720.39,
-      "changePercent": -1.82,
+      "changePercent": -1.8175,
       "sourceIds": [
-        "src6"
+        "src9"
       ]
     },
     {
@@ -61,101 +81,100 @@
       "sessionDate": "2026-10-30",
       "close": 25437,
       "previousClose": 26184.72,
-      "changePercent": -2.86,
+      "changePercent": -2.8558,
       "sourceIds": [
-        "src6"
+        "src8",
+        "src9"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-10-30",
-      "close": 3599.02,
+      "sessionDate": null,
+      "close": null,
       "previousClose": null,
-      "changePercent": -1.44,
-      "sourceIds": [
-        "src8"
-      ]
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-10-30",
-      "close": 3985.5,
-      "previousClose": 4041.84,
-      "changePercent": -1.39,
+      "sessionDate": "2026-11-02",
+      "close": 4016.92,
+      "previousClose": 3985.5,
+      "changePercent": 0.7884,
       "sourceIds": [
-        "src7"
+        "src10"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f1",
-      "market": "us",
+      "id": "f4",
+      "market": "cn",
       "category": "earnings",
-      "publishedOn": "2026-10-30",
+      "publishedOn": "2026-10-31",
       "company": {
-        "name": "ExxonMobil",
-        "ticker": "XOM",
-        "exchange": "NYSE"
+        "name": "Bank of Shanghai",
+        "ticker": "601229",
+        "exchange": "Shanghai Stock Exchange"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 15413000000,
-          "unit": "USD",
+          "value": 11767710000,
+          "unit": "CNY",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Results summary and release financial paragraph report quarterly United States GAAP earnings."
+          "evidence": "Quarterly report main financial-data table reports third-quarter operating revenue in thousands of yuan."
         },
         {
           "id": "m2",
-          "value": 25700000000,
-          "unit": "USD",
+          "value": 350306000,
+          "unit": "CNY",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Release financial paragraph reports cash flow from operating activities."
+          "evidence": "Quarterly report main financial-data table reports attributable net profit in thousands of yuan."
         },
         {
           "id": "m3",
-          "value": 7000000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
+          "value": 46321218000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Issuer financial highlights identify quarterly cash capital expenditures."
+          "evidence": "Quarterly report main financial-data table reports year-to-date operating cash flow in thousands of yuan."
         },
         {
           "id": "m4",
-          "value": 20000000000,
-          "unit": "USD",
-          "periodStart": "2027-01-01",
-          "periodEnd": "2027-12-31",
+          "value": 1.99,
+          "unit": "percent",
+          "periodStart": "2026-09-30",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
-          "basis": "guidance",
+          "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Release highlights announce planned share repurchases for the following year."
+          "evidence": "Quarterly report asset-quality table reports the nonperforming-loan ratio at period end."
         }
       ],
       "sourceIds": [
-        "src1"
+        "src4"
       ],
-      "evidence": "The issuer release reports quarterly accounting earnings, operating cash generation, capital spending, and planned shareholder distributions."
+      "evidence": "The unaudited report supports sharply weaker quarterly profit, lower investment income, heavier credit-impairment losses, strong deposit-related cash inflows and weaker asset quality."
     }
   ],
   "locales": {
@@ -163,182 +182,182 @@
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "ExxonMobil reports strong earnings and operating cash generation",
-          "summary": "ExxonMobil reported substantial quarterly earnings and operating cash generation across its integrated energy businesses.",
-          "impact": "The cash profile supports investment and shareholder distributions, while commodity prices, refining margins, and project execution remain central risks.",
-          "what": "ExxonMobil spans oil and gas production, refining, fuels, chemicals, and specialty products, with the release highlighting upstream milestones and refining performance.",
-          "why": "Operating cash generation can fund capital spending and distributions without equivalent reliance on outside financing, but energy results remain exposed to market prices and margins.",
-          "uncertainty": "The release includes non-GAAP measures and forward-looking plans, while future cash generation depends on commodity markets, disruptions, regulation, and project delivery.",
-          "watch": "Watch the next filing for realized prices, production, refining margins, capital spending, and the relationship between distributions and cash generation.",
+          "id": "f4",
+          "title": "Shanghai bank profit falls as rates and provisioning weigh",
+          "summary": "The bank reported a sharp quarterly profit decline while deposit-related cash inflows remained strong.",
+          "impact": "Lower bank profitability and weaker asset quality can constrain credit supply and raise borrowing costs for households and businesses even when reported operating cash flow improves.",
+          "what": "The lender earns income from loans, investments and financial services; it attributed the profit decline to lower investment income and stronger expected-credit-loss provisioning.",
+          "why": "Low rates compress asset yields, while heavier provisioning reduces accounting profit as banks recognize more credit risk; deposit inflows can improve liquidity without restoring profitability.",
+          "uncertainty": "The report is unaudited, and bank operating cash flow is heavily affected by deposit and interbank movements, so it is not equivalent to recurring free cash flow.",
+          "watch": "Watch subsequent asset-quality tables, provisioning coverage, net interest income and capital ratios.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Reported earnings"
+              "label": "Quarterly operating revenue"
             },
             {
               "id": "m2",
-              "label": "Operating cash flow"
+              "label": "Quarterly attributable net profit"
             },
             {
               "id": "m3",
-              "label": "Cash capital expenditures"
+              "label": "Nine-month operating cash flow"
             },
             {
               "id": "m4",
-              "label": "Planned share repurchases"
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne présentent aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
-      "marketSummary": {
-        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "ExxonMobil annonce de solides résultats et une forte génération de trésorerie d’exploitation",
-          "summary": "ExxonMobil a annoncé de substantiels résultats trimestriels et une forte génération de trésorerie d’exploitation dans l’ensemble de ses activités énergétiques intégrées.",
-          "impact": "Le profil de trésorerie soutient les investissements et les distributions aux actionnaires, tandis que les prix des matières premières, les marges de raffinage et l’exécution des projets restent des risques majeurs.",
-          "what": "ExxonMobil couvre la production de pétrole et de gaz, le raffinage, les carburants, la chimie et les produits spécialisés. Le communiqué met en avant les avancées de l’amont et la performance du raffinage.",
-          "why": "La génération de trésorerie d’exploitation peut financer les dépenses d’investissement et les distributions sans dépendre autant de financements externes. Toutefois, les résultats énergétiques restent exposés aux prix du marché et aux marges.",
-          "uncertainty": "Le communiqué comprend des indicateurs non conformes aux normes comptables et des projets prospectifs. La future génération de trésorerie dépend des marchés des matières premières, des perturbations, de la réglementation et de la réalisation des projets.",
-          "watch": "Surveiller le prochain dépôt réglementaire pour connaître les prix réalisés, la production, les marges de raffinage, les dépenses d’investissement et le rapport entre les distributions et la génération de trésorerie.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Résultats publiés"
-            },
-            {
-              "id": "m2",
-              "label": "Trésorerie d’exploitation"
-            },
-            {
-              "id": "m3",
-              "label": "Dépenses d’investissement en trésorerie"
-            },
-            {
-              "id": "m4",
-              "label": "Rachats d’actions prévus"
+              "label": "Nonperforming-loan ratio"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道覆盖有限。部分市场没有经核实的新消息；有日期的报告仍会明确标注。",
+      "status": "本期经核实的覆盖范围有限。部分市场没有经核实的新消息；带日期的报告仍已明确标注。",
       "marketSummary": {
-        "us": "跟踪的两个指数在最近经核实的交易时段均下跌。有日期的收盘数据描述的是这些交易时段，而不是当前交易。",
-        "cn": "跟踪的两个指数在最近经核实的交易时段均下跌。有日期的收盘数据描述的是这些交易时段，而不是当前交易。"
+        "us": "所跟踪的两项指数在最近经核实的交易时段均下跌。带日期的收盘数据反映的是相应交易时段，而非当前交易情况。",
+        "cn": "部分收盘观察无法核实。每项可用指数均保留其对应的交易日期。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "埃克森美孚公布强劲业绩和经营现金流",
-          "summary": "埃克森美孚表示，其一体化能源业务实现了可观的季度业绩和经营现金流。",
-          "impact": "现金状况支持投资和股东分配，但大宗商品价格、炼油利润率和项目执行仍是主要风险。",
-          "what": "埃克森美孚的业务涵盖石油和天然气生产、炼油、燃料、化工及特种产品；公司发布的信息重点介绍了上游业务里程碑和炼油表现。",
-          "why": "经营现金流可以为资本支出和股东分配提供资金，减少对外部融资的同等依赖；但能源业绩仍会受到市场价格和利润率影响。",
-          "uncertainty": "公司发布的信息包含非公认会计准则指标和前瞻性计划；未来现金流仍取决于大宗商品市场、运营中断、监管和项目交付情况。",
-          "watch": "关注下一份申报文件中的实现价格、产量、炼油利润率、资本支出，以及股东分配与现金流之间的关系。",
+          "id": "f4",
+          "title": "利率和拨备增加导致上海一家银行利润下降",
+          "summary": "该银行公布季度利润大幅下降，但与存款相关的现金流入仍然强劲。",
+          "impact": "银行盈利能力下降和资产质量走弱，可能限制信贷供给并推高家庭和企业的借款成本，即使报告中的经营现金流有所改善。",
+          "what": "该银行通过贷款、投资和金融服务获得收入；银行将利润下降归因于投资收益减少，以及预期信用损失拨备增加。",
+          "why": "低利率会压低资产收益率，而增加拨备会使银行确认更多信用风险，从而减少账面利润；存款流入可以改善流动性，但不一定能恢复盈利能力。",
+          "uncertainty": "这份报告未经审计，而且银行经营现金流会受到存款和银行间资金变动的显著影响，因此不能等同于经常性自由现金流。",
+          "watch": "关注后续资产质量表、拨备覆盖率、净利息收入和资本充足率。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "报告业绩"
+              "label": "季度经营收入"
             },
             {
               "id": "m2",
-              "label": "经营现金流"
+              "label": "季度归属于股东的净利润"
             },
             {
               "id": "m3",
-              "label": "现金资本支出"
+              "label": "报告期经营现金流"
             },
             {
               "id": "m4",
-              "label": "计划中的股票回购"
+              "label": "不良贷款率"
             }
           ]
         }
       ]
     },
-    "ja": {
-      "status": "この版で確認できた情報は限定的です。確認済みの新しいニュースがない市場もあります。日付付きの報告は、現在の取引状況と明確に区別しています。",
+    "fr": {
+      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont pas de nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
       "marketSummary": {
-        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。日付付きの終値は、その取引を示すもので、現在の取引状況ではありません。",
-        "cn": "追跡対象の両指数は、直近の確認済み取引で下落しました。日付付きの終値は、その取引を示すもので、現在の取引状況ではありません。"
+        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "エクソンモービル、好調な業績と潤沢な営業キャッシュ創出を報告",
-          "summary": "エクソンモービルは、統合型エネルギー事業全体で、四半期の大幅な利益と営業キャッシュ創出を報告しました。",
-          "impact": "キャッシュ創出力は投資や株主還元を支えます。一方、商品価格、精製マージン、プロジェクトの遂行は引き続き主要なリスクです。",
-          "what": "エクソンモービルは、石油・ガス生産、精製、燃料、化学品、特殊製品を手がけています。今回の発表では、上流部門の進展と精製事業の実績が強調されています。",
-          "why": "営業キャッシュの創出は、外部資金への依存を同程度に高めることなく、設備投資や株主還元に充てる資金となります。ただし、エネルギー事業の業績は市場価格やマージンの影響を受けます。",
-          "uncertainty": "発表には非GAAP指標と将来計画が含まれています。今後のキャッシュ創出は、商品市場、供給障害、規制、プロジェクトの進捗に左右されます。",
-          "watch": "次回の提出資料では、実現価格、生産量、精製マージン、設備投資、株主還元とキャッシュ創出の関係に注目します。",
+          "id": "f4",
+          "title": "Le bénéfice d’une banque de Shanghai recule sous l’effet des taux et des provisions",
+          "summary": "La banque a annoncé une forte baisse de son bénéfice sur la période, tandis que les entrées de trésorerie liées aux dépôts sont restées solides.",
+          "impact": "Une rentabilité bancaire plus faible et une dégradation de la qualité des actifs peuvent limiter l’offre de crédit et accroître les coûts d’emprunt pour les ménages et les entreprises, même lorsque les flux de trésorerie d’exploitation publiés progressent.",
+          "what": "Le prêteur tire des revenus des prêts, des investissements et des services financiers ; il a attribué la baisse du bénéfice à la diminution des revenus d’investissement et au renforcement des provisions pour pertes de crédit attendues.",
+          "why": "Des taux faibles réduisent le rendement des actifs, tandis que des provisions plus importantes diminuent le bénéfice comptable lorsque les banques comptabilisent davantage de risques de crédit ; les entrées de dépôts peuvent améliorer la liquidité sans rétablir la rentabilité.",
+          "uncertainty": "Le rapport n’est pas audité, et les flux de trésorerie d’exploitation d’une banque sont fortement influencés par les mouvements de dépôts et les opérations interbancaires ; ils ne correspondent donc pas aux flux de trésorerie disponibles récurrents.",
+          "watch": "Surveiller les prochains tableaux de qualité des actifs, le taux de couverture des provisions, le revenu net d’intérêts et les ratios de fonds propres.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "報告利益"
+              "label": "Revenus d’exploitation de la période"
             },
             {
               "id": "m2",
-              "label": "営業キャッシュフロー"
+              "label": "Bénéfice net attribuable de la période"
             },
             {
               "id": "m3",
-              "label": "現金設備投資"
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
             },
             {
               "id": "m4",
-              "label": "計画済み自社株買い"
+              "label": "Ratio de prêts non performants"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes fechados siguen claramente identificados.",
+      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes con fecha siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los índices seguidos registraron caídas en sus sesiones verificadas más recientes. Los cierres fechados describen esas sesiones, no la operativa actual.",
-        "cn": "Los índices seguidos registraron caídas en sus sesiones verificadas más recientes. Los cierres fechados describen esas sesiones, no la operativa actual."
+        "us": "Los dos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
+        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "ExxonMobil informa de sólidos resultados y generación de efectivo operativo",
-          "summary": "ExxonMobil informó de sólidos resultados del periodo y de una importante generación de efectivo operativo en sus negocios energéticos integrados.",
-          "impact": "La generación de efectivo respalda la inversión y las distribuciones a los accionistas, mientras que los precios de las materias primas, los márgenes de refino y la ejecución de proyectos siguen siendo riesgos clave.",
-          "what": "ExxonMobil abarca la producción de petróleo y gas, el refino, los combustibles, los productos químicos y los productos especializados. El comunicado destacó avances en producción y el desempeño del refino.",
-          "why": "La generación de efectivo operativo puede financiar el gasto de capital y las distribuciones sin depender en la misma medida de financiación externa, pero los resultados energéticos siguen expuestos a los precios de mercado y a los márgenes.",
-          "uncertainty": "El comunicado incluye medidas no GAAP y planes orientados al futuro, mientras que la generación futura de efectivo depende de los mercados de materias primas, las interrupciones, la regulación y la ejecución de proyectos.",
-          "watch": "En la próxima presentación, conviene observar los precios realizados, la producción, los márgenes de refino, el gasto de capital y la relación entre las distribuciones y la generación de efectivo.",
+          "id": "f4",
+          "title": "El beneficio de un banco de Shanghái cae por el efecto de los tipos y las provisiones",
+          "summary": "El banco informó de una fuerte caída del beneficio trimestral, mientras las entradas de efectivo relacionadas con los depósitos siguieron siendo sólidas.",
+          "impact": "Una menor rentabilidad bancaria y un deterioro de la calidad de los activos pueden limitar la oferta de crédito y elevar los costes de endeudamiento para hogares y empresas, incluso cuando mejora el flujo de caja operativo declarado.",
+          "what": "El banco obtiene ingresos de préstamos, inversiones y servicios financieros; atribuyó la caída del beneficio a unos menores ingresos por inversiones y a un aumento de las provisiones por pérdidas crediticias esperadas.",
+          "why": "Los tipos bajos reducen el rendimiento de los activos, mientras que unas provisiones mayores disminuyen el beneficio contable cuando los bancos reconocen un mayor riesgo crediticio; las entradas de depósitos pueden mejorar la liquidez sin recuperar la rentabilidad.",
+          "uncertainty": "El informe no está auditado, y el flujo de caja operativo de un banco se ve muy afectado por los movimientos de depósitos y de operaciones interbancarias, por lo que no equivale al flujo de caja libre recurrente.",
+          "watch": "Vigilar las tablas posteriores sobre calidad de los activos, cobertura de provisiones, ingresos netos por intereses y ratios de capital.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Resultados declarados"
+              "label": "Ingresos operativos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Flujo de efectivo operativo"
+              "label": "Beneficio neto atribuible trimestral"
             },
             {
               "id": "m3",
-              "label": "Gastos de capital en efectivo"
+              "label": "Flujo de caja operativo acumulado del periodo"
             },
             {
               "id": "m4",
-              "label": "Recompras de acciones previstas"
+              "label": "Ratio de préstamos morosos"
+            }
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "status": "この版で確認できた情報は限定的です。一部の市場では、確認済みの新しいニュースがありません。日付のある報告は、その旨を明確に示しています。",
+      "marketSummary": {
+        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。記載された終値はその取引時点のもので、現在の取引状況を示すものではありません。",
+        "cn": "一部の終値は確認できませんでした。利用可能な各指数には、それぞれの取引日が付されています。"
+      },
+      "stories": [
+        {
+          "id": "f4",
+          "title": "金利と引当が重しとなり、上海の銀行の利益が減少",
+          "summary": "この銀行は期間利益の大幅な減少を報告しましたが、預金関連の現金流入は引き続き堅調でした。",
+          "impact": "銀行の収益性低下と資産の質の悪化は、報告上の営業キャッシュフローが改善している場合でも、家計や企業への信用供給を制約し、借入コストを押し上げる可能性があります。",
+          "what": "この銀行は融資、投資、金融サービスから収益を得ています。利益の減少について、投資収益の減少と予想信用損失引当の増加を要因として挙げました。",
+          "why": "低金利は資産利回りを圧迫し、引当の増加は銀行が信用リスクをより多く認識することで会計上の利益を減少させます。預金流入は流動性を改善できますが、収益性を回復させるとは限りません。",
+          "uncertainty": "この報告は未監査です。また、銀行の営業キャッシュフローは預金や銀行間取引の変動に大きく左右されるため、継続的に生じるフリーキャッシュフローと同じものではありません。",
+          "watch": "今後の資産の質に関する表、引当カバレッジ、純金利収益、自己資本比率を確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "期間営業収益"
+            },
+            {
+              "id": "m2",
+              "label": "期間親会社株主帰属純利益"
+            },
+            {
+              "id": "m3",
+              "label": "累計営業キャッシュフロー"
+            },
+            {
+              "id": "m4",
+              "label": "不良債権比率"
             }
           ]
         }
@@ -347,72 +366,72 @@
     "pt": {
       "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
       "marketSummary": {
-        "us": "Ambos os índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Ambos os índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+        "us": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Alguns fechamentos não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "ExxonMobil registra fortes resultados e geração de caixa operacional",
-          "summary": "A ExxonMobil registrou resultados trimestrais expressivos e forte geração de caixa operacional em seus negócios integrados de energia.",
-          "impact": "O perfil de caixa apoia os investimentos e as distribuições aos acionistas, enquanto os preços das commodities, as margens de refino e a execução de projetos continuam sendo riscos centrais.",
-          "what": "A ExxonMobil atua na produção de petróleo e gás, refino, combustíveis, produtos químicos e produtos especiais, com o comunicado destacando marcos nas operações de exploração e produção e o desempenho do refino.",
-          "why": "A geração de caixa operacional pode financiar investimentos e distribuições sem depender na mesma proporção de financiamento externo, mas os resultados de energia continuam expostos aos preços de mercado e às margens.",
-          "uncertainty": "O comunicado inclui medidas não conformes aos princípios contábeis geralmente aceitos e planos prospectivos, enquanto a geração futura de caixa depende dos mercados de commodities, de interrupções, da regulamentação e da execução dos projetos.",
-          "watch": "Acompanhe o próximo relatório para verificar preços realizados, produção, margens de refino, investimentos e a relação entre as distribuições e a geração de caixa.",
+          "id": "f4",
+          "title": "Lucro de banco de Xangai cai com pressão de juros e provisões",
+          "summary": "O banco registrou uma forte queda no lucro trimestral, enquanto as entradas de caixa relacionadas a depósitos permaneceram robustas.",
+          "impact": "A menor rentabilidade bancária e a piora na qualidade dos ativos podem restringir a oferta de crédito e elevar os custos de empréstimos para famílias e empresas, mesmo quando o fluxo de caixa operacional divulgado melhora.",
+          "what": "O credor obtém receitas de empréstimos, investimentos e serviços financeiros; atribuiu a queda do lucro à menor receita de investimentos e ao aumento das provisões para perdas de crédito esperadas.",
+          "why": "Juros baixos comprimem os rendimentos dos ativos, enquanto provisões maiores reduzem o lucro contábil à medida que os bancos reconhecem mais riscos de crédito; entradas de depósitos podem melhorar a liquidez sem restaurar a rentabilidade.",
+          "uncertainty": "O relatório não foi auditado, e o fluxo de caixa operacional do banco é fortemente afetado por movimentos de depósitos e operações interbancárias, portanto não equivale ao fluxo de caixa livre recorrente.",
+          "watch": "Acompanhe as tabelas posteriores de qualidade dos ativos, a cobertura de provisões, a receita líquida de juros e os índices de capital.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Resultados divulgados"
+              "label": "Receita operacional trimestral"
             },
             {
               "id": "m2",
-              "label": "Fluxo de caixa operacional"
+              "label": "Lucro líquido trimestral atribuível"
             },
             {
               "id": "m3",
-              "label": "Investimentos em capital"
+              "label": "Fluxo de caixa operacional acumulado no período"
             },
             {
               "id": "m4",
-              "label": "Recompras de ações planejadas"
+              "label": "Índice de crédito inadimplente"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期已核實報導涵蓋有限。部分市場沒有已核實的新消息；具日期的報告仍清楚標示。",
+      "status": "本期僅有有限的已驗證涵蓋範圍。部分市場沒有已驗證的新故事；有日期的報告仍清楚標示其日期。",
       "marketSummary": {
-        "us": "追蹤的指數在最新已核實交易時段均下跌。具日期的收盤資料描述的是那些交易時段，不代表目前交易情況。",
-        "cn": "追蹤的指數在最新已核實交易時段均下跌。具日期的收盤資料描述的是那些交易時段，不代表目前交易情況。"
+        "us": "追蹤的兩個指數在最近已驗證的交易時段均下跌。有日期的收盤資料描述的是那些交易時段，而非目前交易情況。",
+        "cn": "部分收盤觀察無法驗證。每個可用指數仍保留各自的交易日期。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "埃克森美孚公布強勁獲利與經營現金創造",
-          "summary": "埃克森美孚表示，其整合能源業務帶來可觀的季度獲利與經營現金創造。",
-          "impact": "現金狀況支持投資與股東分派，但商品價格、煉油利差與專案執行仍是主要風險。",
-          "what": "埃克森美孚涵蓋石油與天然氣生產、煉油、燃料、化學品及特種產品；公告強調上游業務里程碑與煉油表現。",
-          "why": "經營現金創造可以在不過度依賴外部融資的情況下，支應資本支出與分派；但能源業績仍容易受到市場價格與利差影響。",
-          "uncertainty": "公告包含非公認會計原則衡量指標與前瞻性計畫；未來現金創造取決於商品市場、營運中斷、監管與專案交付。",
-          "watch": "留意下一份申報文件中的實現價格、產量、煉油利差、資本支出，以及分派與現金創造之間的關係。",
+          "id": "f4",
+          "title": "上海銀行利率與撥備承壓，利潤下滑",
+          "summary": "該銀行公布本期利潤大幅下滑，但與存款相關的現金流入仍然強勁。",
+          "impact": "銀行獲利能力下降與資產品質轉弱，可能限制對家庭及企業的信貸供給並推高借款成本，即使已公布的經營現金流有所改善。",
+          "what": "該貸款機構的收入來自貸款、投資及金融服務；它將利潤下滑歸因於投資收益下降，以及提高預期信用損失撥備。",
+          "why": "低利率壓縮資產收益率，而提高撥備會讓銀行在確認更多信用風險時減少會計利潤；存款流入可以改善流動性，但未必能恢復獲利能力。",
+          "uncertainty": "該報告未經審計，且銀行經營現金流會受到存款與銀行同業資金流動的重大影響，因此不等同於持續性的自由現金流。",
+          "watch": "留意後續資產品質表格、撥備覆蓋率、淨利息收入及資本比率。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "已報告獲利"
+              "label": "本期營業收入"
             },
             {
               "id": "m2",
-              "label": "經營現金流"
+              "label": "本期歸屬股東淨利潤"
             },
             {
               "id": "m3",
-              "label": "現金資本支出"
+              "label": "累計經營現金流"
             },
             {
               "id": "m4",
-              "label": "計畫中的股票回購"
+              "label": "不良貸款率"
             }
           ]
         }
