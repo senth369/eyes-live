@@ -1,180 +1,190 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-02T13:29:47.135Z",
-  "generatedAt": "2026-11-02T13:36:42.776Z",
-  "model": "gpt-5.6-luna",
+  "cutoffAt": "2026-11-02T22:47:27.966Z",
+  "generatedAt": "2026-11-02T23:01:06.464Z",
+  "model": "gpt-5.6-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Quanta Services third-quarter earnings release",
-      "url": "https://investors.quantaservices.com/_assets/_01c9c3f1ac58364ad0eaebaeeddaa06e/quantaservices/news/2026-10-29_QUANTA_SERVICES_REPORTS_THIRD_QUARTER_2026_407.pdf"
+      "label": "S&P daily index table",
+      "url": "https://www.investing.com/indices/us-spx-500-historical-data"
     },
     {
       "id": "src2",
-      "label": "Quanta Services quarterly filing",
-      "url": "https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001050915-26-000041/0001050915-26-000041.pdf"
+      "label": "Nasdaq daily index table",
+      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
     },
     {
       "id": "src3",
-      "label": "Teradyne quarterly filing",
-      "url": "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-441091/ter-20260927.htm"
+      "label": "Shanghai Composite daily table",
+      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src4",
-      "label": "Bank of Shanghai third-quarter report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648947.PDF"
+      "label": "CSI large-cap daily table",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "National Bureau of Statistics GDP release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html"
+      "label": "Associated Press market report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-475bb37b4d95dd99e26c94e708c99f8f"
     },
     {
       "id": "src6",
-      "label": "Coca-Cola third-quarter earnings release",
-      "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance"
+      "label": "Apple earnings release",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
     },
     {
       "id": "src7",
-      "label": "FRED S&P 500 daily series",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Apple fiscal year financial statements",
+      "url": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf"
     },
     {
       "id": "src8",
-      "label": "FRED Nasdaq Composite daily series",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "Apple prior cumulative financial statements",
+      "url": "https://www.apple.com/newsroom/pdfs/fy2026q3/FY26_Q3_Consolidated_Financial_Statements.pdf"
     },
     {
       "id": "src9",
-      "label": "Associated Press United States market close report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
+      "label": "United States manufacturing survey",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/"
     },
     {
       "id": "src10",
-      "label": "CSI Three Hundred historical closing table",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "BYD quarterly filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
     },
     {
       "id": "src11",
-      "label": "Mainland China market closing report",
-      "url": "https://yuanchuang.10jqka.com.cn/20261102/c681350783.shtml"
+      "label": "China official purchasing managers release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
     },
     {
       "id": "src12",
-      "label": "National Bureau of Statistics retail sales release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html"
+      "label": "China official survey interpretation",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965719.html"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-10-30",
-      "close": 7580.07,
-      "previousClose": 7720.39,
-      "changePercent": -1.8175,
+      "sessionDate": "2026-11-02",
+      "close": 7541.83,
+      "previousClose": 7580.07,
+      "changePercent": -0.5,
       "sourceIds": [
-        "src9"
+        "src1"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-10-30",
-      "close": 25437,
-      "previousClose": 26184.72,
-      "changePercent": -2.8558,
+      "sessionDate": "2026-11-02",
+      "close": 25164.32,
+      "previousClose": 25437,
+      "changePercent": -1.07,
       "sourceIds": [
-        "src8",
-        "src9"
+        "src2"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-02",
+      "close": 3638.03,
+      "previousClose": 3599.02,
+      "changePercent": 1.08,
+      "sourceIds": [
+        "src3"
+      ]
     },
     {
       "id": "csi300",
       "sessionDate": "2026-11-02",
       "close": 4016.92,
       "previousClose": 3985.5,
-      "changePercent": 0.7884,
+      "changePercent": 0.79,
       "sourceIds": [
-        "src10"
+        "src4"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f4",
-      "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-31",
-      "company": {
-        "name": "Bank of Shanghai",
-        "ticker": "601229",
-        "exchange": "Shanghai Stock Exchange"
-      },
+      "id": "f2",
+      "market": "us",
+      "category": "economy",
+      "publishedOn": "2026-11-02",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 11767710000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
+          "value": 55.5,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src9"
           ],
-          "evidence": "Quarterly report main financial-data table reports third-quarter operating revenue in thousands of yuan."
+          "evidence": "Manufacturing at-a-glance table, headline survey index."
         },
         {
           "id": "m2",
-          "value": 350306000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
+          "value": 55.5,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src9"
           ],
-          "evidence": "Quarterly report main financial-data table reports attributable net profit in thousands of yuan."
+          "evidence": "Manufacturing at-a-glance table, new-orders row."
         },
         {
           "id": "m3",
-          "value": 46321218000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
+          "value": 59,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src9"
           ],
-          "evidence": "Quarterly report main financial-data table reports year-to-date operating cash flow in thousands of yuan."
+          "evidence": "Manufacturing at-a-glance table, production row."
         },
         {
           "id": "m4",
-          "value": 1.99,
-          "unit": "percent",
-          "periodStart": "2026-09-30",
-          "periodEnd": "2026-09-30",
+          "value": 52.4,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src9"
           ],
-          "evidence": "Quarterly report asset-quality table reports the nonperforming-loan ratio at period end."
+          "evidence": "Manufacturing at-a-glance table, employment row."
+        },
+        {
+          "id": "m5",
+          "value": 75.2,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "Manufacturing at-a-glance table, prices row."
         }
       ],
       "sourceIds": [
-        "src4"
+        "src9"
       ],
-      "evidence": "The unaudited report supports sharply weaker quarterly profit, lower investment income, heavier credit-impairment losses, strong deposit-related cash inflows and weaker asset quality."
+      "evidence": "The manufacturing at-a-glance table reports the headline and component indexes for the survey month."
     }
   ],
   "locales": {
@@ -182,256 +192,284 @@
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "Shanghai bank profit falls as rates and provisioning weigh",
-          "summary": "The bank reported a sharp quarterly profit decline while deposit-related cash inflows remained strong.",
-          "impact": "Lower bank profitability and weaker asset quality can constrain credit supply and raise borrowing costs for households and businesses even when reported operating cash flow improves.",
-          "what": "The lender earns income from loans, investments and financial services; it attributed the profit decline to lower investment income and stronger expected-credit-loss provisioning.",
-          "why": "Low rates compress asset yields, while heavier provisioning reduces accounting profit as banks recognize more credit risk; deposit inflows can improve liquidity without restoring profitability.",
-          "uncertainty": "The report is unaudited, and bank operating cash flow is heavily affected by deposit and interbank movements, so it is not equivalent to recurring free cash flow.",
-          "watch": "Watch subsequent asset-quality tables, provisioning coverage, net interest income and capital ratios.",
+          "id": "f2",
+          "title": "United States factories expand as cost pressure stays firm",
+          "summary": "The factory survey showed broader expansion in output and demand while input costs remained elevated.",
+          "impact": "The combination supports industrial orders and employment but keeps pressure on company margins and goods inflation in view.",
+          "what": "The Institute for Supply Management surveys purchasing and supply executives across manufacturing industries. The headline index and the direct components used in its calculation were in expansion territory, with production showing particularly strong momentum and employment remaining positive. New orders indicated continued demand, while the prices measure stayed elevated even as the pace of increase eased. Slower supplier deliveries suggested that capacity and logistics constraints had not disappeared. Respondent comments pointed to tight conditions around commodities and components used for data centers and artificial-intelligence infrastructure.",
+          "why": "Stronger factory orders can support capital-equipment producers, transportation businesses, materials suppliers and industrial employment. For households, the inflation channel matters because expensive inputs can eventually feed into prices for vehicles, appliances, electronics and building products. For businesses, stronger demand is helpful only if they can secure components and pass higher costs to customers without losing orders. The report also matters for interest-rate expectations because persistent input inflation can complicate the path toward easier monetary policy even when production is healthy.",
+          "uncertainty": "This is a survey of direction and breadth rather than a direct measure of physical output or revenue. Slower deliveries can reflect strong demand, supply disruption or a mixture of the two. The survey does not show how concentrated the expansion is in artificial-intelligence infrastructure, and future revisions to government factory data may tell a different story.",
+          "watch": "Watch industrial production, factory orders, producer prices, supplier lead times and whether employment remains expansionary as backlogs and inventories evolve.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly operating revenue"
+              "label": "Manufacturing purchasing managers index"
             },
             {
               "id": "m2",
-              "label": "Quarterly attributable net profit"
+              "label": "New-orders index"
             },
             {
               "id": "m3",
-              "label": "Nine-month operating cash flow"
+              "label": "Production index"
             },
             {
               "id": "m4",
-              "label": "Nonperforming-loan ratio"
+              "label": "Employment index"
+            },
+            {
+              "id": "m5",
+              "label": "Prices index"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的覆盖范围有限。部分市场没有经核实的新消息；带日期的报告仍已明确标注。",
+      "status": "本期经核实的报道范围有限。部分市场没有经核实的新消息；较早的报告均明确标注日期。",
       "marketSummary": {
-        "us": "所跟踪的两项指数在最近经核实的交易时段均下跌。带日期的收盘数据反映的是相应交易时段，而非当前交易情况。",
-        "cn": "部分收盘观察无法核实。每项可用指数均保留其对应的交易日期。"
+        "us": "所跟踪的指数在最近经核实的交易日均下跌。注明日期的收盘情况反映的是当时的交易，并非当前行情。",
+        "cn": "所跟踪的指数在最近经核实的交易日均上涨。注明日期的收盘情况反映的是当时的交易，并非当前行情。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "利率和拨备增加导致上海一家银行利润下降",
-          "summary": "该银行公布季度利润大幅下降，但与存款相关的现金流入仍然强劲。",
-          "impact": "银行盈利能力下降和资产质量走弱，可能限制信贷供给并推高家庭和企业的借款成本，即使报告中的经营现金流有所改善。",
-          "what": "该银行通过贷款、投资和金融服务获得收入；银行将利润下降归因于投资收益减少，以及预期信用损失拨备增加。",
-          "why": "低利率会压低资产收益率，而增加拨备会使银行确认更多信用风险，从而减少账面利润；存款流入可以改善流动性，但不一定能恢复盈利能力。",
-          "uncertainty": "这份报告未经审计，而且银行经营现金流会受到存款和银行间资金变动的显著影响，因此不能等同于经常性自由现金流。",
-          "watch": "关注后续资产质量表、拨备覆盖率、净利息收入和资本充足率。",
+          "id": "f2",
+          "title": "美国工厂活动扩张，成本压力仍然明显",
+          "summary": "制造业调查显示，产出和需求的扩张范围扩大，同时投入成本仍处高位。",
+          "impact": "这种情况有利于工业订单和就业，但企业利润率及商品通胀压力仍值得留意。",
+          "what": "美国供应管理协会对制造业采购和供应管理人员进行调查。综合指数及直接用于计算该指数的分项均处于扩张区间，其中生产动能尤其强劲，就业也保持扩张。新订单显示需求延续，而价格指标虽然涨势放缓，但仍处高位。供应商交货放慢，表明产能和物流限制尚未消失。受访者表示，数据中心和人工智能基础设施所需的大宗商品及零部件供应仍然紧张。",
+          "why": "工厂订单增强可为资本设备生产商、运输企业、材料供应商和工业就业提供支持。对家庭而言，通胀传导很重要，因为投入成本高企最终可能推高汽车、家电、电子产品和建筑产品的价格。对企业而言，需求增强只有在能够获得零部件，并把更高成本转嫁给客户而不丢失订单时才有利。这份报告也会影响利率预期，因为即使生产状况良好，持续的投入成本通胀也可能令货币政策转向宽松的过程更加复杂。",
+          "uncertainty": "这项调查反映变化方向和覆盖范围，并非对实际产量或营收的直接衡量。交货放慢可能源于需求强劲、供应受阻，或这类因素共同作用。调查没有显示扩张在多大程度上集中于人工智能基础设施，政府制造业数据今后的修订也可能呈现不同情况。",
+          "watch": "关注工业生产、工厂订单、生产者价格、供应商交货周期，以及随着积压订单和库存变化，就业是否继续处于扩张状态。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度经营收入"
+              "label": "制造业采购经理指数"
             },
             {
               "id": "m2",
-              "label": "季度归属于股东的净利润"
+              "label": "新订单指数"
             },
             {
               "id": "m3",
-              "label": "报告期经营现金流"
+              "label": "生产指数"
             },
             {
               "id": "m4",
-              "label": "不良贷款率"
+              "label": "就业指数"
+            },
+            {
+              "id": "m5",
+              "label": "价格指数"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont pas de nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
+      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont pas de nouvelle actualité vérifiée ; les rapports datés restent clairement signalés.",
       "marketSummary": {
-        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "Le bénéfice d’une banque de Shanghai recule sous l’effet des taux et des provisions",
-          "summary": "La banque a annoncé une forte baisse de son bénéfice sur la période, tandis que les entrées de trésorerie liées aux dépôts sont restées solides.",
-          "impact": "Une rentabilité bancaire plus faible et une dégradation de la qualité des actifs peuvent limiter l’offre de crédit et accroître les coûts d’emprunt pour les ménages et les entreprises, même lorsque les flux de trésorerie d’exploitation publiés progressent.",
-          "what": "Le prêteur tire des revenus des prêts, des investissements et des services financiers ; il a attribué la baisse du bénéfice à la diminution des revenus d’investissement et au renforcement des provisions pour pertes de crédit attendues.",
-          "why": "Des taux faibles réduisent le rendement des actifs, tandis que des provisions plus importantes diminuent le bénéfice comptable lorsque les banques comptabilisent davantage de risques de crédit ; les entrées de dépôts peuvent améliorer la liquidité sans rétablir la rentabilité.",
-          "uncertainty": "Le rapport n’est pas audité, et les flux de trésorerie d’exploitation d’une banque sont fortement influencés par les mouvements de dépôts et les opérations interbancaires ; ils ne correspondent donc pas aux flux de trésorerie disponibles récurrents.",
-          "watch": "Surveiller les prochains tableaux de qualité des actifs, le taux de couverture des provisions, le revenu net d’intérêts et les ratios de fonds propres.",
+          "id": "f2",
+          "title": "Les usines américaines progressent malgré des coûts toujours élevés",
+          "summary": "L’enquête manufacturière a montré une expansion plus large de la production et de la demande, tandis que les coûts des intrants sont restés élevés.",
+          "impact": "Cette combinaison soutient les commandes industrielles et l’emploi, mais maintient l’attention sur les marges des entreprises et l’inflation des biens.",
+          "what": "L’Institute for Supply Management interroge des responsables des achats et de l’approvisionnement dans les industries manufacturières. L’indice principal et les composantes directement utilisées pour son calcul se situaient en zone d’expansion. La production affichait une dynamique particulièrement forte et l’emploi restait positif. Les nouvelles commandes signalaient une demande persistante, tandis que l’indice des prix demeurait élevé malgré un ralentissement de la hausse. L’allongement des délais de livraison des fournisseurs indiquait que les contraintes de capacité et de logistique n’avaient pas disparu. Les commentaires des répondants faisaient état de tensions autour des matières premières et des composants utilisés pour les centres de données et les infrastructures d’intelligence artificielle.",
+          "why": "Des commandes industrielles plus solides peuvent soutenir les fabricants de biens d’équipement, les entreprises de transport, les fournisseurs de matériaux et l’emploi industriel. Pour les ménages, l’effet sur l’inflation est important, car des intrants coûteux peuvent finir par augmenter les prix des véhicules, de l’électroménager, de l’électronique et des produits de construction. Pour les entreprises, une demande plus forte n’est favorable que si elles peuvent obtenir les composants nécessaires et répercuter la hausse des coûts sur leurs clients sans perdre de commandes. Le rapport compte aussi pour les anticipations de taux d’intérêt, car une inflation persistante des intrants peut compliquer l’assouplissement de la politique monétaire, même lorsque la production est robuste.",
+          "uncertainty": "Il s’agit d’une enquête sur l’orientation et l’ampleur des tendances, et non d’une mesure directe de la production physique ou du chiffre d’affaires. Des livraisons plus lentes peuvent refléter une forte demande, des perturbations de l’offre ou une combinaison de ces facteurs. L’enquête ne montre pas dans quelle mesure l’expansion se concentre dans les infrastructures d’intelligence artificielle. De futures révisions des données publiques sur l’industrie pourraient présenter une situation différente.",
+          "watch": "Surveiller la production industrielle, les commandes aux usines, les prix à la production, les délais de livraison des fournisseurs et le maintien de l’emploi en zone d’expansion à mesure que les carnets de commandes et les stocks évoluent.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Revenus d’exploitation de la période"
+              "label": "Indice des directeurs d’achat du secteur manufacturier"
             },
             {
               "id": "m2",
-              "label": "Bénéfice net attribuable de la période"
+              "label": "Indice des nouvelles commandes"
             },
             {
               "id": "m3",
-              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
+              "label": "Indice de la production"
             },
             {
               "id": "m4",
-              "label": "Ratio de prêts non performants"
+              "label": "Indice de l’emploi"
+            },
+            {
+              "id": "m5",
+              "label": "Indice des prix"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes con fecha siguen claramente identificados.",
+      "status": "Cobertura verificada limitada en esta edición. En algunos mercados no hay noticias nuevas verificadas; los informes con fecha siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los dos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
-        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la negociación actual.",
+        "cn": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la negociación actual."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "El beneficio de un banco de Shanghái cae por el efecto de los tipos y las provisiones",
-          "summary": "El banco informó de una fuerte caída del beneficio trimestral, mientras las entradas de efectivo relacionadas con los depósitos siguieron siendo sólidas.",
-          "impact": "Una menor rentabilidad bancaria y un deterioro de la calidad de los activos pueden limitar la oferta de crédito y elevar los costes de endeudamiento para hogares y empresas, incluso cuando mejora el flujo de caja operativo declarado.",
-          "what": "El banco obtiene ingresos de préstamos, inversiones y servicios financieros; atribuyó la caída del beneficio a unos menores ingresos por inversiones y a un aumento de las provisiones por pérdidas crediticias esperadas.",
-          "why": "Los tipos bajos reducen el rendimiento de los activos, mientras que unas provisiones mayores disminuyen el beneficio contable cuando los bancos reconocen un mayor riesgo crediticio; las entradas de depósitos pueden mejorar la liquidez sin recuperar la rentabilidad.",
-          "uncertainty": "El informe no está auditado, y el flujo de caja operativo de un banco se ve muy afectado por los movimientos de depósitos y de operaciones interbancarias, por lo que no equivale al flujo de caja libre recurrente.",
-          "watch": "Vigilar las tablas posteriores sobre calidad de los activos, cobertura de provisiones, ingresos netos por intereses y ratios de capital.",
+          "id": "f2",
+          "title": "Las fábricas de Estados Unidos se expanden mientras persiste la presión de los costes",
+          "summary": "La encuesta manufacturera mostró una expansión más amplia de la producción y la demanda, mientras los costes de los insumos siguieron elevados.",
+          "impact": "Esta combinación favorece los pedidos industriales y el empleo, pero mantiene la presión sobre los márgenes empresariales y la inflación de los bienes.",
+          "what": "El Instituto de Gestión de Suministros encuesta a responsables de compras y suministros de industrias manufactureras. El índice principal y los componentes directos usados para calcularlo se situaron en zona de expansión. La producción mostró un impulso especialmente fuerte y el empleo siguió en positivo. Los nuevos pedidos señalaron una demanda sostenida, mientras el indicador de precios permaneció elevado aunque su ritmo de aumento se moderó. La mayor lentitud de las entregas de proveedores sugirió que las limitaciones de capacidad y logística no habían desaparecido. Los comentarios de los encuestados señalaron condiciones ajustadas en materias primas y componentes usados en centros de datos e infraestructura de inteligencia artificial.",
+          "why": "El aumento de los pedidos manufactureros puede favorecer a los productores de bienes de equipo, las empresas de transporte, los proveedores de materiales y el empleo industrial. Para los hogares, la inflación es importante porque los insumos costosos pueden acabar reflejándose en los precios de vehículos, electrodomésticos, productos electrónicos y materiales de construcción. Para las empresas, una demanda más fuerte solo ayuda si pueden conseguir componentes y trasladar los mayores costes a sus clientes sin perder pedidos. El informe también influye en las expectativas sobre los tipos de interés, porque una inflación persistente de los insumos puede dificultar el avance hacia una política monetaria más flexible, incluso cuando la producción es sólida.",
+          "uncertainty": "Esta encuesta mide la dirección y la amplitud de los cambios, no directamente la producción física ni los ingresos. Las entregas más lentas pueden reflejar una demanda fuerte, problemas de suministro o una combinación de ambos factores. La encuesta no muestra hasta qué punto la expansión se concentra en infraestructura de inteligencia artificial, y futuras revisiones de los datos oficiales de producción manufacturera podrían mostrar una situación diferente.",
+          "watch": "Conviene observar la producción industrial, los pedidos manufactureros, los precios al productor, los plazos de entrega de los proveedores y si el empleo permanece en zona de expansión a medida que evolucionan los pedidos pendientes y los inventarios.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos operativos trimestrales"
+              "label": "Índice de gerentes de compras del sector manufacturero"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto atribuible trimestral"
+              "label": "Índice de nuevos pedidos"
             },
             {
               "id": "m3",
-              "label": "Flujo de caja operativo acumulado del periodo"
+              "label": "Índice de producción"
             },
             {
               "id": "m4",
-              "label": "Ratio de préstamos morosos"
+              "label": "Índice de empleo"
+            },
+            {
+              "id": "m5",
+              "label": "Índice de precios"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できた情報は限定的です。一部の市場では、確認済みの新しいニュースがありません。日付のある報告は、その旨を明確に示しています。",
+      "status": "今回の版では、確認済み情報が限られています。一部の市場には確認済みの新しい記事がありません。日付のある報告は、過去の情報だと分かるよう明記しています。",
       "marketSummary": {
-        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。記載された終値はその取引時点のもので、現在の取引状況を示すものではありません。",
-        "cn": "一部の終値は確認できませんでした。利用可能な各指数には、それぞれの取引日が付されています。"
+        "us": "追跡対象の各指数は、直近の確認済み取引で下落しました。日付付きの終値は、その時点の取引を示すもので、現在の取引状況ではありません。",
+        "cn": "追跡対象の各指数は、直近の確認済み取引で上昇しました。日付付きの終値は、その時点の取引を示すもので、現在の取引状況ではありません。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "金利と引当が重しとなり、上海の銀行の利益が減少",
-          "summary": "この銀行は期間利益の大幅な減少を報告しましたが、預金関連の現金流入は引き続き堅調でした。",
-          "impact": "銀行の収益性低下と資産の質の悪化は、報告上の営業キャッシュフローが改善している場合でも、家計や企業への信用供給を制約し、借入コストを押し上げる可能性があります。",
-          "what": "この銀行は融資、投資、金融サービスから収益を得ています。利益の減少について、投資収益の減少と予想信用損失引当の増加を要因として挙げました。",
-          "why": "低金利は資産利回りを圧迫し、引当の増加は銀行が信用リスクをより多く認識することで会計上の利益を減少させます。預金流入は流動性を改善できますが、収益性を回復させるとは限りません。",
-          "uncertainty": "この報告は未監査です。また、銀行の営業キャッシュフローは預金や銀行間取引の変動に大きく左右されるため、継続的に生じるフリーキャッシュフローと同じものではありません。",
-          "watch": "今後の資産の質に関する表、引当カバレッジ、純金利収益、自己資本比率を確認します。",
+          "id": "f2",
+          "title": "米国の製造業が拡大、コスト圧力は根強い",
+          "summary": "製造業調査では、生産と需要の拡大が広がる一方、投入コストは高い状態が続きました。",
+          "impact": "この組み合わせは、製造業の受注や雇用を支える一方、企業の利益率への圧迫と財価格のインフレへの懸念を残します。",
+          "what": "米供給管理協会は、製造業の購買・供給部門の責任者を調査しています。総合指数と、その算出に使う構成指数は拡大圏にありました。特に生産は力強く、雇用も拡大圏を維持しました。新規受注は需要の継続を示しました。価格指数は、上昇ペースが鈍ったものの高い水準にとどまりました。仕入先からの納品の遅れは、生産能力や物流の制約が解消していないことを示しました。回答者からは、データセンターや人工知能インフラに使う商品や部品の需給が逼迫しているとの声がありました。",
+          "why": "製造業の受注が強まると、設備機器メーカー、運輸会社、素材供給会社、製造業の雇用を支える可能性があります。家計にとっては、高い投入コストが最終的に自動車、家電、電子機器、建材の価格へ反映される可能性があるため、インフレへの影響が重要です。企業にとって需要の強さがプラスになるのは、部品を確保し、受注を失わずにコスト上昇分を顧客へ転嫁できる場合です。投入コストのインフレが続くと、生産が健全でも金融緩和への道筋が複雑になり得るため、この報告は金利見通しにも関係します。",
+          "uncertainty": "これは生産量や売上高を直接測るものではなく、動きの方向と広がりを示す調査です。納品の遅れは、強い需要、供給の混乱、またはその両方を反映する可能性があります。この調査だけでは、拡大が人工知能インフラにどの程度集中しているかは分かりません。今後改定される政府の製造業統計が、異なる状況を示す可能性もあります。",
+          "watch": "鉱工業生産、製造業受注、生産者物価、仕入先の納期に注目です。また、受注残や在庫が変化する中で、雇用が拡大圏を維持するかも確認点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "期間営業収益"
+              "label": "製造業購買担当者景気指数"
             },
             {
               "id": "m2",
-              "label": "期間親会社株主帰属純利益"
+              "label": "新規受注指数"
             },
             {
               "id": "m3",
-              "label": "累計営業キャッシュフロー"
+              "label": "生産指数"
             },
             {
               "id": "m4",
-              "label": "不良債権比率"
-            }
-          ]
-        }
-      ]
-    },
-    "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
-      "marketSummary": {
-        "us": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Alguns fechamentos não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação."
-      },
-      "stories": [
-        {
-          "id": "f4",
-          "title": "Lucro de banco de Xangai cai com pressão de juros e provisões",
-          "summary": "O banco registrou uma forte queda no lucro trimestral, enquanto as entradas de caixa relacionadas a depósitos permaneceram robustas.",
-          "impact": "A menor rentabilidade bancária e a piora na qualidade dos ativos podem restringir a oferta de crédito e elevar os custos de empréstimos para famílias e empresas, mesmo quando o fluxo de caixa operacional divulgado melhora.",
-          "what": "O credor obtém receitas de empréstimos, investimentos e serviços financeiros; atribuiu a queda do lucro à menor receita de investimentos e ao aumento das provisões para perdas de crédito esperadas.",
-          "why": "Juros baixos comprimem os rendimentos dos ativos, enquanto provisões maiores reduzem o lucro contábil à medida que os bancos reconhecem mais riscos de crédito; entradas de depósitos podem melhorar a liquidez sem restaurar a rentabilidade.",
-          "uncertainty": "O relatório não foi auditado, e o fluxo de caixa operacional do banco é fortemente afetado por movimentos de depósitos e operações interbancárias, portanto não equivale ao fluxo de caixa livre recorrente.",
-          "watch": "Acompanhe as tabelas posteriores de qualidade dos ativos, a cobertura de provisões, a receita líquida de juros e os índices de capital.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita operacional trimestral"
+              "label": "雇用指数"
             },
             {
-              "id": "m2",
-              "label": "Lucro líquido trimestral atribuível"
-            },
-            {
-              "id": "m3",
-              "label": "Fluxo de caixa operacional acumulado no período"
-            },
-            {
-              "id": "m4",
-              "label": "Índice de crédito inadimplente"
+              "id": "m5",
+              "label": "価格指数"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期僅有有限的已驗證涵蓋範圍。部分市場沒有已驗證的新故事；有日期的報告仍清楚標示其日期。",
+      "status": "本期經核實的報導有限。部分市場沒有經核實的新消息；較早的報告均已清楚標明日期。",
       "marketSummary": {
-        "us": "追蹤的兩個指數在最近已驗證的交易時段均下跌。有日期的收盤資料描述的是那些交易時段，而非目前交易情況。",
-        "cn": "部分收盤觀察無法驗證。每個可用指數仍保留各自的交易日期。"
+        "us": "所追蹤的美國指數在最近經核實的交易日皆下跌。標明日期的收盤資訊反映的是當時交易，而非目前行情。",
+        "cn": "所追蹤的中國指數在最近經核實的交易日皆上漲。標明日期的收盤資訊反映的是當時交易，而非目前行情。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "上海銀行利率與撥備承壓，利潤下滑",
-          "summary": "該銀行公布本期利潤大幅下滑，但與存款相關的現金流入仍然強勁。",
-          "impact": "銀行獲利能力下降與資產品質轉弱，可能限制對家庭及企業的信貸供給並推高借款成本，即使已公布的經營現金流有所改善。",
-          "what": "該貸款機構的收入來自貸款、投資及金融服務；它將利潤下滑歸因於投資收益下降，以及提高預期信用損失撥備。",
-          "why": "低利率壓縮資產收益率，而提高撥備會讓銀行在確認更多信用風險時減少會計利潤；存款流入可以改善流動性，但未必能恢復獲利能力。",
-          "uncertainty": "該報告未經審計，且銀行經營現金流會受到存款與銀行同業資金流動的重大影響，因此不等同於持續性的自由現金流。",
-          "watch": "留意後續資產品質表格、撥備覆蓋率、淨利息收入及資本比率。",
+          "id": "f2",
+          "title": "美國製造業擴張，成本壓力仍然明顯",
+          "summary": "製造業調查顯示，產出與需求的擴張範圍加大，但投入成本仍處於高檔。",
+          "impact": "這種情況有利於工業訂單與就業，但企業利潤率及商品通膨仍面臨壓力。",
+          "what": "美國供應管理協會會調查製造業的採購與供應主管。整體指數及用於計算指數的直接分項均處於擴張區間，其中生產動能尤其強勁，就業也維持正向。新訂單顯示需求持續，價格指標雖然漲勢放緩，但仍處於高檔。供應商交貨速度放慢，顯示產能與物流限制尚未消失。受訪者表示，資料中心與人工智慧基礎設施所需的原物料和零組件供應仍然吃緊。",
+          "why": "製造業訂單增強，可望支撐資本設備生產商、運輸業者、材料供應商及工業就業。對家庭而言，通膨傳導值得關注，因為昂貴的投入成本最終可能反映在汽車、家電、電子產品及建材價格上。對企業而言，需求增強固然有利，但前提是能取得零組件，並在不流失訂單的情況下把較高成本轉嫁給客戶。這份報告也會影響利率預期，因為即使生產狀況健康，持續的投入成本通膨仍可能讓貨幣政策轉向寬鬆的過程更加複雜。",
+          "uncertainty": "這項調查反映的是變化方向與擴散程度，並非對實際產量或營收的直接衡量。交貨速度放慢可能來自需求強勁、供應中斷，或兩者共同作用。調查沒有顯示擴張是否集中在人工智慧基礎設施，日後修訂的政府製造業數據也可能呈現不同情況。",
+          "watch": "留意工業生產、工廠訂單、生產者物價、供應商交期，以及在積壓訂單與庫存變化時，就業是否仍處於擴張區間。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "本期營業收入"
+              "label": "製造業採購經理人指數"
             },
             {
               "id": "m2",
-              "label": "本期歸屬股東淨利潤"
+              "label": "新訂單指數"
             },
             {
               "id": "m3",
-              "label": "累計經營現金流"
+              "label": "生產指數"
             },
             {
               "id": "m4",
-              "label": "不良貸款率"
+              "label": "就業指數"
+            },
+            {
+              "id": "m5",
+              "label": "價格指數"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; relatórios com data anterior continuam claramente identificados.",
+      "marketSummary": {
+        "us": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Os índices acompanhados subiram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+      },
+      "stories": [
+        {
+          "id": "f2",
+          "title": "Fábricas dos Estados Unidos se expandem enquanto a pressão de custos segue forte",
+          "summary": "A pesquisa industrial mostrou uma expansão mais ampla da produção e da demanda, enquanto os custos dos insumos permaneceram elevados.",
+          "impact": "Essa combinação favorece os pedidos industriais e o emprego, mas mantém em foco a pressão sobre as margens das empresas e a inflação de bens.",
+          "what": "O Instituto de Gestão de Suprimentos pesquisa executivos de compras e de suprimentos de vários setores industriais. O índice principal e os componentes usados diretamente em seu cálculo ficaram em território de expansão, com a produção mostrando impulso especialmente forte e o emprego permanecendo positivo. Os novos pedidos indicaram demanda contínua, enquanto o indicador de preços continuou elevado, apesar da desaceleração no ritmo de alta. Entregas mais lentas dos fornecedores sugeriram que as limitações de capacidade e logística não desapareceram. Os comentários dos participantes apontaram condições restritas para matérias-primas e componentes usados em centros de dados e infraestrutura de inteligência artificial.",
+          "why": "Pedidos industriais mais fortes podem favorecer fabricantes de bens de capital, empresas de transporte, fornecedores de materiais e o emprego industrial. Para as famílias, o efeito sobre a inflação importa porque insumos caros podem acabar elevando os preços de veículos, eletrodomésticos, eletrônicos e materiais de construção. Para as empresas, a demanda mais forte só ajuda se elas conseguirem obter componentes e repassar os custos maiores aos clientes sem perder pedidos. O relatório também influencia as expectativas para os juros, pois uma inflação persistente dos insumos pode dificultar o caminho para uma política monetária mais flexível, mesmo com produção saudável.",
+          "uncertainty": "Esta é uma pesquisa sobre direção e abrangência, não uma medição direta da produção física ou da receita. Entregas mais lentas podem refletir demanda forte, problemas de oferta ou uma combinação desses fatores. A pesquisa não mostra quanto da expansão está concentrado na infraestrutura de inteligência artificial, e futuras revisões dos dados industriais do governo podem apresentar um quadro diferente.",
+          "watch": "Acompanhe a produção industrial, os pedidos às fábricas, os preços ao produtor, os prazos de entrega dos fornecedores e se o emprego permanece em expansão conforme evoluem as carteiras de pedidos e os estoques.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Índice de gerentes de compras da indústria"
+            },
+            {
+              "id": "m2",
+              "label": "Índice de novos pedidos"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de produção"
+            },
+            {
+              "id": "m4",
+              "label": "Índice de emprego"
+            },
+            {
+              "id": "m5",
+              "label": "Índice de preços"
             }
           ]
         }
