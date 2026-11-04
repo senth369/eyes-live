@@ -1,48 +1,58 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-04T09:10:34.774Z",
-  "generatedAt": "2026-11-04T09:14:45.631Z",
+  "cutoffAt": "2026-11-04T18:38:09.353Z",
+  "generatedAt": "2026-11-04T18:42:40.773Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "AMD earnings release",
-      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm"
+      "label": "FIS quarterly earnings release filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm"
     },
     {
       "id": "src2",
-      "label": "CATL quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+      "label": "Fiserv quarterly earnings release filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm"
     },
     {
       "id": "src3",
-      "label": "BYD quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+      "label": "Livzon quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618202.PDF"
     },
     {
       "id": "src4",
-      "label": "China NBS PMI release",
-      "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261103_1965735.html"
+      "label": "Gujing Distillery quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642369.PDF"
     },
     {
       "id": "src5",
-      "label": "US market closing table",
-      "url": "https://portfolio-terminal.com/markets/stock-market-close"
+      "label": "National Bureau of Statistics industrial profits release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html"
     },
     {
       "id": "src6",
-      "label": "CSI Composite historical data",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "FRED S&P five hundred daily close",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src7",
-      "label": "CATL company profile",
-      "url": "https://www.catl.com/en/about/profile/"
+      "label": "FRED Nasdaq Composite daily close",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src8",
-      "label": "BYD company profile",
-      "url": "https://www.byd.com/en/about-byd"
+      "label": "Xinhua Finance mainland equity closing report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261104/4490898_1.html"
+    },
+    {
+      "id": "src10",
+      "label": "Livzon official company profile",
+      "url": "https://en.livzon.com.cn/about_detail/5.html"
+    },
+    {
+      "id": "src11",
+      "label": "Gujing Distillery issuer overview",
+      "url": "https://static.cninfo.com.cn/finalpage/enpage/000596_1.pdf"
     }
   ],
   "markets": [
@@ -51,19 +61,19 @@
       "sessionDate": "2026-11-03",
       "close": 7568.92,
       "previousClose": 7541.4,
-      "changePercent": 0.36,
+      "changePercent": 0.36491898056063565,
       "sourceIds": [
-        "src5"
+        "src6"
       ]
     },
     {
       "id": "nasdaq",
       "sessionDate": "2026-11-03",
       "close": 25372.01,
-      "previousClose": 25164.31,
-      "changePercent": 0.83,
+      "previousClose": 25164.36,
+      "changePercent": 0.825174969679332,
       "sourceIds": [
-        "src5"
+        "src7"
       ]
     },
     {
@@ -76,337 +86,600 @@
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-04",
-      "close": 4101.34,
-      "previousClose": 4008.87,
-      "changePercent": 2.31,
-      "sourceIds": [
-        "src6"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     }
   ],
   "stories": [
     {
-      "id": "f4",
+      "id": "f2",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-03",
+      "company": {
+        "name": "Fiserv",
+        "ticker": "FISV",
+        "exchange": "NASDAQ"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 5200000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "The GAAP results section reports quarterly consolidated revenue."
+        },
+        {
+          "id": "m2",
+          "value": 6452000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "The release identifies a noncash goodwill impairment charge in the quarterly GAAP results and reconciliation tables."
+        },
+        {
+          "id": "m3",
+          "value": 3094000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "The operating cash-flow table reports cumulative net cash provided by operating activities."
+        },
+        {
+          "id": "m4",
+          "value": 2039000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "The free-cash-flow reconciliation reports cumulative free cash flow after capital expenditures and other stated adjustments."
+        }
+      ],
+      "sourceIds": [
+        "src2"
+      ],
+      "evidence": "Fiserv supplies payments and financial-services technology. Its accounting results were heavily affected by a noncash goodwill impairment, while operating cash flow and free cash flow remained positive but below the prior-year cumulative period."
+    },
+    {
+      "id": "f5",
       "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-11-01",
+      "publishedOn": "2026-10-27",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 49.3,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 6033740000000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src5"
           ],
-          "evidence": "Official manufacturing PMI release, headline indicator for October."
+          "evidence": "The official release reports cumulative total profits for industrial enterprises above the designated size."
         },
         {
           "id": "m2",
-          "value": -0.8,
-          "unit": "percentage-points",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
+          "value": 15.5,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src5"
           ],
-          "evidence": "Official release states the manufacturing PMI decreased from the prior month by eight-tenths of a percentage point."
+          "evidence": "The release reports the comparable cumulative year-over-year profit change."
         },
         {
           "id": "m3",
-          "value": 49.7,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 106206600000000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src5"
           ],
-          "evidence": "Non-manufacturing section, business activity indicator for October."
+          "evidence": "The principal financial indicators table reports cumulative industrial operating revenue."
         },
         {
           "id": "m4",
-          "value": 49.7,
+          "value": 10,
           "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
+          "periodStart": "2026-09-30",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src5"
           ],
-          "evidence": "Composite PMI section, output indicator for October."
+          "evidence": "The release reports year-over-year growth in industrial accounts receivable at the end of the reporting month."
         }
       ],
       "sourceIds": [
-        "src4"
+        "src5"
       ],
-      "evidence": "The official survey reports contractionary manufacturing, non-manufacturing and composite readings, with production and new orders below the expansion threshold."
+      "evidence": "Official data show aggregate industrial profit growth led by manufacturing and electronics, alongside higher receivables and a longer average collection period. Profit therefore cannot be treated as equivalent to immediately available cash."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
         "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "China activity gauges weaken below expansion",
-          "summary": "The official survey showed weaker manufacturing, non-manufacturing and composite activity during the latest month.",
-          "impact": "Softer orders and production can restrain industrial demand and hiring, although selected technology-related services remained comparatively resilient.",
-          "what": "The purchasing managers survey tracks monthly business conditions across manufacturing and non-manufacturing companies.",
-          "why": "Readings below the expansion threshold indicate weaker current activity and can affect expectations for factory output, freight, energy use and business investment.",
-          "uncertainty": "PMI is a survey-based leading indicator rather than a direct measure of output, profits or household income, and one month can be affected by timing and seasonal factors.",
-          "watch": "Watch subsequent production, new orders, retail demand, industrial profits and credit conditions.",
+          "id": "f2",
+          "title": "Fiserv records a major accounting charge while cash flow remains positive",
+          "summary": "Fiserv reported a large noncash goodwill impairment alongside positive operating cash flow and a broader cost-reduction target.",
+          "impact": "The distinction matters because the accounting charge reduces reported profit and equity, while cash generation remains relevant to debt service, investment, and capital allocation.",
+          "what": "Fiserv provides payments and financial-services technology through merchant and financial-solutions businesses. The impairment reflects a reassessment of acquired goodwill rather than a direct cash payment in the quarter.",
+          "why": "A noncash impairment can signal weaker expected economics for acquired assets even when the operating business continues to generate cash.",
+          "uncertainty": "The charge is not itself a forecast of future cash losses, while adjusted measures exclude costs that still affect shareholders and creditors.",
+          "watch": "Watch organic revenue, segment margins, client retention, operating cash flow, and whether planned savings appear in reported performance.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Manufacturing PMI"
+              "label": "Quarterly GAAP revenue"
             },
             {
               "id": "m2",
-              "label": "Manufacturing PMI monthly change"
+              "label": "Goodwill impairment charge"
             },
             {
               "id": "m3",
-              "label": "Non-manufacturing activity index"
+              "label": "Cumulative operating cash flow"
             },
             {
               "id": "m4",
-              "label": "Composite output index"
+              "label": "Cumulative free cash flow"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Chinese industrial profits rise while receivables constrain cash conversion",
+          "summary": "Official data show stronger aggregate industrial profits led by manufacturing and electronics, but higher receivables may delay cash realization.",
+          "impact": "The combination matters for suppliers and lenders because profit growth can support production and investment, while slower collections tie up working capital and increase financing needs.",
+          "what": "The National Bureau of Statistics aggregates revenue, profit, balance-sheet, inventory, and collection indicators for industrial enterprises above the designated size.",
+          "why": "Profit growth improves accounting capacity, but rising receivables and slower collection can shift pressure toward supplier liquidity and bank credit.",
+          "uncertainty": "The data are aggregate and do not represent every company or industry equally, and they do not provide a complete cash-flow statement.",
+          "watch": "Watch receivables, collection periods, inventory, industrial sales, and sector-level profit data for confirmation of cash conversion.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Industrial profit"
+            },
+            {
+              "id": "m2",
+              "label": "Industrial profit growth"
+            },
+            {
+              "id": "m3",
+              "label": "Industrial operating revenue"
+            },
+            {
+              "id": "m4",
+              "label": "Industrial receivables growth"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的覆盖范围有限。部分市场没有经核实的新消息；带日期的报告仍会明确标注。",
+      "status": "本期涵盖美国和中国的市场动态。请核对每条内容的发布日期；近期公司报告仅作为背景说明。",
       "marketSummary": {
-        "us": "所跟踪的两个指数在最近经核实的交易时段均上涨。带日期的收盘数据描述的是相应交易时段，而非当前交易情况。",
-        "cn": "部分收盘观察无法核实。每个可用指数均保留其自身的交易日期。"
+        "us": "所跟踪的两个指数在最近已核实的交易时段均上涨。带日期的收盘数据描述的是相应交易时段，而非当前交易情况。",
+        "cn": "部分收盘数据无法核实。每个可用指数均保留其自身的交易日期。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "中国活动指标跌至扩张线下方",
-          "summary": "官方调查显示，最近一个月制造业、非制造业和综合活动均有所走弱。",
-          "impact": "订单和产出走软可能抑制工业需求和招聘，不过部分科技相关服务仍相对有韧性。",
-          "what": "采购经理人调查跟踪制造业和非制造业企业的月度经营状况。",
-          "why": "低于扩张线的读数表明当前活动走弱，并可能影响市场对工厂产出、货运、能源使用和企业投资的预期。",
-          "uncertainty": "PMI是基于调查的先行指标，并非产出、利润或居民收入的直接衡量；单月数据可能受到时点和季节性因素影响。",
-          "watch": "关注后续产出、新订单、零售需求、工业利润和信贷状况。",
+          "id": "f2",
+          "title": "Fiserv确认大额会计费用，但现金流仍为正",
+          "summary": "Fiserv确认了大额非现金商誉减值，同时经营现金流为正，并提出更广泛的成本削减目标。",
+          "impact": "这一差异很重要，因为会计费用会减少报告净利润和股东权益，而现金创造能力仍与偿债、投资和资本配置相关。",
+          "what": "Fiserv通过商户业务和金融解决方案业务提供支付及金融服务技术。该减值反映了对收购所得商誉的重新评估，而不是本季度的直接现金支付。",
+          "why": "非现金减值可能表明收购资产的预期经济效益减弱，即使经营业务仍能产生现金。",
+          "uncertainty": "这项费用本身并不等同于未来现金损失预测，而调整后指标剔除了仍会影响股东和债权人的成本。",
+          "watch": "关注有机营收、分部利润率、客户留存率、经营现金流，以及计划中的节省是否体现于报告业绩。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "制造业PMI"
+              "label": "季度公认会计原则营收"
             },
             {
               "id": "m2",
-              "label": "制造业PMI月度变化"
+              "label": "商誉减值费用"
             },
             {
               "id": "m3",
-              "label": "非制造业活动指数"
+              "label": "累计经营现金流"
             },
             {
               "id": "m4",
-              "label": "综合产出指数"
+              "label": "累计自由现金流"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "中国工业利润上升，但应收账款限制现金回笼",
+          "summary": "官方数据显示，制造业和电子行业带动工业利润整体走强，但应收账款增加可能推迟现金回笼。",
+          "impact": "这一组合对供应商和贷款方很重要，因为利润增长可以支持生产和投资，而回款放缓会占用营运资金并增加融资需求。",
+          "what": "国家统计局汇总规上工业企业的营收、利润、资产负债表、库存和回款指标。",
+          "why": "利润增长提升会计上的承受能力，但应收账款上升和回款放缓可能将压力转移至供应商流动性和银行信贷。",
+          "uncertainty": "这些数据是汇总数据，并不代表所有公司或行业的情况，也没有提供完整的现金流量表。",
+          "watch": "关注应收账款、回款周期、库存、工业销售，以及行业层面的利润数据，以确认现金回笼情况。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "工业利润"
+            },
+            {
+              "id": "m2",
+              "label": "工业利润增速"
+            },
+            {
+              "id": "m3",
+              "label": "工业营业收入"
+            },
+            {
+              "id": "m4",
+              "label": "工业应收账款增速"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne présentent aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels.",
-        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
+        "us": "Les deux indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "Les indicateurs chinois d’activité passent sous le seuil d’expansion",
-          "summary": "L’enquête officielle a fait ressortir un affaiblissement de l’activité manufacturière, non manufacturière et composite au cours de la période mensuelle la plus récente.",
-          "impact": "Le ralentissement des commandes et de la production peut freiner la demande industrielle et les embauches, même si certains services liés aux technologies sont restés relativement résistants.",
-          "what": "L’enquête des directeurs d’achat suit chaque mois les conditions d’activité des entreprises manufacturières et non manufacturières.",
-          "why": "Des résultats inférieurs au seuil d’expansion signalent une activité courante plus faible et peuvent influencer les anticipations concernant la production des usines, le fret, la consommation d’énergie et l’investissement des entreprises.",
-          "uncertainty": "Le PMI est un indicateur avancé fondé sur une enquête, et non une mesure directe de la production, des bénéfices ou des revenus des ménages. Les effets du calendrier et de la saisonnalité peuvent aussi influencer les résultats.",
-          "watch": "Surveiller la production, les nouvelles commandes, la demande de détail, les bénéfices industriels et les conditions de crédit à venir.",
+          "id": "f2",
+          "title": "Fiserv comptabilise une importante dépréciation, tandis que les flux de trésorerie restent positifs",
+          "summary": "Fiserv a annoncé une importante dépréciation du goodwill sans effet de trésorerie, ainsi qu’un flux de trésorerie d’exploitation positif et un objectif élargi de réduction des coûts.",
+          "impact": "Cette distinction est importante : la charge comptable réduit le bénéfice publié et les capitaux propres, tandis que la génération de trésorerie reste pertinente pour le service de la dette, les investissements et l’allocation du capital.",
+          "what": "Fiserv fournit des technologies de paiement et de services financiers par l’intermédiaire de ses activités auprès des commerçants et des institutions financières. La dépréciation reflète une réévaluation du goodwill acquis, plutôt qu’un paiement direct en trésorerie sur la période.",
+          "why": "Une dépréciation sans effet de trésorerie peut signaler une dégradation des perspectives économiques des actifs acquis, même si l’activité continue de générer de la trésorerie.",
+          "uncertainty": "La charge ne constitue pas en elle-même une prévision de pertes de trésorerie futures. Les indicateurs ajustés excluent des coûts qui affectent néanmoins les actionnaires et les créanciers.",
+          "watch": "Surveillez la croissance organique du chiffre d’affaires, les marges des segments, la fidélisation des clients, le flux de trésorerie d’exploitation et l’intégration des économies prévues dans les résultats publiés.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "PMI manufacturier"
+              "label": "Chiffre d’affaires trimestriel selon les normes GAAP"
             },
             {
               "id": "m2",
-              "label": "Variation mensuelle du PMI manufacturier"
+              "label": "Charge de dépréciation du goodwill"
             },
             {
               "id": "m3",
-              "label": "Indice d’activité non manufacturière"
+              "label": "Flux de trésorerie d’exploitation cumulé"
             },
             {
               "id": "m4",
-              "label": "Indice composite de production"
+              "label": "Flux de trésorerie disponible cumulé"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Les bénéfices industriels chinois progressent, tandis que les créances limitent la conversion en trésorerie",
+          "summary": "Les données officielles montrent une hausse des bénéfices industriels agrégés, portée par l’industrie manufacturière et l’électronique, mais l’augmentation des créances pourrait retarder l’encaissement.",
+          "impact": "Cette combinaison est importante pour les fournisseurs et les prêteurs : la croissance des bénéfices peut soutenir la production et l’investissement, tandis que le ralentissement des encaissements immobilise le fonds de roulement et accroît les besoins de financement.",
+          "what": "Le Bureau national des statistiques regroupe les indicateurs de chiffre d’affaires, de bénéfices, de bilan, de stocks et d’encaissement des entreprises industrielles dépassant la taille réglementaire.",
+          "why": "La croissance des bénéfices améliore la capacité comptable, mais la hausse des créances et le ralentissement des encaissements peuvent accroître la pression sur la liquidité des fournisseurs et le crédit bancaire.",
+          "uncertainty": "Ces données sont agrégées et ne représentent pas toutes les entreprises ou tous les secteurs de manière égale. Elles ne fournissent pas non plus un état complet des flux de trésorerie.",
+          "watch": "Surveillez les créances, les délais d’encaissement, les stocks, les ventes industrielles et les données de bénéfices par secteur pour confirmer la conversion en trésorerie.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Bénéfices industriels"
+            },
+            {
+              "id": "m2",
+              "label": "Croissance des bénéfices industriels"
+            },
+            {
+              "id": "m3",
+              "label": "Chiffre d’affaires d’exploitation industriel"
+            },
+            {
+              "id": "m4",
+              "label": "Croissance des créances industrielles"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes fechados siguen claramente identificados.",
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Compruebe la fecha de publicación de cada elemento; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los dos índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la negociación actual.",
+        "us": "Los dos índices seguidos subieron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
         "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "Los indicadores de actividad de China caen por debajo de la expansión",
-          "summary": "La encuesta oficial mostró una menor actividad manufacturera, no manufacturera y compuesta durante el último mes.",
-          "impact": "La menor cantidad de pedidos y producción puede frenar la demanda industrial y la contratación, aunque algunos servicios relacionados con la tecnología mostraron una resiliencia comparativamente mayor.",
-          "what": "La encuesta de gestores de compras sigue las condiciones empresariales mensuales de las compañías manufactureras y no manufactureras.",
-          "why": "Las lecturas por debajo del umbral de expansión indican una actividad actual más débil y pueden afectar las expectativas sobre la producción fabril, el transporte de mercancías, el consumo de energía y la inversión empresarial.",
-          "uncertainty": "El PMI es un indicador adelantado basado en encuestas, no una medida directa de la producción, los beneficios o los ingresos de los hogares; además, un solo mes puede verse afectado por factores temporales y estacionales.",
-          "watch": "Observar la producción posterior, los nuevos pedidos, la demanda minorista, los beneficios industriales y las condiciones crediticias.",
+          "id": "f2",
+          "title": "Fiserv registra un importante cargo contable mientras el flujo de caja sigue siendo positivo",
+          "summary": "Fiserv informó de un importante deterioro no monetario del fondo de comercio, junto con un flujo de caja operativo positivo y un objetivo más amplio de reducción de costes.",
+          "impact": "La distinción es importante porque el cargo contable reduce el beneficio declarado y el patrimonio, mientras que la generación de caja sigue siendo relevante para el servicio de la deuda, la inversión y la asignación de capital.",
+          "what": "Fiserv ofrece tecnología de pagos y servicios financieros mediante sus negocios de soluciones para comercios y entidades financieras. El deterioro refleja una reevaluación del fondo de comercio adquirido, no un pago directo en efectivo durante el trimestre.",
+          "why": "Un deterioro no monetario puede indicar unas expectativas económicas más débiles para los activos adquiridos, aunque el negocio operativo siga generando caja.",
+          "uncertainty": "El cargo no constituye por sí mismo una previsión de futuras pérdidas de caja, mientras que las medidas ajustadas excluyen costes que siguen afectando a accionistas y acreedores.",
+          "watch": "Observe los ingresos orgánicos, los márgenes por segmento, la retención de clientes, el flujo de caja operativo y si los ahorros previstos se reflejan en los resultados declarados.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "PMI manufacturero"
+              "label": "Ingresos trimestrales según GAAP"
             },
             {
               "id": "m2",
-              "label": "Variación mensual del PMI manufacturero"
+              "label": "Cargo por deterioro del fondo de comercio"
             },
             {
               "id": "m3",
-              "label": "Índice de actividad no manufacturera"
+              "label": "Flujo de caja operativo acumulado"
             },
             {
               "id": "m4",
-              "label": "Índice compuesto de producción"
+              "label": "Flujo de caja libre acumulado"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Los beneficios industriales chinos aumentan, mientras las cuentas por cobrar limitan la conversión en efectivo",
+          "summary": "Los datos oficiales muestran un crecimiento del beneficio industrial agregado, impulsado por la manufactura y la electrónica, pero el aumento de las cuentas por cobrar puede retrasar la conversión en efectivo.",
+          "impact": "La combinación es relevante para proveedores y prestamistas porque el crecimiento del beneficio puede respaldar la producción y la inversión, mientras que unos cobros más lentos inmovilizan capital circulante y aumentan las necesidades de financiación.",
+          "what": "La Oficina Nacional de Estadística reúne indicadores de ingresos, beneficios, balance, inventarios y cobros de las empresas industriales por encima del tamaño designado.",
+          "why": "El crecimiento del beneficio mejora la capacidad contable, pero el aumento de las cuentas por cobrar y la ralentización de los cobros pueden trasladar presión a la liquidez de los proveedores y al crédito bancario.",
+          "uncertainty": "Los datos son agregados y no representan por igual a todas las empresas o industrias, además de no ofrecer un estado completo de flujos de caja.",
+          "watch": "Observe las cuentas por cobrar, los periodos de cobro, los inventarios, las ventas industriales y los datos de beneficios por sector para confirmar la conversión en efectivo.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Beneficio industrial"
+            },
+            {
+              "id": "m2",
+              "label": "Crecimiento del beneficio industrial"
+            },
+            {
+              "id": "m3",
+              "label": "Ingresos operativos industriales"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento de las cuentas por cobrar industriales"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できた情報は限定的です。一部の市場では、確認できる新しい材料がありません。日付のある報告は、対象期間が明確に示されています。",
+      "status": "この版では、米国と中国の動きを扱います。各記事の公表日を確認してください。最近の企業報告は背景説明として紹介しています。",
       "marketSummary": {
-        "us": "追跡対象の両指数は、直近の確認済み取引で上昇しました。記載された終値はその取引時点のもので、現在の取引を示すものではありません。",
-        "cn": "一部の終値は確認できませんでした。利用可能な各指数には、それぞれの取引日が付されています。"
+        "us": "追跡対象の株価指数はいずれも、直近の確認済み取引で上昇しました。記載された終値はその取引日のもので、現在の取引状況を示すものではありません。",
+        "cn": "一部の終値は確認できませんでした。確認できた各指数には、それぞれの取引日を付しています。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "中国の景況指標、拡大・縮小の境目を下回る",
-          "summary": "公式調査では、直近の月に製造業、非製造業、総合の活動が弱まりました。",
-          "impact": "受注や生産の軟化は、産業需要や雇用を抑える可能性があります。一方、テクノロジー関連の一部サービスは比較的底堅く推移しました。",
-          "what": "購買担当者景気指数の調査は、製造業と非製造業の企業を対象に、月ごとの事業環境を追跡します。",
-          "why": "拡大・縮小の境目を下回る数値は、足元の活動が弱いことを示し、工場生産、貨物輸送、エネルギー使用、企業投資への見方に影響する可能性があります。",
-          "uncertainty": "PMIは調査に基づく先行指標であり、生産、利益、家計所得を直接測るものではありません。また、対象期間は時期や季節要因の影響を受ける可能性があります。",
-          "watch": "今後の生産、新規受注、小売需要、鉱工業企業の利益、信用環境を確認します。",
+          "id": "f2",
+          "title": "フィサーブ、巨額の会計上の減損を計上する一方、キャッシュフローはプラスを維持",
+          "summary": "フィサーブは、プラスの営業キャッシュフローと、より広範なコスト削減目標に加え、多額の非現金ののれん減損を報告しました。",
+          "impact": "この違いは重要です。会計上の減損は報告利益と株主資本を減少させますが、債務返済、投資、資本配分において、資金を生み出す力は引き続き重要だからです。",
+          "what": "フィサーブは、加盟店向け事業と金融ソリューション事業を通じて、決済および金融サービス向けの技術を提供しています。今回の減損は、対象四半期に直接現金を支払ったことではなく、買収したのれんの再評価を反映しています。",
+          "why": "非現金の減損は、事業が引き続きキャッシュを生み出している場合でも、買収資産から期待される経済的効果が弱まった可能性を示すことがあります。",
+          "uncertainty": "この減損自体は、将来のキャッシュ損失を予測するものではありません。一方、調整後指標から除外される費用も、株主や債権者に影響を及ぼします。",
+          "watch": "オーガニック売上高、部門利益率、顧客維持率、営業キャッシュフロー、計画したコスト削減が報告業績に表れるかを確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "製造業PMI"
+              "label": "四半期のGAAP売上高"
             },
             {
               "id": "m2",
-              "label": "製造業PMIの前月差"
+              "label": "のれん減損費用"
             },
             {
               "id": "m3",
-              "label": "非製造業活動指数"
+              "label": "累計営業キャッシュフロー"
             },
             {
               "id": "m4",
-              "label": "総合産出指数"
+              "label": "累計フリーキャッシュフロー"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "中国の工業企業利益が増加する一方、売掛金が現金化を制約",
+          "summary": "公的統計では、製造業と電子機器産業にけん引され、工業企業全体の利益が改善しました。ただし、売掛金の増加は現金の回収を遅らせる可能性があります。",
+          "impact": "この組み合わせは、供給業者や貸し手にとって重要です。利益の増加は生産や投資を支える一方、回収の遅れは運転資金を拘束し、資金調達の必要性を高めるからです。",
+          "what": "国家統計局は、一定規模以上の工業企業について、売上高、利益、貸借対照表、在庫、回収に関する指標を集計しています。",
+          "why": "利益の増加は会計上の支払い能力を高めますが、売掛金の増加や回収の遅れは、供給業者の流動性や銀行融資に負担を移す可能性があります。",
+          "uncertainty": "この統計は集計値であり、すべての企業や業種を均等に表すものではありません。また、キャッシュフロー計算書の全体像を示すものでもありません。",
+          "watch": "現金化を確認するため、売掛金、回収期間、在庫、工業売上高、業種別利益のデータを確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "工業企業利益"
+            },
+            {
+              "id": "m2",
+              "label": "工業企業利益の伸び率"
+            },
+            {
+              "id": "m3",
+              "label": "工業企業営業収入"
+            },
+            {
+              "id": "m4",
+              "label": "工業企業売掛金の伸び率"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
+      "status": "Esta edição cobre acontecimentos nos EUA e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Ambos os índices acompanhados subiram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
+        "us": "Os dois índices acompanhados subiram nas últimas sessões verificadas. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Alguns fechamentos não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "Indicadores de atividade da China enfraquecem e ficam abaixo da expansão",
-          "summary": "A pesquisa oficial mostrou uma atividade mais fraca na indústria, nos serviços não industriais e no conjunto da economia durante o mês mais recente.",
-          "impact": "A fraqueza em pedidos e produção pode limitar a demanda industrial e as contratações, embora alguns serviços ligados à tecnologia tenham permanecido relativamente resilientes.",
-          "what": "A pesquisa de gerentes de compras acompanha as condições mensais de negócios em empresas industriais e não industriais.",
-          "why": "Leituras abaixo do limiar de expansão indicam uma atividade corrente mais fraca e podem afetar as expectativas para a produção industrial, o transporte de cargas, o consumo de energia e o investimento empresarial.",
-          "uncertainty": "O PMI é um indicador antecedente baseado em pesquisa, e não uma medida direta de produção, lucros ou renda das famílias. O resultado também pode ser afetado pelo momento da coleta e por fatores sazonais.",
-          "watch": "Acompanhe a produção posterior, os novos pedidos, a demanda no varejo, os lucros industriais e as condições de crédito.",
+          "id": "f2",
+          "title": "A Fiserv registra uma grande despesa contábil, enquanto o fluxo de caixa permanece positivo",
+          "summary": "A Fiserv informou uma grande perda por redução ao valor recuperável do ágio, sem efeito de caixa, juntamente com fluxo de caixa operacional positivo e uma meta mais ampla de redução de custos.",
+          "impact": "A distinção é importante porque a despesa contábil reduz o lucro divulgado e o patrimônio líquido, enquanto a geração de caixa continua relevante para o serviço da dívida, os investimentos e a alocação de capital.",
+          "what": "A Fiserv oferece tecnologia de pagamentos e serviços financeiros por meio de seus negócios voltados a comerciantes e soluções financeiras. A perda por redução ao valor recuperável reflete uma reavaliação do ágio adquirido, e não um pagamento direto em caixa no período.",
+          "why": "Uma perda por redução ao valor recuperável sem efeito de caixa pode indicar uma deterioração da expectativa econômica dos ativos adquiridos, mesmo quando o negócio operacional continua gerando caixa.",
+          "uncertainty": "A despesa não é, por si só, uma previsão de perdas futuras de caixa, enquanto as métricas ajustadas excluem custos que ainda afetam acionistas e credores.",
+          "watch": "Acompanhe a receita orgânica, as margens dos segmentos, a retenção de clientes, o fluxo de caixa operacional e se as economias planejadas aparecem no desempenho divulgado.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "PMI industrial"
+              "label": "Receita trimestral segundo o GAAP"
             },
             {
               "id": "m2",
-              "label": "Variação mensal do PMI industrial"
+              "label": "Despesa por redução ao valor recuperável do ágio"
             },
             {
               "id": "m3",
-              "label": "Índice de atividade não industrial"
+              "label": "Fluxo de caixa operacional acumulado"
             },
             {
               "id": "m4",
-              "label": "Índice composto de produção"
+              "label": "Fluxo de caixa livre acumulado"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Os lucros industriais chineses aumentam, enquanto as contas a receber limitam a conversão em caixa",
+          "summary": "Dados oficiais mostram um aumento dos lucros industriais agregados, liderado pela indústria manufatureira e pela eletrônica, mas o crescimento das contas a receber pode atrasar a realização do caixa.",
+          "impact": "A combinação é importante para fornecedores e credores porque o crescimento dos lucros pode sustentar a produção e os investimentos, enquanto cobranças mais lentas imobilizam capital de giro e aumentam as necessidades de financiamento.",
+          "what": "O Escritório Nacional de Estatísticas reúne indicadores de receita, lucro, balanço patrimonial, estoques e cobranças de empresas industriais acima do porte designado.",
+          "why": "O crescimento dos lucros melhora a capacidade contábil, mas o aumento das contas a receber e a cobrança mais lenta podem transferir pressão para a liquidez dos fornecedores e o crédito bancário.",
+          "uncertainty": "Os dados são agregados e não representam todas as empresas ou setores da mesma forma; além disso, não fornecem uma demonstração completa do fluxo de caixa.",
+          "watch": "Acompanhe as contas a receber, os prazos de cobrança, os estoques, as vendas industriais e os dados de lucro por setor para confirmar a conversão em caixa.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Lucro industrial"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento do lucro industrial"
+            },
+            {
+              "id": "m3",
+              "label": "Receita operacional industrial"
+            },
+            {
+              "id": "m4",
+              "label": "Crescimento das contas a receber industriais"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期已驗證的涵蓋範圍有限。部分市場沒有已驗證的新消息；有日期的報告仍清楚標示其所屬期間。",
+      "status": "本期涵蓋美國與中國發展。請查看各篇發布日期；近期公司報告以背景說明呈現。",
       "marketSummary": {
-        "us": "追蹤的指數在最新已驗證交易時段均上漲。已標示日期的收盤資料僅描述那些交易時段，不代表目前交易情況。",
-        "cn": "部分收盤觀察無法驗證。每個可用指數均保留其交易日期。"
+        "us": "所追蹤指數在最近可驗證的交易時段均上漲。附日期的收盤價反映那些交易時段，而非目前交易情況。",
+        "cn": "部分收盤觀察無法驗證。每項可取得的指數資訊均保留其交易日期。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "中國活動指標跌破擴張區間",
-          "summary": "官方調查顯示，最新月份的製造業、非製造業及綜合活動均轉弱。",
-          "impact": "訂單與生產走弱可能壓抑工業需求及招聘，儘管部分科技相關服務仍相對具有韌性。",
-          "what": "採購經理人調查追蹤製造業與非製造業企業的每月營運狀況。",
-          "why": "低於擴張門檻的讀數代表當前活動轉弱，可能影響市場對工廠產出、貨運、能源使用及企業投資的預期。",
-          "uncertainty": "採購經理人指數是以調查為基礎的領先指標，並非產出、利潤或家庭收入的直接衡量；短期資料也可能受到時點與季節性因素影響。",
-          "watch": "留意後續生產、新訂單、零售需求、工業利潤及信貸狀況。",
+          "id": "f2",
+          "title": "Fiserv 認列重大會計費用，現金流仍為正",
+          "summary": "Fiserv 在營業現金流為正的同時，認列大額非現金商譽減損，並擴大降本目標。",
+          "impact": "這項區分很重要，因為會計費用會降低申報獲利與股東權益，但現金創造能力仍與償債、投資及資本配置有關。",
+          "what": "Fiserv 透過商戶服務與金融解決方案業務，提供支付及金融服務科技。這項減損反映對收購商譽的重新評估，而非該季度的直接現金支付。",
+          "why": "非現金減損可能顯示收購資產預期經濟效益減弱，即使營運業務仍持續創造現金。",
+          "uncertainty": "這項費用本身並不代表未來現金損失的預測；經調整指標排除的成本，仍會影響股東與債權人。",
+          "watch": "留意有機營收、部門利潤率、客戶留存率、營業現金流，以及計畫中的節省是否反映在申報業績中。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "製造業採購經理人指數"
+              "label": "季度 GAAP 營收"
             },
             {
               "id": "m2",
-              "label": "製造業採購經理人指數月變化"
+              "label": "商譽減損費用"
             },
             {
               "id": "m3",
-              "label": "非製造業活動指數"
+              "label": "累計營業現金流"
             },
             {
               "id": "m4",
-              "label": "綜合產出指數"
+              "label": "累計自由現金流"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "中國工業利潤上升，但應收帳款限制現金轉換",
+          "summary": "官方資料顯示，製造業與電子業帶動工業整體利潤增強，但應收帳款上升可能延後現金實現。",
+          "impact": "這項組合對供應商與貸款機構很重要，因為利潤成長可支持生產與投資；但收款速度放慢會占用營運資金並增加融資需求。",
+          "what": "國家統計局彙整規模以上工業企業的營收、利潤、資產負債表、存貨及收款指標。",
+          "why": "利潤成長提高會計上的承受能力，但應收帳款增加及收款放慢，可能將壓力轉向供應商流動性與銀行信貸。",
+          "uncertainty": "這些資料是整體彙總，並不代表每家公司或每個產業的情況，也未提供完整現金流量表。",
+          "watch": "留意應收帳款、收款期間、存貨、工業銷售，以及產業層級利潤資料，以確認現金轉換情況。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "工業利潤"
+            },
+            {
+              "id": "m2",
+              "label": "工業利潤成長"
+            },
+            {
+              "id": "m3",
+              "label": "工業營業收入"
+            },
+            {
+              "id": "m4",
+              "label": "工業應收帳款成長"
             }
           ]
         }
