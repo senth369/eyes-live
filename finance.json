@@ -1,791 +1,412 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-03T20:30:53.382Z",
-  "generatedAt": "2026-11-03T20:45:04.164Z",
-  "model": "gpt-5.6-sol",
+  "cutoffAt": "2026-11-04T09:10:34.774Z",
+  "generatedAt": "2026-11-04T09:14:45.631Z",
+  "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Official large-cap index data",
-      "url": "https://fred.stlouisfed.org/data/SP500"
+      "label": "AMD earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm"
     },
     {
       "id": "src2",
-      "label": "Official composite index data",
-      "url": "https://fred.stlouisfed.org/data/NASDAQCOM"
-    },
-    {
-      "id": "src3",
-      "label": "Shanghai index historical table",
-      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
-    },
-    {
-      "id": "src4",
-      "label": "Large-cap China index historical table",
-      "url": "https://ca.investing.com/indices/csi300-historical-data"
-    },
-    {
-      "id": "src5",
-      "label": "Pfizer quarterly results release",
-      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-reports-strong-third-quarter-2026-results-and-raises"
-    },
-    {
-      "id": "src6",
-      "label": "Pfizer company overview",
-      "url": "https://www.pfizer.com/about/careers/en-ir/about-pfizer"
-    },
-    {
-      "id": "src7",
-      "label": "Palantir SEC earnings exhibit",
-      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
-    },
-    {
-      "id": "src8",
-      "label": "Official manufacturing survey",
-      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/"
-    },
-    {
-      "id": "src9",
-      "label": "Official Chinese purchasing survey data",
-      "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261103_1965735.html"
-    },
-    {
-      "id": "src10",
-      "label": "Official Chinese survey interpretation",
-      "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html"
-    },
-    {
-      "id": "src11",
-      "label": "BYD quarterly report filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
-    },
-    {
-      "id": "src12",
-      "label": "BYD company overview",
-      "url": "https://www.bydglobal.com/cn?scroll=true"
-    },
-    {
-      "id": "src13",
-      "label": "CATL quarterly report filing",
+      "label": "CATL quarterly report",
       "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
     },
     {
-      "id": "src14",
+      "id": "src3",
+      "label": "BYD quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+    },
+    {
+      "id": "src4",
+      "label": "China NBS PMI release",
+      "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261103_1965735.html"
+    },
+    {
+      "id": "src5",
+      "label": "US market closing table",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close"
+    },
+    {
+      "id": "src6",
+      "label": "CSI Composite historical data",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
+    },
+    {
+      "id": "src7",
       "label": "CATL company profile",
       "url": "https://www.catl.com/en/about/profile/"
+    },
+    {
+      "id": "src8",
+      "label": "BYD company profile",
+      "url": "https://www.byd.com/en/about-byd"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-02",
-      "close": 7541.4,
-      "previousClose": 7580.07,
-      "changePercent": -0.51,
+      "sessionDate": "2026-11-03",
+      "close": 7568.92,
+      "previousClose": 7541.4,
+      "changePercent": 0.36,
       "sourceIds": [
-        "src1"
+        "src5"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-02",
-      "close": 25164.36,
-      "previousClose": 25437,
-      "changePercent": -1.07,
+      "sessionDate": "2026-11-03",
+      "close": 25372.01,
+      "previousClose": 25164.31,
+      "changePercent": 0.83,
       "sourceIds": [
-        "src2"
+        "src5"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-03",
-      "close": 3608.1,
-      "previousClose": 3638.03,
-      "changePercent": -0.82,
-      "sourceIds": [
-        "src3"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-03",
-      "close": 4008.87,
-      "previousClose": 4016.92,
-      "changePercent": -0.2,
+      "sessionDate": "2026-11-04",
+      "close": 4101.34,
+      "previousClose": 4008.87,
+      "changePercent": 2.31,
       "sourceIds": [
-        "src4"
+        "src6"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f2",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-02",
-      "company": {
-        "name": "Palantir Technologies Inc.",
-        "ticker": "PLTR",
-        "exchange": "Nasdaq"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 2313411000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Quarterly financial summary, revenue row."
-        },
-        {
-          "id": "m2",
-          "value": 1128012000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Quarterly financial summary, common-stockholder net income row."
-        },
-        {
-          "id": "m3",
-          "value": 1204570000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Quarterly financial summary, cash from operations row."
-        },
-        {
-          "id": "m4",
-          "value": 96,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Quarterly financial summary, revenue growth row."
-        },
-        {
-          "id": "m5",
-          "value": 8530000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-12-31",
-          "comparison": "level",
-          "basis": "guidance",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Annual outlook, revenue range lower bound."
-        },
-        {
-          "id": "m6",
-          "value": 8534000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-12-31",
-          "comparison": "level",
-          "basis": "guidance",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Annual outlook, revenue range upper bound."
-        }
-      ],
-      "sourceIds": [
-        "src7"
-      ],
-      "evidence": "The quarterly highlights, financial summary, operations statement and outlook report revenue, common-stockholder profit, operating cash and raised annual guidance."
-    },
-    {
-      "id": "f3",
-      "market": "us",
+      "id": "f4",
+      "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-11-02",
+      "publishedOn": "2026-11-01",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 55.5,
+          "value": 49.3,
           "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src4"
           ],
-          "evidence": "Report summary, headline manufacturing index."
+          "evidence": "Official manufacturing PMI release, headline indicator for October."
         },
         {
           "id": "m2",
-          "value": 1,
+          "value": -0.8,
           "unit": "percentage-points",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src4"
           ],
-          "evidence": "Report summary, comparison with the preceding month."
+          "evidence": "Official release states the manufacturing PMI decreased from the prior month by eight-tenths of a percentage point."
         },
         {
           "id": "m3",
-          "value": 75.2,
+          "value": 49.7,
           "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src4"
           ],
-          "evidence": "Prices section, index row."
+          "evidence": "Non-manufacturing section, business activity indicator for October."
         },
         {
           "id": "m4",
-          "value": -2.7,
-          "unit": "percentage-points",
+          "value": 49.7,
+          "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
-          "comparison": "mom",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src4"
           ],
-          "evidence": "Prices section, comparison with the preceding month."
+          "evidence": "Composite PMI section, output indicator for October."
         }
       ],
       "sourceIds": [
-        "src8"
+        "src4"
       ],
-      "evidence": "The report summary and component sections show expanding activity, orders and production alongside elevated raw-material prices and cautious respondent sentiment."
+      "evidence": "The official survey reports contractionary manufacturing, non-manufacturing and composite readings, with production and new orders below the expansion threshold."
     }
   ],
   "locales": {
     "en": {
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Palantir combines broad revenue growth with strong operating cash",
-          "summary": "Palantir reported broad revenue growth across commercial and government work while raising its annual revenue outlook.",
-          "impact": "Strong accounting profit and operating cash indicate that sales were converting into collections, while contract timing and compensation costs remain important.",
-          "what": "Palantir provides software platforms used by commercial and government organizations. The filing reports quarterly revenue, common-stockholder net income and operating cash, while the domestic revenue mix shifted toward commercial work. Management also raised annual revenue guidance. Operating cash reflects cash generated before investing and financing activities, so it should not be treated as identical to net income or adjusted free cash flow. The filing separately discloses stock-based compensation, which remains an economic cost despite being removed from some adjusted measures.",
-          "why": "Enterprise software can improve planning, logistics, production and decision-making, encouraging customers to consolidate work around platforms that connect data with operations. Cash collection matters because contract billing and revenue recognition may occur on different schedules. Businesses therefore care about implementation risk and productivity gains, while taxpayers and public-service users are exposed through government technology contracts.",
-          "uncertainty": "Large agreements can make quarterly comparisons uneven, customers may delay deployments and government awards can be affected by procurement cycles. Contract value and remaining deal value are not guaranteed future revenue because options, termination rights and delivery requirements may intervene. Rapid growth also makes customer support, hiring discipline and stock-based compensation important tests of durability.",
-          "watch": "Watch commercial renewals, government awards, receivable collection, customer concentration, stock-based compensation and conversion of contracts into reported revenue.",
+          "id": "f4",
+          "title": "China activity gauges weaken below expansion",
+          "summary": "The official survey showed weaker manufacturing, non-manufacturing and composite activity during the latest month.",
+          "impact": "Softer orders and production can restrain industrial demand and hiring, although selected technology-related services remained comparatively resilient.",
+          "what": "The purchasing managers survey tracks monthly business conditions across manufacturing and non-manufacturing companies.",
+          "why": "Readings below the expansion threshold indicate weaker current activity and can affect expectations for factory output, freight, energy use and business investment.",
+          "uncertainty": "PMI is a survey-based leading indicator rather than a direct measure of output, profits or household income, and one month can be affected by timing and seasonal factors.",
+          "watch": "Watch subsequent production, new orders, retail demand, industrial profits and credit conditions.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "quarterly revenue"
+              "label": "Manufacturing PMI"
             },
             {
               "id": "m2",
-              "label": "quarterly net income attributable to common stockholders"
+              "label": "Manufacturing PMI monthly change"
             },
             {
               "id": "m3",
-              "label": "quarterly operating cash flow"
+              "label": "Non-manufacturing activity index"
             },
             {
               "id": "m4",
-              "label": "year-over-year revenue growth"
-            },
-            {
-              "id": "m5",
-              "label": "annual revenue guidance lower bound"
-            },
-            {
-              "id": "m6",
-              "label": "annual revenue guidance upper bound"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Factory survey shows expansion with persistent cost pressure",
-          "summary": "The latest US factory survey signaled continued expansion in orders and production despite persistent raw-material cost pressure.",
-          "impact": "Firm activity can support industrial earnings and employment, while expensive inputs can squeeze margins and complicate inflation expectations.",
-          "what": "The manufacturing survey compiles purchasing-manager responses covering orders, production, employment, inventories, supplier deliveries and prices. Its headline measure remained in expansion territory, while orders and production continued growing. Employment also remained expansionary but lost momentum, supplier delivery times stayed stretched and the prices measure remained elevated despite easing. Respondent sentiment was cautious even as measured activity remained favorable, showing that confidence and reported operating conditions can diverge.",
-          "why": "Purchasing managers often observe changes in customer demand and supply chains before they appear in official production data. Rising orders can encourage factories to buy materials, schedule work and rebuild inventories, supporting suppliers and freight companies. Expensive inputs and slower deliveries can increase costs, however, and manufacturers may eventually pass part of that pressure to households through prices for vehicles, appliances and other goods.",
-          "uncertainty": "This is a diffusion survey rather than a direct measure of output, revenue or payrolls. Results can be influenced by the industries represented and by respondent sentiment. Comments concerning tariffs, energy or conflict identify business concerns but do not establish that any particular factor caused the monthly movement.",
-          "watch": "Watch official industrial production, factory orders, producer prices, payrolls, inventories and the next survey for confirmation.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "manufacturing activity index"
-            },
-            {
-              "id": "m2",
-              "label": "monthly change in manufacturing activity index"
-            },
-            {
-              "id": "m3",
-              "label": "manufacturing prices index"
-            },
-            {
-              "id": "m4",
-              "label": "monthly change in manufacturing prices index"
+              "label": "Composite output index"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场没有经核实的新消息；带日期的报告均有明确标注。",
+      "status": "本期经核实的覆盖范围有限。部分市场没有经核实的新消息；带日期的报告仍会明确标注。",
       "marketSummary": {
-        "us": "所跟踪指数在最近经核实的交易时段均下跌。带日期的收盘数据反映的是相应交易时段，而非当前交易情况。",
-        "cn": "所跟踪指数在最近经核实的交易时段均下跌。带日期的收盘数据反映的是相应交易时段，而非当前交易情况。"
+        "us": "所跟踪的两个指数在最近经核实的交易时段均上涨。带日期的收盘数据描述的是相应交易时段，而非当前交易情况。",
+        "cn": "部分收盘观察无法核实。每个可用指数均保留其自身的交易日期。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Palantir营收全面增长，经营现金流强劲",
-          "summary": "Palantir的商业和政府业务营收均实现增长，同时上调全年营收展望。",
-          "impact": "强劲的会计利润和经营现金流表明，销售收入正转化为实际回款，但合同时间安排和薪酬成本仍很重要。",
-          "what": "Palantir提供商业机构和政府机构使用的软件平台。文件披露了季度营收、归属于普通股股东的净利润和经营现金流；国内营收结构则进一步偏向商业业务。管理层还上调了全年营收指引。经营现金流反映投资和融资活动之前产生的现金，因此不能将其等同于净利润或经调整自由现金流。文件还单独披露了股权激励费用；尽管部分调整后指标会剔除这项费用，它仍是一项经济成本。",
-          "why": "企业软件可以改善规划、物流、生产和决策，因此客户可能会把更多工作集中到连接数据与运营的平台上。回款情况很重要，因为合同开票和营收确认的时间可能不同。因此，企业关注实施风险和生产效率提升，而纳税人和公共服务使用者也会通过政府技术合同受到影响。",
-          "uncertainty": "大额协议可能使各季度之间的比较不够平稳，客户可能推迟部署，政府合同也可能受到采购周期影响。合同价值和剩余交易价值并不保证会成为未来营收，因为其中可能涉及选择权、终止权和交付要求。快速增长也使客户支持、招聘纪律和股权激励费用成为检验增长能否持续的重要因素。",
-          "watch": "关注商业客户续约、政府合同授予、应收款回收、客户集中度、股权激励费用，以及合同转化为已报告营收的情况。",
+          "id": "f4",
+          "title": "中国活动指标跌至扩张线下方",
+          "summary": "官方调查显示，最近一个月制造业、非制造业和综合活动均有所走弱。",
+          "impact": "订单和产出走软可能抑制工业需求和招聘，不过部分科技相关服务仍相对有韧性。",
+          "what": "采购经理人调查跟踪制造业和非制造业企业的月度经营状况。",
+          "why": "低于扩张线的读数表明当前活动走弱，并可能影响市场对工厂产出、货运、能源使用和企业投资的预期。",
+          "uncertainty": "PMI是基于调查的先行指标，并非产出、利润或居民收入的直接衡量；单月数据可能受到时点和季节性因素影响。",
+          "watch": "关注后续产出、新订单、零售需求、工业利润和信贷状况。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度营收"
+              "label": "制造业PMI"
             },
             {
               "id": "m2",
-              "label": "季度归属于普通股股东的净利润"
+              "label": "制造业PMI月度变化"
             },
             {
               "id": "m3",
-              "label": "季度经营现金流"
+              "label": "非制造业活动指数"
             },
             {
               "id": "m4",
-              "label": "营收同比增长"
-            },
-            {
-              "id": "m5",
-              "label": "全年营收指引下限"
-            },
-            {
-              "id": "m6",
-              "label": "全年营收指引上限"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "制造业调查显示行业扩张，但成本压力持续",
-          "summary": "最新的美国制造业调查显示，尽管原材料成本压力持续，订单和生产仍在扩张。",
-          "impact": "稳健的经营活动可以支撑工业企业盈利和就业，而昂贵的投入品可能挤压利润率，并使通胀预期更加复杂。",
-          "what": "这项制造业调查汇总采购经理对订单、生产、就业、库存、供应商交货和价格的反馈。总体指标仍处于扩张区间，订单和生产继续增长。就业指标也处于扩张区间，但动能减弱；供应商交货时间仍然偏长；价格指标虽有所回落，但仍处高位。尽管调查显示经营活动依然良好，受访者情绪仍较谨慎，说明信心与实际报告的经营状况可能出现分化。",
-          "why": "采购经理通常能在官方生产数据发布前观察到客户需求和供应链的变化。订单增加可推动工厂采购材料、安排生产并补充库存，从而支持供应商和货运企业。不过，昂贵的投入品和较慢的交货速度可能推高成本，制造商最终可能通过汽车、家电及其他商品的价格，将部分压力转嫁给家庭。",
-          "uncertainty": "这是一项扩散指数调查，并非对产量、营收或非农就业人数的直接衡量。调查结果可能受到所涵盖行业和受访者情绪的影响。有关关税、能源或冲突的评论反映了企业担忧，但不能证明某项特定因素导致了当月变化。",
-          "watch": "关注官方工业生产、工厂订单、生产者价格、非农就业人数、库存及后续调查，以确认当前趋势。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "制造业活动指数"
-            },
-            {
-              "id": "m2",
-              "label": "制造业活动指数月度变化"
-            },
-            {
-              "id": "m3",
-              "label": "制造业价格指数"
-            },
-            {
-              "id": "m4",
-              "label": "制造业价格指数月度变化"
+              "label": "综合产出指数"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont pas de nouvelle actualité vérifiée ; les rapports datés restent clairement signalés.",
+      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne présentent aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
       "marketSummary": {
-        "us": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées concernent ces séances, et non la séance en cours.",
-        "cn": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées concernent ces séances, et non la séance en cours."
+        "us": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Palantir associe une croissance généralisée du chiffre d’affaires à de solides flux de trésorerie d’exploitation",
-          "summary": "Palantir a annoncé une croissance généralisée du chiffre d’affaires dans ses activités commerciales et publiques, tout en relevant ses prévisions annuelles de chiffre d’affaires.",
-          "impact": "Un solide bénéfice comptable et de solides flux de trésorerie d’exploitation indiquent que les ventes se transformaient en encaissements. Le calendrier des contrats et les coûts de rémunération restent toutefois importants.",
-          "what": "Palantir fournit des plateformes logicielles utilisées par des entreprises et des organismes publics. Le document publié présente le chiffre d’affaires trimestriel, le bénéfice net attribuable aux actionnaires ordinaires et les flux de trésorerie d’exploitation. Sur son marché intérieur, la répartition du chiffre d’affaires s’est davantage orientée vers les activités commerciales. La direction a également relevé ses prévisions annuelles de chiffre d’affaires. Les flux de trésorerie d’exploitation correspondent aux liquidités générées avant les activités d’investissement et de financement. Ils ne doivent donc pas être considérés comme identiques au bénéfice net ou au flux de trésorerie disponible ajusté. Le document présente séparément la rémunération en actions, qui reste un coût économique même si certaines mesures ajustées l’excluent.",
-          "why": "Les logiciels d’entreprise peuvent améliorer la planification, la logistique, la production et la prise de décision. Cela peut inciter les clients à regrouper leurs activités autour de plateformes reliant les données aux opérations. Les encaissements sont importants, car la facturation des contrats et la comptabilisation du chiffre d’affaires peuvent suivre des calendriers différents. Les entreprises s’intéressent donc aux risques de mise en œuvre et aux gains de productivité. Les contribuables et les usagers des services publics sont également concernés par les contrats technologiques publics.",
-          "uncertainty": "Les grands accords peuvent rendre les comparaisons trimestrielles irrégulières. Les clients peuvent retarder les déploiements, et les contrats publics peuvent dépendre des cycles d’achat. La valeur des contrats et la valeur restante des accords ne garantissent pas le chiffre d’affaires futur, car des options, des droits de résiliation ou des obligations de livraison peuvent intervenir. Une croissance rapide fait aussi du service client, de la rigueur des recrutements et de la rémunération en actions des éléments importants pour évaluer sa solidité dans le temps.",
-          "watch": "À surveiller : les renouvellements de contrats commerciaux, les contrats publics, le recouvrement des créances, la concentration de la clientèle, la rémunération en actions et la conversion des contrats en chiffre d’affaires publié.",
+          "id": "f4",
+          "title": "Les indicateurs chinois d’activité passent sous le seuil d’expansion",
+          "summary": "L’enquête officielle a fait ressortir un affaiblissement de l’activité manufacturière, non manufacturière et composite au cours de la période mensuelle la plus récente.",
+          "impact": "Le ralentissement des commandes et de la production peut freiner la demande industrielle et les embauches, même si certains services liés aux technologies sont restés relativement résistants.",
+          "what": "L’enquête des directeurs d’achat suit chaque mois les conditions d’activité des entreprises manufacturières et non manufacturières.",
+          "why": "Des résultats inférieurs au seuil d’expansion signalent une activité courante plus faible et peuvent influencer les anticipations concernant la production des usines, le fret, la consommation d’énergie et l’investissement des entreprises.",
+          "uncertainty": "Le PMI est un indicateur avancé fondé sur une enquête, et non une mesure directe de la production, des bénéfices ou des revenus des ménages. Les effets du calendrier et de la saisonnalité peuvent aussi influencer les résultats.",
+          "watch": "Surveiller la production, les nouvelles commandes, la demande de détail, les bénéfices industriels et les conditions de crédit à venir.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "chiffre d’affaires trimestriel"
+              "label": "PMI manufacturier"
             },
             {
               "id": "m2",
-              "label": "bénéfice net trimestriel attribuable aux actionnaires ordinaires"
+              "label": "Variation mensuelle du PMI manufacturier"
             },
             {
               "id": "m3",
-              "label": "flux de trésorerie d’exploitation trimestriels"
+              "label": "Indice d’activité non manufacturière"
             },
             {
               "id": "m4",
-              "label": "croissance du chiffre d’affaires sur un an"
-            },
-            {
-              "id": "m5",
-              "label": "borne basse des prévisions annuelles de chiffre d’affaires"
-            },
-            {
-              "id": "m6",
-              "label": "borne haute des prévisions annuelles de chiffre d’affaires"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "L’enquête auprès des usines montre une expansion malgré des pressions persistantes sur les coûts",
-          "summary": "La dernière enquête américaine auprès des usines a signalé une poursuite de l’expansion des commandes et de la production, malgré des pressions persistantes sur le coût des matières premières.",
-          "impact": "Une activité solide peut soutenir les bénéfices industriels et l’emploi. Des intrants coûteux peuvent toutefois réduire les marges et compliquer les anticipations d’inflation.",
-          "what": "L’enquête manufacturière rassemble les réponses des directeurs des achats sur les commandes, la production, l’emploi, les stocks, les délais de livraison des fournisseurs et les prix. Son indicateur principal est resté en zone d’expansion, tandis que les commandes et la production ont continué de progresser. L’emploi est également resté en expansion, mais a perdu de son élan. Les délais de livraison des fournisseurs sont restés longs et l’indice des prix est demeuré élevé malgré un recul. Les répondants sont restés prudents alors que l’activité mesurée demeurait favorable. Cela montre que la confiance et les conditions d’exploitation déclarées peuvent évoluer différemment.",
-          "why": "Les directeurs des achats observent souvent les changements de la demande des clients et des chaînes d’approvisionnement avant leur apparition dans les données officielles de production. Une hausse des commandes peut encourager les usines à acheter des matériaux, à planifier le travail et à reconstituer leurs stocks, ce qui soutient les fournisseurs et les entreprises de transport. Toutefois, des intrants coûteux et des livraisons plus lentes peuvent augmenter les coûts. Les fabricants peuvent ensuite répercuter une partie de cette pression sur les ménages par les prix des véhicules, des appareils ménagers et d’autres biens.",
-          "uncertainty": "Il s’agit d’une enquête de conjoncture, et non d’une mesure directe de la production, du chiffre d’affaires ou de l’emploi salarié. Les résultats peuvent être influencés par les secteurs représentés et par l’opinion des répondants. Les commentaires sur les droits de douane, l’énergie ou les conflits signalent des préoccupations des entreprises, mais ne prouvent pas qu’un facteur particulier a causé l’évolution mensuelle.",
-          "watch": "À surveiller pour confirmation : la production industrielle officielle, les commandes aux usines, les prix à la production, l’emploi salarié, les stocks et la prochaine enquête.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "indice d’activité manufacturière"
-            },
-            {
-              "id": "m2",
-              "label": "variation mensuelle de l’indice d’activité manufacturière"
-            },
-            {
-              "id": "m3",
-              "label": "indice des prix manufacturiers"
-            },
-            {
-              "id": "m4",
-              "label": "variation mensuelle de l’indice des prix manufacturiers"
+              "label": "Indice composite de production"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes con fecha siguen claramente identificados.",
+      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes fechados siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la negociación actual.",
-        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la negociación actual."
+        "us": "Los dos índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la negociación actual.",
+        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Palantir combina un amplio crecimiento de los ingresos con un sólido flujo de caja operativo",
-          "summary": "Palantir informó de un amplio crecimiento de los ingresos en sus actividades comerciales y gubernamentales, y elevó su previsión de ingresos anuales.",
-          "impact": "El sólido beneficio contable y el flujo de caja operativo indican que las ventas se convertían en cobros, aunque los plazos de los contratos y los costes de remuneración siguen siendo importantes.",
-          "what": "Palantir ofrece plataformas de software utilizadas por organizaciones comerciales y gubernamentales. El informe presenta los ingresos trimestrales, el beneficio neto atribuible a accionistas comunes y el flujo de caja operativo, mientras que la composición de los ingresos nacionales se orientó más hacia la actividad comercial. La dirección también elevó su previsión de ingresos anuales. El flujo de caja operativo refleja el efectivo generado antes de las actividades de inversión y financiación, por lo que no debe considerarse idéntico al beneficio neto ni al flujo de caja libre ajustado. El informe detalla por separado la remuneración en acciones, que sigue siendo un coste económico aunque se excluya de algunas medidas ajustadas.",
-          "why": "El software empresarial puede mejorar la planificación, la logística, la producción y la toma de decisiones, lo que anima a los clientes a concentrar su trabajo en plataformas que conectan los datos con las operaciones. Los cobros importan porque la facturación de los contratos y el reconocimiento de ingresos pueden producirse en calendarios diferentes. Por ello, las empresas se preocupan por el riesgo de implementación y las mejoras de productividad, mientras que los contribuyentes y los usuarios de servicios públicos están expuestos mediante los contratos tecnológicos del Gobierno.",
-          "uncertainty": "Los grandes acuerdos pueden hacer que las comparaciones trimestrales sean irregulares, los clientes pueden retrasar las implementaciones y las adjudicaciones públicas pueden verse afectadas por los ciclos de contratación. El valor de los contratos y el valor restante de los acuerdos no garantizan ingresos futuros, ya que pueden intervenir opciones, derechos de cancelación y requisitos de entrega. El rápido crecimiento también convierte la atención al cliente, la disciplina de contratación y la remuneración en acciones en pruebas importantes de su durabilidad.",
-          "watch": "Vigile las renovaciones comerciales, las adjudicaciones públicas, el cobro de cuentas por cobrar, la concentración de clientes, la remuneración en acciones y la conversión de contratos en ingresos declarados.",
+          "id": "f4",
+          "title": "Los indicadores de actividad de China caen por debajo de la expansión",
+          "summary": "La encuesta oficial mostró una menor actividad manufacturera, no manufacturera y compuesta durante el último mes.",
+          "impact": "La menor cantidad de pedidos y producción puede frenar la demanda industrial y la contratación, aunque algunos servicios relacionados con la tecnología mostraron una resiliencia comparativamente mayor.",
+          "what": "La encuesta de gestores de compras sigue las condiciones empresariales mensuales de las compañías manufactureras y no manufactureras.",
+          "why": "Las lecturas por debajo del umbral de expansión indican una actividad actual más débil y pueden afectar las expectativas sobre la producción fabril, el transporte de mercancías, el consumo de energía y la inversión empresarial.",
+          "uncertainty": "El PMI es un indicador adelantado basado en encuestas, no una medida directa de la producción, los beneficios o los ingresos de los hogares; además, un solo mes puede verse afectado por factores temporales y estacionales.",
+          "watch": "Observar la producción posterior, los nuevos pedidos, la demanda minorista, los beneficios industriales y las condiciones crediticias.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "ingresos trimestrales"
+              "label": "PMI manufacturero"
             },
             {
               "id": "m2",
-              "label": "beneficio neto trimestral atribuible a accionistas comunes"
+              "label": "Variación mensual del PMI manufacturero"
             },
             {
               "id": "m3",
-              "label": "flujo de caja operativo trimestral"
+              "label": "Índice de actividad no manufacturera"
             },
             {
               "id": "m4",
-              "label": "crecimiento interanual de los ingresos"
-            },
-            {
-              "id": "m5",
-              "label": "límite inferior de la previsión de ingresos anuales"
-            },
-            {
-              "id": "m6",
-              "label": "límite superior de la previsión de ingresos anuales"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "La encuesta fabril muestra expansión y una presión persistente sobre los costes",
-          "summary": "La encuesta fabril estadounidense más reciente señaló que los pedidos y la producción seguían expandiéndose pese a la persistente presión de los costes de las materias primas.",
-          "impact": "Una actividad sólida puede apoyar los beneficios industriales y el empleo, mientras que los insumos caros pueden reducir los márgenes y complicar las expectativas de inflación.",
-          "what": "La encuesta manufacturera recopila respuestas de responsables de compras sobre pedidos, producción, empleo, inventarios, entregas de proveedores y precios. Su indicador principal permaneció en zona de expansión, mientras los pedidos y la producción siguieron creciendo. El empleo también se mantuvo en expansión, pero perdió impulso; los plazos de entrega de los proveedores siguieron siendo largos y el indicador de precios permaneció elevado pese a moderarse. La opinión de los participantes fue cautelosa aunque la actividad medida siguió siendo favorable, lo que muestra que la confianza y las condiciones operativas declaradas pueden diferir.",
-          "why": "Los responsables de compras suelen detectar cambios en la demanda de los clientes y las cadenas de suministro antes de que aparezcan en los datos oficiales de producción. El aumento de los pedidos puede animar a las fábricas a comprar materiales, programar trabajo y reponer inventarios, apoyando a proveedores y empresas de transporte. Sin embargo, los insumos caros y las entregas más lentas pueden elevar los costes, y los fabricantes podrían trasladar parte de esa presión a los hogares mediante los precios de vehículos, electrodomésticos y otros bienes.",
-          "uncertainty": "Esta es una encuesta de difusión, no una medida directa de la producción, los ingresos o el empleo. Los resultados pueden verse influidos por las industrias representadas y por la opinión de los participantes. Los comentarios sobre aranceles, energía o conflictos identifican preocupaciones empresariales, pero no demuestran que un factor concreto causara el movimiento mensual.",
-          "watch": "Vigile la producción industrial oficial, los pedidos de fábrica, los precios al productor, el empleo, los inventarios y la próxima encuesta para obtener confirmación.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "índice de actividad manufacturera"
-            },
-            {
-              "id": "m2",
-              "label": "variación mensual del índice de actividad manufacturera"
-            },
-            {
-              "id": "m3",
-              "label": "índice de precios del sector manufacturero"
-            },
-            {
-              "id": "m4",
-              "label": "variación mensual del índice de precios del sector manufacturero"
+              "label": "Índice compuesto de producción"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "本版で確認できた情報は限られています。市場によっては確認済みの新しい記事がなく、過去の日付のレポートはそのことが明確に示されています。",
+      "status": "この版で確認できた情報は限定的です。一部の市場では、確認できる新しい材料がありません。日付のある報告は、対象期間が明確に示されています。",
       "marketSummary": {
-        "us": "対象指数はいずれも、確認できた直近の取引で下落しました。日付が付いた終値はその取引時点のもので、現在の値動きではありません。",
-        "cn": "対象指数はいずれも、確認できた直近の取引で下落しました。日付が付いた終値はその取引時点のもので、現在の値動きではありません。"
+        "us": "追跡対象の両指数は、直近の確認済み取引で上昇しました。記載された終値はその取引時点のもので、現在の取引を示すものではありません。",
+        "cn": "一部の終値は確認できませんでした。利用可能な各指数には、それぞれの取引日が付されています。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "パランティア、幅広い増収と力強い営業キャッシュフローを両立",
-          "summary": "パランティアは、商業向けと政府向けの事業で幅広く増収となり、通期の売上高見通しも引き上げました。",
-          "impact": "会計上の利益と営業キャッシュフローが堅調だったことは、売上が実際の入金につながっていたことを示します。一方、契約の時期や報酬費用は引き続き重要です。",
-          "what": "パランティアは、企業や政府機関が利用するソフトウェア基盤を提供しています。提出資料には、四半期売上高、普通株主に帰属する純利益、営業キャッシュフローが記載されています。国内売上の構成は、商業向けの比重が高まりました。経営陣は通期の売上高見通しも引き上げました。営業キャッシュフローは、投資活動や財務活動の前に事業から生み出した現金を示すため、純利益や調整後フリーキャッシュフローと同じものではありません。資料では株式報酬も別に開示されています。株式報酬は一部の調整後指標から除かれていても、実質的な費用です。",
-          "why": "企業向けソフトウェアは、計画、物流、生産、意思決定の改善に役立つ可能性があります。そのため顧客は、データと業務を結び付ける基盤へ仕事を集約しやすくなります。契約の請求と売上の計上は時期が異なる場合があるため、代金の回収も重要です。企業にとっては導入リスクと生産性の向上が重要であり、納税者や公共サービスの利用者にも政府の技術契約を通じて影響が及びます。",
-          "uncertainty": "大型契約によって四半期比較にばらつきが出る場合があります。顧客が導入を遅らせる可能性があり、政府案件も調達サイクルの影響を受けます。契約額や残存契約価値は、将来の売上を保証しません。選択権、解約権、納品条件などが影響するためです。急成長が続く中では、顧客支援、採用の規律、株式報酬も事業の持続性を測る重要な材料です。",
-          "watch": "商業向け契約の更新、政府案件の受注、売掛金の回収、顧客集中度、株式報酬、契約が報告売上高に転換される状況に注目です。",
+          "id": "f4",
+          "title": "中国の景況指標、拡大・縮小の境目を下回る",
+          "summary": "公式調査では、直近の月に製造業、非製造業、総合の活動が弱まりました。",
+          "impact": "受注や生産の軟化は、産業需要や雇用を抑える可能性があります。一方、テクノロジー関連の一部サービスは比較的底堅く推移しました。",
+          "what": "購買担当者景気指数の調査は、製造業と非製造業の企業を対象に、月ごとの事業環境を追跡します。",
+          "why": "拡大・縮小の境目を下回る数値は、足元の活動が弱いことを示し、工場生産、貨物輸送、エネルギー使用、企業投資への見方に影響する可能性があります。",
+          "uncertainty": "PMIは調査に基づく先行指標であり、生産、利益、家計所得を直接測るものではありません。また、対象期間は時期や季節要因の影響を受ける可能性があります。",
+          "watch": "今後の生産、新規受注、小売需要、鉱工業企業の利益、信用環境を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期売上高"
+              "label": "製造業PMI"
             },
             {
               "id": "m2",
-              "label": "普通株主に帰属する四半期純利益"
+              "label": "製造業PMIの前月差"
             },
             {
               "id": "m3",
-              "label": "四半期営業キャッシュフロー"
+              "label": "非製造業活動指数"
             },
             {
               "id": "m4",
-              "label": "売上高の前年同期比成長率"
-            },
-            {
-              "id": "m5",
-              "label": "通期売上高見通しの下限"
-            },
-            {
-              "id": "m6",
-              "label": "通期売上高見通しの上限"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "製造業調査、コスト圧力が続く中でも拡大を示す",
-          "summary": "最新の米国製造業調査では、原材料コストの圧力が続く一方、受注と生産は引き続き拡大していることが示されました。",
-          "impact": "堅調な事業活動は製造業の利益や雇用を支える可能性があります。一方、投入コストの上昇は利益率を圧迫し、物価見通しを複雑にする可能性があります。",
-          "what": "この製造業調査は、受注、生産、雇用、在庫、仕入先の納期、価格について、購買担当者の回答をまとめたものです。主要指標は拡大圏を維持し、受注と生産も増加が続きました。雇用も拡大圏を保ちましたが、勢いは弱まりました。仕入先の納期は引き続き長く、価格指標は低下したものの高い水準にとどまりました。回答者の見方は慎重でしたが、測定された事業活動は良好でした。これは、景況感と報告された事業環境が異なる場合があることを示しています。",
-          "why": "購買担当者は、顧客需要や供給網の変化を、公的な生産統計に表れる前に把握することがあります。受注の増加は、工場による材料購入、作業計画、在庫補充を促し、供給業者や貨物輸送会社を支える可能性があります。一方、投入コストの上昇や納期の遅れは費用を押し上げます。メーカーは最終的に、その圧力を自動車、家電、その他の商品価格を通じて家計へ転嫁する可能性があります。",
-          "uncertainty": "これは生産量、売上高、雇用者数を直接測るものではなく、増加と減少の広がりを見る調査です。結果は、調査対象の業種や回答者の見方に左右される場合があります。関税、エネルギー、紛争に関する回答は企業の懸念を示しますが、特定の要因が月ごとの変化を引き起こしたと証明するものではありません。",
-          "watch": "確認材料として、鉱工業生産、製造業受注、生産者物価、雇用者数、在庫、次回調査に注目です。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "製造業活動指数"
-            },
-            {
-              "id": "m2",
-              "label": "製造業活動指数の前月比変化"
-            },
-            {
-              "id": "m3",
-              "label": "製造業価格指数"
-            },
-            {
-              "id": "m4",
-              "label": "製造業価格指数の前月比変化"
+              "label": "総合産出指数"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; relatórios com data continuam claramente identificados.",
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos com data descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos com data descrevem essas sessões, não as negociações atuais."
+        "us": "Ambos os índices acompanhados subiram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Palantir combina crescimento amplo da receita com forte fluxo de caixa operacional",
-          "summary": "A Palantir informou crescimento amplo da receita nas áreas comercial e governamental e elevou sua projeção de receita anual.",
-          "impact": "O forte lucro contábil e o fluxo de caixa operacional indicam que as vendas estavam se convertendo em recebimentos, enquanto o momento dos contratos e os custos de remuneração continuam importantes.",
-          "what": "A Palantir fornece plataformas de software usadas por organizações comerciais e governamentais. O documento informa receita trimestral, lucro líquido atribuível aos acionistas ordinários e fluxo de caixa operacional, enquanto a composição da receita doméstica passou a favorecer a área comercial. A administração também elevou a projeção de receita anual. O fluxo de caixa operacional representa o caixa gerado antes das atividades de investimento e financiamento. Portanto, não deve ser considerado igual ao lucro líquido nem ao fluxo de caixa livre ajustado. O documento apresenta separadamente a remuneração baseada em ações, que continua sendo um custo econômico, embora seja excluída de certas métricas ajustadas.",
-          "why": "Softwares empresariais podem melhorar o planejamento, a logística, a produção e a tomada de decisões, incentivando clientes a concentrar atividades em plataformas que conectam dados às operações. O recebimento de caixa importa porque o faturamento dos contratos e o reconhecimento da receita podem ocorrer em momentos diferentes. Por isso, as empresas consideram os riscos de implementação e os ganhos de produtividade, enquanto contribuintes e usuários de serviços públicos ficam expostos por meio de contratos governamentais de tecnologia.",
-          "uncertainty": "Grandes acordos podem tornar irregulares as comparações trimestrais, clientes podem adiar implantações e contratos governamentais podem ser afetados pelos ciclos de compras públicas. O valor dos contratos e o valor restante dos acordos não garantem receita futura, pois opções, direitos de rescisão e exigências de entrega podem interferir. O crescimento rápido também torna o atendimento aos clientes, a disciplina nas contratações e a remuneração baseada em ações testes importantes de sustentabilidade.",
-          "watch": "Acompanhe renovações comerciais, contratos governamentais, cobrança de valores a receber, concentração de clientes, remuneração baseada em ações e conversão de contratos em receita reportada.",
+          "id": "f4",
+          "title": "Indicadores de atividade da China enfraquecem e ficam abaixo da expansão",
+          "summary": "A pesquisa oficial mostrou uma atividade mais fraca na indústria, nos serviços não industriais e no conjunto da economia durante o mês mais recente.",
+          "impact": "A fraqueza em pedidos e produção pode limitar a demanda industrial e as contratações, embora alguns serviços ligados à tecnologia tenham permanecido relativamente resilientes.",
+          "what": "A pesquisa de gerentes de compras acompanha as condições mensais de negócios em empresas industriais e não industriais.",
+          "why": "Leituras abaixo do limiar de expansão indicam uma atividade corrente mais fraca e podem afetar as expectativas para a produção industrial, o transporte de cargas, o consumo de energia e o investimento empresarial.",
+          "uncertainty": "O PMI é um indicador antecedente baseado em pesquisa, e não uma medida direta de produção, lucros ou renda das famílias. O resultado também pode ser afetado pelo momento da coleta e por fatores sazonais.",
+          "watch": "Acompanhe a produção posterior, os novos pedidos, a demanda no varejo, os lucros industriais e as condições de crédito.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "receita trimestral"
+              "label": "PMI industrial"
             },
             {
               "id": "m2",
-              "label": "lucro líquido trimestral atribuível aos acionistas ordinários"
+              "label": "Variação mensal do PMI industrial"
             },
             {
               "id": "m3",
-              "label": "fluxo de caixa operacional trimestral"
+              "label": "Índice de atividade não industrial"
             },
             {
               "id": "m4",
-              "label": "crescimento anual da receita"
-            },
-            {
-              "id": "m5",
-              "label": "limite inferior da projeção de receita anual"
-            },
-            {
-              "id": "m6",
-              "label": "limite superior da projeção de receita anual"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Pesquisa industrial mostra expansão com pressão persistente de custos",
-          "summary": "A pesquisa mais recente sobre a indústria dos Estados Unidos indicou continuidade da expansão das encomendas e da produção, apesar da pressão persistente dos custos de matérias-primas.",
-          "impact": "A atividade firme pode sustentar os lucros e o emprego no setor industrial, enquanto insumos caros podem reduzir margens e complicar as expectativas de inflação.",
-          "what": "A pesquisa industrial reúne respostas de gerentes de compras sobre encomendas, produção, emprego, estoques, entregas de fornecedores e preços. Seu indicador principal permaneceu em território de expansão, enquanto encomendas e produção continuaram crescendo. O emprego também permaneceu em expansão, mas perdeu força. Os prazos de entrega dos fornecedores continuaram longos, e o indicador de preços permaneceu elevado, apesar da desaceleração. Os participantes demonstraram cautela, embora a atividade medida continuasse favorável, mostrando que a confiança e as condições operacionais relatadas podem divergir.",
-          "why": "Gerentes de compras costumam perceber mudanças na demanda dos clientes e nas cadeias de suprimentos antes que elas apareçam nos dados oficiais de produção. O aumento das encomendas pode incentivar fábricas a comprar materiais, programar atividades e recompor estoques, apoiando fornecedores e transportadoras. Porém, insumos caros e entregas mais lentas podem elevar custos, e os fabricantes podem acabar repassando parte dessa pressão às famílias por meio dos preços de veículos, eletrodomésticos e outros bens.",
-          "uncertainty": "Esta é uma pesquisa de difusão, não uma medição direta da produção, da receita ou do emprego. Os resultados podem ser influenciados pelos setores representados e pela percepção dos participantes. Comentários sobre tarifas, energia ou conflitos identificam preocupações empresariais, mas não comprovam que determinado fator tenha causado o movimento mensal.",
-          "watch": "Acompanhe a produção industrial oficial, as encomendas às fábricas, os preços ao produtor, o emprego, os estoques e a próxima pesquisa em busca de confirmação.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "índice de atividade industrial"
-            },
-            {
-              "id": "m2",
-              "label": "variação mensal do índice de atividade industrial"
-            },
-            {
-              "id": "m3",
-              "label": "índice de preços da indústria"
-            },
-            {
-              "id": "m4",
-              "label": "variação mensal do índice de preços da indústria"
+              "label": "Índice composto de produção"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期經查證的報導範圍有限。部分市場沒有經查證的新消息；具有特定日期的報告均有清楚標示。",
+      "status": "本期已驗證的涵蓋範圍有限。部分市場沒有已驗證的新消息；有日期的報告仍清楚標示其所屬期間。",
       "marketSummary": {
-        "us": "追蹤的指數在最近經查證的交易時段皆下跌。標示日期的收盤資料反映的是那些交易時段，並非目前行情。",
-        "cn": "追蹤的指數在最近經查證的交易時段皆下跌。標示日期的收盤資料反映的是那些交易時段，並非目前行情。"
+        "us": "追蹤的指數在最新已驗證交易時段均上漲。已標示日期的收盤資料僅描述那些交易時段，不代表目前交易情況。",
+        "cn": "部分收盤觀察無法驗證。每個可用指數均保留其交易日期。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Palantir營收全面成長，經營現金流強勁",
-          "summary": "Palantir的商業與政府業務營收均成長，並上調全年營收展望。",
-          "impact": "強勁的會計淨利與經營現金流顯示，銷售正轉化為實際收款；但合約時點與薪酬成本仍很重要。",
-          "what": "Palantir提供商業機構與政府組織使用的軟體平台。申報文件列出季度營收、普通股股東應佔淨利及經營現金流；國內營收結構則轉向商業業務。管理層也上調全年營收指引。經營現金流反映投資與融資活動前，由營運產生的現金，因此不應視為與淨利或調整後自由現金流相同。文件另行揭露以股票為基礎的薪酬；即使部分調整後指標將其排除，這仍是經濟成本。",
-          "why": "企業軟體可改善規劃、物流、生產及決策，因此可能促使客戶把工作整合到連結資料與營運的平台。現金收款很重要，因為合約開票與營收認列的時程可能不同。企業因此重視導入風險與生產力提升；納稅人及公共服務使用者也會受到政府科技合約影響。",
-          "uncertainty": "大型協議可能使季度比較不平均，客戶可能延後部署，政府標案也可能受到採購週期影響。合約價值與剩餘交易價值不保證會成為未來營收，因為選擇權、終止權與交付要求都可能介入。快速成長也使客戶支援、招募紀律及以股票為基礎的薪酬，成為檢驗成長能否持續的重要因素。",
-          "watch": "留意商業客戶續約、政府標案、應收帳款回收、客戶集中度、以股票為基礎的薪酬，以及合約轉化為已申報營收的情況。",
+          "id": "f4",
+          "title": "中國活動指標跌破擴張區間",
+          "summary": "官方調查顯示，最新月份的製造業、非製造業及綜合活動均轉弱。",
+          "impact": "訂單與生產走弱可能壓抑工業需求及招聘，儘管部分科技相關服務仍相對具有韌性。",
+          "what": "採購經理人調查追蹤製造業與非製造業企業的每月營運狀況。",
+          "why": "低於擴張門檻的讀數代表當前活動轉弱，可能影響市場對工廠產出、貨運、能源使用及企業投資的預期。",
+          "uncertainty": "採購經理人指數是以調查為基礎的領先指標，並非產出、利潤或家庭收入的直接衡量；短期資料也可能受到時點與季節性因素影響。",
+          "watch": "留意後續生產、新訂單、零售需求、工業利潤及信貸狀況。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度營收"
+              "label": "製造業採購經理人指數"
             },
             {
               "id": "m2",
-              "label": "季度普通股股東應佔淨利"
+              "label": "製造業採購經理人指數月變化"
             },
             {
               "id": "m3",
-              "label": "季度經營現金流"
+              "label": "非製造業活動指數"
             },
             {
               "id": "m4",
-              "label": "營收年增率"
-            },
-            {
-              "id": "m5",
-              "label": "全年營收指引下限"
-            },
-            {
-              "id": "m6",
-              "label": "全年營收指引上限"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "工廠調查顯示持續擴張，成本壓力仍在",
-          "summary": "最新美國工廠調查顯示，儘管原物料成本壓力持續，訂單與生產仍保持擴張。",
-          "impact": "穩健的經濟活動可支撐工業企業獲利與就業；昂貴的投入成本則可能壓縮利潤率，並使通膨預期更複雜。",
-          "what": "這項製造業調查彙整採購經理對訂單、生產、就業、庫存、供應商交貨及價格的回覆。整體指標仍處於擴張區間，訂單與生產持續成長。就業也維持擴張，但動能減弱；供應商交貨時間仍偏長；價格指標雖有回落，仍處高檔。受訪者情緒偏謹慎，但調查所顯示的經營活動仍然良好，反映信心與實際回報的營運狀況可能不同。",
-          "why": "採購經理往往能在官方生產數據公布前，觀察到客戶需求與供應鏈的變化。訂單增加可促使工廠採購材料、安排生產並補充庫存，進而支持供應商與貨運公司。然而，投入成本上升及交貨變慢可能推高成本，製造商最終也可能透過汽車、家電及其他商品價格，把部分壓力轉嫁給家庭。",
-          "uncertainty": "這是擴散指數調查，不是對產量、營收或非農就業人數的直接衡量。結果可能受到受訪產業組成及受訪者情緒影響。關於關稅、能源或衝突的評論只能反映企業疑慮，不能證明特定因素造成當月變動。",
-          "watch": "留意官方工業生產、工廠訂單、生產者物價、非農就業人數、庫存及後續調查，以確認趨勢。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "製造業活動指數"
-            },
-            {
-              "id": "m2",
-              "label": "製造業活動指數月變動"
-            },
-            {
-              "id": "m3",
-              "label": "製造業價格指數"
-            },
-            {
-              "id": "m4",
-              "label": "製造業價格指數月變動"
+              "label": "綜合產出指數"
             }
           ]
         }
