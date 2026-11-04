@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "cutoffAt": "2026-11-04T12:44:17Z",
-  "generatedAt": "2026-11-04T12:44:17Z",
+  "cutoffAt": "2026-11-04T13:23:40Z",
+  "generatedAt": "2026-11-04T13:23:40Z",
   "edition": "economy-three-hourly",
   "model": "Local Codex editorial fallback",
   "reports": {
     "en": {
-      "asOf": "As of 2026-11-04, 07:44 EST",
+      "asOf": "As of 2026-11-04, 08:23 EST",
       "politics": [
         {
           "id": "p1",
@@ -66,7 +66,7 @@
         }
       ],
       "tennis": {
-        "status": "Selected, non-exhaustive singles coverage of 20 verified results in the rolling 48-hour window: five ATP Paris Masters and 15 WTA Hong Kong/Chennai. The latest feeds show three live matches: Joint–Sakkari singles and Gorgodze/Timofeeva–Cho/Cho doubles in Hong Kong, plus Da Silva Fick/Kulambayeva–Kuwata/Raina doubles in Chennai. Scores are live snapshots; a completed match is identified separately. ITF W100 Incheon is on the calendar, but readable match-by-match result evidence was unavailable.",
+        "status": "Non-exhaustive selection of 20 completed singles results in the rolling 48 hours. At 13:23 UTC on 4 Nov, the WTA feed recorded Maria Sakkari's second-round win over Maya Joint, 4-6, 6-3, 6-3. Other WTA matches live: Hong Kong first-round doubles Gorgodze/Timofeeva–Cho/Cho 7-6(4),4-4 (point 0-0, Gorgodze/Timofeeva serving); Chennai second-round singles Janice Tjen–Joanna Garland 2-2 (point 0-40, Joanna Garland serving). Chennai first-round doubles Karamoko/Waltert–Ramesh/Vinayagamurthy 6-2,0-0 (point 0-0, Ramesh/Vinayagamurthy serving). The Paris Masters scoreboard showed second-round Zverev–Musetti live at games 4-5, point 0-0; actual start time is TBD. Live scores are snapshots, not final results. ITF lists a W100 in Incheon, but readable match-by-match results were unavailable, so none are asserted.",
         "resultItems": [
           {
             "id": "r01",
@@ -346,18 +346,18 @@
           {
             "id": "r15",
             "winnerNames": [
-              "Elena Pridankina"
+              "Maria Sakkari"
             ],
             "loserNames": [
-              "Paula Badosa"
+              "Maya Joint"
             ],
-            "score": "7-5,0-0",
-            "completedOn": "2026-11-03",
+            "score": "4-6,6-3,6-3",
+            "completedOn": "2026-11-04",
             "tournament": "Prudential Hong Kong Tennis Open",
             "tags": [
-              "retirement"
+              "comeback"
             ],
-            "note": "First round · retired after the first set on 2026-11-03 local (Asia/Hong_Kong); score is winner-relative. The WTA feed records a retirement but gives no reason.",
+            "note": "Second round · completed 2026-11-04 local (Asia/Hong_Kong); winner-relative score. Fourth seed Maria Sakkari recovered after losing the first set to beat Maya Joint 4-6, 6-3, 6-3.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
@@ -467,25 +467,6 @@
           {
             "id": "s01",
             "sideANames": [
-              "Maya Joint"
-            ],
-            "sideBNames": [
-              "Maria Sakkari"
-            ],
-            "startsAt": "2026-11-04T18:39:04+08:00",
-            "timeZone": "Asia/Hong_Kong",
-            "timeQualifier": "fixed",
-            "tournament": "Prudential Hong Kong Tennis Open",
-            "status": "in-progress",
-            "note": "WTA Hong Kong feed updated 12:40:15 UTC: second-round singles, Joint vs Sakkari, 6-4, 3-6, 2-1; point 0-40, Sakkari serving.",
-            "sourceUrls": [
-              "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
-              "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
-            ]
-          },
-          {
-            "id": "s02",
-            "sideANames": [
               "Alexander Zverev"
             ],
             "sideBNames": [
@@ -499,10 +480,11 @@
               "https://www.rolexparismasters.com/fr/programme-et-resultats",
               "https://www.rolexparismasters.com/en/news/article/second-round-schedule-wednesday-4-november-zverev-djokovic-alcaraz-fils"
             ],
-            "note": "The official Paris scoreboard listed the match for 13:30 Europe/Paris but still showed it as Upcoming when checked at 12:38 UTC; the actual start time is unconfirmed (TBD)."
+            "note": "Official scoreboard checked 13:23 UTC: second-round Zverev–Musetti live; games 4-5, point 0-0; actual start time TBD.",
+            "status": "in-progress"
           },
           {
-            "id": "s03",
+            "id": "s02",
             "sideANames": [
               "Novak Djokovic"
             ],
@@ -520,7 +502,7 @@
             ]
           },
           {
-            "id": "s04",
+            "id": "s03",
             "sideANames": [
               "Carlos Alcaraz"
             ],
@@ -537,7 +519,7 @@
             ]
           },
           {
-            "id": "s05",
+            "id": "s04",
             "sideANames": [
               "Arthur Fils"
             ],
@@ -554,7 +536,7 @@
             ]
           },
           {
-            "id": "s06",
+            "id": "s05",
             "sideANames": [
               "Weronika Falkowska"
             ],
@@ -572,25 +554,26 @@
             "note": "The WTA feed listed this confirmed second-round pairing for 17:00 Asia/Kolkata, but still showed it as Upcoming after that listed time had passed; the actual start is TBD."
           },
           {
-            "id": "s07",
+            "id": "s06",
             "sideANames": [
               "Janice Tjen"
             ],
             "sideBNames": [
               "Joanna Garland"
             ],
-            "startsAt": null,
+            "startsAt": "2026-11-04T18:15:33+05:30",
             "timeZone": "Asia/Kolkata",
-            "timeQualifier": "tbd",
+            "timeQualifier": "fixed",
             "tournament": "Chennai Open",
-            "note": "Confirmed second-round pairing; the WTA feed had not assigned a start time (TBD).",
+            "note": "WTA Chennai feed 2026-11-04T13:20:50.88+00:00 UTC: second-round singles Tjen–Garland 2-2; point 0-40, Garland serving.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
-            ]
+            ],
+            "status": "in-progress"
           },
           {
-            "id": "s08",
+            "id": "s07",
             "sideANames": [
               "Elena Pridankina"
             ],
@@ -607,7 +590,7 @@
             ]
           },
           {
-            "id": "s09",
+            "id": "s08",
             "sideANames": [
               "Tereza Valentova"
             ],
@@ -624,7 +607,7 @@
             ]
           },
           {
-            "id": "s10",
+            "id": "s09",
             "sideANames": [
               "Sorana Cirstea"
             ],
@@ -642,7 +625,7 @@
             ]
           },
           {
-            "id": "s11",
+            "id": "s10",
             "sideANames": [
               "Ekaterine Gorgodze",
               "Maria Timofeeva"
@@ -656,28 +639,28 @@
             "timeQualifier": "fixed",
             "tournament": "Prudential Hong Kong Tennis Open",
             "status": "in-progress",
-            "note": "WTA Hong Kong feed updated 12:39:46 UTC: first-round doubles, Gorgodze/Timofeeva vs Cho/Cho, 6-6; point 0-0, Cho/Cho serving.",
+            "note": "WTA Hong Kong feed 2026-11-04T13:20:38.387+00:00 UTC: first-round doubles Gorgodze/Timofeeva–Cho/Cho 7-6(4),4-4; point 0-0, Cho/Cho serving.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
             ]
           },
           {
-            "id": "s12",
+            "id": "s11",
             "sideANames": [
-              "Gabriella Da Silva Fick",
-              "Zhibek Kulambayeva"
+              "Naima Karamoko",
+              "Simona Waltert"
             ],
             "sideBNames": [
-              "Hiroko Kuwata",
-              "Ankita Raina"
+              "Diya Ramesh Ramesh",
+              "Deepshika Vinayagamurthy"
             ],
-            "startsAt": "2026-11-04T16:51:39+05:30",
+            "startsAt": "2026-11-04T17:59:43+05:30",
             "timeZone": "Asia/Kolkata",
             "timeQualifier": "fixed",
             "tournament": "Chennai Open",
             "status": "in-progress",
-            "note": "WTA Chennai feed updated 12:39:49 UTC: first-round doubles, Da Silva Fick/Kulambayeva vs Kuwata/Raina, 6-1, 6-1; still marked in progress, with no current point shown; Kuwata/Raina listed to serve.",
+            "note": "WTA Chennai feed 2026-11-04T13:19:01.767+00:00 UTC: first-round doubles Karamoko/Waltert–Ramesh/Vinayagamurthy 6-2,0-0; point 0-0, Ramesh/Vinayagamurthy serving.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
@@ -687,7 +670,7 @@
       }
     },
     "fr": {
-      "asOf": "As of 2026-11-04, 07:44 EST",
+      "asOf": "As of 2026-11-04, 08:23 EST",
       "politics": [
         {
           "id": "p1",
@@ -747,7 +730,7 @@
         }
       ],
       "tennis": {
-        "status": "Sélection non exhaustive de 20 résultats vérifiés en simple sur 48 heures : cinq à l’ATP de Paris et 15 à la WTA de Hong Kong/Chennai. Les derniers flux montrent trois matchs en cours : le simple Joint–Sakkari et le double Gorgodze/Timofeeva–Cho/Cho à Hong Kong, ainsi que le double Da Silva Fick/Kulambayeva–Kuwata/Raina à Chennai. Les scores sont des instantanés; les matchs terminés sont distingués. Le calendrier ITF mentionne le W100 d’Incheon, mais aucun résultat lisible match par match n’a été trouvé.",
+        "status": "Sélection non exhaustive de 20 résultats de simple sur les dernières 48 heures. Le 4 nov. à 13:23 UTC, le flux WTA a enregistré la victoire de deuxième tour de Maria Sakkari sur Maya Joint, 4-6, 6-3, 6-3. Autres matchs WTA en cours : double du premier tour à Hong Kong Gorgodze/Timofeeva–Cho/Cho 7-6(4),4-4 (point 0-0, Gorgodze/Timofeeva au service); simple du deuxième tour à Chennai Janice Tjen–Joanna Garland 2-2 (point 0-40, Joanna Garland au service). Double du premier tour à Chennai Karamoko/Waltert–Ramesh/Vinayagamurthy 6-2,0-0 (point 0-0, Ramesh/Vinayagamurthy au service). Le tableau des Masters de Paris indiquait le deuxième tour Zverev–Musetti en cours, jeux 4-5, point 0-0; début réel TBD. Les scores sont des instantanés, pas des résultats finaux. L'ITF répertorie un W100 à Incheon, mais les résultats lisibles match par match manquaient; aucun score n'est affirmé.",
         "resultItems": [
           {
             "id": "r01",
@@ -1027,18 +1010,18 @@
           {
             "id": "r15",
             "winnerNames": [
-              "Elena Pridankina"
+              "Maria Sakkari"
             ],
             "loserNames": [
-              "Paula Badosa"
+              "Maya Joint"
             ],
-            "score": "7-5,0-0",
-            "completedOn": "2026-11-03",
+            "score": "4-6,6-3,6-3",
+            "completedOn": "2026-11-04",
             "tournament": "Prudential Hong Kong Tennis Open",
             "tags": [
-              "retirement"
+              "comeback"
             ],
-            "note": "1er tour · abandon après le premier set le 2026-11-03, heure locale (Asia/Hong_Kong); score du point de vue de la gagnante. Le flux WTA indique un abandon sans en préciser la raison.",
+            "note": "Deuxième tour · terminé le 2026-11-04, heure locale (Asia/Hong_Kong); score présenté du point de vue de la gagnante. La tête de série no 4, Maria Sakkari, a perdu le premier set puis battu Maya Joint 4-6, 6-3, 6-3.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
@@ -1148,25 +1131,6 @@
           {
             "id": "s01",
             "sideANames": [
-              "Maya Joint"
-            ],
-            "sideBNames": [
-              "Maria Sakkari"
-            ],
-            "startsAt": "2026-11-04T18:39:04+08:00",
-            "timeZone": "Asia/Hong_Kong",
-            "timeQualifier": "fixed",
-            "tournament": "Prudential Hong Kong Tennis Open",
-            "status": "in-progress",
-            "note": "Flux WTA de Hong Kong mis à jour à 12:40:15 UTC : simple du deuxième tour, Joint contre Sakkari, 6-4, 3-6, 2-1; point 0-40, Sakkari au service.",
-            "sourceUrls": [
-              "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
-              "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
-            ]
-          },
-          {
-            "id": "s02",
-            "sideANames": [
               "Alexander Zverev"
             ],
             "sideBNames": [
@@ -1180,10 +1144,11 @@
               "https://www.rolexparismasters.com/fr/programme-et-resultats",
               "https://www.rolexparismasters.com/en/news/article/second-round-schedule-wednesday-4-november-zverev-djokovic-alcaraz-fils"
             ],
-            "note": "Le tableau officiel de Paris annonçait le match à 13 h 30, heure de Paris, mais l’affichait encore comme « à venir » lors de la vérification à 12:38 UTC; l’heure réelle de début reste inconnue (TBD)."
+            "note": "Tableau officiel consulté à 13:23 UTC : Zverev–Musetti, 2e tour, en cours; jeux 4-5, point 0-0; début réel TBD.",
+            "status": "in-progress"
           },
           {
-            "id": "s03",
+            "id": "s02",
             "sideANames": [
               "Novak Djokovic"
             ],
@@ -1201,7 +1166,7 @@
             ]
           },
           {
-            "id": "s04",
+            "id": "s03",
             "sideANames": [
               "Carlos Alcaraz"
             ],
@@ -1218,7 +1183,7 @@
             ]
           },
           {
-            "id": "s05",
+            "id": "s04",
             "sideANames": [
               "Arthur Fils"
             ],
@@ -1235,7 +1200,7 @@
             ]
           },
           {
-            "id": "s06",
+            "id": "s05",
             "sideANames": [
               "Weronika Falkowska"
             ],
@@ -1253,25 +1218,26 @@
             "note": "Le flux WTA indiquait ce match confirmé du 2e tour à 17:00 (Asia/Kolkata), mais le classait toujours comme à venir après l’heure prévue; le début réel est à déterminer."
           },
           {
-            "id": "s07",
+            "id": "s06",
             "sideANames": [
               "Janice Tjen"
             ],
             "sideBNames": [
               "Joanna Garland"
             ],
-            "startsAt": null,
+            "startsAt": "2026-11-04T18:15:33+05:30",
             "timeZone": "Asia/Kolkata",
-            "timeQualifier": "tbd",
+            "timeQualifier": "fixed",
             "tournament": "Chennai Open",
-            "note": "Affiche confirmée du 2e tour; le flux WTA n’avait pas encore fixé l’heure de début (TBD).",
+            "note": "Flux WTA de Chennai à 2026-11-04T13:20:50.88+00:00 UTC : simple du 2e tour Tjen–Garland 2-2; point 0-40, Garland au service.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
-            ]
+            ],
+            "status": "in-progress"
           },
           {
-            "id": "s08",
+            "id": "s07",
             "sideANames": [
               "Elena Pridankina"
             ],
@@ -1288,7 +1254,7 @@
             ]
           },
           {
-            "id": "s09",
+            "id": "s08",
             "sideANames": [
               "Tereza Valentova"
             ],
@@ -1305,7 +1271,7 @@
             ]
           },
           {
-            "id": "s10",
+            "id": "s09",
             "sideANames": [
               "Sorana Cirstea"
             ],
@@ -1323,7 +1289,7 @@
             ]
           },
           {
-            "id": "s11",
+            "id": "s10",
             "sideANames": [
               "Ekaterine Gorgodze",
               "Maria Timofeeva"
@@ -1337,28 +1303,28 @@
             "timeQualifier": "fixed",
             "tournament": "Prudential Hong Kong Tennis Open",
             "status": "in-progress",
-            "note": "Flux WTA de Hong Kong mis à jour à 12:39:46 UTC : double du premier tour, Gorgodze/Timofeeva contre Cho/Cho, 6-6; point 0-0, Cho/Cho au service.",
+            "note": "Flux WTA de Hong Kong à 2026-11-04T13:20:38.387+00:00 UTC : double du 1er tour Gorgodze/Timofeeva–Cho/Cho 7-6(4),4-4; point 0-0, Cho/Cho au service.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
             ]
           },
           {
-            "id": "s12",
+            "id": "s11",
             "sideANames": [
-              "Gabriella Da Silva Fick",
-              "Zhibek Kulambayeva"
+              "Naima Karamoko",
+              "Simona Waltert"
             ],
             "sideBNames": [
-              "Hiroko Kuwata",
-              "Ankita Raina"
+              "Diya Ramesh Ramesh",
+              "Deepshika Vinayagamurthy"
             ],
-            "startsAt": "2026-11-04T16:51:39+05:30",
+            "startsAt": "2026-11-04T17:59:43+05:30",
             "timeZone": "Asia/Kolkata",
             "timeQualifier": "fixed",
             "tournament": "Chennai Open",
             "status": "in-progress",
-            "note": "Flux WTA de Chennai mis à jour à 12:39:49 UTC : double du premier tour, Da Silva Fick/Kulambayeva contre Kuwata/Raina, 6-1, 6-1; toujours signalé en cours, sans point actuel affiché; Kuwata/Raina au service.",
+            "note": "Flux WTA de Chennai à 2026-11-04T13:19:01.767+00:00 UTC : double du 1er tour Karamoko/Waltert–Ramesh/Vinayagamurthy 6-2,0-0; point 0-0, Ramesh/Vinayagamurthy au service.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
@@ -1368,7 +1334,7 @@
       }
     },
     "zh-CN": {
-      "asOf": "As of 2026-11-04, 07:44 EST",
+      "asOf": "As of 2026-11-04, 08:23 EST",
       "politics": [
         {
           "id": "p1",
@@ -1428,7 +1394,7 @@
         }
       ],
       "tennis": {
-        "status": "滚动48小时内20场已核实单打赛果的精选，非穷尽：巴黎大师赛ATP赛果5场、香港／清奈WTA赛果15场。WTA最新比分流显示3场比赛进行中：香港的乔伊特对萨卡里单打、戈尔戈泽／季莫费耶娃对乔／乔双打，以及清奈的达席尔瓦-菲克／库兰巴耶娃对桑田／雷纳双打。局分为实时快照；已完赛场次另行标明。ITF赛历列有仁川W100，但未找到可读的逐场赛果。",
+        "status": "滚动48小时内20场已完赛单打赛果的非穷尽精选。11月4日13:23 UTC，WTA比分源记录萨卡里在第二轮以4-6、6-3、6-3击败乔伊特。其他WTA比赛进行中：香港首轮双打戈尔戈泽／季莫费耶娃对乔宜萱／乔宜岑，7-6(4),4-4（该分0-0，戈尔戈泽／季莫费耶娃发球）；清奈第二轮单打贾妮丝·特恩（Janice Tjen）对乔安娜·加兰（Joanna Garland），2-2（该分0-40，乔安娜·加兰（Joanna Garland）发球）。清奈首轮双打娜伊玛·卡拉莫科／西莫娜·瓦尔特特对迪亚·拉梅什·拉梅什／迪普希卡·维纳亚加穆尔蒂，6-2,0-0（该分0-0，迪亚·拉梅什·拉梅什／迪普希卡·维纳亚加穆尔蒂发球）。巴黎大师赛官方记分牌显示第二轮兹维列夫对穆塞蒂进行中，局分4-5、该分0-0；实际开赛时间为TBD。即时比分只是快照，并非赛果。ITF仁川赛程列有W100，但未找到可读逐场赛果，因此不声称其比分。",
         "resultItems": [
           {
             "id": "r01",
@@ -1708,18 +1674,18 @@
           {
             "id": "r15",
             "winnerNames": [
-              "埃琳娜·普里丹金娜（Elena Pridankina）"
+              "玛丽亚·萨卡里（Maria Sakkari）"
             ],
             "loserNames": [
-              "葆拉·巴多萨（Paula Badosa）"
+              "玛雅·乔伊特（Maya Joint）"
             ],
-            "score": "7-5,0-0",
-            "completedOn": "2026-11-03",
+            "score": "4-6,6-3,6-3",
+            "completedOn": "2026-11-04",
             "tournament": "Prudential Hong Kong Tennis Open",
             "tags": [
-              "retirement"
+              "comeback"
             ],
-            "note": "首轮；于完赛当地日期2026-11-03（Asia/Hong_Kong）首盘后退赛；盘分按胜者视角列出。WTA数据记为退赛，但未提供原因。",
+            "note": "第二轮 · 2026-11-04当地日期完赛（Asia/Hong_Kong）；比分按胜者顺序列出。4号种子萨卡里先失一盘，随后以4-6、6-3、6-3击败乔伊特。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
@@ -1829,25 +1795,6 @@
           {
             "id": "s01",
             "sideANames": [
-              "玛雅·乔伊特（Maya Joint）"
-            ],
-            "sideBNames": [
-              "玛丽亚·萨卡里（Maria Sakkari）"
-            ],
-            "startsAt": "2026-11-04T18:39:04+08:00",
-            "timeZone": "Asia/Hong_Kong",
-            "timeQualifier": "fixed",
-            "tournament": "香港网球公开赛",
-            "status": "in-progress",
-            "note": "WTA香港官方比分流12:40:15 UTC更新：第二轮单打，乔伊特对萨卡里，盘分6-4、3-6、2-1；当前分0-40，萨卡里发球。",
-            "sourceUrls": [
-              "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
-              "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
-            ]
-          },
-          {
-            "id": "s02",
-            "sideANames": [
               "亚历山大·兹维列夫（Alexander Zverev）"
             ],
             "sideBNames": [
@@ -1861,10 +1808,11 @@
               "https://www.rolexparismasters.com/fr/programme-et-resultats",
               "https://www.rolexparismasters.com/en/news/article/second-round-schedule-wednesday-4-november-zverev-djokovic-alcaraz-fils"
             ],
-            "note": "巴黎官方记分牌将该场列于欧洲/巴黎时间13:30，但12:38 UTC查询时仍显示“即将开始”；实际开赛时间未获确认（TBD）。"
+            "note": "巴黎官方记分牌13:23 UTC查询：第二轮兹维列夫对穆塞蒂进行中；局分4-5，该分0-0；实际开赛时间TBD。",
+            "status": "in-progress"
           },
           {
-            "id": "s03",
+            "id": "s02",
             "sideANames": [
               "诺瓦克·德约科维奇（Novak Djokovic）"
             ],
@@ -1882,7 +1830,7 @@
             ]
           },
           {
-            "id": "s04",
+            "id": "s03",
             "sideANames": [
               "卡洛斯·阿尔卡拉斯（Carlos Alcaraz）"
             ],
@@ -1899,7 +1847,7 @@
             ]
           },
           {
-            "id": "s05",
+            "id": "s04",
             "sideANames": [
               "阿蒂尔·菲斯（Arthur Fils）"
             ],
@@ -1916,7 +1864,7 @@
             ]
           },
           {
-            "id": "s06",
+            "id": "s05",
             "sideANames": [
               "维罗妮卡·法尔科夫斯卡（Weronika Falkowska）"
             ],
@@ -1934,25 +1882,26 @@
             "note": "WTA赛程原列此第二轮对阵于17:00（Asia/Kolkata）开赛，但最新比赛流在该时刻已过后仍标作Upcoming；实际开赛时间TBD。"
           },
           {
-            "id": "s07",
+            "id": "s06",
             "sideANames": [
               "贾妮丝·特恩（Janice Tjen）"
             ],
             "sideBNames": [
               "乔安娜·加兰（Joanna Garland）"
             ],
-            "startsAt": null,
+            "startsAt": "2026-11-04T18:15:33+05:30",
             "timeZone": "Asia/Kolkata",
-            "timeQualifier": "tbd",
+            "timeQualifier": "fixed",
             "tournament": "清奈公开赛",
-            "note": "已确认的第二轮对阵；WTA数据尚未安排开赛时间（TBD）。",
+            "note": "WTA清奈比分源2026-11-04T13:20:50.88+00:00 UTC更新：第二轮单打特恩对加兰，2-2；该分0-40，加兰发球。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
-            ]
+            ],
+            "status": "in-progress"
           },
           {
-            "id": "s08",
+            "id": "s07",
             "sideANames": [
               "埃琳娜·普里丹金娜（Elena Pridankina）"
             ],
@@ -1969,7 +1918,7 @@
             ]
           },
           {
-            "id": "s09",
+            "id": "s08",
             "sideANames": [
               "特蕾莎·瓦伦托娃（Tereza Valentova）"
             ],
@@ -1986,7 +1935,7 @@
             ]
           },
           {
-            "id": "s10",
+            "id": "s09",
             "sideANames": [
               "索拉娜·克尔斯泰亚（Sorana Cirstea）"
             ],
@@ -2004,7 +1953,7 @@
             ]
           },
           {
-            "id": "s11",
+            "id": "s10",
             "sideANames": [
               "叶卡捷琳·戈尔戈泽（Ekaterine Gorgodze）",
               "玛丽亚·季莫费耶娃（Maria Timofeeva）"
@@ -2018,28 +1967,28 @@
             "timeQualifier": "fixed",
             "tournament": "Prudential Hong Kong Tennis Open",
             "status": "in-progress",
-            "note": "WTA香港官方比分流12:39:46 UTC更新：首轮双打，戈尔戈泽／季莫费耶娃对乔宜萱／乔宜岑，盘分6-6；当前分0-0，乔／乔发球。",
+            "note": "WTA香港比分源2026-11-04T13:20:38.387+00:00 UTC更新：首轮双打戈尔戈泽／季莫费耶娃对乔宜萱／乔宜岑，7-6(4),4-4；该分0-0，乔／乔发球。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
             ]
           },
           {
-            "id": "s12",
+            "id": "s11",
             "sideANames": [
-              "加布里埃拉·达席尔瓦-菲克（Gabriella Da Silva Fick）",
-              "日别克·库兰巴耶娃（Zhibek Kulambayeva）"
+              "娜伊玛·卡拉莫科（Naima Karamoko）",
+              "西莫娜·瓦尔特特（Simona Waltert）"
             ],
             "sideBNames": [
-              "桑田宽子（Hiroko Kuwata）",
-              "安基塔·雷纳（Ankita Raina）"
+              "迪亚·拉梅什·拉梅什（Diya Ramesh Ramesh）",
+              "迪普希卡·维纳亚加穆尔蒂（Deepshika Vinayagamurthy）"
             ],
-            "startsAt": "2026-11-04T16:51:39+05:30",
+            "startsAt": "2026-11-04T17:59:43+05:30",
             "timeZone": "Asia/Kolkata",
             "timeQualifier": "fixed",
             "tournament": "Chennai Open",
             "status": "in-progress",
-            "note": "WTA清奈官方比分流12:39:49 UTC更新：首轮双打，达席尔瓦-菲克／库兰巴耶娃对桑田／雷纳，盘分6-1、6-1；数据源仍标比赛进行中，但没有显示当前分；列明由桑田／雷纳发球。",
+            "note": "WTA清奈比分源2026-11-04T13:19:01.767+00:00 UTC更新：首轮双打卡拉莫科／瓦尔特特对拉梅什／维纳亚加穆尔蒂，6-2,0-0；该分0-0，拉梅什／维纳亚加穆尔蒂发球。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
@@ -2049,7 +1998,7 @@
       }
     },
     "es": {
-      "asOf": "As of 2026-11-04, 07:44 EST",
+      "asOf": "As of 2026-11-04, 08:23 EST",
       "politics": [
         {
           "id": "p1",
@@ -2109,7 +2058,7 @@
         }
       ],
       "tennis": {
-        "status": "Selección no exhaustiva de 20 resultados individuales verificados en 48 horas: cinco de la ATP en París y 15 de la WTA en Hong Kong/Chennai. Los feeds más recientes muestran tres partidos en curso: el individual Joint–Sakkari y el dobles Gorgodze/Timofeeva–Cho/Cho en Hong Kong, además del dobles Da Silva Fick/Kulambayeva–Kuwata/Raina en Chennai. Los marcadores son instantáneas; los partidos ya concluidos se señalan por separado. El calendario ITF incluye el W100 de Incheon, pero no se encontraron resultados legibles partido por partido.",
+        "status": "Selección no exhaustiva de 20 resultados de individuales concluidos en las últimas 48 horas. El 4 nov. a las 13:23 UTC, el feed WTA registró la victoria de segunda ronda de Maria Sakkari sobre Maya Joint por 4-6, 6-3, 6-3. Otros partidos WTA en curso: dobles de primera ronda en Hong Kong Gorgodze/Timofeeva–Cho/Cho 7-6(4),4-4 (punto 0-0, sacan Gorgodze/Timofeeva); individual de segunda ronda en Chennai Janice Tjen–Joanna Garland 2-2 (punto 0-40, saca Joanna Garland). Dobles de primera ronda en Chennai Karamoko/Waltert–Ramesh/Vinayagamurthy 6-2,0-0 (punto 0-0, saca Ramesh/Vinayagamurthy). El marcador del Masters de París mostraba en curso el partido de segunda ronda Zverev–Musetti, juegos 4-5, punto 0-0; la hora real de inicio sigue TBD. Los marcadores son capturas, no resultados finales. La ITF incluye un W100 en Incheon, pero no se encontraron resultados legibles partido por partido y no se afirman marcadores.",
         "resultItems": [
           {
             "id": "r01",
@@ -2389,18 +2338,18 @@
           {
             "id": "r15",
             "winnerNames": [
-              "Elena Pridankina"
+              "Maria Sakkari"
             ],
             "loserNames": [
-              "Paula Badosa"
+              "Maya Joint"
             ],
-            "score": "7-5,0-0",
-            "completedOn": "2026-11-03",
+            "score": "4-6,6-3,6-3",
+            "completedOn": "2026-11-04",
             "tournament": "Prudential Hong Kong Tennis Open",
             "tags": [
-              "retirement"
+              "comeback"
             ],
-            "note": "Primera ronda · retirada tras el primer set el 2026-11-03, hora local (Asia/Hong_Kong); marcador desde la perspectiva de la ganadora. El registro de la WTA indica retirada, pero no da el motivo.",
+            "note": "Segunda ronda · finalizado el 2026-11-04, fecha local (Asia/Hong_Kong); marcador en orden de la ganadora. La cuarta cabeza de serie, Maria Sakkari, perdió el primer set y luego venció a Maya Joint por 4-6, 6-3, 6-3.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
@@ -2510,25 +2459,6 @@
           {
             "id": "s01",
             "sideANames": [
-              "Maya Joint"
-            ],
-            "sideBNames": [
-              "Maria Sakkari"
-            ],
-            "startsAt": "2026-11-04T18:39:04+08:00",
-            "timeZone": "Asia/Hong_Kong",
-            "timeQualifier": "fixed",
-            "tournament": "Prudential Hong Kong Tennis Open",
-            "status": "in-progress",
-            "note": "Feed WTA de Hong Kong actualizado a las 12:40:15 UTC: individual de segunda ronda, Joint contra Sakkari, 6-4, 3-6, 2-1; punto 0-40, saca Sakkari.",
-            "sourceUrls": [
-              "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
-              "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
-            ]
-          },
-          {
-            "id": "s02",
-            "sideANames": [
               "Alexander Zverev"
             ],
             "sideBNames": [
@@ -2542,10 +2472,11 @@
               "https://www.rolexparismasters.com/fr/programme-et-resultats",
               "https://www.rolexparismasters.com/en/news/article/second-round-schedule-wednesday-4-november-zverev-djokovic-alcaraz-fils"
             ],
-            "note": "El marcador oficial de París programaba el partido para las 13:30, hora de París, pero aún lo mostraba como próximo al consultarlo a las 12:38 UTC; la hora real de inicio no está confirmada (TBD)."
+            "note": "Marcador oficial consultado a las 13:23 UTC: Zverev–Musetti, segunda ronda, en curso; juegos 4-5, punto 0-0; hora real TBD.",
+            "status": "in-progress"
           },
           {
-            "id": "s03",
+            "id": "s02",
             "sideANames": [
               "Novak Djokovic"
             ],
@@ -2563,7 +2494,7 @@
             ]
           },
           {
-            "id": "s04",
+            "id": "s03",
             "sideANames": [
               "Carlos Alcaraz"
             ],
@@ -2580,7 +2511,7 @@
             ]
           },
           {
-            "id": "s05",
+            "id": "s04",
             "sideANames": [
               "Arthur Fils"
             ],
@@ -2597,7 +2528,7 @@
             ]
           },
           {
-            "id": "s06",
+            "id": "s05",
             "sideANames": [
               "Weronika Falkowska"
             ],
@@ -2615,25 +2546,26 @@
             "note": "El registro WTA programaba este emparejamiento confirmado de segunda ronda para las 17:00 (Asia/Kolkata), pero seguía marcándolo como Upcoming una vez pasada esa hora; el inicio real es TBD."
           },
           {
-            "id": "s07",
+            "id": "s06",
             "sideANames": [
               "Janice Tjen"
             ],
             "sideBNames": [
               "Joanna Garland"
             ],
-            "startsAt": null,
+            "startsAt": "2026-11-04T18:15:33+05:30",
             "timeZone": "Asia/Kolkata",
-            "timeQualifier": "tbd",
+            "timeQualifier": "fixed",
             "tournament": "Chennai Open",
-            "note": "Cruce confirmado de segunda ronda; el registro de la WTA aún no asignaba hora de inicio (TBD).",
+            "note": "Feed WTA de Chennai actualizado a 2026-11-04T13:20:50.88+00:00 UTC: individual de segunda ronda Tjen–Garland 2-2; punto 0-40, saca Garland.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
-            ]
+            ],
+            "status": "in-progress"
           },
           {
-            "id": "s08",
+            "id": "s07",
             "sideANames": [
               "Elena Pridankina"
             ],
@@ -2650,7 +2582,7 @@
             ]
           },
           {
-            "id": "s09",
+            "id": "s08",
             "sideANames": [
               "Tereza Valentova"
             ],
@@ -2667,7 +2599,7 @@
             ]
           },
           {
-            "id": "s10",
+            "id": "s09",
             "sideANames": [
               "Sorana Cirstea"
             ],
@@ -2685,7 +2617,7 @@
             ]
           },
           {
-            "id": "s11",
+            "id": "s10",
             "sideANames": [
               "Ekaterine Gorgodze",
               "Maria Timofeeva"
@@ -2699,28 +2631,28 @@
             "timeQualifier": "fixed",
             "tournament": "Prudential Hong Kong Tennis Open",
             "status": "in-progress",
-            "note": "Feed WTA de Hong Kong actualizado a las 12:39:46 UTC: dobles de primera ronda, Gorgodze/Timofeeva contra Cho/Cho, 6-6; punto 0-0, sacan Cho/Cho.",
+            "note": "Feed WTA de Hong Kong actualizado a 2026-11-04T13:20:38.387+00:00 UTC: dobles de primera ronda Gorgodze/Timofeeva–Cho/Cho 7-6(4),4-4; punto 0-0, sacan Cho/Cho.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
             ]
           },
           {
-            "id": "s12",
+            "id": "s11",
             "sideANames": [
-              "Gabriella Da Silva Fick",
-              "Zhibek Kulambayeva"
+              "Naima Karamoko",
+              "Simona Waltert"
             ],
             "sideBNames": [
-              "Hiroko Kuwata",
-              "Ankita Raina"
+              "Diya Ramesh Ramesh",
+              "Deepshika Vinayagamurthy"
             ],
-            "startsAt": "2026-11-04T16:51:39+05:30",
+            "startsAt": "2026-11-04T17:59:43+05:30",
             "timeZone": "Asia/Kolkata",
             "timeQualifier": "fixed",
             "tournament": "Chennai Open",
             "status": "in-progress",
-            "note": "Feed WTA de Chennai actualizado a las 12:39:49 UTC: dobles de primera ronda, Da Silva Fick/Kulambayeva contra Kuwata/Raina, 6-1, 6-1; aún marcado en curso, sin punto actual visible; Kuwata/Raina figuran al saque.",
+            "note": "Feed WTA de Chennai actualizado a 2026-11-04T13:19:01.767+00:00 UTC: dobles de primera ronda Karamoko/Waltert–Ramesh/Vinayagamurthy 6-2,0-0; punto 0-0, sacan Ramesh/Vinayagamurthy.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
@@ -2730,7 +2662,7 @@
       }
     },
     "ja": {
-      "asOf": "As of 2026-11-04, 07:44 EST",
+      "asOf": "As of 2026-11-04, 08:23 EST",
       "politics": [
         {
           "id": "p1",
@@ -2790,7 +2722,7 @@
         }
       ],
       "tennis": {
-        "status": "過去48時間の確認済みシングルス結果20件を選んだ非網羅的な内容。パリのATP結果5件、香港／チェンナイのWTA結果15件を掲載。最新WTAフィードでは3試合が進行中：香港のジョイント対サッカリ（シングルス）とゴルゴゼ／チモフェーエワ対チョウ／チョウ（ダブルス）、チェンナイのダ・シルバ・フィック／クランバエワ対桑田／レイナ（ダブルス）。スコアはライブのスナップショットで、終了試合とは区別する。ITFカレンダーにW100仁川大会はあるが、試合ごとの結果は確認できなかった。",
+        "status": "直近48時間に終了したシングルス20結果の非網羅的な選択です。11月4日13:23 UTC、WTAフィードはサッカリが2回戦でジョイントを4-6、6-3、6-3で破った結果を記録。ほかのWTA試合が進行中：香港1回戦ダブルス ゴルゴゼ／チモフェーエワ対チョウ／チョウ 7-6(4),4-4（ポイント0-0、ゴルゴゼ／チモフェーエワのサーブ）；チェンナイ2回戦シングルス ティエン（Janice Tjen）対ガーランド（Joanna Garland） 2-2（ポイント0-40、ガーランド（Joanna Garland）のサーブ）。チェンナイ1回戦ダブルス カラモコ／ヴァルテル対ラメシュ／ヴィナヤガムルティ 6-2,0-0（ポイント0-0、ラメシュ／ヴィナヤガムルティのサーブ）。パリ・マスターズ公式スコアボードはズベレフ対ムセッティの2回戦をゲーム4-5、ポイント0-0で進行中と表示。実際の開始時刻はTBD。ライブスコアは最終結果ではありません。ITF仁川にはW100が掲載されていますが、読める試合別結果は確認できず、スコアを記載していません。",
         "resultItems": [
           {
             "id": "r01",
@@ -3070,18 +3002,18 @@
           {
             "id": "r15",
             "winnerNames": [
-              "エレーナ・プリダンキナ（Elena Pridankina）"
+              "マリア・サッカリ（Maria Sakkari）"
             ],
             "loserNames": [
-              "パウラ・バドサ（Paula Badosa）"
+              "マヤ・ジョイント（Maya Joint）"
             ],
-            "score": "7-5,0-0",
-            "completedOn": "2026-11-03",
+            "score": "4-6,6-3,6-3",
+            "completedOn": "2026-11-04",
             "tournament": "Prudential Hong Kong Tennis Open",
             "tags": [
-              "retirement"
+              "comeback"
             ],
-            "note": "1回戦・現地日付2026-11-03（Asia/Hong_Kong）、第1セット後に棄権。勝者側のスコア。WTAフィードは棄権を記録しているが、理由は示していない。",
+            "note": "2回戦 · 現地日付2026-11-04に終了（Asia/Hong_Kong）。スコアは勝者基準。第4シードのサッカリは第1セットを落とした後、ジョイントを4-6、6-3、6-3で破った。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
@@ -3191,25 +3123,6 @@
           {
             "id": "s01",
             "sideANames": [
-              "マヤ・ジョイント（Maya Joint）"
-            ],
-            "sideBNames": [
-              "マリア・サッカリ（Maria Sakkari）"
-            ],
-            "startsAt": "2026-11-04T18:39:04+08:00",
-            "timeZone": "Asia/Hong_Kong",
-            "timeQualifier": "fixed",
-            "tournament": "プルデンシャル香港テニス・オープン",
-            "status": "in-progress",
-            "note": "香港WTA公式フィードは12:40:15 UTC更新。2回戦シングルス、ジョイント対サッカリ、6-4、3-6、2-1。ポイント0-40、サッカリのサーブ。",
-            "sourceUrls": [
-              "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
-              "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
-            ]
-          },
-          {
-            "id": "s02",
-            "sideANames": [
               "アレクサンダー・ズベレフ（Alexander Zverev）"
             ],
             "sideBNames": [
@@ -3223,10 +3136,11 @@
               "https://www.rolexparismasters.com/fr/programme-et-resultats",
               "https://www.rolexparismasters.com/en/news/article/second-round-schedule-wednesday-4-november-zverev-djokovic-alcaraz-fils"
             ],
-            "note": "パリ公式スコアボードは試合をパリ時間13:30開始予定と掲載していたが、12:38 UTCに確認した際も「未開始」と表示していた。実際の開始時刻は未確認（TBD）。"
+            "note": "パリ公式スコアボードを13:23 UTCに確認：ズベレフ対ムセッティは2回戦進行中。ゲーム4-5、ポイント0-0; 実際の開始時刻TBD。",
+            "status": "in-progress"
           },
           {
-            "id": "s03",
+            "id": "s02",
             "sideANames": [
               "ノバク・ジョコビッチ（Novak Djokovic）"
             ],
@@ -3244,7 +3158,7 @@
             ]
           },
           {
-            "id": "s04",
+            "id": "s03",
             "sideANames": [
               "カルロス・アルカラス（Carlos Alcaraz）"
             ],
@@ -3261,7 +3175,7 @@
             ]
           },
           {
-            "id": "s05",
+            "id": "s04",
             "sideANames": [
               "アルトゥール・フィス（Arthur Fils）"
             ],
@@ -3278,7 +3192,7 @@
             ]
           },
           {
-            "id": "s06",
+            "id": "s05",
             "sideANames": [
               "ヴェロニカ・ファルコフスカ（Weronika Falkowska）"
             ],
@@ -3296,25 +3210,26 @@
             "note": "WTAフィードはこの確定した2回戦をAsia/Kolkata 17:00開始予定としていたが、予定時刻を過ぎてもUpcoming表示のままだった。実際の開始時刻はTBD。"
           },
           {
-            "id": "s07",
+            "id": "s06",
             "sideANames": [
               "ジャニス・チェン（Janice Tjen）"
             ],
             "sideBNames": [
               "ジョアンナ・ガーランド（Joanna Garland）"
             ],
-            "startsAt": null,
+            "startsAt": "2026-11-04T18:15:33+05:30",
             "timeZone": "Asia/Kolkata",
-            "timeQualifier": "tbd",
+            "timeQualifier": "fixed",
             "tournament": "チェンナイ・オープン",
-            "note": "2回戦の対戦は確定。WTAフィードでは開始時刻が未設定（TBD）。",
+            "note": "WTAチェンナイフィード 2026-11-04T13:20:50.88+00:00 UTC：2回戦シングルス、ティエン対ガーランド 2-2; ポイント0-40、ガーランドのサーブ。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
-            ]
+            ],
+            "status": "in-progress"
           },
           {
-            "id": "s08",
+            "id": "s07",
             "sideANames": [
               "エレーナ・プリダンキナ（Elena Pridankina）"
             ],
@@ -3331,7 +3246,7 @@
             ]
           },
           {
-            "id": "s09",
+            "id": "s08",
             "sideANames": [
               "テレザ・バレントバ（Tereza Valentova）"
             ],
@@ -3348,7 +3263,7 @@
             ]
           },
           {
-            "id": "s10",
+            "id": "s09",
             "sideANames": [
               "ソラナ・チルステア（Sorana Cirstea）"
             ],
@@ -3366,7 +3281,7 @@
             ]
           },
           {
-            "id": "s11",
+            "id": "s10",
             "sideANames": [
               "エカテリネ・ゴルゴゼ（Ekaterine Gorgodze）",
               "マリア・チモフェーエワ（Maria Timofeeva）"
@@ -3380,28 +3295,28 @@
             "timeQualifier": "fixed",
             "tournament": "Prudential Hong Kong Tennis Open",
             "status": "in-progress",
-            "note": "香港WTA公式フィードは12:39:46 UTC更新。1回戦ダブルス、ゴルゴゼ／チモフェーエワ対チョウ／チョウ、6-6。ポイント0-0、チョウ／チョウのサーブ。",
+            "note": "WTA香港フィード 2026-11-04T13:20:38.387+00:00 UTC：1回戦ダブルス、ゴルゴゼ／チモフェーエワ対チョウ／チョウ 7-6(4),4-4; ポイント0-0、チョウ／チョウのサーブ。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
             ]
           },
           {
-            "id": "s12",
+            "id": "s11",
             "sideANames": [
-              "ガブリエラ・ダ・シルバ・フィック（Gabriella Da Silva Fick）",
-              "ジベク・クランバエワ（Zhibek Kulambayeva）"
+              "ナイマ・カラモコ（Naima Karamoko）",
+              "シモナ・ヴァルテル（Simona Waltert）"
             ],
             "sideBNames": [
-              "桑田寛子（Hiroko Kuwata）",
-              "アンキタ・レイナ（Ankita Raina）"
+              "ディヤ・ラメシュ・ラメシュ（Diya Ramesh Ramesh）",
+              "ディープシカ・ヴィナヤガムルティ（Deepshika Vinayagamurthy）"
             ],
-            "startsAt": "2026-11-04T16:51:39+05:30",
+            "startsAt": "2026-11-04T17:59:43+05:30",
             "timeZone": "Asia/Kolkata",
             "timeQualifier": "fixed",
             "tournament": "Chennai Open",
             "status": "in-progress",
-            "note": "チェンナイWTA公式フィードは12:39:49 UTC更新。1回戦ダブルス、ダ・シルバ・フィック／クランバエワ対桑田／レイナ、6-1、6-1。フィード上は試合中のままだが、現在ポイントは表示されず、桑田／レイナがサーブと表示。",
+            "note": "WTAチェンナイフィード 2026-11-04T13:19:01.767+00:00 UTC：1回戦ダブルス、カラモコ／ヴァルテル対ラメシュ／ヴィナヤガムルティ 6-2,0-0; ポイント0-0、ラメシュ／ヴィナヤガムルティのサーブ。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
@@ -3411,7 +3326,7 @@
       }
     },
     "pt": {
-      "asOf": "As of 2026-11-04, 07:44 EST",
+      "asOf": "As of 2026-11-04, 08:23 EST",
       "politics": [
         {
           "id": "p1",
@@ -3471,7 +3386,7 @@
         }
       ],
       "tennis": {
-        "status": "Seleção não exaustiva de 20 resultados de simples verificados em 48 horas: cinco da ATP em Paris e 15 da WTA em Hong Kong/Chennai. Os feeds mais recentes mostram três partidas em andamento: o simples Joint–Sakkari e as duplas Gorgodze/Timofeeva–Cho/Cho em Hong Kong, além das duplas Da Silva Fick/Kulambayeva–Kuwata/Raina em Chennai. Os placares são instantâneos; partidas concluídas são identificadas separadamente. O calendário ITF lista o W100 de Incheon, mas não foram encontrados resultados legíveis jogo a jogo.",
+        "status": "Seleção não exaustiva de 20 resultados de simples concluídos nas últimas 48 horas. Em 4 nov., às 13:23 UTC, o feed WTA registrou a vitória de segunda rodada de Maria Sakkari sobre Maya Joint por 4-6, 6-3, 6-3. Outras partidas WTA em andamento: duplas da primeira rodada em Hong Kong Gorgodze/Timofeeva–Cho/Cho 7-6(4),4-4 (ponto 0-0, saque de Gorgodze/Timofeeva); simples da segunda rodada em Chennai Janice Tjen–Joanna Garland 2-2 (ponto 0-40, saque de Joanna Garland). Duplas da primeira rodada em Chennai Karamoko/Waltert–Ramesh/Vinayagamurthy 6-2,0-0 (ponto 0-0, saque de Ramesh/Vinayagamurthy). O placar do Masters de Paris mostrava Zverev–Musetti em andamento na segunda rodada, games 4-5, ponto 0-0; início real TBD. Os placares são instantâneos, não resultados finais. A ITF lista um W100 em Incheon, mas não havia resultados legíveis jogo a jogo; nenhum placar é afirmado.",
         "resultItems": [
           {
             "id": "r01",
@@ -3751,18 +3666,18 @@
           {
             "id": "r15",
             "winnerNames": [
-              "Elena Pridankina"
+              "Maria Sakkari"
             ],
             "loserNames": [
-              "Paula Badosa"
+              "Maya Joint"
             ],
-            "score": "7-5,0-0",
-            "completedOn": "2026-11-03",
+            "score": "4-6,6-3,6-3",
+            "completedOn": "2026-11-04",
             "tournament": "Prudential Hong Kong Tennis Open",
             "tags": [
-              "retirement"
+              "comeback"
             ],
-            "note": "1.ª rodada · abandono após o primeiro set em 2026-11-03, hora local (Asia/Hong_Kong); placar pelo ponto de vista da vencedora. O feed da WTA registra o abandono, mas não informa o motivo.",
+            "note": "Segunda rodada · concluída em 2026-11-04, data local (Asia/Hong_Kong); placar na ordem da vencedora. A cabeça de chave 4, Maria Sakkari, perdeu o primeiro set e depois venceu Maya Joint por 4-6, 6-3, 6-3.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
@@ -3872,25 +3787,6 @@
           {
             "id": "s01",
             "sideANames": [
-              "Maya Joint"
-            ],
-            "sideBNames": [
-              "Maria Sakkari"
-            ],
-            "startsAt": "2026-11-04T18:39:04+08:00",
-            "timeZone": "Asia/Hong_Kong",
-            "timeQualifier": "fixed",
-            "tournament": "Prudential Hong Kong Tennis Open",
-            "status": "in-progress",
-            "note": "Feed WTA de Hong Kong atualizado às 12:40:15 UTC: simples da segunda rodada, Joint contra Sakkari, 6-4, 3-6, 2-1; ponto 0-40, Sakkari sacando.",
-            "sourceUrls": [
-              "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
-              "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
-            ]
-          },
-          {
-            "id": "s02",
-            "sideANames": [
               "Alexander Zverev"
             ],
             "sideBNames": [
@@ -3904,10 +3800,11 @@
               "https://www.rolexparismasters.com/fr/programme-et-resultats",
               "https://www.rolexparismasters.com/en/news/article/second-round-schedule-wednesday-4-november-zverev-djokovic-alcaraz-fils"
             ],
-            "note": "O placar oficial de Paris listava a partida para as 13:30, hora de Paris, mas ainda a mostrava como futura quando consultado às 12:38 UTC; o horário real de início não foi confirmado (TBD)."
+            "note": "Placar oficial consultado às 13:23 UTC: Zverev–Musetti, segunda rodada, em andamento; games 4-5, ponto 0-0; início real TBD.",
+            "status": "in-progress"
           },
           {
-            "id": "s03",
+            "id": "s02",
             "sideANames": [
               "Novak Djokovic"
             ],
@@ -3925,7 +3822,7 @@
             ]
           },
           {
-            "id": "s04",
+            "id": "s03",
             "sideANames": [
               "Carlos Alcaraz"
             ],
@@ -3942,7 +3839,7 @@
             ]
           },
           {
-            "id": "s05",
+            "id": "s04",
             "sideANames": [
               "Arthur Fils"
             ],
@@ -3959,7 +3856,7 @@
             ]
           },
           {
-            "id": "s06",
+            "id": "s05",
             "sideANames": [
               "Weronika Falkowska"
             ],
@@ -3977,25 +3874,26 @@
             "note": "O feed da WTA listava este confronto confirmado da segunda rodada para 17:00 (Asia/Kolkata), mas ainda o mostrava como Upcoming depois desse horário; o início real é TBD."
           },
           {
-            "id": "s07",
+            "id": "s06",
             "sideANames": [
               "Janice Tjen"
             ],
             "sideBNames": [
               "Joanna Garland"
             ],
-            "startsAt": null,
+            "startsAt": "2026-11-04T18:15:33+05:30",
             "timeZone": "Asia/Kolkata",
-            "timeQualifier": "tbd",
+            "timeQualifier": "fixed",
             "tournament": "Chennai Open",
-            "note": "Confronto confirmado de segunda rodada; o feed da WTA ainda não havia definido o horário de início (TBD).",
+            "note": "Feed WTA de Chennai atualizado às 2026-11-04T13:20:50.88+00:00 UTC: simples da segunda rodada Tjen–Garland 2-2; ponto 0-40, saque de Garland.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
-            ]
+            ],
+            "status": "in-progress"
           },
           {
-            "id": "s08",
+            "id": "s07",
             "sideANames": [
               "Elena Pridankina"
             ],
@@ -4012,7 +3910,7 @@
             ]
           },
           {
-            "id": "s09",
+            "id": "s08",
             "sideANames": [
               "Tereza Valentova"
             ],
@@ -4029,7 +3927,7 @@
             ]
           },
           {
-            "id": "s10",
+            "id": "s09",
             "sideANames": [
               "Sorana Cirstea"
             ],
@@ -4047,7 +3945,7 @@
             ]
           },
           {
-            "id": "s11",
+            "id": "s10",
             "sideANames": [
               "Ekaterine Gorgodze",
               "Maria Timofeeva"
@@ -4061,28 +3959,28 @@
             "timeQualifier": "fixed",
             "tournament": "Prudential Hong Kong Tennis Open",
             "status": "in-progress",
-            "note": "Feed WTA de Hong Kong atualizado às 12:39:46 UTC: duplas da primeira rodada, Gorgodze/Timofeeva contra Cho/Cho, 6-6; ponto 0-0, Cho/Cho sacando.",
+            "note": "Feed WTA de Hong Kong atualizado às 2026-11-04T13:20:38.387+00:00 UTC: duplas da primeira rodada Gorgodze/Timofeeva–Cho/Cho 7-6(4),4-4; ponto 0-0, saque de Cho/Cho.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
             ]
           },
           {
-            "id": "s12",
+            "id": "s11",
             "sideANames": [
-              "Gabriella Da Silva Fick",
-              "Zhibek Kulambayeva"
+              "Naima Karamoko",
+              "Simona Waltert"
             ],
             "sideBNames": [
-              "Hiroko Kuwata",
-              "Ankita Raina"
+              "Diya Ramesh Ramesh",
+              "Deepshika Vinayagamurthy"
             ],
-            "startsAt": "2026-11-04T16:51:39+05:30",
+            "startsAt": "2026-11-04T17:59:43+05:30",
             "timeZone": "Asia/Kolkata",
             "timeQualifier": "fixed",
             "tournament": "Chennai Open",
             "status": "in-progress",
-            "note": "Feed WTA de Chennai atualizado às 12:39:49 UTC: duplas da primeira rodada, Da Silva Fick/Kulambayeva contra Kuwata/Raina, 6-1, 6-1; ainda marcado em andamento, sem ponto atual exibido; Kuwata/Raina aparecem sacando.",
+            "note": "Feed WTA de Chennai atualizado às 2026-11-04T13:19:01.767+00:00 UTC: duplas da primeira rodada Karamoko/Waltert–Ramesh/Vinayagamurthy 6-2,0-0; ponto 0-0, saque de Ramesh/Vinayagamurthy.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
@@ -4092,7 +3990,7 @@
       }
     },
     "zh-TW": {
-      "asOf": "As of 2026-11-04, 07:44 EST",
+      "asOf": "As of 2026-11-04, 08:23 EST",
       "politics": [
         {
           "id": "p1",
@@ -4152,7 +4050,7 @@
         }
       ],
       "tennis": {
-        "status": "滾動48小時內20場已核實單打賽果的精選，並非窮盡：巴黎大師賽ATP賽果5場、香港／清奈WTA賽果15場。WTA最新比分資料顯示3場比賽進行中：香港的喬伊特對莎卡瑞單打、戈爾戈澤／季莫費耶娃對喬／喬雙打，以及清奈的達席爾瓦-菲克／庫蘭巴耶娃對桑田／雷納雙打。比分是即時快照，已完賽場次另行標明。ITF賽程列有仁川W100，但未找到可讀的逐場賽果。",
+        "status": "近48小時已完賽單打賽果的20場非窮盡精選。11月4日13:23 UTC，WTA比分資料記錄莎卡瑞在第二輪以4-6、6-3、6-3擊敗喬伊特。其他WTA比賽進行中：香港首輪雙打戈爾戈澤／季莫費耶娃對喬宜萱／喬宜岑，7-6(4),4-4（該分0-0，戈爾戈澤／季莫費耶娃發球）；清奈第二輪單打賈妮絲·特恩（Janice Tjen）對喬安娜·加蘭（Joanna Garland），2-2（該分0-40，喬安娜·加蘭（Joanna Garland）發球）。清奈首輪雙打娜伊瑪·卡拉莫科／西莫娜·瓦爾特特對迪亞·拉梅什·拉梅什／迪普希卡·維納亞加穆爾蒂，6-2,0-0（該分0-0，迪亞·拉梅什·拉梅什／迪普希卡·維納亞加穆爾蒂發球）。巴黎大師賽官方記分牌顯示第二輪茲維列夫對穆塞蒂進行中，局分4-5、該分0-0；實際開賽時間仍為TBD。即時比分只是快照，並非賽果。ITF仁川賽程列有W100，但未找到可讀逐場賽果，因此不聲稱其比分。",
         "resultItems": [
           {
             "id": "r01",
@@ -4432,18 +4330,18 @@
           {
             "id": "r15",
             "winnerNames": [
-              "葉蓮娜·普里丹金娜（Elena Pridankina）"
+              "瑪麗亞·薩卡里（Maria Sakkari）"
             ],
             "loserNames": [
-              "葆拉·巴多薩（Paula Badosa）"
+              "瑪雅·喬伊特（Maya Joint）"
             ],
-            "score": "7-5,0-0",
-            "completedOn": "2026-11-03",
+            "score": "4-6,6-3,6-3",
+            "completedOn": "2026-11-04",
             "tournament": "Prudential Hong Kong Tennis Open",
             "tags": [
-              "retirement"
+              "comeback"
             ],
-            "note": "首輪；於完賽當地日期2026-11-03（Asia/Hong_Kong）首盤後退賽；盤分按勝者視角列出。WTA資料記為退賽，但未提供原因。",
+            "note": "第二輪 · 2026-11-04當地日期完賽（Asia/Hong_Kong）；比分按勝者順序列出。4號種子莎卡瑞先失一盤，隨後以4-6、6-3、6-3擊敗喬伊特。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
@@ -4553,25 +4451,6 @@
           {
             "id": "s01",
             "sideANames": [
-              "瑪雅·喬伊特（Maya Joint）"
-            ],
-            "sideBNames": [
-              "瑪麗亞·薩卡里（Maria Sakkari）"
-            ],
-            "startsAt": "2026-11-04T18:39:04+08:00",
-            "timeZone": "Asia/Hong_Kong",
-            "timeQualifier": "fixed",
-            "tournament": "香港網球公開賽",
-            "status": "in-progress",
-            "note": "WTA香港官方比分資料12:40:15 UTC更新：第二輪單打，喬伊特對莎卡瑞，盤分6-4、3-6、2-1；該局0-40，莎卡瑞發球。",
-            "sourceUrls": [
-              "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
-              "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
-            ]
-          },
-          {
-            "id": "s02",
-            "sideANames": [
               "亞歷山大·茲維列夫（Alexander Zverev）"
             ],
             "sideBNames": [
@@ -4585,10 +4464,11 @@
               "https://www.rolexparismasters.com/fr/programme-et-resultats",
               "https://www.rolexparismasters.com/en/news/article/second-round-schedule-wednesday-4-november-zverev-djokovic-alcaraz-fils"
             ],
-            "note": "巴黎官方記分牌將該場列於歐洲／巴黎時間13:30，但12:38 UTC查詢時仍顯示「即將開始」；實際開賽時間未獲確認（TBD）。"
+            "note": "巴黎官方記分牌13:23 UTC查詢：第二輪茲維列夫對穆塞蒂進行中；局分4-5，該分0-0；實際開賽時間TBD。",
+            "status": "in-progress"
           },
           {
-            "id": "s03",
+            "id": "s02",
             "sideANames": [
               "諾瓦克·喬科維奇（Novak Djokovic）"
             ],
@@ -4606,7 +4486,7 @@
             ]
           },
           {
-            "id": "s04",
+            "id": "s03",
             "sideANames": [
               "卡洛斯·阿爾卡拉斯（Carlos Alcaraz）"
             ],
@@ -4623,7 +4503,7 @@
             ]
           },
           {
-            "id": "s05",
+            "id": "s04",
             "sideANames": [
               "阿蒂爾·菲斯（Arthur Fils）"
             ],
@@ -4640,7 +4520,7 @@
             ]
           },
           {
-            "id": "s06",
+            "id": "s05",
             "sideANames": [
               "薇羅妮卡·法爾科夫斯卡（Weronika Falkowska）"
             ],
@@ -4658,25 +4538,26 @@
             "note": "WTA賽程原列此第二輪對陣於17:00（Asia/Kolkata）開賽，但最新比賽資料在該時刻已過後仍標示Upcoming；實際開賽時間TBD."
           },
           {
-            "id": "s07",
+            "id": "s06",
             "sideANames": [
               "賈妮絲·特恩（Janice Tjen）"
             ],
             "sideBNames": [
               "喬安娜·加蘭（Joanna Garland）"
             ],
-            "startsAt": null,
+            "startsAt": "2026-11-04T18:15:33+05:30",
             "timeZone": "Asia/Kolkata",
-            "timeQualifier": "tbd",
+            "timeQualifier": "fixed",
             "tournament": "清奈公開賽",
-            "note": "已確認的第二輪對戰；WTA資料尚未安排開賽時間（TBD）。",
+            "note": "WTA清奈比分資料2026-11-04T13:20:50.88+00:00 UTC更新：第二輪單打特恩對加蘭，2-2；該分0-40，加蘭發球。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
-            ]
+            ],
+            "status": "in-progress"
           },
           {
-            "id": "s08",
+            "id": "s07",
             "sideANames": [
               "葉蓮娜·普里丹金娜（Elena Pridankina）"
             ],
@@ -4693,7 +4574,7 @@
             ]
           },
           {
-            "id": "s09",
+            "id": "s08",
             "sideANames": [
               "特蕾莎·瓦倫托娃（Tereza Valentova）"
             ],
@@ -4710,7 +4591,7 @@
             ]
           },
           {
-            "id": "s10",
+            "id": "s09",
             "sideANames": [
               "索拉娜·克爾斯泰亞（Sorana Cirstea）"
             ],
@@ -4728,7 +4609,7 @@
             ]
           },
           {
-            "id": "s11",
+            "id": "s10",
             "sideANames": [
               "葉卡捷琳·戈爾戈澤（Ekaterine Gorgodze）",
               "瑪麗亞·季莫費耶娃（Maria Timofeeva）"
@@ -4742,28 +4623,28 @@
             "timeQualifier": "fixed",
             "tournament": "Prudential Hong Kong Tennis Open",
             "status": "in-progress",
-            "note": "WTA香港官方比分資料12:39:46 UTC更新：首輪雙打，戈爾戈澤／季莫費耶娃對喬宜萱／喬宜岑，盤分6-6；該局0-0，喬／喬發球。",
+            "note": "WTA香港比分資料2026-11-04T13:20:38.387+00:00 UTC更新：首輪雙打戈爾戈澤／季莫費耶娃對喬宜萱／喬宜岑，7-6(4),4-4；該分0-0，喬／喬發球。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1074/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1074/hong-kong/2026/scores"
             ]
           },
           {
-            "id": "s12",
+            "id": "s11",
             "sideANames": [
-              "加布里埃拉·達席爾瓦-菲克（Gabriella Da Silva Fick）",
-              "日別克·庫蘭巴耶娃（Zhibek Kulambayeva）"
+              "娜伊瑪·卡拉莫科（Naima Karamoko）",
+              "西莫娜·瓦爾特特（Simona Waltert）"
             ],
             "sideBNames": [
-              "桑田寬子（Hiroko Kuwata）",
-              "安基塔·雷納（Ankita Raina）"
+              "迪亞·拉梅什·拉梅什（Diya Ramesh Ramesh）",
+              "迪普希卡·維納亞加穆爾蒂（Deepshika Vinayagamurthy）"
             ],
-            "startsAt": "2026-11-04T16:51:39+05:30",
+            "startsAt": "2026-11-04T17:59:43+05:30",
             "timeZone": "Asia/Kolkata",
             "timeQualifier": "fixed",
             "tournament": "Chennai Open",
             "status": "in-progress",
-            "note": "WTA清奈官方比分資料12:39:49 UTC更新：首輪雙打，達席爾瓦-菲克／庫蘭巴耶娃對桑田／雷納，盤分6-1、6-1；資料源仍標比賽進行中，但未顯示當前分；列明由桑田／雷納發球。",
+            "note": "WTA清奈比分資料2026-11-04T13:19:01.767+00:00 UTC更新：首輪雙打卡拉莫科／瓦爾特特對拉梅什／維納亞加穆爾蒂，6-2,0-0；該分0-0，拉梅什／維納亞加穆爾蒂發球。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-02&to=2026-11-05",
               "https://www.wtatennis.com/tournaments/1148/chennai/2026/scores"
