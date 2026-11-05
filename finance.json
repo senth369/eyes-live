@@ -1,63 +1,58 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-05T00:53:31.181Z",
-  "generatedAt": "2026-11-05T00:57:21.287Z",
+  "cutoffAt": "2026-11-05T09:29:17.340Z",
+  "generatedAt": "2026-11-05T09:34:38.624Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Apple fiscal results release",
-      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
-    },
-    {
-      "id": "src2",
-      "label": "China National Bureau of Statistics economic release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html"
-    },
-    {
-      "id": "src3",
-      "label": "Beijing Junzheng quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225631045.PDF"
-    },
-    {
-      "id": "src4",
-      "label": "Jineng Technology quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648735.PDF"
-    },
-    {
-      "id": "src5",
-      "label": "Associated Press market close report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c0be7ca45b5875abe758e0570cb9a265"
-    },
-    {
-      "id": "src6",
-      "label": "FRED S&P five hundred series",
+      "label": "S&P index FRED series",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
-      "id": "src7",
-      "label": "FRED Nasdaq Composite series",
+      "id": "src2",
+      "label": "Nasdaq Composite FRED series",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
+      "id": "src3",
+      "label": "CSI Three Hundred historical table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
+    },
+    {
+      "id": "src4",
+      "label": "SSE Composite historical table",
+      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
+    },
+    {
+      "id": "src5",
+      "label": "Fiserv investor release",
+      "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-third-quarter-2026-results"
+    },
+    {
+      "id": "src6",
+      "label": "Leidos SEC quarterly filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000293/ldos-20261002.htm"
+    },
+    {
+      "id": "src7",
+      "label": "GXO investor release",
+      "url": "https://investors.gxo.com/news-releases/news-release-details/gxo-reports-third-quarter-2026-results"
+    },
+    {
       "id": "src8",
-      "label": "China A share closing report",
-      "url": "https://finance.sina.com.cn/roll/2026-11-04/doc-inixqhkw1569554.shtml"
+      "label": "Dongshan Precision quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225646907.PDF"
     },
     {
       "id": "src9",
-      "label": "Apple SEC quarterly results exhibit",
-      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm"
+      "label": "National Bureau of Statistics materials prices",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202611/t20261103_1965738.html"
     },
     {
       "id": "src10",
-      "label": "Apple SEC annual filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm"
-    },
-    {
-      "id": "src11",
-      "label": "Apple SEC prior quarter filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
+      "label": "National Bureau of Statistics purchasing managers survey",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202610/t20261031_1965718.html"
     }
   ],
   "markets": [
@@ -71,394 +66,1417 @@
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-04",
+      "close": 25736.51,
+      "previousClose": 25372.01,
+      "changePercent": 1.43662248,
+      "sourceIds": [
+        "src2"
+      ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-04",
-      "close": 3686.17,
-      "previousClose": null,
-      "changePercent": 2.16,
+      "sessionDate": "2026-11-05",
+      "close": 3689.91,
+      "previousClose": 3686.17,
+      "changePercent": 0.10146032,
       "sourceIds": [
-        "src8"
+        "src4"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-05",
+      "close": 4113.41,
+      "previousClose": 4101.33,
+      "changePercent": 0.2945386,
+      "sourceIds": [
+        "src3"
+      ]
     }
   ],
   "stories": [
     {
-      "id": "f4",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-10-19",
-      "company": null,
+      "id": "f1",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-03",
+      "company": {
+        "name": "Fiserv",
+        "ticker": "FISV",
+        "exchange": "NASDAQ"
+      },
       "metrics": [
         {
           "id": "m1",
-          "value": 37536700000000,
-          "unit": "CNY",
+          "value": 4852000000,
+          "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src5"
           ],
-          "evidence": "National Bureau of Statistics release, principal indicators table, reports quarterly gross domestic product."
+          "evidence": "Investor release operating highlights and adjusted revenue table report quarterly adjusted revenue of four point eight five two billion dollars."
         },
         {
           "id": "m2",
-          "value": 4.5,
+          "value": 0,
           "unit": "percent",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src5"
           ],
-          "evidence": "The release reports quarterly gross domestic product growth against the comparable period."
+          "evidence": "Investor release operating highlights report flat organic revenue year over year."
         },
         {
           "id": "m3",
-          "value": 5.5,
-          "unit": "percent",
-          "periodStart": "2026-09-01",
+          "value": 6452000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
-          "comparison": "yoy",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src5"
           ],
-          "evidence": "The release reports September industrial value added growth."
+          "evidence": "Condensed income statement reports goodwill impairment of six point four five two billion dollars; the release describes it as non-cash."
         },
         {
           "id": "m4",
-          "value": 1.1,
+          "value": 2039000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Free cash flow reconciliation reports first-nine-month free cash flow of two point zero three nine billion dollars."
+        }
+      ],
+      "sourceIds": [
+        "src5"
+      ],
+      "evidence": "Fiserv release summary and adjusted-measures tables report flat organic revenue, a large non-cash goodwill impairment, and lower free cash flow."
+    },
+    {
+      "id": "f2",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-03",
+      "company": {
+        "name": "Leidos Holdings",
+        "ticker": "LDOS",
+        "exchange": "NYSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 4630000000,
+          "unit": "USD",
+          "periodStart": "2026-07-04",
+          "periodEnd": "2026-10-02",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "SEC quarterly filing results table reports quarterly revenue of four point six three billion dollars."
+        },
+        {
+          "id": "m2",
+          "value": 3.6,
           "unit": "percent",
-          "periodStart": "2026-09-01",
+          "periodStart": "2026-07-04",
+          "periodEnd": "2026-10-02",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "SEC results table reports quarterly revenue growth of three point six percent versus the comparable period."
+        },
+        {
+          "id": "m3",
+          "value": 413000000,
+          "unit": "USD",
+          "periodStart": "2026-07-04",
+          "periodEnd": "2026-10-02",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "SEC results table reports quarterly net income of four hundred thirteen million dollars."
+        },
+        {
+          "id": "m4",
+          "value": 523000000,
+          "unit": "USD",
+          "periodStart": "2026-07-04",
+          "periodEnd": "2026-10-02",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "SEC cash-flow table reports quarterly net cash provided by operating activities of five hundred twenty-three million dollars."
+        }
+      ],
+      "sourceIds": [
+        "src6"
+      ],
+      "evidence": "The SEC filing reports higher quarterly revenue and net income, while operating cash flow declined from the comparable period because of working-capital timing."
+    },
+    {
+      "id": "f3",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-03",
+      "company": {
+        "name": "GXO Logistics",
+        "ticker": "GXO",
+        "exchange": "NYSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 3600000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Investor release results section reports quarterly revenue of three point six billion dollars."
+        },
+        {
+          "id": "m2",
+          "value": 5.7,
+          "unit": "percent",
+          "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src7"
           ],
-          "evidence": "The release reports September retail sales growth."
+          "evidence": "Investor release headline reports quarterly revenue growth of five point seven percent year over year."
         },
         {
-          "id": "m5",
-          "value": -7.2,
+          "id": "m3",
+          "value": 65000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Reconciliation table reports quarterly net income of sixty-five million dollars."
+        },
+        {
+          "id": "m4",
+          "value": 156000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Cash-flow reconciliation reports quarterly cash flows from operations of one hundred fifty-six million dollars versus two hundred thirty-two million dollars previously."
+        }
+      ],
+      "sourceIds": [
+        "src7"
+      ],
+      "evidence": "GXO reported revenue growth, stronger new-business wins and lower quarterly operating cash flow than in the comparable period."
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "earnings",
+      "publishedOn": "2026-10-31",
+      "company": {
+        "name": "Suzhou Dongshan Precision Manufacturing",
+        "ticker": "002384",
+        "exchange": "Shenzhen Stock Exchange"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 45379349598.3,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Quarterly report main financial table reports year-to-date operating revenue of forty-five point three seven nine billion yuan."
+        },
+        {
+          "id": "m2",
+          "value": 67.63,
           "unit": "percent",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-09-30",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src8"
           ],
-          "evidence": "The release reports year to date fixed asset investment excluding rural households."
+          "evidence": "Quarterly report main financial table reports year-to-date revenue growth of sixty-seven point six three percent."
+        },
+        {
+          "id": "m3",
+          "value": 5288744234.6,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Quarterly report main financial table reports attributable year-to-date net income of five point two eight nine billion yuan."
+        },
+        {
+          "id": "m4",
+          "value": 3515013726.41,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Quarterly report cash-flow table reports year-to-date operating cash flow of three point five one five billion yuan."
         }
       ],
       "sourceIds": [
-        "src2"
+        "src8"
       ],
-      "evidence": "The official release shows resilient industrial activity and exports alongside modest consumption and continued property weakness, producing an uneven backdrop for listed companies."
+      "evidence": "The quarterly report documents rapid year-to-date growth, optical-module and AI-PCB expansion, and positive operating cash flow."
+    },
+    {
+      "id": "f6",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-10-31",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 49.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "National Bureau of Statistics survey reports October manufacturing purchasing managers index at forty-nine point three percent."
+        },
+        {
+          "id": "m2",
+          "value": -0.8,
+          "unit": "percentage-points",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "The survey reports manufacturing purchasing managers index declined zero point eight percentage points from the prior month."
+        },
+        {
+          "id": "m3",
+          "value": 49.7,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "National Bureau of Statistics survey reports October non-manufacturing business activity index at forty-nine point seven percent."
+        },
+        {
+          "id": "m4",
+          "value": 49.4,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "National Bureau of Statistics survey reports October manufacturing new orders index at forty-nine point four percent."
+        }
+      ],
+      "sourceIds": [
+        "src10"
+      ],
+      "evidence": "The official survey shows manufacturing and non-manufacturing activity below the expansion threshold, with weaker production and new orders."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "China growth remains uneven across industry, consumption, and property",
-          "summary": "The official release shows resilient industrial activity but weaker fixed investment and modest retail growth.",
-          "impact": "The mix favors exporters and advanced manufacturers more than property-linked businesses and consumer-facing firms.",
-          "what": "The statistics release reports output, industrial production, retail sales, fixed investment, property activity, and trade together with sector detail.",
-          "why": "Manufacturing and export strength can support factory utilization and equipment demand, while weak property investment can weigh on construction, materials, and local financing.",
-          "uncertainty": "National aggregates conceal regional and company-level differences and do not establish the future path of policy support.",
-          "watch": "Subsequent production, consumption, property, trade, and price data.",
+          "id": "f1",
+          "title": "Fiserv absorbs a large accounting impairment as organic growth stalls",
+          "summary": "The payments technology provider reported flat underlying sales and a large non-cash goodwill write-down.",
+          "impact": "The accounting charge reduces reported profit without directly consuming cash, while weaker cash generation matters more directly for investment capacity and financial flexibility.",
+          "what": "Fiserv provides payment processing and financial technology; its reported quarter combined flat organic revenue with a goodwill impairment and lower free cash flow.",
+          "why": "The impairment is an accounting adjustment, but stagnant underlying sales and weaker cash generation can constrain reinvestment and distributions.",
+          "uncertainty": "The release does not establish how quickly organic growth or operating margins will recover.",
+          "watch": "Future organic revenue, operating margin and cash generation.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "quarterly gross domestic product"
+              "label": "Adjusted revenue"
             },
             {
               "id": "m2",
-              "label": "quarterly growth"
+              "label": "Organic revenue growth"
             },
             {
               "id": "m3",
-              "label": "industrial production growth"
+              "label": "Goodwill impairment"
             },
             {
               "id": "m4",
-              "label": "retail sales growth"
+              "label": "Free cash flow"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Leidos reports stronger earnings while quarterly cash flow falls",
+          "summary": "The government technology contractor delivered higher quarterly revenue and net income, but operating cash flow declined from the comparable period.",
+          "impact": "Program wins and volume growth support reported earnings, while working-capital timing reduced near-term cash conversion.",
+          "what": "Leidos serves defense, health, homeland security and digital infrastructure customers; the filing attributes revenue growth mainly to program wins and higher volumes, partly offset by completed contracts.",
+          "why": "Higher earnings can support investment, but operating cash flow is the more direct measure of funds available for delivery, debt service and capital allocation.",
+          "uncertainty": "Health revenue declined, and the filing says quarterly cash flow was affected by vendor-payment and payroll timing.",
+          "watch": "Bookings, segment margins, operating cash flow and the effect of the completed divestiture on later revenue.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Revenue"
             },
             {
-              "id": "m5",
-              "label": "fixed investment growth"
+              "id": "m2",
+              "label": "Revenue growth"
+            },
+            {
+              "id": "m3",
+              "label": "Net income"
+            },
+            {
+              "id": "m4",
+              "label": "Operating cash flow"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "GXO grows logistics revenue while quarterly operating cash flow declines",
+          "summary": "The contract logistics provider reported revenue growth and stronger new-business wins alongside lower quarterly operating cash flow.",
+          "impact": "Demand momentum supports outsourced warehousing activity, while the cash-flow comparison highlights a near-term funding consideration without proving a persistent operating problem.",
+          "what": "GXO manages outsourced warehousing and supply chains; the release reports organic growth, new-business wins and a record sales pipeline.",
+          "why": "Revenue growth can indicate customer outsourcing demand, but cash generation determines how comfortably the company can fund technology, debt service and shareholder returns.",
+          "uncertainty": "The release does not establish whether the cash-flow decline is temporary working-capital timing or a lasting margin issue.",
+          "watch": "Operating cash flow, pipeline conversion and the company’s strategic update.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Revenue growth"
+            },
+            {
+              "id": "m3",
+              "label": "Net income"
+            },
+            {
+              "id": "m4",
+              "label": "Operating cash flow"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Dongshan Precision reports rapid electronics growth with positive cash flow",
+          "summary": "The mainland electronics manufacturer reported sharply higher year-to-date revenue and profit alongside positive operating cash flow.",
+          "impact": "The report supports stronger demand in optical modules and AI-related circuit products, although reported profit still requires quality checks.",
+          "what": "Dongshan Precision manufactures electronic components, including optical modules and AI-PCB products, according to its quarterly report.",
+          "why": "Growth in advanced electronics can lift orders for upstream manufacturers, while operating cash flow provides a separate check on earnings quality.",
+          "uncertainty": "The report is unaudited and does not by itself establish the durability of current demand or the full recurring contribution of reported profit.",
+          "watch": "Recurring profit, customer concentration, working capital and cash conversion.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Year-to-date revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Revenue growth"
+            },
+            {
+              "id": "m3",
+              "label": "Year-to-date net income"
+            },
+            {
+              "id": "m4",
+              "label": "Year-to-date operating cash flow"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "China activity gauges point to softer demand",
+          "summary": "The official purchasing managers survey showed manufacturing and non-manufacturing activity below the expansion threshold.",
+          "impact": "Softer production and new orders may restrain factory utilization, hiring and supplier demand, increasing the importance of consumption and policy support.",
+          "what": "The official survey tracks manufacturing production, orders, employment and service activity; production and new orders weakened during the month.",
+          "why": "Purchasing managers data provide an early read on business conditions before harder output, profit and employment data arrive.",
+          "uncertainty": "Survey indexes describe direction and breadth rather than the size of changes in output or corporate earnings.",
+          "watch": "Industrial output, retail sales, company orders and the next purchasing managers survey.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Manufacturing activity index"
+            },
+            {
+              "id": "m2",
+              "label": "Manufacturing activity change"
+            },
+            {
+              "id": "m3",
+              "label": "Non-manufacturing activity index"
+            },
+            {
+              "id": "m4",
+              "label": "Manufacturing new orders index"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés ne disposent d’aucune nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
-        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
+        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Les deux indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "La croissance chinoise reste inégale entre l’industrie, la consommation et l’immobilier",
-          "summary": "La publication officielle fait état d’une activité industrielle résiliente, mais d’un investissement fixe plus faible et d’une croissance modeste des ventes au détail.",
-          "impact": "Cette combinaison favorise davantage les exportateurs et les fabricants de pointe que les entreprises liées à l’immobilier et celles tournées vers les consommateurs.",
-          "what": "La publication statistique présente ensemble la production, la production industrielle, les ventes au détail, l’investissement fixe, l’activité immobilière et le commerce extérieur, avec des détails par secteur.",
-          "why": "La vigueur de l’industrie manufacturière et des exportations peut soutenir l’utilisation des capacités des usines et la demande d’équipements, tandis que la faiblesse de l’investissement immobilier peut peser sur la construction, les matériaux et le financement local.",
-          "uncertainty": "Les agrégats nationaux masquent les différences entre les régions et les entreprises et ne permettent pas d’établir l’orientation future du soutien des pouvoirs publics.",
-          "watch": "Les prochaines données sur la production, la consommation, l’immobilier, le commerce extérieur et les prix.",
+          "id": "f1",
+          "title": "Fiserv absorbe une importante dépréciation comptable tandis que la croissance organique stagne",
+          "summary": "Le fournisseur de technologies de paiement a fait état de ventes sous-jacentes stables et d’une importante dépréciation hors trésorerie du goodwill.",
+          "impact": "La charge comptable réduit le bénéfice publié sans ponctionner directement la trésorerie, tandis qu’une génération de trésorerie plus faible pèse davantage sur la capacité d’investissement et la flexibilité financière.",
+          "what": "Fiserv fournit des services de traitement des paiements et des technologies financières ; son trimestre publié combine des revenus organiques stables, une dépréciation du goodwill et un flux de trésorerie disponible plus faible.",
+          "why": "La dépréciation est un ajustement comptable, mais la stagnation des ventes sous-jacentes et la moindre génération de trésorerie peuvent limiter le réinvestissement et les distributions.",
+          "uncertainty": "Le communiqué ne permet pas d’établir à quelle vitesse la croissance organique ou les marges opérationnelles se redresseront.",
+          "watch": "Les revenus organiques futurs, la marge opérationnelle et la génération de trésorerie.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "produit intérieur brut trimestriel"
+              "label": "Revenus ajustés"
             },
             {
               "id": "m2",
-              "label": "croissance trimestrielle"
+              "label": "Croissance des revenus organiques"
             },
             {
               "id": "m3",
-              "label": "croissance de la production industrielle"
+              "label": "Dépréciation du goodwill"
             },
             {
               "id": "m4",
-              "label": "croissance des ventes au détail"
+              "label": "Flux de trésorerie disponible"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Leidos publie des bénéfices plus élevés tandis que le flux de trésorerie trimestriel diminue",
+          "summary": "Le prestataire de technologies publiques a enregistré une hausse de ses revenus et de son bénéfice net, mais son flux de trésorerie opérationnel a reculé par rapport à la période comparable.",
+          "impact": "Les gains de contrats et la croissance des volumes soutiennent les bénéfices publiés, tandis que le calendrier du besoin en fonds de roulement a réduit la conversion en trésorerie à court terme.",
+          "what": "Leidos sert des clients de la défense, de la santé, de la sécurité intérieure et des infrastructures numériques ; le document attribue principalement la croissance des revenus aux gains de contrats et à la hausse des volumes, partiellement compensés par des contrats achevés.",
+          "why": "Des bénéfices plus élevés peuvent soutenir l’investissement, mais le flux de trésorerie opérationnel mesure plus directement les fonds disponibles pour l’exécution des contrats, le service de la dette et l’allocation du capital.",
+          "uncertainty": "Les revenus de la santé ont diminué, et le document indique que le flux de trésorerie de la période a été affecté par le calendrier des paiements aux fournisseurs et des salaires.",
+          "watch": "Les prises de commandes, les marges des segments, le flux de trésorerie opérationnel et l’effet de la cession réalisée sur les revenus ultérieurs.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Revenus"
             },
             {
-              "id": "m5",
-              "label": "croissance de l’investissement fixe"
+              "id": "m2",
+              "label": "Croissance des revenus"
+            },
+            {
+              "id": "m3",
+              "label": "Bénéfice net"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie opérationnel"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "GXO accroît ses revenus logistiques tandis que le flux de trésorerie opérationnel trimestriel recule",
+          "summary": "Le prestataire de logistique contractuelle a fait état d’une croissance des revenus et de gains commerciaux plus importants, parallèlement à une baisse du flux de trésorerie opérationnel de la période.",
+          "impact": "La dynamique de la demande soutient l’activité d’entreposage externalisée, tandis que la comparaison des flux de trésorerie met en évidence un enjeu de financement à court terme sans démontrer un problème opérationnel durable.",
+          "what": "GXO gère des entrepôts et des chaînes d’approvisionnement externalisés ; le communiqué fait état d’une croissance organique, de gains de nouveaux contrats et d’un carnet commercial record.",
+          "why": "La croissance des revenus peut signaler une demande d’externalisation de la part des clients, mais la génération de trésorerie détermine avec quelle aisance l’entreprise peut financer sa technologie, le service de sa dette et les rendements versés aux actionnaires.",
+          "uncertainty": "Le communiqué ne permet pas d’établir si la baisse du flux de trésorerie provient d’un effet temporaire du besoin en fonds de roulement ou d’un problème durable de marge.",
+          "watch": "Le flux de trésorerie opérationnel, la conversion du carnet commercial et la mise à jour stratégique de l’entreprise.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Revenus"
+            },
+            {
+              "id": "m2",
+              "label": "Croissance des revenus"
+            },
+            {
+              "id": "m3",
+              "label": "Bénéfice net"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie opérationnel"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Dongshan Precision fait état d’une forte croissance dans l’électronique et d’un flux de trésorerie positif",
+          "summary": "Le fabricant d’électronique de Chine continentale a fait état d’une forte hausse de ses revenus et de son bénéfice depuis le début de l’exercice, accompagnée d’un flux de trésorerie opérationnel positif.",
+          "impact": "Le rapport confirme une demande plus solide pour les modules optiques et les produits de circuits imprimés liés à l’intelligence artificielle, même si la qualité du bénéfice publié doit encore être examinée.",
+          "what": "Dongshan Precision fabrique des composants électroniques, notamment des modules optiques et des produits de circuits imprimés pour l’intelligence artificielle, selon son rapport périodique.",
+          "why": "La croissance de l’électronique avancée peut accroître les commandes des fabricants en amont, tandis que le flux de trésorerie opérationnel constitue une vérification distincte de la qualité des bénéfices.",
+          "uncertainty": "Le rapport n’est pas audité et ne permet pas à lui seul d’établir la durabilité de la demande actuelle ni la contribution récurrente complète du bénéfice publié.",
+          "watch": "Le bénéfice récurrent, la concentration de la clientèle, le besoin en fonds de roulement et la conversion en trésorerie.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Revenus depuis le début de l’exercice"
+            },
+            {
+              "id": "m2",
+              "label": "Croissance des revenus"
+            },
+            {
+              "id": "m3",
+              "label": "Bénéfice net depuis le début de l’exercice"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie opérationnel depuis le début de l’exercice"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "Les indicateurs d’activité en Chine signalent une demande plus faible",
+          "summary": "L’enquête officielle auprès des directeurs d’achat a montré une activité manufacturière et non manufacturière située sous le seuil d’expansion.",
+          "impact": "Une production et de nouvelles commandes plus faibles peuvent peser sur l’utilisation des capacités, l’emploi et la demande auprès des fournisseurs, ce qui renforce l’importance de la consommation et du soutien des politiques publiques.",
+          "what": "L’enquête officielle suit la production manufacturière, les commandes, l’emploi et l’activité des services ; la production et les nouvelles commandes se sont affaiblies au cours du mois.",
+          "why": "Les données des directeurs d’achat fournissent une première indication des conditions des entreprises avant la publication de données plus concrètes sur la production, les bénéfices et l’emploi.",
+          "uncertainty": "Les indices d’enquête décrivent la direction et l’étendue des évolutions, plutôt que leur ampleur en matière de production ou de bénéfices des entreprises.",
+          "watch": "La production industrielle, les ventes au détail, les commandes des entreprises et la prochaine enquête auprès des directeurs d’achat.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Indice d’activité manufacturière"
+            },
+            {
+              "id": "m2",
+              "label": "Variation de l’activité manufacturière"
+            },
+            {
+              "id": "m3",
+              "label": "Indice d’activité non manufacturière"
+            },
+            {
+              "id": "m4",
+              "label": "Indice des nouvelles commandes manufacturières"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的覆盖范围有限。部分市场没有经核实的新故事；有日期的报告仍会明确标注其日期。",
+      "status": "本期涵盖美国和中国市场动态。请核对每则内容的发布日期；近期公司报告作为背景解读呈现。",
       "marketSummary": {
-        "us": "部分收盘观察未能核实。每个可用指数均保留其自身的交易日期。",
-        "cn": "部分收盘观察未能核实。每个可用指数均保留其自身的交易日期。"
+        "us": "部分收盘观察未能核实。每项可用指数均保留其自身交易日期。",
+        "cn": "所跟踪指数在最近核实的交易时段均上涨。带日期的收盘数据仅描述相应交易时段，不代表当前交易情况。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "中国经济增长在行业、消费和房地产之间仍不均衡",
-          "summary": "官方发布显示，工业活动具有韧性，但固定资产投资较弱，零售增长温和。",
-          "impact": "这种组合更有利于出口商和先进制造商，而不是房地产相关企业和面向消费者的企业。",
-          "what": "统计数据发布同时报告了产出、工业生产、零售销售、固定资产投资、房地产活动和贸易，并提供行业细节。",
-          "why": "制造业和出口的强劲表现可以支持工厂产能利用率和设备需求，而房地产投资疲弱可能拖累建筑、建材和地方融资。",
-          "uncertainty": "全国汇总数据掩盖了地区和企业层面的差异，也不能确定未来政策支持的路径。",
-          "watch": "后续的生产、消费、房地产、贸易和价格数据。",
+          "id": "f1",
+          "title": "Fiserv计提大额会计减值，有机增长停滞",
+          "summary": "这家支付技术服务商报告底层销售持平，并计提大额非现金商誉减值。",
+          "impact": "该会计费用会降低报告利润，但不会直接消耗现金；现金生成能力走弱则会更直接地影响投资能力和财务灵活性。",
+          "what": "Fiserv提供支付处理和金融科技服务；其报告期业绩显示有机营收持平，同时出现商誉减值和自由现金流下降。",
+          "why": "减值属于会计调整，但底层销售停滞和现金生成能力减弱可能限制再投资和分配。",
+          "uncertainty": "公告未说明有机增长或经营利润率需要多久才能恢复。",
+          "watch": "未来有机营收、经营利润率和现金生成。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度国内生产总值"
+              "label": "调整后营收"
             },
             {
               "id": "m2",
-              "label": "季度增长"
+              "label": "有机营收增长"
             },
             {
               "id": "m3",
-              "label": "工业生产增速"
+              "label": "商誉减值"
             },
             {
               "id": "m4",
-              "label": "零售销售增速"
+              "label": "自由现金流"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Leidos盈利增强，但季度现金流下降",
+          "summary": "这家政府技术承包商实现季度营收和净利润增长，但经营现金流较可比期间下降。",
+          "impact": "项目中标和业务量增长支持报告利润，而营运资本时点因素削弱了近期现金转换。",
+          "what": "Leidos服务国防、医疗、国土安全和数字基础设施客户；文件称营收增长主要来自项目中标和业务量增加，但部分被已完成合同抵消。",
+          "why": "利润增加有助于支持投资，但经营现金流更直接反映可用于交付、偿债和资本配置的资金。",
+          "uncertainty": "医疗业务营收下降，文件称季度现金流受到供应商付款和薪资支付时点的影响。",
+          "watch": "订单、分部利润率、经营现金流，以及已完成剥离对后续营收的影响。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "营收"
             },
             {
-              "id": "m5",
-              "label": "固定资产投资增速"
+              "id": "m2",
+              "label": "营收增长"
+            },
+            {
+              "id": "m3",
+              "label": "净利润"
+            },
+            {
+              "id": "m4",
+              "label": "经营现金流"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "GXO物流营收增长，但季度经营现金流下降",
+          "summary": "这家合同物流服务商报告营收增长和更强的新业务中标，同时季度经营现金流下降。",
+          "impact": "需求动能支持外包仓储业务，而现金流对比突显近期资金方面的考量，但尚不能证明存在持续性的经营问题。",
+          "what": "GXO管理外包仓储和供应链；公告披露有机增长、新业务中标以及创纪录的销售 pipeline。",
+          "why": "营收增长可能反映客户对外包服务的需求，但现金生成能力决定公司为技术投入、偿债和股东回报提供资金的从容程度。",
+          "uncertainty": "公告未说明现金流下降是暂时性的营运资本时点因素，还是持久的利润率问题。",
+          "watch": "经营现金流、销售 pipeline 转化，以及公司的战略更新。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "营收"
+            },
+            {
+              "id": "m2",
+              "label": "营收增长"
+            },
+            {
+              "id": "m3",
+              "label": "净利润"
+            },
+            {
+              "id": "m4",
+              "label": "经营现金流"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "东山精密电子业务快速增长，并实现正现金流",
+          "summary": "这家中国大陆电子制造商报告期内营收和利润大幅增长，同时经营现金流为正。",
+          "impact": "报告支持光模块和人工智能相关电路产品需求增强的判断，但报告利润仍需进行质量核查。",
+          "what": "根据季度报告，东山精密制造包括光模块和人工智能印制电路板产品在内的电子元件。",
+          "why": "先进电子产品增长可能提振上游制造商订单，而经营现金流可作为检验利润质量的另一项依据。",
+          "uncertainty": "该报告未经审计，单凭报告无法确认当前需求的持续性，也无法确认报告利润中完整的经常性贡献。",
+          "watch": "经常性利润、客户集中度、营运资本和现金转换。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "期内营收"
+            },
+            {
+              "id": "m2",
+              "label": "营收增长"
+            },
+            {
+              "id": "m3",
+              "label": "期内净利润"
+            },
+            {
+              "id": "m4",
+              "label": "期内经营现金流"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "中国经济活动指标显示需求走弱",
+          "summary": "官方采购经理调查显示，制造业和非制造业活动均低于扩张临界水平。",
+          "impact": "生产和新订单走弱可能限制工厂产能利用率、招聘和供应商需求，从而提升消费和政策支持的重要性。",
+          "what": "官方调查跟踪制造业生产、订单、就业和服务业活动；生产和新订单在当月走弱。",
+          "why": "采购经理数据可在更硬的产出、利润和就业数据公布前，提供对商业状况的早期观察。",
+          "uncertainty": "调查指数描述变化方向和广度，而不是产出或企业盈利的变化幅度。",
+          "watch": "工业增加值、零售销售、企业订单和下一次采购经理调查。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "制造业活动指数"
+            },
+            {
+              "id": "m2",
+              "label": "制造业活动变化"
+            },
+            {
+              "id": "m3",
+              "label": "非制造业活动指数"
+            },
+            {
+              "id": "m4",
+              "label": "制造业新订单指数"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes fechados siguen claramente identificados.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Compruebe la fecha de publicación de cada artículo; los informes empresariales recientes se presentan como contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunas observaciones de cierre. Cada índice disponible conserva su propia fecha de negociación.",
-        "cn": "No se pudieron verificar algunas observaciones de cierre. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de cotización.",
+        "cn": "Ambos índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "El crecimiento de China sigue siendo desigual entre la industria, el consumo y el sector inmobiliario",
-          "summary": "El comunicado oficial muestra una actividad industrial resistente, pero una inversión fija más débil y un crecimiento moderado de las ventas minoristas.",
-          "impact": "Esta combinación favorece más a los exportadores y a los fabricantes avanzados que a las empresas vinculadas al sector inmobiliario y a las orientadas al consumidor.",
-          "what": "El comunicado estadístico presenta conjuntamente la producción, la producción industrial, las ventas minoristas, la inversión fija, la actividad inmobiliaria y el comercio, con detalles por sector.",
-          "why": "La fortaleza manufacturera y exportadora puede respaldar la utilización de las fábricas y la demanda de equipos, mientras que la debilidad de la inversión inmobiliaria puede pesar sobre la construcción, los materiales y la financiación local.",
-          "uncertainty": "Los agregados nacionales ocultan diferencias regionales y entre empresas, y no establecen la trayectoria futura del apoyo de las políticas públicas.",
-          "watch": "Los próximos datos de producción, consumo, sector inmobiliario, comercio y precios.",
+          "id": "f1",
+          "title": "Fiserv absorbe un gran deterioro contable mientras se estanca el crecimiento orgánico",
+          "summary": "El proveedor de tecnología de pagos informó ventas subyacentes planas y una gran amortización no monetaria del fondo de comercio.",
+          "impact": "El cargo contable reduce el beneficio informado sin consumir efectivo directamente, mientras que una menor generación de efectivo afecta más directamente a la capacidad de inversión y la flexibilidad financiera.",
+          "what": "Fiserv ofrece procesamiento de pagos y tecnología financiera; su trimestre informado combinó ingresos orgánicos planos con un deterioro del fondo de comercio y un menor flujo de caja libre.",
+          "why": "El deterioro es un ajuste contable, pero las ventas subyacentes estancadas y una menor generación de efectivo pueden limitar la reinversión y las distribuciones.",
+          "uncertainty": "El comunicado no establece con qué rapidez se recuperarán el crecimiento orgánico o los márgenes operativos.",
+          "watch": "Ingresos orgánicos futuros, margen operativo y generación de efectivo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "producto interno bruto trimestral"
+              "label": "Ingresos ajustados"
             },
             {
               "id": "m2",
-              "label": "crecimiento trimestral"
+              "label": "Crecimiento de los ingresos orgánicos"
             },
             {
               "id": "m3",
-              "label": "crecimiento de la producción industrial"
+              "label": "Deterioro del fondo de comercio"
             },
             {
               "id": "m4",
-              "label": "crecimiento de las ventas minoristas"
+              "label": "Flujo de caja libre"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Leidos informa de mayores beneficios mientras cae el flujo de caja trimestral",
+          "summary": "El contratista de tecnología gubernamental logró mayores ingresos y beneficio neto trimestrales, pero el flujo de caja operativo disminuyó frente al periodo comparable.",
+          "impact": "Las adjudicaciones de programas y el crecimiento del volumen respaldan los beneficios informados, mientras que el calendario del capital circulante redujo la conversión de beneficios en efectivo a corto plazo.",
+          "what": "Leidos presta servicios a clientes de defensa, salud, seguridad nacional e infraestructura digital; el informe atribuye principalmente el crecimiento de los ingresos a nuevas adjudicaciones y mayores volúmenes, parcialmente compensados por contratos finalizados.",
+          "why": "Unos mayores beneficios pueden respaldar la inversión, pero el flujo de caja operativo mide más directamente los fondos disponibles para prestar servicios, pagar deuda y asignar capital.",
+          "uncertainty": "Los ingresos de salud disminuyeron, y el informe señala que el flujo de caja trimestral se vio afectado por el calendario de pagos a proveedores y nóminas.",
+          "watch": "Contrataciones, márgenes por segmento, flujo de caja operativo y efecto de la desinversión completada sobre los ingresos posteriores.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos"
             },
             {
-              "id": "m5",
-              "label": "crecimiento de la inversión fija"
+              "id": "m2",
+              "label": "Crecimiento de los ingresos"
+            },
+            {
+              "id": "m3",
+              "label": "Beneficio neto"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de caja operativo"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "GXO aumenta sus ingresos logísticos mientras disminuye el flujo de caja operativo trimestral",
+          "summary": "El proveedor de logística por contrato informó crecimiento de los ingresos y mayores adjudicaciones de nuevos negocios, junto con un menor flujo de caja operativo trimestral.",
+          "impact": "El impulso de la demanda respalda la actividad de almacenamiento externalizado, mientras que la comparación del flujo de caja señala una consideración de financiación a corto plazo sin demostrar un problema operativo persistente.",
+          "what": "GXO gestiona almacenes y cadenas de suministro externalizados; el comunicado informa de crecimiento orgánico, nuevas adjudicaciones y una cartera de ventas récord.",
+          "why": "El crecimiento de los ingresos puede indicar demanda de externalización por parte de los clientes, pero la generación de efectivo determina con qué comodidad la empresa puede financiar tecnología, pagar deuda y ofrecer retornos a los accionistas.",
+          "uncertainty": "El comunicado no establece si la disminución del flujo de caja se debe a un efecto temporal del capital circulante o a un problema duradero de márgenes.",
+          "watch": "Flujo de caja operativo, conversión de la cartera y actualización estratégica de la empresa.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos"
+            },
+            {
+              "id": "m2",
+              "label": "Crecimiento de los ingresos"
+            },
+            {
+              "id": "m3",
+              "label": "Beneficio neto"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de caja operativo"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Dongshan Precision informa de un rápido crecimiento electrónico con flujo de caja positivo",
+          "summary": "El fabricante de productos electrónicos de China continental informó de un fuerte aumento de los ingresos y beneficios acumulados del año, junto con un flujo de caja operativo positivo.",
+          "impact": "El informe respalda una mayor demanda de módulos ópticos y productos de circuitos relacionados con la inteligencia artificial, aunque el beneficio informado aún requiere comprobaciones de calidad.",
+          "what": "Dongshan Precision fabrica componentes electrónicos, incluidos módulos ópticos y productos de placas de circuito impreso para inteligencia artificial, según su informe trimestral.",
+          "why": "El crecimiento de la electrónica avanzada puede aumentar los pedidos de los fabricantes de componentes, mientras que el flujo de caja operativo ofrece una comprobación independiente de la calidad de los beneficios.",
+          "uncertainty": "El informe no está auditado y, por sí solo, no establece la durabilidad de la demanda actual ni la contribución recurrente total del beneficio informado.",
+          "watch": "Beneficio recurrente, concentración de clientes, capital circulante y conversión de efectivo.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos acumulados del año"
+            },
+            {
+              "id": "m2",
+              "label": "Crecimiento de los ingresos"
+            },
+            {
+              "id": "m3",
+              "label": "Beneficio neto acumulado del año"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de caja operativo acumulado del año"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "Los indicadores de actividad de China apuntan a una demanda más débil",
+          "summary": "La encuesta oficial de gerentes de compras mostró que la actividad manufacturera y no manufacturera se situó por debajo del umbral de expansión.",
+          "impact": "Una menor producción y menos pedidos nuevos pueden frenar la utilización de las fábricas, la contratación y la demanda de proveedores, aumentando la importancia del consumo y del apoyo de las políticas públicas.",
+          "what": "La encuesta oficial sigue la producción manufacturera, los pedidos, el empleo y la actividad de servicios; la producción y los nuevos pedidos se debilitaron durante el mes.",
+          "why": "Los datos de gerentes de compras ofrecen una lectura temprana de las condiciones empresariales antes de que lleguen datos más concretos sobre producción, beneficios y empleo.",
+          "uncertainty": "Los índices de la encuesta describen la dirección y la amplitud de los cambios, no su magnitud en la producción o los beneficios empresariales.",
+          "watch": "Producción industrial, ventas minoristas, pedidos empresariales y la próxima encuesta de gerentes de compras.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Índice de actividad manufacturera"
+            },
+            {
+              "id": "m2",
+              "label": "Cambio de la actividad manufacturera"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de actividad no manufacturera"
+            },
+            {
+              "id": "m4",
+              "label": "Índice de nuevos pedidos manufactureros"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版では、検証済みの情報が限られています。一部の市場では、検証済みの新しいニュースがありません。過去の日付の報告は、日付を明確に示しています。",
+      "status": "この版では、米国と中国の動きを扱います。各記事の公表日を確認してください。最近の企業報告は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "一部の終値は検証できませんでした。確認できる各指数には、それぞれの取引日が付されています。",
-        "cn": "一部の終値は検証できませんでした。確認できる各指数には、それぞれの取引日が付されています。"
+        "us": "一部の終値に関する記述は確認できませんでした。確認できた各指数には、それぞれの取引日が付されています。",
+        "cn": "追跡している両指数は、直近に確認できた取引で上昇しました。記載された終値は該当する取引日のもので、現在の取引を示すものではありません。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "中国の成長は産業、消費、不動産の間でなおばらつきがある",
-          "summary": "公式発表によると、産業活動は底堅い一方、固定資産投資は弱く、小売売上高の伸びも小幅でした。",
-          "impact": "この組み合わせは、不動産関連企業や消費者向け企業よりも、輸出企業や先端製造業に有利です。",
-          "what": "統計発表では、生産、工業生産、小売売上高、固定資産投資、不動産活動、貿易について、部門別の詳細とともに示されています。",
-          "why": "製造業と輸出の強さは、工場の稼働率や設備需要を支える可能性があります。一方、不動産投資の弱さは、建設、素材、地方の資金調達に重しとなる可能性があります。",
-          "uncertainty": "全国集計では地域や企業ごとの違いが見えにくく、政策支援の今後の方向性も示すものではありません。",
-          "watch": "今後発表される生産、消費、不動産、貿易、物価のデータ。",
+          "id": "f1",
+          "title": "フィサーブ、基礎的な成長が停滞するなか大規模な会計上の減損を計上",
+          "summary": "決済テクノロジー企業は、基礎的な売上高が横ばいとなり、大規模な非現金ののれん減損を計上しました。",
+          "impact": "この会計上の費用は、現金を直接消費せずに報告利益を押し下げます。一方、現金創出力の低下は、投資余力や財務上の柔軟性により直接的な影響を及ぼします。",
+          "what": "フィサーブは決済処理と金融テクノロジーを提供しています。今回の四半期報告では、基礎的な売上高が横ばいとなる一方、のれん減損とフリーキャッシュフローの減少が示されました。",
+          "why": "減損は会計上の調整ですが、基礎的な売上高の停滞と現金創出力の低下は、再投資や株主還元を制約する可能性があります。",
+          "uncertainty": "基礎的な成長や営業利益率がどの程度の速さで回復するかは、この発表だけでは明らかになっていません。",
+          "watch": "今後の基礎的な売上高、営業利益率、現金創出力。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期国内総生産"
+              "label": "調整後売上高"
             },
             {
               "id": "m2",
-              "label": "四半期成長率"
+              "label": "基礎的な売上高の成長率"
             },
             {
               "id": "m3",
-              "label": "工業生産成長率"
+              "label": "のれん減損"
             },
             {
               "id": "m4",
-              "label": "小売売上高成長率"
-            },
-            {
-              "id": "m5",
-              "label": "固定資産投資成長率"
+              "label": "フリーキャッシュフロー"
             }
           ]
-        }
-      ]
-    },
-    "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
-      "marketSummary": {
-        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação.",
-        "cn": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação."
-      },
-      "stories": [
+        },
         {
-          "id": "f4",
-          "title": "O crescimento da China continua desigual entre indústria, consumo e imóveis",
-          "summary": "A divulgação oficial mostra atividade industrial resiliente, mas investimento fixo mais fraco e crescimento moderado das vendas no varejo.",
-          "impact": "Essa combinação favorece mais as exportadoras e as fabricantes avançadas do que as empresas ligadas ao setor imobiliário e as voltadas ao consumidor.",
-          "what": "A divulgação estatística apresenta conjuntamente produção, produção industrial, vendas no varejo, investimento fixo, atividade imobiliária e comércio, com detalhes por setor.",
-          "why": "A força da indústria e das exportações pode sustentar a utilização das fábricas e a demanda por equipamentos, enquanto o fraco investimento imobiliário pode pressionar a construção, os materiais e o financiamento local.",
-          "uncertainty": "Os agregados nacionais escondem diferenças regionais e entre empresas e não determinam a trajetória futura do apoio às políticas públicas.",
-          "watch": "Próximos dados de produção, consumo, imóveis, comércio e preços.",
+          "id": "f2",
+          "title": "レイドス、四半期の営業キャッシュフローが減少する一方で増益",
+          "summary": "政府向けテクノロジー請負企業の四半期売上高と純利益は増加しましたが、営業キャッシュフローは比較対象期間から減少しました。",
+          "impact": "受注獲得と取扱量の増加は報告利益を支えましたが、運転資本の計上時期が短期的な現金化を押し下げました。",
+          "what": "レイドスは防衛、医療、国土安全保障、デジタルインフラの顧客にサービスを提供しています。提出資料では、売上高の増加は主に受注獲得と取扱量の増加によるもので、完了した契約による減少が一部相殺したと説明されています。",
+          "why": "利益の増加は投資を支え得ますが、営業キャッシュフローは、サービス提供、債務返済、資本配分に使える資金をより直接的に示します。",
+          "uncertainty": "医療関連の売上高は減少しました。また提出資料によると、四半期のキャッシュフローは、取引先への支払いと給与の時期の影響を受けました。",
+          "watch": "受注高、部門別利益率、営業キャッシュフロー、完了した事業売却がその後の売上高に与える影響。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "produto interno bruto trimestral"
+              "label": "売上高"
             },
             {
               "id": "m2",
-              "label": "crescimento trimestral"
+              "label": "売上高成長率"
             },
             {
               "id": "m3",
-              "label": "crescimento da produção industrial"
+              "label": "純利益"
             },
             {
               "id": "m4",
-              "label": "crescimento das vendas no varejo"
+              "label": "営業キャッシュフロー"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "ジーエックスオー、四半期の営業キャッシュフローが減少するなか物流売上高が増加",
+          "summary": "契約物流企業は、売上高の増加と新規事業の受注拡大を報告する一方、四半期の営業キャッシュフローは減少しました。",
+          "impact": "需要の勢いは物流業務の外部委託を支えますが、キャッシュフローの比較は、短期的な資金面での考慮事項を示します。ただし、持続的な事業上の問題を証明するものではありません。",
+          "what": "ジーエックスオーは、外部委託された倉庫業務とサプライチェーンを管理しています。発表では、基礎的な成長、新規事業の受注、過去最高の営業案件パイプラインが報告されています。",
+          "why": "売上高の増加は顧客の物流外部委託需要を示す可能性がありますが、現金創出力が、技術投資、債務返済、株主還元をどれだけ無理なく賄えるかを決めます。",
+          "uncertainty": "キャッシュフローの減少が一時的な運転資本の計上時期によるものか、持続的な利益率の問題かは、発表だけでは明らかになっていません。",
+          "watch": "営業キャッシュフロー、案件パイプラインの成約、会社の戦略更新。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "売上高"
             },
             {
-              "id": "m5",
-              "label": "crescimento do investimento fixo"
+              "id": "m2",
+              "label": "売上高成長率"
+            },
+            {
+              "id": "m3",
+              "label": "純利益"
+            },
+            {
+              "id": "m4",
+              "label": "営業キャッシュフロー"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "東山精密、営業キャッシュフローを確保しながら電子部品事業が急成長",
+          "summary": "中国本土の電子部品メーカーは、年初来の売上高と利益が大幅に増加し、営業キャッシュフローもプラスになったと報告しました。",
+          "impact": "この報告は、光モジュールや人工知能関連の回路製品に対する需要の強さを示していますが、報告利益の質についてはなお確認が必要です。",
+          "what": "東山精密は、四半期報告によると、光モジュールや人工知能向けプリント基板製品を含む電子部品を製造しています。",
+          "why": "先端電子機器の成長は、上流のメーカーの受注を押し上げる可能性があります。一方、営業キャッシュフローは利益の質を別の角度から確認する材料になります。",
+          "uncertainty": "この報告は未監査であり、現在の需要が続くか、報告利益のうち継続的に得られる部分がどの程度あるかは、それだけでは明らかになっていません。",
+          "watch": "継続的な利益、顧客集中度、運転資本、現金化。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "年初来売上高"
+            },
+            {
+              "id": "m2",
+              "label": "売上高成長率"
+            },
+            {
+              "id": "m3",
+              "label": "年初来純利益"
+            },
+            {
+              "id": "m4",
+              "label": "年初来営業キャッシュフロー"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "中国の景況感指標、需要の軟化を示す",
+          "summary": "政府の購買担当者景気指数調査では、製造業と非製造業の活動が景気拡大の境目を下回りました。",
+          "impact": "生産と新規受注の軟化は、工場稼働率、雇用、サプライヤー需要を抑える可能性があり、消費と政策支援の重要性を高めます。",
+          "what": "政府の調査は、製造業の生産、受注、雇用、サービス活動を追跡しています。調査対象月には、生産と新規受注が弱まりました。",
+          "why": "購買担当者景気指数は、より確定的な生産、利益、雇用のデータが発表される前に、企業活動を早期に把握する手掛かりになります。",
+          "uncertainty": "調査指数は変化の方向と広がりを示すもので、生産高や企業利益の変化の大きさを示すものではありません。",
+          "watch": "鉱工業生産、小売売上高、企業の受注、次回の購買担当者景気指数調査。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "製造業活動指数"
+            },
+            {
+              "id": "m2",
+              "label": "製造業活動の変化"
+            },
+            {
+              "id": "m3",
+              "label": "非製造業活動指数"
+            },
+            {
+              "id": "m4",
+              "label": "製造業新規受注指数"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期已驗證的報導涵蓋有限。部分市場沒有已驗證的新消息；有日期的報告仍清楚標示。",
+      "status": "本期涵蓋美國與中國發展。請查看各篇發布日期；近期公司報告以背景解讀呈現。",
       "marketSummary": {
-        "us": "部分收盤觀察無法驗證。每個可取得的指數仍保留各自的交易日期。",
-        "cn": "部分收盤觀察無法驗證。每個可取得的指數仍保留各自的交易日期。"
+        "us": "部分收盤觀察無法驗證。每個可用指數均保留自身交易日期。",
+        "cn": "追蹤的兩個指數在最近可驗證交易時段均上漲。標示日期的收盤數據描述的是那些交易時段，而非目前交易情況。"
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "中國經濟成長在工業、消費與房地產之間仍不均衡",
-          "summary": "官方發布顯示工業活動具韌性，但固定資產投資較弱，零售成長溫和。",
-          "impact": "這種組合較有利於出口商與先進製造商，而不是與房地產相關的企業及面向消費者的公司。",
-          "what": "統計發布一併公布產出、工業生產、零售銷售、固定資產投資、房地產活動與貿易資料，以及各產業的詳細資訊。",
-          "why": "製造業與出口的強勁表現可支撐工廠產能利用率與設備需求；房地產投資疲弱則可能拖累營建、原材料與地方融資。",
-          "uncertainty": "全國總體數據掩蓋了地區與公司層面的差異，也無法確定政策支持未來的方向。",
-          "watch": "後續的生產、消費、房地產、貿易與價格數據。",
+          "id": "f1",
+          "title": "Fiserv 吸收大型會計減損，有機成長停滯",
+          "summary": "這家支付科技供應商公布基礎銷售持平，並提列大型非現金商譽減損。",
+          "impact": "這項會計費用會降低帳面獲利，但不會直接消耗現金；現金創造能力減弱，則更直接影響投資能力與財務彈性。",
+          "what": "Fiserv 提供支付處理與金融科技服務；其公布的季度業績同時呈現有機營收持平、商譽減損及自由現金流下降。",
+          "why": "減損是會計調整，但基礎銷售停滯與現金創造能力減弱，可能限制再投資與資金分配。",
+          "uncertainty": "公告未說明有機成長或營業利益率會以多快速度恢復。",
+          "watch": "未來有機營收、營業利益率與現金創造能力。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度國內生產毛額"
+              "label": "調整後營收"
             },
             {
               "id": "m2",
-              "label": "季度成長率"
+              "label": "有機營收成長"
             },
             {
               "id": "m3",
-              "label": "工業生產成長率"
+              "label": "商譽減損"
             },
             {
               "id": "m4",
-              "label": "零售銷售成長率"
+              "label": "自由現金流"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Leidos 獲利增強，但季度現金流下降",
+          "summary": "這家政府科技承包商公布季度營收與淨利增加，但營業現金流較可比期間下降。",
+          "impact": "專案得標與業務量成長支持帳面獲利，但營運資金時點使近期現金轉換減弱。",
+          "what": "Leidos 為國防、醫療、國土安全與數位基礎設施客戶提供服務；文件指出，營收成長主要來自專案得標與業務量增加，但部分被已完成的合約抵銷。",
+          "why": "較高的獲利可支持投資，但營業現金流更直接反映可用於履約、償債與資金配置的資金。",
+          "uncertainty": "醫療營收下降，且文件表示季度現金流受到供應商付款與薪資支付時點影響。",
+          "watch": "訂單、部門利益率、營業現金流，以及已完成分拆對後續營收的影響。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "營收"
             },
             {
-              "id": "m5",
-              "label": "固定資產投資成長率"
+              "id": "m2",
+              "label": "營收成長"
+            },
+            {
+              "id": "m3",
+              "label": "淨利"
+            },
+            {
+              "id": "m4",
+              "label": "營業現金流"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "GXO 物流營收成長，但季度營業現金流下降",
+          "summary": "這家合約物流供應商公布營收成長與更強勁的新業務得標，同時季度營業現金流下降。",
+          "impact": "需求動能支持外包倉儲活動，但現金流比較凸顯近期資金考量，不能據此證明存在持續性的營運問題。",
+          "what": "GXO 管理外包倉儲與供應鏈；公告公布有機成長、新業務得標及創紀錄的銷售管道。",
+          "why": "營收成長可能反映客戶的外包需求，但現金創造能力決定公司能否更從容地投入科技、償債及回饋股東。",
+          "uncertainty": "公告未說明現金流下降是暫時性的營運資金時點因素，還是持續性的利益率問題。",
+          "watch": "營業現金流、銷售管道轉換，以及公司的策略更新。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "營收"
+            },
+            {
+              "id": "m2",
+              "label": "營收成長"
+            },
+            {
+              "id": "m3",
+              "label": "淨利"
+            },
+            {
+              "id": "m4",
+              "label": "營業現金流"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "東山精密公布電子業務快速成長，現金流為正",
+          "summary": "這家中國大陸電子製造商公布年初至今營收與獲利大幅增加，營業現金流也為正。",
+          "impact": "報告支持光學模組與人工智慧相關電路產品需求增強，但公布的獲利仍需檢視品質。",
+          "what": "根據季度報告，東山精密製造電子零組件，包括光學模組與人工智慧電路板產品。",
+          "why": "先進電子產品成長可能提高上游製造商的訂單，而營業現金流則可從另一角度檢視獲利品質。",
+          "uncertainty": "報告未經審計，單憑此報告無法確定目前需求的持續性，或公布獲利中可持續性部分的完整貢獻。",
+          "watch": "經常性獲利、客戶集中度、營運資金與現金轉換。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "年初至今營收"
+            },
+            {
+              "id": "m2",
+              "label": "營收成長"
+            },
+            {
+              "id": "m3",
+              "label": "年初至今淨利"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今營業現金流"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "中國經濟活動指標顯示需求轉弱",
+          "summary": "官方採購經理人調查顯示，製造業與非製造業活動低於擴張門檻。",
+          "impact": "生產與新訂單轉弱可能抑制工廠利用率、招聘與供應商需求，使消費與政策支持的重要性提高。",
+          "what": "官方調查追蹤製造業生產、訂單、就業與服務業活動；當月生產與新訂單轉弱。",
+          "why": "採購經理人數據可在更完整的產出、獲利與就業數據公布前，提供企業環境的早期判斷。",
+          "uncertainty": "調查指數描述變化方向與廣度，而非產出或企業獲利的變化幅度。",
+          "watch": "工業生產、零售銷售、企業訂單與下一次採購經理人調查。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "製造業活動指數"
+            },
+            {
+              "id": "m2",
+              "label": "製造業活動變化"
+            },
+            {
+              "id": "m3",
+              "label": "非製造業活動指數"
+            },
+            {
+              "id": "m4",
+              "label": "製造業新訂單指數"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
+      "marketSummary": {
+        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Os índices acompanhados subiram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não a negociação atual."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "A Fiserv absorve uma grande perda contábil por impairment enquanto o crescimento orgânico estagna",
+          "summary": "A provedora de tecnologia de pagamentos informou vendas subjacentes estáveis e uma grande redução não monetária no valor do goodwill.",
+          "impact": "A despesa contábil reduz o lucro divulgado sem consumir caixa diretamente, enquanto a geração de caixa mais fraca afeta de forma mais direta a capacidade de investimento e a flexibilidade financeira.",
+          "what": "A Fiserv fornece processamento de pagamentos e tecnologia financeira; o trimestre divulgado combinou receita orgânica estável com impairment do goodwill e menor fluxo de caixa livre.",
+          "why": "O impairment é um ajuste contábil, mas vendas subjacentes estagnadas e menor geração de caixa podem limitar o reinvestimento e as distribuições.",
+          "uncertainty": "O comunicado não esclarece com que rapidez o crescimento orgânico ou as margens operacionais irão se recuperar.",
+          "watch": "Receita orgânica futura, margem operacional e geração de caixa.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita ajustada"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento da receita orgânica"
+            },
+            {
+              "id": "m3",
+              "label": "Impairment do goodwill"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa livre"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "A Leidos informa lucro mais forte enquanto o fluxo de caixa trimestral cai",
+          "summary": "A contratada de tecnologia governamental registrou maior receita e lucro líquido no trimestre, mas o fluxo de caixa operacional diminuiu em relação ao período comparável.",
+          "impact": "Novos contratos e crescimento de volume sustentam o lucro divulgado, enquanto o momento do capital de giro reduziu a conversão de lucro em caixa no curto prazo.",
+          "what": "A Leidos atende clientes de defesa, saúde, segurança interna e infraestrutura digital; o documento atribui o crescimento da receita principalmente a novos contratos e volumes maiores, parcialmente compensados por contratos concluídos.",
+          "why": "Lucros maiores podem apoiar investimentos, mas o fluxo de caixa operacional é a medida mais direta dos recursos disponíveis para execução, serviço da dívida e alocação de capital.",
+          "uncertainty": "A receita de saúde caiu, e o documento afirma que o fluxo de caixa trimestral foi afetado pelo momento dos pagamentos a fornecedores e da folha de pagamento.",
+          "watch": "Novos contratos, margens dos segmentos, fluxo de caixa operacional e o efeito do desinvestimento concluído sobre a receita futura.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento da receita"
+            },
+            {
+              "id": "m3",
+              "label": "Lucro líquido"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "A GXO amplia a receita logística enquanto o fluxo de caixa operacional trimestral diminui",
+          "summary": "A provedora de logística contratada registrou crescimento da receita e conquistas mais fortes de novos negócios, junto com menor fluxo de caixa operacional no trimestre.",
+          "impact": "O impulso da demanda apoia as atividades de armazenagem terceirizada, enquanto a comparação do fluxo de caixa destaca uma consideração de financiamento de curto prazo sem comprovar um problema operacional persistente.",
+          "what": "A GXO administra armazenagem e cadeias de suprimentos terceirizadas; o comunicado relata crescimento orgânico, conquistas de novos negócios e um volume recorde de oportunidades de vendas.",
+          "why": "O crescimento da receita pode indicar demanda dos clientes por terceirização, mas a geração de caixa determina com que conforto a empresa pode financiar tecnologia, serviço da dívida e retornos aos acionistas.",
+          "uncertainty": "O comunicado não esclarece se a queda do fluxo de caixa decorre de um efeito temporário do capital de giro ou de um problema duradouro de margem.",
+          "watch": "Fluxo de caixa operacional, conversão das oportunidades de vendas e a atualização estratégica da empresa.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento da receita"
+            },
+            {
+              "id": "m3",
+              "label": "Lucro líquido"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "A Dongshan Precision informa crescimento acelerado no setor eletrônico com fluxo de caixa positivo",
+          "summary": "A fabricante de eletrônicos da China continental informou receita e lucro acumulados no ano significativamente maiores, junto com fluxo de caixa operacional positivo.",
+          "impact": "O relatório sustenta a visão de uma demanda mais forte por módulos ópticos e produtos de circuitos relacionados à inteligência artificial, embora o lucro divulgado ainda exija verificações de qualidade.",
+          "what": "A Dongshan Precision fabrica componentes eletrônicos, incluindo módulos ópticos e produtos de placas de circuito impresso para inteligência artificial, segundo seu relatório trimestral.",
+          "why": "O crescimento em eletrônicos avançados pode aumentar os pedidos para fabricantes de componentes, enquanto o fluxo de caixa operacional oferece uma verificação independente da qualidade do lucro.",
+          "uncertainty": "O relatório não foi auditado e, por si só, não comprova a durabilidade da demanda atual nem a contribuição recorrente total do lucro divulgado.",
+          "watch": "Lucro recorrente, concentração de clientes, capital de giro e conversão de caixa.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita acumulada no ano"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento da receita"
+            },
+            {
+              "id": "m3",
+              "label": "Lucro líquido acumulado no ano"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional acumulado no ano"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "Indicadores de atividade da China apontam para uma demanda mais fraca",
+          "summary": "A pesquisa oficial com gestores de compras mostrou atividade industrial e não industrial abaixo do limiar de expansão.",
+          "impact": "Produção e novos pedidos mais fracos podem limitar a utilização das fábricas, as contratações e a demanda dos fornecedores, aumentando a importância do consumo e do apoio das políticas públicas.",
+          "what": "A pesquisa oficial acompanha produção industrial, pedidos, emprego e atividade de serviços; a produção e os novos pedidos enfraqueceram durante o mês.",
+          "why": "Os dados dos gestores de compras oferecem uma leitura antecipada das condições empresariais, antes da divulgação de dados mais concretos sobre produção, lucro e emprego.",
+          "uncertainty": "Os índices da pesquisa descrevem direção e abrangência, não o tamanho das mudanças na produção ou nos lucros empresariais.",
+          "watch": "Produção industrial, vendas no varejo, pedidos das empresas e a próxima pesquisa com gestores de compras.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Índice de atividade industrial"
+            },
+            {
+              "id": "m2",
+              "label": "Variação da atividade industrial"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de atividade não industrial"
+            },
+            {
+              "id": "m4",
+              "label": "Índice de novos pedidos industriais"
             }
           ]
         }
