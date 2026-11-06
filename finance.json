@@ -1,73 +1,53 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-06T00:58:00.682Z",
-  "generatedAt": "2026-11-06T01:03:05.209Z",
+  "cutoffAt": "2026-11-06T09:23:07.123Z",
+  "generatedAt": "2026-11-06T09:27:12.093Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Apple fiscal results release",
-      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+      "label": "Iron Mountain earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000081/q32026earningspressrelea.htm"
     },
     {
       "id": "src2",
-      "label": "Datadog results release",
-      "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-third-quarter-2026-financial-results/"
+      "label": "Playtika earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1828016/000182801826000053/a2026q3ex991-earningsrelea.htm"
     },
     {
       "id": "src3",
-      "label": "Datadog SEC quarterly filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026070292/ddog-20260930.htm"
+      "label": "National Bureau of Statistics manufacturing survey",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
     },
     {
       "id": "src4",
-      "label": "BYD quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+      "label": "Mainland market closing report",
+      "url": "https://m.cnfin.com/yw-lb/zixun/20261105/4491497_1.html"
     },
     {
       "id": "src5",
-      "label": "CATL quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+      "label": "CSI three-hundred historical data",
+      "url": "https://es.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src6",
-      "label": "China official purchasing managers survey",
-      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261031_1965718.html"
+      "label": "United States market closing report",
+      "url": "https://apnews.com/article/afe254c608c3d1fe2ea792812ba9765a"
     },
     {
       "id": "src7",
-      "label": "FRED S&P five hundred data",
+      "label": "S&P five-hundred data series",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src8",
-      "label": "FRED Nasdaq Composite data",
+      "label": "Nasdaq Composite data series",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src9",
       "label": "Shanghai Composite historical data",
-      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
-    },
-    {
-      "id": "src10",
-      "label": "Mainland China market closing report",
-      "url": "https://news.10jqka.com.cn/20261105/c681500940.shtml"
-    },
-    {
-      "id": "src11",
-      "label": "S&P five hundred end of day data",
-      "url": "https://www.tallacoptions.com/Data/Eod/SPX"
-    },
-    {
-      "id": "src12",
-      "label": "US market closing report",
-      "url": "https://portfolio-terminal.com/markets/stock-market-close"
-    },
-    {
-      "id": "src13",
-      "label": "Apple SEC earnings exhibit",
-      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm"
+      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
     }
   ],
   "markets": [
@@ -76,98 +56,99 @@
       "sessionDate": "2026-11-05",
       "close": 7353.73,
       "previousClose": 7688.62,
-      "changePercent": -4.35565810249434,
+      "changePercent": -4.36,
       "sourceIds": [
-        "src11",
-        "src12"
+        "src6"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-05",
-      "close": 24315,
-      "previousClose": 25736.51,
-      "changePercent": -5.5233207610511235,
-      "sourceIds": [
-        "src12"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "sse",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-06",
+      "close": 3649.18,
+      "previousClose": 3689.91,
+      "changePercent": -1.1,
+      "sourceIds": [
+        "src9"
+      ]
     },
     {
       "id": "csi300",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-06",
+      "close": 4054.28,
+      "previousClose": 4113.41,
+      "changePercent": -1.44,
+      "sourceIds": [
+        "src5"
+      ]
     }
   ],
   "stories": [
     {
-      "id": "f3",
-      "market": "cn",
+      "id": "f1",
+      "market": "us",
       "category": "earnings",
-      "publishedOn": "2026-10-30",
+      "publishedOn": "2026-11-05",
       "company": {
-        "name": "BYD",
-        "ticker": "002594",
-        "exchange": "Shenzhen Stock Exchange"
+        "name": "Iron Mountain Incorporated",
+        "ticker": "IRM",
+        "exchange": "NYSE"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 221488251000,
-          "unit": "CNY",
+          "value": 1990617000,
+          "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src1"
           ],
-          "evidence": "The main financial-data table reports quarterly operating revenue."
+          "evidence": "Quarterly condensed statement of operations, total revenues."
         },
         {
           "id": "m2",
-          "value": 10019570000,
-          "unit": "CNY",
+          "value": 128878000,
+          "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src1"
           ],
-          "evidence": "The same table reports quarterly net profit attributable to shareholders."
+          "evidence": "Quarterly condensed statement of operations, net income."
         },
         {
           "id": "m3",
-          "value": 54469572000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
+          "value": 458420000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src1"
           ],
-          "evidence": "The cash-flow statement reports cumulative net cash from operating activities."
+          "evidence": "Quarterly reconciliation of net income to adjusted funds from operations."
         }
       ],
       "sourceIds": [
-        "src4"
+        "src1"
       ],
-      "evidence": "The dated report shows quarterly revenue and attributable profit rising from the comparable period, while cumulative operating cash flow also increased. The report distinguishes quarterly accounting results from year-to-date cash generation."
+      "evidence": "The issuer reports record quarterly revenue, stronger GAAP net income, high adjusted funds from operations, data-center leasing activity, and higher full-year guidance."
     },
     {
-      "id": "f5",
+      "id": "f3",
       "market": "cn",
       "category": "economy",
       "publishedOn": "2026-10-31",
@@ -182,60 +163,73 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src3"
           ],
-          "evidence": "The official seasonally adjusted table reports the manufacturing purchasing managers measure for October."
+          "evidence": "Official manufacturing purchasing managers survey, headline index."
         },
         {
           "id": "m2",
-          "value": 49.7,
-          "unit": "percent",
+          "value": -0.8,
+          "unit": "percentage-points",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
-          "comparison": "level",
+          "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src3"
           ],
-          "evidence": "The official release reports the non-manufacturing business activity measure for October."
+          "evidence": "Official survey, headline index change from the preceding month."
         },
         {
           "id": "m3",
-          "value": 49.7,
+          "value": 49.4,
           "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src3"
           ],
-          "evidence": "The official release reports the composite output measure for October."
+          "evidence": "Official survey, new-orders subindex."
         }
       ],
       "sourceIds": [
-        "src6"
+        "src3"
       ],
-      "evidence": "The official survey says manufacturing activity, non-manufacturing activity, and new orders weakened. It also identifies weaker construction and property-related services, while some information-technology services remained stronger."
+      "evidence": "The official survey shows manufacturing conditions below the expansion threshold, with production and new orders weakening and smaller enterprises remaining weaker than large enterprises."
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-11-06",
+      "company": null,
+      "metrics": [],
+      "sourceIds": [
+        "src5",
+        "src9"
+      ],
+      "evidence": "Historical index tables record the latest completed mainland session, with both the broad Shanghai benchmark and the large-cap mainland benchmark closing lower."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "BYD reports stronger quarterly profit while cash generation accumulates",
-          "summary": "BYD’s latest quarterly report showed higher revenue and attributable profit, while cumulative operating cash flow remained substantial.",
-          "impact": "The result matters for vehicle prices, battery supply, and Chinese industrial demand because scale and cash generation influence production expansion and competitive pricing.",
-          "what": "BYD’s report covers its vehicle and related product operations and presents quarterly revenue and attributable profit alongside cumulative operating cash flow. This allows accounting performance to be compared with cash produced by operations.",
-          "why": "Higher cash generation can support factory investment, research, inventory, and international expansion. Revenue growth does not automatically ensure durable margins in a competitive manufacturing market.",
-          "uncertainty": "The report covers a completed period and does not by itself show current deliveries, pricing after the reporting date, or the sustainability of non-operating gains.",
-          "watch": "Watch subsequent delivery data, vehicle pricing, gross margin, inventory, and operating cash flow.",
+          "id": "f1",
+          "title": "Information infrastructure operator reports record quarter and raises outlook",
+          "summary": "The information-management business delivered stronger revenue and accounting profit while data-center and digital operations continued expanding.",
+          "impact": "The result supports continued investment in storage, data centers, and digital services, but financing needs make cash conversion and borrowing costs important for future distributions.",
+          "what": "The company serves physical records, digital workflows, data centers, and asset lifecycle needs; management reported broad segment growth and additional leasing activity.",
+          "why": "Demand for secure storage and information services can support enterprise investment, while stronger operating performance may improve capacity to fund expansion and dividends.",
+          "uncertainty": "The release emphasizes non-GAAP funds measures alongside GAAP results, and the business remains sensitive to power costs, debt markets, cybersecurity events, and customer migration away from physical storage.",
+          "watch": "Watch subsequent filings for operating cash flow, capital spending, data-center occupancy, and debt funding costs.",
           "metricLabels": [
             {
               "id": "m1",
@@ -243,113 +237,67 @@
             },
             {
               "id": "m2",
-              "label": "Quarterly attributable net profit"
+              "label": "Quarterly net income"
             },
             {
               "id": "m3",
-              "label": "Cumulative operating cash flow"
+              "label": "Quarterly adjusted funds from operations"
             }
           ]
         },
-        {
-          "id": "f5",
-          "title": "China survey data show broad activity losing momentum",
-          "summary": "The official survey showed manufacturing and services activity weakening in the latest month, with softer orders and construction activity.",
-          "impact": "Softer orders and construction activity can weigh on industrial hiring, supplier utilization, household income, and demand for goods and services.",
-          "what": "The purchasing managers survey tracks business activity, orders, prices, employment, and expectations across manufacturing and non-manufacturing sectors. The latest release reports weaker manufacturing production and new orders, weaker construction activity, and property-related services below the survey threshold.",
-          "why": "A broad slowdown can reduce pricing power and delay capital spending, while stronger pockets of information technology services may concentrate growth in a narrower part of the economy.",
-          "uncertainty": "The purchasing managers survey is a survey-based leading indicator rather than a direct measure of output, profits, or cash flow. It does not establish the size or duration of any slowdown.",
-          "watch": "Watch the next industrial output, retail sales, fixed-asset investment, credit, and employment releases for confirmation.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Manufacturing purchasing managers measure"
-            },
-            {
-              "id": "m2",
-              "label": "Non-manufacturing activity measure"
-            },
-            {
-              "id": "m3",
-              "label": "Composite output measure"
-            }
-          ]
-        }
-      ]
-    },
-    "zh-CN": {
-      "status": "本期经过验证的覆盖范围有限。部分市场没有经过验证的新消息；带日期的报告仍明确标注为相应日期的信息。",
-      "marketSummary": {
-        "us": "跟踪的指数在各自最新经过验证的交易时段均下跌。带日期的收盘数据描述的是这些交易时段，而不是当前交易情况。",
-        "cn": "部分收盘观察未能得到验证。每个可用指数均保留其自身的交易日期。"
-      },
-      "stories": [
         {
           "id": "f3",
-          "title": "比亚迪季度利润增强，现金创造持续积累",
-          "summary": "比亚迪最新季度报告显示，营收和归属于股东的净利润均有所增长，累计经营现金流仍然可观。",
-          "impact": "这一结果对汽车价格、电池供应和中国工业需求具有重要意义，因为规模和现金创造能力会影响产能扩张与竞争性定价。",
-          "what": "比亚迪的报告涵盖汽车及相关产品业务，并同时列示季度营收、归属于股东的净利润和累计经营现金流。这有助于将会计业绩与经营活动产生的现金进行比较。",
-          "why": "更强的现金创造能力可以支持工厂投资、研发、库存管理和国际扩张。但在竞争激烈的制造业市场中，营收增长并不自动意味着利润率能够持续。",
-          "uncertainty": "该报告覆盖的是已经结束的期间，不能单独反映当前交付量、报告期后的定价情况，或非经营性收益的可持续性。",
-          "watch": "关注后续交付数据、汽车价格、毛利率、库存和经营现金流。",
+          "title": "Official survey shows mainland factory momentum slipping",
+          "summary": "The latest official manufacturing survey moved further below the expansion threshold as production and new orders weakened.",
+          "impact": "Softer factory demand can pressure supplier orders, hiring, freight volumes, and earnings across mainland industrial and export-linked companies.",
+          "what": "The survey covers purchasing managers and reports diffusion indexes for production, orders, inventories, employment, and supplier delivery conditions.",
+          "why": "Lower orders can reduce capacity utilization and bargaining power for manufacturers, while weaker smaller-enterprise readings suggest uneven conditions across the supply chain.",
+          "uncertainty": "Purchasing-manager surveys are directional indicators rather than realized output or profit data, and monthly readings can be volatile and seasonally affected.",
+          "watch": "Watch the next official production, trade, prices, and industrial-profit releases for confirmation or reversal.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度营收"
+              "label": "Manufacturing purchasing managers index"
             },
             {
               "id": "m2",
-              "label": "季度归属于股东的净利润"
+              "label": "Monthly index change"
             },
             {
               "id": "m3",
-              "label": "累计经营现金流"
+              "label": "New-orders index"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "中国调查数据显示整体活动失去动能",
-          "summary": "官方调查显示，制造业和服务业活动在最近月份走弱，订单和建筑活动均趋于疲软。",
-          "impact": "订单和建筑活动走弱，可能拖累工业就业、供应商产能利用率、居民收入以及商品和服务需求。",
-          "what": "采购经理调查跟踪制造业和非制造业的商业活动、订单、价格、就业和预期。最新发布的数据表明，制造业产出和新订单走弱，建筑活动减弱，房地产相关服务低于调查荣枯线。",
-          "why": "整体放缓可能削弱定价能力并推迟资本支出；与此同时，信息技术服务中较强的部分可能使增长集中在经济中更狭窄的领域。",
-          "uncertainty": "采购经理调查是基于调查的领先指标，并非对产出、利润或现金流的直接衡量。它不能确定任何放缓的规模或持续时间。",
-          "watch": "关注下一轮工业产出、零售销售、固定资产投资、信贷和就业数据，以寻找进一步确认。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "制造业采购经理指数"
-            },
-            {
-              "id": "m2",
-              "label": "非制造业活动指数"
-            },
-            {
-              "id": "m3",
-              "label": "综合产出指数"
-            }
-          ]
+          "id": "f4",
+          "title": "Mainland benchmarks retreat in the latest completed session",
+          "summary": "The broad Shanghai benchmark and the large-cap mainland benchmark both closed lower in the latest completed session.",
+          "impact": "A weaker session can tighten equity-financing conditions and weigh on household wealth sentiment, but one close does not establish a durable change in earnings or domestic demand.",
+          "what": "Historical index data record the latest session’s closing levels and daily changes for the Shanghai benchmark and the large-cap mainland benchmark.",
+          "why": "Market weakness can affect trading activity, issuance windows, and investor confidence, while the effect on company fundamentals depends on demand and cash-flow conditions.",
+          "uncertainty": "Index performance is an outcome rather than proof of a single catalyst; the data do not separate policy expectations, sector rotation, overseas sentiment, or profit-taking.",
+          "watch": "Watch breadth, turnover, earnings revisions, and official demand indicators for evidence of persistence.",
+          "metricLabels": []
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont pas de nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
+        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "BYD fait état d’une hausse de son bénéfice trimestriel, tandis que sa génération de trésorerie s’accumule",
-          "summary": "Le dernier rapport trimestriel de BYD fait ressortir une hausse du chiffre d’affaires et du bénéfice attribuable, tandis que le flux de trésorerie cumulé lié aux activités opérationnelles reste substantiel.",
-          "impact": "Le résultat compte pour les prix des véhicules, l’approvisionnement en batteries et la demande industrielle chinoise, car l’échelle de production et la génération de trésorerie influencent l’expansion des capacités et la concurrence sur les prix.",
-          "what": "Le rapport de BYD couvre ses activités liées aux véhicules et aux produits associés. Il présente le chiffre d’affaires et le bénéfice attribuable trimestriels, ainsi que le flux de trésorerie opérationnel cumulé. Cela permet de comparer la performance comptable à la trésorerie générée par les activités.",
-          "why": "Une génération de trésorerie plus élevée peut soutenir les investissements dans les usines, la recherche, les stocks et l’expansion internationale. La croissance du chiffre d’affaires ne garantit pas automatiquement des marges durables dans un secteur manufacturier concurrentiel.",
-          "uncertainty": "Le rapport couvre une période achevée et ne montre pas à lui seul les livraisons actuelles, les prix après la date de publication ni la pérennité des gains hors exploitation.",
-          "watch": "Surveiller les prochaines données de livraison, les prix des véhicules, la marge brute, les stocks et le flux de trésorerie opérationnel.",
+          "id": "f1",
+          "title": "L’opérateur d’infrastructures de l’information publie un trimestre record et relève ses perspectives",
+          "summary": "L’activité de gestion de l’information a enregistré une croissance plus forte de ses revenus et de son bénéfice comptable, tandis que les opérations de centres de données et les activités numériques ont continué de progresser.",
+          "impact": "Ce résultat soutient la poursuite des investissements dans le stockage, les centres de données et les services numériques, mais les besoins de financement rendent la conversion en liquidités et le coût de l’emprunt importants pour les futures distributions.",
+          "what": "L’entreprise répond aux besoins liés aux archives physiques, aux flux de travail numériques, aux centres de données et au cycle de vie des actifs ; la direction a fait état d’une croissance généralisée des segments et d’une activité supplémentaire de location.",
+          "why": "La demande de stockage sécurisé et de services d’information peut soutenir l’investissement des entreprises, tandis qu’une meilleure performance opérationnelle peut accroître la capacité à financer l’expansion et les dividendes.",
+          "uncertainty": "Le communiqué met l’accent sur des mesures des fonds ajustés hors normes GAAP, parallèlement aux résultats GAAP. L’activité reste sensible au coût de l’électricité, aux marchés de la dette, aux incidents de cybersécurité et au remplacement du stockage physique par les clients.",
+          "watch": "Surveillez les prochains dépôts réglementaires pour la trésorerie générée par l’exploitation, les dépenses d’investissement, le taux d’occupation des centres de données et le coût du financement de la dette.",
           "metricLabels": [
             {
               "id": "m1",
@@ -357,23 +305,23 @@
             },
             {
               "id": "m2",
-              "label": "Bénéfice net trimestriel attribuable"
+              "label": "Résultat net trimestriel"
             },
             {
               "id": "m3",
-              "label": "Flux de trésorerie opérationnel cumulé"
+              "label": "Flux de fonds ajustés provenant de l’exploitation"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Les enquêtes chinoises montrent un ralentissement généralisé de l’activité",
-          "summary": "L’enquête officielle montre un affaiblissement de l’activité manufacturière et des services au cours du dernier mois, avec un ralentissement des commandes et de la construction.",
-          "impact": "Le recul des commandes et de l’activité dans la construction peut peser sur l’emploi industriel, l’utilisation des capacités des fournisseurs, les revenus des ménages et la demande de biens et services.",
-          "what": "L’enquête auprès des directeurs d’achat suit l’activité, les commandes, les prix, l’emploi et les anticipations dans les secteurs manufacturier et non manufacturier. La dernière publication fait état d’un affaiblissement de la production manufacturière et des nouvelles commandes, d’un recul de l’activité dans la construction et d’une activité des services liés à l’immobilier inférieure au seuil de l’enquête.",
-          "why": "Un ralentissement généralisé peut réduire le pouvoir de fixation des prix et retarder les dépenses d’investissement, tandis que les poches de vigueur dans les services informatiques peuvent concentrer la croissance dans une partie plus étroite de l’économie.",
-          "uncertainty": "L’enquête auprès des directeurs d’achat est un indicateur avancé fondé sur des réponses, et non une mesure directe de la production, des bénéfices ou des flux de trésorerie. Elle ne permet pas d’établir l’ampleur ni la durée d’un éventuel ralentissement.",
-          "watch": "Surveiller les prochaines publications sur la production industrielle, les ventes au détail, l’investissement en actifs fixes, le crédit et l’emploi pour obtenir une confirmation.",
+          "id": "f3",
+          "title": "Une enquête officielle montre un ralentissement de l’activité manufacturière en Chine continentale",
+          "summary": "La dernière enquête officielle sur l’industrie manufacturière s’est encore éloignée du seuil d’expansion, la production et les nouvelles commandes ayant fléchi.",
+          "impact": "Une demande industrielle plus faible peut peser sur les commandes des fournisseurs, l’embauche, les volumes de fret et les bénéfices des entreprises industrielles et tournées vers l’exportation en Chine continentale.",
+          "what": "L’enquête couvre les directeurs des achats et publie des indices de diffusion pour la production, les commandes, les stocks, l’emploi et les délais de livraison des fournisseurs.",
+          "why": "La baisse des commandes peut réduire l’utilisation des capacités et le pouvoir de négociation des fabricants, tandis que les résultats plus faibles des petites entreprises suggèrent des conditions inégales dans la chaîne d’approvisionnement.",
+          "uncertainty": "Les enquêtes auprès des directeurs des achats sont des indicateurs de tendance plutôt que des données de production ou de bénéfices réalisés, et les résultats mensuels peuvent être volatils et influencés par les effets saisonniers.",
+          "watch": "Surveillez les prochaines publications officielles sur la production, le commerce, les prix et les bénéfices industriels afin de confirmer ou d’infirmer cette évolution.",
           "metricLabels": [
             {
               "id": "m1",
@@ -381,32 +329,111 @@
             },
             {
               "id": "m2",
-              "label": "Indice d’activité du secteur non manufacturier"
+              "label": "Variation mensuelle de l’indice"
             },
             {
               "id": "m3",
-              "label": "Indice composite de production"
+              "label": "Indice des nouvelles commandes"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "Les indices de référence de Chine continentale reculent lors de la dernière séance achevée",
+          "summary": "L’indice de référence général de Shanghai et l’indice de référence des grandes capitalisations de Chine continentale ont tous deux clôturé en baisse lors de la dernière séance achevée.",
+          "impact": "Une séance plus faible peut durcir les conditions de financement par actions et peser sur le sentiment lié au patrimoine des ménages, mais une seule clôture ne suffit pas à établir un changement durable des bénéfices ou de la demande intérieure.",
+          "what": "Les données historiques des indices enregistrent les niveaux de clôture et les variations quotidiennes de la dernière séance pour l’indice de référence de Shanghai et celui des grandes capitalisations de Chine continentale.",
+          "why": "La faiblesse des marchés peut affecter l’activité de négociation, les fenêtres d’émission et la confiance des investisseurs, tandis que son effet sur les fondamentaux des entreprises dépend de la demande et des flux de trésorerie.",
+          "uncertainty": "La performance d’un indice est un résultat, et non la preuve d’un facteur déclencheur unique ; les données ne distinguent pas les anticipations de politique économique, la rotation sectorielle, le sentiment à l’étranger ou les prises de bénéfices.",
+          "watch": "Surveillez l’ampleur de la hausse ou de la baisse des titres, les volumes échangés, les révisions de bénéfices et les indicateurs officiels de la demande afin d’évaluer la persistance du mouvement.",
+          "metricLabels": []
+        }
+      ]
+    },
+    "zh-CN": {
+      "status": "本期涵盖美国和中国的市场动态。请查看各篇内容的发布日期；近期公司报告作为背景解读呈现。",
+      "marketSummary": {
+        "us": "部分收盘观察无法核实。每个可用指数均保留其自身的交易日期。",
+        "cn": "所跟踪指数在最近核实的交易时段均下跌。带日期的收盘数据描述的是相应交易时段，而非当前交易情况。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "信息基础设施运营商公布创纪录季度业绩并上调展望",
+          "summary": "信息管理业务实现更强劲的营收和会计利润，同时数据中心及数字化业务继续扩张。",
+          "impact": "该业绩支持企业继续投资存储、数据中心和数字服务，但融资需求意味着现金转化能力和借贷成本将对未来分派十分重要。",
+          "what": "公司提供实体档案、数字化工作流程、数据中心和资产生命周期管理服务；管理层报告各业务部门普遍增长，并新增租赁活动。",
+          "why": "对安全存储和信息服务的需求可以支持企业投资，而更强的经营表现可能提升公司为扩张和股息提供资金的能力。",
+          "uncertainty": "公告在公认会计准则业绩之外着重强调非公认会计准则资金指标；此外，公司业务仍容易受到电力成本、债务市场、网络安全事件以及客户从实体存储迁移的影响。",
+          "watch": "关注后续申报文件中的经营现金流、资本支出、数据中心入住率和债务融资成本。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度营收"
+            },
+            {
+              "id": "m2",
+              "label": "季度净利润"
+            },
+            {
+              "id": "m3",
+              "label": "季度调整后运营资金"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "官方调查显示内地工厂动能减弱",
+          "summary": "最新官方制造业调查进一步低于扩张临界点，生产和新订单均走弱。",
+          "impact": "工厂需求疲软可能给内地工业企业和与出口相关公司的供应商订单、招聘、货运量及盈利带来压力。",
+          "what": "该调查覆盖采购经理，并公布生产、订单、库存、就业和供应商交付状况的扩散指数。",
+          "why": "订单减少可能降低制造商的产能利用率和议价能力，而规模较小企业的读数更弱，表明供应链各环节的状况并不均衡。",
+          "uncertainty": "采购经理调查属于方向性指标，而不是实际产出或利润数据；月度读数可能波动，也会受到季节因素影响。",
+          "watch": "关注下一轮官方生产、贸易、价格和工业利润数据，以确认或修正当前趋势。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "制造业采购经理指数"
+            },
+            {
+              "id": "m2",
+              "label": "月度指数变动"
+            },
+            {
+              "id": "m3",
+              "label": "新订单指数"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "内地基准指数在最近完成的交易时段回落",
+          "summary": "上海综合基准指数和内地大盘股基准指数均在最近完成的交易时段收低。",
+          "impact": "市场走弱可能收紧股权融资条件并削弱居民财富信心，但单个收盘结果无法证明盈利或内需出现持久变化。",
+          "what": "历史指数数据记录上海综合基准指数和内地大盘股基准指数在最近交易时段的收盘水平及日内变动。",
+          "why": "市场疲软可能影响交易活跃度、发行窗口和投资者信心，但其对公司基本面的影响取决于需求和现金流状况。",
+          "uncertainty": "指数表现是结果，而不是某一单一催化因素的证据；数据无法区分政策预期、行业轮动、海外情绪或获利了结的影响。",
+          "watch": "关注市场上涨下跌家数、成交额、盈利预期调整和官方需求指标，以判断这种情况是否持续。",
+          "metricLabels": []
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes fechados siguen claramente identificados.",
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Compruebe la fecha de publicación de cada elemento; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Ambos índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
-        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Los dos índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la negociación actual."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "BYD informa de un mayor beneficio trimestral mientras acumula generación de efectivo",
-          "summary": "El último informe trimestral de BYD mostró un aumento de los ingresos y del beneficio atribuible, mientras el flujo de caja operativo acumulado siguió siendo considerable.",
-          "impact": "El resultado importa para los precios de los vehículos, el suministro de baterías y la demanda industrial china, porque la escala y la generación de efectivo influyen en la ampliación de la producción y en los precios competitivos.",
-          "what": "El informe de BYD abarca sus operaciones de vehículos y productos relacionados, y presenta los ingresos trimestrales y el beneficio atribuible junto con el flujo de caja operativo acumulado. Esto permite comparar el desempeño contable con el efectivo generado por las operaciones.",
-          "why": "Una mayor generación de efectivo puede respaldar la inversión en fábricas, la investigación, los inventarios y la expansión internacional. El crecimiento de los ingresos no garantiza por sí solo márgenes duraderos en un mercado manufacturero competitivo.",
-          "uncertainty": "El informe cubre un periodo ya concluido y, por sí solo, no muestra las entregas actuales, los precios posteriores a la fecha del informe ni la sostenibilidad de las ganancias no operativas.",
-          "watch": "Vigilar los datos posteriores de entregas, los precios de los vehículos, el margen bruto, los inventarios y el flujo de caja operativo.",
+          "id": "f1",
+          "title": "El operador de infraestructura de información registra un trimestre récord y eleva sus previsiones",
+          "summary": "El negocio de gestión de información logró una mayor facturación y un mayor beneficio contable, mientras continuó la expansión de las operaciones de centros de datos y servicios digitales.",
+          "impact": "El resultado respalda la inversión continua en almacenamiento, centros de datos y servicios digitales, pero las necesidades de financiación hacen que la conversión de efectivo y los costes de endeudamiento sean importantes para futuras distribuciones.",
+          "what": "La empresa atiende las necesidades de registros físicos, flujos de trabajo digitales, centros de datos y ciclo de vida de activos; la dirección informó de un crecimiento amplio por segmentos y de nuevas operaciones de arrendamiento.",
+          "why": "La demanda de almacenamiento seguro y servicios de información puede respaldar la inversión empresarial, mientras que una mejor evolución operativa podría aumentar la capacidad de financiar la expansión y los dividendos.",
+          "uncertainty": "El comunicado destaca medidas de fondos no GAAP junto con los resultados GAAP, y el negocio sigue siendo sensible a los costes de electricidad, los mercados de deuda, los incidentes de ciberseguridad y el abandono del almacenamiento físico por parte de los clientes.",
+          "watch": "Vigile las siguientes presentaciones para conocer el flujo de caja operativo, el gasto de capital, la ocupación de los centros de datos y los costes de financiación de la deuda.",
           "metricLabels": [
             {
               "id": "m1",
@@ -414,56 +441,67 @@
             },
             {
               "id": "m2",
-              "label": "Beneficio neto atribuible trimestral"
+              "label": "Beneficio neto trimestral"
             },
             {
               "id": "m3",
-              "label": "Flujo de caja operativo acumulado"
+              "label": "Fondos ajustados de operaciones trimestrales"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Los datos de encuestas de China muestran una pérdida generalizada de impulso de la actividad",
-          "summary": "La encuesta oficial mostró un debilitamiento de la actividad manufacturera y de servicios en el mes más reciente, con menor cantidad de pedidos y actividad de construcción.",
-          "impact": "La menor cantidad de pedidos y la debilidad de la construcción pueden afectar al empleo industrial, la utilización de los proveedores, los ingresos de los hogares y la demanda de bienes y servicios.",
-          "what": "La encuesta de gerentes de compras sigue la actividad empresarial, los pedidos, los precios, el empleo y las expectativas en los sectores manufacturero y no manufacturero. La última publicación informa de una menor producción manufacturera y menos pedidos nuevos, una menor actividad de construcción y unos servicios relacionados con el sector inmobiliario por debajo del umbral de la encuesta.",
-          "why": "Una desaceleración generalizada puede reducir el poder de fijación de precios y retrasar el gasto de capital, mientras que los segmentos más fuertes de los servicios de tecnologías de la información pueden concentrar el crecimiento en una parte más reducida de la economía.",
-          "uncertainty": "La encuesta de gerentes de compras es un indicador adelantado basado en encuestas, no una medición directa de la producción, los beneficios o el flujo de caja. No establece la magnitud ni la duración de ninguna desaceleración.",
-          "watch": "Vigilar las próximas publicaciones sobre producción industrial, ventas minoristas, inversión en activos fijos, crédito y empleo para obtener confirmación.",
+          "id": "f3",
+          "title": "La encuesta oficial muestra una pérdida de impulso en las fábricas de China continental",
+          "summary": "La encuesta manufacturera oficial más reciente se situó aún más por debajo del umbral de expansión, al debilitarse la producción y los nuevos pedidos.",
+          "impact": "Una demanda fabril más débil puede presionar los pedidos a proveedores, la contratación, los volúmenes de transporte y los beneficios de las empresas industriales y vinculadas a las exportaciones de China continental.",
+          "what": "La encuesta cubre a directores de compras y presenta índices de difusión sobre producción, pedidos, inventarios, empleo y condiciones de entrega de proveedores.",
+          "why": "Un menor volumen de pedidos puede reducir la utilización de la capacidad y el poder de negociación de los fabricantes, mientras que los resultados más débiles de las empresas pequeñas sugieren condiciones desiguales en la cadena de suministro.",
+          "uncertainty": "Las encuestas a directores de compras son indicadores direccionales, no datos de producción o beneficios realizados, y las lecturas mensuales pueden ser volátiles y verse afectadas por la estacionalidad.",
+          "watch": "Vigile las próximas publicaciones oficiales sobre producción, comercio, precios y beneficios industriales para confirmar o revertir esta señal.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Indicador de gerentes de compras del sector manufacturero"
+              "label": "Índice de directores de compras del sector manufacturero"
             },
             {
               "id": "m2",
-              "label": "Indicador de actividad no manufacturera"
+              "label": "Variación mensual del índice"
             },
             {
               "id": "m3",
-              "label": "Indicador compuesto de producción"
+              "label": "Índice de nuevos pedidos"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "Los índices de referencia de China continental retroceden en la última sesión completada",
+          "summary": "El amplio índice de referencia de Shanghái y el índice de empresas de gran capitalización de China continental cerraron a la baja en la última sesión completada.",
+          "impact": "Una sesión más débil puede endurecer las condiciones de financiación mediante acciones y pesar sobre la percepción de la riqueza de los hogares, pero un cierre aislado no demuestra un cambio duradero en los beneficios o la demanda interna.",
+          "what": "Los datos históricos de los índices registran los niveles de cierre y las variaciones diarias de la última sesión para el índice de referencia de Shanghái y el índice de empresas de gran capitalización de China continental.",
+          "why": "La debilidad del mercado puede afectar a la actividad de negociación, las ventanas de emisión y la confianza de los inversores, mientras que su efecto sobre los fundamentos empresariales depende de la demanda y las condiciones de flujo de caja.",
+          "uncertainty": "La evolución de los índices es un resultado, no una prueba de un único catalizador; los datos no separan las expectativas de política, la rotación sectorial, el sentimiento exterior ni la toma de beneficios.",
+          "watch": "Vigile la amplitud del mercado, el volumen negociado, las revisiones de beneficios y los indicadores oficiales de demanda para detectar señales de persistencia.",
+          "metricLabels": []
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できた情報は限定的です。確認済みの新しい材料がない市場もあります。日付付きの報告は、現在の取引状況と区別して示しています。",
+      "status": "この版では、米国と中国の動向を扱います。各掲載日を確認してください。最近の企業報告は背景を説明する情報として示しています。",
       "marketSummary": {
-        "us": "追跡対象の指数は、直近の確認済み取引で下落しました。日付付きの終値は、その取引時点を示しており、現在の取引状況ではありません。",
-        "cn": "一部の終値は確認できませんでした。確認できた指数については、それぞれの取引日を維持しています。"
+        "us": "一部の取引終了時点の観察結果は検証できませんでした。利用可能な各指数には、それぞれの取引日が付されています。",
+        "cn": "追跡対象の指数はいずれも、直近で検証できた取引日に下落しました。記載された終値はその取引日のものであり、現在の取引状況を示すものではありません。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "BYD、四半期利益が拡大し、キャッシュ創出も積み上がる",
-          "summary": "BYDの最新の四半期報告では、売上高と親会社株主に帰属する利益が増加しました。一方、累計の営業キャッシュフローも大きな水準を維持しました。",
-          "impact": "規模とキャッシュ創出は生産拡大や競争的な価格設定に影響するため、この結果は自動車価格、電池供給、中国の産業需要に関係します。",
-          "what": "BYDの報告は、自動車および関連製品の事業を対象とし、四半期の売上高と親会社株主に帰属する利益を、累計の営業キャッシュフローとともに示しています。これにより、会計上の業績と事業から生み出された現金を比較できます。",
-          "why": "キャッシュ創出の増加は、工場投資、研究開発、在庫、海外展開を支える可能性があります。ただし、競争の激しい製造市場では、売上高の増加だけで利益率が持続するとは限りません。",
-          "uncertainty": "この報告は終了した期間を対象としており、報告日後の現在の納車台数や価格、営業外の利益が続くかどうかは、それだけでは分かりません。",
-          "watch": "その後の納車データ、自動車価格、粗利益率、在庫、営業キャッシュフローを確認します。",
+          "id": "f1",
+          "title": "情報インフラ運営会社、過去最高の四半期業績を報告し見通しを引き上げ",
+          "summary": "情報管理事業では、データセンターとデジタル事業の拡大が続く中、売上高と会計上の利益が伸びました。",
+          "impact": "この業績は、ストレージ、データセンター、デジタルサービスへの継続的な投資を支えます。一方、資金需要があるため、将来の株主還元ではキャッシュへの転換と借入コストが重要になります。",
+          "what": "同社は、物理記録、デジタル業務、データセンター、資産ライフサイクルに関するニーズに対応しています。経営陣は幅広い部門の成長と、追加のリース活動を報告しました。",
+          "why": "安全な保管と情報サービスへの需要は企業の投資を支える可能性があります。また、営業実績の改善により、事業拡大や配当への資金配分能力が高まる可能性があります。",
+          "uncertainty": "発表では、GAAPベースの業績と並んで非GAAPのFFO指標が重視されています。また、事業は電力コスト、債券市場、サイバーセキュリティ事象、顧客の物理保管からの移行に左右されます。",
+          "watch": "今後の提出書類で、営業キャッシュフロー、設備投資、データセンター稼働率、債務調達コストを確認します。",
           "metricLabels": [
             {
               "id": "m1",
@@ -471,23 +509,23 @@
             },
             {
               "id": "m2",
-              "label": "四半期の親会社株主に帰属する純利益"
+              "label": "四半期純利益"
             },
             {
               "id": "m3",
-              "label": "累計営業キャッシュフロー"
+              "label": "四半期調整後FFO"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "中国の調査データ、経済活動全体の勢いが鈍化したことを示す",
-          "summary": "公式調査では、最新月に製造業とサービス業の活動が弱まり、受注と建設活動も鈍化しました。",
-          "impact": "受注や建設活動の鈍化は、製造業の雇用、サプライヤーの設備稼働、家計所得、財・サービスへの需要を押し下げる可能性があります。",
-          "what": "購買担当者景気指数の調査は、製造業と非製造業を対象に、事業活動、受注、価格、雇用、見通しを追跡します。最新の発表では、製造業の生産と新規受注が弱まり、建設活動も鈍化しました。また、不動産関連サービスは調査の基準を下回りました。",
-          "why": "経済全体の減速は価格決定力を弱め、設備投資を遅らせる可能性があります。一方、情報技術サービスの比較的強い分野に成長が集中する可能性もあります。",
-          "uncertainty": "購買担当者景気指数の調査は、産出量、利益、キャッシュフローを直接測るものではなく、調査に基づく先行指標です。この調査だけでは、減速の規模や期間は分かりません。",
-          "watch": "次回の鉱工業生産、小売売上高、固定資産投資、信用、雇用に関する発表で確認します。",
+          "id": "f3",
+          "title": "公的調査で中国本土の工場活動の勢いが鈍化",
+          "summary": "最新の公式製造業調査では、生産と新規受注が弱まり、拡大・縮小の境目をさらに下回りました。",
+          "impact": "工場需要の軟化は、中国本土の工業企業や輸出関連企業全体で、サプライヤーへの発注、雇用、貨物輸送量、収益に圧力をかける可能性があります。",
+          "what": "この調査は購買担当者を対象とし、生産、新規受注、在庫、雇用、サプライヤー納期の状況について、景況指数を報告します。",
+          "why": "受注の減少は、メーカーの設備稼働率や交渉力を低下させる可能性があります。また、中小企業の弱い結果は、サプライチェーン全体で状況が一様でないことを示唆します。",
+          "uncertainty": "購買担当者調査は、実現した生産量や利益を示すものではなく、方向性を示す指標です。月次の結果は変動しやすく、季節要因の影響も受けます。",
+          "watch": "次回の公的な生産、貿易、物価、工業利益の発表で、動きが確認されるか反転するかを見守ります。",
           "metricLabels": [
             {
               "id": "m1",
@@ -495,32 +533,43 @@
             },
             {
               "id": "m2",
-              "label": "非製造業活動指数"
+              "label": "月次指数変化"
             },
             {
               "id": "m3",
-              "label": "総合産出指数"
+              "label": "新規受注指数"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "中国本土の主要指数、直近の取引終了日に下落",
+          "summary": "上海の広範な主要指数と、中国本土の大型株指数はいずれも、直近の取引終了日に下落しました。",
+          "impact": "取引日の下落は株式による資金調達環境を厳しくし、家計の資産効果に対する見方を弱める可能性があります。ただし、一つの終値だけでは、収益や国内需要の持続的な変化は判断できません。",
+          "what": "過去の指数データには、上海の主要指数と中国本土の大型株指数について、直近の取引日の終値と日次変化が記録されています。",
+          "why": "市場の弱さは売買活動、起債の機会、投資家心理に影響する可能性があります。一方、企業の基礎的条件への影響は、需要とキャッシュフローの状況によって異なります。",
+          "uncertainty": "指数の動きは結果であり、単一の要因を証明するものではありません。データからは、政策期待、業種の資金移動、海外投資家心理、利益確定売りを切り分けられません。",
+          "watch": "持続性を見極めるため、値上がり銘柄の広がり、売買代金、業績予想の修正、公的な需要指標を確認します。",
+          "metricLabels": []
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Alguns fechamentos não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação."
+        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não a negociação atual."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "BYD registra lucro trimestral mais forte enquanto o caixa se acumula",
-          "summary": "O relatório trimestral mais recente da BYD mostrou maior receita e lucro atribuível, enquanto o fluxo de caixa operacional acumulado permaneceu substancial.",
-          "impact": "O resultado importa para os preços de veículos, a oferta de baterias e a demanda industrial chinesa, porque escala e geração de caixa influenciam a expansão da produção e a concorrência em preços.",
-          "what": "O relatório da BYD abrange suas operações de veículos e produtos relacionados e apresenta a receita trimestral e o lucro atribuível junto do fluxo de caixa operacional acumulado. Isso permite comparar o desempenho contábil com o caixa gerado pelas operações.",
-          "why": "Uma geração de caixa maior pode apoiar investimentos em fábricas, pesquisa, estoques e expansão internacional. O crescimento da receita não garante automaticamente margens duradouras em um mercado industrial competitivo.",
-          "uncertainty": "O relatório abrange um período concluído e, por si só, não mostra as entregas atuais, os preços após a data do relatório nem a sustentabilidade de ganhos não operacionais.",
-          "watch": "Acompanhe os dados posteriores de entregas, os preços dos veículos, a margem bruta, os estoques e o fluxo de caixa operacional.",
+          "id": "f1",
+          "title": "Operadora de infraestrutura de informação registra trimestre recorde e eleva projeções",
+          "summary": "O negócio de gestão de informações apresentou crescimento mais forte da receita e do lucro contábil, enquanto as operações de data centers e serviços digitais continuaram se expandindo.",
+          "impact": "O resultado apoia a continuidade dos investimentos em armazenamento, data centers e serviços digitais, mas as necessidades de financiamento tornam importantes a conversão em caixa e os custos de empréstimos para futuras distribuições.",
+          "what": "A empresa atende às necessidades de arquivos físicos, fluxos de trabalho digitais, data centers e gestão do ciclo de vida de ativos; a administração informou crescimento amplo entre os segmentos e mais atividade de locação.",
+          "why": "A demanda por armazenamento seguro e serviços de informação pode apoiar os investimentos empresariais, enquanto um desempenho operacional mais forte pode ampliar a capacidade de financiar a expansão e os dividendos.",
+          "uncertainty": "O comunicado destaca medidas de fundos não baseadas nos princípios contábeis geralmente aceitos, além dos resultados baseados nesses princípios. O negócio continua sensível aos custos de energia, aos mercados de dívida, a eventos de cibersegurança e à migração dos clientes para longe do armazenamento físico.",
+          "watch": "Acompanhe os próximos documentos regulatórios em busca de informações sobre fluxo de caixa operacional, gastos de capital, ocupação de data centers e custos de financiamento da dívida.",
           "metricLabels": [
             {
               "id": "m1",
@@ -528,56 +577,67 @@
             },
             {
               "id": "m2",
-              "label": "Lucro líquido trimestral atribuível"
+              "label": "Lucro líquido trimestral"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional acumulado"
+              "label": "Fundos ajustados provenientes das operações no trimestre"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Dados de pesquisas na China mostram perda de ritmo na atividade ampla",
-          "summary": "A pesquisa oficial mostrou enfraquecimento da atividade manufatureira e de serviços no mês mais recente, com pedidos e atividade de construção mais fracos.",
-          "impact": "Pedidos e atividade de construção mais fracos podem pressionar a contratação industrial, a utilização dos fornecedores, a renda das famílias e a demanda por bens e serviços.",
-          "what": "A pesquisa de gerentes de compras acompanha atividade empresarial, pedidos, preços, emprego e expectativas nos setores manufatureiro e não manufatureiro. A divulgação mais recente informa produção manufatureira e novos pedidos mais fracos, atividade de construção mais fraca e serviços relacionados ao setor imobiliário abaixo do limite da pesquisa.",
-          "why": "Uma desaceleração ampla pode reduzir o poder de precificação e adiar gastos de capital, enquanto bolsões mais fortes de serviços de tecnologia da informação podem concentrar o crescimento em uma parcela mais estreita da economia.",
-          "uncertainty": "A pesquisa de gerentes de compras é um indicador antecedente baseado em respostas, e não uma medida direta de produção, lucros ou fluxo de caixa. Ela não determina o tamanho nem a duração de qualquer desaceleração.",
-          "watch": "Acompanhe as próximas divulgações de produção industrial, vendas no varejo, investimento em ativos fixos, crédito e emprego para buscar confirmação.",
+          "id": "f3",
+          "title": "Pesquisa oficial mostra perda de força na atividade industrial do continente",
+          "summary": "A pesquisa oficial mais recente sobre a indústria ficou ainda mais abaixo do nível que indica expansão, à medida que a produção e os novos pedidos enfraqueceram.",
+          "impact": "Uma demanda industrial mais fraca pode pressionar os pedidos de fornecedores, as contratações, os volumes de transporte e os resultados de empresas industriais e ligadas às exportações no continente.",
+          "what": "A pesquisa abrange gerentes de compras e apresenta índices de difusão sobre produção, pedidos, estoques, emprego e condições de entrega dos fornecedores.",
+          "why": "A redução dos pedidos pode diminuir a utilização da capacidade e o poder de negociação dos fabricantes, enquanto resultados mais fracos entre empresas menores sugerem condições desiguais em toda a cadeia de suprimentos.",
+          "uncertainty": "Pesquisas com gerentes de compras são indicadores direcionais, e não dados de produção ou lucro realizados; as leituras mensais podem ser voláteis e sofrer efeitos sazonais.",
+          "watch": "Acompanhe os próximos dados oficiais de produção, comércio, preços e lucros industriais para confirmar ou reverter essa leitura.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice de gerentes de compras da indústria manufatureira"
+              "label": "Índice de gerentes de compras da indústria"
             },
             {
               "id": "m2",
-              "label": "Índice de atividade não manufatureira"
+              "label": "Variação mensal do índice"
             },
             {
               "id": "m3",
-              "label": "Índice composto de produção"
+              "label": "Índice de novos pedidos"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "Índices de referência do continente recuam na sessão concluída mais recente",
+          "summary": "O amplo índice de referência de Xangai e o índice de empresas de grande capitalização do continente fecharam em baixa na sessão concluída mais recente.",
+          "impact": "Uma sessão mais fraca pode restringir as condições de financiamento por ações e pesar sobre a percepção das famílias em relação ao patrimônio, mas um único fechamento não comprova uma mudança duradoura nos lucros ou na demanda doméstica.",
+          "what": "Os dados históricos dos índices registram os níveis de fechamento e as variações diárias da sessão mais recente para o índice de referência de Xangai e o índice de empresas de grande capitalização do continente.",
+          "why": "A fraqueza do mercado pode afetar a atividade de negociação, as janelas para emissões e a confiança dos investidores, enquanto o efeito sobre os fundamentos das empresas depende das condições de demanda e fluxo de caixa.",
+          "uncertainty": "O desempenho de um índice é um resultado, não uma prova de um único fator causador; os dados não distinguem entre expectativas de política, rotação setorial, sentimento externo ou realização de lucros.",
+          "watch": "Acompanhe a amplitude do mercado, o volume negociado, as revisões de lucros e os indicadores oficiais de demanda em busca de sinais de persistência.",
+          "metricLabels": []
         }
       ]
     },
     "zh-TW": {
-      "status": "本期可驗證涵蓋範圍有限。部分市場沒有經驗證的新消息；有日期的報告仍清楚標示。",
+      "status": "本期涵蓋美國與中國的發展。請查看各篇發布日期；近期公司報告是作為背景說明呈現。",
       "marketSummary": {
-        "us": "追蹤指數在最近可驗證交易時段均下跌。有日期的收盤資料描述的是那些交易時段，不代表目前交易情況。",
-        "cn": "部分收盤觀察無法驗證。每個可用指數均保留其自身交易日期。"
+        "us": "部分收盤觀察無法驗證。每個可取得的指數均保留其自身交易日期。",
+        "cn": "受追蹤指數在最近可驗證交易時段均下跌。標示日期的收盤數據描述的是那些交易時段，不代表目前交易情況。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "比亞迪公布季度利潤增長，現金創造持續累積",
-          "summary": "比亞迪最新季度報告顯示營收及歸屬股東淨利潤上升，而累計經營現金流仍然可觀。",
-          "impact": "這項結果對汽車價格、電池供應及中國工業需求具有影響，因為規模與現金創造能力會影響產能擴張及競爭性定價。",
-          "what": "比亞迪的報告涵蓋其汽車及相關產品業務，並列出季度營收、歸屬股東淨利潤及累計經營現金流。這讓人可以將會計業績與業務產生的現金進行比較。",
-          "why": "較高的現金創造能力可支持工廠投資、研究、庫存及國際擴張。營收增長並不會自動確保競爭激烈的製造市場維持持久的利潤率。",
-          "uncertainty": "該報告涵蓋已完成的期間，單憑報告無法顯示報告期後的目前交車量、定價或非營業收益的可持續性。",
-          "watch": "留意後續交車數據、汽車定價、毛利率、庫存及經營現金流。",
+          "id": "f1",
+          "title": "資訊基礎設施營運商公布創紀錄季度並上調展望",
+          "summary": "資訊管理業務帶來更強的營收與會計利潤，同時資料中心與數位營運持續擴張。",
+          "impact": "這項結果支持持續投資於儲存、資料中心與數位服務，但融資需求使現金轉換與借款成本成為未來分派的重要因素。",
+          "what": "公司提供實體檔案、數位工作流程、資料中心及資產生命週期所需的服務；管理層表示各業務部門普遍成長，並增加租賃活動。",
+          "why": "安全儲存與資訊服務的需求可支持企業投資，而更強的營運表現可能提升公司為擴張與股利提供資金的能力。",
+          "uncertainty": "公司發布內容同時強調非一般公認會計原則的資金指標與一般公認會計原則結果，而業務仍容易受到電力成本、債務市場、網路安全事件，以及客戶從實體儲存轉移的影響。",
+          "watch": "留意後續申報中的經營現金流、資本支出、資料中心入住率及債務融資成本。",
           "metricLabels": [
             {
               "id": "m1",
@@ -585,37 +645,48 @@
             },
             {
               "id": "m2",
-              "label": "季度歸屬股東淨利潤"
+              "label": "季度淨利潤"
             },
             {
               "id": "m3",
-              "label": "累計經營現金流"
+              "label": "季度調整後營運資金"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "中國調查數據顯示整體活動失去動能",
-          "summary": "官方調查顯示，製造業及服務業活動在最近月份轉弱，訂單與建築活動均較疲弱。",
-          "impact": "訂單及建築活動轉弱，可能拖累工業招聘、供應商產能利用率、家庭收入，以及商品和服務需求。",
-          "what": "採購經理人調查追蹤製造業與非製造業的商業活動、訂單、價格、就業及預期。最新發布顯示，製造業生產與新訂單轉弱，建築活動轉弱，房地產相關服務則低於調查榮枯線。",
-          "why": "整體放緩可能降低定價能力並延後資本支出；同時，資訊科技服務的較強表現可能使增長集中於經濟中較狹窄的部分。",
-          "uncertainty": "採購經理人調查是以調查為基礎的領先指標，而非產出、利潤或現金流的直接衡量。它無法確定任何放緩的幅度或持續時間。",
-          "watch": "留意下一輪工業生產、零售銷售、固定資產投資、信貸及就業數據，以取得確認。",
+          "id": "f3",
+          "title": "官方調查顯示中國大陸工廠動能減弱",
+          "summary": "最新官方製造業調查進一步低於擴張門檻，生產與新訂單均轉弱。",
+          "impact": "工廠需求疲軟可能壓低供應商訂單、招聘、貨運量，以及中國大陸工業與出口相關公司的獲利。",
+          "what": "調查涵蓋採購經理人，並公布生產、訂單、庫存、就業及供應商交貨狀況的擴散指數。",
+          "why": "訂單減少可能降低製造商的產能利用率與議價能力，而較弱的小型企業數據顯示供應鏈各環節的狀況並不一致。",
+          "uncertainty": "採購經理人調查是方向性指標，不等同於實際產出或利潤數據；月度讀數可能波動，也可能受到季節因素影響。",
+          "watch": "留意下一輪官方生產、貿易、物價及工業利潤數據，以確認或推翻目前趨勢。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "製造業採購經理人指標"
+              "label": "製造業採購經理人指數"
             },
             {
               "id": "m2",
-              "label": "非製造業活動指標"
+              "label": "月度指數變化"
             },
             {
               "id": "m3",
-              "label": "綜合產出指標"
+              "label": "新訂單指數"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "中國大陸基準指數在最近完成的交易時段回落",
+          "summary": "上海綜合基準指數與中國大陸大型股基準指數在最近完成的交易時段均收低。",
+          "impact": "交易時段走弱可能收緊股票融資條件，並削弱家庭財富感受；但單一收盤表現不足以證明獲利或內需已出現持久變化。",
+          "what": "歷史指數資料記錄上海基準指數與中國大陸大型股基準指數最近交易時段的收盤水準及每日變化。",
+          "why": "市場疲弱可能影響交易活動、發行時機與投資人信心，但對企業基本面的影響仍取決於需求與現金流狀況。",
+          "uncertainty": "指數表現是結果，並不能證明存在單一催化因素；資料無法區分政策預期、產業輪動、海外情緒或獲利了結的影響。",
+          "watch": "留意市場廣度、成交量、獲利預估修正及官方需求指標，以判斷疲弱是否持續。",
+          "metricLabels": []
         }
       ]
     }
