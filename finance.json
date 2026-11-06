@@ -1,51 +1,99 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-05T21:05:51.755Z",
-  "generatedAt": "2026-11-05T21:21:04.093Z",
-  "model": "gpt-5.6-sol",
+  "cutoffAt": "2026-11-06T00:58:00.682Z",
+  "generatedAt": "2026-11-06T01:03:05.209Z",
+  "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Qualcomm fiscal results filed with the SEC",
-      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom092726erex991.htm"
+      "label": "Apple fiscal results release",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
     },
     {
       "id": "src2",
-      "label": "United States productivity and costs release",
-      "url": "https://www.bls.gov/news.release/archives/prod2_11052026.htm"
+      "label": "Datadog results release",
+      "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-third-quarter-2026-financial-results/"
     },
     {
       "id": "src3",
+      "label": "Datadog SEC quarterly filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026070292/ddog-20260930.htm"
+    },
+    {
+      "id": "src4",
       "label": "BYD quarterly report",
       "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
     },
     {
-      "id": "src4",
-      "label": "China production-material wholesale price release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261103_1965738.html"
-    },
-    {
       "id": "src5",
-      "label": "Shanghai Composite daily history",
-      "url": "https://en.stockq.org/m/index/SHCOMP.php"
+      "label": "CATL quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
     },
     {
       "id": "src6",
-      "label": "CSI large-cap index daily history",
-      "url": "https://kr.investing.com/indices/csi300-historical-data"
+      "label": "China official purchasing managers survey",
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261031_1965718.html"
+    },
+    {
+      "id": "src7",
+      "label": "FRED S&P five hundred data",
+      "url": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "src8",
+      "label": "FRED Nasdaq Composite data",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+    },
+    {
+      "id": "src9",
+      "label": "Shanghai Composite historical data",
+      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
+    },
+    {
+      "id": "src10",
+      "label": "Mainland China market closing report",
+      "url": "https://news.10jqka.com.cn/20261105/c681500940.shtml"
+    },
+    {
+      "id": "src11",
+      "label": "S&P five hundred end of day data",
+      "url": "https://www.tallacoptions.com/Data/Eod/SPX"
+    },
+    {
+      "id": "src12",
+      "label": "US market closing report",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close"
+    },
+    {
+      "id": "src13",
+      "label": "Apple SEC earnings exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-05",
+      "close": 7353.73,
+      "previousClose": 7688.62,
+      "changePercent": -4.35565810249434,
+      "sourceIds": [
+        "src11",
+        "src12"
+      ]
     },
     {
       "id": "nasdaq",
+      "sessionDate": "2026-11-05",
+      "close": 24315,
+      "previousClose": 25736.51,
+      "changePercent": -5.5233207610511235,
+      "sourceIds": [
+        "src12"
+      ]
+    },
+    {
+      "id": "sse",
       "sessionDate": null,
       "close": null,
       "previousClose": null,
@@ -53,777 +101,519 @@
       "sourceIds": []
     },
     {
-      "id": "sse",
-      "sessionDate": "2026-11-05",
-      "close": 3689.91,
-      "previousClose": 3686.17,
-      "changePercent": 0.1,
-      "sourceIds": [
-        "src5"
-      ]
-    },
-    {
       "id": "csi300",
-      "sessionDate": "2026-11-05",
-      "close": 4113.41,
-      "previousClose": 4101.33,
-      "changePercent": 0.29,
-      "sourceIds": [
-        "src6"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     }
   ],
   "stories": [
     {
-      "id": "f1",
-      "market": "us",
+      "id": "f3",
+      "market": "cn",
       "category": "earnings",
-      "publishedOn": "2026-11-04",
+      "publishedOn": "2026-10-30",
       "company": {
-        "name": "Qualcomm Incorporated",
-        "ticker": "QCOM",
-        "exchange": "Nasdaq Stock Market"
+        "name": "BYD",
+        "ticker": "002594",
+        "exchange": "Shenzhen Stock Exchange"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 43120000000,
-          "unit": "USD",
-          "periodStart": "2025-09-29",
-          "periodEnd": "2026-09-27",
+          "value": 221488251000,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Fiscal results table, reported revenue row."
+          "evidence": "The main financial-data table reports quarterly operating revenue."
         },
         {
           "id": "m2",
-          "value": 13628000000,
-          "unit": "USD",
-          "periodStart": "2025-09-29",
-          "periodEnd": "2026-09-27",
+          "value": 10019570000,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Fiscal results table, reported net-income row."
+          "evidence": "The same table reports quarterly net profit attributable to shareholders."
         },
         {
           "id": "m3",
-          "value": 11145000000,
-          "unit": "USD",
-          "periodStart": "2025-09-29",
-          "periodEnd": "2026-09-27",
+          "value": 54469572000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Consolidated cash-flow statement, operating-activities total."
-        },
-        {
-          "id": "m4",
-          "value": 5700000000,
-          "unit": "USD",
-          "periodStart": "2025-09-29",
-          "periodEnd": "2026-09-27",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Fiscal results footnote describing the deferred-tax valuation-allowance release."
-        },
-        {
-          "id": "m5",
-          "value": 24072000000,
-          "unit": "USD",
-          "periodStart": "2025-09-29",
-          "periodEnd": "2026-09-27",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Chip-segment revenue-stream table, handset row."
-        },
-        {
-          "id": "m6",
-          "value": 6004000000,
-          "unit": "USD",
-          "periodStart": "2025-09-29",
-          "periodEnd": "2026-09-27",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Chip-segment revenue-stream table, automotive row."
+          "evidence": "The cash-flow statement reports cumulative net cash from operating activities."
         }
       ],
       "sourceIds": [
-        "src1"
+        "src4"
       ],
-      "evidence": "The SEC exhibit provides fiscal results, the tax-benefit footnote, segment revenue and the consolidated cash-flow statement."
+      "evidence": "The dated report shows quarterly revenue and attributable profit rising from the comparable period, while cumulative operating cash flow also increased. The report distinguishes quarterly accounting results from year-to-date cash generation."
     },
     {
-      "id": "f2",
-      "market": "us",
+      "id": "f5",
+      "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-11-05",
+      "publishedOn": "2026-10-31",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 3.6,
+          "value": 49.3,
           "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src6"
           ],
-          "evidence": "Preliminary nonfarm-business table, annualized productivity change."
+          "evidence": "The official seasonally adjusted table reports the manufacturing purchasing managers measure for October."
         },
         {
           "id": "m2",
-          "value": 3.7,
+          "value": 49.7,
           "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src6"
           ],
-          "evidence": "Preliminary nonfarm-business table, annualized output change."
+          "evidence": "The official release reports the non-manufacturing business activity measure for October."
         },
         {
           "id": "m3",
-          "value": 0.1,
+          "value": 49.7,
           "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src2"
+            "src6"
           ],
-          "evidence": "Preliminary nonfarm-business table, annualized hours-worked change."
-        },
-        {
-          "id": "m4",
-          "value": 2.9,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "Preliminary nonfarm-business table, annualized hourly-compensation change."
-        },
-        {
-          "id": "m5",
-          "value": -0.7,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "Preliminary nonfarm-business table, annualized unit-labor-cost change."
-        },
-        {
-          "id": "m6",
-          "value": 1.1,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "Preliminary nonfarm-business table, annualized real-hourly-compensation change."
+          "evidence": "The official release reports the composite output measure for October."
         }
       ],
       "sourceIds": [
-        "src2"
+        "src6"
       ],
-      "evidence": "The archived release and its main preliminary table report seasonally adjusted annualized changes in productivity, output, hours, compensation and labor costs."
+      "evidence": "The official survey says manufacturing activity, non-manufacturing activity, and new orders weakened. It also identifies weaker construction and property-related services, while some information-technology services remained stronger."
     }
   ],
   "locales": {
     "en": {
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Qualcomm profit was lifted by tax accounting as cash generation weakened",
-          "summary": "Qualcomm’s annual results showed weaker core economics beneath a tax-assisted jump in reported profit, while automotive and emerging data-center activity supported its diversification case.",
-          "impact": "For investors and customers, the central issue is whether growth outside handsets can offset handset pressure and rising semiconductor input costs before cash conversion weakens further.",
-          "what": "Qualcomm designs wireless, computing and connectivity chips and licenses cellular intellectual property used by device manufacturers. Its filing presented the final quarter and full-year results, showing annual revenue and operating cash generation below the prior year while reported net income rose sharply. A deferred-tax valuation-allowance release was the main reason accounting profit moved differently from the underlying business. Automotive revenue expanded, and management said the data-center ramp was beginning, but handsets remained the largest revenue stream and continued to decline. The company also warned that wafer fabrication, packaging, testing, memory and other input costs were rising and said pricing actions would take time to flow through margins.",
-          "why": "A tax benefit can increase reported earnings without producing equivalent receipts from customers, making operating cash flow an essential check on headline profit. Cash generation funds chip research, engineering infrastructure, acquisitions, dividends and repurchases, all of which compete for the same resources. Diversification is strategically important because handset customers can internalize modem designs and smartphone demand can be cyclical. Automotive and data-center platforms could broaden the revenue base and increase the value of Qualcomm’s processing and connectivity technology, but those businesses have different customer cycles, qualification requirements and capital needs. The quality of the transition therefore depends on margins and cash conversion, not merely new revenue categories.",
-          "uncertainty": "The earnings release includes unaudited annual cash-flow statements, while management’s revenue targets and margin expectations are forward-looking rather than realized results. The timing of customer ramps, product qualification, pricing actions and supply-cost relief remains uncertain. Renewed licensing agreements reduce some near-term risk but do not remove customer concentration or the possibility that device makers use more internally designed components. The tax benefit also makes reported net income less comparable with the operating performance of adjacent periods. Inventory investment may protect supply, yet it can also absorb cash if customer demand develops more slowly than expected.",
-          "watch": "Watch subsequent handset, automotive and data-center revenue, together with gross margin, inventory and operating cash flow. Evidence that pricing offsets input inflation without weakening demand would improve the operating picture. Data-center shipments and automotive design conversions should be assessed against actual recognized revenue rather than management targets alone. Continued cash-flow erosion, further handset contraction or a delayed margin recovery would indicate that diversification is not yet compensating for pressure in the established business.",
+          "id": "f3",
+          "title": "BYD reports stronger quarterly profit while cash generation accumulates",
+          "summary": "BYD’s latest quarterly report showed higher revenue and attributable profit, while cumulative operating cash flow remained substantial.",
+          "impact": "The result matters for vehicle prices, battery supply, and Chinese industrial demand because scale and cash generation influence production expansion and competitive pricing.",
+          "what": "BYD’s report covers its vehicle and related product operations and presents quarterly revenue and attributable profit alongside cumulative operating cash flow. This allows accounting performance to be compared with cash produced by operations.",
+          "why": "Higher cash generation can support factory investment, research, inventory, and international expansion. Revenue growth does not automatically ensure durable margins in a competitive manufacturing market.",
+          "uncertainty": "The report covers a completed period and does not by itself show current deliveries, pricing after the reporting date, or the sustainability of non-operating gains.",
+          "watch": "Watch subsequent delivery data, vehicle pricing, gross margin, inventory, and operating cash flow.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Reported annual revenue"
+              "label": "Quarterly revenue"
             },
             {
               "id": "m2",
-              "label": "Reported annual net income"
+              "label": "Quarterly attributable net profit"
             },
             {
               "id": "m3",
-              "label": "Reported annual operating cash flow"
-            },
-            {
-              "id": "m4",
-              "label": "Deferred-tax valuation-allowance benefit"
-            },
-            {
-              "id": "m5",
-              "label": "Annual handset revenue"
-            },
-            {
-              "id": "m6",
-              "label": "Annual automotive revenue"
+              "label": "Cumulative operating cash flow"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "Productivity growth eased labor-cost pressure",
-          "summary": "United States productivity accelerated while unit labor costs fell, suggesting firms produced more output without a comparable rise in labor input.",
-          "impact": "If sustained, that combination can support margins and real wage growth with less inflation pressure, although the preliminary estimate is volatile and likely to be revised.",
-          "what": "The labor agency’s preliminary nonfarm-business release measures output per hour across much of the private economy. Output rose much faster than hours worked, lifting productivity, while hourly compensation increased more slowly than productivity and unit labor costs declined. Real hourly compensation also increased, indicating that worker purchasing power improved during the period. The report incorporates revised national-account data and other source updates, so some earlier productivity and compensation estimates changed as well. Manufacturing was less favorable than the broader nonfarm measure, reinforcing that the aggregate result does not describe every industry equally.",
-          "why": "Productivity links economic growth, wages, company profits and inflation. When each hour of labor produces more output, employers have more scope to raise compensation without passing the full cost into selling prices or sacrificing margins. Households can benefit through stronger real income, while businesses may gain capacity without matching increases in staffing or hours. The release therefore points to a more favorable supply pattern than growth driven mainly by longer work schedules. It may also affect how policymakers interpret wage growth: compensation is less inflationary when productivity keeps pace, although pricing decisions still depend on demand, materials, financing costs and competitive conditions.",
-          "uncertainty": "The estimate is preliminary, annualized and sensitive to revisions in measured output, compensation and hours. Small changes in hours can create large swings in calculated productivity, especially around turning points. Economy-wide aggregates can hide very different experiences across manufacturing, technology, retail, health care and other services. Productivity can also rise temporarily when employers reduce labor faster than output, which is different from lasting efficiency gains created by investment or better processes. A favorable quarter therefore does not establish a durable trend, and revised national-account data may alter the interpretation.",
-          "watch": "Watch the revised productivity release, subsequent compensation data, inflation measures and company commentary on staffing, automation and pricing. Confirmation would require productivity to remain firm while labor-cost growth and selling-price pressure stay contained. Business investment in software, machinery and artificial intelligence may help sustain efficiency, but evidence should appear in output and cash returns rather than spending announcements alone. A rebound in hours without matching output, or faster compensation without productivity support, would reverse the favorable labor-cost signal.",
+          "id": "f5",
+          "title": "China survey data show broad activity losing momentum",
+          "summary": "The official survey showed manufacturing and services activity weakening in the latest month, with softer orders and construction activity.",
+          "impact": "Softer orders and construction activity can weigh on industrial hiring, supplier utilization, household income, and demand for goods and services.",
+          "what": "The purchasing managers survey tracks business activity, orders, prices, employment, and expectations across manufacturing and non-manufacturing sectors. The latest release reports weaker manufacturing production and new orders, weaker construction activity, and property-related services below the survey threshold.",
+          "why": "A broad slowdown can reduce pricing power and delay capital spending, while stronger pockets of information technology services may concentrate growth in a narrower part of the economy.",
+          "uncertainty": "The purchasing managers survey is a survey-based leading indicator rather than a direct measure of output, profits, or cash flow. It does not establish the size or duration of any slowdown.",
+          "watch": "Watch the next industrial output, retail sales, fixed-asset investment, credit, and employment releases for confirmation.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Annualized quarterly nonfarm-productivity change"
+              "label": "Manufacturing purchasing managers measure"
             },
             {
               "id": "m2",
-              "label": "Annualized quarterly output change"
+              "label": "Non-manufacturing activity measure"
             },
             {
               "id": "m3",
-              "label": "Annualized quarterly hours-worked change"
-            },
-            {
-              "id": "m4",
-              "label": "Annualized quarterly hourly-compensation change"
-            },
-            {
-              "id": "m5",
-              "label": "Annualized quarterly unit-labor-cost change"
-            },
-            {
-              "id": "m6",
-              "label": "Annualized quarterly real-hourly-compensation change"
+              "label": "Composite output measure"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场没有经核实的新消息；带日期的报告均已明确标注。",
+      "status": "本期经过验证的覆盖范围有限。部分市场没有经过验证的新消息；带日期的报告仍明确标注为相应日期的信息。",
       "marketSummary": {
-        "us": "部分收盘数据无法核实。各可用指数均保留其各自的交易日期。",
-        "cn": "所跟踪的指数在最近经核实的交易时段均上涨。带日期的收盘数据反映的是对应交易时段，而非当前交易。"
+        "us": "跟踪的指数在各自最新经过验证的交易时段均下跌。带日期的收盘数据描述的是这些交易时段，而不是当前交易情况。",
+        "cn": "部分收盘观察未能得到验证。每个可用指数均保留其自身的交易日期。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "税务会计处理推高高通利润，但现金创造能力减弱",
-          "summary": "高通年度业绩显示，报告利润因税收利益而大幅上升，但核心经营状况有所减弱。汽车业务和刚起步的数据中心业务则为多元化战略提供了支持。",
-          "impact": "对投资者和客户而言，核心问题是：在现金转化能力进一步减弱前，手机以外业务的增长能否抵消手机业务压力和半导体投入成本上涨。",
-          "what": "高通设计无线、计算和连接芯片，并向设备制造商许可蜂窝通信知识产权。公司文件披露了最后一个季度和全年的业绩：年度营收和经营现金流低于上年，而报告净利润大幅上升。递延所得税估值备抵转回，是会计利润与基础业务表现出现差异的主要原因。汽车业务营收增长，管理层表示数据中心业务开始放量，但手机业务仍是最大的营收来源，并继续下滑。公司还警告，晶圆制造、封装、测试、存储器及其他投入成本正在上涨，并表示提价措施需要时间才能反映到利润率中。",
-          "why": "税收利益可以提高报告利润，却不一定带来相应的客户现金收入，因此经营现金流是检验表面利润的重要指标。现金创造能力用于支持芯片研发、工程基础设施、收购、股息和股票回购，这些用途会争夺相同资源。多元化具有战略重要性，因为手机客户可能自行设计调制解调器，而智能手机需求也具有周期性。汽车和数据中心平台可能扩大营收来源，并提高高通处理和连接技术的价值，但这些业务具有不同的客户周期、认证要求和资本需求。因此，转型质量取决于利润率和现金转化，而不能只看新增营收类别。",
-          "uncertainty": "业绩公告中的年度现金流量表未经审计，管理层的营收目标和利润率预期属于前瞻性信息，并非已实现结果。客户放量、产品认证、提价措施和供应成本缓解的时间仍不确定。续签许可协议降低了部分近期风险，但无法消除客户集中风险，也不能排除设备制造商更多采用自研零部件的可能。税收利益还降低了报告净利润与相邻期间经营表现的可比性。增加库存可能保障供应，但如果客户需求增长慢于预期，也会占用现金。",
-          "watch": "关注后续的手机、汽车和数据中心营收，以及毛利率、库存和经营现金流。如果提价能够抵消投入成本上涨，同时不削弱需求，经营状况将有所改善。评估数据中心出货和汽车项目转化时，应以实际确认的营收为依据，而不能只看管理层目标。如果现金流继续恶化、手机业务进一步收缩，或利润率恢复延迟，就说明多元化尚未抵消传统业务的压力。",
+          "id": "f3",
+          "title": "比亚迪季度利润增强，现金创造持续积累",
+          "summary": "比亚迪最新季度报告显示，营收和归属于股东的净利润均有所增长，累计经营现金流仍然可观。",
+          "impact": "这一结果对汽车价格、电池供应和中国工业需求具有重要意义，因为规模和现金创造能力会影响产能扩张与竞争性定价。",
+          "what": "比亚迪的报告涵盖汽车及相关产品业务，并同时列示季度营收、归属于股东的净利润和累计经营现金流。这有助于将会计业绩与经营活动产生的现金进行比较。",
+          "why": "更强的现金创造能力可以支持工厂投资、研发、库存管理和国际扩张。但在竞争激烈的制造业市场中，营收增长并不自动意味着利润率能够持续。",
+          "uncertainty": "该报告覆盖的是已经结束的期间，不能单独反映当前交付量、报告期后的定价情况，或非经营性收益的可持续性。",
+          "watch": "关注后续交付数据、汽车价格、毛利率、库存和经营现金流。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "披露的年度营收"
+              "label": "季度营收"
             },
             {
               "id": "m2",
-              "label": "披露的年度净利润"
+              "label": "季度归属于股东的净利润"
             },
             {
               "id": "m3",
-              "label": "披露的年度经营现金流"
-            },
-            {
-              "id": "m4",
-              "label": "递延所得税估值备抵转回收益"
-            },
-            {
-              "id": "m5",
-              "label": "年度手机业务营收"
-            },
-            {
-              "id": "m6",
-              "label": "年度汽车业务营收"
+              "label": "累计经营现金流"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "生产率增长缓解了劳动力成本压力",
-          "summary": "美国生产率增长加快，单位劳动力成本下降，表明企业在没有相应增加劳动力投入的情况下提高了产出。",
-          "impact": "如果这种情况能够持续，可能有利于企业利润率和实际工资增长，同时减轻通胀压力。不过，初步估算波动较大，也可能被修正。",
-          "what": "劳工部门发布的非农企业部门初步报告，衡量了大部分私营经济领域的每小时产出。产出增速远快于工作时长，推动生产率上升；每小时报酬增速低于生产率增速，单位劳动力成本因而下降。实际每小时报酬也有所增加，说明期内劳动者的购买力得到改善。报告纳入了修订后的国民账户数据和其他来源更新，因此此前部分生产率和报酬估算也发生变化。制造业表现不如整体非农指标，说明总体结果不能同等代表所有行业。",
-          "why": "生产率连接着经济增长、工资、企业利润和通胀。当每小时劳动能够创造更多产出时，雇主就有更大空间提高报酬，而不必把全部成本转嫁到售价中或牺牲利润率。家庭可能因实际收入增强而受益，企业也可能在不相应增加员工或工时的情况下提高产能。因此，这份报告反映出的供给状况，比主要依靠延长工时推动增长更有利。它也可能影响政策制定者对工资增长的判断：当生产率同步提高时，报酬增长带来的通胀压力较小，但定价仍取决于需求、原材料、融资成本和竞争环境。",
-          "uncertainty": "这项估算属于初步年化数据，对产出、报酬和工时的修订较为敏感。工时的轻微变化可能造成计算出的生产率大幅波动，在经济转折期尤其如此。整体经济数据可能掩盖制造业、科技、零售、医疗及其他服务业之间的显著差异。如果雇主削减劳动力的速度快于产出下降，生产率也可能暂时上升；这不同于投资或流程改善带来的持久效率提升。因此，单个季度的良好表现不能确立长期趋势，国民账户数据修订也可能改变对结果的解读。",
-          "watch": "关注修订后的生产率报告、后续报酬数据、通胀指标，以及企业对用工、自动化和定价的评论。只有生产率保持稳健，同时劳动力成本增速和售价压力维持受控，才能形成进一步确认。软件、机械设备和人工智能投资可能有助于维持效率，但证据应体现在产出和现金回报中，而不能只看支出公告。如果工时反弹却没有相应的产出增长，或报酬加速增长却没有生产率支持，当前有利的劳动力成本信号将会逆转。",
+          "id": "f5",
+          "title": "中国调查数据显示整体活动失去动能",
+          "summary": "官方调查显示，制造业和服务业活动在最近月份走弱，订单和建筑活动均趋于疲软。",
+          "impact": "订单和建筑活动走弱，可能拖累工业就业、供应商产能利用率、居民收入以及商品和服务需求。",
+          "what": "采购经理调查跟踪制造业和非制造业的商业活动、订单、价格、就业和预期。最新发布的数据表明，制造业产出和新订单走弱，建筑活动减弱，房地产相关服务低于调查荣枯线。",
+          "why": "整体放缓可能削弱定价能力并推迟资本支出；与此同时，信息技术服务中较强的部分可能使增长集中在经济中更狭窄的领域。",
+          "uncertainty": "采购经理调查是基于调查的领先指标，并非对产出、利润或现金流的直接衡量。它不能确定任何放缓的规模或持续时间。",
+          "watch": "关注下一轮工业产出、零售销售、固定资产投资、信贷和就业数据，以寻找进一步确认。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度非农生产率年化变化"
+              "label": "制造业采购经理指数"
             },
             {
               "id": "m2",
-              "label": "季度产出年化变化"
+              "label": "非制造业活动指数"
             },
             {
               "id": "m3",
-              "label": "季度工作时长年化变化"
-            },
-            {
-              "id": "m4",
-              "label": "季度每小时报酬年化变化"
-            },
-            {
-              "id": "m5",
-              "label": "季度单位劳动力成本年化变化"
-            },
-            {
-              "id": "m6",
-              "label": "季度实际每小时报酬年化变化"
+              "label": "综合产出指数"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont aucune nouvelle actualité vérifiée ; les rapports datés restent clairement signalés.",
+      "status": "Couverture vérifiée limitée dans cette édition. Certains marchés n’ont pas de nouvelle information vérifiée ; les rapports datés restent clairement identifiés.",
       "marketSummary": {
-        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
-        "cn": "L’ensemble des indices suivis a progressé lors des dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Le bénéfice de Qualcomm a été soutenu par la comptabilité fiscale, tandis que la génération de trésorerie s’est affaiblie",
-          "summary": "Les résultats annuels de Qualcomm ont révélé des fondamentaux moins solides malgré la forte hausse du bénéfice publié, favorisée par un effet fiscal. Les activités automobiles et naissantes dans les centres de données ont soutenu sa stratégie de diversification.",
-          "impact": "Pour les investisseurs et les clients, l’enjeu central est de savoir si la croissance hors téléphones mobiles peut compenser les difficultés de cette activité et la hausse des coûts des composants avant une nouvelle dégradation de la conversion en trésorerie.",
-          "what": "Qualcomm conçoit des puces de communication sans fil, de calcul et de connectivité. L’entreprise accorde aussi des licences sur des technologies cellulaires utilisées par les fabricants d’appareils. Son document présentait les résultats du dernier trimestre et de l’ensemble de l’exercice. Le chiffre d’affaires annuel et les flux de trésorerie d’exploitation étaient inférieurs à ceux de l’exercice précédent, tandis que le résultat net publié augmentait fortement. La reprise d’une provision pour dépréciation d’actifs d’impôt différé explique principalement pourquoi le bénéfice comptable a évolué différemment de l’activité sous-jacente. Le chiffre d’affaires automobile a progressé et la direction a indiqué que l’activité des centres de données commençait à monter en puissance. Les téléphones mobiles restaient toutefois la principale source de chiffre d’affaires et continuaient de reculer. L’entreprise a également signalé une hausse des coûts de fabrication des plaquettes, d’assemblage, de test, de mémoire et d’autres composants. Elle a précisé que les ajustements de prix mettraient du temps à se refléter dans les marges.",
-          "why": "Un avantage fiscal peut augmenter le bénéfice publié sans générer des encaissements équivalents auprès des clients. Les flux de trésorerie d’exploitation sont donc essentiels pour vérifier la solidité du bénéfice annoncé. La trésorerie générée finance la recherche sur les puces, les infrastructures d’ingénierie, les acquisitions, les dividendes et les rachats d’actions, qui se disputent les mêmes ressources. La diversification est importante, car les clients peuvent concevoir leurs modems en interne et la demande de smartphones peut être cyclique. Les plateformes automobiles et de centres de données pourraient élargir les sources de revenus et accroître la valeur des technologies de calcul et de connectivité de Qualcomm. Ces activités ont toutefois des cycles clients, des exigences de qualification et des besoins en capitaux différents. La qualité de la transition dépend donc des marges et de la conversion en trésorerie, et pas seulement de nouvelles catégories de revenus.",
-          "uncertainty": "Le communiqué de résultats comprend des états annuels des flux de trésorerie non audités. Les objectifs de chiffre d’affaires et les attentes de marge de la direction sont prospectifs et ne constituent pas des résultats réalisés. Le calendrier de montée en puissance des clients, de qualification des produits, d’ajustement des prix et de détente des coûts d’approvisionnement reste incertain. Les accords de licence renouvelés réduisent une partie du risque à court terme, mais n’éliminent ni la concentration de la clientèle ni la possibilité que les fabricants utilisent davantage de composants conçus en interne. L’avantage fiscal rend aussi le résultat net publié moins comparable avec les performances opérationnelles des périodes voisines. Le renforcement des stocks peut sécuriser l’approvisionnement, mais aussi absorber de la trésorerie si la demande progresse plus lentement que prévu.",
-          "watch": "À surveiller : les prochains chiffres d’affaires des téléphones mobiles, de l’automobile et des centres de données, ainsi que la marge brute, les stocks et les flux de trésorerie d’exploitation. Des prix compensant l’inflation des coûts sans affaiblir la demande amélioreraient la situation opérationnelle. Les livraisons aux centres de données et la conversion des projets automobiles doivent être comparées au chiffre d’affaires réellement comptabilisé, et pas seulement aux objectifs de la direction. Une nouvelle érosion des flux de trésorerie, la poursuite du recul des téléphones mobiles ou un redressement tardif des marges montreraient que la diversification ne compense pas encore les difficultés de l’activité historique.",
+          "id": "f3",
+          "title": "BYD fait état d’une hausse de son bénéfice trimestriel, tandis que sa génération de trésorerie s’accumule",
+          "summary": "Le dernier rapport trimestriel de BYD fait ressortir une hausse du chiffre d’affaires et du bénéfice attribuable, tandis que le flux de trésorerie cumulé lié aux activités opérationnelles reste substantiel.",
+          "impact": "Le résultat compte pour les prix des véhicules, l’approvisionnement en batteries et la demande industrielle chinoise, car l’échelle de production et la génération de trésorerie influencent l’expansion des capacités et la concurrence sur les prix.",
+          "what": "Le rapport de BYD couvre ses activités liées aux véhicules et aux produits associés. Il présente le chiffre d’affaires et le bénéfice attribuable trimestriels, ainsi que le flux de trésorerie opérationnel cumulé. Cela permet de comparer la performance comptable à la trésorerie générée par les activités.",
+          "why": "Une génération de trésorerie plus élevée peut soutenir les investissements dans les usines, la recherche, les stocks et l’expansion internationale. La croissance du chiffre d’affaires ne garantit pas automatiquement des marges durables dans un secteur manufacturier concurrentiel.",
+          "uncertainty": "Le rapport couvre une période achevée et ne montre pas à lui seul les livraisons actuelles, les prix après la date de publication ni la pérennité des gains hors exploitation.",
+          "watch": "Surveiller les prochaines données de livraison, les prix des véhicules, la marge brute, les stocks et le flux de trésorerie opérationnel.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires annuel publié"
+              "label": "Chiffre d’affaires trimestriel"
             },
             {
               "id": "m2",
-              "label": "Résultat net annuel publié"
+              "label": "Bénéfice net trimestriel attribuable"
             },
             {
               "id": "m3",
-              "label": "Flux de trésorerie d’exploitation annuel publié"
-            },
-            {
-              "id": "m4",
-              "label": "Avantage lié à la reprise de la provision pour dépréciation des actifs d’impôt différé"
-            },
-            {
-              "id": "m5",
-              "label": "Chiffre d’affaires annuel des téléphones mobiles"
-            },
-            {
-              "id": "m6",
-              "label": "Chiffre d’affaires annuel de l’automobile"
+              "label": "Flux de trésorerie opérationnel cumulé"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "La hausse de la productivité a atténué la pression des coûts du travail",
-          "summary": "Aux États-Unis, la productivité s’est accélérée tandis que les coûts unitaires de main-d’œuvre ont baissé. Les entreprises ont ainsi produit davantage sans hausse comparable du volume de travail utilisé.",
-          "impact": "Si cette combinaison dure, elle peut soutenir les marges et la progression des salaires réels avec moins de pression inflationniste. L’estimation préliminaire reste toutefois volatile et susceptible d’être révisée.",
-          "what": "La publication préliminaire de l’administration du travail sur les entreprises non agricoles mesure la production par heure dans une grande partie de l’économie privée. La production a augmenté bien plus vite que les heures travaillées, ce qui a renforcé la productivité. La rémunération horaire a progressé moins vite que la productivité et les coûts unitaires de main-d’œuvre ont diminué. La rémunération horaire réelle a également augmenté, signalant une amélioration du pouvoir d’achat des travailleurs pendant la période. Le rapport intègre des données révisées des comptes nationaux et d’autres mises à jour des sources. Certaines estimations antérieures de productivité et de rémunération ont donc changé. La situation du secteur manufacturier était moins favorable que celle de l’ensemble des entreprises non agricoles, ce qui montre que le résultat global ne décrit pas chaque secteur de la même façon.",
-          "why": "La productivité relie la croissance économique, les salaires, les bénéfices des entreprises et l’inflation. Quand chaque heure de travail produit davantage, les employeurs peuvent plus facilement augmenter les rémunérations sans répercuter tout le coût sur les prix de vente ni réduire leurs marges. Les ménages peuvent bénéficier d’un revenu réel plus élevé, tandis que les entreprises peuvent accroître leurs capacités sans hausse équivalente des effectifs ou des heures. Le rapport indique donc une évolution de l’offre plus favorable qu’une croissance reposant surtout sur l’allongement du temps de travail. Il peut aussi influencer l’interprétation de la hausse des salaires par les responsables publics. Les rémunérations sont moins inflationnistes lorsque la productivité suit le rythme, même si les décisions de prix dépendent aussi de la demande, des matériaux, des coûts de financement et de la concurrence.",
-          "uncertainty": "L’estimation est préliminaire, annualisée et sensible aux révisions de la production, des rémunérations et des heures mesurées. De faibles variations des heures peuvent provoquer de fortes fluctuations de la productivité calculée, surtout pendant les périodes de retournement. Les données globales peuvent masquer des situations très différentes dans l’industrie, la technologie, le commerce, la santé et les autres services. La productivité peut aussi augmenter temporairement lorsque les employeurs réduisent le travail utilisé plus vite que la production. Cette situation diffère des gains d’efficacité durables créés par l’investissement ou de meilleurs processus. Un trimestre favorable ne suffit donc pas à établir une tendance durable, et la révision des comptes nationaux peut modifier l’interprétation.",
-          "watch": "À surveiller : la publication révisée sur la productivité, les prochaines données sur les rémunérations, les mesures d’inflation et les commentaires des entreprises sur les effectifs, l’automatisation et les prix. La confirmation nécessiterait une productivité toujours solide, accompagnée d’une croissance contenue des coûts du travail et des prix de vente. Les investissements dans les logiciels, les machines et l’intelligence artificielle peuvent soutenir l’efficacité, mais les résultats doivent apparaître dans la production et les flux de trésorerie plutôt que dans les seules annonces de dépenses. Un rebond des heures sans hausse équivalente de la production, ou une accélération des rémunérations sans soutien de la productivité, inverserait le signal favorable sur les coûts du travail.",
+          "id": "f5",
+          "title": "Les enquêtes chinoises montrent un ralentissement généralisé de l’activité",
+          "summary": "L’enquête officielle montre un affaiblissement de l’activité manufacturière et des services au cours du dernier mois, avec un ralentissement des commandes et de la construction.",
+          "impact": "Le recul des commandes et de l’activité dans la construction peut peser sur l’emploi industriel, l’utilisation des capacités des fournisseurs, les revenus des ménages et la demande de biens et services.",
+          "what": "L’enquête auprès des directeurs d’achat suit l’activité, les commandes, les prix, l’emploi et les anticipations dans les secteurs manufacturier et non manufacturier. La dernière publication fait état d’un affaiblissement de la production manufacturière et des nouvelles commandes, d’un recul de l’activité dans la construction et d’une activité des services liés à l’immobilier inférieure au seuil de l’enquête.",
+          "why": "Un ralentissement généralisé peut réduire le pouvoir de fixation des prix et retarder les dépenses d’investissement, tandis que les poches de vigueur dans les services informatiques peuvent concentrer la croissance dans une partie plus étroite de l’économie.",
+          "uncertainty": "L’enquête auprès des directeurs d’achat est un indicateur avancé fondé sur des réponses, et non une mesure directe de la production, des bénéfices ou des flux de trésorerie. Elle ne permet pas d’établir l’ampleur ni la durée d’un éventuel ralentissement.",
+          "watch": "Surveiller les prochaines publications sur la production industrielle, les ventes au détail, l’investissement en actifs fixes, le crédit et l’emploi pour obtenir une confirmation.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variation trimestrielle annualisée de la productivité des entreprises non agricoles"
+              "label": "Indice des directeurs d’achat du secteur manufacturier"
             },
             {
               "id": "m2",
-              "label": "Variation trimestrielle annualisée de la production"
+              "label": "Indice d’activité du secteur non manufacturier"
             },
             {
               "id": "m3",
-              "label": "Variation trimestrielle annualisée des heures travaillées"
-            },
-            {
-              "id": "m4",
-              "label": "Variation trimestrielle annualisée de la rémunération horaire"
-            },
-            {
-              "id": "m5",
-              "label": "Variation trimestrielle annualisée du coût unitaire de la main-d’œuvre"
-            },
-            {
-              "id": "m6",
-              "label": "Variation trimestrielle annualisée de la rémunération horaire réelle"
+              "label": "Indice composite de production"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes con fecha siguen claramente identificados.",
+      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen nuevas noticias verificadas; los informes fechados siguen claramente identificados.",
       "marketSummary": {
-        "us": "Algunas observaciones de cierre no pudieron verificarse. Los índices disponibles conservan su fecha de negociación correspondiente.",
-        "cn": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la negociación actual."
+        "us": "Ambos índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
+        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "La contabilización fiscal impulsó el beneficio de Qualcomm mientras se debilitó la generación de efectivo",
-          "summary": "Los resultados anuales de Qualcomm mostraron un deterioro del negocio principal bajo un fuerte aumento del beneficio reportado favorecido por impuestos, mientras las actividades de automoción y centros de datos emergentes respaldaron su diversificación.",
-          "impact": "Para inversores y clientes, la cuestión central es si el crecimiento fuera de los teléfonos móviles puede compensar la presión en ese mercado y el aumento de los costos de los insumos para semiconductores antes de que la conversión en efectivo se debilite más.",
-          "what": "Qualcomm diseña chips inalámbricos, informáticos y de conectividad, y concede licencias de propiedad intelectual celular utilizada por fabricantes de dispositivos. Su informe presentó los resultados del trimestre final y del ejercicio completo. Los ingresos anuales y la generación de efectivo operativa quedaron por debajo del ejercicio anterior, mientras el beneficio neto reportado aumentó con fuerza. La reversión de una provisión de valoración de impuestos diferidos fue la causa principal de que el beneficio contable evolucionara de forma distinta al negocio subyacente. Los ingresos de automoción crecieron y la dirección afirmó que el aumento gradual de la actividad en centros de datos estaba comenzando. Sin embargo, los teléfonos móviles siguieron siendo la mayor fuente de ingresos y continuaron cayendo. La empresa también advirtió que estaban aumentando los costos de fabricación de obleas, empaquetado, pruebas, memoria y otros insumos, y señaló que los cambios de precios tardarían en reflejarse en los márgenes.",
-          "why": "Un beneficio fiscal puede aumentar las ganancias reportadas sin generar cobros equivalentes de clientes, por lo que el flujo de caja operativo es una comprobación esencial del beneficio destacado. La generación de efectivo financia la investigación de chips, la infraestructura de ingeniería, las adquisiciones, los dividendos y las recompras, que compiten por los mismos recursos. La diversificación es estratégicamente importante porque los clientes de teléfonos móviles pueden desarrollar internamente sus módems y la demanda de teléfonos inteligentes puede ser cíclica. Las plataformas de automoción y centros de datos podrían ampliar la base de ingresos y aumentar el valor de la tecnología de procesamiento y conectividad de Qualcomm, pero esos negocios tienen ciclos de clientes, requisitos de aprobación y necesidades de capital diferentes. Por tanto, la calidad de la transición depende de los márgenes y de la conversión en efectivo, no solo de nuevas categorías de ingresos.",
-          "uncertainty": "El comunicado de resultados incluye estados anuales de flujos de efectivo sin auditar, mientras los objetivos de ingresos y las expectativas de márgenes de la dirección son previsiones y no resultados realizados. Siguen siendo inciertos los plazos del crecimiento de clientes, la aprobación de productos, los cambios de precios y el alivio de los costos de suministro. Los acuerdos renovados de licencia reducen parte del riesgo a corto plazo, pero no eliminan la concentración de clientes ni la posibilidad de que los fabricantes usen más componentes diseñados internamente. El beneficio fiscal también reduce la comparabilidad del beneficio neto reportado con el rendimiento operativo de periodos cercanos. La inversión en inventario puede proteger el suministro, pero también puede consumir efectivo si la demanda de los clientes crece más lentamente de lo esperado.",
-          "watch": "Conviene observar los ingresos posteriores de teléfonos móviles, automoción y centros de datos, junto con el margen bruto, el inventario y el flujo de caja operativo. Si los precios compensan la inflación de los insumos sin debilitar la demanda, mejoraría la situación operativa. Los envíos a centros de datos y la conversión de diseños de automoción deben evaluarse frente a los ingresos realmente reconocidos, no solo frente a los objetivos de la dirección. Un deterioro continuo del flujo de caja, una mayor contracción en teléfonos móviles o una recuperación tardía de los márgenes indicarían que la diversificación todavía no compensa la presión sobre el negocio consolidado.",
+          "id": "f3",
+          "title": "BYD informa de un mayor beneficio trimestral mientras acumula generación de efectivo",
+          "summary": "El último informe trimestral de BYD mostró un aumento de los ingresos y del beneficio atribuible, mientras el flujo de caja operativo acumulado siguió siendo considerable.",
+          "impact": "El resultado importa para los precios de los vehículos, el suministro de baterías y la demanda industrial china, porque la escala y la generación de efectivo influyen en la ampliación de la producción y en los precios competitivos.",
+          "what": "El informe de BYD abarca sus operaciones de vehículos y productos relacionados, y presenta los ingresos trimestrales y el beneficio atribuible junto con el flujo de caja operativo acumulado. Esto permite comparar el desempeño contable con el efectivo generado por las operaciones.",
+          "why": "Una mayor generación de efectivo puede respaldar la inversión en fábricas, la investigación, los inventarios y la expansión internacional. El crecimiento de los ingresos no garantiza por sí solo márgenes duraderos en un mercado manufacturero competitivo.",
+          "uncertainty": "El informe cubre un periodo ya concluido y, por sí solo, no muestra las entregas actuales, los precios posteriores a la fecha del informe ni la sostenibilidad de las ganancias no operativas.",
+          "watch": "Vigilar los datos posteriores de entregas, los precios de los vehículos, el margen bruto, los inventarios y el flujo de caja operativo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos anuales reportados"
+              "label": "Ingresos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto anual reportado"
+              "label": "Beneficio neto atribuible trimestral"
             },
             {
               "id": "m3",
-              "label": "Flujo de caja operativo anual reportado"
-            },
-            {
-              "id": "m4",
-              "label": "Beneficio por la reversión de la provisión de valoración de impuestos diferidos"
-            },
-            {
-              "id": "m5",
-              "label": "Ingresos anuales por teléfonos móviles"
-            },
-            {
-              "id": "m6",
-              "label": "Ingresos anuales de automoción"
+              "label": "Flujo de caja operativo acumulado"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "El crecimiento de la productividad alivió la presión de los costos laborales",
-          "summary": "La productividad de Estados Unidos se aceleró mientras disminuyeron los costos laborales unitarios, lo que indica que las empresas produjeron más sin un aumento comparable del trabajo utilizado.",
-          "impact": "Si se mantiene, esta combinación puede respaldar los márgenes y el crecimiento de los salarios reales con menos presión inflacionaria, aunque la estimación preliminar es volátil y probablemente será revisada.",
-          "what": "El informe preliminar de la agencia laboral sobre el sector empresarial no agrícola mide la producción por hora en gran parte de la economía privada. La producción creció mucho más rápido que las horas trabajadas, lo que elevó la productividad. La remuneración por hora aumentó más lentamente que la productividad y los costos laborales unitarios disminuyeron. La remuneración real por hora también aumentó, lo que indica una mejora del poder adquisitivo de los trabajadores durante el periodo. El informe incorpora datos revisados de las cuentas nacionales y otras fuentes actualizadas, por lo que también cambiaron algunas estimaciones anteriores de productividad y remuneración. La industria manufacturera mostró resultados menos favorables que la medida no agrícola general, lo que confirma que el resultado agregado no representa por igual a todos los sectores.",
-          "why": "La productividad conecta el crecimiento económico, los salarios, los beneficios empresariales y la inflación. Cuando cada hora de trabajo genera más producción, las empresas tienen mayor margen para subir la remuneración sin trasladar todo el costo a los precios de venta ni reducir sus márgenes. Los hogares pueden beneficiarse mediante mayores ingresos reales, mientras las empresas pueden aumentar su capacidad sin incrementos equivalentes de plantilla u horas. Por tanto, el informe señala un patrón de oferta más favorable que un crecimiento impulsado principalmente por jornadas más largas. También puede influir en cómo las autoridades interpretan el crecimiento salarial: la remuneración genera menos presión inflacionaria cuando la productividad avanza al mismo ritmo, aunque las decisiones de precios también dependen de la demanda, los materiales, los costos de financiación y la competencia.",
-          "uncertainty": "La estimación es preliminar, está anualizada y es sensible a revisiones de la producción, la remuneración y las horas medidas. Pequeños cambios en las horas pueden provocar grandes variaciones en la productividad calculada, especialmente cerca de puntos de inflexión. Los datos agregados de toda la economía pueden ocultar experiencias muy diferentes en la industria manufacturera, la tecnología, el comercio minorista, la atención sanitaria y otros servicios. La productividad también puede aumentar temporalmente cuando las empresas reducen la plantilla más rápido que la producción, algo distinto de las mejoras duraderas de eficiencia creadas por la inversión o por procesos mejores. Por tanto, un trimestre favorable no establece una tendencia duradera, y los datos revisados de las cuentas nacionales pueden cambiar la interpretación.",
-          "watch": "Conviene observar la revisión del informe de productividad, los próximos datos de remuneración, las medidas de inflación y los comentarios empresariales sobre contratación, automatización y precios. La confirmación exigiría que la productividad se mantuviera firme mientras el crecimiento de los costos laborales y la presión sobre los precios de venta siguieran contenidos. La inversión empresarial en software, maquinaria e inteligencia artificial puede ayudar a mantener la eficiencia, pero las pruebas deben aparecer en la producción y en los retornos de efectivo, no solo en los anuncios de gasto. Un repunte de las horas sin un aumento equivalente de la producción, o una remuneración más rápida sin respaldo de la productividad, revertirían la señal favorable de los costos laborales.",
+          "id": "f5",
+          "title": "Los datos de encuestas de China muestran una pérdida generalizada de impulso de la actividad",
+          "summary": "La encuesta oficial mostró un debilitamiento de la actividad manufacturera y de servicios en el mes más reciente, con menor cantidad de pedidos y actividad de construcción.",
+          "impact": "La menor cantidad de pedidos y la debilidad de la construcción pueden afectar al empleo industrial, la utilización de los proveedores, los ingresos de los hogares y la demanda de bienes y servicios.",
+          "what": "La encuesta de gerentes de compras sigue la actividad empresarial, los pedidos, los precios, el empleo y las expectativas en los sectores manufacturero y no manufacturero. La última publicación informa de una menor producción manufacturera y menos pedidos nuevos, una menor actividad de construcción y unos servicios relacionados con el sector inmobiliario por debajo del umbral de la encuesta.",
+          "why": "Una desaceleración generalizada puede reducir el poder de fijación de precios y retrasar el gasto de capital, mientras que los segmentos más fuertes de los servicios de tecnologías de la información pueden concentrar el crecimiento en una parte más reducida de la economía.",
+          "uncertainty": "La encuesta de gerentes de compras es un indicador adelantado basado en encuestas, no una medición directa de la producción, los beneficios o el flujo de caja. No establece la magnitud ni la duración de ninguna desaceleración.",
+          "watch": "Vigilar las próximas publicaciones sobre producción industrial, ventas minoristas, inversión en activos fijos, crédito y empleo para obtener confirmación.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variación trimestral anualizada de la productividad no agrícola"
+              "label": "Indicador de gerentes de compras del sector manufacturero"
             },
             {
               "id": "m2",
-              "label": "Variación trimestral anualizada de la producción"
+              "label": "Indicador de actividad no manufacturera"
             },
             {
               "id": "m3",
-              "label": "Variación trimestral anualizada de las horas trabajadas"
-            },
-            {
-              "id": "m4",
-              "label": "Variación trimestral anualizada de la remuneración por hora"
-            },
-            {
-              "id": "m5",
-              "label": "Variación trimestral anualizada de los costos laborales unitarios"
-            },
-            {
-              "id": "m6",
-              "label": "Variación trimestral anualizada de la remuneración real por hora"
+              "label": "Indicador compuesto de producción"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認できた情報は限られています。市場によっては確認済みの新しい記事がありません。日付のある報告は明確に区別しています。",
+      "status": "この版で確認できた情報は限定的です。確認済みの新しい材料がない市場もあります。日付付きの報告は、現在の取引状況と区別して示しています。",
       "marketSummary": {
-        "us": "一部の終値情報は確認できませんでした。掲載できる各指数には、それぞれの取引日を適用しています。",
-        "cn": "対象指数はいずれも、直近で確認できた取引で上昇しました。日付のある終値は当該取引時点のもので、現在の取引状況ではありません。"
+        "us": "追跡対象の指数は、直近の確認済み取引で下落しました。日付付きの終値は、その取引時点を示しており、現在の取引状況ではありません。",
+        "cn": "一部の終値は確認できませんでした。確認できた指数については、それぞれの取引日を維持しています。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "クアルコムの利益は税務会計で押し上げられた一方、キャッシュ創出力は低下",
-          "summary": "クアルコムの通期決算では、税効果によって報告上の利益が急増した裏で、本業の採算が悪化しました。一方、自動車向け事業と立ち上がり始めたデータセンター事業は、事業多角化の可能性を支えました。",
-          "impact": "投資家や顧客にとっての焦点は、携帯端末事業への圧力と半導体の投入コスト上昇を、携帯端末以外の成長で補えるかどうかです。キャッシュへの転換がさらに悪化する前に実現できるかが重要です。",
-          "what": "クアルコムは、無線通信、コンピューティング、接続技術向けの半導体を設計し、端末メーカーが利用する携帯通信関連の知的財産をライセンス供与しています。提出資料には最終クォーターと通期の業績が示され、通期の売上高と営業キャッシュフローは前年を下回る一方、報告上の純利益は大幅に増えました。主因は、繰延税金資産に対する評価性引当額の取り崩しで、本業とは異なる動きの会計上の利益を生みました。自動車向け売上高は増加し、経営陣はデータセンター事業の立ち上がりが始まったと説明しました。しかし、携帯端末向けは依然として最大の収益源で、減少が続きました。同社は、ウエハー製造、パッケージング、検査、メモリーなどの投入コストが上昇しているとも警告し、値上げの効果が利益率に表れるまで時間がかかると説明しました。",
-          "why": "税効果は、顧客から同額の現金を受け取らなくても報告上の利益を増やせます。そのため、営業キャッシュフローで表面上の利益を確認することが重要です。キャッシュ創出は、半導体研究、技術基盤、買収、配当、自社株買いの原資となり、これらは同じ資金を必要とします。携帯端末の顧客がモデムを自社設計する可能性があり、スマートフォン需要も景気に左右されるため、多角化は戦略上重要です。自動車向けとデータセンター向けの基盤は、収益源を広げ、クアルコムの処理技術や接続技術の価値を高める可能性があります。ただし、顧客の需要サイクル、製品認定の条件、必要資金は事業ごとに異なります。そのため、事業転換の質は、新しい収益分野の追加だけでなく、利益率とキャッシュ転換力に左右されます。",
-          "uncertainty": "決算発表に含まれる通期キャッシュフロー計算書は未監査です。経営陣の売上高目標や利益率見通しも、実現済みの結果ではなく将来予想です。顧客向け供給の拡大、製品認定、値上げ、供給コスト低下の時期は不確実です。ライセンス契約の更新は目先のリスクを軽減しますが、顧客集中や端末メーカーが自社設計部品を増やす可能性は残ります。税効果により、報告上の純利益は前後の期間の事業実績と比較しにくくなっています。在庫への投資は供給確保に役立つ可能性がありますが、顧客需要の伸びが想定より遅ければ、キャッシュを圧迫することもあります。",
-          "watch": "今後の携帯端末、自動車、データセンター向け売上高に加え、売上総利益率、在庫、営業キャッシュフローを確認します。需要を弱めずに値上げで投入コストの上昇を補えれば、事業環境の改善を示します。データセンター向け出荷や自動車向け設計採用は、経営目標だけでなく、実際に計上された売上高で評価する必要があります。キャッシュフローの悪化継続、携帯端末事業のさらなる縮小、利益率回復の遅れは、多角化が既存事業への圧力をまだ補えていないことを示します。",
+          "id": "f3",
+          "title": "BYD、四半期利益が拡大し、キャッシュ創出も積み上がる",
+          "summary": "BYDの最新の四半期報告では、売上高と親会社株主に帰属する利益が増加しました。一方、累計の営業キャッシュフローも大きな水準を維持しました。",
+          "impact": "規模とキャッシュ創出は生産拡大や競争的な価格設定に影響するため、この結果は自動車価格、電池供給、中国の産業需要に関係します。",
+          "what": "BYDの報告は、自動車および関連製品の事業を対象とし、四半期の売上高と親会社株主に帰属する利益を、累計の営業キャッシュフローとともに示しています。これにより、会計上の業績と事業から生み出された現金を比較できます。",
+          "why": "キャッシュ創出の増加は、工場投資、研究開発、在庫、海外展開を支える可能性があります。ただし、競争の激しい製造市場では、売上高の増加だけで利益率が持続するとは限りません。",
+          "uncertainty": "この報告は終了した期間を対象としており、報告日後の現在の納車台数や価格、営業外の利益が続くかどうかは、それだけでは分かりません。",
+          "watch": "その後の納車データ、自動車価格、粗利益率、在庫、営業キャッシュフローを確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "報告された通期売上高"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "報告された通期純利益"
+              "label": "四半期の親会社株主に帰属する純利益"
             },
             {
               "id": "m3",
-              "label": "報告された通期営業キャッシュフロー"
-            },
-            {
-              "id": "m4",
-              "label": "繰延税金資産の評価性引当額取り崩しによる利益"
-            },
-            {
-              "id": "m5",
-              "label": "通期の携帯端末向け売上高"
-            },
-            {
-              "id": "m6",
-              "label": "通期の自動車向け売上高"
+              "label": "累計営業キャッシュフロー"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "生産性の伸びが労働コスト圧力を緩和",
-          "summary": "米国では生産性の伸びが加速する一方、単位労働コストは低下しました。企業が労働投入を同程度に増やさず、生産を拡大したことを示しています。",
-          "impact": "この組み合わせが続けば、インフレ圧力を抑えながら、企業の利益率と実質賃金の伸びを支える可能性があります。ただし、速報値は変動が大きく、改定される可能性があります。",
-          "what": "労働当局の非農業企業部門の速報は、民間経済の広い範囲について、労働時間当たりの生産量を測ります。生産量が労働時間より速く増えたことで生産性が上昇しました。時間当たり報酬の伸びは生産性より緩やかで、単位労働コストは低下しました。実質時間当たり報酬も増え、この期間に働く人の購買力が改善したことを示しました。この報告には、改定された国民経済計算や情報源の更新が反映され、過去の生産性や報酬の推計も一部変更されました。製造業の結果は、非農業部門全体より弱く、全体の結果がすべての業種に等しく当てはまるわけではないことも示しました。",
-          "why": "生産性は、経済成長、賃金、企業利益、インフレを結び付けます。労働時間当たりの生産量が増えると、企業はコストのすべてを販売価格に転嫁したり、利益率を削ったりせずに、報酬を引き上げやすくなります。家計は実質所得の増加で恩恵を受ける可能性があり、企業は人員や労働時間を同程度に増やさず、生産能力を高められる可能性があります。このため、今回の報告は、主に労働時間の延長に頼る成長よりも好ましい供給構造を示しています。政策当局による賃金上昇の見方にも影響する可能性があります。生産性が報酬の伸びに追い付けば、報酬増加によるインフレ圧力は弱まります。ただし、価格設定は需要、原材料、資金調達コスト、競争環境にも左右されます。",
-          "uncertainty": "この推計は速報値で年率換算されており、生産量、報酬、労働時間の改定に影響されやすいものです。特に景気の転換点付近では、労働時間の小さな変化でも、算出される生産性が大きく動く可能性があります。経済全体の集計値は、製造業、テクノロジー、小売、医療などのサービス業で異なる状況を隠すことがあります。企業が生産量より速く雇用を減らした場合にも、生産性は一時的に上昇することがあります。これは、投資や業務改善による持続的な効率向上とは異なります。今回の好調な結果だけでは、持続的な傾向とは判断できません。国民経済計算の改定で解釈が変わる可能性もあります。",
-          "watch": "改定後の生産性統計、その後の報酬データ、インフレ指標、人員配置、自動化、価格設定に関する企業の説明を確認します。生産性が堅調さを保ち、労働コストの伸びと販売価格への圧力が抑えられれば、今回の傾向を裏付けます。ソフトウェア、機械、人工知能への企業投資は効率向上を持続させる可能性がありますが、その証拠は支出計画だけでなく、生産量とキャッシュ収益に表れる必要があります。生産量の伸びを伴わない労働時間の増加や、生産性の裏付けがない報酬の加速は、好ましい労働コストの兆候を逆転させます。",
+          "id": "f5",
+          "title": "中国の調査データ、経済活動全体の勢いが鈍化したことを示す",
+          "summary": "公式調査では、最新月に製造業とサービス業の活動が弱まり、受注と建設活動も鈍化しました。",
+          "impact": "受注や建設活動の鈍化は、製造業の雇用、サプライヤーの設備稼働、家計所得、財・サービスへの需要を押し下げる可能性があります。",
+          "what": "購買担当者景気指数の調査は、製造業と非製造業を対象に、事業活動、受注、価格、雇用、見通しを追跡します。最新の発表では、製造業の生産と新規受注が弱まり、建設活動も鈍化しました。また、不動産関連サービスは調査の基準を下回りました。",
+          "why": "経済全体の減速は価格決定力を弱め、設備投資を遅らせる可能性があります。一方、情報技術サービスの比較的強い分野に成長が集中する可能性もあります。",
+          "uncertainty": "購買担当者景気指数の調査は、産出量、利益、キャッシュフローを直接測るものではなく、調査に基づく先行指標です。この調査だけでは、減速の規模や期間は分かりません。",
+          "watch": "次回の鉱工業生産、小売売上高、固定資産投資、信用、雇用に関する発表で確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農業部門の労働生産性変化率、年率換算"
+              "label": "製造業購買担当者景気指数"
             },
             {
               "id": "m2",
-              "label": "生産量変化率、年率換算"
+              "label": "非製造業活動指数"
             },
             {
               "id": "m3",
-              "label": "労働時間変化率、年率換算"
-            },
-            {
-              "id": "m4",
-              "label": "時間当たり報酬変化率、年率換算"
-            },
-            {
-              "id": "m5",
-              "label": "単位労働コスト変化率、年率換算"
-            },
-            {
-              "id": "m6",
-              "label": "実質時間当たり報酬変化率、年率換算"
-            }
-          ]
-        }
-      ]
-    },
-    "zh-TW": {
-      "status": "本版經核實的報導有限。部分市場沒有已核實的新消息；有註明日期的報告仍會清楚標示。",
-      "marketSummary": {
-        "us": "部分收盤資訊無法核實。可取得資料的各指數均沿用各自的交易日期。",
-        "cn": "所追蹤指數在最近經核實的交易時段皆上漲。這些有日期的收盤資料描述的是當時行情，而非目前交易狀況。"
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "高通獲利受稅務會計處理推升，但現金創造能力轉弱",
-          "summary": "高通的年度業績顯示，核心經營表現轉弱，但稅務利益使帳面獲利大增；車用業務與新興資料中心業務則支撐其多元化發展。",
-          "impact": "對投資人與客戶而言，關鍵在於手機以外業務的成長，能否在現金轉換進一步轉弱前，抵銷手機業務壓力與半導體投入成本上升。",
-          "what": "高通設計無線通訊、運算與連網晶片，並向裝置製造商授權行動通訊智慧財產權。其申報文件公布年末季度與全年度業績，顯示年度營收及經營現金流低於前期，但帳面淨利大幅上升。遞延所得稅評價備抵迴轉，是會計獲利與基礎業務表現走勢不同的主要原因。車用營收成長，管理層也表示資料中心業務開始放量，但手機仍是最大營收來源，且持續下滑。公司亦警告，晶圓製造、封裝、測試、記憶體及其他投入成本正在上升，價格調整需要時間才能反映在利潤率上。",
-          "why": "稅務利益可以提高帳面獲利，卻不會帶來等額的客戶現金收入，因此經營現金流是檢視表面獲利的重要指標。現金創造能力須支應晶片研發、工程基礎設施、收購、股利及股票回購，這些用途都在爭取相同資源。業務多元化具有策略重要性，因為手機客戶可能自行設計數據機晶片，而智慧型手機需求也具有週期性。車用與資料中心平台可望擴大營收來源，並提高高通運算及連網技術的價值，但這些業務具有不同的客戶週期、認證要求與資本需求。因此，轉型品質取決於利潤率和現金轉換，而不只是新增營收類別。",
-          "uncertainty": "財報包含未經審計的年度現金流量表，而管理層提出的營收目標與利潤率預期屬於前瞻資訊，並非已實現結果。客戶放量、產品認證、價格調整及供應成本緩解的時點仍不確定。續簽授權協議降低了部分近期風險，但未消除客戶集中問題，也無法排除裝置製造商增加採用自研零組件的可能。稅務利益也使帳面淨利較難與相鄰期間的經營表現相比。增加庫存可能有助保障供應，但若客戶需求成長慢於預期，也可能占用現金。",
-          "watch": "留意後續的手機、車用與資料中心營收，以及毛利率、庫存和經營現金流。若價格調整能抵銷投入成本通膨，又不削弱需求，將改善營運情況。評估資料中心出貨與車用設計案轉為量產的進展時，應以實際認列營收為準，而非只看管理層目標。若現金流持續惡化、手機業務進一步萎縮，或利潤率復甦延後，代表多元化業務尚未抵銷既有業務的壓力。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "已公布年度營收"
-            },
-            {
-              "id": "m2",
-              "label": "已公布年度淨利潤"
-            },
-            {
-              "id": "m3",
-              "label": "已公布年度經營現金流"
-            },
-            {
-              "id": "m4",
-              "label": "遞延所得稅評價備抵利益"
-            },
-            {
-              "id": "m5",
-              "label": "年度手機業務營收"
-            },
-            {
-              "id": "m6",
-              "label": "年度車用業務營收"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "生產力成長緩解勞動成本壓力",
-          "summary": "美國生產力成長加快，單位勞動成本則下降，顯示企業在勞動投入未相應增加的情況下創造更多產出。",
-          "impact": "若能持續，這種組合可支撐利潤率與實質薪資成長，同時減輕通膨壓力；但初步估計波動較大，也很可能被修正。",
-          "what": "勞工主管機關發布的非農企業部門初步報告，衡量民營經濟多數領域的每工時產出。產出增幅遠高於工時增幅，帶動生產力上升；每小時薪酬增幅低於生產力增幅，單位勞動成本因而下降。實質每小時薪酬也上升，表示勞工購買力在這段期間有所改善。報告納入修正後的國民經濟核算資料及其他來源更新，因此部分先前的生產力與薪酬估計也有變動。製造業表現不如整體非農企業部門，顯示總體結果不代表各產業都有相同情況。",
-          "why": "生產力連結經濟成長、薪資、企業獲利與通膨。當每工時能創造更多產出，雇主就更有空間提高薪酬，而不必將全部成本轉嫁至售價或犧牲利潤率。家庭可受惠於較強的實質所得，企業也可能在不相應增加人力或工時的情況下擴大產能。因此，這份報告呈現的供給面情況，比主要依靠延長工時帶動的成長更有利。這也可能影響政策制定者對薪資成長的解讀：當生產力同步成長時，薪酬上升造成的通膨壓力較小，但定價仍取決於需求、原物料、融資成本與競爭環境。",
-          "uncertainty": "這項估計屬於初步年化數據，容易受產出、薪酬與工時修正影響。工時的微小變化可能使計算出的生產力大幅波動，在景氣轉折附近尤其如此。整體經濟數據也可能掩蓋製造、科技、零售、醫療保健及其他服務業之間的巨大差異。若雇主削減人力的速度快於產出下降，生產力也可能暫時上升，但這不同於投資或流程改善帶來的持久效率提升。因此，這段期間的有利數據不足以證明趨勢能夠延續，修正後的國民經濟核算資料也可能改變解讀。",
-          "watch": "留意修正後的生產力報告、後續薪酬資料、通膨指標，以及企業對人力配置、自動化與定價的說法。若生產力保持穩健，同時勞動成本成長與售價壓力維持受控，才算得到確認。企業投資軟體、機械與人工智慧可能有助維持效率，但證據應反映在產出及現金報酬，而不只是支出公告。若工時回升卻沒有相應產出，或薪酬加速成長但缺乏生產力支撐，原本有利的勞動成本訊號便會逆轉。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "非農生產力季度年化變動"
-            },
-            {
-              "id": "m2",
-              "label": "產出季度年化變動"
-            },
-            {
-              "id": "m3",
-              "label": "工時季度年化變動"
-            },
-            {
-              "id": "m4",
-              "label": "每小時薪酬季度年化變動"
-            },
-            {
-              "id": "m5",
-              "label": "單位勞動成本季度年化變動"
-            },
-            {
-              "id": "m6",
-              "label": "實質每小時薪酬季度年化變動"
+              "label": "総合産出指数"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; relatórios datados continuam claramente identificados.",
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm novas notícias verificadas; os relatórios datados continuam claramente identificados.",
       "marketSummary": {
-        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
-        "cn": "Os índices acompanhados subiram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não a negociação atual."
+        "us": "Os dois índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Alguns fechamentos não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Benefício fiscal elevou o lucro da Qualcomm, enquanto a geração de caixa enfraqueceu",
-          "summary": "Os resultados anuais da Qualcomm mostraram fundamentos mais fracos por trás do salto do lucro reportado, impulsionado por efeito fiscal. Ao mesmo tempo, os setores automotivo e nascente de data centers apoiaram sua estratégia de diversificação.",
-          "impact": "Para investidores e clientes, a questão central é se o crescimento fora dos celulares pode compensar a pressão nesse segmento e o aumento dos custos de insumos para semicondutores antes que a conversão em caixa enfraqueça ainda mais.",
-          "what": "A Qualcomm projeta chips para comunicação sem fio, computação e conectividade, além de licenciar propriedade intelectual de telefonia celular usada por fabricantes de dispositivos. Seu relatório apresentou os resultados do trimestre final e do ano, mostrando receita anual e geração de caixa operacional abaixo do período anterior, enquanto o lucro líquido reportado subiu fortemente. A reversão de uma provisão sobre ativos fiscais diferidos foi a principal razão para o lucro contábil ter evoluído de forma diferente do negócio subjacente. A receita automotiva cresceu, e a administração afirmou que a expansão em data centers estava começando. Porém, celulares continuaram sendo a maior fonte de receita e mantiveram a queda. A empresa também alertou para o aumento dos custos de fabricação de wafers, encapsulamento, testes, memória e outros insumos, além de informar que os reajustes de preços demorariam a aparecer nas margens.",
-          "why": "Um benefício fiscal pode elevar o lucro reportado sem gerar recebimentos equivalentes de clientes, o que torna o fluxo de caixa operacional uma verificação essencial do lucro divulgado. A geração de caixa financia pesquisa de chips, infraestrutura de engenharia, aquisições, dividendos e recompras, que disputam os mesmos recursos. A diversificação é estrategicamente importante porque clientes de celulares podem desenvolver internamente seus próprios modems, e a demanda por smartphones pode ser cíclica. As plataformas automotivas e de data centers podem ampliar a base de receita e aumentar o valor das tecnologias de processamento e conectividade da Qualcomm. Porém, esses negócios têm ciclos de clientes, requisitos de qualificação e necessidades de capital diferentes. Assim, a qualidade da transição depende das margens e da conversão em caixa, não apenas de novas categorias de receita.",
-          "uncertainty": "O comunicado de resultados inclui demonstrações anuais de fluxo de caixa não auditadas, enquanto as metas de receita e expectativas de margem da administração são projeções, não resultados realizados. O momento da expansão dos clientes, da qualificação dos produtos, dos reajustes de preços e do alívio nos custos de fornecimento continua incerto. A renovação de contratos de licenciamento reduz parte do risco no curto prazo, mas não elimina a concentração de clientes nem a possibilidade de fabricantes usarem mais componentes desenvolvidos internamente. O benefício fiscal também reduz a comparabilidade do lucro líquido reportado com o desempenho operacional de períodos próximos. O investimento em estoques pode proteger o fornecimento, mas também pode consumir caixa se a demanda dos clientes crescer mais lentamente que o esperado.",
-          "watch": "Acompanhe a receita de celulares, automóveis e data centers, além da margem bruta, dos estoques e do fluxo de caixa operacional. Sinais de que os reajustes de preços compensam a inflação dos insumos sem enfraquecer a demanda melhorariam o quadro operacional. As entregas para data centers e a conversão de projetos automotivos devem ser avaliadas pela receita efetivamente reconhecida, não apenas pelas metas da administração. A continuidade da queda do fluxo de caixa, uma contração adicional em celulares ou uma recuperação tardia das margens indicariam que a diversificação ainda não compensa a pressão sobre o negócio tradicional.",
+          "id": "f3",
+          "title": "BYD registra lucro trimestral mais forte enquanto o caixa se acumula",
+          "summary": "O relatório trimestral mais recente da BYD mostrou maior receita e lucro atribuível, enquanto o fluxo de caixa operacional acumulado permaneceu substancial.",
+          "impact": "O resultado importa para os preços de veículos, a oferta de baterias e a demanda industrial chinesa, porque escala e geração de caixa influenciam a expansão da produção e a concorrência em preços.",
+          "what": "O relatório da BYD abrange suas operações de veículos e produtos relacionados e apresenta a receita trimestral e o lucro atribuível junto do fluxo de caixa operacional acumulado. Isso permite comparar o desempenho contábil com o caixa gerado pelas operações.",
+          "why": "Uma geração de caixa maior pode apoiar investimentos em fábricas, pesquisa, estoques e expansão internacional. O crescimento da receita não garante automaticamente margens duradouras em um mercado industrial competitivo.",
+          "uncertainty": "O relatório abrange um período concluído e, por si só, não mostra as entregas atuais, os preços após a data do relatório nem a sustentabilidade de ganhos não operacionais.",
+          "watch": "Acompanhe os dados posteriores de entregas, os preços dos veículos, a margem bruta, os estoques e o fluxo de caixa operacional.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita anual reportada"
+              "label": "Receita trimestral"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido anual reportado"
+              "label": "Lucro líquido trimestral atribuível"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional anual reportado"
-            },
-            {
-              "id": "m4",
-              "label": "Benefício da reversão de provisão sobre ativos fiscais diferidos"
-            },
-            {
-              "id": "m5",
-              "label": "Receita anual de celulares"
-            },
-            {
-              "id": "m6",
-              "label": "Receita automotiva anual"
+              "label": "Fluxo de caixa operacional acumulado"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "Crescimento da produtividade aliviou a pressão dos custos de mão de obra",
-          "summary": "A produtividade nos Estados Unidos acelerou, enquanto os custos unitários de mão de obra caíram. Isso sugere que as empresas produziram mais sem aumento comparável do trabalho utilizado.",
-          "impact": "Se persistir, essa combinação pode apoiar as margens e o crescimento dos salários reais com menor pressão inflacionária, embora a estimativa preliminar seja volátil e possa ser revisada.",
-          "what": "O relatório preliminar do órgão trabalhista sobre o setor empresarial não agrícola mede a produção por hora em grande parte da economia privada. A produção cresceu muito mais rapidamente que as horas trabalhadas, elevando a produtividade. Ao mesmo tempo, a remuneração por hora aumentou mais lentamente que a produtividade, e os custos unitários de mão de obra caíram. A remuneração real por hora também aumentou, indicando melhora no poder de compra dos trabalhadores durante o período. O relatório incorpora dados revisados das contas nacionais e atualizações de outras fontes, o que também alterou estimativas anteriores de produtividade e remuneração. A indústria teve desempenho menos favorável que a medida não agrícola mais ampla, reforçando que o resultado agregado não descreve todos os setores da mesma forma.",
-          "why": "A produtividade conecta crescimento econômico, salários, lucros empresariais e inflação. Quando cada hora de trabalho produz mais, os empregadores têm mais espaço para elevar a remuneração sem repassar todo o custo aos preços de venda ou sacrificar margens. As famílias podem se beneficiar de uma renda real mais forte, enquanto as empresas podem ampliar a capacidade sem aumentos equivalentes de funcionários ou horas. O relatório, portanto, indica um padrão de oferta mais favorável que um crescimento impulsionado principalmente por jornadas mais longas. Ele também pode afetar a interpretação dos formuladores de política econômica sobre o crescimento salarial: a remuneração gera menos pressão inflacionária quando a produtividade acompanha seu avanço, embora as decisões de preços também dependam da demanda, dos materiais, dos custos de financiamento e da concorrência.",
-          "uncertainty": "A estimativa é preliminar, anualizada e sensível a revisões da produção, da remuneração e das horas medidas. Pequenas mudanças nas horas podem gerar grandes oscilações na produtividade calculada, especialmente perto de mudanças de tendência. Os dados agregados da economia podem esconder experiências muito diferentes na indústria, tecnologia, varejo, saúde e outros serviços. A produtividade também pode subir temporariamente quando as empresas reduzem o trabalho mais rapidamente que a produção, o que difere de ganhos duradouros de eficiência gerados por investimentos ou processos melhores. Portanto, um trimestre favorável não estabelece uma tendência duradoura, e revisões das contas nacionais podem alterar a interpretação.",
-          "watch": "Acompanhe a revisão do relatório de produtividade, os próximos dados de remuneração, as medidas de inflação e os comentários das empresas sobre contratação, automação e preços. A confirmação exigiria produtividade firme, enquanto o crescimento dos custos de mão de obra e a pressão sobre os preços de venda permanecessem contidos. Investimentos empresariais em software, máquinas e inteligência artificial podem ajudar a sustentar a eficiência, mas as evidências devem aparecer na produção e nos retornos em caixa, não apenas em anúncios de gastos. Uma recuperação das horas sem produção correspondente, ou uma aceleração da remuneração sem apoio da produtividade, reverteria o sinal favorável dos custos de mão de obra.",
+          "id": "f5",
+          "title": "Dados de pesquisas na China mostram perda de ritmo na atividade ampla",
+          "summary": "A pesquisa oficial mostrou enfraquecimento da atividade manufatureira e de serviços no mês mais recente, com pedidos e atividade de construção mais fracos.",
+          "impact": "Pedidos e atividade de construção mais fracos podem pressionar a contratação industrial, a utilização dos fornecedores, a renda das famílias e a demanda por bens e serviços.",
+          "what": "A pesquisa de gerentes de compras acompanha atividade empresarial, pedidos, preços, emprego e expectativas nos setores manufatureiro e não manufatureiro. A divulgação mais recente informa produção manufatureira e novos pedidos mais fracos, atividade de construção mais fraca e serviços relacionados ao setor imobiliário abaixo do limite da pesquisa.",
+          "why": "Uma desaceleração ampla pode reduzir o poder de precificação e adiar gastos de capital, enquanto bolsões mais fortes de serviços de tecnologia da informação podem concentrar o crescimento em uma parcela mais estreita da economia.",
+          "uncertainty": "A pesquisa de gerentes de compras é um indicador antecedente baseado em respostas, e não uma medida direta de produção, lucros ou fluxo de caixa. Ela não determina o tamanho nem a duração de qualquer desaceleração.",
+          "watch": "Acompanhe as próximas divulgações de produção industrial, vendas no varejo, investimento em ativos fixos, crédito e emprego para buscar confirmação.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação trimestral anualizada da produtividade do setor empresarial não agrícola"
+              "label": "Índice de gerentes de compras da indústria manufatureira"
             },
             {
               "id": "m2",
-              "label": "Variação trimestral anualizada da produção"
+              "label": "Índice de atividade não manufatureira"
             },
             {
               "id": "m3",
-              "label": "Variação trimestral anualizada das horas trabalhadas"
+              "label": "Índice composto de produção"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-TW": {
+      "status": "本期可驗證涵蓋範圍有限。部分市場沒有經驗證的新消息；有日期的報告仍清楚標示。",
+      "marketSummary": {
+        "us": "追蹤指數在最近可驗證交易時段均下跌。有日期的收盤資料描述的是那些交易時段，不代表目前交易情況。",
+        "cn": "部分收盤觀察無法驗證。每個可用指數均保留其自身交易日期。"
+      },
+      "stories": [
+        {
+          "id": "f3",
+          "title": "比亞迪公布季度利潤增長，現金創造持續累積",
+          "summary": "比亞迪最新季度報告顯示營收及歸屬股東淨利潤上升，而累計經營現金流仍然可觀。",
+          "impact": "這項結果對汽車價格、電池供應及中國工業需求具有影響，因為規模與現金創造能力會影響產能擴張及競爭性定價。",
+          "what": "比亞迪的報告涵蓋其汽車及相關產品業務，並列出季度營收、歸屬股東淨利潤及累計經營現金流。這讓人可以將會計業績與業務產生的現金進行比較。",
+          "why": "較高的現金創造能力可支持工廠投資、研究、庫存及國際擴張。營收增長並不會自動確保競爭激烈的製造市場維持持久的利潤率。",
+          "uncertainty": "該報告涵蓋已完成的期間，單憑報告無法顯示報告期後的目前交車量、定價或非營業收益的可持續性。",
+          "watch": "留意後續交車數據、汽車定價、毛利率、庫存及經營現金流。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度營收"
             },
             {
-              "id": "m4",
-              "label": "Variação trimestral anualizada da remuneração por hora"
+              "id": "m2",
+              "label": "季度歸屬股東淨利潤"
             },
             {
-              "id": "m5",
-              "label": "Variação trimestral anualizada do custo unitário de mão de obra"
+              "id": "m3",
+              "label": "累計經營現金流"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "中國調查數據顯示整體活動失去動能",
+          "summary": "官方調查顯示，製造業及服務業活動在最近月份轉弱，訂單與建築活動均較疲弱。",
+          "impact": "訂單及建築活動轉弱，可能拖累工業招聘、供應商產能利用率、家庭收入，以及商品和服務需求。",
+          "what": "採購經理人調查追蹤製造業與非製造業的商業活動、訂單、價格、就業及預期。最新發布顯示，製造業生產與新訂單轉弱，建築活動轉弱，房地產相關服務則低於調查榮枯線。",
+          "why": "整體放緩可能降低定價能力並延後資本支出；同時，資訊科技服務的較強表現可能使增長集中於經濟中較狹窄的部分。",
+          "uncertainty": "採購經理人調查是以調查為基礎的領先指標，而非產出、利潤或現金流的直接衡量。它無法確定任何放緩的幅度或持續時間。",
+          "watch": "留意下一輪工業生產、零售銷售、固定資產投資、信貸及就業數據，以取得確認。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "製造業採購經理人指標"
             },
             {
-              "id": "m6",
-              "label": "Variação trimestral anualizada da remuneração real por hora"
+              "id": "m2",
+              "label": "非製造業活動指標"
+            },
+            {
+              "id": "m3",
+              "label": "綜合產出指標"
             }
           ]
         }
