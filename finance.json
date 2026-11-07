@@ -1,53 +1,63 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-06T17:57:09.811Z",
-  "generatedAt": "2026-11-06T18:01:31.553Z",
+  "cutoffAt": "2026-11-07T00:06:26.192Z",
+  "generatedAt": "2026-11-07T00:10:52.669Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "Humana quarterly results release",
+      "label": "Humana third-quarter earnings release",
       "url": "https://humana.gcs-web.com/static-files/931e8493-3857-4f05-94af-02765e1d559b"
     },
     {
       "id": "src2",
-      "label": "Axon quarterly shareholder letter",
-      "url": "https://investor.axon.com/2026-11-05-Axon-reports-record-Q3-2026-revenue-of-909-million,-up-28-year-over-year"
+      "label": "Global Payments third-quarter earnings release",
+      "url": "https://investors.globalpayments.com/news-events/press-releases/detail/518/global-payments-reports-third-quarter-2026-results"
     },
     {
       "id": "src3",
-      "label": "CATL quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+      "label": "Global Payments quarterly filing",
+      "url": "https://investors.globalpayments.com/financial-information/all-sec-filings/content/0001123360-26-000093/gpn-20260930.htm"
     },
     {
       "id": "src4",
-      "label": "China industrial profits release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html"
+      "label": "Plains All American third-quarter earnings release",
+      "url": "https://ir.paalp.com/static-files/fc74f27a-1bed-4448-b4e1-7b2706c24073"
     },
     {
       "id": "src5",
-      "label": "S&P five hundred FRED series",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "China October purchasing managers index release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html"
     },
     {
       "id": "src6",
-      "label": "Nasdaq Composite FRED series",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "S&P Five Hundred daily close",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src7",
-      "label": "Shanghai Composite closing report",
-      "url": "https://www.cnfin.com/yw-lb/detail/20261106/4492048_1.html"
+      "label": "Nasdaq Composite daily close",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src8",
-      "label": "CSI three hundred historical data",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Shanghai Composite historical close",
+      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src9",
-      "label": "CATL company profile",
-      "url": "https://www.catl.com/en/about/profile/"
+      "label": "CSI Three Hundred historical close",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
+    },
+    {
+      "id": "src10",
+      "label": "Runjian third-quarter report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642992.PDF"
+    },
+    {
+      "id": "src11",
+      "label": "Runjian trading volatility announcement",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225662444.PDF"
     }
   ],
   "markets": [
@@ -56,29 +66,27 @@
       "sessionDate": "2026-11-05",
       "close": 7353.73,
       "previousClose": 7688.62,
-      "changePercent": -4.3556581025,
-      "sourceIds": [
-        "src5"
-      ]
-    },
-    {
-      "id": "nasdaq",
-      "sessionDate": "2026-11-05",
-      "close": 24315,
-      "previousClose": 25736.51,
-      "changePercent": -5.5233207611,
+      "changePercent": -4.3557,
       "sourceIds": [
         "src6"
       ]
     },
     {
+      "id": "nasdaq",
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
+    },
+    {
       "id": "sse",
       "sessionDate": "2026-11-06",
       "close": 3649.18,
-      "previousClose": null,
+      "previousClose": 3689.91,
       "changePercent": -1.1,
       "sourceIds": [
-        "src7"
+        "src8"
       ]
     },
     {
@@ -86,988 +94,558 @@
       "sessionDate": "2026-11-06",
       "close": 4054.28,
       "previousClose": 4113.41,
-      "changePercent": -1.4374934665,
+      "changePercent": -1.44,
       "sourceIds": [
-        "src8"
+        "src9"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f1",
+      "id": "f3",
       "market": "us",
       "category": "earnings",
       "publishedOn": "2026-11-06",
       "company": {
-        "name": "Humana Inc.",
-        "ticker": "HUM",
-        "exchange": "NYSE"
+        "name": "Plains All American Pipeline",
+        "ticker": "PAA",
+        "exchange": "Nasdaq"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 41155000000,
+          "value": 363000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Consolidated statements of income report total quarterly revenue."
+          "evidence": "Quarterly net income table in the earnings release."
         },
         {
           "id": "m2",
-          "value": 162000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Consolidated statements of income report net income attributable to Humana."
-        },
-        {
-          "id": "m3",
-          "value": 5383000000,
+          "value": 1883000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "Consolidated cash-flow statement reports year-to-date net cash from operating activities."
+          "evidence": "Continuing-operations cash flow reconciliation in the earnings release."
         },
         {
-          "id": "m4",
-          "value": 9.5,
+          "id": "m3",
+          "value": 711000000,
           "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-12-31",
-          "comparison": "level",
-          "basis": "guidance",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Release headline and guidance section raise full-year adjusted earnings-per-share guidance to at least the stated threshold."
-        },
-        {
-          "id": "m5",
-          "value": 18038700,
-          "unit": "count",
-          "periodStart": "2026-09-30",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "Membership detail table reports total medical membership in thousands, converted to individual members."
-        }
-      ],
-      "sourceIds": [
-        "src1"
-      ],
-      "evidence": "The insurer reported quarterly results and raised its full-year adjusted earnings outlook; management attributed stronger year-to-date operating cash flow mainly to claims-payable and receivables movements."
-    },
-    {
-      "id": "f3",
-      "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-21",
-      "company": {
-        "name": "Contemporary Amperex Technology Co., Limited",
-        "ticker": "300750",
-        "exchange": "Shenzhen Stock Exchange"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 165220844000,
-          "unit": "CNY",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src3"
-          ],
-          "evidence": "Quarterly financial data table reports revenue in thousand yuan; the stored value converts it to yuan."
-        },
-        {
-          "id": "m2",
-          "value": 21246061000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src3"
-          ],
-          "evidence": "Quarterly financial data table reports net profit attributable to shareholders in thousand yuan; the stored value converts it to yuan."
-        },
-        {
-          "id": "m3",
-          "value": 442137424000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src3"
-          ],
-          "evidence": "Year-to-date financial data table reports revenue in thousand yuan; the stored value converts it to yuan."
-        },
-        {
-          "id": "m4",
-          "value": 64530063000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src3"
-          ],
-          "evidence": "Year-to-date financial data table reports net profit attributable to shareholders in thousand yuan; the stored value converts it to yuan."
-        },
-        {
-          "id": "m5",
-          "value": 61625487000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src3"
-          ],
-          "evidence": "Year-to-date cash-flow data report net cash from operating activities in thousand yuan; the stored value converts it to yuan."
-        }
-      ],
-      "sourceIds": [
-        "src3",
-        "src9"
-      ],
-      "evidence": "The unaudited report shows strong accounting growth alongside lower year-to-date operating cash flow compared with the prior-year period; the company develops batteries and energy-storage systems for new-energy applications."
-    },
-    {
-      "id": "f4",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-10-27",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 6033740000000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
             "src4"
           ],
-          "evidence": "Official release reports total profits for industrial enterprises above the designated size."
-        },
-        {
-          "id": "m2",
-          "value": 15.5,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src4"
-          ],
-          "evidence": "Opening paragraph reports comparable year-on-year industrial profit growth."
-        },
-        {
-          "id": "m3",
-          "value": 106210000000000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src4"
-          ],
-          "evidence": "Official release reports industrial operating revenue."
-        },
-        {
-          "id": "m4",
-          "value": 6.6,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src4"
-          ],
-          "evidence": "Opening paragraph reports comparable year-on-year industrial revenue growth."
-        },
-        {
-          "id": "m5",
-          "value": 14.4,
-          "unit": "percent",
-          "periodStart": "2026-09-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src4"
-          ],
-          "evidence": "Closing paragraph reports monthly industrial profit growth for September."
+          "evidence": "Adjusted earnings reconciliation table in the earnings release."
         }
       ],
       "sourceIds": [
         "src4"
       ],
-      "evidence": "Official data show industrial profits expanding faster than revenue, with substantial differences among mining, manufacturing, utilities, automotive and materials industries; the release measures accounting profits rather than cash generation."
+      "evidence": "The crude-oil logistics partnership reported quarterly earnings and operating cash generation from pipelines, storage, and transportation; accounting profit and cash flow are presented separately."
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-10-31",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 49.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Official manufacturing survey table."
+        },
+        {
+          "id": "m2",
+          "value": -0.8,
+          "unit": "percentage-points",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Official release comparison with the preceding month."
+        },
+        {
+          "id": "m3",
+          "value": 49.7,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Official nonmanufacturing business activity table."
+        },
+        {
+          "id": "m4",
+          "value": 49.7,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Official composite output index table."
+        }
+      ],
+      "sourceIds": [
+        "src5"
+      ],
+      "evidence": "The official survey shows manufacturing and nonmanufacturing activity below the expansion threshold, with weaker production and orders but stronger pockets in transport and information services."
     }
   ],
   "locales": {
     "en": {
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Health insurer raises outlook as membership expands",
-          "summary": "The insurer reported quarterly profit and stronger year-to-date operating cash flow while raising its full-year adjusted earnings outlook.",
-          "impact": "The result supports financial flexibility, but medical-cost trends and government-program economics remain central to future margins.",
-          "what": "The business combines Medicare coverage with state-based contracts, pharmacy benefits and senior-care services; membership and claims experience shaped the quarter.",
-          "why": "Insurer economics influence plan availability, benefits and provider reimbursement, while cash flow reflects the timing of claims and receivables rather than accounting profit alone.",
-          "uncertainty": "The outlook is adjusted guidance, and the cash-flow metric covers the year to date rather than the quarter, so the measures are not directly comparable.",
-          "watch": "Watch medical-cost disclosures, membership retention and evidence that the revised outlook is supported by recurring operations.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Quarterly revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Quarterly net income attributable to the company"
-            },
-            {
-              "id": "m3",
-              "label": "Year-to-date operating cash flow"
-            },
-            {
-              "id": "m4",
-              "label": "Full-year adjusted earnings guidance"
-            },
-            {
-              "id": "m5",
-              "label": "Medical membership"
-            }
-          ]
-        },
-        {
           "id": "f3",
-          "title": "Battery earnings rise faster than operating cash",
-          "summary": "The battery and energy-storage maker reported strong quarterly and year-to-date growth, but year-to-date operating cash flow declined from the comparison period.",
-          "impact": "The divergence matters because expansion, working capital and supply-chain investment can absorb cash even when reported profit is rising.",
-          "what": "The company develops batteries and energy-storage solutions for passenger vehicles, commercial applications and grid systems.",
-          "why": "Battery demand affects vehicle costs, grid-storage economics and industrial investment, while cash conversion indicates how much growth can be funded internally.",
-          "uncertainty": "The report is unaudited and covers a broad year-to-date period; it does not establish whether weaker cash conversion is temporary or structural.",
-          "watch": "Watch receivables, inventories, capital spending and operating cash flow in the next full filing.",
+          "title": "Plains reports resilient logistics cash generation",
+          "summary": "Plains All American reported partnership earnings and operating cash generation from its crude-oil infrastructure network.",
+          "impact": "The result matters to energy shippers and consumers because pipeline and storage economics affect the reliability and cost of moving crude between producing regions, refineries, and export hubs.",
+          "what": "Plains owns gathering, transportation, terminal, and storage assets serving North American crude markets. The release separately presents partnership income, operating cash flow, and adjusted earnings.",
+          "why": "Midstream businesses are often driven more by contracted or fee-based throughput than by direct commodity exposure, making operating cash flow important for distributions and balance-sheet management.",
+          "uncertainty": "Discontinued operations and other reconciling items affect comparisons, while adjusted EBITDA does not equal distributable cash or free cash flow.",
+          "watch": "Watch throughput, customer commitments, operating cash flow, leverage, distributions, and continuing-operations asset changes.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly revenue"
+              "label": "Quarterly net income attributable to the partnership"
             },
             {
               "id": "m2",
-              "label": "Quarterly net profit attributable to shareholders"
+              "label": "Year-to-date operating cash flow from continuing operations"
             },
             {
               "id": "m3",
-              "label": "Year-to-date revenue"
-            },
-            {
-              "id": "m4",
-              "label": "Year-to-date net profit attributable to shareholders"
-            },
-            {
-              "id": "m5",
-              "label": "Year-to-date operating cash flow"
+              "label": "Quarterly adjusted EBITDA attributable to the partnership"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Industrial profits outpace revenue as sector gains remain uneven",
-          "summary": "Official data show mainland industrial profits growing faster than revenue, but the improvement is concentrated across selected sectors rather than broadly shared.",
-          "impact": "The pattern suggests better pricing or cost leverage in parts of industry, while weaker sectors may still restrain hiring, investment and supplier demand.",
-          "what": "The measure covers industrial enterprises above the designated size across mining, manufacturing and utilities; it is an accounting measure rather than a cash-flow measure.",
-          "why": "Profit recovery can support capital spending and wages, but uneven sector performance limits the strength of the signal for the wider economy.",
-          "uncertainty": "Aggregate data do not identify firm-level cash generation or household demand directly, and sector results differ substantially.",
-          "watch": "Watch subsequent monthly profit data, receivables, inventories and sector breadth for confirmation of a durable recovery.",
+          "title": "China activity surveys soften across factories and services",
+          "summary": "China’s official surveys showed manufacturing and nonmanufacturing activity below the expansion threshold, with demand indicators weakening.",
+          "impact": "Softer activity can pressure industrial orders, employment, and business confidence, while stronger transport and information services show that the slowdown is uneven.",
+          "what": "The official survey covers manufacturing and nonmanufacturing firms and tracks the direction of current activity. Production and new orders weakened, construction was particularly soft, and some transport and information industries remained stronger.",
+          "why": "Below-threshold readings can reduce pricing power and delay capital spending. For mainland equities, the signal is a more selective earnings environment in cyclical industries.",
+          "uncertainty": "PMI readings are diffusion indexes, not measures of output growth, company revenue, or cash flow. They also do not establish how long weakness will persist.",
+          "watch": "Watch the next official activity survey, industrial production, retail demand, property data, corporate earnings, and employment indicators.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Industrial profit total"
+              "label": "Manufacturing purchasing managers index"
             },
             {
               "id": "m2",
-              "label": "Industrial profit growth"
+              "label": "Manufacturing month-on-month change"
             },
             {
               "id": "m3",
-              "label": "Industrial revenue total"
+              "label": "Nonmanufacturing business activity index"
             },
             {
               "id": "m4",
-              "label": "Industrial revenue growth"
-            },
-            {
-              "id": "m5",
-              "label": "Monthly industrial profit growth"
+              "label": "Composite output index"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国市场动态。请查看各篇的发布日期；近期公司报告作为背景解读呈现。",
+      "status": "本期涵盖美国和中国的市场动态。请查看各项发布日期；近期公司报告作为背景说明呈现。",
       "marketSummary": {
-        "us": "所跟踪的指数在最近经核实的交易时段均下跌。带日期的收盘表现描述的是相应交易时段，并非当前交易情况。",
-        "cn": "所跟踪的指数在最近经核实的交易时段均下跌。带日期的收盘表现描述的是相应交易时段，并非当前交易情况。"
+        "us": "部分收盘观察未能核实。每个可用指数均保留其自身的交易日期。",
+        "cn": "所跟踪的指数在最近经过核实的交易时段均下跌。标注日期的收盘数据描述的是相应交易时段，并非当前交易情况。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "会员规模扩大，健康保险公司上调业绩展望",
-          "summary": "这家保险公司公布了季度利润和更强的年初至今经营现金流，同时上调了全年调整后盈利展望。",
-          "impact": "这一结果支持其财务灵活性，但医疗成本趋势和政府项目的经济效益仍是未来利润率的关键。",
-          "what": "该公司将医疗保险与州级合同、药品福利和老年护理服务结合起来；会员规模和理赔情况影响了本季度表现。",
-          "why": "保险公司的经营状况会影响保险计划的可获得性、福利和医疗服务提供方的报销，而现金流反映的是理赔和应收款的时间安排，并不只是会计利润。",
-          "uncertainty": "该展望属于调整后指引，现金流指标覆盖年初至今而非单个季度，因此这些指标不能直接比较。",
-          "watch": "关注医疗成本披露、会员留存情况，以及修订后的展望是否得到经常性经营活动支持。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度营收"
-            },
-            {
-              "id": "m2",
-              "label": "归属于公司的季度净利润"
-            },
-            {
-              "id": "m3",
-              "label": "年初至今经营现金流"
-            },
-            {
-              "id": "m4",
-              "label": "全年调整后盈利指引"
-            },
-            {
-              "id": "m5",
-              "label": "医疗保险会员数"
-            }
-          ]
-        },
-        {
           "id": "f3",
-          "title": "电池公司盈利增速快于经营现金流",
-          "summary": "这家电池和储能制造商公布了强劲的季度和年初至今增长，但年初至今经营现金流较比较期下降。",
-          "impact": "这种分化值得关注，因为扩张、营运资金和供应链投资可能会消耗现金，即使报告利润正在增长。",
-          "what": "该公司为乘用车、商用应用和电网系统开发电池及储能解决方案。",
-          "why": "电池需求会影响车辆成本、电网储能的经济性和工业投资，而现金转化率反映企业能够在多大程度上依靠内部资金支持增长。",
-          "uncertainty": "该报告未经审计，且覆盖较长的年初至今期间；它无法说明现金转化率走弱是暂时现象还是结构性问题。",
-          "watch": "关注下一份完整申报中的应收款、库存、资本支出和经营现金流。",
+          "title": "Plains报告物流业务现金创造能力保持韧性",
+          "summary": "Plains All American报告了合伙企业收益，以及其原油基础设施网络产生的经营现金流。",
+          "impact": "这一结果对能源运输商和消费者都很重要，因为管道和储存业务的经济状况会影响原油在产区、炼厂和出口枢纽之间运输的可靠性与成本。",
+          "what": "Plains拥有服务于北美原油市场的集输、运输、终端和储存资产。公告分别列示了合伙企业净利润、经营现金流和调整后收益。",
+          "why": "中游业务通常更多由合同约定或按费用收取的运输量推动，而不是直接受大宗商品价格影响，因此经营现金流对分配和资产负债表管理很重要。",
+          "uncertainty": "终止经营业务和其他调节项目会影响比较，而调整后 EBITDA 不等于可分配现金或自由现金流。",
+          "watch": "关注运输量、客户承诺、经营现金流、杠杆率、分配情况，以及持续经营业务的资产变化。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度营收"
+              "label": "归属于合伙企业的季度净利润"
             },
             {
               "id": "m2",
-              "label": "归属于股东的季度净利润"
+              "label": "持续经营业务年初至今的经营现金流"
             },
             {
               "id": "m3",
-              "label": "年初至今营收"
-            },
-            {
-              "id": "m4",
-              "label": "归属于股东的年初至今净利润"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今经营现金流"
+              "label": "归属于合伙企业的季度调整后 EBITDA"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "工业利润增速超过营收，行业增长仍不均衡",
-          "summary": "官方数据显示，中国大陆工业利润增速快于营收，但改善主要集中在部分行业，并非普遍共享。",
-          "impact": "这一格局表明，部分工业行业的定价能力或成本杠杆有所改善，而表现较弱的行业仍可能限制招聘、投资和供应商需求。",
-          "what": "该指标覆盖采矿业、制造业和公用事业中达到规定规模以上的工业企业；它是会计指标，而非现金流指标。",
-          "why": "利润复苏可以支持资本支出和工资增长，但行业表现不均衡，限制了这一信号对整体经济的代表性。",
-          "uncertainty": "汇总数据无法直接反映企业层面的现金创造或家庭需求，而且各行业的结果差异很大。",
-          "watch": "关注后续月度利润数据、应收款、库存和行业覆盖面，以确认复苏是否具有持续性。",
+          "title": "中国工厂和服务业调查显示活动走弱",
+          "summary": "中国官方调查显示，制造业和非制造业活动均低于扩张线，需求指标有所走弱。",
+          "impact": "活动走弱可能给工业订单、就业和企业信心带来压力；与此同时，交通运输和信息服务业表现较强，说明放缓并不均衡。",
+          "what": "官方调查涵盖制造业和非制造业企业，并追踪当前活动的变化方向。生产和新订单走弱，建筑业尤其疲软，而部分交通运输和信息行业仍然较强。",
+          "why": "低于扩张线的读数可能削弱定价能力并推迟资本开支。对于中国内地股票而言，这意味着周期性行业面临更加有选择性的盈利环境。",
+          "uncertainty": "采购经理人指数是扩散指数，并不是产出增速、公司营收或现金流的衡量指标，也不能说明疲软会持续多久。",
+          "watch": "关注下一次官方活动调查、工业生产、零售需求、房地产数据、公司盈利和就业指标。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "工业利润总额"
+              "label": "制造业采购经理人指数"
             },
             {
               "id": "m2",
-              "label": "工业利润增速"
+              "label": "制造业环比变化"
             },
             {
               "id": "m3",
-              "label": "工业营收总额"
+              "label": "非制造业商务活动指数"
             },
             {
               "id": "m4",
-              "label": "工业营收增速"
-            },
-            {
-              "id": "m5",
-              "label": "月度工业利润增速"
+              "label": "综合产出指数"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents d’entreprises sont présentés comme des explications de contexte.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels."
+        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Les deux indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "L’assureur santé relève ses perspectives grâce à la hausse du nombre d’adhérents",
-          "summary": "L’assureur a publié un bénéfice trimestriel et une amélioration de son flux de trésorerie d’exploitation cumulé depuis le début de l’exercice, tout en relevant ses perspectives de bénéfice ajusté pour l’exercice complet.",
-          "impact": "Ce résultat renforce la flexibilité financière, mais l’évolution des coûts médicaux et l’économie des programmes publics restent déterminantes pour les marges futures.",
-          "what": "L’entreprise associe couverture Medicare, contrats avec des programmes publics d’États, prestations pharmaceutiques et services de soins aux personnes âgées ; le nombre d’adhérents et l’évolution des sinistres ont influencé le trimestre.",
-          "why": "L’économie des assureurs influence la disponibilité des contrats, les prestations et les remboursements aux professionnels de santé, tandis que les flux de trésorerie reflètent le calendrier des sinistres et des créances, et pas seulement le bénéfice comptable.",
-          "uncertainty": "Les perspectives sont des prévisions ajustées, et la mesure des flux de trésorerie couvre la période écoulée depuis le début de l’exercice plutôt que le trimestre ; les mesures ne sont donc pas directement comparables.",
-          "watch": "Surveillez les informations sur les coûts médicaux, la fidélisation des adhérents et les signes indiquant que les perspectives révisées reposent sur des activités récurrentes.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires trimestriel"
-            },
-            {
-              "id": "m2",
-              "label": "Bénéfice net trimestriel attribuable à l’entreprise"
-            },
-            {
-              "id": "m3",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m4",
-              "label": "Prévisions de bénéfice ajusté pour l’exercice complet"
-            },
-            {
-              "id": "m5",
-              "label": "Nombre d’adhérents aux services médicaux"
-            }
-          ]
-        },
-        {
           "id": "f3",
-          "title": "Le bénéfice du fabricant de batteries progresse plus vite que les flux de trésorerie d’exploitation",
-          "summary": "Le fabricant de batteries et de systèmes de stockage d’énergie a publié une forte croissance trimestrielle et cumulée depuis le début de l’exercice, mais ses flux de trésorerie d’exploitation cumulés ont diminué par rapport à la période de comparaison.",
-          "impact": "Cet écart est important, car l’expansion, le besoin en fonds de roulement et les investissements dans la chaîne d’approvisionnement peuvent absorber de la trésorerie même lorsque le bénéfice publié augmente.",
-          "what": "L’entreprise développe des batteries et des solutions de stockage d’énergie pour les véhicules particuliers, les applications commerciales et les réseaux électriques.",
-          "why": "La demande de batteries influence les coûts des véhicules, l’économie du stockage sur réseau et l’investissement industriel, tandis que la conversion du bénéfice en trésorerie indique quelle part de la croissance peut être financée en interne.",
-          "uncertainty": "Le rapport n’est pas audité et couvre une large période cumulée depuis le début de l’exercice ; il ne permet pas d’établir si la plus faible conversion en trésorerie est temporaire ou structurelle.",
-          "watch": "Surveillez les créances, les stocks, les dépenses d’investissement et les flux de trésorerie d’exploitation lors du prochain dépôt complet.",
+          "title": "Plains publie une génération de trésorerie résiliente dans la logistique",
+          "summary": "Plains All American a publié des résultats de partenariat ainsi qu’une génération de trésorerie d’exploitation issue de son réseau d’infrastructures pétrolières.",
+          "impact": "Ce résultat concerne les transporteurs d’énergie et les consommateurs, car la rentabilité des oléoducs et du stockage influe sur la fiabilité et le coût du transport du pétrole brut entre les régions productrices, les raffineries et les plateformes d’exportation.",
+          "what": "Plains détient des actifs de collecte, de transport, de terminaux et de stockage au service des marchés nord-américains du pétrole brut. Le communiqué présente séparément le résultat du partenariat, les flux de trésorerie d’exploitation et le résultat ajusté.",
+          "why": "Les activités intermédiaires de l’énergie dépendent souvent davantage des volumes transportés sous contrat ou rémunérés à la commission que de l’exposition directe aux matières premières. Les flux de trésorerie d’exploitation sont donc importants pour les distributions et la gestion du bilan.",
+          "uncertainty": "Les activités abandonnées et d’autres éléments de rapprochement influent sur les comparaisons, tandis que l’EBITDA ajusté n’est pas équivalent aux liquidités distribuables ni au flux de trésorerie disponible.",
+          "watch": "Surveillez les volumes transportés, les engagements des clients, les flux de trésorerie d’exploitation, l’endettement, les distributions et l’évolution des actifs liés aux activités poursuivies.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires trimestriel"
+              "label": "Résultat net de la période attribuable au partenariat"
             },
             {
               "id": "m2",
-              "label": "Bénéfice net trimestriel attribuable aux actionnaires"
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice, liés aux activités poursuivies"
             },
             {
               "id": "m3",
-              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m4",
-              "label": "Bénéfice net cumulé depuis le début de l’exercice attribuable aux actionnaires"
-            },
-            {
-              "id": "m5",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
+              "label": "EBITDA ajusté de la période attribuable au partenariat"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Les bénéfices industriels progressent plus vite que le chiffre d’affaires, avec des gains inégaux selon les secteurs",
-          "summary": "Les données officielles montrent que les bénéfices industriels de Chine continentale progressent plus vite que le chiffre d’affaires, mais l’amélioration se concentre dans certains secteurs et n’est pas largement partagée.",
-          "impact": "Cette évolution suggère une amélioration des prix ou de l’efficacité des coûts dans certaines branches de l’industrie, tandis que les secteurs plus faibles peuvent encore peser sur l’emploi, l’investissement et la demande des fournisseurs.",
-          "what": "La mesure couvre les entreprises industrielles dépassant le seuil réglementaire dans les secteurs minier, manufacturier et des services aux collectivités ; il s’agit d’une mesure comptable et non d’une mesure des flux de trésorerie.",
-          "why": "La reprise des bénéfices peut soutenir les dépenses d’investissement et les salaires, mais les écarts entre secteurs limitent la portée du signal pour l’ensemble de l’économie.",
-          "uncertainty": "Les données agrégées n’indiquent pas directement la génération de trésorerie des entreprises ni la demande des ménages, et les résultats varient fortement selon les secteurs.",
-          "watch": "Surveillez les prochaines données mensuelles sur les bénéfices, les créances, les stocks et l’étendue de l’amélioration entre secteurs pour confirmer une reprise durable.",
+          "title": "Les enquêtes sur l’activité chinoise s’affaiblissent dans l’industrie et les services",
+          "summary": "Les enquêtes officielles chinoises ont montré une activité manufacturière et non manufacturière sous le seuil d’expansion, avec un affaiblissement des indicateurs de demande.",
+          "impact": "Une activité plus faible peut peser sur les commandes industrielles, l’emploi et la confiance des entreprises, tandis que les services de transport et d’information plus solides montrent que le ralentissement est inégal.",
+          "what": "L’enquête officielle couvre les entreprises manufacturières et non manufacturières et suit l’orientation de l’activité courante. La production et les nouvelles commandes se sont affaiblies, la construction a été particulièrement faible, tandis que certains secteurs du transport et de l’information sont restés plus solides.",
+          "why": "Des indicateurs sous le seuil peuvent réduire le pouvoir de fixation des prix et retarder les dépenses d’investissement. Pour les actions de Chine continentale, le signal est celui d’un environnement de bénéfices plus sélectif dans les secteurs cycliques.",
+          "uncertainty": "Les indices PMI sont des indices de diffusion, et non des mesures de la croissance de la production, du chiffre d’affaires des entreprises ou des flux de trésorerie. Ils ne permettent pas non plus d’établir combien de temps la faiblesse persistera.",
+          "watch": "Surveillez la prochaine enquête officielle sur l’activité, la production industrielle, la demande de détail, les données immobilières, les résultats des entreprises et les indicateurs de l’emploi.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Total des bénéfices industriels"
+              "label": "Indice des directeurs d’achat du secteur manufacturier"
             },
             {
               "id": "m2",
-              "label": "Croissance des bénéfices industriels"
+              "label": "Variation mensuelle du secteur manufacturier"
             },
             {
               "id": "m3",
-              "label": "Chiffre d’affaires industriel total"
+              "label": "Indice d’activité des entreprises non manufacturières"
             },
             {
               "id": "m4",
-              "label": "Croissance du chiffre d’affaires industriel"
-            },
-            {
-              "id": "m5",
-              "label": "Croissance mensuelle des bénéfices industriels"
+              "label": "Indice composite de production"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Compruebe la fecha de publicación de cada artículo; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Compruebe la fecha de publicación de cada contenido; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
-        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
+        "us": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la negociación actual."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "La aseguradora de salud eleva sus previsiones al crecer la afiliación",
-          "summary": "La aseguradora informó de ganancias trimestrales y un flujo de caja operativo más sólido en lo que va del año, mientras elevaba su previsión de ganancias ajustadas para todo el año.",
-          "impact": "El resultado respalda la flexibilidad financiera, pero la evolución de los costes médicos y la economía de los programas públicos siguen siendo determinantes para los márgenes futuros.",
-          "what": "El negocio combina cobertura de Medicare con contratos estatales, prestaciones farmacéuticas y servicios de atención a personas mayores; la afiliación y la experiencia de siniestros marcaron el trimestre.",
-          "why": "La economía de las aseguradoras influye en la disponibilidad de planes, las prestaciones y los reembolsos a proveedores, mientras que el flujo de caja refleja el momento de los siniestros y las cuentas por cobrar, no solo el beneficio contable.",
-          "uncertainty": "La previsión es una orientación ajustada, y la métrica de flujo de caja cubre lo que va del año, no el trimestre, por lo que las medidas no son directamente comparables.",
-          "watch": "Vigile la información sobre costes médicos, la retención de afiliados y las pruebas de que la previsión revisada está respaldada por operaciones recurrentes.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos trimestrales"
-            },
-            {
-              "id": "m2",
-              "label": "Beneficio neto trimestral atribuible a la empresa"
-            },
-            {
-              "id": "m3",
-              "label": "Flujo de caja operativo acumulado en el año"
-            },
-            {
-              "id": "m4",
-              "label": "Previsión de ganancias ajustadas para todo el año"
-            },
-            {
-              "id": "m5",
-              "label": "Afiliación médica"
-            }
-          ]
-        },
-        {
           "id": "f3",
-          "title": "Las ganancias de baterías crecen más rápido que el flujo de caja operativo",
-          "summary": "El fabricante de baterías y sistemas de almacenamiento de energía informó de un crecimiento sólido durante el trimestre y en lo que va del año, pero el flujo de caja operativo acumulado disminuyó frente al periodo comparable.",
-          "impact": "La divergencia importa porque la expansión, el capital circulante y la inversión en la cadena de suministro pueden consumir efectivo aunque aumente el beneficio informado.",
-          "what": "La empresa desarrolla baterías y soluciones de almacenamiento de energía para vehículos de pasajeros, aplicaciones comerciales y sistemas de red eléctrica.",
-          "why": "La demanda de baterías afecta a los costes de los vehículos, la economía del almacenamiento eléctrico y la inversión industrial, mientras que la conversión de beneficios en efectivo indica cuánto crecimiento puede financiarse internamente.",
-          "uncertainty": "El informe no está auditado y cubre un periodo amplio acumulado en el año; no demuestra si la menor conversión de efectivo es temporal o estructural.",
-          "watch": "Vigile las cuentas por cobrar, los inventarios, el gasto de capital y el flujo de caja operativo en la próxima presentación completa.",
+          "title": "Plains informa de una generación de efectivo resiliente en logística",
+          "summary": "Plains All American informó sobre los resultados de la sociedad y la generación de efectivo operativo de su red de infraestructura para petróleo crudo.",
+          "impact": "El resultado importa a los transportistas y consumidores de energía porque la economía de los oleoductos y el almacenamiento afecta la fiabilidad y el costo de trasladar crudo entre regiones productoras, refinerías y centros de exportación.",
+          "what": "Plains posee activos de recolección, transporte, terminales y almacenamiento que prestan servicio a los mercados norteamericanos de crudo. El comunicado presenta por separado los ingresos de la sociedad, el flujo de efectivo operativo y las ganancias ajustadas.",
+          "why": "Las empresas de infraestructura energética intermedia suelen depender más del volumen contratado o basado en tarifas que de la exposición directa a las materias primas, por lo que el flujo de efectivo operativo es importante para las distribuciones y la gestión del balance.",
+          "uncertainty": "Las operaciones discontinuadas y otras partidas de conciliación afectan las comparaciones, mientras que el EBITDA ajustado no equivale al efectivo distribuible ni al flujo de efectivo libre.",
+          "watch": "Siga el volumen transportado, los compromisos de los clientes, el flujo de efectivo operativo, el apalancamiento, las distribuciones y los cambios en los activos de operaciones continuadas.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos trimestrales"
+              "label": "Beneficio neto trimestral atribuible a la sociedad"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto trimestral atribuible a los accionistas"
+              "label": "Flujo de efectivo operativo acumulado del ejercicio procedente de operaciones continuadas"
             },
             {
               "id": "m3",
-              "label": "Ingresos acumulados en el año"
-            },
-            {
-              "id": "m4",
-              "label": "Beneficio neto acumulado en el año atribuible a los accionistas"
-            },
-            {
-              "id": "m5",
-              "label": "Flujo de caja operativo acumulado en el año"
+              "label": "EBITDA ajustado trimestral atribuible a la sociedad"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Los beneficios industriales superan a los ingresos, mientras las mejoras sectoriales siguen siendo desiguales",
-          "summary": "Los datos oficiales muestran que los beneficios industriales de China continental crecen más rápido que los ingresos, pero la mejora se concentra en determinados sectores y no está ampliamente compartida.",
-          "impact": "El patrón sugiere una mejora de los precios o del apalancamiento de costes en partes de la industria, mientras que los sectores más débiles aún pueden frenar la contratación, la inversión y la demanda de proveedores.",
-          "what": "La medida cubre empresas industriales por encima del tamaño designado de los sectores minero, manufacturero y de servicios públicos; es una medida contable, no una medida de flujo de caja.",
-          "why": "La recuperación de los beneficios puede respaldar el gasto de capital y los salarios, pero el desempeño desigual de los sectores limita la fuerza de la señal para la economía en general.",
-          "uncertainty": "Los datos agregados no identifican directamente la generación de efectivo de las empresas ni la demanda de los hogares, y los resultados sectoriales difieren considerablemente.",
-          "watch": "Vigile los datos posteriores de beneficios mensuales, las cuentas por cobrar, los inventarios y la amplitud sectorial para confirmar una recuperación duradera.",
+          "title": "Las encuestas de actividad de China se debilitan en fábricas y servicios",
+          "summary": "Las encuestas oficiales de China mostraron una actividad manufacturera y no manufacturera por debajo del umbral de expansión, con un debilitamiento de los indicadores de demanda.",
+          "impact": "Una actividad más débil puede presionar los pedidos industriales, el empleo y la confianza empresarial, mientras que la fortaleza del transporte y los servicios de información muestra que la desaceleración es desigual.",
+          "what": "La encuesta oficial cubre empresas manufactureras y no manufactureras y sigue la dirección de la actividad actual. La producción y los nuevos pedidos se debilitaron, la construcción fue especialmente floja y algunos sectores del transporte y la información siguieron mostrando mayor fortaleza.",
+          "why": "Las lecturas por debajo del umbral pueden reducir el poder de fijación de precios y retrasar el gasto de capital. Para las acciones de China continental, la señal apunta a un entorno de resultados más selectivo en las industrias cíclicas.",
+          "uncertainty": "Las lecturas del PMI son índices de difusión, no medidas del crecimiento de la producción, los ingresos empresariales o el flujo de efectivo. Tampoco establecen cuánto durará la debilidad.",
+          "watch": "Siga la próxima encuesta oficial de actividad, la producción industrial, la demanda minorista, los datos inmobiliarios, los resultados empresariales y los indicadores de empleo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Beneficios industriales totales"
+              "label": "Índice de gestores de compras del sector manufacturero"
             },
             {
               "id": "m2",
-              "label": "Crecimiento de los beneficios industriales"
+              "label": "Variación intermensual del sector manufacturero"
             },
             {
               "id": "m3",
-              "label": "Ingresos industriales totales"
+              "label": "Índice de actividad empresarial del sector no manufacturero"
             },
             {
               "id": "m4",
-              "label": "Crecimiento de los ingresos industriales"
-            },
-            {
-              "id": "m5",
-              "label": "Crecimiento mensual de los beneficios industriales"
+              "label": "Índice compuesto de producción"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版は米国と中国の動向を扱います。各記事の掲載日を確認してください。最近の企業決算は背景説明として示しています。",
+      "status": "この版では、米国と中国の動向を扱います。各記事の公表日を確認してください。最近の企業報告は背景を説明する資料として掲載しています。",
       "marketSummary": {
-        "us": "追跡対象の両指数は、直近の確認済み取引で下落しました。記載された終値はそれぞれの取引日のもので、現在の取引状況を示すものではありません。",
-        "cn": "追跡対象の両指数は、直近の確認済み取引で下落しました。記載された終値はそれぞれの取引日のもので、現在の取引状況を示すものではありません。"
+        "us": "終値に関する記述の一部は確認できませんでした。利用可能な各指数には、それぞれの取引日が付されています。",
+        "cn": "追跡対象の指数はいずれも、直近で確認できた取引日に下落しました。記載された終値は各取引日のものであり、現在の取引を示すものではありません。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "加入者数の拡大を受け、医療保険会社が業績見通しを引き上げ",
-          "summary": "この保険会社は、四半期利益と年初来の経営活動によるキャッシュフローの改善を報告し、通期の調整後利益見通しを引き上げました。",
-          "impact": "この結果は財務面の柔軟性を支えますが、医療費の動向と政府プログラムの採算性は、今後の利益率を左右する重要な要素として残ります。",
-          "what": "同社は、メディケアの保障、州政府関連契約、薬剤給付、高齢者向けケアサービスを組み合わせて事業を展開しています。加入者数と保険金請求の状況が、今回の四半期を形作りました。",
-          "why": "保険会社の収益構造は、保険プランの提供状況、給付内容、医療提供者への支払いに影響します。また、キャッシュフローは会計上の利益だけでなく、保険金請求や未収金の計上時期も反映します。",
-          "uncertainty": "見通しは調整後のガイダンスであり、キャッシュフローは四半期ではなく年初来の期間を対象とするため、両者を直接比較することはできません。",
-          "watch": "医療費に関する開示、加入者の継続状況、修正後の見通しが継続的な事業によって裏付けられているかを確認します。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期売上高"
-            },
-            {
-              "id": "m2",
-              "label": "会社帰属の四半期純利益"
-            },
-            {
-              "id": "m3",
-              "label": "年初来の経営活動によるキャッシュフロー"
-            },
-            {
-              "id": "m4",
-              "label": "通期の調整後利益見通し"
-            },
-            {
-              "id": "m5",
-              "label": "医療保険の加入者数"
-            }
-          ]
-        },
-        {
           "id": "f3",
-          "title": "電池メーカー、経営活動によるキャッシュフローを上回るペースで利益が増加",
-          "summary": "電池・蓄電システムメーカーは、四半期および年初来で力強い成長を報告しました。一方、年初来の経営活動によるキャッシュフローは比較対象期間から減少しました。",
-          "impact": "この乖離は重要です。事業拡大、運転資本、サプライチェーンへの投資が、報告利益が増えている局面でも現金を吸収する可能性があるためです。",
-          "what": "同社は、乗用車、商用用途、電力網向けシステムを対象に、電池と蓄電ソリューションを開発しています。",
-          "why": "電池需要は、自動車のコスト、電力網向け蓄電の採算性、産業投資に影響します。また、キャッシュへの転換状況は、成長をどの程度社内資金で賄えるかを示します。",
-          "uncertainty": "この報告書は未監査で、年初来の幅広い期間を対象としています。キャッシュへの転換の弱さが一時的なものか構造的なものかは、これだけでは判断できません。",
-          "watch": "次回の正式な開示で、売掛金、棚卸資産、設備投資、経営活動によるキャッシュフローを確認します。",
+          "title": "プレーンズ、物流事業で底堅いキャッシュ創出",
+          "summary": "プレーンズ・オール・アメリカンは、原油インフラ網からパートナーシップ利益と営業キャッシュフローを計上しました。",
+          "impact": "この結果はエネルギー輸送業者や消費者にとって重要です。パイプラインと貯蔵の採算性は、生産地域、製油所、輸出拠点の間で原油を移動させる際の信頼性とコストに影響するためです。",
+          "what": "プレーンズは、北米の原油市場にサービスを提供する集荷、輸送、ターミナル、貯蔵資産を保有しています。発表資料では、パートナーシップ利益、営業キャッシュフロー、調整後利益をそれぞれ示しています。",
+          "why": "中流事業では、商品価格への直接的な影響よりも、契約済みまたは手数料ベースの取扱量が業績を左右することが多く、営業キャッシュフローが分配や財務体質の管理で重要になります。",
+          "uncertainty": "非継続事業やその他の調整項目が比較に影響します。また、調整後EBITDAは分配可能キャッシュやフリーキャッシュフローと同じではありません。",
+          "watch": "取扱量、顧客との契約、営業キャッシュフロー、レバレッジ、分配、継続事業における資産の変化を確認しましょう。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期売上高"
+              "label": "パートナーシップ帰属四半期純利益"
             },
             {
               "id": "m2",
-              "label": "株主帰属の四半期純利益"
+              "label": "継続事業からの年初来営業キャッシュフロー"
             },
             {
               "id": "m3",
-              "label": "年初来売上高"
-            },
-            {
-              "id": "m4",
-              "label": "株主帰属の年初来純利益"
-            },
-            {
-              "id": "m5",
-              "label": "年初来の経営活動によるキャッシュフロー"
+              "label": "パートナーシップ帰属四半期調整後EBITDA"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "産業部門の利益、売上高を上回る伸び。ただし改善は一様でない",
-          "summary": "公表データによると、中国本土の工業利益は売上高を上回るペースで増加しました。ただし、改善は一部の業種に集中しており、広く共有されているわけではありません。",
-          "impact": "この動きは、産業の一部で価格面の改善やコスト効率が高まっている可能性を示します。一方、低迷する業種は雇用、投資、サプライヤー需要の重しとなる可能性があります。",
-          "what": "この指標は、鉱業、製造業、公益事業にまたがる、一定規模以上の工業企業を対象としています。キャッシュフローではなく、会計上の指標です。",
-          "why": "利益の回復は設備投資や賃金を支える可能性がありますが、業種ごとのばらつきが大きいため、経済全体へのシグナルとしての強さは限られます。",
-          "uncertainty": "集計データからは、企業ごとの現金創出や家計需要を直接把握できません。また、業種によって結果は大きく異なります。",
-          "watch": "持続的な回復の確認に向けて、その後の月次利益データ、売掛金、棚卸資産、改善が広がっているかを確認します。",
+          "title": "中国、製造業とサービス業の景況調査がそろって軟化",
+          "summary": "中国の公式調査では、製造業と非製造業の活動が景気拡大の境目を下回り、需要関連の指標も弱まりました。",
+          "impact": "活動の軟化は、工業受注、雇用、企業の景況感を圧迫する可能性があります。一方、輸送や情報サービスが底堅く、減速は一様ではありません。",
+          "what": "公式調査は製造業と非製造業の企業を対象に、現在の活動の方向性を追跡しています。生産と新規受注が弱まり、建設は特に低調でしたが、一部の輸送業や情報関連業種は比較的堅調でした。",
+          "why": "境目を下回る結果は、価格決定力を弱め、設備投資を遅らせる可能性があります。中国本土株にとっては、景気循環の影響を受けやすい業種で、企業利益を選別して見る環境を示します。",
+          "uncertainty": "PMIは景気の方向性を示す指数であり、生産の伸び、企業の売上高、キャッシュフローを測るものではありません。また、弱さがどの程度続くかも示していません。",
+          "watch": "次回の公式景況調査、鉱工業生産、小売需要、不動産関連データ、企業利益、雇用指標を確認しましょう。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "工業利益総額"
+              "label": "製造業購買担当者景気指数"
             },
             {
               "id": "m2",
-              "label": "工業利益の伸び率"
+              "label": "製造業の前月比変化率"
             },
             {
               "id": "m3",
-              "label": "工業売上高総額"
+              "label": "非製造業の企業活動指数"
             },
             {
               "id": "m4",
-              "label": "工業売上高の伸び率"
-            },
-            {
-              "id": "m5",
-              "label": "月次工業利益の伸び率"
+              "label": "総合産出指数"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição aborda desenvolvimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
+      "status": "Esta edição cobre desenvolvimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicadores de contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos com data descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos com data descrevem essas sessões, não as negociações atuais."
+        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Ambos os índices acompanhados caíram em suas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não a negociação atual."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Seguradora de saúde eleva projeção com expansão do número de beneficiários",
-          "summary": "A seguradora informou lucro trimestral e crescimento do fluxo de caixa operacional acumulado no ano, além de elevar sua projeção anual de lucro ajustado.",
-          "impact": "O resultado reforça a flexibilidade financeira, mas a evolução dos custos médicos e a economia dos programas governamentais continuam sendo centrais para as margens futuras.",
-          "what": "O negócio combina cobertura do Medicare com contratos estaduais, benefícios farmacêuticos e serviços de cuidados para idosos; o número de beneficiários e a experiência com sinistros influenciaram o trimestre.",
-          "why": "A economia das seguradoras influencia a disponibilidade dos planos, os benefícios e os pagamentos aos prestadores, enquanto o fluxo de caixa reflete o momento dos sinistros e recebíveis, e não apenas o lucro contábil.",
-          "uncertainty": "A projeção é uma orientação ajustada, e o indicador de fluxo de caixa cobre o acumulado do ano, não o trimestre; portanto, as medidas não são diretamente comparáveis.",
-          "watch": "Acompanhe as informações sobre custos médicos, a retenção de beneficiários e evidências de que a projeção revisada é sustentada por operações recorrentes.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita trimestral"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro líquido trimestral atribuível à empresa"
-            },
-            {
-              "id": "m3",
-              "label": "Fluxo de caixa operacional acumulado no ano"
-            },
-            {
-              "id": "m4",
-              "label": "Projeção anual de lucro ajustado"
-            },
-            {
-              "id": "m5",
-              "label": "Número de beneficiários de planos de saúde"
-            }
-          ]
-        },
-        {
           "id": "f3",
-          "title": "Lucro de baterias cresce mais rápido que o fluxo de caixa operacional",
-          "summary": "A fabricante de baterias e sistemas de armazenamento de energia informou forte crescimento trimestral e acumulado no ano, mas o fluxo de caixa operacional acumulado caiu em relação ao período de comparação.",
-          "impact": "A divergência importa porque expansão, capital de giro e investimentos na cadeia de suprimentos podem consumir caixa mesmo quando o lucro divulgado está crescendo.",
-          "what": "A empresa desenvolve baterias e soluções de armazenamento de energia para veículos de passageiros, aplicações comerciais e sistemas de rede elétrica.",
-          "why": "A demanda por baterias afeta os custos dos veículos, a economia do armazenamento na rede e o investimento industrial, enquanto a conversão de lucro em caixa indica quanto do crescimento pode ser financiado internamente.",
-          "uncertainty": "O relatório não foi auditado e cobre um período amplo acumulado no ano; ele não demonstra se a conversão mais fraca em caixa é temporária ou estrutural.",
-          "watch": "Acompanhe contas a receber, estoques, investimentos e fluxo de caixa operacional no próximo relatório completo.",
+          "title": "Plains registra geração resiliente de caixa na logística",
+          "summary": "A Plains All American divulgou resultados da parceria e geração de caixa operacional com sua rede de infraestrutura de petróleo bruto.",
+          "impact": "O resultado é relevante para transportadores e consumidores de energia porque a economia de oleodutos e armazenagem afeta a confiabilidade e o custo do transporte de petróleo bruto entre regiões produtoras, refinarias e centros de exportação.",
+          "what": "A Plains possui ativos de coleta, transporte, terminais e armazenagem que atendem aos mercados norte-americanos de petróleo bruto. O comunicado apresenta separadamente o lucro da parceria, o fluxo de caixa operacional e o lucro ajustado.",
+          "why": "Empresas de infraestrutura de energia são frequentemente mais influenciadas pelo volume contratado ou baseado em tarifas do que pela exposição direta às commodities, o que torna o fluxo de caixa operacional importante para distribuições e gestão do balanço patrimonial.",
+          "uncertainty": "Operações descontinuadas e outros itens de reconciliação afetam as comparações, enquanto o EBITDA ajustado não equivale ao caixa distribuível nem ao fluxo de caixa livre.",
+          "watch": "Acompanhe o volume transportado, os compromissos dos clientes, o fluxo de caixa operacional, a alavancagem, as distribuições e as mudanças nos ativos das operações continuadas.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita trimestral"
+              "label": "Lucro líquido atribuível à parceria no período"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido trimestral atribuível aos acionistas"
+              "label": "Fluxo de caixa operacional acumulado no ano das operações continuadas"
             },
             {
               "id": "m3",
-              "label": "Receita acumulada no ano"
-            },
-            {
-              "id": "m4",
-              "label": "Lucro líquido acumulado no ano atribuível aos acionistas"
-            },
-            {
-              "id": "m5",
-              "label": "Fluxo de caixa operacional acumulado no ano"
+              "label": "EBITDA ajustado atribuível à parceria no período"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Lucros industriais superam a receita, enquanto os ganhos do setor continuam desiguais",
-          "summary": "Dados oficiais mostram os lucros industriais do continente crescendo mais rapidamente que a receita, mas a melhora está concentrada em setores específicos, em vez de ser amplamente compartilhada.",
-          "impact": "O padrão sugere melhor poder de formação de preços ou alavancagem de custos em partes da indústria, enquanto setores mais fracos ainda podem limitar contratações, investimentos e a demanda de fornecedores.",
-          "what": "A medida abrange empresas industriais acima do porte designado nos setores de mineração, manufatura e serviços públicos; é uma medida contábil, não de fluxo de caixa.",
-          "why": "A recuperação dos lucros pode apoiar investimentos e salários, mas o desempenho desigual entre setores limita a força do sinal para a economia mais ampla.",
-          "uncertainty": "Os dados agregados não identificam a geração de caixa de cada empresa nem medem diretamente a demanda das famílias, e os resultados variam bastante entre setores.",
-          "watch": "Acompanhe os dados mensais seguintes sobre lucros, contas a receber, estoques e abrangência setorial para confirmar uma recuperação duradoura.",
+          "title": "Pesquisas mostram enfraquecimento da atividade chinesa em fábricas e serviços",
+          "summary": "As pesquisas oficiais da China mostraram atividade manufatureira e não manufatureira abaixo do limiar de expansão, com enfraquecimento dos indicadores de demanda.",
+          "impact": "Uma atividade mais fraca pode pressionar os pedidos industriais, o emprego e a confiança empresarial, enquanto o transporte e os serviços de informação mais fortes mostram que a desaceleração é desigual.",
+          "what": "A pesquisa oficial abrange empresas manufatureiras e não manufatureiras e acompanha a direção da atividade corrente. A produção e os novos pedidos enfraqueceram, a construção foi particularmente fraca e alguns setores de transporte e informação permaneceram mais fortes.",
+          "why": "Leituras abaixo do limiar podem reduzir o poder de precificação e adiar os investimentos de capital. Para as ações da China continental, o sinal é de um ambiente de lucros mais seletivo nos setores cíclicos.",
+          "uncertainty": "As leituras do PMI são índices de difusão, não medidas de crescimento da produção, da receita das empresas ou do fluxo de caixa. Elas também não estabelecem por quanto tempo a fraqueza persistirá.",
+          "watch": "Acompanhe a próxima pesquisa oficial de atividade, a produção industrial, a demanda do varejo, os dados do mercado imobiliário, os lucros corporativos e os indicadores de emprego.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Total de lucros industriais"
+              "label": "Índice de gerentes de compras da indústria manufatureira"
             },
             {
               "id": "m2",
-              "label": "Crescimento dos lucros industriais"
+              "label": "Variação mensal da indústria manufatureira"
             },
             {
               "id": "m3",
-              "label": "Receita industrial total"
+              "label": "Índice de atividade empresarial não manufatureira"
             },
             {
               "id": "m4",
-              "label": "Crescimento da receita industrial"
-            },
-            {
-              "id": "m5",
-              "label": "Crescimento mensal dos lucros industriais"
+              "label": "Índice composto de produção"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的發展。請查看各項發布日期；近期公司報告是作為背景解說呈現。",
+      "status": "本期涵蓋美國與中國的發展。請查看各自的發布日期；近期公司報告以背景解讀呈現。",
       "marketSummary": {
-        "us": "所追蹤的指數在最新經核實的交易時段均下跌。有日期的收盤價描述的是那些交易時段，而非目前交易情況。",
-        "cn": "所追蹤的指數在最新經核實的交易時段均下跌。有日期的收盤價描述的是那些交易時段，而非目前交易情況。"
+        "us": "部分收盤觀察無法核實。各項可取得的指數均保留其自身交易日期。",
+        "cn": "追蹤的指數在最近可核實交易時段均下跌。標示日期的收盤數據描述的是該交易時段，而非目前交易情況。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "會員數擴大，健康保險公司上調展望",
-          "summary": "這家保險公司公布季度獲利與較強的年初至今經營現金流，同時上調全年調整後獲利展望。",
-          "impact": "這項結果支持財務彈性，但醫療成本趨勢與政府計畫的經濟效益，仍是未來利潤率的關鍵。",
-          "what": "這項業務結合醫療照護保險、州級合約、藥品福利與長者照護服務；會員數與理賠表現影響了本季結果。",
-          "why": "保險公司的經營狀況會影響方案供應、福利與醫療服務提供者的給付，而現金流反映理賠與應收款的時間安排，不只是會計獲利。",
-          "uncertainty": "這項展望是調整後指引，而現金流指標涵蓋年初至今期間而非單一季度，因此這些指標不能直接比較。",
-          "watch": "留意醫療成本揭露、會員留存，以及修訂後展望是否獲持續性營運支持。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度營收"
-            },
-            {
-              "id": "m2",
-              "label": "歸屬於公司的季度淨利潤"
-            },
-            {
-              "id": "m3",
-              "label": "年初至今經營現金流"
-            },
-            {
-              "id": "m4",
-              "label": "全年調整後獲利指引"
-            },
-            {
-              "id": "m5",
-              "label": "醫療會員數"
-            }
-          ]
-        },
-        {
           "id": "f3",
-          "title": "電池獲利增幅快於經營現金流",
-          "summary": "這家電池與儲能製造商公布強勁的季度與年初至今成長，但年初至今經營現金流較比較期間下滑。",
-          "impact": "這項差異值得注意，因為擴張、營運資金與供應鏈投資，即使在公布獲利增加時，也可能消耗現金。",
-          "what": "公司為乘用車、商用應用與電網系統開發電池及儲能解決方案。",
-          "why": "電池需求會影響車輛成本、電網儲能效益與工業投資，而現金轉換能力則顯示有多少成長可由內部資金支應。",
-          "uncertainty": "這份報告未經審計，且涵蓋廣泛的年初至今期間；它無法確定較弱的現金轉換能力是暫時現象還是結構性問題。",
-          "watch": "留意下一份完整申報中的應收款、存貨、資本支出與經營現金流。",
+          "title": "Plains 報告物流業務現金創造力具韌性",
+          "summary": "Plains All American 報告其合夥企業收益，以及原油基礎設施網絡帶來的經營現金流。",
+          "impact": "這項結果對能源運輸商與消費者都很重要，因為管道與儲存業務的經濟效益會影響原油在產區、煉油廠與出口樞紐之間運輸的可靠性與成本。",
+          "what": "Plains 擁有服務北美原油市場的集貨、運輸、終端與儲存資產。公告分別列示合夥企業收益、經營現金流與調整後收益。",
+          "why": "中游業務通常更受合約或按費用計價的輸送量驅動，而非直接受大宗商品價格影響，因此經營現金流對分配與資產負債表管理相當重要。",
+          "uncertainty": "終止經營業務與其他調節項目會影響比較，而調整後 EBITDA 不等於可分配現金或自由現金流。",
+          "watch": "關注輸送量、客戶承諾、經營現金流、槓桿、分配，以及持續經營業務的資產變化。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度營收"
+              "label": "季度歸屬於合夥企業的淨利潤"
             },
             {
               "id": "m2",
-              "label": "歸屬於股東的季度淨利潤"
+              "label": "持續經營業務年初至今的經營現金流"
             },
             {
               "id": "m3",
-              "label": "年初至今營收"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今歸屬於股東的淨利潤"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今經營現金流"
+              "label": "季度歸屬於合夥企業的調整後 EBITDA"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "工業利潤增幅超越營收，產業表現仍不均衡",
-          "summary": "官方數據顯示，中國大陸工業利潤增長快於營收，但改善集中在部分產業，並非普遍共享。",
-          "impact": "這種模式表示部分工業領域的定價或成本槓桿有所改善，但較弱產業仍可能抑制招聘、投資與供應商需求。",
-          "what": "這項指標涵蓋採礦、製造與公用事業等規模以上工業企業；它是會計指標，而非現金流指標。",
-          "why": "利潤復甦可以支持資本支出與薪資，但產業表現不均限制了這項訊號對整體經濟的代表性。",
-          "uncertainty": "總體數據無法直接說明企業層面的現金創造或家庭需求，而且各產業結果差異很大。",
-          "watch": "留意後續月度利潤數據、應收款、存貨與產業涵蓋範圍，以確認復甦是否持久。",
+          "title": "中國工廠與服務業活動調查同步轉弱",
+          "summary": "中國官方調查顯示，製造業與非製造業活動均低於擴張門檻，需求指標走弱。",
+          "impact": "活動轉弱可能對工業訂單、就業與企業信心造成壓力；另一方面，運輸與資訊服務較強，顯示放緩並不均衡。",
+          "what": "官方調查涵蓋製造業與非製造業企業，並追蹤當期活動的方向。生產與新訂單走弱，建築業尤其疲軟，而部分運輸與資訊產業仍較強。",
+          "why": "低於門檻的讀數可能削弱定價能力，並延後資本支出。對中國內地股票而言，這代表週期性產業面臨更具選擇性的收益環境。",
+          "uncertainty": "PMI 是擴散指數，不是產出增長、公司營收或現金流的衡量方式，也無法證明疲軟會持續多久。",
+          "watch": "關注下一次官方活動調查、工業生產、零售需求、房地產數據、企業收益與就業指標。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "工業利潤總額"
+              "label": "製造業採購經理人指數"
             },
             {
               "id": "m2",
-              "label": "工業利潤增長率"
+              "label": "製造業月比變動"
             },
             {
               "id": "m3",
-              "label": "工業營收總額"
+              "label": "非製造業商務活動指數"
             },
             {
               "id": "m4",
-              "label": "工業營收增長率"
-            },
-            {
-              "id": "m5",
-              "label": "月度工業利潤增長率"
+              "label": "綜合產出指數"
             }
           ]
         }
