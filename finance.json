@@ -1,64 +1,72 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-07T08:46:29.818Z",
-  "generatedAt": "2026-11-07T08:49:57.911Z",
+  "cutoffAt": "2026-11-07T16:50:14.031Z",
+  "generatedAt": "2026-11-07T16:55:19.618Z",
   "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "BLS employment release",
-      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+      "label": "Iron Mountain earnings release filed with SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000081/q32026srpfinal.htm"
     },
     {
       "id": "src2",
-      "label": "Freshpet third-quarter release",
-      "url": "https://investor.freshpet.com/news-releases/news-release-details/freshpet-inc-reports-third-quarter-2026-financial-results"
+      "label": "Teradata earnings release filed with SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/816761/000162828026071034/tdc09302026exhibit991.htm"
     },
     {
       "id": "src3",
-      "label": "National Bureau of Statistics economic release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965618.html"
+      "label": "Huahong Grace quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659080.PDF"
     },
     {
       "id": "src4",
-      "label": "Kweichow Moutai third-quarter report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649896.PDF"
+      "label": "Chaozhou Three-Circle share repurchase completion announcement",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225653831.PDF"
     },
     {
       "id": "src5",
-      "label": "AP market closing report",
-      "url": "https://apnews.com/article/806f71d95105bc7efbc760b194dd8cad"
+      "label": "National Bureau of Statistics industrial profit release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html"
     },
     {
       "id": "src6",
-      "label": "China Finance market closing report",
-      "url": "https://www.cnfin.com/gs-lb/detail/20261106/4492047_1.html"
+      "label": "Nasdaq Composite data from FRED",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src7",
-      "label": "CSI three hundred historical data",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Shanghai Stock Exchange closing report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261106/4492047_1.html"
+    },
+    {
+      "id": "src8",
+      "label": "Chaozhou Three-Circle official company profile",
+      "url": "https://static.cninfo.com.cn/finalpage/enpage/300408_1.pdf"
+    },
+    {
+      "id": "src9",
+      "label": "S&P five hundred data from FRED",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-06",
-      "close": 7376.86,
-      "previousClose": 7353.73,
-      "changePercent": 0.31,
-      "sourceIds": [
-        "src5"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "nasdaq",
       "sessionDate": "2026-11-06",
       "close": 24579.42,
-      "previousClose": null,
-      "changePercent": 1.1,
+      "previousClose": 24315,
+      "changePercent": 1.0874768661,
       "sourceIds": [
-        "src5"
+        "src6"
       ]
     },
     {
@@ -68,87 +76,89 @@
       "previousClose": null,
       "changePercent": -1.1,
       "sourceIds": [
-        "src6"
+        "src7"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-06",
-      "close": 4054.28,
-      "previousClose": 4113.41,
-      "changePercent": -1.44,
-      "sourceIds": [
-        "src7"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     }
   ],
   "stories": [
     {
       "id": "f1",
       "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-11-06",
-      "company": null,
+      "category": "earnings",
+      "publishedOn": "2026-11-05",
+      "company": {
+        "name": "Iron Mountain",
+        "ticker": "IRM",
+        "exchange": "NYSE"
+      },
       "metrics": [
         {
           "id": "m1",
-          "value": 165000,
-          "unit": "count",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 1990617000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src1"
           ],
-          "evidence": "The establishment survey reports higher total nonfarm payroll employment in the monthly release summary and establishment section."
+          "evidence": "The quarterly financial performance table reports consolidated total revenue."
         },
         {
           "id": "m2",
-          "value": 4.1,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 128878000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src1"
           ],
-          "evidence": "The household survey reports the unemployment rate in the release summary and table covering labor-force status."
+          "evidence": "The quarterly financial performance table reports net income."
         },
         {
           "id": "m3",
-          "value": 3.1,
-          "unit": "percent",
-          "periodStart": "2025-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "value": 458420000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src1"
           ],
-          "evidence": "The establishment survey wage paragraph reports the change in average hourly earnings over the year."
+          "evidence": "The reconciliation table reports adjusted funds from operations."
         }
       ],
       "sourceIds": [
         "src1"
       ],
-      "evidence": "The labor release reports continued payroll growth, a little-changed unemployment rate, and ongoing wage gains, while also noting revisions and uneven labor-market conditions."
+      "evidence": "The filed release describes information management, physical records storage, digital services, data centers and asset lifecycle management, while the financial tables distinguish GAAP net income from adjusted funds from operations."
     },
     {
       "id": "f2",
       "market": "us",
       "category": "earnings",
-      "publishedOn": "2026-11-04",
+      "publishedOn": "2026-11-05",
       "company": {
-        "name": "Freshpet",
-        "ticker": "FRPT",
-        "exchange": "Nasdaq"
+        "name": "Teradata",
+        "ticker": "TDC",
+        "exchange": "NYSE"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 317840000,
+          "value": 399000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
@@ -157,11 +167,11 @@
           "sourceIds": [
             "src2"
           ],
-          "evidence": "The condensed income statement reports quarterly net sales in the financial results release."
+          "evidence": "The quarterly financial highlights report total revenue."
         },
         {
           "id": "m2",
-          "value": 29712000,
+          "value": 91000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
@@ -170,688 +180,725 @@
           "sourceIds": [
             "src2"
           ],
-          "evidence": "The release reports quarterly net income and explains the prior-period deferred tax benefit affecting comparison."
+          "evidence": "The quarterly financial highlights report cash flow from operations."
         },
         {
           "id": "m3",
-          "value": 145516000,
+          "value": 1512000000,
           "unit": "USD",
-          "periodStart": "2026-01-01",
+          "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src2"
           ],
-          "evidence": "The cash-flow statement reports net cash provided by operating activities for the nine-month period."
+          "evidence": "The quarterly financial highlights report total annualized recurring revenue."
+        },
+        {
+          "id": "m4",
+          "value": 700000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "The quarterly financial highlights report public cloud annualized recurring revenue."
         }
       ],
       "sourceIds": [
         "src2"
       ],
-      "evidence": "The fresh pet-food producer reported volume-led sales growth, wider margins, and stronger operating cash generation; management also raised and narrowed its full-year sales outlook."
+      "evidence": "Teradata sells enterprise data, analytics and artificial-intelligence software and services; the release reports recurring-revenue measures, lower total revenue and positive operating cash flow."
     },
     {
-      "id": "f4",
+      "id": "f5",
       "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-31",
-      "company": {
-        "name": "Kweichow Moutai",
-        "ticker": "600519",
-        "exchange": "SSE"
-      },
+      "category": "economy",
+      "publishedOn": "2026-10-27",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 40267482684.56,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src4"
-          ],
-          "evidence": "The unaudited quarterly report gives operating revenue in its principal financial-data table."
-        },
-        {
-          "id": "m2",
-          "value": 19950545560.09,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src4"
-          ],
-          "evidence": "The report gives quarterly net profit attributable to shareholders in the principal financial-data table."
-        },
-        {
-          "id": "m3",
-          "value": 84058979832.29,
+          "value": 6033740000000,
           "unit": "CNY",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src5"
           ],
-          "evidence": "The cash-flow statement reports year-to-date net cash generated from operating activities."
+          "evidence": "The official release reports aggregate profit for above-scale industrial enterprises."
         },
         {
-          "id": "m4",
-          "value": 3.08,
+          "id": "m2",
+          "value": 15.5,
           "unit": "percent",
-          "periodStart": "2026-07-01",
+          "periodStart": "2026-01-01",
           "periodEnd": "2026-09-30",
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src5"
           ],
-          "evidence": "The principal financial-data table reports quarterly operating-revenue growth against the prior-year quarter."
+          "evidence": "The official release reports comparable year-to-date industrial-profit growth."
+        },
+        {
+          "id": "m3",
+          "value": 106206600000000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "The release table reports year-to-date industrial operating revenue."
+        },
+        {
+          "id": "m4",
+          "value": 5.68,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "The release reports the industrial operating-margin ratio."
         }
       ],
       "sourceIds": [
-        "src4"
+        "src5"
       ],
-      "evidence": "The premium spirits producer delivered modest quarterly growth and strong operating cash generation, while year-to-date attributable profit was broadly stable."
+      "evidence": "The official survey covers above-scale industrial enterprises rather than listed companies alone; electronics and selected resource industries strengthened while autos, power and several construction-linked materials remained weak."
     }
   ],
   "locales": {
     "en": {
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "US hiring remained firm",
-          "summary": "The latest labor report shows continued payroll growth and a little-changed unemployment rate.",
-          "impact": "The data support household income and spending, while wage growth keeps inflation and interest-rate sensitivity relevant for businesses.",
-          "what": "The report covers employment across professional services, health care, transportation and warehousing, manufacturing, and other major industries.",
-          "why": "A resilient labor market supports consumer demand, while wage pressure affects operating costs and monetary-policy expectations.",
-          "uncertainty": "The release is subject to later revisions, and increased part-time employment for economic reasons indicates uneven labor-market quality.",
-          "watch": "Watch subsequent payroll revisions, hours worked, and inflation data.",
+          "title": "Iron Mountain reports stronger revenue and funds from operations",
+          "summary": "The information-management company reported higher quarterly revenue and net income, while its data-center, digital and asset-lifecycle businesses continued expanding.",
+          "impact": "The result supports continued infrastructure investment and shareholder distributions, but adjusted funds from operations is not GAAP net income or operating cash flow.",
+          "what": "Iron Mountain manages physical and digital information, data centers and asset-lifecycle services for organizations worldwide. The release reports growth across storage rental, services and newer businesses.",
+          "why": "Recurring storage demand and expanding data-center leasing can improve revenue visibility, while the data-center buildout also increases capital and financing demands.",
+          "uncertainty": "The release emphasizes adjusted funds from operations and does not present that measure as operating cash flow; acquisitions, currency and business mix also affect reported growth.",
+          "watch": "Watch future filings for operating cash flow, capital expenditure, data-center leasing and conversion of raised guidance into cash generation.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Payroll change"
+              "label": "Total revenue"
             },
             {
               "id": "m2",
-              "label": "Unemployment rate"
+              "label": "Net income"
             },
             {
               "id": "m3",
-              "label": "Hourly earnings growth"
+              "label": "Adjusted funds from operations"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "Fresh pet-food growth came with stronger cash generation",
-          "summary": "Freshpet expanded volume and margins in its latest quarter while accounting profit was affected by a prior-period tax benefit.",
-          "impact": "Improved plant utilization and lower input costs can support profitability, but logistics and compensation expenses remain constraints.",
-          "what": "The company sells refrigerated pet food through grocery, mass, digital, specialty, and club channels.",
-          "why": "Volume-led growth and stronger operating cash flow improve funding flexibility, while the profit comparison is not a clean measure of underlying earnings momentum.",
-          "uncertainty": "The sales outlook is management guidance rather than realized performance, and the company does not provide a full-year GAAP net-income forecast.",
-          "watch": "Watch future cash conversion, logistics costs, retail distribution, and whether margin gains persist.",
+          "title": "Teradata shows cloud traction despite lower revenue",
+          "summary": "The enterprise data and artificial-intelligence software provider grew annualized recurring-revenue measures while total revenue declined and operating cash flow remained positive.",
+          "impact": "A larger recurring base may improve budget visibility for enterprise customers, but weaker total revenue keeps execution and migration risks material.",
+          "what": "Teradata sells enterprise data platforms, analytics and governed artificial-intelligence tools. Its release reports growth in total and public-cloud annualized recurring revenue alongside lower total revenue.",
+          "why": "Recurring contracts can make revenue more predictable than project sales, while positive operating cash flow helps fund product development and customer migrations.",
+          "uncertainty": "The release also contains management guidance and non-GAAP measures; recurring-revenue growth does not by itself prove that total demand has stabilized.",
+          "watch": "Watch customer additions, public-cloud annualized recurring revenue, total revenue, operating cash flow and product adoption.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly net sales"
+              "label": "Total revenue"
             },
             {
               "id": "m2",
-              "label": "Quarterly net income"
+              "label": "Cash flow from operations"
             },
             {
               "id": "m3",
-              "label": "Operating cash flow"
+              "label": "Total annualized recurring revenue"
+            },
+            {
+              "id": "m4",
+              "label": "Public cloud annualized recurring revenue"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Moutai delivered a steady quarter and strong cash flow",
-          "summary": "The premium spirits producer posted modest quarterly revenue growth and substantial operating cash generation.",
-          "impact": "The results suggest resilience in the premium segment, but broadly stable year-to-date profit highlights the importance of demand, pricing, and channel execution.",
-          "what": "The company produces and sells premium baijiu through direct and distribution channels.",
-          "why": "Cash generation supports dividends, investment, and balance-sheet flexibility, while slower profit growth can signal limits to volume or pricing expansion.",
-          "uncertainty": "The report is unaudited, and quarterly results do not establish the direction of the full year.",
-          "watch": "Watch channel inventories, direct-sales trends, operating cash conversion, and consumer-demand indicators.",
+          "id": "f5",
+          "title": "China industrial profits improve unevenly across sectors",
+          "summary": "Official data show industrial profit growth ahead of revenue growth, led by electronics and selected resource industries while autos, power and several basic-material industries remained weak.",
+          "impact": "The divergence matters for suppliers, workers and lenders because stronger aggregate profit does not establish a broad manufacturing recovery when pricing, demand and inventory conditions differ sharply.",
+          "what": "The National Bureau of Statistics survey covers above-scale industrial enterprises and reports revenue, profit, margins, receivables and inventories. It is an accounting survey rather than a listed-company cash-flow statement.",
+          "why": "Profit growth ahead of revenue can reflect prices, product mix, cost control or comparison effects rather than uniformly stronger final demand; receivables and inventories also affect cash quality.",
+          "uncertainty": "The survey excludes smaller industrial firms and reports materially different results by sector, so the aggregate outcome may not describe every region or supply chain.",
+          "watch": "Watch monthly industrial profits, producer prices, inventories, receivables, export demand and listed-company operating cash flow.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly operating revenue"
+              "label": "Industrial profit"
             },
             {
               "id": "m2",
-              "label": "Quarterly attributable net profit"
+              "label": "Industrial profit year-on-year change"
             },
             {
               "id": "m3",
-              "label": "Year-to-date operating cash flow"
+              "label": "Industrial operating revenue"
             },
             {
               "id": "m4",
-              "label": "Quarterly revenue growth"
+              "label": "Industrial operating-margin ratio"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents d’entreprises sont présentés comme des explications de contexte.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances et non les échanges actuels."
+        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
+        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Les embauches américaines sont restées solides",
-          "summary": "Le dernier rapport sur l’emploi fait état d’une progression continue des effectifs salariés et d’un taux de chômage peu modifié.",
-          "impact": "Ces données soutiennent les revenus et les dépenses des ménages, tandis que la croissance des salaires maintient l’inflation et la sensibilité aux taux d’intérêt au centre des préoccupations des entreprises.",
-          "what": "Le rapport couvre l’emploi dans les services professionnels, la santé, le transport et l’entreposage, l’industrie manufacturière ainsi que d’autres grands secteurs.",
-          "why": "Un marché du travail résilient soutient la demande des consommateurs, tandis que la pression salariale influe sur les coûts d’exploitation et les anticipations de politique monétaire.",
-          "uncertainty": "La publication pourra être révisée ultérieurement, et la hausse du travail à temps partiel pour des raisons économiques montre que la qualité du marché du travail reste inégale.",
-          "watch": "Surveillez les révisions ultérieures de l’emploi, le nombre d’heures travaillées et les données d’inflation.",
+          "title": "Iron Mountain annonce une hausse de ses revenus et de ses fonds provenant des activités",
+          "summary": "L’entreprise de gestion de l’information a publié une hausse de ses revenus trimestriels et de son bénéfice net, tandis que ses activités de centres de données, de services numériques et de gestion du cycle de vie des actifs ont continué de progresser.",
+          "impact": "Le résultat soutient la poursuite des investissements dans les infrastructures et les distributions aux actionnaires, mais les fonds ajustés provenant des activités ne correspondent ni au bénéfice net selon les normes GAAP ni aux flux de trésorerie d’exploitation.",
+          "what": "Iron Mountain gère des informations physiques et numériques, des centres de données et des services liés au cycle de vie des actifs pour des organisations du monde entier. La publication fait état d’une croissance des locations d’espaces de stockage, des services et des nouvelles activités.",
+          "why": "Une demande récurrente de stockage et l’extension de la location de centres de données peuvent améliorer la visibilité des revenus, tandis que le développement des centres de données accroît aussi les besoins en investissements et en financement.",
+          "uncertainty": "La publication met l’accent sur les fonds ajustés provenant des activités et ne présente pas cette mesure comme des flux de trésorerie d’exploitation ; les acquisitions, les devises et la composition des activités influencent également la croissance publiée.",
+          "watch": "Surveillez les prochaines publications pour connaître les flux de trésorerie d’exploitation, les dépenses d’investissement, la location des centres de données et la conversion des prévisions relevées en génération de trésorerie.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variation de l’emploi salarié"
+              "label": "Chiffre d’affaires total"
             },
             {
               "id": "m2",
-              "label": "Taux de chômage"
+              "label": "Bénéfice net"
             },
             {
               "id": "m3",
-              "label": "Croissance du salaire horaire"
+              "label": "Fonds ajustés provenant des activités"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "La croissance des aliments frais pour animaux s’est accompagnée d’une meilleure génération de trésorerie",
-          "summary": "Freshpet a accru ses volumes et ses marges au cours de son dernier trimestre, tandis que le bénéfice comptable a été affecté par un avantage fiscal d’une période antérieure.",
-          "impact": "Une meilleure utilisation des sites de production et la baisse des coûts des intrants peuvent soutenir la rentabilité, mais les dépenses de logistique et de rémunération restent des contraintes.",
-          "what": "L’entreprise vend des aliments réfrigérés pour animaux dans les circuits de l’épicerie, de la grande distribution, du numérique, des magasins spécialisés et des clubs-entrepôts.",
-          "why": "Une croissance tirée par les volumes et un renforcement de la trésorerie d’exploitation améliorent la flexibilité financière, tandis que la comparaison des bénéfices ne mesure pas parfaitement la dynamique sous-jacente des résultats.",
-          "uncertainty": "Les perspectives de ventes relèvent des prévisions de la direction et non de performances réalisées, et l’entreprise ne fournit pas de prévision de résultat net GAAP pour l’ensemble de l’exercice.",
-          "watch": "Surveillez la conversion en trésorerie, les coûts logistiques, la distribution au détail et la persistance des gains de marge.",
+          "title": "Teradata montre une dynamique dans le cloud malgré une baisse de ses revenus",
+          "summary": "Le fournisseur de plateformes de données d’entreprise et de logiciels d’intelligence artificielle a accru ses indicateurs de revenus récurrents annualisés, tandis que ses revenus totaux ont diminué et que ses flux de trésorerie d’exploitation sont restés positifs.",
+          "impact": "Une base récurrente plus importante peut améliorer la visibilité budgétaire des clients entreprises, mais la faiblesse des revenus totaux maintient des risques importants liés à l’exécution et aux migrations.",
+          "what": "Teradata vend des plateformes de données d’entreprise, des outils d’analyse et des solutions d’intelligence artificielle avec gouvernance. Sa publication fait état d’une croissance des revenus récurrents annualisés totaux et liés au cloud public, parallèlement à une baisse des revenus totaux.",
+          "why": "Les contrats récurrents peuvent rendre les revenus plus prévisibles que les ventes de projets, tandis que des flux de trésorerie d’exploitation positifs contribuent au financement du développement des produits et des migrations des clients.",
+          "uncertainty": "La publication contient également des prévisions de la direction et des mesures non conformes aux normes GAAP ; la croissance des revenus récurrents ne prouve pas à elle seule que la demande totale s’est stabilisée.",
+          "watch": "Surveillez les nouveaux clients, les revenus récurrents annualisés liés au cloud public, les revenus totaux, les flux de trésorerie d’exploitation et l’adoption des produits.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ventes nettes trimestrielles"
+              "label": "Chiffre d’affaires total"
             },
             {
               "id": "m2",
-              "label": "Résultat net trimestriel"
+              "label": "Flux de trésorerie provenant des activités d’exploitation"
             },
             {
               "id": "m3",
-              "label": "Trésorerie d’exploitation"
+              "label": "Revenus récurrents annualisés totaux"
+            },
+            {
+              "id": "m4",
+              "label": "Revenus récurrents annualisés liés au cloud public"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Moutai a publié un trimestre stable et une solide génération de trésorerie",
-          "summary": "Le producteur de spiritueux haut de gamme a enregistré une croissance modeste de son chiffre d’affaires trimestriel et une importante génération de trésorerie d’exploitation.",
-          "impact": "Les résultats suggèrent une certaine résilience du segment haut de gamme, mais la stabilité globale du bénéfice depuis le début de l’exercice souligne l’importance de la demande, des prix et de l’exécution commerciale.",
-          "what": "L’entreprise produit et vend du baijiu haut de gamme par l’intermédiaire de circuits directs et de distributeurs.",
-          "why": "La génération de trésorerie soutient les dividendes, les investissements et la flexibilité du bilan, tandis qu’une croissance plus lente du bénéfice peut signaler des limites à l’expansion des volumes ou des prix.",
-          "uncertainty": "Le rapport n’est pas audité, et les résultats trimestriels ne permettent pas d’établir la trajectoire de l’ensemble de l’exercice.",
-          "watch": "Surveillez les stocks dans les circuits de distribution, les tendances des ventes directes, la conversion en trésorerie d’exploitation et les indicateurs de la demande des consommateurs.",
+          "id": "f5",
+          "title": "Les bénéfices industriels chinois s’améliorent de façon inégale selon les secteurs",
+          "summary": "Les données officielles montrent une croissance des bénéfices industriels supérieure à celle des revenus, portée par l’électronique et certains secteurs des ressources, tandis que l’automobile, l’électricité et plusieurs secteurs des matériaux de base restent faibles.",
+          "impact": "Cette divergence concerne les fournisseurs, les travailleurs et les prêteurs, car une amélioration globale des bénéfices ne suffit pas à établir une reprise générale de l’industrie manufacturière lorsque les prix, la demande et les stocks diffèrent fortement.",
+          "what": "L’enquête du Bureau national des statistiques couvre les entreprises industrielles au-dessus de la taille désignée et fournit des données sur les revenus, les bénéfices, les marges, les créances et les stocks. Il s’agit d’une enquête comptable, et non d’un état des flux de trésorerie d’une entreprise cotée.",
+          "why": "Une croissance des bénéfices supérieure à celle des revenus peut refléter les prix, la composition des produits, la maîtrise des coûts ou des effets de comparaison, plutôt qu’une demande finale uniformément plus forte ; les créances et les stocks influencent également la qualité de la trésorerie.",
+          "uncertainty": "L’enquête exclut les petites entreprises industrielles et présente des résultats très différents selon les secteurs ; le résultat global peut donc ne pas décrire chaque région ou chaîne d’approvisionnement.",
+          "watch": "Surveillez les bénéfices industriels mensuels, les prix à la production, les stocks, les créances, la demande extérieure et les flux de trésorerie d’exploitation des entreprises cotées.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires opérationnel trimestriel"
+              "label": "Bénéfice industriel"
             },
             {
               "id": "m2",
-              "label": "Résultat net trimestriel attribuable"
+              "label": "Variation annuelle du bénéfice industriel"
             },
             {
               "id": "m3",
-              "label": "Trésorerie d’exploitation depuis le début de l’exercice"
+              "label": "Revenus d’exploitation industriels"
             },
             {
               "id": "m4",
-              "label": "Croissance trimestrielle du chiffre d’affaires"
+              "label": "Marge d’exploitation industrielle"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的发展动态。请查看各项发布日期；近期公司报告作为背景解读呈现。",
+      "status": "本期涵盖美国和中国的发展动态。请核对每篇内容的发布日期；近期公司报告作为背景说明呈现。",
       "marketSummary": {
-        "us": "所跟踪的两项指数在最近已核实的交易日均上涨。带日期的收盘数据仅描述相应交易日，不代表当前交易情况。",
-        "cn": "所跟踪的两项指数在最近已核实的交易日均下跌。带日期的收盘数据仅描述相应交易日，不代表当前交易情况。"
+        "us": "部分收盘观察无法核实。每个可用指数均保留自身交易日期。",
+        "cn": "部分收盘观察无法核实。每个可用指数均保留自身交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美国招聘保持稳健",
-          "summary": "最新就业报告显示，非农就业人数持续增长，失业率变化不大。",
-          "impact": "这些数据支持家庭收入和消费，而工资增长使通胀和利率敏感度仍与企业相关。",
-          "what": "该报告涵盖专业服务、医疗保健、运输和仓储、制造业及其他主要行业的就业情况。",
-          "why": "有韧性的劳动力市场支撑消费需求，而工资压力会影响运营成本和货币政策预期。",
-          "uncertainty": "该报告日后可能修订；因经济原因而增加的兼职就业表明劳动力市场质量并不均衡。",
-          "watch": "关注后续非农就业人数修订、工作时长和通胀数据。",
+          "title": "Iron Mountain营收和运营资金均有所增强",
+          "summary": "这家信息管理公司报告季度营收和净利润均有所增长，同时其数据中心、数字化和资产生命周期业务继续扩张。",
+          "impact": "这一业绩支持持续的基础设施投资和股东分配，但调整后运营资金并非美国通用会计准则下的净利润，也不是经营现金流。",
+          "what": "Iron Mountain为全球各地的组织管理实体和数字信息、数据中心及资产生命周期服务。公告显示，存储租赁、服务和新兴业务均有所增长。",
+          "why": "持续的存储需求和不断扩大的数据中心租赁业务可以提升营收可见度，但数据中心建设也会增加资本和融资需求。",
+          "uncertainty": "公告强调调整后运营资金，并未将该指标列为经营现金流；收购、汇率和业务结构也会影响报告中的增长。",
+          "watch": "关注后续文件中的经营现金流、资本支出、数据中心租赁情况，以及上调后的指引能否转化为现金创造。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非农就业人数变化"
+              "label": "总营收"
             },
             {
               "id": "m2",
-              "label": "失业率"
+              "label": "净利润"
             },
             {
               "id": "m3",
-              "label": "时薪增长"
+              "label": "调整后运营资金"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "Freshpet新鲜宠物食品增长，同时现金创造增强",
-          "summary": "Freshpet在最近一个季度扩大了销量并提升利润率，但会计利润受到前期税收收益影响。",
-          "impact": "工厂利用率提高和投入成本下降有助于支持盈利能力，但物流和薪酬支出仍构成限制。",
-          "what": "该公司通过杂货店、大众零售、数字渠道、专业渠道和会员制商店销售冷藏宠物食品。",
-          "why": "销量带动的增长和更强的经营现金流提升了资金灵活性，但利润比较并不能准确衡量潜在盈利动能。",
-          "uncertainty": "销售展望属于管理层指引，而非已经实现的业绩；公司没有提供全年公认会计准则净利润预测。",
-          "watch": "关注未来现金转化、物流成本、零售分销，以及利润率提升能否持续。",
+          "title": "Teradata云业务展现吸引力，但营收下降",
+          "summary": "这家企业数据和人工智能软件提供商的年化经常性收入指标有所增长，但总营收下降，经营现金流仍为正。",
+          "impact": "更大的经常性收入基础可能提升企业客户的预算可见度，但总营收走弱意味着执行和迁移风险仍然重要。",
+          "what": "Teradata销售企业数据平台、分析工具和受治理的人工智能工具。其公告显示，总经常性收入和公有云年化经常性收入增长，同时总营收下降。",
+          "why": "与项目销售相比，经常性合同可以让营收更加可预测；正经营现金流则有助于为产品开发和客户迁移提供资金。",
+          "uncertainty": "公告还包含管理层指引和非美国通用会计准则指标；经常性收入增长本身并不能证明总体需求已经企稳。",
+          "watch": "关注客户新增情况、公有云年化经常性收入、总营收、经营现金流和产品采用情况。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度净销售额"
+              "label": "总营收"
             },
             {
               "id": "m2",
-              "label": "季度净利润"
-            },
-            {
-              "id": "m3",
               "label": "经营现金流"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "茅台季度表现稳定，现金流强劲",
-          "summary": "这家高端白酒生产商实现温和的季度营收增长，并产生了可观的经营现金流。",
-          "impact": "业绩显示高端市场具有韧性，但年初至今利润基本稳定，凸显需求、定价和渠道执行的重要性。",
-          "what": "该公司通过直销和经销渠道生产、销售高端白酒。",
-          "why": "现金创造支持分红、投资和资产负债表灵活性，而利润增长放缓可能表明销量或提价扩张受到限制。",
-          "uncertainty": "该报告未经审计，季度业绩不能确定全年走势。",
-          "watch": "关注渠道库存、直销趋势、经营现金转化和消费者需求指标。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度营业收入"
-            },
-            {
-              "id": "m2",
-              "label": "季度归属于上市公司股东的净利润"
             },
             {
               "id": "m3",
-              "label": "年初至今经营现金流"
+              "label": "总年化经常性收入"
             },
             {
               "id": "m4",
-              "label": "季度营收增长"
-            }
-          ]
-        }
-      ]
-    },
-    "ja": {
-      "status": "この版では、米国と中国の動きを扱います。各記事の公表日を確認してください。最近の企業決算は背景説明として掲載しています。",
-      "marketSummary": {
-        "us": "追跡している両指数は、直近の確認済み取引で上昇しました。記載された終値はその取引日のもので、現在の取引状況を示すものではありません。",
-        "cn": "追跡している両指数は、直近の確認済み取引で下落しました。記載された終値はその取引日のもので、現在の取引状況を示すものではありません。"
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "米国の雇用は堅調を維持",
-          "summary": "直近の雇用統計では、雇用者数の増加が続き、失業率はほぼ横ばいでした。",
-          "impact": "このデータは家計所得と消費を支える一方、賃金の伸びにより、企業にとってインフレと金利への感応度が引き続き重要です。",
-          "what": "この統計は、専門サービス、医療、運輸・倉庫、製造業など、主要産業の雇用を対象としています。",
-          "why": "底堅い労働市場は個人消費を支える一方、賃金上昇圧力は事業コストと金融政策の見通しに影響します。",
-          "uncertainty": "この発表は後に改定される可能性があり、経済的理由によるパートタイム雇用の増加は、労働市場の質にばらつきがあることを示しています。",
-          "watch": "今後の雇用者数の改定、労働時間、インフレ指標を確認してください。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "雇用者数の変化"
-            },
-            {
-              "id": "m2",
-              "label": "失業率"
-            },
-            {
-              "id": "m3",
-              "label": "時間当たり賃金の伸び"
+              "label": "公有云年化经常性收入"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "フレッシュペット、成長加速に伴いキャッシュ創出力も改善",
-          "summary": "フレッシュペットは直近四半期に販売数量と利益率を伸ばしましたが、会計上の利益は過去期間の税効果の影響を受けました。",
-          "impact": "工場稼働率の改善と投入コストの低下は収益性を支える可能性がある一方、物流費と人件費は引き続き制約となっています。",
-          "what": "同社は、食料品店、量販店、デジタル、専門店、会員制店舗の各チャネルを通じて、冷蔵ペットフードを販売しています。",
-          "why": "販売数量主導の成長と営業キャッシュフローの改善は資金調達の柔軟性を高めますが、利益の比較は基礎的な利益モメンタムをそのまま示すものではありません。",
-          "uncertainty": "売上見通しは実績ではなく経営陣のガイダンスであり、同社は通期の米国会計基準ベースの純利益予想を示していません。",
-          "watch": "今後のキャッシュ転換、物流費、小売での取扱状況、利益率の改善が続くかを確認してください。",
+          "id": "f5",
+          "title": "中国工业利润在各行业间呈现不均衡改善",
+          "summary": "官方数据显示，工业利润增速领先于营收增速，电子和部分资源行业表现领先，而汽车、电力及若干基础材料行业仍然疲弱。",
+          "impact": "这种分化对供应商、劳动者和贷款方都很重要，因为当价格、需求和库存状况明显不同时，整体利润增强并不能说明制造业已广泛复苏。",
+          "what": "国家统计局的调查覆盖规模以上工业企业，并报告营收、利润、利润率、应收账款和库存。这是一项会计调查，而不是上市公司的现金流量表。",
+          "why": "利润增速领先于营收增速，可能反映价格、产品结构、成本控制或对比基数影响，而不一定代表终端需求普遍增强；应收账款和库存也会影响现金质量。",
+          "uncertainty": "该调查不包括规模较小的工业企业，且各行业结果差异显著，因此总体结果可能无法代表每个地区或供应链。",
+          "watch": "关注月度工业利润、生产者价格、库存、应收账款、出口需求和上市公司的经营现金流。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期純売上高"
+              "label": "工业利润"
             },
             {
               "id": "m2",
-              "label": "四半期純利益"
+              "label": "工业利润同比变化"
             },
             {
               "id": "m3",
-              "label": "営業キャッシュフロー"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "茅台、堅調な四半期と強いキャッシュフローを達成",
-          "summary": "高級酒メーカーは、四半期の売上高が小幅に増加し、営業キャッシュフローも大幅に創出しました。",
-          "impact": "今回の結果は高級品分野の底堅さを示唆しますが、年初来の利益がほぼ安定していることは、需要、価格設定、販売チャネル運営の重要性を浮き彫りにしています。",
-          "what": "同社は、直販と流通チャネルを通じて高級白酒を製造・販売しています。",
-          "why": "キャッシュ創出は配当、投資、財務基盤の柔軟性を支えます。一方、利益成長の鈍化は、販売数量または価格拡大の限界を示す可能性があります。",
-          "uncertainty": "この報告は未監査であり、四半期の結果だけでは通期の方向性は確定しません。",
-          "watch": "販売チャネルの在庫、直販の動向、営業キャッシュフローへの転換、消費者需要の指標を確認してください。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期営業収益"
-            },
-            {
-              "id": "m2",
-              "label": "四半期親会社株主帰属純利益"
-            },
-            {
-              "id": "m3",
-              "label": "年初来営業キャッシュフロー"
+              "label": "工业营业收入"
             },
             {
               "id": "m4",
-              "label": "四半期売上高成長率"
+              "label": "工业营业利润率"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre la evolución de Estados Unidos y China. Comprueba la fecha de publicación de cada información; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Comprueba la fecha de publicación de cada texto; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual.",
-        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha describen esas sesiones, no la cotización actual."
+        "us": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "El empleo en Estados Unidos se mantuvo firme",
-          "summary": "El último informe laboral muestra un crecimiento continuado del empleo y una tasa de desempleo casi sin cambios.",
-          "impact": "Los datos respaldan los ingresos y el gasto de los hogares, mientras que el crecimiento salarial mantiene relevante la sensibilidad de las empresas a la inflación y a los tipos de interés.",
-          "what": "El informe abarca el empleo en los servicios profesionales, la atención sanitaria, el transporte y almacenamiento, la industria manufacturera y otros sectores importantes.",
-          "why": "Un mercado laboral resistente respalda la demanda de los consumidores, mientras que la presión salarial afecta a los costes operativos y a las expectativas sobre la política monetaria.",
-          "uncertainty": "El informe puede revisarse posteriormente, y el aumento del empleo a tiempo parcial por motivos económicos indica una calidad desigual del mercado laboral.",
-          "watch": "Observa las revisiones posteriores del empleo, las horas trabajadas y los datos de inflación.",
+          "title": "Iron Mountain informa de una mayor facturación y fondos procedentes de las operaciones",
+          "summary": "La empresa de gestión de información informó de un aumento de la facturación trimestral y del beneficio neto, mientras sus negocios de centros de datos, servicios digitales y gestión del ciclo de vida de activos siguieron expandiéndose.",
+          "impact": "El resultado respalda la continuidad de las inversiones en infraestructura y las distribuciones a los accionistas, pero los fondos ajustados procedentes de las operaciones no equivalen al beneficio neto según los PCGA ni al flujo de caja operativo.",
+          "what": "Iron Mountain gestiona información física y digital, centros de datos y servicios de gestión del ciclo de vida de activos para organizaciones de todo el mundo. El comunicado informa de crecimiento en el alquiler de almacenamiento, los servicios y los negocios más recientes.",
+          "why": "La demanda recurrente de almacenamiento y la expansión del alquiler de centros de datos pueden mejorar la visibilidad de la facturación, mientras que la ampliación de los centros de datos también aumenta las necesidades de capital y financiación.",
+          "uncertainty": "El comunicado destaca los fondos ajustados procedentes de las operaciones y no presenta esa medida como flujo de caja operativo; las adquisiciones, las divisas y la combinación de negocios también afectan al crecimiento comunicado.",
+          "watch": "Conviene seguir los próximos informes para observar el flujo de caja operativo, el gasto de capital, el alquiler de centros de datos y la conversión de la mejora de las previsiones en generación de caja.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variación del empleo"
+              "label": "Facturación total"
             },
             {
               "id": "m2",
-              "label": "Tasa de desempleo"
+              "label": "Beneficio neto"
             },
             {
               "id": "m3",
-              "label": "Crecimiento de los ingresos por hora"
+              "label": "Fondos ajustados procedentes de las operaciones"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "El crecimiento de la alimentación fresca para mascotas llegó acompañado de una mayor generación de efectivo",
-          "summary": "Freshpet aumentó el volumen y los márgenes en su último trimestre, mientras que el beneficio contable se vio afectado por un beneficio fiscal de un periodo anterior.",
-          "impact": "Una mejor utilización de las plantas y unos menores costes de los insumos pueden respaldar la rentabilidad, pero los gastos de logística y remuneración siguen siendo limitaciones.",
-          "what": "La empresa vende alimentos refrigerados para mascotas a través de canales de alimentación, grandes superficies, digitales, especializados y clubes de compras.",
-          "why": "El crecimiento impulsado por el volumen y un mayor flujo de caja operativo mejoran la flexibilidad de financiación, mientras que la comparación de beneficios no mide de forma limpia el impulso subyacente de las ganancias.",
-          "uncertainty": "Las perspectivas de ventas son una previsión de la dirección, no un resultado realizado, y la empresa no ofrece una previsión de beneficio neto conforme a GAAP para todo el año.",
-          "watch": "Observa la futura conversión de efectivo, los costes logísticos, la distribución minorista y la persistencia de las mejoras de margen.",
+          "title": "Teradata muestra impulso en la nube pese a la menor facturación",
+          "summary": "El proveedor de datos empresariales y software de inteligencia artificial aumentó las medidas de ingresos recurrentes anualizados, mientras la facturación total disminuyó y el flujo de caja operativo siguió siendo positivo.",
+          "impact": "Una base recurrente mayor puede mejorar la visibilidad presupuestaria de los clientes empresariales, pero la menor facturación total mantiene relevantes los riesgos de ejecución y migración.",
+          "what": "Teradata vende plataformas de datos empresariales, análisis y herramientas de inteligencia artificial con controles de gobernanza. Su comunicado informa de crecimiento en los ingresos recurrentes anualizados totales y de nube pública, junto con una menor facturación total.",
+          "why": "Los contratos recurrentes pueden hacer que la facturación sea más predecible que las ventas por proyecto, mientras que el flujo de caja operativo positivo ayuda a financiar el desarrollo de productos y las migraciones de clientes.",
+          "uncertainty": "El comunicado también contiene previsiones de la dirección y medidas no ajustadas a los PCGA; el crecimiento de los ingresos recurrentes no demuestra por sí solo que la demanda total se haya estabilizado.",
+          "watch": "Conviene seguir las nuevas incorporaciones de clientes, los ingresos recurrentes anualizados de la nube pública, la facturación total, el flujo de caja operativo y la adopción de productos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ventas netas trimestrales"
+              "label": "Facturación total"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto trimestral"
+              "label": "Flujo de caja de las operaciones"
             },
             {
               "id": "m3",
-              "label": "Flujo de caja operativo"
+              "label": "Ingresos recurrentes anualizados totales"
+            },
+            {
+              "id": "m4",
+              "label": "Ingresos recurrentes anualizados de la nube pública"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Moutai presentó un trimestre estable y un sólido flujo de caja",
-          "summary": "El productor de bebidas espirituosas prémium registró un crecimiento moderado de los ingresos trimestrales y una importante generación de flujo de caja operativo.",
-          "impact": "Los resultados sugieren resiliencia en el segmento prémium, pero un beneficio acumulado estable destaca la importancia de la demanda, los precios y la ejecución en los canales.",
-          "what": "La empresa produce y vende baijiu prémium a través de canales directos y de distribución.",
-          "why": "La generación de efectivo respalda los dividendos, la inversión y la flexibilidad del balance, mientras que un crecimiento más lento del beneficio puede señalar límites a la expansión del volumen o de los precios.",
-          "uncertainty": "El informe no está auditado, y los resultados trimestrales no establecen la dirección del conjunto del año.",
-          "watch": "Observa los inventarios de los canales, las tendencias de las ventas directas, la conversión del flujo de caja operativo y los indicadores de demanda de los consumidores.",
+          "id": "f5",
+          "title": "Los beneficios industriales de China mejoran de forma desigual entre sectores",
+          "summary": "Los datos oficiales muestran que el crecimiento de los beneficios industriales superó al de la facturación, impulsado por la electrónica y determinados sectores de recursos, mientras los automóviles, la electricidad y varias industrias de materiales básicos siguieron débiles.",
+          "impact": "La divergencia importa para proveedores, trabajadores y prestamistas, porque un mayor beneficio agregado no demuestra una recuperación manufacturera generalizada cuando las condiciones de precios, demanda e inventarios difieren considerablemente.",
+          "what": "La encuesta de la Oficina Nacional de Estadística cubre empresas industriales por encima del tamaño establecido e informa sobre facturación, beneficios, márgenes, cuentas por cobrar e inventarios. Es una encuesta contable, no un estado de flujo de caja de empresas cotizadas.",
+          "why": "Un crecimiento de los beneficios superior al de la facturación puede reflejar precios, combinación de productos, control de costes o efectos de comparación, en lugar de una demanda final uniformemente más fuerte; las cuentas por cobrar y los inventarios también afectan a la calidad de la caja.",
+          "uncertainty": "La encuesta excluye a las empresas industriales más pequeñas y muestra resultados materialmente distintos por sector, por lo que el resultado agregado puede no describir todas las regiones o cadenas de suministro.",
+          "watch": "Conviene seguir los beneficios industriales mensuales, los precios de producción, los inventarios, las cuentas por cobrar, la demanda de exportación y el flujo de caja operativo de las empresas cotizadas.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos operativos trimestrales"
+              "label": "Beneficio industrial"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto trimestral atribuible"
+              "label": "Variación interanual del beneficio industrial"
             },
             {
               "id": "m3",
-              "label": "Flujo de caja operativo acumulado en el año"
+              "label": "Ingresos operativos industriales"
             },
             {
               "id": "m4",
-              "label": "Crecimiento trimestral de los ingresos"
+              "label": "Margen operativo industrial"
+            }
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "status": "この版では、米国と中国の動向を扱います。各記事の公表日を確認してください。最近の企業報告は、背景を説明する資料として掲載しています。",
+      "marketSummary": {
+        "us": "一部の取引終了時点の観測値は検証できませんでした。利用可能な各指数には、それぞれの取引日が付されています。",
+        "cn": "一部の取引終了時点の観測値は検証できませんでした。利用可能な各指数には、それぞれの取引日が付されています。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "アイアン・マウンテン、増収と調整後FFOの拡大を報告",
+          "summary": "情報管理会社の四半期売上高と純利益は増加しました。データセンター、デジタル、資産ライフサイクル事業も拡大を続けています。",
+          "impact": "この結果は、インフラ投資と株主還元の継続を支えます。ただし、調整後FFOはGAAP上の純利益でも営業キャッシュフローでもありません。",
+          "what": "アイアン・マウンテンは、世界中の組織向けに、物理・デジタル情報、データセンター、資産ライフサイクルのサービスを管理しています。発表資料では、保管料、サービス、新規事業の各分野で成長が報告されています。",
+          "why": "継続的な保管需要とデータセンターのリース拡大は、売上高の見通しやすさを高める可能性があります。一方、データセンターの開発拡大は、設備投資と資金調達の需要も増やします。",
+          "uncertainty": "発表資料は調整後FFOを重視しており、この指標を営業キャッシュフローとして示していません。買収、為替、事業構成も報告上の成長に影響します。",
+          "watch": "今後の提出資料で、営業キャッシュフロー、設備投資、データセンターのリース、引き上げられた業績見通しがキャッシュ創出につながっているかを確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "総売上高"
+            },
+            {
+              "id": "m2",
+              "label": "純利益"
+            },
+            {
+              "id": "m3",
+              "label": "調整後FFO"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "テラデータ、売上高が減少する中でもクラウドが伸長",
+          "summary": "企業向けデータ・人工知能ソフトウエアの提供会社であるテラデータは、年換算経常収益の指標を伸ばしました。一方、総売上高は減少し、営業キャッシュフローはプラスを維持しました。",
+          "impact": "経常収益の基盤拡大は、企業顧客の予算見通しを改善する可能性があります。ただし、総売上高の弱さは、実行面と移行リスクが依然として重要であることを示します。",
+          "what": "テラデータは、企業向けデータ基盤、分析、統制された人工知能ツールを販売しています。発表資料では、総年換算経常収益とパブリッククラウド年換算経常収益の伸びと、総売上高の減少が報告されています。",
+          "why": "経常契約は、プロジェクト販売よりも売上高を予測しやすくする可能性があります。また、プラスの営業キャッシュフローは、製品開発と顧客移行の資金に役立ちます。",
+          "uncertainty": "発表資料には経営陣の業績見通しと非GAAP指標も含まれています。経常収益の伸びだけでは、総需要が安定したことを証明できません。",
+          "watch": "顧客数の増加、パブリッククラウド年換算経常収益、総売上高、営業キャッシュフロー、製品の利用拡大を確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "総売上高"
+            },
+            {
+              "id": "m2",
+              "label": "営業キャッシュフロー"
+            },
+            {
+              "id": "m3",
+              "label": "総年換算経常収益"
+            },
+            {
+              "id": "m4",
+              "label": "パブリッククラウド年換算経常収益"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "中国の鉱工業利益、業種間でばらつきながら改善",
+          "summary": "公式データによると、鉱工業利益の伸びは売上高の伸びを上回りました。電子機器や一部の資源関連業種がけん引した一方、自動車、電力、一部の基礎素材業種は低迷しました。",
+          "impact": "価格、需要、在庫の状況が大きく異なる中では、全体の利益改善だけで製造業が広範に回復したとはいえません。この違いは、供給業者、労働者、融資業者にとって重要です。",
+          "what": "国家統計局の調査は、規模以上の鉱工業企業を対象とし、売上高、利益率、売掛金、在庫を報告しています。これは上場企業のキャッシュフロー計算書ではなく、会計上の調査です。",
+          "why": "利益の伸びが売上高の伸びを上回る背景には、価格、製品構成、コスト管理、比較対象の影響などがあり、最終需要が一様に強まったことを意味するとは限りません。売掛金と在庫もキャッシュの質に影響します。",
+          "uncertainty": "この調査は小規模な鉱工業企業を除外しており、業種ごとの結果にも大きな差があります。そのため、全体の結果がすべての地域やサプライチェーンを示すとは限りません。",
+          "watch": "月次の鉱工業利益、生産者物価、在庫、売掛金、輸出需要、上場企業の営業キャッシュフローを確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "鉱工業利益"
+            },
+            {
+              "id": "m2",
+              "label": "鉱工業利益の前年同期比"
+            },
+            {
+              "id": "m3",
+              "label": "鉱工業営業収入"
+            },
+            {
+              "id": "m4",
+              "label": "鉱工業営業利益率"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre desenvolvimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
+      "status": "Esta edição abrange acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados subiram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "As contratações nos Estados Unidos continuaram firmes",
-          "summary": "O relatório trabalhista mais recente mostra crescimento contínuo do emprego e uma taxa de desemprego com pouca alteração.",
-          "impact": "Os dados apoiam a renda e os gastos das famílias, enquanto o crescimento dos salários mantém relevantes a inflação e a sensibilidade das empresas às taxas de juros.",
-          "what": "O relatório abrange o emprego em serviços profissionais, saúde, transporte e armazenagem, indústria e outros grandes setores.",
-          "why": "Um mercado de trabalho resiliente sustenta a demanda dos consumidores, enquanto a pressão salarial afeta os custos operacionais e as expectativas de política monetária.",
-          "uncertainty": "A divulgação está sujeita a revisões posteriores, e o aumento do emprego em tempo parcial por razões econômicas indica uma qualidade desigual do mercado de trabalho.",
-          "watch": "Acompanhe as revisões posteriores do emprego, as horas trabalhadas e os dados de inflação.",
+          "title": "A Iron Mountain registra maior receita e fundos provenientes das operações",
+          "summary": "A empresa de gestão de informações registrou aumento da receita e do lucro líquido no trimestre, enquanto seus negócios de data centers, soluções digitais e ciclo de vida de ativos continuaram a se expandir.",
+          "impact": "O resultado apoia a continuidade dos investimentos em infraestrutura e das distribuições aos acionistas, mas os fundos ajustados provenientes das operações não correspondem ao lucro líquido segundo o GAAP nem ao fluxo de caixa operacional.",
+          "what": "A Iron Mountain administra informações físicas e digitais, data centers e serviços de ciclo de vida de ativos para organizações em todo o mundo. O comunicado relata crescimento nas receitas de aluguel de armazenamento, serviços e negócios mais recentes.",
+          "why": "A demanda recorrente por armazenamento e a expansão dos contratos de locação de data centers podem aumentar a previsibilidade da receita, enquanto a expansão dos data centers também eleva as necessidades de capital e financiamento.",
+          "uncertainty": "O comunicado enfatiza os fundos ajustados provenientes das operações e não apresenta essa medida como fluxo de caixa operacional; aquisições, câmbio e composição dos negócios também afetam o crescimento divulgado.",
+          "watch": "Acompanhe os próximos documentos para observar o fluxo de caixa operacional, os gastos de capital, a locação de data centers e a conversão da elevação das projeções em geração de caixa.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação do emprego"
+              "label": "Receita total"
             },
             {
               "id": "m2",
-              "label": "Taxa de desemprego"
+              "label": "Lucro líquido"
             },
             {
               "id": "m3",
-              "label": "Crescimento dos ganhos por hora"
+              "label": "Fundos ajustados provenientes das operações"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "O crescimento da Freshpet veio acompanhado de maior geração de caixa",
-          "summary": "A Freshpet ampliou o volume e as margens no trimestre mais recente, enquanto o lucro contábil foi afetado por um benefício fiscal de período anterior.",
-          "impact": "A melhor utilização das fábricas e os custos mais baixos de insumos podem apoiar a rentabilidade, mas as despesas de logística e remuneração continuam sendo restrições.",
-          "what": "A empresa vende alimentos refrigerados para animais de estimação por meio de canais de supermercados, varejo de massa, digitais, especializados e clubes de compras.",
-          "why": "O crescimento impulsionado pelo volume e o fortalecimento do fluxo de caixa operacional melhoram a flexibilidade de financiamento, enquanto a comparação do lucro não mede de forma precisa o ritmo subjacente dos ganhos.",
-          "uncertainty": "A perspectiva de vendas é uma orientação da administração, não um desempenho realizado, e a empresa não fornece uma projeção anual de lucro líquido segundo os princípios contábeis geralmente aceitos.",
-          "watch": "Acompanhe a conversão de lucro em caixa, os custos de logística, a distribuição no varejo e a permanência dos ganhos de margem.",
+          "title": "A Teradata mostra tração na nuvem apesar da menor receita",
+          "summary": "A fornecedora de dados empresariais e software de inteligência artificial ampliou medidas de receita recorrente anualizada, enquanto a receita total caiu e o fluxo de caixa operacional permaneceu positivo.",
+          "impact": "Uma base recorrente maior pode melhorar a visibilidade orçamentária dos clientes empresariais, mas a menor receita total mantém relevantes os riscos de execução e migração.",
+          "what": "A Teradata vende plataformas de dados empresariais, soluções analíticas e ferramentas de inteligência artificial com governança. Seu comunicado relata crescimento na receita recorrente anualizada total e na receita recorrente anualizada da nuvem pública, juntamente com menor receita total.",
+          "why": "Contratos recorrentes podem tornar a receita mais previsível do que vendas baseadas em projetos, enquanto o fluxo de caixa operacional positivo ajuda a financiar o desenvolvimento de produtos e as migrações de clientes.",
+          "uncertainty": "O comunicado também contém projeções da administração e medidas não baseadas no GAAP; o crescimento da receita recorrente, por si só, não comprova que a demanda total tenha se estabilizado.",
+          "watch": "Acompanhe a adição de clientes, a receita recorrente anualizada da nuvem pública, a receita total, o fluxo de caixa operacional e a adoção dos produtos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Vendas líquidas trimestrais"
+              "label": "Receita total"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido trimestral"
+              "label": "Fluxo de caixa das operações"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional"
+              "label": "Receita recorrente anualizada total"
+            },
+            {
+              "id": "m4",
+              "label": "Receita recorrente anualizada da nuvem pública"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "A Moutai apresentou um trimestre estável e forte fluxo de caixa",
-          "summary": "A produtora de destilados premium registrou crescimento moderado da receita trimestral e uma geração substancial de caixa operacional.",
-          "impact": "Os resultados sugerem resiliência no segmento premium, mas o lucro acumulado no ano amplamente estável destaca a importância da demanda, dos preços e da execução nos canais de venda.",
-          "what": "A empresa produz e vende baijiu premium por meio de canais diretos e de distribuição.",
-          "why": "A geração de caixa apoia dividendos, investimentos e flexibilidade do balanço, enquanto um crescimento mais lento do lucro pode sinalizar limites para a expansão de volume ou preços.",
-          "uncertainty": "O relatório não foi auditado, e os resultados trimestrais não estabelecem a direção do ano completo.",
-          "watch": "Acompanhe os estoques nos canais, as tendências das vendas diretas, a conversão do fluxo de caixa operacional e os indicadores de demanda dos consumidores.",
+          "id": "f5",
+          "title": "Os lucros industriais da China melhoram de forma desigual entre os setores",
+          "summary": "Dados oficiais mostram crescimento dos lucros industriais superior ao crescimento da receita, liderado por eletrônicos e por alguns setores de recursos, enquanto automóveis, energia elétrica e várias indústrias de materiais básicos permaneceram fracos.",
+          "impact": "A divergência é relevante para fornecedores, trabalhadores e credores porque um aumento agregado dos lucros não demonstra uma recuperação ampla da indústria quando as condições de preços, demanda e estoques diferem significativamente.",
+          "what": "A pesquisa do Departamento Nacional de Estatísticas abrange empresas industriais acima do porte designado e informa receita, lucro, margens, contas a receber e estoques. Trata-se de uma pesquisa contábil, não de uma demonstração de fluxo de caixa de empresas listadas.",
+          "why": "O crescimento dos lucros superior ao da receita pode refletir preços, composição de produtos, controle de custos ou efeitos de comparação, e não uma demanda final uniformemente mais forte; contas a receber e estoques também afetam a qualidade do caixa.",
+          "uncertainty": "A pesquisa exclui empresas industriais menores e apresenta resultados materialmente diferentes por setor; portanto, o resultado agregado pode não descrever todas as regiões ou cadeias de suprimentos.",
+          "watch": "Acompanhe os lucros industriais mensais, os preços ao produtor, os estoques, as contas a receber, a demanda externa e o fluxo de caixa operacional das empresas listadas.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita operacional trimestral"
+              "label": "Lucro industrial"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido trimestral atribuível"
+              "label": "Variação anual do lucro industrial"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional acumulado no ano"
+              "label": "Receita operacional industrial"
             },
             {
               "id": "m4",
-              "label": "Crescimento da receita trimestral"
+              "label": "Margem operacional industrial"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的發展。請查看各項發布日期；近期公司報告僅作為背景說明。",
+      "status": "本期涵蓋美國與中國的發展。請確認各項發布日期；近期公司報告以背景解說呈現。",
       "marketSummary": {
-        "us": "追蹤的指數在最新已核實交易時段均上漲。標示日期的收盤價反映那些交易時段，不代表目前交易情況。",
-        "cn": "追蹤的指數在最新已核實交易時段均下跌。標示日期的收盤價反映那些交易時段，不代表目前交易情況。"
+        "us": "部分收盤觀察無法驗證。每個可取得的指數均保留其交易日期。",
+        "cn": "部分收盤觀察無法驗證。每個可取得的指數均保留其交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美國招聘維持穩健",
-          "summary": "最新勞動力報告顯示，非農就業人數持續增加，失業率變化不大。",
-          "impact": "數據支持家庭收入與支出，而薪資增長使通膨與利率敏感度仍是企業需要關注的因素。",
-          "what": "報告涵蓋專業服務、醫療保健、運輸與倉儲、製造業及其他主要產業的就業情況。",
-          "why": "具韌性的勞動市場支持消費需求，而薪資壓力會影響營運成本與貨幣政策預期。",
-          "uncertainty": "這項發布的數據之後可能修正；因經濟因素而增加的兼職就業，也顯示勞動市場品質不一。",
-          "watch": "關注後續非農就業人數修正、工時及通膨數據。",
+          "title": "Iron Mountain 營收與營運資金流量增加",
+          "summary": "這家資訊管理公司公布季度營收與淨利增加，其資料中心、數位及資產生命週期業務持續擴張。",
+          "impact": "這項結果支持持續投入基礎設施與向股東分配資金，但調整後營運資金流量並非 GAAP 淨利或經營現金流。",
+          "what": "Iron Mountain 為全球各地組織管理實體與數位資訊、資料中心及資產生命週期服務。公告顯示儲存租賃、服務及新興業務均有所成長。",
+          "why": "持續性的儲存需求與擴大的資料中心租賃業務，可能提升營收可見度；同時，資料中心擴建也提高資本與融資需求。",
+          "uncertainty": "公告強調調整後營運資金流量，並未將該指標列為經營現金流；收購、匯率與業務組合也會影響報告中的成長。",
+          "watch": "留意未來申報中的經營現金流、資本支出、資料中心租賃，以及提高後的指引能否轉化為現金生成。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農就業人數變化"
+              "label": "總營收"
             },
             {
               "id": "m2",
-              "label": "失業率"
+              "label": "淨利"
             },
             {
               "id": "m3",
-              "label": "時薪增長"
+              "label": "調整後營運資金流量"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "Freshpet 新鮮寵物食品成長伴隨更強勁的現金創造",
-          "summary": "Freshpet 在最新季度提高銷量與利潤率，但會計上的獲利受到前期稅務利益影響。",
-          "impact": "工廠利用率改善與投入成本下降可支持獲利能力，但物流與薪酬支出仍是限制因素。",
-          "what": "該公司透過雜貨店、大型零售、數位、專門店及會員制商店等通路銷售冷藏寵物食品。",
-          "why": "由銷量帶動的成長與更強勁的經營現金流改善資金運用彈性，但獲利比較無法完整衡量核心盈餘動能。",
-          "uncertainty": "銷售展望是管理層指引，而非已實現的業績；公司也未提供全年 GAAP 淨利預測。",
-          "watch": "關注未來現金轉換、物流成本、零售通路，以及利潤率改善能否持續。",
+          "title": "Teradata 雲端業務展現動能，但營收下降",
+          "summary": "這家企業資料與人工智慧軟體供應商的年化經常性營收指標增加，但總營收下降，經營現金流仍為正。",
+          "impact": "更大的經常性營收基礎可能改善企業客戶的預算可見度，但總營收疲弱代表執行與遷移風險仍然重要。",
+          "what": "Teradata 銷售企業資料平台、分析工具及受治理的人工智慧工具。公告顯示總體與公有雲年化經常性營收成長，同時總營收下降。",
+          "why": "相較於專案銷售，經常性合約可能讓營收更可預測；正向的經營現金流也有助於支應產品開發與客戶遷移。",
+          "uncertainty": "公告也包含管理層指引與非 GAAP 指標；經常性營收成長本身並不能證明總體需求已經穩定。",
+          "watch": "留意客戶增加、公有雲年化經常性營收、總營收、經營現金流及產品採用情況。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度淨銷售額"
+              "label": "總營收"
             },
             {
               "id": "m2",
-              "label": "季度淨利"
+              "label": "經營活動現金流"
             },
             {
               "id": "m3",
-              "label": "經營現金流"
+              "label": "總年化經常性營收"
+            },
+            {
+              "id": "m4",
+              "label": "公有雲年化經常性營收"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "茅台季度表現穩健，現金流強勁",
-          "summary": "這家高端烈酒生產商公布季度營收溫和成長，並創造可觀的經營現金流。",
-          "impact": "業績顯示高端市場具韌性，但年初至今獲利大致穩定，凸顯需求、定價與通路執行的重要性。",
-          "what": "該公司透過直銷與經銷通路生產及銷售高端白酒。",
-          "why": "現金創造能力支持股利、投資與資產負債表彈性；而獲利成長較慢，可能反映銷量或定價擴張的限制。",
-          "uncertainty": "報告未經審計，季度業績也無法確定全年走向。",
-          "watch": "關注通路庫存、直銷趨勢、經營現金流轉換及消費需求指標。",
+          "id": "f5",
+          "title": "中國工業利潤在不同產業間呈現不均衡改善",
+          "summary": "官方資料顯示，工業利潤增幅領先營收增幅，主要由電子業及部分資源產業帶動；汽車、電力及若干基礎材料產業仍然疲弱。",
+          "impact": "這種分化對供應商、勞工與放款機構都很重要，因為當價格、需求與庫存狀況差異顯著時，整體利潤改善並不代表製造業已廣泛復甦。",
+          "what": "國家統計局的調查涵蓋規模以上工業企業，並公布營收、利潤、利潤率、應收款項與庫存。這是會計調查，而非上市公司的現金流量表。",
+          "why": "利潤增幅領先營收增幅，可能反映價格、產品組合、成本控制或比較基期效應，而非終端需求全面轉強；應收款項與庫存也會影響現金品質。",
+          "uncertainty": "這項調查排除較小型工業企業，且各產業結果差異顯著，因此整體結果可能無法代表每個地區或供應鏈。",
+          "watch": "留意每月工業利潤、生產者價格、庫存、應收款項、出口需求及上市公司的經營現金流。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度營業收入"
+              "label": "工業利潤"
             },
             {
               "id": "m2",
-              "label": "季度歸屬淨利"
+              "label": "工業利潤年增率"
             },
             {
               "id": "m3",
-              "label": "年初至今經營現金流"
+              "label": "工業營業收入"
             },
             {
               "id": "m4",
-              "label": "季度營收成長"
+              "label": "工業營業利潤率"
             }
           ]
         }
