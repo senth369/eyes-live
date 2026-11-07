@@ -1,53 +1,68 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-07T16:50:14.031Z",
-  "generatedAt": "2026-11-07T16:55:19.618Z",
-  "model": "gpt-5.6-luna",
+  "cutoffAt": "2026-11-07T18:48:51.523Z",
+  "generatedAt": "2026-11-07T19:02:57.737Z",
+  "model": "gpt-5.6-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Iron Mountain earnings release filed with SEC",
-      "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000081/q32026srpfinal.htm"
+      "label": "US market close report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad"
     },
     {
       "id": "src2",
-      "label": "Teradata earnings release filed with SEC",
-      "url": "https://www.sec.gov/Archives/edgar/data/816761/000162828026071034/tdc09302026exhibit991.htm"
-    },
-    {
-      "id": "src3",
-      "label": "Huahong Grace quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659080.PDF"
-    },
-    {
-      "id": "src4",
-      "label": "Chaozhou Three-Circle share repurchase completion announcement",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225653831.PDF"
-    },
-    {
-      "id": "src5",
-      "label": "National Bureau of Statistics industrial profit release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html"
-    },
-    {
-      "id": "src6",
-      "label": "Nasdaq Composite data from FRED",
+      "label": "Nasdaq Composite daily series",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
+      "id": "src3",
+      "label": "S and P daily series",
+      "url": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "src4",
+      "label": "Shanghai Composite historical table",
+      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
+    },
+    {
+      "id": "src5",
+      "label": "CSI benchmark historical table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
+    },
+    {
+      "id": "src6",
+      "label": "Official US employment release",
+      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+    },
+    {
       "id": "src7",
-      "label": "Shanghai Stock Exchange closing report",
-      "url": "https://www.cnfin.com/gs-lb/detail/20261106/4492047_1.html"
+      "label": "Issuer earnings exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000060/q326exhibit991.htm"
     },
     {
       "id": "src8",
-      "label": "Chaozhou Three-Circle official company profile",
-      "url": "https://static.cninfo.com.cn/finalpage/enpage/300408_1.pdf"
+      "label": "Official China purchasing managers release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html"
     },
     {
       "id": "src9",
-      "label": "S&P five hundred data from FRED",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Issuer quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+    },
+    {
+      "id": "src10",
+      "label": "Issuer business profile",
+      "url": "https://www.bydglobal.com/en/CompanyIntro.html?scroll=true"
+    },
+    {
+      "id": "src11",
+      "label": "Issuer repurchase announcement",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660644.pdf"
+    },
+    {
+      "id": "src12",
+      "label": "Issuer interim report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485259.PDF"
     }
   ],
   "markets": [
@@ -61,223 +76,163 @@
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-06",
-      "close": 24579.42,
-      "previousClose": 24315,
-      "changePercent": 1.0874768661,
-      "sourceIds": [
-        "src6"
-      ]
-    },
-    {
-      "id": "sse",
-      "sessionDate": "2026-11-06",
-      "close": 3649.18,
-      "previousClose": null,
-      "changePercent": -1.1,
-      "sourceIds": [
-        "src7"
-      ]
-    },
-    {
-      "id": "csi300",
       "sessionDate": null,
       "close": null,
       "previousClose": null,
       "changePercent": null,
       "sourceIds": []
+    },
+    {
+      "id": "sse",
+      "sessionDate": "2026-11-06",
+      "close": 3649.18,
+      "previousClose": 3689.91,
+      "changePercent": -1.1038209604,
+      "sourceIds": [
+        "src4"
+      ]
+    },
+    {
+      "id": "csi300",
+      "sessionDate": "2026-11-06",
+      "close": 4054.28,
+      "previousClose": 4113.41,
+      "changePercent": -1.4374934665,
+      "sourceIds": [
+        "src5"
+      ]
     }
   ],
   "stories": [
     {
       "id": "f1",
       "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-05",
-      "company": {
-        "name": "Iron Mountain",
-        "ticker": "IRM",
-        "exchange": "NYSE"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 1990617000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "The quarterly financial performance table reports consolidated total revenue."
-        },
-        {
-          "id": "m2",
-          "value": 128878000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "The quarterly financial performance table reports net income."
-        },
-        {
-          "id": "m3",
-          "value": 458420000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src1"
-          ],
-          "evidence": "The reconciliation table reports adjusted funds from operations."
-        }
-      ],
-      "sourceIds": [
-        "src1"
-      ],
-      "evidence": "The filed release describes information management, physical records storage, digital services, data centers and asset lifecycle management, while the financial tables distinguish GAAP net income from adjusted funds from operations."
-    },
-    {
-      "id": "f2",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-05",
-      "company": {
-        "name": "Teradata",
-        "ticker": "TDC",
-        "exchange": "NYSE"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 399000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "The quarterly financial highlights report total revenue."
-        },
-        {
-          "id": "m2",
-          "value": 91000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "The quarterly financial highlights report cash flow from operations."
-        },
-        {
-          "id": "m3",
-          "value": 1512000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "The quarterly financial highlights report total annualized recurring revenue."
-        },
-        {
-          "id": "m4",
-          "value": 700000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src2"
-          ],
-          "evidence": "The quarterly financial highlights report public cloud annualized recurring revenue."
-        }
-      ],
-      "sourceIds": [
-        "src2"
-      ],
-      "evidence": "Teradata sells enterprise data, analytics and artificial-intelligence software and services; the release reports recurring-revenue measures, lower total revenue and positive operating cash flow."
-    },
-    {
-      "id": "f5",
-      "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-10-27",
+      "publishedOn": "2026-11-06",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 6033740000000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
+          "value": 165000,
+          "unit": "count",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src6"
           ],
-          "evidence": "The official release reports aggregate profit for above-scale industrial enterprises."
+          "evidence": "The release headline and establishment survey identify the reported payroll change."
         },
         {
           "id": "m2",
-          "value": 15.5,
+          "value": 4.1,
           "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src6"
           ],
-          "evidence": "The official release reports comparable year-to-date industrial-profit growth."
+          "evidence": "The household survey summary reports the seasonally adjusted unemployment rate."
         },
         {
           "id": "m3",
-          "value": 106206600000000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
+          "value": 3.1,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src6"
           ],
-          "evidence": "The release table reports year-to-date industrial operating revenue."
+          "evidence": "The earnings section reports the annual change in average hourly earnings."
         },
         {
           "id": "m4",
-          "value": 5.68,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
+          "value": 339000,
+          "unit": "count",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src6"
           ],
-          "evidence": "The release reports the industrial operating-margin ratio."
+          "evidence": "The household survey section reports the monthly change in involuntary part-time employment."
         }
       ],
       "sourceIds": [
-        "src5"
+        "src6"
       ],
-      "evidence": "The official survey covers above-scale industrial enterprises rather than listed companies alone; electronics and selected resource industries strengthened while autos, power and several construction-linked materials remained weak."
+      "evidence": "The release headline, household survey and establishment survey provide the labor, wage and underemployment facts."
+    },
+    {
+      "id": "f3",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-10-31",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 49.3,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "The main manufacturing survey table reports the headline purchasing managers index."
+        },
+        {
+          "id": "m2",
+          "value": 49.8,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "The manufacturing survey table reports the production component."
+        },
+        {
+          "id": "m3",
+          "value": 49.4,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "The manufacturing survey table reports the new-orders component."
+        },
+        {
+          "id": "m4",
+          "value": 49.7,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "The composite survey section reports the economy-wide output index."
+        }
+      ],
+      "sourceIds": [
+        "src8"
+      ],
+      "evidence": "The official release and its seasonally adjusted tables show weaker manufacturing, orders and broad business activity."
     }
   ],
   "locales": {
@@ -285,620 +240,452 @@
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Iron Mountain reports stronger revenue and funds from operations",
-          "summary": "The information-management company reported higher quarterly revenue and net income, while its data-center, digital and asset-lifecycle businesses continued expanding.",
-          "impact": "The result supports continued infrastructure investment and shareholder distributions, but adjusted funds from operations is not GAAP net income or operating cash flow.",
-          "what": "Iron Mountain manages physical and digital information, data centers and asset-lifecycle services for organizations worldwide. The release reports growth across storage rental, services and newer businesses.",
-          "why": "Recurring storage demand and expanding data-center leasing can improve revenue visibility, while the data-center buildout also increases capital and financing demands.",
-          "uncertainty": "The release emphasizes adjusted funds from operations and does not present that measure as operating cash flow; acquisitions, currency and business mix also affect reported growth.",
-          "watch": "Watch future filings for operating cash flow, capital expenditure, data-center leasing and conversion of raised guidance into cash generation.",
+          "title": "US hiring improves while wage growth stays firm",
+          "summary": "The latest labor report showed stronger payroll expansion, stable unemployment and continued nominal wage growth, alongside more workers accepting part-time hours for economic reasons.",
+          "impact": "The combination supports household income and business demand, but it also gives monetary policymakers less reason to ease financial conditions quickly.",
+          "what": "The Bureau of Labor Statistics combines an employer survey of payrolls with a household survey of employment status. Hiring was concentrated in professional and business services, health care, transportation and warehousing, while manufacturing also added workers. The household survey showed little movement in headline unemployment, but involuntary part-time employment increased, indicating that the headline rate does not capture every form of labor-market slack.",
+          "why": "Payroll growth supports consumer spending because wages are the main source of income for most households. Firm wage growth can also raise costs for service businesses and keep inflation pressure persistent when productivity does not rise as quickly. For markets, resilient employment can lift expected corporate revenue while also keeping bond yields elevated, creating a trade-off between economic strength and higher financing costs.",
+          "uncertainty": "The employer and household surveys measure different populations and can diverge. Recent payroll estimates remain preliminary and are subject to revision as more employer responses arrive. Nominal wage growth also does not reveal whether workers gained purchasing power after inflation, while the increase in involuntary part-time work may be temporary or may signal weaker job quality.",
+          "watch": "Watch revisions to recent payroll estimates, labor-force participation, involuntary part-time employment and inflation-adjusted earnings. Weekly unemployment claims and business hiring surveys can help show whether the acceleration is durable or concentrated in a narrow set of industries.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Total revenue"
+              "label": "Payroll change"
             },
             {
               "id": "m2",
-              "label": "Net income"
+              "label": "Unemployment rate"
             },
             {
               "id": "m3",
-              "label": "Adjusted funds from operations"
+              "label": "Average hourly earnings growth"
+            },
+            {
+              "id": "m4",
+              "label": "Involuntary part-time employment change"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "Teradata shows cloud traction despite lower revenue",
-          "summary": "The enterprise data and artificial-intelligence software provider grew annualized recurring-revenue measures while total revenue declined and operating cash flow remained positive.",
-          "impact": "A larger recurring base may improve budget visibility for enterprise customers, but weaker total revenue keeps execution and migration risks material.",
-          "what": "Teradata sells enterprise data platforms, analytics and governed artificial-intelligence tools. Its release reports growth in total and public-cloud annualized recurring revenue alongside lower total revenue.",
-          "why": "Recurring contracts can make revenue more predictable than project sales, while positive operating cash flow helps fund product development and customer migrations.",
-          "uncertainty": "The release also contains management guidance and non-GAAP measures; recurring-revenue growth does not by itself prove that total demand has stabilized.",
-          "watch": "Watch customer additions, public-cloud annualized recurring revenue, total revenue, operating cash flow and product adoption.",
+          "id": "f3",
+          "title": "China’s business surveys slip into contraction",
+          "summary": "China’s official purchasing-manager surveys indicated that manufacturing production, orders and broad business activity weakened during the latest reporting month.",
+          "impact": "Softer orders can restrain factory utilization, hiring and supplier pricing, weighing on earnings expectations across industrial, consumer and logistics supply chains.",
+          "what": "The official purchasing managers survey asks manufacturers and service businesses whether activity improved, weakened or remained unchanged. The manufacturing headline moved below the neutral threshold, while production and new orders also signaled contraction. The composite measure covering manufacturing and non-manufacturing activity likewise fell below the level associated with expansion, suggesting that the slowdown was not confined to a narrow factory segment.",
+          "why": "New orders are an early guide to future production because factories generally adjust purchasing, staffing and machine use in response to expected demand. Weak orders can reduce revenue visibility for equipment makers, materials suppliers and transport companies. For households, slower business activity can affect hiring and wage confidence. For corporate finance, weaker utilization may pressure margins even if raw-material costs become less demanding.",
+          "uncertainty": "The survey is a diffusion index rather than a direct measure of output or revenue, and it can be volatile around holidays and shifting delivery schedules. Large manufacturers remained in a stronger position than smaller firms, so the headline masks uneven conditions. Survey weakness also does not establish how long the slowdown will last or whether policy support will improve demand.",
+          "watch": "Watch industrial production, retail sales, exports, corporate profits and credit demand for confirmation in hard data. Future purchasing-manager surveys should be checked for a recovery in new orders and production, especially among smaller manufacturers that often have less access to financing and weaker bargaining power.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Total revenue"
+              "label": "Manufacturing purchasing managers index"
             },
             {
               "id": "m2",
-              "label": "Cash flow from operations"
+              "label": "Manufacturing production index"
             },
             {
               "id": "m3",
-              "label": "Total annualized recurring revenue"
+              "label": "Manufacturing new-orders index"
             },
             {
               "id": "m4",
-              "label": "Public cloud annualized recurring revenue"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "China industrial profits improve unevenly across sectors",
-          "summary": "Official data show industrial profit growth ahead of revenue growth, led by electronics and selected resource industries while autos, power and several basic-material industries remained weak.",
-          "impact": "The divergence matters for suppliers, workers and lenders because stronger aggregate profit does not establish a broad manufacturing recovery when pricing, demand and inventory conditions differ sharply.",
-          "what": "The National Bureau of Statistics survey covers above-scale industrial enterprises and reports revenue, profit, margins, receivables and inventories. It is an accounting survey rather than a listed-company cash-flow statement.",
-          "why": "Profit growth ahead of revenue can reflect prices, product mix, cost control or comparison effects rather than uniformly stronger final demand; receivables and inventories also affect cash quality.",
-          "uncertainty": "The survey excludes smaller industrial firms and reports materially different results by sector, so the aggregate outcome may not describe every region or supply chain.",
-          "watch": "Watch monthly industrial profits, producer prices, inventories, receivables, export demand and listed-company operating cash flow.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Industrial profit"
-            },
-            {
-              "id": "m2",
-              "label": "Industrial profit year-on-year change"
-            },
-            {
-              "id": "m3",
-              "label": "Industrial operating revenue"
-            },
-            {
-              "id": "m4",
-              "label": "Industrial operating-margin ratio"
+              "label": "Composite output index"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les rapports récents des entreprises sont présentés comme des explications de contexte.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication associée ; les récents rapports d’entreprises servent de contexte explicatif.",
       "marketSummary": {
-        "us": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
-        "cn": "Certaines observations de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
+        "us": "Certaines observations sur les clôtures n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
+        "cn": "Tous les indices suivis ont reculé lors de leur dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Iron Mountain annonce une hausse de ses revenus et de ses fonds provenant des activités",
-          "summary": "L’entreprise de gestion de l’information a publié une hausse de ses revenus trimestriels et de son bénéfice net, tandis que ses activités de centres de données, de services numériques et de gestion du cycle de vie des actifs ont continué de progresser.",
-          "impact": "Le résultat soutient la poursuite des investissements dans les infrastructures et les distributions aux actionnaires, mais les fonds ajustés provenant des activités ne correspondent ni au bénéfice net selon les normes GAAP ni aux flux de trésorerie d’exploitation.",
-          "what": "Iron Mountain gère des informations physiques et numériques, des centres de données et des services liés au cycle de vie des actifs pour des organisations du monde entier. La publication fait état d’une croissance des locations d’espaces de stockage, des services et des nouvelles activités.",
-          "why": "Une demande récurrente de stockage et l’extension de la location de centres de données peuvent améliorer la visibilité des revenus, tandis que le développement des centres de données accroît aussi les besoins en investissements et en financement.",
-          "uncertainty": "La publication met l’accent sur les fonds ajustés provenant des activités et ne présente pas cette mesure comme des flux de trésorerie d’exploitation ; les acquisitions, les devises et la composition des activités influencent également la croissance publiée.",
-          "watch": "Surveillez les prochaines publications pour connaître les flux de trésorerie d’exploitation, les dépenses d’investissement, la location des centres de données et la conversion des prévisions relevées en génération de trésorerie.",
+          "title": "Les embauches progressent aux États-Unis, tandis que la hausse des salaires reste soutenue",
+          "summary": "Le dernier rapport sur l’emploi a montré une accélération des créations d’emplois salariés, un chômage stable et une poursuite de la hausse nominale des salaires, tandis que davantage de personnes ont accepté un travail à temps partiel pour des raisons économiques.",
+          "impact": "Cette combinaison soutient les revenus des ménages et la demande des entreprises, mais elle incite moins les responsables de la politique monétaire à assouplir rapidement les conditions financières.",
+          "what": "Le Bureau of Labor Statistics combine une enquête auprès des employeurs sur l’emploi salarié et une enquête auprès des ménages sur la situation professionnelle. Les embauches se sont concentrées dans les services professionnels et aux entreprises, la santé, les transports et l’entreposage. L’industrie manufacturière a également recruté. L’enquête auprès des ménages a montré peu d’évolution du taux de chômage global, mais le temps partiel subi a augmenté. Le taux global ne reflète donc pas toutes les formes de sous-utilisation de la main-d’œuvre.",
+          "why": "La croissance de l’emploi salarié soutient la consommation, car les salaires constituent la principale source de revenus de la plupart des ménages. Une hausse soutenue des salaires peut aussi accroître les coûts des entreprises de services et entretenir les pressions inflationnistes si la productivité progresse moins vite. Pour les marchés, la solidité de l’emploi peut améliorer les perspectives de chiffre d’affaires des entreprises, tout en maintenant les rendements obligataires à un niveau élevé. Cela crée un arbitrage entre vigueur économique et coûts de financement plus élevés.",
+          "uncertainty": "Les enquêtes auprès des employeurs et des ménages portent sur des populations différentes et peuvent diverger. Les estimations récentes de l’emploi salarié restent provisoires et peuvent être révisées à mesure que les réponses des employeurs arrivent. La hausse nominale des salaires ne montre pas non plus si le pouvoir d’achat a progressé après inflation. L’augmentation du temps partiel subi peut être temporaire ou signaler une dégradation de la qualité des emplois.",
+          "watch": "Surveillez les révisions des estimations récentes de l’emploi salarié, le taux d’activité, le temps partiel subi et les revenus corrigés de l’inflation. Les demandes hebdomadaires d’allocations chômage et les enquêtes sur les recrutements des entreprises peuvent indiquer si l’accélération est durable ou concentrée dans un nombre limité de secteurs.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires total"
+              "label": "Variation de l’emploi salarié"
             },
             {
               "id": "m2",
-              "label": "Bénéfice net"
+              "label": "Taux de chômage"
             },
             {
               "id": "m3",
-              "label": "Fonds ajustés provenant des activités"
+              "label": "Croissance du salaire horaire moyen"
+            },
+            {
+              "id": "m4",
+              "label": "Variation du temps partiel subi"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "Teradata montre une dynamique dans le cloud malgré une baisse de ses revenus",
-          "summary": "Le fournisseur de plateformes de données d’entreprise et de logiciels d’intelligence artificielle a accru ses indicateurs de revenus récurrents annualisés, tandis que ses revenus totaux ont diminué et que ses flux de trésorerie d’exploitation sont restés positifs.",
-          "impact": "Une base récurrente plus importante peut améliorer la visibilité budgétaire des clients entreprises, mais la faiblesse des revenus totaux maintient des risques importants liés à l’exécution et aux migrations.",
-          "what": "Teradata vend des plateformes de données d’entreprise, des outils d’analyse et des solutions d’intelligence artificielle avec gouvernance. Sa publication fait état d’une croissance des revenus récurrents annualisés totaux et liés au cloud public, parallèlement à une baisse des revenus totaux.",
-          "why": "Les contrats récurrents peuvent rendre les revenus plus prévisibles que les ventes de projets, tandis que des flux de trésorerie d’exploitation positifs contribuent au financement du développement des produits et des migrations des clients.",
-          "uncertainty": "La publication contient également des prévisions de la direction et des mesures non conformes aux normes GAAP ; la croissance des revenus récurrents ne prouve pas à elle seule que la demande totale s’est stabilisée.",
-          "watch": "Surveillez les nouveaux clients, les revenus récurrents annualisés liés au cloud public, les revenus totaux, les flux de trésorerie d’exploitation et l’adoption des produits.",
+          "id": "f3",
+          "title": "Les enquêtes auprès des entreprises chinoises signalent une contraction",
+          "summary": "Les enquêtes officielles chinoises auprès des directeurs d’achat ont indiqué un affaiblissement de la production manufacturière, des commandes et de l’activité économique globale durant le dernier mois publié.",
+          "impact": "Le recul des commandes peut limiter l’utilisation des capacités de production, les embauches et les prix pratiqués par les fournisseurs. Il peut ainsi peser sur les perspectives de bénéfices dans les chaînes d’approvisionnement industrielles, de consommation et de logistique.",
+          "what": "L’enquête officielle auprès des directeurs d’achat demande aux entreprises manufacturières et de services si leur activité s’est améliorée, détériorée ou stabilisée. L’indice manufacturier global est passé sous le seuil neutre, tandis que la production et les nouvelles commandes ont également signalé une contraction. L’indice composite couvrant les activités manufacturières et non manufacturières est lui aussi tombé sous le niveau associé à une expansion. Cela suggère que le ralentissement ne concernait pas seulement une branche industrielle limitée.",
+          "why": "Les nouvelles commandes donnent une indication précoce sur la production future, car les usines adaptent généralement leurs achats, leurs effectifs et l’utilisation de leurs machines à la demande attendue. La faiblesse des commandes peut réduire la visibilité sur le chiffre d’affaires des fabricants d’équipements, des fournisseurs de matériaux et des entreprises de transport. Pour les ménages, le ralentissement de l’activité peut affecter les embauches et la confiance dans l’évolution des salaires. Pour les finances des entreprises, une moindre utilisation des capacités peut peser sur les marges, même si les coûts des matières premières deviennent moins contraignants.",
+          "uncertainty": "L’enquête repose sur un indice de diffusion et ne mesure pas directement la production ou le chiffre d’affaires. Elle peut être volatile autour des périodes de congés et lors de changements dans les calendriers de livraison. Les grands fabricants sont restés en meilleure position que les petites entreprises ; l’indice global masque donc des situations inégales. La faiblesse de l’enquête ne permet pas non plus de déterminer la durée du ralentissement ni si le soutien public améliorera la demande.",
+          "watch": "Surveillez la production industrielle, les ventes au détail, les exportations, les bénéfices des entreprises et la demande de crédit afin de rechercher une confirmation dans les données concrètes. Les prochaines enquêtes auprès des directeurs d’achat devront être examinées pour détecter une reprise des nouvelles commandes et de la production, surtout chez les petits fabricants, qui ont souvent un accès plus limité au financement et un pouvoir de négociation plus faible.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires total"
+              "label": "Indice des directeurs d’achat du secteur manufacturier"
             },
             {
               "id": "m2",
-              "label": "Flux de trésorerie provenant des activités d’exploitation"
+              "label": "Indice de production manufacturière"
             },
             {
               "id": "m3",
-              "label": "Revenus récurrents annualisés totaux"
+              "label": "Indice des nouvelles commandes manufacturières"
             },
             {
               "id": "m4",
-              "label": "Revenus récurrents annualisés liés au cloud public"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Les bénéfices industriels chinois s’améliorent de façon inégale selon les secteurs",
-          "summary": "Les données officielles montrent une croissance des bénéfices industriels supérieure à celle des revenus, portée par l’électronique et certains secteurs des ressources, tandis que l’automobile, l’électricité et plusieurs secteurs des matériaux de base restent faibles.",
-          "impact": "Cette divergence concerne les fournisseurs, les travailleurs et les prêteurs, car une amélioration globale des bénéfices ne suffit pas à établir une reprise générale de l’industrie manufacturière lorsque les prix, la demande et les stocks diffèrent fortement.",
-          "what": "L’enquête du Bureau national des statistiques couvre les entreprises industrielles au-dessus de la taille désignée et fournit des données sur les revenus, les bénéfices, les marges, les créances et les stocks. Il s’agit d’une enquête comptable, et non d’un état des flux de trésorerie d’une entreprise cotée.",
-          "why": "Une croissance des bénéfices supérieure à celle des revenus peut refléter les prix, la composition des produits, la maîtrise des coûts ou des effets de comparaison, plutôt qu’une demande finale uniformément plus forte ; les créances et les stocks influencent également la qualité de la trésorerie.",
-          "uncertainty": "L’enquête exclut les petites entreprises industrielles et présente des résultats très différents selon les secteurs ; le résultat global peut donc ne pas décrire chaque région ou chaîne d’approvisionnement.",
-          "watch": "Surveillez les bénéfices industriels mensuels, les prix à la production, les stocks, les créances, la demande extérieure et les flux de trésorerie d’exploitation des entreprises cotées.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Bénéfice industriel"
-            },
-            {
-              "id": "m2",
-              "label": "Variation annuelle du bénéfice industriel"
-            },
-            {
-              "id": "m3",
-              "label": "Revenus d’exploitation industriels"
-            },
-            {
-              "id": "m4",
-              "label": "Marge d’exploitation industrielle"
+              "label": "Indice composite de la production"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的发展动态。请核对每篇内容的发布日期；近期公司报告作为背景说明呈现。",
+      "status": "本期涵盖美国和中国的动态。请核对各项发布日期；近期公司报告仅作为背景解读。",
       "marketSummary": {
-        "us": "部分收盘观察无法核实。每个可用指数均保留自身交易日期。",
-        "cn": "部分收盘观察无法核实。每个可用指数均保留自身交易日期。"
+        "us": "部分收盘信息无法核实。各项可用指数均保留各自的交易日期。",
+        "cn": "所跟踪的指数在最近可核实的交易日均下跌。带日期的收盘数据描述的是相应交易日，而非当前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Iron Mountain营收和运营资金均有所增强",
-          "summary": "这家信息管理公司报告季度营收和净利润均有所增长，同时其数据中心、数字化和资产生命周期业务继续扩张。",
-          "impact": "这一业绩支持持续的基础设施投资和股东分配，但调整后运营资金并非美国通用会计准则下的净利润，也不是经营现金流。",
-          "what": "Iron Mountain为全球各地的组织管理实体和数字信息、数据中心及资产生命周期服务。公告显示，存储租赁、服务和新兴业务均有所增长。",
-          "why": "持续的存储需求和不断扩大的数据中心租赁业务可以提升营收可见度，但数据中心建设也会增加资本和融资需求。",
-          "uncertainty": "公告强调调整后运营资金，并未将该指标列为经营现金流；收购、汇率和业务结构也会影响报告中的增长。",
-          "watch": "关注后续文件中的经营现金流、资本支出、数据中心租赁情况，以及上调后的指引能否转化为现金创造。",
+          "title": "美国招聘改善，工资增长仍然稳健",
+          "summary": "最新劳动力报告显示，非农就业人数增长加快，失业率保持稳定，名义工资继续增长；同时，因经济原因接受非自愿兼职工作的劳动者增加。",
+          "impact": "这种组合有助于支撑家庭收入和企业需求，但也减少了货币政策制定者迅速放宽金融环境的理由。",
+          "what": "美国劳工统计局综合使用企业调查和家庭调查，前者统计非农就业人数，后者了解就业状况。新增就业主要集中在专业和商业服务、医疗保健、运输和仓储行业，制造业也增加了员工。家庭调查显示，整体失业率变化不大，但非自愿兼职就业增加，说明整体失业率无法反映劳动力市场的所有疲软情况。",
+          "why": "工资是大多数家庭的主要收入来源，因此非农就业人数增长有助于支撑消费支出。若生产率增长没有工资快，稳健的工资增长也可能推高服务企业的成本，并使通胀压力持续。对市场而言，就业保持韧性可能提高市场对企业营收的预期，同时使债券收益率维持高位，形成经济强劲与融资成本上升之间的权衡。",
+          "uncertainty": "企业调查和家庭调查覆盖的人群不同，结果可能出现分化。近期非农就业人数估算仍是初步数据，随着更多企业提交回复，数据可能被修正。名义工资增长也无法说明劳动者扣除通胀后购买力是否提高；非自愿兼职工作增加可能只是暂时现象，也可能表明就业质量转弱。",
+          "watch": "关注近期非农就业人数估算的修正、劳动参与率、非自愿兼职就业以及经通胀调整后的收入。周度初请失业金人数和企业招聘调查有助于判断就业加速是否可持续，或是否仅集中在少数行业。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "总营收"
+              "label": "非农就业人数变化"
             },
             {
               "id": "m2",
-              "label": "净利润"
+              "label": "失业率"
             },
             {
               "id": "m3",
-              "label": "调整后运营资金"
+              "label": "平均时薪增长"
+            },
+            {
+              "id": "m4",
+              "label": "非自愿兼职就业变化"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "Teradata云业务展现吸引力，但营收下降",
-          "summary": "这家企业数据和人工智能软件提供商的年化经常性收入指标有所增长，但总营收下降，经营现金流仍为正。",
-          "impact": "更大的经常性收入基础可能提升企业客户的预算可见度，但总营收走弱意味着执行和迁移风险仍然重要。",
-          "what": "Teradata销售企业数据平台、分析工具和受治理的人工智能工具。其公告显示，总经常性收入和公有云年化经常性收入增长，同时总营收下降。",
-          "why": "与项目销售相比，经常性合同可以让营收更加可预测；正经营现金流则有助于为产品开发和客户迁移提供资金。",
-          "uncertainty": "公告还包含管理层指引和非美国通用会计准则指标；经常性收入增长本身并不能证明总体需求已经企稳。",
-          "watch": "关注客户新增情况、公有云年化经常性收入、总营收、经营现金流和产品采用情况。",
+          "id": "f3",
+          "title": "中国商业调查指标跌入收缩区间",
+          "summary": "中国官方采购经理调查显示，在最新报告月份，制造业生产、订单和整体商业活动均有所减弱。",
+          "impact": "订单走弱可能抑制工厂产能利用率、招聘和供应商定价，并拖累工业、消费和物流供应链的盈利预期。",
+          "what": "官方采购经理调查会询问制造业和服务业企业，其经营活动是改善、减弱还是保持不变。制造业总体指数跌破中性临界值，生产和新订单指标也显示收缩。涵盖制造业与非制造业活动的综合指标同样跌破扩张区间，表明放缓并非仅限于狭窄的制造业领域。",
+          "why": "新订单是判断未来生产情况的先行指标，因为工厂通常会根据预期需求调整采购、用工和机器使用。订单疲软可能降低设备制造商、材料供应商和运输企业的营收可见度。对家庭而言，商业活动放缓可能影响招聘和工资信心。对企业财务而言，即使原材料成本压力减轻，产能利用率下降仍可能挤压利润率。",
+          "uncertainty": "这项调查属于扩散指数，并非产出或营收的直接衡量指标，而且可能因节假日和交付安排变化而波动。大型制造商的经营状况仍强于小型企业，因此总体指数掩盖了不均衡的情况。调查走弱也无法确定放缓会持续多久，或政策支持能否改善需求。",
+          "watch": "关注工业生产、零售销售、出口、企业利润和信贷需求，以观察硬数据是否提供确认。后续采购经理调查应重点查看新订单和生产是否回升，尤其是融资渠道通常更有限、议价能力更弱的小型制造商。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "总营收"
+              "label": "制造业采购经理指数"
             },
             {
               "id": "m2",
-              "label": "经营现金流"
+              "label": "制造业生产指数"
             },
             {
               "id": "m3",
-              "label": "总年化经常性收入"
+              "label": "制造业新订单指数"
             },
             {
               "id": "m4",
-              "label": "公有云年化经常性收入"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中国工业利润在各行业间呈现不均衡改善",
-          "summary": "官方数据显示，工业利润增速领先于营收增速，电子和部分资源行业表现领先，而汽车、电力及若干基础材料行业仍然疲弱。",
-          "impact": "这种分化对供应商、劳动者和贷款方都很重要，因为当价格、需求和库存状况明显不同时，整体利润增强并不能说明制造业已广泛复苏。",
-          "what": "国家统计局的调查覆盖规模以上工业企业，并报告营收、利润、利润率、应收账款和库存。这是一项会计调查，而不是上市公司的现金流量表。",
-          "why": "利润增速领先于营收增速，可能反映价格、产品结构、成本控制或对比基数影响，而不一定代表终端需求普遍增强；应收账款和库存也会影响现金质量。",
-          "uncertainty": "该调查不包括规模较小的工业企业，且各行业结果差异显著，因此总体结果可能无法代表每个地区或供应链。",
-          "watch": "关注月度工业利润、生产者价格、库存、应收账款、出口需求和上市公司的经营现金流。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "工业利润"
-            },
-            {
-              "id": "m2",
-              "label": "工业利润同比变化"
-            },
-            {
-              "id": "m3",
-              "label": "工业营业收入"
-            },
-            {
-              "id": "m4",
-              "label": "工业营业利润率"
+              "label": "综合产出指数"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Comprueba la fecha de publicación de cada texto; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Revise la fecha de cada publicación; los informes empresariales recientes se presentan como contexto explicativo.",
       "marketSummary": {
-        "us": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
-        "cn": "Algunas observaciones de cierre no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "Algunas observaciones sobre los cierres no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Los índices seguidos cayeron en sus sesiones verificadas más recientes. Los cierres con fecha describen esas sesiones, no la negociación actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Iron Mountain informa de una mayor facturación y fondos procedentes de las operaciones",
-          "summary": "La empresa de gestión de información informó de un aumento de la facturación trimestral y del beneficio neto, mientras sus negocios de centros de datos, servicios digitales y gestión del ciclo de vida de activos siguieron expandiéndose.",
-          "impact": "El resultado respalda la continuidad de las inversiones en infraestructura y las distribuciones a los accionistas, pero los fondos ajustados procedentes de las operaciones no equivalen al beneficio neto según los PCGA ni al flujo de caja operativo.",
-          "what": "Iron Mountain gestiona información física y digital, centros de datos y servicios de gestión del ciclo de vida de activos para organizaciones de todo el mundo. El comunicado informa de crecimiento en el alquiler de almacenamiento, los servicios y los negocios más recientes.",
-          "why": "La demanda recurrente de almacenamiento y la expansión del alquiler de centros de datos pueden mejorar la visibilidad de la facturación, mientras que la ampliación de los centros de datos también aumenta las necesidades de capital y financiación.",
-          "uncertainty": "El comunicado destaca los fondos ajustados procedentes de las operaciones y no presenta esa medida como flujo de caja operativo; las adquisiciones, las divisas y la combinación de negocios también afectan al crecimiento comunicado.",
-          "watch": "Conviene seguir los próximos informes para observar el flujo de caja operativo, el gasto de capital, el alquiler de centros de datos y la conversión de la mejora de las previsiones en generación de caja.",
+          "title": "La contratación en Estados Unidos mejora y el crecimiento salarial se mantiene firme",
+          "summary": "El informe laboral más reciente mostró una mayor creación de empleo, desempleo estable y un crecimiento nominal sostenido de los salarios, junto con más trabajadores que aceptaron jornadas parciales por motivos económicos.",
+          "impact": "Esta combinación respalda los ingresos de los hogares y la demanda empresarial, pero también reduce los motivos de las autoridades monetarias para relajar rápidamente las condiciones financieras.",
+          "what": "La Oficina de Estadísticas Laborales combina una encuesta a empleadores sobre el empleo con una encuesta a hogares sobre la situación laboral. La contratación se concentró en servicios profesionales y empresariales, atención médica, transporte y almacenamiento, mientras que la industria manufacturera también sumó trabajadores. La encuesta a hogares mostró pocos cambios en la tasa general de desempleo, pero aumentó el empleo parcial involuntario, lo que indica que la tasa general no refleja toda la capacidad laboral desaprovechada.",
+          "why": "El crecimiento del empleo favorece el gasto de los consumidores porque los salarios son la principal fuente de ingresos de la mayoría de los hogares. Un crecimiento salarial firme también puede elevar los costos de las empresas de servicios y mantener la presión inflacionaria cuando la productividad no aumenta al mismo ritmo. Para los mercados, la solidez del empleo puede mejorar las expectativas de ingresos empresariales y, al mismo tiempo, mantener elevados los rendimientos de los bonos, creando una tensión entre fortaleza económica y mayores costos de financiación.",
+          "uncertainty": "Las encuestas a empleadores y hogares miden poblaciones distintas y pueden mostrar resultados diferentes. Las estimaciones recientes de empleo siguen siendo preliminares y pueden revisarse a medida que lleguen más respuestas de empleadores. El crecimiento salarial nominal tampoco muestra si los trabajadores ganaron poder adquisitivo después de la inflación, mientras que el aumento del empleo parcial involuntario podría ser temporal o indicar una menor calidad del empleo.",
+          "watch": "Conviene observar las revisiones de las estimaciones recientes de empleo, la participación laboral, el empleo parcial involuntario y los ingresos ajustados por inflación. Las solicitudes semanales de prestaciones por desempleo y las encuestas empresariales de contratación pueden ayudar a determinar si la aceleración es duradera o está concentrada en pocos sectores.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Facturación total"
+              "label": "Variación del empleo no agrícola"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto"
+              "label": "Tasa de desempleo"
             },
             {
               "id": "m3",
-              "label": "Fondos ajustados procedentes de las operaciones"
+              "label": "Crecimiento de los ingresos medios por hora"
+            },
+            {
+              "id": "m4",
+              "label": "Variación del empleo parcial involuntario"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "Teradata muestra impulso en la nube pese a la menor facturación",
-          "summary": "El proveedor de datos empresariales y software de inteligencia artificial aumentó las medidas de ingresos recurrentes anualizados, mientras la facturación total disminuyó y el flujo de caja operativo siguió siendo positivo.",
-          "impact": "Una base recurrente mayor puede mejorar la visibilidad presupuestaria de los clientes empresariales, pero la menor facturación total mantiene relevantes los riesgos de ejecución y migración.",
-          "what": "Teradata vende plataformas de datos empresariales, análisis y herramientas de inteligencia artificial con controles de gobernanza. Su comunicado informa de crecimiento en los ingresos recurrentes anualizados totales y de nube pública, junto con una menor facturación total.",
-          "why": "Los contratos recurrentes pueden hacer que la facturación sea más predecible que las ventas por proyecto, mientras que el flujo de caja operativo positivo ayuda a financiar el desarrollo de productos y las migraciones de clientes.",
-          "uncertainty": "El comunicado también contiene previsiones de la dirección y medidas no ajustadas a los PCGA; el crecimiento de los ingresos recurrentes no demuestra por sí solo que la demanda total se haya estabilizado.",
-          "watch": "Conviene seguir las nuevas incorporaciones de clientes, los ingresos recurrentes anualizados de la nube pública, la facturación total, el flujo de caja operativo y la adopción de productos.",
+          "id": "f3",
+          "title": "Las encuestas empresariales de China entran en contracción",
+          "summary": "Las encuestas oficiales de gestores de compras de China indicaron que la producción manufacturera, los pedidos y la actividad empresarial general se debilitaron durante el mes de referencia más reciente.",
+          "impact": "La debilidad de los pedidos puede limitar el uso de la capacidad industrial, la contratación y los precios de los proveedores, perjudicando las expectativas de beneficios en las cadenas de suministro industriales, de consumo y logísticas.",
+          "what": "La encuesta oficial de gestores de compras pregunta a empresas manufactureras y de servicios si la actividad mejoró, empeoró o permaneció sin cambios. El indicador principal de manufactura cayó por debajo del umbral neutral, mientras que la producción y los nuevos pedidos también señalaron contracción. El indicador compuesto, que abarca actividades manufactureras y no manufactureras, también cayó por debajo del nivel asociado con la expansión, lo que sugiere que la desaceleración no se limitó a un segmento industrial reducido.",
+          "why": "Los nuevos pedidos ofrecen una señal temprana de la producción futura porque las fábricas suelen ajustar sus compras, plantilla y uso de maquinaria según la demanda esperada. La debilidad de los pedidos puede reducir la visibilidad de los ingresos para fabricantes de equipos, proveedores de materiales y empresas de transporte. Para los hogares, una actividad empresarial más lenta puede afectar la contratación y la confianza en los salarios. Para las finanzas empresariales, un menor uso de la capacidad puede presionar los márgenes, aunque los costos de las materias primas sean menos exigentes.",
+          "uncertainty": "La encuesta es un índice de difusión, no una medición directa de la producción o los ingresos, y puede ser volátil en torno a días festivos y cambios en los calendarios de entrega. Los grandes fabricantes conservaron una posición más sólida que las empresas pequeñas, por lo que el indicador general oculta condiciones desiguales. La debilidad de la encuesta tampoco determina cuánto durará la desaceleración ni si el apoyo de las políticas mejorará la demanda.",
+          "watch": "Conviene observar la producción industrial, las ventas minoristas, las exportaciones, los beneficios empresariales y la demanda de crédito para buscar confirmación en datos concretos. Las próximas encuestas de gestores de compras deberían revisarse para detectar una recuperación de los nuevos pedidos y la producción, especialmente entre los fabricantes pequeños, que suelen tener menos acceso a financiación y menor poder de negociación.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Facturación total"
+              "label": "Índice de gestores de compras del sector manufacturero"
             },
             {
               "id": "m2",
-              "label": "Flujo de caja de las operaciones"
+              "label": "Índice de producción manufacturera"
             },
             {
               "id": "m3",
-              "label": "Ingresos recurrentes anualizados totales"
+              "label": "Índice de nuevos pedidos manufactureros"
             },
             {
               "id": "m4",
-              "label": "Ingresos recurrentes anualizados de la nube pública"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Los beneficios industriales de China mejoran de forma desigual entre sectores",
-          "summary": "Los datos oficiales muestran que el crecimiento de los beneficios industriales superó al de la facturación, impulsado por la electrónica y determinados sectores de recursos, mientras los automóviles, la electricidad y varias industrias de materiales básicos siguieron débiles.",
-          "impact": "La divergencia importa para proveedores, trabajadores y prestamistas, porque un mayor beneficio agregado no demuestra una recuperación manufacturera generalizada cuando las condiciones de precios, demanda e inventarios difieren considerablemente.",
-          "what": "La encuesta de la Oficina Nacional de Estadística cubre empresas industriales por encima del tamaño establecido e informa sobre facturación, beneficios, márgenes, cuentas por cobrar e inventarios. Es una encuesta contable, no un estado de flujo de caja de empresas cotizadas.",
-          "why": "Un crecimiento de los beneficios superior al de la facturación puede reflejar precios, combinación de productos, control de costes o efectos de comparación, en lugar de una demanda final uniformemente más fuerte; las cuentas por cobrar y los inventarios también afectan a la calidad de la caja.",
-          "uncertainty": "La encuesta excluye a las empresas industriales más pequeñas y muestra resultados materialmente distintos por sector, por lo que el resultado agregado puede no describir todas las regiones o cadenas de suministro.",
-          "watch": "Conviene seguir los beneficios industriales mensuales, los precios de producción, los inventarios, las cuentas por cobrar, la demanda de exportación y el flujo de caja operativo de las empresas cotizadas.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Beneficio industrial"
-            },
-            {
-              "id": "m2",
-              "label": "Variación interanual del beneficio industrial"
-            },
-            {
-              "id": "m3",
-              "label": "Ingresos operativos industriales"
-            },
-            {
-              "id": "m4",
-              "label": "Margen operativo industrial"
+              "label": "Índice compuesto de producción"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版では、米国と中国の動向を扱います。各記事の公表日を確認してください。最近の企業報告は、背景を説明する資料として掲載しています。",
+      "status": "この版では米国と中国の動向を扱います。各情報の公表日を確認してください。最近の企業報告は、背景を説明する情報として掲載しています。",
       "marketSummary": {
-        "us": "一部の取引終了時点の観測値は検証できませんでした。利用可能な各指数には、それぞれの取引日が付されています。",
-        "cn": "一部の取引終了時点の観測値は検証できませんでした。利用可能な各指数には、それぞれの取引日が付されています。"
+        "us": "一部の終値情報は確認できませんでした。確認できた各指数には、それぞれの取引日を記載しています。",
+        "cn": "追跡対象の両指数は、直近で確認できた取引日に下落しました。記載された終値はその取引日のもので、現在の取引状況ではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "アイアン・マウンテン、増収と調整後FFOの拡大を報告",
-          "summary": "情報管理会社の四半期売上高と純利益は増加しました。データセンター、デジタル、資産ライフサイクル事業も拡大を続けています。",
-          "impact": "この結果は、インフラ投資と株主還元の継続を支えます。ただし、調整後FFOはGAAP上の純利益でも営業キャッシュフローでもありません。",
-          "what": "アイアン・マウンテンは、世界中の組織向けに、物理・デジタル情報、データセンター、資産ライフサイクルのサービスを管理しています。発表資料では、保管料、サービス、新規事業の各分野で成長が報告されています。",
-          "why": "継続的な保管需要とデータセンターのリース拡大は、売上高の見通しやすさを高める可能性があります。一方、データセンターの開発拡大は、設備投資と資金調達の需要も増やします。",
-          "uncertainty": "発表資料は調整後FFOを重視しており、この指標を営業キャッシュフローとして示していません。買収、為替、事業構成も報告上の成長に影響します。",
-          "watch": "今後の提出資料で、営業キャッシュフロー、設備投資、データセンターのリース、引き上げられた業績見通しがキャッシュ創出につながっているかを確認します。",
+          "title": "米国の雇用は改善、賃金の伸びも堅調",
+          "summary": "最新の雇用統計では、雇用者数の伸びが強まり、失業率は安定し、名目賃金の上昇が続きました。一方、経済的な理由でパートタイム勤務を受け入れる人も増えました。",
+          "impact": "この組み合わせは家計所得と企業需要を支えますが、金融政策当局が金融環境を早期に緩和する理由を弱める面もあります。",
+          "what": "米労働統計局は、企業を対象とする雇用者数調査と、家計を対象とする就業状況調査を組み合わせています。雇用の増加は専門・ビジネスサービス、医療、運輸・倉庫に集中し、製造業でも雇用者が増えました。家計調査では主要な失業率にほとんど変化がありませんでしたが、非自発的なパートタイム雇用は増加しました。これは、主要な失業率だけでは労働市場の余力をすべて捉えられないことを示します。",
+          "why": "賃金は多くの家計にとって主な収入源であるため、雇用者数の増加は個人消費を支えます。賃金の堅調な伸びは、サービス企業のコストを押し上げ、生産性の伸びが追いつかない場合にはインフレ圧力を長引かせる可能性もあります。市場にとっては、底堅い雇用が企業の予想売上高を押し上げる一方、債券利回りを高止まりさせる可能性があります。このため、景気の強さと資金調達コストの上昇が相反する関係になります。",
+          "uncertainty": "企業調査と家計調査では対象とする人々が異なるため、結果が食い違うことがあります。最近の雇用者数推計は速報段階であり、企業からの回答が増えると修正される可能性があります。名目賃金の伸びだけでは、インフレ調整後の購買力が高まったかは分かりません。非自発的なパートタイム雇用の増加も、一時的な可能性と、雇用の質の低下を示す可能性があります。",
+          "watch": "最近の雇用者数推計の修正、労働参加率、非自発的なパートタイム雇用、インフレ調整後の所得に注目します。毎週の失業保険申請件数や企業の採用調査は、雇用の加速が持続的なのか、限られた業種に集中しているのかを判断する助けになります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "総売上高"
+              "label": "雇用者数の増減"
             },
             {
               "id": "m2",
-              "label": "純利益"
+              "label": "失業率"
             },
             {
               "id": "m3",
-              "label": "調整後FFO"
+              "label": "平均時給の伸び"
+            },
+            {
+              "id": "m4",
+              "label": "非自発的なパートタイム雇用の増減"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "テラデータ、売上高が減少する中でもクラウドが伸長",
-          "summary": "企業向けデータ・人工知能ソフトウエアの提供会社であるテラデータは、年換算経常収益の指標を伸ばしました。一方、総売上高は減少し、営業キャッシュフローはプラスを維持しました。",
-          "impact": "経常収益の基盤拡大は、企業顧客の予算見通しを改善する可能性があります。ただし、総売上高の弱さは、実行面と移行リスクが依然として重要であることを示します。",
-          "what": "テラデータは、企業向けデータ基盤、分析、統制された人工知能ツールを販売しています。発表資料では、総年換算経常収益とパブリッククラウド年換算経常収益の伸びと、総売上高の減少が報告されています。",
-          "why": "経常契約は、プロジェクト販売よりも売上高を予測しやすくする可能性があります。また、プラスの営業キャッシュフローは、製品開発と顧客移行の資金に役立ちます。",
-          "uncertainty": "発表資料には経営陣の業績見通しと非GAAP指標も含まれています。経常収益の伸びだけでは、総需要が安定したことを証明できません。",
-          "watch": "顧客数の増加、パブリッククラウド年換算経常収益、総売上高、営業キャッシュフロー、製品の利用拡大を確認します。",
+          "id": "f3",
+          "title": "中国の企業景況感調査が縮小圏に低下",
+          "summary": "中国の公式な購買担当者調査は、最新の報告月に製造業の生産、受注、幅広い企業活動が弱まったことを示しました。",
+          "impact": "受注の弱まりは、工場の稼働率、雇用、仕入れ先の価格設定を抑える可能性があり、産業、消費、物流の各サプライチェーンで利益見通しの重荷になります。",
+          "what": "公式の購買担当者調査は、製造業とサービス業の企業に、活動が改善したか、悪化したか、変わらなかったかを尋ねます。製造業の総合指数は中立水準を下回り、生産と新規受注も縮小を示しました。製造業と非製造業を含む総合産出指数も、拡大を示す水準を下回りました。これは、減速が一部の工場分野だけに限られていない可能性を示します。",
+          "why": "工場は通常、予想需要に応じて仕入れ、人員配置、設備の使用を調整するため、新規受注は将来の生産を早めに示す手掛かりになります。受注の弱さは、設備メーカー、素材供給会社、運輸会社にとって売上高の見通しを不透明にします。家計にとっては、企業活動の減速が雇用や賃金への安心感に影響する可能性があります。企業財務では、原材料コストの負担が軽くなっても、稼働率の低下が利益率を圧迫する可能性があります。",
+          "uncertainty": "この調査は生産量や売上高を直接測るものではなく、回答の広がりを示す指数です。祝日や納期の変化を受けて大きく動く場合があります。大手製造業は中小企業よりも強い状態を維持しているため、総合指数だけでは状況のばらつきが見えにくくなります。調査の弱さだけでは、減速がどれほど続くかや、政策支援によって需要が改善するかは分かりません。",
+          "watch": "鉱工業生産、小売売上高、輸出、企業利益、資金需要を確認し、実際の統計でも同じ傾向が見られるかに注目します。今後の購買担当者調査では、新規受注と生産が回復するかを確認する必要があります。特に、資金調達の選択肢が少なく、価格交渉力も弱いことが多い中小製造業が重要です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "総売上高"
+              "label": "製造業購買担当者景気指数"
             },
             {
               "id": "m2",
-              "label": "営業キャッシュフロー"
+              "label": "製造業生産指数"
             },
             {
               "id": "m3",
-              "label": "総年換算経常収益"
+              "label": "製造業新規受注指数"
             },
             {
               "id": "m4",
-              "label": "パブリッククラウド年換算経常収益"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中国の鉱工業利益、業種間でばらつきながら改善",
-          "summary": "公式データによると、鉱工業利益の伸びは売上高の伸びを上回りました。電子機器や一部の資源関連業種がけん引した一方、自動車、電力、一部の基礎素材業種は低迷しました。",
-          "impact": "価格、需要、在庫の状況が大きく異なる中では、全体の利益改善だけで製造業が広範に回復したとはいえません。この違いは、供給業者、労働者、融資業者にとって重要です。",
-          "what": "国家統計局の調査は、規模以上の鉱工業企業を対象とし、売上高、利益率、売掛金、在庫を報告しています。これは上場企業のキャッシュフロー計算書ではなく、会計上の調査です。",
-          "why": "利益の伸びが売上高の伸びを上回る背景には、価格、製品構成、コスト管理、比較対象の影響などがあり、最終需要が一様に強まったことを意味するとは限りません。売掛金と在庫もキャッシュの質に影響します。",
-          "uncertainty": "この調査は小規模な鉱工業企業を除外しており、業種ごとの結果にも大きな差があります。そのため、全体の結果がすべての地域やサプライチェーンを示すとは限りません。",
-          "watch": "月次の鉱工業利益、生産者物価、在庫、売掛金、輸出需要、上場企業の営業キャッシュフローを確認します。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "鉱工業利益"
-            },
-            {
-              "id": "m2",
-              "label": "鉱工業利益の前年同期比"
-            },
-            {
-              "id": "m3",
-              "label": "鉱工業営業収入"
-            },
-            {
-              "id": "m4",
-              "label": "鉱工業営業利益率"
+              "label": "総合産出指数"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição abrange acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
+      "status": "Esta edição aborda acontecimentos nos EUA e na China. Confira a data de cada publicação; relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação.",
-        "cn": "Algumas observações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
+        "us": "Não foi possível verificar algumas observações de fechamento. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Os dois índices acompanhados caíram nas últimas sessões verificadas. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "A Iron Mountain registra maior receita e fundos provenientes das operações",
-          "summary": "A empresa de gestão de informações registrou aumento da receita e do lucro líquido no trimestre, enquanto seus negócios de data centers, soluções digitais e ciclo de vida de ativos continuaram a se expandir.",
-          "impact": "O resultado apoia a continuidade dos investimentos em infraestrutura e das distribuições aos acionistas, mas os fundos ajustados provenientes das operações não correspondem ao lucro líquido segundo o GAAP nem ao fluxo de caixa operacional.",
-          "what": "A Iron Mountain administra informações físicas e digitais, data centers e serviços de ciclo de vida de ativos para organizações em todo o mundo. O comunicado relata crescimento nas receitas de aluguel de armazenamento, serviços e negócios mais recentes.",
-          "why": "A demanda recorrente por armazenamento e a expansão dos contratos de locação de data centers podem aumentar a previsibilidade da receita, enquanto a expansão dos data centers também eleva as necessidades de capital e financiamento.",
-          "uncertainty": "O comunicado enfatiza os fundos ajustados provenientes das operações e não apresenta essa medida como fluxo de caixa operacional; aquisições, câmbio e composição dos negócios também afetam o crescimento divulgado.",
-          "watch": "Acompanhe os próximos documentos para observar o fluxo de caixa operacional, os gastos de capital, a locação de data centers e a conversão da elevação das projeções em geração de caixa.",
+          "title": "Contratações nos EUA melhoram, enquanto crescimento salarial permanece firme",
+          "summary": "O relatório de trabalho mais recente mostrou maior expansão do emprego, desemprego estável e continuidade do crescimento nominal dos salários, além de mais trabalhadores aceitando jornadas parciais por razões econômicas.",
+          "impact": "Essa combinação sustenta a renda das famílias e a demanda das empresas, mas também reduz os motivos para as autoridades monetárias afrouxarem rapidamente as condições financeiras.",
+          "what": "O Departamento de Estatísticas do Trabalho combina uma pesquisa com empregadores sobre empregos em folha de pagamento e uma pesquisa domiciliar sobre a situação de emprego. As contratações se concentraram em serviços profissionais e empresariais, saúde, transportes e armazenagem, enquanto a indústria também adicionou trabalhadores. A pesquisa domiciliar mostrou pouca mudança no desemprego principal, mas o trabalho involuntário em jornada parcial aumentou, indicando que a taxa principal não capta toda a ociosidade do mercado de trabalho.",
+          "why": "O crescimento do emprego sustenta o consumo porque os salários são a principal fonte de renda da maioria das famílias. O crescimento salarial firme também pode elevar os custos das empresas de serviços e manter a pressão inflacionária quando a produtividade não avança com a mesma rapidez. Para os mercados, o emprego resistente pode elevar as expectativas de receita empresarial, mas também manter os rendimentos dos títulos elevados, criando um equilíbrio difícil entre força econômica e custos de financiamento maiores.",
+          "uncertainty": "As pesquisas com empregadores e domicílios medem populações diferentes e podem divergir. As estimativas recentes de emprego continuam preliminares e podem ser revisadas à medida que chegam mais respostas dos empregadores. O crescimento nominal dos salários também não mostra se os trabalhadores ganharam poder de compra após a inflação, enquanto o aumento do trabalho involuntário em jornada parcial pode ser temporário ou sinalizar piora na qualidade dos empregos.",
+          "watch": "Acompanhe as revisões das estimativas recentes de emprego, a participação na força de trabalho, o trabalho involuntário em jornada parcial e os rendimentos ajustados pela inflação. Os pedidos semanais de seguro-desemprego e as pesquisas empresariais de contratação podem ajudar a mostrar se a aceleração é duradoura ou concentrada em poucos setores.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita total"
+              "label": "Variação do emprego em folha de pagamento"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido"
+              "label": "Taxa de desemprego"
             },
             {
               "id": "m3",
-              "label": "Fundos ajustados provenientes das operações"
+              "label": "Crescimento do salário médio por hora"
+            },
+            {
+              "id": "m4",
+              "label": "Variação do trabalho involuntário em jornada parcial"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "A Teradata mostra tração na nuvem apesar da menor receita",
-          "summary": "A fornecedora de dados empresariais e software de inteligência artificial ampliou medidas de receita recorrente anualizada, enquanto a receita total caiu e o fluxo de caixa operacional permaneceu positivo.",
-          "impact": "Uma base recorrente maior pode melhorar a visibilidade orçamentária dos clientes empresariais, mas a menor receita total mantém relevantes os riscos de execução e migração.",
-          "what": "A Teradata vende plataformas de dados empresariais, soluções analíticas e ferramentas de inteligência artificial com governança. Seu comunicado relata crescimento na receita recorrente anualizada total e na receita recorrente anualizada da nuvem pública, juntamente com menor receita total.",
-          "why": "Contratos recorrentes podem tornar a receita mais previsível do que vendas baseadas em projetos, enquanto o fluxo de caixa operacional positivo ajuda a financiar o desenvolvimento de produtos e as migrações de clientes.",
-          "uncertainty": "O comunicado também contém projeções da administração e medidas não baseadas no GAAP; o crescimento da receita recorrente, por si só, não comprova que a demanda total tenha se estabilizado.",
-          "watch": "Acompanhe a adição de clientes, a receita recorrente anualizada da nuvem pública, a receita total, o fluxo de caixa operacional e a adoção dos produtos.",
+          "id": "f3",
+          "title": "Pesquisas empresariais da China indicam contração",
+          "summary": "As pesquisas oficiais da China com gerentes de compras indicaram enfraquecimento da produção industrial, dos pedidos e da atividade empresarial geral no mês mais recente divulgado.",
+          "impact": "Pedidos mais fracos podem limitar a utilização das fábricas, as contratações e os preços dos fornecedores, pressionando as expectativas de lucros nas cadeias industriais, de consumo e de logística.",
+          "what": "A pesquisa oficial com gerentes de compras pergunta a fabricantes e empresas de serviços se a atividade melhorou, piorou ou permaneceu estável. O indicador principal da indústria ficou abaixo do limite neutro, enquanto a produção e os novos pedidos também sinalizaram contração. A medida composta, que abrange atividades industriais e não industriais, também caiu abaixo do nível associado à expansão, sugerindo que a desaceleração não ficou restrita a um pequeno segmento industrial.",
+          "why": "Os novos pedidos são um indicador inicial da produção futura porque as fábricas geralmente ajustam compras, equipes e uso de máquinas conforme a demanda esperada. Pedidos fracos podem reduzir a visibilidade das receitas de fabricantes de equipamentos, fornecedores de materiais e transportadoras. Para as famílias, a desaceleração da atividade empresarial pode afetar as contratações e a confiança nos salários. Para as finanças empresariais, a menor utilização da capacidade pode pressionar as margens, mesmo que os custos das matérias-primas fiquem menos pesados.",
+          "uncertainty": "A pesquisa é um índice de difusão, não uma medida direta da produção ou da receita, e pode oscilar durante feriados e mudanças nos cronogramas de entrega. Os grandes fabricantes permaneceram em situação melhor que as empresas menores, portanto o indicador principal esconde condições desiguais. A fraqueza da pesquisa também não mostra quanto tempo a desaceleração durará nem se o apoio das políticas públicas melhorará a demanda.",
+          "watch": "Acompanhe a produção industrial, as vendas no varejo, as exportações, os lucros empresariais e a demanda por crédito para buscar confirmação em dados concretos. As próximas pesquisas com gerentes de compras devem ser verificadas em busca de recuperação dos novos pedidos e da produção, especialmente entre fabricantes menores, que frequentemente têm menos acesso a financiamento e menor poder de negociação.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita total"
+              "label": "Índice de gerentes de compras da indústria"
             },
             {
               "id": "m2",
-              "label": "Fluxo de caixa das operações"
+              "label": "Índice de produção industrial"
             },
             {
               "id": "m3",
-              "label": "Receita recorrente anualizada total"
+              "label": "Índice de novos pedidos da indústria"
             },
             {
               "id": "m4",
-              "label": "Receita recorrente anualizada da nuvem pública"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Os lucros industriais da China melhoram de forma desigual entre os setores",
-          "summary": "Dados oficiais mostram crescimento dos lucros industriais superior ao crescimento da receita, liderado por eletrônicos e por alguns setores de recursos, enquanto automóveis, energia elétrica e várias indústrias de materiais básicos permaneceram fracos.",
-          "impact": "A divergência é relevante para fornecedores, trabalhadores e credores porque um aumento agregado dos lucros não demonstra uma recuperação ampla da indústria quando as condições de preços, demanda e estoques diferem significativamente.",
-          "what": "A pesquisa do Departamento Nacional de Estatísticas abrange empresas industriais acima do porte designado e informa receita, lucro, margens, contas a receber e estoques. Trata-se de uma pesquisa contábil, não de uma demonstração de fluxo de caixa de empresas listadas.",
-          "why": "O crescimento dos lucros superior ao da receita pode refletir preços, composição de produtos, controle de custos ou efeitos de comparação, e não uma demanda final uniformemente mais forte; contas a receber e estoques também afetam a qualidade do caixa.",
-          "uncertainty": "A pesquisa exclui empresas industriais menores e apresenta resultados materialmente diferentes por setor; portanto, o resultado agregado pode não descrever todas as regiões ou cadeias de suprimentos.",
-          "watch": "Acompanhe os lucros industriais mensais, os preços ao produtor, os estoques, as contas a receber, a demanda externa e o fluxo de caixa operacional das empresas listadas.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Lucro industrial"
-            },
-            {
-              "id": "m2",
-              "label": "Variação anual do lucro industrial"
-            },
-            {
-              "id": "m3",
-              "label": "Receita operacional industrial"
-            },
-            {
-              "id": "m4",
-              "label": "Margem operacional industrial"
+              "label": "Índice composto de atividade"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的發展。請確認各項發布日期；近期公司報告以背景解說呈現。",
+      "status": "本期涵蓋美國與中國的發展。請查看各項資料的發布日期；近期公司報告僅作為背景說明。",
       "marketSummary": {
-        "us": "部分收盤觀察無法驗證。每個可取得的指數均保留其交易日期。",
-        "cn": "部分收盤觀察無法驗證。每個可取得的指數均保留其交易日期。"
+        "us": "部分收盤觀察無法獲得驗證。可取得的指數資料均保留各自的交易日期。",
+        "cn": "所追蹤的指數在各自最近獲得驗證的交易日均下跌。附有日期的收盤資訊描述的是當時情況，而非目前交易狀況。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Iron Mountain 營收與營運資金流量增加",
-          "summary": "這家資訊管理公司公布季度營收與淨利增加，其資料中心、數位及資產生命週期業務持續擴張。",
-          "impact": "這項結果支持持續投入基礎設施與向股東分配資金，但調整後營運資金流量並非 GAAP 淨利或經營現金流。",
-          "what": "Iron Mountain 為全球各地組織管理實體與數位資訊、資料中心及資產生命週期服務。公告顯示儲存租賃、服務及新興業務均有所成長。",
-          "why": "持續性的儲存需求與擴大的資料中心租賃業務，可能提升營收可見度；同時，資料中心擴建也提高資本與融資需求。",
-          "uncertainty": "公告強調調整後營運資金流量，並未將該指標列為經營現金流；收購、匯率與業務組合也會影響報告中的成長。",
-          "watch": "留意未來申報中的經營現金流、資本支出、資料中心租賃，以及提高後的指引能否轉化為現金生成。",
+          "title": "美國招聘改善，薪資成長仍穩健",
+          "summary": "最新勞動市場報告顯示，非農就業人數增幅擴大、失業情況穩定，名目薪資持續成長；同時，因經濟因素而接受兼職工時的勞工增加。",
+          "impact": "這種組合有助於支撐家庭所得與企業需求，但也讓貨幣政策制定者缺乏迅速放寬金融環境的理由。",
+          "what": "美國勞工統計局同時採用雇主非農就業人數調查與家庭就業狀況調查。新增人力主要集中在專業與商業服務、醫療保健、運輸及倉儲，製造業也增加人力。家庭調查顯示整體失業率變動不大，但非自願兼職就業增加，反映整體失業率無法呈現勞動市場的所有閒置情況。",
+          "why": "非農就業人數成長可支撐消費支出，因為薪資是多數家庭的主要收入來源。若生產力未以同樣速度提升，穩健的薪資成長也可能增加服務業者的成本，使通膨壓力持續。對市場而言，就業展現韌性可提高企業營收預期，但也可能使債券殖利率維持高檔，形成經濟強勁與融資成本上升之間的取捨。",
+          "uncertainty": "雇主調查與家庭調查涵蓋不同族群，因此結果可能出現差異。近期非農就業人數估計仍屬初值，隨著更多雇主回覆送達，數據可能修正。名目薪資成長也無法顯示勞工在扣除通膨後的購買力是否提高；非自願兼職就業增加可能只是暫時現象，也可能代表工作品質轉弱。",
+          "watch": "留意近期非農就業人數估計的修正、勞動參與率、非自願兼職就業，以及經通膨調整後的所得。每週初領失業救濟金人數與企業招聘調查，可協助判斷成長加速是否能夠持續，或只是集中在少數產業。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "總營收"
+              "label": "非農就業人數變動"
             },
             {
               "id": "m2",
-              "label": "淨利"
+              "label": "失業率"
             },
             {
               "id": "m3",
-              "label": "調整後營運資金流量"
+              "label": "平均時薪成長"
+            },
+            {
+              "id": "m4",
+              "label": "非自願兼職就業變動"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "Teradata 雲端業務展現動能，但營收下降",
-          "summary": "這家企業資料與人工智慧軟體供應商的年化經常性營收指標增加，但總營收下降，經營現金流仍為正。",
-          "impact": "更大的經常性營收基礎可能改善企業客戶的預算可見度，但總營收疲弱代表執行與遷移風險仍然重要。",
-          "what": "Teradata 銷售企業資料平台、分析工具及受治理的人工智慧工具。公告顯示總體與公有雲年化經常性營收成長，同時總營收下降。",
-          "why": "相較於專案銷售，經常性合約可能讓營收更可預測；正向的經營現金流也有助於支應產品開發與客戶遷移。",
-          "uncertainty": "公告也包含管理層指引與非 GAAP 指標；經常性營收成長本身並不能證明總體需求已經穩定。",
-          "watch": "留意客戶增加、公有雲年化經常性營收、總營收、經營現金流及產品採用情況。",
+          "id": "f3",
+          "title": "中國企業調查轉入收縮",
+          "summary": "中國官方採購經理人調查顯示，在最新報告月份，製造業生產、訂單與整體企業活動轉弱。",
+          "impact": "訂單疲弱可能限制工廠產能利用、招聘與供應商定價，拖累工業、消費及物流供應鏈的獲利預期。",
+          "what": "官方採購經理人調查會詢問製造業與服務業者，其業務活動是改善、轉弱或維持不變。製造業整體指數跌破榮枯分界線，生產與新訂單也顯示收縮。涵蓋製造業與非製造業活動的綜合指標同樣跌破代表擴張的水準，顯示放緩並非只出現在狹窄的工廠領域。",
+          "why": "新訂單是未來生產的早期參考，因為工廠通常會依照預期需求調整採購、人力配置與機器使用。訂單疲弱可能降低設備製造商、材料供應商與運輸公司的營收能見度。對家庭而言，企業活動放緩可能影響招聘與薪資信心。對企業財務而言，即使原物料成本壓力減輕，產能利用率下降仍可能壓縮利潤率。",
+          "uncertainty": "這項調查屬於擴散指數，並非產出或營收的直接衡量方式，而且可能受到假期與交貨時程變化影響而波動。大型製造商的情況仍優於小型企業，因此整體指標掩蓋了不同企業間的不均衡。調查轉弱也無法確定放緩將持續多久，或政策支持能否改善需求。",
+          "watch": "留意工業生產、零售銷售、出口、企業利潤與信貸需求，確認實際數據是否呈現相同趨勢。未來的採購經理人調查應關注新訂單與生產是否回升，尤其是融資管道通常較少、議價能力較弱的小型製造商。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "總營收"
+              "label": "製造業採購經理人指數"
             },
             {
               "id": "m2",
-              "label": "經營活動現金流"
+              "label": "製造業生產指數"
             },
             {
               "id": "m3",
-              "label": "總年化經常性營收"
+              "label": "製造業新訂單指數"
             },
             {
               "id": "m4",
-              "label": "公有雲年化經常性營收"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中國工業利潤在不同產業間呈現不均衡改善",
-          "summary": "官方資料顯示，工業利潤增幅領先營收增幅，主要由電子業及部分資源產業帶動；汽車、電力及若干基礎材料產業仍然疲弱。",
-          "impact": "這種分化對供應商、勞工與放款機構都很重要，因為當價格、需求與庫存狀況差異顯著時，整體利潤改善並不代表製造業已廣泛復甦。",
-          "what": "國家統計局的調查涵蓋規模以上工業企業，並公布營收、利潤、利潤率、應收款項與庫存。這是會計調查，而非上市公司的現金流量表。",
-          "why": "利潤增幅領先營收增幅，可能反映價格、產品組合、成本控制或比較基期效應，而非終端需求全面轉強；應收款項與庫存也會影響現金品質。",
-          "uncertainty": "這項調查排除較小型工業企業，且各產業結果差異顯著，因此整體結果可能無法代表每個地區或供應鏈。",
-          "watch": "留意每月工業利潤、生產者價格、庫存、應收款項、出口需求及上市公司的經營現金流。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "工業利潤"
-            },
-            {
-              "id": "m2",
-              "label": "工業利潤年增率"
-            },
-            {
-              "id": "m3",
-              "label": "工業營業收入"
-            },
-            {
-              "id": "m4",
-              "label": "工業營業利潤率"
+              "label": "綜合產出指數"
             }
           ]
         }
