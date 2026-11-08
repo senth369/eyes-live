@@ -1,95 +1,84 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-07T18:48:51.523Z",
-  "generatedAt": "2026-11-07T19:02:57.737Z",
-  "model": "gpt-5.6-sol",
+  "cutoffAt": "2026-11-08T02:29:09.372Z",
+  "generatedAt": "2026-11-08T02:32:38.927Z",
+  "model": "gpt-5.6-luna",
   "sources": [
     {
       "id": "src1",
-      "label": "US market close report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad"
-    },
-    {
-      "id": "src2",
-      "label": "Nasdaq Composite daily series",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
-    },
-    {
-      "id": "src3",
-      "label": "S and P daily series",
-      "url": "https://fred.stlouisfed.org/series/SP500"
-    },
-    {
-      "id": "src4",
-      "label": "Shanghai Composite historical table",
-      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
-    },
-    {
-      "id": "src5",
-      "label": "CSI benchmark historical table",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
-    },
-    {
-      "id": "src6",
-      "label": "Official US employment release",
+      "label": "U.S. Bureau of Labor Statistics employment release",
       "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
     },
     {
+      "id": "src2",
+      "label": "FRED S&P Five Hundred series",
+      "url": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "src3",
+      "label": "FRED Nasdaq Composite series",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+    },
+    {
+      "id": "src4",
+      "label": "S&P Five Hundred dated historical data",
+      "url": "https://cn.investing.com/indices/us-spx-500-historical-data"
+    },
+    {
+      "id": "src5",
+      "label": "Xinhua Finance mainland closing report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261106/4492047_1.html"
+    },
+    {
+      "id": "src6",
+      "label": "CSI Three Hundred dated historical data",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
+    },
+    {
       "id": "src7",
-      "label": "Issuer earnings exhibit",
-      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000060/q326exhibit991.htm"
+      "label": "Plains All American SEC earnings exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/1070423/000107042326000055/paa11062026exhibit991.htm"
     },
     {
       "id": "src8",
-      "label": "Official China purchasing managers release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html"
+      "label": "China CITIC Bank quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645247.PDF"
     },
     {
       "id": "src9",
-      "label": "Issuer quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
-    },
-    {
-      "id": "src10",
-      "label": "Issuer business profile",
-      "url": "https://www.bydglobal.com/en/CompanyIntro.html?scroll=true"
-    },
-    {
-      "id": "src11",
-      "label": "Issuer repurchase announcement",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660644.pdf"
-    },
-    {
-      "id": "src12",
-      "label": "Issuer interim report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485259.PDF"
+      "label": "State Administration of Foreign Exchange reserve release",
+      "url": "https://www.safe.gov.cn/safe/2026/1106/28067.html"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-06",
+      "close": 7376.86,
+      "previousClose": 7353.73,
+      "changePercent": 0.31,
+      "sourceIds": [
+        "src4"
+      ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-06",
+      "close": 24579.42,
+      "previousClose": 24315,
+      "changePercent": 1.09,
+      "sourceIds": [
+        "src3"
+      ]
     },
     {
       "id": "sse",
       "sessionDate": "2026-11-06",
       "close": 3649.18,
-      "previousClose": 3689.91,
-      "changePercent": -1.1038209604,
+      "previousClose": null,
+      "changePercent": -1.1,
       "sourceIds": [
-        "src4"
+        "src5"
       ]
     },
     {
@@ -97,9 +86,9 @@
       "sessionDate": "2026-11-06",
       "close": 4054.28,
       "previousClose": 4113.41,
-      "changePercent": -1.4374934665,
+      "changePercent": -1.44,
       "sourceIds": [
-        "src5"
+        "src6"
       ]
     }
   ],
@@ -120,9 +109,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src1"
           ],
-          "evidence": "The release headline and establishment survey identify the reported payroll change."
+          "evidence": "The payroll table and opening summary report the preliminary change in total nonfarm employment for October."
         },
         {
           "id": "m2",
@@ -133,9 +122,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src1"
           ],
-          "evidence": "The household survey summary reports the seasonally adjusted unemployment rate."
+          "evidence": "The household survey section reports the unemployment rate for October."
         },
         {
           "id": "m3",
@@ -146,112 +135,129 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src1"
           ],
-          "evidence": "The earnings section reports the annual change in average hourly earnings."
-        },
-        {
-          "id": "m4",
-          "value": 339000,
-          "unit": "count",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The household survey section reports the monthly change in involuntary part-time employment."
+          "evidence": "The average hourly earnings paragraph reports the annual change in private hourly earnings for October."
         }
       ],
       "sourceIds": [
-        "src6"
+        "src1"
       ],
-      "evidence": "The release headline, household survey and establishment survey provide the labor, wage and underemployment facts."
+      "evidence": "The official employment release reports continued payroll growth, little change in unemployment, and gains across professional services, health care, transportation and warehousing, and manufacturing."
     },
     {
-      "id": "f3",
+      "id": "f2",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-06",
+      "company": {
+        "name": "Plains All American Pipeline",
+        "ticker": "PAA",
+        "exchange": "Nasdaq"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 453000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "The net income to adjusted EBITDA reconciliation reports consolidated net income for the quarter."
+        },
+        {
+          "id": "m2",
+          "value": 669000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "The earnings highlights report net cash provided by operating activities for the quarter."
+        },
+        {
+          "id": "m3",
+          "value": 711000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "The non-GAAP reconciliation reports adjusted EBITDA attributable to the partnership; its footnote says the measure includes continuing and discontinued operations."
+        }
+      ],
+      "sourceIds": [
+        "src7"
+      ],
+      "evidence": "The SEC-filed issuer exhibit describes a North American crude-oil midstream operator whose pipeline, gathering, storage, terminal, and logistics activities generate fee and throughput-related earnings. The release separates accounting income, operating cash flow, and a non-GAAP operating measure."
+    },
+    {
+      "id": "f4",
       "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-10-31",
+      "publishedOn": "2026-11-07",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 49.3,
-          "unit": "index",
+          "value": 3405200000000,
+          "unit": "USD",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src9"
           ],
-          "evidence": "The main manufacturing survey table reports the headline purchasing managers index."
+          "evidence": "The official reserve release reports foreign-exchange reserves at the end of October in dollar units."
         },
         {
           "id": "m2",
-          "value": 49.8,
-          "unit": "index",
+          "value": 0.14,
+          "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
-          "comparison": "level",
+          "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src9"
           ],
-          "evidence": "The manufacturing survey table reports the production component."
-        },
-        {
-          "id": "m3",
-          "value": 49.4,
-          "unit": "index",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "The manufacturing survey table reports the new-orders component."
-        },
-        {
-          "id": "m4",
-          "value": 49.7,
-          "unit": "index",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "The composite survey section reports the economy-wide output index."
+          "evidence": "The same release reports the monthly increase in reserve holdings."
         }
       ],
       "sourceIds": [
-        "src8"
+        "src9"
       ],
-      "evidence": "The official release and its seasonally adjusted tables show weaker manufacturing, orders and broad business activity."
+      "evidence": "The official release attributes the increase mainly to exchange-rate translation and asset-price changes, while describing domestic economic conditions as broadly stable."
     }
   ],
   "locales": {
     "en": {
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "US hiring improves while wage growth stays firm",
-          "summary": "The latest labor report showed stronger payroll expansion, stable unemployment and continued nominal wage growth, alongside more workers accepting part-time hours for economic reasons.",
-          "impact": "The combination supports household income and business demand, but it also gives monetary policymakers less reason to ease financial conditions quickly.",
-          "what": "The Bureau of Labor Statistics combines an employer survey of payrolls with a household survey of employment status. Hiring was concentrated in professional and business services, health care, transportation and warehousing, while manufacturing also added workers. The household survey showed little movement in headline unemployment, but involuntary part-time employment increased, indicating that the headline rate does not capture every form of labor-market slack.",
-          "why": "Payroll growth supports consumer spending because wages are the main source of income for most households. Firm wage growth can also raise costs for service businesses and keep inflation pressure persistent when productivity does not rise as quickly. For markets, resilient employment can lift expected corporate revenue while also keeping bond yields elevated, creating a trade-off between economic strength and higher financing costs.",
-          "uncertainty": "The employer and household surveys measure different populations and can diverge. Recent payroll estimates remain preliminary and are subject to revision as more employer responses arrive. Nominal wage growth also does not reveal whether workers gained purchasing power after inflation, while the increase in involuntary part-time work may be temporary or may signal weaker job quality.",
-          "watch": "Watch revisions to recent payroll estimates, labor-force participation, involuntary part-time employment and inflation-adjusted earnings. Weekly unemployment claims and business hiring surveys can help show whether the acceleration is durable or concentrated in a narrow set of industries.",
+          "title": "Hiring remained firm while wage pressure stayed moderate",
+          "summary": "The latest labor report showed continued employment growth and little movement in unemployment.",
+          "impact": "The mix supports household income and service demand but leaves the path of monetary policy uncertain.",
+          "what": "The labor market added workers across several service industries and manufacturing, while private hourly pay continued to rise at a moderate annual pace. The report is a preliminary estimate and may be revised.",
+          "why": "Employment growth supports household cash flow, consumption, and revenue for labor-intensive businesses. Moderate wage growth is less likely to create an immediate cost shock, although persistent hiring can keep demand resilient.",
+          "uncertainty": "Monthly payroll estimates can change with later revisions, and one report cannot establish whether labor-market cooling has stopped or merely paused.",
+          "watch": "Watch subsequent payroll revisions, job openings, wage measures, and inflation data for confirmation of whether demand is stabilizing or weakening.",
           "metricLabels": [
             {
               "id": "m1",
@@ -263,60 +269,149 @@
             },
             {
               "id": "m3",
-              "label": "Average hourly earnings growth"
-            },
-            {
-              "id": "m4",
-              "label": "Involuntary part-time employment change"
+              "label": "Hourly earnings annual change"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "China’s business surveys slip into contraction",
-          "summary": "China’s official purchasing-manager surveys indicated that manufacturing production, orders and broad business activity weakened during the latest reporting month.",
-          "impact": "Softer orders can restrain factory utilization, hiring and supplier pricing, weighing on earnings expectations across industrial, consumer and logistics supply chains.",
-          "what": "The official purchasing managers survey asks manufacturers and service businesses whether activity improved, weakened or remained unchanged. The manufacturing headline moved below the neutral threshold, while production and new orders also signaled contraction. The composite measure covering manufacturing and non-manufacturing activity likewise fell below the level associated with expansion, suggesting that the slowdown was not confined to a narrow factory segment.",
-          "why": "New orders are an early guide to future production because factories generally adjust purchasing, staffing and machine use in response to expected demand. Weak orders can reduce revenue visibility for equipment makers, materials suppliers and transport companies. For households, slower business activity can affect hiring and wage confidence. For corporate finance, weaker utilization may pressure margins even if raw-material costs become less demanding.",
-          "uncertainty": "The survey is a diffusion index rather than a direct measure of output or revenue, and it can be volatile around holidays and shifting delivery schedules. Large manufacturers remained in a stronger position than smaller firms, so the headline masks uneven conditions. Survey weakness also does not establish how long the slowdown will last or whether policy support will improve demand.",
-          "watch": "Watch industrial production, retail sales, exports, corporate profits and credit demand for confirmation in hard data. Future purchasing-manager surveys should be checked for a recovery in new orders and production, especially among smaller manufacturers that often have less access to financing and weaker bargaining power.",
+          "id": "f2",
+          "title": "Pipeline operator showed strong cash generation but mixed accounting results",
+          "summary": "The dated quarterly release showed solid midstream operating performance alongside accounting results affected by portfolio changes.",
+          "impact": "Operating cash generation supports distributions and debt service, while throughput, contract resets, and leverage remain important sensitivities.",
+          "what": "The operator transports, gathers, stores, and handles crude oil and related products across North America. Its release reports consolidated net income, operating cash flow, and adjusted EBITDA separately. The adjusted EBITDA measure includes continuing and discontinued operations, so it should not be treated as a pure continuing-operations figure.",
+          "why": "Midstream performance depends heavily on contracted volumes, throughput, fee margins, acquisitions, and operating costs rather than headline commodity prices alone. Strong cash generation can support capital allocation, but balance-sheet actions and asset sales can make accounting comparisons less comparable.",
+          "uncertainty": "Adjusted EBITDA is non-GAAP, and portfolio changes, environmental costs, contract repricing, production volumes, customer credit, and market conditions can alter future results.",
+          "watch": "Watch throughput volumes, cash available after distributions, leverage, integration of acquired assets, and the effect of the divested Canadian business.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Manufacturing purchasing managers index"
+              "label": "Consolidated net income"
             },
             {
               "id": "m2",
-              "label": "Manufacturing production index"
+              "label": "Operating cash flow"
             },
             {
               "id": "m3",
-              "label": "Manufacturing new-orders index"
+              "label": "Adjusted EBITDA attributable to the partnership"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "China’s foreign-exchange reserves edged higher",
+          "summary": "Official data showed reserves were broadly stable at the end of October after valuation effects in currencies and global assets.",
+          "impact": "Reserve stability provides an external buffer for payments and currency management, but the monthly movement does not demonstrate stronger capital inflows.",
+          "what": "The reserve authority attributed the increase mainly to exchange-rate translation and changes in global financial-asset prices, while describing domestic economic conditions as broadly stable.",
+          "why": "Stable reserves can reduce external-financing anxiety for importers, banks, and companies with foreign-currency obligations. However, valuation changes can reverse without corresponding changes in trade, investment, or capital flows.",
+          "uncertainty": "The release does not separately quantify transaction flows, valuation changes, or the detailed composition of reserve assets.",
+          "watch": "Watch subsequent reserve data, balance-of-payments releases, exchange-rate conditions, and foreign-currency funding demand.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Foreign-exchange reserves"
             },
             {
-              "id": "m4",
-              "label": "Composite output index"
+              "id": "m2",
+              "label": "Monthly reserve change"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-CN": {
+      "status": "本期涵盖美国和中国的发展动态。请核对各项发布日期；近期公司报告仅作为背景解读。",
+      "marketSummary": {
+        "us": "所跟踪的指数在最近经核实的交易日均上涨。带日期的收盘数据仅描述相应交易日，并不代表当前交易情况。",
+        "cn": "所跟踪的指数在最近经核实的交易日均下跌。带日期的收盘数据仅描述相应交易日，并不代表当前交易情况。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "就业招聘保持稳健，工资压力仍较温和",
+          "summary": "最新就业报告显示，就业人数继续增加，失业率变化不大。",
+          "impact": "这种组合支持家庭收入和服务需求，但货币政策走向仍不确定。",
+          "what": "劳动力市场在多个服务行业和制造业持续增加就业人数，私人部门平均时薪也继续以温和的年度增幅上升。该报告属于初步估计，之后可能修订。",
+          "why": "就业增长有助于支持家庭现金流、消费，以及劳动密集型企业的营收。温和的工资增长不太可能立即造成成本冲击，但持续招聘可能使需求保持韧性。",
+          "uncertainty": "月度非农就业人数估计可能在后续修订中发生变化，这类报告无法确定劳动力市场降温是已经停止，还是只是暂时停顿。",
+          "watch": "关注后续非农就业人数修订、职位空缺、工资指标和通胀数据，以确认需求是在企稳还是走弱。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "非农就业人数变动"
+            },
+            {
+              "id": "m2",
+              "label": "失业率"
+            },
+            {
+              "id": "m3",
+              "label": "平均时薪年度变动"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "管道运营商现金生成能力强劲，但会计结果喜忧参半",
+          "summary": "该季度发布的报告显示，中游业务运营表现稳健，但资产组合变化影响了会计结果。",
+          "impact": "经营现金生成能力支持分配和偿债，但输送量、合同重定价和杠杆仍是重要敏感因素。",
+          "what": "该运营商在北美运输、集输、储存和处理原油及相关产品。其报告分别披露合并净利润、经营现金流和调整后息税折旧摊销前利润。调整后息税折旧摊销前利润包含持续经营和终止经营，因此不应视为纯粹的持续经营指标。",
+          "why": "中游业务表现高度取决于合同约定的运输量、输送量、费率利润、并购和运营成本，而不只是 headline 商品价格。强劲的现金生成能力可以支持资本配置，但资产负债表相关行动和资产出售可能降低会计数据的可比性。",
+          "uncertainty": "调整后息税折旧摊销前利润属于非公认会计准则指标；资产组合变化、环境成本、合同重新定价、产量、客户信用状况和市场环境都可能改变未来业绩。",
+          "watch": "关注输送量、分配后的可用现金、杠杆、收购资产整合情况，以及已剥离的加拿大业务所带来的影响。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "合并净利润"
+            },
+            {
+              "id": "m2",
+              "label": "经营现金流"
+            },
+            {
+              "id": "m3",
+              "label": "归属于合伙企业的调整后息税折旧摊销前利润"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "中国外汇储备小幅上升",
+          "summary": "官方数据显示，期末外汇储备总体稳定，汇率和全球资产估值变化产生了影响。",
+          "impact": "外汇储备稳定为支付和汇率管理提供外部缓冲，但月度变动并不能证明资本流入增强。",
+          "what": "外汇储备管理部门表示，此次增加主要由汇率折算和全球金融资产价格变化推动，并称国内经济状况总体稳定。",
+          "why": "外汇储备稳定可以降低进口商、银行和承担外币债务的企业对外部融资的担忧。不过，估值变化可能逆转，而贸易、投资或资本流动未必同步变化。",
+          "uncertainty": "公告没有分别量化交易流量、估值变化或储备资产的详细构成。",
+          "watch": "关注后续外汇储备数据、国际收支公告、汇率状况和外币融资需求。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "外汇储备"
+            },
+            {
+              "id": "m2",
+              "label": "外汇储备月度变动"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication associée ; les récents rapports d’entreprises servent de contexte explicatif.",
+      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les récents rapports d’entreprises sont présentés comme des explications de contexte.",
       "marketSummary": {
-        "us": "Certaines observations sur les clôtures n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
-        "cn": "Tous les indices suivis ont reculé lors de leur dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+        "us": "Les indices suivis ont tous deux progressé lors de leur dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Les indices suivis ont tous deux reculé lors de leur dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Les embauches progressent aux États-Unis, tandis que la hausse des salaires reste soutenue",
-          "summary": "Le dernier rapport sur l’emploi a montré une accélération des créations d’emplois salariés, un chômage stable et une poursuite de la hausse nominale des salaires, tandis que davantage de personnes ont accepté un travail à temps partiel pour des raisons économiques.",
-          "impact": "Cette combinaison soutient les revenus des ménages et la demande des entreprises, mais elle incite moins les responsables de la politique monétaire à assouplir rapidement les conditions financières.",
-          "what": "Le Bureau of Labor Statistics combine une enquête auprès des employeurs sur l’emploi salarié et une enquête auprès des ménages sur la situation professionnelle. Les embauches se sont concentrées dans les services professionnels et aux entreprises, la santé, les transports et l’entreposage. L’industrie manufacturière a également recruté. L’enquête auprès des ménages a montré peu d’évolution du taux de chômage global, mais le temps partiel subi a augmenté. Le taux global ne reflète donc pas toutes les formes de sous-utilisation de la main-d’œuvre.",
-          "why": "La croissance de l’emploi salarié soutient la consommation, car les salaires constituent la principale source de revenus de la plupart des ménages. Une hausse soutenue des salaires peut aussi accroître les coûts des entreprises de services et entretenir les pressions inflationnistes si la productivité progresse moins vite. Pour les marchés, la solidité de l’emploi peut améliorer les perspectives de chiffre d’affaires des entreprises, tout en maintenant les rendements obligataires à un niveau élevé. Cela crée un arbitrage entre vigueur économique et coûts de financement plus élevés.",
-          "uncertainty": "Les enquêtes auprès des employeurs et des ménages portent sur des populations différentes et peuvent diverger. Les estimations récentes de l’emploi salarié restent provisoires et peuvent être révisées à mesure que les réponses des employeurs arrivent. La hausse nominale des salaires ne montre pas non plus si le pouvoir d’achat a progressé après inflation. L’augmentation du temps partiel subi peut être temporaire ou signaler une dégradation de la qualité des emplois.",
-          "watch": "Surveillez les révisions des estimations récentes de l’emploi salarié, le taux d’activité, le temps partiel subi et les revenus corrigés de l’inflation. Les demandes hebdomadaires d’allocations chômage et les enquêtes sur les recrutements des entreprises peuvent indiquer si l’accélération est durable ou concentrée dans un nombre limité de secteurs.",
+          "title": "Les embauches sont restées solides, tandis que les tensions salariales sont demeurées modérées",
+          "summary": "Le dernier rapport sur l’emploi fait état d’une poursuite de la progression de l’emploi et de peu de variation du chômage.",
+          "impact": "Cette combinaison soutient les revenus des ménages et la demande de services, mais laisse incertaine l’évolution de la politique monétaire.",
+          "what": "Le marché du travail a créé des emplois dans divers secteurs des services et dans l’industrie manufacturière, tandis que la rémunération horaire du secteur privé a continué d’augmenter à un rythme annuel modéré. Le rapport constitue une estimation préliminaire et peut être révisé.",
+          "why": "La progression de l’emploi soutient les flux de trésorerie des ménages, la consommation et le chiffre d’affaires des entreprises utilisant beaucoup de main-d’œuvre. Une croissance salariale modérée est moins susceptible de provoquer immédiatement un choc de coûts, même si des embauches persistantes peuvent maintenir une demande résistante.",
+          "uncertainty": "Les estimations mensuelles de l’emploi peuvent changer lors de révisions ultérieures, et un seul rapport ne permet pas d’établir si le refroidissement du marché du travail s’est arrêté ou a simplement marqué une pause.",
+          "watch": "Surveillez les révisions ultérieures de l’emploi, les offres d’emploi, les indicateurs de rémunération et les données d’inflation afin de confirmer si la demande se stabilise ou s’affaiblit.",
           "metricLabels": [
             {
               "id": "m1",
@@ -328,125 +423,72 @@
             },
             {
               "id": "m3",
-              "label": "Croissance du salaire horaire moyen"
-            },
-            {
-              "id": "m4",
-              "label": "Variation du temps partiel subi"
+              "label": "Variation annuelle de la rémunération horaire"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "Les enquêtes auprès des entreprises chinoises signalent une contraction",
-          "summary": "Les enquêtes officielles chinoises auprès des directeurs d’achat ont indiqué un affaiblissement de la production manufacturière, des commandes et de l’activité économique globale durant le dernier mois publié.",
-          "impact": "Le recul des commandes peut limiter l’utilisation des capacités de production, les embauches et les prix pratiqués par les fournisseurs. Il peut ainsi peser sur les perspectives de bénéfices dans les chaînes d’approvisionnement industrielles, de consommation et de logistique.",
-          "what": "L’enquête officielle auprès des directeurs d’achat demande aux entreprises manufacturières et de services si leur activité s’est améliorée, détériorée ou stabilisée. L’indice manufacturier global est passé sous le seuil neutre, tandis que la production et les nouvelles commandes ont également signalé une contraction. L’indice composite couvrant les activités manufacturières et non manufacturières est lui aussi tombé sous le niveau associé à une expansion. Cela suggère que le ralentissement ne concernait pas seulement une branche industrielle limitée.",
-          "why": "Les nouvelles commandes donnent une indication précoce sur la production future, car les usines adaptent généralement leurs achats, leurs effectifs et l’utilisation de leurs machines à la demande attendue. La faiblesse des commandes peut réduire la visibilité sur le chiffre d’affaires des fabricants d’équipements, des fournisseurs de matériaux et des entreprises de transport. Pour les ménages, le ralentissement de l’activité peut affecter les embauches et la confiance dans l’évolution des salaires. Pour les finances des entreprises, une moindre utilisation des capacités peut peser sur les marges, même si les coûts des matières premières deviennent moins contraignants.",
-          "uncertainty": "L’enquête repose sur un indice de diffusion et ne mesure pas directement la production ou le chiffre d’affaires. Elle peut être volatile autour des périodes de congés et lors de changements dans les calendriers de livraison. Les grands fabricants sont restés en meilleure position que les petites entreprises ; l’indice global masque donc des situations inégales. La faiblesse de l’enquête ne permet pas non plus de déterminer la durée du ralentissement ni si le soutien public améliorera la demande.",
-          "watch": "Surveillez la production industrielle, les ventes au détail, les exportations, les bénéfices des entreprises et la demande de crédit afin de rechercher une confirmation dans les données concrètes. Les prochaines enquêtes auprès des directeurs d’achat devront être examinées pour détecter une reprise des nouvelles commandes et de la production, surtout chez les petits fabricants, qui ont souvent un accès plus limité au financement et un pouvoir de négociation plus faible.",
+          "id": "f2",
+          "title": "L’opérateur de réseaux de transport a affiché une solide génération de trésorerie, mais des résultats comptables contrastés",
+          "summary": "La publication trimestrielle datée fait état d’une solide performance opérationnelle dans les activités intermédiaires, parallèlement à des résultats comptables affectés par des changements de portefeuille.",
+          "impact": "La génération de trésorerie opérationnelle soutient les distributions et le service de la dette, tandis que les volumes transportés, les renégociations de contrats et l’endettement restent des facteurs de sensibilité importants.",
+          "what": "L’opérateur transporte, collecte, stocke et traite du pétrole brut et des produits associés en Amérique du Nord. Sa publication présente séparément le résultat net consolidé, les flux de trésorerie liés aux activités opérationnelles et l’EBITDA ajusté. L’EBITDA ajusté inclut les activités poursuivies et abandonnées ; il ne doit donc pas être considéré comme un indicateur des seules activités poursuivies.",
+          "why": "La performance des activités intermédiaires dépend fortement des volumes contractuels, des volumes transportés, des marges de commission, des acquisitions et des coûts d’exploitation, plutôt que des seuls cours des matières premières. Une solide génération de trésorerie peut soutenir l’allocation du capital, mais les opérations sur le bilan et les cessions d’actifs peuvent rendre les comparaisons comptables moins homogènes.",
+          "uncertainty": "L’EBITDA ajusté est une mesure non conforme aux normes comptables, et les changements de portefeuille, les coûts environnementaux, la renégociation des contrats, les volumes de production, la qualité de crédit des clients et les conditions de marché peuvent modifier les résultats futurs.",
+          "watch": "Surveillez les volumes transportés, la trésorerie disponible après distributions, l’endettement, l’intégration des actifs acquis et l’effet de l’activité canadienne cédée.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Indice des directeurs d’achat du secteur manufacturier"
+              "label": "Résultat net consolidé"
             },
             {
               "id": "m2",
-              "label": "Indice de production manufacturière"
+              "label": "Flux de trésorerie liés aux activités opérationnelles"
             },
             {
               "id": "m3",
-              "label": "Indice des nouvelles commandes manufacturières"
-            },
-            {
-              "id": "m4",
-              "label": "Indice composite de la production"
-            }
-          ]
-        }
-      ]
-    },
-    "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请核对各项发布日期；近期公司报告仅作为背景解读。",
-      "marketSummary": {
-        "us": "部分收盘信息无法核实。各项可用指数均保留各自的交易日期。",
-        "cn": "所跟踪的指数在最近可核实的交易日均下跌。带日期的收盘数据描述的是相应交易日，而非当前行情。"
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "美国招聘改善，工资增长仍然稳健",
-          "summary": "最新劳动力报告显示，非农就业人数增长加快，失业率保持稳定，名义工资继续增长；同时，因经济原因接受非自愿兼职工作的劳动者增加。",
-          "impact": "这种组合有助于支撑家庭收入和企业需求，但也减少了货币政策制定者迅速放宽金融环境的理由。",
-          "what": "美国劳工统计局综合使用企业调查和家庭调查，前者统计非农就业人数，后者了解就业状况。新增就业主要集中在专业和商业服务、医疗保健、运输和仓储行业，制造业也增加了员工。家庭调查显示，整体失业率变化不大，但非自愿兼职就业增加，说明整体失业率无法反映劳动力市场的所有疲软情况。",
-          "why": "工资是大多数家庭的主要收入来源，因此非农就业人数增长有助于支撑消费支出。若生产率增长没有工资快，稳健的工资增长也可能推高服务企业的成本，并使通胀压力持续。对市场而言，就业保持韧性可能提高市场对企业营收的预期，同时使债券收益率维持高位，形成经济强劲与融资成本上升之间的权衡。",
-          "uncertainty": "企业调查和家庭调查覆盖的人群不同，结果可能出现分化。近期非农就业人数估算仍是初步数据，随着更多企业提交回复，数据可能被修正。名义工资增长也无法说明劳动者扣除通胀后购买力是否提高；非自愿兼职工作增加可能只是暂时现象，也可能表明就业质量转弱。",
-          "watch": "关注近期非农就业人数估算的修正、劳动参与率、非自愿兼职就业以及经通胀调整后的收入。周度初请失业金人数和企业招聘调查有助于判断就业加速是否可持续，或是否仅集中在少数行业。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "非农就业人数变化"
-            },
-            {
-              "id": "m2",
-              "label": "失业率"
-            },
-            {
-              "id": "m3",
-              "label": "平均时薪增长"
-            },
-            {
-              "id": "m4",
-              "label": "非自愿兼职就业变化"
+              "label": "EBITDA ajusté attribuable à la société en commandite"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "中国商业调查指标跌入收缩区间",
-          "summary": "中国官方采购经理调查显示，在最新报告月份，制造业生产、订单和整体商业活动均有所减弱。",
-          "impact": "订单走弱可能抑制工厂产能利用率、招聘和供应商定价，并拖累工业、消费和物流供应链的盈利预期。",
-          "what": "官方采购经理调查会询问制造业和服务业企业，其经营活动是改善、减弱还是保持不变。制造业总体指数跌破中性临界值，生产和新订单指标也显示收缩。涵盖制造业与非制造业活动的综合指标同样跌破扩张区间，表明放缓并非仅限于狭窄的制造业领域。",
-          "why": "新订单是判断未来生产情况的先行指标，因为工厂通常会根据预期需求调整采购、用工和机器使用。订单疲软可能降低设备制造商、材料供应商和运输企业的营收可见度。对家庭而言，商业活动放缓可能影响招聘和工资信心。对企业财务而言，即使原材料成本压力减轻，产能利用率下降仍可能挤压利润率。",
-          "uncertainty": "这项调查属于扩散指数，并非产出或营收的直接衡量指标，而且可能因节假日和交付安排变化而波动。大型制造商的经营状况仍强于小型企业，因此总体指数掩盖了不均衡的情况。调查走弱也无法确定放缓会持续多久，或政策支持能否改善需求。",
-          "watch": "关注工业生产、零售销售、出口、企业利润和信贷需求，以观察硬数据是否提供确认。后续采购经理调查应重点查看新订单和生产是否回升，尤其是融资渠道通常更有限、议价能力更弱的小型制造商。",
+          "id": "f4",
+          "title": "Les réserves de change de la Chine ont légèrement augmenté",
+          "summary": "Les données officielles indiquent que les réserves sont restées globalement stables à la fin d’octobre, après des effets de valorisation liés aux monnaies et aux actifs mondiaux.",
+          "impact": "La stabilité des réserves constitue un volant de sécurité externe pour les paiements et la gestion de la monnaie, mais leur évolution mensuelle ne démontre pas un renforcement des entrées de capitaux.",
+          "what": "L’autorité chargée des réserves a attribué la hausse principalement aux effets de conversion des taux de change et aux variations des prix des actifs financiers mondiaux, tout en décrivant les conditions économiques intérieures comme globalement stables.",
+          "why": "Des réserves stables peuvent réduire les inquiétudes liées au financement extérieur pour les importateurs, les banques et les entreprises ayant des obligations en devises. Toutefois, les variations de valorisation peuvent s’inverser sans changement correspondant des échanges, des investissements ou des flux de capitaux.",
+          "uncertainty": "La publication ne quantifie pas séparément les flux de transactions, les variations de valorisation ni la composition détaillée des actifs de réserve.",
+          "watch": "Surveillez les prochaines données sur les réserves, les publications sur la balance des paiements, les conditions de change et la demande de financement en devises.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "制造业采购经理指数"
+              "label": "Réserves de change"
             },
             {
               "id": "m2",
-              "label": "制造业生产指数"
-            },
-            {
-              "id": "m3",
-              "label": "制造业新订单指数"
-            },
-            {
-              "id": "m4",
-              "label": "综合产出指数"
+              "label": "Variation mensuelle des réserves"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Revise la fecha de cada publicación; los informes empresariales recientes se presentan como contexto explicativo.",
+      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Comprueba la fecha de publicación de cada historia; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Algunas observaciones sobre los cierres no pudieron verificarse. Cada índice disponible conserva su propia fecha de negociación.",
-        "cn": "Los índices seguidos cayeron en sus sesiones verificadas más recientes. Los cierres con fecha describen esas sesiones, no la negociación actual."
+        "us": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
+        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La contratación en Estados Unidos mejora y el crecimiento salarial se mantiene firme",
-          "summary": "El informe laboral más reciente mostró una mayor creación de empleo, desempleo estable y un crecimiento nominal sostenido de los salarios, junto con más trabajadores que aceptaron jornadas parciales por motivos económicos.",
-          "impact": "Esta combinación respalda los ingresos de los hogares y la demanda empresarial, pero también reduce los motivos de las autoridades monetarias para relajar rápidamente las condiciones financieras.",
-          "what": "La Oficina de Estadísticas Laborales combina una encuesta a empleadores sobre el empleo con una encuesta a hogares sobre la situación laboral. La contratación se concentró en servicios profesionales y empresariales, atención médica, transporte y almacenamiento, mientras que la industria manufacturera también sumó trabajadores. La encuesta a hogares mostró pocos cambios en la tasa general de desempleo, pero aumentó el empleo parcial involuntario, lo que indica que la tasa general no refleja toda la capacidad laboral desaprovechada.",
-          "why": "El crecimiento del empleo favorece el gasto de los consumidores porque los salarios son la principal fuente de ingresos de la mayoría de los hogares. Un crecimiento salarial firme también puede elevar los costos de las empresas de servicios y mantener la presión inflacionaria cuando la productividad no aumenta al mismo ritmo. Para los mercados, la solidez del empleo puede mejorar las expectativas de ingresos empresariales y, al mismo tiempo, mantener elevados los rendimientos de los bonos, creando una tensión entre fortaleza económica y mayores costos de financiación.",
-          "uncertainty": "Las encuestas a empleadores y hogares miden poblaciones distintas y pueden mostrar resultados diferentes. Las estimaciones recientes de empleo siguen siendo preliminares y pueden revisarse a medida que lleguen más respuestas de empleadores. El crecimiento salarial nominal tampoco muestra si los trabajadores ganaron poder adquisitivo después de la inflación, mientras que el aumento del empleo parcial involuntario podría ser temporal o indicar una menor calidad del empleo.",
-          "watch": "Conviene observar las revisiones de las estimaciones recientes de empleo, la participación laboral, el empleo parcial involuntario y los ingresos ajustados por inflación. Las solicitudes semanales de prestaciones por desempleo y las encuestas empresariales de contratación pueden ayudar a determinar si la aceleración es duradera o está concentrada en pocos sectores.",
+          "title": "La contratación se mantuvo firme mientras la presión salarial siguió siendo moderada",
+          "summary": "El último informe laboral mostró un crecimiento sostenido del empleo y pocos cambios en el desempleo.",
+          "impact": "La combinación respalda los ingresos de los hogares y la demanda de servicios, pero mantiene incierta la trayectoria de la política monetaria.",
+          "what": "El mercado laboral incorporó trabajadores en varias industrias de servicios y en la manufactura, mientras que la remuneración privada por hora siguió aumentando a un ritmo anual moderado. El informe es una estimación preliminar y puede revisarse.",
+          "why": "El crecimiento del empleo respalda el flujo de caja de los hogares, el consumo y la facturación de las empresas intensivas en mano de obra. Un crecimiento salarial moderado reduce la probabilidad de un impacto inmediato en los costes, aunque una contratación persistente puede mantener resistente la demanda.",
+          "uncertainty": "Las estimaciones mensuales de empleo pueden cambiar con revisiones posteriores, y la información de un informe no permite determinar si el enfriamiento del mercado laboral terminó o solo se detuvo temporalmente.",
+          "watch": "Observa las revisiones posteriores del empleo, las vacantes, las medidas salariales y los datos de inflación para confirmar si la demanda se estabiliza o se debilita.",
           "metricLabels": [
             {
               "id": "m1",
@@ -458,64 +500,76 @@
             },
             {
               "id": "m3",
-              "label": "Crecimiento de los ingresos medios por hora"
-            },
-            {
-              "id": "m4",
-              "label": "Variación del empleo parcial involuntario"
+              "label": "Variación anual de la remuneración por hora"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "Las encuestas empresariales de China entran en contracción",
-          "summary": "Las encuestas oficiales de gestores de compras de China indicaron que la producción manufacturera, los pedidos y la actividad empresarial general se debilitaron durante el mes de referencia más reciente.",
-          "impact": "La debilidad de los pedidos puede limitar el uso de la capacidad industrial, la contratación y los precios de los proveedores, perjudicando las expectativas de beneficios en las cadenas de suministro industriales, de consumo y logísticas.",
-          "what": "La encuesta oficial de gestores de compras pregunta a empresas manufactureras y de servicios si la actividad mejoró, empeoró o permaneció sin cambios. El indicador principal de manufactura cayó por debajo del umbral neutral, mientras que la producción y los nuevos pedidos también señalaron contracción. El indicador compuesto, que abarca actividades manufactureras y no manufactureras, también cayó por debajo del nivel asociado con la expansión, lo que sugiere que la desaceleración no se limitó a un segmento industrial reducido.",
-          "why": "Los nuevos pedidos ofrecen una señal temprana de la producción futura porque las fábricas suelen ajustar sus compras, plantilla y uso de maquinaria según la demanda esperada. La debilidad de los pedidos puede reducir la visibilidad de los ingresos para fabricantes de equipos, proveedores de materiales y empresas de transporte. Para los hogares, una actividad empresarial más lenta puede afectar la contratación y la confianza en los salarios. Para las finanzas empresariales, un menor uso de la capacidad puede presionar los márgenes, aunque los costos de las materias primas sean menos exigentes.",
-          "uncertainty": "La encuesta es un índice de difusión, no una medición directa de la producción o los ingresos, y puede ser volátil en torno a días festivos y cambios en los calendarios de entrega. Los grandes fabricantes conservaron una posición más sólida que las empresas pequeñas, por lo que el indicador general oculta condiciones desiguales. La debilidad de la encuesta tampoco determina cuánto durará la desaceleración ni si el apoyo de las políticas mejorará la demanda.",
-          "watch": "Conviene observar la producción industrial, las ventas minoristas, las exportaciones, los beneficios empresariales y la demanda de crédito para buscar confirmación en datos concretos. Las próximas encuestas de gestores de compras deberían revisarse para detectar una recuperación de los nuevos pedidos y la producción, especialmente entre los fabricantes pequeños, que suelen tener menos acceso a financiación y menor poder de negociación.",
+          "id": "f2",
+          "title": "El operador de oleoductos generó mucho efectivo, pero presentó resultados contables mixtos",
+          "summary": "El informe trimestral fechado mostró un sólido desempeño operativo del negocio midstream junto con resultados contables afectados por cambios en la cartera de activos.",
+          "impact": "La generación de efectivo operativo respalda las distribuciones y el servicio de la deuda, mientras que el volumen transportado, las revisiones contractuales y el apalancamiento siguen siendo factores sensibles.",
+          "what": "El operador transporta, recoge, almacena y gestiona crudo y productos relacionados en Norteamérica. Su informe presenta por separado el resultado neto consolidado, el flujo de caja operativo y el EBITDA ajustado. El EBITDA ajustado incluye operaciones continuadas y discontinuadas, por lo que no debe considerarse una medida pura de las operaciones continuadas.",
+          "why": "El desempeño midstream depende en gran medida de los volúmenes contratados, el volumen transportado, los márgenes por tarifas, las adquisiciones y los costes operativos, no solo de los precios de las materias primas. Una sólida generación de efectivo puede respaldar la asignación de capital, pero las medidas sobre el balance y las ventas de activos pueden dificultar la comparación contable.",
+          "uncertainty": "El EBITDA ajustado no es una medida conforme a los principios contables generalmente aceptados, y los cambios en la cartera, los costes ambientales, la revisión de contratos, los volúmenes de producción, el crédito de los clientes y las condiciones de mercado pueden modificar los resultados futuros.",
+          "watch": "Observa los volúmenes transportados, el efectivo disponible después de las distribuciones, el apalancamiento, la integración de los activos adquiridos y el efecto del negocio canadiense vendido.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice de gestores de compras del sector manufacturero"
+              "label": "Resultado neto consolidado"
             },
             {
               "id": "m2",
-              "label": "Índice de producción manufacturera"
+              "label": "Flujo de caja operativo"
             },
             {
               "id": "m3",
-              "label": "Índice de nuevos pedidos manufactureros"
+              "label": "EBITDA ajustado atribuible a la sociedad"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Las reservas de divisas de China aumentaron ligeramente",
+          "summary": "Los datos oficiales mostraron que las reservas se mantuvieron en general estables al cierre de octubre, tras los efectos de valoración de las divisas y los activos mundiales.",
+          "impact": "La estabilidad de las reservas proporciona un colchón externo para los pagos y la gestión cambiaria, pero la variación mensual no demuestra una mayor entrada de capitales.",
+          "what": "La autoridad de reservas atribuyó el aumento principalmente a la conversión por tipos de cambio y a los cambios en los precios de los activos financieros mundiales, mientras describía las condiciones económicas internas como estables en general.",
+          "why": "Unas reservas estables pueden reducir la preocupación por la financiación externa entre importadores, bancos y empresas con obligaciones en moneda extranjera. Sin embargo, los cambios de valoración pueden revertirse sin que cambien el comercio, la inversión o los flujos de capital.",
+          "uncertainty": "El comunicado no cuantifica por separado los flujos de transacciones, los cambios de valoración ni la composición detallada de los activos de reserva.",
+          "watch": "Observa los datos posteriores sobre reservas, los informes de balanza de pagos, las condiciones del tipo de cambio y la demanda de financiación en moneda extranjera.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Reservas de divisas"
             },
             {
-              "id": "m4",
-              "label": "Índice compuesto de producción"
+              "id": "m2",
+              "label": "Variación mensual de las reservas"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版では米国と中国の動向を扱います。各情報の公表日を確認してください。最近の企業報告は、背景を説明する情報として掲載しています。",
+      "status": "この版では、米国と中国の動きを扱います。各公表日を確認してください。最近の企業報告は背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "一部の終値情報は確認できませんでした。確認できた各指数には、それぞれの取引日を記載しています。",
-        "cn": "追跡対象の両指数は、直近で確認できた取引日に下落しました。記載された終値はその取引日のもので、現在の取引状況ではありません。"
+        "us": "追跡している両指数は、直近の確認済み取引で上昇しました。記載された終値はその取引時点のもので、現在の取引を示すものではありません。",
+        "cn": "追跡している両指数は、直近の確認済み取引で下落しました。記載された終値はその取引時点のもので、現在の取引を示すものではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "米国の雇用は改善、賃金の伸びも堅調",
-          "summary": "最新の雇用統計では、雇用者数の伸びが強まり、失業率は安定し、名目賃金の上昇が続きました。一方、経済的な理由でパートタイム勤務を受け入れる人も増えました。",
-          "impact": "この組み合わせは家計所得と企業需要を支えますが、金融政策当局が金融環境を早期に緩和する理由を弱める面もあります。",
-          "what": "米労働統計局は、企業を対象とする雇用者数調査と、家計を対象とする就業状況調査を組み合わせています。雇用の増加は専門・ビジネスサービス、医療、運輸・倉庫に集中し、製造業でも雇用者が増えました。家計調査では主要な失業率にほとんど変化がありませんでしたが、非自発的なパートタイム雇用は増加しました。これは、主要な失業率だけでは労働市場の余力をすべて捉えられないことを示します。",
-          "why": "賃金は多くの家計にとって主な収入源であるため、雇用者数の増加は個人消費を支えます。賃金の堅調な伸びは、サービス企業のコストを押し上げ、生産性の伸びが追いつかない場合にはインフレ圧力を長引かせる可能性もあります。市場にとっては、底堅い雇用が企業の予想売上高を押し上げる一方、債券利回りを高止まりさせる可能性があります。このため、景気の強さと資金調達コストの上昇が相反する関係になります。",
-          "uncertainty": "企業調査と家計調査では対象とする人々が異なるため、結果が食い違うことがあります。最近の雇用者数推計は速報段階であり、企業からの回答が増えると修正される可能性があります。名目賃金の伸びだけでは、インフレ調整後の購買力が高まったかは分かりません。非自発的なパートタイム雇用の増加も、一時的な可能性と、雇用の質の低下を示す可能性があります。",
-          "watch": "最近の雇用者数推計の修正、労働参加率、非自発的なパートタイム雇用、インフレ調整後の所得に注目します。毎週の失業保険申請件数や企業の採用調査は、雇用の加速が持続的なのか、限られた業種に集中しているのかを判断する助けになります。",
+          "title": "雇用は堅調で、賃金上昇圧力は緩やかなまま",
+          "summary": "最新の雇用統計では、雇用の伸びが続き、失業率には大きな変化がありませんでした。",
+          "impact": "この組み合わせは家計所得とサービス需要を支えますが、金融政策の方向性は不確実なままです。",
+          "what": "労働市場では、複数のサービス業と製造業で雇用者が増えました。一方、民間の時間当たり賃金は、緩やかな年率ペースで上昇を続けました。この統計は暫定推計であり、後から修正される可能性があります。",
+          "why": "雇用の増加は、家計のキャッシュフローや消費、労働集約型企業の売上高を支えます。賃金上昇が緩やかなら、急なコストショックは起こりにくいと考えられますが、雇用が続けば需要は底堅くなり得ます。",
+          "uncertainty": "月次の雇用者数推計は後日の修正で変わる可能性があり、この報告だけでは労働市場の減速が止まったのか、一時的に止まっているだけなのかを判断できません。",
+          "watch": "その後の雇用者数の修正、求人件数、賃金指標、インフレ指標を確認し、需要が安定しているのか弱まっているのかを見極めます。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "雇用者数の増減"
+              "label": "雇用者数の変化"
             },
             {
               "id": "m2",
@@ -523,64 +577,76 @@
             },
             {
               "id": "m3",
-              "label": "平均時給の伸び"
-            },
-            {
-              "id": "m4",
-              "label": "非自発的なパートタイム雇用の増減"
+              "label": "時間当たり賃金の前年比変化"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "中国の企業景況感調査が縮小圏に低下",
-          "summary": "中国の公式な購買担当者調査は、最新の報告月に製造業の生産、受注、幅広い企業活動が弱まったことを示しました。",
-          "impact": "受注の弱まりは、工場の稼働率、雇用、仕入れ先の価格設定を抑える可能性があり、産業、消費、物流の各サプライチェーンで利益見通しの重荷になります。",
-          "what": "公式の購買担当者調査は、製造業とサービス業の企業に、活動が改善したか、悪化したか、変わらなかったかを尋ねます。製造業の総合指数は中立水準を下回り、生産と新規受注も縮小を示しました。製造業と非製造業を含む総合産出指数も、拡大を示す水準を下回りました。これは、減速が一部の工場分野だけに限られていない可能性を示します。",
-          "why": "工場は通常、予想需要に応じて仕入れ、人員配置、設備の使用を調整するため、新規受注は将来の生産を早めに示す手掛かりになります。受注の弱さは、設備メーカー、素材供給会社、運輸会社にとって売上高の見通しを不透明にします。家計にとっては、企業活動の減速が雇用や賃金への安心感に影響する可能性があります。企業財務では、原材料コストの負担が軽くなっても、稼働率の低下が利益率を圧迫する可能性があります。",
-          "uncertainty": "この調査は生産量や売上高を直接測るものではなく、回答の広がりを示す指数です。祝日や納期の変化を受けて大きく動く場合があります。大手製造業は中小企業よりも強い状態を維持しているため、総合指数だけでは状況のばらつきが見えにくくなります。調査の弱さだけでは、減速がどれほど続くかや、政策支援によって需要が改善するかは分かりません。",
-          "watch": "鉱工業生産、小売売上高、輸出、企業利益、資金需要を確認し、実際の統計でも同じ傾向が見られるかに注目します。今後の購買担当者調査では、新規受注と生産が回復するかを確認する必要があります。特に、資金調達の選択肢が少なく、価格交渉力も弱いことが多い中小製造業が重要です。",
+          "id": "f2",
+          "title": "パイプライン運営会社、キャッシュ創出は堅調も会計上の結果はまちまち",
+          "summary": "公表日が示された四半期決算では、ミッドストリーム事業の運営は堅調でしたが、事業ポートフォリオの変化が会計上の結果に影響しました。",
+          "impact": "営業キャッシュの創出は分配や債務返済を支えますが、取扱量、契約条件の見直し、レバレッジは重要な変動要因です。",
+          "what": "この運営会社は、北米で原油や関連製品の輸送、集荷、貯蔵、取扱いを行っています。発表資料では、連結純利益、営業キャッシュフロー、調整後EBITDAを別々に報告しています。調整後EBITDAには継続事業と非継続事業が含まれるため、継続事業だけの数値として扱うべきではありません。",
+          "why": "ミッドストリーム事業の業績は、見出しとなる商品価格だけでなく、契約済み取扱量、取扱量、手数料マージン、買収、運営費に大きく左右されます。キャッシュ創出が堅調なら資本配分を支えられますが、貸借対照表に関する対応や資産売却によって、会計上の比較が難しくなる場合があります。",
+          "uncertainty": "調整後EBITDAは非GAAP指標です。また、事業ポートフォリオの変化、環境関連費用、契約価格の見直し、生産量、顧客の信用力、市場環境によって、今後の結果は変わる可能性があります。",
+          "watch": "取扱量、分配後に残るキャッシュ、レバレッジ、買収資産の統合、売却したカナダ事業の影響を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "製造業購買担当者景気指数"
+              "label": "連結純利益"
             },
             {
               "id": "m2",
-              "label": "製造業生産指数"
+              "label": "営業キャッシュフロー"
             },
             {
               "id": "m3",
-              "label": "製造業新規受注指数"
+              "label": "パートナーシップに帰属する調整後EBITDA"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "中国の外貨準備高が小幅に増加",
+          "summary": "公表データでは、通貨や世界の資産価格の評価変動を受け、十月末の外貨準備高はおおむね安定していました。",
+          "impact": "外貨準備の安定は、決済や通貨管理における対外的な緩衝材となりますが、月間の変化だけで資本流入の増加を示すものではありません。",
+          "what": "外貨準備当局は、増加の主な要因として為替換算の変化と世界の金融資産価格の変動を挙げ、国内経済の状況はおおむね安定していると説明しました。",
+          "why": "外貨準備が安定していれば、輸入業者、銀行、外貨建て債務を抱える企業にとって、対外資金調達への懸念を和らげる可能性があります。ただし、評価変動は貿易、投資、資本フローに対応した変化がなくても反転する可能性があります。",
+          "uncertainty": "発表資料では、取引による資金フロー、評価変動、外貨準備資産の詳細な構成を個別には示していません。",
+          "watch": "その後の外貨準備データ、国際収支統計、為替環境、外貨資金への需要を確認します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "外貨準備高"
             },
             {
-              "id": "m4",
-              "label": "総合産出指数"
+              "id": "m2",
+              "label": "月間の外貨準備高の変化"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição aborda acontecimentos nos EUA e na China. Confira a data de cada publicação; relatórios empresariais recentes são apresentados como explicações de contexto.",
+      "status": "Esta edição abrange acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Não foi possível verificar algumas observações de fechamento. Cada índice disponível mantém sua própria data de negociação.",
-        "cn": "Os dois índices acompanhados caíram nas últimas sessões verificadas. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+        "us": "Os índices acompanhados subiram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
+        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Contratações nos EUA melhoram, enquanto crescimento salarial permanece firme",
-          "summary": "O relatório de trabalho mais recente mostrou maior expansão do emprego, desemprego estável e continuidade do crescimento nominal dos salários, além de mais trabalhadores aceitando jornadas parciais por razões econômicas.",
-          "impact": "Essa combinação sustenta a renda das famílias e a demanda das empresas, mas também reduz os motivos para as autoridades monetárias afrouxarem rapidamente as condições financeiras.",
-          "what": "O Departamento de Estatísticas do Trabalho combina uma pesquisa com empregadores sobre empregos em folha de pagamento e uma pesquisa domiciliar sobre a situação de emprego. As contratações se concentraram em serviços profissionais e empresariais, saúde, transportes e armazenagem, enquanto a indústria também adicionou trabalhadores. A pesquisa domiciliar mostrou pouca mudança no desemprego principal, mas o trabalho involuntário em jornada parcial aumentou, indicando que a taxa principal não capta toda a ociosidade do mercado de trabalho.",
-          "why": "O crescimento do emprego sustenta o consumo porque os salários são a principal fonte de renda da maioria das famílias. O crescimento salarial firme também pode elevar os custos das empresas de serviços e manter a pressão inflacionária quando a produtividade não avança com a mesma rapidez. Para os mercados, o emprego resistente pode elevar as expectativas de receita empresarial, mas também manter os rendimentos dos títulos elevados, criando um equilíbrio difícil entre força econômica e custos de financiamento maiores.",
-          "uncertainty": "As pesquisas com empregadores e domicílios medem populações diferentes e podem divergir. As estimativas recentes de emprego continuam preliminares e podem ser revisadas à medida que chegam mais respostas dos empregadores. O crescimento nominal dos salários também não mostra se os trabalhadores ganharam poder de compra após a inflação, enquanto o aumento do trabalho involuntário em jornada parcial pode ser temporário ou sinalizar piora na qualidade dos empregos.",
-          "watch": "Acompanhe as revisões das estimativas recentes de emprego, a participação na força de trabalho, o trabalho involuntário em jornada parcial e os rendimentos ajustados pela inflação. Os pedidos semanais de seguro-desemprego e as pesquisas empresariais de contratação podem ajudar a mostrar se a aceleração é duradoura ou concentrada em poucos setores.",
+          "title": "As contratações permaneceram firmes, enquanto a pressão salarial seguiu moderada",
+          "summary": "O relatório de emprego mais recente mostrou crescimento contínuo do emprego e pouca alteração na taxa de desemprego.",
+          "impact": "Essa combinação sustenta a renda das famílias e a demanda por serviços, mas mantém incerto o caminho da política monetária.",
+          "what": "O mercado de trabalho adicionou trabalhadores em vários setores de serviços e na indústria, enquanto os ganhos médios por hora no setor privado continuaram subindo em ritmo anual moderado. O relatório é uma estimativa preliminar e pode ser revisado.",
+          "why": "O crescimento do emprego sustenta o fluxo de caixa das famílias, o consumo e a receita de empresas intensivas em mão de obra. O crescimento salarial moderado tem menor probabilidade de gerar um choque imediato de custos, embora contratações persistentes possam manter a demanda resiliente.",
+          "uncertainty": "As estimativas mensais de emprego podem mudar com revisões posteriores, e um relatório isolado não permite determinar se a desaceleração do mercado de trabalho terminou ou apenas fez uma pausa.",
+          "watch": "Acompanhe as revisões posteriores do emprego, as vagas abertas, as medidas salariais e os dados de inflação para confirmar se a demanda está se estabilizando ou enfraquecendo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação do emprego em folha de pagamento"
+              "label": "Variação do emprego não agrícola"
             },
             {
               "id": "m2",
@@ -588,64 +654,76 @@
             },
             {
               "id": "m3",
-              "label": "Crescimento do salário médio por hora"
-            },
-            {
-              "id": "m4",
-              "label": "Variação do trabalho involuntário em jornada parcial"
+              "label": "Variação anual dos ganhos por hora"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "Pesquisas empresariais da China indicam contração",
-          "summary": "As pesquisas oficiais da China com gerentes de compras indicaram enfraquecimento da produção industrial, dos pedidos e da atividade empresarial geral no mês mais recente divulgado.",
-          "impact": "Pedidos mais fracos podem limitar a utilização das fábricas, as contratações e os preços dos fornecedores, pressionando as expectativas de lucros nas cadeias industriais, de consumo e de logística.",
-          "what": "A pesquisa oficial com gerentes de compras pergunta a fabricantes e empresas de serviços se a atividade melhorou, piorou ou permaneceu estável. O indicador principal da indústria ficou abaixo do limite neutro, enquanto a produção e os novos pedidos também sinalizaram contração. A medida composta, que abrange atividades industriais e não industriais, também caiu abaixo do nível associado à expansão, sugerindo que a desaceleração não ficou restrita a um pequeno segmento industrial.",
-          "why": "Os novos pedidos são um indicador inicial da produção futura porque as fábricas geralmente ajustam compras, equipes e uso de máquinas conforme a demanda esperada. Pedidos fracos podem reduzir a visibilidade das receitas de fabricantes de equipamentos, fornecedores de materiais e transportadoras. Para as famílias, a desaceleração da atividade empresarial pode afetar as contratações e a confiança nos salários. Para as finanças empresariais, a menor utilização da capacidade pode pressionar as margens, mesmo que os custos das matérias-primas fiquem menos pesados.",
-          "uncertainty": "A pesquisa é um índice de difusão, não uma medida direta da produção ou da receita, e pode oscilar durante feriados e mudanças nos cronogramas de entrega. Os grandes fabricantes permaneceram em situação melhor que as empresas menores, portanto o indicador principal esconde condições desiguais. A fraqueza da pesquisa também não mostra quanto tempo a desaceleração durará nem se o apoio das políticas públicas melhorará a demanda.",
-          "watch": "Acompanhe a produção industrial, as vendas no varejo, as exportações, os lucros empresariais e a demanda por crédito para buscar confirmação em dados concretos. As próximas pesquisas com gerentes de compras devem ser verificadas em busca de recuperação dos novos pedidos e da produção, especialmente entre fabricantes menores, que frequentemente têm menos acesso a financiamento e menor poder de negociação.",
+          "id": "f2",
+          "title": "A operadora de oleodutos apresentou forte geração de caixa, mas resultados contábeis mistos",
+          "summary": "O comunicado trimestral datado mostrou desempenho operacional sólido no segmento de transporte e armazenagem, junto a resultados contábeis afetados por mudanças no portfólio.",
+          "impact": "A geração de caixa operacional apoia distribuições e o serviço da dívida, enquanto volume transportado, renegociações contratuais e alavancagem continuam sendo sensibilidades importantes.",
+          "what": "A operadora transporta, coleta, armazena e movimenta petróleo bruto e produtos relacionados na América do Norte. O comunicado apresenta separadamente o lucro líquido consolidado, o fluxo de caixa operacional e o EBITDA ajustado. A medida de EBITDA ajustado inclui operações continuadas e descontinuadas, portanto não deve ser tratada como uma medida exclusiva das operações continuadas.",
+          "why": "O desempenho do segmento de transporte e armazenagem depende principalmente de volumes contratados, fluxo transportado, margens de tarifas, aquisições e custos operacionais, e não apenas dos preços de referência das commodities. A forte geração de caixa pode apoiar a alocação de capital, mas medidas relacionadas ao balanço e vendas de ativos podem reduzir a comparabilidade contábil.",
+          "uncertainty": "O EBITDA ajustado é uma medida não GAAP, e mudanças no portfólio, custos ambientais, revisão de contratos, volumes de produção, crédito dos clientes e condições de mercado podem alterar os resultados futuros.",
+          "watch": "Acompanhe os volumes transportados, o caixa disponível após distribuições, a alavancagem, a integração dos ativos adquiridos e o efeito do negócio canadense desinvestido.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice de gerentes de compras da indústria"
+              "label": "Lucro líquido consolidado"
             },
             {
               "id": "m2",
-              "label": "Índice de produção industrial"
+              "label": "Fluxo de caixa operacional"
             },
             {
               "id": "m3",
-              "label": "Índice de novos pedidos da indústria"
+              "label": "EBITDA ajustado atribuível à parceria"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "As reservas cambiais da China avançaram ligeiramente",
+          "summary": "Dados oficiais mostraram que as reservas permaneceram amplamente estáveis no fim de outubro, após efeitos de avaliação em moedas e ativos globais.",
+          "impact": "A estabilidade das reservas oferece um colchão externo para pagamentos e gestão cambial, mas a variação mensal não demonstra entradas de capital mais fortes.",
+          "what": "A autoridade responsável pelas reservas atribuiu o aumento principalmente à conversão cambial e às mudanças nos preços de ativos financeiros globais, enquanto descreveu as condições econômicas domésticas como amplamente estáveis.",
+          "why": "Reservas estáveis podem reduzir a preocupação com o financiamento externo para importadores, bancos e empresas com obrigações em moeda estrangeira. No entanto, mudanças de avaliação podem se reverter sem alterações correspondentes no comércio, nos investimentos ou nos fluxos de capital.",
+          "uncertainty": "O comunicado não quantifica separadamente os fluxos de transações, as mudanças de avaliação ou a composição detalhada dos ativos de reserva.",
+          "watch": "Acompanhe os dados posteriores sobre reservas, os comunicados do balanço de pagamentos, as condições da taxa de câmbio e a demanda por financiamento em moeda estrangeira.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Reservas cambiais"
             },
             {
-              "id": "m4",
-              "label": "Índice composto de atividade"
+              "id": "m2",
+              "label": "Variação mensal das reservas"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的發展。請查看各項資料的發布日期；近期公司報告僅作為背景說明。",
+      "status": "本期涵蓋美國與中國的發展。請查看各則內容的發布日期；近期公司報告以背景解說呈現。",
       "marketSummary": {
-        "us": "部分收盤觀察無法獲得驗證。可取得的指數資料均保留各自的交易日期。",
-        "cn": "所追蹤的指數在各自最近獲得驗證的交易日均下跌。附有日期的收盤資訊描述的是當時情況，而非目前交易狀況。"
+        "us": "追蹤指數在最近經核實的交易時段皆上漲。標示日期的收盤價描述的是該交易時段，而非目前交易情況。",
+        "cn": "追蹤指數在最近經核實的交易時段皆下跌。標示日期的收盤價描述的是該交易時段，而非目前交易情況。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美國招聘改善，薪資成長仍穩健",
-          "summary": "最新勞動市場報告顯示，非農就業人數增幅擴大、失業情況穩定，名目薪資持續成長；同時，因經濟因素而接受兼職工時的勞工增加。",
-          "impact": "這種組合有助於支撐家庭所得與企業需求，但也讓貨幣政策制定者缺乏迅速放寬金融環境的理由。",
-          "what": "美國勞工統計局同時採用雇主非農就業人數調查與家庭就業狀況調查。新增人力主要集中在專業與商業服務、醫療保健、運輸及倉儲，製造業也增加人力。家庭調查顯示整體失業率變動不大，但非自願兼職就業增加，反映整體失業率無法呈現勞動市場的所有閒置情況。",
-          "why": "非農就業人數成長可支撐消費支出，因為薪資是多數家庭的主要收入來源。若生產力未以同樣速度提升，穩健的薪資成長也可能增加服務業者的成本，使通膨壓力持續。對市場而言，就業展現韌性可提高企業營收預期，但也可能使債券殖利率維持高檔，形成經濟強勁與融資成本上升之間的取捨。",
-          "uncertainty": "雇主調查與家庭調查涵蓋不同族群，因此結果可能出現差異。近期非農就業人數估計仍屬初值，隨著更多雇主回覆送達，數據可能修正。名目薪資成長也無法顯示勞工在扣除通膨後的購買力是否提高；非自願兼職就業增加可能只是暫時現象，也可能代表工作品質轉弱。",
-          "watch": "留意近期非農就業人數估計的修正、勞動參與率、非自願兼職就業，以及經通膨調整後的所得。每週初領失業救濟金人數與企業招聘調查，可協助判斷成長加速是否能夠持續，或只是集中在少數產業。",
+          "title": "招聘維持穩健，薪資壓力仍然溫和",
+          "summary": "最新勞動報告顯示，就業持續成長，失業情況變化不大。",
+          "impact": "這種組合有助於家庭收入與服務需求，但貨幣政策走向仍不明朗。",
+          "what": "勞動市場在各服務業與製造業持續增加就業人數，而民間時薪仍以溫和的年增速度上升。這份報告屬於初步估計，之後可能修正。",
+          "why": "就業成長有助於家庭現金流、消費，以及勞力密集企業的營收。溫和的薪資成長較不容易立即造成成本衝擊，但持續招聘仍可能讓需求保持韌性。",
+          "uncertainty": "每月非農就業人數估計可能在後續修正中改變，這份報告也無法判定勞動市場降溫是已經停止，還是只是暫時停頓。",
+          "watch": "留意後續非農就業人數修正、職缺、薪資指標與通膨資料，以確認需求是在穩定還是轉弱。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農就業人數變動"
+              "label": "非農就業人數變化"
             },
             {
               "id": "m2",
@@ -653,39 +731,51 @@
             },
             {
               "id": "m3",
-              "label": "平均時薪成長"
-            },
-            {
-              "id": "m4",
-              "label": "非自願兼職就業變動"
+              "label": "時薪年增變化"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "中國企業調查轉入收縮",
-          "summary": "中國官方採購經理人調查顯示，在最新報告月份，製造業生產、訂單與整體企業活動轉弱。",
-          "impact": "訂單疲弱可能限制工廠產能利用、招聘與供應商定價，拖累工業、消費及物流供應鏈的獲利預期。",
-          "what": "官方採購經理人調查會詢問製造業與服務業者，其業務活動是改善、轉弱或維持不變。製造業整體指數跌破榮枯分界線，生產與新訂單也顯示收縮。涵蓋製造業與非製造業活動的綜合指標同樣跌破代表擴張的水準，顯示放緩並非只出現在狹窄的工廠領域。",
-          "why": "新訂單是未來生產的早期參考，因為工廠通常會依照預期需求調整採購、人力配置與機器使用。訂單疲弱可能降低設備製造商、材料供應商與運輸公司的營收能見度。對家庭而言，企業活動放緩可能影響招聘與薪資信心。對企業財務而言，即使原物料成本壓力減輕，產能利用率下降仍可能壓縮利潤率。",
-          "uncertainty": "這項調查屬於擴散指數，並非產出或營收的直接衡量方式，而且可能受到假期與交貨時程變化影響而波動。大型製造商的情況仍優於小型企業，因此整體指標掩蓋了不同企業間的不均衡。調查轉弱也無法確定放緩將持續多久，或政策支持能否改善需求。",
-          "watch": "留意工業生產、零售銷售、出口、企業利潤與信貸需求，確認實際數據是否呈現相同趨勢。未來的採購經理人調查應關注新訂單與生產是否回升，尤其是融資管道通常較少、議價能力較弱的小型製造商。",
+          "id": "f2",
+          "title": "管線營運商現金創造能力強勁，但會計結果好壞不一",
+          "summary": "有日期的季度公告顯示，中游業務營運穩健，但投資組合變動影響了會計結果。",
+          "impact": "營運現金創造能力有助於配發與償債，而輸送量、合約重新議價與槓桿仍是重要敏感因素。",
+          "what": "該營運商在北美運輸、收集、儲存並處理原油及相關產品。公告分別列示合併淨利、經營現金流與調整後 EBITDA。調整後 EBITDA 包含持續營運與終止營運，因此不應視為純粹的持續營運數字。",
+          "why": "中游業務表現高度取決於合約量、輸送量、費率利潤、收購與營運成本，而不只是主要商品價格。強勁的現金創造能力可支持資本配置，但資產負債表措施與資產出售可能降低會計比較的可比性。",
+          "uncertainty": "調整後 EBITDA 屬於非公認會計原則指標，投資組合變動、環境成本、合約重新定價、產量、客戶信用與市場狀況都可能改變未來結果。",
+          "watch": "留意輸送量、配發後可用現金、槓桿、收購資產整合，以及已剝離的加拿大業務所帶來的影響。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "製造業採購經理人指數"
+              "label": "合併淨利"
             },
             {
               "id": "m2",
-              "label": "製造業生產指數"
+              "label": "經營現金流"
             },
             {
               "id": "m3",
-              "label": "製造業新訂單指數"
+              "label": "歸屬於合夥企業的調整後 EBITDA"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "中國外匯存底小幅增加",
+          "summary": "官方資料顯示，外匯存底在報告期末大致穩定，受到貨幣與全球資產估值變動影響。",
+          "impact": "外匯存底穩定可為支付與匯率管理提供外部緩衝，但月度變化並不能證明資本流入轉強。",
+          "what": "外匯存底主管機關表示，增加主要來自匯率換算，以及全球金融資產價格變動；同時形容國內經濟情況大致穩定。",
+          "why": "外匯存底穩定可降低進口商、銀行與承擔外幣義務企業對外部融資的疑慮。然而，估值變動可能逆轉，且不一定伴隨貿易、投資或資本流動的相應變化。",
+          "uncertainty": "公告沒有分別量化交易流量、估值變動或外匯存底資產的詳細組成。",
+          "watch": "留意後續外匯存底資料、國際收支公告、匯率狀況與外幣融資需求。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "外匯存底"
             },
             {
-              "id": "m4",
-              "label": "綜合產出指數"
+              "id": "m2",
+              "label": "外匯存底月度變化"
             }
           ]
         }
