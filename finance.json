@@ -1,65 +1,73 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-08T02:29:09.372Z",
-  "generatedAt": "2026-11-08T02:32:38.927Z",
-  "model": "gpt-5.6-luna",
+  "cutoffAt": "2026-11-08T21:10:57.631Z",
+  "generatedAt": "2026-11-08T21:15:30.797Z",
+  "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "U.S. Bureau of Labor Statistics employment release",
-      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+      "label": "Berkshire Hathaway earnings release",
+      "url": "https://berkshirehathaway.com/news/nov0726.pdf"
     },
     {
       "id": "src2",
-      "label": "FRED S&P Five Hundred series",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Berkshire Hathaway quarterly filing",
+      "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
     },
     {
       "id": "src3",
-      "label": "FRED Nasdaq Composite series",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "CMOC A-share repurchase announcement",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601666.pdf"
     },
     {
       "id": "src4",
-      "label": "S&P Five Hundred dated historical data",
-      "url": "https://cn.investing.com/indices/us-spx-500-historical-data"
+      "label": "Bureau of Labor Statistics employment release",
+      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.pdf"
     },
     {
       "id": "src5",
-      "label": "Xinhua Finance mainland closing report",
-      "url": "https://www.cnfin.com/gs-lb/detail/20261106/4492047_1.html"
+      "label": "State Administration of Foreign Exchange reserve release",
+      "url": "https://www.safe.gov.cn/safe/2026/1106/28067.html"
     },
     {
       "id": "src6",
-      "label": "CSI Three Hundred dated historical data",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Dated US equity closing indicators",
+      "url": "https://www.investors.com/wp-content/uploads/2026/11/DailyGMI_110626.pdf"
     },
     {
       "id": "src7",
-      "label": "Plains All American SEC earnings exhibit",
-      "url": "https://www.sec.gov/Archives/edgar/data/1070423/000107042326000055/paa11062026exhibit991.htm"
+      "label": "Federal Reserve broad US equity index observations",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src8",
-      "label": "China CITIC Bank quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645247.PDF"
+      "label": "Federal Reserve Nasdaq Composite observations",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src9",
-      "label": "State Administration of Foreign Exchange reserve release",
-      "url": "https://www.safe.gov.cn/safe/2026/1106/28067.html"
+      "label": "Dated mainland equity closing report",
+      "url": "https://yuanchuang.10jqka.com.cn/20261106/c681546775.shtml"
+    },
+    {
+      "id": "src10",
+      "label": "Mainland large-cap index dated closing table",
+      "url": "https://ph.investing.com/indices/csi300-historical-data"
+    },
+    {
+      "id": "src11",
+      "label": "CMOC copper and cobalt operating context",
+      "url": "https://en.cmoc.com/html/Business/Congo-Cu-Co/"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-06",
-      "close": 7376.86,
-      "previousClose": 7353.73,
-      "changePercent": 0.31,
-      "sourceIds": [
-        "src4"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "nasdaq",
@@ -68,7 +76,7 @@
       "previousClose": 24315,
       "changePercent": 1.09,
       "sourceIds": [
-        "src3"
+        "src8"
       ]
     },
     {
@@ -78,7 +86,7 @@
       "previousClose": null,
       "changePercent": -1.1,
       "sourceIds": [
-        "src5"
+        "src9"
       ]
     },
     {
@@ -88,13 +96,141 @@
       "previousClose": 4113.41,
       "changePercent": -1.44,
       "sourceIds": [
-        "src6"
+        "src10"
       ]
     }
   ],
   "stories": [
     {
       "id": "f1",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-07",
+      "company": {
+        "name": "Berkshire Hathaway",
+        "ticker": "BRK.B",
+        "exchange": "NYSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 105647000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Consolidated statements of earnings, total revenues row; filing amounts converted from millions of dollars."
+        },
+        {
+          "id": "m2",
+          "value": 22112000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1",
+            "src2"
+          ],
+          "evidence": "Earnings summary and consolidated earnings statement, net earnings attributable to shareholders row."
+        },
+        {
+          "id": "m3",
+          "value": 12705000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Release operating earnings reconciliation; management-defined non-GAAP earnings, not operating cash flow."
+        },
+        {
+          "id": "m4",
+          "value": 33914000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src2"
+          ],
+          "evidence": "Consolidated cash flow statement, net cash flows from operating activities row; year-to-date amount."
+        },
+        {
+          "id": "m5",
+          "value": 9600000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src1"
+          ],
+          "evidence": "Release paragraph following operating earnings table reports approximate quarterly treasury-share purchases."
+        }
+      ],
+      "sourceIds": [
+        "src1",
+        "src2"
+      ],
+      "evidence": "Release earnings reconciliation and business earnings table show weaker insurance earnings alongside stronger railroad and energy contributions; filing separately supplies revenue and operating cash flow."
+    },
+    {
+      "id": "f2",
+      "market": "cn",
+      "category": "company",
+      "publishedOn": "2026-11-06",
+      "company": {
+        "name": "CMOC Group",
+        "ticker": "603993",
+        "exchange": "SSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 1000000000,
+          "unit": "CNY",
+          "periodStart": "2026-11-06",
+          "periodEnd": "2027-02-06",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Repurchase plan, total amount of funds subsection, inclusive lower spending limit; implementation window runs from board approval."
+        },
+        {
+          "id": "m2",
+          "value": 2000000000,
+          "unit": "CNY",
+          "periodStart": "2026-11-06",
+          "periodEnd": "2027-02-06",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Repurchase plan, total amount of funds subsection, inclusive upper spending limit; authorization is not completed expenditure."
+        }
+      ],
+      "sourceIds": [
+        "src3",
+        "src11"
+      ],
+      "evidence": "Repurchase announcement sections on board approval, funding, subsequent sale or cancellation, and implementation risks establish the authorization and its limits; issuer operating page establishes copper and cobalt exposure."
+    },
+    {
+      "id": "f3",
       "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-06",
@@ -109,9 +245,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "The payroll table and opening summary report the preliminary change in total nonfarm employment for October."
+          "evidence": "Release opening paragraph and establishment summary table, seasonally adjusted nonfarm payroll change."
         },
         {
           "id": "m2",
@@ -122,12 +258,25 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "The household survey section reports the unemployment rate for October."
+          "evidence": "Release household survey discussion and household employment-status table, seasonally adjusted unemployment rate."
         },
         {
           "id": "m3",
+          "value": 0.4,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Establishment survey earnings paragraph, monthly growth in average hourly earnings for all private nonfarm employees."
+        },
+        {
+          "id": "m4",
           "value": 3.1,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -135,71 +284,15 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src1"
+            "src4"
           ],
-          "evidence": "The average hourly earnings paragraph reports the annual change in private hourly earnings for October."
+          "evidence": "Establishment survey earnings paragraph, annual growth in average hourly earnings for all private nonfarm employees."
         }
       ],
       "sourceIds": [
-        "src1"
+        "src4"
       ],
-      "evidence": "The official employment release reports continued payroll growth, little change in unemployment, and gains across professional services, health care, transportation and warehousing, and manufacturing."
-    },
-    {
-      "id": "f2",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-06",
-      "company": {
-        "name": "Plains All American Pipeline",
-        "ticker": "PAA",
-        "exchange": "Nasdaq"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 453000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "The net income to adjusted EBITDA reconciliation reports consolidated net income for the quarter."
-        },
-        {
-          "id": "m2",
-          "value": 669000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "The earnings highlights report net cash provided by operating activities for the quarter."
-        },
-        {
-          "id": "m3",
-          "value": 711000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "The non-GAAP reconciliation reports adjusted EBITDA attributable to the partnership; its footnote says the measure includes continuing and discontinued operations."
-        }
-      ],
-      "sourceIds": [
-        "src7"
-      ],
-      "evidence": "The SEC-filed issuer exhibit describes a North American crude-oil midstream operator whose pipeline, gathering, storage, terminal, and logistics activities generate fee and throughput-related earnings. The release separates accounting income, operating cash flow, and a non-GAAP operating measure."
+      "evidence": "Opening employment summary, household survey discussion, establishment earnings discussion and technical note establish continued hiring, wage growth and survey limitations."
     },
     {
       "id": "f4",
@@ -212,14 +305,14 @@
           "id": "m1",
           "value": 3405200000000,
           "unit": "USD",
-          "periodStart": "2026-10-01",
+          "periodStart": "2026-10-31",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src5"
           ],
-          "evidence": "The official reserve release reports foreign-exchange reserves at the end of October in dollar units."
+          "evidence": "Opening statistical paragraph, month-end foreign exchange reserves; published rounded dollar amount converted to base units."
         },
         {
           "id": "m2",
@@ -230,552 +323,776 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src5"
           ],
-          "evidence": "The same release reports the monthly increase in reserve holdings."
+          "evidence": "Opening statistical paragraph reports the reserve stock's percentage increase from the preceding month-end."
         }
       ],
       "sourceIds": [
-        "src9"
+        "src5"
       ],
-      "evidence": "The official release attributes the increase mainly to exchange-rate translation and asset-price changes, while describing domestic economic conditions as broadly stable."
+      "evidence": "Release publication metadata establishes the release date; statistical paragraph reports reserves and explanatory paragraph identifies exchange-rate translation and asset-price effects."
     }
   ],
   "locales": {
     "en": {
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Hiring remained firm while wage pressure stayed moderate",
-          "summary": "The latest labor report showed continued employment growth and little movement in unemployment.",
-          "impact": "The mix supports household income and service demand but leaves the path of monetary policy uncertain.",
-          "what": "The labor market added workers across several service industries and manufacturing, while private hourly pay continued to rise at a moderate annual pace. The report is a preliminary estimate and may be revised.",
-          "why": "Employment growth supports household cash flow, consumption, and revenue for labor-intensive businesses. Moderate wage growth is less likely to create an immediate cost shock, although persistent hiring can keep demand resilient.",
-          "uncertainty": "Monthly payroll estimates can change with later revisions, and one report cannot establish whether labor-market cooling has stopped or merely paused.",
-          "watch": "Watch subsequent payroll revisions, job openings, wage measures, and inflation data for confirmation of whether demand is stabilizing or weakening.",
+          "title": "Berkshire earnings soften as buybacks absorb cash",
+          "summary": "Berkshire Hathaway reported weaker net and operating earnings while continuing substantial repurchases of its shares.",
+          "impact": "The financial implication is that shareholders should distinguish investment-related accounting swings, underlying business earnings and cash available for capital allocation.",
+          "what": "Berkshire combines insurance with freight rail, utilities, energy, manufacturing and retail businesses. Its latest release shows lower insurance underwriting earnings and insurance investment income, partly offset by stronger railroad, energy and manufacturing-related contributions. Revenue and shareholder profit come from the quarterly earnings statement, while the operating cash figure covers the year to date. Those periods must remain separate: the cash figure is not a quarterly result. Management's operating earnings measure excludes specified investment and impairment effects and is not a substitute for cash flow.",
+          "why": "The editorial interpretation is that the business mix matters more than the headline profit alone. Insurance earnings depend on claims and investment income, while freight and utility operations expose the group to business activity and infrastructure spending. Repurchases are a use of capital rather than an operating expense that creates revenue. For a beginner, the useful distinction is between earning an accounting profit, collecting operating cash and deciding how to deploy that cash. A company can remain profitable while its cash commitments compete with acquisitions, investment and financial resilience.",
+          "uncertainty": "Unrealized investment changes enter reported earnings, and management cautions against treating those movements as a reliable picture of business performance. Operating cash flow also reflects working-capital and insurance-liability movements, so neither earnings measure establishes freely distributable cash. The reported repurchase amount is approximate.",
+          "watch": "Watch subsequent insurance underwriting disclosures, the cash flow statement and actual repurchase reporting. The analytical test is whether operating businesses support capital deployment without relying on favorable portfolio valuations.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Payroll change"
+              "label": "Quarterly revenue"
             },
             {
               "id": "m2",
-              "label": "Unemployment rate"
+              "label": "Quarterly net income attributable to shareholders"
             },
             {
               "id": "m3",
-              "label": "Hourly earnings annual change"
+              "label": "Quarterly management-defined operating earnings"
+            },
+            {
+              "id": "m4",
+              "label": "Year-to-date operating cash flow"
+            },
+            {
+              "id": "m5",
+              "label": "Approximate quarterly share repurchases"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "Pipeline operator showed strong cash generation but mixed accounting results",
-          "summary": "The dated quarterly release showed solid midstream operating performance alongside accounting results affected by portfolio changes.",
-          "impact": "Operating cash generation supports distributions and debt service, while throughput, contract resets, and leverage remain important sensitivities.",
-          "what": "The operator transports, gathers, stores, and handles crude oil and related products across North America. Its release reports consolidated net income, operating cash flow, and adjusted EBITDA separately. The adjusted EBITDA measure includes continuing and discontinued operations, so it should not be treated as a pure continuing-operations figure.",
-          "why": "Midstream performance depends heavily on contracted volumes, throughput, fee margins, acquisitions, and operating costs rather than headline commodity prices alone. Strong cash generation can support capital allocation, but balance-sheet actions and asset sales can make accounting comparisons less comparable.",
-          "uncertainty": "Adjusted EBITDA is non-GAAP, and portfolio changes, environmental costs, contract repricing, production volumes, customer credit, and market conditions can alter future results.",
-          "watch": "Watch throughput volumes, cash available after distributions, leverage, integration of acquired assets, and the effect of the divested Canadian business.",
+          "title": "CMOC authorizes an A-share buyback, not an immediate cancellation",
+          "summary": "CMOC approved an A-share repurchase plan funded with its own or self-raised funds, subject to execution conditions.",
+          "impact": "The financial implication is a potential cash commitment and source of share demand, but not a guaranteed permanent reduction in shares outstanding.",
+          "what": "CMOC is a mining group with copper and cobalt operations in the Democratic Republic of the Congo. Its board approved purchases through centralized exchange bidding, with an authorized spending range and an implementation window. The announcement permits subsequent sales of repurchased shares and provides for cancellation of shares that remain unsold under the specified arrangements. The metrics therefore describe planned spending, not completed purchases, revenue, profit or operating cash generation. The release does not establish those financial statement measures.",
+          "why": "The editorial interpretation is that the eventual treatment of the shares is central to understanding the plan. Buying shares can create demand while purchases are taking place, but later resale can reverse the reduction in publicly held shares. A permanent cancellation has different implications from holding shares for possible resale. Funding also matters: cash used for a buyback cannot simultaneously finance equipment, working capital or debt repayment. For businesses and households exposed to mining supply chains, this is a capital-allocation announcement rather than evidence that metal production, selling prices or customer demand have improved.",
+          "uncertainty": "The issuer identifies risks involving its purchase-price ceiling, financing availability, operational requirements and changes in business conditions. It may change or terminate the plan. Its statement that the plan should not materially harm operations is management's assessment, not evidence that the purchases have occurred or that funding is costless.",
+          "watch": "Watch execution announcements for actual expenditure, funding disclosures and the eventual sale or cancellation of repurchased shares. The analytical test is implementation and lasting capital impact, rather than the authorization headline.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Consolidated net income"
+              "label": "Authorized repurchase spending floor"
             },
             {
               "id": "m2",
-              "label": "Operating cash flow"
+              "label": "Authorized repurchase spending ceiling"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "US hiring continues as wage growth complicates the rate outlook",
+          "summary": "The employment release showed continued payroll growth, a broadly steady unemployment rate and rising average hourly earnings.",
+          "impact": "The financial implication is support for household income alongside an unresolved question about inflation and borrowing costs.",
+          "what": "The Bureau of Labor Statistics reported employment gains in professional and business services, health care, and transportation and warehousing. Payroll employment and hourly earnings come from the establishment survey; unemployment comes from the household survey. They measure different aspects of the labor market and need not move together. The payroll metric is an absolute addition to employment, not a percentage growth rate. The wage metrics describe nominal average earnings, not inflation-adjusted purchasing power or a guaranteed raise for an individual worker.",
+          "why": "The editorial interpretation is that continued employment and wage income can help sustain consumer spending and businesses' sales. However, wage growth alone cannot settle the interest-rate outlook. If demand remains resilient while inflation is persistent, policymakers may have less reason to ease borrowing conditions. If productivity absorbs labor costs or price pressures weaken, the implication could differ. This creates competing considerations for equities: resilient demand can support profits, while expensive financing can weigh on investment and valuations. For households, the practical channels are job security, purchasing power and the cost of servicing variable-rate or newly issued debt.",
+          "uncertainty": "The report is not a sourced consensus comparison, so it is not characterized here as an earnings-style surprise or a forecast beat. Employment estimates are subject to revision and sampling uncertainty. Average wage changes can also reflect shifts in the composition of employment; they do not by themselves establish the direction of consumer-price inflation.",
+          "watch": "Watch payroll revisions, subsequent wage and employment releases, inflation data and the Federal Reserve's explanation of its policy assessment. The analytical test is whether income resilience coexists with easing price pressure.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Seasonally adjusted payroll change"
+            },
+            {
+              "id": "m2",
+              "label": "Seasonally adjusted unemployment rate"
             },
             {
               "id": "m3",
-              "label": "Adjusted EBITDA attributable to the partnership"
+              "label": "Average hourly earnings monthly growth"
+            },
+            {
+              "id": "m4",
+              "label": "Average hourly earnings annual growth"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "China’s foreign-exchange reserves edged higher",
-          "summary": "Official data showed reserves were broadly stable at the end of October after valuation effects in currencies and global assets.",
-          "impact": "Reserve stability provides an external buffer for payments and currency management, but the monthly movement does not demonstrate stronger capital inflows.",
-          "what": "The reserve authority attributed the increase mainly to exchange-rate translation and changes in global financial-asset prices, while describing domestic economic conditions as broadly stable.",
-          "why": "Stable reserves can reduce external-financing anxiety for importers, banks, and companies with foreign-currency obligations. However, valuation changes can reverse without corresponding changes in trade, investment, or capital flows.",
-          "uncertainty": "The release does not separately quantify transaction flows, valuation changes, or the detailed composition of reserve assets.",
-          "watch": "Watch subsequent reserve data, balance-of-payments releases, exchange-rate conditions, and foreign-currency funding demand.",
+          "title": "China's reserve increase is not a direct capital-flow reading",
+          "summary": "China reported higher month-end foreign exchange reserves, with the official explanation citing currency translation and asset-price effects.",
+          "impact": "The financial implication is an updated external-liquidity indicator, not proof of stronger domestic demand or foreign buying of mainland equities.",
+          "what": "The State Administration of Foreign Exchange published the reserve stock and its change from the preceding month-end. The release says the dollar strengthened while global financial asset prices were mixed, and attributes the reserve increase to the combined effects of exchange-rate translation, asset prices and other factors. This is a balance-sheet stock measured in dollars, not corporate revenue, government spending or cash newly available to listed companies. The level metric is a month-end observation; the percentage metric describes the monthly change.",
+          "why": "The editorial interpretation is that reserves belong in an assessment of external financial resilience, but they should not be used as a shortcut for judging A-share earnings. A reserve portfolio's dollar value can change when exchange rates or securities prices move, even without an equivalent underlying cash inflow. Businesses should distinguish that valuation channel from the exchange rates affecting import bills, export receipts and foreign-currency liabilities. For households, the release is therefore more relevant to the background of currency and financial stability than to an immediate change in wages, mortgage affordability or consumer spending capacity.",
+          "uncertainty": "The release does not quantify the separate contributions of valuation changes, transactions or intervention. It cannot independently establish private capital flows, foreign purchases of mainland shares or a change in exchange-rate policy. Treating the entire increase as fresh money entering China would go beyond the evidence.",
+          "watch": "Watch subsequent reserve data alongside balance-of-payments and foreign-exchange settlement disclosures. The analytical test is whether transaction-based evidence supports a broader capital-flow interpretation; listed-company filings remain necessary to establish effects on earnings and cash.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Foreign-exchange reserves"
+              "label": "Month-end foreign exchange reserves"
             },
             {
               "id": "m2",
-              "label": "Monthly reserve change"
+              "label": "Monthly reserve growth"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的发展动态。请核对各项发布日期；近期公司报告仅作为背景解读。",
+      "status": "本期涵盖美国和中国的相关动态。请留意各项信息的发布日期；近期公司报告在此作为背景解读。",
       "marketSummary": {
-        "us": "所跟踪的指数在最近经核实的交易日均上涨。带日期的收盘数据仅描述相应交易日，并不代表当前交易情况。",
-        "cn": "所跟踪的指数在最近经核实的交易日均下跌。带日期的收盘数据仅描述相应交易日，并不代表当前交易情况。"
+        "us": "部分收盘数据未能核实。可提供的各项指数数据均保留其对应的交易日期。",
+        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标明日期的收盘数据反映的是对应交易日的情况，并非当前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "就业招聘保持稳健，工资压力仍较温和",
-          "summary": "最新就业报告显示，就业人数继续增加，失业率变化不大。",
-          "impact": "这种组合支持家庭收入和服务需求，但货币政策走向仍不确定。",
-          "what": "劳动力市场在多个服务行业和制造业持续增加就业人数，私人部门平均时薪也继续以温和的年度增幅上升。该报告属于初步估计，之后可能修订。",
-          "why": "就业增长有助于支持家庭现金流、消费，以及劳动密集型企业的营收。温和的工资增长不太可能立即造成成本冲击，但持续招聘可能使需求保持韧性。",
-          "uncertainty": "月度非农就业人数估计可能在后续修订中发生变化，这类报告无法确定劳动力市场降温是已经停止，还是只是暂时停顿。",
-          "watch": "关注后续非农就业人数修订、职位空缺、工资指标和通胀数据，以确认需求是在企稳还是走弱。",
+          "title": "伯克希尔盈利走弱，股票回购继续占用现金",
+          "summary": "伯克希尔·哈撒韦报告的净利润和经营利润下降，同时继续大规模回购自身股票。",
+          "impact": "从财务角度看，股东需要区分投资相关的账面波动、主营业务盈利，以及可用于资本配置的现金。",
+          "what": "伯克希尔的业务涵盖保险、货运铁路、公用事业、能源、制造和零售。最新公告显示，保险承保利润和保险投资收益下降，铁路、能源及制造相关业务贡献的改善抵消了部分降幅。营收和股东应占净利润来自季度利润表，而经营现金流数据覆盖年初至今。必须区分这些统计期间：该现金流数据并非季度结果。管理层定义的经营利润剔除了特定投资和减值影响，不能替代现金流指标。",
+          "why": "本刊的解读是，相较于只看利润总额，业务构成更为重要。保险盈利取决于赔付和投资收益，而货运及公用事业使集团受到经济活动和基础设施支出的影响。回购属于资本用途，并非创造营收的经营费用。对初学者而言，关键是区分账面盈利、取得经营现金，以及决定如何运用这些现金。公司即使持续盈利，各项现金支出承诺仍可能与收购、投资及保持财务抗风险能力所需的资金形成竞争。",
+          "uncertainty": "未实现的投资价值变动会计入报告利润，管理层提醒，不应将这些变动视为业务表现的可靠反映。经营现金流也受到营运资本和保险负债变动的影响，因此，无论报告利润还是管理层定义的经营利润，都不能直接证明有多少现金可自由分配。披露的回购金额为近似值。",
+          "watch": "关注后续保险承保披露、现金流量表和实际回购报告。分析重点在于：经营业务能否在不依赖投资组合估值有利变动的情况下，支持资本运用。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非农就业人数变动"
+              "label": "季度营收"
             },
             {
               "id": "m2",
-              "label": "失业率"
+              "label": "季度归属于股东的净利润"
             },
             {
               "id": "m3",
-              "label": "平均时薪年度变动"
+              "label": "季度经营利润（管理层定义）"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今经营现金流"
+            },
+            {
+              "id": "m5",
+              "label": "季度股票回购金额（约数）"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "管道运营商现金生成能力强劲，但会计结果喜忧参半",
-          "summary": "该季度发布的报告显示，中游业务运营表现稳健，但资产组合变化影响了会计结果。",
-          "impact": "经营现金生成能力支持分配和偿债，但输送量、合同重定价和杠杆仍是重要敏感因素。",
-          "what": "该运营商在北美运输、集输、储存和处理原油及相关产品。其报告分别披露合并净利润、经营现金流和调整后息税折旧摊销前利润。调整后息税折旧摊销前利润包含持续经营和终止经营，因此不应视为纯粹的持续经营指标。",
-          "why": "中游业务表现高度取决于合同约定的运输量、输送量、费率利润、并购和运营成本，而不只是 headline 商品价格。强劲的现金生成能力可以支持资本配置，但资产负债表相关行动和资产出售可能降低会计数据的可比性。",
-          "uncertainty": "调整后息税折旧摊销前利润属于非公认会计准则指标；资产组合变化、环境成本、合同重新定价、产量、客户信用状况和市场环境都可能改变未来业绩。",
-          "watch": "关注输送量、分配后的可用现金、杠杆、收购资产整合情况，以及已剥离的加拿大业务所带来的影响。",
+          "title": "洛阳钼业批准A股回购计划，并非立即注销",
+          "summary": "洛阳钼业批准了以自有或自筹资金实施的A股回购计划，执行仍受相关条件约束。",
+          "impact": "从财务角度看，这意味着潜在的现金支出承诺和股票买入需求，但并不保证发行在外股份会永久减少。",
+          "what": "洛阳钼业是矿业集团，在刚果民主共和国经营铜和钴业务。董事会批准通过交易所集中竞价方式回购股份，并设定了授权支出范围和实施期限。公告允许后续出售已回购股份，并规定按相关安排注销届时尚未出售的股份。因此，相关指标反映的是计划支出，而非已完成的回购、营收、利润或经营现金创造情况。该公告并未提供这些财务报表指标。",
+          "why": "本刊的解读是，理解这项计划的关键在于回购股份最终如何处理。回购执行期间可以带来股票买入需求，但之后出售股份，可能使市场公众持股数量的降幅被逆转。永久注销与持有股份以备日后出售，含义并不相同。资金来源同样重要：用于回购的现金，不能同时用于设备、营运资本或偿还债务。对于受矿业供应链影响的企业和家庭而言，这是资本配置公告，而不是金属产量、销售价格或客户需求改善的证据。",
+          "uncertainty": "公司列出的风险涉及回购价格上限、融资可得性、运营需要以及经营环境变化。公司可能调整或终止计划。关于计划预计不会对经营造成重大不利影响的表述，是管理层的判断，并不能证明回购已经发生，也不意味着资金没有成本。",
+          "watch": "关注执行公告中的实际支出、资金来源披露，以及回购股份最终出售或注销的情况。分析重点是计划落实情况及其持久的资本影响，而非仅看回购授权的消息。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "合并净利润"
+              "label": "授权回购金额下限"
             },
             {
               "id": "m2",
-              "label": "经营现金流"
+              "label": "授权回购金额上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "美国就业继续增长，薪资上涨令利率前景更复杂",
+          "summary": "就业报告显示，非农就业人数继续增加，失业率总体稳定，平均时薪上升。",
+          "impact": "从财务角度看，这有助于支撑家庭收入，但通胀和借贷成本的走向仍未明朗。",
+          "what": "美国劳工统计局报告称，专业和商业服务、医疗保健以及运输和仓储行业就业增加。非农就业人数和时薪数据来自机构调查，失业率来自住户调查。它们衡量劳动力市场的不同方面，不必同步变化。非农就业变动指标反映就业人数的绝对增量，而非百分比增速。薪资指标反映的是名义平均收入，而非经通胀调整后的购买力，也不保证个体劳动者获得加薪。",
+          "why": "本刊的解读是，就业和薪资收入持续增长，有助于维持消费支出和企业销售。不过，仅凭薪资增长无法确定利率前景。如果需求保持韧性而通胀持续，政策制定者放松借贷条件的理由可能减少。如果生产率提升能够消化劳动力成本，或物价压力减弱，其含义则可能不同。这给股市带来相互牵制的因素：需求韧性可以支撑利润，而高昂的融资成本可能压制投资和估值。对家庭而言，实际影响渠道包括就业稳定性、购买力，以及浮动利率债务或新借债务的偿付成本。",
+          "uncertainty": "本期没有依据可靠来源将报告与市场一致预期进行比较，因此不将其描述为类似财报的意外表现或超出预测。就业估算可能修订，也存在抽样不确定性。平均薪资变化还可能反映就业人员构成的变化；仅凭这些变化，不能确定消费价格通胀的方向。",
+          "watch": "关注非农就业人数修订、后续薪资和就业报告、通胀数据，以及美联储对其政策判断的解释。分析重点是收入韧性是否与物价压力缓解并存。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季调后非农就业人数变动"
+            },
+            {
+              "id": "m2",
+              "label": "季调后失业率"
             },
             {
               "id": "m3",
-              "label": "归属于合伙企业的调整后息税折旧摊销前利润"
+              "label": "平均时薪环比增速"
+            },
+            {
+              "id": "m4",
+              "label": "平均时薪同比增速"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "中国外汇储备小幅上升",
-          "summary": "官方数据显示，期末外汇储备总体稳定，汇率和全球资产估值变化产生了影响。",
-          "impact": "外汇储备稳定为支付和汇率管理提供外部缓冲，但月度变动并不能证明资本流入增强。",
-          "what": "外汇储备管理部门表示，此次增加主要由汇率折算和全球金融资产价格变化推动，并称国内经济状况总体稳定。",
-          "why": "外汇储备稳定可以降低进口商、银行和承担外币债务的企业对外部融资的担忧。不过，估值变化可能逆转，而贸易、投资或资本流动未必同步变化。",
-          "uncertainty": "公告没有分别量化交易流量、估值变化或储备资产的详细构成。",
-          "watch": "关注后续外汇储备数据、国际收支公告、汇率状况和外币融资需求。",
+          "title": "中国外汇储备增加，不能直接解读为资金流入",
+          "summary": "中国公布的月末外汇储备上升，官方解释提到汇率折算和资产价格变化的影响。",
+          "impact": "从财务角度看，这更新了对外流动性指标，但不能证明国内需求增强，也不能证明外资正在买入境内股票。",
+          "what": "国家外汇管理局公布了外汇储备余额及其较上月末的变化。公告指出，美元走强，全球金融资产价格涨跌互现，并将储备增加归因于汇率折算、资产价格变化和其他因素的综合影响。这是以美元计价的资产负债表存量，并非企业营收、政府支出，也不是上市公司新获得的可用现金。规模指标反映月末时点的情况，百分比指标反映月度变化。",
+          "why": "本刊的解读是，外汇储备应纳入对外部金融抗风险能力的评估，但不应被用作判断A股盈利的捷径。即使没有相应的实际现金流入，汇率或证券价格变化也可能改变储备资产组合的美元价值。企业需要区分这种估值影响，与汇率对进口付款、出口收入和外币负债的影响。因此，对家庭而言，这份公告更多涉及汇率和金融稳定的背景，而非工资、房贷负担能力或消费能力的即时变化。",
+          "uncertainty": "公告没有分别量化估值变化、交易或干预的贡献。仅凭这份公告，无法确定私人资本流动、外资对境内股票的购买情况，或汇率政策是否变化。把全部增幅都视为新资金流入中国，超出了现有证据所能支持的范围。",
+          "watch": "关注后续外汇储备数据，以及国际收支和结售汇披露。分析重点是基于实际交易的证据能否支持更广泛的资本流动解读；要确认对盈利和现金的影响，仍需查看上市公司披露文件。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "外汇储备"
+              "label": "月末外汇储备余额"
             },
             {
               "id": "m2",
-              "label": "外汇储备月度变动"
+              "label": "外汇储备环比增速"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre les évolutions aux États-Unis et en Chine. Vérifiez la date de publication de chaque élément ; les récents rapports d’entreprises sont présentés comme des explications de contexte.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les récents rapports d’entreprise servent à expliquer le contexte.",
       "marketSummary": {
-        "us": "Les indices suivis ont tous deux progressé lors de leur dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Les indices suivis ont tous deux reculé lors de leur dernière séance vérifiée. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Les embauches sont restées solides, tandis que les tensions salariales sont demeurées modérées",
-          "summary": "Le dernier rapport sur l’emploi fait état d’une poursuite de la progression de l’emploi et de peu de variation du chômage.",
-          "impact": "Cette combinaison soutient les revenus des ménages et la demande de services, mais laisse incertaine l’évolution de la politique monétaire.",
-          "what": "Le marché du travail a créé des emplois dans divers secteurs des services et dans l’industrie manufacturière, tandis que la rémunération horaire du secteur privé a continué d’augmenter à un rythme annuel modéré. Le rapport constitue une estimation préliminaire et peut être révisé.",
-          "why": "La progression de l’emploi soutient les flux de trésorerie des ménages, la consommation et le chiffre d’affaires des entreprises utilisant beaucoup de main-d’œuvre. Une croissance salariale modérée est moins susceptible de provoquer immédiatement un choc de coûts, même si des embauches persistantes peuvent maintenir une demande résistante.",
-          "uncertainty": "Les estimations mensuelles de l’emploi peuvent changer lors de révisions ultérieures, et un seul rapport ne permet pas d’établir si le refroidissement du marché du travail s’est arrêté ou a simplement marqué une pause.",
-          "watch": "Surveillez les révisions ultérieures de l’emploi, les offres d’emploi, les indicateurs de rémunération et les données d’inflation afin de confirmer si la demande se stabilise ou s’affaiblit.",
+          "title": "Les bénéfices de Berkshire fléchissent, tandis que les rachats d’actions mobilisent de la trésorerie",
+          "summary": "Berkshire Hathaway a annoncé un recul de son bénéfice net et de son résultat opérationnel, tout en poursuivant d’importants rachats de ses propres actions.",
+          "impact": "Sur le plan financier, les actionnaires doivent distinguer les variations comptables liées aux placements, les résultats des activités et la trésorerie disponible pour l’allocation du capital.",
+          "what": "Berkshire associe l’assurance au fret ferroviaire, aux services aux collectivités, à l’énergie, à l’industrie et au commerce de détail. Sa dernière publication fait état d’une baisse du résultat de souscription en assurance et des revenus des placements d’assurance, partiellement compensée par une meilleure contribution du ferroviaire, de l’énergie et des activités industrielles. Le chiffre d’affaires et le bénéfice attribuable aux actionnaires proviennent du compte de résultat trimestriel, tandis que le flux de trésorerie d’exploitation couvre la période écoulée depuis le début de l’exercice. Ces périodes doivent rester distinctes : le montant de trésorerie n’est pas un résultat trimestriel. L’indicateur de résultat opérationnel défini par la direction exclut certains effets liés aux placements et aux dépréciations et ne remplace pas les flux de trésorerie.",
+          "why": "L’interprétation de la rédaction est que la répartition des activités compte davantage que le seul bénéfice mis en avant. Les résultats de l’assurance dépendent des sinistres et des revenus des placements, tandis que le fret et les services aux collectivités exposent le groupe à l’activité économique et aux dépenses d’infrastructure. Les rachats d’actions sont une utilisation du capital, et non une charge d’exploitation qui génère du chiffre d’affaires. Pour débuter, il est utile de distinguer la réalisation d’un bénéfice comptable, l’encaissement de trésorerie issue de l’exploitation et les décisions concernant son utilisation. Une entreprise peut rester rentable alors que ses engagements de trésorerie entrent en concurrence avec les acquisitions, les investissements et le maintien de sa solidité financière.",
+          "uncertainty": "Les variations non réalisées des placements entrent dans le résultat publié, et la direction met en garde contre leur utilisation comme reflet fiable de la performance des activités. Les flux de trésorerie d’exploitation reflètent aussi les variations du besoin en fonds de roulement et des passifs d’assurance : aucun des indicateurs de résultat ne permet donc d’établir la trésorerie librement distribuable. Le montant publié des rachats d’actions est approximatif.",
+          "watch": "À suivre : les prochaines informations sur la souscription en assurance, le tableau des flux de trésorerie et les rachats d’actions effectivement déclarés. L’analyse consiste à vérifier si les activités opérationnelles permettent de financer l’allocation du capital sans dépendre de valorisations favorables du portefeuille.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variation de l’emploi salarié"
+              "label": "Chiffre d’affaires trimestriel"
             },
             {
               "id": "m2",
-              "label": "Taux de chômage"
+              "label": "Résultat net trimestriel attribuable aux actionnaires"
             },
             {
               "id": "m3",
-              "label": "Variation annuelle de la rémunération horaire"
+              "label": "Résultat opérationnel trimestriel défini par la direction"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
+            },
+            {
+              "id": "m5",
+              "label": "Rachats d’actions trimestriels approximatifs"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "L’opérateur de réseaux de transport a affiché une solide génération de trésorerie, mais des résultats comptables contrastés",
-          "summary": "La publication trimestrielle datée fait état d’une solide performance opérationnelle dans les activités intermédiaires, parallèlement à des résultats comptables affectés par des changements de portefeuille.",
-          "impact": "La génération de trésorerie opérationnelle soutient les distributions et le service de la dette, tandis que les volumes transportés, les renégociations de contrats et l’endettement restent des facteurs de sensibilité importants.",
-          "what": "L’opérateur transporte, collecte, stocke et traite du pétrole brut et des produits associés en Amérique du Nord. Sa publication présente séparément le résultat net consolidé, les flux de trésorerie liés aux activités opérationnelles et l’EBITDA ajusté. L’EBITDA ajusté inclut les activités poursuivies et abandonnées ; il ne doit donc pas être considéré comme un indicateur des seules activités poursuivies.",
-          "why": "La performance des activités intermédiaires dépend fortement des volumes contractuels, des volumes transportés, des marges de commission, des acquisitions et des coûts d’exploitation, plutôt que des seuls cours des matières premières. Une solide génération de trésorerie peut soutenir l’allocation du capital, mais les opérations sur le bilan et les cessions d’actifs peuvent rendre les comparaisons comptables moins homogènes.",
-          "uncertainty": "L’EBITDA ajusté est une mesure non conforme aux normes comptables, et les changements de portefeuille, les coûts environnementaux, la renégociation des contrats, les volumes de production, la qualité de crédit des clients et les conditions de marché peuvent modifier les résultats futurs.",
-          "watch": "Surveillez les volumes transportés, la trésorerie disponible après distributions, l’endettement, l’intégration des actifs acquis et l’effet de l’activité canadienne cédée.",
+          "title": "CMOC autorise un rachat d’actions de catégorie A, sans annulation immédiate",
+          "summary": "CMOC a approuvé un programme de rachat d’actions de catégorie A financé par ses fonds propres ou par des fonds qu’il lèvera, sous réserve des conditions d’exécution.",
+          "impact": "Sur le plan financier, ce programme représente un engagement potentiel de trésorerie et une source de demande pour les actions, mais ne garantit pas une réduction durable du nombre d’actions en circulation.",
+          "what": "CMOC est un groupe minier qui exploite des activités de cuivre et de cobalt en République démocratique du Congo. Son conseil d’administration a approuvé des achats par enchères centralisées en Bourse, dans une fourchette de dépenses autorisée et sur une période d’exécution définie. L’annonce permet la revente ultérieure des actions rachetées et prévoit l’annulation de celles qui resteraient invendues selon les modalités précisées. Les indicateurs décrivent donc des dépenses prévues, et non des achats réalisés, du chiffre d’affaires, un bénéfice ou de la trésorerie générée par l’exploitation. La publication ne fournit pas ces données comptables.",
+          "why": "L’interprétation de la rédaction est que le devenir des actions est essentiel pour comprendre le programme. Les rachats peuvent créer de la demande pendant leur exécution, mais une revente ultérieure peut inverser la réduction du nombre d’actions détenues par le public. Une annulation définitive n’a pas les mêmes conséquences que la conservation d’actions en vue d’une éventuelle revente. Le financement compte aussi : la trésorerie consacrée aux rachats ne peut pas financer simultanément les équipements, le besoin en fonds de roulement ou le remboursement de la dette. Pour les entreprises et les ménages exposés aux chaînes d’approvisionnement minières, il s’agit d’une annonce d’allocation du capital, et non d’une preuve d’amélioration de la production de métaux, des prix de vente ou de la demande des clients.",
+          "uncertainty": "L’émetteur signale des risques liés au prix d’achat maximal, à la disponibilité du financement, aux besoins opérationnels et à l’évolution des conditions d’activité. Il peut modifier ou arrêter le programme. L’affirmation selon laquelle celui-ci ne devrait pas nuire sensiblement aux activités relève de l’appréciation de la direction ; elle ne prouve ni que les achats ont eu lieu ni que leur financement est sans coût.",
+          "watch": "À suivre : les annonces d’exécution précisant les dépenses réelles, les informations sur le financement et la revente ou l’annulation finale des actions rachetées. L’analyse porte sur la mise en œuvre et l’effet durable sur le capital, plutôt que sur la seule annonce de l’autorisation.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Résultat net consolidé"
+              "label": "Montant minimal autorisé des rachats d’actions"
             },
             {
               "id": "m2",
-              "label": "Flux de trésorerie liés aux activités opérationnelles"
+              "label": "Montant maximal autorisé des rachats d’actions"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Les embauches se poursuivent aux États-Unis, mais la hausse des salaires complique les perspectives de taux",
+          "summary": "Le rapport sur l’emploi fait état de nouvelles créations d’emplois salariés, d’un taux de chômage globalement stable et d’une hausse du salaire horaire moyen.",
+          "impact": "Sur le plan financier, ces évolutions soutiennent les revenus des ménages, tout en laissant ouverte la question de l’inflation et du coût des emprunts.",
+          "what": "Le Bureau des statistiques du travail a annoncé des créations d’emplois dans les services professionnels et aux entreprises, la santé, ainsi que le transport et l’entreposage. L’emploi salarié et les salaires horaires proviennent de l’enquête auprès des établissements ; le chômage provient de l’enquête auprès des ménages. Ces enquêtes mesurent des aspects différents du marché du travail et n’évoluent pas nécessairement dans le même sens. L’indicateur d’emploi salarié mesure un ajout d’emplois en valeur absolue, et non un taux de croissance en pourcentage. Les indicateurs salariaux décrivent les rémunérations moyennes nominales, et non le pouvoir d’achat corrigé de l’inflation ni une augmentation garantie pour chaque salarié.",
+          "why": "L’interprétation de la rédaction est que la progression de l’emploi et des revenus salariaux peut soutenir la consommation et les ventes des entreprises. Toutefois, la hausse des salaires ne suffit pas à déterminer les perspectives de taux d’intérêt. Si la demande reste solide et l’inflation persistante, les responsables de la politique monétaire pourraient avoir moins de raisons d’assouplir les conditions d’emprunt. Si les gains de productivité absorbent les coûts salariaux ou si les pressions sur les prix diminuent, les conséquences pourraient être différentes. Les actions sont ainsi soumises à des influences opposées : une demande résistante peut soutenir les bénéfices, tandis qu’un financement coûteux peut peser sur l’investissement et les valorisations. Pour les ménages, les effets concrets passent par la sécurité de l’emploi, le pouvoir d’achat et le coût de remboursement des emprunts à taux variable ou nouvellement souscrits.",
+          "uncertainty": "Le rapport n’est pas accompagné ici d’une comparaison documentée avec le consensus des prévisions : il n’est donc pas présenté comme une surprise du type de celles observées lors des publications de résultats, ni comme un dépassement des prévisions. Les estimations d’emploi peuvent être révisées et sont soumises à l’incertitude liée à l’échantillonnage. Les variations du salaire moyen peuvent aussi refléter des changements dans la composition de l’emploi ; elles ne permettent pas, à elles seules, d’établir la direction de l’inflation des prix à la consommation.",
+          "watch": "À suivre : les révisions des chiffres de l’emploi salarié, les prochaines publications sur les salaires et l’emploi, les données d’inflation et les explications de la Réserve fédérale sur son appréciation de la situation monétaire. L’analyse consiste à vérifier si la résistance des revenus s’accompagne d’un apaisement des pressions sur les prix.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Variation de l’emploi salarié non agricole, corrigée des variations saisonnières"
+            },
+            {
+              "id": "m2",
+              "label": "Taux de chômage corrigé des variations saisonnières"
             },
             {
               "id": "m3",
-              "label": "EBITDA ajusté attribuable à la société en commandite"
+              "label": "Croissance mensuelle du salaire horaire moyen"
+            },
+            {
+              "id": "m4",
+              "label": "Croissance annuelle du salaire horaire moyen"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Les réserves de change de la Chine ont légèrement augmenté",
-          "summary": "Les données officielles indiquent que les réserves sont restées globalement stables à la fin d’octobre, après des effets de valorisation liés aux monnaies et aux actifs mondiaux.",
-          "impact": "La stabilité des réserves constitue un volant de sécurité externe pour les paiements et la gestion de la monnaie, mais leur évolution mensuelle ne démontre pas un renforcement des entrées de capitaux.",
-          "what": "L’autorité chargée des réserves a attribué la hausse principalement aux effets de conversion des taux de change et aux variations des prix des actifs financiers mondiaux, tout en décrivant les conditions économiques intérieures comme globalement stables.",
-          "why": "Des réserves stables peuvent réduire les inquiétudes liées au financement extérieur pour les importateurs, les banques et les entreprises ayant des obligations en devises. Toutefois, les variations de valorisation peuvent s’inverser sans changement correspondant des échanges, des investissements ou des flux de capitaux.",
-          "uncertainty": "La publication ne quantifie pas séparément les flux de transactions, les variations de valorisation ni la composition détaillée des actifs de réserve.",
-          "watch": "Surveillez les prochaines données sur les réserves, les publications sur la balance des paiements, les conditions de change et la demande de financement en devises.",
+          "title": "La hausse des réserves chinoises ne mesure pas directement les flux de capitaux",
+          "summary": "La Chine a annoncé une hausse de ses réserves de change en fin de mois, l’explication officielle invoquant les effets de conversion des devises et les variations des prix des actifs.",
+          "impact": "Sur le plan financier, il s’agit d’un indicateur actualisé de liquidité extérieure, et non d’une preuve de renforcement de la demande intérieure ou d’achats étrangers d’actions de Chine continentale.",
+          "what": "L’Administration nationale des changes a publié le stock de réserves et sa variation par rapport à la fin du mois précédent. Selon le communiqué, le dollar s’est renforcé tandis que les prix des actifs financiers mondiaux ont évolué de manière contrastée. La hausse des réserves est attribuée aux effets conjugués de la conversion des devises, des prix des actifs et d’autres facteurs. Il s’agit d’un stock inscrit au bilan et mesuré en dollars, et non de chiffre d’affaires d’entreprise, de dépenses publiques ou de trésorerie nouvellement disponible pour les sociétés cotées. L’indicateur de niveau correspond à une observation en fin de mois ; celui exprimé en pourcentage décrit la variation mensuelle.",
+          "why": "L’interprétation de la rédaction est que les réserves ont leur place dans l’évaluation de la solidité financière extérieure, mais ne doivent pas servir de raccourci pour juger les bénéfices des sociétés dont les actions de catégorie A sont cotées. La valeur en dollars d’un portefeuille de réserves peut varier avec les taux de change ou les cours des titres, même sans entrée de trésorerie équivalente. Les entreprises doivent distinguer cet effet de valorisation des taux de change qui influencent les factures d’importation, les recettes d’exportation et les dettes en devises. Pour les ménages, cette publication éclaire donc davantage le contexte de stabilité monétaire et financière qu’une évolution immédiate des salaires, de la capacité à financer un logement à crédit ou du pouvoir de consommation.",
+          "uncertainty": "Le communiqué ne chiffre pas les contributions respectives des variations de valorisation, des transactions ou des interventions sur le marché des changes. Il ne permet pas, à lui seul, d’établir les flux de capitaux privés, les achats étrangers d’actions de Chine continentale ou un changement de politique de change. Assimiler toute la hausse à de nouveaux capitaux entrant en Chine irait au-delà des éléments disponibles.",
+          "watch": "À suivre : les prochaines données sur les réserves, ainsi que les publications sur la balance des paiements et les opérations de conversion de devises. L’analyse consiste à vérifier si les données fondées sur les transactions étayent une interprétation plus large des flux de capitaux ; les publications des sociétés cotées restent nécessaires pour établir les effets sur leurs bénéfices et leur trésorerie.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Réserves de change"
+              "label": "Réserves de change en fin de mois"
             },
             {
               "id": "m2",
-              "label": "Variation mensuelle des réserves"
+              "label": "Croissance mensuelle des réserves"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre acontecimientos de Estados Unidos y China. Comprueba la fecha de publicación de cada historia; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
-        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
+        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La contratación se mantuvo firme mientras la presión salarial siguió siendo moderada",
-          "summary": "El último informe laboral mostró un crecimiento sostenido del empleo y pocos cambios en el desempleo.",
-          "impact": "La combinación respalda los ingresos de los hogares y la demanda de servicios, pero mantiene incierta la trayectoria de la política monetaria.",
-          "what": "El mercado laboral incorporó trabajadores en varias industrias de servicios y en la manufactura, mientras que la remuneración privada por hora siguió aumentando a un ritmo anual moderado. El informe es una estimación preliminar y puede revisarse.",
-          "why": "El crecimiento del empleo respalda el flujo de caja de los hogares, el consumo y la facturación de las empresas intensivas en mano de obra. Un crecimiento salarial moderado reduce la probabilidad de un impacto inmediato en los costes, aunque una contratación persistente puede mantener resistente la demanda.",
-          "uncertainty": "Las estimaciones mensuales de empleo pueden cambiar con revisiones posteriores, y la información de un informe no permite determinar si el enfriamiento del mercado laboral terminó o solo se detuvo temporalmente.",
-          "watch": "Observa las revisiones posteriores del empleo, las vacantes, las medidas salariales y los datos de inflación para confirmar si la demanda se estabiliza o se debilita.",
+          "title": "Los beneficios de Berkshire se debilitan mientras las recompras consumen efectivo",
+          "summary": "Berkshire Hathaway comunicó menores beneficios netos y operativos, mientras mantenía importantes recompras de sus propias acciones.",
+          "impact": "La implicación financiera es que los accionistas deben distinguir entre las fluctuaciones contables relacionadas con las inversiones, los beneficios de los negocios y el efectivo disponible para asignar capital.",
+          "what": "Berkshire combina seguros con negocios de transporte ferroviario de mercancías, servicios públicos, energía, fabricación y comercio minorista. Su último informe muestra menores beneficios de suscripción de seguros e ingresos por inversiones del negocio asegurador, compensados parcialmente por mayores aportaciones de las actividades ferroviarias, energéticas y manufactureras. Los ingresos y el beneficio atribuible a los accionistas proceden de la cuenta de resultados trimestral, mientras que la cifra de flujo de efectivo operativo corresponde al acumulado del año. Estos períodos deben mantenerse separados: la cifra de efectivo no es un resultado trimestral. La medida de beneficio operativo definida por la dirección excluye determinados efectos de las inversiones y del deterioro de activos, y no sustituye al flujo de efectivo.",
+          "why": "La interpretación editorial es que la composición de los negocios importa más que la cifra principal de beneficios por sí sola. Los beneficios de los seguros dependen de los siniestros y de los ingresos por inversiones, mientras que las actividades ferroviarias y de servicios públicos vinculan al grupo con la actividad económica y el gasto en infraestructuras. Las recompras son un uso del capital, no un gasto operativo que genere ingresos. Para quien empieza, conviene distinguir entre registrar un beneficio contable, generar efectivo con las operaciones y decidir cómo emplearlo. Una empresa puede seguir siendo rentable aunque sus compromisos de efectivo compitan con las adquisiciones, la inversión y su capacidad para afrontar dificultades financieras.",
+          "uncertainty": "Las variaciones no realizadas del valor de las inversiones se incluyen en los beneficios declarados, y la dirección advierte que no deben interpretarse como una imagen fiable del desempeño del negocio. El flujo de efectivo operativo también refleja movimientos del capital circulante y de las obligaciones del negocio asegurador, por lo que ninguna de las medidas de beneficio determina cuánto efectivo puede distribuirse libremente. El importe comunicado de las recompras es aproximado.",
+          "watch": "Conviene seguir las próximas informaciones sobre suscripción de seguros, el estado de flujos de efectivo y los datos de recompras efectivamente realizadas. La clave del análisis es comprobar si los negocios operativos sostienen la asignación de capital sin depender de valoraciones favorables de la cartera.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variación del empleo no agrícola"
+              "label": "Ingresos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Tasa de desempleo"
+              "label": "Beneficio neto trimestral atribuible a los accionistas"
             },
             {
               "id": "m3",
-              "label": "Variación anual de la remuneración por hora"
+              "label": "Beneficio operativo trimestral definido por la dirección"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de efectivo operativo acumulado del año"
+            },
+            {
+              "id": "m5",
+              "label": "Recompras trimestrales aproximadas de acciones"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "El operador de oleoductos generó mucho efectivo, pero presentó resultados contables mixtos",
-          "summary": "El informe trimestral fechado mostró un sólido desempeño operativo del negocio midstream junto con resultados contables afectados por cambios en la cartera de activos.",
-          "impact": "La generación de efectivo operativo respalda las distribuciones y el servicio de la deuda, mientras que el volumen transportado, las revisiones contractuales y el apalancamiento siguen siendo factores sensibles.",
-          "what": "El operador transporta, recoge, almacena y gestiona crudo y productos relacionados en Norteamérica. Su informe presenta por separado el resultado neto consolidado, el flujo de caja operativo y el EBITDA ajustado. El EBITDA ajustado incluye operaciones continuadas y discontinuadas, por lo que no debe considerarse una medida pura de las operaciones continuadas.",
-          "why": "El desempeño midstream depende en gran medida de los volúmenes contratados, el volumen transportado, los márgenes por tarifas, las adquisiciones y los costes operativos, no solo de los precios de las materias primas. Una sólida generación de efectivo puede respaldar la asignación de capital, pero las medidas sobre el balance y las ventas de activos pueden dificultar la comparación contable.",
-          "uncertainty": "El EBITDA ajustado no es una medida conforme a los principios contables generalmente aceptados, y los cambios en la cartera, los costes ambientales, la revisión de contratos, los volúmenes de producción, el crédito de los clientes y las condiciones de mercado pueden modificar los resultados futuros.",
-          "watch": "Observa los volúmenes transportados, el efectivo disponible después de las distribuciones, el apalancamiento, la integración de los activos adquiridos y el efecto del negocio canadiense vendido.",
+          "title": "CMOC autoriza una recompra de acciones de clase A, no su amortización inmediata",
+          "summary": "CMOC aprobó un plan de recompra de acciones de clase A financiado con recursos propios u obtenidos por la empresa, sujeto a condiciones de ejecución.",
+          "impact": "La implicación financiera es un posible compromiso de efectivo y una fuente de demanda de acciones, pero no una reducción permanente garantizada de las acciones en circulación.",
+          "what": "CMOC es un grupo minero con operaciones de cobre y cobalto en la República Democrática del Congo. Su consejo de administración aprobó compras mediante el sistema centralizado de pujas de la bolsa, con un rango de gasto autorizado y un plazo de ejecución. El anuncio permite vender posteriormente las acciones recompradas y contempla amortizar las que permanezcan sin vender conforme a las condiciones establecidas. Por tanto, las métricas describen el gasto previsto, no compras ya realizadas, ingresos, beneficios ni generación de efectivo operativo. El comunicado no aporta esas magnitudes de los estados financieros.",
+          "why": "La interpretación editorial es que el destino final de las acciones resulta fundamental para entender el plan. La recompra puede generar demanda mientras se ejecutan las compras, pero una venta posterior puede revertir la reducción de las acciones en manos del público. La amortización definitiva tiene implicaciones distintas de conservar acciones para una posible reventa. La financiación también importa: el efectivo destinado a recompras no puede financiar al mismo tiempo equipos, capital circulante o devolución de deuda. Para las empresas y los hogares vinculados a las cadenas de suministro mineras, se trata de un anuncio sobre asignación de capital, no de una prueba de mejora en la producción de metales, los precios de venta o la demanda de los clientes.",
+          "uncertainty": "La empresa identifica riesgos relacionados con el precio máximo de compra, la disponibilidad de financiación, las necesidades operativas y los cambios en las condiciones del negocio. Puede modificar o cancelar el plan. Su afirmación de que el plan no debería perjudicar de forma significativa las operaciones es una valoración de la dirección, no una prueba de que las compras se hayan realizado ni de que la financiación carezca de coste.",
+          "watch": "Conviene seguir los anuncios de ejecución para conocer el gasto efectivo, las comunicaciones sobre financiación y la posterior venta o amortización de las acciones recompradas. La clave del análisis es la ejecución y su efecto duradero sobre el capital, no el titular de la autorización.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Resultado neto consolidado"
+              "label": "Gasto mínimo autorizado para recompras"
             },
             {
               "id": "m2",
-              "label": "Flujo de caja operativo"
+              "label": "Gasto máximo autorizado para recompras"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "El empleo sigue creciendo en Estados Unidos y el avance salarial complica las perspectivas de los tipos de interés",
+          "summary": "El informe de empleo mostró un aumento continuado del empleo no agrícola, una tasa de desempleo prácticamente estable y un incremento de la remuneración media por hora.",
+          "impact": "La implicación financiera es un apoyo a los ingresos de los hogares, junto con una cuestión aún sin resolver sobre la inflación y los costes de financiación.",
+          "what": "La Oficina de Estadísticas Laborales informó de aumentos del empleo en los servicios profesionales y empresariales, la atención sanitaria, y el transporte y almacenamiento. El empleo no agrícola y la remuneración por hora proceden de la encuesta a establecimientos; el desempleo, de la encuesta a hogares. Miden aspectos distintos del mercado laboral y no tienen por qué evolucionar en la misma dirección. La métrica de empleo refleja un aumento absoluto de puestos de trabajo, no una tasa de crecimiento porcentual. Las métricas salariales describen remuneraciones medias nominales, no el poder adquisitivo ajustado por inflación ni un aumento salarial garantizado para cada trabajador.",
+          "why": "La interpretación editorial es que la continuidad del empleo y de los ingresos salariales puede ayudar a sostener el consumo y las ventas empresariales. Sin embargo, el crecimiento salarial por sí solo no determina las perspectivas de los tipos de interés. Si la demanda se mantiene resistente y la inflación persiste, los responsables de la política monetaria podrían tener menos motivos para flexibilizar las condiciones de financiación. Si la productividad absorbe los costes laborales o se debilitan las presiones sobre los precios, las implicaciones podrían ser distintas. Esto genera fuerzas contrapuestas para las acciones: una demanda resistente puede sostener los beneficios, mientras que una financiación cara puede lastrar la inversión y las valoraciones. Para los hogares, los efectos prácticos pasan por la estabilidad del empleo, el poder adquisitivo y el coste de atender deudas a tipo variable o recién contratadas.",
+          "uncertainty": "El informe no incluye una comparación documentada con las previsiones de consenso, por lo que aquí no se presenta como una sorpresa comparable a la de los resultados empresariales ni como un dato superior a las previsiones. Las estimaciones de empleo están sujetas a revisiones y a incertidumbre de muestreo. Las variaciones de la remuneración media también pueden reflejar cambios en la composición del empleo; por sí solas no determinan la dirección de la inflación de los precios al consumidor.",
+          "watch": "Conviene seguir las revisiones del empleo no agrícola, las próximas publicaciones de salarios y empleo, los datos de inflación y las explicaciones de la Reserva Federal sobre su evaluación de la política monetaria. La clave del análisis es comprobar si la resistencia de los ingresos convive con una moderación de las presiones sobre los precios.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Variación del empleo no agrícola ajustada por estacionalidad"
+            },
+            {
+              "id": "m2",
+              "label": "Tasa de desempleo ajustada por estacionalidad"
             },
             {
               "id": "m3",
-              "label": "EBITDA ajustado atribuible a la sociedad"
+              "label": "Crecimiento mensual de la remuneración media por hora"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento interanual de la remuneración media por hora"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Las reservas de divisas de China aumentaron ligeramente",
-          "summary": "Los datos oficiales mostraron que las reservas se mantuvieron en general estables al cierre de octubre, tras los efectos de valoración de las divisas y los activos mundiales.",
-          "impact": "La estabilidad de las reservas proporciona un colchón externo para los pagos y la gestión cambiaria, pero la variación mensual no demuestra una mayor entrada de capitales.",
-          "what": "La autoridad de reservas atribuyó el aumento principalmente a la conversión por tipos de cambio y a los cambios en los precios de los activos financieros mundiales, mientras describía las condiciones económicas internas como estables en general.",
-          "why": "Unas reservas estables pueden reducir la preocupación por la financiación externa entre importadores, bancos y empresas con obligaciones en moneda extranjera. Sin embargo, los cambios de valoración pueden revertirse sin que cambien el comercio, la inversión o los flujos de capital.",
-          "uncertainty": "El comunicado no cuantifica por separado los flujos de transacciones, los cambios de valoración ni la composición detallada de los activos de reserva.",
-          "watch": "Observa los datos posteriores sobre reservas, los informes de balanza de pagos, las condiciones del tipo de cambio y la demanda de financiación en moneda extranjera.",
+          "title": "El aumento de las reservas de China no es una medida directa de los flujos de capital",
+          "summary": "China comunicó un aumento de las reservas de divisas al cierre del mes; la explicación oficial citó los efectos de la conversión de monedas y de los precios de los activos.",
+          "impact": "La implicación financiera es una actualización de un indicador de liquidez externa, no una prueba de mayor demanda interna ni de compras extranjeras de acciones de China continental.",
+          "what": "La Administración Estatal de Divisas publicó el saldo de reservas y su variación respecto al cierre del mes anterior. El comunicado señala que el dólar se fortaleció mientras los precios de los activos financieros mundiales tuvieron una evolución dispar, y atribuye el aumento de las reservas al efecto combinado de la conversión a distintos tipos de cambio, los precios de los activos y otros factores. Se trata de un saldo de balance expresado en dólares, no de ingresos empresariales, gasto público ni efectivo nuevo disponible para las empresas cotizadas. La métrica del nivel de reservas corresponde al cierre del mes; la métrica porcentual describe la variación mensual.",
+          "why": "La interpretación editorial es que las reservas forman parte de la evaluación de la solidez financiera externa, pero no deben utilizarse como atajo para juzgar los beneficios de las empresas con acciones de clase A. El valor en dólares de una cartera de reservas puede cambiar cuando se mueven los tipos de cambio o los precios de los valores, incluso sin una entrada de efectivo equivalente. Las empresas deben distinguir ese efecto de valoración de los tipos de cambio que afectan a los pagos por importaciones, los cobros por exportaciones y las obligaciones en moneda extranjera. Para los hogares, el comunicado resulta, por tanto, más relevante como contexto de estabilidad cambiaria y financiera que como señal de un cambio inmediato en los salarios, la capacidad para pagar una hipoteca o la capacidad de consumo.",
+          "uncertainty": "El comunicado no cuantifica por separado las aportaciones de los cambios de valoración, las transacciones o la intervención. Por sí solo, no permite determinar los flujos de capital privado, las compras extranjeras de acciones de China continental ni un cambio de política cambiaria. Interpretar todo el aumento como dinero nuevo que entra en China iría más allá de las pruebas disponibles.",
+          "watch": "Conviene seguir los próximos datos de reservas junto con la información de la balanza de pagos y de las operaciones de liquidación de divisas. La clave del análisis es comprobar si las pruebas basadas en transacciones respaldan una interpretación más amplia sobre los flujos de capital; los informes de las empresas cotizadas siguen siendo necesarios para determinar los efectos sobre sus beneficios y su efectivo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Reservas de divisas"
+              "label": "Reservas de divisas al cierre del mes"
             },
             {
               "id": "m2",
-              "label": "Variación mensual de las reservas"
+              "label": "Crecimiento mensual de las reservas"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版では、米国と中国の動きを扱います。各公表日を確認してください。最近の企業報告は背景を理解するための解説として掲載しています。",
+      "status": "この版では米国と中国の動向を取り上げます。各資料の公表日をご確認ください。最近の企業発表は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "追跡している両指数は、直近の確認済み取引で上昇しました。記載された終値はその取引時点のもので、現在の取引を示すものではありません。",
-        "cn": "追跡している両指数は、直近の確認済み取引で下落しました。記載された終値はその取引時点のもので、現在の取引を示すものではありません。"
+        "us": "終値をめぐる情報には、確認できなかったものがあります。掲載している指数には、それぞれ確認できた取引日を付しています。",
+        "cn": "対象の指数はいずれも、直近で確認できた取引日に下落しました。日付付きの終値はその日の取引結果を示しており、現在の相場を表すものではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "雇用は堅調で、賃金上昇圧力は緩やかなまま",
-          "summary": "最新の雇用統計では、雇用の伸びが続き、失業率には大きな変化がありませんでした。",
-          "impact": "この組み合わせは家計所得とサービス需要を支えますが、金融政策の方向性は不確実なままです。",
-          "what": "労働市場では、複数のサービス業と製造業で雇用者が増えました。一方、民間の時間当たり賃金は、緩やかな年率ペースで上昇を続けました。この統計は暫定推計であり、後から修正される可能性があります。",
-          "why": "雇用の増加は、家計のキャッシュフローや消費、労働集約型企業の売上高を支えます。賃金上昇が緩やかなら、急なコストショックは起こりにくいと考えられますが、雇用が続けば需要は底堅くなり得ます。",
-          "uncertainty": "月次の雇用者数推計は後日の修正で変わる可能性があり、この報告だけでは労働市場の減速が止まったのか、一時的に止まっているだけなのかを判断できません。",
-          "watch": "その後の雇用者数の修正、求人件数、賃金指標、インフレ指標を確認し、需要が安定しているのか弱まっているのかを見極めます。",
+          "title": "バークシャーの利益が減少、自社株買いで資金を使用",
+          "summary": "バークシャー・ハサウェイは、純利益と営業利益の減少を発表する一方、大規模な自社株買いを続けました。",
+          "impact": "財務面で重要なのは、投資に伴う会計上の変動、事業そのものが生む利益、資金配分に使える現金を、株主が区別することです。",
+          "what": "バークシャーは、保険に加え、貨物鉄道、公益、エネルギー、製造、小売の事業を展開しています。最新の発表では、保険引受利益と保険事業の投資収益が減少し、鉄道、エネルギー、製造関連事業の貢献拡大がその落ち込みを部分的に補いました。売上高と株主に帰属する純利益は四半期決算の数値ですが、営業キャッシュフローは期首からの累計です。対象期間は区別する必要があり、現金収支の数値は四半期だけの実績ではありません。経営陣が定義する営業利益は、特定の投資損益や減損の影響を除いており、キャッシュフローの代わりにはなりません。",
+          "why": "編集上の見方では、表面上の利益だけでなく、どの事業が利益を生んでいるかが重要です。保険の利益は保険金の支払いと投資収益に左右され、貨物輸送や公益事業は景気やインフラ支出の影響を受けます。自社株買いは資金の使い道であり、売上を生むための営業費用ではありません。初心者にとって大切なのは、会計上の利益を上げること、事業から現金を得ること、その現金の使い道を決めることの違いです。黒字を維持していても、資金の支出予定が、買収や投資、財務の健全性を保つための資金確保と競合することがあります。",
+          "uncertainty": "報告上の利益には未実現の投資損益が含まれますが、経営陣は、その変動を事業の実態を確実に表すものと捉えないよう注意を促しています。営業キャッシュフローにも運転資本や保険負債の変動が反映されるため、どの利益指標を見ても、自由に分配できる現金の額までは分かりません。公表された自社株買いの金額は概算です。",
+          "watch": "今後の保険引受に関する開示、キャッシュフロー計算書、自社株買いの実績報告が注目点です。分析の焦点は、保有する投資資産の評価上昇に頼らず、事業から得る資金で資本配分を支えられるかどうかです。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "雇用者数の変化"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "失業率"
+              "label": "四半期の株主帰属純利益"
             },
             {
               "id": "m3",
-              "label": "時間当たり賃金の前年比変化"
+              "label": "経営陣定義の四半期営業利益"
+            },
+            {
+              "id": "m4",
+              "label": "期首からの累計営業キャッシュフロー"
+            },
+            {
+              "id": "m5",
+              "label": "四半期の自社株買い額（概算）"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "パイプライン運営会社、キャッシュ創出は堅調も会計上の結果はまちまち",
-          "summary": "公表日が示された四半期決算では、ミッドストリーム事業の運営は堅調でしたが、事業ポートフォリオの変化が会計上の結果に影響しました。",
-          "impact": "営業キャッシュの創出は分配や債務返済を支えますが、取扱量、契約条件の見直し、レバレッジは重要な変動要因です。",
-          "what": "この運営会社は、北米で原油や関連製品の輸送、集荷、貯蔵、取扱いを行っています。発表資料では、連結純利益、営業キャッシュフロー、調整後EBITDAを別々に報告しています。調整後EBITDAには継続事業と非継続事業が含まれるため、継続事業だけの数値として扱うべきではありません。",
-          "why": "ミッドストリーム事業の業績は、見出しとなる商品価格だけでなく、契約済み取扱量、取扱量、手数料マージン、買収、運営費に大きく左右されます。キャッシュ創出が堅調なら資本配分を支えられますが、貸借対照表に関する対応や資産売却によって、会計上の比較が難しくなる場合があります。",
-          "uncertainty": "調整後EBITDAは非GAAP指標です。また、事業ポートフォリオの変化、環境関連費用、契約価格の見直し、生産量、顧客の信用力、市場環境によって、今後の結果は変わる可能性があります。",
-          "watch": "取扱量、分配後に残るキャッシュ、レバレッジ、買収資産の統合、売却したカナダ事業の影響を確認します。",
+          "title": "洛陽モリブデンが中国本土上場株の自社株買いを承認、直ちに消却する計画ではない",
+          "summary": "洛陽モリブデンは、自己資金または自ら調達する資金を使う中国本土上場株の買い戻し計画を承認しました。実施には条件があります。",
+          "impact": "財務面では、資金支出と株式への買い需要が生じる可能性があります。ただし、発行済み株式数が恒久的に減ると保証されたわけではありません。",
+          "what": "洛陽モリブデンは、コンゴ民主共和国で銅とコバルトの事業を行う鉱業グループです。取締役会は、支出額の範囲と実施期間を定め、取引所での集中競争入札による買い付けを承認しました。発表では、取得した株式の後日の売却を認めるとともに、所定の取り決めに従って売却されずに残った株式を消却するとしています。そのため、掲載指標が示すのは支出計画であり、実行済みの買い付けや売上高、利益、事業から生み出した現金ではありません。この発表から、そうした財務諸表上の実績は確認できません。",
+          "why": "編集上の見方では、取得株式を最終的にどう扱うかが、計画を理解するうえで重要です。買い付けの実施中には株式への需要が生じますが、後に売却すれば、市場で保有される株式の減少が元に戻る可能性があります。株式を消却して恒久的になくすことと、再売却できるよう保有することでは意味が異なります。資金の出所も重要です。自社株買いに使った現金を、同時に設備、運転資本、借入金の返済に充てることはできません。鉱業の供給網に関わる企業や家計にとって、これは資本配分に関する発表であり、金属の生産量や販売価格、顧客需要が改善した証拠ではありません。",
+          "uncertainty": "会社は、買付価格の上限、資金調達の可否、事業運営上の必要性、事業環境の変化に関するリスクを挙げています。計画を変更または中止する可能性もあります。事業運営に重大な悪影響を与えないとする説明は経営陣の評価であり、買い付けが実行されたことや、資金調達に費用がかからないことの証拠ではありません。",
+          "watch": "実際の支出額に関する実施報告、資金調達の開示、取得株式の最終的な売却または消却が注目点です。分析では、承認という見出しよりも、実行状況と資本への持続的な影響が焦点となります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "連結純利益"
+              "label": "承認された自社株買い額の下限"
             },
             {
               "id": "m2",
-              "label": "営業キャッシュフロー"
+              "label": "承認された自社株買い額の上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "米国の雇用増が継続、賃金上昇で金利の見通しは複雑に",
+          "summary": "雇用統計では、非農業部門雇用者数の増加が続き、失業率はおおむね横ばいとなり、平均時給は上昇しました。",
+          "impact": "財務面では家計の所得を支える内容ですが、インフレや借入コストへの影響は依然として定まりません。",
+          "what": "米労働統計局は、専門・事業サービス、医療、運輸・倉庫で雇用が増えたと報告しました。非農業部門雇用者数と時給は事業所調査、失業率は家計調査に基づきます。それぞれ労働市場の異なる面を測るため、同じ方向に動くとは限りません。雇用者数の指標は雇用の増加人数を示しており、増加率ではありません。賃金指標が表すのは名目の平均賃金であり、物価上昇を差し引いた購買力でも、個々の労働者の昇給を保証するものでもありません。",
+          "why": "編集上の見方では、雇用と賃金所得の伸びが続くことは、個人消費や企業の売上を支え得ます。ただし、賃金上昇だけで金利の先行きは判断できません。需要が底堅く、インフレが長引けば、政策当局が借入環境を緩和する理由は弱まる可能性があります。生産性の向上で人件費の増加を吸収できたり、物価上昇圧力が和らいだりすれば、意味合いは変わり得ます。株式市場には、需要の底堅さが利益を支える面と、高い資金調達コストが投資や株価評価を圧迫する面が併存します。家計には、雇用の安定、購買力、変動金利の借り入れや新たな借り入れの返済負担を通じて影響します。",
+          "uncertainty": "ここでは、出典を確認できる市場予想との比較を行っていないため、企業決算のようなサプライズや予想超えとは位置付けていません。雇用の推計値には改定の可能性と標本調査に伴う不確かさがあります。平均賃金の変化には、働く人の構成の変化も影響し得るため、それだけで消費者物価の方向性を判断することはできません。",
+          "watch": "雇用者数の改定、今後の賃金・雇用統計、物価統計、米連邦準備制度による政策判断の説明が注目点です。分析の焦点は、所得の底堅さと物価上昇圧力の緩和が両立しているかどうかです。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "非農業部門雇用者数の増減（季節調整済み）"
+            },
+            {
+              "id": "m2",
+              "label": "失業率（季節調整済み）"
             },
             {
               "id": "m3",
-              "label": "パートナーシップに帰属する調整後EBITDA"
+              "label": "平均時給の前月比上昇率"
+            },
+            {
+              "id": "m4",
+              "label": "平均時給の前年同月比上昇率"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "中国の外貨準備高が小幅に増加",
-          "summary": "公表データでは、通貨や世界の資産価格の評価変動を受け、十月末の外貨準備高はおおむね安定していました。",
-          "impact": "外貨準備の安定は、決済や通貨管理における対外的な緩衝材となりますが、月間の変化だけで資本流入の増加を示すものではありません。",
-          "what": "外貨準備当局は、増加の主な要因として為替換算の変化と世界の金融資産価格の変動を挙げ、国内経済の状況はおおむね安定していると説明しました。",
-          "why": "外貨準備が安定していれば、輸入業者、銀行、外貨建て債務を抱える企業にとって、対外資金調達への懸念を和らげる可能性があります。ただし、評価変動は貿易、投資、資本フローに対応した変化がなくても反転する可能性があります。",
-          "uncertainty": "発表資料では、取引による資金フロー、評価変動、外貨準備資産の詳細な構成を個別には示していません。",
-          "watch": "その後の外貨準備データ、国際収支統計、為替環境、外貨資金への需要を確認します。",
+          "title": "中国の外貨準備増加は、資金の流出入を直接示すものではない",
+          "summary": "中国は月末の外貨準備高が増加したと発表しました。当局は、通貨換算や資産価格の影響を理由に挙げています。",
+          "impact": "財務面では、対外的な支払いに備える資金の状況を示す指標の更新であり、国内需要の強まりや海外投資家による中国本土株の買い付けを証明するものではありません。",
+          "what": "国家外貨管理局は、外貨準備残高と前月末からの変化を公表しました。発表では、ドルが上昇する一方、世界の金融資産価格はまちまちだったとし、外貨準備の増加は為替換算、資産価格、その他の要因が重なった結果だと説明しています。これはドルで評価した貸借対照表上の残高であり、企業の売上高、政府支出、上場企業が新たに使える現金ではありません。残高の指標は月末時点の状況を、増加率の指標は前月末からの変化を表します。",
+          "why": "編集上の見方では、外貨準備は対外的な金融面の耐久力を評価する材料ですが、中国本土上場株の企業利益を手早く判断する代わりにはなりません。外貨準備の運用資産をドルで評価した金額は、それに相当する実際の資金流入がなくても、為替や証券価格の変動で変わり得ます。企業は、この評価額の変化と、輸入代金、輸出代金の受け取り、外貨建て負債に影響する為替変動を区別する必要があります。家計にとっても、この発表は賃金、住宅ローンの返済余力、消費に使える資金が直ちに変わることより、通貨や金融の安定性を取り巻く背景に関わる情報です。",
+          "uncertainty": "発表では、評価額の変動、取引、為替介入がそれぞれどの程度影響したかは示されていません。この資料だけでは、民間資金の流出入、海外投資家による中国本土株の購入、為替政策の変更は確認できません。増加分をすべて中国への新たな資金流入と捉えるのは、確認できる根拠を超えた解釈です。",
+          "watch": "今後の外貨準備統計に加え、国際収支や外国為替決済に関する開示が注目点です。分析の焦点は、実際の取引に基づく情報が、より広い資金の流れという解釈を裏付けるかどうかです。企業の利益や現金への影響を確認するには、引き続き上場企業の開示資料が必要です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "外貨準備高"
+              "label": "月末外貨準備高"
             },
             {
               "id": "m2",
-              "label": "月間の外貨準備高の変化"
+              "label": "外貨準備高の前月比増加率"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição abrange acontecimentos nos Estados Unidos e na China. Verifique a data de publicação de cada item; os relatórios empresariais recentes são apresentados como explicações de contexto.",
+      "status": "Esta edição cobre acontecimentos nos EUA e na China. Confira a data de cada publicação; relatórios empresariais recentes são apresentados como contexto explicativo.",
       "marketSummary": {
-        "us": "Os índices acompanhados subiram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nas sessões verificadas mais recentes. Os fechamentos datados descrevem essas sessões, não as negociações atuais."
+        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Os índices acompanhados caíram nos respectivos pregões mais recentes que puderam ser verificados. Os fechamentos datados descrevem esses pregões, não as negociações atuais."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "As contratações permaneceram firmes, enquanto a pressão salarial seguiu moderada",
-          "summary": "O relatório de emprego mais recente mostrou crescimento contínuo do emprego e pouca alteração na taxa de desemprego.",
-          "impact": "Essa combinação sustenta a renda das famílias e a demanda por serviços, mas mantém incerto o caminho da política monetária.",
-          "what": "O mercado de trabalho adicionou trabalhadores em vários setores de serviços e na indústria, enquanto os ganhos médios por hora no setor privado continuaram subindo em ritmo anual moderado. O relatório é uma estimativa preliminar e pode ser revisado.",
-          "why": "O crescimento do emprego sustenta o fluxo de caixa das famílias, o consumo e a receita de empresas intensivas em mão de obra. O crescimento salarial moderado tem menor probabilidade de gerar um choque imediato de custos, embora contratações persistentes possam manter a demanda resiliente.",
-          "uncertainty": "As estimativas mensais de emprego podem mudar com revisões posteriores, e um relatório isolado não permite determinar se a desaceleração do mercado de trabalho terminou ou apenas fez uma pausa.",
-          "watch": "Acompanhe as revisões posteriores do emprego, as vagas abertas, as medidas salariais e os dados de inflação para confirmar se a demanda está se estabilizando ou enfraquecendo.",
+          "title": "Lucros da Berkshire recuam enquanto recompras consomem caixa",
+          "summary": "A Berkshire Hathaway divulgou queda no lucro líquido e no lucro operacional, enquanto continuou realizando recompras expressivas de suas ações.",
+          "impact": "A implicação financeira é que os acionistas precisam distinguir as oscilações contábeis ligadas a investimentos, os lucros das atividades da empresa e o caixa disponível para alocação de capital.",
+          "what": "A Berkshire reúne negócios de seguros, transporte ferroviário de cargas, serviços públicos, energia, indústria e varejo. Seu comunicado mais recente mostra queda no resultado de subscrição de seguros e na receita de investimentos das seguradoras, parcialmente compensada por contribuições mais fortes das atividades ferroviárias, de energia e industriais. A receita e o lucro atribuível aos acionistas vêm da demonstração trimestral de resultados, enquanto o fluxo de caixa operacional cobre o acumulado do ano. Esses períodos devem permanecer separados: o valor de caixa não é um resultado trimestral. A medida de lucro operacional definida pela administração exclui determinados efeitos de investimentos e de perdas por redução ao valor recuperável de ativos, e não substitui o fluxo de caixa.",
+          "why": "A interpretação editorial é que a composição dos negócios importa mais do que o lucro em destaque isoladamente. Os resultados de seguros dependem dos sinistros e da receita de investimentos, enquanto as operações de transporte de cargas e serviços públicos expõem o grupo à atividade econômica e aos gastos com infraestrutura. As recompras são uma aplicação de capital, não uma despesa operacional que gera receita. Para quem está começando, a distinção útil é entre obter lucro contábil, gerar caixa nas operações e decidir como usar esse caixa. Uma empresa pode continuar lucrativa enquanto seus compromissos de caixa disputam recursos com aquisições, investimentos e a preservação da solidez financeira.",
+          "uncertainty": "Variações não realizadas dos investimentos entram no lucro divulgado, e a administração alerta que esses movimentos não devem ser tratados como um retrato confiável do desempenho dos negócios. O fluxo de caixa operacional também reflete mudanças no capital de giro e nas obrigações de seguros, portanto nenhuma das medidas de lucro determina o caixa livremente disponível para distribuição. O valor divulgado das recompras é aproximado.",
+          "watch": "Acompanhe as próximas divulgações sobre o resultado de subscrição de seguros, a demonstração dos fluxos de caixa e os registros de recompras efetivamente realizadas. O teste analítico é verificar se as atividades operacionais sustentam a aplicação de capital sem depender de avaliações favoráveis da carteira de investimentos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação do emprego não agrícola"
+              "label": "Receita trimestral"
             },
             {
               "id": "m2",
-              "label": "Taxa de desemprego"
+              "label": "Lucro líquido trimestral atribuível aos acionistas"
             },
             {
               "id": "m3",
-              "label": "Variação anual dos ganhos por hora"
+              "label": "Lucro operacional trimestral definido pela administração"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional acumulado no ano"
+            },
+            {
+              "id": "m5",
+              "label": "Recompras trimestrais aproximadas de ações"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "A operadora de oleodutos apresentou forte geração de caixa, mas resultados contábeis mistos",
-          "summary": "O comunicado trimestral datado mostrou desempenho operacional sólido no segmento de transporte e armazenagem, junto a resultados contábeis afetados por mudanças no portfólio.",
-          "impact": "A geração de caixa operacional apoia distribuições e o serviço da dívida, enquanto volume transportado, renegociações contratuais e alavancagem continuam sendo sensibilidades importantes.",
-          "what": "A operadora transporta, coleta, armazena e movimenta petróleo bruto e produtos relacionados na América do Norte. O comunicado apresenta separadamente o lucro líquido consolidado, o fluxo de caixa operacional e o EBITDA ajustado. A medida de EBITDA ajustado inclui operações continuadas e descontinuadas, portanto não deve ser tratada como uma medida exclusiva das operações continuadas.",
-          "why": "O desempenho do segmento de transporte e armazenagem depende principalmente de volumes contratados, fluxo transportado, margens de tarifas, aquisições e custos operacionais, e não apenas dos preços de referência das commodities. A forte geração de caixa pode apoiar a alocação de capital, mas medidas relacionadas ao balanço e vendas de ativos podem reduzir a comparabilidade contábil.",
-          "uncertainty": "O EBITDA ajustado é uma medida não GAAP, e mudanças no portfólio, custos ambientais, revisão de contratos, volumes de produção, crédito dos clientes e condições de mercado podem alterar os resultados futuros.",
-          "watch": "Acompanhe os volumes transportados, o caixa disponível após distribuições, a alavancagem, a integração dos ativos adquiridos e o efeito do negócio canadense desinvestido.",
+          "title": "CMOC autoriza recompra de ações classe A, não cancelamento imediato",
+          "summary": "A CMOC aprovou um plano de recompra de ações classe A com recursos próprios ou captados pela empresa, sujeito a condições de execução.",
+          "impact": "A implicação financeira é um possível compromisso de caixa e uma fonte de demanda pelas ações, mas não uma redução permanente garantida na quantidade de ações em circulação.",
+          "what": "A CMOC é um grupo de mineração com operações de cobre e cobalto na República Democrática do Congo. Seu conselho de administração aprovou compras por meio de negociação centralizada em bolsa, com uma faixa autorizada de gastos e um prazo de execução. O anúncio permite a venda posterior das ações recompradas e prevê o cancelamento das que permanecerem sem venda conforme as condições especificadas. Portanto, as métricas descrevem gastos planejados, não compras concluídas, receita, lucro ou geração de caixa operacional. O comunicado não informa essas medidas das demonstrações financeiras.",
+          "why": "A interpretação editorial é que o destino final das ações é fundamental para entender o plano. A recompra pode criar demanda enquanto as compras acontecem, mas uma revenda posterior pode reverter a redução das ações em circulação no mercado. Um cancelamento definitivo tem implicações diferentes da manutenção de ações para possível revenda. A origem dos recursos também importa: o caixa usado em uma recompra não pode, ao mesmo tempo, financiar equipamentos, capital de giro ou pagamento de dívidas. Para empresas e famílias expostas às cadeias de fornecimento da mineração, esse é um anúncio de alocação de capital, e não uma evidência de melhora na produção de metais, nos preços de venda ou na demanda dos clientes.",
+          "uncertainty": "A empresa aponta riscos relacionados ao preço máximo de compra, à disponibilidade de financiamento, às necessidades operacionais e a mudanças nas condições dos negócios. Ela pode alterar ou encerrar o plano. A afirmação de que o plano não deve prejudicar de forma relevante as operações é uma avaliação da administração, não uma prova de que as compras ocorreram ou de que os recursos não têm custo.",
+          "watch": "Acompanhe os comunicados de execução para verificar os gastos efetivos, as divulgações sobre a origem dos recursos e a eventual venda ou o cancelamento das ações recompradas. O teste analítico é a execução e o impacto duradouro sobre o capital, e não o destaque dado à autorização.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Lucro líquido consolidado"
+              "label": "Valor mínimo autorizado para recompras"
             },
             {
               "id": "m2",
-              "label": "Fluxo de caixa operacional"
+              "label": "Valor máximo autorizado para recompras"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Contratações continuam nos EUA, mas alta dos salários complica perspectiva para os juros",
+          "summary": "O relatório de emprego mostrou continuidade na criação de vagas, uma taxa de desemprego relativamente estável e aumento da remuneração média por hora.",
+          "impact": "A implicação financeira é um apoio à renda das famílias, ao lado de uma questão ainda em aberto sobre inflação e custos de crédito.",
+          "what": "O órgão de estatísticas do trabalho dos EUA informou aumento do emprego nos serviços profissionais e empresariais, na saúde e em transporte e armazenagem. Os dados de emprego não agrícola e de remuneração por hora vêm da pesquisa com estabelecimentos; o desemprego vem da pesquisa com domicílios. Essas pesquisas medem aspectos diferentes do mercado de trabalho e não precisam se mover na mesma direção. A métrica de emprego representa um acréscimo absoluto de vagas, não uma taxa percentual de crescimento. As métricas salariais descrevem a remuneração média nominal, não o poder de compra corrigido pela inflação nem um aumento garantido para cada trabalhador.",
+          "why": "A interpretação editorial é que a continuidade do emprego e da renda salarial pode ajudar a sustentar o consumo e as vendas das empresas. Porém, o crescimento dos salários, isoladamente, não define a perspectiva para os juros. Se a demanda continuar resistente e a inflação persistir, as autoridades monetárias podem ter menos motivos para flexibilizar as condições de crédito. Se a produtividade absorver os custos de mão de obra ou as pressões sobre os preços diminuírem, a implicação poderá ser diferente. Isso cria forças opostas para as ações: uma demanda resistente pode sustentar os lucros, enquanto um financiamento caro pode pesar sobre os investimentos e as avaliações de mercado. Para as famílias, os efeitos práticos passam pela segurança no emprego, pelo poder de compra e pelo custo de pagar dívidas com juros variáveis ou recém-contratadas.",
+          "uncertainty": "O relatório não apresenta uma comparação com estimativas de consenso respaldadas por fontes, por isso não é caracterizado aqui como uma surpresa nos moldes dos resultados empresariais nem como um resultado acima das previsões. As estimativas de emprego estão sujeitas a revisões e à incerteza amostral. Mudanças na remuneração média também podem refletir alterações na composição do emprego; isoladamente, elas não determinam a direção da inflação ao consumidor.",
+          "watch": "Acompanhe as revisões dos dados de emprego, as próximas divulgações de salários e emprego, os dados de inflação e a explicação do Federal Reserve sobre sua avaliação da política monetária. O teste analítico é verificar se a resistência da renda convive com a redução das pressões sobre os preços.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Variação do emprego não agrícola com ajuste sazonal"
+            },
+            {
+              "id": "m2",
+              "label": "Taxa de desemprego com ajuste sazonal"
             },
             {
               "id": "m3",
-              "label": "EBITDA ajustado atribuível à parceria"
+              "label": "Crescimento mensal da remuneração média por hora"
+            },
+            {
+              "id": "m4",
+              "label": "Crescimento anual da remuneração média por hora"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "As reservas cambiais da China avançaram ligeiramente",
-          "summary": "Dados oficiais mostraram que as reservas permaneceram amplamente estáveis no fim de outubro, após efeitos de avaliação em moedas e ativos globais.",
-          "impact": "A estabilidade das reservas oferece um colchão externo para pagamentos e gestão cambial, mas a variação mensal não demonstra entradas de capital mais fortes.",
-          "what": "A autoridade responsável pelas reservas atribuiu o aumento principalmente à conversão cambial e às mudanças nos preços de ativos financeiros globais, enquanto descreveu as condições econômicas domésticas como amplamente estáveis.",
-          "why": "Reservas estáveis podem reduzir a preocupação com o financiamento externo para importadores, bancos e empresas com obrigações em moeda estrangeira. No entanto, mudanças de avaliação podem se reverter sem alterações correspondentes no comércio, nos investimentos ou nos fluxos de capital.",
-          "uncertainty": "O comunicado não quantifica separadamente os fluxos de transações, as mudanças de avaliação ou a composição detalhada dos ativos de reserva.",
-          "watch": "Acompanhe os dados posteriores sobre reservas, os comunicados do balanço de pagamentos, as condições da taxa de câmbio e a demanda por financiamento em moeda estrangeira.",
+          "title": "Aumento das reservas da China não é uma medida direta do fluxo de capitais",
+          "summary": "A China informou aumento das reservas internacionais no fechamento do mês, e a explicação oficial citou efeitos de conversão cambial e dos preços dos ativos.",
+          "impact": "A implicação financeira é uma atualização do indicador de liquidez externa, não uma prova de maior demanda doméstica ou de compras estrangeiras de ações da China continental.",
+          "what": "A Administração Estatal de Câmbio publicou o estoque de reservas e sua variação em relação ao fechamento do mês anterior. O comunicado afirma que o dólar se fortaleceu enquanto os preços dos ativos financeiros globais tiveram comportamento misto, e atribui o aumento das reservas aos efeitos combinados da conversão cambial, dos preços dos ativos e de outros fatores. Trata-se de um estoque patrimonial medido em dólares, não de receita empresarial, gasto público ou caixa novo disponível para empresas listadas em bolsa. A métrica de nível é uma observação do fechamento do mês; a métrica percentual descreve a variação mensal.",
+          "why": "A interpretação editorial é que as reservas fazem parte da avaliação da solidez financeira externa, mas não devem servir de atalho para julgar os lucros das empresas com ações classe A. O valor em dólares de uma carteira de reservas pode mudar quando as taxas de câmbio ou os preços dos títulos variam, mesmo sem uma entrada equivalente de caixa. As empresas devem distinguir esse efeito de avaliação dos efeitos cambiais sobre pagamentos de importações, receitas de exportações e obrigações em moeda estrangeira. Para as famílias, portanto, a divulgação é mais relevante como contexto para a estabilidade cambial e financeira do que como sinal de uma mudança imediata nos salários, na capacidade de pagar um financiamento imobiliário ou no poder de consumo.",
+          "uncertainty": "O comunicado não quantifica separadamente as contribuições das mudanças de avaliação, das transações ou das intervenções. Isoladamente, ele não permite determinar os fluxos privados de capital, as compras estrangeiras de ações da China continental ou uma mudança na política cambial. Tratar todo o aumento como dinheiro novo entrando na China iria além das evidências.",
+          "watch": "Acompanhe os próximos dados de reservas junto com as divulgações do balanço de pagamentos e das operações de liquidação cambial. O teste analítico é verificar se as evidências baseadas em transações sustentam uma interpretação mais ampla dos fluxos de capital; os relatórios das empresas listadas continuam necessários para determinar os efeitos sobre os lucros e o caixa.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Reservas cambiais"
+              "label": "Reservas internacionais no fechamento do mês"
             },
             {
               "id": "m2",
-              "label": "Variação mensal das reservas"
+              "label": "Crescimento mensal das reservas"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的發展。請查看各則內容的發布日期；近期公司報告以背景解說呈現。",
+      "status": "本期涵蓋美國與中國的動態。請留意各則資料的發布日期；近期公司報告在此作為背景解說。",
       "marketSummary": {
-        "us": "追蹤指數在最近經核實的交易時段皆上漲。標示日期的收盤價描述的是該交易時段，而非目前交易情況。",
-        "cn": "追蹤指數在最近經核實的交易時段皆下跌。標示日期的收盤價描述的是該交易時段，而非目前交易情況。"
+        "us": "部分收盤資料無法核實。各項可取得的指數資料均保留其各自的交易日期。",
+        "cn": "所追蹤的指數在最近經核實的交易日均下跌。附有日期的收盤資料反映的是當日表現，而非目前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "招聘維持穩健，薪資壓力仍然溫和",
-          "summary": "最新勞動報告顯示，就業持續成長，失業情況變化不大。",
-          "impact": "這種組合有助於家庭收入與服務需求，但貨幣政策走向仍不明朗。",
-          "what": "勞動市場在各服務業與製造業持續增加就業人數，而民間時薪仍以溫和的年增速度上升。這份報告屬於初步估計，之後可能修正。",
-          "why": "就業成長有助於家庭現金流、消費，以及勞力密集企業的營收。溫和的薪資成長較不容易立即造成成本衝擊，但持續招聘仍可能讓需求保持韌性。",
-          "uncertainty": "每月非農就業人數估計可能在後續修正中改變，這份報告也無法判定勞動市場降溫是已經停止，還是只是暫時停頓。",
-          "watch": "留意後續非農就業人數修正、職缺、薪資指標與通膨資料，以確認需求是在穩定還是轉弱。",
+          "title": "波克夏獲利走弱，持續回購股票動用現金",
+          "summary": "波克夏海瑟威公布的淨利與營業獲利下滑，同時持續大額回購自家股票。",
+          "impact": "對股東而言，財務上的重點是區分投資帶來的帳面波動、本業獲利，以及可供資金配置的現金。",
+          "what": "波克夏旗下業務涵蓋保險、貨運鐵路、公用事業、能源、製造與零售。最新公告顯示，保險承保獲利與保險投資收益下降，但鐵路、能源及製造相關業務的貢獻增強，抵銷了部分降幅。營收與歸屬股東淨利取自季度損益表，營業現金流數據則涵蓋年初至今。這些期間必須分開看待：現金流數據並非單季結果。管理層定義的營業獲利排除了特定投資與資產減損影響，不能取代現金流指標。",
+          "why": "本篇的分析觀點是，業務組合比獲利標題本身更重要。保險獲利取決於理賠與投資收益，貨運及公用事業則讓集團受到經濟活動與基礎建設支出的影響。股票回購是資金用途，不是用來創造營收的營業費用。對初學者而言，值得分清楚的是：帳面上賺錢、從營運收到現金，以及決定如何運用現金，是不同的事。公司即使持續獲利，現金支出需求仍可能與收購、投資及維持財務韌性的需要相互排擠。",
+          "uncertainty": "尚未實現的投資價值變動會計入公告獲利，管理層也提醒，不宜把這些變動視為可靠的營運表現寫照。營業現金流也會受到營運資金與保險負債變動影響，因此無論採用哪種獲利指標，都無法據此認定可自由分配的現金。公告的回購金額為約數。",
+          "watch": "後續觀察重點包括保險承保資訊、現金流量表與實際股票回購公告。分析關鍵在於，旗下營運事業能否不依賴投資組合估值上升，就足以支應資金配置。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農就業人數變化"
+              "label": "季度營收"
             },
             {
               "id": "m2",
-              "label": "失業率"
+              "label": "季度歸屬股東淨利"
             },
             {
               "id": "m3",
-              "label": "時薪年增變化"
+              "label": "季度管理層定義的營業獲利"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今營業現金流"
+            },
+            {
+              "id": "m5",
+              "label": "季度股票回購約額"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "管線營運商現金創造能力強勁，但會計結果好壞不一",
-          "summary": "有日期的季度公告顯示，中游業務營運穩健，但投資組合變動影響了會計結果。",
-          "impact": "營運現金創造能力有助於配發與償債，而輸送量、合約重新議價與槓桿仍是重要敏感因素。",
-          "what": "該營運商在北美運輸、收集、儲存並處理原油及相關產品。公告分別列示合併淨利、經營現金流與調整後 EBITDA。調整後 EBITDA 包含持續營運與終止營運，因此不應視為純粹的持續營運數字。",
-          "why": "中游業務表現高度取決於合約量、輸送量、費率利潤、收購與營運成本，而不只是主要商品價格。強勁的現金創造能力可支持資本配置，但資產負債表措施與資產出售可能降低會計比較的可比性。",
-          "uncertainty": "調整後 EBITDA 屬於非公認會計原則指標，投資組合變動、環境成本、合約重新定價、產量、客戶信用與市場狀況都可能改變未來結果。",
-          "watch": "留意輸送量、配發後可用現金、槓桿、收購資產整合，以及已剝離的加拿大業務所帶來的影響。",
+          "title": "洛陽鉬業核准回購Ａ股，並非立即註銷",
+          "summary": "洛陽鉬業核准以自有或自籌資金進行Ａ股回購，實際執行仍受相關條件限制。",
+          "impact": "財務上的意義是，這項計畫可能帶來現金支出與股票買盤，但不保證流通在外股數會永久減少。",
+          "what": "洛陽鉬業是礦業集團，在剛果民主共和國經營銅與鈷業務。董事會核准透過交易所集中競價交易回購股票，並訂有授權支出範圍與執行期間。公告允許日後出售已回購股票，並規定依相關安排註銷未售出的股票。因此，這些指標描述的是計畫支出，而非已完成的回購、營收、獲利或營業現金流入。該公告並未提供足以確認這些財報數據的資訊。",
+          "why": "本篇的分析觀點是，理解這項計畫的關鍵，在於回購股票最終如何處理。執行回購時可以形成買盤，但日後再出售，可能使市場流通股數回升，抵銷先前的減少。永久註銷與持有股票以待日後出售，意義並不相同。資金來源也很重要：用於回購的現金，無法同時支應設備、營運資金或償還債務。對受到礦業供應鏈影響的企業與家庭而言，這是資金配置公告，並不代表金屬產量、售價或客戶需求已經改善。",
+          "uncertainty": "公司指出，風險涉及回購價格上限、資金能否到位、營運需求及經營環境變化，也可能變更或終止計畫。公司表示計畫應不致對營運造成重大不利影響，這是管理層的評估，不能證明回購已經發生，也不代表取得資金沒有成本。",
+          "watch": "後續觀察重點包括執行公告中的實際支出、資金來源揭露，以及回購股票最終出售或註銷的情況。分析關鍵是執行結果與持續性的資本影響，而不只是核准回購的消息。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "合併淨利"
+              "label": "核准回購金額下限"
             },
             {
               "id": "m2",
-              "label": "經營現金流"
+              "label": "核准回購金額上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "美國就業持續增加，薪資成長使利率前景更複雜",
+          "summary": "就業報告顯示，非農就業人數持續增加，失業率大致穩定，平均時薪上升。",
+          "impact": "財務上的意義是，家庭所得獲得支撐，但通膨與借貸成本的走向仍未明朗。",
+          "what": "美國勞工統計局公布，專業與商業服務、醫療保健，以及運輸與倉儲業的就業人數增加。非農就業人數與時薪來自事業單位調查；失業率則來自家庭調查。這些資料衡量勞動市場的不同面向，不一定同步變動。非農就業變動指標是就業人數的實際增加量，不是百分比成長率。薪資指標描述的是名目平均薪資，並非扣除通膨後的購買力，也不保證個別勞工獲得加薪。",
+          "why": "本篇的分析觀點是，就業持續增加與薪資所得成長，有助於支撐消費支出及企業銷售。不過，光憑薪資成長無法判定利率走向。如果需求保持韌性，而通膨持續，決策官員放寬借貸條件的理由可能較少。如果生產力提升足以吸收勞動成本，或物價壓力減輕，意義則可能不同。這讓股市面臨相互拉扯的因素：需求穩健可以支撐獲利，但融資成本高昂可能壓抑投資與估值。對家庭而言，實際影響管道包括工作穩定性、購買力，以及浮動利率債務或新借債務的償付成本。",
+          "uncertainty": "本篇並未引用可核實的市場共識預期作比較，因此不將這份報告描述為類似財報的意外表現，也不稱其優於預測。就業估計值可能修正，也存在抽樣不確定性。平均薪資變動還可能反映就業結構改變，無法單憑這項數據判定消費者物價通膨的走向。",
+          "watch": "後續觀察重點包括非農就業數據修正、薪資與就業報告、通膨資料，以及聯準會對政策評估的說明。分析關鍵在於，所得能否保持韌性，同時物價壓力逐漸緩和。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "經季節調整非農就業人數變動"
+            },
+            {
+              "id": "m2",
+              "label": "經季節調整失業率"
             },
             {
               "id": "m3",
-              "label": "歸屬於合夥企業的調整後 EBITDA"
+              "label": "平均時薪月增率"
+            },
+            {
+              "id": "m4",
+              "label": "平均時薪年增率"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "中國外匯存底小幅增加",
-          "summary": "官方資料顯示，外匯存底在報告期末大致穩定，受到貨幣與全球資產估值變動影響。",
-          "impact": "外匯存底穩定可為支付與匯率管理提供外部緩衝，但月度變化並不能證明資本流入轉強。",
-          "what": "外匯存底主管機關表示，增加主要來自匯率換算，以及全球金融資產價格變動；同時形容國內經濟情況大致穩定。",
-          "why": "外匯存底穩定可降低進口商、銀行與承擔外幣義務企業對外部融資的疑慮。然而，估值變動可能逆轉，且不一定伴隨貿易、投資或資本流動的相應變化。",
-          "uncertainty": "公告沒有分別量化交易流量、估值變動或外匯存底資產的詳細組成。",
-          "watch": "留意後續外匯存底資料、國際收支公告、匯率狀況與外幣融資需求。",
+          "title": "中國外匯存底增加，不能直接解讀為資金流入",
+          "summary": "中國公布月底外匯存底增加，官方解釋提到匯率換算與資產價格的影響。",
+          "impact": "財務上的意義是，對外流動性指標有所更新，並不代表內需轉強，也不能證明外資正在買進中國境內股票。",
+          "what": "中國國家外匯管理局公布外匯存底餘額，以及相較前月底的變動。公告指出，美元走強，全球金融資產價格漲跌互見，並將外匯存底增加歸因於匯率換算、資產價格及其他因素的綜合影響。這是以美元計價的資產負債表存量，不是企業營收、政府支出，也不是上市公司新增可用的現金。餘額指標反映月底狀況；百分比指標則描述相較前月底的變動。",
+          "why": "本篇的分析觀點是，外匯存底應納入對外金融韌性的評估，但不應被當成判斷Ａ股獲利的捷徑。匯率或證券價格變動時，即使沒有相應的實際現金流入，外匯存底投資組合的美元價值仍可能改變。企業應區分這種估值變動，以及匯率對進口支出、出口收入與外幣負債的影響。對家庭而言，這份公告較有助於理解匯率與金融穩定的背景，而不是代表薪資、房貸負擔能力或消費能力立即改變。",
+          "uncertainty": "公告並未量化估值變動、交易或市場干預各自的貢獻，因此無法單獨據此確認民間資金流向、外資買進中國境內股票，或匯率政策改變。將全部增額視為新資金流入中國，會超出現有證據所能支持的範圍。",
+          "watch": "後續觀察重點包括外匯存底資料，以及國際收支與外匯結售匯揭露。分析關鍵在於，交易相關證據能否支持更廣泛的資金流向解讀；若要確認對獲利與現金的影響，仍須參考上市公司公告。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "外匯存底"
+              "label": "月底外匯存底"
             },
             {
               "id": "m2",
-              "label": "外匯存底月度變化"
+              "label": "外匯存底月增率"
             }
           ]
         }
