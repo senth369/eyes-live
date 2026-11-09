@@ -1,78 +1,96 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-09T02:39:24.783Z",
-  "generatedAt": "2026-11-09T02:43:53.075Z",
+  "cutoffAt": "2026-11-09T13:53:40.724Z",
+  "generatedAt": "2026-11-09T13:58:19.101Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Federal Reserve Bank of St. Louis — broad-market daily closing observations",
+      "label": "Federal Reserve Bank of St. Louis — broad US equity index observations",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite daily closing observations",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "Associated Press — completed US trading session",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad"
     },
     {
       "id": "src3",
-      "label": "Dated overnight US market closing report",
-      "url": "https://finance.eastmoney.com/a/202611073925279522.html"
+      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite observations",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src4",
-      "label": "Xinhua Finance — mainland closing report",
-      "url": "https://www.cnfin.com/gs-lb/detail/20261106/4492047_1.html"
+      "label": "Jin ten Data — mainland closing index bulletin",
+      "url": "https://flash.jin10.com/detail/20261109150308489800"
     },
     {
       "id": "src5",
-      "label": "Investing — dated mainland blue-chip index closing table",
+      "label": "Investing — mainland large-cap index dated closing table",
       "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src6",
-      "label": "National Bureau of Statistics — consumer price release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965795.html"
+      "label": "National Bureau of Statistics — consumer prices",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html"
     },
     {
       "id": "src7",
-      "label": "National Bureau of Statistics — industrial producer price release",
+      "label": "National Bureau of Statistics — industrial producer prices",
       "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html"
     },
     {
       "id": "src8",
-      "label": "National Bureau of Statistics — official price commentary",
+      "label": "National Bureau of Statistics — price release interpretation",
       "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html"
     },
     {
       "id": "src9",
       "label": "Berkshire Hathaway — earnings release",
-      "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+      "url": "https://berkshirehathaway.com/news/nov0726.pdf"
     },
     {
       "id": "src10",
-      "label": "Berkshire Hathaway — quarterly filing",
+      "label": "Berkshire Hathaway — quarterly financial report",
       "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
     },
     {
       "id": "src11",
-      "label": "Bureau of Labor Statistics — archived employment release",
-      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.pdf"
+      "label": "CATL — quarterly report filed with Shenzhen Stock Exchange",
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-21/0b788700-eb1b-45d1-a7a9-c6e5646b386b.PDF"
     },
     {
       "id": "src12",
-      "label": "BYD — quarterly report filed through the official disclosure platform",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+      "label": "CATL — filed investor relations discussion",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613436.PDF"
+    },
+    {
+      "id": "src13",
+      "label": "Apple — earnings release",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+    },
+    {
+      "id": "src14",
+      "label": "Apple — consolidated financial statements",
+      "url": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf"
+    },
+    {
+      "id": "src15",
+      "label": "Bureau of Labor Statistics — archived employment release",
+      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-06",
+      "close": 7376.86,
+      "previousClose": 7353.73,
+      "changePercent": 0.3,
+      "sourceIds": [
+        "src1",
+        "src2"
+      ]
     },
     {
       "id": "nasdaq",
@@ -84,23 +102,21 @@
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-06",
-      "close": 3649.18,
+      "sessionDate": "2026-11-09",
+      "close": 3660.79,
       "previousClose": null,
-      "changePercent": -1.1,
+      "changePercent": 0.32,
       "sourceIds": [
         "src4"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-06",
-      "close": 4054.28,
-      "previousClose": 4113.41,
-      "changePercent": -1.44,
-      "sourceIds": [
-        "src5"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     }
   ],
   "stories": [
@@ -126,7 +142,7 @@
           "sourceIds": [
             "src10"
           ],
-          "evidence": "Consolidated statements of earnings, total revenues row, current quarter column."
+          "evidence": "Consolidated statements of earnings: total revenues, excluding separately presented investment gains."
         },
         {
           "id": "m2",
@@ -139,7 +155,7 @@
           "sourceIds": [
             "src9"
           ],
-          "evidence": "Opening earnings table, net earnings attributable to shareholders, current quarter."
+          "evidence": "Release earnings reconciliation: net earnings attributable to shareholders."
         },
         {
           "id": "m3",
@@ -152,23 +168,10 @@
           "sourceIds": [
             "src9"
           ],
-          "evidence": "Operating earnings table, total row; issuer-defined non-GAAP earnings."
+          "evidence": "Release reconciliation: company-defined non-GAAP operating earnings."
         },
         {
           "id": "m4",
-          "value": 1352000000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Operating earnings table, insurance underwriting row, current quarter."
-        },
-        {
-          "id": "m5",
           "value": 33914000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -178,10 +181,10 @@
           "sourceIds": [
             "src10"
           ],
-          "evidence": "Consolidated statements of cash flows, net operating cash flows row, year-to-date column."
+          "evidence": "Consolidated cash flow statement: net cash flows from operating activities."
         },
         {
-          "id": "m6",
+          "id": "m5",
           "value": 9600000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
@@ -191,17 +194,17 @@
           "sourceIds": [
             "src9"
           ],
-          "evidence": "Paragraph following operating earnings table gives approximate quarterly treasury share acquisitions."
+          "evidence": "Release capital allocation paragraph: approximate treasury-share purchases."
         }
       ],
       "sourceIds": [
         "src9",
         "src10"
       ],
-      "evidence": "Release earnings reconciliation and segment table show weaker insurance earnings; filing supplies revenue and separately dated operating cash flow."
+      "evidence": "Release earnings reconciliation and segment table show weaker insurance earnings alongside stronger railroad and energy earnings; quarterly report supplies revenue and cumulative operating cash."
     },
     {
-      "id": "f3",
+      "id": "f5",
       "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-06",
@@ -216,9 +219,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src15"
           ],
-          "evidence": "Opening summary and establishment survey section report seasonally adjusted payroll change."
+          "evidence": "Opening paragraph and establishment summary: seasonally adjusted nonfarm payroll change."
         },
         {
           "id": "m2",
@@ -229,25 +232,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src15"
           ],
-          "evidence": "Household survey summary reports seasonally adjusted unemployment rate."
+          "evidence": "Opening paragraph and household survey: seasonally adjusted unemployment rate."
         },
         {
           "id": "m3",
-          "value": 0.4,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Establishment survey earnings paragraph reports monthly private payroll hourly earnings growth."
-        },
-        {
-          "id": "m4",
           "value": 3.1,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -255,168 +245,34 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src15"
           ],
-          "evidence": "Establishment survey earnings paragraph reports annual private payroll hourly earnings growth."
-        },
-        {
-          "id": "m5",
-          "value": 4800000,
-          "unit": "count",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Household survey section reports people working part time for economic reasons."
+          "evidence": "Establishment survey earnings paragraph: private nonfarm average hourly earnings annual growth."
         }
       ],
       "sourceIds": [
-        "src11"
+        "src15"
       ],
-      "evidence": "Opening summary, household survey discussion and establishment earnings paragraph establish hiring, unemployment, wage growth and involuntary part-time employment."
-    },
-    {
-      "id": "f4",
-      "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-30",
-      "company": {
-        "name": "BYD",
-        "ticker": "002594",
-        "exchange": "SZSE"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 221488251000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Main financial indicators table, revenue row, current reporting quarter column."
-        },
-        {
-          "id": "m2",
-          "value": 13.59,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Main financial indicators table, revenue row, quarterly annual growth column."
-        },
-        {
-          "id": "m3",
-          "value": 10019570000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Main financial indicators table, shareholder-attributable net profit row, quarter column."
-        },
-        {
-          "id": "m4",
-          "value": 28.08,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Main financial indicators table, attributable net profit row, quarterly annual growth column."
-        },
-        {
-          "id": "m5",
-          "value": 22344978000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Main financial indicators table, attributable net profit row, year-to-date column."
-        },
-        {
-          "id": "m6",
-          "value": -4.24,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Main financial indicators table, attributable net profit row, year-to-date annual growth column."
-        },
-        {
-          "id": "m7",
-          "value": 54469572000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Main financial indicators and cash flow explanation tables, year-to-date net operating cash."
-        },
-        {
-          "id": "m8",
-          "value": 33.36,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Cash flow explanation table, net operating cash row, annual growth column."
-        }
-      ],
-      "sourceIds": [
-        "src12"
-      ],
-      "evidence": "Main financial indicators distinguish quarterly profit recovery from year-to-date profit and cash; cash flow explanation attributes improvement chiefly to lower purchasing payments."
+      "evidence": "Archived employment release opening, household survey and establishment earnings discussion verify employment, unemployment and wage measures."
     }
   ],
   "locales": {
     "en": {
-      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
+      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Berkshire’s insurance weakness contrasts with industrial resilience",
-          "summary": "Berkshire Hathaway reported lower quarterly operating earnings as insurance underwriting and investment income weakened despite improvement across major noninsurance businesses.",
-          "impact": "Its results highlight why investors should separate business earnings, market-driven accounting gains and cash available for capital allocation.",
-          "what": "The weekend earnings release covers a conglomerate spanning insurance, freight rail, utilities, manufacturing, services and retailing. Insurance earnings weakened, while the railroad, energy business and manufacturing, service and retail group improved. Share repurchases continued. Reported net income includes investment gains, whereas management’s operating earnings measure excludes investment gains and specified impairments; that operating measure is non-GAAP, not a substitute for the accounting result. The accompanying filing supplies consolidated revenue and year-to-date operating cash flow, which are shown with their distinct reporting periods.",
-          "why": "Insurance underwriting reflects premiums earned against claims and expenses, while investment income reflects earnings on invested funds. Those mechanisms differ from freight transportation or utility operations. The contrast matters because aggregate earnings can conceal improving businesses behind a weaker insurance contribution. Accounting gains on shareholdings can also change without a corresponding operating cash receipt. Repurchases deploy capital and reduce outstanding ownership claims, but they do not create operating revenue or demonstrate that underlying demand has strengthened. Berkshire’s cash flow statement therefore provides a separate check on the funding generated by its businesses.",
-          "uncertainty": "Insurance claims estimates can develop over time, and investment valuations can make net income volatile. Quarterly profit should not be directly compared with year-to-date operating cash as though their periods matched. The release itself cautions that its abbreviated information is insufficient for an informed investment judgment.",
-          "watch": "Watch subsequent underwriting results, claims development, operating cash generation and repurchase disclosures to assess whether weaker insurance earnings persist.",
+          "title": "Berkshire’s earnings separate investment marks from operating performance",
+          "summary": "Berkshire Hathaway reported weaker attributable earnings and company-defined operating earnings while continuing share repurchases.",
+          "impact": "The report makes insurance profitability and cash deployment more informative than reading the headline accounting result in isolation.",
+          "what": "The weekend release covers a conglomerate spanning insurance, freight rail, utilities, manufacturing and retailing. Its earnings reconciliation separates investment gains from operating earnings, a non-GAAP measure defined by the company. Insurance underwriting and insurance investment income weakened, while railroad and energy earnings improved. The accompanying quarterly report provides consolidated revenue and cumulative operating cash flow, which are distinct from quarterly profit.",
+          "why": "Insurance collects premiums before many claims are paid, creating funds that can be invested while obligations remain outstanding. Underwriting discipline therefore matters alongside investment returns. Our interpretation is that the segment split provides a useful check on the conglomerate’s diversification: strength in transport and energy does not automatically eliminate insurance pressure. Share repurchases are another use of cash, but they are financing decisions rather than evidence that customer-facing operations generated additional profit.",
+          "uncertainty": "Operating earnings exclude specified accounting items and should not replace the GAAP result. Conversely, investment valuation changes can affect GAAP profit without equivalent operating cash receipts. The cash figure shown here is cumulative, not a stand-alone quarterly amount. Revenue comparisons also require care because acquisitions can alter the business mix. These distinctions prevent a direct comparison between the displayed quarterly profit and cumulative cash measures.",
+          "watch": "Watch subsequent insurance disclosures for underwriting profitability and investment income, and future capital-allocation disclosures for repurchases and acquisitions. Railroad and utility reports can show whether operating improvements persist. The key evidence is cash generation after business investment and claims obligations, not simply changes in the market value of securities.",
           "metricLabels": [
             {
               "id": "m1",
@@ -424,120 +280,64 @@
             },
             {
               "id": "m2",
-              "label": "Quarterly shareholder-attributable net earnings"
+              "label": "Quarterly attributable net earnings"
             },
             {
               "id": "m3",
-              "label": "Quarterly non-GAAP operating earnings"
+              "label": "Quarterly operating earnings — non-GAAP"
             },
             {
               "id": "m4",
-              "label": "Quarterly insurance underwriting earnings"
-            },
-            {
-              "id": "m5",
               "label": "Year-to-date operating cash flow"
             },
             {
-              "id": "m6",
-              "label": "Approximate quarterly share repurchases"
+              "id": "m5",
+              "label": "Quarterly share repurchases — approximate"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "US hiring supports income, but underemployment remains relevant",
-          "summary": "The latest employment release showed payroll growth and rising hourly earnings alongside increased involuntary part-time employment.",
-          "impact": "Hiring supports consumer income, while wage costs and uneven access to full-time work complicate the outlook for corporate margins and household spending.",
-          "what": "This is the preceding-session employment release, not a fresh weekend announcement. The employer survey reported job growth, including gains in professional and business services, health care, and transportation and warehousing. The household survey described unemployment as little changed but recorded more people working part time for economic reasons. These surveys answer different questions: payrolls count jobs at establishments, while household responses describe people’s employment status.",
-          "why": "Our interpretation is that employment income remains a support for spending, but the headline does not describe every household’s experience. Workers seeking fuller schedules may still face constrained budgets. For businesses, wage growth can support customer demand while also raising labor costs; the balance depends on productivity and pricing power.",
-          "uncertainty": "Payroll estimates are preliminary and subject to revision. Average hourly earnings are not an inflation-adjusted measure of purchasing power, and changes in the mix of jobs can affect the average. No sourced consensus comparison is included.",
-          "watch": "Watch payroll revisions, subsequent employment releases and consumer-price evidence before judging whether income growth translates into stronger purchasing power.",
+          "id": "f5",
+          "title": "US employment provides a demand and financing cross-check",
+          "summary": "The latest released US employment report records payroll expansion alongside wage growth.",
+          "impact": "Continued employment income can support spending, while financing implications still depend on inflation and monetary-policy decisions.",
+          "what": "The archived labor release reports employer payrolls and a separately surveyed unemployment rate; its wage measure covers private nonfarm employees. This is context from the latest release, not a same-day announcement.",
+          "why": "Our interpretation is that hiring supports customer demand but can also sustain employer labor costs. For households, employment conditions affect income security; for businesses, they help frame sales expectations without determining actual purchases.",
+          "uncertainty": "Payroll estimates are preliminary and subject to revision. The household and employer surveys measure different populations, and this report alone cannot establish a future interest-rate decision or an earnings surprise.",
+          "watch": "Watch payroll revisions, subsequent wage readings and consumer inflation for evidence about whether labor demand and purchasing power remain supportive.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Seasonally adjusted payroll change"
+              "label": "Nonfarm payroll change — seasonally adjusted"
             },
             {
               "id": "m2",
-              "label": "Seasonally adjusted unemployment rate"
+              "label": "Unemployment rate — seasonally adjusted"
             },
             {
               "id": "m3",
-              "label": "Average hourly earnings growth, monthly"
-            },
-            {
-              "id": "m4",
-              "label": "Average hourly earnings growth, annual"
-            },
-            {
-              "id": "m5",
-              "label": "People working part time for economic reasons"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "BYD earnings explainer: a stronger quarter is not a full recovery",
-          "summary": "BYD’s previously disclosed report showed quarterly revenue and profit growth, while year-to-date attributable profit remained below the comparable period.",
-          "impact": "Improving operating cash flow is encouraging, but its payment-related explanation makes it important to distinguish cash timing from earnings recovery.",
-          "what": "This dated earnings explainer is not breaking news. The vehicle manufacturer reported stronger quarterly attributable profit and revenue, while its cumulative attributable profit remained lower. Operating cash flow improved over the cumulative reporting period; the filing primarily attributes that improvement to reduced cash payments for goods and services. The report is unaudited.",
-          "why": "The financial lesson is that a better recent quarter does not erase earlier weakness. Cash generation also answers a different question from profit: it tracks operating receipts and payments rather than revenue and expense recognition. Lower purchasing payments can improve cash without proving stronger customer demand.",
-          "uncertainty": "The disclosed cumulative cash flow is not standalone quarterly cash generation. It should not be presented as cash earned during the same period as the quarterly profit metric. The report does not establish that the recovery will persist.",
-          "watch": "Watch subsequent reports for sustained profitability and cash conversion, including whether purchasing payments normalize and whether inventory and receivables convert into cash.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Quarterly revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Quarterly revenue growth, annual"
-            },
-            {
-              "id": "m3",
-              "label": "Quarterly attributable net profit"
-            },
-            {
-              "id": "m4",
-              "label": "Quarterly attributable profit growth, annual"
-            },
-            {
-              "id": "m5",
-              "label": "Year-to-date attributable net profit"
-            },
-            {
-              "id": "m6",
-              "label": "Year-to-date attributable profit growth, annual"
-            },
-            {
-              "id": "m7",
-              "label": "Year-to-date operating cash flow"
-            },
-            {
-              "id": "m8",
-              "label": "Year-to-date operating cash growth, annual"
+              "label": "Private hourly earnings — annual growth"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés comme des éclairages de contexte.",
+      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés ne disposent pas de nouvelle information vérifiée ; les rapports plus anciens restent clairement identifiés.",
       "marketSummary": {
         "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Chez Berkshire, la faiblesse de l’assurance contraste avec la résistance des activités industrielles",
-          "summary": "Berkshire Hathaway a annoncé une baisse de son résultat opérationnel trimestriel : les résultats de souscription d’assurance et les revenus de placement ont diminué, malgré l’amélioration des principales activités hors assurance.",
-          "impact": "Ces résultats montrent pourquoi les investisseurs doivent distinguer les bénéfices des activités, les gains comptables liés aux marchés et les liquidités disponibles pour l’allocation du capital.",
-          "what": "Les résultats publiés pendant le week-end concernent un conglomérat présent dans l’assurance, le fret ferroviaire, les services aux collectivités, l’industrie, les services et le commerce de détail. Les résultats de l’assurance ont diminué, tandis que le chemin de fer, l’énergie et l’ensemble regroupant l’industrie, les services et le commerce de détail se sont améliorés. Les rachats d’actions se sont poursuivis. Le résultat net publié inclut les gains sur placements, tandis que l’indicateur de résultat opérationnel de la direction exclut ces gains et certaines dépréciations. Cet indicateur n’est pas établi selon les normes comptables américaines, dites GAAP, et ne remplace pas le résultat comptable. Le document réglementaire joint fournit le chiffre d’affaires consolidé et les flux de trésorerie d’exploitation cumulés depuis le début de l’année, présentés avec leurs périodes respectives.",
-          "why": "Le résultat de souscription d’assurance correspond aux primes acquises, diminuées du coût des sinistres et des charges, tandis que les revenus de placement proviennent des fonds investis. Ces mécanismes diffèrent de ceux du transport de marchandises ou des services aux collectivités. Ce contraste est important, car le résultat global peut masquer l’amélioration de certaines activités derrière une contribution plus faible de l’assurance. Les gains comptables sur les actions détenues peuvent aussi varier sans encaissement correspondant lié à l’exploitation. Les rachats d’actions mobilisent du capital et réduisent le nombre d’actions en circulation, mais ils ne créent pas de chiffre d’affaires et ne prouvent pas que la demande sous-jacente s’est renforcée. Le tableau des flux de trésorerie de Berkshire permet donc de vérifier séparément les ressources financières générées par ses activités.",
-          "uncertainty": "Les estimations du coût des sinistres peuvent évoluer avec le temps, et la valorisation des placements peut rendre le résultat net volatil. Le bénéfice trimestriel ne doit pas être comparé directement aux flux de trésorerie d’exploitation cumulés depuis le début de l’année comme si leurs périodes correspondaient. Le communiqué précise lui-même que ses informations abrégées ne suffisent pas pour porter un jugement d’investissement éclairé.",
-          "watch": "Les prochains résultats de souscription, l’évolution du coût estimé des sinistres, la trésorerie générée par l’exploitation et les informations sur les rachats d’actions permettront d’évaluer si la faiblesse des résultats de l’assurance persiste.",
+          "title": "Berkshire distingue les variations de valeur des placements de sa performance opérationnelle",
+          "summary": "Berkshire Hathaway a publié un résultat net attribuable et un résultat opérationnel défini par l’entreprise en baisse, tout en poursuivant ses rachats d’actions.",
+          "impact": "Ce rapport rend la rentabilité de l’assurance et l’utilisation de la trésorerie plus instructives que le seul résultat comptable mis en avant.",
+          "what": "La publication du week-end porte sur un conglomérat présent dans l’assurance, le fret ferroviaire, les services aux collectivités, l’industrie et le commerce de détail. Le rapprochement des résultats distingue les gains sur placements du résultat opérationnel, un indicateur non conforme aux normes GAAP défini par l’entreprise. Le résultat de souscription et les revenus de placement de l’assurance ont reculé, tandis que les résultats du ferroviaire et de l’énergie ont progressé. Le rapport trimestriel joint présente le chiffre d’affaires consolidé et les flux de trésorerie d’exploitation cumulés, qui sont distincts du bénéfice trimestriel.",
+          "why": "Les assureurs encaissent les primes avant de régler de nombreux sinistres, ce qui crée des fonds qu’ils peuvent investir tant que leurs obligations restent à honorer. La rigueur dans la souscription compte donc autant que le rendement des placements. Selon notre interprétation, la ventilation par activité permet de mieux apprécier la diversification du conglomérat : la bonne tenue du transport et de l’énergie ne supprime pas automatiquement les pressions sur l’assurance. Les rachats d’actions constituent une autre utilisation de la trésorerie, mais relèvent de décisions de financement ; ils ne prouvent pas que les activités auprès des clients ont généré davantage de bénéfices.",
+          "uncertainty": "Le résultat opérationnel exclut certains éléments comptables et ne doit pas remplacer le résultat établi selon les normes GAAP. À l’inverse, les variations de valorisation des placements peuvent modifier le bénéfice selon les normes GAAP sans encaissements opérationnels équivalents. Le montant de trésorerie présenté ici est cumulé et ne correspond pas au seul trimestre. Les comparaisons de chiffre d’affaires demandent aussi de la prudence, car les acquisitions peuvent modifier la répartition des activités. Ces distinctions empêchent de comparer directement le bénéfice trimestriel affiché aux mesures cumulées de trésorerie.",
+          "watch": "Les prochaines publications de l’assurance permettront de suivre la rentabilité de la souscription et les revenus de placement ; celles sur l’allocation du capital renseigneront sur les rachats d’actions et les acquisitions. Les rapports du ferroviaire et des services aux collectivités pourront indiquer si les améliorations opérationnelles se poursuivent. L’élément essentiel est la trésorerie générée après les investissements dans les activités et les obligations liées aux sinistres, plutôt que les seules variations de la valeur de marché des titres.",
           "metricLabels": [
             {
               "id": "m1",
@@ -545,120 +345,64 @@
             },
             {
               "id": "m2",
-              "label": "Résultat net trimestriel attribuable aux actionnaires"
+              "label": "Résultat net attribuable trimestriel"
             },
             {
               "id": "m3",
-              "label": "Résultat opérationnel trimestriel non-GAAP"
+              "label": "Résultat opérationnel trimestriel — non-GAAP"
             },
             {
               "id": "m4",
-              "label": "Résultat trimestriel de souscription d’assurance"
-            },
-            {
-              "id": "m5",
               "label": "Flux de trésorerie d’exploitation cumulés depuis le début de l’année"
             },
             {
-              "id": "m6",
-              "label": "Montant approximatif des rachats d’actions trimestriels"
+              "id": "m5",
+              "label": "Rachats d’actions trimestriels — montant approximatif"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "L’emploi américain soutient les revenus, mais le sous-emploi reste un enjeu",
-          "summary": "La dernière publication sur l’emploi fait état d’une hausse de l’emploi salarié et du salaire horaire, accompagnée d’une augmentation du travail à temps partiel subi.",
-          "impact": "Les embauches soutiennent les revenus des consommateurs, mais les coûts salariaux et l’accès inégal au travail à temps plein compliquent les perspectives de marges des entreprises et de dépenses des ménages.",
-          "what": "Cette publication sur l’emploi date de la séance précédente ; ce n’est pas une nouvelle annonce du week-end. L’enquête auprès des employeurs a signalé une hausse de l’emploi, notamment dans les services professionnels et aux entreprises, la santé, ainsi que le transport et l’entreposage. L’enquête auprès des ménages a décrit un chômage peu modifié, mais recensé davantage de personnes travaillant à temps partiel pour des raisons économiques. Ces enquêtes répondent à des questions différentes : l’enquête auprès des employeurs compte les emplois dans les établissements, tandis que les réponses des ménages décrivent la situation des personnes sur le marché du travail.",
-          "why": "Selon notre interprétation, les revenus du travail continuent de soutenir les dépenses, mais les grands chiffres ne reflètent pas la situation de tous les ménages. Les personnes souhaitant travailler davantage peuvent encore avoir un budget contraint. Pour les entreprises, la hausse des salaires peut soutenir la demande des clients tout en augmentant les coûts de main-d’œuvre ; l’équilibre dépend de la productivité et de leur capacité à fixer leurs prix.",
-          "uncertainty": "Les estimations de l’emploi salarié sont provisoires et peuvent être révisées. Le salaire horaire moyen n’est pas une mesure du pouvoir d’achat corrigée de l’inflation, et l’évolution de la répartition des emplois peut influencer cette moyenne. Aucune comparaison avec un consensus d’analystes appuyée sur une source n’est incluse.",
-          "watch": "Les révisions de l’emploi salarié, les prochaines publications sur l’emploi et les données sur les prix à la consommation permettront de mieux juger si la hausse des revenus se traduit par une amélioration du pouvoir d’achat.",
+          "id": "f5",
+          "title": "L’emploi américain aide à évaluer la demande et les conditions de financement",
+          "summary": "Le dernier rapport publié sur l’emploi américain fait état d’une progression de l’emploi salarié accompagnée d’une hausse des salaires.",
+          "impact": "Le maintien des revenus du travail peut soutenir les dépenses, mais les conséquences pour le financement dépendent encore de l’inflation et des décisions de politique monétaire.",
+          "what": "Le communiqué archivé sur l’emploi présente les effectifs salariés recensés auprès des employeurs et un taux de chômage issu d’une enquête distincte ; son indicateur salarial couvre les salariés du secteur privé non agricole. Il s’agit d’un contexte tiré de la dernière publication, et non d’une annonce du jour.",
+          "why": "Selon notre interprétation, les embauches soutiennent la demande des clients, mais peuvent aussi maintenir les coûts salariaux des employeurs à un niveau élevé. Pour les ménages, la situation de l’emploi influe sur la sécurité des revenus ; pour les entreprises, elle aide à établir les attentes de ventes sans déterminer les achats effectifs.",
+          "uncertainty": "Les estimations de l’emploi salarié sont provisoires et peuvent être révisées. Les enquêtes auprès des ménages et des employeurs portent sur des populations différentes. Ce rapport ne permet pas, à lui seul, de déterminer une future décision sur les taux d’intérêt ni un écart entre les résultats des entreprises et les attentes.",
+          "watch": "Les révisions de l’emploi salarié, les prochaines données salariales et l’inflation à la consommation permettront d’évaluer si la demande de main-d’œuvre et le pouvoir d’achat restent des facteurs de soutien.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variation de l’emploi salarié, corrigée des variations saisonnières"
+              "label": "Variation de l’emploi salarié non agricole — corrigée des variations saisonnières"
             },
             {
               "id": "m2",
-              "label": "Taux de chômage corrigé des variations saisonnières"
+              "label": "Taux de chômage — corrigé des variations saisonnières"
             },
             {
               "id": "m3",
-              "label": "Croissance mensuelle du salaire horaire moyen"
-            },
-            {
-              "id": "m4",
-              "label": "Croissance annuelle du salaire horaire moyen"
-            },
-            {
-              "id": "m5",
-              "label": "Personnes travaillant à temps partiel pour des raisons économiques"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Décryptage des résultats de BYD : un meilleur trimestre ne signifie pas un redressement complet",
-          "summary": "Le rapport déjà publié de BYD faisait état d’une hausse du chiffre d’affaires et du bénéfice trimestriels, tandis que le bénéfice attribuable cumulé depuis le début de l’année restait inférieur à celui de la période comparable.",
-          "impact": "L’amélioration des flux de trésorerie d’exploitation est encourageante, mais son explication liée aux paiements rend importante la distinction entre calendrier des décaissements et redressement des bénéfices.",
-          "what": "Ce décryptage d’une publication de résultats datée n’est pas une actualité de dernière minute. Le constructeur automobile a annoncé une hausse du bénéfice trimestriel attribuable aux actionnaires et du chiffre d’affaires trimestriel, tandis que son bénéfice attribuable cumulé restait en baisse. Les flux de trésorerie d’exploitation se sont améliorés sur la période cumulée ; le document attribue principalement cette amélioration à une réduction des paiements pour les biens et services. Le rapport n’a pas été audité.",
-          "why": "L’enseignement financier est qu’un meilleur trimestre récent n’efface pas les difficultés antérieures. La trésorerie générée répond aussi à une question différente de celle du bénéfice : elle retrace les encaissements et décaissements d’exploitation, plutôt que la comptabilisation des produits et des charges. Une baisse des paiements liés aux achats peut améliorer la trésorerie sans prouver que la demande des clients s’est renforcée.",
-          "uncertainty": "Les flux de trésorerie cumulés publiés ne correspondent pas à la trésorerie générée sur le seul trimestre. Ils ne doivent pas être présentés comme des liquidités générées pendant la même période que celle du bénéfice trimestriel. Le rapport ne permet pas d’établir que le redressement durera.",
-          "watch": "Les prochains rapports permettront de suivre la persistance de la rentabilité et sa traduction en trésorerie, notamment le retour éventuel à la normale des paiements liés aux achats et la transformation des stocks et des créances clients en liquidités.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires trimestriel"
-            },
-            {
-              "id": "m2",
-              "label": "Croissance annuelle du chiffre d’affaires trimestriel"
-            },
-            {
-              "id": "m3",
-              "label": "Résultat net trimestriel attribuable aux actionnaires"
-            },
-            {
-              "id": "m4",
-              "label": "Croissance annuelle du bénéfice trimestriel attribuable aux actionnaires"
-            },
-            {
-              "id": "m5",
-              "label": "Résultat net attribuable aux actionnaires cumulé depuis le début de l’année"
-            },
-            {
-              "id": "m6",
-              "label": "Croissance annuelle du bénéfice attribuable aux actionnaires cumulé depuis le début de l’année"
-            },
-            {
-              "id": "m7",
-              "label": "Flux de trésorerie d’exploitation cumulés depuis le début de l’année"
-            },
-            {
-              "id": "m8",
-              "label": "Croissance annuelle des flux de trésorerie d’exploitation cumulés depuis le début de l’année"
+              "label": "Salaire horaire dans le secteur privé — croissance annuelle"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的财经动态。请留意各条内容的发布日期；近期公司财报在此作为背景解读。",
+      "status": "本期经核实的报道有限。部分市场暂无经核实的新报道；较早发布的报告仍明确标注其时效。",
       "marketSummary": {
-        "us": "部分收盘信息未能核实。可用的指数数据均保留各自的交易日期。",
-        "cn": "所跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。"
+        "us": "部分收盘数据未能核实。已提供的各项指数均保留各自的交易日期。",
+        "cn": "部分收盘数据未能核实。已提供的各项指数均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "伯克希尔保险业务走弱，实业业务展现韧性",
-          "summary": "伯克希尔哈撒韦公布的季度营业利润下降。尽管主要非保险业务有所改善，保险承保利润和投资收益仍然走弱。",
-          "impact": "这份业绩说明，投资者需要区分业务经营利润、随市场变化的账面收益，以及可用于资本配置的现金。",
-          "what": "周末发布的财报涵盖保险、货运铁路、公用事业、制造、服务和零售等业务。保险业务利润走弱，铁路、能源以及制造、服务和零售业务组的业绩则有所改善。公司继续回购股票。财报中的净利润包含投资收益，而管理层采用的营业利润指标剔除了投资收益和指定减值项目；该指标不按美国通用会计准则计算，不能替代会计准则下的业绩。随附申报文件还披露了合并营收和年初至今的经营现金流，展示时分别注明了各自的报告期间。",
-          "why": "保险承保利润反映已赚保费扣除赔款和费用后的结果，投资收益则来自已投资资金的回报。这些盈利机制与货运或公用事业运营不同。因此，整体利润可能掩盖这样的情况：保险业务贡献减弱，但其他业务正在改善。持有股票产生的账面收益也可能发生变化，却没有相应的经营现金流入。回购会动用资本，并减少在外流通股份所代表的所有权份额，但不会创造营业收入，也不能证明实际需求已经增强。因此，伯克希尔的现金流量表可以从不同角度检验各项业务产生资金的能力。",
-          "uncertainty": "保险赔款估计可能随时间调整，投资估值也可能使净利润波动。不能把季度利润与年初至今的经营现金流直接比较，仿佛它们覆盖相同期间。业绩公告本身也提醒，其中的简要信息不足以支持充分知情的投资判断。",
-          "watch": "关注后续承保业绩、赔款估计变化、经营现金创造能力及回购披露，以评估保险利润走弱是否持续。",
+          "title": "伯克希尔财报区分投资估值变动与经营表现",
+          "summary": "伯克希尔哈撒韦公布的归属净利润和公司自行定义的经营利润均下滑，同时继续回购股票。",
+          "impact": "解读该报告时，保险业务的盈利能力和现金用途，比仅看最受关注的会计利润更有参考价值。",
+          "what": "这份周末发布的财报涵盖保险、货运铁路、公用事业、制造和零售等业务。利润调节表将投资收益与经营利润分开列示，后者是公司自行定义的非美国通用会计准则指标。保险承保利润和保险投资收益下降，铁路及能源业务利润则有所改善。随附的季度报告还提供了合并营收和累计经营现金流，这些指标与季度利润不同。",
+          "why": "保险公司在许多赔款支付前就已收取保费，因此在赔付义务尚未履行期间，有资金可用于投资。所以，严格把控承保风险与投资回报同样重要。我们的理解是，分业务表现有助于检验这家综合性集团的多元化效果：运输和能源业务表现强劲，并不意味着保险业务的压力自然消失。股票回购也是现金的用途，但属于融资决策，不能证明面向客户的经营活动创造了更多利润。",
+          "uncertainty": "经营利润剔除了特定会计项目，不应取代按美国通用会计准则计算的利润。反过来，投资估值变动可能影响按该准则计算的利润，却未必带来相应的经营现金收入。此处展示的现金流为累计金额，并非该季度单独产生的金额。营收比较也需谨慎，因为收购可能改变业务构成。由于这些区别，所展示的季度利润与累计现金流指标不能直接比较。",
+          "watch": "关注后续保险业务披露中的承保盈利能力和投资收益，以及未来资本配置披露中的股票回购与收购情况。铁路和公用事业报告可帮助判断经营改善是否持续。关键证据是满足业务投资需求和赔付义务后的现金创造能力，而不只是证券市值的变化。",
           "metricLabels": [
             {
               "id": "m1",
@@ -666,120 +410,64 @@
             },
             {
               "id": "m2",
-              "label": "季度归属于股东的净利润"
+              "label": "季度归属净利润"
             },
             {
               "id": "m3",
-              "label": "季度非美国通用会计准则营业利润"
+              "label": "季度经营利润——非美国通用会计准则"
             },
             {
               "id": "m4",
-              "label": "季度保险承保利润"
-            },
-            {
-              "id": "m5",
               "label": "年初至今经营现金流"
             },
             {
-              "id": "m6",
-              "label": "季度股票回购金额约值"
+              "id": "m5",
+              "label": "季度股票回购金额——约数"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "美国招聘支撑收入，但就业不足仍需关注",
-          "summary": "最新就业报告显示，非农就业人数增加，平均时薪上升，同时因经济原因而非自愿从事兼职的人数也有所增加。",
-          "impact": "招聘为消费者收入提供支撑，但工资成本，以及获得全职工作机会的不均衡，使企业利润率和家庭支出的前景更加复杂。",
-          "what": "这份就业报告发布于上个交易日，并非周末新公布的消息。企业调查显示就业岗位增加，增长行业包括专业和商业服务、医疗保健、运输和仓储。家庭调查显示失业情况变化不大，但因经济原因从事兼职的人数增加。这些调查回答的问题不同：非农就业人数统计的是用人单位的岗位，家庭调查则反映个人的就业状况。",
-          "why": "我们的解读是，就业收入仍在支撑消费，但总体数据不能代表所有家庭的处境。希望增加工作时长的人，家庭预算仍可能受限。对企业而言，工资增长既能支持客户需求，也会推高用工成本；最终影响取决于生产率和定价能力。",
-          "uncertainty": "非农就业人数估计为初步数据，后续可能修订。平均时薪并不是扣除通胀后的购买力指标，就业岗位构成的变化也可能影响平均值。本文未纳入有来源支持的市场一致预期对比。",
-          "watch": "关注非农就业数据修订、后续就业报告和消费价格数据，再判断收入增长是否转化为更强的购买力。",
+          "id": "f5",
+          "title": "美国就业数据为判断需求与融资环境提供交叉参考",
+          "summary": "最新发布的美国就业报告显示，非农就业人数增加，工资也有所增长。",
+          "impact": "持续获得就业收入有助于支持消费，但对融资环境的影响仍取决于通胀和货币政策决策。",
+          "what": "这份已归档的就业报告公布了雇主调查中的非农就业人数，以及来自另一项调查的失业率；其工资指标涵盖私营部门非农雇员。这是最新已发布报告提供的背景信息，并非当天公布的消息。",
+          "why": "我们的理解是，招聘有助于支撑客户需求，但也可能使雇主的用工成本维持在较高水平。对家庭而言，就业状况影响收入的稳定性；对企业而言，就业状况有助于形成销售预期，但并不决定实际购买行为。",
+          "uncertainty": "非农就业人数估计值属于初步数据，后续可能修订。家庭调查和雇主调查覆盖的人群不同，仅凭这份报告，无法确定未来的利率决策，也无法判断企业盈利是否会超出或低于预期。",
+          "watch": "关注非农就业人数修订、后续工资数据和消费通胀，以判断劳动力需求与购买力是否仍能提供支撑。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季调后非农就业人数变动"
+              "label": "非农就业人数变动——经季节性调整"
             },
             {
               "id": "m2",
-              "label": "季调后失业率"
+              "label": "失业率——经季节性调整"
             },
             {
               "id": "m3",
-              "label": "平均时薪环比增速"
-            },
-            {
-              "id": "m4",
-              "label": "平均时薪同比增速"
-            },
-            {
-              "id": "m5",
-              "label": "因经济原因从事兼职的人数"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "比亚迪财报解读：季度表现改善不等于全面复苏",
-          "summary": "比亚迪此前披露的报告显示，季度营收和利润增长，但年初至今归母净利润仍低于上年同期。",
-          "impact": "经营现金流改善是积极信号，但报告将其主要归因于付款减少，因此需要区分现金收付时点的影响与盈利恢复。",
-          "what": "这篇解读基于此前发布的财报，并非突发新闻。这家汽车制造商的季度归母净利润和营收增长，但累计归母净利润仍然下降。累计报告期内的经营现金流有所改善；申报文件主要将其归因于购买商品、接受劳务支付的现金减少。该报告未经审计。",
-          "why": "这里的财务要点是，最近季度表现改善，并不能抹去此前的疲弱。现金创造能力与利润反映的情况也不同：前者追踪经营活动中的现金收付，而非收入和费用的确认。采购付款减少可以改善现金流，却不能证明客户需求增强。",
-          "uncertainty": "披露的累计现金流并非该季度单独产生的经营现金流，不应将其描述为与季度利润指标同期产生的现金。报告并不能证明复苏会持续。",
-          "watch": "关注后续报告中的盈利持续性和利润转化为现金的能力，包括采购付款是否恢复常态，以及存货和应收账款能否转化为现金。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度营收"
-            },
-            {
-              "id": "m2",
-              "label": "季度营收同比增速"
-            },
-            {
-              "id": "m3",
-              "label": "季度归母净利润"
-            },
-            {
-              "id": "m4",
-              "label": "季度归母净利润同比增速"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今归母净利润"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今归母净利润同比增速"
-            },
-            {
-              "id": "m7",
-              "label": "年初至今经营现金流"
-            },
-            {
-              "id": "m8",
-              "label": "年初至今经营现金流同比增速"
+              "label": "私营部门平均时薪——同比增幅"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Comprueba la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "La cobertura verificada de esta edición es limitada. Algunos mercados no tienen noticias nuevas verificadas; los informes de fechas anteriores siguen claramente identificados.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
-        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "La debilidad de los seguros de Berkshire contrasta con la resistencia de sus negocios industriales",
-          "summary": "Berkshire Hathaway informó de menores beneficios operativos trimestrales por la debilidad del resultado de suscripción de seguros y de los ingresos por inversiones, pese a las mejoras en sus principales negocios ajenos a los seguros.",
-          "impact": "Sus resultados muestran por qué es importante distinguir los beneficios del negocio, las ganancias contables ligadas al mercado y el efectivo disponible para asignar capital.",
-          "what": "El comunicado de resultados publicado durante el fin de semana abarca un conglomerado con negocios de seguros, transporte ferroviario de mercancías, servicios públicos, fabricación, servicios y comercio minorista. Los beneficios de seguros disminuyeron, mientras mejoraron el ferrocarril, el negocio energético y el grupo de fabricación, servicios y comercio minorista. Continuaron las recompras de acciones. El beneficio neto publicado incluye ganancias por inversiones, mientras que la medida de beneficio operativo de la dirección excluye esas ganancias y determinados deterioros de valor. Esta medida operativa no sigue los principios contables generalmente aceptados de Estados Unidos, conocidos como GAAP, ni sustituye al resultado contable. La documentación adjunta aporta los ingresos consolidados y el flujo de efectivo de las actividades de explotación acumulado en el año, presentados con sus respectivos periodos de referencia.",
-          "why": "El resultado de suscripción de seguros refleja las primas devengadas frente a los siniestros y los gastos, mientras que los ingresos por inversiones reflejan el rendimiento de los fondos invertidos. Estos mecanismos difieren de los del transporte de mercancías o los servicios públicos. El contraste importa porque el beneficio total puede ocultar mejoras en otros negocios tras la menor contribución de los seguros. Las ganancias contables de las acciones en cartera también pueden variar sin una entrada de efectivo operativo correspondiente. Las recompras emplean capital y reducen las acciones en circulación, pero no generan ingresos operativos ni demuestran que la demanda subyacente se haya fortalecido. Por ello, el estado de flujos de efectivo de Berkshire permite comprobar por separado los fondos que generan sus negocios.",
-          "uncertainty": "Las estimaciones de siniestros pueden cambiar con el tiempo, y las valoraciones de las inversiones pueden hacer que el beneficio neto sea volátil. No debe compararse directamente el beneficio trimestral con el efectivo operativo acumulado en el año como si correspondieran al mismo periodo. El propio comunicado advierte de que su información resumida es insuficiente para formarse un juicio de inversión fundamentado.",
-          "watch": "Los aspectos a seguir son los próximos resultados de suscripción, la evolución de las estimaciones de siniestros, la generación de efectivo operativo y la información sobre recompras, para evaluar si persiste la debilidad de los beneficios de seguros.",
+          "title": "Los resultados de Berkshire separan la valoración de las inversiones del desempeño operativo",
+          "summary": "Berkshire Hathaway comunicó una caída del beneficio atribuible y del beneficio operativo definido por la empresa, mientras continuaba recomprando acciones.",
+          "impact": "El informe hace que la rentabilidad de los seguros y el uso del efectivo resulten más informativos que una lectura aislada del resultado contable principal.",
+          "what": "El comunicado del fin de semana abarca un conglomerado con actividades en seguros, transporte ferroviario de mercancías, servicios públicos, manufactura y comercio minorista. El desglose que concilia sus resultados separa las ganancias de inversión del beneficio operativo, una medida definida por la empresa que no se ajusta a los principios de contabilidad generalmente aceptados, o PCGA. Se debilitaron el resultado de suscripción de seguros y los ingresos de las inversiones del negocio asegurador, mientras mejoraron los beneficios ferroviarios y energéticos. El informe trimestral adjunto presenta los ingresos consolidados y el flujo de efectivo operativo acumulado, conceptos distintos del beneficio trimestral.",
+          "why": "Las aseguradoras cobran las primas antes de pagar muchas de las indemnizaciones, lo que genera fondos que pueden invertir mientras siguen pendientes sus obligaciones. Por ello, la disciplina al asumir y fijar el precio de los riesgos asegurados importa tanto como la rentabilidad de las inversiones. Nuestra interpretación es que el desglose por segmentos permite evaluar la diversificación del conglomerado: la fortaleza del transporte y la energía no elimina automáticamente las presiones sobre los seguros. Las recompras de acciones son otro uso del efectivo, pero constituyen decisiones de financiación, no una prueba de que las actividades que atienden a los clientes hayan generado beneficios adicionales.",
+          "uncertainty": "El beneficio operativo excluye determinadas partidas contables y no debe sustituir al resultado conforme a los PCGA. A su vez, los cambios en la valoración de las inversiones pueden afectar al beneficio conforme a los PCGA sin generar entradas equivalentes de efectivo operativo. La cifra de efectivo presentada aquí es acumulada, no corresponde exclusivamente al trimestre. Las comparaciones de ingresos también requieren cautela, porque las adquisiciones pueden cambiar la composición del negocio. Estas diferencias impiden comparar directamente el beneficio trimestral mostrado con las medidas acumuladas de efectivo.",
+          "watch": "Aspectos a seguir: la rentabilidad de la suscripción y los ingresos de inversión en las próximas publicaciones del negocio asegurador, así como las recompras y adquisiciones en futuras comunicaciones sobre asignación de capital. Los informes ferroviarios y de servicios públicos pueden mostrar si persisten las mejoras operativas. La evidencia clave es la generación de efectivo tras la inversión en el negocio y las obligaciones por indemnizaciones, no simplemente los cambios en el valor de mercado de los títulos.",
           "metricLabels": [
             {
               "id": "m1",
@@ -787,120 +475,64 @@
             },
             {
               "id": "m2",
-              "label": "Beneficio neto trimestral atribuible a los accionistas"
-            },
-            {
-              "id": "m3",
-              "label": "Beneficio operativo trimestral no ajustado a GAAP"
-            },
-            {
-              "id": "m4",
-              "label": "Resultado trimestral de suscripción de seguros"
-            },
-            {
-              "id": "m5",
-              "label": "Flujo de efectivo de explotación acumulado en el año"
-            },
-            {
-              "id": "m6",
-              "label": "Recompras trimestrales aproximadas de acciones"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "La contratación en Estados Unidos sostiene los ingresos, pero el subempleo sigue siendo relevante",
-          "summary": "El último informe de empleo mostró crecimiento del empleo no agrícola y de la remuneración por hora, junto con un aumento del trabajo a tiempo parcial involuntario.",
-          "impact": "La contratación sostiene los ingresos de los consumidores, mientras que los costes salariales y el acceso desigual al trabajo a jornada completa complican las perspectivas de los márgenes empresariales y del gasto de los hogares.",
-          "what": "Este informe de empleo se publicó durante la sesión anterior; no es un anuncio nuevo del fin de semana. La encuesta a empresas registró un aumento del empleo, con avances en servicios profesionales y empresariales, atención sanitaria, transporte y almacenamiento. La encuesta a hogares describió pocos cambios en el desempleo, pero registró más personas trabajando a tiempo parcial por motivos económicos. Estas encuestas responden a preguntas distintas: la encuesta a empresas cuenta puestos de trabajo en los establecimientos, mientras que las respuestas de los hogares describen la situación laboral de las personas.",
-          "why": "Nuestra interpretación es que los ingresos laborales siguen sosteniendo el gasto, pero el dato principal no refleja la experiencia de todos los hogares. Quienes buscan trabajar más horas pueden seguir teniendo presupuestos limitados. Para las empresas, el crecimiento salarial puede sostener la demanda de los clientes y, al mismo tiempo, elevar los costes laborales; el equilibrio depende de la productividad y de su capacidad para fijar precios.",
-          "uncertainty": "Las estimaciones de empleo no agrícola son preliminares y están sujetas a revisión. La remuneración media por hora no mide el poder adquisitivo ajustado por inflación, y los cambios en la composición del empleo pueden afectar al promedio. No se incluye una comparación con previsiones de consenso respaldada por fuentes.",
-          "watch": "Los aspectos a seguir antes de valorar si el crecimiento de los ingresos se traduce en mayor poder adquisitivo son las revisiones del empleo no agrícola, los próximos informes de empleo y los datos de precios al consumidor.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Variación del empleo no agrícola ajustada por estacionalidad"
-            },
-            {
-              "id": "m2",
-              "label": "Tasa de desempleo ajustada por estacionalidad"
-            },
-            {
-              "id": "m3",
-              "label": "Crecimiento mensual de la remuneración media por hora"
-            },
-            {
-              "id": "m4",
-              "label": "Crecimiento interanual de la remuneración media por hora"
-            },
-            {
-              "id": "m5",
-              "label": "Personas que trabajan a tiempo parcial por motivos económicos"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Claves de los resultados de BYD: la mejora trimestral no equivale a una recuperación completa",
-          "summary": "El informe de BYD publicado anteriormente mostró crecimiento trimestral de los ingresos y del beneficio, mientras que el beneficio atribuible acumulado en el año seguía por debajo del periodo comparable.",
-          "impact": "La mejora del flujo de efectivo de explotación es alentadora, pero su relación con los pagos hace importante distinguir el calendario de movimientos de efectivo de la recuperación de los beneficios.",
-          "what": "Esta explicación de resultados corresponde a un informe fechado y no es una noticia de última hora. El fabricante de vehículos comunicó mayores ingresos y beneficio atribuible trimestrales, mientras que su beneficio atribuible acumulado seguía siendo inferior. El flujo de efectivo de explotación mejoró durante el periodo acumulado del informe; la documentación atribuye esa mejora principalmente a menores pagos en efectivo por bienes y servicios. El informe no está auditado.",
-          "why": "La lección financiera es que la mejora del trimestre reciente no borra la debilidad anterior. La generación de efectivo también responde a una pregunta distinta de la del beneficio: registra cobros y pagos operativos, en lugar del reconocimiento contable de ingresos y gastos. Unos pagos menores por compras pueden mejorar el efectivo sin demostrar una mayor demanda de los clientes.",
-          "uncertainty": "El flujo de efectivo acumulado divulgado no representa la generación de efectivo del trimestre por separado. No debe presentarse como efectivo generado durante el mismo periodo que la medida de beneficio trimestral. El informe no demuestra que la recuperación vaya a mantenerse.",
-          "watch": "Los aspectos a seguir en los próximos informes son la continuidad de la rentabilidad y de su conversión en efectivo, incluida la posible normalización de los pagos por compras y la conversión de existencias y cuentas por cobrar en efectivo.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos trimestrales"
-            },
-            {
-              "id": "m2",
-              "label": "Crecimiento interanual de los ingresos trimestrales"
-            },
-            {
-              "id": "m3",
               "label": "Beneficio neto atribuible trimestral"
             },
             {
+              "id": "m3",
+              "label": "Beneficio operativo trimestral — no conforme a los PCGA"
+            },
+            {
               "id": "m4",
-              "label": "Crecimiento interanual del beneficio atribuible trimestral"
+              "label": "Flujo de efectivo operativo acumulado en el año"
             },
             {
               "id": "m5",
-              "label": "Beneficio neto atribuible acumulado en el año"
+              "label": "Recompras trimestrales de acciones — importe aproximado"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "El empleo en Estados Unidos ayuda a contrastar la demanda y las condiciones de financiación",
+          "summary": "El último informe de empleo publicado en Estados Unidos registra un aumento del empleo y de los salarios.",
+          "impact": "La continuidad de los ingresos laborales puede sostener el gasto, mientras que las implicaciones para la financiación siguen dependiendo de la inflación y de las decisiones de política monetaria.",
+          "what": "El comunicado laboral archivado informa del empleo registrado por los empleadores y de una tasa de desempleo obtenida mediante una encuesta independiente; su medida salarial abarca a los empleados del sector privado no agrícola. Se presenta como contexto procedente de la última publicación, no como un anuncio del día.",
+          "why": "Nuestra interpretación es que la contratación sostiene la demanda de los clientes, pero también puede mantener los costes laborales de las empresas. Para los hogares, las condiciones del empleo afectan a la seguridad de sus ingresos; para las empresas, ayudan a orientar las expectativas de ventas, sin determinar las compras efectivas.",
+          "uncertainty": "Las estimaciones de empleo son preliminares y están sujetas a revisión. Las encuestas de hogares y de empleadores miden poblaciones distintas, y este informe por sí solo no permite determinar una futura decisión sobre los tipos de interés ni una sorpresa en los beneficios empresariales.",
+          "watch": "Aspectos a seguir: las revisiones del empleo, las próximas lecturas salariales y la inflación al consumidor, en busca de indicios sobre si la demanda de trabajo y el poder adquisitivo siguen siendo factores de apoyo.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Variación del empleo no agrícola — ajustada por estacionalidad"
             },
             {
-              "id": "m6",
-              "label": "Crecimiento interanual del beneficio atribuible acumulado en el año"
+              "id": "m2",
+              "label": "Tasa de desempleo — ajustada por estacionalidad"
             },
             {
-              "id": "m7",
-              "label": "Flujo de efectivo de explotación acumulado en el año"
-            },
-            {
-              "id": "m8",
-              "label": "Crecimiento interanual del flujo de efectivo de explotación acumulado en el año"
+              "id": "m3",
+              "label": "Salario por hora del sector privado — crecimiento interanual"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "米国と中国の動向を取り上げています。各資料の公表日をご確認ください。最近の企業決算は、背景を理解するための解説として掲載しています。",
+      "status": "今号で検証できた情報は限られています。市場によっては検証済みの新しいニュースがなく、過去の発表に基づく記事はその旨を明示しています。",
       "marketSummary": {
-        "us": "終値に関する情報には、確認できなかったものがあります。掲載している各指数には、それぞれ確認できた取引日を付しています。",
-        "cn": "対象指数はいずれも、直近で確認できた取引日に下落しました。日付付きの終値は、その日の取引結果であり、現在の相場を示すものではありません。"
+        "us": "一部の終値情報は検証できませんでした。掲載している各指数には、それぞれの取引日を付しています。",
+        "cn": "一部の終値情報は検証できませんでした。掲載している各指数には、それぞれの取引日を付しています。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "バークシャー、保険事業の弱さと対照的に非保険事業は底堅さ",
-          "summary": "バークシャー・ハサウェイの四半期営業利益は減少しました。主要な非保険事業は改善しましたが、保険引受利益と投資収益が落ち込みました。",
-          "impact": "今回の決算は、事業が生む利益、市場動向による会計上の利益、資本配分に使える現金を分けて捉える重要性を示しています。",
-          "what": "週末に公表された決算は、保険、貨物鉄道、公益事業、製造、サービス、小売を幅広く手がける複合企業の業績をまとめたものです。保険事業の利益は減少しましたが、鉄道、エネルギー、製造・サービス・小売の各事業は改善しました。自社株買いも継続しました。公表された純利益には投資損益が含まれますが、経営陣が用いる営業利益の指標では、投資損益と特定の減損損失を除いています。この営業利益は会計基準に準拠しない非GAAP指標であり、会計基準に基づく業績に代わるものではありません。併せて提出された開示資料には、連結売上高と年初来の営業キャッシュフローも記載されており、それぞれ異なる対象期間を明示して掲載しています。",
-          "why": "保険引受利益は、補償の提供に応じて収益として計上する保険料と、保険金や経費との差を反映します。投資収益は、運用資金から得られる収益を反映します。これらの仕組みは、貨物輸送や公益事業の運営とは異なります。全体の利益だけを見ると、保険事業の悪化に隠れて、ほかの事業の改善を見落とす可能性があります。また、保有株式の会計上の利益が変動しても、それに対応する営業上の現金収入が生じるとは限りません。自社株買いは資金を使って発行済み株式を減らす行為ですが、営業収益を生むものでも、事業の需要が強まった証拠でもありません。そのため、キャッシュフロー計算書は、事業が生み出した資金を別の角度から確認する資料になります。",
-          "uncertainty": "保険金の支払見積もりは時間の経過とともに変わる可能性があり、投資資産の評価変動によって純利益が大きく振れることもあります。四半期利益と年初来の営業キャッシュフローは、対象期間が同じであるかのように直接比較すべきではありません。決算発表自体も、要約された情報だけでは十分な情報に基づく投資判断には足りないと注意を促しています。",
-          "watch": "保険事業の利益低迷が続くかを見極めるには、今後の保険引受実績、保険金支払見積もりの変化、営業活動による資金創出、自社株買いの開示が注目点です。",
+          "title": "バークシャー決算、投資の評価損益と事業の業績を分けて示す",
+          "summary": "バークシャー・ハサウェイは、自社株買いを続ける一方、株主に帰属する純利益と同社独自の定義による営業利益の減少を報告しました。",
+          "impact": "今回の決算を読み解くには、見出しに出る会計上の利益だけを見るよりも、保険事業の収益性と資金の使い道を確認することが重要です。",
+          "what": "週末に発表された決算は、保険、貨物鉄道、公益事業、製造、小売りにまたがる複合企業の業績を示しています。利益の調整表では、投資損益と、同社が定義する非GAAP指標の営業利益を区分しています。保険引受利益と保険事業の投資収益は悪化した一方、鉄道とエネルギー事業の利益は改善しました。同時に公表された四半期報告書には、連結売上高と累計営業キャッシュフローも掲載されています。これらは四半期の利益とは異なる指標です。",
+          "why": "保険会社は、多くの保険金を支払う前に保険料を受け取るため、支払義務が残っている間、その資金を運用できます。そのため、投資収益だけでなく、リスクに見合った条件で保険を引き受ける規律も重要です。当編集部は、部門別の業績が事業分散の効果を確かめる手がかりになると考えています。運輸やエネルギー事業が好調でも、保険事業の厳しさが自動的に解消されるわけではありません。自社株買いも資金の使い道ですが、これは財務上の判断であり、顧客向けの事業が追加の利益を生んだ証拠ではありません。",
+          "uncertainty": "営業利益は特定の会計項目を除いた指標であり、米国会計基準に基づく利益の代わりにはなりません。一方、投資資産の評価額の変動は、それに見合う営業活動による現金収入がなくても、米国会計基準上の利益に影響することがあります。ここに示すキャッシュフローは累計額であり、当該四半期だけの金額ではありません。また、買収によって事業構成が変わることがあるため、売上高の比較にも注意が必要です。こうした違いがあるため、掲載された四半期利益と累計キャッシュフローをそのまま比較することはできません。",
+          "watch": "今後の保険事業の開示では保険引受の収益性と投資収益を、資本配分の開示では自社株買いと買収を確認することが注目点です。鉄道や公益事業の報告からは、業績改善が続いているかを確認できます。重要なのは、保有証券の時価の変化だけでなく、事業投資や保険金の支払義務を踏まえた資金創出力です。",
           "metricLabels": [
             {
               "id": "m1",
@@ -908,7 +540,7 @@
             },
             {
               "id": "m2",
-              "label": "四半期株主帰属純利益"
+              "label": "四半期の株主帰属純利益"
             },
             {
               "id": "m3",
@@ -916,27 +548,23 @@
             },
             {
               "id": "m4",
-              "label": "四半期保険引受利益"
+              "label": "年初来累計営業キャッシュフロー"
             },
             {
               "id": "m5",
-              "label": "年初来営業キャッシュフロー"
-            },
-            {
-              "id": "m6",
-              "label": "四半期自社株買い額（概算）"
+              "label": "四半期の自社株買い額（概算）"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "米国の雇用増が所得を支える一方、希望どおりに働けない状況にも注意",
-          "summary": "最新の雇用統計では、雇用者数と平均時給が増えた一方、経済的な理由でやむを得ずパートタイムで働く人も増加しました。",
-          "impact": "雇用の増加は消費者の所得を支えますが、賃金コストの上昇やフルタイムの仕事への就きやすさの違いが、企業の利益率と家計消費の見通しを複雑にしています。",
-          "what": "これは直前の取引日に公表された雇用統計であり、週末に新たに発表されたものではありません。事業所調査では、専門・ビジネスサービス、医療、運輸・倉庫などで雇用が増加しました。家計調査では、失業率はほぼ横ばいだった一方、経済的な理由でパートタイムで働く人が増えました。これらの調査は捉える対象が異なり、事業所調査は事業所の雇用数を、家計調査は個人の就業状況を把握します。",
-          "why": "雇用から得られる所得は引き続き消費を支えている、というのが本稿の見方です。ただし、主要な数値だけでは、すべての家計の実情はわかりません。もっと長く働きたい人は、なお家計に余裕がない可能性があります。企業にとって賃金上昇は顧客の需要を支える一方、人件費を押し上げます。その影響のバランスは、生産性や価格を引き上げる力によって変わります。",
-          "uncertainty": "雇用者数の推計は速報値であり、改定される可能性があります。平均時給は、物価変動を調整した購買力の指標ではありません。また、雇用の構成が変わると平均値も影響を受けます。出典で確認できる市場予想との比較は掲載していません。",
-          "watch": "所得の伸びが購買力の向上につながっているかを判断するうえで、雇用者数の改定、今後の雇用統計、消費者物価の動向が注目点です。",
+          "id": "f5",
+          "title": "米雇用統計、需要と資金調達環境を確認する手がかりに",
+          "summary": "公表済みの最新の米雇用統計では、雇用者数と賃金の増加が示されました。",
+          "impact": "雇用による所得が引き続き消費を支える可能性がありますが、資金調達環境への影響は、なおインフレや金融政策の判断に左右されます。",
+          "what": "過去に公表されたこの雇用統計には、事業所調査による雇用者数と、別の調査に基づく失業率が掲載されています。賃金指標の対象は、民間の非農業部門の雇用者です。これは公表済みの最新統計に基づく背景情報であり、当日の発表ではありません。",
+          "why": "当編集部は、採用の拡大は顧客の需要を支える一方、企業の人件費が高い状態を保つ要因にもなり得ると考えています。家計にとって雇用情勢は収入の安定性に関わります。企業にとっては売上見通しを考える材料ですが、実際の購入額を決めるものではありません。",
+          "uncertainty": "雇用者数は速報値であり、改定される可能性があります。家計調査と事業所調査では対象となる集団が異なり、この報告だけで今後の金利判断や企業利益の予想からの乖離を見極めることはできません。",
+          "watch": "労働需要と購買力が引き続き支えとなっているかを確認する材料として、雇用者数の改定、その後の賃金統計、消費者物価が注目点です。",
           "metricLabels": [
             {
               "id": "m1",
@@ -948,80 +576,28 @@
             },
             {
               "id": "m3",
-              "label": "平均時給の前月比伸び率"
-            },
-            {
-              "id": "m4",
-              "label": "平均時給の前年同月比伸び率"
-            },
-            {
-              "id": "m5",
-              "label": "経済的理由によるパートタイム就業者数"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "BYD決算解説：四半期の改善だけでは全面回復とはいえず",
-          "summary": "BYDがすでに公表した報告書では、四半期の売上高と利益が増加した一方、年初来の親会社株主帰属利益は前年同期を下回りました。",
-          "impact": "営業キャッシュフローの改善は好材料ですが、その主因が支払いの減少とされているため、現金の出入りの時期と利益の回復を区別することが重要です。",
-          "what": "これは公表日を明示した過去の決算の解説であり、速報ではありません。自動車メーカーのBYDは、四半期の親会社株主帰属利益と売上高が増加した一方、累計の親会社株主帰属利益は減少したと報告しました。累計対象期間の営業キャッシュフローは改善しており、開示資料では主に商品やサービスに対する現金支払いの減少によるものと説明しています。この報告書は監査を受けていません。",
-          "why": "財務面でのポイントは、直近の四半期が改善しても、それ以前の低迷が帳消しになるわけではないということです。また、資金創出と利益は異なるものを捉えています。資金創出は営業活動に伴う現金の受け取りと支払いを追うもので、収益や費用の会計上の認識とは異なります。仕入れに伴う支払いが減れば手元に残る現金は増えますが、それだけで顧客の需要が強まったとはいえません。",
-          "uncertainty": "開示された累計キャッシュフローは、四半期単独で生み出した現金ではありません。四半期利益の指標と同じ期間に得られた現金として扱うべきではありません。また、この報告書だけでは、回復が続くとは判断できません。",
-          "watch": "今後の報告では、収益性の改善と利益の現金化が持続するかが注目点です。仕入れに伴う支払いが通常の水準に戻るか、在庫や売上債権が現金に変わるかも確認事項です。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期売上高の前年同期比伸び率"
-            },
-            {
-              "id": "m3",
-              "label": "四半期親会社株主帰属純利益"
-            },
-            {
-              "id": "m4",
-              "label": "四半期親会社株主帰属利益の前年同期比伸び率"
-            },
-            {
-              "id": "m5",
-              "label": "年初来親会社株主帰属純利益"
-            },
-            {
-              "id": "m6",
-              "label": "年初来親会社株主帰属利益の前年同期比伸び率"
-            },
-            {
-              "id": "m7",
-              "label": "年初来営業キャッシュフロー"
-            },
-            {
-              "id": "m8",
-              "label": "年初来営業キャッシュフローの前年同期比伸び率"
+              "label": "民間部門の時間当たり賃金（前年比）"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; relatórios empresariais recentes são apresentados como explicações de contexto.",
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
       "marketSummary": {
-        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação.",
-        "cn": "Os índices acompanhados caíram em seus últimos pregões verificados. Os fechamentos datados descrevem esses pregões, não as negociações atuais."
+        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém sua respectiva data de negociação.",
+        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém sua respectiva data de negociação."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Fraqueza nos seguros da Berkshire contrasta com resistência dos negócios industriais",
-          "summary": "A Berkshire Hathaway informou queda no lucro operacional trimestral, com resultados menores na subscrição de seguros e nas receitas de investimentos, apesar da melhora nos principais negócios fora do setor de seguros.",
-          "impact": "Os resultados mostram por que é importante para os investidores distinguir os lucros dos negócios, os ganhos contábeis ligados ao mercado e o caixa disponível para alocação de capital.",
-          "what": "O balanço divulgado no fim de semana abrange um conglomerado com atuação em seguros, transporte ferroviário de cargas, serviços públicos, indústria, serviços e varejo. O resultado dos seguros enfraqueceu, enquanto a ferrovia, o negócio de energia e o grupo de indústria, serviços e varejo melhoraram. As recompras de ações continuaram. O lucro líquido divulgado inclui ganhos com investimentos, enquanto a medida de lucro operacional usada pela administração exclui ganhos com investimentos e determinadas perdas por redução do valor recuperável de ativos. Essa medida operacional não segue os princípios contábeis geralmente aceitos, conhecidos como GAAP, e não substitui o resultado contábil. O documento que acompanha a divulgação informa a receita consolidada e o fluxo de caixa operacional acumulado no ano, apresentados com seus respectivos períodos de apuração.",
-          "why": "O resultado de subscrição de seguros reflete os prêmios ganhos em relação às indenizações e despesas, enquanto as receitas de investimentos refletem os rendimentos dos recursos aplicados. Esses mecanismos são diferentes dos que regem o transporte de cargas ou os serviços públicos. O contraste importa porque o lucro total pode esconder negócios em melhora por trás de uma contribuição mais fraca dos seguros. Os ganhos contábeis com participações em ações também podem variar sem uma entrada correspondente de caixa operacional. As recompras usam capital e reduzem a quantidade de ações em circulação, mas não geram receita operacional nem demonstram que a demanda pelos negócios se fortaleceu. Por isso, a demonstração dos fluxos de caixa da Berkshire permite verificar separadamente os recursos gerados por suas operações.",
-          "uncertainty": "As estimativas de indenizações de seguros podem mudar ao longo do tempo, e as avaliações dos investimentos podem tornar o lucro líquido volátil. O lucro trimestral não deve ser comparado diretamente com o caixa operacional acumulado no ano como se os períodos fossem iguais. A própria divulgação alerta que suas informações resumidas são insuficientes para uma avaliação de investimento bem fundamentada.",
-          "watch": "Acompanhe os próximos resultados de subscrição de seguros, a evolução das estimativas de indenizações, a geração de caixa operacional e as divulgações sobre recompras para avaliar se a fraqueza nos resultados dos seguros persiste.",
+          "title": "Resultados da Berkshire separam efeitos dos investimentos do desempenho operacional",
+          "summary": "A Berkshire Hathaway informou queda no lucro líquido atribuível e no lucro operacional definido pela companhia, enquanto manteve as recompras de ações.",
+          "impact": "O relatório torna a rentabilidade dos seguros e o uso do caixa mais informativos do que a leitura isolada do lucro contábil em destaque.",
+          "what": "A divulgação feita no fim de semana abrange um conglomerado com negócios de seguros, transporte ferroviário de cargas, serviços públicos, indústria e varejo. A conciliação dos resultados separa os ganhos com investimentos do lucro operacional, uma medida não GAAP definida pela companhia. O resultado de subscrição de seguros e a receita dos investimentos da área de seguros enfraqueceram, enquanto os lucros dos negócios ferroviários e de energia melhoraram. O relatório trimestral que acompanha a divulgação apresenta a receita consolidada e o fluxo de caixa operacional acumulado, que são diferentes do lucro trimestral.",
+          "why": "As seguradoras recebem prêmios antes de pagar muitos dos sinistros, formando recursos que podem ser investidos enquanto as obrigações permanecem pendentes. Por isso, o rigor na seleção e precificação dos riscos importa tanto quanto os retornos dos investimentos. Nossa interpretação é que a divisão por segmentos ajuda a avaliar a diversificação do conglomerado: a força em transporte e energia não elimina automaticamente a pressão sobre os seguros. As recompras de ações são outro uso do caixa, mas são decisões de financiamento, não evidência de que as operações voltadas aos clientes geraram lucro adicional.",
+          "uncertainty": "O lucro operacional exclui itens contábeis específicos e não deve substituir o resultado segundo os princípios contábeis GAAP. Por outro lado, mudanças na avaliação dos investimentos podem afetar o lucro GAAP sem entradas equivalentes de caixa operacional. O valor de caixa apresentado aqui é acumulado, não referente apenas ao trimestre. Comparações de receita também exigem cuidado, pois aquisições podem alterar a composição dos negócios. Essas diferenças impedem uma comparação direta entre o lucro trimestral e as medidas acumuladas de caixa apresentados.",
+          "watch": "Acompanhe as próximas divulgações da área de seguros para avaliar a rentabilidade da subscrição e a receita de investimentos, além das futuras informações sobre alocação de capital para verificar recompras e aquisições. Os relatórios dos negócios ferroviários e de serviços públicos podem mostrar se as melhorias operacionais persistem. A principal evidência é a geração de caixa após os investimentos nos negócios e o cumprimento das obrigações com sinistros, não apenas as mudanças no valor de mercado dos títulos e ações.",
           "metricLabels": [
             {
               "id": "m1",
@@ -1029,120 +605,64 @@
             },
             {
               "id": "m2",
-              "label": "Lucro líquido trimestral atribuível aos acionistas"
+              "label": "Lucro líquido atribuível trimestral"
             },
             {
               "id": "m3",
-              "label": "Lucro operacional trimestral não GAAP"
+              "label": "Lucro operacional trimestral — não GAAP"
             },
             {
               "id": "m4",
-              "label": "Resultado trimestral de subscrição de seguros"
-            },
-            {
-              "id": "m5",
               "label": "Fluxo de caixa operacional acumulado no ano"
             },
             {
-              "id": "m6",
-              "label": "Recompras aproximadas de ações no trimestre"
+              "id": "m5",
+              "label": "Recompras de ações no trimestre — valor aproximado"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "Contratações nos Estados Unidos sustentam a renda, mas o subemprego continua relevante",
-          "summary": "O relatório de emprego mais recente mostrou crescimento do emprego e da remuneração por hora, acompanhado de aumento do trabalho involuntário em tempo parcial.",
-          "impact": "As contratações sustentam a renda dos consumidores, enquanto os custos salariais e o acesso desigual ao trabalho em tempo integral tornam mais incertas as perspectivas para as margens das empresas e os gastos das famílias.",
-          "what": "Este relatório de emprego foi divulgado no dia do pregão anterior, não é um novo anúncio do fim de semana. A pesquisa com empregadores apontou crescimento do emprego, incluindo avanços em serviços profissionais e empresariais, saúde, transporte e armazenagem. A pesquisa domiciliar indicou pouca mudança no desemprego, mas registrou mais pessoas trabalhando em tempo parcial por razões econômicas. Essas pesquisas respondem a perguntas diferentes: a pesquisa com empregadores conta postos de trabalho nos estabelecimentos, enquanto as respostas dos domicílios descrevem a situação de emprego das pessoas.",
-          "why": "Nossa interpretação é que a renda do trabalho continua sustentando os gastos, mas o resultado principal não descreve a experiência de todas as famílias. Trabalhadores que buscam jornadas mais longas ainda podem enfrentar restrições no orçamento. Para as empresas, o crescimento dos salários pode sustentar a demanda dos clientes e, ao mesmo tempo, elevar os custos de mão de obra; o equilíbrio depende da produtividade e da capacidade de ajustar preços.",
-          "uncertainty": "As estimativas de emprego são preliminares e estão sujeitas a revisão. A remuneração média por hora não é uma medida de poder de compra ajustada pela inflação, e mudanças na composição dos empregos podem afetar essa média. Não foi incluída uma comparação com o consenso de mercado apoiada em fontes.",
-          "watch": "Acompanhe as revisões dos dados de emprego, os próximos relatórios e os dados de preços ao consumidor antes de avaliar se o crescimento da renda se traduz em maior poder de compra.",
+          "id": "f5",
+          "title": "Emprego nos EUA ajuda a avaliar demanda e condições de financiamento",
+          "summary": "O relatório de emprego mais recente divulgado nos EUA registra expansão do emprego e crescimento dos salários.",
+          "impact": "A continuidade da renda do trabalho pode sustentar o consumo, enquanto os efeitos sobre o financiamento ainda dependem da inflação e das decisões de política monetária.",
+          "what": "A divulgação trabalhista arquivada apresenta os dados de emprego apurados junto aos empregadores e a taxa de desemprego obtida em uma pesquisa separada; sua medida salarial abrange empregados do setor privado não agrícola. Essas informações contextualizam a divulgação mais recente, não um anúncio do dia.",
+          "why": "Nossa interpretação é que as contratações sustentam a demanda dos clientes, mas também podem manter os custos de mão de obra das empresas. Para as famílias, as condições de emprego afetam a segurança da renda; para as empresas, ajudam a formar expectativas de vendas, sem determinar as compras efetivas.",
+          "uncertainty": "As estimativas de emprego são preliminares e estão sujeitas a revisão. As pesquisas com famílias e empregadores abrangem populações diferentes, e este relatório, isoladamente, não permite determinar uma futura decisão sobre juros nem uma surpresa nos lucros.",
+          "watch": "Acompanhe as revisões dos dados de emprego, as próximas leituras salariais e a inflação ao consumidor em busca de evidências sobre a continuidade do apoio da demanda por trabalho e do poder de compra.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação do emprego não agrícola com ajuste sazonal"
+              "label": "Variação do emprego não agrícola — com ajuste sazonal"
             },
             {
               "id": "m2",
-              "label": "Taxa de desemprego com ajuste sazonal"
+              "label": "Taxa de desemprego — com ajuste sazonal"
             },
             {
               "id": "m3",
-              "label": "Crescimento mensal da remuneração média por hora"
-            },
-            {
-              "id": "m4",
-              "label": "Crescimento anual da remuneração média por hora"
-            },
-            {
-              "id": "m5",
-              "label": "Pessoas trabalhando em tempo parcial por razões econômicas"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Entenda os resultados da BYD: trimestre melhor não significa recuperação completa",
-          "summary": "O relatório já divulgado pela BYD mostrou crescimento da receita e do lucro trimestrais, enquanto o lucro atribuível aos acionistas acumulado no ano permaneceu abaixo do período comparável.",
-          "impact": "A melhora do fluxo de caixa operacional é positiva, mas sua explicação ligada aos pagamentos torna importante distinguir o momento das movimentações de caixa da recuperação dos lucros.",
-          "what": "Esta explicação de resultados se refere a uma divulgação datada, não a uma notícia de última hora. A fabricante de veículos informou aumento do lucro trimestral atribuível aos acionistas e da receita trimestral, enquanto o lucro atribuível acumulado permaneceu menor. O fluxo de caixa operacional melhorou no período acumulado; o documento atribui essa melhora principalmente à redução dos pagamentos em dinheiro por bens e serviços. O relatório não foi auditado.",
-          "why": "A lição financeira é que um trimestre recente melhor não apaga a fraqueza anterior. A geração de caixa também responde a uma pergunta diferente da respondida pelo lucro: acompanha os recebimentos e pagamentos operacionais, em vez do reconhecimento contábil de receitas e despesas. Pagamentos menores por compras podem melhorar o caixa sem comprovar uma demanda mais forte dos clientes.",
-          "uncertainty": "O fluxo de caixa acumulado divulgado não representa a geração de caixa isolada do trimestre. Ele não deve ser apresentado como caixa gerado no mesmo período da medida de lucro trimestral. O relatório não demonstra que a recuperação vai persistir.",
-          "watch": "Acompanhe os próximos relatórios para avaliar a continuidade da rentabilidade e da conversão dos resultados em caixa, incluindo se os pagamentos por compras se normalizam e se estoques e contas a receber se transformam em caixa.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita trimestral"
-            },
-            {
-              "id": "m2",
-              "label": "Crescimento anual da receita trimestral"
-            },
-            {
-              "id": "m3",
-              "label": "Lucro líquido trimestral atribuível aos acionistas"
-            },
-            {
-              "id": "m4",
-              "label": "Crescimento anual do lucro trimestral atribuível aos acionistas"
-            },
-            {
-              "id": "m5",
-              "label": "Lucro líquido atribuível aos acionistas acumulado no ano"
-            },
-            {
-              "id": "m6",
-              "label": "Crescimento anual do lucro atribuível aos acionistas acumulado no ano"
-            },
-            {
-              "id": "m7",
-              "label": "Fluxo de caixa operacional acumulado no ano"
-            },
-            {
-              "id": "m8",
-              "label": "Crescimento anual do fluxo de caixa operacional acumulado no ano"
+              "label": "Remuneração por hora no setor privado — crescimento anual"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國市場動態。請留意各篇內容的發布日期；近期公司財報以背景解讀方式呈現。",
+      "status": "本期可核實的報導有限。部分市場沒有可核實的新消息；較早的報告仍清楚標示日期。",
       "marketSummary": {
-        "us": "部分收盤資訊未能核實。各項可提供的指數資料均保留其各自的交易日期。",
-        "cn": "追蹤的指數在各自最近經核實的交易日均下跌。附有日期的收盤資料反映當日情況，並非目前行情。"
+        "us": "部分收盤資訊無法核實。各項可提供的指數資料均保留各自的交易日期。",
+        "cn": "部分收盤資訊無法核實。各項可提供的指數資料均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "波克夏保險業務轉弱，與實業業務的韌性形成對比",
-          "summary": "波克夏海瑟威公布的季度營業利益下滑，原因是保險承保利益與投資收益減少，儘管主要非保險業務均有改善。",
-          "impact": "這份業績凸顯，投資人需要區分本業獲利、隨市場變動的會計利益，以及可供資本配置的現金。",
-          "what": "週末發布的財報涵蓋這家跨足保險、鐵路貨運、公用事業、製造、服務與零售的綜合企業。保險業務獲利轉弱，鐵路、能源，以及製造、服務與零售事業群則有改善。公司持續買回股份。財報中的淨利潤包含投資利益，管理層採用的營業利益指標則排除投資利益與指定減損項目；這項營業利益指標不依公認會計原則編製，不能取代正式會計結果。隨附的申報文件提供合併營收及年初至今的經營現金流，資料分別標示其所屬的報告期間。",
-          "why": "保險承保業績反映已賺取保費與理賠、費用之間的關係，投資收益則來自已投入資金所產生的回報。這些獲利機制與貨運或公用事業營運不同。這項對比之所以重要，是因為整體獲利可能掩蓋部分業務正在改善的情況，而這些改善被較弱的保險業務貢獻抵銷。持股產生的會計利益也可能變動，卻沒有相應的營運現金流入。買回股份會動用資本並減少流通在外股份，但不會創造營業收入，也不能證明實際需求已增強。因此，波克夏的現金流量表可用來另行檢視旗下業務產生的資金。",
-          "uncertainty": "保險理賠估計可能隨時間調整，投資估值也可能使淨利潤波動。不應將季度獲利與年初至今的經營現金流直接比較，彷彿涵蓋期間相同。公司在新聞稿中也提醒，摘要資訊不足以支持充分知情的投資判斷。",
-          "watch": "留意後續承保業績、理賠估計變化、經營現金流產生情況及股份買回揭露，以判斷保險獲利疲弱是否持續。",
+          "title": "波克夏財報區分投資評價變動與營運表現",
+          "summary": "波克夏海瑟威公布的歸屬淨利與公司自行定義的營運收益均下滑，同時持續買回自家股票。",
+          "impact": "這份報告顯示，比起只看帳面獲利的 headline 數字，保險業務獲利能力與現金運用更有助於了解公司表現。",
+          "what": "週末發布的財報涵蓋保險、鐵路貨運、公用事業、製造與零售等業務。獲利調節表將投資收益與營運收益分開呈現；後者是公司自行定義、不依一般公認會計原則計算的指標。保險承保獲利與保險投資收益減弱，鐵路及能源業務獲利則改善。隨附的季度報告提供合併營收與累計營業活動現金流量，這些指標與季度獲利並不相同。",
+          "why": "保險公司收取保費後，許多理賠尚未支付，因此在賠付義務仍存在期間，可先運用這些資金投資。所以，除了投資報酬，審慎承保也很重要。我們的解讀是，各業務部門的表現有助於檢視集團的多角化成效：運輸與能源業務表現強勁，並不代表保險業務的壓力就會自動消失。買回股票也是現金用途，但這屬於融資決策，不能證明面向客戶的業務創造了更多獲利。",
+          "uncertainty": "營運收益排除了特定會計項目，不應取代依一般公認會計原則計算的結果。反過來說，投資評價變動可能影響依一般公認會計原則計算的獲利，卻沒有相對應的營運現金流入。此處列示的現金流量是累計值，並非當季獨立金額。比較營收時也須謹慎，因為收購可能改變業務組合。基於這些差異，列示的季度獲利與累計現金流量不能直接比較。",
+          "watch": "留意後續保險業務揭露的承保獲利能力與投資收益，以及未來資本配置資訊中的股票買回與收購情況。鐵路及公用事業報告可用來觀察營運改善是否持續。關鍵證據是公司在業務投資與履行理賠義務後產生現金的能力，而不只是所持證券市值的變動。",
           "metricLabels": [
             {
               "id": "m1",
@@ -1150,99 +670,43 @@
             },
             {
               "id": "m2",
-              "label": "季度歸屬股東淨利潤"
+              "label": "季度歸屬淨利"
             },
             {
               "id": "m3",
-              "label": "季度非公認會計原則營業利益"
+              "label": "季度營運收益——非一般公認會計原則"
             },
             {
               "id": "m4",
-              "label": "季度保險承保利益"
+              "label": "年初至今營業活動現金流量"
             },
             {
               "id": "m5",
-              "label": "年初至今經營現金流"
-            },
-            {
-              "id": "m6",
-              "label": "季度股份買回金額概數"
+              "label": "季度股票買回金額——約數"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "美國就業成長支撐收入，但就業不足仍值得關注",
-          "summary": "最新就業報告顯示，非農就業人數增加、平均時薪上升，但非自願從事兼職工作的人數也增加。",
-          "impact": "就業成長支撐消費者收入，但薪資成本上升，以及取得全職工作的機會不均，使企業利潤率與家庭支出的前景更為複雜。",
-          "what": "這是上個交易日發布的就業報告，並非週末新公布的消息。雇主調查顯示就業人數增加，成長產業包括專業與商業服務、醫療保健，以及運輸與倉儲。家庭調查指出失業情況變化不大，但因經濟因素從事兼職工作的人數增加。這些調查回答的問題不同：非農就業統計計算事業單位的工作職位，家庭調查則反映受訪者的就業狀態。",
-          "why": "我們的解讀是，就業收入仍支撐消費，但整體數據無法呈現所有家庭的處境。希望增加工時的勞工，仍可能面臨預算受限的情況。對企業而言，薪資成長既能支撐客戶需求，也會增加人力成本；最終影響取決於生產力與定價能力。",
-          "uncertainty": "非農就業人數估計屬初步資料，之後可能修正。平均時薪並非經通膨調整的購買力指標，就業組成的變化也可能影響平均值。本篇未納入有來源依據的市場共識預期比較。",
-          "watch": "留意非農就業人數修正、後續就業報告及消費者物價資料，再判斷收入成長是否轉化為更強的購買力。",
+          "id": "f5",
+          "title": "美國就業數據有助交叉檢視需求與融資環境",
+          "summary": "最新公布的美國就業報告顯示，就業人數與薪資均成長。",
+          "impact": "持續的就業收入可支撐消費，但對融資環境的影響，仍取決於通膨與貨幣政策決策。",
+          "what": "這份已存檔的勞動市場報告列出雇主調查的就業人數，以及來自另項調查的失業率；薪資指標涵蓋民間非農業受僱者。這是最新已發布報告提供的背景資訊，並非當日公布的消息。",
+          "why": "我們的解讀是，企業徵才有助支撐客戶需求，但也可能使雇主的勞動成本維持壓力。對家庭而言，就業情況影響收入的穩定性；對企業而言，就業情況有助形成銷售預期，卻不能決定實際購買行為。",
+          "uncertainty": "就業人數估計屬初步資料，日後可能修正。家庭調查與雇主調查涵蓋的對象不同，僅憑這份報告，無法判定未來的利率決策，也無法確認企業獲利是否會出乎預期。",
+          "watch": "留意就業人數修正、後續薪資數據與消費者物價通膨，以觀察勞動需求與購買力是否仍具支撐作用。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "經季節調整非農就業人數變動"
+              "label": "非農就業人數變動——經季節調整"
             },
             {
               "id": "m2",
-              "label": "經季節調整失業率"
+              "label": "失業率——經季節調整"
             },
             {
               "id": "m3",
-              "label": "平均時薪月增率"
-            },
-            {
-              "id": "m4",
-              "label": "平均時薪年增率"
-            },
-            {
-              "id": "m5",
-              "label": "因經濟因素從事兼職工作人數"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "比亞迪財報解讀：季度表現轉強，不代表已全面復甦",
-          "summary": "比亞迪先前公布的財報顯示，季度營收與利潤成長，但年初至今歸屬母公司股東的淨利潤仍低於去年同期。",
-          "impact": "經營現金流改善是正面訊號，但由於改善原因與付款變化有關，需要區分現金收付時點的影響與獲利復甦。",
-          "what": "這篇附有日期的財報解讀並非即時新聞。這家汽車製造商公布的季度歸屬母公司股東淨利潤與營收均有成長，但累計歸屬母公司股東淨利潤仍下滑。累計報告期間的經營現金流改善；申報文件將改善主要歸因於購買商品與接受服務所支付的現金減少。這份報告未經審計。",
-          "why": "從財務角度來看，近期季度表現改善，並不會抹去先前的疲弱。現金產生情況與利潤回答的問題也不同：前者追蹤營運相關的現金收付，而非營收與費用的認列。採購付款減少可以改善現金流，卻不能證明客戶需求增強。",
-          "uncertainty": "已揭露的累計現金流並非單季產生的現金，不應將其表述為與季度利潤指標相同期間所賺取的現金。這份報告無法證明復甦將會持續。",
-          "watch": "留意後續報告中的獲利持續性與獲利轉化為現金的情況，包括採購付款是否恢復常態，以及存貨與應收帳款是否轉化為現金。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度營收"
-            },
-            {
-              "id": "m2",
-              "label": "季度營收年增率"
-            },
-            {
-              "id": "m3",
-              "label": "季度歸屬母公司股東淨利潤"
-            },
-            {
-              "id": "m4",
-              "label": "季度歸屬母公司股東淨利潤年增率"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今歸屬母公司股東淨利潤"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今歸屬母公司股東淨利潤年增率"
-            },
-            {
-              "id": "m7",
-              "label": "年初至今經營現金流"
-            },
-            {
-              "id": "m8",
-              "label": "年初至今經營現金流年增率"
+              "label": "民間部門每小時薪資——年增率"
             }
           ]
         }
