@@ -1,104 +1,80 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-09T13:53:40.724Z",
-  "generatedAt": "2026-11-09T13:58:19.101Z",
+  "cutoffAt": "2026-11-09T23:26:52.831Z",
+  "generatedAt": "2026-11-09T23:33:45.564Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
-      "id": "src1",
-      "label": "Federal Reserve Bank of St. Louis — broad US equity index observations",
-      "url": "https://fred.stlouisfed.org/series/SP500"
-    },
-    {
       "id": "src2",
-      "label": "Associated Press — completed US trading session",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad"
+      "label": "Associated Press dated US closing report",
+      "url": "https://www.washingtonpost.com/business/2026/11/09/wall-street-stocks-dow-nasdaq/d2094ae0-dc83-11f1-912c-4fbb80d73f7f_story.html"
     },
     {
       "id": "src3",
-      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite observations",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
-    },
-    {
-      "id": "src4",
-      "label": "Jin ten Data — mainland closing index bulletin",
+      "label": "Dated mainland closing bulletin",
       "url": "https://flash.jin10.com/detail/20261109150308489800"
     },
     {
-      "id": "src5",
-      "label": "Investing — mainland large-cap index dated closing table",
+      "id": "src4",
+      "label": "Mainland large-cap index daily closing table",
       "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
-      "id": "src6",
-      "label": "National Bureau of Statistics — consumer prices",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html"
+      "id": "src5",
+      "label": "Official consumer price release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965795.html"
     },
     {
-      "id": "src7",
-      "label": "National Bureau of Statistics — industrial producer prices",
+      "id": "src6",
+      "label": "Official industrial producer price release",
       "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html"
     },
     {
+      "id": "src7",
+      "label": "Issuer earnings release filed with the securities regulator",
+      "url": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000030/q326earningsrelease_vf.htm"
+    },
+    {
       "id": "src8",
-      "label": "National Bureau of Statistics — price release interpretation",
-      "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html"
+      "label": "Issuer earnings and strategic asset sale release",
+      "url": "https://www.nrg.com/en/about/newsroom/2026/46136"
     },
     {
       "id": "src9",
-      "label": "Berkshire Hathaway — earnings release",
-      "url": "https://berkshirehathaway.com/news/nov0726.pdf"
+      "label": "Issuer equity registration approval announcement distributed by a disclosure host",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-11/2026-11-09/12696360.PDF"
     },
     {
       "id": "src10",
-      "label": "Berkshire Hathaway — quarterly financial report",
-      "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+      "label": "Issuer quarterly report hosted by the stock exchange",
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-23/8d00fc48-5c09-45d6-b3c4-d1b794542e12.PDF"
     },
     {
       "id": "src11",
-      "label": "CATL — quarterly report filed with Shenzhen Stock Exchange",
-      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-21/0b788700-eb1b-45d1-a7a9-c6e5646b386b.PDF"
-    },
-    {
-      "id": "src12",
-      "label": "CATL — filed investor relations discussion",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613436.PDF"
-    },
-    {
-      "id": "src13",
-      "label": "Apple — earnings release",
-      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
-    },
-    {
-      "id": "src14",
-      "label": "Apple — consolidated financial statements",
-      "url": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf"
-    },
-    {
-      "id": "src15",
-      "label": "Bureau of Labor Statistics — archived employment release",
-      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+      "label": "Issuer financing prospectus with business description",
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-13/577f5075-439e-4aa9-867f-6f69bc779fbb.PDF"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-06",
-      "close": 7376.86,
-      "previousClose": 7353.73,
-      "changePercent": 0.3,
+      "sessionDate": "2026-11-09",
+      "close": 7549.94,
+      "previousClose": 7376.86,
+      "changePercent": 2.35,
       "sourceIds": [
-        "src1",
         "src2"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-09",
+      "close": 25253.14,
+      "previousClose": 24579.43,
+      "changePercent": 2.74,
+      "sourceIds": [
+        "src2"
+      ]
     },
     {
       "id": "sse",
@@ -107,7 +83,7 @@
       "previousClose": null,
       "changePercent": 0.32,
       "sourceIds": [
-        "src4"
+        "src3"
       ]
     },
     {
@@ -124,329 +100,357 @@
       "id": "f2",
       "market": "us",
       "category": "earnings",
-      "publishedOn": "2026-11-07",
+      "publishedOn": "2026-11-09",
       "company": {
-        "name": "Berkshire Hathaway",
-        "ticker": "BRK.B",
+        "name": "KKR & Co. Inc.",
+        "ticker": "KKR",
         "exchange": "NYSE"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 105647000000,
+          "value": 4563679000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src10"
+            "src7"
           ],
-          "evidence": "Consolidated statements of earnings: total revenues, excluding separately presented investment gains."
+          "evidence": "GAAP Results table, current-quarter total revenues; source amounts converted from thousands to dollars."
         },
         {
           "id": "m2",
-          "value": 22112000000,
+          "value": 1121176000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src7"
           ],
-          "evidence": "Release earnings reconciliation: net earnings attributable to shareholders."
+          "evidence": "GAAP Results table, current-quarter net income attributable to common stockholders; source amounts converted from thousands to dollars."
         },
         {
           "id": "m3",
-          "value": 12705000000,
+          "value": 1315970000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src7"
           ],
-          "evidence": "Release reconciliation: company-defined non-GAAP operating earnings."
+          "evidence": "Segment Earnings table, current-quarter fee related earnings; management-defined non-GAAP measure converted from thousands to dollars."
         },
         {
           "id": "m4",
-          "value": 33914000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src10"
-          ],
-          "evidence": "Consolidated cash flow statement: net cash flows from operating activities."
-        },
-        {
-          "id": "m5",
-          "value": 9600000000,
+          "value": 1645493000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src7"
           ],
-          "evidence": "Release capital allocation paragraph: approximate treasury-share purchases."
+          "evidence": "Segment Earnings table, current-quarter adjusted net income; non-GAAP earnings, not operating cash flow, converted from thousands to dollars."
         }
       ],
       "sourceIds": [
-        "src9",
-        "src10"
+        "src7"
       ],
-      "evidence": "Release earnings reconciliation and segment table show weaker insurance earnings alongside stronger railroad and energy earnings; quarterly report supplies revenue and cumulative operating cash."
+      "evidence": "GAAP Results and Segment Earnings tables establish accounting profit and adjusted measures; comparative columns show lower consolidated revenue and higher fee related earnings, while appendix definitions explain non-GAAP limitations."
     },
     {
-      "id": "f5",
+      "id": "f3",
       "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-11-06",
-      "company": null,
+      "category": "earnings",
+      "publishedOn": "2026-11-09",
+      "company": {
+        "name": "NRG Energy, Inc.",
+        "ticker": "NRG",
+        "exchange": "NYSE"
+      },
       "metrics": [
         {
           "id": "m1",
-          "value": 165000,
-          "unit": "count",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 9466000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src15"
+            "src8"
           ],
-          "evidence": "Opening paragraph and establishment summary: seasonally adjusted nonfarm payroll change."
+          "evidence": "Condensed Consolidated Statements of Operations, current-quarter revenue; source amounts converted from millions to dollars."
         },
         {
           "id": "m2",
-          "value": 4.1,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 561000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src15"
+            "src8"
           ],
-          "evidence": "Opening paragraph and household survey: seasonally adjusted unemployment rate."
+          "evidence": "Consolidated Financial Results table, current-quarter GAAP net income; source amounts converted from millions to dollars."
         },
         {
           "id": "m3",
-          "value": 3.1,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "value": 1097000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src15"
+            "src8"
           ],
-          "evidence": "Establishment survey earnings paragraph: private nonfarm average hourly earnings annual growth."
+          "evidence": "Consolidated Financial Results table, current-quarter GAAP cash provided by operating activities; source amounts converted from millions to dollars."
+        },
+        {
+          "id": "m4",
+          "value": 983000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Consolidated Financial Results table and explanatory footnote, adjusted net income available for common stockholders; non-GAAP amount converted from millions to dollars."
+        },
+        {
+          "id": "m5",
+          "value": 4000000000,
+          "unit": "USD",
+          "periodStart": "2026-11-09",
+          "periodEnd": "2026-11-09",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Strategic Asset Sale section, signed agreement's cash purchase price before working-capital and other closing adjustments; this is a reported contract term, not received proceeds."
         }
       ],
       "sourceIds": [
-        "src15"
+        "src8"
       ],
-      "evidence": "Archived employment release opening, household survey and establishment earnings discussion verify employment, unemployment and wage measures."
+      "evidence": "Consolidated Financial Results, statements of operations and Strategic Asset Sale section distinguish realized accounting earnings and operating cash from a signed disposal agreement and prospective capital allocation."
     }
   ],
   "locales": {
     "en": {
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
         "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Berkshire’s earnings separate investment marks from operating performance",
-          "summary": "Berkshire Hathaway reported weaker attributable earnings and company-defined operating earnings while continuing share repurchases.",
-          "impact": "The report makes insurance profitability and cash deployment more informative than reading the headline accounting result in isolation.",
-          "what": "The weekend release covers a conglomerate spanning insurance, freight rail, utilities, manufacturing and retailing. Its earnings reconciliation separates investment gains from operating earnings, a non-GAAP measure defined by the company. Insurance underwriting and insurance investment income weakened, while railroad and energy earnings improved. The accompanying quarterly report provides consolidated revenue and cumulative operating cash flow, which are distinct from quarterly profit.",
-          "why": "Insurance collects premiums before many claims are paid, creating funds that can be invested while obligations remain outstanding. Underwriting discipline therefore matters alongside investment returns. Our interpretation is that the segment split provides a useful check on the conglomerate’s diversification: strength in transport and energy does not automatically eliminate insurance pressure. Share repurchases are another use of cash, but they are financing decisions rather than evidence that customer-facing operations generated additional profit.",
-          "uncertainty": "Operating earnings exclude specified accounting items and should not replace the GAAP result. Conversely, investment valuation changes can affect GAAP profit without equivalent operating cash receipts. The cash figure shown here is cumulative, not a stand-alone quarterly amount. Revenue comparisons also require care because acquisitions can alter the business mix. These distinctions prevent a direct comparison between the displayed quarterly profit and cumulative cash measures.",
-          "watch": "Watch subsequent insurance disclosures for underwriting profitability and investment income, and future capital-allocation disclosures for repurchases and acquisitions. Railroad and utility reports can show whether operating improvements persist. The key evidence is cash generation after business investment and claims obligations, not simply changes in the market value of securities.",
+          "title": "KKR's earnings require a careful accounting distinction",
+          "summary": "KKR released quarterly results showing accounting profit alongside stronger management-defined fee earnings.",
+          "impact": "Investors need to distinguish the underlying fee business from insurance accounting, investment results and actual cash generation.",
+          "what": "KKR manages alternative investments and operates capital-markets and insurance businesses. Its new release reports consolidated revenue and profit attributable to common stockholders, alongside fee related earnings and adjusted net income. The segment tables show increased fee related earnings, while consolidated revenue declined against the comparable quarter. That divergence is a reason to examine the business components rather than interpret consolidated sales as a simple measure of asset-management demand. The release explicitly identifies its adjusted earnings measures as non-GAAP.",
+          "why": "An investment manager earns fees for managing client capital, while investment realizations and insurance operations introduce different earnings drivers. As an analytical framework, recurring management fees can help assess the operating franchise, but performance-related fees require separate scrutiny because their timing can vary. For pension beneficiaries and business borrowers, the broader relevance is how private capital is being managed and deployed. For shareholders, the central distinction is between earnings allocated under accounting rules, management's preferred performance measures and cash that can actually fund obligations or distributions.",
+          "uncertainty": "Adjusted net income is neither GAAP net income nor operating cash flow, and the release's definitions exclude effects associated with consolidated investment vehicles. A comparable operating cash flow figure was not established here. The results therefore do not support a claim that adjusted earnings were available as unrestricted cash, and no earnings-surprise conclusion is made.",
+          "watch": "Watch the detailed cash flow filing and subsequent disclosures about fee-paying capital, investment exits and insurance earnings. The useful test is whether operating performance remains durable after separating recurring fees from realization-dependent income, accounting adjustments and financing needs.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly consolidated revenue"
+              "label": "GAAP consolidated revenue"
             },
             {
               "id": "m2",
-              "label": "Quarterly attributable net earnings"
+              "label": "GAAP net income attributable to common stockholders"
             },
             {
               "id": "m3",
-              "label": "Quarterly operating earnings — non-GAAP"
+              "label": "Non-GAAP fee related earnings"
             },
             {
               "id": "m4",
-              "label": "Year-to-date operating cash flow"
-            },
-            {
-              "id": "m5",
-              "label": "Quarterly share repurchases — approximate"
+              "label": "Non-GAAP adjusted net income"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "US employment provides a demand and financing cross-check",
-          "summary": "The latest released US employment report records payroll expansion alongside wage growth.",
-          "impact": "Continued employment income can support spending, while financing implications still depend on inflation and monetary-policy decisions.",
-          "what": "The archived labor release reports employer payrolls and a separately surveyed unemployment rate; its wage measure covers private nonfarm employees. This is context from the latest release, not a same-day announcement.",
-          "why": "Our interpretation is that hiring supports customer demand but can also sustain employer labor costs. For households, employment conditions affect income security; for businesses, they help frame sales expectations without determining actual purchases.",
-          "uncertainty": "Payroll estimates are preliminary and subject to revision. The household and employer surveys measure different populations, and this report alone cannot establish a future interest-rate decision or an earnings surprise.",
-          "watch": "Watch payroll revisions, subsequent wage readings and consumer inflation for evidence about whether labor demand and purchasing power remain supportive.",
+          "id": "f3",
+          "title": "NRG pairs quarterly results with a generation asset sale agreement",
+          "summary": "NRG reported earnings and operating cash generation while announcing an agreement to sell natural-gas generation assets.",
+          "impact": "The proposed disposal could reshape debt and shareholder distributions, but its proceeds are not yet operating cash.",
+          "what": "NRG supplies electricity, natural gas and smart-home services and owns power-generation assets. Its release reports quarterly revenue, GAAP profit and cash provided by operating activities, with adjusted profit presented separately. Management attributed improved earnings to acquired operations, capacity prices and Texas margins, partly offset by financing costs and noncash hedge losses. The company also signed a generation asset sale agreement and described prospective debt reduction and repurchases. The agreed consideration is recorded here as a transaction term, not received sale proceeds.",
+          "why": "A power supplier's accounting profit can move when hedging contracts are revalued, even before the related physical energy transactions settle. Operating cash therefore provides a different view of the business, although it still reflects payment timing and working capital. Separately, selling generation assets exchanges future operating exposure for potential cash. As an editorial interpretation, that can create flexibility to repay borrowing or return capital, but also changes the assets supporting future earnings. Households and businesses remain exposed to the company's ability to procure and deliver energy reliably, not merely its reported adjusted profit.",
+          "uncertainty": "The disposal remains subject to closing conditions and adjustments. Its stated consideration should not be added to quarterly operating cash flow. The newly issued annual outlook excludes the expected disposal effects, and adjusted profit excludes hedge revaluation effects; neither should be mistaken for a realized cash outcome.",
+          "watch": "Watch completion disclosures, final proceeds, actual debt repayment and executed repurchases. Updated guidance incorporating the disposal will help show how much recurring earnings capacity leaves with the assets and whether the proposed capital allocation remains consistent with the company's financing requirements.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Nonfarm payroll change — seasonally adjusted"
+              "label": "Quarterly revenue"
             },
             {
               "id": "m2",
-              "label": "Unemployment rate — seasonally adjusted"
+              "label": "Quarterly GAAP net income"
             },
             {
               "id": "m3",
-              "label": "Private hourly earnings — annual growth"
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés ne disposent pas de nouvelle information vérifiée ; les rapports plus anciens restent clairement identifiés.",
-      "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
-        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
-      },
-      "stories": [
-        {
-          "id": "f2",
-          "title": "Berkshire distingue les variations de valeur des placements de sa performance opérationnelle",
-          "summary": "Berkshire Hathaway a publié un résultat net attribuable et un résultat opérationnel défini par l’entreprise en baisse, tout en poursuivant ses rachats d’actions.",
-          "impact": "Ce rapport rend la rentabilité de l’assurance et l’utilisation de la trésorerie plus instructives que le seul résultat comptable mis en avant.",
-          "what": "La publication du week-end porte sur un conglomérat présent dans l’assurance, le fret ferroviaire, les services aux collectivités, l’industrie et le commerce de détail. Le rapprochement des résultats distingue les gains sur placements du résultat opérationnel, un indicateur non conforme aux normes GAAP défini par l’entreprise. Le résultat de souscription et les revenus de placement de l’assurance ont reculé, tandis que les résultats du ferroviaire et de l’énergie ont progressé. Le rapport trimestriel joint présente le chiffre d’affaires consolidé et les flux de trésorerie d’exploitation cumulés, qui sont distincts du bénéfice trimestriel.",
-          "why": "Les assureurs encaissent les primes avant de régler de nombreux sinistres, ce qui crée des fonds qu’ils peuvent investir tant que leurs obligations restent à honorer. La rigueur dans la souscription compte donc autant que le rendement des placements. Selon notre interprétation, la ventilation par activité permet de mieux apprécier la diversification du conglomérat : la bonne tenue du transport et de l’énergie ne supprime pas automatiquement les pressions sur l’assurance. Les rachats d’actions constituent une autre utilisation de la trésorerie, mais relèvent de décisions de financement ; ils ne prouvent pas que les activités auprès des clients ont généré davantage de bénéfices.",
-          "uncertainty": "Le résultat opérationnel exclut certains éléments comptables et ne doit pas remplacer le résultat établi selon les normes GAAP. À l’inverse, les variations de valorisation des placements peuvent modifier le bénéfice selon les normes GAAP sans encaissements opérationnels équivalents. Le montant de trésorerie présenté ici est cumulé et ne correspond pas au seul trimestre. Les comparaisons de chiffre d’affaires demandent aussi de la prudence, car les acquisitions peuvent modifier la répartition des activités. Ces distinctions empêchent de comparer directement le bénéfice trimestriel affiché aux mesures cumulées de trésorerie.",
-          "watch": "Les prochaines publications de l’assurance permettront de suivre la rentabilité de la souscription et les revenus de placement ; celles sur l’allocation du capital renseigneront sur les rachats d’actions et les acquisitions. Les rapports du ferroviaire et des services aux collectivités pourront indiquer si les améliorations opérationnelles se poursuivent. L’élément essentiel est la trésorerie générée après les investissements dans les activités et les obligations liées aux sinistres, plutôt que les seules variations de la valeur de marché des titres.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires consolidé trimestriel"
-            },
-            {
-              "id": "m2",
-              "label": "Résultat net attribuable trimestriel"
-            },
-            {
-              "id": "m3",
-              "label": "Résultat opérationnel trimestriel — non-GAAP"
+              "label": "Quarterly GAAP operating cash flow"
             },
             {
               "id": "m4",
-              "label": "Flux de trésorerie d’exploitation cumulés depuis le début de l’année"
+              "label": "Quarterly non-GAAP adjusted net income"
             },
             {
               "id": "m5",
-              "label": "Rachats d’actions trimestriels — montant approximatif"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "L’emploi américain aide à évaluer la demande et les conditions de financement",
-          "summary": "Le dernier rapport publié sur l’emploi américain fait état d’une progression de l’emploi salarié accompagnée d’une hausse des salaires.",
-          "impact": "Le maintien des revenus du travail peut soutenir les dépenses, mais les conséquences pour le financement dépendent encore de l’inflation et des décisions de politique monétaire.",
-          "what": "Le communiqué archivé sur l’emploi présente les effectifs salariés recensés auprès des employeurs et un taux de chômage issu d’une enquête distincte ; son indicateur salarial couvre les salariés du secteur privé non agricole. Il s’agit d’un contexte tiré de la dernière publication, et non d’une annonce du jour.",
-          "why": "Selon notre interprétation, les embauches soutiennent la demande des clients, mais peuvent aussi maintenir les coûts salariaux des employeurs à un niveau élevé. Pour les ménages, la situation de l’emploi influe sur la sécurité des revenus ; pour les entreprises, elle aide à établir les attentes de ventes sans déterminer les achats effectifs.",
-          "uncertainty": "Les estimations de l’emploi salarié sont provisoires et peuvent être révisées. Les enquêtes auprès des ménages et des employeurs portent sur des populations différentes. Ce rapport ne permet pas, à lui seul, de déterminer une future décision sur les taux d’intérêt ni un écart entre les résultats des entreprises et les attentes.",
-          "watch": "Les révisions de l’emploi salarié, les prochaines données salariales et l’inflation à la consommation permettront d’évaluer si la demande de main-d’œuvre et le pouvoir d’achat restent des facteurs de soutien.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Variation de l’emploi salarié non agricole — corrigée des variations saisonnières"
-            },
-            {
-              "id": "m2",
-              "label": "Taux de chômage — corrigé des variations saisonnières"
-            },
-            {
-              "id": "m3",
-              "label": "Salaire horaire dans le secteur privé — croissance annuelle"
+              "label": "Agreed asset sale consideration, before closing adjustments"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场暂无经核实的新报道；较早发布的报告仍明确标注其时效。",
+      "status": "本期经核实的报道范围有限。部分市场暂无经核实的新报道；较早的报告仍明确标注其时点。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。已提供的各项指数均保留各自的交易日期。",
-        "cn": "部分收盘数据未能核实。已提供的各项指数均保留各自的交易日期。"
+        "us": "所跟踪的指数在各自最近经核实的交易日均上涨。标注日期的收盘情况仅反映对应交易日，并非当前行情。",
+        "cn": "部分收盘情况未能核实。已有数据的指数均保留各自对应的交易日期。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "伯克希尔财报区分投资估值变动与经营表现",
-          "summary": "伯克希尔哈撒韦公布的归属净利润和公司自行定义的经营利润均下滑，同时继续回购股票。",
-          "impact": "解读该报告时，保险业务的盈利能力和现金用途，比仅看最受关注的会计利润更有参考价值。",
-          "what": "这份周末发布的财报涵盖保险、货运铁路、公用事业、制造和零售等业务。利润调节表将投资收益与经营利润分开列示，后者是公司自行定义的非美国通用会计准则指标。保险承保利润和保险投资收益下降，铁路及能源业务利润则有所改善。随附的季度报告还提供了合并营收和累计经营现金流，这些指标与季度利润不同。",
-          "why": "保险公司在许多赔款支付前就已收取保费，因此在赔付义务尚未履行期间，有资金可用于投资。所以，严格把控承保风险与投资回报同样重要。我们的理解是，分业务表现有助于检验这家综合性集团的多元化效果：运输和能源业务表现强劲，并不意味着保险业务的压力自然消失。股票回购也是现金的用途，但属于融资决策，不能证明面向客户的经营活动创造了更多利润。",
-          "uncertainty": "经营利润剔除了特定会计项目，不应取代按美国通用会计准则计算的利润。反过来，投资估值变动可能影响按该准则计算的利润，却未必带来相应的经营现金收入。此处展示的现金流为累计金额，并非该季度单独产生的金额。营收比较也需谨慎，因为收购可能改变业务构成。由于这些区别，所展示的季度利润与累计现金流指标不能直接比较。",
-          "watch": "关注后续保险业务披露中的承保盈利能力和投资收益，以及未来资本配置披露中的股票回购与收购情况。铁路和公用事业报告可帮助判断经营改善是否持续。关键证据是满足业务投资需求和赔付义务后的现金创造能力，而不只是证券市值的变化。",
+          "title": "理解KKR业绩，需仔细区分不同会计口径",
+          "summary": "KKR发布季度业绩，披露了会计口径利润，同时显示按管理层定义计算的费用相关收益有所增长。",
+          "impact": "投资者需要区分基础收费业务、保险会计处理、投资损益与实际现金创造能力。",
+          "what": "KKR管理另类投资，并经营资本市场和保险业务。最新公告披露了合并营收、归属于普通股股东的净利润，以及费用相关收益和调整后净利润。分部报表显示，费用相关收益增加，但合并营收较上年同期下降。这种差异说明，应分别审视各项业务，而不宜直接用合并营收衡量资产管理需求。公告明确指出，其调整后盈利指标不属于美国公认会计准则口径。",
+          "why": "投资管理机构通过管理客户资金收取费用，而投资退出变现和保险业务的盈利驱动因素有所不同。从分析角度看，持续性的管理费有助于评估核心经营业务，但与投资表现挂钩的费用需要单独审视，因为其确认时点可能变化。对养老金受益人和企业借款人而言，更广泛的意义在于私募资本如何被管理和运用。对股东而言，关键是区分按会计规则归属的利润、管理层偏好的业绩指标，以及真正可用于履行偿付义务或向股东分配的现金。",
+          "uncertainty": "调整后净利润既不是美国公认会计准则净利润，也不是经营现金流；公告中的定义还剔除了与纳入合并报表的投资实体有关的影响。本次未能确认可比的经营现金流数据。因此，这些业绩不足以证明调整后盈利已转化为可自由支配的现金，也未据此判断盈利是否超出预期。",
+          "watch": "关注详细现金流申报文件，以及后续有关付费管理资本、投资退出和保险业务盈利的披露。值得检验的是：将持续性费用收入与依赖投资退出变现的收入、会计调整及融资需求分开后，经营表现是否仍具持续性。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度合并营收"
+              "label": "美国公认会计准则合并营收"
             },
             {
               "id": "m2",
-              "label": "季度归属净利润"
+              "label": "美国公认会计准则归属于普通股股东的净利润"
             },
             {
               "id": "m3",
-              "label": "季度经营利润——非美国通用会计准则"
+              "label": "非美国公认会计准则费用相关收益"
             },
             {
               "id": "m4",
-              "label": "年初至今经营现金流"
-            },
-            {
-              "id": "m5",
-              "label": "季度股票回购金额——约数"
+              "label": "非美国公认会计准则调整后净利润"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "美国就业数据为判断需求与融资环境提供交叉参考",
-          "summary": "最新发布的美国就业报告显示，非农就业人数增加，工资也有所增长。",
-          "impact": "持续获得就业收入有助于支持消费，但对融资环境的影响仍取决于通胀和货币政策决策。",
-          "what": "这份已归档的就业报告公布了雇主调查中的非农就业人数，以及来自另一项调查的失业率；其工资指标涵盖私营部门非农雇员。这是最新已发布报告提供的背景信息，并非当天公布的消息。",
-          "why": "我们的理解是，招聘有助于支撑客户需求，但也可能使雇主的用工成本维持在较高水平。对家庭而言，就业状况影响收入的稳定性；对企业而言，就业状况有助于形成销售预期，但并不决定实际购买行为。",
-          "uncertainty": "非农就业人数估计值属于初步数据，后续可能修订。家庭调查和雇主调查覆盖的人群不同，仅凭这份报告，无法确定未来的利率决策，也无法判断企业盈利是否会超出或低于预期。",
-          "watch": "关注非农就业人数修订、后续工资数据和消费通胀，以判断劳动力需求与购买力是否仍能提供支撑。",
+          "id": "f3",
+          "title": "NRG发布季度业绩，并宣布发电资产出售协议",
+          "summary": "NRG披露了盈利和经营活动产生的现金，同时宣布已签署天然气发电资产出售协议。",
+          "impact": "拟议出售可能改变公司的债务状况和股东回报安排，但相关出售款目前尚不能视为经营现金流。",
+          "what": "NRG提供电力、天然气和智能家居服务，并持有发电资产。公告披露了季度营收、美国公认会计准则利润和经营活动产生的现金，并单独列示调整后利润。管理层将盈利改善归因于收购纳入的业务、电力容量价格和得克萨斯州业务利润率，但融资成本和非现金对冲损失抵消了部分改善。公司还签署了发电资产出售协议，并说明了未来可能进行的偿债和股份回购安排。此处列示的约定对价属于交易条款，并非已经收到的出售款。",
+          "why": "能源供应商的对冲合约重新估值时，即使相关实物能源交易尚未结算，会计利润也可能变动。因此，经营现金流提供了观察业务的不同视角，但它仍受收付款时点和营运资金变动影响。此外，出售发电资产意味着以未来相关业务的经营敞口换取潜在现金。从编辑分析的角度看，这可能为偿还借款或向股东返还资本提供灵活性，但也会改变支撑未来盈利的资产构成。对家庭和企业用户而言，重要的仍是公司能否可靠地采购和供应能源，而不只是其披露的调整后利润。",
+          "uncertainty": "这项出售仍须满足交割条件，并可能涉及价格调整。公布的交易对价不应计入季度经营现金流。最新发布的全年业绩展望未包含预期出售的影响，调整后利润则剔除了对冲重新估值的影响；这些信息均不应被误认为已经实现的现金结果。",
+          "watch": "关注交易完成公告、最终出售所得、实际偿债情况和已执行的股份回购。纳入出售影响后的更新业绩指引，将有助于判断随资产出售而转出的持续盈利能力，以及拟议资本配置是否仍符合公司的融资需求。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非农就业人数变动——经季节性调整"
+              "label": "季度营收"
             },
             {
               "id": "m2",
-              "label": "失业率——经季节性调整"
+              "label": "季度美国公认会计准则净利润"
             },
             {
               "id": "m3",
-              "label": "私营部门平均时薪——同比增幅"
+              "label": "季度美国公认会计准则经营现金流"
+            },
+            {
+              "id": "m4",
+              "label": "季度非美国公认会计准则调整后净利润"
+            },
+            {
+              "id": "m5",
+              "label": "交割调整前的约定资产出售对价"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés n’ont pas de nouvelle actualité vérifiée ; les rapports plus anciens restent clairement signalés comme tels.",
+      "marketSummary": {
+        "us": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
+      },
+      "stories": [
+        {
+          "id": "f2",
+          "title": "Les résultats de KKR demandent de bien distinguer les mesures comptables",
+          "summary": "KKR a publié des résultats trimestriels faisant apparaître un bénéfice comptable et une progression du résultat lié aux commissions, selon la définition de la direction.",
+          "impact": "Les investisseurs doivent distinguer l’activité de commissions des effets comptables de l’assurance, des résultats des investissements et de la trésorerie réellement générée.",
+          "what": "KKR gère des investissements alternatifs et exerce des activités de marchés de capitaux et d’assurance. Son nouveau communiqué présente le chiffre d’affaires consolidé et le bénéfice attribuable aux actionnaires ordinaires, ainsi que le résultat lié aux commissions et le résultat net ajusté. Les tableaux par segment montrent une hausse du résultat lié aux commissions, tandis que le chiffre d’affaires consolidé a reculé par rapport au trimestre comparable. Cet écart invite à examiner les composantes de l’activité plutôt qu’à considérer le chiffre d’affaires consolidé comme une mesure simple de la demande en gestion d’actifs. Le communiqué précise explicitement que ses indicateurs de résultat ajusté ne sont pas établis selon les normes comptables américaines, dites GAAP.",
+          "why": "Un gestionnaire d’investissements perçoit des commissions pour gérer les capitaux de ses clients, tandis que les cessions d’investissements et les activités d’assurance font intervenir d’autres facteurs de résultat. Dans une analyse, les commissions de gestion récurrentes peuvent aider à évaluer la solidité de l’activité, mais les commissions liées à la performance demandent un examen distinct, car leur calendrier peut varier. Pour les bénéficiaires de régimes de retraite et les entreprises emprunteuses, l’enjeu plus large est la manière dont les capitaux privés sont gérés et investis. Pour les actionnaires, la distinction essentielle porte sur les bénéfices attribués selon les règles comptables, les indicateurs de performance privilégiés par la direction et la trésorerie réellement disponible pour honorer les engagements ou effectuer des distributions.",
+          "uncertainty": "Le résultat net ajusté ne correspond ni au résultat net selon les normes GAAP ni aux flux de trésorerie d’exploitation. Les définitions du communiqué excluent certains effets liés aux véhicules d’investissement consolidés. Aucun montant comparable de flux de trésorerie d’exploitation n’a été établi ici. Ces résultats ne permettent donc pas d’affirmer que le bénéfice ajusté était disponible sous forme de trésorerie librement utilisable. Aucune conclusion n’est tirée quant à un écart entre les bénéfices et les attentes.",
+          "watch": "À suivre : le document détaillant les flux de trésorerie et les publications ultérieures sur les capitaux générant des commissions, les cessions d’investissements et les résultats de l’assurance. Le critère utile sera la solidité durable de la performance opérationnelle, après avoir distingué les commissions récurrentes des revenus dépendant des cessions, des ajustements comptables et des besoins de financement.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires consolidé selon les normes GAAP"
+            },
+            {
+              "id": "m2",
+              "label": "Résultat net attribuable aux actionnaires ordinaires selon les normes GAAP"
+            },
+            {
+              "id": "m3",
+              "label": "Résultat lié aux commissions hors normes GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Résultat net ajusté hors normes GAAP"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "NRG publie ses résultats trimestriels et annonce un accord de cession d’actifs de production électrique",
+          "summary": "NRG a publié ses bénéfices et la trésorerie générée par son exploitation, tout en annonçant un accord de vente d’actifs de production électrique au gaz naturel.",
+          "impact": "La cession envisagée pourrait modifier l’endettement et les distributions aux actionnaires, mais son produit ne constitue pas encore de la trésorerie d’exploitation.",
+          "what": "NRG fournit de l’électricité, du gaz naturel et des services pour la maison connectée, et possède des actifs de production électrique. Son communiqué présente le chiffre d’affaires trimestriel, le bénéfice selon les normes comptables américaines, dites GAAP, et les flux de trésorerie générés par l’exploitation, avec un bénéfice ajusté présenté séparément. La direction attribue l’amélioration des bénéfices aux activités acquises, aux prix de rémunération des capacités de production et aux marges au Texas, en partie compensés par les coûts de financement et des pertes sans effet de trésorerie sur les instruments de couverture. L’entreprise a également signé un accord de cession d’actifs de production électrique et évoqué une réduction de la dette ainsi que des rachats d’actions à venir. Le prix convenu est présenté ici comme une condition de la transaction, et non comme un produit de cession déjà encaissé.",
+          "why": "Le bénéfice comptable d’un fournisseur d’électricité peut varier lors de la réévaluation des contrats de couverture, avant même le règlement des transactions physiques d’énergie correspondantes. Les flux de trésorerie d’exploitation offrent donc un autre éclairage sur l’activité, même s’ils restent influencés par le calendrier des paiements et le besoin en fonds de roulement. Par ailleurs, vendre des actifs de production revient à échanger une exposition future à leur exploitation contre une rentrée de trésorerie potentielle. Selon notre analyse, cela peut donner davantage de souplesse pour rembourser les emprunts ou restituer du capital aux actionnaires, mais modifie aussi les actifs qui soutiennent les bénéfices futurs. Pour les ménages et les entreprises, l’enjeu reste la capacité de NRG à s’approvisionner en énergie et à la fournir de manière fiable, et pas seulement le bénéfice ajusté publié.",
+          "uncertainty": "La cession reste soumise à des conditions de finalisation et à des ajustements. Le prix annoncé ne doit pas être ajouté aux flux de trésorerie d’exploitation du trimestre. Les nouvelles perspectives annuelles excluent les effets attendus de la cession, tandis que le bénéfice ajusté exclut les effets de réévaluation des instruments de couverture. Ni ces perspectives ni ce bénéfice ne doivent être confondus avec de la trésorerie effectivement réalisée.",
+          "watch": "À suivre : les annonces de finalisation, le produit définitif de la vente, les remboursements effectifs de dette et les rachats d’actions réalisés. Des prévisions actualisées intégrant la cession aideront à comprendre quelle capacité à générer des bénéfices récurrents sera cédée avec les actifs, et si l’utilisation prévue des capitaux reste compatible avec les besoins de financement de l’entreprise.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires trimestriel"
+            },
+            {
+              "id": "m2",
+              "label": "Résultat net trimestriel selon les normes GAAP"
+            },
+            {
+              "id": "m3",
+              "label": "Flux de trésorerie d’exploitation trimestriels selon les normes GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Résultat net ajusté trimestriel hors normes GAAP"
+            },
+            {
+              "id": "m5",
+              "label": "Prix convenu pour la cession des actifs, avant ajustements de finalisation"
             }
           ]
         }
@@ -455,258 +459,274 @@
     "es": {
       "status": "La cobertura verificada de esta edición es limitada. Algunos mercados no tienen noticias nuevas verificadas; los informes de fechas anteriores siguen claramente identificados.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación.",
+        "us": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual.",
         "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Los resultados de Berkshire separan la valoración de las inversiones del desempeño operativo",
-          "summary": "Berkshire Hathaway comunicó una caída del beneficio atribuible y del beneficio operativo definido por la empresa, mientras continuaba recomprando acciones.",
-          "impact": "El informe hace que la rentabilidad de los seguros y el uso del efectivo resulten más informativos que una lectura aislada del resultado contable principal.",
-          "what": "El comunicado del fin de semana abarca un conglomerado con actividades en seguros, transporte ferroviario de mercancías, servicios públicos, manufactura y comercio minorista. El desglose que concilia sus resultados separa las ganancias de inversión del beneficio operativo, una medida definida por la empresa que no se ajusta a los principios de contabilidad generalmente aceptados, o PCGA. Se debilitaron el resultado de suscripción de seguros y los ingresos de las inversiones del negocio asegurador, mientras mejoraron los beneficios ferroviarios y energéticos. El informe trimestral adjunto presenta los ingresos consolidados y el flujo de efectivo operativo acumulado, conceptos distintos del beneficio trimestral.",
-          "why": "Las aseguradoras cobran las primas antes de pagar muchas de las indemnizaciones, lo que genera fondos que pueden invertir mientras siguen pendientes sus obligaciones. Por ello, la disciplina al asumir y fijar el precio de los riesgos asegurados importa tanto como la rentabilidad de las inversiones. Nuestra interpretación es que el desglose por segmentos permite evaluar la diversificación del conglomerado: la fortaleza del transporte y la energía no elimina automáticamente las presiones sobre los seguros. Las recompras de acciones son otro uso del efectivo, pero constituyen decisiones de financiación, no una prueba de que las actividades que atienden a los clientes hayan generado beneficios adicionales.",
-          "uncertainty": "El beneficio operativo excluye determinadas partidas contables y no debe sustituir al resultado conforme a los PCGA. A su vez, los cambios en la valoración de las inversiones pueden afectar al beneficio conforme a los PCGA sin generar entradas equivalentes de efectivo operativo. La cifra de efectivo presentada aquí es acumulada, no corresponde exclusivamente al trimestre. Las comparaciones de ingresos también requieren cautela, porque las adquisiciones pueden cambiar la composición del negocio. Estas diferencias impiden comparar directamente el beneficio trimestral mostrado con las medidas acumuladas de efectivo.",
-          "watch": "Aspectos a seguir: la rentabilidad de la suscripción y los ingresos de inversión en las próximas publicaciones del negocio asegurador, así como las recompras y adquisiciones en futuras comunicaciones sobre asignación de capital. Los informes ferroviarios y de servicios públicos pueden mostrar si persisten las mejoras operativas. La evidencia clave es la generación de efectivo tras la inversión en el negocio y las obligaciones por indemnizaciones, no simplemente los cambios en el valor de mercado de los títulos.",
+          "title": "Los resultados de KKR requieren distinguir cuidadosamente las medidas contables",
+          "summary": "KKR publicó resultados trimestrales con beneficios contables y una mejora de los beneficios por comisiones según la definición de la dirección.",
+          "impact": "Los inversores deben distinguir el negocio de comisiones de los efectos contables de los seguros, los resultados de las inversiones y la generación efectiva de efectivo.",
+          "what": "KKR gestiona inversiones alternativas y opera negocios de mercados de capitales y seguros. Su nuevo comunicado presenta ingresos consolidados y beneficio atribuible a los accionistas ordinarios, junto con beneficios relacionados con comisiones y beneficio neto ajustado. Los cuadros por segmentos muestran un aumento de los beneficios relacionados con comisiones, mientras que los ingresos consolidados descendieron frente al trimestre comparable. Esta divergencia justifica examinar los componentes del negocio, en lugar de interpretar los ingresos consolidados como una medida directa de la demanda de gestión de activos. El comunicado identifica expresamente sus medidas de beneficio ajustado como medidas no sujetas a GAAP.",
+          "why": "Una gestora de inversiones cobra comisiones por administrar el capital de sus clientes, mientras que la venta de inversiones y las operaciones de seguros aportan factores distintos que influyen en los beneficios. Como marco de análisis, las comisiones de gestión recurrentes pueden ayudar a evaluar la solidez operativa del negocio, pero las comisiones ligadas al rendimiento requieren un examen separado porque el momento en que se generan puede variar. Para quienes reciben prestaciones de pensiones y las empresas que solicitan préstamos, la relevancia más amplia reside en cómo se gestiona y se utiliza el capital privado. Para los accionistas, la distinción central está entre los beneficios atribuidos según las normas contables, las medidas de rendimiento preferidas por la dirección y el efectivo que realmente puede destinarse a cumplir obligaciones o realizar distribuciones.",
+          "uncertainty": "El beneficio neto ajustado no equivale al beneficio neto según GAAP ni al flujo de efectivo de las actividades operativas, y las definiciones del comunicado excluyen efectos asociados a vehículos de inversión consolidados. Aquí no se ha establecido una cifra comparable de flujo de efectivo operativo. Por tanto, los resultados no permiten afirmar que el beneficio ajustado estuviera disponible como efectivo de libre disposición, y no se concluye si los beneficios superaron o quedaron por debajo de las expectativas.",
+          "watch": "Conviene seguir el informe detallado de flujos de efectivo y las comunicaciones posteriores sobre el capital que genera comisiones, las desinversiones y los beneficios del negocio de seguros. La prueba útil es comprobar si el desempeño operativo sigue siendo sólido al separar las comisiones recurrentes de los ingresos que dependen de vender inversiones, los ajustes contables y las necesidades de financiación.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos consolidados trimestrales"
+              "label": "Ingresos consolidados según GAAP"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto atribuible trimestral"
+              "label": "Beneficio neto atribuible a los accionistas ordinarios según GAAP"
             },
             {
               "id": "m3",
-              "label": "Beneficio operativo trimestral — no conforme a los PCGA"
+              "label": "Beneficios relacionados con comisiones, medida no GAAP"
             },
             {
               "id": "m4",
-              "label": "Flujo de efectivo operativo acumulado en el año"
-            },
-            {
-              "id": "m5",
-              "label": "Recompras trimestrales de acciones — importe aproximado"
+              "label": "Beneficio neto ajustado, medida no GAAP"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "El empleo en Estados Unidos ayuda a contrastar la demanda y las condiciones de financiación",
-          "summary": "El último informe de empleo publicado en Estados Unidos registra un aumento del empleo y de los salarios.",
-          "impact": "La continuidad de los ingresos laborales puede sostener el gasto, mientras que las implicaciones para la financiación siguen dependiendo de la inflación y de las decisiones de política monetaria.",
-          "what": "El comunicado laboral archivado informa del empleo registrado por los empleadores y de una tasa de desempleo obtenida mediante una encuesta independiente; su medida salarial abarca a los empleados del sector privado no agrícola. Se presenta como contexto procedente de la última publicación, no como un anuncio del día.",
-          "why": "Nuestra interpretación es que la contratación sostiene la demanda de los clientes, pero también puede mantener los costes laborales de las empresas. Para los hogares, las condiciones del empleo afectan a la seguridad de sus ingresos; para las empresas, ayudan a orientar las expectativas de ventas, sin determinar las compras efectivas.",
-          "uncertainty": "Las estimaciones de empleo son preliminares y están sujetas a revisión. Las encuestas de hogares y de empleadores miden poblaciones distintas, y este informe por sí solo no permite determinar una futura decisión sobre los tipos de interés ni una sorpresa en los beneficios empresariales.",
-          "watch": "Aspectos a seguir: las revisiones del empleo, las próximas lecturas salariales y la inflación al consumidor, en busca de indicios sobre si la demanda de trabajo y el poder adquisitivo siguen siendo factores de apoyo.",
+          "id": "f3",
+          "title": "NRG presenta resultados trimestrales y un acuerdo de venta de activos de generación",
+          "summary": "NRG comunicó beneficios y generación de efectivo operativo, además de anunciar un acuerdo para vender activos de generación eléctrica a gas natural.",
+          "impact": "La venta propuesta podría modificar la deuda y las distribuciones a los accionistas, pero sus ingresos aún no constituyen efectivo operativo.",
+          "what": "NRG suministra electricidad, gas natural y servicios de hogar inteligente, y posee activos de generación eléctrica. Su comunicado presenta ingresos trimestrales, beneficio según GAAP y efectivo generado por las actividades operativas, con el beneficio ajustado mostrado por separado. La dirección atribuyó la mejora de los beneficios a las operaciones adquiridas, los precios de capacidad y los márgenes en Texas, parcialmente contrarrestados por los costes de financiación y las pérdidas por coberturas sin salida de efectivo. La empresa también firmó un acuerdo de venta de activos de generación y describió posibles reducciones de deuda y recompras de acciones. La contraprestación acordada se recoge aquí como una condición de la operación, no como dinero ya recibido por la venta.",
+          "why": "El beneficio contable de un proveedor de electricidad puede variar cuando se revalúan los contratos de cobertura, incluso antes de que se liquiden las operaciones físicas de energía relacionadas. Por ello, el efectivo operativo ofrece una perspectiva distinta del negocio, aunque también refleja los plazos de cobro y pago y el capital circulante. Por separado, vender activos de generación supone intercambiar la exposición operativa futura por efectivo potencial. Como interpretación editorial, esto puede aportar flexibilidad para amortizar deuda o devolver capital a los accionistas, pero también cambia los activos que sostienen los beneficios futuros. Los hogares y las empresas siguen dependiendo de la capacidad de la compañía para obtener y suministrar energía de forma fiable, no solo de su beneficio ajustado declarado.",
+          "uncertainty": "La venta sigue sujeta a condiciones de cierre y ajustes. La contraprestación anunciada no debe sumarse al flujo de efectivo operativo trimestral. Las previsiones anuales recién publicadas excluyen los efectos esperados de la venta, y el beneficio ajustado excluye los efectos de la revaluación de coberturas; no deben confundirse con resultados de efectivo ya materializados.",
+          "watch": "Conviene seguir las comunicaciones sobre el cierre, el importe final recibido, la amortización efectiva de deuda y las recompras ejecutadas. Las previsiones actualizadas que incorporen la venta ayudarán a mostrar cuánta capacidad de generar beneficios recurrentes se pierde con los activos y si la asignación de capital propuesta sigue siendo compatible con las necesidades de financiación de la empresa.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variación del empleo no agrícola — ajustada por estacionalidad"
+              "label": "Ingresos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Tasa de desempleo — ajustada por estacionalidad"
+              "label": "Beneficio neto trimestral según GAAP"
             },
             {
               "id": "m3",
-              "label": "Salario por hora del sector privado — crecimiento interanual"
+              "label": "Flujo de efectivo operativo trimestral según GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Beneficio neto ajustado trimestral, medida no GAAP"
+            },
+            {
+              "id": "m5",
+              "label": "Contraprestación acordada por la venta de activos, antes de los ajustes al cierre"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今号で検証できた情報は限られています。市場によっては検証済みの新しいニュースがなく、過去の発表に基づく記事はその旨を明示しています。",
+      "status": "この版で検証できた情報は限られています。検証済みの新しいニュースがない市場もあります。過去の日付の報告は、その旨を明示しています。",
       "marketSummary": {
-        "us": "一部の終値情報は検証できませんでした。掲載している各指数には、それぞれの取引日を付しています。",
-        "cn": "一部の終値情報は検証できませんでした。掲載している各指数には、それぞれの取引日を付しています。"
+        "us": "対象の株価指数はいずれも、直近で確認できた取引日に上昇しました。記載された終値は、それぞれの日付の取引結果であり、現在の相場を示すものではありません。",
+        "cn": "終値の状況を確認できなかったものがあります。確認できた指数には、それぞれの取引日を付しています。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "バークシャー決算、投資の評価損益と事業の業績を分けて示す",
-          "summary": "バークシャー・ハサウェイは、自社株買いを続ける一方、株主に帰属する純利益と同社独自の定義による営業利益の減少を報告しました。",
-          "impact": "今回の決算を読み解くには、見出しに出る会計上の利益だけを見るよりも、保険事業の収益性と資金の使い道を確認することが重要です。",
-          "what": "週末に発表された決算は、保険、貨物鉄道、公益事業、製造、小売りにまたがる複合企業の業績を示しています。利益の調整表では、投資損益と、同社が定義する非GAAP指標の営業利益を区分しています。保険引受利益と保険事業の投資収益は悪化した一方、鉄道とエネルギー事業の利益は改善しました。同時に公表された四半期報告書には、連結売上高と累計営業キャッシュフローも掲載されています。これらは四半期の利益とは異なる指標です。",
-          "why": "保険会社は、多くの保険金を支払う前に保険料を受け取るため、支払義務が残っている間、その資金を運用できます。そのため、投資収益だけでなく、リスクに見合った条件で保険を引き受ける規律も重要です。当編集部は、部門別の業績が事業分散の効果を確かめる手がかりになると考えています。運輸やエネルギー事業が好調でも、保険事業の厳しさが自動的に解消されるわけではありません。自社株買いも資金の使い道ですが、これは財務上の判断であり、顧客向けの事業が追加の利益を生んだ証拠ではありません。",
-          "uncertainty": "営業利益は特定の会計項目を除いた指標であり、米国会計基準に基づく利益の代わりにはなりません。一方、投資資産の評価額の変動は、それに見合う営業活動による現金収入がなくても、米国会計基準上の利益に影響することがあります。ここに示すキャッシュフローは累計額であり、当該四半期だけの金額ではありません。また、買収によって事業構成が変わることがあるため、売上高の比較にも注意が必要です。こうした違いがあるため、掲載された四半期利益と累計キャッシュフローをそのまま比較することはできません。",
-          "watch": "今後の保険事業の開示では保険引受の収益性と投資収益を、資本配分の開示では自社株買いと買収を確認することが注目点です。鉄道や公益事業の報告からは、業績改善が続いているかを確認できます。重要なのは、保有証券の時価の変化だけでなく、事業投資や保険金の支払義務を踏まえた資金創出力です。",
+          "title": "KKRの決算は、利益指標の会計上の違いに注意が必要",
+          "summary": "KKRは四半期決算を発表し、会計上の利益とともに、経営陣が独自に定義する手数料関連利益の増加を示しました。",
+          "impact": "投資家には、手数料を得る本業と、保険会計、投資損益、実際の資金創出力を区別することが重要です。",
+          "what": "KKRはオルタナティブ投資を運用し、資本市場事業と保険事業も手がけています。今回の発表では、連結売上高と普通株主に帰属する純利益に加え、手数料関連利益と調整後純利益を報告しました。部門別の表では手数料関連利益が増加した一方、連結売上高は前年同期を下回りました。この違いは、連結売上高を資産運用への需要をそのまま表す指標とみなすのではなく、事業の内訳を確認する必要があることを示しています。発表資料は、調整後の利益指標が米国会計基準に準拠しない非GAAP指標であることを明記しています。",
+          "why": "投資運用会社は顧客の資金を運用して手数料を得ますが、投資の売却などによる損益の実現や保険事業では、利益を左右する要因が異なります。分析の考え方として、継続的な運用管理手数料は事業基盤を評価する助けになります。ただし、成功報酬は発生時期が変動するため、分けて詳しく見る必要があります。年金受給者や事業資金の借り手にとっては、民間投資資金がどのように管理され、振り向けられているかが広い意味で関わってきます。株主にとって重要なのは、会計ルールに基づいて計上される利益、経営陣が重視する業績指標、そして債務の支払いや株主への分配に実際に使える現金を区別することです。",
+          "uncertainty": "調整後純利益は、GAAPに基づく純利益でも営業キャッシュフローでもありません。また、発表資料の定義では、連結対象の投資ビークルに関連する影響が除外されています。ここでは、比較可能な営業キャッシュフローの数値は確認できていません。したがって、調整後利益が使途に制限のない現金として利用できたとは、この決算からは言えません。利益が市場予想を上回ったかどうかについても、結論は示していません。",
+          "watch": "詳しいキャッシュフローの提出資料と、手数料収入の対象となる運用資金、投資の売却・回収、保険事業の利益に関する今後の開示が注目点です。継続的な手数料収入を、投資の売却・回収に依存する収益、会計上の調整、資金調達の必要額から切り分けたうえで、事業の収益力が持続しているかが判断の手がかりになります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期連結売上高"
+              "label": "GAAP連結売上高"
             },
             {
               "id": "m2",
-              "label": "四半期の株主帰属純利益"
+              "label": "GAAP普通株主に帰属する純利益"
             },
             {
               "id": "m3",
-              "label": "四半期営業利益（非GAAP）"
+              "label": "非GAAP手数料関連利益"
             },
             {
               "id": "m4",
-              "label": "年初来累計営業キャッシュフロー"
-            },
-            {
-              "id": "m5",
-              "label": "四半期の自社株買い額（概算）"
+              "label": "非GAAP調整後純利益"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "米雇用統計、需要と資金調達環境を確認する手がかりに",
-          "summary": "公表済みの最新の米雇用統計では、雇用者数と賃金の増加が示されました。",
-          "impact": "雇用による所得が引き続き消費を支える可能性がありますが、資金調達環境への影響は、なおインフレや金融政策の判断に左右されます。",
-          "what": "過去に公表されたこの雇用統計には、事業所調査による雇用者数と、別の調査に基づく失業率が掲載されています。賃金指標の対象は、民間の非農業部門の雇用者です。これは公表済みの最新統計に基づく背景情報であり、当日の発表ではありません。",
-          "why": "当編集部は、採用の拡大は顧客の需要を支える一方、企業の人件費が高い状態を保つ要因にもなり得ると考えています。家計にとって雇用情勢は収入の安定性に関わります。企業にとっては売上見通しを考える材料ですが、実際の購入額を決めるものではありません。",
-          "uncertainty": "雇用者数は速報値であり、改定される可能性があります。家計調査と事業所調査では対象となる集団が異なり、この報告だけで今後の金利判断や企業利益の予想からの乖離を見極めることはできません。",
-          "watch": "労働需要と購買力が引き続き支えとなっているかを確認する材料として、雇用者数の改定、その後の賃金統計、消費者物価が注目点です。",
+          "id": "f3",
+          "title": "NRG、四半期決算と発電資産の売却契約を発表",
+          "summary": "NRGは利益と営業活動による資金創出の状況を報告するとともに、天然ガス発電資産を売却する契約を発表しました。",
+          "impact": "予定される売却は債務や株主還元のあり方を変える可能性がありますが、売却代金はまだ営業活動で得た現金ではありません。",
+          "what": "NRGは電力、天然ガス、スマートホームサービスを提供し、発電資産も保有しています。発表資料では、四半期の売上高、GAAPに基づく利益、営業活動によるキャッシュフローを報告し、調整後利益は別に示しています。経営陣は、買収した事業、発電能力の確保に対する価格、テキサス州での利幅が利益改善に寄与した一方、資金調達費用と現金支出を伴わないヘッジ損失が改善幅を抑えたと説明しました。また、発電資産の売却契約を締結し、今後の債務削減と自社株買いについて説明しました。ここに示す合意済みの売却対価は、取引条件であり、受領済みの売却代金ではありません。",
+          "why": "電力供給会社の会計上の利益は、関連する電力などの現物取引の決済前であっても、ヘッジ契約の評価替えによって変動することがあります。そのため、営業キャッシュフローは事業を別の角度から見る指標になります。ただし、これも支払いの時期や運転資金の影響を受けます。これとは別に、発電資産の売却は、将来の操業に伴う収益機会やリスクを、現金を得る可能性と引き換える取引です。編集上の解釈としては、借入金の返済や株主還元の余地が生まれる可能性がある一方、将来の利益を支える資産も変わります。家庭や企業にとって引き続き重要なのは、発表された調整後利益だけではなく、同社がエネルギーを安定して調達・供給できるかどうかです。",
+          "uncertainty": "売却にはなお完了条件と価格などの調整が残っています。公表された売却対価を、四半期の営業キャッシュフローに加えるべきではありません。新たに発表された通期見通しには売却による想定影響が含まれておらず、調整後利益からはヘッジの評価替えによる影響が除かれています。いずれも、実現済みの現金収支と混同できません。",
+          "watch": "売却完了の開示、最終的な受取額、実際の債務返済、自社株買いの実行状況が注目点です。売却を織り込んだ業績見通しの更新は、資産とともにどれほどの継続的な収益力が失われるのか、また、予定する資金配分が同社の資金調達上の必要性と引き続き整合しているかを見極める助けになります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農業部門雇用者数の増減（季節調整済み）"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "失業率（季節調整済み）"
+              "label": "四半期GAAP純利益"
             },
             {
               "id": "m3",
-              "label": "民間部門の時間当たり賃金（前年比）"
+              "label": "四半期GAAP営業キャッシュフロー"
+            },
+            {
+              "id": "m4",
+              "label": "四半期非GAAP調整後純利益"
+            },
+            {
+              "id": "m5",
+              "label": "合意済み資産売却対価（取引完了時の調整前）"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
+      "status": "Esta edição tem cobertura verificada limitada. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
       "marketSummary": {
-        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém sua respectiva data de negociação.",
-        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém sua respectiva data de negociação."
+        "us": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os fechamentos apresentados descrevem aqueles pregões, não as negociações atuais.",
+        "cn": "Algumas informações de fechamento não puderam ser verificadas. Cada índice disponível mantém sua própria data de negociação."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Resultados da Berkshire separam efeitos dos investimentos do desempenho operacional",
-          "summary": "A Berkshire Hathaway informou queda no lucro líquido atribuível e no lucro operacional definido pela companhia, enquanto manteve as recompras de ações.",
-          "impact": "O relatório torna a rentabilidade dos seguros e o uso do caixa mais informativos do que a leitura isolada do lucro contábil em destaque.",
-          "what": "A divulgação feita no fim de semana abrange um conglomerado com negócios de seguros, transporte ferroviário de cargas, serviços públicos, indústria e varejo. A conciliação dos resultados separa os ganhos com investimentos do lucro operacional, uma medida não GAAP definida pela companhia. O resultado de subscrição de seguros e a receita dos investimentos da área de seguros enfraqueceram, enquanto os lucros dos negócios ferroviários e de energia melhoraram. O relatório trimestral que acompanha a divulgação apresenta a receita consolidada e o fluxo de caixa operacional acumulado, que são diferentes do lucro trimestral.",
-          "why": "As seguradoras recebem prêmios antes de pagar muitos dos sinistros, formando recursos que podem ser investidos enquanto as obrigações permanecem pendentes. Por isso, o rigor na seleção e precificação dos riscos importa tanto quanto os retornos dos investimentos. Nossa interpretação é que a divisão por segmentos ajuda a avaliar a diversificação do conglomerado: a força em transporte e energia não elimina automaticamente a pressão sobre os seguros. As recompras de ações são outro uso do caixa, mas são decisões de financiamento, não evidência de que as operações voltadas aos clientes geraram lucro adicional.",
-          "uncertainty": "O lucro operacional exclui itens contábeis específicos e não deve substituir o resultado segundo os princípios contábeis GAAP. Por outro lado, mudanças na avaliação dos investimentos podem afetar o lucro GAAP sem entradas equivalentes de caixa operacional. O valor de caixa apresentado aqui é acumulado, não referente apenas ao trimestre. Comparações de receita também exigem cuidado, pois aquisições podem alterar a composição dos negócios. Essas diferenças impedem uma comparação direta entre o lucro trimestral e as medidas acumuladas de caixa apresentados.",
-          "watch": "Acompanhe as próximas divulgações da área de seguros para avaliar a rentabilidade da subscrição e a receita de investimentos, além das futuras informações sobre alocação de capital para verificar recompras e aquisições. Os relatórios dos negócios ferroviários e de serviços públicos podem mostrar se as melhorias operacionais persistem. A principal evidência é a geração de caixa após os investimentos nos negócios e o cumprimento das obrigações com sinistros, não apenas as mudanças no valor de mercado dos títulos e ações.",
+          "title": "Os resultados da KKR exigem atenção às diferenças contábeis",
+          "summary": "A KKR divulgou resultados trimestrais com lucro contábil e crescimento no resultado com taxas, conforme a definição da administração.",
+          "impact": "Os investidores precisam distinguir o negócio de gestão remunerado por taxas dos efeitos contábeis dos seguros, dos resultados de investimentos e da geração efetiva de caixa.",
+          "what": "A KKR administra investimentos alternativos e atua nos mercados de capitais e de seguros. Seu novo comunicado apresenta a receita consolidada e o lucro atribuível aos acionistas ordinários, além do resultado relacionado a taxas e do lucro líquido ajustado. As tabelas por segmento mostram crescimento no resultado relacionado a taxas, enquanto a receita consolidada caiu em relação ao trimestre comparável. Essa diferença é motivo para examinar os componentes do negócio, em vez de interpretar a receita consolidada como uma medida simples da demanda por gestão de ativos. O comunicado identifica expressamente suas medidas de lucro ajustado como não GAAP, ou seja, fora dos princípios contábeis geralmente aceitos nos Estados Unidos.",
+          "why": "Uma gestora de investimentos recebe taxas para administrar o capital de clientes, enquanto a realização de investimentos e as operações de seguros trazem fatores diferentes para a formação do lucro. Como forma de análise, as taxas recorrentes de gestão podem ajudar a avaliar a solidez operacional do negócio, mas as taxas ligadas ao desempenho exigem exame separado, pois o momento em que são geradas pode variar. Para beneficiários de fundos de pensão e empresas que tomam empréstimos, a relevância mais ampla está em como o capital privado é administrado e aplicado. Para os acionistas, a distinção central é entre o lucro atribuído pelas regras contábeis, as medidas de desempenho preferidas pela administração e o caixa que pode efetivamente pagar obrigações ou distribuições aos acionistas.",
+          "uncertainty": "O lucro líquido ajustado não é lucro líquido GAAP nem fluxo de caixa operacional, e as definições do comunicado excluem efeitos associados a veículos de investimento consolidados. Não foi possível estabelecer aqui um valor comparável de fluxo de caixa operacional. Portanto, os resultados não sustentam a afirmação de que o lucro ajustado estava disponível como caixa de livre utilização, e não se conclui se o lucro ficou acima ou abaixo das expectativas.",
+          "watch": "Acompanhar o demonstrativo detalhado de fluxo de caixa e as divulgações posteriores sobre capital sujeito a taxas de gestão, saídas de investimentos e resultados de seguros. O teste relevante é verificar se o desempenho operacional permanece sólido após separar as taxas recorrentes das receitas dependentes da realização de investimentos, dos ajustes contábeis e das necessidades de financiamento.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita consolidada trimestral"
+              "label": "Receita consolidada GAAP"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido atribuível trimestral"
+              "label": "Lucro líquido GAAP atribuível aos acionistas ordinários"
             },
             {
               "id": "m3",
-              "label": "Lucro operacional trimestral — não GAAP"
+              "label": "Resultado relacionado a taxas não GAAP"
             },
             {
               "id": "m4",
-              "label": "Fluxo de caixa operacional acumulado no ano"
-            },
-            {
-              "id": "m5",
-              "label": "Recompras de ações no trimestre — valor aproximado"
+              "label": "Lucro líquido ajustado não GAAP"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Emprego nos EUA ajuda a avaliar demanda e condições de financiamento",
-          "summary": "O relatório de emprego mais recente divulgado nos EUA registra expansão do emprego e crescimento dos salários.",
-          "impact": "A continuidade da renda do trabalho pode sustentar o consumo, enquanto os efeitos sobre o financiamento ainda dependem da inflação e das decisões de política monetária.",
-          "what": "A divulgação trabalhista arquivada apresenta os dados de emprego apurados junto aos empregadores e a taxa de desemprego obtida em uma pesquisa separada; sua medida salarial abrange empregados do setor privado não agrícola. Essas informações contextualizam a divulgação mais recente, não um anúncio do dia.",
-          "why": "Nossa interpretação é que as contratações sustentam a demanda dos clientes, mas também podem manter os custos de mão de obra das empresas. Para as famílias, as condições de emprego afetam a segurança da renda; para as empresas, ajudam a formar expectativas de vendas, sem determinar as compras efetivas.",
-          "uncertainty": "As estimativas de emprego são preliminares e estão sujeitas a revisão. As pesquisas com famílias e empregadores abrangem populações diferentes, e este relatório, isoladamente, não permite determinar uma futura decisão sobre juros nem uma surpresa nos lucros.",
-          "watch": "Acompanhe as revisões dos dados de emprego, as próximas leituras salariais e a inflação ao consumidor em busca de evidências sobre a continuidade do apoio da demanda por trabalho e do poder de compra.",
+          "id": "f3",
+          "title": "NRG divulga resultados trimestrais e acordo de venda de ativos de geração",
+          "summary": "A NRG apresentou lucro e geração de caixa operacional e anunciou um acordo para vender ativos de geração de energia a gás natural.",
+          "impact": "A venda proposta pode alterar a dívida e as distribuições aos acionistas, mas os recursos esperados ainda não são caixa operacional.",
+          "what": "A NRG fornece eletricidade, gás natural e serviços para casas inteligentes, além de possuir ativos de geração de energia. Seu comunicado apresenta receita trimestral, lucro GAAP e caixa gerado pelas atividades operacionais, com o lucro ajustado apresentado separadamente. A administração atribuiu a melhora dos resultados às operações adquiridas, aos preços pagos pela disponibilidade de capacidade de geração e às margens no Texas, com compensação parcial pelos custos de financiamento e por perdas com instrumentos de proteção sem efeito no caixa. A empresa também assinou um acordo de venda de ativos de geração e descreveu possíveis reduções de dívida e recompras de ações. O valor acordado é registrado aqui como uma condição da transação, não como recursos já recebidos pela venda.",
+          "why": "O lucro contábil de uma fornecedora de energia pode mudar quando os contratos de proteção são reavaliados, mesmo antes da liquidação das transações físicas de energia relacionadas. Por isso, o caixa operacional oferece uma visão diferente do negócio, embora ainda reflita o momento dos pagamentos e as variações do capital de giro. Separadamente, a venda de ativos de geração troca a exposição às operações futuras por uma possível entrada de caixa. Na interpretação editorial, isso pode criar flexibilidade para pagar dívidas ou devolver capital aos acionistas, mas também altera os ativos que sustentam os lucros futuros. Famílias e empresas continuam expostas à capacidade da companhia de adquirir e fornecer energia com confiabilidade, não apenas ao lucro ajustado divulgado.",
+          "uncertainty": "A venda continua sujeita a condições de conclusão e ajustes. O valor anunciado não deve ser somado ao fluxo de caixa operacional do trimestre. A projeção anual recém-divulgada exclui os efeitos esperados da venda, e o lucro ajustado exclui os efeitos da reavaliação dos instrumentos de proteção; nenhum deles deve ser confundido com um resultado de caixa já realizado.",
+          "watch": "Acompanhar as divulgações sobre a conclusão da venda, os recursos finais recebidos, o pagamento efetivo de dívidas e as recompras de ações executadas. Projeções atualizadas que incorporem a venda ajudarão a mostrar quanta capacidade de gerar lucros recorrentes será transferida com os ativos e se a destinação proposta para o capital permanece compatível com as necessidades de financiamento da empresa.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação do emprego não agrícola — com ajuste sazonal"
+              "label": "Receita trimestral"
             },
             {
               "id": "m2",
-              "label": "Taxa de desemprego — com ajuste sazonal"
+              "label": "Lucro líquido trimestral GAAP"
             },
             {
               "id": "m3",
-              "label": "Remuneração por hora no setor privado — crescimento anual"
+              "label": "Fluxo de caixa operacional trimestral GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Lucro líquido ajustado trimestral não GAAP"
+            },
+            {
+              "id": "m5",
+              "label": "Valor acordado para a venda dos ativos, antes dos ajustes de conclusão"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期可核實的報導有限。部分市場沒有可核實的新消息；較早的報告仍清楚標示日期。",
+      "status": "本期經核實的報導範圍有限。部分市場沒有經核實的新消息；較早發布的報告仍清楚標示其日期。",
       "marketSummary": {
-        "us": "部分收盤資訊無法核實。各項可提供的指數資料均保留各自的交易日期。",
-        "cn": "部分收盤資訊無法核實。各項可提供的指數資料均保留各自的交易日期。"
+        "us": "追蹤的指數在各自最近經核實的交易日均上漲。附有日期的收盤資料僅反映當日表現，不代表目前交易狀況。",
+        "cn": "部分收盤資料無法核實。可提供的各項指數資料均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "波克夏財報區分投資評價變動與營運表現",
-          "summary": "波克夏海瑟威公布的歸屬淨利與公司自行定義的營運收益均下滑，同時持續買回自家股票。",
-          "impact": "這份報告顯示，比起只看帳面獲利的 headline 數字，保險業務獲利能力與現金運用更有助於了解公司表現。",
-          "what": "週末發布的財報涵蓋保險、鐵路貨運、公用事業、製造與零售等業務。獲利調節表將投資收益與營運收益分開呈現；後者是公司自行定義、不依一般公認會計原則計算的指標。保險承保獲利與保險投資收益減弱，鐵路及能源業務獲利則改善。隨附的季度報告提供合併營收與累計營業活動現金流量，這些指標與季度獲利並不相同。",
-          "why": "保險公司收取保費後，許多理賠尚未支付，因此在賠付義務仍存在期間，可先運用這些資金投資。所以，除了投資報酬，審慎承保也很重要。我們的解讀是，各業務部門的表現有助於檢視集團的多角化成效：運輸與能源業務表現強勁，並不代表保險業務的壓力就會自動消失。買回股票也是現金用途，但這屬於融資決策，不能證明面向客戶的業務創造了更多獲利。",
-          "uncertainty": "營運收益排除了特定會計項目，不應取代依一般公認會計原則計算的結果。反過來說，投資評價變動可能影響依一般公認會計原則計算的獲利，卻沒有相對應的營運現金流入。此處列示的現金流量是累計值，並非當季獨立金額。比較營收時也須謹慎，因為收購可能改變業務組合。基於這些差異，列示的季度獲利與累計現金流量不能直接比較。",
-          "watch": "留意後續保險業務揭露的承保獲利能力與投資收益，以及未來資本配置資訊中的股票買回與收購情況。鐵路及公用事業報告可用來觀察營運改善是否持續。關鍵證據是公司在業務投資與履行理賠義務後產生現金的能力，而不只是所持證券市值的變動。",
+          "title": "解讀 KKR 財報，須仔細區分不同獲利口徑",
+          "summary": "KKR 公布季度業績，呈現會計獲利，按管理層定義計算的費用相關盈餘也有所成長。",
+          "impact": "投資人需要將核心的收費業務，與保險會計處理、投資損益及實際現金產生能力區分開來。",
+          "what": "KKR 管理另類投資，並經營資本市場及保險業務。最新公告列出合併營收、歸屬普通股股東的淨利潤，以及費用相關盈餘和調整後淨利潤。分部資料顯示，費用相關盈餘增加，但合併營收較去年同期下降。這種差異說明，應檢視各項業務，而不宜直接把合併營收當作資產管理需求的簡單指標。公告明確指出，其調整後獲利指標不屬於一般公認會計原則（GAAP）指標。",
+          "why": "投資管理公司透過管理客戶資金賺取費用，但投資處分變現及保險業務的獲利來源有所不同。分析時，經常性管理費有助於評估核心業務的經營實力；績效相關費用則需要另行檢視，因為認列時間可能不固定。對退休金受益人及向企業融資的借款人而言，更廣泛的關聯在於私募資金如何管理及運用。對股東而言，關鍵是分清依會計規則認列的獲利、管理層偏好的績效指標，以及實際可用於履行付款義務或分配給股東的現金。",
+          "uncertainty": "調整後淨利潤既不等於 GAAP 淨利潤，也不等於經營現金流；公告中的定義還排除了納入合併報表的投資工具所帶來的相關影響。本報導未能確認可供比較的經營現金流數據。因此，這些業績不足以證明調整後獲利已成為可自由動用的現金，也未據此判定獲利是否優於或低於預期。",
+          "watch": "後續觀察重點包括詳細的現金流申報文件，以及收取管理費的資本規模、投資退出和保險獲利的相關揭露。重要的檢驗是：將經常性費用收入，與依賴投資變現的收入、會計調整及融資需求分開後，經營表現是否仍具持續性。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季度合併營收"
+              "label": "GAAP 合併營收"
             },
             {
               "id": "m2",
-              "label": "季度歸屬淨利"
+              "label": "GAAP 歸屬普通股股東淨利潤"
             },
             {
               "id": "m3",
-              "label": "季度營運收益——非一般公認會計原則"
+              "label": "非 GAAP 費用相關盈餘"
             },
             {
               "id": "m4",
-              "label": "年初至今營業活動現金流量"
-            },
-            {
-              "id": "m5",
-              "label": "季度股票買回金額——約數"
+              "label": "非 GAAP 調整後淨利潤"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "美國就業數據有助交叉檢視需求與融資環境",
-          "summary": "最新公布的美國就業報告顯示，就業人數與薪資均成長。",
-          "impact": "持續的就業收入可支撐消費，但對融資環境的影響，仍取決於通膨與貨幣政策決策。",
-          "what": "這份已存檔的勞動市場報告列出雇主調查的就業人數，以及來自另項調查的失業率；薪資指標涵蓋民間非農業受僱者。這是最新已發布報告提供的背景資訊，並非當日公布的消息。",
-          "why": "我們的解讀是，企業徵才有助支撐客戶需求，但也可能使雇主的勞動成本維持壓力。對家庭而言，就業情況影響收入的穩定性；對企業而言，就業情況有助形成銷售預期，卻不能決定實際購買行為。",
-          "uncertainty": "就業人數估計屬初步資料，日後可能修正。家庭調查與雇主調查涵蓋的對象不同，僅憑這份報告，無法判定未來的利率決策，也無法確認企業獲利是否會出乎預期。",
-          "watch": "留意就業人數修正、後續薪資數據與消費者物價通膨，以觀察勞動需求與購買力是否仍具支撐作用。",
+          "id": "f3",
+          "title": "NRG 公布季度業績，並簽訂發電資產出售協議",
+          "summary": "NRG 公布獲利及營運產生的現金，同時宣布簽訂天然氣發電資產出售協議。",
+          "impact": "這項擬議出售可能改變債務及股東資本回饋的安排，但預期出售所得目前並非營運現金。",
+          "what": "NRG 供應電力、天然氣及智慧家庭服務，並持有發電資產。公告列出季度營收、按一般公認會計原則（GAAP）計算的淨利潤，以及營業活動產生的現金，另行呈列調整後淨利潤。管理層將獲利改善歸因於收購取得的業務、電力容量價格及德州業務利潤率，但融資成本及非現金避險損失抵銷了部分增幅。公司也簽訂發電資產出售協議，並說明未來可能減債及買回股份的安排。本報導將協議對價列為交易條款，而非已收到的出售款項。",
+          "why": "電力供應商的避險合約重新估值時，即使相關實體能源交易尚未結算，會計獲利也可能變動。因此，經營現金流提供了不同的業務觀察角度，但仍會受到收付款時點及營運資金變化影響。出售發電資產則是以未來營運的風險與收益，換取可能取得的現金。從本報導的分析角度看，這可能增加償還借款或向股東返還資本的彈性，但也會改變支撐未來獲利的資產組合。家庭與企業用戶關注的，仍是公司能否可靠地採購及供應能源，而不只是帳面上公布的調整後獲利。",
+          "uncertainty": "這項出售仍須符合交割條件，且金額可能調整。公布的交易對價不應加進季度經營現金流。新發布的全年展望未納入預期出售的影響，而調整後淨利潤排除了避險合約重新估值的影響；這些資料都不應被視為已實現的現金成果。",
+          "watch": "後續觀察重點包括交易完成公告、最終出售所得、實際償債金額及已執行的股份買回。納入出售影響的更新財測，有助於看清隨資產出售而移出的經常性獲利能力，以及擬議的資本配置是否仍符合公司的融資需求。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "非農就業人數變動——經季節調整"
+              "label": "季度營收"
             },
             {
               "id": "m2",
-              "label": "失業率——經季節調整"
+              "label": "季度 GAAP 淨利潤"
             },
             {
               "id": "m3",
-              "label": "民間部門每小時薪資——年增率"
+              "label": "季度 GAAP 經營現金流"
+            },
+            {
+              "id": "m4",
+              "label": "季度非 GAAP 調整後淨利潤"
+            },
+            {
+              "id": "m5",
+              "label": "協議資產出售對價，尚未計入交割調整"
             }
           ]
         }
