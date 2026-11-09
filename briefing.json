@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "cutoffAt": "2026-11-09T07:25:52.680Z",
-  "generatedAt": "2026-11-09T07:25:59.000Z",
+  "cutoffAt": "2026-11-09T07:31:19.810Z",
+  "generatedAt": "2026-11-09T07:31:20.000Z",
   "edition": "economy-three-hourly",
   "model": "Codex local source-verified",
   "reports": {
@@ -74,7 +74,7 @@
         }
       ],
       "tennis": {
-        "status": "The official WTA Finals feed, last updated 04:19 UTC on Nov 9, confirms Noskova over Kostyuk 6-2, 6-4, Gauff over Pegula 6-4, 6-7(5), 6-2, and two completed doubles matches. WTA rescheduled the Chennai Tjen-Linette final to 11:00 IST on Nov 9 after rain. The official Chennai feed was updated at 07:25:03 UTC and checked at 07:25:52 UTC; it marks the final in progress: Tjen won set one 7-5 and set two is 1-5. No winner or final result is posted. A direct scores-page read at 07:25:52 UTC showed “Completed” and “No Matches” but neither the 1-5 score nor a “Live 1” label, conflicting with the API feed. Stockholm’s official Nov 8 results and Nov 9 order of play support the other listed scores and fixtures. Exact finish clocks are not published where noted.",
+        "status": "The official WTA Finals feed, last updated 04:19 UTC on Nov 9, confirms Noskova over Kostyuk 6-2, 6-4, Gauff over Pegula 6-4, 6-7(5), 6-2, and two completed doubles matches. WTA rescheduled the Chennai Tjen-Linette final to 11:00 IST on Nov 9 after rain. The official Chennai API was updated at 07:27:50 UTC and checked at 07:30:44; it shows 7-5, 1-6, 0-0, with Winner=0 and no result string. The deciding set is unresolved; WTA has not publicly defined state code S. A direct scores-page read at 07:31:19 UTC showed “Completed” and “No Matches,” but neither “Live 1” nor the current score, conflicting with the API. Stockholm’s official Nov 8 results and Nov 9 order of play support the other listed scores and fixtures. Exact finish clocks are not published where noted.",
         "resultItems": [
           {
             "id": "r01",
@@ -587,7 +587,7 @@
             "timeQualifier": "fixed",
             "status": "in-progress",
             "tournament": "Chennai Open",
-            "note": "Women’s singles final · Chennai local date 2026-11-09 (Asia/Kolkata). Rescheduled start 11:00 IST. WTA feed 07:25:03 UTC (checked 07:25:52): in progress; Tjen won set 1 7-5, set 2 is 1-5. No final result. Page read 07:25:52 shows “Completed” and “No Matches”, no live score. Finish TBD.",
+            "note": "Women’s singles final · Chennai local date 2026-11-09 (Asia/Kolkata). Rescheduled start 11:00 IST. WTA feed updated 07:27:50 UTC (checked 07:30:44): 7-5, 1-6, 0-0; Winner=0, no result; code S undefined by WTA. Page at 07:31:19: “Completed,” “No Matches,” no live score. Finish TBD.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-07&to=2026-11-10",
               "https://www.wtatennis.com/tournaments/1148/chennai-open-chennai-ind/2026/scores",
@@ -788,7 +788,7 @@
             ]
           }
         ],
-        "asOf": "As of Nov 9, 2026, 02:25 EST (Toronto; 07:25 UTC)"
+        "asOf": "As of Nov 9, 2026, 02:31 EST (Toronto; 07:31 UTC)"
       }
     },
     "fr": {
@@ -860,7 +860,7 @@
         }
       ],
       "tennis": {
-        "status": "Le flux officiel des Finales WTA, actualisé à 04:19 UTC le 9 nov., confirme les victoires de Noskova sur Kostyuk (6-2, 6-4) et de Gauff sur Pegula (6-4, 6-7(5), 6-2), ainsi que deux doubles terminés. Après la pluie, la WTA a reprogrammé la finale Tjen–Linette à Chennai au 9 nov. à 11 h IST. Le flux officiel de Chennai a été actualisé à 07:25:03 UTC et vérifié à 07:25:52 UTC; il indique que la finale est en cours : Tjen a gagné la 1re manche 7-5; la 2e est à 1-5. Aucun vainqueur ni résultat final n’est affiché. Une lecture directe de la page des scores à 07:25:52 UTC montrait « Completed » et « No Matches », mais ni le score 1-5 ni « Live 1 », contrairement au flux API. Les résultats officiels de Stockholm du 8 nov. et son programme du 9 nov. étayent les autres scores et rencontres. Les heures exactes de fin ne sont pas publiées lorsqu’elles sont signalées comme TBD.",
+        "status": "Le flux officiel des Finales WTA, actualisé à 04:19 UTC le 9 nov., confirme les victoires de Noskova sur Kostyuk (6-2, 6-4) et de Gauff sur Pegula (6-4, 6-7(5), 6-2), ainsi que deux doubles terminés. Après la pluie, la WTA a reprogrammé la finale Tjen–Linette à Chennai au 9 nov. à 11 h IST. L’API officielle de Chennai a été actualisée à 07:27:50 UTC et vérifiée à 07:30:44; elle affiche 7-5, 1-6, 0-0, avec Winner=0 et aucun résultat. La manche décisive reste indéterminée; la WTA n’a pas défini publiquement le code S. Une lecture directe de la page des scores à 07:31:19 UTC montrait « Completed » et « No Matches », mais ni « Live 1 » ni le score actuel, contrairement à l’API. Les résultats officiels de Stockholm du 8 nov. et son programme du 9 nov. étayent les autres scores et rencontres. Les heures exactes de fin ne sont pas publiées lorsqu’elles sont signalées comme TBD.",
         "resultItems": [
           {
             "id": "r01",
@@ -1373,7 +1373,7 @@
             "timeQualifier": "fixed",
             "status": "in-progress",
             "tournament": "Open de Chennai",
-            "note": "Finale dames · date locale de Chennai 2026-11-09 (Asia/Kolkata). Départ reporté à 11 h IST. Flux WTA 07:25:03 UTC (vérifié à 07:25:52) : en cours; Tjen a gagné la 1re manche 7-5, 2e à 1-5. Aucun résultat final. Page à 07:25:52 : « Completed », « No Matches », sans score en direct. Fin TBD.",
+            "note": "Finale dames · date locale de Chennai 2026-11-09 (Asia/Kolkata). Départ reporté à 11 h IST. Flux WTA 07:27:50 UTC (vérifié à 07:30:44) : 7-5, 1-6, 0-0; Winner=0, sans résultat; code S non défini par la WTA. Page à 07:31:19 : « Completed », « No Matches », sans score en direct. Fin TBD.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-07&to=2026-11-10",
               "https://www.wtatennis.com/tournaments/1148/chennai-open-chennai-ind/2026/scores",
@@ -1574,7 +1574,7 @@
             ]
           }
         ],
-        "asOf": "Au 9 nov. 2026, 02:25 HNE (Toronto; 07:25 UTC)"
+        "asOf": "Au 9 nov. 2026, 02:31 HNE (Toronto; 07:31 UTC)"
       }
     },
     "zh-CN": {
@@ -1646,7 +1646,7 @@
         }
       ],
       "tennis": {
-        "status": "WTA年终赛官方比分源于11月9日04:19 UTC更新时确认：诺斯科娃以6-2、6-4击败科斯秋克；高芙以6-4、6-7(5)、6-2击败佩古拉；另有两场女双完赛。因雨改期后，WTA将清奈天／莉奈特决赛安排于11月9日11:00 IST。清奈官方比赛源于07:25:03 UTC更新、07:25:52 UTC核查，显示决赛进行中：Tjen以7-5赢首盘，次盘1-5；尚无胜者或最终赛果。07:25:52 UTC直接读取比分页，页面显示“Completed”和“No Matches”，但没有1-5比分或“Live 1”，与API源冲突。斯德哥尔摩公开赛官网11月8日赛果与11月9日赛程支持其余所列比分和对阵。标为TBD的比赛未公布准确完赛时间。",
+        "status": "WTA年终赛官方比分源于11月9日04:19 UTC更新时确认：诺斯科娃以6-2、6-4击败科斯秋克；高芙以6-4、6-7(5)、6-2击败佩古拉；另有两场女双完赛。因雨改期后，WTA将清奈天／莉奈特决赛安排于11月9日11:00 IST。清奈官方API于07:27:50 UTC更新、07:30:44 UTC核查，比分为7-5、1-6、0-0；Winner=0且结果字符串为空。决胜盘结果未定；WTA未公开解释状态码S。07:31:19 UTC直读比分页显示“Completed”和“No Matches”，但无“Live 1”或当前比分，与API数据冲突。斯德哥尔摩公开赛官网11月8日赛果与11月9日赛程支持其余所列比分和对阵。标为TBD的比赛未公布准确完赛时间。",
         "resultItems": [
           {
             "id": "r01",
@@ -2159,7 +2159,7 @@
             "timeQualifier": "fixed",
             "status": "in-progress",
             "tournament": "清奈公开赛",
-            "note": "女单决赛·清奈当地日期2026-11-09（Asia/Kolkata）。延期后11:00 IST开赛。WTA源07:25:03 UTC更新（07:25:52核查）：进行中；Tjen以7-5赢首盘，次盘1-5。无最终赛果。比分页07:25:52显示“Completed”“No Matches”，无实时比分。完赛时间TBD。",
+            "note": "女单决赛·清奈当地日期2026-11-09（Asia/Kolkata）。延期后11:00 IST开赛。WTA源07:27:50 UTC更新（07:30:44核查）：7-5、1-6、0-0；Winner=0、无赛果，状态码S未定义。比分页07:31:19显示“Completed”“No Matches”，无实时比分。完赛时间TBD。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-07&to=2026-11-10",
               "https://www.wtatennis.com/tournaments/1148/chennai-open-chennai-ind/2026/scores",
@@ -2360,7 +2360,7 @@
             ]
           }
         ],
-        "asOf": "截至2026年11月9日02:25（多伦多EST；07:25 UTC）"
+        "asOf": "截至2026年11月9日02:31（多伦多EST；07:31 UTC）"
       }
     },
     "es": {
@@ -2432,7 +2432,7 @@
         }
       ],
       "tennis": {
-        "status": "El feed oficial de las WTA Finals, actualizado a las 04:19 UTC del 9 de noviembre, confirma las victorias de Noskova sobre Kostyuk (6-2, 6-4) y de Gauff sobre Pegula (6-4, 6-7(5), 6-2), además de dos partidos de dobles concluidos. Tras la lluvia, la WTA reprogramó la final Tjen-Linette de Chennai para el 9 de noviembre a las 11:00 IST. El feed oficial de Chennai se actualizó a las 07:25:03 UTC y se consultó a las 07:25:52 UTC; marca la final en juego: Tjen ganó el primer set 7-5 y el segundo va 1-5. No publica ganadora ni resultado final. Una lectura directa de la página a las 07:25:52 UTC mostró “Completed” y “No Matches”, pero ni el 1-5 ni “Live 1”, en conflicto con el feed API. Los resultados oficiales de Estocolmo del 8 de noviembre y su orden del día 9 respaldan los demás marcadores y partidos. No se publican las horas exactas de finalización indicadas como TBD.",
+        "status": "El feed oficial de las WTA Finals, actualizado a las 04:19 UTC del 9 de noviembre, confirma las victorias de Noskova sobre Kostyuk (6-2, 6-4) y de Gauff sobre Pegula (6-4, 6-7(5), 6-2), además de dos partidos de dobles concluidos. Tras la lluvia, la WTA reprogramó la final Tjen-Linette de Chennai para el 9 de noviembre a las 11:00 IST. La API oficial de Chennai se actualizó a las 07:27:50 UTC y se consultó a las 07:30:44; muestra 7-5, 1-6, 0-0, con Winner=0 y sin resultado. El set decisivo sigue sin resolverse; la WTA no ha definido públicamente el código S. Una lectura directa de la página a las 07:31:19 UTC mostró “Completed” y “No Matches”, pero ni “Live 1” ni el marcador actual, en conflicto con la API. Los resultados oficiales de Estocolmo del 8 de noviembre y su orden del día 9 respaldan los demás marcadores y partidos. No se publican las horas exactas de finalización indicadas como TBD.",
         "resultItems": [
           {
             "id": "r01",
@@ -2945,7 +2945,7 @@
             "timeQualifier": "fixed",
             "status": "in-progress",
             "tournament": "Chennai Open",
-            "note": "Final femenina · Chennai, fecha local 2026-11-09 (Asia/Kolkata). Inicio reprogramado: 11:00 IST. Feed WTA 07:25:03 UTC (consulta 07:25:52): en juego; Tjen ganó el set 1, 7-5; set 2, 1-5. Sin resultado final. Página 07:25:52: “Completed”, “No Matches”, sin marcador en vivo. Fin TBD.",
+            "note": "Final femenina · Chennai, fecha local 2026-11-09 (Asia/Kolkata). Inicio reprogramado: 11:00 IST. Feed WTA 07:27:50 UTC (consulta 07:30:44): 7-5, 1-6, 0-0; Winner=0, sin resultado; código S no definido. Página 07:31:19: “Completed”, “No Matches”, sin marcador en vivo. Fin TBD.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-07&to=2026-11-10",
               "https://www.wtatennis.com/tournaments/1148/chennai-open-chennai-ind/2026/scores",
@@ -3146,7 +3146,7 @@
             ]
           }
         ],
-        "asOf": "Al 9 nov 2026, 02:25 EST (Toronto; 07:25 UTC)"
+        "asOf": "Al 9 nov 2026, 02:31 EST (Toronto; 07:31 UTC)"
       }
     },
     "ja": {
@@ -3218,7 +3218,7 @@
         }
       ],
       "tennis": {
-        "status": "WTAファイナルズの公式フィード（11月9日04:19 UTC更新）は、ノスコバがコスチュクを6-2、6-4で破り、ガウフがペグラを6-4、6-7(5)、6-2で下したこと、女子ダブルス2試合の終了を確認している。雨天延期後、WTAはチェンナイのティエン対リネッテ決勝を11月9日11:00 ISTに再設定した。チェンナイ公式フィードは07:25:03 UTCに更新、07:25:52 UTCに確認し、決勝を試合中と表示：ティエンが第1セット7-5、第2セット1-5。勝者・最終結果は未掲載。07:25:52 UTCに直接読んだスコアページは「Completed」「No Matches」を表示したが、1-5も「Live 1」もなく、APIフィードと食い違う。ストックホルム・オープンの公式11月8日結果と11月9日予定が、他の掲載スコアと日程を裏付ける。TBDとした試合の正確な終了時刻は公表されていない。",
+        "status": "WTAファイナルズの公式フィード（11月9日04:19 UTC更新）は、ノスコバがコスチュクを6-2、6-4で破り、ガウフがペグラを6-4、6-7(5)、6-2で下したこと、女子ダブルス2試合の終了を確認している。雨天延期後、WTAはチェンナイのティエン対リネッテ決勝を11月9日11:00 ISTに再設定した。チェンナイ公式APIは07:27:50 UTC更新、07:30:44 UTC確認で7-5、1-6、0-0を表示し、Winner=0、結果文字列は空。決勝セットの結果は未確定で、WTAは状態コードSを公表上定義していない。07:31:19 UTCに直接読んだスコアページは「Completed」「No Matches」を表示したが、「Live 1」も現在のスコアもなく、APIと食い違う。ストックホルム・オープンの公式11月8日結果と11月9日予定が、他の掲載スコアと日程を裏付ける。TBDとした試合の正確な終了時刻は公表されていない。",
         "resultItems": [
           {
             "id": "r01",
@@ -3731,7 +3731,7 @@
             "timeQualifier": "fixed",
             "status": "in-progress",
             "tournament": "チェンナイ・オープン",
-            "note": "女子シングルス決勝・チェンナイ現地日付2026-11-09（Asia/Kolkata）。延期後11:00 IST開始。WTAフィード07:25:03 UTC更新（07:25:52確認）：試合中。ティエンが第1セット7-5、第2セット1-5。最終結果未掲載。07:25:52のページは「Completed」「No Matches」のみでライブスコアなし。終了時刻TBD。",
+            "note": "女子シングルス決勝・チェンナイ現地日付2026-11-09（Asia/Kolkata）。延期後11:00 IST開始。WTA API 07:27:50 UTC更新（07:30:44確認）：7-5、1-6、0-0、Winner=0、結果なし。状態コードSは未定義。07:31:19のページは「Completed」「No Matches」、ライブスコアなし。終了時刻TBD。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-07&to=2026-11-10",
               "https://www.wtatennis.com/tournaments/1148/chennai-open-chennai-ind/2026/scores",
@@ -3932,7 +3932,7 @@
             ]
           }
         ],
-        "asOf": "情報基準時刻：2026年11月9日 02:25 EST（トロント、07:25 UTC）"
+        "asOf": "情報基準時刻：2026年11月9日 02:31 EST（トロント、07:31 UTC）"
       }
     },
     "pt": {
@@ -4004,7 +4004,7 @@
         }
       ],
       "tennis": {
-        "status": "O feed oficial das WTA Finals, atualizado às 04:19 UTC de 9 de novembro, confirma as vitórias de Noskova sobre Kostyuk (6-2, 6-4) e de Gauff sobre Pegula (6-4, 6-7(5), 6-2), além de duas partidas de duplas concluídas. Após a chuva, a WTA remarcou a final Tjen-Linette de Chennai para 9 de novembro às 11:00 IST. O feed oficial de Chennai foi atualizado às 07:25:03 UTC e consultado às 07:25:52 UTC; marca a final em andamento: Tjen venceu o primeiro set por 7-5 e o segundo está 1-5. Não há vencedora nem resultado final publicado. Uma leitura direta da página às 07:25:52 UTC mostrou “Completed” e “No Matches”, mas nem o placar 1-5 nem “Live 1”, em conflito com o feed API. Os resultados oficiais de Estocolmo de 8 de novembro e a programação de 9 de novembro sustentam os demais placares e confrontos. Os horários exatos de término não foram publicados quando indicados como TBD.",
+        "status": "O feed oficial das WTA Finals, atualizado às 04:19 UTC de 9 de novembro, confirma as vitórias de Noskova sobre Kostyuk (6-2, 6-4) e de Gauff sobre Pegula (6-4, 6-7(5), 6-2), além de duas partidas de duplas concluídas. Após a chuva, a WTA remarcou a final Tjen-Linette de Chennai para 9 de novembro às 11:00 IST. A API oficial de Chennai foi atualizada às 07:27:50 UTC e consultada às 07:30:44; mostra 7-5, 1-6, 0-0, com Winner=0 e sem resultado. O set decisivo segue sem definição; a WTA não definiu publicamente o código S. Uma leitura direta da página às 07:31:19 UTC mostrou “Completed” e “No Matches”, mas nem “Live 1” nem o placar atual, em conflito com a API. Os resultados oficiais de Estocolmo de 8 de novembro e a programação de 9 de novembro sustentam os demais placares e confrontos. Os horários exatos de término não foram publicados quando indicados como TBD.",
         "resultItems": [
           {
             "id": "r01",
@@ -4517,7 +4517,7 @@
             "timeQualifier": "fixed",
             "status": "in-progress",
             "tournament": "Chennai Open",
-            "note": "Final feminina · Chennai, data local 2026-11-09 (Asia/Kolkata). Início remarcado: 11:00 IST. Feed WTA 07:25:03 UTC (consulta 07:25:52): em andamento; Tjen venceu o set 1 por 7-5; set 2, 1-5. Sem resultado final. Página 07:25:52: “Completed”, “No Matches”, sem placar ao vivo. Fim TBD.",
+            "note": "Final feminina · Chennai, data local 2026-11-09 (Asia/Kolkata). Início remarcado: 11:00 IST. Feed WTA 07:27:50 UTC (consulta 07:30:44): 7-5, 1-6, 0-0; Winner=0, sem resultado; código S não definido. Página 07:31:19: “Completed”, “No Matches”, sem placar ao vivo. Fim TBD.",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-07&to=2026-11-10",
               "https://www.wtatennis.com/tournaments/1148/chennai-open-chennai-ind/2026/scores",
@@ -4718,7 +4718,7 @@
             ]
           }
         ],
-        "asOf": "Até 9 de nov. de 2026, 02:25 EST (Toronto; 07:25 UTC)"
+        "asOf": "Até 9 de nov. de 2026, 02:31 EST (Toronto; 07:31 UTC)"
       }
     },
     "zh-TW": {
@@ -4790,7 +4790,7 @@
         }
       ],
       "tennis": {
-        "status": "WTA年終賽官方比分源於11月9日04:19 UTC更新時確認：諾斯科娃以6-2、6-4擊敗科斯秋克；高芙以6-4、6-7(5)、6-2擊敗佩古拉；另有兩場女雙完賽。因雨改期後，WTA將清奈天／莉奈特決賽安排於11月9日11:00 IST。清奈官方比賽源於07:25:03 UTC更新、07:25:52 UTC查核，顯示決賽進行中：Tjen以7-5贏首盤，次盤1-5；尚無勝者或最終賽果。07:25:52 UTC直接讀取比分頁，頁面顯示「Completed」和「No Matches」，但沒有1-5比分或「Live 1」，與API源衝突。斯德哥爾摩公開賽官網11月8日賽果與11月9日賽程支持其餘所列比分和對戰。標為TBD的比賽未公布準確完賽時間。",
+        "status": "WTA年終賽官方比分源於11月9日04:19 UTC更新時確認：諾斯科娃以6-2、6-4擊敗科斯秋克；高芙以6-4、6-7(5)、6-2擊敗佩古拉；另有兩場女雙完賽。因雨改期後，WTA將清奈天／莉奈特決賽安排於11月9日11:00 IST。清奈官方API於07:27:50 UTC更新、07:30:44 UTC查核，比分為7-5、1-6、0-0；Winner=0且結果字串空白。決勝盤結果未定；WTA未公開定義狀態碼S。07:31:19 UTC直讀比分頁顯示「Completed」和「No Matches」，但沒有「Live 1」或目前比分，與API資料衝突。斯德哥爾摩公開賽官網11月8日賽果與11月9日賽程支持其餘所列比分和對戰。標為TBD的比賽未公布準確完賽時間。",
         "resultItems": [
           {
             "id": "r01",
@@ -5303,7 +5303,7 @@
             "timeQualifier": "fixed",
             "status": "in-progress",
             "tournament": "清奈公開賽",
-            "note": "女單決賽·清奈當地日期2026-11-09（Asia/Kolkata）。延期後11:00 IST開賽。WTA源07:25:03 UTC更新（07:25:52查核）：進行中；Tjen以7-5贏首盤，次盤1-5。無最終賽果。比分頁07:25:52顯示「Completed」「No Matches」，無即時比分。完賽時間TBD。",
+            "note": "女單決賽·清奈當地日期2026-11-09（Asia/Kolkata）。延期後11:00 IST開賽。WTA源07:27:50 UTC更新（07:30:44查核）：7-5、1-6、0-0；Winner=0、無賽果，狀態碼S未定義。比分頁07:31:19顯示「Completed」「No Matches」，無即時比分。完賽時間TBD。",
             "sourceUrls": [
               "https://api.wtatennis.com/tennis/tournaments/1148/2026/matches?from=2026-11-07&to=2026-11-10",
               "https://www.wtatennis.com/tournaments/1148/chennai-open-chennai-ind/2026/scores",
@@ -5504,7 +5504,7 @@
             ]
           }
         ],
-        "asOf": "截至2026年11月9日02:25（多倫多EST；07:25 UTC）"
+        "asOf": "截至2026年11月9日02:31（多倫多EST；07:31 UTC）"
       }
     }
   },
