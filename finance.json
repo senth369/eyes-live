@@ -1,68 +1,58 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-12T01:53:49.891Z",
-  "generatedAt": "2026-11-12T01:59:10.250Z",
+  "cutoffAt": "2026-11-12T09:49:22.567Z",
+  "generatedAt": "2026-11-12T10:02:29.005Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Associated Press US closing report",
+      "label": "Associated Press — completed US equity session",
       "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-027cd5f4583d1a11c1795150bf065afb"
     },
     {
       "id": "src2",
-      "label": "FRED broad US equity closing observations",
+      "label": "FRED — broad US equity price index",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src3",
-      "label": "FRED Nasdaq Composite closing observations",
+      "label": "FRED — Nasdaq Composite daily close",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src4",
-      "label": "Mainland closing market report",
-      "url": "https://www.cfi.cn/p20261111000012.html"
+      "label": "Investing — Shanghai Composite dated closing table",
+      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src5",
-      "label": "Investing mainland large-cap daily closing table",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Investing — mainland large-cap dated closing table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src6",
-      "label": "Corteva quarterly earnings release and financial tables",
-      "url": "https://investors.corteva.com/static-files/c57b6c4a-d707-4cc1-970d-99f35ed15ef5"
-    },
-    {
-      "id": "src7",
-      "label": "CATL quarterly filing",
-      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-21/0b788700-eb1b-45d1-a7a9-c6e5646b386b.PDF"
-    },
-    {
-      "id": "src8",
-      "label": "CoreWeave quarterly earnings release",
+      "label": "CoreWeave — quarterly earnings release and financial statements",
       "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
     },
     {
+      "id": "src7",
+      "label": "BCP Investment — earnings release and merger disclosure",
+      "url": "https://www.bcpinvestmentcorporation.com/node/16161/pdf"
+    },
+    {
+      "id": "src8",
+      "label": "People’s Bank of China — monetary policy report release",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116292271519/index.html"
+    },
+    {
       "id": "src9",
-      "label": "CoreWeave quarterly operating overview",
-      "url": "https://investors.coreweave.com/files/content_files/CoreWeave-3Q-2026-Infographic.pdf"
+      "label": "People’s Bank of China — full monetary policy report",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116292271519/2026111116285395566.pdf"
     },
     {
       "id": "src10",
-      "label": "National Bureau of Statistics consumer-price release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965795.html"
-    },
-    {
-      "id": "src11",
-      "label": "National Bureau of Statistics producer-price release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965794.html"
-    },
-    {
-      "id": "src12",
-      "label": "National Bureau of Statistics inflation interpretation",
-      "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html"
+      "label": "Rongqi — acquisition funding announcement",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225666123.PDF"
     }
   ],
   "markets": [
@@ -84,20 +74,20 @@
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-11",
-      "close": 3680.64,
-      "previousClose": null,
-      "changePercent": 0.46,
+      "sessionDate": "2026-11-12",
+      "close": 3655.83,
+      "previousClose": 3680.64,
+      "changePercent": -0.67,
       "sourceIds": [
         "src4"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-11",
-      "close": 4075.71,
-      "previousClose": 4059.11,
-      "changePercent": 0.41,
+      "sessionDate": "2026-11-12",
+      "close": 4043.93,
+      "previousClose": 4075.71,
+      "changePercent": -0.78,
       "sourceIds": [
         "src5"
       ]
@@ -108,16 +98,16 @@
       "id": "f1",
       "market": "us",
       "category": "earnings",
-      "publishedOn": "2026-11-11",
+      "publishedOn": "2026-11-10",
       "company": {
-        "name": "Corteva",
-        "ticker": "CTVA",
-        "exchange": "NYSE"
+        "name": "CoreWeave, Inc.",
+        "ticker": "CRWV",
+        "exchange": "NASDAQ"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 1591000000,
+          "value": 3661000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
@@ -126,11 +116,11 @@
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Pro forma sales information appendix: net sales for the current quarter."
+          "evidence": "Consolidated statements of operations, current quarterly revenue column."
         },
         {
           "id": "m2",
-          "value": -54000000,
+          "value": 207000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
@@ -139,11 +129,11 @@
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Pro forma reconciliation appendix: continuing-operations loss after income taxes."
+          "evidence": "Consolidated statements of operations, current quarterly operating income row."
         },
         {
           "id": "m3",
-          "value": 222000000,
+          "value": -709000000,
           "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
@@ -152,37 +142,37 @@
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Pro forma reconciliation appendix: adjusted operating EBITDA, a non-GAAP measure."
+          "evidence": "Consolidated statements of operations, current quarterly net loss row."
         },
         {
           "id": "m4",
-          "value": -3878000000,
+          "value": 1975000000,
           "unit": "USD",
-          "periodStart": "2026-01-01",
+          "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Consolidated cash-flow statement: historical continuing-operations operating cash use, not the pro forma crop-protection perimeter."
+          "evidence": "Consolidated cash flow statement, current quarterly net cash provided by operating activities."
         },
         {
           "id": "m5",
-          "value": 1100000000,
+          "value": 9441000000,
           "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-12-31",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
-          "basis": "guidance",
+          "basis": "reported",
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Outlook section: lower bound of adjusted pro forma operating EBITDA guidance."
+          "evidence": "Consolidated cash flow statement, quarterly purchases of property and equipment including capitalized software; cash outlay magnitude."
         },
         {
           "id": "m6",
-          "value": 1125000000,
+          "value": 13000000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
           "periodEnd": "2026-12-31",
@@ -191,29 +181,42 @@
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Outlook section: upper bound of adjusted pro forma operating EBITDA guidance."
+          "evidence": "Business Outlook, annual revenue guidance lower bound."
+        },
+        {
+          "id": "m7",
+          "value": 13300000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Business Outlook, annual revenue guidance upper bound."
         }
       ],
       "sourceIds": [
         "src6"
       ],
-      "evidence": "Release opening, regional discussion, outlook and financial appendices establish Brazil weakness, revised expectations and distinct pro forma versus historical reporting scopes."
+      "evidence": "Dated earnings release; operations, cash flow and Business Outlook sections distinguish accounting performance, cash generation and forecasts."
     },
     {
-      "id": "f2",
-      "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-21",
+      "id": "f3",
+      "market": "us",
+      "category": "company",
+      "publishedOn": "2026-11-11",
       "company": {
-        "name": "Contemporary Amperex Technology",
-        "ticker": "300750",
-        "exchange": "SZSE"
+        "name": "BCP Investment Corporation",
+        "ticker": "BCIC",
+        "exchange": "NASDAQ"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 165220844000,
-          "unit": "CNY",
+          "value": 13890000,
+          "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
@@ -221,12 +224,12 @@
           "sourceIds": [
             "src7"
           ],
-          "evidence": "Opening key-financial-data table: current-quarter revenue; filing amounts converted from thousands of yuan."
+          "evidence": "Results of Operations table, current quarterly total investment income."
         },
         {
           "id": "m2",
-          "value": 21246061000,
-          "unit": "CNY",
+          "value": 4580000,
+          "unit": "USD",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
@@ -234,65 +237,108 @@
           "sourceIds": [
             "src7"
           ],
-          "evidence": "Opening key-financial-data table: current-quarter net income attributable to listed-company shareholders."
+          "evidence": "Results of Operations table, current quarterly net investment income."
         },
         {
           "id": "m3",
-          "value": 442137424000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
+          "value": -13487000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src7"
           ],
-          "evidence": "Opening key-financial-data table: year-to-date revenue."
+          "evidence": "Results of Operations table, current quarterly net decrease in net assets resulting from operations."
         },
         {
           "id": "m4",
-          "value": 64530063000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
+          "value": 2057000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src7"
           ],
-          "evidence": "Opening key-financial-data table: year-to-date attributable net income."
+          "evidence": "Investment Income composition table, current quarterly payment-in-kind income."
         },
         {
           "id": "m5",
-          "value": 61625487000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
+          "value": 2.8,
+          "unit": "percent",
+          "periodStart": "2026-09-30",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src7"
           ],
-          "evidence": "Opening table and consolidated cash-flow statement: year-to-date net operating cash inflow."
-        },
-        {
-          "id": "m6",
-          "value": -23.6,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Opening key-financial-data table: year-to-date operating-cash-flow change against the comparable prior-year period."
+          "evidence": "Selected Financial Highlights, non-accrual investments as a share of the portfolio at fair value."
         }
       ],
       "sourceIds": [
         "src7"
       ],
-      "evidence": "Opening financial table, accounting-change explanations and consolidated statements verify earnings growth alongside weaker cash conversion; the report is unaudited."
+      "evidence": "Subsequent Events discloses newly executed merger agreement; financial tables separate investment income from overall accounting losses."
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "company",
+      "publishedOn": "2026-11-11",
+      "company": {
+        "name": "Rongqi Industrial Technology (Suzhou) Co., Ltd.",
+        "ticker": "301360",
+        "exchange": "SZSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 561600000,
+          "unit": "CNY",
+          "periodStart": "2026-11-11",
+          "periodEnd": "2026-11-11",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "Opening transaction description and Project Overview, agreed cash acquisition consideration."
+        },
+        {
+          "id": "m2",
+          "value": 60,
+          "unit": "percent",
+          "periodStart": "2026-11-11",
+          "periodEnd": "2026-11-11",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "Opening transaction description, equity interest proposed for acquisition."
+        },
+        {
+          "id": "m3",
+          "value": 486045900,
+          "unit": "CNY",
+          "periodStart": "2026-10-31",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "Excess fundraising use section, remaining balance including net interest and cash management proceeds."
+        }
+      ],
+      "sourceIds": [
+        "src10"
+      ],
+      "evidence": "Acquisition funding announcement; opening paragraphs, Project Overview and approval requirements establish proposed purchase and pending shareholder authorization."
     }
   ],
   "locales": {
@@ -300,54 +346,18 @@
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Corteva faces Brazil pressure as its reporting perimeter changes",
-          "summary": "Corteva reported weaker crop-protection sales and updated its outlook as difficult Brazilian market conditions outweighed new-product momentum.",
-          "impact": "The financial implication is pressure on agricultural suppliers when farmer financing constraints delay purchases, even where products remain necessary for crop production.",
-          "what": "The crop-protection business reported a pro forma continuing-operations loss alongside adjusted operating profitability. These are different accounting views, not contradictory cash results. Its release attributes Brazilian weakness to distributor inventories, farmer liquidity constraints and competition in mature products.",
-          "why": "For farmers, credit availability affects when inputs can be purchased. For suppliers, delayed orders and discounting can weaken revenue and margins. The analytical question is whether differentiated products can support profitability while distribution channels work through existing inventory.",
-          "uncertainty": "Pro forma crop-protection earnings must not be treated as equivalent to the historical consolidated cash-flow statement. The operating cash-use metric shown here covers historical continuing operations, a different perimeter. Adjusted operating EBITDA also excludes costs that matter to shareholders and is not cash available for distribution.",
-          "watch": "Watch Brazilian distributor inventory, customer collections and subsequent standalone cash-flow disclosures to judge whether operating improvement becomes cash generation.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Quarterly pro forma net sales"
-            },
-            {
-              "id": "m2",
-              "label": "Quarterly pro forma continuing-operations loss"
-            },
-            {
-              "id": "m3",
-              "label": "Quarterly adjusted pro forma operating EBITDA"
-            },
-            {
-              "id": "m4",
-              "label": "Year-to-date historical continuing-operations operating cash flow"
-            },
-            {
-              "id": "m5",
-              "label": "Annual adjusted pro forma operating EBITDA guidance floor"
-            },
-            {
-              "id": "m6",
-              "label": "Annual adjusted pro forma operating EBITDA guidance ceiling"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Earnings explainer: CATL growth needs a cash-conversion check",
-          "summary": "CATL's dated quarterly filing shows expanding sales and attributable profit alongside weaker year-to-date operating cash generation.",
-          "impact": "For mainland shareholders, the implication is that business expansion should be assessed through collections and working capital, not accounting profit alone.",
-          "what": "This is an earnings explainer, not a new announcement. The battery company's filing separates quarterly earnings from cumulative operating cash flow. Its balance-sheet explanations associate larger receivables and inventories with business expansion and increased supplier prepayments with payments to suppliers.",
-          "why": "Revenue can be recognized before a customer pays, while inventory and supplier advances absorb money before products generate collections. The analytical implication is that profitable growth can still create funding demands. Investors therefore need to distinguish the income statement, which measures accounting performance, from operating cash flow, which records cash generated by operations.",
-          "uncertainty": "The filing is unaudited. Its opening table does not supply standalone quarterly operating cash flow, so the cumulative cash figure must not be compared directly with quarterly profit. Working-capital balances also do not establish the sole cause of the cash-flow change.",
-          "watch": "Watch subsequent receivable collections, inventory developments and cash-flow disclosures for evidence that expansion is converting into cash rather than requiring persistent additional funding.",
+          "title": "CoreWeave earnings explainer: demand is not the same as self-funding growth",
+          "summary": "CoreWeave’s dated earnings release shows operating profit alongside a net loss and positive operating cash flow.",
+          "impact": "The financing question is whether customer receipts can support infrastructure commitments without persistent dependence on outside capital.",
+          "what": "CoreWeave supplies cloud infrastructure for artificial intelligence workloads. Its financial statements distinguish earnings before financing and taxes from the bottom line, while its cash flow statement separately records infrastructure purchases. Management also raised its annual revenue outlook; that remains a forecast rather than completed sales. This is an explainer of the release dated in the story metadata, not a fresh earnings announcement.",
+          "why": "For a beginner, the important distinction is between selling computing services, reporting accounting profit and collecting spendable cash. Equipment purchases consume cash when paid for, while depreciation spreads the accounting cost over time. Customer advances can support operating cash flow before the associated service is delivered. Consequently, positive operating cash generation does not establish that expansion is self-financing. The financial statements show why cloud customers, equipment suppliers and lenders should examine the funding cycle rather than relying on a revenue headline. Our interpretation is that financing access remains central to the investment case, even when demand appears healthy.",
+          "uncertainty": "Revenue guidance is management’s expectation, and the selected evidence does not establish an earnings surprise against independently verified consensus. Operating cash flow is not free cash flow, and the cash purchase row should not be substituted for management’s broader capital expenditure measure.",
+          "watch": "Watch subsequent receivables, deferred revenue, cash equipment purchases and financing disclosures together. The useful test is whether collected customer cash and sustainable funding keep pace with deployment, rather than whether an adjusted profit measure improves in isolation.",
           "metricLabels": [
             {
               "id": "m1",
@@ -355,80 +365,104 @@
             },
             {
               "id": "m2",
-              "label": "Quarterly attributable net income"
+              "label": "Quarterly GAAP operating income"
             },
             {
               "id": "m3",
-              "label": "Year-to-date revenue"
+              "label": "Quarterly GAAP net income"
             },
             {
               "id": "m4",
-              "label": "Year-to-date attributable net income"
+              "label": "Quarterly operating cash flow"
             },
             {
               "id": "m5",
-              "label": "Year-to-date operating cash flow"
+              "label": "Quarterly cash equipment and capitalized software purchases"
             },
             {
               "id": "m6",
-              "label": "Year-to-date operating cash-flow annual change"
+              "label": "Annual revenue guidance lower bound"
+            },
+            {
+              "id": "m7",
+              "label": "Annual revenue guidance upper bound"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "BCP Investment pairs a merger agreement with a credit-quality test",
+          "summary": "BCP Investment disclosed a newly signed acquisition agreement alongside earnings showing positive net investment income but an overall accounting loss from operations.",
+          "impact": "The transaction puts consolidation benefits against the continuing need to preserve asset values and collect borrower payments.",
+          "what": "BCP Investment is a business development company that finances middle-market businesses. Its release discloses an agreement to acquire Investcorp Credit Management BDC, subject to closing conditions including target shareholder approval. The financial tables distinguish investment income after expenses from the broader operating result, which includes realized and unrealized investment movements. The accompanying metrics also identify payment-in-kind income and exposure classified as non-accrual.",
+          "why": "For a lender, interest income is not the entire economic result. A borrower can generate recognized interest while the value of its loan deteriorates, and payment-in-kind interest is added to the investment rather than immediately collected as cash. Our interpretation is that readers should assess income generation and capital preservation together. Consolidation may spread operating expenses across a broader asset base, but scale does not repair a troubled borrower. For businesses relying on private credit, underwriting discipline affects access to refinancing; for income-oriented shareholders, the distinction between accounting income and collected cash matters when judging distribution durability.",
+          "uncertainty": "The merger has not been completed, and expected benefits remain management’s assessment. Non-accrual exposure measured at fair value can change because valuations change, not solely because borrowers recover. Operating cash flow was not verified from this release and is not inferred from net investment income.",
+          "watch": "Watch shareholder approval, closing disclosures, borrower cash collections and subsequent portfolio marks. A useful follow-up would reconcile investment income with cash receipts and explain whether credit improvements reflect repayments, recoveries, disposals or valuation changes.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Quarterly total investment income"
+            },
+            {
+              "id": "m2",
+              "label": "Quarterly net investment income"
+            },
+            {
+              "id": "m3",
+              "label": "Quarterly net change in assets from operations"
+            },
+            {
+              "id": "m4",
+              "label": "Quarterly payment-in-kind income"
+            },
+            {
+              "id": "m5",
+              "label": "Non-accrual investment share at fair value"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Rongqi proposes deploying fundraising cash into semiconductor components",
+          "summary": "Rongqi disclosed plans to use remaining excess fundraising proceeds toward a controlling acquisition of Shanghai Deqishun.",
+          "impact": "The proposal would exchange financial liquidity for operating exposure to semiconductor equipment components, making execution and cash returns central to its value.",
+          "what": "Rongqi develops intelligent inspection and precision assembly equipment, principally serving consumer electronics and new-energy applications. The proposed target supplies precision polymer and metal components for semiconductor equipment. The announcement sets out the agreed purchase consideration and identifies remaining excess fundraising proceeds as a proposed funding source. Shareholder authorization for the funding use is still required; the document does not establish that ownership has transferred.",
+          "why": "Our interpretation is that the financial issue is capital allocation, not simply exposure to a fashionable industry. Cash held in fundraising accounts provides flexibility; an acquisition commits that flexibility to a business whose returns depend on customers, manufacturing performance and integration. Buying an established component supplier could provide capabilities that would take time to build internally, but the purchase price still needs to be justified by future economic returns. For existing shareholders, the useful question is whether acquired earnings convert into cash after working-capital needs and investment. The proposed funding source does not itself demonstrate that the purchase is inexpensive or that synergies will occur.",
+          "uncertainty": "This funding announcement does not provide verified target revenue, profit or operating cash flow sufficient for an independent valuation assessment. The disclosed fundraising balance includes interest and cash-management proceeds, and the amount transferred can change. Management’s strategic rationale should not be treated as an achieved operating benefit.",
+          "watch": "Watch the shareholder decision, transaction completion and subsequent financial disclosures identifying the acquired business’s contribution. Evidence of customer retention, integration costs and cash conversion would be more informative than repeating the strategic rationale or assuming immediate earnings accretion.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Agreed proposed acquisition consideration"
+            },
+            {
+              "id": "m2",
+              "label": "Equity interest proposed for acquisition"
+            },
+            {
+              "id": "m3",
+              "label": "Remaining excess fundraising balance"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés à titre d’éclairage.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés à titre d’explication et de contexte.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve la date de sa propre séance.",
-        "cn": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Corteva sous pression au Brésil alors que son périmètre de présentation financière évolue",
-          "summary": "Corteva a annoncé une baisse des ventes de produits de protection des cultures et actualisé ses perspectives, les difficultés du marché brésilien ayant pris le dessus sur la dynamique des nouveaux produits.",
-          "impact": "Les fournisseurs agricoles subissent une pression financière lorsque les difficultés de financement des agriculteurs retardent les achats, même si leurs produits restent nécessaires aux cultures.",
-          "what": "L’activité de protection des cultures a publié une perte pro forma des activités poursuivies, tout en affichant une rentabilité opérationnelle ajustée positive. Il s’agit de lectures comptables différentes, et non de résultats de trésorerie contradictoires. Le communiqué attribue les difficultés au Brésil aux stocks des distributeurs, aux contraintes de trésorerie des agriculteurs et à la concurrence sur les produits bien établis.",
-          "why": "Pour les agriculteurs, l’accès au crédit détermine le moment où ils peuvent acheter les produits nécessaires aux cultures. Pour les fournisseurs, les commandes retardées et les remises peuvent peser sur le chiffre d’affaires et les marges. L’enjeu de l’analyse est de savoir si les produits qui se distinguent de la concurrence peuvent soutenir la rentabilité pendant que les réseaux de distribution écoulent leurs stocks existants.",
-          "uncertainty": "Le résultat pro forma de l’activité de protection des cultures ne doit pas être assimilé au tableau historique consolidé des flux de trésorerie. L’indicateur de consommation de trésorerie d’exploitation présenté ici couvre les activités poursuivies historiques, soit un périmètre différent. L’EBITDA opérationnel ajusté exclut également des coûts importants pour les actionnaires et ne représente pas de la trésorerie disponible pour distribution.",
-          "watch": "Surveillez les stocks des distributeurs brésiliens, les encaissements auprès des clients et les prochaines publications de flux de trésorerie sur une base autonome pour évaluer si l’amélioration opérationnelle se traduit par une génération de trésorerie.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires net trimestriel pro forma"
-            },
-            {
-              "id": "m2",
-              "label": "Perte trimestrielle pro forma des activités poursuivies"
-            },
-            {
-              "id": "m3",
-              "label": "EBITDA opérationnel trimestriel ajusté pro forma"
-            },
-            {
-              "id": "m4",
-              "label": "Flux de trésorerie d’exploitation historique des activités poursuivies depuis le début de l’exercice"
-            },
-            {
-              "id": "m5",
-              "label": "Borne basse de la prévision annuelle d’EBITDA opérationnel ajusté pro forma"
-            },
-            {
-              "id": "m6",
-              "label": "Borne haute de la prévision annuelle d’EBITDA opérationnel ajusté pro forma"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Décryptage des résultats : la croissance de CATL doit être examinée sous l’angle de la trésorerie",
-          "summary": "Le rapport trimestriel daté de CATL fait apparaître une hausse du chiffre d’affaires et du bénéfice attribuable aux actionnaires du groupe, mais une baisse de la trésorerie générée par l’exploitation depuis le début de l’exercice.",
-          "impact": "Pour les actionnaires de Chine continentale, cela signifie que l’expansion de l’activité doit être évaluée à travers les encaissements et le besoin en fonds de roulement, et pas seulement à travers le bénéfice comptable.",
-          "what": "Il s’agit d’un décryptage des résultats, et non d’une nouvelle annonce. Le rapport du fabricant de batteries distingue les résultats trimestriels des flux de trésorerie d’exploitation cumulés. Les explications relatives au bilan relient la hausse des créances clients et des stocks à l’expansion de l’activité, et celle des avances aux fournisseurs aux paiements effectués à ces derniers.",
-          "why": "Le chiffre d’affaires peut être comptabilisé avant le paiement du client, tandis que les stocks et les avances aux fournisseurs mobilisent de l’argent avant que les produits ne génèrent des encaissements. Une croissance rentable peut donc malgré tout créer des besoins de financement. Les investisseurs doivent ainsi distinguer le compte de résultat, qui mesure la performance comptable, des flux de trésorerie d’exploitation, qui retracent la trésorerie générée par l’activité.",
-          "uncertainty": "Le rapport n’est pas audité. Son tableau d’ouverture ne fournit pas de flux de trésorerie d’exploitation pour le trimestre pris isolément : le montant cumulé ne doit donc pas être comparé directement au bénéfice trimestriel. Les soldes des postes du besoin en fonds de roulement ne permettent pas non plus d’établir la cause exclusive de l’évolution des flux de trésorerie.",
-          "watch": "Surveillez les encaissements ultérieurs des créances clients, l’évolution des stocks et les publications de flux de trésorerie pour voir si l’expansion se traduit par des entrées de trésorerie plutôt que par un besoin durable de financement supplémentaire.",
+          "title": "Comprendre les résultats de CoreWeave : la demande ne signifie pas que la croissance s’autofinance",
+          "summary": "Le communiqué de résultats daté de CoreWeave fait état d’un bénéfice d’exploitation, mais aussi d’une perte nette et d’un flux de trésorerie d’exploitation positif.",
+          "impact": "La question du financement est de savoir si les encaissements clients peuvent couvrir les engagements d’infrastructure sans dépendance durable aux capitaux extérieurs.",
+          "what": "CoreWeave fournit des infrastructures cloud destinées aux traitements d’intelligence artificielle. Ses états financiers distinguent le résultat avant charges financières et impôts du résultat net, tandis que son tableau des flux de trésorerie présente séparément les achats d’infrastructures. La direction a également relevé sa prévision de chiffre d’affaires annuel ; cela reste une prévision, et non des ventes déjà réalisées. Cet article explique le communiqué dont la date figure dans les métadonnées du sujet ; il ne s’agit pas d’une nouvelle annonce de résultats.",
+          "why": "Pour débuter, il est essentiel de distinguer la vente de services informatiques, la constatation d’un bénéfice comptable et l’encaissement de liquidités disponibles. Les achats d’équipements consomment de la trésorerie lorsqu’ils sont réglés, alors que l’amortissement répartit leur coût comptable dans le temps. Les avances des clients peuvent alimenter le flux de trésorerie d’exploitation avant la fourniture du service correspondant. Par conséquent, un flux de trésorerie d’exploitation positif ne prouve pas que l’expansion s’autofinance. Les états financiers montrent pourquoi les clients du cloud, les fournisseurs d’équipements et les prêteurs doivent examiner le cycle de financement plutôt que de se fier au seul chiffre d’affaires mis en avant. Selon notre analyse, l’accès au financement reste déterminant pour apprécier l’investissement, même lorsque la demande semble solide.",
+          "uncertainty": "La prévision de chiffre d’affaires reflète les attentes de la direction, et les éléments retenus ne permettent pas d’établir si les résultats ont dépassé un consensus vérifié de manière indépendante. Le flux de trésorerie d’exploitation n’est pas le flux de trésorerie disponible, et la ligne des achats réglés en trésorerie ne doit pas remplacer la mesure plus large des dépenses d’investissement utilisée par la direction.",
+          "watch": "Les prochaines publications sur les créances clients, les produits constatés d’avance, les achats d’équipements réglés en trésorerie et le financement sont à examiner ensemble. Le critère utile est de savoir si les encaissements clients et un financement durable suivent le rythme du déploiement, plutôt que de constater isolément l’amélioration d’un indicateur de bénéfice ajusté.",
           "metricLabels": [
             {
               "id": "m1",
@@ -436,80 +470,104 @@
             },
             {
               "id": "m2",
-              "label": "Résultat net trimestriel part du groupe"
+              "label": "Résultat d’exploitation trimestriel selon les normes GAAP"
             },
             {
               "id": "m3",
-              "label": "Chiffre d’affaires depuis le début de l’exercice"
+              "label": "Résultat net trimestriel selon les normes GAAP"
             },
             {
               "id": "m4",
-              "label": "Résultat net part du groupe depuis le début de l’exercice"
+              "label": "Flux de trésorerie d’exploitation trimestriel"
             },
             {
               "id": "m5",
-              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
+              "label": "Achats trimestriels d’équipements et de logiciels immobilisés réglés en trésorerie"
             },
             {
               "id": "m6",
-              "label": "Variation sur un an des flux de trésorerie d’exploitation cumulés depuis le début de l’exercice"
+              "label": "Borne basse de la prévision de chiffre d’affaires annuel"
+            },
+            {
+              "id": "m7",
+              "label": "Borne haute de la prévision de chiffre d’affaires annuel"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "BCP Investment : un accord de fusion à l’épreuve de la qualité du crédit",
+          "summary": "BCP Investment a annoncé la signature d’un accord d’acquisition en parallèle de résultats faisant apparaître un revenu net des investissements positif, mais une perte comptable globale liée aux activités.",
+          "impact": "L’opération met en balance les avantages du regroupement et la nécessité persistante de préserver la valeur des actifs et d’encaisser les paiements des emprunteurs.",
+          "what": "BCP Investment est une société de développement des entreprises qui finance des entreprises de taille intermédiaire. Son communiqué présente un accord visant à acquérir Investcorp Credit Management BDC, sous réserve de conditions de réalisation, dont l’approbation des actionnaires de la cible. Les tableaux financiers distinguent les revenus d’investissement après charges du résultat global des activités, qui comprend les gains et pertes réalisés et latents sur les investissements. Les indicateurs associés précisent aussi les revenus d’intérêts capitalisés et l’exposition aux placements dont les intérêts ne sont plus comptabilisés en produits.",
+          "why": "Pour un prêteur, les revenus d’intérêts ne résument pas le résultat économique. Des intérêts peuvent être comptabilisés alors que la valeur du prêt accordé à l’emprunteur se dégrade, et les intérêts capitalisés sont ajoutés au montant de l’investissement au lieu d’être immédiatement encaissés. Selon notre analyse, la génération de revenus et la préservation du capital doivent être évaluées ensemble. Un regroupement peut répartir les charges d’exploitation sur une base d’actifs plus large, mais une taille accrue ne résout pas les difficultés d’un emprunteur. Pour les entreprises dépendant du crédit privé, la rigueur dans l’octroi des prêts influe sur l’accès au refinancement ; pour les actionnaires recherchant des revenus, la distinction entre revenu comptable et trésorerie encaissée compte pour évaluer la pérennité des distributions.",
+          "uncertainty": "La fusion n’est pas achevée, et les avantages attendus restent une appréciation de la direction. L’exposition aux placements dont les intérêts ne sont plus comptabilisés, mesurée à la juste valeur, peut évoluer sous l’effet des valorisations, et pas uniquement d’un rétablissement des emprunteurs. Le flux de trésorerie d’exploitation n’a pas été vérifié à partir de ce communiqué et n’est pas déduit du revenu net des investissements.",
+          "watch": "Les éléments à suivre sont l’approbation des actionnaires, les annonces de réalisation, les encaissements provenant des emprunteurs et les valorisations ultérieures du portefeuille. Un suivi utile rapprocherait les revenus d’investissement des encaissements et préciserait si l’amélioration de la qualité du crédit reflète des remboursements, des recouvrements, des cessions ou des variations de valorisation.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Revenus d’investissement totaux trimestriels"
+            },
+            {
+              "id": "m2",
+              "label": "Revenu net des investissements trimestriel"
+            },
+            {
+              "id": "m3",
+              "label": "Variation trimestrielle de l’actif net résultant des activités"
+            },
+            {
+              "id": "m4",
+              "label": "Revenus trimestriels d’intérêts capitalisés"
+            },
+            {
+              "id": "m5",
+              "label": "Part des placements dont les intérêts ne sont plus comptabilisés, à la juste valeur"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Rongqi propose d’affecter des fonds levés à des composants pour équipements de semi-conducteurs",
+          "summary": "Rongqi a présenté un projet visant à utiliser le solde des fonds levés au-delà du montant initialement prévu pour acquérir une participation de contrôle dans Shanghai Deqishun.",
+          "impact": "Le projet transformerait des liquidités en une exposition opérationnelle aux composants pour équipements de semi-conducteurs, ce qui place l’exécution et les rendements en trésorerie au cœur de sa valeur.",
+          "what": "Rongqi développe des équipements d’inspection intelligente et d’assemblage de précision, principalement pour l’électronique grand public et les applications liées aux nouvelles énergies. La cible envisagée fournit des composants de précision en polymère et en métal pour les équipements de semi-conducteurs. L’annonce précise le prix d’acquisition convenu et désigne le solde des fonds levés au-delà du montant initialement prévu comme source de financement envisagée. L’affectation de ces fonds doit encore être autorisée par les actionnaires ; le document n’établit pas que le transfert de propriété a eu lieu.",
+          "why": "Selon notre analyse, l’enjeu financier relève de l’allocation du capital, et pas simplement de l’exposition à un secteur à la mode. Les liquidités conservées sur les comptes dédiés aux fonds levés offrent une marge de manœuvre ; une acquisition engage cette souplesse dans une activité dont les rendements dépendent des clients, des performances de production et de l’intégration. Acheter un fournisseur de composants déjà établi pourrait apporter des compétences longues à développer en interne, mais le prix d’achat doit rester justifié par les rendements économiques futurs. Pour les actionnaires actuels, la question utile est de savoir si les bénéfices acquis se transforment en trésorerie après les besoins en fonds de roulement et les investissements. La source de financement envisagée ne prouve, à elle seule, ni que le prix est avantageux ni que des synergies se concrétiseront.",
+          "uncertainty": "Cette annonce de financement ne fournit pas de données vérifiées sur le chiffre d’affaires, le bénéfice ou le flux de trésorerie d’exploitation de la cible suffisantes pour évaluer sa valorisation de manière indépendante. Le solde des fonds levés publié comprend des intérêts et des produits de gestion de trésorerie, et le montant transféré peut évoluer. La justification stratégique de la direction ne doit pas être assimilée à un avantage opérationnel déjà obtenu.",
+          "watch": "Les éléments à suivre sont la décision des actionnaires, la réalisation de l’opération et les publications financières ultérieures précisant la contribution de l’activité acquise. Des éléments sur la fidélisation des clients, les coûts d’intégration et la conversion des bénéfices en trésorerie seraient plus instructifs que la répétition de la justification stratégique ou l’hypothèse d’un effet positif immédiat sur les bénéfices.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Prix convenu pour l’acquisition envisagée"
+            },
+            {
+              "id": "m2",
+              "label": "Participation au capital visée par l’acquisition"
+            },
+            {
+              "id": "m3",
+              "label": "Solde des fonds levés au-delà du montant initialement prévu"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国市场动态。请留意各项内容的发布日期；近期公司报告在此用于背景解读。",
+      "status": "本期涵盖美国和中国的相关动态。请留意各项内容的发布日期；近期公司报告在此作为背景解读。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。可提供的指数数据均保留各自的交易日期。",
-        "cn": "所跟踪的指数在各自最近可核实的交易日均上涨。标注日期的收盘数据反映的是对应交易日的情况，并非当前行情。"
+        "us": "部分收盘数据未能核实。现有各项指数数据均保留各自的交易日期。",
+        "cn": "所跟踪的指数在各自最近已核实的交易日均下跌。标明日期的收盘数据反映的是相应交易日的情况，并非当前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "科迪华财务报告口径发生变化，巴西市场仍带来压力",
-          "summary": "科迪华披露，作物保护业务销售下滑，并更新了业绩展望。巴西市场的艰难环境带来的拖累，超过了新产品增长带来的提振。",
-          "impact": "这反映出农业供应商面临的财务压力：即使农业生产仍需要相关产品，农户融资受限也可能推迟采购。",
-          "what": "作物保护业务按备考口径录得持续经营业务亏损，但按经调整经营口径仍有盈利。这些是不同的会计口径，并非相互矛盾的现金收支结果。公司公告将巴西业务疲弱归因于经销商库存、农户资金紧张，以及成熟产品领域的竞争。",
-          "why": "对农户而言，能否获得信贷会影响购买农业投入品的时间。对供应商而言，订单推迟和降价促销可能削弱营收和利润率。分析的重点是：在分销渠道消化现有库存期间，差异化产品能否支撑盈利能力。",
-          "uncertainty": "不能将备考口径的作物保护业务盈利，视为与历史合并现金流量表口径相同。此处列示的经营现金流出指标涵盖历史持续经营业务，范围与前者不同。经调整经营息税折旧及摊销前利润还剔除了对股东有实际影响的成本，并不代表可供分配的现金。",
-          "watch": "关注巴西经销商库存、客户回款，以及后续单独披露的现金流信息，以判断经营改善能否转化为现金创造能力。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度备考净销售额"
-            },
-            {
-              "id": "m2",
-              "label": "季度备考持续经营业务亏损"
-            },
-            {
-              "id": "m3",
-              "label": "季度经调整备考经营息税折旧及摊销前利润"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今历史持续经营业务经营现金流"
-            },
-            {
-              "id": "m5",
-              "label": "全年经调整备考经营息税折旧及摊销前利润指引下限"
-            },
-            {
-              "id": "m6",
-              "label": "全年经调整备考经营息税折旧及摊销前利润指引上限"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "财报解读：宁德时代增长背后，需关注利润转化为现金的情况",
-          "summary": "宁德时代已注明报告日期的季度财报显示，季度营收和归母净利润增长，但年初至今经营活动创造现金的能力减弱。",
-          "impact": "对内地股东而言，这意味着评估业务扩张时，应关注回款和营运资金，而不能只看账面利润。",
-          "what": "这是财报背景解读，并非最新公告。这家电池公司的财报分别披露了季度盈利和累计经营现金流。财报对资产负债表项目的说明，将应收款项和存货增加与业务扩张联系起来，并将预付供应商款项增加与向供应商支付款项联系起来。",
-          "why": "公司可能在客户付款前就确认营收，而存货和向供应商支付的预付款，会在产品带来回款前占用资金。这意味着，即使业务增长带来盈利，也仍可能产生资金需求。因此，投资者需要区分利润表和经营现金流：前者衡量会计业绩，后者记录经营活动实际产生的现金。",
-          "uncertainty": "该财报未经审计。财报开头的表格未提供单独的季度经营现金流，因此不能将累计现金流数据与季度利润直接比较。营运资金余额也不足以证明现金流变化完全由其造成。",
-          "watch": "关注后续应收款项回收、存货变化和现金流披露，判断业务扩张是否正在转化为现金，而非持续需要追加资金。",
+          "title": "CoreWeave财报解读：需求旺盛不等于能靠自身资金支持增长",
+          "summary": "CoreWeave在所标注日期发布的财报显示，公司录得营业利润，但净利润为负，经营现金流为正。",
+          "impact": "融资层面的关键问题是：客户回款能否支撑已承诺的基础设施投入，而不必持续依赖外部资金。",
+          "what": "CoreWeave为人工智能工作负载提供云基础设施。其财务报表区分了扣除融资成本和税项前的盈利与最终净利润，现金流量表则单独记录基础设施购置支出。管理层还上调了全年营收指引，但这仍是预测，并非已经实现的销售。本篇解读的是报道信息中所标日期的财报，并非新发布的业绩公告。",
+          "why": "对初学者而言，关键是分清销售算力服务、在会计上确认利润，以及收到可支配现金之间的区别。购置设备会在付款时消耗现金，而折旧会将设备的会计成本分摊到后续期间。客户预付款可以在相关服务交付前支撑经营现金流。因此，经营现金流为正并不能证明公司可以依靠自身资金扩张。财务报表说明，云服务客户、设备供应商和贷款机构应审视资金周转过程，而不能只看营收表现。我们的解读是，即使需求看起来健康，能否获得融资仍是评估其投资价值的关键。",
+          "uncertainty": "营收指引是管理层的预期，所选取的证据不足以判断业绩是否超出经独立核实的市场普遍预期。经营现金流不等于自由现金流，现金购置支出项目也不能替代管理层口径更广的资本支出指标。",
+          "watch": "后续需结合应收账款、递延收入、设备现金购置支出及融资披露来观察。更有意义的检验是，客户实际回款和可持续融资能否跟上基础设施部署，而不是孤立地看某项调整后利润指标是否改善。",
           "metricLabels": [
             {
               "id": "m1",
@@ -517,80 +575,104 @@
             },
             {
               "id": "m2",
-              "label": "季度归母净利润"
+              "label": "季度营业利润（美国通用会计准则）"
             },
             {
               "id": "m3",
-              "label": "年初至今营收"
+              "label": "季度净利润（美国通用会计准则）"
             },
             {
               "id": "m4",
-              "label": "年初至今归母净利润"
+              "label": "季度经营现金流"
             },
             {
               "id": "m5",
-              "label": "年初至今经营现金流"
+              "label": "季度设备及资本化软件现金购置支出"
             },
             {
               "id": "m6",
-              "label": "年初至今经营现金流同比变动"
+              "label": "全年营收指引下限"
+            },
+            {
+              "id": "m7",
+              "label": "全年营收指引上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "BCP Investment披露并购协议，信贷质量仍待检验",
+          "summary": "BCP Investment披露了新签署的收购协议，同期业绩显示净投资收益为正，但经营活动整体录得会计亏损。",
+          "impact": "这项交易需要权衡整合带来的益处，以及持续维护资产价值、收回借款人还款的需要。",
+          "what": "BCP Investment是为中型企业提供融资的商业发展公司。其公告披露了收购Investcorp Credit Management BDC的协议，交易仍须满足交割条件，包括获得被收购方股东批准。财务表格区分了扣除费用后的投资收益与更广义的经营结果，后者包含已实现和未实现的投资损益。随附指标还列明了实物付息收入，以及被列为非应计项目、即停止计提利息收入的投资敞口。",
+          "why": "对贷款机构而言，利息收入并不代表全部经济收益。即使借款对应的贷款价值正在下降，贷款机构仍可能确认利息收入；实物付息利息则会计入投资账面金额，而非立即以现金收取。我们的解读是，读者应结合收益创造与资本保全情况进行评估。整合可能将运营费用分摊到更广的资产基础上，但扩大规模并不能解决借款人的财务困境。对于依赖私募信贷的企业，贷款审核是否审慎会影响其获得再融资的能力；对于注重分红收益的股东，判断分配能否持续时，区分会计收益与实际收到的现金很重要。",
+          "uncertainty": "合并尚未完成，预期收益仍是管理层的判断。按公允价值计量的非应计投资敞口可能因估值变化而变动，并不只取决于借款人状况是否好转。此次公告中的经营现金流未获核实，也未根据净投资收益加以推算。",
+          "watch": "后续需关注股东批准、交割披露、借款人现金回款及投资组合估值变化。更有用的后续披露应解释投资收益与实际现金收款之间的差异，并说明信贷质量改善究竟来自还款、追偿、资产处置，还是估值变化。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度投资收入总额"
+            },
+            {
+              "id": "m2",
+              "label": "季度净投资收益"
+            },
+            {
+              "id": "m3",
+              "label": "季度经营活动引起的净资产变动"
+            },
+            {
+              "id": "m4",
+              "label": "季度实物付息收入"
+            },
+            {
+              "id": "m5",
+              "label": "非应计投资占比（按公允价值计）"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Rongqi拟将募集资金用于半导体零部件业务",
+          "summary": "Rongqi披露，拟使用剩余超募资金收购Shanghai Deqishun的控股权。",
+          "impact": "该方案拟将可灵活使用的资金转为对半导体设备零部件业务的投资，因此执行情况和现金回报成为判断其价值的关键。",
+          "what": "Rongqi开发智能检测及精密组装设备，主要服务于消费电子和新能源领域。拟收购标的供应半导体设备用精密高分子及金属零部件。公告列明了已商定的拟收购对价，并将剩余超募资金列为拟使用的资金来源。这项资金用途仍需获得股东授权；该文件并不能证明股权已经完成转移。",
+          "why": "我们的解读是，财务上的核心问题在于资本配置，而不只是进入热门行业。募集资金账户中的现金提供了灵活性；收购则会将这些资金投入具体业务，其回报取决于客户、生产表现和整合情况。收购成熟的零部件供应商，可能获得自行建设需要较长时间才能形成的能力，但收购价格仍需由未来经济回报来支撑。对现有股东而言，更有意义的问题是，被收购业务的利润在满足营运资金和投资需求后，能否转化为现金。拟使用的资金来源本身并不能证明收购价格便宜，也不能证明协同效应将会实现。",
+          "uncertainty": "这份资金使用公告未提供足够且经核实的标的营收、利润或经营现金流，无法据此独立评估估值。披露的募集资金余额包含利息及现金管理收益，实际划转金额可能变化。管理层提出的战略理由，不应被视为已经实现的经营收益。",
+          "watch": "后续需关注股东决议、交易完成情况，以及说明被收购业务贡献的财务披露。客户留存、整合成本和利润转化为现金的情况，比重复战略理由或假定收购会立即增厚利润更有参考价值。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "已商定的拟收购对价"
+            },
+            {
+              "id": "m2",
+              "label": "拟收购股权比例"
+            },
+            {
+              "id": "m3",
+              "label": "剩余超募资金余额"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Comprueba la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación.",
-        "cn": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
+        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Corteva afronta presiones en Brasil mientras cambia el alcance de su información financiera",
-          "summary": "Corteva comunicó menores ventas de productos de protección de cultivos y actualizó sus previsiones, ya que las difíciles condiciones del mercado brasileño pesaron más que el impulso de los nuevos productos.",
-          "impact": "La implicación financiera es que los proveedores agrícolas sufren presiones cuando las limitaciones de financiación de los agricultores retrasan las compras, aunque sus productos sigan siendo necesarios para los cultivos.",
-          "what": "El negocio de protección de cultivos registró pérdidas pro forma de operaciones continuadas, pero también rentabilidad operativa ajustada. Son distintas perspectivas contables, no resultados de caja contradictorios. El comunicado atribuye la debilidad en Brasil a las existencias de los distribuidores, las restricciones de liquidez de los agricultores y la competencia en productos consolidados.",
-          "why": "Para los agricultores, la disponibilidad de crédito influye en cuándo pueden comprar los insumos. Para los proveedores, los pedidos aplazados y los descuentos pueden reducir los ingresos y los márgenes. La cuestión de análisis es si los productos diferenciados pueden sostener la rentabilidad mientras los canales de distribución dan salida a las existencias acumuladas.",
-          "uncertainty": "Los resultados pro forma del negocio de protección de cultivos no deben equipararse al estado histórico consolidado de flujos de efectivo. La medida de salida de efectivo operativa que se muestra aquí corresponde a las operaciones continuadas históricas, cuyo alcance es distinto. El EBITDA operativo ajustado también excluye costes que importan a los accionistas y no representa efectivo disponible para distribuir.",
-          "watch": "Conviene observar las existencias de los distribuidores brasileños, los cobros a clientes y las futuras publicaciones de flujos de efectivo independientes para evaluar si la mejora operativa se convierte en generación de efectivo.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ventas netas trimestrales pro forma"
-            },
-            {
-              "id": "m2",
-              "label": "Pérdida trimestral pro forma de operaciones continuadas"
-            },
-            {
-              "id": "m3",
-              "label": "EBITDA operativo trimestral pro forma ajustado"
-            },
-            {
-              "id": "m4",
-              "label": "Flujo de efectivo operativo histórico de operaciones continuadas acumulado en el año"
-            },
-            {
-              "id": "m5",
-              "label": "Límite inferior de las previsiones anuales de EBITDA operativo pro forma ajustado"
-            },
-            {
-              "id": "m6",
-              "label": "Límite superior de las previsiones anuales de EBITDA operativo pro forma ajustado"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Claves de los resultados: el crecimiento de CATL requiere comprobar su conversión en efectivo",
-          "summary": "El informe trimestral fechado de CATL muestra un aumento de las ventas y del beneficio atribuible, junto con una menor generación de efectivo operativo acumulada en el año.",
-          "impact": "Para los accionistas de China continental, la implicación es que la expansión del negocio debe evaluarse mediante los cobros y el capital circulante, no solo mediante el beneficio contable.",
-          "what": "Esta es una explicación de resultados, no un anuncio nuevo. El informe de la empresa de baterías distingue los resultados trimestrales del flujo de efectivo operativo acumulado. Sus explicaciones del balance vinculan el aumento de las cuentas por cobrar y las existencias con la expansión del negocio, y el incremento de los anticipos a proveedores con los pagos a estos.",
-          "why": "Los ingresos pueden reconocerse antes de que el cliente pague, mientras que las existencias y los anticipos a proveedores consumen dinero antes de que los productos generen cobros. La implicación para el análisis es que incluso un crecimiento rentable puede crear necesidades de financiación. Por ello, los inversores necesitan distinguir la cuenta de resultados, que mide el desempeño contable, del flujo de efectivo operativo, que registra el efectivo generado por las operaciones.",
-          "uncertainty": "El informe no está auditado. Su tabla inicial no ofrece el flujo de efectivo operativo del trimestre por separado, por lo que la cifra de efectivo acumulada no debe compararse directamente con el beneficio trimestral. Los saldos de capital circulante tampoco permiten establecer la causa exclusiva del cambio en el flujo de efectivo.",
-          "watch": "Conviene observar los cobros posteriores de cuentas pendientes, la evolución de las existencias y las publicaciones de flujos de efectivo para comprobar si la expansión se convierte en efectivo en lugar de exigir financiación adicional de forma persistente.",
+          "title": "Claves de los resultados de CoreWeave: la demanda no equivale a un crecimiento autofinanciado",
+          "summary": "El informe de resultados de CoreWeave correspondiente a la fecha indicada muestra un beneficio operativo junto con una pérdida neta y un flujo de caja operativo positivo.",
+          "impact": "La cuestión financiera es si los cobros de clientes pueden sostener los compromisos de infraestructura sin una dependencia persistente del capital externo.",
+          "what": "CoreWeave suministra infraestructura en la nube para cargas de trabajo de inteligencia artificial. Sus estados financieros distinguen el resultado antes de intereses e impuestos del resultado neto, mientras que su estado de flujos de efectivo registra por separado las compras de infraestructura. La dirección también elevó su previsión anual de ingresos; sigue siendo una previsión, no ventas ya realizadas. Este artículo explica el informe fechado en los metadatos de la noticia; no es un nuevo anuncio de resultados.",
+          "why": "Para quien empieza, es importante distinguir entre vender servicios informáticos, declarar un beneficio contable y cobrar efectivo disponible para gastar. Las compras de equipos consumen efectivo cuando se pagan, mientras que la depreciación reparte su coste contable a lo largo del tiempo. Los anticipos de clientes pueden impulsar el flujo de caja operativo antes de que se preste el servicio correspondiente. Por tanto, generar efectivo con las operaciones no demuestra que la expansión se autofinancie. Los estados financieros muestran por qué los clientes de servicios en la nube, los proveedores de equipos y los prestamistas deben examinar el ciclo de financiación, en lugar de basarse en un titular sobre ingresos. Nuestra interpretación es que el acceso a financiación sigue siendo central para valorar la inversión, incluso cuando la demanda parece sólida.",
+          "uncertainty": "La previsión de ingresos refleja las expectativas de la dirección, y la información seleccionada no permite determinar si los resultados sorprendieron frente a un consenso verificado de forma independiente. El flujo de caja operativo no es flujo de caja libre, y la partida de compras pagadas en efectivo no debe utilizarse como sustituto de la medida más amplia de inversión en activos que emplea la dirección.",
+          "watch": "Conviene observar conjuntamente la evolución de las cuentas por cobrar, los ingresos diferidos, las compras de equipos en efectivo y la información sobre financiación. La comprobación útil es si los cobros de clientes y una financiación sostenible siguen el ritmo del despliegue de infraestructura, no si mejora de forma aislada una medida de beneficio ajustado.",
           "metricLabels": [
             {
               "id": "m1",
@@ -598,80 +680,104 @@
             },
             {
               "id": "m2",
-              "label": "Beneficio neto atribuible trimestral"
+              "label": "Resultado operativo trimestral según GAAP"
             },
             {
               "id": "m3",
-              "label": "Ingresos acumulados en el año"
+              "label": "Resultado neto trimestral según GAAP"
             },
             {
               "id": "m4",
-              "label": "Beneficio neto atribuible acumulado en el año"
+              "label": "Flujo de caja operativo trimestral"
             },
             {
               "id": "m5",
-              "label": "Flujo de efectivo operativo acumulado en el año"
+              "label": "Compras trimestrales en efectivo de equipos y software capitalizado"
             },
             {
               "id": "m6",
-              "label": "Variación interanual del flujo de efectivo operativo acumulado en el año"
+              "label": "Límite inferior de la previsión anual de ingresos"
+            },
+            {
+              "id": "m7",
+              "label": "Límite superior de la previsión anual de ingresos"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "BCP Investment combina un acuerdo de fusión con una prueba de calidad crediticia",
+          "summary": "BCP Investment comunicó un acuerdo de adquisición recién firmado junto con resultados que muestran ingresos netos por inversiones positivos, pero una pérdida contable global de las operaciones.",
+          "impact": "La operación contrapone los beneficios de la consolidación con la necesidad constante de preservar el valor de los activos y cobrar los pagos de los prestatarios.",
+          "what": "BCP Investment es una sociedad de desarrollo empresarial que financia empresas de tamaño mediano. Su comunicado revela un acuerdo para adquirir Investcorp Credit Management BDC, sujeto a condiciones de cierre que incluyen la aprobación de los accionistas de la empresa objetivo. Las tablas financieras distinguen los ingresos por inversiones después de gastos del resultado más amplio de las operaciones, que incluye variaciones realizadas y no realizadas de las inversiones. Las métricas adjuntas también identifican los ingresos pagados en especie y la exposición clasificada como inversiones que han dejado de devengar intereses.",
+          "why": "Para un prestamista, los ingresos por intereses no representan todo el resultado económico. Un prestatario puede generar intereses reconocidos contablemente mientras se deteriora el valor de su préstamo, y los intereses pagados en especie se añaden a la inversión en lugar de cobrarse de inmediato en efectivo. Nuestra interpretación es que los lectores deben evaluar conjuntamente la generación de ingresos y la preservación del capital. La consolidación puede repartir los gastos operativos sobre una base de activos más amplia, pero un mayor tamaño no resuelve los problemas de un prestatario en dificultades. Para las empresas que dependen del crédito privado, el rigor al evaluar y conceder préstamos afecta al acceso a la refinanciación; para los accionistas que buscan rentas, distinguir entre ingresos contables y efectivo cobrado importa al valorar la sostenibilidad de las distribuciones.",
+          "uncertainty": "La fusión no se ha completado, y los beneficios esperados siguen siendo una valoración de la dirección. La exposición a inversiones que no devengan intereses, medida a valor razonable, puede variar por cambios de valoración, no solo porque los prestatarios se recuperen. El flujo de caja operativo no se verificó a partir de este comunicado ni se deduce de los ingresos netos por inversiones.",
+          "watch": "Conviene seguir la aprobación de los accionistas, los comunicados sobre el cierre, los cobros en efectivo de los prestatarios y las valoraciones posteriores de la cartera. Un seguimiento útil conciliaría los ingresos por inversiones con los cobros en efectivo y explicaría si las mejoras crediticias reflejan amortizaciones, recuperaciones, ventas de activos o cambios de valoración.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos totales trimestrales por inversiones"
+            },
+            {
+              "id": "m2",
+              "label": "Ingresos netos trimestrales por inversiones"
+            },
+            {
+              "id": "m3",
+              "label": "Variación neta trimestral del patrimonio derivada de las operaciones"
+            },
+            {
+              "id": "m4",
+              "label": "Ingresos trimestrales pagados en especie"
+            },
+            {
+              "id": "m5",
+              "label": "Proporción de inversiones que no devengan intereses, a valor razonable"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Rongqi propone destinar fondos captados a componentes para semiconductores",
+          "summary": "Rongqi comunicó planes para utilizar el remanente de fondos captados por encima del objetivo previsto en la adquisición de una participación de control en Shanghai Deqishun.",
+          "impact": "La propuesta cambiaría liquidez financiera por exposición al negocio de componentes para equipos de semiconductores, por lo que la ejecución y los retornos en efectivo serían fundamentales para su valor.",
+          "what": "Rongqi desarrolla equipos de inspección inteligente y ensamblaje de precisión, principalmente para aplicaciones de electrónica de consumo y nuevas energías. La empresa que propone adquirir suministra componentes de precisión de polímeros y metales para equipos de semiconductores. El anuncio detalla el precio de compra acordado e identifica el remanente de fondos captados por encima del objetivo previsto como una fuente de financiación propuesta. El uso de esos fondos aún requiere autorización de los accionistas; el documento no demuestra que la propiedad se haya transferido.",
+          "why": "Nuestra interpretación es que la cuestión financiera es la asignación de capital, no simplemente la exposición a un sector de moda. El efectivo mantenido en las cuentas de los fondos captados aporta flexibilidad; una adquisición compromete esa flexibilidad en un negocio cuyos retornos dependen de los clientes, el desempeño de la fabricación y la integración. Comprar un proveedor de componentes consolidado podría aportar capacidades que llevaría tiempo desarrollar internamente, pero el precio de compra debe seguir justificándose por los retornos económicos futuros. Para los accionistas actuales, la pregunta útil es si los beneficios adquiridos se convierten en efectivo después de cubrir las necesidades de capital circulante y de inversión. La fuente de financiación propuesta no demuestra por sí misma que la compra sea barata ni que se materialicen sinergias.",
+          "uncertainty": "Este anuncio sobre financiación no aporta datos verificados de ingresos, beneficios o flujo de caja operativo de la empresa objetivo suficientes para una valoración independiente. El saldo divulgado de los fondos captados incluye intereses y rendimientos de la gestión de tesorería, y el importe transferido puede cambiar. La justificación estratégica de la dirección no debe tratarse como un beneficio operativo ya conseguido.",
+          "watch": "Conviene seguir la decisión de los accionistas, el cierre de la operación y la información financiera posterior que identifique la contribución del negocio adquirido. Las pruebas de retención de clientes, costes de integración y conversión de beneficios en efectivo serían más informativas que repetir la justificación estratégica o dar por supuesto un aumento inmediato de los beneficios.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Precio acordado de la adquisición propuesta"
+            },
+            {
+              "id": "m2",
+              "label": "Participación en el capital que se propone adquirir"
+            },
+            {
+              "id": "m3",
+              "label": "Saldo restante de fondos captados por encima del objetivo previsto"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版では米国と中国の動向を取り上げています。各資料の公表日を確認してください。最近の企業決算は、背景を理解するための解説として掲載しています。",
+      "status": "米国と中国の動向を取り上げています。各記事の公表日を確認してください。直近の企業決算は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "終値に関する情報の一部は確認できませんでした。掲載できた指数には、それぞれの取引日を付しています。",
-        "cn": "対象の指数は、確認できた直近の取引でいずれも上昇しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
+        "us": "終値の情報には確認できなかったものがあります。掲載している各指数の値は、それぞれに記載された取引日時点のものです。",
+        "cn": "対象の指数はいずれも、確認できた最新の取引で下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "コルテバ、報告対象の範囲が変わるなかブラジル市場が重荷に",
-          "summary": "コルテバは農薬事業の売上減少を報告し、業績見通しを更新しました。ブラジルの厳しい市場環境の影響が、新製品の好調さを上回りました。",
-          "impact": "農家の資金調達が難しくなって購入が遅れると、作物の生産に必要な製品であっても、農業資材の供給企業の業績を圧迫することを示しています。",
-          "what": "農薬事業では、プロフォーマの継続事業損益が赤字となる一方、調整後の営業指標では黒字でした。これは会計上の捉え方の違いであり、現金収支が矛盾しているわけではありません。発表資料は、ブラジルでの不振の要因として、販売代理店の在庫、農家の資金繰りの制約、既存製品の競争を挙げています。",
-          "why": "農家にとって、融資を受けられるかどうかは資材を購入できる時期に影響します。供給企業にとっては、受注の遅れや値引きが売上高と利益率を押し下げる可能性があります。分析上の焦点は、流通段階で既存在庫の解消が進む間、差別化された製品が収益性を支えられるかどうかです。",
-          "uncertainty": "農薬事業のプロフォーマ損益を、過去実績の連結キャッシュフロー計算書と同じものとして扱うことはできません。ここに掲載した営業キャッシュフローの支出額は、過去実績の継続事業を対象としており、集計範囲が異なります。また、調整後営業EBITDAは株主にとって重要な費用も除外しており、株主への分配に使える現金を示すものではありません。",
-          "watch": "営業面の改善が現金の創出につながるかを判断するには、ブラジルの販売代理店の在庫、顧客からの代金回収、今後の独立した事業体としてのキャッシュフロー開示が注目点となります。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期プロフォーマ売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期プロフォーマ継続事業損失"
-            },
-            {
-              "id": "m3",
-              "label": "四半期調整後プロフォーマ営業EBITDA"
-            },
-            {
-              "id": "m4",
-              "label": "年初来累計の継続事業営業キャッシュフロー（過去実績）"
-            },
-            {
-              "id": "m5",
-              "label": "通期調整後プロフォーマ営業EBITDA見通しの下限"
-            },
-            {
-              "id": "m6",
-              "label": "通期調整後プロフォーマ営業EBITDA見通しの上限"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "決算解説：CATLの成長は現金回収の確認も重要",
-          "summary": "CATLの公表日付きの四半期報告書では、売上高と親会社株主に帰属する利益が増加する一方、年初来累計の営業活動による現金創出は弱まりました。",
-          "impact": "中国本土の株主にとっては、事業拡大を会計上の利益だけでなく、代金回収や運転資金の面からも評価する必要があることを示しています。",
-          "what": "これは決算の解説であり、新たな発表ではありません。電池メーカーである同社の報告書では、四半期の損益と累計の営業キャッシュフローが区別されています。貸借対照表に関する説明では、売上債権と棚卸資産の増加を事業拡大と関連付け、仕入先への前払金の増加を仕入先への支払いによるものとしています。",
-          "why": "売上高は顧客が代金を支払う前に計上されることがあります。一方、在庫や仕入先への前払いには、製品の代金を回収する前に資金が必要です。このため、利益を伴う成長でも資金需要が生じる可能性があります。投資家は、会計上の業績を示す損益計算書と、営業活動で生み出された現金を示す営業キャッシュフローを区別する必要があります。",
-          "uncertainty": "この報告書は未監査です。冒頭の表には四半期単独の営業キャッシュフローが示されていないため、累計の現金収支を四半期利益と直接比較することはできません。また、運転資金の残高だけでは、キャッシュフローの変化の原因を特定できません。",
-          "watch": "今後の売上債権の回収、在庫の動向、キャッシュフローの開示が注目点です。事業拡大が現金の創出につながっているのか、それとも継続的な追加資金を必要としているのかを見極める材料になります。",
+          "title": "CoreWeaveの決算解説：需要があっても、自己資金で成長できるとは限らない",
+          "summary": "記事に記載された日付のCoreWeaveの決算発表では、営業利益と営業キャッシュフローは黒字でしたが、最終損益は赤字でした。",
+          "impact": "資金調達面での焦点は、外部資金に継続的に頼らず、顧客からの入金でインフラ投資の約束を支えられるかどうかです。",
+          "what": "CoreWeaveは、人工知能の処理に使うクラウドインフラを提供しています。財務諸表では、金利や税金を差し引く前の利益と最終的な損益が区別され、キャッシュフロー計算書ではインフラの購入が別途記録されています。経営陣は通期売上高見通しも引き上げましたが、これは予測であり、すでに実現した売上ではありません。この記事は、記事情報に記載された日付の決算発表を解説するもので、新たな決算速報ではありません。",
+          "why": "初心者にとって重要なのは、計算処理サービスを販売すること、会計上の利益を計上すること、実際に使える現金を受け取ることの違いです。設備の購入は支払時に現金を消費しますが、減価償却ではその会計上の費用を使用期間にわたって配分します。顧客からの前受金は、関連サービスを提供する前でも営業キャッシュフローを支えます。このため、営業活動で現金を生み出していても、事業拡大を自己資金で賄えているとは限りません。財務諸表からは、クラウドの顧客、設備供給会社、融資する金融機関が、売上高の見出しだけでなく資金の循環を確認すべき理由が分かります。当編集部は、需要が健全に見える場合でも、資金調達のしやすさが投資判断の重要な要素であり続けると解釈しています。",
+          "uncertainty": "売上高見通しは経営陣の予想です。今回取り上げた資料だけでは、独立して確認された市場予想に対し、決算が上振れたか下振れたかは判断できません。営業キャッシュフローはフリーキャッシュフローとは異なります。また、現金による購入の項目を、経営陣が示す、より広い範囲の設備投資額の代わりに使うべきではありません。",
+          "watch": "今後の売掛金、繰延収益、現金による設備購入、資金調達の開示を併せて確認することが焦点です。判断に役立つのは、調整後利益の指標だけが改善しているかではなく、顧客から回収した現金と持続可能な資金調達が、設備の導入に見合っているかどうかです。",
           "metricLabels": [
             {
               "id": "m1",
@@ -679,80 +785,104 @@
             },
             {
               "id": "m2",
-              "label": "四半期親会社株主に帰属する純利益"
+              "label": "四半期営業利益（米国会計基準）"
             },
             {
               "id": "m3",
-              "label": "年初来累計売上高"
+              "label": "四半期純利益（米国会計基準）"
             },
             {
               "id": "m4",
-              "label": "年初来累計の親会社株主に帰属する純利益"
+              "label": "四半期営業キャッシュフロー"
             },
             {
               "id": "m5",
-              "label": "年初来累計営業キャッシュフロー"
+              "label": "四半期の設備・資産計上ソフトウェアの現金購入額"
             },
             {
               "id": "m6",
-              "label": "年初来累計営業キャッシュフローの前年同期比増減"
+              "label": "通期売上高見通しの下限"
+            },
+            {
+              "id": "m7",
+              "label": "通期売上高見通しの上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "BCP Investment、統合契約とともに問われる融資資産の健全性",
+          "summary": "BCP Investmentは新たな買収契約の締結を開示しました。同時に発表した決算では、純投資収益は黒字でしたが、事業活動全体の会計上の損益は赤字でした。",
+          "impact": "今回の取引では、統合の利点と、資産価値を守り借り手から支払いを回収し続ける必要性を併せて評価することになります。",
+          "what": "BCP Investmentは、中堅企業に資金を提供する事業開発会社です。発表資料では、Investcorp Credit Management BDCを買収する契約を開示しています。取引完了には、買収対象企業の株主承認などの条件を満たす必要があります。財務表では、費用を差し引いた投資収益と、投資の実現損益や未実現の評価損益を含む、より広い範囲の事業活動の損益が区別されています。付随する指標では、現金ではなく元本への加算などで受け取る利息収益や、利息の計上を停止している投資も示されています。",
+          "why": "貸し手にとって、利息収入だけが経済的な成果のすべてではありません。借り手に対する利息を収益として計上していても、その融資の価値が下がることがあります。また、元本に加算する形の利息は、すぐに現金で回収されるのではなく、投資残高に加えられます。当編集部は、収益を生む力と投下資金の保全を併せて評価する必要があると解釈しています。統合によって運営費用をより大きな資産基盤に分散できる可能性はありますが、規模が拡大しても、経営難の借り手の問題が解消するわけではありません。銀行以外からの融資に頼る企業にとっては、融資審査の厳格さが借り換えのしやすさに影響します。分配収入を重視する株主にとっては、分配の持続性を判断する際に、会計上の収益と実際に回収した現金の違いが重要です。",
+          "uncertainty": "統合は完了しておらず、期待される効果は現時点では経営陣の見立てです。公正価値で測った利息計上停止投資の比率は、借り手の回復だけでなく、評価額の変化によっても変動します。この発表資料からは営業キャッシュフローを確認できておらず、純投資収益から推定もしていません。",
+          "watch": "株主承認、取引完了の開示、借り手からの現金回収、その後の投資資産の評価が確認点です。投資収益と現金受取額の違いを照合し、信用状態の改善が返済、回収、売却、評価額の変化のどれによるものかを説明する追加情報が役立ちます。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "四半期総投資収益"
+            },
+            {
+              "id": "m2",
+              "label": "四半期純投資収益"
+            },
+            {
+              "id": "m3",
+              "label": "四半期の事業活動による純資産増減額"
+            },
+            {
+              "id": "m4",
+              "label": "四半期の元本加算型利息収益"
+            },
+            {
+              "id": "m5",
+              "label": "利息計上停止投資の比率（公正価値ベース）"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Rongqi、調達資金の余剰分を半導体装置部品事業に充てる計画",
+          "summary": "Rongqiは、資金調達で当初の必要額を上回って集まった資金の残額を使い、Shanghai Deqishunの経営支配権を取得する計画を開示しました。",
+          "impact": "この計画は、手元の流動性を半導体装置部品事業への投資に置き換えるものです。その価値を左右するのは、計画の実行と現金での収益回収です。",
+          "what": "Rongqiは、主に消費者向け電子機器や新エネルギー関連分野に向けて、インテリジェント検査装置や精密組立装置を開発しています。買収対象企業は、半導体装置向けの精密な高分子材料部品や金属部品を供給しています。発表では、合意した買収対価を示すとともに、資金調達で必要額を上回って集まった資金の残額を、資金源として使う計画を明らかにしました。この資金使途には、引き続き株主の承認が必要です。資料からは、持ち分の移転が完了したとは確認できません。",
+          "why": "当編集部は、財務面の論点は、単に注目業界へ進出することではなく、資金をどう配分するかだと解釈しています。調達資金を口座に保有していれば、使い道の柔軟性を保てます。買収は、その柔軟性を、顧客、製造面の成果、事業統合によって収益が左右される事業に振り向けるものです。実績のある部品供給会社を買収すれば、自社で育てるには時間のかかる能力を得られる可能性があります。ただし、買収価格を正当化するには、将来の経済的な収益が必要です。既存株主にとって重要なのは、買収先の利益が、運転資金の必要額や投資を差し引いた後に現金として残るかどうかです。予定する資金源だけで、買収価格が割安であることや相乗効果が生じることは示せません。",
+          "uncertainty": "今回の資金使途に関する発表には、独立した企業価値評価に十分な、買収対象企業の確認済みの売上高、利益、営業キャッシュフローは示されていません。開示された調達資金の残高には、利息や資金運用による収益が含まれ、実際に振り替える金額は変わる可能性があります。経営陣が説明する戦略上の狙いを、すでに実現した事業上の効果と捉えるべきではありません。",
+          "watch": "株主の判断、取引の完了、買収事業の貢献を示すその後の財務開示が確認点です。戦略上の狙いを繰り返したり、直ちに利益が増えると想定したりするよりも、顧客の維持、統合費用、利益が現金に変わる状況を示す情報の方が有用です。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "買収計画で合意した取得対価"
+            },
+            {
+              "id": "m2",
+              "label": "取得予定の持ち分比率"
+            },
+            {
+              "id": "m3",
+              "label": "必要額を超えて調達した資金の残高"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; os relatórios recentes das empresas são apresentados para explicar o contexto.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Algumas informações de fechamento não puderam ser verificadas. Cada índice disponível mantém a data do respectivo pregão.",
-        "cn": "Os índices acompanhados subiram nos respectivos pregões mais recentes verificados. Os fechamentos com data informada descrevem esses pregões, não as negociações atuais."
+        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Os índices acompanhados caíram em seus pregões mais recentes com dados verificados. Os fechamentos datados descrevem esses pregões, não a negociação atual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Corteva enfrenta pressão no Brasil enquanto muda o conjunto de operações incluídas nos resultados",
-          "summary": "A Corteva informou queda nas vendas de defensivos agrícolas e atualizou suas projeções, pois as condições difíceis do mercado brasileiro pesaram mais que o impulso dos novos produtos.",
-          "impact": "A implicação financeira é a pressão sobre fornecedores agrícolas quando as restrições de financiamento dos produtores adiam compras, mesmo que os produtos continuem necessários para a produção.",
-          "what": "O negócio de defensivos agrícolas apresentou prejuízo pro forma nas operações continuadas, mas teve resultado operacional ajustado positivo. São visões contábeis distintas, não resultados de caixa contraditórios. O comunicado atribui a fraqueza no Brasil aos estoques dos distribuidores, às restrições de recursos disponíveis dos produtores e à concorrência em produtos já consolidados.",
-          "why": "Para os produtores, a disponibilidade de crédito afeta o momento de comprar insumos. Para os fornecedores, pedidos adiados e descontos podem reduzir a receita e as margens. A questão para análise é se produtos diferenciados conseguem sustentar a rentabilidade enquanto os canais de distribuição reduzem os estoques existentes.",
-          "uncertainty": "O resultado pro forma do negócio de defensivos agrícolas não deve ser tratado como equivalente à demonstração histórica consolidada dos fluxos de caixa. A métrica de consumo de caixa operacional apresentada aqui abrange as operações continuadas históricas, um conjunto diferente de operações. O EBITDA operacional ajustado também exclui custos relevantes para os acionistas e não representa caixa disponível para distribuição.",
-          "watch": "Acompanhar os estoques dos distribuidores brasileiros, os recebimentos de clientes e as próximas divulgações de fluxo de caixa separado desse negócio permite avaliar se a melhora operacional se transforma em geração de caixa.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita líquida trimestral pro forma"
-            },
-            {
-              "id": "m2",
-              "label": "Prejuízo trimestral pro forma das operações continuadas"
-            },
-            {
-              "id": "m3",
-              "label": "EBITDA operacional trimestral ajustado pro forma"
-            },
-            {
-              "id": "m4",
-              "label": "Fluxo de caixa operacional histórico das operações continuadas acumulado no ano"
-            },
-            {
-              "id": "m5",
-              "label": "Limite inferior da projeção anual de EBITDA operacional ajustado pro forma"
-            },
-            {
-              "id": "m6",
-              "label": "Limite superior da projeção anual de EBITDA operacional ajustado pro forma"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Entenda os resultados: crescimento da CATL exige avaliar a conversão em caixa",
-          "summary": "O relatório trimestral da CATL, referente à data indicada, mostra crescimento das vendas e do lucro atribuível aos acionistas, acompanhado de menor geração de caixa operacional acumulada no ano.",
-          "impact": "Para os acionistas na China continental, a implicação é que a expansão do negócio deve ser avaliada pelos recebimentos e pelo capital de giro, não apenas pelo lucro contábil.",
-          "what": "Este texto explica resultados já divulgados; não é um novo anúncio. O relatório da fabricante de baterias separa os resultados trimestrais do fluxo de caixa operacional acumulado. As explicações do balanço patrimonial associam o aumento das contas a receber e dos estoques à expansão dos negócios, e o crescimento dos adiantamentos a fornecedores aos pagamentos feitos a eles.",
-          "why": "A receita pode ser reconhecida antes de o cliente pagar, enquanto estoques e adiantamentos a fornecedores consomem dinheiro antes que os produtos gerem recebimentos. A implicação para a análise é que mesmo um crescimento lucrativo pode criar necessidades de financiamento. Por isso, os investidores precisam distinguir a demonstração do resultado, que mede o desempenho contábil, do fluxo de caixa operacional, que registra o caixa gerado pelas operações.",
-          "uncertainty": "O relatório não foi auditado. A tabela inicial não apresenta o fluxo de caixa operacional isolado do trimestre, portanto o valor acumulado de caixa não deve ser comparado diretamente com o lucro trimestral. Os saldos de capital de giro também não permitem concluir que sejam a única causa da mudança no fluxo de caixa.",
-          "watch": "Acompanhar os próximos recebimentos de clientes, a evolução dos estoques e as divulgações de fluxo de caixa permite buscar sinais de que a expansão está se convertendo em caixa, em vez de exigir financiamento adicional de forma persistente.",
+          "title": "Entenda os resultados da CoreWeave: demanda não significa crescimento financiado com recursos próprios",
+          "summary": "O comunicado de resultados da CoreWeave, referente à data indicada, mostra lucro operacional, mas também prejuízo líquido e fluxo de caixa operacional positivo.",
+          "impact": "A questão financeira é saber se os recebimentos de clientes conseguem sustentar os compromissos com infraestrutura sem dependência persistente de capital externo.",
+          "what": "A CoreWeave fornece infraestrutura de computação em nuvem para aplicações de inteligência artificial. Suas demonstrações financeiras diferenciam o resultado antes das despesas financeiras e dos impostos do resultado líquido, enquanto a demonstração dos fluxos de caixa registra separadamente as compras de infraestrutura. A administração também elevou sua projeção de receita anual; ela continua sendo uma previsão, não vendas já realizadas. Este texto explica o comunicado cuja data consta nos metadados da matéria, e não um novo anúncio de resultados.",
+          "why": "Para quem está começando, é importante distinguir a venda de serviços de computação, o reconhecimento de lucro contábil e o recebimento de dinheiro disponível para uso. As compras de equipamentos consomem caixa quando são pagas, enquanto a depreciação distribui o custo contábil ao longo do tempo. Adiantamentos de clientes podem reforçar o fluxo de caixa operacional antes da prestação do serviço correspondente. Portanto, a geração positiva de caixa operacional não comprova que a expansão se financia com recursos próprios. As demonstrações financeiras mostram por que clientes de serviços de nuvem, fornecedores de equipamentos e credores devem examinar o ciclo de financiamento, em vez de se apoiarem apenas no destaque dado à receita. Nossa interpretação é que o acesso a financiamento continua central para a avaliação do investimento, mesmo quando a demanda parece saudável.",
+          "uncertainty": "A projeção de receita representa a expectativa da administração, e as evidências selecionadas não permitem concluir que os resultados surpreenderam em relação a um consenso de mercado verificado de forma independente. Fluxo de caixa operacional não é fluxo de caixa livre, e a rubrica de compras pagas em dinheiro não deve substituir a medida mais ampla de investimentos em capital utilizada pela administração.",
+          "watch": "Acompanhe em conjunto as próximas divulgações sobre contas a receber, receitas diferidas, compras de equipamentos pagas em dinheiro e financiamentos. O teste relevante é saber se o dinheiro recebido de clientes e as fontes sustentáveis de financiamento acompanham a implantação da infraestrutura, e não apenas se uma medida de lucro ajustado melhora isoladamente.",
           "metricLabels": [
             {
               "id": "m1",
@@ -760,80 +890,104 @@
             },
             {
               "id": "m2",
-              "label": "Lucro líquido trimestral atribuível aos acionistas"
+              "label": "Resultado operacional trimestral segundo os princípios contábeis dos EUA"
             },
             {
               "id": "m3",
-              "label": "Receita acumulada no ano"
+              "label": "Resultado líquido trimestral segundo os princípios contábeis dos EUA"
             },
             {
               "id": "m4",
-              "label": "Lucro líquido atribuível aos acionistas acumulado no ano"
+              "label": "Fluxo de caixa operacional trimestral"
             },
             {
               "id": "m5",
-              "label": "Fluxo de caixa operacional acumulado no ano"
+              "label": "Compras trimestrais de equipamentos e software capitalizado pagas em dinheiro"
             },
             {
               "id": "m6",
-              "label": "Variação do fluxo de caixa operacional acumulado no ano em relação ao mesmo período do ano anterior"
+              "label": "Limite inferior da projeção de receita anual"
+            },
+            {
+              "id": "m7",
+              "label": "Limite superior da projeção de receita anual"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "BCP Investment combina acordo de aquisição com teste de qualidade do crédito",
+          "summary": "A BCP Investment divulgou um acordo de aquisição recém-assinado junto com resultados que mostram receita líquida de investimentos positiva, mas prejuízo contábil geral nas operações.",
+          "impact": "A operação contrapõe os benefícios da consolidação à necessidade contínua de preservar o valor dos ativos e receber os pagamentos dos tomadores de crédito.",
+          "what": "A BCP Investment é uma companhia de desenvolvimento de negócios que financia empresas de médio porte. Seu comunicado divulga um acordo para adquirir a Investcorp Credit Management BDC, sujeito a condições de conclusão, incluindo a aprovação dos acionistas da empresa-alvo. As tabelas financeiras distinguem a receita de investimentos após as despesas do resultado operacional mais amplo, que inclui ganhos e perdas realizados e não realizados nos investimentos. Os indicadores apresentados também identificam receitas de juros incorporados ao saldo do investimento, em vez de pagos em dinheiro, e a exposição a investimentos cujo reconhecimento de juros foi suspenso.",
+          "why": "Para quem concede crédito, a receita de juros não representa todo o resultado econômico. Um tomador pode gerar juros reconhecidos contabilmente enquanto o valor de seu empréstimo se deteriora, e os juros pagos por incorporação ao saldo são adicionados ao investimento, em vez de recebidos imediatamente em dinheiro. Nossa interpretação é que os leitores devem avaliar em conjunto a geração de renda e a preservação do capital. A consolidação pode diluir despesas operacionais sobre uma base maior de ativos, mas o ganho de escala não resolve os problemas de um tomador em dificuldades. Para empresas que dependem de crédito privado, o rigor na análise e concessão de crédito afeta o acesso ao refinanciamento; para acionistas que buscam renda, a diferença entre receita contábil e dinheiro recebido importa ao avaliar a sustentabilidade das distribuições.",
+          "uncertainty": "A operação ainda não foi concluída, e os benefícios esperados continuam sendo uma avaliação da administração. A exposição a investimentos com reconhecimento de juros suspenso, medida pelo valor justo, pode mudar devido a alterações nas avaliações, e não apenas pela recuperação dos tomadores. O fluxo de caixa operacional não foi verificado a partir deste comunicado e não é deduzido da receita líquida de investimentos.",
+          "watch": "Acompanhe a aprovação dos acionistas, as divulgações sobre a conclusão da operação, os recebimentos de tomadores e as avaliações posteriores da carteira. Um acompanhamento útil conciliaria a receita de investimentos com os recebimentos em dinheiro e explicaria se as melhorias no crédito refletem pagamentos, recuperações, vendas de ativos ou mudanças de avaliação.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita total trimestral de investimentos"
+            },
+            {
+              "id": "m2",
+              "label": "Receita líquida trimestral de investimentos"
+            },
+            {
+              "id": "m3",
+              "label": "Variação líquida trimestral dos ativos decorrente das operações"
+            },
+            {
+              "id": "m4",
+              "label": "Receita trimestral de juros incorporados ao saldo do investimento"
+            },
+            {
+              "id": "m5",
+              "label": "Participação dos investimentos com reconhecimento de juros suspenso, a valor justo"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Rongqi propõe aplicar recursos captados em componentes para semicondutores",
+          "summary": "A Rongqi divulgou planos de usar o saldo remanescente de recursos captados acima do previsto para adquirir o controle da Shanghai Deqishun.",
+          "impact": "A proposta trocaria liquidez financeira por exposição operacional a componentes para equipamentos de semicondutores, tornando a execução e os retornos em caixa centrais para seu valor.",
+          "what": "A Rongqi desenvolve equipamentos de inspeção inteligente e montagem de precisão, atendendo principalmente aos setores de eletrônicos de consumo e novas energias. A empresa que pretende adquirir fornece componentes de precisão em polímeros e metais para equipamentos de semicondutores. O anúncio apresenta o valor de compra acordado e identifica o saldo remanescente de recursos captados acima do previsto como uma fonte proposta de financiamento. O uso desses recursos ainda exige autorização dos acionistas; o documento não comprova que a propriedade tenha sido transferida.",
+          "why": "Nossa interpretação é que a questão financeira é a alocação de capital, e não apenas a exposição a um setor em evidência. O dinheiro mantido nas contas de captação oferece flexibilidade; uma aquisição compromete essa flexibilidade com um negócio cujos retornos dependem dos clientes, do desempenho da produção e da integração. Comprar um fornecedor de componentes já estabelecido poderia trazer capacidades que levariam tempo para desenvolver internamente, mas o preço de compra ainda precisa ser justificado pelos retornos econômicos futuros. Para os atuais acionistas, a pergunta relevante é se os lucros do negócio adquirido se convertem em caixa após as necessidades de capital de giro e os investimentos. A fonte de financiamento proposta não demonstra, por si só, que a compra seja barata ou que haverá sinergias.",
+          "uncertainty": "Este anúncio sobre o uso dos recursos não fornece dados verificados de receita, lucro ou fluxo de caixa operacional da empresa-alvo suficientes para uma avaliação independente de seu valor. O saldo de recursos captados divulgado inclui juros e rendimentos de aplicações de caixa, e o valor transferido pode mudar. A justificativa estratégica da administração não deve ser tratada como um benefício operacional já alcançado.",
+          "watch": "Acompanhe a decisão dos acionistas, a conclusão da operação e as divulgações financeiras posteriores que identifiquem a contribuição do negócio adquirido. Evidências de retenção de clientes, custos de integração e conversão de lucros em caixa seriam mais informativas do que repetir a justificativa estratégica ou presumir um aumento imediato do lucro.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Valor acordado para a aquisição proposta"
+            },
+            {
+              "id": "m2",
+              "label": "Participação societária proposta para aquisição"
+            },
+            {
+              "id": "m3",
+              "label": "Saldo remanescente de recursos captados acima do previsto"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國市場動態。請留意各篇內容的發布日期；近期公司財報在此作為背景解析。",
+      "status": "本期涵蓋美國與中國市場動態。請留意各則消息的發布日期；近期企業報告以背景解說方式呈現。",
       "marketSummary": {
-        "us": "部分收盤資訊未能核實。各項可用的指數資料均保留其各自的交易日期。",
-        "cn": "追蹤的指數在最近經核實的交易日均上漲。附有日期的收盤資料僅反映當日情況，不代表目前行情。"
+        "us": "部分收盤資料未能核實。各項可取得的指數資料均保留各自的交易日期。",
+        "cn": "追蹤的指數在最近經核實的交易日均下跌。標示日期的收盤資料反映當日情況，並非目前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "科迪華財報涵蓋範圍改變，同時面臨巴西市場壓力",
-          "summary": "科迪華公布作物保護業務銷售下滑，並更新展望；巴西市場環境艱困，抵銷了新產品帶來的成長動能。",
-          "impact": "財務上的意涵是，即使農業生產仍需要相關產品，農民融資受限而延後採購，仍會對農業供應商造成壓力。",
-          "what": "作物保護業務按擬制財報口徑計算，持續營業單位出現虧損，但調整後的營運獲利指標仍為正。這些是不同的會計衡量方式，並非彼此矛盾的現金收支結果。公司公告將巴西業務疲弱歸因於經銷商庫存、農民資金受限，以及成熟產品的市場競爭。",
-          "why": "對農民而言，能否取得貸款會影響購買農業生產資材的時機。對供應商而言，訂單延後與折價銷售可能壓低營收及利潤率。分析重點在於，當銷售通路消化既有庫存時，具差異化的產品能否支撐獲利能力。",
-          "uncertainty": "作物保護業務的擬制損益，不可視為等同於歷史合併現金流量表。此處呈現的營業活動現金流出指標涵蓋歷史持續營業單位，財報範圍並不相同。調整後營業 EBITDA 也排除了對股東有影響的成本，並不等於可供分配的現金。",
-          "watch": "留意巴西經銷商庫存、客戶款項回收情況，以及後續獨立財報的現金流量揭露，以判斷營運改善是否轉化為現金流入。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度擬制銷貨淨額"
-            },
-            {
-              "id": "m2",
-              "label": "季度擬制持續營業單位虧損"
-            },
-            {
-              "id": "m3",
-              "label": "季度調整後擬制營業 EBITDA"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今歷史持續營業單位營業活動現金流量"
-            },
-            {
-              "id": "m5",
-              "label": "全年調整後擬制營業 EBITDA 財測下限"
-            },
-            {
-              "id": "m6",
-              "label": "全年調整後擬制營業 EBITDA 財測上限"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "財報解析：寧德時代成長之際，仍須檢視現金轉換情況",
-          "summary": "寧德時代已註明日期的季度財報顯示，營收與歸屬母公司淨利成長，但年初至今營業活動產生的現金流量轉弱。",
-          "impact": "對中國大陸股東而言，這意味著評估業務擴張時，應檢視收款與營運資金狀況，而不能只看會計獲利。",
-          "what": "這是財報解析，並非最新公告。這家電池公司的財報分別呈現季度獲利與累計營業活動現金流量。資產負債表的說明指出，應收款項及存貨增加與業務擴張有關，而預付供應商款項增加則與支付供應商款項有關。",
-          "why": "公司可能在客戶付款前就認列營收，而存貨及預付供應商款項，則會在產品帶來收款前占用資金。這表示，即使業務成長有獲利，仍可能產生資金需求。因此，投資人需要區分衡量會計績效的損益表，以及記錄營運所產生現金的營業活動現金流量。",
-          "uncertainty": "這份財報未經會計師查核。開頭表格未提供季度本身的營業活動現金流量，因此不可將累計現金流量直接與季度獲利比較。營運資金各項餘額，也不足以認定現金流量變動完全由何種因素造成。",
-          "watch": "留意後續應收款項回收、存貨變化與現金流量揭露，觀察業務擴張是否轉化為現金流入，而非持續需要額外資金。",
+          "title": "CoreWeave 財報解讀：需求強勁不等於成長能靠自身資金支應",
+          "summary": "CoreWeave 在所標示日期發布的財報顯示，公司有營業利益，但仍錄得淨損，營業活動現金流量則為正。",
+          "impact": "融資層面的關鍵在於，客戶實際支付的款項能否支應基礎設施投入承諾，而不必持續依賴外部資金。",
+          "what": "CoreWeave 提供用於人工智慧運算的雲端基礎設施。其財務報表區分了扣除融資成本與稅項前的獲利，以及最終淨利或淨損；現金流量表則另外記錄基礎設施採購。管理階層也上調了全年營收展望，但這仍是預測，而非已實現的銷售。本篇解讀的是報導附註日期所對應的財報，並非最新財報公告。",
+          "why": "對初學者而言，重點是分清楚銷售運算服務、認列會計獲利，以及收到可動用現金之間的差別。購買設備會在付款時消耗現金，折舊則將會計成本分攤至設備使用期間。客戶預付款可能在相關服務交付前，就挹注營業活動現金流量。因此，營業活動產生正現金流，並不代表擴張可以完全靠自身資金支應。這些財務報表說明，雲端服務客戶、設備供應商與貸款機構為何應檢視資金循環，而非只看營收標題。我們的解讀是，即使需求看似穩健，取得融資的能力仍是評估投資價值的核心。",
+          "uncertainty": "營收展望是管理階層的預期，所選資料不足以判定獲利是否優於經獨立核實的市場共識。營業活動現金流量不等於自由現金流量，也不應以現金採購項目取代管理階層採用、範圍較廣的資本支出指標。",
+          "watch": "後續可合併觀察應收帳款、遞延收入、現金設備採購與融資揭露。判斷重點是實際收到的客戶款項與可持續的資金來源，能否跟上基礎設施部署，而非只看調整後獲利指標是否改善。",
           "metricLabels": [
             {
               "id": "m1",
@@ -841,23 +995,83 @@
             },
             {
               "id": "m2",
-              "label": "季度歸屬母公司淨利"
+              "label": "季度 GAAP 營業利益"
             },
             {
               "id": "m3",
-              "label": "年初至今累計營收"
+              "label": "季度 GAAP 淨利"
             },
             {
               "id": "m4",
-              "label": "年初至今累計歸屬母公司淨利"
+              "label": "季度營業活動現金流量"
             },
             {
               "id": "m5",
-              "label": "年初至今累計營業活動現金流量"
+              "label": "季度設備與資本化軟體現金採購支出"
             },
             {
               "id": "m6",
-              "label": "年初至今累計營業活動現金流量年增減"
+              "label": "全年營收展望下限"
+            },
+            {
+              "id": "m7",
+              "label": "全年營收展望上限"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "BCP Investment 簽署併購協議，信用品質仍待檢驗",
+          "summary": "BCP Investment 披露新簽署的收購協議，同時公布財報：淨投資收益為正，但營運整體仍錄得會計虧損。",
+          "impact": "這項交易能否創造整併效益，仍須與維持資產價值及收回借款人款項的持續需求衡量。",
+          "what": "BCP Investment 是為中型企業提供融資的業務發展公司。公告披露，公司已簽約收購 Investcorp Credit Management BDC，但仍須符合交割條件，包括取得收購標的股東批准。財務表格區分了扣除費用後的投資收益，以及涵蓋已實現與未實現投資損益的整體營運結果。隨附指標也列出實物支付收益，以及被列為停止計息的投資部位。",
+          "why": "對貸款機構而言，利息收入並不等於完整的經濟成果。借款人的貸款價值可能惡化，但貸款機構仍認列利息收入；實物支付利息則是加計至投資金額，而非立即收到現金。我們的解讀是，讀者應同時評估收益創造與資本保全。整併可能讓營運費用分攤至更大的資產基礎，但規模擴大無法解決借款人的財務困境。對依賴私募信貸的企業而言，授信審核紀律會影響再融資的取得；對重視收益分配的股東而言，判斷配息能否持續時，會計收益與實際收到現金之間的差別相當重要。",
+          "uncertainty": "合併尚未完成，預期效益仍屬管理階層的評估。按公允價值衡量的停止計息投資部位，可能因估值變動而改變，不一定是借款人狀況好轉。這份公告中的營業活動現金流量未經核實，也不能從淨投資收益推算。",
+          "watch": "後續可留意股東批准、交割公告、向借款人實際收取的現金，以及投資組合後續估值。值得追蹤的是投資收益與現金收款之間的差異，並釐清信用品質改善究竟來自還款、追償回收、資產處分，還是估值變動。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度投資收益總額"
+            },
+            {
+              "id": "m2",
+              "label": "季度淨投資收益"
+            },
+            {
+              "id": "m3",
+              "label": "季度營運所致淨資產變動"
+            },
+            {
+              "id": "m4",
+              "label": "季度實物支付收益"
+            },
+            {
+              "id": "m5",
+              "label": "按公允價值計算的停止計息投資占比"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Rongqi 擬將募集資金投入半導體零組件業務",
+          "summary": "Rongqi 披露計畫，擬使用剩餘超募資金收購 Shanghai Deqishun 的控股權。",
+          "impact": "這項提案將把可動用資金轉為半導體設備零組件業務投資，因此執行成果與現金回報將成為判斷其價值的核心。",
+          "what": "Rongqi 開發智慧檢測與精密組裝設備，主要服務消費性電子與新能源應用領域。擬收購標的供應半導體設備用的精密高分子與金屬零組件。公告列出議定的收購對價，並將剩餘超募資金列為擬使用的資金來源。這項資金用途仍須取得股東授權；文件並未證明股權已完成移轉。",
+          "why": "我們的解讀是，財務重點在於資本配置，而不只是切入熱門產業。募集資金帳戶中的現金提供調度彈性；收購則將這份彈性投入企業，其回報取決於客戶、製造表現與整合情況。收購已有營運基礎的零組件供應商，可能取得自行建立時需要較長時間的能力，但收購價格仍須由未來經濟回報來支持。對現有股東而言，判斷重點是被收購業務的獲利，在滿足營運資金與投資需求後，能否轉化為現金。擬採用的資金來源，本身不能證明收購價格便宜，也不能證明綜效將會實現。",
+          "uncertainty": "這份資金用途公告未提供足以獨立評估估值、且經核實的收購標的營收、獲利或營業活動現金流量。披露的募集資金餘額包含利息及現金管理收益，實際轉出金額可能變動。管理階層提出的策略理由，不應被視為已實現的營運效益。",
+          "watch": "後續可留意股東決議、交易完成情況，以及說明被收購業務貢獻的財務揭露。客戶留存、整合成本與獲利轉化為現金的證據，會比重述策略理由或假設收購能立即增厚獲利更有參考價值。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "擬議收購的議定對價"
+            },
+            {
+              "id": "m2",
+              "label": "擬收購股權比例"
+            },
+            {
+              "id": "m3",
+              "label": "剩餘超募資金餘額"
             }
           ]
         }
