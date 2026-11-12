@@ -1,100 +1,202 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-12T18:55:08.520Z",
-  "generatedAt": "2026-11-12T18:59:22.601Z",
+  "cutoffAt": "2026-11-12T21:28:47.441Z",
+  "generatedAt": "2026-11-12T21:35:09.336Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Federal Reserve Bank of St. Louis — broad US equity close data",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "NVIDIA leadership-transition release",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
     },
     {
       "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite close data",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "NVIDIA independent-board investigation statement",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
     },
     {
       "id": "src3",
-      "label": "Xinhua Finance — mainland closing report",
-      "url": "https://www.cnfin.com/yw-lb/detail/20261112/4494622_1.html"
-    },
-    {
-      "id": "src4",
-      "label": "Investing — mainland large-cap historical closing table",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
-    },
-    {
-      "id": "src5",
-      "label": "AI cloud issuer — earnings announcement and business description",
-      "url": "https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results"
-    },
-    {
-      "id": "src6",
-      "label": "AI cloud issuer — financial results and cash-flow statements",
-      "url": "https://assets.nebius.com/assets/508584f1-b73d-484f-b64f-f96a5bc3b515/Nebius%20Q3%202026%20Financial%20Results%20Press%20Release.pdf?cache-buster=2026-11-12T11:39:45.923Z"
-    },
-    {
-      "id": "src7",
-      "label": "Department of Labor — archived unemployment insurance release",
+      "label": "Labor Department weekly unemployment-insurance release",
       "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261694.pdf"
     },
     {
+      "id": "src4",
+      "label": "CATL quarterly financial report",
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-21/0b788700-eb1b-45d1-a7a9-c6e5646b386b.PDF"
+    },
+    {
+      "id": "src5",
+      "label": "Olympic Circuit abnormal-trading disclosure",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-12/1225667481.PDF"
+    },
+    {
+      "id": "src6",
+      "label": "CoreWeave quarterly earnings release and financial statements",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "id": "src7",
+      "label": "CoreWeave management earnings-call transcript",
+      "url": "https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Transcript-_1_.pdf"
+    },
+    {
       "id": "src8",
-      "label": "Chemical issuer — original investment announcement hosted by Sina",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-11/2026-11-12/12702230.PDF"
+      "label": "Associated Press dated American index closing report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-3f3668a937a11535103e3a5c8d82c9fc"
     },
     {
       "id": "src9",
-      "label": "Battery issuer — quarterly financial report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+      "label": "FRED broad American equity index closing observations",
+      "url": "https://fred.stlouisfed.org/series/SP500"
+    },
+    {
+      "id": "src10",
+      "label": "FRED Nasdaq Composite closing observations",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+    },
+    {
+      "id": "src11",
+      "label": "Dated mainland index closing table",
+      "url": "https://m.cngold.org/stock/xw10876301.html"
+    },
+    {
+      "id": "src12",
+      "label": "Tonghuashun dated mainland closing report",
+      "url": "https://news.10jqka.com.cn/20261112/c681748583.shtml"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-11",
-      "close": 7619.38,
-      "previousClose": 7520.93,
-      "changePercent": 1.3090136459,
-      "sourceIds": [
-        "src1"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-11",
-      "close": 25466.19,
-      "previousClose": 25065.87,
-      "changePercent": 1.5970720346,
-      "sourceIds": [
-        "src2"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-12",
-      "close": 3655.83,
+      "sessionDate": null,
+      "close": null,
       "previousClose": null,
-      "changePercent": -0.67,
-      "sourceIds": [
-        "src3"
-      ]
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-12",
-      "close": 4043.93,
-      "previousClose": 4075.71,
-      "changePercent": -0.78,
-      "sourceIds": [
-        "src4"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     }
   ],
   "stories": [
     {
       "id": "f2",
+      "market": "cn",
+      "category": "earnings",
+      "publishedOn": "2026-10-21",
+      "company": {
+        "name": "Contemporary Amperex Technology",
+        "ticker": "300750",
+        "exchange": "Shenzhen Stock Exchange"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 165220844000,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Main accounting indicators table, current-quarter revenue row; source currency amounts are expressed in thousands of yuan."
+        },
+        {
+          "id": "m2",
+          "value": 21246061000,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Main accounting indicators table, current-quarter net profit attributable to listed-company shareholders."
+        },
+        {
+          "id": "m3",
+          "value": 442137424000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Main accounting indicators table, year-to-date revenue column."
+        },
+        {
+          "id": "m4",
+          "value": 64530063000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Main accounting indicators table, year-to-date attributable net profit column."
+        },
+        {
+          "id": "m5",
+          "value": 61625487000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Main accounting indicators table, year-to-date net cash from operating activities."
+        },
+        {
+          "id": "m6",
+          "value": -23.6,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src4"
+          ],
+          "evidence": "Main accounting indicators table, year-to-date operating-cash-flow annual comparison."
+        }
+      ],
+      "sourceIds": [
+        "src4"
+      ],
+      "evidence": "Main accounting indicators and explanation-of-changes tables distinguish quarter results from cumulative cash flow; receivables, inventory and supplier advances increased. Report states the financial statements are unaudited."
+    },
+    {
+      "id": "f3",
       "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-12",
@@ -109,9 +211,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src3"
           ],
-          "evidence": "Opening seasonally adjusted data paragraph and regular state programs table, advance initial claims."
+          "evidence": "Opening seasonally adjusted data section, advance initial unemployment-insurance claims."
         },
         {
           "id": "m2",
@@ -122,9 +224,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src3"
           ],
-          "evidence": "Opening paragraph, revised preceding-week seasonally adjusted initial claims."
+          "evidence": "Opening seasonally adjusted data section, revised prior-week initial claims."
         },
         {
           "id": "m3",
@@ -135,140 +237,63 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src3"
           ],
-          "evidence": "Seasonally adjusted data, advance insured unemployment; this series covers an earlier week than initial claims."
+          "evidence": "Opening seasonally adjusted data section, advance insured-unemployment count."
+        },
+        {
+          "id": "m4",
+          "value": 1.1,
+          "unit": "percent",
+          "periodStart": "2026-10-25",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src3"
+          ],
+          "evidence": "Opening seasonally adjusted data section, insured unemployment rate."
         }
       ],
       "sourceIds": [
-        "src7"
+        "src3"
       ],
-      "evidence": "Archived release, seasonally adjusted opening paragraphs and regular state programs tables: initial claims rose, while insured unemployment declined in its separately dated reporting week."
+      "evidence": "Opening seasonally adjusted data section: initial applications increased, the smoothed initial-claims average was unchanged, and continuing insured unemployment declined."
     },
     {
       "id": "f4",
       "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-21",
+      "category": "company",
+      "publishedOn": "2026-11-12",
       "company": {
-        "name": "Contemporary Amperex Technology",
-        "ticker": "300750",
-        "exchange": "SZSE"
+        "name": "Guangdong Olympic Circuit Technology",
+        "ticker": "603920",
+        "exchange": "Shanghai Stock Exchange"
       },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 165220844000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting data table, current reporting-period revenue; converted from thousands of yuan."
-        },
-        {
-          "id": "m2",
-          "value": 21246061000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting data table, current reporting-period net profit attributable to listed-company shareholders."
-        },
-        {
-          "id": "m3",
-          "value": 61625487000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting data table, year-to-date net cash generated by operating activities; not a standalone-quarter figure."
-        },
-        {
-          "id": "m4",
-          "value": -23.6,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting data table, year-to-date operating cash-flow change against the corresponding prior-year period."
-        },
-        {
-          "id": "m5",
-          "value": 64530063000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting data table, year-to-date net profit attributable to listed-company shareholders."
-        }
-      ],
+      "metrics": [],
       "sourceIds": [
-        "src9"
+        "src5"
       ],
-      "evidence": "Main accounting data table separately identifies quarterly sales and attributable profit, plus year-to-date attributable profit and operating cash flow; important notices state that the report is unaudited."
+      "evidence": "Important-content notice and operating-review section: company reports normal operations and no undisclosed material information after internal checks and shareholder enquiries. Notice says the previously announced employee-incentive repurchase remains unimplemented."
     }
   ],
   "locales": {
     "en": {
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Claims report gives a mixed labor-market signal",
-          "summary": "New unemployment benefit applications increased, while continuing insured unemployment declined in its separately reported week.",
-          "impact": "The release warrants monitoring household income risk without establishing a broad deterioration in employment.",
-          "what": "The Labor Department published advance state unemployment insurance data, including a revision to the preceding initial-claims reading. Initial claims track applications for benefits; continuing claims describe people remaining in covered benefit programs. These measures have different reporting lags and should not be treated as simultaneous observations.",
-          "why": "Losing employment can interrupt household spending and debt payments. For businesses, a sustained deterioration could weaken customer demand while making recruitment easier. For equities, labor conditions can affect expected sales, wage costs and monetary-policy expectations. Those channels can work in opposing directions, so a claims release does not mechanically imply a particular market response.",
-          "uncertainty": "The advance figures can be revised, seasonal adjustment affects interpretation, and benefit-program coverage is not the same as the entire unemployed population. The insured unemployment measure should not be confused with the headline national unemployment rate.",
-          "watch": "Watch subsequent revisions and whether initial and continuing claims develop a consistent pattern; compare that evidence with payroll employment and household labor-market measures before drawing a broad conclusion.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Seasonally adjusted initial claims"
-            },
-            {
-              "id": "m2",
-              "label": "Revised preceding-week initial claims"
-            },
-            {
-              "id": "m3",
-              "label": "Seasonally adjusted continuing insured unemployment"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Battery earnings explainer: profit is not cash",
-          "summary": "The dated CATL report shows profitable battery operations alongside weaker year-to-date operating cash generation.",
-          "impact": "The distinction matters when evaluating how comfortably the business can fund expansion and shareholder distributions.",
-          "what": "This is an earnings explainer of an earlier release, not a new announcement. CATL manufactures batteries used in electric vehicles and energy storage. The selected figures keep standalone-quarter revenue and attributable profit separate from year-to-date operating cash flow and attributable profit. The report is unaudited.",
-          "why": "Profit measures economic performance under accounting rules; operating cash flow measures cash generated or absorbed by operating activity. A manufacturer can record a sale before collecting payment, purchase inventory before selling it, or change when it pays suppliers. These timing differences mean profitable growth can still require financing. They are relevant to customers depending on reliable supply and to shareholders examining the durability of distributions.",
-          "uncertainty": "The report's headline table does not provide standalone-quarter operating cash flow, so the selected cash figure must not be compared directly with quarterly profit. Attributable profit also excludes earnings belonging to minority shareholders, while consolidated operating cash flow has a broader scope.",
-          "watch": "Watch subsequent receivables, inventory, supplier payments and operating cash-flow disclosures. Assess whether cash conversion supports continued investment rather than assuming that accounting earnings are immediately available for distribution.",
+          "title": "CATL earnings explainer: profit is not cash collection",
+          "summary": "CATL’s previously released financial report separates profitable expansion from weaker cumulative operating cash generation.",
+          "impact": "Battery-sector investors need to assess working-capital demands alongside reported earnings rather than treating sales as immediately available cash.",
+          "what": "This is an earnings explainer for the displayed release date, not fresh breaking news. The report records revenue and attributable profit, while cumulative operating cash flow declined against the comparable period. It also reports increased receivables, inventories and supplier advances. The quarter’s earnings and the cumulative cash figures cover different periods and must not be directly presented as matching measures.",
+          "why": "The accounting distinction matters for an industrial supplier: revenue can be recognized before customers pay, while inventory and supplier advances can absorb cash before finished products generate collections. Profitable growth can therefore require financing. That does not automatically mean earnings are poor quality, but it makes collection discipline and production planning financially important. For businesses buying batteries, supplier investment capacity can affect availability; for shareholders, cash conversion helps determine how comfortably expansion can be financed.",
+          "uncertainty": "The report is unaudited. Its summary does not provide a standalone quarterly operating-cash-flow amount, so the cumulative figure is not substituted for quarterly cash generation. The reported working-capital movements alone do not prove customer distress, inventory obsolescence or a permanent deterioration in collections. Those would require additional evidence.",
+          "watch": "Watch subsequent receivable collections, inventory movements, supplier advances and operating cash flow on comparable reporting periods. Improving cash conversion would strengthen the funding picture; persistent absorption would warrant closer examination of financing needs rather than an automatic conclusion about demand.",
           "metricLabels": [
             {
               "id": "m1",
@@ -280,60 +305,79 @@
             },
             {
               "id": "m3",
-              "label": "Year-to-date operating cash flow"
+              "label": "Year-to-date revenue"
             },
             {
               "id": "m4",
-              "label": "Year-to-date operating cash-flow change"
+              "label": "Year-to-date attributable net profit"
             },
             {
               "id": "m5",
-              "label": "Year-to-date attributable net profit"
+              "label": "Year-to-date operating cash flow"
+            },
+            {
+              "id": "m6",
+              "label": "Operating cash flow annual change"
             }
           ]
-        }
-      ]
-    },
-    "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés à titre d’explication et de contexte.",
-      "marketSummary": {
-        "us": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges en cours.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges en cours."
-      },
-      "stories": [
+        },
         {
-          "id": "f2",
-          "title": "Les demandes d’allocations chômage donnent un signal contrasté sur l’emploi",
-          "summary": "Les nouvelles demandes d’allocations chômage ont augmenté, tandis que le nombre de personnes restant indemnisées a diminué sur une semaine de référence distincte.",
-          "impact": "Cette publication justifie de surveiller les risques pesant sur les revenus des ménages, sans établir une dégradation générale de l’emploi.",
-          "what": "Le département du Travail a publié des données préliminaires sur l’assurance chômage des États fédérés, avec une révision du chiffre précédent des nouvelles demandes. Les demandes initiales mesurent les demandes d’allocations ; les demandes continues concernent les personnes qui restent dans les dispositifs d’indemnisation couverts. Ces indicateurs sont publiés avec des décalages différents et ne doivent pas être considérés comme des observations simultanées.",
-          "why": "La perte d’un emploi peut interrompre les dépenses des ménages et le remboursement de leurs dettes. Pour les entreprises, une dégradation durable pourrait affaiblir la demande des clients tout en facilitant les recrutements. Sur le marché des actions, la situation de l’emploi peut influencer les ventes attendues, les coûts salariaux et les anticipations de politique monétaire. Ces effets peuvent jouer dans des directions opposées : une publication sur les demandes d’allocations n’entraîne donc pas mécaniquement une réaction particulière du marché.",
-          "uncertainty": "Les données préliminaires peuvent être révisées, la correction des variations saisonnières influe sur leur interprétation, et les personnes couvertes par les dispositifs d’indemnisation ne représentent pas l’ensemble des chômeurs. L’indicateur du chômage indemnisé ne doit pas être confondu avec le taux de chômage national généralement cité.",
-          "watch": "Surveillez les révisions ultérieures et l’apparition éventuelle d’une tendance cohérente entre les demandes initiales et continues. Comparez ces éléments aux données sur l’emploi salarié et aux indicateurs du marché du travail issus des enquêtes auprès des ménages avant de tirer une conclusion générale.",
+          "id": "f3",
+          "title": "American benefit claims give a mixed labor signal",
+          "summary": "Initial unemployment-benefit applications increased, while continuing insured unemployment declined.",
+          "impact": "The release offers a timely check on employment-related spending risk without establishing a broad hiring downturn.",
+          "what": "The Labor Department’s advance release shows increased initial applications relative to the revised preceding observation, but an unchanged smoothed initial-claims average. Continuing claims concern an earlier reporting week, so the measures should not be treated as simultaneous readings. They describe applications for unemployment insurance and ongoing insured unemployment, not company payroll additions.",
+          "why": "The economic mechanism is household income security. A sustained deterioration in employment can restrain discretionary purchases and make debt payments harder, affecting retailers, lenders and service providers. Conversely, a volatile application reading need not translate into lasting weakness in consumer demand. For employers, claims can help identify changing labor-market conditions, but they cannot replace evidence about recruitment, wages and employee turnover. The relevant financial question is whether an application movement persists and spreads into spending or credit performance.",
+          "uncertainty": "The figures are preliminary and seasonally adjusted, and the release revises earlier observations. Benefit claims cover an insured population rather than every unemployed person. They are not the economy-wide unemployment rate and do not directly measure vacancies or hiring. The mixed directions therefore do not justify a confident recession conclusion or a mechanical prediction about monetary policy.",
+          "watch": "Watch revisions and subsequent initial and continuing claims, particularly whether their directions converge. Payroll, wage and household-spending releases would provide complementary evidence before translating this administrative report into a broad earnings or consumption outlook.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Demandes initiales d’allocations chômage corrigées des variations saisonnières"
+              "label": "Initial claims, seasonally adjusted"
             },
             {
               "id": "m2",
-              "label": "Demandes initiales révisées de la semaine précédente"
+              "label": "Prior-week initial claims, revised"
             },
             {
               "id": "m3",
-              "label": "Nombre de chômeurs restant indemnisés, corrigé des variations saisonnières"
+              "label": "Continuing insured unemployment"
+            },
+            {
+              "id": "m4",
+              "label": "Insured unemployment rate"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Comprendre les résultats d’un fabricant de batteries : bénéfice ne signifie pas trésorerie",
-          "summary": "Le rapport daté de CATL présente une activité de batteries rentable, mais une moindre génération de trésorerie d’exploitation depuis le début de l’exercice.",
-          "impact": "Cette distinction compte pour évaluer la capacité de l’entreprise à financer sereinement son expansion et les distributions aux actionnaires.",
-          "what": "Il s’agit d’une explication des résultats d’une publication antérieure, et non d’une nouvelle annonce. CATL fabrique des batteries destinées aux véhicules électriques et au stockage d’énergie. Les chiffres sélectionnés distinguent le chiffre d’affaires et le bénéfice net part du groupe du trimestre des flux de trésorerie d’exploitation et du bénéfice net part du groupe cumulés depuis le début de l’exercice. Le rapport n’est pas audité.",
-          "why": "Le bénéfice mesure la performance économique selon les règles comptables ; les flux de trésorerie d’exploitation mesurent l’argent généré ou consommé par l’activité courante. Un fabricant peut comptabiliser une vente avant d’être payé, acheter des stocks avant de les vendre ou modifier le calendrier de paiement de ses fournisseurs. Ces décalages signifient qu’une croissance rentable peut malgré tout nécessiter un financement. Ils concernent les clients qui dépendent d’un approvisionnement fiable, ainsi que les actionnaires qui examinent la pérennité des distributions.",
-          "uncertainty": "Le tableau de synthèse du rapport ne fournit pas les flux de trésorerie d’exploitation du trimestre pris isolément : le montant de trésorerie retenu ne doit donc pas être comparé directement au bénéfice trimestriel. Le bénéfice net part du groupe exclut par ailleurs les bénéfices revenant aux actionnaires minoritaires, tandis que les flux de trésorerie d’exploitation consolidés couvrent un périmètre plus large.",
-          "watch": "Surveillez les publications ultérieures concernant les créances clients, les stocks, les paiements aux fournisseurs et les flux de trésorerie d’exploitation. Évaluez si la conversion des bénéfices en trésorerie permet de poursuivre les investissements, plutôt que de supposer que les bénéfices comptables sont immédiatement disponibles pour être distribués.",
+          "title": "Olympic Circuit separates trading excitement from operating news",
+          "summary": "Olympic Circuit reported normal operations and no undisclosed material information following unusual share-price movements.",
+          "impact": "The filing cautions against treating market enthusiasm or an announced repurchase as evidence of improved earnings or completed cash deployment.",
+          "what": "After internal checks and enquiries to its controlling shareholder and actual controller, the issuer said it had no material information requiring disclosure that remained undisclosed. It also reiterated that its previously announced repurchase, intended for employee ownership or equity incentives, had not been implemented. This is a trading-risk disclosure, not an earnings release or a new operating contract.",
+          "why": "The financial distinction is between corporate intent, execution and operating performance. A proposed share purchase does not mean cash has already been spent or shares acquired. Its employee-incentive purpose also differs from assuming that purchased shares will be permanently cancelled. For a beginner, the central lesson is that price activity is not a substitute for evidence about sales, profitability or cash generation. A company can operate normally while its shares still expose holders to substantial valuation and trading risk.",
+          "uncertainty": "The statement reflects the company’s checks and representations at disclosure, not a guarantee about future trading or future business conditions. It supplies no fresh revenue, profit or operating-cash-flow results, so none are inferred here. Normal operations also do not establish that the market price fairly reflects the business.",
+          "watch": "Watch actual repurchase implementation notices and subsequent financial reporting. Execution disclosures would establish whether corporate cash has been deployed, while earnings and cash-flow statements would address operating performance. Until then, the announced plan should remain distinct from a completed transaction.",
+          "metricLabels": []
+        }
+      ]
+    },
+    "fr": {
+      "status": "Cette édition couvre l’actualité américaine et chinoise. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés comme des éclairages de contexte.",
+      "marketSummary": {
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
+      },
+      "stories": [
+        {
+          "id": "f2",
+          "title": "Comprendre les résultats de CATL : bénéfice ne signifie pas encaissement",
+          "summary": "Le rapport financier déjà publié de CATL distingue une croissance rentable d’une moindre génération cumulée de trésorerie d’exploitation.",
+          "impact": "Les investisseurs du secteur des batteries doivent examiner les besoins de financement du cycle d’exploitation en parallèle des bénéfices publiés, plutôt que de considérer les ventes comme de l’argent immédiatement disponible.",
+          "what": "Il s’agit d’un éclairage sur les résultats à la date de publication affichée, et non d’une nouvelle de dernière minute. Le rapport présente le chiffre d’affaires et le bénéfice attribuable aux actionnaires, tandis que les flux de trésorerie d’exploitation cumulés ont diminué par rapport à la période comparable. Il fait aussi état d’une hausse des créances clients, des stocks et des avances aux fournisseurs. Les résultats trimestriels et les données de trésorerie cumulées couvrent des périodes différentes et ne doivent pas être présentés comme directement comparables.",
+          "why": "Cette distinction comptable compte pour un fournisseur industriel : le chiffre d’affaires peut être comptabilisé avant le paiement des clients, tandis que les stocks et les avances aux fournisseurs peuvent mobiliser de la trésorerie avant que les produits finis ne génèrent des encaissements. Une croissance rentable peut donc nécessiter un financement. Cela ne signifie pas automatiquement que les bénéfices sont de mauvaise qualité, mais rend la rigueur du recouvrement et la planification de la production importantes sur le plan financier. Pour les entreprises qui achètent des batteries, la capacité d’investissement du fournisseur peut influer sur la disponibilité des produits ; pour les actionnaires, la conversion des bénéfices en trésorerie aide à apprécier la facilité avec laquelle l’expansion peut être financée.",
+          "uncertainty": "Le rapport n’est pas audité. Sa synthèse ne fournit pas de montant de flux de trésorerie d’exploitation propre au trimestre : le montant cumulé n’est donc pas utilisé à sa place. Les variations publiées des besoins liés au cycle d’exploitation ne prouvent pas, à elles seules, des difficultés chez les clients, une obsolescence des stocks ou une dégradation durable des encaissements. De telles conclusions nécessiteraient des éléments supplémentaires.",
+          "watch": "Les prochains encaissements de créances clients, mouvements de stocks, avances aux fournisseurs et flux de trésorerie d’exploitation seront à suivre sur des périodes comparables. Une meilleure conversion des bénéfices en trésorerie renforcerait la situation de financement ; une absorption persistante de trésorerie justifierait un examen plus attentif des besoins de financement, plutôt qu’une conclusion automatique sur la demande.",
           "metricLabels": [
             {
               "id": "m1",
@@ -341,129 +385,167 @@
             },
             {
               "id": "m2",
-              "label": "Bénéfice net trimestriel part du groupe"
+              "label": "Résultat net trimestriel attribuable aux actionnaires"
             },
             {
               "id": "m3",
-              "label": "Flux de trésorerie d’exploitation cumulés depuis le début de l’exercice"
+              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
             },
             {
               "id": "m4",
-              "label": "Variation des flux de trésorerie d’exploitation cumulés depuis le début de l’exercice"
+              "label": "Résultat net attribuable aux actionnaires cumulé depuis le début de l’exercice"
             },
             {
               "id": "m5",
-              "label": "Bénéfice net part du groupe cumulé depuis le début de l’exercice"
+              "label": "Flux de trésorerie d’exploitation cumulés depuis le début de l’exercice"
+            },
+            {
+              "id": "m6",
+              "label": "Variation annuelle des flux de trésorerie d’exploitation"
             }
           ]
+        },
+        {
+          "id": "f3",
+          "title": "Les demandes d’allocations chômage américaines donnent un signal contrasté sur l’emploi",
+          "summary": "Les nouvelles demandes d’allocations chômage ont augmenté, tandis que le nombre de personnes restant indemnisées a diminué.",
+          "impact": "Cette publication apporte un éclairage rapide sur les risques que la situation de l’emploi fait peser sur les dépenses, sans établir un recul généralisé des embauches.",
+          "what": "La publication préliminaire du département du Travail montre une hausse des nouvelles demandes par rapport à la donnée précédente révisée, mais une stabilité de leur moyenne lissée, qui atténue les fluctuations. Les demandes continues d’indemnisation concernent une semaine de référence antérieure : ces indicateurs ne doivent donc pas être considérés comme des observations simultanées. Ils décrivent les demandes d’assurance chômage et le maintien de l’indemnisation, et non les créations d’emplois salariés dans les entreprises.",
+          "why": "Le mécanisme économique passe par la sécurité des revenus des ménages. Une dégradation durable de l’emploi peut freiner les achats non essentiels et compliquer le remboursement des dettes, avec des conséquences pour les distributeurs, les prêteurs et les prestataires de services. À l’inverse, une fluctuation des demandes ne se traduit pas nécessairement par une faiblesse durable de la consommation. Pour les employeurs, ces demandes peuvent aider à repérer une évolution du marché du travail, mais elles ne remplacent pas les informations sur le recrutement, les salaires et la rotation du personnel. La question financière pertinente est de savoir si leur évolution persiste et se répercute sur les dépenses ou le remboursement des crédits.",
+          "uncertainty": "Les données sont préliminaires et corrigées des variations saisonnières, et la publication révise des observations antérieures. Les demandes d’allocations concernent une population couverte par l’assurance chômage, et non l’ensemble des personnes sans emploi. Elles ne correspondent pas au taux de chômage de l’ensemble de l’économie et ne mesurent directement ni les postes vacants ni les embauches. Ces évolutions contrastées ne permettent donc ni de conclure avec assurance à une récession ni de prédire mécaniquement l’orientation de la politique monétaire.",
+          "watch": "Les révisions et les prochaines données sur les nouvelles demandes et les demandes continues seront à suivre, notamment pour voir si leurs évolutions convergent. Les publications sur l’emploi salarié, les salaires et les dépenses des ménages apporteraient des éléments complémentaires avant de tirer de ce rapport administratif une perspective générale sur les bénéfices ou la consommation.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Nouvelles demandes d’allocations chômage, corrigées des variations saisonnières"
+            },
+            {
+              "id": "m2",
+              "label": "Nouvelles demandes de la semaine précédente, révisées"
+            },
+            {
+              "id": "m3",
+              "label": "Nombre de personnes restant indemnisées au titre de l’assurance chômage"
+            },
+            {
+              "id": "m4",
+              "label": "Taux de chômage indemnisé"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Olympic Circuit distingue l’agitation boursière de l’actualité de son activité",
+          "summary": "Après des mouvements inhabituels de son cours de Bourse, Olympic Circuit a indiqué que ses activités se déroulaient normalement et qu’aucune information importante ne restait à publier.",
+          "impact": "Le communiqué met en garde contre l’idée que l’enthousiasme du marché ou l’annonce d’un rachat d’actions prouverait une amélioration des bénéfices ou une utilisation déjà effective de la trésorerie.",
+          "what": "Après des vérifications internes et des demandes auprès de son actionnaire de contrôle et de la partie exerçant le contrôle effectif, la société a déclaré ne détenir aucune information importante soumise à une obligation de publication qui n’aurait pas encore été divulguée. Elle a également rappelé que le rachat d’actions précédemment annoncé, destiné à l’actionnariat salarié ou à des dispositifs d’intéressement en actions, n’avait pas été mis en œuvre. Il s’agit d’un communiqué sur les risques liés aux échanges boursiers, et non d’une publication de résultats ou de l’annonce d’un nouveau contrat commercial.",
+          "why": "La distinction financière porte sur l’intention de l’entreprise, sa mise en œuvre et les performances de son activité. Un projet de rachat d’actions ne signifie pas que la trésorerie a déjà été dépensée ou que les actions ont été acquises. Son objectif d’intéressement des salariés ne permet pas non plus de supposer que les actions rachetées seront définitivement annulées. Pour un débutant, l’idée essentielle est que les mouvements de cours ne remplacent pas les éléments sur les ventes, la rentabilité ou la génération de trésorerie. Une entreprise peut fonctionner normalement tout en exposant ses actionnaires à des risques importants liés à sa valorisation et aux fluctuations boursières.",
+          "uncertainty": "Cette déclaration reflète les vérifications et les affirmations de l’entreprise au moment de sa publication, et non une garantie sur l’évolution future du cours ou de l’activité. Elle ne fournit aucun nouveau résultat concernant le chiffre d’affaires, le bénéfice ou les flux de trésorerie d’exploitation : aucun n’est donc déduit ici. Le fonctionnement normal de l’entreprise ne prouve pas non plus que son cours de Bourse reflète correctement sa valeur.",
+          "watch": "Les avis de mise en œuvre effective du rachat et les prochaines publications financières seront à suivre. Les informations sur l’exécution permettraient d’établir si la trésorerie de l’entreprise a été utilisée, tandis que les comptes de résultat et les tableaux de flux de trésorerie renseigneraient sur les performances de l’activité. D’ici là, le projet annoncé doit rester distinct d’une opération réalisée.",
+          "metricLabels": []
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的相关动态。请留意各项内容的发布日期；近期公司报告在此作为背景解读，并非最新公告。",
+      "status": "本期涵盖美国和中国的动态。请留意各项内容的发布日期；近期公司报告在此作为背景解读，并非即时新闻。",
       "marketSummary": {
-        "us": "跟踪的指数在各自最近经核实的交易时段均上涨。标注日期的收盘数据反映的是当时的行情，并非当前交易情况。",
-        "cn": "跟踪的指数在各自最近经核实的交易时段均下跌。标注日期的收盘数据反映的是当时的行情，并非当前交易情况。"
+        "us": "部分收盘数据未能核实。可用的各项指数均保留各自的交易日期。",
+        "cn": "部分收盘数据未能核实。可用的各项指数均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "失业金申领报告释放就业市场的混合信号",
-          "summary": "初次申请失业救济的人数增加，而续领失业保险金人数在其另行统计的报告周下降。",
-          "impact": "这份报告提示需要关注家庭收入面临的风险，但尚不能据此认定就业状况普遍恶化。",
-          "what": "美国劳工部公布了各州失业保险初步数据，并修订了此前公布的初请失业金人数。初请失业金人数反映新提出的申领申请；续请失业金人数反映仍在相关保障计划中领取失业金的人数。这些指标的报告滞后时间不同，不应视为对同个时点的观察。",
-          "why": "失业可能打断家庭消费和债务偿付。对企业而言，就业状况若持续恶化，可能削弱客户需求，同时让招聘更容易。对股市而言，就业状况可能影响预期销售额、工资成本和货币政策预期。这些影响可能方向相反，因此不能机械地认为失业金申领报告必然引发某种市场反应。",
-          "uncertainty": "初步数据可能修订，季节性调整会影响解读，而失业保险计划覆盖的人群并不等同于全部失业人口。参保失业指标也不应与全国总体失业率混淆。",
-          "watch": "关注后续修订，以及初请和续请失业金人数是否呈现相互印证的趋势；在对就业状况作出整体判断前，应结合非农就业人数和家庭调查中的就业市场指标进行比较。",
+          "title": "宁德时代财报解读：利润不等于现金回款",
+          "summary": "宁德时代此前发布的财报显示，业务扩张带来盈利，但累计经营现金流有所减弱，需要区分看待。",
+          "impact": "电池行业投资者需要结合营运资金需求评估账面利润，不能把销售收入视为已经到手、可随时使用的现金。",
+          "what": "本文是对所示发布日期财报的解读，并非突发新闻。报告披露了营收和归母净利润，但累计经营现金流较上年同期下降。报告还显示，应收账款、存货和预付供应商款项增加。当季利润与累计现金流数据覆盖的期间不同，不能直接当作同期指标进行比较。",
+          "why": "对工业供应商而言，这种会计区别很重要：企业可能在客户付款前确认营收，而存货和预付供应商款项可能在成品带来回款前就占用现金。因此，有利润的增长也可能需要融资。这并不自动意味着盈利质量差，但说明回款管理和生产规划对财务状况很重要。对采购电池的企业而言，供应商的投资能力可能影响供货；对股东而言，利润转化为现金的能力有助于判断企业能否较从容地为扩张筹资。",
+          "uncertainty": "该报告未经审计。报告摘要未提供单独的当季经营现金流金额，因此不能用累计数据代替当季现金流。仅凭披露的营运资金变动，不能证明客户陷入困境、存货过时或回款能力永久恶化。这些判断需要更多证据。",
+          "watch": "关注后续应收账款回收、存货变动、预付供应商款项及经营现金流，并确保比较期间可比。现金转化能力改善将有助于增强资金保障；若现金持续被占用，则需要更仔细地审视融资需求，而不是直接对需求状况下结论。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "季调后初请失业金人数"
+              "label": "季度营收"
             },
             {
               "id": "m2",
-              "label": "修订后的前周初请失业金人数"
+              "label": "季度归母净利润"
             },
             {
               "id": "m3",
-              "label": "季调后续领失业保险金人数"
+              "label": "年初至今营收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今归母净利润"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今经营现金流"
+            },
+            {
+              "id": "m6",
+              "label": "经营现金流同比变动"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "美国失业救济申请释放喜忧参半的就业信号",
+          "summary": "首次申请失业救济人数上升，但持续领取失业保险的人数下降。",
+          "impact": "这份报告可及时帮助观察就业变化带来的消费支出风险，但不足以证明招聘出现普遍下滑。",
+          "what": "美国劳工部的初步报告显示，首次申请失业救济人数高于经修订的前期数据，但用于平滑波动的首次申请人数平均值保持不变。续请失业救济数据对应的报告周更早，因此不能把这些指标视为同时期的读数。它们反映的是失业保险申请和持续领取情况，并非企业新增就业人数。",
+          "why": "其影响经济的路径在于家庭收入保障。就业状况若持续恶化，可能抑制非必需消费，并增加偿还债务的难度，从而影响零售商、贷款机构和服务提供商。反过来，申请人数的短期波动未必会转化为消费需求的持久疲软。对雇主而言，失业救济申请数据有助于识别劳动力市场变化，但不能代替招聘、工资和员工流动方面的证据。财务上值得关注的是，申请人数的变化是否持续，以及是否传导至消费支出或信贷表现。",
+          "uncertainty": "这些数据为经季节性调整的初步值，报告也修订了此前数据。失业救济申请覆盖的是有失业保险保障的人群，而非所有失业者。它们不是整体经济的失业率，也不直接衡量职位空缺或招聘情况。因此，指标方向不尽相同，不足以支持对经济衰退作出笃定判断，也不能据此机械推断货币政策走向。",
+          "watch": "关注数据修订及后续首次申请和续请失业救济人数，尤其是它们的变化方向是否趋同。在将这份行政统计报告用于判断整体盈利或消费前景之前，非农就业人数、工资和家庭支出报告可提供补充证据。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "首次申请失业救济人数（经季节性调整）"
+            },
+            {
+              "id": "m2",
+              "label": "前周首次申请失业救济人数（修订值）"
+            },
+            {
+              "id": "m3",
+              "label": "持续领取失业保险人数"
+            },
+            {
+              "id": "m4",
+              "label": "参保失业率"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "电池企业财报解读：利润不等于现金",
-          "summary": "所标日期的宁德时代报告显示，电池业务保持盈利，但年初至报告期末的经营现金流表现减弱。",
-          "impact": "区分利润与现金，有助于判断企业能否较为从容地为业务扩张和股东分配提供资金。",
-          "what": "这是对此前发布财报的解读，并非新公告。宁德时代生产用于电动汽车和储能的电池。所选数据将当季营收、归母净利润，与年初至报告期末累计经营现金流、归母净利润分开呈现。该报告未经审计。",
-          "why": "利润按会计规则衡量经营成果；经营现金流衡量经营活动产生或消耗的现金。制造企业可能在收到货款前确认销售收入，在售出产品前采购存货，也可能调整向供应商付款的时间。这些时间差意味着，即使企业实现盈利增长，仍可能需要融资。对于依赖稳定供货的客户，以及考察股东分配能否持续的投资者，这些差异都很重要。",
-          "uncertainty": "报告的主要财务数据表未提供当季经营现金流，因此不能将所选累计现金流数据直接与当季利润比较。归母净利润也不包含归属于少数股东的利润，而合并口径的经营现金流覆盖范围更广。",
-          "watch": "关注后续披露的应收账款、存货、供应商付款和经营现金流情况。评估利润转化为现金的情况能否支持持续投资，而不是假定账面利润可以立即用于向股东分配。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "当季营收"
-            },
-            {
-              "id": "m2",
-              "label": "当季归母净利润"
-            },
-            {
-              "id": "m3",
-              "label": "年初至报告期末累计经营现金流"
-            },
-            {
-              "id": "m4",
-              "label": "年初至报告期末累计经营现金流变动"
-            },
-            {
-              "id": "m5",
-              "label": "年初至报告期末累计归母净利润"
-            }
-          ]
+          "title": "奥士康：交易热度不等于经营利好",
+          "summary": "股价出现异常波动后，奥士康表示经营正常，不存在应披露而未披露的重大信息。",
+          "impact": "这份公告提醒，市场热情或已公布的回购计划，并不能证明盈利改善，也不代表公司已经投入现金完成回购。",
+          "what": "公司经内部核查，并向控股股东及实际控制人询问后表示，不存在应披露而未披露的重大信息。公司还重申，此前公布、拟用于员工持股或股权激励的回购计划尚未实施。这是交易风险提示公告，并非业绩报告，也不是新的经营合同公告。",
+          "why": "从财务角度看，需要区分公司意向、实际执行和经营表现。拟议中的股份回购，不代表现金已经支出或股份已经购入。用于员工激励，也不同于假定回购股份将被永久注销。对初学者而言，关键是股价表现不能代替有关销售、盈利或现金创造能力的证据。即使公司经营正常，持股者仍可能面临较大的估值和交易风险。",
+          "uncertainty": "这份声明反映的是公司在披露时的核查结果和说明，并不保证未来的交易表现或经营状况。公告没有提供新的营收、利润或经营现金流业绩，因此本文不对此作出推断。经营正常也不能证明市场价格合理反映了企业价值。",
+          "watch": "关注实际回购进展公告及后续财务报告。执行公告可以确认公司是否已投入现金，利润表和现金流量表则有助于了解经营表现。在此之前，应将已公布的计划与已完成的交易明确区分。",
+          "metricLabels": []
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Esta edición abarca novedades de Estados Unidos y China. Consulta la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual.",
-        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "El informe de solicitudes de subsidio ofrece señales dispares sobre el mercado laboral",
-          "summary": "Las nuevas solicitudes de subsidio por desempleo aumentaron, mientras que el número de personas que seguían recibiendo prestaciones disminuyó en la semana comunicada por separado.",
-          "impact": "La publicación justifica vigilar el riesgo para los ingresos de los hogares, pero no demuestra un deterioro generalizado del empleo.",
-          "what": "El Departamento de Trabajo publicó datos preliminares de los programas estatales de seguro de desempleo, incluida una revisión del dato anterior de solicitudes iniciales. Las solicitudes iniciales reflejan las peticiones de prestaciones; las solicitudes continuadas reflejan a las personas que siguen recibiendo prestaciones de los programas cubiertos. Estas medidas se publican con distintos desfases y no deben tratarse como observaciones del mismo momento.",
-          "why": "Perder el empleo puede interrumpir el gasto de los hogares y el pago de sus deudas. Para las empresas, un deterioro sostenido podría debilitar la demanda de los clientes y facilitar la contratación de personal. En el mercado de acciones, las condiciones laborales pueden influir en las ventas previstas, los costes salariales y las expectativas sobre la política monetaria. Estos efectos pueden actuar en sentidos opuestos, por lo que un informe de solicitudes no implica automáticamente una reacción determinada del mercado.",
-          "uncertainty": "Los datos preliminares pueden revisarse, el ajuste estacional influye en su interpretación y la cobertura de los programas de prestaciones no equivale al conjunto de la población desempleada. La medida de desempleo cubierto por el seguro no debe confundirse con la tasa nacional de desempleo de referencia.",
-          "watch": "Observa las revisiones posteriores y si las solicitudes iniciales y continuadas muestran una tendencia coherente; contrasta esa información con el empleo en nóminas y las medidas del mercado laboral basadas en encuestas a hogares antes de extraer una conclusión general.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Solicitudes iniciales ajustadas por estacionalidad"
-            },
-            {
-              "id": "m2",
-              "label": "Solicitudes iniciales revisadas de la semana anterior"
-            },
-            {
-              "id": "m3",
-              "label": "Personas que siguen recibiendo prestaciones, ajustadas por estacionalidad"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Claves de los resultados del negocio de baterías: el beneficio no es efectivo",
-          "summary": "El informe de CATL correspondiente a la fecha indicada muestra un negocio de baterías rentable, junto con una menor generación de efectivo operativo acumulada en el ejercicio.",
-          "impact": "La distinción importa al evaluar con qué holgura la empresa puede financiar su expansión y las distribuciones a sus accionistas.",
-          "what": "Esta es una explicación de resultados publicados anteriormente, no un anuncio nuevo. CATL fabrica baterías para vehículos eléctricos y almacenamiento de energía. Las cifras seleccionadas mantienen separados los ingresos y el beneficio atribuible del trimestre de los flujos de efectivo de explotación y el beneficio atribuible acumulados en el ejercicio. El informe no está auditado.",
-          "why": "El beneficio mide el desempeño económico según las normas contables; el flujo de efectivo de explotación mide el efectivo generado o consumido por la actividad operativa. Un fabricante puede registrar una venta antes de cobrarla, comprar existencias antes de venderlas o modificar el momento en que paga a sus proveedores. Estas diferencias de calendario hacen que incluso un crecimiento rentable pueda necesitar financiación. Son relevantes para los clientes que dependen de un suministro fiable y para los accionistas que evalúan si las distribuciones pueden mantenerse.",
-          "uncertainty": "La tabla principal del informe no presenta el flujo de efectivo de explotación del trimestre por separado, por lo que la cifra de efectivo seleccionada no debe compararse directamente con el beneficio trimestral. Además, el beneficio atribuible excluye las ganancias correspondientes a los accionistas minoritarios, mientras que el flujo de efectivo de explotación consolidado tiene un alcance más amplio.",
-          "watch": "Observa la información posterior sobre cuentas por cobrar, existencias, pagos a proveedores y flujos de efectivo de explotación. Evalúa si la conversión de beneficios en efectivo permite mantener la inversión, en lugar de asumir que los beneficios contables están disponibles de inmediato para distribuirlos.",
+          "title": "Claves de los resultados de CATL: obtener beneficios no equivale a cobrar",
+          "summary": "El informe financiero publicado anteriormente por CATL distingue entre una expansión rentable y una menor generación acumulada de efectivo por las operaciones.",
+          "impact": "Los inversores del sector de baterías deben evaluar las necesidades de capital circulante junto con los beneficios declarados, sin considerar las ventas como efectivo disponible de inmediato.",
+          "what": "Este análisis explica los resultados correspondientes a la fecha de publicación indicada; no es una noticia de última hora. El informe recoge ingresos y beneficio atribuible, mientras que el flujo de efectivo operativo acumulado disminuyó frente al período comparable. También señala aumentos en las cuentas por cobrar, las existencias y los anticipos a proveedores. Los beneficios trimestrales y los datos de efectivo acumulados abarcan períodos distintos y no deben presentarse directamente como medidas equivalentes.",
+          "why": "Esta distinción contable importa para un proveedor industrial: los ingresos pueden reconocerse antes de que paguen los clientes, mientras que las existencias y los anticipos a proveedores pueden consumir efectivo antes de que los productos terminados generen cobros. Por tanto, un crecimiento rentable puede requerir financiación. Eso no significa automáticamente que los beneficios sean de baja calidad, pero hace que la disciplina de cobro y la planificación de la producción sean importantes desde el punto de vista financiero. Para las empresas que compran baterías, la capacidad de inversión del proveedor puede afectar a la disponibilidad; para los accionistas, la conversión de beneficios en efectivo ayuda a determinar con qué holgura puede financiarse la expansión.",
+          "uncertainty": "El informe no está auditado. Su resumen no ofrece un importe independiente del flujo de efectivo operativo trimestral, por lo que no se utiliza la cifra acumulada como sustituto de la generación de efectivo del trimestre. Los cambios declarados en el capital circulante no demuestran por sí solos dificultades financieras de los clientes, obsolescencia de las existencias ni un deterioro permanente de los cobros. Para concluir eso harían falta pruebas adicionales.",
+          "watch": "Conviene seguir los cobros posteriores de cuentas pendientes, los movimientos de existencias, los anticipos a proveedores y el flujo de efectivo operativo en períodos contables comparables. Una mejor conversión de beneficios en efectivo reforzaría la situación de financiación; una absorción persistente de efectivo justificaría examinar más de cerca las necesidades de financiación, no sacar conclusiones automáticas sobre la demanda.",
           "metricLabels": [
             {
               "id": "m1",
@@ -475,60 +557,79 @@
             },
             {
               "id": "m3",
-              "label": "Flujo de efectivo de explotación acumulado en el ejercicio"
+              "label": "Ingresos acumulados del año"
             },
             {
               "id": "m4",
-              "label": "Variación del flujo de efectivo de explotación acumulado en el ejercicio"
+              "label": "Beneficio neto atribuible acumulado del año"
             },
             {
               "id": "m5",
-              "label": "Beneficio neto atribuible acumulado en el ejercicio"
+              "label": "Flujo de efectivo operativo acumulado del año"
+            },
+            {
+              "id": "m6",
+              "label": "Variación interanual del flujo de efectivo operativo"
             }
           ]
-        }
-      ]
-    },
-    "ja": {
-      "status": "米国と中国の動向を扱っています。各資料の公表日を確認してください。最近の企業報告は、背景を理解するための解説として取り上げています。",
-      "marketSummary": {
-        "us": "対象の指数はいずれも、直近で確認できた取引日に上昇しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。",
-        "cn": "対象の指数はいずれも、直近で確認できた取引日に下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
-      },
-      "stories": [
+        },
         {
-          "id": "f2",
-          "title": "失業保険の統計、雇用情勢に強弱入り交じる兆し",
-          "summary": "失業保険の新規申請件数は増えましたが、対象週が異なる継続受給者数は減少しました。",
-          "impact": "家計の収入が減るリスクに注意を向ける材料ですが、雇用情勢が広く悪化しているとまでは判断できません。",
-          "what": "米労働省は、州の失業保険に関する速報値を公表し、前週の新規申請件数も改定しました。新規申請件数は給付の申請を、継続受給者数は失業保険制度の対象として給付を受け続けている人を表します。これらは集計対象から公表までの時間差が異なるため、同じ時点の状況として扱うべきではありません。",
-          "why": "失業すると、家計の消費や借入金の返済が滞ることがあります。企業にとっては、雇用情勢の悪化が続くと顧客の需要が弱まる一方、人材を採用しやすくなる可能性があります。株式市場では、雇用情勢が売上高や賃金コストの見通し、金融政策への予想に影響します。これらの影響は逆方向に働くこともあるため、失業保険の統計から市場の反応が機械的に決まるわけではありません。",
-          "uncertainty": "速報値は改定されることがあり、季節調整も解釈に影響します。また、失業保険制度の対象者は失業者全体と同じではありません。失業保険の対象者に関する指標を、全国の代表的な失業率と混同しないことが重要です。",
-          "watch": "今後の改定や、新規申請件数と継続受給者数に共通した傾向が現れるかに注目します。雇用情勢全体について判断する前に、事業所調査による雇用者数や家計調査による労働市場の指標と照らし合わせる必要があります。",
+          "id": "f3",
+          "title": "Las solicitudes de prestaciones por desempleo en Estados Unidos ofrecen señales laborales dispares",
+          "summary": "Aumentaron las solicitudes iniciales de prestaciones por desempleo, mientras que disminuyó el desempleo cubierto por el seguro entre quienes seguían recibiendo prestaciones.",
+          "impact": "La publicación permite evaluar de forma oportuna el riesgo para el gasto vinculado al empleo, sin demostrar un deterioro generalizado de la contratación.",
+          "what": "La publicación preliminar del Departamento de Trabajo muestra un aumento de las solicitudes iniciales respecto al dato anterior revisado, pero sin cambios en el promedio suavizado de esas solicitudes. Las solicitudes continuadas corresponden a una semana de referencia anterior, por lo que estas medidas no deben tratarse como lecturas simultáneas. Describen las solicitudes del seguro de desempleo y la permanencia en el desempleo cubierto por ese seguro, no las incorporaciones al empleo en las empresas.",
+          "why": "El mecanismo económico pasa por la seguridad de los ingresos de los hogares. Un deterioro sostenido del empleo puede frenar las compras no esenciales y dificultar el pago de deudas, lo que afecta a comercios, prestamistas y proveedores de servicios. En cambio, una lectura volátil de las solicitudes no tiene por qué traducirse en una debilidad duradera de la demanda de los consumidores. Para los empleadores, las solicitudes pueden ayudar a detectar cambios en el mercado laboral, pero no sustituyen las pruebas sobre contratación, salarios y rotación de personal. La cuestión financiera relevante es si el movimiento de las solicitudes persiste y se extiende al gasto o al cumplimiento de los pagos de créditos.",
+          "uncertainty": "Las cifras son preliminares y están ajustadas por estacionalidad, y la publicación revisa datos anteriores. Las solicitudes de prestaciones abarcan a la población cubierta por el seguro, no a todas las personas desempleadas. No equivalen a la tasa de desempleo del conjunto de la economía ni miden directamente las vacantes o la contratación. Por ello, estas direcciones dispares no justifican una conclusión firme sobre una recesión ni una predicción automática sobre la política monetaria.",
+          "watch": "Conviene seguir las revisiones y las próximas solicitudes iniciales y continuadas, especialmente si sus tendencias empiezan a coincidir. Las publicaciones sobre empleo, salarios y gasto de los hogares aportarían pruebas complementarias antes de convertir este informe administrativo en una perspectiva general sobre beneficios empresariales o consumo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "新規失業保険申請件数（季節調整済み）"
+              "label": "Solicitudes iniciales ajustadas por estacionalidad"
             },
             {
               "id": "m2",
-              "label": "前週の新規失業保険申請件数（改定値）"
+              "label": "Solicitudes iniciales de la semana anterior, revisadas"
             },
             {
               "id": "m3",
-              "label": "失業保険継続受給者数（季節調整済み）"
+              "label": "Desempleo continuado cubierto por el seguro"
+            },
+            {
+              "id": "m4",
+              "label": "Tasa de desempleo cubierto por el seguro"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "電池メーカーの決算解説：利益と現金は別物",
-          "summary": "掲載日のCATLの報告では、電池事業が利益を上げる一方、年初来の営業活動による現金創出は弱まっています。",
-          "impact": "事業拡大や株主還元に必要な資金を、どの程度余裕を持って賄えるかを評価するうえで、この違いは重要です。",
-          "what": "これは過去に公表された決算の解説であり、新たな発表ではありません。CATLは電気自動車や蓄電設備に使われる電池を製造しています。取り上げた指標では、四半期単独の売上高と親会社株主に帰属する純利益を、年初来累計の営業キャッシュフローおよび親会社株主に帰属する純利益と区別しています。この報告は未監査です。",
-          "why": "利益は会計ルールに基づく業績を示し、営業キャッシュフローは営業活動によって現金がどれだけ生まれたか、または使われたかを示します。メーカーは代金を受け取る前に売上を計上したり、販売前に在庫を仕入れたり、仕入先への支払い時期を変えたりすることがあります。こうした時期のずれがあるため、利益を伴う成長でも資金調達が必要になる場合があります。安定供給を必要とする顧客や、株主還元が持続可能かを検討する株主にとって重要な点です。",
-          "uncertainty": "報告の主要な数値をまとめた表には、四半期単独の営業キャッシュフローが示されていません。そのため、ここで取り上げた現金収支の指標を四半期利益と直接比較すべきではありません。また、親会社株主に帰属する純利益には非支配株主に帰属する利益が含まれませんが、連結営業キャッシュフローはそれより広い範囲を対象としています。",
-          "watch": "今後の売上債権、在庫、仕入先への支払い、営業キャッシュフローの開示に注目します。会計上の利益をすぐに株主還元へ回せると考えるのではなく、利益が現金として回収され、継続的な投資を支えられているかを確認することが重要です。",
+          "title": "Olympic Circuit distingue la euforia bursátil de las novedades del negocio",
+          "summary": "Olympic Circuit comunicó que sus operaciones eran normales y que no había información relevante pendiente de divulgar tras movimientos inusuales en la cotización de sus acciones.",
+          "impact": "El comunicado advierte contra interpretar el entusiasmo del mercado o una recompra anunciada como pruebas de mejores beneficios o de un desembolso de efectivo ya realizado.",
+          "what": "Tras realizar comprobaciones internas y consultas a su accionista de control y a quien ejerce el control efectivo, la empresa afirmó que no tenía información relevante sujeta a divulgación que siguiera sin publicar. También reiteró que la recompra anunciada anteriormente, destinada a planes de participación accionarial para empleados o incentivos en acciones, no se había ejecutado. Se trata de una comunicación sobre riesgos de negociación, no de una publicación de resultados ni de un nuevo contrato comercial.",
+          "why": "La distinción financiera está entre la intención de la empresa, la ejecución y el desempeño del negocio. Proponer una compra de acciones no significa que ya se haya gastado efectivo o adquirido acciones. Además, su finalidad de incentivar a los empleados no equivale a suponer que las acciones compradas se amortizarán definitivamente. Para quien empieza, la lección central es que los movimientos de cotización no sustituyen las pruebas sobre ventas, rentabilidad o generación de efectivo. Una empresa puede operar con normalidad y, aun así, sus acciones exponer a sus titulares a riesgos importantes de valoración y negociación.",
+          "uncertainty": "El comunicado refleja las comprobaciones y declaraciones de la empresa en el momento de su publicación, no una garantía sobre la negociación futura ni sobre las condiciones futuras del negocio. No aporta nuevos resultados de ingresos, beneficios o flujo de efectivo operativo, por lo que aquí no se infiere ninguno. La normalidad de las operaciones tampoco demuestra que el precio de mercado refleje adecuadamente el valor del negocio.",
+          "watch": "Conviene seguir los avisos sobre la ejecución efectiva de la recompra y los próximos informes financieros. Las comunicaciones de ejecución permitirían determinar si se ha desembolsado efectivo de la empresa, mientras que los estados de resultados y de flujos de efectivo mostrarían el desempeño operativo. Hasta entonces, el plan anunciado debe distinguirse de una operación completada.",
+          "metricLabels": []
+        }
+      ]
+    },
+    "ja": {
+      "status": "今号は米国と中国の動向を取り上げます。各資料の公表日を確認してください。最近の企業報告は、背景を理解するための解説として紹介しています。",
+      "marketSummary": {
+        "us": "取引終了時点の市場データには、確認できなかったものがあります。掲載できた各指数には、それぞれの取引日を付しています。",
+        "cn": "取引終了時点の市場データには、確認できなかったものがあります。掲載できた各指数には、それぞれの取引日を付しています。"
+      },
+      "stories": [
+        {
+          "id": "f2",
+          "title": "CATLの決算解説：利益と代金回収は別",
+          "summary": "CATLがすでに公表した財務報告では、利益を伴う事業拡大が進む一方、期初来の営業活動による現金収入から支出を差し引いた額は減少しています。",
+          "impact": "電池関連企業の投資家は、売上高をすぐに使える現金とみなすのではなく、公表利益とあわせて、日々の事業運営に必要な資金も見極める必要があります。",
+          "what": "これは表示された公表日の決算を解説するもので、新たな速報ではありません。報告書には売上高と親会社株主に帰属する利益が記載されていますが、期初来の営業キャッシュフローは前年同期に比べて減少しました。売上債権、棚卸資産、仕入先への前払金の増加も報告されています。対象四半期の利益と期初来の現金収支は対象期間が異なるため、同じ期間の指標として直接比較してはいけません。",
+          "why": "製造業の供給企業にとって、この会計上の違いは重要です。顧客から代金を受け取る前に売上が計上されることがある一方、在庫や仕入先への前払金には、完成品の代金を回収する前に現金が必要になる場合があります。そのため、利益を伴う成長でも資金調達が必要になることがあります。これだけで利益の質が低いとはいえませんが、代金回収の管理や生産計画が財務面で重要になります。電池を購入する企業にとっては、供給企業の投資余力が調達のしやすさに影響し得ます。株主にとっては、利益がどれほど現金につながるかが、無理なく事業拡大の資金を賄えるかを判断する手がかりになります。",
+          "uncertainty": "この報告書は監査を受けていません。要約には対象四半期だけの営業キャッシュフローが示されていないため、期初来の数値をその四半期の現金創出額として扱っていません。報告された運転資本の動きだけでは、顧客の経営難、在庫の陳腐化、代金回収の恒常的な悪化は証明できません。そうした判断には追加の証拠が必要です。",
+          "watch": "今後の売上債権の回収、在庫の動き、仕入先への前払金、営業キャッシュフローを、比較可能な報告期間で確認することが焦点です。利益の現金化が改善すれば資金面の状況は強まります。現金が事業に吸収され続ける場合は、需要について即断するのではなく、必要な資金調達を詳しく確認する材料になります。",
           "metricLabels": [
             {
               "id": "m1",
@@ -540,60 +641,79 @@
             },
             {
               "id": "m3",
-              "label": "年初来累計営業キャッシュフロー"
+              "label": "期初来売上高"
             },
             {
               "id": "m4",
-              "label": "年初来累計営業キャッシュフローの増減率"
+              "label": "期初来の親会社株主に帰属する純利益"
             },
             {
               "id": "m5",
-              "label": "年初来累計の親会社株主に帰属する純利益"
+              "label": "期初来営業キャッシュフロー"
+            },
+            {
+              "id": "m6",
+              "label": "営業キャッシュフローの前年同期比"
             }
           ]
-        }
-      ]
-    },
-    "pt": {
-      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; os relatórios recentes de empresas são apresentados como explicações de contexto.",
-      "marketSummary": {
-        "us": "Os índices acompanhados subiram nas respectivas sessões mais recentes verificadas. Os fechamentos nas datas indicadas descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nas respectivas sessões mais recentes verificadas. Os fechamentos nas datas indicadas descrevem essas sessões, não as negociações atuais."
-      },
-      "stories": [
+        },
         {
-          "id": "f2",
-          "title": "Relatório de pedidos de seguro-desemprego traz sinais mistos sobre o mercado de trabalho",
-          "summary": "Os novos pedidos de seguro-desemprego aumentaram, enquanto o número de pessoas que continuavam recebendo o benefício caiu na semana de referência divulgada separadamente.",
-          "impact": "A divulgação merece atenção aos riscos para a renda das famílias, mas não comprova uma deterioração generalizada do emprego.",
-          "what": "O Departamento do Trabalho publicou dados preliminares dos programas estaduais de seguro-desemprego, incluindo uma revisão da leitura anterior dos pedidos iniciais. Os pedidos iniciais acompanham as solicitações do benefício; os pedidos contínuos representam as pessoas que permanecem nos programas cobertos. Essas medidas têm defasagens de divulgação diferentes e não devem ser tratadas como observações simultâneas.",
-          "why": "A perda do emprego pode interromper os gastos das famílias e o pagamento de dívidas. Para as empresas, uma deterioração persistente poderia enfraquecer a demanda dos clientes e, ao mesmo tempo, facilitar a contratação. No mercado de ações, as condições de emprego podem afetar as expectativas de vendas, os custos salariais e as expectativas para a política monetária. Esses efeitos podem atuar em direções opostas, de modo que a divulgação dos pedidos não implica automaticamente uma reação específica do mercado.",
-          "uncertainty": "Os dados preliminares podem ser revisados, o ajuste sazonal influencia a interpretação e a cobertura dos programas de benefícios não corresponde à totalidade da população desempregada. A medida de desemprego coberto pelo seguro não deve ser confundida com a taxa nacional de desemprego normalmente divulgada.",
-          "watch": "Acompanhe as revisões posteriores e se os pedidos iniciais e contínuos passam a apresentar um padrão coerente; compare essas evidências com os dados de emprego nas folhas de pagamento e com as medidas do mercado de trabalho obtidas em pesquisas domiciliares antes de tirar uma conclusão abrangente.",
+          "id": "f3",
+          "title": "米国の失業保険申請、雇用の動向はまちまち",
+          "summary": "失業保険の新規申請件数は増加しましたが、継続受給者数は減少しました。",
+          "impact": "雇用情勢が家計の支出に及ぼすリスクを足元で確認する材料ですが、採用が広く落ち込んでいるとまではいえません。",
+          "what": "米労働省の速報では、新規申請件数が修正後の前回値から増加した一方、変動をならした新規申請件数の移動平均は横ばいでした。継続受給者数は新規申請件数より前の週を対象としているため、同じ時点の状況として扱うべきではありません。これらは失業保険の申請と継続的な受給の状況を示すもので、企業の雇用者数の増加を示すものではありません。",
+          "why": "経済への影響を考えるうえで重要なのは、家計の収入の安定性です。雇用の悪化が続くと、生活必需品以外の購入が抑えられ、借金の返済も難しくなり、小売業、金融機関、サービス業に影響する可能性があります。一方、申請件数の一時的な変動が、消費需要の持続的な弱さにつながるとは限りません。企業にとって申請件数は労働市場の変化を把握する手がかりになりますが、採用、賃金、従業員の入退職に関する情報の代わりにはなりません。財務面で重要なのは、申請件数の変化が続き、消費や融資の返済状況にも波及するかどうかです。",
+          "uncertainty": "数値は季節調整済みの速報値で、過去の数値も今回修正されています。失業保険の申請は保険の対象者に限られ、すべての失業者を網羅するものではありません。経済全体の失業率とは異なり、求人や採用を直接測る指標でもありません。そのため、指標の方向がまちまちな今回の結果から、景気後退を確信したり、金融政策を機械的に予測したりすることはできません。",
+          "watch": "今後の修正値と新規申請件数、継続受給者数、とくにそれらが同じ方向に動くかが注目点です。この行政統計を企業利益や消費全体の見通しに結び付けるには、雇用者数、賃金、家計支出の公表データも補足的な判断材料になります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Pedidos iniciais de seguro-desemprego com ajuste sazonal"
+              "label": "新規失業保険申請件数（季節調整済み）"
             },
             {
               "id": "m2",
-              "label": "Pedidos iniciais da semana anterior revisados"
+              "label": "前週の新規失業保険申請件数（修正値）"
             },
             {
               "id": "m3",
-              "label": "Desempregados que continuam recebendo seguro-desemprego, com ajuste sazonal"
+              "label": "失業保険継続受給者数"
+            },
+            {
+              "id": "m4",
+              "label": "失業保険受給者ベースの失業率"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Entenda os resultados no setor de baterias: lucro não é caixa",
-          "summary": "O relatório da CATL na data indicada mostra operações de baterias lucrativas, mas uma geração de caixa operacional mais fraca no acumulado do ano.",
-          "impact": "Essa distinção importa ao avaliar a folga financeira da empresa para financiar a expansão e distribuir recursos aos acionistas.",
-          "what": "Esta é uma explicação de resultados divulgados anteriormente, não um novo anúncio. A CATL fabrica baterias usadas em veículos elétricos e no armazenamento de energia. Os indicadores selecionados mantêm a receita e o lucro atribuível aos acionistas da controladora referentes apenas ao trimestre separados do fluxo de caixa operacional e do lucro atribuível acumulados no ano. O relatório não foi auditado.",
-          "why": "O lucro mede o desempenho econômico segundo as regras contábeis; o fluxo de caixa operacional mede o dinheiro gerado ou consumido pelas atividades operacionais. Uma fabricante pode registrar uma venda antes de receber o pagamento, comprar estoques antes de vendê-los ou alterar o momento em que paga aos fornecedores. Essas diferenças de prazo significam que um crescimento lucrativo ainda pode exigir financiamento. Elas são relevantes para clientes que dependem de um fornecimento confiável e para acionistas que avaliam a sustentabilidade das distribuições de recursos.",
-          "uncertainty": "A tabela principal do relatório não apresenta o fluxo de caixa operacional referente apenas ao trimestre; por isso, o valor de caixa selecionado não deve ser comparado diretamente com o lucro trimestral. O lucro atribuível também exclui os resultados pertencentes aos acionistas não controladores, enquanto o fluxo de caixa operacional consolidado tem um alcance mais amplo.",
-          "watch": "Acompanhe as próximas divulgações sobre contas a receber, estoques, pagamentos a fornecedores e fluxo de caixa operacional. Avalie se a conversão do lucro em caixa sustenta a continuidade dos investimentos, em vez de presumir que os lucros contábeis estão imediatamente disponíveis para distribuição.",
+          "title": "Olympic Circuit、株式売買の過熱と事業の実態を区別",
+          "summary": "Olympic Circuitは、株価の異常な変動を受け、事業運営は通常どおりで、未開示の重要情報はないと報告しました。",
+          "impact": "この開示は、市場の熱気や発表済みの自社株買いを、利益の改善や現金の支出完了を示す証拠と受け取らないよう注意を促すものです。",
+          "what": "同社は、社内確認と支配株主および実質的な支配者への照会を行った結果、開示が必要なのに未開示となっている重要情報はないと説明しました。また、従業員持株制度や株式報酬のために以前発表した自社株買いは、まだ実施していないと改めて明らかにしました。これは株式売買のリスクに関する開示であり、決算発表や新たな事業契約の発表ではありません。",
+          "why": "財務面では、会社の意向、実行、事業成績を区別することが重要です。自社株買いの計画があるからといって、すでに現金を支出したり、株式を取得したりしたとは限りません。また、従業員への動機付けを目的とする買い付けは、取得した株式を消却してなくすという想定とは異なります。初心者にとって重要なのは、株価の動きは売上、収益性、現金を生み出す力の証拠にはならないという点です。会社が通常どおり事業を続けていても、その株式の保有者は、割高な評価や売買に伴う大きなリスクにさらされる可能性があります。",
+          "uncertainty": "この説明は、開示時点での会社の確認と表明を反映したもので、今後の株式売買や事業環境を保証するものではありません。新たな売上高、利益、営業キャッシュフローの実績は示されておらず、ここでも推測していません。通常どおりの事業運営も、市場価格が事業価値を適正に反映していることの証明にはなりません。",
+          "watch": "今後の自社株買いの実施状況に関する開示と財務報告が注目点です。実施状況の開示では会社の現金が実際に使われたかを確認でき、決算やキャッシュフロー計算書では事業成績を確認できます。それまでは、発表された計画と完了した取引を区別する必要があります。",
+          "metricLabels": []
+        }
+      ]
+    },
+    "pt": {
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; relatórios empresariais recentes são apresentados como material explicativo de contexto.",
+      "marketSummary": {
+        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação.",
+        "cn": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação."
+      },
+      "stories": [
+        {
+          "id": "f2",
+          "title": "Entenda os resultados da CATL: lucro não é dinheiro recebido",
+          "summary": "O relatório financeiro já divulgado pela CATL distingue a expansão com lucro da menor geração acumulada de caixa operacional.",
+          "impact": "Investidores do setor de baterias precisam avaliar as necessidades de capital de giro junto com os lucros apresentados, sem tratar as vendas como dinheiro imediatamente disponível.",
+          "what": "Esta é uma explicação dos resultados referentes à data de divulgação indicada, não uma notícia de última hora. O relatório apresenta receita e lucro atribuível aos acionistas, enquanto o fluxo de caixa operacional acumulado caiu em relação ao período comparável. Também informa aumento nas contas a receber, nos estoques e nos adiantamentos a fornecedores. O lucro trimestral e os valores acumulados de caixa abrangem períodos diferentes e não devem ser apresentados diretamente como medidas equivalentes.",
+          "why": "Essa distinção contábil importa para um fornecedor industrial: a receita pode ser reconhecida antes do pagamento pelos clientes, enquanto estoques e adiantamentos a fornecedores podem consumir caixa antes que os produtos acabados gerem recebimentos. Assim, crescer com lucro pode exigir financiamento. Isso não significa automaticamente que o lucro seja de baixa qualidade, mas torna a disciplina de cobrança e o planejamento da produção financeiramente importantes. Para empresas que compram baterias, a capacidade de investimento do fornecedor pode afetar a disponibilidade do produto; para os acionistas, a conversão dos resultados em caixa ajuda a determinar com que folga a expansão pode ser financiada.",
+          "uncertainty": "O relatório não foi auditado. Seu resumo não apresenta um valor de fluxo de caixa operacional exclusivo do trimestre, portanto o valor acumulado não é usado como substituto da geração trimestral de caixa. As variações informadas no capital de giro, por si só, não comprovam dificuldades financeiras dos clientes, obsolescência dos estoques ou deterioração permanente dos recebimentos. Essas conclusões exigiriam evidências adicionais.",
+          "watch": "Acompanhe os recebimentos de clientes, as movimentações dos estoques, os adiantamentos a fornecedores e o fluxo de caixa operacional em períodos comparáveis. Uma melhora na conversão dos resultados em caixa reforçaria a capacidade de financiamento; um consumo persistente de caixa justificaria examinar mais de perto as necessidades de financiamento, sem concluir automaticamente que há problemas de demanda.",
           "metricLabels": [
             {
               "id": "m1",
@@ -601,86 +721,148 @@
             },
             {
               "id": "m2",
-              "label": "Lucro líquido trimestral atribuível aos acionistas da controladora"
+              "label": "Lucro líquido trimestral atribuível aos acionistas"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional acumulado no ano"
+              "label": "Receita acumulada no ano"
             },
             {
               "id": "m4",
-              "label": "Variação do fluxo de caixa operacional acumulado no ano"
+              "label": "Lucro líquido acumulado no ano atribuível aos acionistas"
             },
             {
               "id": "m5",
-              "label": "Lucro líquido acumulado no ano atribuível aos acionistas da controladora"
+              "label": "Fluxo de caixa operacional acumulado no ano"
+            },
+            {
+              "id": "m6",
+              "label": "Variação anual do fluxo de caixa operacional"
             }
           ]
-        }
-      ]
-    },
-    "zh-TW": {
-      "status": "本期涵蓋美國與中國的動態。請留意各項資料的發布日期；近期公司財報以背景解說方式呈現。",
-      "marketSummary": {
-        "us": "追蹤的指數在各自最近經查證的交易日均上漲。附有日期的收盤資料反映的是當日表現，而非目前行情。",
-        "cn": "追蹤的指數在各自最近經查證的交易日均下跌。附有日期的收盤資料反映的是當日表現，而非目前行情。"
-      },
-      "stories": [
+        },
         {
-          "id": "f2",
-          "title": "失業救濟申請報告釋出好壞參半的勞動市場訊號",
-          "summary": "初次申請失業救濟的人數增加，但另行公布、統計週次不同的續領失業救濟人數下降。",
-          "impact": "這份資料值得用來追蹤家庭所得風險，但尚不足以證明整體就業情況惡化。",
-          "what": "美國勞工部公布各州失業保險的初步資料，並修正前週的初次申請失業救濟人數。初次申請人數反映提出救濟申請的情況；續領人數則反映仍在失業保險給付計畫中領取救濟的人數。這些指標的公布時間落後於統計期間的程度不同，不應視為同時點的觀察結果。",
-          "why": "失業可能使家庭支出與債務償付中斷。對企業而言，就業情況若持續惡化，可能削弱客戶需求，卻也可能讓招募更容易。對股市而言，勞動市場狀況可能影響預期銷售額、薪資成本與貨幣政策預期。這些影響可能方向相反，因此不能僅憑失業救濟申請報告，就推定市場必然出現特定反應。",
-          "uncertainty": "初步數據可能修正，季節調整也會影響解讀，而失業保險計畫涵蓋的人口並不等同於全體失業人口。受保失業指標不應與通常報導的全國失業率混為一談。",
-          "watch": "留意後續修正，以及初次申請與續領人數是否呈現一致走勢；在對整體情況下結論前，應將這些資料與非農就業人數及家庭調查的勞動市場指標對照。",
+          "id": "f3",
+          "title": "Pedidos de seguro-desemprego nos Estados Unidos dão sinais mistos sobre o mercado de trabalho",
+          "summary": "Os pedidos iniciais de seguro-desemprego aumentaram, enquanto o total de pessoas que continuam recebendo o benefício diminuiu.",
+          "impact": "A divulgação oferece uma indicação atualizada do risco para os gastos ligado à situação do emprego, sem comprovar uma queda generalizada nas contratações.",
+          "what": "A divulgação preliminar do Departamento do Trabalho mostra aumento dos pedidos iniciais em relação ao dado anterior revisado, mas estabilidade na média suavizada desses pedidos. Os pedidos continuados se referem a uma semana anterior, portanto as medidas não devem ser tratadas como retratos simultâneos. Elas descrevem solicitações de seguro-desemprego e a continuidade do desemprego entre pessoas cobertas pelo benefício, não a criação de empregos nas empresas.",
+          "why": "O mecanismo econômico passa pela segurança da renda das famílias. Uma deterioração persistente do emprego pode limitar compras não essenciais e dificultar o pagamento de dívidas, afetando varejistas, credores e prestadores de serviços. Por outro lado, uma oscilação nos pedidos não necessariamente se transforma em fraqueza duradoura da demanda dos consumidores. Para os empregadores, os pedidos podem ajudar a identificar mudanças no mercado de trabalho, mas não substituem evidências sobre recrutamento, salários e rotatividade de funcionários. A questão financeira relevante é saber se a mudança nos pedidos persiste e se passa a afetar os gastos ou a capacidade de pagamento dos tomadores de crédito.",
+          "uncertainty": "Os dados são preliminares e ajustados sazonalmente, e a divulgação revisa observações anteriores. Os pedidos de benefício abrangem pessoas cobertas pelo seguro, não toda a população desempregada. Não representam a taxa de desemprego da economia como um todo nem medem diretamente vagas ou contratações. Portanto, os movimentos em direções diferentes não justificam uma conclusão segura sobre recessão nem uma previsão automática sobre a política monetária.",
+          "watch": "Acompanhe as revisões e os próximos dados de pedidos iniciais e continuados, especialmente se suas trajetórias passarem a apontar na mesma direção. Divulgações sobre emprego, salários e gastos das famílias forneceriam evidências complementares antes de transformar esse relatório administrativo em uma perspectiva ampla para os lucros ou o consumo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "經季節調整的初次申請失業救濟人數"
+              "label": "Pedidos iniciais de seguro-desemprego, com ajuste sazonal"
             },
             {
               "id": "m2",
-              "label": "修正後的前週初次申請失業救濟人數"
+              "label": "Pedidos iniciais da semana anterior, revisados"
             },
             {
               "id": "m3",
-              "label": "經季節調整的續領失業救濟人數"
+              "label": "Pessoas que continuam recebendo seguro-desemprego"
+            },
+            {
+              "id": "m4",
+              "label": "Taxa de desemprego entre trabalhadores cobertos pelo seguro"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "電池業財報解讀：獲利不等於現金",
-          "summary": "這份標示發布日期的寧德時代財報顯示，電池業務有獲利，但年初至今的營業現金流入減弱。",
-          "impact": "評估企業能否從容支應擴張與股東分配時，區分獲利與現金相當重要。",
-          "what": "這是對先前發布財報的解讀，並非新的公告。寧德時代製造用於電動車及儲能的電池。選列數據將單季營收與歸屬母公司淨利，和年初至今的營業現金流量與歸屬母公司淨利分開呈現。這份財報未經查核。",
-          "why": "獲利依會計準則衡量經營成果；營業現金流量則衡量營業活動產生或耗用的現金。製造商可能在收到貨款前認列銷售收入、在售出商品前購入存貨，或調整支付供應商款項的時間。這些時間差意味著，即使業務成長且有獲利，仍可能需要融資。對仰賴穩定供貨的客戶，以及評估股東分配能否持續的股東而言，這些差異都很重要。",
-          "uncertainty": "財報的主要數據表未提供單季營業現金流量，因此不可將選列的現金流量數據直接與單季獲利比較。歸屬母公司淨利也不包含屬於非控制權益股東的獲利，而合併營業現金流量的涵蓋範圍較廣。",
-          "watch": "留意後續應收帳款、存貨、供應商付款及營業現金流量的揭露。評估獲利轉為現金的情況能否支持持續投資，而非假設帳面獲利可立即用於分配。",
+          "title": "Olympic Circuit distingue entusiasmo com as ações de notícias sobre suas operações",
+          "summary": "Após oscilações incomuns no preço das ações, a Olympic Circuit informou que suas operações seguiam normalmente e que não havia informações relevantes ainda não divulgadas.",
+          "impact": "O comunicado alerta contra tratar o entusiasmo do mercado ou uma recompra anunciada como evidência de melhora nos lucros ou de uso de caixa já realizado.",
+          "what": "Após verificações internas e consultas ao acionista controlador e a quem exerce o controle efetivo da companhia, a empresa afirmou não haver informações relevantes de divulgação obrigatória que permanecessem sem divulgação. Também reiterou que a recompra anteriormente anunciada, destinada a um plano de participação acionária de funcionários ou a incentivos em ações, ainda não havia sido executada. Trata-se de um comunicado sobre riscos de negociação, não de uma divulgação de resultados ou de um novo contrato operacional.",
+          "why": "A distinção financeira está entre a intenção da empresa, a execução e o desempenho operacional. Uma proposta de recompra não significa que o dinheiro já tenha sido gasto ou que as ações já tenham sido adquiridas. Sua finalidade de incentivar funcionários também difere da suposição de que as ações compradas serão canceladas permanentemente. Para quem está começando, a lição central é que a movimentação dos preços não substitui evidências sobre vendas, lucratividade ou geração de caixa. Uma empresa pode operar normalmente e, ainda assim, suas ações exporem os investidores a riscos significativos de avaliação de preço e de negociação.",
+          "uncertainty": "O comunicado reflete as verificações e declarações da empresa no momento da divulgação, não uma garantia sobre as negociações futuras ou as condições futuras do negócio. Não apresenta novos resultados de receita, lucro ou fluxo de caixa operacional, portanto nenhum deles é inferido aqui. A normalidade das operações também não comprova que o preço de mercado reflita adequadamente o valor do negócio.",
+          "watch": "Acompanhe os comunicados sobre a execução efetiva da recompra e os próximos relatórios financeiros. As divulgações de execução mostrariam se o caixa da empresa foi utilizado, enquanto as demonstrações de resultados e de fluxo de caixa esclareceriam o desempenho operacional. Até lá, o plano anunciado deve continuar sendo distinguido de uma transação concluída.",
+          "metricLabels": []
+        }
+      ]
+    },
+    "zh-TW": {
+      "status": "本期涵蓋美國與中國的最新動態。請留意各篇的發布日期；近期公司財報以背景解說方式呈現。",
+      "marketSummary": {
+        "us": "部分收盤資訊未能核實。各項可取得的指數資料均保留各自的交易日期。",
+        "cn": "部分收盤資訊未能核實。各項可取得的指數資料均保留各自的交易日期。"
+      },
+      "stories": [
+        {
+          "id": "f2",
+          "title": "寧德時代財報解讀：獲利不等於現金入帳",
+          "summary": "寧德時代先前發布的財報顯示，業務擴張帶來獲利，但累計營業活動現金流入卻減弱，兩者不能混為談。",
+          "impact": "電池產業投資人評估帳面獲利時，也需考量營運資金需求，不能把銷售收入視為可立即動用的現金。",
+          "what": "這是針對所示發布日期的財報解讀，並非即時新聞。財報列出營收與歸屬母公司淨利，但累計營業活動現金流量較去年同期下降。財報也顯示，應收帳款、存貨及預付供應商款項增加。當季獲利與累計現金流數據涵蓋的期間不同，不應直接視為期間相符的指標加以比較。",
+          "why": "對工業供應商而言，這項會計差異很重要：企業可能在客戶付款前就認列營收，而存貨與預付供應商款項，可能在成品售出並收回貨款前就占用現金。因此，即使業務成長有獲利，也可能需要融資。這不代表獲利品質必然不佳，但會讓收款管理與生產規劃在財務上更為重要。對採購電池的企業來說，供應商的投資能力可能影響供貨；對股東而言，將獲利轉化為現金的能力，有助於判斷企業能否較從容地籌措擴張資金。",
+          "uncertainty": "這份財報未經查核。財報摘要未提供當季獨立的營業活動現金流量，因此不能用累計數據代替當季現金流。僅憑所披露的營運資金變動，無法證明客戶陷入財務困境、存貨過時，或收款能力永久惡化。這些判斷都需要更多證據。",
+          "watch": "留意後續應收帳款回收、存貨、預付供應商款項及營業活動現金流量的變化，並以可比較的報告期間觀察。獲利轉化為現金的能力若改善，資金狀況將更穩健；若現金持續被占用，則有必要更仔細檢視融資需求，而非直接對需求狀況下結論。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "單季營收"
+              "label": "當季營收"
             },
             {
               "id": "m2",
-              "label": "單季歸屬母公司淨利"
+              "label": "當季歸屬母公司淨利"
             },
             {
               "id": "m3",
-              "label": "年初至今營業現金流量"
+              "label": "年初至今營收"
             },
             {
               "id": "m4",
-              "label": "年初至今營業現金流量變動"
+              "label": "年初至今歸屬母公司淨利"
             },
             {
               "id": "m5",
-              "label": "年初至今歸屬母公司淨利"
+              "label": "年初至今營業活動現金流量"
+            },
+            {
+              "id": "m6",
+              "label": "營業活動現金流量年增減"
             }
           ]
+        },
+        {
+          "id": "f3",
+          "title": "美國失業救濟申請呈現分歧的勞動市場訊號",
+          "summary": "初次申請失業救濟人數增加，但持續領取失業保險給付的人數下降。",
+          "impact": "這份資料可及時協助觀察就業變化對消費支出的風險，但尚不足以證明招聘活動全面轉弱。",
+          "what": "美國勞工部的初步報告顯示，初次申請失業救濟人數高於前期修正值，但經平滑處理的初次申請人數平均值持平。續領人數對應的是較早的報告週，因此不應將這些指標視為同時點的觀察結果。它們反映的是失業保險申請與持續領取給付的情況，而非企業新增就業人數。",
+          "why": "背後的經濟傳導關鍵在於家庭收入是否穩定。就業情況若持續惡化，可能抑制非必要消費，並增加償債難度，進而影響零售商、放款機構與服務業者。反過來說，申請人數的短期波動，不見得會轉化為消費需求的持續疲弱。對雇主而言，失業救濟申請資料有助於辨識勞動市場變化，但不能取代招聘、薪資與員工流動的相關證據。財務上值得關注的是，申請人數的變動是否持續，以及影響是否擴及消費支出或信貸還款表現。",
+          "uncertainty": "這些數據屬於經季節調整的初步資料，報告也修正了先前數據。失業救濟申請涵蓋的是受失業保險保障的人口，而非所有失業者。它們不是整體經濟的失業率，也不直接衡量職缺或招聘情況。因此，這些方向分歧的指標，不足以支持對經濟衰退作出明確結論，也不能機械式地據此預測貨幣政策。",
+          "watch": "留意數據修正，以及後續初次申請與持續領取失業救濟人數，尤其是兩者走勢是否趨於相同。在把這份行政統計報告延伸解讀為整體企業獲利或消費前景之前，就業人數、薪資與家庭支出資料可提供補充證據。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "初次申請失業救濟人數（經季節調整）"
+            },
+            {
+              "id": "m2",
+              "label": "前週初次申請失業救濟人數（修正值）"
+            },
+            {
+              "id": "m3",
+              "label": "持續領取失業保險給付人數"
+            },
+            {
+              "id": "m4",
+              "label": "受保失業率"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "世運電路：股價交易熱度不等於營運消息",
+          "summary": "世運電路在股價異常波動後表示，公司營運正常，且沒有應揭露而未揭露的重大資訊。",
+          "impact": "這份公告提醒市場，不能把交易熱度或已公布的股份回購計畫，當作獲利改善或資金已實際投入的證據。",
+          "what": "公司經內部查核，並向控股股東與實際控制人詢問後表示，沒有應揭露而尚未揭露的重大資訊。公司也重申，先前公布、擬用於員工持股或股權獎勵的股份回購計畫尚未執行。這是交易風險公告，不是財報，也不是新的營運合約。",
+          "why": "財務上必須區分企業意向、實際執行與營運表現。提出股份買回計畫，不代表現金已經支出或股份已經買入。用於員工獎勵的目的，也不同於假設買回的股份將永久註銷。對初學者而言，重點是股價變動不能取代營收、獲利或現金創造能力的證據。即使公司營運正常，持有其股票仍可能面臨顯著的估值與交易風險。",
+          "uncertainty": "這份聲明反映的是公司在公告當時的查核結果與陳述，並非對未來交易走勢或營運狀況的保證。公告沒有提供新的營收、獲利或營業活動現金流量結果，因此此處不作推論。營運正常也不能證明市場價格已合理反映企業價值。",
+          "watch": "留意實際股份回購執行公告與後續財報。執行公告可確認公司是否已動用現金，而損益表與現金流量表則能說明營運表現。在此之前，已公布的計畫仍應與已完成的交易分開看待。",
+          "metricLabels": []
         }
       ]
     }
