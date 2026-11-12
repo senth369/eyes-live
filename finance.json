@@ -1,98 +1,73 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-10T09:49:03.817Z",
-  "generatedAt": "2026-11-10T09:55:14.060Z",
+  "cutoffAt": "2026-11-12T01:53:49.891Z",
+  "generatedAt": "2026-11-12T01:59:10.250Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Sanmina earnings release and financial tables",
-      "url": "https://ir.sanmina.com/news/news-details/2026/Sanmina-Reports-Fourth-Quarter-and-Fiscal-2026-Financial-Results/default.aspx"
+      "label": "Associated Press US closing report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-027cd5f4583d1a11c1795150bf065afb"
     },
     {
       "id": "src2",
-      "label": "Sanmina preceding quarterly filing and fiscal-calendar policy",
-      "url": "https://www.sec.gov/Archives/edgar/data/897723/000089772326000037/sanm-20260627.htm"
+      "label": "FRED broad US equity closing observations",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src3",
-      "label": "National Bureau of Statistics consumer-price release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html"
-    },
-    {
-      "id": "src4",
-      "label": "National Bureau of Statistics producer-price release",
-      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202611/t20261109_1965794.html"
-    },
-    {
-      "id": "src5",
-      "label": "National Bureau of Statistics inflation interpretation",
-      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202611/t20261109_1965796.html"
-    },
-    {
-      "id": "src6",
-      "label": "New York Fed consumer-expectations release",
-      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261109"
-    },
-    {
-      "id": "src7",
-      "label": "CATL quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
-    },
-    {
-      "id": "src8",
-      "label": "CATL annual financial statements and business description",
-      "url": "https://www.catl.com/en/uploads/1/file/public/202603/20260310105310_46xjbwckvn.pdf"
-    },
-    {
-      "id": "src9",
-      "label": "Broad US equity benchmark dated closing observations",
-      "url": "https://stockinvest.us/stock-price/%5EGSPC"
-    },
-    {
-      "id": "src10",
-      "label": "FRED technology-heavy US composite closing observations",
+      "label": "FRED Nasdaq Composite closing observations",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
-      "id": "src11",
-      "label": "Xinhua Finance mainland closing report",
-      "url": "https://m.cnfin.com/gs-lb/zixun/20261110/4493455_1.html"
+      "id": "src4",
+      "label": "Mainland closing market report",
+      "url": "https://www.cfi.cn/p20261111000012.html"
     },
     {
-      "id": "src12",
-      "label": "Mainland large-cap benchmark dated closing table",
+      "id": "src5",
+      "label": "Investing mainland large-cap daily closing table",
       "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
-      "id": "src13",
-      "label": "China News Service previous mainland session report",
-      "url": "https://www.hkcna.hk/cn/content/s6af28538e4b04d9df119d4fc.html"
+      "id": "src6",
+      "label": "Corteva quarterly earnings release and financial tables",
+      "url": "https://investors.corteva.com/static-files/c57b6c4a-d707-4cc1-970d-99f35ed15ef5"
+    },
+    {
+      "id": "src7",
+      "label": "CATL quarterly filing",
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-21/0b788700-eb1b-45d1-a7a9-c6e5646b386b.PDF"
+    },
+    {
+      "id": "src8",
+      "label": "CoreWeave quarterly earnings release",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "id": "src9",
+      "label": "CoreWeave quarterly operating overview",
+      "url": "https://investors.coreweave.com/files/content_files/CoreWeave-3Q-2026-Infographic.pdf"
+    },
+    {
+      "id": "src10",
+      "label": "National Bureau of Statistics consumer-price release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965795.html"
+    },
+    {
+      "id": "src11",
+      "label": "National Bureau of Statistics producer-price release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965794.html"
+    },
+    {
+      "id": "src12",
+      "label": "National Bureau of Statistics inflation interpretation",
+      "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-09",
-      "close": 7549.94,
-      "previousClose": 7376.86,
-      "changePercent": 2.35,
-      "sourceIds": [
-        "src9"
-      ]
-    },
-    {
-      "id": "nasdaq",
-      "sessionDate": "2026-11-09",
-      "close": 25253.14,
-      "previousClose": 24579.42,
-      "changePercent": 2.74,
-      "sourceIds": [
-        "src10"
-      ]
-    },
-    {
-      "id": "sse",
       "sessionDate": null,
       "close": null,
       "previousClose": null,
@@ -100,338 +75,789 @@
       "sourceIds": []
     },
     {
-      "id": "csi300",
-      "sessionDate": "2026-11-10",
-      "close": 4059.11,
-      "previousClose": 4056.11,
-      "changePercent": 0.07,
+      "id": "nasdaq",
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
+    },
+    {
+      "id": "sse",
+      "sessionDate": "2026-11-11",
+      "close": 3680.64,
+      "previousClose": null,
+      "changePercent": 0.46,
       "sourceIds": [
-        "src12"
+        "src4"
+      ]
+    },
+    {
+      "id": "csi300",
+      "sessionDate": "2026-11-11",
+      "close": 4075.71,
+      "previousClose": 4059.11,
+      "changePercent": 0.41,
+      "sourceIds": [
+        "src5"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f3",
+      "id": "f1",
       "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-11-09",
-      "company": null,
+      "category": "earnings",
+      "publishedOn": "2026-11-11",
+      "company": {
+        "name": "Corteva",
+        "ticker": "CTVA",
+        "exchange": "NYSE"
+      },
       "metrics": [
         {
           "id": "m1",
-          "value": 3.9,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 1591000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Inflation section: reported median near-term inflation expectation, not realized inflation."
+          "evidence": "Pro forma sales information appendix: net sales for the current quarter."
         },
         {
           "id": "m2",
-          "value": 45.3,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": -54000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Labor Market section: mean respondent probability of an increase in unemployment, not the unemployment rate."
+          "evidence": "Pro forma reconciliation appendix: continuing-operations loss after income taxes."
         },
         {
           "id": "m3",
-          "value": 46.5,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 222000000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Labor Market section: mean perceived probability of finding employment conditional on losing the current job."
+          "evidence": "Pro forma reconciliation appendix: adjusted operating EBITDA, a non-GAAP measure."
         },
         {
           "id": "m4",
-          "value": 13.8,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": -3878000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Household Finance section: average perceived probability of missing a minimum debt payment, not observed delinquency."
+          "evidence": "Consolidated cash-flow statement: historical continuing-operations operating cash use, not the pro forma crop-protection perimeter."
+        },
+        {
+          "id": "m5",
+          "value": 1100000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Outlook section: lower bound of adjusted pro forma operating EBITDA guidance."
+        },
+        {
+          "id": "m6",
+          "value": 1125000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-12-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Outlook section: upper bound of adjusted pro forma operating EBITDA guidance."
         }
       ],
       "sourceIds": [
         "src6"
       ],
-      "evidence": "Release sections on inflation, employment and household finance distinguish stable inflation expectations from mixed employment views and worsening perceived repayment risk."
+      "evidence": "Release opening, regional discussion, outlook and financial appendices establish Brazil weakness, revised expectations and distinct pro forma versus historical reporting scopes."
+    },
+    {
+      "id": "f2",
+      "market": "cn",
+      "category": "earnings",
+      "publishedOn": "2026-10-21",
+      "company": {
+        "name": "Contemporary Amperex Technology",
+        "ticker": "300750",
+        "exchange": "SZSE"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 165220844000,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Opening key-financial-data table: current-quarter revenue; filing amounts converted from thousands of yuan."
+        },
+        {
+          "id": "m2",
+          "value": 21246061000,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Opening key-financial-data table: current-quarter net income attributable to listed-company shareholders."
+        },
+        {
+          "id": "m3",
+          "value": 442137424000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Opening key-financial-data table: year-to-date revenue."
+        },
+        {
+          "id": "m4",
+          "value": 64530063000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Opening key-financial-data table: year-to-date attributable net income."
+        },
+        {
+          "id": "m5",
+          "value": 61625487000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Opening table and consolidated cash-flow statement: year-to-date net operating cash inflow."
+        },
+        {
+          "id": "m6",
+          "value": -23.6,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Opening key-financial-data table: year-to-date operating-cash-flow change against the comparable prior-year period."
+        }
+      ],
+      "sourceIds": [
+        "src7"
+      ],
+      "evidence": "Opening financial table, accounting-change explanations and consolidated statements verify earnings growth alongside weaker cash conversion; the report is unaudited."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "US households report mixed job confidence and greater repayment concern",
-          "summary": "The New York Fed's consumer survey found stable inflation expectations but mixed employment views and deteriorating perceived repayment prospects.",
-          "impact": "For lenders and consumer businesses, repayment concerns warrant attention without being mistaken for realized loan losses or an established spending downturn.",
-          "what": "The survey reports household beliefs, not an official forecast or a measurement of realized inflation. Respondents became more concerned about unemployment and job loss, while their perceived ability to find replacement work improved. The release also reports greater concern about missing debt payments. Its methodology follows a rotating household panel, allowing researchers to observe changes in expectations over time.",
-          "why": "The financial transmission is conditional. A household worried about employment may preserve cash, postpone discretionary purchases or become more cautious about borrowing. For a lender, repayment anxiety can be an early warning worth comparing with actual account performance. Stable inflation beliefs provide a different signal: households did not report a broad change in their expected price path. These findings can coexist, so the survey should not be compressed into a simple declaration that consumers are either healthy or distressed.",
-          "uncertainty": "Perceived probabilities are not observed unemployment, actual job-finding rates or delinquency rates. The employment answers also point in different directions. The survey therefore cannot establish a recession, a consumer-credit loss estimate or the path of monetary policy. Its reported measures describe expectations gathered during the survey period, not events occurring after publication.",
-          "watch": "Watch realized employment, household spending and lender disclosures on arrears, charge-offs and underwriting. The next useful comparison is whether subjective repayment concern appears in actual payment behavior. For consumer companies, earnings commentary on transaction activity and customer financing can help distinguish caution from a measurable deterioration in demand.",
+          "id": "f1",
+          "title": "Corteva faces Brazil pressure as its reporting perimeter changes",
+          "summary": "Corteva reported weaker crop-protection sales and updated its outlook as difficult Brazilian market conditions outweighed new-product momentum.",
+          "impact": "The financial implication is pressure on agricultural suppliers when farmer financing constraints delay purchases, even where products remain necessary for crop production.",
+          "what": "The crop-protection business reported a pro forma continuing-operations loss alongside adjusted operating profitability. These are different accounting views, not contradictory cash results. Its release attributes Brazilian weakness to distributor inventories, farmer liquidity constraints and competition in mature products.",
+          "why": "For farmers, credit availability affects when inputs can be purchased. For suppliers, delayed orders and discounting can weaken revenue and margins. The analytical question is whether differentiated products can support profitability while distribution channels work through existing inventory.",
+          "uncertainty": "Pro forma crop-protection earnings must not be treated as equivalent to the historical consolidated cash-flow statement. The operating cash-use metric shown here covers historical continuing operations, a different perimeter. Adjusted operating EBITDA also excludes costs that matter to shareholders and is not cash available for distribution.",
+          "watch": "Watch Brazilian distributor inventory, customer collections and subsequent standalone cash-flow disclosures to judge whether operating improvement becomes cash generation.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Survey median near-term inflation expectation"
+              "label": "Quarterly pro forma net sales"
             },
             {
               "id": "m2",
-              "label": "Survey perceived probability of unemployment increasing"
+              "label": "Quarterly pro forma continuing-operations loss"
             },
             {
               "id": "m3",
-              "label": "Survey perceived job-finding probability after job loss"
+              "label": "Quarterly adjusted pro forma operating EBITDA"
             },
             {
               "id": "m4",
-              "label": "Survey perceived probability of missing a minimum debt payment"
+              "label": "Year-to-date historical continuing-operations operating cash flow"
+            },
+            {
+              "id": "m5",
+              "label": "Annual adjusted pro forma operating EBITDA guidance floor"
+            },
+            {
+              "id": "m6",
+              "label": "Annual adjusted pro forma operating EBITDA guidance ceiling"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Earnings explainer: CATL growth needs a cash-conversion check",
+          "summary": "CATL's dated quarterly filing shows expanding sales and attributable profit alongside weaker year-to-date operating cash generation.",
+          "impact": "For mainland shareholders, the implication is that business expansion should be assessed through collections and working capital, not accounting profit alone.",
+          "what": "This is an earnings explainer, not a new announcement. The battery company's filing separates quarterly earnings from cumulative operating cash flow. Its balance-sheet explanations associate larger receivables and inventories with business expansion and increased supplier prepayments with payments to suppliers.",
+          "why": "Revenue can be recognized before a customer pays, while inventory and supplier advances absorb money before products generate collections. The analytical implication is that profitable growth can still create funding demands. Investors therefore need to distinguish the income statement, which measures accounting performance, from operating cash flow, which records cash generated by operations.",
+          "uncertainty": "The filing is unaudited. Its opening table does not supply standalone quarterly operating cash flow, so the cumulative cash figure must not be compared directly with quarterly profit. Working-capital balances also do not establish the sole cause of the cash-flow change.",
+          "watch": "Watch subsequent receivable collections, inventory developments and cash-flow disclosures for evidence that expansion is converting into cash rather than requiring persistent additional funding.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Quarterly revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Quarterly attributable net income"
+            },
+            {
+              "id": "m3",
+              "label": "Year-to-date revenue"
+            },
+            {
+              "id": "m4",
+              "label": "Year-to-date attributable net income"
+            },
+            {
+              "id": "m5",
+              "label": "Year-to-date operating cash flow"
+            },
+            {
+              "id": "m6",
+              "label": "Year-to-date operating cash-flow annual change"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés ne disposent pas de nouvelle actualité vérifiée ; les rapports datés restent clairement signalés.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés à titre d’éclairage.",
       "marketSummary": {
-        "us": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels.",
-        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve la date de sa propre séance.",
+        "cn": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "Les ménages américains expriment une confiance contrastée dans l’emploi et davantage d’inquiétudes sur leurs remboursements",
-          "summary": "L’enquête de la Réserve fédérale de New York auprès des consommateurs fait ressortir des anticipations d’inflation stables, mais des avis contrastés sur l’emploi et une perception dégradée de la capacité à rembourser les dettes.",
-          "impact": "Pour les prêteurs et les entreprises tournées vers les consommateurs, les inquiétudes concernant les remboursements méritent de l’attention, sans être confondues avec des pertes sur crédits effectivement constatées ou un recul avéré des dépenses.",
-          "what": "L’enquête présente les perceptions des ménages, et non une prévision officielle ou une mesure de l’inflation constatée. Les personnes interrogées se disent davantage préoccupées par la hausse du chômage et la perte de leur emploi, tout en estimant avoir de meilleures chances de retrouver du travail. La publication fait aussi état d’une inquiétude accrue à l’idée de manquer des remboursements de dettes. Sa méthode repose sur un panel de ménages renouvelé progressivement, ce qui permet aux chercheurs de suivre l’évolution des anticipations dans le temps.",
-          "why": "Les répercussions financières dépendent des circonstances. Un ménage inquiet pour son emploi peut conserver des liquidités, reporter des achats non essentiels ou emprunter avec davantage de prudence. Pour un prêteur, l’inquiétude concernant les remboursements peut constituer un signal d’alerte à comparer au comportement réel des comptes. La stabilité des anticipations d’inflation donne un signal différent : les ménages n’ont pas fait état d’un changement général de l’évolution des prix qu’ils attendent. Ces constats peuvent coexister ; il ne faut donc pas résumer l’enquête à l’idée que les consommateurs vont bien ou sont en difficulté.",
-          "uncertainty": "Les probabilités perçues ne correspondent ni au chômage observé, ni aux taux réels de retour à l’emploi, ni aux taux d’impayés. Les réponses sur l’emploi vont également dans des directions différentes. L’enquête ne permet donc pas d’établir l’existence d’une récession, d’estimer les pertes sur les crédits aux consommateurs ou de déterminer l’orientation de la politique monétaire. Les mesures publiées décrivent les anticipations recueillies pendant l’enquête, et non les événements survenus après sa publication.",
-          "watch": "À suivre : les données effectives sur l’emploi, les dépenses des ménages et les informations publiées par les prêteurs concernant les retards de paiement, les créances passées en pertes et les critères d’octroi de crédit. Il sera utile de comparer les inquiétudes exprimées sur les remboursements au comportement réel de paiement. Pour les entreprises tournées vers les consommateurs, les commentaires accompagnant les résultats sur l’activité des transactions et le financement des clients peuvent aider à distinguer la prudence d’une dégradation mesurable de la demande.",
+          "id": "f1",
+          "title": "Corteva sous pression au Brésil alors que son périmètre de présentation financière évolue",
+          "summary": "Corteva a annoncé une baisse des ventes de produits de protection des cultures et actualisé ses perspectives, les difficultés du marché brésilien ayant pris le dessus sur la dynamique des nouveaux produits.",
+          "impact": "Les fournisseurs agricoles subissent une pression financière lorsque les difficultés de financement des agriculteurs retardent les achats, même si leurs produits restent nécessaires aux cultures.",
+          "what": "L’activité de protection des cultures a publié une perte pro forma des activités poursuivies, tout en affichant une rentabilité opérationnelle ajustée positive. Il s’agit de lectures comptables différentes, et non de résultats de trésorerie contradictoires. Le communiqué attribue les difficultés au Brésil aux stocks des distributeurs, aux contraintes de trésorerie des agriculteurs et à la concurrence sur les produits bien établis.",
+          "why": "Pour les agriculteurs, l’accès au crédit détermine le moment où ils peuvent acheter les produits nécessaires aux cultures. Pour les fournisseurs, les commandes retardées et les remises peuvent peser sur le chiffre d’affaires et les marges. L’enjeu de l’analyse est de savoir si les produits qui se distinguent de la concurrence peuvent soutenir la rentabilité pendant que les réseaux de distribution écoulent leurs stocks existants.",
+          "uncertainty": "Le résultat pro forma de l’activité de protection des cultures ne doit pas être assimilé au tableau historique consolidé des flux de trésorerie. L’indicateur de consommation de trésorerie d’exploitation présenté ici couvre les activités poursuivies historiques, soit un périmètre différent. L’EBITDA opérationnel ajusté exclut également des coûts importants pour les actionnaires et ne représente pas de la trésorerie disponible pour distribution.",
+          "watch": "Surveillez les stocks des distributeurs brésiliens, les encaissements auprès des clients et les prochaines publications de flux de trésorerie sur une base autonome pour évaluer si l’amélioration opérationnelle se traduit par une génération de trésorerie.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Anticipation médiane d’inflation à court terme dans l’enquête"
+              "label": "Chiffre d’affaires net trimestriel pro forma"
             },
             {
               "id": "m2",
-              "label": "Probabilité perçue d’une hausse du chômage dans l’enquête"
+              "label": "Perte trimestrielle pro forma des activités poursuivies"
             },
             {
               "id": "m3",
-              "label": "Probabilité perçue de retrouver un emploi après une perte d’emploi dans l’enquête"
+              "label": "EBITDA opérationnel trimestriel ajusté pro forma"
             },
             {
               "id": "m4",
-              "label": "Probabilité perçue de manquer le paiement minimal dû sur une dette dans l’enquête"
+              "label": "Flux de trésorerie d’exploitation historique des activités poursuivies depuis le début de l’exercice"
+            },
+            {
+              "id": "m5",
+              "label": "Borne basse de la prévision annuelle d’EBITDA opérationnel ajusté pro forma"
+            },
+            {
+              "id": "m6",
+              "label": "Borne haute de la prévision annuelle d’EBITDA opérationnel ajusté pro forma"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Décryptage des résultats : la croissance de CATL doit être examinée sous l’angle de la trésorerie",
+          "summary": "Le rapport trimestriel daté de CATL fait apparaître une hausse du chiffre d’affaires et du bénéfice attribuable aux actionnaires du groupe, mais une baisse de la trésorerie générée par l’exploitation depuis le début de l’exercice.",
+          "impact": "Pour les actionnaires de Chine continentale, cela signifie que l’expansion de l’activité doit être évaluée à travers les encaissements et le besoin en fonds de roulement, et pas seulement à travers le bénéfice comptable.",
+          "what": "Il s’agit d’un décryptage des résultats, et non d’une nouvelle annonce. Le rapport du fabricant de batteries distingue les résultats trimestriels des flux de trésorerie d’exploitation cumulés. Les explications relatives au bilan relient la hausse des créances clients et des stocks à l’expansion de l’activité, et celle des avances aux fournisseurs aux paiements effectués à ces derniers.",
+          "why": "Le chiffre d’affaires peut être comptabilisé avant le paiement du client, tandis que les stocks et les avances aux fournisseurs mobilisent de l’argent avant que les produits ne génèrent des encaissements. Une croissance rentable peut donc malgré tout créer des besoins de financement. Les investisseurs doivent ainsi distinguer le compte de résultat, qui mesure la performance comptable, des flux de trésorerie d’exploitation, qui retracent la trésorerie générée par l’activité.",
+          "uncertainty": "Le rapport n’est pas audité. Son tableau d’ouverture ne fournit pas de flux de trésorerie d’exploitation pour le trimestre pris isolément : le montant cumulé ne doit donc pas être comparé directement au bénéfice trimestriel. Les soldes des postes du besoin en fonds de roulement ne permettent pas non plus d’établir la cause exclusive de l’évolution des flux de trésorerie.",
+          "watch": "Surveillez les encaissements ultérieurs des créances clients, l’évolution des stocks et les publications de flux de trésorerie pour voir si l’expansion se traduit par des entrées de trésorerie plutôt que par un besoin durable de financement supplémentaire.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires trimestriel"
+            },
+            {
+              "id": "m2",
+              "label": "Résultat net trimestriel part du groupe"
+            },
+            {
+              "id": "m3",
+              "label": "Chiffre d’affaires depuis le début de l’exercice"
+            },
+            {
+              "id": "m4",
+              "label": "Résultat net part du groupe depuis le début de l’exercice"
+            },
+            {
+              "id": "m5",
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
+            },
+            {
+              "id": "m6",
+              "label": "Variation sur un an des flux de trésorerie d’exploitation cumulés depuis le début de l’exercice"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的信息覆盖有限。部分市场暂无经核实的新报道；较早的报道仍明确标注日期。",
+      "status": "本期涵盖美国和中国市场动态。请留意各项内容的发布日期；近期公司报告在此用于背景解读。",
       "marketSummary": {
-        "us": "所跟踪的股指在各自最近经核实的交易时段均上涨。标注日期的收盘数据反映的是相应交易时段的情况，并非当前行情。",
-        "cn": "部分收盘情况未能核实。已提供的各项指数数据均保留各自对应的交易日期。"
+        "us": "部分收盘数据未能核实。可提供的指数数据均保留各自的交易日期。",
+        "cn": "所跟踪的指数在各自最近可核实的交易日均上涨。标注日期的收盘数据反映的是对应交易日的情况，并非当前行情。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "美国家庭对就业的信心呈现分化，对偿债的担忧加重",
-          "summary": "纽约联储的消费者调查显示，通胀预期保持稳定，但受访者对就业的看法呈现分化，对自身偿债前景的判断有所恶化。",
-          "impact": "对贷款机构和面向消费者的企业而言，偿债担忧值得关注，但不应将其等同于已经发生的贷款损失，或已经确立的消费支出下滑趋势。",
-          "what": "这项调查反映的是家庭的主观看法，并非官方预测，也不是对实际通胀的测量。受访者更加担心失业率上升和自身失业，但认为自己失业后找到新工作的可能性有所提高。报告还显示，受访者更加担心无法按时偿还债务。调查采用轮换家庭样本的方式持续跟踪，使研究人员能够观察预期随时间的变化。",
-          "why": "这些看法是否会传导至经济和金融活动，取决于具体条件。担心就业的家庭可能会留存现金、推迟非必需消费，或在借款时更加谨慎。对贷款机构而言，偿债焦虑可能是值得与账户实际还款表现对照的预警信号。稳定的通胀预期则传递了不同的信息：家庭对未来物价走势的预期并未出现普遍变化。这些调查结果可以同时存在，因此不应将其简化为消费者财务状况良好或陷入困境的笼统结论。",
-          "uncertainty": "受访者主观判断的概率，并不等于实际失业情况、实际再就业率或逾期率。有关就业的回答也指向不同方向。因此，这项调查无法据以确认经济衰退、估算消费信贷损失，或判断货币政策路径。报告中的指标反映的是调查期间收集的预期，而非发布后发生的事件。",
-          "watch": "关注实际就业情况、家庭支出，以及贷款机构披露的逾期、贷款核销和授信审核情况。后续有价值的对照，是观察主观上的偿债担忧是否体现在实际还款行为中。对于面向消费者的企业，业绩报告中有关交易活动和客户融资的说明，有助于区分消费者只是更加谨慎，还是需求已出现可衡量的恶化。",
+          "id": "f1",
+          "title": "科迪华财务报告口径发生变化，巴西市场仍带来压力",
+          "summary": "科迪华披露，作物保护业务销售下滑，并更新了业绩展望。巴西市场的艰难环境带来的拖累，超过了新产品增长带来的提振。",
+          "impact": "这反映出农业供应商面临的财务压力：即使农业生产仍需要相关产品，农户融资受限也可能推迟采购。",
+          "what": "作物保护业务按备考口径录得持续经营业务亏损，但按经调整经营口径仍有盈利。这些是不同的会计口径，并非相互矛盾的现金收支结果。公司公告将巴西业务疲弱归因于经销商库存、农户资金紧张，以及成熟产品领域的竞争。",
+          "why": "对农户而言，能否获得信贷会影响购买农业投入品的时间。对供应商而言，订单推迟和降价促销可能削弱营收和利润率。分析的重点是：在分销渠道消化现有库存期间，差异化产品能否支撑盈利能力。",
+          "uncertainty": "不能将备考口径的作物保护业务盈利，视为与历史合并现金流量表口径相同。此处列示的经营现金流出指标涵盖历史持续经营业务，范围与前者不同。经调整经营息税折旧及摊销前利润还剔除了对股东有实际影响的成本，并不代表可供分配的现金。",
+          "watch": "关注巴西经销商库存、客户回款，以及后续单独披露的现金流信息，以判断经营改善能否转化为现金创造能力。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "调查中的短期通胀预期中位数"
+              "label": "季度备考净销售额"
             },
             {
               "id": "m2",
-              "label": "调查中受访者认为失业率上升的概率"
+              "label": "季度备考持续经营业务亏损"
             },
             {
               "id": "m3",
-              "label": "调查中受访者认为失业后找到工作的概率"
+              "label": "季度经调整备考经营息税折旧及摊销前利润"
             },
             {
               "id": "m4",
-              "label": "调查中受访者认为无法按时偿还最低应还款额的概率"
+              "label": "年初至今历史持续经营业务经营现金流"
+            },
+            {
+              "id": "m5",
+              "label": "全年经调整备考经营息税折旧及摊销前利润指引下限"
+            },
+            {
+              "id": "m6",
+              "label": "全年经调整备考经营息税折旧及摊销前利润指引上限"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "财报解读：宁德时代增长背后，需关注利润转化为现金的情况",
+          "summary": "宁德时代已注明报告日期的季度财报显示，季度营收和归母净利润增长，但年初至今经营活动创造现金的能力减弱。",
+          "impact": "对内地股东而言，这意味着评估业务扩张时，应关注回款和营运资金，而不能只看账面利润。",
+          "what": "这是财报背景解读，并非最新公告。这家电池公司的财报分别披露了季度盈利和累计经营现金流。财报对资产负债表项目的说明，将应收款项和存货增加与业务扩张联系起来，并将预付供应商款项增加与向供应商支付款项联系起来。",
+          "why": "公司可能在客户付款前就确认营收，而存货和向供应商支付的预付款，会在产品带来回款前占用资金。这意味着，即使业务增长带来盈利，也仍可能产生资金需求。因此，投资者需要区分利润表和经营现金流：前者衡量会计业绩，后者记录经营活动实际产生的现金。",
+          "uncertainty": "该财报未经审计。财报开头的表格未提供单独的季度经营现金流，因此不能将累计现金流数据与季度利润直接比较。营运资金余额也不足以证明现金流变化完全由其造成。",
+          "watch": "关注后续应收款项回收、存货变化和现金流披露，判断业务扩张是否正在转化为现金，而非持续需要追加资金。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度营收"
+            },
+            {
+              "id": "m2",
+              "label": "季度归母净利润"
+            },
+            {
+              "id": "m3",
+              "label": "年初至今营收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今归母净利润"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今经营现金流"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今经营现金流同比变动"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "La cobertura verificada de esta edición es limitada. Algunos mercados no tienen noticias nuevas verificadas; los informes de fechas anteriores siguen claramente identificados.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la negociación actual.",
-        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación.",
+        "cn": "Los índices seguidos subieron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "Los hogares estadounidenses muestran opiniones dispares sobre el empleo y mayor preocupación por pagar sus deudas",
-          "summary": "La encuesta de consumidores de la Reserva Federal de Nueva York mostró expectativas de inflación estables, pero opiniones dispares sobre el empleo y un deterioro en la percepción de la capacidad para pagar las deudas.",
-          "impact": "Para los prestamistas y las empresas de consumo, la preocupación por los pagos merece atención, sin confundirla con pérdidas crediticias ya materializadas ni con una caída confirmada del gasto.",
-          "what": "La encuesta recoge las percepciones de los hogares, no un pronóstico oficial ni una medición de la inflación registrada. Los encuestados expresaron mayor preocupación por el desempleo y la pérdida del trabajo, aunque mejoró su percepción de la capacidad para encontrar otro empleo. La publicación también señala una mayor preocupación por incumplir pagos de deudas. Su metodología utiliza un panel rotativo de hogares, lo que permite a los investigadores observar cómo cambian las expectativas con el tiempo.",
-          "why": "La transmisión de estos efectos a las finanzas depende de las circunstancias. Un hogar preocupado por el empleo puede conservar efectivo, aplazar compras no esenciales o ser más prudente al endeudarse. Para un prestamista, la inquietud por los pagos puede ser una señal temprana que conviene contrastar con el comportamiento real de las cuentas. La estabilidad de las expectativas de inflación aporta una señal distinta: los hogares no comunicaron un cambio generalizado en la trayectoria que esperan para los precios. Estos resultados pueden coexistir, por lo que la encuesta no debe reducirse a afirmar que los consumidores están en buena situación o atraviesan dificultades.",
-          "uncertainty": "Las probabilidades percibidas no equivalen al desempleo observado, a las tasas reales de obtención de empleo ni a las tasas de morosidad. Además, las respuestas sobre el empleo apuntan en direcciones distintas. Por tanto, la encuesta no permite confirmar una recesión, estimar pérdidas en el crédito al consumo ni determinar el rumbo de la política monetaria. Sus indicadores describen expectativas recogidas durante el período de la encuesta, no acontecimientos posteriores a su publicación.",
-          "watch": "Seguir los datos efectivos de empleo, el gasto de los hogares y la información de los prestamistas sobre atrasos, créditos dados de baja por incobrables y criterios de concesión de crédito. La próxima comparación útil será comprobar si la preocupación subjetiva por pagar las deudas se refleja en el comportamiento real de los pagos. En las empresas de consumo, los comentarios que acompañan a los resultados sobre la actividad de compra y la financiación a clientes pueden ayudar a distinguir la cautela de un deterioro medible de la demanda.",
+          "id": "f1",
+          "title": "Corteva afronta presiones en Brasil mientras cambia el alcance de su información financiera",
+          "summary": "Corteva comunicó menores ventas de productos de protección de cultivos y actualizó sus previsiones, ya que las difíciles condiciones del mercado brasileño pesaron más que el impulso de los nuevos productos.",
+          "impact": "La implicación financiera es que los proveedores agrícolas sufren presiones cuando las limitaciones de financiación de los agricultores retrasan las compras, aunque sus productos sigan siendo necesarios para los cultivos.",
+          "what": "El negocio de protección de cultivos registró pérdidas pro forma de operaciones continuadas, pero también rentabilidad operativa ajustada. Son distintas perspectivas contables, no resultados de caja contradictorios. El comunicado atribuye la debilidad en Brasil a las existencias de los distribuidores, las restricciones de liquidez de los agricultores y la competencia en productos consolidados.",
+          "why": "Para los agricultores, la disponibilidad de crédito influye en cuándo pueden comprar los insumos. Para los proveedores, los pedidos aplazados y los descuentos pueden reducir los ingresos y los márgenes. La cuestión de análisis es si los productos diferenciados pueden sostener la rentabilidad mientras los canales de distribución dan salida a las existencias acumuladas.",
+          "uncertainty": "Los resultados pro forma del negocio de protección de cultivos no deben equipararse al estado histórico consolidado de flujos de efectivo. La medida de salida de efectivo operativa que se muestra aquí corresponde a las operaciones continuadas históricas, cuyo alcance es distinto. El EBITDA operativo ajustado también excluye costes que importan a los accionistas y no representa efectivo disponible para distribuir.",
+          "watch": "Conviene observar las existencias de los distribuidores brasileños, los cobros a clientes y las futuras publicaciones de flujos de efectivo independientes para evaluar si la mejora operativa se convierte en generación de efectivo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Mediana de la expectativa de inflación a corto plazo en la encuesta"
+              "label": "Ventas netas trimestrales pro forma"
             },
             {
               "id": "m2",
-              "label": "Probabilidad percibida de que aumente el desempleo en la encuesta"
+              "label": "Pérdida trimestral pro forma de operaciones continuadas"
             },
             {
               "id": "m3",
-              "label": "Probabilidad percibida de encontrar empleo tras perder el trabajo en la encuesta"
+              "label": "EBITDA operativo trimestral pro forma ajustado"
             },
             {
               "id": "m4",
-              "label": "Probabilidad percibida de incumplir un pago mínimo de deuda en la encuesta"
+              "label": "Flujo de efectivo operativo histórico de operaciones continuadas acumulado en el año"
+            },
+            {
+              "id": "m5",
+              "label": "Límite inferior de las previsiones anuales de EBITDA operativo pro forma ajustado"
+            },
+            {
+              "id": "m6",
+              "label": "Límite superior de las previsiones anuales de EBITDA operativo pro forma ajustado"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Claves de los resultados: el crecimiento de CATL requiere comprobar su conversión en efectivo",
+          "summary": "El informe trimestral fechado de CATL muestra un aumento de las ventas y del beneficio atribuible, junto con una menor generación de efectivo operativo acumulada en el año.",
+          "impact": "Para los accionistas de China continental, la implicación es que la expansión del negocio debe evaluarse mediante los cobros y el capital circulante, no solo mediante el beneficio contable.",
+          "what": "Esta es una explicación de resultados, no un anuncio nuevo. El informe de la empresa de baterías distingue los resultados trimestrales del flujo de efectivo operativo acumulado. Sus explicaciones del balance vinculan el aumento de las cuentas por cobrar y las existencias con la expansión del negocio, y el incremento de los anticipos a proveedores con los pagos a estos.",
+          "why": "Los ingresos pueden reconocerse antes de que el cliente pague, mientras que las existencias y los anticipos a proveedores consumen dinero antes de que los productos generen cobros. La implicación para el análisis es que incluso un crecimiento rentable puede crear necesidades de financiación. Por ello, los inversores necesitan distinguir la cuenta de resultados, que mide el desempeño contable, del flujo de efectivo operativo, que registra el efectivo generado por las operaciones.",
+          "uncertainty": "El informe no está auditado. Su tabla inicial no ofrece el flujo de efectivo operativo del trimestre por separado, por lo que la cifra de efectivo acumulada no debe compararse directamente con el beneficio trimestral. Los saldos de capital circulante tampoco permiten establecer la causa exclusiva del cambio en el flujo de efectivo.",
+          "watch": "Conviene observar los cobros posteriores de cuentas pendientes, la evolución de las existencias y las publicaciones de flujos de efectivo para comprobar si la expansión se convierte en efectivo en lugar de exigir financiación adicional de forma persistente.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos trimestrales"
+            },
+            {
+              "id": "m2",
+              "label": "Beneficio neto atribuible trimestral"
+            },
+            {
+              "id": "m3",
+              "label": "Ingresos acumulados en el año"
+            },
+            {
+              "id": "m4",
+              "label": "Beneficio neto atribuible acumulado en el año"
+            },
+            {
+              "id": "m5",
+              "label": "Flujo de efectivo operativo acumulado en el año"
+            },
+            {
+              "id": "m6",
+              "label": "Variación interanual del flujo de efectivo operativo acumulado en el año"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版で確認済みの情報は限られています。市場によっては確認済みの新しいニュースがなく、過去の日付の報告はその旨を明示しています。",
+      "status": "この版では米国と中国の動向を取り上げています。各資料の公表日を確認してください。最近の企業決算は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "対象指数はいずれも、直近で確認できた取引日に上昇しました。日付付きの終値は、その取引日の状況を示しており、現在の取引状況ではありません。",
-        "cn": "一部の終値に関する情報は確認できませんでした。掲載できる指数には、それぞれの取引日を付けています。"
+        "us": "終値に関する情報の一部は確認できませんでした。掲載できた指数には、それぞれの取引日を付しています。",
+        "cn": "対象の指数は、確認できた直近の取引でいずれも上昇しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "米家計の雇用への見方はまちまち、返済への不安は強まる",
-          "summary": "ニューヨーク連銀の消費者調査では、インフレ予想は安定していた一方、雇用への見方はまちまちで、借金の返済見通しに対する不安が強まりました。",
-          "impact": "金融機関や消費者向け企業にとって、返済への不安は注目すべき材料です。ただし、実際に発生した融資の損失や、すでに確認された消費の落ち込みと混同してはいけません。",
-          "what": "この調査が示すのは家計の認識であり、公式な予測や、実際のインフレを測定した結果ではありません。回答者は失業の増加や自分が職を失うことへの懸念を強めた一方、失職後に別の仕事を見つけられるという見通しは改善しました。公表資料では、借金の返済が滞ることへの不安も強まっています。調査は、対象の家計を順次入れ替えながら継続的に追跡する方式で行われ、研究者が予想の変化を時間の経過に沿って観察できるようになっています。",
-          "why": "金融や経済への影響は、条件次第です。雇用に不安を感じる家計は、手元資金を確保し、必需品以外の買い物を先延ばししたり、借り入れに慎重になったりする可能性があります。金融機関にとって、返済への不安は、実際の顧客口座の返済状況と照らし合わせる価値のある早期の警戒材料になり得ます。一方、インフレ予想の安定は別の意味を持ちます。家計は、今後の物価の動きに対する見方が全般的に変わったとは回答していません。こうした結果は同時に成り立つため、この調査をもとに消費者の状態を単純に健全、あるいは苦境と断定すべきではありません。",
-          "uncertainty": "回答者が考える確率は、実際に観測された失業の状況、再就職率、延滞率ではありません。雇用に関する回答も、異なる方向を示しています。そのため、この調査だけでは、景気後退の有無、消費者向け融資の損失見込み、金融政策の方向性は判断できません。公表された指標は調査期間中に集めた予想を示しており、公表後に起きた出来事を表すものではありません。",
-          "watch": "実際の雇用や家計消費の動向に加え、金融機関が開示する延滞、貸倒償却、融資審査の状況が注目点です。今後の有用な比較は、主観的な返済への不安が、実際の支払い行動に表れるかどうかです。消費者向け企業については、取引の動向や顧客向けローンに関する決算説明が、消費者の慎重姿勢と、数字で確認できる需要の悪化を見分ける手がかりになります。",
+          "id": "f1",
+          "title": "コルテバ、報告対象の範囲が変わるなかブラジル市場が重荷に",
+          "summary": "コルテバは農薬事業の売上減少を報告し、業績見通しを更新しました。ブラジルの厳しい市場環境の影響が、新製品の好調さを上回りました。",
+          "impact": "農家の資金調達が難しくなって購入が遅れると、作物の生産に必要な製品であっても、農業資材の供給企業の業績を圧迫することを示しています。",
+          "what": "農薬事業では、プロフォーマの継続事業損益が赤字となる一方、調整後の営業指標では黒字でした。これは会計上の捉え方の違いであり、現金収支が矛盾しているわけではありません。発表資料は、ブラジルでの不振の要因として、販売代理店の在庫、農家の資金繰りの制約、既存製品の競争を挙げています。",
+          "why": "農家にとって、融資を受けられるかどうかは資材を購入できる時期に影響します。供給企業にとっては、受注の遅れや値引きが売上高と利益率を押し下げる可能性があります。分析上の焦点は、流通段階で既存在庫の解消が進む間、差別化された製品が収益性を支えられるかどうかです。",
+          "uncertainty": "農薬事業のプロフォーマ損益を、過去実績の連結キャッシュフロー計算書と同じものとして扱うことはできません。ここに掲載した営業キャッシュフローの支出額は、過去実績の継続事業を対象としており、集計範囲が異なります。また、調整後営業EBITDAは株主にとって重要な費用も除外しており、株主への分配に使える現金を示すものではありません。",
+          "watch": "営業面の改善が現金の創出につながるかを判断するには、ブラジルの販売代理店の在庫、顧客からの代金回収、今後の独立した事業体としてのキャッシュフロー開示が注目点となります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "調査における短期の予想インフレ率の中央値"
+              "label": "四半期プロフォーマ売上高"
             },
             {
               "id": "m2",
-              "label": "調査回答者が考える失業増加の確率"
+              "label": "四半期プロフォーマ継続事業損失"
             },
             {
               "id": "m3",
-              "label": "調査回答者が考える失職後の再就職確率"
+              "label": "四半期調整後プロフォーマ営業EBITDA"
             },
             {
               "id": "m4",
-              "label": "調査回答者が考える借金の最低返済額を支払えなくなる確率"
+              "label": "年初来累計の継続事業営業キャッシュフロー（過去実績）"
+            },
+            {
+              "id": "m5",
+              "label": "通期調整後プロフォーマ営業EBITDA見通しの下限"
+            },
+            {
+              "id": "m6",
+              "label": "通期調整後プロフォーマ営業EBITDA見通しの上限"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "決算解説：CATLの成長は現金回収の確認も重要",
+          "summary": "CATLの公表日付きの四半期報告書では、売上高と親会社株主に帰属する利益が増加する一方、年初来累計の営業活動による現金創出は弱まりました。",
+          "impact": "中国本土の株主にとっては、事業拡大を会計上の利益だけでなく、代金回収や運転資金の面からも評価する必要があることを示しています。",
+          "what": "これは決算の解説であり、新たな発表ではありません。電池メーカーである同社の報告書では、四半期の損益と累計の営業キャッシュフローが区別されています。貸借対照表に関する説明では、売上債権と棚卸資産の増加を事業拡大と関連付け、仕入先への前払金の増加を仕入先への支払いによるものとしています。",
+          "why": "売上高は顧客が代金を支払う前に計上されることがあります。一方、在庫や仕入先への前払いには、製品の代金を回収する前に資金が必要です。このため、利益を伴う成長でも資金需要が生じる可能性があります。投資家は、会計上の業績を示す損益計算書と、営業活動で生み出された現金を示す営業キャッシュフローを区別する必要があります。",
+          "uncertainty": "この報告書は未監査です。冒頭の表には四半期単独の営業キャッシュフローが示されていないため、累計の現金収支を四半期利益と直接比較することはできません。また、運転資金の残高だけでは、キャッシュフローの変化の原因を特定できません。",
+          "watch": "今後の売上債権の回収、在庫の動向、キャッシュフローの開示が注目点です。事業拡大が現金の創出につながっているのか、それとも継続的な追加資金を必要としているのかを見極める材料になります。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "四半期売上高"
+            },
+            {
+              "id": "m2",
+              "label": "四半期親会社株主に帰属する純利益"
+            },
+            {
+              "id": "m3",
+              "label": "年初来累計売上高"
+            },
+            {
+              "id": "m4",
+              "label": "年初来累計の親会社株主に帰属する純利益"
+            },
+            {
+              "id": "m5",
+              "label": "年初来累計営業キャッシュフロー"
+            },
+            {
+              "id": "m6",
+              "label": "年初来累計営業キャッシュフローの前年同期比増減"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; os relatórios recentes das empresas são apresentados para explicar o contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os fechamentos com data indicada descrevem aqueles pregões, não as negociações atuais.",
-        "cn": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém sua própria data de negociação."
+        "us": "Algumas informações de fechamento não puderam ser verificadas. Cada índice disponível mantém a data do respectivo pregão.",
+        "cn": "Os índices acompanhados subiram nos respectivos pregões mais recentes verificados. Os fechamentos com data informada descrevem esses pregões, não as negociações atuais."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "Famílias americanas mostram confiança desigual no emprego e maior preocupação com o pagamento de dívidas",
-          "summary": "A pesquisa com consumidores do Federal Reserve de Nova York apontou expectativas de inflação estáveis, mas percepções divergentes sobre o emprego e piora nas perspectivas de conseguir pagar dívidas.",
-          "impact": "Para instituições de crédito e empresas voltadas ao consumidor, a preocupação com o pagamento de dívidas merece atenção, mas não deve ser confundida com perdas efetivas em empréstimos ou uma queda já comprovada do consumo.",
-          "what": "A pesquisa apresenta percepções das famílias, não uma previsão oficial nem uma medição da inflação efetivamente ocorrida. Os entrevistados ficaram mais preocupados com o aumento do desemprego e a perda do próprio emprego, enquanto melhorou sua percepção sobre a possibilidade de encontrar outro trabalho. A divulgação também aponta maior preocupação com o risco de deixar de pagar dívidas. A metodologia acompanha um painel de famílias com renovação de participantes, permitindo aos pesquisadores observar mudanças nas expectativas ao longo do tempo.",
-          "why": "Os efeitos financeiros dependem de como essas percepções se traduzem em comportamento. Uma família preocupada com o emprego pode preservar dinheiro disponível, adiar compras não essenciais ou ficar mais cautelosa ao tomar crédito. Para uma instituição de crédito, a preocupação com o pagamento pode ser um sinal de alerta a comparar com o histórico efetivo de pagamentos dos clientes. As expectativas estáveis de inflação trazem um sinal diferente: as famílias não relataram uma mudança generalizada na trajetória esperada dos preços. Essas constatações podem coexistir, por isso a pesquisa não deve ser resumida a uma declaração simplista de que os consumidores estão financeiramente bem ou em dificuldades.",
-          "uncertainty": "As probabilidades percebidas não são medidas do desemprego observado, das taxas efetivas de obtenção de emprego ou das taxas de inadimplência. As respostas sobre emprego também apontam em direções diferentes. Assim, a pesquisa não permite comprovar uma recessão, estimar perdas no crédito ao consumidor ou determinar a trajetória da política monetária. As medidas divulgadas descrevem expectativas coletadas durante o período da pesquisa, não acontecimentos posteriores à publicação.",
-          "watch": "Acompanhe os dados efetivos de emprego, os gastos das famílias e as informações divulgadas pelas instituições de crédito sobre atrasos, baixas contábeis de créditos considerados irrecuperáveis e critérios de concessão de crédito. Uma comparação útil a seguir é verificar se a preocupação subjetiva com o pagamento das dívidas aparece no comportamento efetivo de pagamento. Para empresas voltadas ao consumidor, os comentários que acompanham a divulgação de resultados sobre a atividade de compras e o financiamento aos clientes podem ajudar a distinguir cautela de uma deterioração mensurável da demanda.",
+          "id": "f1",
+          "title": "Corteva enfrenta pressão no Brasil enquanto muda o conjunto de operações incluídas nos resultados",
+          "summary": "A Corteva informou queda nas vendas de defensivos agrícolas e atualizou suas projeções, pois as condições difíceis do mercado brasileiro pesaram mais que o impulso dos novos produtos.",
+          "impact": "A implicação financeira é a pressão sobre fornecedores agrícolas quando as restrições de financiamento dos produtores adiam compras, mesmo que os produtos continuem necessários para a produção.",
+          "what": "O negócio de defensivos agrícolas apresentou prejuízo pro forma nas operações continuadas, mas teve resultado operacional ajustado positivo. São visões contábeis distintas, não resultados de caixa contraditórios. O comunicado atribui a fraqueza no Brasil aos estoques dos distribuidores, às restrições de recursos disponíveis dos produtores e à concorrência em produtos já consolidados.",
+          "why": "Para os produtores, a disponibilidade de crédito afeta o momento de comprar insumos. Para os fornecedores, pedidos adiados e descontos podem reduzir a receita e as margens. A questão para análise é se produtos diferenciados conseguem sustentar a rentabilidade enquanto os canais de distribuição reduzem os estoques existentes.",
+          "uncertainty": "O resultado pro forma do negócio de defensivos agrícolas não deve ser tratado como equivalente à demonstração histórica consolidada dos fluxos de caixa. A métrica de consumo de caixa operacional apresentada aqui abrange as operações continuadas históricas, um conjunto diferente de operações. O EBITDA operacional ajustado também exclui custos relevantes para os acionistas e não representa caixa disponível para distribuição.",
+          "watch": "Acompanhar os estoques dos distribuidores brasileiros, os recebimentos de clientes e as próximas divulgações de fluxo de caixa separado desse negócio permite avaliar se a melhora operacional se transforma em geração de caixa.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Mediana da expectativa de inflação de curto prazo na pesquisa"
+              "label": "Receita líquida trimestral pro forma"
             },
             {
               "id": "m2",
-              "label": "Probabilidade percebida de aumento do desemprego na pesquisa"
+              "label": "Prejuízo trimestral pro forma das operações continuadas"
             },
             {
               "id": "m3",
-              "label": "Probabilidade percebida de encontrar trabalho após perder o emprego na pesquisa"
+              "label": "EBITDA operacional trimestral ajustado pro forma"
             },
             {
               "id": "m4",
-              "label": "Probabilidade percebida de não efetuar o pagamento mínimo de uma dívida na pesquisa"
+              "label": "Fluxo de caixa operacional histórico das operações continuadas acumulado no ano"
+            },
+            {
+              "id": "m5",
+              "label": "Limite inferior da projeção anual de EBITDA operacional ajustado pro forma"
+            },
+            {
+              "id": "m6",
+              "label": "Limite superior da projeção anual de EBITDA operacional ajustado pro forma"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Entenda os resultados: crescimento da CATL exige avaliar a conversão em caixa",
+          "summary": "O relatório trimestral da CATL, referente à data indicada, mostra crescimento das vendas e do lucro atribuível aos acionistas, acompanhado de menor geração de caixa operacional acumulada no ano.",
+          "impact": "Para os acionistas na China continental, a implicação é que a expansão do negócio deve ser avaliada pelos recebimentos e pelo capital de giro, não apenas pelo lucro contábil.",
+          "what": "Este texto explica resultados já divulgados; não é um novo anúncio. O relatório da fabricante de baterias separa os resultados trimestrais do fluxo de caixa operacional acumulado. As explicações do balanço patrimonial associam o aumento das contas a receber e dos estoques à expansão dos negócios, e o crescimento dos adiantamentos a fornecedores aos pagamentos feitos a eles.",
+          "why": "A receita pode ser reconhecida antes de o cliente pagar, enquanto estoques e adiantamentos a fornecedores consomem dinheiro antes que os produtos gerem recebimentos. A implicação para a análise é que mesmo um crescimento lucrativo pode criar necessidades de financiamento. Por isso, os investidores precisam distinguir a demonstração do resultado, que mede o desempenho contábil, do fluxo de caixa operacional, que registra o caixa gerado pelas operações.",
+          "uncertainty": "O relatório não foi auditado. A tabela inicial não apresenta o fluxo de caixa operacional isolado do trimestre, portanto o valor acumulado de caixa não deve ser comparado diretamente com o lucro trimestral. Os saldos de capital de giro também não permitem concluir que sejam a única causa da mudança no fluxo de caixa.",
+          "watch": "Acompanhar os próximos recebimentos de clientes, a evolução dos estoques e as divulgações de fluxo de caixa permite buscar sinais de que a expansão está se convertendo em caixa, em vez de exigir financiamento adicional de forma persistente.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita trimestral"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro líquido trimestral atribuível aos acionistas"
+            },
+            {
+              "id": "m3",
+              "label": "Receita acumulada no ano"
+            },
+            {
+              "id": "m4",
+              "label": "Lucro líquido atribuível aos acionistas acumulado no ano"
+            },
+            {
+              "id": "m5",
+              "label": "Fluxo de caixa operacional acumulado no ano"
+            },
+            {
+              "id": "m6",
+              "label": "Variação do fluxo de caixa operacional acumulado no ano em relação ao mesmo período do ano anterior"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期經核實的報導範圍有限。部分市場沒有經核實的新報導；較早的報導仍清楚標示日期。",
+      "status": "本期涵蓋美國與中國市場動態。請留意各篇內容的發布日期；近期公司財報在此作為背景解析。",
       "marketSummary": {
-        "us": "追蹤的指數在最近經核實的交易日皆上漲。所列收盤資料反映標示日期當天的表現，並非目前行情。",
-        "cn": "部分收盤資料無法核實。可取得的指數資料均保留各自的交易日期。"
+        "us": "部分收盤資訊未能核實。各項可用的指數資料均保留其各自的交易日期。",
+        "cn": "追蹤的指數在最近經核實的交易日均上漲。附有日期的收盤資料僅反映當日情況，不代表目前行情。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "美國家庭對就業的信心好壞參半，還款疑慮升高",
-          "summary": "紐約聯準銀行的消費者調查顯示，通膨預期穩定，但受訪者對就業的看法好壞參半，對未來還款能力的評估也轉差。",
-          "impact": "對貸款機構與消費相關企業而言，還款疑慮值得留意，但不應將其視為已發生的貸款損失，或消費支出已確定下滑的證據。",
-          "what": "這項調查反映家庭的想法，並非官方預測，也不是對實際通膨的衡量。受訪者更擔心失業情況惡化及自己失去工作，但對失業後找到新工作的能力反而更有信心。報告也顯示，受訪者更擔心無法按時償還債務。調查採用輪替式家戶追蹤方式，讓研究人員能觀察家庭預期隨時間的變化。",
-          "why": "這些看法是否影響金融與消費活動，仍取決於實際情況。擔心就業的家庭可能保留現金、延後非必要購買，或更謹慎借貸。對貸款機構而言，還款焦慮可能是值得與實際帳戶表現比對的早期警訊。穩定的通膨預期則傳達不同訊號：家庭對未來物價走勢的預期並未普遍改變。這些結果可以同時存在，因此不宜將調查簡化為消費者財務狀況良好或陷入困境的結論。",
-          "uncertainty": "受訪者主觀認為的機率，不等於實際觀察到的失業情況、找到工作的比率或逾期還款率。就業相關回答所指向的方向也不相同。因此，這項調查無法確認經濟衰退、估算消費信貸損失，或判定貨幣政策走向。公布的指標反映調查期間蒐集的預期，而非發布後發生的事件。",
-          "watch": "留意實際就業情況、家庭支出，以及貸款機構披露的逾期還款、呆帳沖銷與授信審核資訊。後續值得比對的是，主觀的還款疑慮是否反映在實際付款行為上。對消費相關企業而言，財報中關於交易活動與客戶融資的說明，有助於區分消費者只是較為謹慎，還是需求已出現可衡量的惡化。",
+          "id": "f1",
+          "title": "科迪華財報涵蓋範圍改變，同時面臨巴西市場壓力",
+          "summary": "科迪華公布作物保護業務銷售下滑，並更新展望；巴西市場環境艱困，抵銷了新產品帶來的成長動能。",
+          "impact": "財務上的意涵是，即使農業生產仍需要相關產品，農民融資受限而延後採購，仍會對農業供應商造成壓力。",
+          "what": "作物保護業務按擬制財報口徑計算，持續營業單位出現虧損，但調整後的營運獲利指標仍為正。這些是不同的會計衡量方式，並非彼此矛盾的現金收支結果。公司公告將巴西業務疲弱歸因於經銷商庫存、農民資金受限，以及成熟產品的市場競爭。",
+          "why": "對農民而言，能否取得貸款會影響購買農業生產資材的時機。對供應商而言，訂單延後與折價銷售可能壓低營收及利潤率。分析重點在於，當銷售通路消化既有庫存時，具差異化的產品能否支撐獲利能力。",
+          "uncertainty": "作物保護業務的擬制損益，不可視為等同於歷史合併現金流量表。此處呈現的營業活動現金流出指標涵蓋歷史持續營業單位，財報範圍並不相同。調整後營業 EBITDA 也排除了對股東有影響的成本，並不等於可供分配的現金。",
+          "watch": "留意巴西經銷商庫存、客戶款項回收情況，以及後續獨立財報的現金流量揭露，以判斷營運改善是否轉化為現金流入。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "調查中的短期通膨預期中位數"
+              "label": "季度擬制銷貨淨額"
             },
             {
               "id": "m2",
-              "label": "調查中受訪者認為失業情況惡化的機率"
+              "label": "季度擬制持續營業單位虧損"
             },
             {
               "id": "m3",
-              "label": "調查中受訪者認為失業後找到工作的機率"
+              "label": "季度調整後擬制營業 EBITDA"
             },
             {
               "id": "m4",
-              "label": "調查中受訪者認為無法按時支付債務最低應繳金額的機率"
+              "label": "年初至今歷史持續營業單位營業活動現金流量"
+            },
+            {
+              "id": "m5",
+              "label": "全年調整後擬制營業 EBITDA 財測下限"
+            },
+            {
+              "id": "m6",
+              "label": "全年調整後擬制營業 EBITDA 財測上限"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "財報解析：寧德時代成長之際，仍須檢視現金轉換情況",
+          "summary": "寧德時代已註明日期的季度財報顯示，營收與歸屬母公司淨利成長，但年初至今營業活動產生的現金流量轉弱。",
+          "impact": "對中國大陸股東而言，這意味著評估業務擴張時，應檢視收款與營運資金狀況，而不能只看會計獲利。",
+          "what": "這是財報解析，並非最新公告。這家電池公司的財報分別呈現季度獲利與累計營業活動現金流量。資產負債表的說明指出，應收款項及存貨增加與業務擴張有關，而預付供應商款項增加則與支付供應商款項有關。",
+          "why": "公司可能在客戶付款前就認列營收，而存貨及預付供應商款項，則會在產品帶來收款前占用資金。這表示，即使業務成長有獲利，仍可能產生資金需求。因此，投資人需要區分衡量會計績效的損益表，以及記錄營運所產生現金的營業活動現金流量。",
+          "uncertainty": "這份財報未經會計師查核。開頭表格未提供季度本身的營業活動現金流量，因此不可將累計現金流量直接與季度獲利比較。營運資金各項餘額，也不足以認定現金流量變動完全由何種因素造成。",
+          "watch": "留意後續應收款項回收、存貨變化與現金流量揭露，觀察業務擴張是否轉化為現金流入，而非持續需要額外資金。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度營收"
+            },
+            {
+              "id": "m2",
+              "label": "季度歸屬母公司淨利"
+            },
+            {
+              "id": "m3",
+              "label": "年初至今累計營收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今累計歸屬母公司淨利"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今累計營業活動現金流量"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今累計營業活動現金流量年增減"
             }
           ]
         }
