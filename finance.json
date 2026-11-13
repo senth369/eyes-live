@@ -1,53 +1,63 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-13T18:31:17.043Z",
-  "generatedAt": "2026-11-13T18:36:39.033Z",
+  "cutoffAt": "2026-11-13T20:54:31.044Z",
+  "generatedAt": "2026-11-13T20:58:31.344Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Federal Reserve Bank of St. Louis: broad US equity closing observations",
+      "label": "Federal Reserve Bank of St. Louis — broad US equity index closes",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis: Nasdaq Composite closing observations",
+      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite closes",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src3",
-      "label": "Investing: Shanghai Composite dated closing table",
-      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
+      "label": "Investing — Shanghai Composite dated closing table",
+      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src4",
-      "label": "Investing: mainland blue-chip dated closing table",
+      "label": "Investing — mainland large-cap index dated closing table",
       "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "NVIDIA: leadership transition release",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx"
-    },
-    {
-      "id": "src6",
-      "label": "People’s Bank of China: financial statistics release",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111315073060062/index.html"
-    },
-    {
-      "id": "src7",
-      "label": "Cisco: quarterly earnings release and financial statements",
-      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
-    },
-    {
-      "id": "src8",
-      "label": "Bureau of Labor Statistics: producer prices release",
+      "label": "Bureau of Labor Statistics — producer prices release",
       "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
     },
     {
+      "id": "src6",
+      "label": "Applied Materials — latest earnings release and financial statements",
+      "url": "https://ir.appliedmaterials.com/node/29886/pdf"
+    },
+    {
+      "id": "src7",
+      "label": "National Development and Reform Commission — energy storage implementation plan",
+      "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202611/P020261113394215852968.pdf"
+    },
+    {
+      "id": "src8",
+      "label": "Beijing Daily — dated publication of the storage policy notice",
+      "url": "https://xinwen.bjd.com.cn/content/s6af6bc75e4b039a8e2f3905c.html"
+    },
+    {
       "id": "src9",
-      "label": "BYD: quarterly report filed through CNINFO",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+      "label": "CATL — quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+    },
+    {
+      "id": "src10",
+      "label": "CATL — annual report business description",
+      "url": "https://www.catl.com/uploads/1/file/public/202603/20260310001119_eph6t9ivki.pdf"
+    },
+    {
+      "id": "src11",
+      "label": "Applied Materials — preceding quarterly release establishing the fiscal boundary",
+      "url": "https://ir.appliedmaterials.com/static-files/425ac634-4ee7-4c41-a07f-fa9e3c42b797"
     }
   ],
   "markets": [
@@ -56,7 +66,7 @@
       "sessionDate": "2026-11-12",
       "close": 7592.4,
       "previousClose": 7619.38,
-      "changePercent": -0.3540970525,
+      "changePercent": -0.35409705251608914,
       "sourceIds": [
         "src1"
       ]
@@ -66,7 +76,7 @@
       "sessionDate": "2026-11-12",
       "close": 25366.09,
       "previousClose": 25466.19,
-      "changePercent": -0.3930701844,
+      "changePercent": -0.39307018442883424,
       "sourceIds": [
         "src2"
       ]
@@ -96,169 +106,6 @@
     {
       "id": "f1",
       "market": "us",
-      "category": "company",
-      "publishedOn": "2026-11-12",
-      "company": {
-        "name": "NVIDIA",
-        "ticker": "NVDA",
-        "exchange": "NASDAQ"
-      },
-      "metrics": [],
-      "sourceIds": [
-        "src5"
-      ],
-      "evidence": "Opening announcement and leadership paragraphs establish Huang’s immediate resignation, Kress’s interim appointment while retaining finance responsibilities, and the board’s successor search; concluding paragraph confirms the forthcoming earnings report."
-    },
-    {
-      "id": "f2",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-13",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 7.2,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Social financing stock section: outstanding financing grew from its year-earlier level."
-        },
-        {
-          "id": "m2",
-          "value": 7.1,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Broad money section: broad money balance growth from its year-earlier level."
-        },
-        {
-          "id": "m3",
-          "value": 28610000000000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Social financing increment section: cumulative financing supplied during the reporting year."
-        },
-        {
-          "id": "m4",
-          "value": -1460000000000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Renminbi loans section, household breakdown: cumulative household loan balance reduction."
-        },
-        {
-          "id": "m5",
-          "value": 12390000000000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Renminbi loans section, enterprise and institution breakdown: cumulative loan addition."
-        }
-      ],
-      "sourceIds": [
-        "src6"
-      ],
-      "evidence": "Social financing, money and loan sections establish continued aggregate financing growth alongside a contraction in household borrowing; notes identify the data as preliminary."
-    },
-    {
-      "id": "f3",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-12",
-      "company": {
-        "name": "Cisco Systems",
-        "ticker": "CSCO",
-        "exchange": "NASDAQ"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 18517000000,
-          "unit": "USD",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Consolidated statements of operations, total revenue row; presentation units converted to dollars."
-        },
-        {
-          "id": "m2",
-          "value": 4552000000,
-          "unit": "USD",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Consolidated statements of operations, GAAP net income row; presentation units converted to dollars."
-        },
-        {
-          "id": "m3",
-          "value": 4357000000,
-          "unit": "USD",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Consolidated cash flows, net cash provided by operating activities row; presentation units converted to dollars."
-        },
-        {
-          "id": "m4",
-          "value": 24,
-          "unit": "percent",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "GAAP results summary, revenue comparison column."
-        }
-      ],
-      "sourceIds": [
-        "src7"
-      ],
-      "evidence": "Quarterly highlights and financial statements establish revenue, accounting profit and operating cash generation; outlook section raises annual expectations rather than reporting realized annual results."
-    },
-    {
-      "id": "f4",
-      "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-13",
       "company": null,
@@ -272,9 +119,9 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src5"
           ],
-          "evidence": "Opening paragraph and table A: seasonally adjusted final-demand producer price change."
+          "evidence": "Opening paragraph and headline change table: seasonally adjusted final-demand producer price change."
         },
         {
           "id": "m2",
@@ -285,9 +132,9 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src5"
           ],
-          "evidence": "Opening paragraph and table A: unadjusted final-demand producer price annual change."
+          "evidence": "Opening paragraph and headline change table: unadjusted annual final-demand producer price change."
         },
         {
           "id": "m3",
@@ -298,9 +145,9 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src5"
           ],
-          "evidence": "Opening discussion and table A: seasonally adjusted final demand excluding food, energy and trade services."
+          "evidence": "Opening discussion: seasonally adjusted final demand excluding food, energy and trade services."
         },
         {
           "id": "m4",
@@ -311,115 +158,20 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src5"
           ],
-          "evidence": "Opening discussion and table A: unadjusted annual change excluding food, energy and trade services."
+          "evidence": "Opening discussion: annual final demand excluding food, energy and trade services."
         }
       ],
       "sourceIds": [
-        "src8"
+        "src5"
       ],
-      "evidence": "Release header establishes publication timing; opening discussion and final-demand sections show continued producer inflation, with goods and services contributing."
-    },
-    {
-      "id": "f5",
-      "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-30",
-      "company": {
-        "name": "BYD",
-        "ticker": "002594",
-        "exchange": "SZSE"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 221488251000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting indicators table, current-quarter revenue column."
-        },
-        {
-          "id": "m2",
-          "value": 10019570000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting indicators table, current-quarter profit attributable to listed-company shareholders."
-        },
-        {
-          "id": "m3",
-          "value": 28.08,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting indicators table, current-quarter attributable profit growth column."
-        },
-        {
-          "id": "m4",
-          "value": 22344978000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Main accounting indicators table, year-to-date attributable net profit column."
-        },
-        {
-          "id": "m5",
-          "value": 54469572000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Consolidated cash flow statement, operating activities net cash row."
-        },
-        {
-          "id": "m6",
-          "value": 87379038000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Consolidated cash flow statement, cash paid for fixed assets, intangible assets and other long-term assets."
-        }
-      ],
-      "sourceIds": [
-        "src9"
-      ],
-      "evidence": "Main accounting indicators distinguish quarterly performance from cumulative results; consolidated cash flows separate operating receipts and payments from long-term asset spending; important notices identify the report as unaudited."
+      "evidence": "Release header establishes publication timing; opening discussion and final-demand sections establish headline inflation, underlying inflation and differing goods and services movements."
     }
   ],
   "locales": {
     "en": {
-      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
+      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
@@ -427,1000 +179,251 @@
       "stories": [
         {
           "id": "f1",
-          "title": "NVIDIA names an interim leader after Huang resigns",
-          "summary": "NVIDIA announced Jensen Huang’s immediate departure as chief executive, president and director, appointing finance chief Colette Kress as interim chief executive.",
-          "impact": "The transition introduces leadership uncertainty for an important artificial-intelligence supplier, although the board says customer commitments and the product roadmap should continue uninterrupted.",
-          "what": "NVIDIA supplies technology for artificial intelligence and accelerated computing. Kress retains her finance responsibilities while leading the company temporarily, and the board is considering internal and external candidates for the permanent position. Harvey Jones becomes board chair. This announcement concerns governance and operational continuity, not a newly reported change in revenue or cash generation.",
-          "why": "Editorial interpretation: customers making expensive computing investments need confidence that delivery schedules, technical support and product plans will survive a leadership change. Suppliers likewise need clarity before committing capacity. An experienced internal interim leader can preserve institutional knowledge, but combining executive and finance responsibilities makes delegation and oversight especially important. These are possible financial transmission channels, not evidence that customers have canceled purchases or that spending plans have changed.",
-          "uncertainty": "The release does not explain the resignation or identify a permanent successor. The board’s continuity statement is an expectation, not independently demonstrated operating performance; no revenue effect or causal explanation for share-price movements is established here.",
-          "watch": "Watch the forthcoming earnings release and management discussion for customer commitments, delivery execution and any revised outlook, alongside subsequent board announcements about the permanent leadership structure.",
-          "metricLabels": []
-        },
-        {
-          "id": "f2",
-          "title": "China’s financing growth masks weak household borrowing",
-          "summary": "China’s central bank reported continued growth in outstanding financing and broad money, while cumulative household borrowing contracted.",
-          "impact": "The financing split matters for banks and consumer-facing businesses because expanding aggregate credit does not necessarily mean households are willing to borrow and spend.",
-          "what": "The People’s Bank of China published preliminary financial statistics covering money, deposits, lending and broader financing channels. Household loan balances declined over the cumulative reporting period, whereas enterprise and institution borrowing increased. The accompanying metrics deliberately separate month-end annual growth rates from cumulative financing flows; they are not interchangeable descriptions of activity.",
-          "why": "Editorial interpretation: credit can support factory investment, infrastructure and working capital without producing an equivalent improvement in household demand. For listed banks, the borrower mix affects where interest income and credit risk arise. For retailers, appliance manufacturers and property-linked businesses, household borrowing is a useful demand signal, but not a substitute for actual sales. Financing also includes channels beyond bank lending, so looking only at loan totals can miss how businesses obtain funding.",
-          "uncertainty": "These are preliminary aggregate statistics, not company earnings or a direct measure of consumer confidence. A household loan decline cannot distinguish weak applications from repayments or lending restrictions. Money growth alone does not establish how quickly deposits will be spent or whether financed projects will earn adequate returns.",
-          "watch": "Watch subsequent lending breakdowns, retail and property activity, and listed banks’ asset-quality disclosures for evidence that financing is translating into sustainable demand rather than merely larger financial balances.",
+          "title": "Producer inflation keeps pressure on business costs",
+          "summary": "The producer-price release shows continued price increases across headline and underlying measures.",
+          "impact": "Businesses still face a difficult choice between passing costs to customers and absorbing them in margins.",
+          "what": "The Bureau of Labor Statistics reported rising prices received by domestic producers, with increases in goods and services and continued pressure in the measure excluding food, energy and trade services. This is a selling-price survey, not a direct measure of household living costs or corporate profits. The headline monthly reading is seasonally adjusted, while the annual reading is unadjusted; those distinctions are preserved in the evidence rather than treating the measures as interchangeable.",
+          "why": "The financial transmission depends on where a company sits in the supply chain. A producer able to charge more may protect revenue, while a business buying those inputs may experience margin pressure unless it can raise its own prices or improve productivity. For households, the possible consequence is a later increase in retail prices, but that pass-through is not automatic. Competition, contracts and changes in demand can alter how much businesses absorb. For equities, the useful question is whether earnings estimates adequately reflect the interaction between selling prices, input costs and demand.",
+          "uncertainty": "Producer inflation does not establish the direction of the Federal Reserve's next decision or prove that consumer inflation will follow the same path. The release also notes revisions to earlier observations. No consensus metric was verified here, so this report makes no claim that the data beat or missed expectations.",
+          "watch": "Watch subsequent consumer and producer price releases alongside company disclosures on pricing, freight costs and margins. Evidence that customers resist price increases would matter differently from evidence that businesses can pass costs through without sacrificing demand.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Outstanding social financing growth"
+              "label": "Final-demand producer prices, monthly change, seasonally adjusted"
             },
             {
               "id": "m2",
-              "label": "Broad money growth"
+              "label": "Final-demand producer prices, annual change, unadjusted"
             },
             {
               "id": "m3",
-              "label": "Cumulative social financing addition"
+              "label": "Producer prices excluding food, energy and trade services, monthly change"
             },
             {
               "id": "m4",
-              "label": "Cumulative household loan change"
-            },
-            {
-              "id": "m5",
-              "label": "Cumulative enterprise and institution loan addition"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Cisco reports stronger sales and operating cash generation",
-          "summary": "Cisco reported revenue growth, positive GAAP profit and operating cash inflow, while raising its annual outlook.",
-          "impact": "The results support demand for networking infrastructure, but investors still need to distinguish accounting earnings, collected cash and management’s future expectations.",
-          "what": "Cisco sells networking, security, collaboration and observability technology used by businesses and computing operators. Its release reports quarterly revenue, GAAP net income and cash generated by operations in separate financial statements. Management also raised annual expectations, including its anticipated artificial-intelligence infrastructure business with large cloud operators; those expectations are not completed sales.",
-          "why": "Editorial interpretation: networking connects computing systems, so infrastructure investment can generate demand beyond the processors that receive most public attention. For business customers, equipment availability and security capabilities affect deployment costs and operational reliability. For shareholders, operating cash generation helps test whether recognized earnings are accompanied by cash resources. It is nevertheless measured before investing and financing activities, so it should not be mistaken for cash remaining after every corporate obligation.",
-          "uncertainty": "The report is unaudited, and management’s outlook remains forward-looking. Adjusted earnings exclude items included in GAAP results; neither presentation should be confused with operating cash flow. No earnings-surprise claim is made because a verified consensus comparison was not established.",
-          "watch": "Watch subsequent reported revenue, gross margins, receivables, inventory and operating cash flow to assess whether demand converts into profitable deliveries and collections without building excessive working-capital requirements.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Fiscal-quarter revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Fiscal-quarter GAAP net income"
-            },
-            {
-              "id": "m3",
-              "label": "Fiscal-quarter operating cash flow"
-            },
-            {
-              "id": "m4",
-              "label": "Fiscal-quarter revenue growth"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "US producer inflation keeps cost pressures in focus",
-          "summary": "US producer prices continued rising, including the measure excluding food, energy and trade services.",
-          "impact": "Persistent business-price pressures can squeeze company margins or reach household bills, while complicating expectations for interest-rate relief.",
-          "what": "The Bureau of Labor Statistics released its latest producer-price report, measuring prices received by domestic producers rather than prices paid directly by consumers. Goods and services contributed to the headline increase. The metrics distinguish seasonally adjusted monthly changes from unadjusted annual changes and separately identify the measure excluding volatile categories and trade margins.",
-          "why": "Editorial interpretation: when suppliers charge more, a business must absorb the expense, improve productivity or try to pass it to customers. The outcome depends on competition, contracts and customer demand. Successful pass-through can preserve margins while increasing household costs; unsuccessful pass-through can weaken profits. Inflation persistence can also influence financing conditions, affecting mortgage affordability, business borrowing and the valuation of future corporate earnings.",
-          "uncertainty": "Producer inflation does not translate mechanically into consumer inflation, and the release does not establish the next monetary-policy decision. Industry experiences differ, while seasonal adjustment and later revisions can alter the picture. A slower headline monthly increase would not by itself demonstrate that underlying inflation has been resolved.",
-          "watch": "Watch subsequent consumer-price and consumption-price releases, producer-price revisions, and company discussions of pricing and input costs for evidence about whether pressure is being absorbed, passed through or fading.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Final-demand producer prices, seasonally adjusted"
-            },
-            {
-              "id": "m2",
-              "label": "Final-demand producer prices, unadjusted"
-            },
-            {
-              "id": "m3",
-              "label": "Producer prices excluding food, energy and trade services, seasonally adjusted"
-            },
-            {
-              "id": "m4",
-              "label": "Producer prices excluding food, energy and trade services, unadjusted"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "BYD earnings explainer: profit and cash tell different stories",
-          "summary": "BYD’s previously published quarterly report shows improved quarterly attributable profit alongside substantial cumulative investment spending.",
-          "impact": "The dated report illustrates why an expanding manufacturer’s accounting profit and operating cash flow cannot be treated as cash freely available to shareholders.",
-          "what": "This is an earnings explainer of the filing dated in the story metadata, not breaking news. BYD’s vehicle and battery manufacturing business reports quarterly revenue and shareholder-attributable profit, while the cash flow statement covers the cumulative reporting period. The displayed metrics preserve those different periods rather than comparing quarterly earnings directly with cumulative cash generation.",
-          "why": "Editorial interpretation: accounting revenue records business activity under recognition rules, whereas operating cash flow tracks operating receipts and payments. Building production capacity creates another cash requirement, recorded in investing activities rather than deducted from operating cash flow. That distinction matters to suppliers awaiting payment, employees relying on durable operations and shareholders assessing future funding needs. Long-term asset spending should therefore be examined alongside operating cash generation, without assuming that every investment immediately produces revenue.",
-          "uncertainty": "The quarterly report is unaudited. The selected long-term asset payment line is not the entire investing cash flow statement, and subtracting it from operating cash flow would not establish the company’s complete change in cash. Quarterly profit growth alone does not demonstrate stronger cumulative profitability or explain the underlying commercial drivers.",
-          "watch": "Watch future revenue, attributable profit, operating collections and long-term asset payments, together with balance-sheet funding and working-capital disclosures, to assess whether expansion becomes self-financing.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Calendar-quarter revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Calendar-quarter attributable net profit"
-            },
-            {
-              "id": "m3",
-              "label": "Calendar-quarter attributable net profit growth"
-            },
-            {
-              "id": "m4",
-              "label": "Year-to-date attributable net profit"
-            },
-            {
-              "id": "m5",
-              "label": "Year-to-date operating cash flow"
-            },
-            {
-              "id": "m6",
-              "label": "Year-to-date cash paid for long-term assets"
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés à titre d’éclairage.",
-      "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges actuels.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges actuels."
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "NVIDIA nomme une dirigeante par intérim après la démission de Huang",
-          "summary": "NVIDIA a annoncé le départ immédiat de Jensen Huang de ses fonctions de directeur général, de président et d’administrateur, et nommé sa directrice financière, Colette Kress, directrice générale par intérim.",
-          "impact": "Cette transition crée une incertitude sur la direction d’un fournisseur important de technologies d’intelligence artificielle, même si le conseil d’administration indique que les engagements envers les clients et le calendrier de développement des produits devraient être maintenus sans interruption.",
-          "what": "NVIDIA fournit des technologies pour l’intelligence artificielle et le calcul accéléré. Kress conserve ses responsabilités financières tout en dirigeant temporairement l’entreprise, et le conseil d’administration examine des candidatures internes et externes pour le poste permanent. Harvey Jones devient président du conseil d’administration. Cette annonce concerne la gouvernance et la continuité des activités, et non une évolution nouvellement publiée du chiffre d’affaires ou de la trésorerie générée.",
-          "why": "Analyse de la rédaction : les clients qui réalisent des investissements informatiques coûteux ont besoin d’être assurés qu’un changement de direction ne compromettra pas les délais de livraison, l’assistance technique et les projets de produits. Les fournisseurs ont également besoin de visibilité avant d’engager des capacités de production. Une dirigeante intérimaire expérimentée issue de l’entreprise peut préserver les connaissances internes, mais le cumul des responsabilités de direction générale et financière rend la délégation et la supervision particulièrement importantes. Il s’agit de mécanismes possibles de transmission aux finances de l’entreprise, et non de preuves d’annulations d’achats par les clients ou de modifications des projets de dépenses.",
-          "uncertainty": "Le communiqué n’explique pas la démission et ne désigne pas de successeur permanent. La déclaration du conseil sur la continuité exprime une attente, et non une performance opérationnelle démontrée de manière indépendante ; aucun effet sur le chiffre d’affaires ni aucune explication causale des variations du cours de l’action ne sont établis ici.",
-          "watch": "À surveiller : la prochaine publication de résultats et les commentaires de la direction concernant les engagements envers les clients, l’exécution des livraisons et toute révision des perspectives, ainsi que les annonces ultérieures du conseil sur l’organisation permanente de la direction.",
-          "metricLabels": []
-        },
-        {
-          "id": "f2",
-          "title": "La croissance du financement en Chine masque la faiblesse des emprunts des ménages",
-          "summary": "La banque centrale chinoise a fait état d’une poursuite de la croissance de l’encours de financement et de la masse monétaire au sens large, tandis que les emprunts cumulés des ménages se sont contractés.",
-          "impact": "La répartition des financements compte pour les banques et les entreprises tournées vers les consommateurs, car une hausse du crédit global ne signifie pas nécessairement que les ménages souhaitent emprunter et dépenser.",
-          "what": "La Banque populaire de Chine a publié des statistiques financières préliminaires portant sur la monnaie, les dépôts, les prêts et les canaux de financement plus larges. L’encours des prêts aux ménages a diminué sur la période cumulée couverte par le rapport, tandis que les emprunts des entreprises et des institutions ont augmenté. Les indicateurs associés distinguent délibérément les taux de croissance annuels mesurés en fin de mois des flux de financement cumulés ; ces mesures ne décrivent pas l’activité de manière interchangeable.",
-          "why": "Analyse de la rédaction : le crédit peut soutenir l’investissement industriel, les infrastructures et les besoins de financement de l’activité courante sans entraîner une amélioration équivalente de la demande des ménages. Pour les banques cotées, la répartition des emprunteurs détermine où se forment les revenus d’intérêts et les risques de crédit. Pour les distributeurs, les fabricants d’électroménager et les entreprises liées à l’immobilier, les emprunts des ménages constituent un indicateur utile de la demande, mais ne remplacent pas les ventes réelles. Le financement comprend aussi des canaux autres que les prêts bancaires ; examiner uniquement le total des prêts peut donc masquer la manière dont les entreprises se financent.",
-          "uncertainty": "Il s’agit de statistiques globales préliminaires, et non de résultats d’entreprise ou d’une mesure directe de la confiance des consommateurs. Une baisse des prêts aux ménages ne permet pas de distinguer une faiblesse des demandes de prêt de l’effet des remboursements ou de restrictions de crédit. La croissance monétaire ne suffit pas à établir à quelle vitesse les dépôts seront dépensés, ni si les projets financés dégageront des rendements suffisants.",
-          "watch": "À surveiller : les prochaines ventilations des prêts, l’activité du commerce de détail et de l’immobilier, ainsi que les informations publiées par les banques cotées sur la qualité de leurs actifs, afin de déterminer si les financements soutiennent une demande durable plutôt qu’une simple augmentation des encours financiers.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Croissance de l’encours du financement social total"
-            },
-            {
-              "id": "m2",
-              "label": "Croissance de la masse monétaire au sens large"
-            },
-            {
-              "id": "m3",
-              "label": "Financement social total supplémentaire cumulé"
-            },
-            {
-              "id": "m4",
-              "label": "Variation cumulée des prêts aux ménages"
-            },
-            {
-              "id": "m5",
-              "label": "Prêts supplémentaires cumulés aux entreprises et aux institutions"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Cisco annonce une hausse de ses ventes et de la trésorerie générée par son activité",
-          "summary": "Cisco a publié un chiffre d’affaires en croissance, un bénéfice conforme aux normes comptables américaines GAAP et un flux de trésorerie d’exploitation positif, tout en relevant ses perspectives annuelles.",
-          "impact": "Ces résultats témoignent d’une demande pour les infrastructures réseau, mais les investisseurs doivent toujours distinguer les bénéfices comptables, la trésorerie encaissée et les attentes de la direction pour l’avenir.",
-          "what": "Cisco vend des technologies de réseau, de sécurité, de collaboration et d’observabilité, qui permettent de surveiller le fonctionnement des systèmes, utilisées par les entreprises et les opérateurs informatiques. Son communiqué présente le chiffre d’affaires trimestriel, le résultat net selon les normes GAAP et la trésorerie générée par l’exploitation dans des états financiers distincts. La direction a également relevé ses prévisions annuelles, notamment pour son activité attendue d’infrastructures d’intelligence artificielle auprès des grands opérateurs du cloud ; ces attentes ne correspondent pas à des ventes déjà réalisées.",
-          "why": "Analyse de la rédaction : les réseaux relient les systèmes informatiques, de sorte que les investissements dans les infrastructures peuvent générer une demande au-delà des processeurs qui retiennent l’essentiel de l’attention du public. Pour les entreprises clientes, la disponibilité des équipements et les capacités de sécurité influencent les coûts de déploiement et la fiabilité opérationnelle. Pour les actionnaires, la trésorerie générée par l’exploitation aide à vérifier si les bénéfices comptabilisés s’accompagnent de ressources en trésorerie. Elle est néanmoins mesurée avant les activités d’investissement et de financement et ne doit donc pas être confondue avec la trésorerie restant après l’ensemble des obligations de l’entreprise.",
-          "uncertainty": "Le rapport n’est pas audité, et les perspectives de la direction restent prévisionnelles. Les bénéfices ajustés excluent des éléments inclus dans les résultats selon les normes GAAP ; aucune de ces présentations ne doit être confondue avec le flux de trésorerie d’exploitation. Aucune affirmation de résultats supérieurs ou inférieurs aux attentes n’est formulée, faute de comparaison vérifiée avec le consensus des analystes.",
-          "watch": "À surveiller : les prochains chiffres d’affaires publiés, les marges brutes, les créances clients, les stocks et le flux de trésorerie d’exploitation, afin d’évaluer si la demande se traduit par des livraisons rentables et des encaissements sans accroissement excessif du besoin en fonds de roulement.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires du trimestre fiscal"
-            },
-            {
-              "id": "m2",
-              "label": "Résultat net du trimestre fiscal selon les normes GAAP"
-            },
-            {
-              "id": "m3",
-              "label": "Flux de trésorerie d’exploitation du trimestre fiscal"
-            },
-            {
-              "id": "m4",
-              "label": "Croissance du chiffre d’affaires du trimestre fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "L’inflation des prix à la production aux États-Unis maintient l’attention sur les coûts",
-          "summary": "Les prix à la production aux États-Unis ont continué d’augmenter, y compris selon la mesure hors alimentation, énergie et services commerciaux.",
-          "impact": "La persistance des pressions sur les prix facturés aux entreprises peut comprimer leurs marges ou se répercuter sur les factures des ménages, tout en compliquant les attentes de détente des taux d’intérêt.",
-          "what": "Le Bureau of Labor Statistics, l’agence américaine des statistiques du travail, a publié son dernier rapport sur les prix à la production. Celui-ci mesure les prix perçus par les producteurs nationaux, et non les prix payés directement par les consommateurs. Les biens et les services ont contribué à la hausse de l’indice global. Les indicateurs distinguent les variations mensuelles corrigées des variations saisonnières des variations annuelles non corrigées, et isolent la mesure qui exclut les catégories volatiles ainsi que les marges commerciales.",
-          "why": "Analyse de la rédaction : lorsque les fournisseurs augmentent leurs prix, une entreprise doit absorber le surcoût, améliorer sa productivité ou tenter de le répercuter sur ses clients. Le résultat dépend de la concurrence, des contrats et de la demande des clients. Une répercussion réussie peut préserver les marges tout en alourdissant les dépenses des ménages ; dans le cas contraire, les bénéfices peuvent diminuer. La persistance de l’inflation peut aussi influencer les conditions de financement, avec des conséquences sur l’accessibilité des crédits immobiliers, les emprunts des entreprises et la valorisation de leurs bénéfices futurs.",
-          "uncertainty": "L’inflation des prix à la production ne se transmet pas mécaniquement aux prix à la consommation, et cette publication ne permet pas de déterminer la prochaine décision de politique monétaire. La situation varie selon les secteurs, tandis que la correction des variations saisonnières et les révisions ultérieures peuvent modifier le tableau. Un ralentissement de la hausse mensuelle de l’indice global ne suffirait pas à démontrer que l’inflation sous-jacente est maîtrisée.",
-          "watch": "À surveiller : les prochaines publications sur les prix à la consommation et les prix des dépenses de consommation, les révisions des prix à la production, ainsi que les commentaires des entreprises sur leurs prix de vente et le coût de leurs intrants, afin de déterminer si les pressions sont absorbées, répercutées ou en train de s’atténuer.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Prix à la production pour la demande finale, corrigés des variations saisonnières"
-            },
-            {
-              "id": "m2",
-              "label": "Prix à la production pour la demande finale, non corrigés des variations saisonnières"
-            },
-            {
-              "id": "m3",
-              "label": "Prix à la production hors alimentation, énergie et services commerciaux, corrigés des variations saisonnières"
-            },
-            {
-              "id": "m4",
-              "label": "Prix à la production hors alimentation, énergie et services commerciaux, non corrigés des variations saisonnières"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Décryptage des résultats de BYD : bénéfice et trésorerie racontent des histoires différentes",
-          "summary": "Le rapport trimestriel de BYD publié précédemment fait apparaître une amélioration du bénéfice trimestriel attribuable aux actionnaires, parallèlement à d’importantes dépenses d’investissement cumulées.",
-          "impact": "Ce rapport daté illustre pourquoi le bénéfice comptable et le flux de trésorerie d’exploitation d’un fabricant en expansion ne peuvent pas être assimilés à de la trésorerie librement disponible pour les actionnaires.",
-          "what": "Il s’agit d’un décryptage du rapport portant la date indiquée dans les métadonnées de l’article, et non d’une nouvelle de dernière minute. BYD, qui fabrique des véhicules et des batteries, publie un chiffre d’affaires et un bénéfice attribuable aux actionnaires pour le trimestre, tandis que le tableau des flux de trésorerie couvre la période cumulée du rapport. Les indicateurs affichés conservent ces périodes distinctes au lieu de comparer directement les bénéfices trimestriels à la trésorerie générée sur la période cumulée.",
-          "why": "Analyse de la rédaction : le chiffre d’affaires comptable reflète l’activité selon les règles de comptabilisation, tandis que le flux de trésorerie d’exploitation retrace les encaissements et les décaissements liés à l’activité. Le développement des capacités de production crée un besoin de trésorerie supplémentaire, enregistré dans les activités d’investissement plutôt que déduit du flux de trésorerie d’exploitation. Cette distinction compte pour les fournisseurs qui attendent leur paiement, les salariés qui dépendent de la pérennité de l’activité et les actionnaires qui évaluent les besoins futurs de financement. Les dépenses consacrées aux actifs à long terme doivent donc être examinées parallèlement à la trésorerie générée par l’exploitation, sans supposer que chaque investissement produit immédiatement du chiffre d’affaires.",
-          "uncertainty": "Le rapport trimestriel n’est pas audité. Le poste retenu pour les paiements liés aux actifs à long terme ne représente pas l’intégralité des flux de trésorerie d’investissement, et le soustraire du flux de trésorerie d’exploitation ne permettrait pas d’établir la variation totale de la trésorerie de l’entreprise. La croissance du bénéfice trimestriel ne démontre pas à elle seule une amélioration de la rentabilité cumulée et n’explique pas les facteurs commerciaux sous-jacents.",
-          "watch": "À surveiller : les prochains chiffres d’affaires, bénéfices attribuables aux actionnaires, encaissements d’exploitation et paiements liés aux actifs à long terme, ainsi que les informations sur le financement au bilan et le besoin en fonds de roulement, afin d’évaluer si l’expansion devient autofinancée.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires du trimestre civil"
-            },
-            {
-              "id": "m2",
-              "label": "Résultat net attribuable aux actionnaires du trimestre civil"
-            },
-            {
-              "id": "m3",
-              "label": "Croissance du résultat net attribuable aux actionnaires du trimestre civil"
-            },
-            {
-              "id": "m4",
-              "label": "Résultat net attribuable aux actionnaires cumulé depuis le début de l’année"
-            },
-            {
-              "id": "m5",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’année"
-            },
-            {
-              "id": "m6",
-              "label": "Décaissements pour les actifs à long terme cumulés depuis le début de l’année"
+              "label": "Producer prices excluding food, energy and trade services, annual change"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请留意各条消息的发布日期；近期公司财报在此作为背景解读。",
+      "status": "本期经核实的报道有限。部分市场暂无经核实的新消息；较早的报道仍明确标注日期。",
       "marketSummary": {
-        "us": "所跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据反映的是对应交易日的情况，并非当前行情。",
-        "cn": "所跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据反映的是对应交易日的情况，并非当前行情。"
+        "us": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。",
+        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "黄仁勋辞职，英伟达任命临时负责人",
-          "summary": "英伟达宣布，黄仁勋即刻卸任首席执行官、总裁及董事职务，并任命财务负责人科莱特·克雷斯担任临时首席执行官。",
-          "impact": "此次交接给这家重要的人工智能供应商带来领导层方面的不确定性，不过董事会表示，对客户的承诺和产品路线图应会继续推进，不受中断。",
-          "what": "英伟达为人工智能和加速计算提供技术。克雷斯在临时领导公司的同时保留财务职责，董事会正在考虑来自公司内部和外部的正式接任人选。哈维·琼斯出任董事长。此次公告涉及公司治理和经营连续性，并非新披露的营收或现金创造能力变化。",
-          "why": "编辑解读：客户投入大量资金购置计算设备时，需要确信领导层变动不会影响交付进度、技术支持和产品计划。供应商在承诺投入产能前，同样需要明确的信息。由经验丰富的内部人士临时掌舵，有助于保留公司积累的经验和知识，但兼任经营管理与财务职务，也让授权分工和监督尤为重要。这些只是可能影响财务表现的传导途径，并不表明客户已经取消采购或支出计划已经改变。",
-          "uncertainty": "公告没有解释辞职原因，也没有确定正式接任者。董事会关于业务连续性的表态属于预期，并非已获独立验证的经营表现；此处也未证实营收受到何种影响，或股价变动存在何种因果关系。",
-          "watch": "关注即将发布的财报和管理层讨论，了解客户承诺、交付执行情况及是否调整业绩展望，同时留意董事会随后对正式领导架构的公告。",
-          "metricLabels": []
-        },
-        {
-          "id": "f2",
-          "title": "中国融资规模增长，居民借贷仍显疲弱",
-          "summary": "中国央行公布，社会融资规模存量和广义货币继续增长，但报告期内居民贷款累计减少。",
-          "impact": "融资结构的差异关系到银行和面向消费者的企业，因为整体信贷扩张并不意味着居民愿意借贷和消费。",
-          "what": "中国人民银行发布初步金融统计数据，涵盖货币、存款、贷款及更广泛的融资渠道。在累计报告期内，居民贷款余额下降，企事业单位贷款则增加。配套指标特意区分了月末余额的同比增速与累计融资流量，不能将其当作可互换的经济活动描述。",
-          "why": "编辑解读：信贷可以支持工厂投资、基础设施建设和日常经营资金需求，却未必带来居民需求的相应改善。对上市银行而言，借款人结构影响利息收入和信用风险的来源。对零售商、家电制造商及房地产相关企业而言，居民借贷是有用的需求信号，但不能替代实际销售数据。融资还包括银行贷款以外的渠道，因此只看贷款总量，可能忽略企业获取资金的其他方式。",
-          "uncertainty": "这些是初步的汇总统计，并非公司盈利数据，也不能直接衡量消费者信心。居民贷款减少，无法区分是贷款申请疲弱、借款人还款，还是放贷限制所致。货币增长本身也不能说明存款将以多快的速度转化为支出，或获得融资的项目能否取得足够回报。",
-          "watch": "关注后续贷款结构、零售及房地产活动，以及上市银行的资产质量披露，判断融资是否正在转化为可持续需求，而不只是金融余额扩大。",
+          "title": "生产者价格上涨，企业成本持续承压",
+          "summary": "生产者价格报告显示，总体指标及反映基础价格走势的指标均继续上涨。",
+          "impact": "企业仍面临艰难取舍：是将成本转嫁给客户，还是自行承担、接受利润率受挤压。",
+          "what": "美国劳工统计局报告显示，国内生产者的销售价格上涨，商品和服务价格均有上升，剔除食品、能源和贸易服务后的指标也显示价格压力持续存在。这项调查衡量的是销售价格，并不直接衡量家庭生活成本或企业利润。总体指标的环比数据经过季节性调整，同比数据则未经调整；所依据的资料保留了这些区别，并未将不同口径视为可以互换。",
+          "why": "对财务的影响取决于企业在供应链中的位置。能够提高售价的生产商或许可以维持营收，而购买这些投入品的企业则可能面临利润率压力，除非它们也能提价或提高生产效率。对家庭而言，可能的后果是零售价格随后上涨，但这种成本传导并非必然发生。竞争、合同约定和需求变化都会影响企业自行承担的成本。对股票而言，值得关注的是盈利预期是否充分反映了销售价格、投入成本与需求之间的相互作用。",
+          "uncertainty": "生产者价格上涨并不能确定美联储接下来的决策方向，也不能证明消费者价格会沿着相同路径变化。报告还提到，此前公布的数据有所修订。这里未核实市场一致预期数据，因此不判断本次数据高于还是低于预期。",
+          "watch": "关注后续消费者价格和生产者价格报告，以及企业披露的定价、运输成本和利润率信息。如果有迹象显示客户抵触涨价，其含义将不同于企业能够转嫁成本、同时不损失需求的情况。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "社会融资规模存量同比增速"
+              "label": "最终需求生产者价格环比变动，经季节性调整"
             },
             {
               "id": "m2",
-              "label": "广义货币同比增速"
+              "label": "最终需求生产者价格同比变动，未经调整"
             },
             {
               "id": "m3",
-              "label": "社会融资规模累计增量"
+              "label": "剔除食品、能源和贸易服务的生产者价格环比变动"
             },
             {
               "id": "m4",
-              "label": "居民贷款累计变动"
-            },
-            {
-              "id": "m5",
-              "label": "企事业单位贷款累计增量"
+              "label": "剔除食品、能源和贸易服务的生产者价格同比变动"
             }
           ]
-        },
+        }
+      ]
+    },
+    "fr": {
+      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés n’ont aucune nouvelle actualité vérifiée ; les rapports plus anciens restent clairement signalés.",
+      "marketSummary": {
+        "us": "Les indices suivis ont tous reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours.",
+        "cn": "Les indices suivis ont tous reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
+      },
+      "stories": [
         {
-          "id": "f3",
-          "title": "思科营收和经营现金流增长",
-          "summary": "思科公布营收增长，按美国通用会计准则计算录得盈利，经营现金流为净流入，并上调全年业绩展望。",
-          "impact": "业绩显示网络基础设施存在需求支撑，但投资者仍需区分会计利润、实际收到的现金和管理层对未来的预期。",
-          "what": "思科向企业和计算服务运营商销售网络、安全、协作及可观测性技术，后者用于监测和理解系统运行状况。公司公告在不同财务报表中分别列示财季营收、按美国通用会计准则计算的净利润及经营活动产生的现金。管理层还上调了全年预期，其中包括与大型云服务运营商开展人工智能基础设施业务的预期；这些预期并非已经实现的销售。",
-          "why": "编辑解读：网络连接计算系统，因此基础设施投资带来的需求，并不限于最受公众关注的处理器。对企业客户而言，设备供应情况和安全功能影响部署成本及运营可靠性。对股东而言，经营活动产生的现金有助于检验已确认的利润是否伴随着现金资源。不过，经营现金流不包含投资和筹资活动，因此不能将其误认为公司履行所有付款义务后剩余的现金。",
-          "uncertainty": "该报告未经审计，管理层展望仍属于前瞻性信息。调整后盈利剔除了美国通用会计准则业绩中包含的部分项目；无论采用哪种盈利口径，都不应与经营现金流混淆。由于未能获得经核实的市场共识预期作为对照，此处不作盈利是否超出预期的判断。",
-          "watch": "关注后续披露的营收、毛利率、应收账款、存货和经营现金流，评估需求能否转化为有利润的交付和回款，同时避免营运资金需求过度增加。",
+          "id": "f1",
+          "title": "L’inflation à la production maintient la pression sur les coûts des entreprises",
+          "summary": "La publication sur les prix à la production montre que les hausses se poursuivent, tant dans l’indicateur global que dans les mesures sous-jacentes.",
+          "impact": "Les entreprises restent confrontées à un choix difficile : répercuter leurs coûts sur leurs clients ou les absorber en réduisant leurs marges.",
+          "what": "Le Bureau des statistiques du travail a signalé une hausse des prix perçus par les producteurs nationaux, touchant les biens comme les services. Les pressions persistent aussi dans l’indicateur hors alimentation, énergie et services commerciaux. Cette enquête porte sur les prix de vente : elle ne mesure directement ni le coût de la vie des ménages ni les bénéfices des entreprises. La variation mensuelle de l’indicateur global est corrigée des variations saisonnières, tandis que la variation annuelle ne l’est pas. Ces distinctions sont conservées dans les données présentées, sans considérer ces mesures comme interchangeables.",
+          "why": "Les effets financiers dépendent de la place de l’entreprise dans la chaîne d’approvisionnement. Un producteur capable de relever ses prix peut préserver son chiffre d’affaires, tandis qu’une entreprise qui achète ces produits peut subir une pression sur ses marges, sauf si elle peut augmenter ses propres prix ou améliorer sa productivité. Pour les ménages, une hausse ultérieure des prix de détail est possible, mais cette répercussion n’est pas automatique. La concurrence, les contrats et l’évolution de la demande peuvent modifier la part des coûts absorbée par les entreprises. Pour les actions, la question utile est de savoir si les prévisions de bénéfices tiennent suffisamment compte des interactions entre prix de vente, coûts des achats nécessaires à la production et demande.",
+          "uncertainty": "L’inflation à la production ne permet pas de déterminer l’orientation de la prochaine décision de la Réserve fédérale et ne prouve pas que l’inflation à la consommation suivra la même trajectoire. La publication signale également des révisions de données antérieures. Aucune mesure du consensus des prévisions n’a été vérifiée ici : ce rapport n’affirme donc pas que les données sont supérieures ou inférieures aux attentes.",
+          "watch": "Les prochaines publications sur les prix à la consommation et à la production sont à suivre, ainsi que les informations des entreprises sur leurs prix, leurs coûts de transport et leurs marges. Des signes de résistance des clients aux hausses de prix n’auraient pas la même portée que des éléments montrant que les entreprises peuvent répercuter leurs coûts sans affaiblir la demande.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "财季营收"
+              "label": "Prix à la production pour la demande finale, variation mensuelle corrigée des variations saisonnières"
             },
             {
               "id": "m2",
-              "label": "财季净利润（美国通用会计准则）"
+              "label": "Prix à la production pour la demande finale, variation annuelle non corrigée"
             },
             {
               "id": "m3",
-              "label": "财季经营现金流"
+              "label": "Prix à la production hors alimentation, énergie et services commerciaux, variation mensuelle"
             },
             {
               "id": "m4",
-              "label": "财季营收增速"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "美国生产者价格继续上涨，成本压力仍受关注",
-          "summary": "美国生产者价格继续上涨，剔除食品、能源和贸易服务后的指标也在上升。",
-          "impact": "企业端价格压力持续，可能挤压公司利润率，或传导至居民支出，也让市场对利率下调的预期变得更复杂。",
-          "what": "美国劳工统计局发布最新生产者价格报告，衡量的是本国生产者出售商品和服务所获得的价格，而非消费者直接支付的价格。商品和服务价格均推动总体指标上涨。所列指标区分了经季节性调整的环比变动和未经季节性调整的同比变动，并单独列示剔除波动较大类别及贸易服务利润率影响后的指标。",
-          "why": "编辑解读：供应商提价时，企业需要自行承担成本、提高生产效率，或尝试将成本转嫁给客户。结果取决于竞争、合同和客户需求。成功转嫁成本可以维持利润率，却会增加居民开支；无法转嫁则可能削弱利润。通胀持续也可能影响融资条件，进而影响住房贷款的可负担程度、企业借贷，以及未来企业盈利的估值。",
-          "uncertainty": "生产者价格上涨不会机械地转化为消费者价格上涨，这份报告也不能确定接下来的货币政策决定。各行业情况不同，季节性调整和后续修订也可能改变数据呈现的情况。总体指标的环比涨幅放缓，本身并不能证明潜在通胀压力已经消除。",
-          "watch": "关注后续消费者价格和消费支出价格报告、生产者价格修订，以及企业对定价和投入成本的讨论，判断成本压力是在被企业吸收、向下游传导，还是逐渐减弱。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "最终需求生产者价格环比变动（经季节性调整）"
-            },
-            {
-              "id": "m2",
-              "label": "最终需求生产者价格同比变动（未经季节性调整）"
-            },
-            {
-              "id": "m3",
-              "label": "剔除食品、能源和贸易服务的生产者价格环比变动（经季节性调整）"
-            },
-            {
-              "id": "m4",
-              "label": "剔除食品、能源和贸易服务的生产者价格同比变动（未经季节性调整）"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "比亚迪财报解读：利润与现金反映不同情况",
-          "summary": "比亚迪此前发布的季度报告显示，当季归母净利润增长，同时累计投资支出规模较大。",
-          "impact": "这份已注明日期的报告说明，扩张中的制造企业所报告的会计利润和经营现金流，不能等同于可自由分配给股东的现金。",
-          "what": "这是对本条消息附带日期信息所对应财报的解读，并非即时新闻。比亚迪从事汽车和电池制造，报告披露了当季营收和归属于股东的净利润，而现金流量表覆盖的是累计报告期。展示的指标保留了这些期间差异，没有将当季利润直接与累计经营现金流比较。",
-          "why": "编辑解读：会计营收按照收入确认规则记录经营活动，经营现金流则反映经营中的现金收付。建设产能还会产生现金需求，这类支出记入投资活动，而不是从经营现金流中扣除。这种区别关系到等待收款的供应商、依赖企业持续经营的员工，以及评估未来融资需求的股东。因此，应结合经营活动产生的现金来审视长期资产支出，不能假设所有投资都会立即带来营收。",
-          "uncertainty": "该季度报告未经审计。选取的长期资产付款项目并不代表投资活动现金流的全部内容，将其从经营现金流中扣除，也不能得出公司完整的现金变动情况。当季利润增长本身不能证明累计盈利能力增强，也无法解释背后的经营驱动因素。",
-          "watch": "关注未来的营收、归母净利润、经营回款和长期资产付款，并结合资产负债表中的资金来源及营运资金披露，评估扩张能否依靠自身产生的资金支持。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "自然季度营收"
-            },
-            {
-              "id": "m2",
-              "label": "自然季度归母净利润"
-            },
-            {
-              "id": "m3",
-              "label": "自然季度归母净利润增速"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今归母净利润"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今经营现金流"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今购建长期资产支付的现金"
+              "label": "Prix à la production hors alimentation, énergie et services commerciaux, variation annuelle"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Revisa la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes de fechas anteriores siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual.",
-        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual."
+        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha indicada describen esas sesiones, no la negociación actual.",
+        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha indicada describen esas sesiones, no la negociación actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "NVIDIA nombra una directora ejecutiva interina tras la dimisión de Huang",
-          "summary": "NVIDIA anunció la salida inmediata de Jensen Huang como director ejecutivo, presidente y miembro del consejo de administración, y nombró directora ejecutiva interina a la directora financiera, Colette Kress.",
-          "impact": "La transición genera incertidumbre sobre el liderazgo de un importante proveedor de inteligencia artificial, aunque el consejo afirma que los compromisos con los clientes y los planes de productos deberían continuar sin interrupciones.",
-          "what": "NVIDIA suministra tecnología para inteligencia artificial y computación acelerada. Kress conserva sus responsabilidades financieras mientras dirige temporalmente la empresa, y el consejo evalúa candidatos internos y externos para el puesto permanente. Harvey Jones asume la presidencia del consejo. El anuncio se refiere al gobierno corporativo y a la continuidad operativa, no a un cambio recién comunicado en los ingresos o la generación de efectivo.",
-          "why": "Interpretación editorial: los clientes que realizan inversiones costosas en computación necesitan confiar en que los plazos de entrega, el soporte técnico y los planes de productos se mantendrán tras el cambio de liderazgo. Los proveedores también necesitan claridad antes de comprometer capacidad de producción. Una responsable interina con experiencia dentro de la empresa puede preservar el conocimiento de la organización, pero combinar las responsabilidades ejecutivas y financieras hace especialmente importantes la delegación y la supervisión. Estas son posibles vías de repercusión financiera, no pruebas de que los clientes hayan cancelado compras o de que hayan cambiado los planes de gasto.",
-          "uncertainty": "El comunicado no explica la dimisión ni identifica a un sucesor permanente. La declaración del consejo sobre la continuidad es una expectativa, no un resultado operativo demostrado de forma independiente; aquí no se establece ningún efecto sobre los ingresos ni una explicación causal de los movimientos de la cotización.",
-          "watch": "Presta atención a la próxima publicación de resultados y a los comentarios de la dirección sobre compromisos con clientes, cumplimiento de entregas y posibles revisiones de las previsiones, así como a los anuncios posteriores del consejo sobre la estructura directiva permanente.",
-          "metricLabels": []
-        },
-        {
-          "id": "f2",
-          "title": "El crecimiento de la financiación en China oculta la debilidad del crédito a los hogares",
-          "summary": "El banco central de China informó de un crecimiento continuado del saldo de financiación y de la oferta monetaria amplia, mientras que el crédito acumulado a los hogares se contrajo.",
-          "impact": "La distribución de la financiación importa para los bancos y las empresas orientadas al consumidor, porque el aumento del crédito agregado no implica necesariamente que los hogares estén dispuestos a endeudarse y gastar.",
-          "what": "El Banco Popular de China publicó estadísticas financieras preliminares sobre dinero, depósitos, préstamos y otras vías de financiación. El saldo de préstamos a los hogares disminuyó durante el período acumulado del informe, mientras que el crédito a empresas e instituciones aumentó. Los indicadores adjuntos separan expresamente las tasas de crecimiento interanual al cierre del mes de los flujos acumulados de financiación; no son descripciones intercambiables de la actividad.",
-          "why": "Interpretación editorial: el crédito puede apoyar la inversión industrial, las infraestructuras y el capital de trabajo sin producir una mejora equivalente en la demanda de los hogares. Para los bancos cotizados, la composición de los prestatarios influye en el origen de los ingresos por intereses y del riesgo de crédito. Para los comercios, los fabricantes de electrodomésticos y las empresas vinculadas al sector inmobiliario, el crédito a los hogares es una señal útil de la demanda, pero no sustituye a las ventas reales. La financiación también incluye canales distintos de los préstamos bancarios, por lo que observar únicamente el total de préstamos puede ocultar cómo consiguen fondos las empresas.",
-          "uncertainty": "Son estadísticas agregadas preliminares, no resultados empresariales ni una medida directa de la confianza del consumidor. Una caída del crédito a los hogares no permite distinguir entre una menor demanda de préstamos, las devoluciones de deuda o las restricciones crediticias. El crecimiento del dinero, por sí solo, no indica con qué rapidez se gastarán los depósitos ni si los proyectos financiados obtendrán una rentabilidad adecuada.",
-          "watch": "Presta atención a los próximos desgloses del crédito, la actividad comercial e inmobiliaria y la información de los bancos cotizados sobre la calidad de sus activos, para evaluar si la financiación se traduce en una demanda sostenible y no simplemente en mayores saldos financieros.",
+          "title": "La inflación de los precios al productor mantiene la presión sobre los costes empresariales",
+          "summary": "El informe de precios al productor muestra subidas persistentes tanto en el indicador general como en las medidas subyacentes.",
+          "impact": "Las empresas siguen ante la difícil decisión de trasladar los costes a sus clientes o absorberlos reduciendo sus márgenes de beneficio.",
+          "what": "La Oficina de Estadísticas Laborales informó de aumentos en los precios que reciben los productores nacionales, con subidas en bienes y servicios y presión persistente en la medida que excluye alimentos, energía y servicios comerciales. Se trata de una encuesta sobre precios de venta, no de una medición directa del coste de vida de los hogares ni de los beneficios empresariales. El dato general mensual está ajustado por variaciones estacionales, mientras que el interanual no lo está. Estas diferencias se mantienen en la información de respaldo, sin tratar las medidas como si fueran intercambiables.",
+          "why": "El efecto financiero depende del lugar que ocupe cada empresa en la cadena de suministro. Un productor que pueda cobrar más puede proteger sus ingresos, mientras que una empresa que compre esos insumos puede sufrir presión sobre sus márgenes si no logra subir sus propios precios o mejorar su productividad. Para los hogares, una posible consecuencia es un aumento posterior de los precios de venta al público, pero ese traslado no es automático. La competencia, los contratos y los cambios en la demanda pueden modificar la parte del aumento de costes que absorben las empresas. En el mercado de acciones, la cuestión relevante es si las estimaciones de beneficios reflejan adecuadamente la interacción entre los precios de venta, los costes de los insumos y la demanda.",
+          "uncertainty": "La inflación de los precios al productor no determina el rumbo de la próxima decisión de la Reserva Federal ni demuestra que la inflación al consumidor vaya a seguir la misma trayectoria. El informe también señala revisiones de datos anteriores. Aquí no se verificó ninguna estimación de consenso, por lo que no se afirma que los datos hayan superado las expectativas o quedado por debajo de ellas.",
+          "watch": "El seguimiento se centra en las próximas publicaciones de precios al consumidor y al productor, junto con la información que divulguen las empresas sobre precios, costes de transporte de mercancías y márgenes. Las señales de que los clientes se resisten a las subidas de precios tendrían implicaciones distintas de las señales de que las empresas pueden trasladar los costes sin perjudicar la demanda.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Crecimiento del saldo de financiación social"
+              "label": "Precios al productor para la demanda final, variación mensual ajustada por estacionalidad"
             },
             {
               "id": "m2",
-              "label": "Crecimiento de la oferta monetaria amplia"
+              "label": "Precios al productor para la demanda final, variación interanual sin ajuste estacional"
             },
             {
               "id": "m3",
-              "label": "Aumento acumulado de la financiación social"
+              "label": "Precios al productor sin alimentos, energía ni servicios comerciales, variación mensual"
             },
             {
               "id": "m4",
-              "label": "Variación acumulada de los préstamos a los hogares"
-            },
-            {
-              "id": "m5",
-              "label": "Aumento acumulado de los préstamos a empresas e instituciones"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Cisco informa de mayores ventas y generación de efectivo operativo",
-          "summary": "Cisco comunicó un crecimiento de los ingresos, un beneficio positivo según GAAP y una entrada de efectivo de las actividades operativas, además de elevar sus previsiones anuales.",
-          "impact": "Los resultados respaldan la demanda de infraestructura de redes, pero los inversores deben seguir distinguiendo entre beneficio contable, efectivo cobrado y expectativas futuras de la dirección.",
-          "what": "Cisco vende tecnología de redes, seguridad, colaboración y observabilidad utilizada por empresas y operadores informáticos. Su comunicado presenta los ingresos trimestrales, el beneficio neto según GAAP y el efectivo generado por las operaciones en estados financieros separados. La dirección también elevó sus expectativas anuales, incluidas las relativas al negocio previsto de infraestructura de inteligencia artificial con grandes operadores de servicios en la nube; esas expectativas no son ventas ya realizadas.",
-          "why": "Interpretación editorial: las redes conectan los sistemas informáticos, por lo que la inversión en infraestructura puede generar demanda más allá de los procesadores que concentran la atención pública. Para los clientes empresariales, la disponibilidad de equipos y las capacidades de seguridad influyen en los costes de implantación y la fiabilidad operativa. Para los accionistas, la generación de efectivo operativo ayuda a comprobar si el beneficio reconocido viene acompañado de recursos en efectivo. Sin embargo, se mide antes de las actividades de inversión y financiación, por lo que no debe confundirse con el efectivo que queda tras cumplir todas las obligaciones de la empresa.",
-          "uncertainty": "El informe no está auditado y las previsiones de la dirección siguen siendo estimaciones de futuro. El beneficio ajustado excluye partidas incluidas en los resultados según GAAP; ninguna de estas medidas debe confundirse con el flujo de efectivo operativo. No se afirma que los resultados hayan superado o incumplido las expectativas, porque no se estableció una comparación verificada con el consenso de los analistas.",
-          "watch": "Presta atención a los próximos datos de ingresos, márgenes brutos, cuentas por cobrar, existencias y flujo de efectivo operativo para evaluar si la demanda se convierte en entregas rentables y cobros sin generar necesidades excesivas de capital de trabajo.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos del trimestre fiscal"
-            },
-            {
-              "id": "m2",
-              "label": "Beneficio neto del trimestre fiscal según GAAP"
-            },
-            {
-              "id": "m3",
-              "label": "Flujo de efectivo operativo del trimestre fiscal"
-            },
-            {
-              "id": "m4",
-              "label": "Crecimiento de los ingresos del trimestre fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "La inflación de los productores en Estados Unidos mantiene la atención sobre los costes",
-          "summary": "Los precios al productor en Estados Unidos siguieron subiendo, incluida la medida que excluye alimentos, energía y servicios comerciales.",
-          "impact": "Las presiones persistentes sobre los precios empresariales pueden reducir los márgenes de las compañías o trasladarse a las facturas de los hogares, además de complicar las expectativas de bajadas de los tipos de interés.",
-          "what": "La Oficina de Estadísticas Laborales publicó su último informe de precios al productor, que mide los precios recibidos por los productores nacionales, no los que pagan directamente los consumidores. Los bienes y los servicios contribuyeron al aumento del índice general. Los indicadores distinguen las variaciones mensuales ajustadas por estacionalidad de las variaciones interanuales sin ese ajuste, e identifican por separado la medida que excluye categorías volátiles y márgenes comerciales.",
-          "why": "Interpretación editorial: cuando los proveedores cobran más, una empresa debe absorber el coste, mejorar la productividad o intentar trasladarlo a sus clientes. El resultado depende de la competencia, los contratos y la demanda de los clientes. Si logra trasladar los costes, puede conservar sus márgenes mientras aumentan los gastos de los hogares; si no lo consigue, sus beneficios pueden debilitarse. La persistencia de la inflación también puede influir en las condiciones de financiación y afectar a la capacidad de pagar una hipoteca, al crédito empresarial y a la valoración de los beneficios futuros de las empresas.",
-          "uncertainty": "La inflación de los productores no se traslada de forma automática a la inflación del consumidor, y el informe no determina la próxima decisión de política monetaria. La situación varía entre sectores, y el ajuste estacional y las revisiones posteriores pueden modificar el panorama. Una subida mensual más moderada del índice general no demostraría por sí sola que la inflación subyacente se haya resuelto.",
-          "watch": "Presta atención a las próximas publicaciones de precios al consumidor y de precios del gasto de consumo, a las revisiones de los precios al productor y a los comentarios empresariales sobre precios y costes de los insumos, para evaluar si las presiones se están absorbiendo, trasladando o debilitando.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Precios al productor de demanda final, ajustados por estacionalidad"
-            },
-            {
-              "id": "m2",
-              "label": "Precios al productor de demanda final, sin ajuste estacional"
-            },
-            {
-              "id": "m3",
-              "label": "Precios al productor excluidos alimentos, energía y servicios comerciales, ajustados por estacionalidad"
-            },
-            {
-              "id": "m4",
-              "label": "Precios al productor excluidos alimentos, energía y servicios comerciales, sin ajuste estacional"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Claves de los resultados de BYD: el beneficio y el efectivo cuentan historias distintas",
-          "summary": "El informe trimestral de BYD publicado anteriormente muestra una mejora del beneficio trimestral atribuible a los accionistas junto con un importante gasto acumulado en inversiones.",
-          "impact": "El informe, correspondiente a la fecha indicada, ilustra por qué el beneficio contable y el flujo de efectivo operativo de un fabricante en expansión no pueden considerarse efectivo de libre disposición para los accionistas.",
-          "what": "Esta es una explicación de los resultados del informe cuya fecha figura en los metadatos de la noticia, no una noticia de última hora. El negocio de fabricación de vehículos y baterías de BYD presenta ingresos trimestrales y beneficio atribuible a los accionistas, mientras que el estado de flujos de efectivo abarca el período acumulado del informe. Los indicadores mostrados mantienen esa diferencia entre períodos, en lugar de comparar directamente el beneficio trimestral con la generación acumulada de efectivo.",
-          "why": "Interpretación editorial: los ingresos contables registran la actividad empresarial conforme a las normas de reconocimiento, mientras que el flujo de efectivo operativo recoge los cobros y pagos de las operaciones. Ampliar la capacidad de producción genera una necesidad adicional de efectivo, registrada en las actividades de inversión en lugar de descontarse del flujo de efectivo operativo. Esta distinción importa para los proveedores que esperan cobrar, los empleados que dependen de la continuidad de las operaciones y los accionistas que evalúan las necesidades futuras de financiación. Por ello, el gasto en activos a largo plazo debe analizarse junto con la generación de efectivo operativo, sin suponer que toda inversión produce ingresos de inmediato.",
-          "uncertainty": "El informe trimestral no está auditado. La partida seleccionada de pagos por activos a largo plazo no representa todo el estado de flujos de efectivo de inversión, y restarla del flujo de efectivo operativo no permitiría determinar la variación total del efectivo de la empresa. El crecimiento del beneficio trimestral, por sí solo, no demuestra una mayor rentabilidad acumulada ni explica los factores comerciales subyacentes.",
-          "watch": "Presta atención a los próximos ingresos, beneficio atribuible, cobros operativos y pagos por activos a largo plazo, junto con la información del balance sobre financiación y capital de trabajo, para evaluar si la expansión llega a financiarse con recursos propios generados por el negocio.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos del trimestre natural"
-            },
-            {
-              "id": "m2",
-              "label": "Beneficio neto atribuible del trimestre natural"
-            },
-            {
-              "id": "m3",
-              "label": "Crecimiento del beneficio neto atribuible del trimestre natural"
-            },
-            {
-              "id": "m4",
-              "label": "Beneficio neto atribuible acumulado en el año"
-            },
-            {
-              "id": "m5",
-              "label": "Flujo de efectivo operativo acumulado en el año"
-            },
-            {
-              "id": "m6",
-              "label": "Pagos en efectivo por activos a largo plazo acumulados en el año"
+              "label": "Precios al productor sin alimentos, energía ni servicios comerciales, variación interanual"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動向を取り上げます。各記事の公表日を確認してください。最近の企業決算は、背景を理解するための解説として掲載しています。",
+      "status": "今回の配信では、確認済みの情報が限られています。市場によっては確認済みの新しいニュースがありません。過去の報告は、その時点の情報だと分かるように明示しています。",
       "marketSummary": {
-        "us": "対象の株価指数はいずれも、直近で確認できた取引日の終値で下落しました。日付付きの終値は、その日の取引を示すもので、現在の相場ではありません。",
-        "cn": "対象の株価指数はいずれも、直近で確認できた取引日の終値で下落しました。日付付きの終値は、その日の取引を示すもので、現在の相場ではありません。"
+        "us": "対象の指数はいずれも、確認できた直近の取引で下落しました。日付付きの終値は、その取引日の結果を示しており、現在の取引状況を表すものではありません。",
+        "cn": "対象の指数はいずれも、確認できた直近の取引で下落しました。日付付きの終値は、その取引日の結果を示しており、現在の取引状況を表すものではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "エヌビディア、黄氏の辞任を受け暫定トップを指名",
-          "summary": "エヌビディアは、ジェンスン・フアン氏が最高経営責任者、社長、取締役を即時退任し、財務責任者のコレット・クレス氏が暫定最高経営責任者に就くと発表しました。",
-          "impact": "人工知能分野の重要な供給企業で経営体制の先行きが不透明になります。ただし取締役会は、顧客への約束の履行や製品開発計画は滞りなく続くとの見通しを示しています。",
-          "what": "エヌビディアは、人工知能や計算処理を高速化する技術を提供しています。クレス氏は財務担当の職務を続けながら暫定的に経営を担い、取締役会は正式な後任について社内外の候補者を検討しています。取締役会議長にはハーベイ・ジョーンズ氏が就きます。この発表は企業統治と事業継続に関するもので、売上高や資金を生み出す力の変化を新たに報告したものではありません。",
-          "why": "編集部の解釈：高額なコンピューティング投資を行う顧客には、経営トップが交代しても納入日程、技術支援、製品計画が維持されるという安心感が必要です。供給企業も、生産能力を確保する前に見通しの明確さを求めます。社内事情に精通した暫定トップは、組織に蓄積された知識の維持に役立つ可能性があります。ただし、経営と財務の責任を兼ねるため、権限の委譲と監督が特に重要になります。これらは財務面に影響が及ぶ可能性のある経路であり、顧客が購入を取り消したり、支出計画を変更したりした証拠ではありません。",
-          "uncertainty": "発表では辞任の理由が説明されておらず、正式な後任も示されていません。取締役会による事業継続への言及は見通しであり、独立した検証によって確認された事業実績ではありません。ここでは、売上高への影響や株価変動の因果関係は確認されていません。",
-          "watch": "今後の決算発表や経営陣の説明で、顧客への約束、納入の進捗、業績見通しの修正の有無を確認することが注目点です。正式な経営体制に関する取締役会の続報も焦点になります。",
-          "metricLabels": []
-        },
-        {
-          "id": "f2",
-          "title": "中国、資金調達の拡大の陰で家計の借り入れは低調",
-          "summary": "中国の中央銀行は、社会融資総量の残高と広義の通貨供給量が引き続き増加する一方、家計向け融資は累計で減少したと報告しました。",
-          "impact": "経済全体で信用供与が増えても、家計が借り入れや消費に積極的とは限りません。このため、資金の借り手による違いは、銀行や消費者向け企業にとって重要です。",
-          "what": "中国人民銀行は、通貨、預金、貸し出し、より幅広い資金調達経路に関する速報統計を公表しました。累計の対象期間では、家計向け融資残高が減少する一方、企業・機関向け融資は増加しました。掲載指標では、月末残高の前年同月比伸び率と、期間累計の資金調達額を明確に分けています。これらは異なる動きを示すもので、置き換えて使うことはできません。",
-          "why": "編集部の解釈：信用供与は、家計需要が同じように改善しなくても、工場投資、インフラ整備、運転資金を支えることがあります。上場銀行にとって、借り手の構成は、利息収入や信用リスクがどこで生じるかを左右します。小売業、家電メーカー、不動産関連企業にとって、家計の借り入れは需要を探る有用な手掛かりですが、実際の売上に代わるものではありません。また、資金調達には銀行融資以外の経路も含まれるため、融資総額だけでは企業の資金調達の実態を見落とす可能性があります。",
-          "uncertainty": "これは集計された速報統計であり、企業決算でも消費者心理を直接測る指標でもありません。家計向け融資の減少だけでは、借り入れ申し込みの弱さ、返済、融資制限を区別できません。通貨供給量の増加だけで、預金がどれほど速く使われるか、資金を調達した事業が十分な収益を上げるかは判断できません。",
-          "watch": "今後の融資内訳、小売りや不動産の動向、上場銀行の資産の健全性に関する開示が注目点です。資金調達の拡大が、単なる金融残高の増加ではなく、持続可能な需要につながっているかを確認する材料になります。",
+          "title": "生産者物価の上昇で、企業のコスト負担が続く",
+          "summary": "生産者物価の発表では、総合指標でも基調を示す指標でも、価格の上昇が続いています。",
+          "impact": "企業は引き続き、コスト増を顧客への値上げに転嫁するか、利益率の低下を受け入れて吸収するかという難しい判断を迫られています。",
+          "what": "米労働統計局は、国内の生産者が受け取る販売価格の上昇を報告しました。財とサービスの価格が上がり、食品・エネルギー・流通サービスを除く指標でも上昇圧力が続いています。これは販売価格の調査であり、家計の生活費や企業利益を直接測るものではありません。総合指標の前月比は季節調整済みですが、前年比は季節調整前です。根拠となるデータでもこの違いを明示し、同じ条件の指標として扱っていません。",
+          "why": "企業の業績への影響は、供給網のどこに位置するかによって変わります。販売価格を引き上げられる生産者は売上高を維持できる可能性がありますが、その製品や原材料を仕入れる企業は、自社も値上げするか生産性を高めない限り、利益率が圧迫される可能性があります。家計には、後になって小売価格が上がる形で影響する可能性がありますが、コスト増が必ず転嫁されるわけではありません。競争や契約、需要の変化によって、企業がどの程度コストを吸収するかは変わります。株式を見るうえでは、販売価格、仕入れコスト、需要の相互関係が利益予想に十分反映されているかが重要です。",
+          "uncertainty": "生産者物価の上昇だけでは、米連邦準備制度理事会が次にどのような政策判断をするかは分かりません。消費者物価も同じ動きをするとは限りません。今回の発表には、過去のデータの改定も記されています。市場予想を示す指標は確認できていないため、この報告では結果が予想を上回ったか、下回ったかについては述べていません。",
+          "watch": "今後の消費者物価と生産者物価の発表に加え、企業が開示する価格設定、輸送費、利益率の情報が注目点です。顧客が値上げに抵抗している場合と、企業が需要を損なわずにコスト増を価格に転嫁できている場合とでは、意味合いが異なります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "社会融資総量残高の伸び率"
+              "label": "最終需要向け生産者物価・前月比（季節調整済み）"
             },
             {
               "id": "m2",
-              "label": "広義マネーサプライの伸び率"
+              "label": "最終需要向け生産者物価・前年比（季節調整前）"
             },
             {
               "id": "m3",
-              "label": "社会融資総量の累計増加額"
+              "label": "食品・エネルギー・流通サービスを除く生産者物価・前月比"
             },
             {
               "id": "m4",
-              "label": "家計向け融資の累計増減額"
-            },
-            {
-              "id": "m5",
-              "label": "企業・機関向け融資の累計増加額"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "シスコ、売上高と営業キャッシュフローが改善",
-          "summary": "シスコは、売上高の増加、米国会計基準に基づく黒字、営業活動による資金の流入を報告し、通期見通しを引き上げました。",
-          "impact": "決算はネットワーク基盤への需要を裏付ける内容ですが、投資家は会計上の利益、実際に得た現金、経営陣による将来の見通しを区別する必要があります。",
-          "what": "シスコは、企業やコンピューティング事業者向けに、ネットワーク、セキュリティー、共同作業、システムの稼働状況を把握するための技術を販売しています。決算発表では、四半期の売上高、米国会計基準に基づく純利益、営業活動から生み出した現金を、それぞれの財務諸表で報告しています。経営陣は、大手クラウド事業者向けの人工知能基盤事業への期待も含め、通期見通しを引き上げました。ただし、これらの見通しは実現済みの売上ではありません。",
-          "why": "編集部の解釈：ネットワークはコンピューティングシステムをつなぐため、インフラ投資は、注目を集める半導体以外にも需要を生み出す可能性があります。法人顧客にとって、機器の入手しやすさやセキュリティー機能は、導入費用や運用の信頼性に影響します。株主にとって、営業活動で得た現金は、計上された利益に実際の資金が伴っているかを確かめる手掛かりになります。ただし、営業キャッシュフローは投資活動や財務活動を反映する前の金額であり、企業のあらゆる支払いを済ませた後に残る現金と混同すべきではありません。",
-          "uncertainty": "この決算は未監査であり、経営陣の見通しは将来に関するものです。調整後利益は、米国会計基準による決算に含まれる項目を除外しています。どちらの利益も営業キャッシュフローとは異なります。確認済みの市場予想との比較がないため、決算が予想を上回った、または下回ったとは述べていません。",
-          "watch": "今後公表される売上高、売上総利益率、売上債権、棚卸資産、営業キャッシュフローが注目点です。運転資金の負担を過度に増やさず、需要が利益を伴う納入と代金回収につながっているかを確認する材料になります。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "会計四半期の売上高"
-            },
-            {
-              "id": "m2",
-              "label": "会計四半期の米国会計基準による純利益"
-            },
-            {
-              "id": "m3",
-              "label": "会計四半期の営業キャッシュフロー"
-            },
-            {
-              "id": "m4",
-              "label": "会計四半期の売上高伸び率"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "米生産者物価の上昇で、コスト圧力への関心続く",
-          "summary": "米国の生産者物価は上昇を続け、食品・エネルギー・流通サービスを除く指標も上昇しました。",
-          "impact": "企業が直面する価格上昇が続けば、利益率を圧迫したり、家計の支払いに波及したりする可能性があります。金利負担の軽減への期待にも影響します。",
-          "what": "米労働統計局は、最新の生産者物価統計を公表しました。これは消費者が直接支払う価格ではなく、国内の生産者が受け取る価格を測るものです。財とサービスが総合指数の上昇に寄与しました。掲載指標では、季節調整済みの前月比と季節調整前の前年同月比を区別し、変動の大きい項目と流通マージンを除いた指標も別に示しています。",
-          "why": "編集部の解釈：仕入れ先が価格を引き上げると、企業は費用を吸収するか、生産性を高めるか、顧客への価格転嫁を試みる必要があります。結果は競争環境、契約、顧客需要によって異なります。価格転嫁に成功すれば利益率を維持できる一方、家計の負担は増えます。転嫁できなければ利益が弱まる可能性があります。インフレの長期化は資金調達環境にも影響し、住宅ローンの負担のしやすさ、企業の借り入れ、将来の企業利益の評価を左右する可能性があります。",
-          "uncertainty": "生産者物価の上昇が、そのまま消費者物価の上昇につながるわけではありません。この発表から次の金融政策の判断が決まるわけでもありません。状況は業種によって異なり、季節調整や後日の改定で見え方が変わる可能性もあります。総合指数の前月比上昇率が鈍化しても、それだけで基調的なインフレが解消したとはいえません。",
-          "watch": "今後の消費者物価や個人消費支出の物価指標、生産者物価の改定、企業による価格設定や投入コストの説明が注目点です。コスト圧力が企業に吸収されているのか、価格転嫁されているのか、弱まっているのかを確認する材料になります。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "最終需要向け生産者物価・季節調整済み"
-            },
-            {
-              "id": "m2",
-              "label": "最終需要向け生産者物価・季節調整前"
-            },
-            {
-              "id": "m3",
-              "label": "食品・エネルギー・流通サービスを除く生産者物価・季節調整済み"
-            },
-            {
-              "id": "m4",
-              "label": "食品・エネルギー・流通サービスを除く生産者物価・季節調整前"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "比亜迪の決算解説：利益と現金の動きは異なる",
-          "summary": "比亜迪が以前公表した四半期報告書では、四半期の親会社株主に帰属する利益が改善する一方、累計では多額の投資支出がありました。",
-          "impact": "この過去の報告書は、事業を拡大するメーカーの会計上の利益や営業キャッシュフローを、株主のために自由に使える現金とみなせない理由を示しています。",
-          "what": "これは記事の付帯情報に記載された日付の報告書を解説するもので、速報ではありません。自動車と電池を製造する比亜迪の報告書では、売上高と親会社株主に帰属する利益は四半期の数値ですが、キャッシュフロー計算書は累計期間を対象としています。掲載指標は期間の違いを維持しており、四半期利益と累計の資金創出額を直接比較していません。",
-          "why": "編集部の解釈：会計上の売上高は収益の認識ルールに従って事業活動を記録するのに対し、営業キャッシュフローは営業活動に伴う現金の受け取りと支払いを示します。生産能力の拡大には別途資金が必要で、その支出は営業キャッシュフローから差し引かれるのではなく、投資活動に記録されます。この違いは、支払いを待つ取引先、事業の継続を頼りにする従業員、将来の資金調達の必要性を見極める株主にとって重要です。そのため、長期資産への支出は営業活動による資金創出と併せて確認する必要があり、投資がすべて直ちに売上を生むと考えることはできません。",
-          "uncertainty": "この四半期報告書は未監査です。取り上げた長期資産への支払い項目は、投資キャッシュフロー全体ではありません。営業キャッシュフローからその金額を差し引いても、会社全体の現金増減は把握できません。四半期利益の伸びだけでは、累計の収益性が改善したとはいえず、その背景にある事業上の要因も説明できません。",
-          "watch": "今後の売上高、親会社株主に帰属する利益、営業活動での代金回収、長期資産への支払いに加え、貸借対照表の資金調達状況や運転資金に関する開示が注目点です。事業拡大に必要な資金を自ら生み出せるようになるかを確認する材料になります。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "暦年四半期の売上高"
-            },
-            {
-              "id": "m2",
-              "label": "暦年四半期の親会社株主に帰属する純利益"
-            },
-            {
-              "id": "m3",
-              "label": "暦年四半期の親会社株主に帰属する純利益の伸び率"
-            },
-            {
-              "id": "m4",
-              "label": "年初来累計の親会社株主に帰属する純利益"
-            },
-            {
-              "id": "m5",
-              "label": "年初来累計の営業キャッシュフロー"
-            },
-            {
-              "id": "m6",
-              "label": "年初来累計の長期資産取得に伴う現金支出"
+              "label": "食品・エネルギー・流通サービスを除く生産者物価・前年比"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição aborda acontecimentos nos EUA e na China. Confira a data de cada publicação; os relatórios recentes das empresas são apresentados como explicações de contexto.",
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram em seus respectivos pregões mais recentes com dados verificados. Os fechamentos nas datas indicadas descrevem esses pregões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram em seus respectivos pregões mais recentes com dados verificados. Os fechamentos nas datas indicadas descrevem esses pregões, não as negociações atuais."
+        "us": "Os índices acompanhados caíram em suas sessões mais recentes verificadas. Os fechamentos com data indicada descrevem essas sessões, não as negociações atuais.",
+        "cn": "Os índices acompanhados caíram em suas sessões mais recentes verificadas. Os fechamentos com data indicada descrevem essas sessões, não as negociações atuais."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "NVIDIA nomeia liderança interina após renúncia de Huang",
-          "summary": "A NVIDIA anunciou a saída imediata de Jensen Huang dos cargos de diretor-executivo, presidente e membro do conselho de administração, nomeando a diretora financeira Colette Kress como diretora-executiva interina.",
-          "impact": "A transição traz incerteza sobre a liderança de um importante fornecedor de tecnologia para inteligência artificial, embora o conselho afirme que os compromissos com clientes e o plano de desenvolvimento de produtos devem continuar sem interrupções.",
-          "what": "A NVIDIA fornece tecnologia para inteligência artificial e computação acelerada. Kress mantém suas responsabilidades financeiras enquanto lidera temporariamente a empresa, e o conselho avalia candidatos internos e externos para o cargo definitivo. Harvey Jones assume a presidência do conselho. O anúncio trata da governança e da continuidade das operações, não de uma mudança recém-divulgada na receita ou na geração de caixa.",
-          "why": "Interpretação editorial: clientes que fazem investimentos elevados em computação precisam confiar que os prazos de entrega, o suporte técnico e os planos de produtos serão mantidos após uma mudança de liderança. Os fornecedores também precisam de clareza antes de comprometer sua capacidade de produção. Uma liderança interina com experiência dentro da empresa pode preservar o conhecimento acumulado, mas reunir responsabilidades executivas e financeiras torna a delegação e a supervisão especialmente importantes. Esses são possíveis caminhos de impacto financeiro, não evidências de que clientes tenham cancelado compras ou de que os planos de gastos tenham mudado.",
-          "uncertainty": "O comunicado não explica a renúncia nem identifica quem assumirá o cargo de forma definitiva. A declaração de continuidade do conselho expressa uma expectativa, não um desempenho operacional comprovado de forma independente; não se estabelece aqui qualquer efeito sobre a receita nem uma explicação causal para movimentos no preço das ações.",
-          "watch": "Acompanhe a próxima divulgação de resultados e os comentários da administração sobre compromissos com clientes, cumprimento das entregas e eventuais revisões das perspectivas, além dos próximos anúncios do conselho sobre a estrutura definitiva de liderança.",
-          "metricLabels": []
-        },
-        {
-          "id": "f2",
-          "title": "Crescimento do financiamento na China encobre fraqueza no crédito às famílias",
-          "summary": "O banco central da China informou crescimento contínuo do saldo total de financiamento e da oferta monetária ampla, enquanto o crédito às famílias diminuiu no período acumulado.",
-          "impact": "A composição do financiamento importa para bancos e empresas voltadas ao consumidor, pois a expansão do crédito total não significa necessariamente que as famílias estejam dispostas a tomar empréstimos e gastar.",
-          "what": "O Banco Popular da China publicou estatísticas financeiras preliminares sobre moeda, depósitos, empréstimos e canais mais amplos de financiamento. O saldo dos empréstimos às famílias diminuiu no período acumulado do relatório, enquanto os empréstimos a empresas e instituições aumentaram. As métricas apresentadas separam deliberadamente as taxas de crescimento anual dos saldos no fim do mês dos fluxos acumulados de financiamento; essas medidas não são formas equivalentes de descrever a atividade.",
-          "why": "Interpretação editorial: o crédito pode sustentar investimentos em fábricas, infraestrutura e capital de giro sem gerar uma melhora equivalente na demanda das famílias. Para os bancos com ações em bolsa, a composição dos tomadores influencia a origem da receita de juros e do risco de crédito. Para varejistas, fabricantes de eletrodomésticos e empresas ligadas ao setor imobiliário, o crédito às famílias é um sinal útil da demanda, mas não substitui as vendas efetivas. O financiamento também inclui canais além dos empréstimos bancários, de modo que olhar apenas para o total de empréstimos pode ocultar como as empresas obtêm recursos.",
-          "uncertainty": "Essas estatísticas são preliminares e agregadas, não resultados de empresas nem uma medida direta da confiança do consumidor. A queda dos empréstimos às famílias não permite distinguir entre baixa procura, pagamentos de dívidas e restrições à concessão de crédito. O crescimento da oferta monetária, por si só, não mostra com que rapidez os depósitos serão gastos nem se os projetos financiados terão retornos adequados.",
-          "watch": "Acompanhe os próximos detalhamentos do crédito, a atividade do varejo e do setor imobiliário e as divulgações dos bancos listados sobre a qualidade de seus ativos para avaliar se o financiamento está se transformando em demanda sustentável, e não apenas em saldos financeiros maiores.",
+          "title": "Inflação ao produtor mantém pressão sobre os custos das empresas",
+          "summary": "A divulgação de preços ao produtor mostra aumentos contínuos tanto no indicador geral quanto nas medidas que excluem componentes específicos.",
+          "impact": "As empresas continuam diante de uma escolha difícil: repassar os custos aos clientes ou absorvê-los, reduzindo suas margens de lucro.",
+          "what": "O órgão de estatísticas do trabalho dos Estados Unidos informou uma alta nos preços recebidos pelos produtores nacionais, com aumentos em bens e serviços e pressão persistente na medida que exclui alimentos, energia e serviços de comércio. Trata-se de uma pesquisa sobre preços de venda, não de uma medida direta do custo de vida das famílias ou dos lucros das empresas. A variação mensal do indicador geral tem ajuste sazonal, que considera padrões recorrentes ao longo do ano, enquanto a variação anual não tem esse ajuste. Essas diferenças são mantidas nos dados apresentados, sem tratar as medidas como equivalentes.",
+          "why": "O efeito financeiro depende da posição da empresa na cadeia de fornecimento. Um produtor que consegue cobrar mais pode proteger sua receita, enquanto uma empresa que compra esses insumos pode sofrer pressão sobre suas margens, a menos que consiga elevar seus próprios preços ou melhorar a produtividade. Para as famílias, uma possível consequência é uma alta posterior dos preços no varejo, mas esse repasse não é automático. A concorrência, os contratos e as mudanças na demanda podem alterar quanto dos custos as empresas absorvem. Para o mercado de ações, a questão relevante é se as estimativas de lucro refletem adequadamente a relação entre preços de venda, custos dos insumos e demanda.",
+          "uncertainty": "A inflação ao produtor não determina o rumo da próxima decisão do Federal Reserve, o banco central dos Estados Unidos, nem comprova que a inflação ao consumidor seguirá a mesma trajetória. A divulgação também informa revisões de dados anteriores. Não foi verificada uma medida de consenso das expectativas do mercado para esta edição; por isso, o relatório não afirma que os dados ficaram acima ou abaixo do esperado.",
+          "watch": "Acompanhar as próximas divulgações de preços ao consumidor e ao produtor, junto com as informações das empresas sobre preços, custos de frete e margens. Sinais de que os clientes resistem aos aumentos de preços teriam implicações diferentes de sinais de que as empresas conseguem repassar custos sem prejudicar a demanda.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Crescimento do saldo de financiamento social total"
+              "label": "Preços ao produtor para demanda final, variação mensal com ajuste sazonal"
             },
             {
               "id": "m2",
-              "label": "Crescimento da oferta monetária ampla"
+              "label": "Preços ao produtor para demanda final, variação anual sem ajuste sazonal"
             },
             {
               "id": "m3",
-              "label": "Acréscimo acumulado de financiamento social total"
+              "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, variação mensal"
             },
             {
               "id": "m4",
-              "label": "Variação acumulada dos empréstimos às famílias"
-            },
-            {
-              "id": "m5",
-              "label": "Acréscimo acumulado dos empréstimos a empresas e instituições"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Cisco divulga crescimento das vendas e da geração de caixa operacional",
-          "summary": "A Cisco divulgou crescimento da receita, lucro segundo os princípios contábeis dos EUA, conhecidos como GAAP, e geração positiva de caixa operacional, além de elevar suas projeções anuais.",
-          "impact": "Os resultados reforçam os sinais de demanda por infraestrutura de redes, mas os investidores ainda precisam distinguir lucro contábil, dinheiro recebido e expectativas futuras da administração.",
-          "what": "A Cisco vende tecnologias de redes, segurança, colaboração e observabilidade, usadas por empresas e operadores de infraestrutura de computação. O comunicado apresenta a receita trimestral, o lucro líquido segundo os princípios GAAP e o caixa gerado pelas operações em demonstrações financeiras separadas. A administração também elevou as expectativas anuais, inclusive para os negócios previstos de infraestrutura de inteligência artificial com grandes operadores de nuvem; essas expectativas não são vendas já realizadas.",
-          "why": "Interpretação editorial: as redes conectam sistemas de computação, por isso o investimento em infraestrutura pode gerar demanda além dos processadores que recebem a maior atenção do público. Para os clientes empresariais, a disponibilidade de equipamentos e os recursos de segurança afetam os custos de implantação e a confiabilidade das operações. Para os acionistas, a geração de caixa operacional ajuda a verificar se os lucros reconhecidos na contabilidade vêm acompanhados de recursos em dinheiro. Ainda assim, essa medida é calculada antes das atividades de investimento e financiamento, portanto não deve ser confundida com o dinheiro restante após todas as obrigações da empresa.",
-          "uncertainty": "O relatório não foi auditado, e as projeções da administração continuam sendo expectativas sobre o futuro. Os lucros ajustados excluem itens incluídos nos resultados segundo os princípios GAAP; nenhuma dessas apresentações deve ser confundida com o fluxo de caixa operacional. Não se afirma que os resultados tenham superado as expectativas, pois não foi estabelecida uma comparação verificada com o consenso dos analistas.",
-          "watch": "Acompanhe as próximas divulgações de receita, margens brutas, contas a receber, estoques e fluxo de caixa operacional para avaliar se a demanda se transforma em entregas lucrativas e recebimentos sem criar necessidades excessivas de capital de giro.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita do trimestre fiscal"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro líquido segundo os princípios GAAP do trimestre fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Fluxo de caixa operacional do trimestre fiscal"
-            },
-            {
-              "id": "m4",
-              "label": "Crescimento da receita do trimestre fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Inflação ao produtor nos EUA mantém pressões de custos em foco",
-          "summary": "Os preços ao produtor nos EUA continuaram subindo, inclusive na medida que exclui alimentos, energia e serviços de comércio.",
-          "impact": "Pressões persistentes nos preços cobrados pelas empresas podem comprimir suas margens ou chegar às contas das famílias, além de dificultar as expectativas de alívio nos juros.",
-          "what": "O órgão de estatísticas do trabalho dos EUA divulgou seu relatório mais recente de preços ao produtor, que mede os preços recebidos pelos produtores nacionais, e não os preços pagos diretamente pelos consumidores. Bens e serviços contribuíram para a alta do índice geral. As métricas distinguem as variações mensais com ajuste sazonal, que considera padrões típicos de cada época do ano, das variações anuais sem esse ajuste, e identificam separadamente a medida que exclui categorias voláteis e margens do comércio.",
-          "why": "Interpretação editorial: quando os fornecedores cobram mais, uma empresa precisa absorver o custo, melhorar a produtividade ou tentar repassá-lo aos clientes. O resultado depende da concorrência, dos contratos e da demanda dos clientes. Um repasse bem-sucedido pode preservar as margens enquanto aumenta os custos das famílias; um repasse malsucedido pode reduzir os lucros. A persistência da inflação também pode influenciar as condições de financiamento, afetando a capacidade de pagar financiamentos imobiliários, o crédito às empresas e a avaliação dos lucros empresariais futuros.",
-          "uncertainty": "A inflação ao produtor não se transforma automaticamente em inflação ao consumidor, e o relatório não determina a próxima decisão de política monetária. A situação varia entre os setores, enquanto o ajuste sazonal e as revisões posteriores podem alterar o quadro. Uma alta mensal mais lenta do índice geral não demonstraria, por si só, que as pressões inflacionárias subjacentes foram resolvidas.",
-          "watch": "Acompanhe as próximas divulgações de preços ao consumidor e de preços dos gastos de consumo, as revisões dos preços ao produtor e os comentários das empresas sobre preços e custos de insumos para avaliar se as pressões estão sendo absorvidas, repassadas ou perdendo força.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Preços ao produtor para demanda final, com ajuste sazonal"
-            },
-            {
-              "id": "m2",
-              "label": "Preços ao produtor para demanda final, sem ajuste sazonal"
-            },
-            {
-              "id": "m3",
-              "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, com ajuste sazonal"
-            },
-            {
-              "id": "m4",
-              "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, sem ajuste sazonal"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Entenda os resultados da BYD: lucro e caixa contam histórias diferentes",
-          "summary": "O relatório trimestral já publicado pela BYD mostra melhora no lucro trimestral atribuível aos acionistas, ao lado de gastos acumulados expressivos com investimentos.",
-          "impact": "O relatório, referente à data indicada, ilustra por que o lucro contábil e o fluxo de caixa operacional de uma fabricante em expansão não podem ser tratados como dinheiro livremente disponível aos acionistas.",
-          "what": "Esta é uma explicação dos resultados do documento cuja data consta nos metadados da matéria, não uma notícia de última hora. A BYD, fabricante de veículos e baterias, divulga receita trimestral e lucro atribuível aos acionistas, enquanto a demonstração dos fluxos de caixa abrange o período acumulado do relatório. As métricas exibidas mantêm esses períodos distintos, em vez de comparar diretamente o lucro trimestral com a geração acumulada de caixa.",
-          "why": "Interpretação editorial: a receita contábil registra a atividade da empresa conforme as regras de reconhecimento, enquanto o fluxo de caixa operacional acompanha os recebimentos e pagamentos das operações. Ampliar a capacidade de produção cria uma necessidade adicional de caixa, registrada nas atividades de investimento, e não deduzida do fluxo de caixa operacional. Essa distinção importa para fornecedores que aguardam pagamentos, funcionários que dependem da continuidade das operações e acionistas que avaliam futuras necessidades de financiamento. Os gastos com ativos de longo prazo devem, portanto, ser examinados junto com a geração de caixa operacional, sem supor que todo investimento produza receita imediatamente.",
-          "uncertainty": "O relatório trimestral não foi auditado. A rubrica selecionada de pagamentos por ativos de longo prazo não representa toda a demonstração dos fluxos de caixa de investimento, e subtraí-la do fluxo de caixa operacional não mostraria a variação total do caixa da empresa. O crescimento do lucro trimestral, por si só, não demonstra maior rentabilidade no período acumulado nem explica os fatores comerciais por trás do resultado.",
-          "watch": "Acompanhe as próximas divulgações de receita, lucro atribuível aos acionistas, recebimentos operacionais e pagamentos por ativos de longo prazo, junto com as informações do balanço sobre financiamento e capital de giro, para avaliar se a expansão passa a se financiar com recursos gerados pela própria empresa.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita do trimestre civil"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro líquido atribuível aos acionistas do trimestre civil"
-            },
-            {
-              "id": "m3",
-              "label": "Crescimento do lucro líquido atribuível aos acionistas do trimestre civil"
-            },
-            {
-              "id": "m4",
-              "label": "Lucro líquido atribuível aos acionistas acumulado no ano"
-            },
-            {
-              "id": "m5",
-              "label": "Fluxo de caixa operacional acumulado no ano"
-            },
-            {
-              "id": "m6",
-              "label": "Pagamentos por ativos de longo prazo acumulados no ano"
+              "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, variação anual"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的動態。請留意各篇的發布日期；近期公司報告在此作為背景解讀，並非即時消息。",
+      "status": "本期經核實的資訊涵蓋範圍有限。部分市場沒有經核實的新消息；引用較早的報導時，均已清楚標示。",
       "marketSummary": {
-        "us": "追蹤的指數在最近經核實的交易日均下跌。附日期的收盤資料僅反映當日情況，不代表目前行情。",
-        "cn": "追蹤的指數在最近經核實的交易日均下跌。附日期的收盤資料僅反映當日情況，不代表目前行情。"
+        "us": "追蹤的指數在各自最近經核實的交易日均下跌。標示日期的收盤資料反映的是當時的交易情況，並非目前行情。",
+        "cn": "追蹤的指數在各自最近經核實的交易日均下跌。標示日期的收盤資料反映的是當時的交易情況，並非目前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "黃仁勳辭職，輝達任命代理執行長",
-          "summary": "輝達宣布，黃仁勳即刻卸下執行長、總裁及董事職務，由財務長 Colette Kress 出任代理執行長。",
-          "impact": "這項交接為重要的人工智慧供應商帶來領導層的不確定性，不過董事會表示，對客戶的承諾與產品發展規劃應可持續推進，不受中斷。",
-          "what": "輝達提供人工智慧與加速運算技術。Kress 在暫時領導公司的同時，仍保留財務職責；董事會正考慮由內部或外部人選正式接任。Harvey Jones 出任董事長。這項公告涉及公司治理與營運延續，並非新公布的營收或現金創造能力變化。",
-          "why": "編輯解讀：投入高額資金購置運算設備的客戶，需要確信交貨時程、技術支援與產品計畫不會因領導層更替而受影響。供應商在承諾提供產能前，也需要明確資訊。由熟悉公司的資深主管暫代領導，有助保留組織經驗，但同時承擔執行長與財務職責，也使授權分工與監督格外重要。這些只是可能影響財務的途徑，並不表示已有客戶取消採購，或支出計畫已經改變。",
-          "uncertainty": "公告未解釋辭職原因，也未指明正式接任人選。董事會對營運延續的說法屬於預期，並非經獨立驗證的營運表現；此處也未確立對營收的影響，或股價變動的因果解釋。",
-          "watch": "留意即將發布的財報與管理層說明，了解對客戶的承諾、交貨執行情況及展望是否調整，並關注董事會後續對正式領導架構的公告。",
-          "metricLabels": []
-        },
-        {
-          "id": "f2",
-          "title": "中國融資成長掩蓋家庭借貸疲弱",
-          "summary": "中國央行公布，社會融資規模存量與廣義貨幣持續成長，但家庭貸款在累計報告期間呈現減少。",
-          "impact": "這種融資結構差異對銀行與面向消費者的企業相當重要，因為整體信用擴張，不代表家庭願意借錢與消費。",
-          "what": "中國人民銀行發布初步金融統計，涵蓋貨幣、存款、貸款及更廣泛的融資管道。累計報告期間內，家庭貸款餘額下降，企業及機構借款則增加。附列指標刻意區分月底的年增率與累計融資流量；這些數據不能互相替代，用來描述相同的經濟活動。",
-          "why": "編輯解讀：信貸可以支持工廠投資、基礎建設與營運資金，卻未必帶來相應的家庭需求改善。對上市銀行而言，借款人的組成會影響利息收入與信用風險的來源。對零售商、家電製造商及房地產相關企業而言，家庭借貸是有用的需求訊號，但不能取代實際銷售資料。融資也涵蓋銀行貸款以外的管道，因此只看貸款總額，可能忽略企業取得資金的方式。",
-          "uncertainty": "這些是初步的整體統計，並非公司獲利，也不是消費者信心的直接衡量。家庭貸款減少，無法分辨是申貸需求疲弱、還款增加，還是放貸限制所致。僅憑貨幣成長，也無法判定存款會多快被花掉，或獲得融資的計畫能否產生足夠報酬。",
-          "watch": "留意後續貸款細項、零售與房地產活動，以及上市銀行的資產品質揭露，以判斷融資是否轉化為可持續的需求，而非只是金融餘額增加。",
+          "title": "生產者物價上漲，企業成本壓力持續",
+          "summary": "生產者物價報告顯示，整體與排除部分波動項目的指標皆持續上漲。",
+          "impact": "企業仍面臨難題：將成本轉嫁給客戶，或自行吸收並承受利潤率下降。",
+          "what": "美國勞工統計局公布，國內生產者出售商品與服務所收取的價格上漲；商品與服務價格均有增加，排除食品、能源與貿易服務後的指標也持續面臨上漲壓力。這項調查衡量的是銷售價格，並非直接衡量家庭生活成本或企業獲利。整體指標的月增率經季節調整，年增率則未經季節調整；佐證資料保留了這些差異，並未將不同指標混為一談。",
+          "why": "對企業財務的影響，取決於企業在供應鏈中的位置。能夠提高售價的生產者，可能藉此維持營收；但購買這些投入品的企業，若無法提高自身售價或改善生產效率，利潤率就可能承壓。對家庭而言，可能的後續影響是零售價格上漲，但成本不一定會轉嫁到消費者身上。競爭、合約與需求變化，都可能影響企業自行吸收成本的程度。對股票而言，值得關注的是，獲利預估是否充分反映售價、投入成本與需求之間的相互影響。",
+          "uncertainty": "生產者物價上漲，無法據此判定聯準會接下來的決策方向，也不能證明消費者物價將走上相同路徑。報告也指出，先前公布的資料有所修正。此處未核實市場共識預估，因此不宣稱數據優於或低於預期。",
+          "watch": "留意後續公布的消費者與生產者物價資料，並搭配企業對定價、運輸成本與利潤率的揭露觀察。若有跡象顯示客戶抗拒漲價，其意義將不同於企業能在不犧牲需求的情況下轉嫁成本。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "社會融資規模存量年增率"
+              "label": "最終需求生產者物價月增率，經季節調整"
             },
             {
               "id": "m2",
-              "label": "廣義貨幣年增率"
+              "label": "最終需求生產者物價年增率，未經季節調整"
             },
             {
               "id": "m3",
-              "label": "累計新增社會融資規模"
+              "label": "排除食品、能源與貿易服務的生產者物價月增率"
             },
             {
               "id": "m4",
-              "label": "家庭貸款累計增減額"
-            },
-            {
-              "id": "m5",
-              "label": "企業及機構貸款累計新增額"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "思科營收與經營現金創造能力增強",
-          "summary": "思科公布營收成長，依美國一般公認會計原則計算錄得獲利，經營活動也帶來現金淨流入，並上調全年展望。",
-          "impact": "業績顯示網路基礎設施需求獲得支撐，但投資人仍須區分帳面獲利、實際收取的現金與管理層對未來的預期。",
-          "what": "思科向企業與運算服務業者銷售網路、資安、協作及用於監測系統運作狀況的可觀測性技術。公告透過不同財務報表，分別呈現季度營收、依美國一般公認會計原則計算的淨利，以及經營活動產生的現金。管理層也上調全年預期，包括與大型雲端業者相關的人工智慧基礎設施業務預期；這些預期並非已完成的銷售。",
-          "why": "編輯解讀：網路連接各種運算系統，因此基礎設施投資帶來的需求，不僅限於最受關注的處理器。對企業客戶而言，設備供應與資安功能會影響部署成本及營運可靠性。對股東而言，經營活動產生的現金，有助檢視已認列的獲利是否伴隨現金資源。不過，經營現金流尚未計入投資與籌資活動，因此不應視為公司履行所有資金義務後剩餘的現金。",
-          "uncertainty": "這份報告未經審計，管理層展望仍屬前瞻性資訊。調整後獲利排除了美國一般公認會計原則業績中包含的部分項目；這些獲利呈現方式都不應與經營現金流混淆。由於未建立經核實的市場共識比較，此處不宣稱獲利優於或遜於預期。",
-          "watch": "留意後續公布的營收、毛利率、應收帳款、存貨與經營現金流，以評估需求能否轉化為有利潤的交貨與收款，同時避免營運資金需求過度增加。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "會計季度營收"
-            },
-            {
-              "id": "m2",
-              "label": "會計季度美國一般公認會計原則淨利"
-            },
-            {
-              "id": "m3",
-              "label": "會計季度經營現金流"
-            },
-            {
-              "id": "m4",
-              "label": "會計季度營收成長率"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "美國生產者物價上漲，成本壓力仍受關注",
-          "summary": "美國生產者物價持續上升，排除食品、能源與貿易服務後的指標也上漲。",
-          "impact": "企業面臨的價格壓力若持續，可能壓縮利潤率或推高家庭支出，也讓市場對降息的預期更難判斷。",
-          "what": "美國勞工統計局發布最新生產者物價報告，衡量的是國內生產者收取的價格，而非消費者直接支付的價格。商品與服務價格均推動整體指標上升。附列指標區分經季節調整的月變動率與未經季節調整的年變動率，並另列排除價格波動較大類別及貿易利潤的指標。",
-          "why": "編輯解讀：當供應商提高收費，企業必須自行吸收成本、提升生產力，或嘗試轉嫁給客戶。結果取決於競爭、合約與客戶需求。成功轉嫁成本可能維持利潤率，卻增加家庭負擔；無法轉嫁則可能削弱獲利。通膨持續也可能影響融資條件，進而影響家庭負擔房貸的能力、企業借款，以及企業未來獲利的估值。",
-          "uncertainty": "生產者物價上漲不會直接、等幅轉化為消費者物價上漲，這份報告也無法確定接下來的貨幣政策決定。各產業情況不同，季節調整與後續修正也可能改變呈現的情勢。即使整體指標的月漲幅放緩，也不能單憑此點認定深層通膨壓力已經消除。",
-          "watch": "留意後續消費者物價與消費支出物價報告、生產者物價修正，以及企業對定價與投入成本的說明，以了解壓力是由企業吸收、轉嫁給客戶，還是正在消退。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "最終需求生產者物價月變動率，經季節調整"
-            },
-            {
-              "id": "m2",
-              "label": "最終需求生產者物價年變動率，未經季節調整"
-            },
-            {
-              "id": "m3",
-              "label": "排除食品、能源與貿易服務的生產者物價月變動率，經季節調整"
-            },
-            {
-              "id": "m4",
-              "label": "排除食品、能源與貿易服務的生產者物價年變動率，未經季節調整"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "比亞迪財報解讀：獲利與現金反映不同面向",
-          "summary": "比亞迪先前發布的季報顯示，季度歸屬母公司股東淨利改善，同時累計投資支出可觀。",
-          "impact": "這份附有日期的報告說明，擴張中的製造商，其帳面獲利與經營現金流不能視為可自由分配給股東的現金。",
-          "what": "本文解讀的是新聞附帶資料所標示日期的財報，並非即時消息。比亞迪的汽車與電池製造業務公布季度營收及歸屬母公司股東淨利，現金流量表則涵蓋累計報告期間。所列指標保留這些期間差異，不將季度獲利直接與累計現金創造情況比較。",
-          "why": "編輯解讀：會計營收依認列規則記錄業務活動，經營現金流則追蹤經營活動的現金收支。建置產能還會產生額外現金需求，這類支出記在投資活動，而非從經營現金流中扣除。這項區別對等待收款的供應商、仰賴公司持續營運的員工，以及評估未來資金需求的股東都很重要。因此，應將長期資產支出與經營活動產生的現金放在同個脈絡下檢視，而不能假設所有投資都會立即帶來營收。",
-          "uncertainty": "這份季報未經審計。選列的長期資產付款項目，並不涵蓋整份投資活動現金流量表；從經營現金流扣除該項支出，也無法得出公司完整的現金變動。僅有季度獲利成長，不能證明累計獲利能力增強，也無法解釋背後的業務推動因素。",
-          "watch": "留意未來的營收、歸屬母公司股東淨利、經營活動收款及長期資產付款，並結合資產負債表上的資金來源與營運資金揭露，評估擴張是否能靠自身產生的資金支應。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "曆年季度營收"
-            },
-            {
-              "id": "m2",
-              "label": "曆年季度歸屬母公司股東淨利"
-            },
-            {
-              "id": "m3",
-              "label": "曆年季度歸屬母公司股東淨利成長率"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今歸屬母公司股東淨利"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今經營現金流"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今購建長期資產支付的現金"
+              "label": "排除食品、能源與貿易服務的生產者物價年增率"
             }
           ]
         }
