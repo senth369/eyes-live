@@ -1,85 +1,91 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-13T20:54:31.044Z",
-  "generatedAt": "2026-11-13T20:58:31.344Z",
+  "cutoffAt": "2026-11-14T00:53:47.785Z",
+  "generatedAt": "2026-11-14T00:58:43.105Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Federal Reserve Bank of St. Louis — broad US equity index closes",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Associated Press dated US closing report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-12c1e8155fb85c3c7b09e058ed6d3c74"
     },
     {
       "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite closes",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "Federal Reserve broad US equity index observations",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src3",
-      "label": "Investing — Shanghai Composite dated closing table",
-      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      "label": "Federal Reserve technology-heavy composite observations",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src4",
-      "label": "Investing — mainland large-cap index dated closing table",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Dated mainland closing quotation table",
+      "url": "https://m.cngold.org/stock/xw10878972.html"
     },
     {
       "id": "src5",
-      "label": "Bureau of Labor Statistics — producer prices release",
-      "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      "label": "Mainland large-cap index dated closing table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src6",
-      "label": "Applied Materials — latest earnings release and financial statements",
-      "url": "https://ir.appliedmaterials.com/node/29886/pdf"
+      "label": "US semiconductor equipment earnings release",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
     },
     {
       "id": "src7",
-      "label": "National Development and Reform Commission — energy storage implementation plan",
-      "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202611/P020261113394215852968.pdf"
+      "label": "US semiconductor equipment prepared earnings remarks",
+      "url": "https://appliedmaterials.gcs-web.com/static-files/14fd85ae-ff29-4756-879c-c899da301ae6"
     },
     {
       "id": "src8",
-      "label": "Beijing Daily — dated publication of the storage policy notice",
-      "url": "https://xinwen.bjd.com.cn/content/s6af6bc75e4b039a8e2f3905c.html"
+      "label": "Prior fiscal quarter release establishing the reporting boundary",
+      "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html"
     },
     {
       "id": "src9",
-      "label": "CATL — quarterly financial report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+      "label": "Bureau of Labor Statistics producer price release",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
     },
     {
       "id": "src10",
-      "label": "CATL — annual report business description",
-      "url": "https://www.catl.com/uploads/1/file/public/202603/20260310001119_eph6t9ivki.pdf"
+      "label": "Bureau of Labor Statistics producer price technical notes",
+      "url": "https://www.bls.gov/news.release/ppi.tn.htm"
     },
     {
       "id": "src11",
-      "label": "Applied Materials — preceding quarterly release establishing the fiscal boundary",
-      "url": "https://ir.appliedmaterials.com/static-files/425ac634-4ee7-4c41-a07f-fa9e3c42b797"
+      "label": "Mainland foundry issuer earnings filing",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1112/2026111200683_c.pdf"
+    },
+    {
+      "id": "src12",
+      "label": "Mainland battery issuer quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+    },
+    {
+      "id": "src13",
+      "label": "Mainland battery issuer earnings discussion record",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613436.PDF"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-12",
-      "close": 7592.4,
-      "previousClose": 7619.38,
-      "changePercent": -0.35409705251608914,
-      "sourceIds": [
-        "src1"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-12",
-      "close": 25366.09,
-      "previousClose": 25466.19,
-      "changePercent": -0.39307018442883424,
-      "sourceIds": [
-        "src2"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "sse",
@@ -88,7 +94,7 @@
       "previousClose": 3655.83,
       "changePercent": -0.59,
       "sourceIds": [
-        "src3"
+        "src4"
       ]
     },
     {
@@ -98,13 +104,13 @@
       "previousClose": 4043.93,
       "changePercent": -0.68,
       "sourceIds": [
-        "src4"
+        "src5"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f1",
+      "id": "f2",
       "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-13",
@@ -119,9 +125,9 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src9"
           ],
-          "evidence": "Opening paragraph and headline change table: seasonally adjusted final-demand producer price change."
+          "evidence": "Opening paragraph and Table A, seasonally adjusted final-demand producer price change."
         },
         {
           "id": "m2",
@@ -132,9 +138,9 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src9"
           ],
-          "evidence": "Opening paragraph and headline change table: unadjusted annual final-demand producer price change."
+          "evidence": "Opening paragraph and Table A, unadjusted final-demand annual price change."
         },
         {
           "id": "m3",
@@ -145,9 +151,9 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src9"
           ],
-          "evidence": "Opening discussion: seasonally adjusted final demand excluding food, energy and trade services."
+          "evidence": "Opening section, seasonally adjusted final demand excluding foods, energy and trade services."
         },
         {
           "id": "m4",
@@ -158,42 +164,125 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src5"
+            "src9"
           ],
-          "evidence": "Opening discussion: annual final demand excluding food, energy and trade services."
+          "evidence": "Opening section, unadjusted annual change excluding foods, energy and trade services."
         }
       ],
       "sourceIds": [
-        "src5"
+        "src9",
+        "src10"
       ],
-      "evidence": "Release header establishes publication timing; opening discussion and final-demand sections establish headline inflation, underlying inflation and differing goods and services movements."
+      "evidence": "Release opening section and final-demand discussion establish continuing price increases; technical notes define seller-price measurement and its distinction from consumer prices."
+    },
+    {
+      "id": "f3",
+      "market": "cn",
+      "category": "earnings",
+      "publishedOn": "2026-11-12",
+      "company": {
+        "name": "Semiconductor Manufacturing International Corporation",
+        "ticker": "688981",
+        "exchange": "Shanghai Stock Exchange"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 3190038000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Operating results summary, revenue row; filing table amounts are expressed in thousands of dollars."
+        },
+        {
+          "id": "m2",
+          "value": 428405000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Operating results summary, profit attributable to owners of the company row."
+        },
+        {
+          "id": "m3",
+          "value": 1182208000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Condensed consolidated cash flow statement, quarterly net cash generated from operating activities row."
+        },
+        {
+          "id": "m4",
+          "value": 29.9,
+          "unit": "percent",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Operating results summary, gross margin row."
+        },
+        {
+          "id": "m5",
+          "value": 1388457000,
+          "unit": "USD",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Condensed consolidated cash flow statement, purchases of property, plant and equipment cash outflow, presented here as spending."
+        }
+      ],
+      "sourceIds": [
+        "src11"
+      ],
+      "evidence": "Issuer filing operating review attributes sales growth to wafer volume and margin improvement to utilization and mix; cash flow statement separately identifies operating cash and equipment spending."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Producer inflation keeps pressure on business costs",
-          "summary": "The producer-price release shows continued price increases across headline and underlying measures.",
-          "impact": "Businesses still face a difficult choice between passing costs to customers and absorbing them in margins.",
-          "what": "The Bureau of Labor Statistics reported rising prices received by domestic producers, with increases in goods and services and continued pressure in the measure excluding food, energy and trade services. This is a selling-price survey, not a direct measure of household living costs or corporate profits. The headline monthly reading is seasonally adjusted, while the annual reading is unadjusted; those distinctions are preserved in the evidence rather than treating the measures as interchangeable.",
-          "why": "The financial transmission depends on where a company sits in the supply chain. A producer able to charge more may protect revenue, while a business buying those inputs may experience margin pressure unless it can raise its own prices or improve productivity. For households, the possible consequence is a later increase in retail prices, but that pass-through is not automatic. Competition, contracts and changes in demand can alter how much businesses absorb. For equities, the useful question is whether earnings estimates adequately reflect the interaction between selling prices, input costs and demand.",
-          "uncertainty": "Producer inflation does not establish the direction of the Federal Reserve's next decision or prove that consumer inflation will follow the same path. The release also notes revisions to earlier observations. No consensus metric was verified here, so this report makes no claim that the data beat or missed expectations.",
-          "watch": "Watch subsequent consumer and producer price releases alongside company disclosures on pricing, freight costs and margins. Evidence that customers resist price increases would matter differently from evidence that businesses can pass costs through without sacrificing demand.",
+          "id": "f2",
+          "title": "Producer prices keep pressure on business cost planning",
+          "summary": "US producer prices continued rising, including the measure excluding food, energy and trade services.",
+          "impact": "Businesses still face pricing and margin decisions, but this release alone cannot determine consumer inflation or the direction of interest rates.",
+          "what": "The Bureau of Labor Statistics measures prices received by domestic producers, which is different from measuring the checkout prices paid by households. The release shows increases across final-demand goods and services, while energy prices declined. Its narrower aggregate also increased, indicating that the headline movement cannot simply be described as an energy-price story. The monthly metrics are seasonally adjusted; the annual metrics are not. These are reported observations, not forecasts or estimates of an earnings effect.",
+          "why": "Editorial interpretation: a business facing higher purchase or delivery costs can raise selling prices, accept a smaller margin, change suppliers or seek productivity improvements. Which response is feasible depends on customer demand and competitive pressure. Investors therefore need to examine pricing power and costs together rather than assuming rising producer prices automatically increase corporate profits. For households, the possible connection is through later retail prices and the financing environment. That connection is conditional: producer prices cover a different basket and economic perspective from consumer prices, so pass-through should not be treated as automatic.",
+          "uncertainty": "The release does not establish how much of these movements individual companies will absorb or pass to customers. Product-specific changes can diverge from the aggregate, and subsequent revisions can alter the reported pattern. The narrower measure excludes selected volatile or margin-sensitive categories, but it is not a direct forecast of consumer inflation. No market-expectations comparison was verified, so the release is not characterized as an upside or downside surprise.",
+          "watch": "Watch revisions, the breadth of subsequent goods and services price movements, consumer-price evidence and company commentary on input costs and selling prices. Confirmation would require these sources to tell a consistent story, not merely a similar headline.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Final-demand producer prices, monthly change, seasonally adjusted"
+              "label": "Final-demand producer prices, monthly change"
             },
             {
               "id": "m2",
-              "label": "Final-demand producer prices, annual change, unadjusted"
+              "label": "Final-demand producer prices, annual change"
             },
             {
               "id": "m3",
@@ -204,33 +293,65 @@
               "label": "Producer prices excluding food, energy and trade services, annual change"
             }
           ]
+        },
+        {
+          "id": "f3",
+          "title": "Foundry improvement still requires substantial factory cash",
+          "summary": "SMIC reported improved sales and gross margin, while operating cash remained below spending on property, plant and equipment.",
+          "impact": "The earnings improvement supports the operating case for mainland chip manufacturing, but expansion still places demands on funding.",
+          "what": "This dated earnings explainer covers a contract manufacturer that fabricates chips for customers. The issuer attributes sequential sales growth to increased wafer shipments and better gross margin to factory utilization and product mix. The metrics use the filing's international accounting presentation in dollars and distinguish profit attributable to shareholders from consolidated operating cash. They should not be combined with differently presented domestic accounting figures. The cash statement separately records equipment and factory-asset purchases.",
+          "why": "Editorial interpretation: a semiconductor factory carries substantial costs before its production lines are fully occupied. Greater utilization can spread those costs across more output, improving manufacturing economics. However, accounting profitability does not by itself finance expansion. Equipment purchases consume cash, while depreciation recognizes asset costs through earnings over time. The distinction matters to suppliers awaiting payment, customers depending on reliable production and shareholders assessing financing needs. It also explains why improving factory results and continuing capital requirements can coexist without contradiction.",
+          "uncertainty": "This is an unaudited quarterly filing, not proof that current utilization or margins will persist. The equipment-spending comparison is a deliberately narrow cash check, not a complete free-cash-flow calculation: other investing and financing items also affect liquidity. Cash generated by consolidated subsidiaries is also not equivalent to profit attributable solely to the parent company's shareholders. The filing identifies industry cyclicality and equipment availability among its risks.",
+          "watch": "Watch whether utilization and product mix continue supporting margins, and whether operating cash keeps pace with factory investment. Subsequent disclosures on borrowing, customer demand and capital spending will help distinguish a manageable expansion cycle from increasing dependence on external funding.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Quarterly revenue under international accounting standards"
+            },
+            {
+              "id": "m2",
+              "label": "Quarterly profit attributable to company owners"
+            },
+            {
+              "id": "m3",
+              "label": "Quarterly operating cash flow"
+            },
+            {
+              "id": "m4",
+              "label": "Quarterly gross margin"
+            },
+            {
+              "id": "m5",
+              "label": "Quarterly property, plant and equipment spending"
+            }
+          ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场暂无经核实的新消息；较早的报道仍明确标注日期。",
+      "status": "本期涵盖美国和中国的动态。请留意各项内容的发布日期；近期公司财报以背景解读的形式呈现。",
       "marketSummary": {
-        "us": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。",
-        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。"
+        "us": "部分收盘数据未能核实。各项可用指数数据均保留其对应的交易日期。",
+        "cn": "所跟踪的指数在各自最近经核实的交易日均下跌。附有日期的收盘数据仅反映对应交易日的情况，不代表当前行情。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "生产者价格上涨，企业成本持续承压",
-          "summary": "生产者价格报告显示，总体指标及反映基础价格走势的指标均继续上涨。",
-          "impact": "企业仍面临艰难取舍：是将成本转嫁给客户，还是自行承担、接受利润率受挤压。",
-          "what": "美国劳工统计局报告显示，国内生产者的销售价格上涨，商品和服务价格均有上升，剔除食品、能源和贸易服务后的指标也显示价格压力持续存在。这项调查衡量的是销售价格，并不直接衡量家庭生活成本或企业利润。总体指标的环比数据经过季节性调整，同比数据则未经调整；所依据的资料保留了这些区别，并未将不同口径视为可以互换。",
-          "why": "对财务的影响取决于企业在供应链中的位置。能够提高售价的生产商或许可以维持营收，而购买这些投入品的企业则可能面临利润率压力，除非它们也能提价或提高生产效率。对家庭而言，可能的后果是零售价格随后上涨，但这种成本传导并非必然发生。竞争、合同约定和需求变化都会影响企业自行承担的成本。对股票而言，值得关注的是盈利预期是否充分反映了销售价格、投入成本与需求之间的相互作用。",
-          "uncertainty": "生产者价格上涨并不能确定美联储接下来的决策方向，也不能证明消费者价格会沿着相同路径变化。报告还提到，此前公布的数据有所修订。这里未核实市场一致预期数据，因此不判断本次数据高于还是低于预期。",
-          "watch": "关注后续消费者价格和生产者价格报告，以及企业披露的定价、运输成本和利润率信息。如果有迹象显示客户抵触涨价，其含义将不同于企业能够转嫁成本、同时不损失需求的情况。",
+          "id": "f2",
+          "title": "生产者价格上涨，企业成本规划仍承压",
+          "summary": "美国生产者价格继续上涨，剔除食品、能源和贸易服务后的指标也有所上升。",
+          "impact": "企业仍需权衡定价与利润率，但仅凭本次发布的数据，无法判断消费通胀或利率的走向。",
+          "what": "美国劳工统计局衡量的是国内生产者出售产品和服务所获得的价格，不同于家庭购物时支付的价格。本次数据显示，最终需求商品和服务的价格均上涨，能源价格则下降。剔除部分项目后的较窄口径综合指标也有所上升，表明不能简单地将总体价格变动归因于能源。环比指标经过季节性调整，同比指标则未经季节性调整。这些都是已公布的观测结果，并非预测，也不是对企业盈利影响的估算。",
+          "why": "编辑解读：当采购或配送成本上升时，企业可以提高售价、接受较低的利润率、更换供应商，或设法提高生产效率。哪些做法可行，取决于客户需求和竞争压力。因此，投资者需要结合定价能力与成本进行分析，而不能假设生产者价格上涨就会自动增加企业利润。对家庭而言，潜在影响可能通过之后的零售价格和融资环境体现。不过，这种联系有其条件：生产者价格与消费者价格涵盖的商品和服务组合不同，观察经济的角度也不同，因此不能认为成本必然会传导给消费者。",
+          "uncertainty": "本次发布的数据无法确定，具体企业会自行承担多少成本变化，又会向客户转嫁多少。具体产品的价格变化可能与总体走势不同，后续修订也可能改变已公布的变化特征。较窄口径指标剔除了部分波动较大或对利润率较敏感的类别，但并不是对消费通胀的直接预测。由于未核实数据与市场预期的对比情况，这里不将其描述为高于或低于预期。",
+          "watch": "关注数据修订、后续商品和服务价格变动的覆盖范围、消费者价格数据，以及企业对投入成本和销售价格的说明。要确认趋势，需要这些来源相互印证，而不只是表面的总体走势相似。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "最终需求生产者价格环比变动，经季节性调整"
+              "label": "最终需求生产者价格环比变动"
             },
             {
               "id": "m2",
-              "label": "最终需求生产者价格同比变动，未经调整"
+              "label": "最终需求生产者价格同比变动"
             },
             {
               "id": "m3",
@@ -241,33 +362,65 @@
               "label": "剔除食品、能源和贸易服务的生产者价格同比变动"
             }
           ]
+        },
+        {
+          "id": "f3",
+          "title": "晶圆代工业绩改善，建厂投入仍需大量现金",
+          "summary": "中芯国际公布的营收和毛利率有所改善，但经营现金流仍低于物业、厂房及设备支出。",
+          "impact": "盈利改善为中国内地芯片制造业的经营前景提供了支持，但扩张仍对资金提出要求。",
+          "what": "这篇附有报告日期的财报解读，介绍的是为客户代工制造芯片的企业。公司将营收环比增长归因于晶圆出货量增加，将毛利率改善归因于产能利用率和产品组合的改善。所列指标采用报告中的国际会计准则口径，以美元列示，并区分归属于公司股东的净利润与合并口径的经营现金流。这些数据不应与采用不同列报方式的境内会计口径数据混用。现金流量表另行列示了设备和厂房资产的购置支出。",
+          "why": "编辑解读：半导体工厂在生产线尚未充分利用时，就已承担相当大的成本。提高产能利用率，可以将这些成本分摊到更多产出上，从而改善制造业务的经济效益。然而，会计上的盈利本身并不能为扩张提供资金。购买设备需要支出现金，而折旧则是在资产使用期间逐步将其成本计入损益。这种区别对等待收款的供应商、依赖稳定生产的客户，以及评估融资需求的股东都很重要。它也解释了为什么工厂业绩改善与持续的资本投入需求可以同时存在，并不矛盾。",
+          "uncertainty": "这是一份未经审计的季度报告，不能证明当前的产能利用率或利润率能够持续。将经营现金流与设备支出作比较，是有意限定范围的现金状况检查，并非完整的自由现金流计算：其他投资和融资项目也会影响资金流动性。合并范围内子公司产生的现金，也不等于仅归属于母公司股东的净利润。报告列示的风险包括行业周期性和设备供应情况。",
+          "watch": "关注产能利用率和产品组合能否继续支撑利润率，以及经营现金流能否跟上工厂投资支出。后续有关借款、客户需求和资本支出的披露，将有助于判断扩张周期是否仍可控，还是正越来越依赖外部融资。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "国际会计准则口径季度营收"
+            },
+            {
+              "id": "m2",
+              "label": "季度归属于公司股东的净利润"
+            },
+            {
+              "id": "m3",
+              "label": "季度经营现金流"
+            },
+            {
+              "id": "m4",
+              "label": "季度毛利率"
+            },
+            {
+              "id": "m5",
+              "label": "季度物业、厂房及设备支出"
+            }
+          ]
         }
       ]
     },
     "fr": {
-      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés n’ont aucune nouvelle actualité vérifiée ; les rapports plus anciens restent clairement signalés.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les récents rapports d’entreprise sont présentés comme des éclairages de contexte.",
       "marketSummary": {
-        "us": "Les indices suivis ont tous reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours.",
-        "cn": "Les indices suivis ont tous reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "L’inflation à la production maintient la pression sur les coûts des entreprises",
-          "summary": "La publication sur les prix à la production montre que les hausses se poursuivent, tant dans l’indicateur global que dans les mesures sous-jacentes.",
-          "impact": "Les entreprises restent confrontées à un choix difficile : répercuter leurs coûts sur leurs clients ou les absorber en réduisant leurs marges.",
-          "what": "Le Bureau des statistiques du travail a signalé une hausse des prix perçus par les producteurs nationaux, touchant les biens comme les services. Les pressions persistent aussi dans l’indicateur hors alimentation, énergie et services commerciaux. Cette enquête porte sur les prix de vente : elle ne mesure directement ni le coût de la vie des ménages ni les bénéfices des entreprises. La variation mensuelle de l’indicateur global est corrigée des variations saisonnières, tandis que la variation annuelle ne l’est pas. Ces distinctions sont conservées dans les données présentées, sans considérer ces mesures comme interchangeables.",
-          "why": "Les effets financiers dépendent de la place de l’entreprise dans la chaîne d’approvisionnement. Un producteur capable de relever ses prix peut préserver son chiffre d’affaires, tandis qu’une entreprise qui achète ces produits peut subir une pression sur ses marges, sauf si elle peut augmenter ses propres prix ou améliorer sa productivité. Pour les ménages, une hausse ultérieure des prix de détail est possible, mais cette répercussion n’est pas automatique. La concurrence, les contrats et l’évolution de la demande peuvent modifier la part des coûts absorbée par les entreprises. Pour les actions, la question utile est de savoir si les prévisions de bénéfices tiennent suffisamment compte des interactions entre prix de vente, coûts des achats nécessaires à la production et demande.",
-          "uncertainty": "L’inflation à la production ne permet pas de déterminer l’orientation de la prochaine décision de la Réserve fédérale et ne prouve pas que l’inflation à la consommation suivra la même trajectoire. La publication signale également des révisions de données antérieures. Aucune mesure du consensus des prévisions n’a été vérifiée ici : ce rapport n’affirme donc pas que les données sont supérieures ou inférieures aux attentes.",
-          "watch": "Les prochaines publications sur les prix à la consommation et à la production sont à suivre, ainsi que les informations des entreprises sur leurs prix, leurs coûts de transport et leurs marges. Des signes de résistance des clients aux hausses de prix n’auraient pas la même portée que des éléments montrant que les entreprises peuvent répercuter leurs coûts sans affaiblir la demande.",
+          "id": "f2",
+          "title": "Les prix à la production continuent de compliquer la planification des coûts des entreprises",
+          "summary": "Aux États-Unis, les prix à la production ont continué d’augmenter, y compris hors alimentation, énergie et services commerciaux.",
+          "impact": "Les entreprises doivent toujours arbitrer entre prix et marges, mais cette publication ne permet pas, à elle seule, de déterminer l’inflation à la consommation ou l’orientation des taux d’intérêt.",
+          "what": "Le Bureau of Labor Statistics, l’organisme américain chargé des statistiques du travail, mesure les prix perçus par les producteurs nationaux, et non les prix payés en caisse par les ménages. La publication fait état de hausses des prix des biens et services destinés à la demande finale, tandis que les prix de l’énergie ont baissé. L’indicateur au périmètre plus restreint a également augmenté : le mouvement global ne peut donc pas simplement s’expliquer par l’énergie. Les variations mensuelles sont corrigées des variations saisonnières ; les variations annuelles ne le sont pas. Il s’agit de constats publiés, et non de prévisions ou d’estimations de leur effet sur les bénéfices.",
+          "why": "Interprétation éditoriale : face à une hausse de ses coûts d’achat ou de livraison, une entreprise peut relever ses prix de vente, accepter une marge plus faible, changer de fournisseurs ou chercher à améliorer sa productivité. Les réponses possibles dépendent de la demande des clients et de la pression concurrentielle. Les investisseurs doivent donc examiner conjointement le pouvoir de fixation des prix et les coûts, plutôt que de supposer qu’une hausse des prix à la production accroît automatiquement les bénéfices des entreprises. Pour les ménages, le lien éventuel passe par les prix de détail futurs et les conditions de financement. Ce lien reste conditionnel : les prix à la production portent sur un panier différent et reflètent une autre perspective économique que les prix à la consommation. Leur répercussion ne doit donc pas être considérée comme automatique.",
+          "uncertainty": "La publication ne permet pas de déterminer quelle part de ces variations chaque entreprise absorbera ou répercutera sur ses clients. Les évolutions propres à certains produits peuvent différer de la tendance globale, et des révisions ultérieures peuvent modifier le tableau publié. L’indicateur au périmètre plus restreint exclut certaines catégories volatiles ou sensibles aux marges, mais ne constitue pas une prévision directe de l’inflation à la consommation. Aucune comparaison avec les attentes du marché n’a été vérifiée : la publication n’est donc pas présentée comme une surprise à la hausse ou à la baisse.",
+          "watch": "À suivre : les révisions, l’étendue des prochaines variations de prix des biens et services, les données sur les prix à la consommation et les commentaires des entreprises sur leurs coûts de production et leurs prix de vente. Une confirmation nécessiterait que ces sources dressent un tableau cohérent, et pas seulement qu’elles présentent des titres similaires.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Prix à la production pour la demande finale, variation mensuelle corrigée des variations saisonnières"
+              "label": "Prix à la production pour la demande finale, variation mensuelle"
             },
             {
               "id": "m2",
-              "label": "Prix à la production pour la demande finale, variation annuelle non corrigée"
+              "label": "Prix à la production pour la demande finale, variation annuelle"
             },
             {
               "id": "m3",
@@ -278,33 +431,65 @@
               "label": "Prix à la production hors alimentation, énergie et services commerciaux, variation annuelle"
             }
           ]
+        },
+        {
+          "id": "f3",
+          "title": "Malgré l’amélioration de son activité de fonderie, SMIC doit encore consacrer d’importantes liquidités à ses usines",
+          "summary": "SMIC a publié un chiffre d’affaires et une marge brute en amélioration, mais ses flux de trésorerie d’exploitation sont restés inférieurs aux dépenses d’immobilisations corporelles.",
+          "impact": "L’amélioration des résultats renforce la justification opérationnelle de la fabrication de puces en Chine continentale, mais l’expansion continue de mobiliser des financements.",
+          "what": "Cet éclairage sur des résultats datés porte sur un fabricant de puces travaillant pour le compte de clients. L’entreprise attribue la progression du chiffre d’affaires par rapport au trimestre précédent à la hausse des livraisons de plaquettes de semi-conducteurs, et l’amélioration de la marge brute au taux d’utilisation des usines et à la composition des ventes par produit. Les indicateurs reprennent la présentation du rapport selon les normes comptables internationales, en dollars, et distinguent le bénéfice attribuable aux actionnaires des flux de trésorerie d’exploitation consolidés. Ils ne doivent pas être combinés avec des chiffres présentés différemment selon les normes comptables nationales. Le tableau des flux de trésorerie comptabilise séparément les achats d’équipements et d’actifs industriels.",
+          "why": "Interprétation éditoriale : une usine de semi-conducteurs supporte des coûts importants avant même que ses lignes de production soient pleinement utilisées. Un taux d’utilisation plus élevé permet de répartir ces coûts sur davantage de produits, ce qui améliore la rentabilité de la fabrication. Toutefois, la rentabilité comptable ne finance pas à elle seule l’expansion. Les achats d’équipements consomment de la trésorerie, tandis que l’amortissement répartit le coût des actifs dans les résultats au fil du temps. Cette distinction importe pour les fournisseurs qui attendent leur paiement, les clients qui dépendent d’une production fiable et les actionnaires qui évaluent les besoins de financement. Elle explique aussi pourquoi l’amélioration des résultats des usines peut coexister avec des besoins persistants en capitaux, sans contradiction.",
+          "uncertainty": "Il s’agit d’un rapport trimestriel non audité, et non de la preuve que le taux d’utilisation ou les marges actuels se maintiendront. La comparaison avec les dépenses d’équipement est volontairement limitée à un contrôle ciblé de la trésorerie ; elle ne constitue pas un calcul complet du flux de trésorerie disponible. D’autres éléments liés aux investissements et au financement influencent aussi les liquidités. La trésorerie générée par les filiales consolidées n’est pas non plus équivalente au bénéfice attribuable uniquement aux actionnaires de la société mère. Le rapport cite notamment le caractère cyclique du secteur et la disponibilité des équipements parmi les risques.",
+          "watch": "À suivre : la capacité du taux d’utilisation et de la composition des ventes à continuer de soutenir les marges, ainsi que celle des flux de trésorerie d’exploitation à suivre le rythme des investissements dans les usines. Les prochaines informations sur les emprunts, la demande des clients et les dépenses d’investissement aideront à distinguer un cycle d’expansion maîtrisable d’une dépendance croissante aux financements externes.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires trimestriel selon les normes comptables internationales"
+            },
+            {
+              "id": "m2",
+              "label": "Bénéfice trimestriel attribuable aux actionnaires de la société"
+            },
+            {
+              "id": "m3",
+              "label": "Flux de trésorerie d’exploitation trimestriels"
+            },
+            {
+              "id": "m4",
+              "label": "Marge brute trimestrielle"
+            },
+            {
+              "id": "m5",
+              "label": "Dépenses trimestrielles d’immobilisations corporelles"
+            }
+          ]
         }
       ]
     },
     "es": {
-      "status": "Cobertura verificada limitada en esta edición. Algunos mercados no tienen noticias nuevas verificadas; los informes de fechas anteriores siguen claramente identificados.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha indicada describen esas sesiones, no la negociación actual.",
-        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha indicada describen esas sesiones, no la negociación actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
+        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "La inflación de los precios al productor mantiene la presión sobre los costes empresariales",
-          "summary": "El informe de precios al productor muestra subidas persistentes tanto en el indicador general como en las medidas subyacentes.",
-          "impact": "Las empresas siguen ante la difícil decisión de trasladar los costes a sus clientes o absorberlos reduciendo sus márgenes de beneficio.",
-          "what": "La Oficina de Estadísticas Laborales informó de aumentos en los precios que reciben los productores nacionales, con subidas en bienes y servicios y presión persistente en la medida que excluye alimentos, energía y servicios comerciales. Se trata de una encuesta sobre precios de venta, no de una medición directa del coste de vida de los hogares ni de los beneficios empresariales. El dato general mensual está ajustado por variaciones estacionales, mientras que el interanual no lo está. Estas diferencias se mantienen en la información de respaldo, sin tratar las medidas como si fueran intercambiables.",
-          "why": "El efecto financiero depende del lugar que ocupe cada empresa en la cadena de suministro. Un productor que pueda cobrar más puede proteger sus ingresos, mientras que una empresa que compre esos insumos puede sufrir presión sobre sus márgenes si no logra subir sus propios precios o mejorar su productividad. Para los hogares, una posible consecuencia es un aumento posterior de los precios de venta al público, pero ese traslado no es automático. La competencia, los contratos y los cambios en la demanda pueden modificar la parte del aumento de costes que absorben las empresas. En el mercado de acciones, la cuestión relevante es si las estimaciones de beneficios reflejan adecuadamente la interacción entre los precios de venta, los costes de los insumos y la demanda.",
-          "uncertainty": "La inflación de los precios al productor no determina el rumbo de la próxima decisión de la Reserva Federal ni demuestra que la inflación al consumidor vaya a seguir la misma trayectoria. El informe también señala revisiones de datos anteriores. Aquí no se verificó ninguna estimación de consenso, por lo que no se afirma que los datos hayan superado las expectativas o quedado por debajo de ellas.",
-          "watch": "El seguimiento se centra en las próximas publicaciones de precios al consumidor y al productor, junto con la información que divulguen las empresas sobre precios, costes de transporte de mercancías y márgenes. Las señales de que los clientes se resisten a las subidas de precios tendrían implicaciones distintas de las señales de que las empresas pueden trasladar los costes sin perjudicar la demanda.",
+          "id": "f2",
+          "title": "Los precios al productor siguen presionando la planificación de costes empresariales",
+          "summary": "Los precios al productor de Estados Unidos siguieron subiendo, incluida la medida que excluye alimentos, energía y servicios comerciales.",
+          "impact": "Las empresas siguen afrontando decisiones sobre precios y márgenes, pero esta publicación no basta para determinar la inflación al consumidor ni el rumbo de los tipos de interés.",
+          "what": "La Oficina de Estadísticas Laborales mide los precios que reciben los productores nacionales, algo distinto de medir los precios que pagan los hogares al comprar. La publicación muestra aumentos en los bienes y servicios de demanda final, mientras que los precios de la energía bajaron. Su indicador más acotado también aumentó, lo que indica que el movimiento del índice general no puede explicarse simplemente por los precios de la energía. Los indicadores mensuales están ajustados para eliminar efectos estacionales; los anuales no. Son observaciones publicadas, no previsiones ni estimaciones del efecto sobre los beneficios.",
+          "why": "Interpretación editorial: una empresa que afronta mayores costes de compra o entrega puede subir sus precios de venta, aceptar un margen menor, cambiar de proveedores o buscar mejoras de productividad. La viabilidad de cada respuesta depende de la demanda de los clientes y de la presión competitiva. Por ello, los inversores necesitan analizar conjuntamente la capacidad de fijar precios y los costes, en lugar de suponer que las subidas de los precios al productor aumentan automáticamente los beneficios empresariales. Para los hogares, la posible conexión pasa por los precios minoristas posteriores y las condiciones de financiación. Esa conexión depende de las circunstancias: los precios al productor abarcan una cesta y una perspectiva económica distintas de las de los precios al consumidor, por lo que no debe darse por hecho que los aumentos se trasladarán.",
+          "uncertainty": "La publicación no establece qué parte de estos movimientos absorberá cada empresa ni qué parte trasladará a sus clientes. Los cambios de productos concretos pueden diferir del conjunto, y las revisiones posteriores pueden modificar el patrón publicado. La medida más acotada excluye determinadas categorías volátiles o sensibles a los márgenes, pero no es una previsión directa de la inflación al consumidor. No se verificó ninguna comparación con las expectativas del mercado, por lo que la publicación no se presenta como una sorpresa al alza ni a la baja.",
+          "watch": "Conviene observar las revisiones, la extensión de los movimientos posteriores de precios entre bienes y servicios, los datos de precios al consumidor y los comentarios empresariales sobre costes de insumos y precios de venta. Para confirmar la interpretación, estas fuentes tendrían que ofrecer un panorama coherente, no simplemente titulares parecidos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Precios al productor para la demanda final, variación mensual ajustada por estacionalidad"
+              "label": "Precios al productor de demanda final, variación mensual"
             },
             {
               "id": "m2",
-              "label": "Precios al productor para la demanda final, variación interanual sin ajuste estacional"
+              "label": "Precios al productor de demanda final, variación interanual"
             },
             {
               "id": "m3",
@@ -315,70 +500,134 @@
               "label": "Precios al productor sin alimentos, energía ni servicios comerciales, variación interanual"
             }
           ]
+        },
+        {
+          "id": "f3",
+          "title": "La mejora en la fabricación de chips por encargo sigue exigiendo importantes desembolsos en fábricas",
+          "summary": "SMIC comunicó mejoras en las ventas y el margen bruto, mientras que el flujo de caja operativo quedó por debajo del gasto en propiedades, planta y equipo.",
+          "impact": "La mejora de los resultados respalda la lógica operativa de fabricar chips en China continental, pero la expansión sigue exigiendo financiación.",
+          "what": "Esta explicación de resultados, referida a la fecha del informe, analiza una empresa que fabrica chips por encargo para sus clientes. La compañía atribuye el crecimiento de las ventas respecto al trimestre anterior al aumento de los envíos de obleas, y la mejora del margen bruto a una mayor utilización de las fábricas y a la combinación de productos. Los indicadores siguen la presentación contable internacional del informe, en dólares, y distinguen el beneficio atribuible a los accionistas del flujo de caja operativo consolidado. No deben combinarse con cifras contables nacionales presentadas de otra manera. El estado de flujos de efectivo registra por separado las compras de equipos y activos de fábrica.",
+          "why": "Interpretación editorial: una fábrica de semiconductores soporta costes importantes antes de que sus líneas de producción funcionen a plena capacidad. Una mayor utilización permite repartir esos costes entre una producción más amplia, mejorando la rentabilidad de la fabricación. Sin embargo, los beneficios contables no bastan para financiar la expansión. Las compras de equipos consumen efectivo, mientras que la depreciación reconoce el coste de los activos en los resultados a lo largo del tiempo. Esta distinción importa a los proveedores que esperan cobrar, a los clientes que dependen de una producción fiable y a los accionistas que evalúan las necesidades de financiación. También explica por qué la mejora de los resultados de las fábricas puede coexistir con necesidades continuas de capital sin que exista contradicción.",
+          "uncertainty": "Se trata de un informe trimestral no auditado, no de una prueba de que la utilización o los márgenes actuales vayan a mantenerse. La comparación con el gasto en equipos es una comprobación deliberadamente limitada del efectivo, no un cálculo completo del flujo de caja libre: otras partidas de inversión y financiación también afectan a la liquidez. El efectivo generado por las filiales consolidadas tampoco equivale al beneficio atribuible exclusivamente a los accionistas de la sociedad matriz. El informe identifica entre sus riesgos el carácter cíclico del sector y la disponibilidad de equipos.",
+          "watch": "Conviene observar si la utilización y la combinación de productos siguen respaldando los márgenes, y si el flujo de caja operativo sigue el ritmo de la inversión en fábricas. La información posterior sobre endeudamiento, demanda de los clientes e inversión en activos ayudará a distinguir un ciclo de expansión manejable de una dependencia creciente de financiación externa.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos trimestrales según normas contables internacionales"
+            },
+            {
+              "id": "m2",
+              "label": "Beneficio trimestral atribuible a los propietarios de la empresa"
+            },
+            {
+              "id": "m3",
+              "label": "Flujo de caja operativo trimestral"
+            },
+            {
+              "id": "m4",
+              "label": "Margen bruto trimestral"
+            },
+            {
+              "id": "m5",
+              "label": "Gasto trimestral en propiedades, planta y equipo"
+            }
+          ]
         }
       ]
     },
     "ja": {
-      "status": "今回の配信では、確認済みの情報が限られています。市場によっては確認済みの新しいニュースがありません。過去の報告は、その時点の情報だと分かるように明示しています。",
+      "status": "今号は米国と中国の動向を扱います。各記事の公表日をご確認ください。最近の企業決算は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "対象の指数はいずれも、確認できた直近の取引で下落しました。日付付きの終値は、その取引日の結果を示しており、現在の取引状況を表すものではありません。",
-        "cn": "対象の指数はいずれも、確認できた直近の取引で下落しました。日付付きの終値は、その取引日の結果を示しており、現在の取引状況を表すものではありません。"
+        "us": "一部の終値情報は確認できませんでした。掲載している各指数の値は、それぞれに記載された取引日のものです。",
+        "cn": "対象の株価指数は、直近で確認できた取引日にはいずれも下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の相場ではありません。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "生産者物価の上昇で、企業のコスト負担が続く",
-          "summary": "生産者物価の発表では、総合指標でも基調を示す指標でも、価格の上昇が続いています。",
-          "impact": "企業は引き続き、コスト増を顧客への値上げに転嫁するか、利益率の低下を受け入れて吸収するかという難しい判断を迫られています。",
-          "what": "米労働統計局は、国内の生産者が受け取る販売価格の上昇を報告しました。財とサービスの価格が上がり、食品・エネルギー・流通サービスを除く指標でも上昇圧力が続いています。これは販売価格の調査であり、家計の生活費や企業利益を直接測るものではありません。総合指標の前月比は季節調整済みですが、前年比は季節調整前です。根拠となるデータでもこの違いを明示し、同じ条件の指標として扱っていません。",
-          "why": "企業の業績への影響は、供給網のどこに位置するかによって変わります。販売価格を引き上げられる生産者は売上高を維持できる可能性がありますが、その製品や原材料を仕入れる企業は、自社も値上げするか生産性を高めない限り、利益率が圧迫される可能性があります。家計には、後になって小売価格が上がる形で影響する可能性がありますが、コスト増が必ず転嫁されるわけではありません。競争や契約、需要の変化によって、企業がどの程度コストを吸収するかは変わります。株式を見るうえでは、販売価格、仕入れコスト、需要の相互関係が利益予想に十分反映されているかが重要です。",
-          "uncertainty": "生産者物価の上昇だけでは、米連邦準備制度理事会が次にどのような政策判断をするかは分かりません。消費者物価も同じ動きをするとは限りません。今回の発表には、過去のデータの改定も記されています。市場予想を示す指標は確認できていないため、この報告では結果が予想を上回ったか、下回ったかについては述べていません。",
-          "watch": "今後の消費者物価と生産者物価の発表に加え、企業が開示する価格設定、輸送費、利益率の情報が注目点です。顧客が値上げに抵抗している場合と、企業が需要を損なわずにコスト増を価格に転嫁できている場合とでは、意味合いが異なります。",
+          "id": "f2",
+          "title": "生産者物価の上昇が続き、企業のコスト計画に圧力",
+          "summary": "米国の生産者物価は上昇を続け、食品・エネルギー・商業サービスを除く指標も上がりました。",
+          "impact": "企業は引き続き、販売価格や利益率について判断を迫られています。ただし、この発表だけでは消費者物価や金利の方向性は判断できません。",
+          "what": "米労働統計局が測定するのは、国内の生産者が商品やサービスを売って受け取る価格です。家計が店頭などで支払う価格を測るものとは異なります。今回の発表では、最終需要向けの財とサービスで価格が上昇した一方、エネルギー価格は下落しました。対象を絞った集計指標も上昇しており、全体の動きを単にエネルギー価格の問題として説明することはできません。前月比の指標は季節調整済みですが、前年比の指標は季節調整されていません。これらは公表された実績であり、予測や企業利益への影響の推計ではありません。",
+          "why": "編集部の解釈：仕入れや配送のコストが上がった企業には、販売価格を引き上げる、利益率の低下を受け入れる、仕入れ先を変える、生産性の改善を目指すといった対応が考えられます。どの対応が可能かは、顧客の需要や競争の厳しさによって異なります。そのため投資家は、生産者物価が上がれば企業利益も自動的に増えると考えるのではなく、価格決定力とコストを併せて見る必要があります。家計には、その後の小売価格や資金調達環境を通じて影響する可能性があります。ただし、そのつながりには条件があります。生産者物価と消費者物価では、対象となる商品・サービスの構成や経済を見る視点が異なるため、価格転嫁が自動的に起こるとは限りません。",
+          "uncertainty": "今回の発表からは、こうした価格変動を個々の企業がどの程度吸収し、どの程度顧客に転嫁するかは分かりません。品目ごとの動きは全体と異なる場合があり、その後の改定で公表された傾向が変わる可能性もあります。対象を絞った指標は、価格変動が大きい品目や利幅の影響を受けやすい項目を除いていますが、消費者物価を直接予測するものではありません。市場予想との比較は確認できていないため、予想を上回った、または下回ったという評価はしていません。",
+          "watch": "今後の改定、財・サービスの価格変動がどこまで広がるか、消費者物価のデータ、投入コストや販売価格に関する企業の説明が注目点です。傾向を確かめるには、見出しが似ているだけでなく、これらの情報が整合的な動きを示す必要があります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "最終需要向け生産者物価・前月比（季節調整済み）"
+              "label": "最終需要向け生産者物価の前月比"
             },
             {
               "id": "m2",
-              "label": "最終需要向け生産者物価・前年比（季節調整前）"
+              "label": "最終需要向け生産者物価の前年比"
             },
             {
               "id": "m3",
-              "label": "食品・エネルギー・流通サービスを除く生産者物価・前月比"
+              "label": "食品・エネルギー・商業サービスを除く生産者物価の前月比"
             },
             {
               "id": "m4",
-              "label": "食品・エネルギー・流通サービスを除く生産者物価・前年比"
+              "label": "食品・エネルギー・商業サービスを除く生産者物価の前年比"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "半導体受託製造の業績は改善も、工場にはなお多額の資金が必要",
+          "summary": "SMICは売上高と売上総利益率の改善を報告しましたが、営業キャッシュフローは有形固定資産への支出を下回りました。",
+          "impact": "利益の改善は、中国本土での半導体製造事業の採算面を支える材料ですが、事業拡大には引き続き資金の確保が必要です。",
+          "what": "公表時点の情報に基づくこの決算解説は、顧客から半導体の製造を受託する企業を扱っています。同社は、前四半期比で売上高が増えた理由をウエハー出荷の増加、売上総利益率が改善した理由を工場稼働率と製品構成の改善と説明しています。掲載指標は、提出資料の国際会計基準に基づくドル建て表示を使用し、株主に帰属する利益と連結営業キャッシュフローを区別しています。表示方法の異なる中国国内の会計基準による数値と混在させるべきではありません。キャッシュフロー計算書には、設備や工場資産の購入が別項目として記載されています。",
+          "why": "編集部の解釈：半導体工場では、生産ラインが十分に稼働する前から多額のコストがかかります。稼働率が上がれば、そのコストをより多くの生産量に分散でき、製造の採算が改善する可能性があります。しかし、会計上の利益が出ているだけで、拡張資金を賄えるわけではありません。設備の購入では現金が支出される一方、減価償却では資産の費用が時間をかけて損益に計上されます。この違いは、代金の支払いを待つ仕入れ先、安定した生産に頼る顧客、資金調達の必要性を見極める株主にとって重要です。また、工場の業績が改善していても、引き続き設備資金が必要になることは矛盾しないと分かります。",
+          "uncertainty": "これは未監査の四半期開示資料であり、現在の稼働率や利益率が続くことを示すものではありません。設備支出との比較は、意図的に範囲を絞った資金面の確認であり、フリーキャッシュフローを完全に計算したものではありません。他の投資活動や財務活動の項目も、手元資金や支払い余力に影響します。また、連結子会社が生み出す現金は、親会社の株主だけに帰属する利益と同じではありません。同社は開示資料で、半導体業界の景気循環や設備の入手可能性などをリスクに挙げています。",
+          "watch": "稼働率や製品構成が引き続き利益率を支えるか、営業キャッシュフローが工場投資に見合う水準になるかが注目点です。今後の借入、顧客需要、設備投資に関する開示は、拡大局面が無理なく管理できているのか、それとも外部資金への依存が強まっているのかを見極める材料になります。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "国際会計基準に基づく四半期売上高"
+            },
+            {
+              "id": "m2",
+              "label": "四半期の親会社の所有者に帰属する利益"
+            },
+            {
+              "id": "m3",
+              "label": "四半期営業キャッシュフロー"
+            },
+            {
+              "id": "m4",
+              "label": "四半期売上総利益率"
+            },
+            {
+              "id": "m5",
+              "label": "四半期の有形固定資産取得支出"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; relatórios recentes de empresas são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram em suas sessões mais recentes verificadas. Os fechamentos com data indicada descrevem essas sessões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram em suas sessões mais recentes verificadas. Os fechamentos com data indicada descrevem essas sessões, não as negociações atuais."
+        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém a data do seu respectivo pregão.",
+        "cn": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os fechamentos com data identificada descrevem aqueles pregões, não as negociações atuais."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Inflação ao produtor mantém pressão sobre os custos das empresas",
-          "summary": "A divulgação de preços ao produtor mostra aumentos contínuos tanto no indicador geral quanto nas medidas que excluem componentes específicos.",
-          "impact": "As empresas continuam diante de uma escolha difícil: repassar os custos aos clientes ou absorvê-los, reduzindo suas margens de lucro.",
-          "what": "O órgão de estatísticas do trabalho dos Estados Unidos informou uma alta nos preços recebidos pelos produtores nacionais, com aumentos em bens e serviços e pressão persistente na medida que exclui alimentos, energia e serviços de comércio. Trata-se de uma pesquisa sobre preços de venda, não de uma medida direta do custo de vida das famílias ou dos lucros das empresas. A variação mensal do indicador geral tem ajuste sazonal, que considera padrões recorrentes ao longo do ano, enquanto a variação anual não tem esse ajuste. Essas diferenças são mantidas nos dados apresentados, sem tratar as medidas como equivalentes.",
-          "why": "O efeito financeiro depende da posição da empresa na cadeia de fornecimento. Um produtor que consegue cobrar mais pode proteger sua receita, enquanto uma empresa que compra esses insumos pode sofrer pressão sobre suas margens, a menos que consiga elevar seus próprios preços ou melhorar a produtividade. Para as famílias, uma possível consequência é uma alta posterior dos preços no varejo, mas esse repasse não é automático. A concorrência, os contratos e as mudanças na demanda podem alterar quanto dos custos as empresas absorvem. Para o mercado de ações, a questão relevante é se as estimativas de lucro refletem adequadamente a relação entre preços de venda, custos dos insumos e demanda.",
-          "uncertainty": "A inflação ao produtor não determina o rumo da próxima decisão do Federal Reserve, o banco central dos Estados Unidos, nem comprova que a inflação ao consumidor seguirá a mesma trajetória. A divulgação também informa revisões de dados anteriores. Não foi verificada uma medida de consenso das expectativas do mercado para esta edição; por isso, o relatório não afirma que os dados ficaram acima ou abaixo do esperado.",
-          "watch": "Acompanhar as próximas divulgações de preços ao consumidor e ao produtor, junto com as informações das empresas sobre preços, custos de frete e margens. Sinais de que os clientes resistem aos aumentos de preços teriam implicações diferentes de sinais de que as empresas conseguem repassar custos sem prejudicar a demanda.",
+          "id": "f2",
+          "title": "Preços ao produtor mantêm pressão sobre o planejamento de custos das empresas",
+          "summary": "Os preços ao produtor nos Estados Unidos continuaram subindo, inclusive na medida que exclui alimentos, energia e serviços de comércio.",
+          "impact": "As empresas continuam tendo de decidir sobre preços e margens, mas essa divulgação, por si só, não permite determinar a inflação ao consumidor nem a direção dos juros.",
+          "what": "O órgão americano de estatísticas do trabalho mede os preços recebidos pelos produtores nacionais, o que é diferente de medir os preços pagos pelas famílias nas compras. A divulgação mostra aumentos nos bens e serviços destinados à demanda final, enquanto os preços da energia recuaram. A medida que exclui determinadas categorias também subiu, indicando que o movimento do índice geral não pode ser explicado apenas pelos preços da energia. Os indicadores mensais têm ajuste sazonal, que considera padrões recorrentes de cada época do ano; os anuais não. São dados observados e divulgados, não previsões nem estimativas de efeito sobre os lucros.",
+          "why": "Interpretação editorial: uma empresa que enfrenta custos maiores de compra ou entrega pode elevar os preços de venda, aceitar uma margem menor, mudar de fornecedores ou buscar ganhos de produtividade. A resposta viável depende da demanda dos clientes e da pressão da concorrência. Por isso, os investidores precisam analisar em conjunto a capacidade de definir preços e os custos, em vez de presumir que a alta dos preços ao produtor aumenta automaticamente os lucros das empresas. Para as famílias, a possível ligação ocorre pelos preços posteriores no varejo e pelas condições de financiamento. Essa ligação depende das circunstâncias: os preços ao produtor abrangem uma cesta e uma perspectiva econômica diferentes das dos preços ao consumidor, portanto o repasse não deve ser tratado como automático.",
+          "uncertainty": "A divulgação não estabelece quanto dessas variações cada empresa absorverá ou repassará aos clientes. As mudanças em produtos específicos podem divergir do resultado agregado, e revisões posteriores podem alterar o padrão divulgado. A medida mais restrita exclui determinadas categorias voláteis ou sensíveis às margens, mas não é uma previsão direta da inflação ao consumidor. Não foi verificada uma comparação com as expectativas do mercado; por isso, a divulgação não é classificada como uma surpresa para cima ou para baixo.",
+          "watch": "Acompanhe as revisões, a abrangência das próximas variações de preços de bens e serviços, os dados de preços ao consumidor e os comentários das empresas sobre custos de insumos e preços de venda. Para confirmar uma tendência, essas fontes precisariam apresentar um quadro coerente, não apenas manchetes parecidas.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Preços ao produtor para demanda final, variação mensal com ajuste sazonal"
+              "label": "Preços ao produtor para a demanda final, variação mensal"
             },
             {
               "id": "m2",
-              "label": "Preços ao produtor para demanda final, variação anual sem ajuste sazonal"
+              "label": "Preços ao produtor para a demanda final, variação anual"
             },
             {
               "id": "m3",
@@ -389,33 +638,65 @@
               "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, variação anual"
             }
           ]
+        },
+        {
+          "id": "f3",
+          "title": "Melhora na fabricação de chips ainda exige desembolsos elevados nas fábricas",
+          "summary": "A SMIC divulgou melhora nas vendas e na margem bruta, enquanto o caixa gerado pelas operações permaneceu abaixo dos gastos com imobilizado, como instalações e equipamentos.",
+          "impact": "A melhora dos resultados reforça os fundamentos operacionais da fabricação de chips na China continental, mas a expansão ainda exige recursos financeiros.",
+          "what": "Esta explicação de resultados, referente ao período indicado, aborda uma fabricante que produz chips sob encomenda para clientes. A empresa atribui o crescimento das vendas em relação ao período anterior ao aumento das remessas de wafers, as lâminas usadas na fabricação de chips, e a melhora da margem bruta à utilização das fábricas e à composição dos produtos vendidos. Os indicadores seguem a apresentação contábil internacional do relatório, em dólares, e distinguem o lucro atribuível aos acionistas do caixa operacional consolidado. Eles não devem ser combinados com números apresentados de forma diferente segundo as normas contábeis locais. A demonstração dos fluxos de caixa registra separadamente as compras de equipamentos e ativos das fábricas.",
+          "why": "Interpretação editorial: uma fábrica de semicondutores tem custos elevados antes mesmo de suas linhas de produção estarem plenamente ocupadas. A maior utilização pode distribuir esses custos por um volume maior de produção, melhorando a rentabilidade da fabricação. No entanto, o lucro contábil, por si só, não financia a expansão. A compra de equipamentos consome caixa, enquanto a depreciação reconhece o custo dos ativos no resultado ao longo do tempo. Essa diferença importa para fornecedores que aguardam pagamento, clientes que dependem de uma produção confiável e acionistas que avaliam as necessidades de financiamento. Ela também explica por que a melhora dos resultados das fábricas pode coexistir com a necessidade contínua de capital, sem contradição.",
+          "uncertainty": "Trata-se de um relatório trimestral não auditado, não de uma prova de que a utilização atual das fábricas ou as margens vão se manter. A comparação com os gastos em equipamentos é uma verificação de caixa deliberadamente restrita, não um cálculo completo do fluxo de caixa livre: outros itens de investimento e financiamento também afetam a liquidez. O caixa gerado pelas subsidiárias incluídas na consolidação também não equivale ao lucro atribuível apenas aos acionistas da controladora. O relatório identifica entre os riscos os ciclos de alta e baixa do setor e a disponibilidade de equipamentos.",
+          "watch": "Acompanhe se a utilização das fábricas e a composição dos produtos vendidos continuam sustentando as margens e se o caixa operacional acompanha o investimento nas fábricas. As próximas divulgações sobre empréstimos, demanda dos clientes e investimentos em ativos fixos ajudarão a distinguir um ciclo de expansão administrável de uma dependência crescente de financiamento externo.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita trimestral segundo as normas internacionais de contabilidade"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro trimestral atribuível aos acionistas da empresa"
+            },
+            {
+              "id": "m3",
+              "label": "Fluxo de caixa operacional trimestral"
+            },
+            {
+              "id": "m4",
+              "label": "Margem bruta trimestral"
+            },
+            {
+              "id": "m5",
+              "label": "Gastos trimestrais com imobilizado"
+            }
+          ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期經核實的資訊涵蓋範圍有限。部分市場沒有經核實的新消息；引用較早的報導時，均已清楚標示。",
+      "status": "本期涵蓋美國與中國的財經動態。請留意各項資料的發布日期；近期公司財報以背景解讀方式呈現。",
       "marketSummary": {
-        "us": "追蹤的指數在各自最近經核實的交易日均下跌。標示日期的收盤資料反映的是當時的交易情況，並非目前行情。",
-        "cn": "追蹤的指數在各自最近經核實的交易日均下跌。標示日期的收盤資料反映的是當時的交易情況，並非目前行情。"
+        "us": "部分收盤資料未能核實。各項可取得的指數資料均保留各自的交易日期。",
+        "cn": "追蹤的指數在各自最近經核實的交易日均下跌。標示日期的收盤資料反映當時的交易情況，並非目前行情。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "生產者物價上漲，企業成本壓力持續",
-          "summary": "生產者物價報告顯示，整體與排除部分波動項目的指標皆持續上漲。",
-          "impact": "企業仍面臨難題：將成本轉嫁給客戶，或自行吸收並承受利潤率下降。",
-          "what": "美國勞工統計局公布，國內生產者出售商品與服務所收取的價格上漲；商品與服務價格均有增加，排除食品、能源與貿易服務後的指標也持續面臨上漲壓力。這項調查衡量的是銷售價格，並非直接衡量家庭生活成本或企業獲利。整體指標的月增率經季節調整，年增率則未經季節調整；佐證資料保留了這些差異，並未將不同指標混為一談。",
-          "why": "對企業財務的影響，取決於企業在供應鏈中的位置。能夠提高售價的生產者，可能藉此維持營收；但購買這些投入品的企業，若無法提高自身售價或改善生產效率，利潤率就可能承壓。對家庭而言，可能的後續影響是零售價格上漲，但成本不一定會轉嫁到消費者身上。競爭、合約與需求變化，都可能影響企業自行吸收成本的程度。對股票而言，值得關注的是，獲利預估是否充分反映售價、投入成本與需求之間的相互影響。",
-          "uncertainty": "生產者物價上漲，無法據此判定聯準會接下來的決策方向，也不能證明消費者物價將走上相同路徑。報告也指出，先前公布的資料有所修正。此處未核實市場共識預估，因此不宣稱數據優於或低於預期。",
-          "watch": "留意後續公布的消費者與生產者物價資料，並搭配企業對定價、運輸成本與利潤率的揭露觀察。若有跡象顯示客戶抗拒漲價，其意義將不同於企業能在不犧牲需求的情況下轉嫁成本。",
+          "id": "f2",
+          "title": "生產者物價續漲，企業成本規劃仍面臨壓力",
+          "summary": "美國生產者物價持續上升，排除食品、能源與貿易服務後的指標也上漲。",
+          "impact": "企業仍須在定價與利潤率之間做取捨，但僅憑這份資料，無法判定消費者物價的漲勢或利率走向。",
+          "what": "美國勞工統計局衡量的是國內生產者收取的價格，與家庭購物結帳時支付的價格不同。這份資料顯示，最終需求商品與服務價格均上升，能源價格則下跌。排除部分項目的綜合指標也上漲，表示不能將整體變動單純歸因於能源價格。月增率經過季節調整，年增率則未經季節調整。這些是已公布的觀察結果，並非預測，也不是對企業獲利影響的估算。",
+          "why": "編輯解讀：當採購或配送成本提高時，企業可以提高售價、接受較低的利潤率、更換供應商，或設法提升生產效率。哪些做法可行，取決於客戶需求與競爭壓力。因此，投資人需要同時檢視定價能力與成本，而不能假設生產者物價上漲就會自動提高企業獲利。對家庭而言，可能的影響途徑是日後的零售價格與融資環境。但這種連結有其條件：生產者物價與消費者物價涵蓋的商品及服務組合不同，觀察經濟的角度也不同，因此不能認為成本必然會轉嫁給消費者。",
+          "uncertainty": "這份資料無法確定個別公司會自行吸收多少價格變動，又會將多少轉嫁給客戶。特定產品的價格變化可能與整體趨勢不同，後續修正也可能改變已公布的走勢。範圍較窄的指標排除了部分波動較大或對利潤率敏感的類別，但並不是消費者物價漲勢的直接預測。由於未能核實與市場預期的比較，因此不將這份資料描述為高於或低於預期。",
+          "watch": "留意資料修正、後續商品與服務價格變動的普遍程度、消費者物價資料，以及企業對投入成本與售價的說明。要確認趨勢，需要這些來源呈現相互吻合的情況，而不只是標題看起來相似。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "最終需求生產者物價月增率，經季節調整"
+              "label": "最終需求生產者物價月增率"
             },
             {
               "id": "m2",
-              "label": "最終需求生產者物價年增率，未經季節調整"
+              "label": "最終需求生產者物價年增率"
             },
             {
               "id": "m3",
@@ -424,6 +705,38 @@
             {
               "id": "m4",
               "label": "排除食品、能源與貿易服務的生產者物價年增率"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "晶圓代工營運改善，廠房投資仍需大量現金",
+          "summary": "中芯國際公布的營收與毛利率有所改善，但營業活動現金流仍低於不動產、廠房及設備支出。",
+          "impact": "獲利改善支持中國大陸晶片製造業的營運前景，但擴張仍帶來資金需求。",
+          "what": "這篇附有報告日期的財報解讀，介紹的是代客製造晶片的晶圓代工業者。公司將營收較前季成長歸因於晶圓出貨增加，並將毛利率改善歸因於產能利用率與產品組合。各項指標採用財報中的國際會計準則美元資料，並區分歸屬於公司股東的利潤與合併營業活動現金流，不應與採用不同表達方式的中國境內會計數據混用。現金流量表另行列示設備與廠房資產的購置支出。",
+          "why": "編輯解讀：半導體工廠在產線尚未滿載前，就已承擔可觀成本。產能利用率提高，可讓更多產出分攤這些成本，改善製造效益。不過，帳面獲利本身並不能提供擴張所需的資金。購置設備會消耗現金，而折舊則是在資產使用期間，逐步將資產成本列入損益。這項差異對等待收款的供應商、仰賴穩定生產的客戶，以及評估融資需求的股東都很重要。這也說明，工廠營運成果改善與持續需要資本投入，可以同時存在，並不矛盾。",
+          "uncertainty": "這是未經查核的季度財報，不能證明目前的產能利用率或利潤率會持續。將營業活動現金流與設備支出相比，是刻意限定範圍的現金檢視，並非完整的自由現金流計算；其他投資與融資項目也會影響資金流動性。納入合併報表的子公司所產生的現金，也不等同於僅歸屬母公司股東的利潤。財報列出的風險包括產業景氣循環與設備取得情況。",
+          "watch": "留意產能利用率與產品組合是否持續支撐毛利率，以及營業活動現金流能否跟上廠房投資。後續對借款、客戶需求及資本支出的揭露，將有助於分辨這是可掌控的擴張週期，還是對外部資金的依賴正在增加。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "依國際會計準則編製的季度營收"
+            },
+            {
+              "id": "m2",
+              "label": "季度歸屬於公司股東的利潤"
+            },
+            {
+              "id": "m3",
+              "label": "季度營業活動現金流"
+            },
+            {
+              "id": "m4",
+              "label": "季度毛利率"
+            },
+            {
+              "id": "m5",
+              "label": "季度不動產、廠房及設備支出"
             }
           ]
         }
