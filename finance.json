@@ -1,100 +1,84 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-14T00:53:47.785Z",
-  "generatedAt": "2026-11-14T00:58:43.105Z",
+  "cutoffAt": "2026-11-14T17:07:06.276Z",
+  "generatedAt": "2026-11-14T17:11:14.852Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Associated Press dated US closing report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-12c1e8155fb85c3c7b09e058ed6d3c74"
-    },
-    {
-      "id": "src2",
-      "label": "Federal Reserve broad US equity index observations",
+      "label": "Federal Reserve Bank of St. Louis — broad US equity closing observations",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
-      "id": "src3",
-      "label": "Federal Reserve technology-heavy composite observations",
+      "id": "src2",
+      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite closing observations",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
+      "id": "src3",
+      "label": "Tonghuashun — dated mainland equity closing report",
+      "url": "https://news.10jqka.com.cn/20261113/c681796980.shtml"
+    },
+    {
       "id": "src4",
-      "label": "Dated mainland closing quotation table",
-      "url": "https://m.cngold.org/stock/xw10878972.html"
+      "label": "Investing — dated mainland benchmark closing table",
+      "url": "https://ph.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Mainland large-cap index dated closing table",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "Bureau of Labor Statistics — archived producer price release",
+      "url": "https://www.bls.gov/news.release/archives/ppi_11132026.pdf"
     },
     {
       "id": "src6",
-      "label": "US semiconductor equipment earnings release",
-      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
+      "label": "Applied Materials — fiscal earnings release and financial statements",
+      "url": "https://appliedmaterials.gcs-web.com/static-files/873be7bf-843a-4e1b-9e98-ee9092251737"
     },
     {
       "id": "src7",
-      "label": "US semiconductor equipment prepared earnings remarks",
-      "url": "https://appliedmaterials.gcs-web.com/static-files/14fd85ae-ff29-4756-879c-c899da301ae6"
+      "label": "QiaoYin — convertible bond repayment risk filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-14/1225672240.PDF"
     },
     {
       "id": "src8",
-      "label": "Prior fiscal quarter release establishing the reporting boundary",
-      "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/081326-applied-materials-announces-third-quarter-2026-results.html"
+      "label": "Centec — exchange acceptance announcement, original issuer document hosted by Sina",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-14/12706976.PDF"
     },
     {
       "id": "src9",
-      "label": "Bureau of Labor Statistics producer price release",
-      "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
-    },
-    {
-      "id": "src10",
-      "label": "Bureau of Labor Statistics producer price technical notes",
-      "url": "https://www.bls.gov/news.release/ppi.tn.htm"
-    },
-    {
-      "id": "src11",
-      "label": "Mainland foundry issuer earnings filing",
-      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1112/2026111200683_c.pdf"
-    },
-    {
-      "id": "src12",
-      "label": "Mainland battery issuer quarterly financial report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
-    },
-    {
-      "id": "src13",
-      "label": "Mainland battery issuer earnings discussion record",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613436.PDF"
+      "label": "Centec — financing prospectus, original issuer document hosted by Sina",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-14/12706979.PDF"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-13",
+      "close": 7561.67,
+      "previousClose": 7592.4,
+      "changePercent": -0.4,
+      "sourceIds": [
+        "src1"
+      ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-13",
+      "close": 25136.27,
+      "previousClose": 25366.09,
+      "changePercent": -0.91,
+      "sourceIds": [
+        "src2"
+      ]
     },
     {
       "id": "sse",
       "sessionDate": "2026-11-13",
       "close": 3634.35,
-      "previousClose": 3655.83,
+      "previousClose": null,
       "changePercent": -0.59,
       "sourceIds": [
-        "src4"
+        "src3"
       ]
     },
     {
@@ -104,13 +88,13 @@
       "previousClose": 4043.93,
       "changePercent": -0.68,
       "sourceIds": [
-        "src5"
+        "src4"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f2",
+      "id": "f1",
       "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-13",
@@ -125,9 +109,9 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src5"
           ],
-          "evidence": "Opening paragraph and Table A, seasonally adjusted final-demand producer price change."
+          "evidence": "Opening paragraph and final demand table: seasonally adjusted change in the headline producer price measure."
         },
         {
           "id": "m2",
@@ -138,9 +122,9 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src5"
           ],
-          "evidence": "Opening paragraph and Table A, unadjusted final-demand annual price change."
+          "evidence": "Opening paragraph and final demand table: unadjusted annual change in final demand prices."
         },
         {
           "id": "m3",
@@ -151,9 +135,9 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src5"
           ],
-          "evidence": "Opening section, seasonally adjusted final demand excluding foods, energy and trade services."
+          "evidence": "Opening discussion and final demand table: seasonally adjusted change excluding food, energy and trade services."
         },
         {
           "id": "m4",
@@ -164,129 +148,171 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src5"
           ],
-          "evidence": "Opening section, unadjusted annual change excluding foods, energy and trade services."
+          "evidence": "Opening discussion and final demand table: unadjusted annual change excluding food, energy and trade services."
         }
       ],
       "sourceIds": [
-        "src9",
-        "src10"
+        "src5"
       ],
-      "evidence": "Release opening section and final-demand discussion establish continuing price increases; technical notes define seller-price measurement and its distinction from consumer prices."
+      "evidence": "Opening discussion and final demand table show continued producer price increases; the goods and services sections identify differing component pressures."
     },
     {
-      "id": "f3",
+      "id": "f2",
       "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-11-12",
+      "category": "company",
+      "publishedOn": "2026-11-14",
       "company": {
-        "name": "Semiconductor Manufacturing International Corporation",
-        "ticker": "688981",
-        "exchange": "Shanghai Stock Exchange"
+        "name": "QiaoYin City Management Co., Ltd.",
+        "ticker": "002973",
+        "exchange": "SZSE"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 3190038000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
+          "value": 2414000000,
+          "unit": "CNY",
+          "periodStart": "2026-09-30",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src7"
           ],
-          "evidence": "Operating results summary, revenue row; filing table amounts are expressed in thousands of dollars."
+          "evidence": "Company background section: accounts receivable balance, citing the quarterly report."
         },
         {
           "id": "m2",
-          "value": 428405000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
+          "value": 1131000000,
+          "unit": "CNY",
+          "periodStart": "2026-09-30",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src7"
           ],
-          "evidence": "Operating results summary, profit attributable to owners of the company row."
+          "evidence": "Company background section: contract asset balance, citing the quarterly report."
         },
         {
           "id": "m3",
-          "value": 1182208000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
+          "value": 4196454,
+          "unit": "count",
+          "periodStart": "2026-11-12",
+          "periodEnd": "2026-11-12",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src7"
           ],
-          "evidence": "Condensed consolidated cash flow statement, quarterly net cash generated from operating activities row."
-        },
-        {
-          "id": "m4",
-          "value": 29.9,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Operating results summary, gross margin row."
-        },
-        {
-          "id": "m5",
-          "value": 1388457000,
-          "unit": "USD",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Condensed consolidated cash flow statement, purchases of property, plant and equipment cash outflow, presented here as spending."
+          "evidence": "Convertible bond conversion section: outstanding unconverted bond certificates."
         }
       ],
       "sourceIds": [
-        "src11"
+        "src7"
       ],
-      "evidence": "Issuer filing operating review attributes sales growth to wafer volume and margin improvement to utilization and mix; cash flow statement separately identifies operating cash and equipment spending."
+      "evidence": "Company background, conversion status and repayment risk sections say existing cash cannot cover redemption and funding remains incomplete; the document was signed before its public filing date."
+    },
+    {
+      "id": "f3",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-12",
+      "company": {
+        "name": "Applied Materials, Inc.",
+        "ticker": "AMAT",
+        "exchange": "NASDAQ"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 10409000000,
+          "unit": "USD",
+          "periodStart": "2026-07-27",
+          "periodEnd": "2026-10-25",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Results Summary, revenue row: fiscal closing-quarter revenue; table amounts converted from millions."
+        },
+        {
+          "id": "m2",
+          "value": 2718000000,
+          "unit": "USD",
+          "periodStart": "2026-07-27",
+          "periodEnd": "2026-10-25",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Results Summary and consolidated statement of operations: GAAP net income for the fiscal closing quarter."
+        },
+        {
+          "id": "m3",
+          "value": 3300000000,
+          "unit": "USD",
+          "periodStart": "2026-07-27",
+          "periodEnd": "2026-10-25",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Consolidated cash flow statement, cash provided by operating activities row: fiscal closing-quarter operating cash generation."
+        },
+        {
+          "id": "m4",
+          "value": 53,
+          "unit": "percent",
+          "periodStart": "2026-07-27",
+          "periodEnd": "2026-10-25",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Results Summary, revenue row and annual comparison column: reported fiscal closing-quarter revenue growth."
+        }
+      ],
+      "sourceIds": [
+        "src6"
+      ],
+      "evidence": "Fiscal closing-quarter results, financial statements and management commentary establish revenue, accounting profit and operating cash generation; management links demand to artificial intelligence investment."
     }
   ],
   "locales": {
     "en": {
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Producer prices keep pressure on business cost planning",
-          "summary": "US producer prices continued rising, including the measure excluding food, energy and trade services.",
-          "impact": "Businesses still face pricing and margin decisions, but this release alone cannot determine consumer inflation or the direction of interest rates.",
-          "what": "The Bureau of Labor Statistics measures prices received by domestic producers, which is different from measuring the checkout prices paid by households. The release shows increases across final-demand goods and services, while energy prices declined. Its narrower aggregate also increased, indicating that the headline movement cannot simply be described as an energy-price story. The monthly metrics are seasonally adjusted; the annual metrics are not. These are reported observations, not forecasts or estimates of an earnings effect.",
-          "why": "Editorial interpretation: a business facing higher purchase or delivery costs can raise selling prices, accept a smaller margin, change suppliers or seek productivity improvements. Which response is feasible depends on customer demand and competitive pressure. Investors therefore need to examine pricing power and costs together rather than assuming rising producer prices automatically increase corporate profits. For households, the possible connection is through later retail prices and the financing environment. That connection is conditional: producer prices cover a different basket and economic perspective from consumer prices, so pass-through should not be treated as automatic.",
-          "uncertainty": "The release does not establish how much of these movements individual companies will absorb or pass to customers. Product-specific changes can diverge from the aggregate, and subsequent revisions can alter the reported pattern. The narrower measure excludes selected volatile or margin-sensitive categories, but it is not a direct forecast of consumer inflation. No market-expectations comparison was verified, so the release is not characterized as an upside or downside surprise.",
-          "watch": "Watch revisions, the breadth of subsequent goods and services price movements, consumer-price evidence and company commentary on input costs and selling prices. Confirmation would require these sources to tell a consistent story, not merely a similar headline.",
+          "id": "f1",
+          "title": "US producer prices keep pressure on business costs",
+          "summary": "US producer prices increased, including the measure excluding food, energy and trade services.",
+          "impact": "The financial implication is that businesses may still face a choice between protecting margins and passing higher costs to customers.",
+          "what": "The Bureau of Labor Statistics reported continuing price increases for goods and services sold by domestic producers, while energy prices declined in the final demand goods category.",
+          "why": "Producer prices help frame the cost environment facing companies rather than directly measuring household shopping bills. As an analytical implication, persistent supplier pressure can complicate purchasing budgets and make future profit margins harder to predict. A company with pricing power may pass costs through; a company facing weak demand may instead absorb them.",
+          "uncertainty": "The report does not establish how much of the pressure will reach consumer prices or determine the Federal Reserve’s next decision. The release also notes revisions to earlier observations, so the latest reading should not be treated as an immutable trend.",
+          "watch": "Watch subsequent producer price revisions alongside consumer inflation releases and company disclosures about pricing, purchasing costs and margins.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Final-demand producer prices, monthly change"
+              "label": "Final demand producer prices, seasonally adjusted"
             },
             {
               "id": "m2",
-              "label": "Final-demand producer prices, annual change"
+              "label": "Final demand producer prices, annual change"
             },
             {
               "id": "m3",
-              "label": "Producer prices excluding food, energy and trade services, monthly change"
+              "label": "Producer prices excluding food, energy and trade services, seasonally adjusted"
             },
             {
               "id": "m4",
@@ -295,59 +321,79 @@
           ]
         },
         {
-          "id": "f3",
-          "title": "Foundry improvement still requires substantial factory cash",
-          "summary": "SMIC reported improved sales and gross margin, while operating cash remained below spending on property, plant and equipment.",
-          "impact": "The earnings improvement supports the operating case for mainland chip manufacturing, but expansion still places demands on funding.",
-          "what": "This dated earnings explainer covers a contract manufacturer that fabricates chips for customers. The issuer attributes sequential sales growth to increased wafer shipments and better gross margin to factory utilization and product mix. The metrics use the filing's international accounting presentation in dollars and distinguish profit attributable to shareholders from consolidated operating cash. They should not be combined with differently presented domestic accounting figures. The cash statement separately records equipment and factory-asset purchases.",
-          "why": "Editorial interpretation: a semiconductor factory carries substantial costs before its production lines are fully occupied. Greater utilization can spread those costs across more output, improving manufacturing economics. However, accounting profitability does not by itself finance expansion. Equipment purchases consume cash, while depreciation recognizes asset costs through earnings over time. The distinction matters to suppliers awaiting payment, customers depending on reliable production and shareholders assessing financing needs. It also explains why improving factory results and continuing capital requirements can coexist without contradiction.",
-          "uncertainty": "This is an unaudited quarterly filing, not proof that current utilization or margins will persist. The equipment-spending comparison is a deliberately narrow cash check, not a complete free-cash-flow calculation: other investing and financing items also affect liquidity. Cash generated by consolidated subsidiaries is also not equivalent to profit attributable solely to the parent company's shareholders. The filing identifies industry cyclicality and equipment availability among its risks.",
-          "watch": "Watch whether utilization and product mix continue supporting margins, and whether operating cash keeps pace with factory investment. Subsequent disclosures on borrowing, customer demand and capital spending will help distinguish a manageable expansion cycle from increasing dependence on external funding.",
+          "id": "f2",
+          "title": "QiaoYin warns redemption funding remains incomplete",
+          "summary": "QiaoYin warned that its existing cash cannot cover the approaching convertible bond redemption and that funding arrangements remain incomplete.",
+          "impact": "The warning highlights how delayed customer payments can become an immediate financing problem for a listed service provider.",
+          "what": "The urban management services company attributed the pressure to a working-capital mismatch and said collection of some service-related receivables had become harder and slower. It outlined collections, asset disposals and potential outside support as funding measures.",
+          "why": "The key distinction is between a claim on a customer and cash available to pay a creditor. Receivables and contract assets cannot themselves settle redemption obligations. The analytical concern for shareholders, lenders and suppliers is whether incoming cash arrives before binding payments fall due, rather than whether the balance sheet contains substantial assets.",
+          "uncertainty": "This is a warning of possible nonpayment, not confirmation that a payment has already been missed. The filing does not establish a completed rescue or quantify the remaining funding gap, and it says the proposed remedies remain uncertain.",
+          "watch": "Watch formal confirmation of redemption payment, actual collection proceeds, completed asset sales and binding external funding rather than statements of intent.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly revenue under international accounting standards"
+              "label": "Accounts receivable balance"
             },
             {
               "id": "m2",
-              "label": "Quarterly profit attributable to company owners"
+              "label": "Contract asset balance"
             },
             {
               "id": "m3",
-              "label": "Quarterly operating cash flow"
+              "label": "Outstanding unconverted bond certificates"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Applied Materials earnings explainer: profit and cash are distinct",
+          "summary": "Applied Materials’ recently released fiscal results showed increased equipment revenue alongside positive accounting profit and operating cash generation.",
+          "impact": "The results offer evidence of demand reaching a semiconductor equipment supplier, without proving that artificial intelligence spending will remain equally strong.",
+          "what": "Applied Materials supplies equipment and materials engineering technology used to manufacture semiconductors. Management linked demand to artificial intelligence investment, while the financial statements separately reported revenue, GAAP net income and cash provided by operations. This is a dated earnings explainer, not breaking news.",
+          "why": "The investment mechanism runs from chipmakers’ factory and technology spending to equipment suppliers’ sales. For businesses assessing the semiconductor cycle, supplier revenue provides a different view from chip sales alone. Cash generation also matters because accounting earnings can include noncash items and differ from the money available for investment or shareholder distributions.",
+          "uncertainty": "Management’s demand explanation is not an independent forecast. Operating cash flow is not free cash flow because it precedes capital expenditure, and adjusted profit should not replace GAAP profit without examining the reconciliation. Segment presentation changes also require care when comparing historical business lines.",
+          "watch": "Watch subsequent customer capital-spending disclosures, equipment revenue, cash conversion and the reconciliation between reported and adjusted earnings.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Fiscal closing-quarter revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Fiscal closing-quarter GAAP net income"
+            },
+            {
+              "id": "m3",
+              "label": "Fiscal closing-quarter operating cash flow"
             },
             {
               "id": "m4",
-              "label": "Quarterly gross margin"
-            },
-            {
-              "id": "m5",
-              "label": "Quarterly property, plant and equipment spending"
+              "label": "Fiscal closing-quarter revenue growth"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请留意各项内容的发布日期；近期公司财报以背景解读的形式呈现。",
+      "status": "本期涵盖美国和中国的相关动态。请留意各项信息的发布日期；近期公司财报在此作为背景解读。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。各项可用指数数据均保留其对应的交易日期。",
-        "cn": "所跟踪的指数在各自最近经核实的交易日均下跌。附有日期的收盘数据仅反映对应交易日的情况，不代表当前行情。"
+        "us": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是对应交易日的情况，并非当前行情。",
+        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是对应交易日的情况，并非当前行情。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "生产者价格上涨，企业成本规划仍承压",
-          "summary": "美国生产者价格继续上涨，剔除食品、能源和贸易服务后的指标也有所上升。",
-          "impact": "企业仍需权衡定价与利润率，但仅凭本次发布的数据，无法判断消费通胀或利率的走向。",
-          "what": "美国劳工统计局衡量的是国内生产者出售产品和服务所获得的价格，不同于家庭购物时支付的价格。本次数据显示，最终需求商品和服务的价格均上涨，能源价格则下降。剔除部分项目后的较窄口径综合指标也有所上升，表明不能简单地将总体价格变动归因于能源。环比指标经过季节性调整，同比指标则未经季节性调整。这些都是已公布的观测结果，并非预测，也不是对企业盈利影响的估算。",
-          "why": "编辑解读：当采购或配送成本上升时，企业可以提高售价、接受较低的利润率、更换供应商，或设法提高生产效率。哪些做法可行，取决于客户需求和竞争压力。因此，投资者需要结合定价能力与成本进行分析，而不能假设生产者价格上涨就会自动增加企业利润。对家庭而言，潜在影响可能通过之后的零售价格和融资环境体现。不过，这种联系有其条件：生产者价格与消费者价格涵盖的商品和服务组合不同，观察经济的角度也不同，因此不能认为成本必然会传导给消费者。",
-          "uncertainty": "本次发布的数据无法确定，具体企业会自行承担多少成本变化，又会向客户转嫁多少。具体产品的价格变化可能与总体走势不同，后续修订也可能改变已公布的变化特征。较窄口径指标剔除了部分波动较大或对利润率较敏感的类别，但并不是对消费通胀的直接预测。由于未核实数据与市场预期的对比情况，这里不将其描述为高于或低于预期。",
-          "watch": "关注数据修订、后续商品和服务价格变动的覆盖范围、消费者价格数据，以及企业对投入成本和销售价格的说明。要确认趋势，需要这些来源相互印证，而不只是表面的总体走势相似。",
+          "id": "f1",
+          "title": "美国生产者价格上涨，企业成本压力持续",
+          "summary": "美国生产者价格上涨，剔除食品、能源和贸易服务后的指标也出现上涨。",
+          "impact": "这意味着企业可能仍需在保住利润率和向客户转嫁成本上涨之间作出取舍。",
+          "what": "美国劳工统计局报告显示，国内生产者出售的商品和服务价格继续上涨，但最终需求商品类别中的能源价格下降。",
+          "why": "生产者价格有助于了解企业面临的成本环境，并不直接衡量家庭购物支出。从分析角度看，供应端的持续涨价压力可能增加采购预算的编制难度，也让未来利润率更难预测。具备定价能力的企业可能将成本转嫁给客户；需求疲弱的企业则可能自行承担。",
+          "uncertainty": "这份报告无法确定有多少压力会传导至消费者价格，也不能据此判断美联储接下来的决定。报告还提到，此前的数据有所修订，因此不应将最新读数视为不会改变的趋势。",
+          "watch": "关注后续生产者价格数据的修订，并结合消费者通胀数据，以及企业对定价、采购成本和利润率的披露来观察。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "最终需求生产者价格环比变动"
+              "label": "最终需求生产者价格（经季节性调整）"
             },
             {
               "id": "m2",
@@ -355,7 +401,7 @@
             },
             {
               "id": "m3",
-              "label": "剔除食品、能源和贸易服务的生产者价格环比变动"
+              "label": "剔除食品、能源和贸易服务的生产者价格（经季节性调整）"
             },
             {
               "id": "m4",
@@ -364,59 +410,79 @@
           ]
         },
         {
-          "id": "f3",
-          "title": "晶圆代工业绩改善，建厂投入仍需大量现金",
-          "summary": "中芯国际公布的营收和毛利率有所改善，但经营现金流仍低于物业、厂房及设备支出。",
-          "impact": "盈利改善为中国内地芯片制造业的经营前景提供了支持，但扩张仍对资金提出要求。",
-          "what": "这篇附有报告日期的财报解读，介绍的是为客户代工制造芯片的企业。公司将营收环比增长归因于晶圆出货量增加，将毛利率改善归因于产能利用率和产品组合的改善。所列指标采用报告中的国际会计准则口径，以美元列示，并区分归属于公司股东的净利润与合并口径的经营现金流。这些数据不应与采用不同列报方式的境内会计口径数据混用。现金流量表另行列示了设备和厂房资产的购置支出。",
-          "why": "编辑解读：半导体工厂在生产线尚未充分利用时，就已承担相当大的成本。提高产能利用率，可以将这些成本分摊到更多产出上，从而改善制造业务的经济效益。然而，会计上的盈利本身并不能为扩张提供资金。购买设备需要支出现金，而折旧则是在资产使用期间逐步将其成本计入损益。这种区别对等待收款的供应商、依赖稳定生产的客户，以及评估融资需求的股东都很重要。它也解释了为什么工厂业绩改善与持续的资本投入需求可以同时存在，并不矛盾。",
-          "uncertainty": "这是一份未经审计的季度报告，不能证明当前的产能利用率或利润率能够持续。将经营现金流与设备支出作比较，是有意限定范围的现金状况检查，并非完整的自由现金流计算：其他投资和融资项目也会影响资金流动性。合并范围内子公司产生的现金，也不等于仅归属于母公司股东的净利润。报告列示的风险包括行业周期性和设备供应情况。",
-          "watch": "关注产能利用率和产品组合能否继续支撑利润率，以及经营现金流能否跟上工厂投资支出。后续有关借款、客户需求和资本支出的披露，将有助于判断扩张周期是否仍可控，还是正越来越依赖外部融资。",
+          "id": "f2",
+          "title": "侨银股份警示：赎回资金尚未落实到位",
+          "summary": "侨银股份警告称，现有现金不足以支付即将到来的可转债赎回款，相关资金安排尚未落实到位。",
+          "impact": "这项警示表明，客户延迟付款可能转化为上市服务企业眼前的融资难题。",
+          "what": "这家城市管理服务企业将资金压力归因于营运资金收支错配，并表示部分服务相关应收款的回收难度加大、速度放缓。公司列出的筹资措施包括催收款项、处置资产以及寻求潜在外部支持。",
+          "why": "关键在于区分对客户的收款权利与可用于偿还债权人的现金。应收账款和合同资产本身不能用来履行赎回付款义务。对股东、贷款方和供应商而言，分析重点是现金能否在必须支付的款项到期前到账，而不是资产负债表上是否列有大量资产。",
+          "uncertainty": "这是对可能无法付款的警示，并非确认已经发生逾期付款。公告并未表明救助已经落实，也没有量化剩余资金缺口，同时指出拟采取的补救措施仍存在不确定性。",
+          "watch": "关注赎回款支付的正式确认、实际回款、已完成的资产出售，以及具有约束力的外部资金安排，而不只是意向表态。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "国际会计准则口径季度营收"
+              "label": "应收账款余额"
             },
             {
               "id": "m2",
-              "label": "季度归属于公司股东的净利润"
+              "label": "合同资产余额"
             },
             {
               "id": "m3",
-              "label": "季度经营现金流"
+              "label": "尚未转股的债券张数"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "应用材料财报解读：利润与现金并不相同",
+          "summary": "应用材料近期公布的财报显示，设备营收增长，同时实现账面盈利，经营活动也带来了正向现金流。",
+          "impact": "这些业绩表明，相关需求已传导至半导体设备供应商，但不能证明人工智能支出会持续保持同样强劲的势头。",
+          "what": "应用材料提供半导体制造所需的设备和材料工程技术。管理层将需求与人工智能投资联系起来，财务报表则分别披露了营收、按美国公认会计准则计算的净利润和经营活动产生的现金流。这是对已发布财报的背景解读，并非突发新闻。",
+          "why": "其投资传导机制是：芯片制造商对工厂和技术的投入，会转化为设备供应商的销售收入。对评估半导体行业周期的企业而言，供应商营收提供了不同于仅观察芯片销售的视角。现金创造能力也很重要，因为会计利润可能包含不涉及现金收支的项目，与可用于投资或向股东分配的资金并不相同。",
+          "uncertainty": "管理层对需求的解释并非独立预测。经营现金流尚未扣除资本支出，因此不等于自由现金流；在未查看调整项目对照说明前，也不应以调整后利润取代按美国公认会计准则计算的利润。业务分部披露口径的变化，也意味着比较历史业务数据时需要谨慎。",
+          "watch": "关注后续客户的资本支出披露、设备营收、利润转化为现金的情况，以及报表利润与调整后利润之间的调节说明。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "财年末季营收"
+            },
+            {
+              "id": "m2",
+              "label": "财年末季净利润（美国公认会计准则）"
+            },
+            {
+              "id": "m3",
+              "label": "财年末季经营现金流"
             },
             {
               "id": "m4",
-              "label": "季度毛利率"
-            },
-            {
-              "id": "m5",
-              "label": "季度物业、厂房及设备支出"
+              "label": "财年末季营收增速"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les récents rapports d’entreprise sont présentés comme des éclairages de contexte.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les résultats d’entreprises récemment publiés sont présentés à titre d’explication et de contexte.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges actuels."
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Les prix à la production continuent de compliquer la planification des coûts des entreprises",
-          "summary": "Aux États-Unis, les prix à la production ont continué d’augmenter, y compris hors alimentation, énergie et services commerciaux.",
-          "impact": "Les entreprises doivent toujours arbitrer entre prix et marges, mais cette publication ne permet pas, à elle seule, de déterminer l’inflation à la consommation ou l’orientation des taux d’intérêt.",
-          "what": "Le Bureau of Labor Statistics, l’organisme américain chargé des statistiques du travail, mesure les prix perçus par les producteurs nationaux, et non les prix payés en caisse par les ménages. La publication fait état de hausses des prix des biens et services destinés à la demande finale, tandis que les prix de l’énergie ont baissé. L’indicateur au périmètre plus restreint a également augmenté : le mouvement global ne peut donc pas simplement s’expliquer par l’énergie. Les variations mensuelles sont corrigées des variations saisonnières ; les variations annuelles ne le sont pas. Il s’agit de constats publiés, et non de prévisions ou d’estimations de leur effet sur les bénéfices.",
-          "why": "Interprétation éditoriale : face à une hausse de ses coûts d’achat ou de livraison, une entreprise peut relever ses prix de vente, accepter une marge plus faible, changer de fournisseurs ou chercher à améliorer sa productivité. Les réponses possibles dépendent de la demande des clients et de la pression concurrentielle. Les investisseurs doivent donc examiner conjointement le pouvoir de fixation des prix et les coûts, plutôt que de supposer qu’une hausse des prix à la production accroît automatiquement les bénéfices des entreprises. Pour les ménages, le lien éventuel passe par les prix de détail futurs et les conditions de financement. Ce lien reste conditionnel : les prix à la production portent sur un panier différent et reflètent une autre perspective économique que les prix à la consommation. Leur répercussion ne doit donc pas être considérée comme automatique.",
-          "uncertainty": "La publication ne permet pas de déterminer quelle part de ces variations chaque entreprise absorbera ou répercutera sur ses clients. Les évolutions propres à certains produits peuvent différer de la tendance globale, et des révisions ultérieures peuvent modifier le tableau publié. L’indicateur au périmètre plus restreint exclut certaines catégories volatiles ou sensibles aux marges, mais ne constitue pas une prévision directe de l’inflation à la consommation. Aucune comparaison avec les attentes du marché n’a été vérifiée : la publication n’est donc pas présentée comme une surprise à la hausse ou à la baisse.",
-          "watch": "À suivre : les révisions, l’étendue des prochaines variations de prix des biens et services, les données sur les prix à la consommation et les commentaires des entreprises sur leurs coûts de production et leurs prix de vente. Une confirmation nécessiterait que ces sources dressent un tableau cohérent, et pas seulement qu’elles présentent des titres similaires.",
+          "id": "f1",
+          "title": "Les prix à la production américains maintiennent la pression sur les coûts des entreprises",
+          "summary": "Les prix à la production ont augmenté aux États-Unis, y compris dans la mesure excluant l’alimentation, l’énergie et les services commerciaux.",
+          "impact": "Sur le plan financier, les entreprises pourraient encore devoir choisir entre préserver leurs marges et répercuter la hausse de leurs coûts sur leurs clients.",
+          "what": "Le Bureau of Labor Statistics, l’organisme américain chargé des statistiques du travail, a signalé une poursuite de la hausse des prix des biens et services vendus par les producteurs nationaux. Les prix de l’énergie ont toutefois baissé dans la catégorie des biens destinés à la demande finale.",
+          "why": "Les prix à la production éclairent l’environnement de coûts des entreprises plutôt qu’ils ne mesurent directement les dépenses courantes des ménages. Sur le plan de l’analyse, une pression persistante des fournisseurs peut compliquer les budgets d’achat et rendre les marges bénéficiaires futures plus difficiles à prévoir. Une entreprise capable d’imposer ses prix peut répercuter les hausses de coûts ; une entreprise confrontée à une demande faible peut au contraire les absorber.",
+          "uncertainty": "Le rapport ne permet pas d’établir dans quelle mesure cette pression se transmettra aux prix à la consommation, ni de déterminer la prochaine décision de la Réserve fédérale américaine. La publication signale aussi des révisions de données antérieures : la dernière observation ne doit donc pas être considérée comme une tendance définitivement établie.",
+          "watch": "À suivre : les prochaines révisions des prix à la production, les publications sur l’inflation à la consommation et les informations des entreprises concernant leurs prix de vente, leurs coûts d’achat et leurs marges.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Prix à la production pour la demande finale, variation mensuelle"
+              "label": "Prix à la production pour la demande finale, corrigés des variations saisonnières"
             },
             {
               "id": "m2",
@@ -424,7 +490,7 @@
             },
             {
               "id": "m3",
-              "label": "Prix à la production hors alimentation, énergie et services commerciaux, variation mensuelle"
+              "label": "Prix à la production hors alimentation, énergie et services commerciaux, corrigés des variations saisonnières"
             },
             {
               "id": "m4",
@@ -433,34 +499,54 @@
           ]
         },
         {
-          "id": "f3",
-          "title": "Malgré l’amélioration de son activité de fonderie, SMIC doit encore consacrer d’importantes liquidités à ses usines",
-          "summary": "SMIC a publié un chiffre d’affaires et une marge brute en amélioration, mais ses flux de trésorerie d’exploitation sont restés inférieurs aux dépenses d’immobilisations corporelles.",
-          "impact": "L’amélioration des résultats renforce la justification opérationnelle de la fabrication de puces en Chine continentale, mais l’expansion continue de mobiliser des financements.",
-          "what": "Cet éclairage sur des résultats datés porte sur un fabricant de puces travaillant pour le compte de clients. L’entreprise attribue la progression du chiffre d’affaires par rapport au trimestre précédent à la hausse des livraisons de plaquettes de semi-conducteurs, et l’amélioration de la marge brute au taux d’utilisation des usines et à la composition des ventes par produit. Les indicateurs reprennent la présentation du rapport selon les normes comptables internationales, en dollars, et distinguent le bénéfice attribuable aux actionnaires des flux de trésorerie d’exploitation consolidés. Ils ne doivent pas être combinés avec des chiffres présentés différemment selon les normes comptables nationales. Le tableau des flux de trésorerie comptabilise séparément les achats d’équipements et d’actifs industriels.",
-          "why": "Interprétation éditoriale : une usine de semi-conducteurs supporte des coûts importants avant même que ses lignes de production soient pleinement utilisées. Un taux d’utilisation plus élevé permet de répartir ces coûts sur davantage de produits, ce qui améliore la rentabilité de la fabrication. Toutefois, la rentabilité comptable ne finance pas à elle seule l’expansion. Les achats d’équipements consomment de la trésorerie, tandis que l’amortissement répartit le coût des actifs dans les résultats au fil du temps. Cette distinction importe pour les fournisseurs qui attendent leur paiement, les clients qui dépendent d’une production fiable et les actionnaires qui évaluent les besoins de financement. Elle explique aussi pourquoi l’amélioration des résultats des usines peut coexister avec des besoins persistants en capitaux, sans contradiction.",
-          "uncertainty": "Il s’agit d’un rapport trimestriel non audité, et non de la preuve que le taux d’utilisation ou les marges actuels se maintiendront. La comparaison avec les dépenses d’équipement est volontairement limitée à un contrôle ciblé de la trésorerie ; elle ne constitue pas un calcul complet du flux de trésorerie disponible. D’autres éléments liés aux investissements et au financement influencent aussi les liquidités. La trésorerie générée par les filiales consolidées n’est pas non plus équivalente au bénéfice attribuable uniquement aux actionnaires de la société mère. Le rapport cite notamment le caractère cyclique du secteur et la disponibilité des équipements parmi les risques.",
-          "watch": "À suivre : la capacité du taux d’utilisation et de la composition des ventes à continuer de soutenir les marges, ainsi que celle des flux de trésorerie d’exploitation à suivre le rythme des investissements dans les usines. Les prochaines informations sur les emprunts, la demande des clients et les dépenses d’investissement aideront à distinguer un cycle d’expansion maîtrisable d’une dépendance croissante aux financements externes.",
+          "id": "f2",
+          "title": "QiaoYin prévient que le financement du remboursement de ses obligations reste incomplet",
+          "summary": "QiaoYin a averti que sa trésorerie disponible ne suffisait pas à couvrir le remboursement prochain de ses obligations convertibles et que le financement nécessaire n’était pas encore entièrement réuni.",
+          "impact": "Cet avertissement montre comment des retards de paiement des clients peuvent devenir un problème immédiat de financement pour un prestataire de services coté en Bourse.",
+          "what": "L’entreprise de services de gestion urbaine a attribué ces tensions à un décalage dans le financement de son cycle d’exploitation. Elle a indiqué que le recouvrement de certaines créances liées à ses prestations était devenu plus difficile et plus lent. Elle a présenté le recouvrement de créances, des cessions d’actifs et un éventuel soutien extérieur comme sources de financement.",
+          "why": "La distinction essentielle est celle entre une somme due par un client et l’argent disponible pour payer un créancier. Les créances clients et les actifs sur contrats ne permettent pas, à eux seuls, de régler les obligations de remboursement. Pour les actionnaires, les prêteurs et les fournisseurs, l’enjeu est de savoir si les encaissements arriveront avant les échéances de paiement obligatoires, plutôt que de constater la présence d’actifs importants au bilan.",
+          "uncertainty": "Il s’agit d’un avertissement sur un risque de non-paiement, et non de la confirmation d’un paiement déjà manqué. Le document publié ne fait état d’aucun sauvetage finalisé et ne chiffre pas le financement restant à trouver. Il précise que les solutions envisagées demeurent incertaines.",
+          "watch": "À suivre : la confirmation officielle du remboursement, les sommes effectivement recouvrées, les cessions d’actifs réalisées et les engagements fermes de financement extérieur, plutôt que les déclarations d’intention.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires trimestriel selon les normes comptables internationales"
+              "label": "Encours des créances clients"
             },
             {
               "id": "m2",
-              "label": "Bénéfice trimestriel attribuable aux actionnaires de la société"
+              "label": "Solde des actifs sur contrats"
             },
             {
               "id": "m3",
-              "label": "Flux de trésorerie d’exploitation trimestriels"
+              "label": "Titres obligataires restant en circulation et non convertis"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Comprendre les résultats d’Applied Materials : bénéfice et trésorerie sont distincts",
+          "summary": "Les résultats récemment publiés par Applied Materials ont fait ressortir une hausse du chiffre d’affaires des équipements, un bénéfice comptable et une génération de trésorerie positive issue de l’activité.",
+          "impact": "Ces résultats témoignent d’une demande qui se traduit en activité pour un fournisseur d’équipements de fabrication de semi-conducteurs, sans prouver que les dépenses liées à l’intelligence artificielle resteront aussi soutenues.",
+          "what": "Applied Materials fournit des équipements et des technologies d’ingénierie des matériaux utilisés pour fabriquer des semi-conducteurs. La direction a relié la demande aux investissements dans l’intelligence artificielle, tandis que les états financiers présentaient séparément le chiffre d’affaires, le résultat net selon les normes comptables américaines GAAP et les flux de trésorerie d’exploitation. Il s’agit d’un décryptage de résultats déjà publiés, et non d’une actualité de dernière minute.",
+          "why": "Le mécanisme passe par les investissements des fabricants de puces dans leurs usines et leurs technologies, qui alimentent les ventes des équipementiers. Pour les entreprises qui évaluent le cycle des semi-conducteurs, le chiffre d’affaires des fournisseurs apporte un éclairage différent de celui des seules ventes de puces. La génération de trésorerie compte également : les bénéfices comptables peuvent inclure des éléments sans mouvement de trésorerie et différer des fonds disponibles pour investir ou rémunérer les actionnaires.",
+          "uncertainty": "L’explication de la demande donnée par la direction ne constitue pas une prévision indépendante. Les flux de trésorerie d’exploitation ne correspondent pas aux flux de trésorerie disponibles, car les dépenses d’investissement n’en ont pas encore été déduites. Le bénéfice ajusté ne doit pas non plus remplacer le bénéfice selon les normes GAAP sans examen du rapprochement expliquant les écarts. Les changements de présentation des segments d’activité imposent aussi de la prudence dans les comparaisons historiques.",
+          "watch": "À suivre : les prochaines publications des clients sur leurs dépenses d’investissement, le chiffre d’affaires des équipements, la conversion des bénéfices en trésorerie et le rapprochement entre les résultats publiés et ajustés.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires du dernier trimestre de l’exercice"
+            },
+            {
+              "id": "m2",
+              "label": "Résultat net selon les normes GAAP du dernier trimestre de l’exercice"
+            },
+            {
+              "id": "m3",
+              "label": "Flux de trésorerie d’exploitation du dernier trimestre de l’exercice"
             },
             {
               "id": "m4",
-              "label": "Marge brute trimestrielle"
-            },
-            {
-              "id": "m5",
-              "label": "Dépenses trimestrielles d’immobilisations corporelles"
+              "label": "Croissance du chiffre d’affaires du dernier trimestre de l’exercice"
             }
           ]
         }
@@ -469,23 +555,23 @@
     "es": {
       "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
-        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres fechados describen esas sesiones, no la cotización actual."
+        "us": "Los índices seguidos bajaron en sus respectivas sesiones verificadas más recientes. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual.",
+        "cn": "Los índices seguidos bajaron en sus respectivas sesiones verificadas más recientes. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Los precios al productor siguen presionando la planificación de costes empresariales",
-          "summary": "Los precios al productor de Estados Unidos siguieron subiendo, incluida la medida que excluye alimentos, energía y servicios comerciales.",
-          "impact": "Las empresas siguen afrontando decisiones sobre precios y márgenes, pero esta publicación no basta para determinar la inflación al consumidor ni el rumbo de los tipos de interés.",
-          "what": "La Oficina de Estadísticas Laborales mide los precios que reciben los productores nacionales, algo distinto de medir los precios que pagan los hogares al comprar. La publicación muestra aumentos en los bienes y servicios de demanda final, mientras que los precios de la energía bajaron. Su indicador más acotado también aumentó, lo que indica que el movimiento del índice general no puede explicarse simplemente por los precios de la energía. Los indicadores mensuales están ajustados para eliminar efectos estacionales; los anuales no. Son observaciones publicadas, no previsiones ni estimaciones del efecto sobre los beneficios.",
-          "why": "Interpretación editorial: una empresa que afronta mayores costes de compra o entrega puede subir sus precios de venta, aceptar un margen menor, cambiar de proveedores o buscar mejoras de productividad. La viabilidad de cada respuesta depende de la demanda de los clientes y de la presión competitiva. Por ello, los inversores necesitan analizar conjuntamente la capacidad de fijar precios y los costes, en lugar de suponer que las subidas de los precios al productor aumentan automáticamente los beneficios empresariales. Para los hogares, la posible conexión pasa por los precios minoristas posteriores y las condiciones de financiación. Esa conexión depende de las circunstancias: los precios al productor abarcan una cesta y una perspectiva económica distintas de las de los precios al consumidor, por lo que no debe darse por hecho que los aumentos se trasladarán.",
-          "uncertainty": "La publicación no establece qué parte de estos movimientos absorberá cada empresa ni qué parte trasladará a sus clientes. Los cambios de productos concretos pueden diferir del conjunto, y las revisiones posteriores pueden modificar el patrón publicado. La medida más acotada excluye determinadas categorías volátiles o sensibles a los márgenes, pero no es una previsión directa de la inflación al consumidor. No se verificó ninguna comparación con las expectativas del mercado, por lo que la publicación no se presenta como una sorpresa al alza ni a la baja.",
-          "watch": "Conviene observar las revisiones, la extensión de los movimientos posteriores de precios entre bienes y servicios, los datos de precios al consumidor y los comentarios empresariales sobre costes de insumos y precios de venta. Para confirmar la interpretación, estas fuentes tendrían que ofrecer un panorama coherente, no simplemente titulares parecidos.",
+          "id": "f1",
+          "title": "Los precios al productor mantienen la presión sobre los costes empresariales en Estados Unidos",
+          "summary": "Los precios al productor aumentaron en Estados Unidos, incluida la medida que excluye alimentos, energía y servicios comerciales.",
+          "impact": "La implicación financiera es que las empresas podrían seguir teniendo que elegir entre proteger sus márgenes y trasladar el aumento de costes a sus clientes.",
+          "what": "La Oficina de Estadísticas Laborales informó de que continuaron las subidas de precios de los bienes y servicios vendidos por productores nacionales, mientras que los precios de la energía bajaron dentro de la categoría de bienes de demanda final.",
+          "why": "Los precios al productor ayudan a entender los costes que afrontan las empresas, en lugar de medir directamente lo que pagan los hogares por sus compras. Desde una perspectiva analítica, la presión persistente de los proveedores puede complicar los presupuestos de compras y dificultar la previsión de los márgenes de beneficio futuros. Las empresas con capacidad para fijar precios pueden trasladar esos costes a sus clientes; las que afrontan una demanda débil podrían absorberlos.",
+          "uncertainty": "El informe no establece en qué medida esa presión llegará a los precios al consumidor ni determina la próxima decisión de la Reserva Federal. La publicación también señala revisiones de datos anteriores, por lo que la lectura más reciente no debe considerarse una tendencia inmutable.",
+          "watch": "Conviene observar las revisiones posteriores de los precios al productor junto con las publicaciones sobre inflación al consumidor y la información empresarial sobre precios, costes de compra y márgenes.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Precios al productor de demanda final, variación mensual"
+              "label": "Precios al productor de demanda final, ajustados por estacionalidad"
             },
             {
               "id": "m2",
@@ -493,7 +579,7 @@
             },
             {
               "id": "m3",
-              "label": "Precios al productor sin alimentos, energía ni servicios comerciales, variación mensual"
+              "label": "Precios al productor sin alimentos, energía ni servicios comerciales, ajustados por estacionalidad"
             },
             {
               "id": "m4",
@@ -502,136 +588,176 @@
           ]
         },
         {
-          "id": "f3",
-          "title": "La mejora en la fabricación de chips por encargo sigue exigiendo importantes desembolsos en fábricas",
-          "summary": "SMIC comunicó mejoras en las ventas y el margen bruto, mientras que el flujo de caja operativo quedó por debajo del gasto en propiedades, planta y equipo.",
-          "impact": "La mejora de los resultados respalda la lógica operativa de fabricar chips en China continental, pero la expansión sigue exigiendo financiación.",
-          "what": "Esta explicación de resultados, referida a la fecha del informe, analiza una empresa que fabrica chips por encargo para sus clientes. La compañía atribuye el crecimiento de las ventas respecto al trimestre anterior al aumento de los envíos de obleas, y la mejora del margen bruto a una mayor utilización de las fábricas y a la combinación de productos. Los indicadores siguen la presentación contable internacional del informe, en dólares, y distinguen el beneficio atribuible a los accionistas del flujo de caja operativo consolidado. No deben combinarse con cifras contables nacionales presentadas de otra manera. El estado de flujos de efectivo registra por separado las compras de equipos y activos de fábrica.",
-          "why": "Interpretación editorial: una fábrica de semiconductores soporta costes importantes antes de que sus líneas de producción funcionen a plena capacidad. Una mayor utilización permite repartir esos costes entre una producción más amplia, mejorando la rentabilidad de la fabricación. Sin embargo, los beneficios contables no bastan para financiar la expansión. Las compras de equipos consumen efectivo, mientras que la depreciación reconoce el coste de los activos en los resultados a lo largo del tiempo. Esta distinción importa a los proveedores que esperan cobrar, a los clientes que dependen de una producción fiable y a los accionistas que evalúan las necesidades de financiación. También explica por qué la mejora de los resultados de las fábricas puede coexistir con necesidades continuas de capital sin que exista contradicción.",
-          "uncertainty": "Se trata de un informe trimestral no auditado, no de una prueba de que la utilización o los márgenes actuales vayan a mantenerse. La comparación con el gasto en equipos es una comprobación deliberadamente limitada del efectivo, no un cálculo completo del flujo de caja libre: otras partidas de inversión y financiación también afectan a la liquidez. El efectivo generado por las filiales consolidadas tampoco equivale al beneficio atribuible exclusivamente a los accionistas de la sociedad matriz. El informe identifica entre sus riesgos el carácter cíclico del sector y la disponibilidad de equipos.",
-          "watch": "Conviene observar si la utilización y la combinación de productos siguen respaldando los márgenes, y si el flujo de caja operativo sigue el ritmo de la inversión en fábricas. La información posterior sobre endeudamiento, demanda de los clientes e inversión en activos ayudará a distinguir un ciclo de expansión manejable de una dependencia creciente de financiación externa.",
+          "id": "f2",
+          "title": "QiaoYin advierte de que aún no tiene asegurados los fondos para el reembolso",
+          "summary": "QiaoYin advirtió de que su efectivo disponible no basta para cubrir el próximo reembolso de bonos convertibles y de que las gestiones de financiación siguen incompletas.",
+          "impact": "La advertencia muestra cómo los retrasos en los pagos de clientes pueden convertirse en un problema inmediato de financiación para una empresa cotizada de servicios.",
+          "what": "La empresa de servicios de gestión urbana atribuyó la presión a un desajuste del capital circulante y afirmó que el cobro de ciertas cuentas pendientes por servicios se había vuelto más difícil y lento. Planteó el cobro de deudas, la venta de activos y posibles apoyos externos como vías para obtener fondos.",
+          "why": "La distinción clave está entre tener derecho a cobrar a un cliente y disponer de efectivo para pagar a un acreedor. Las cuentas por cobrar y los activos por contrato no permiten, por sí mismos, cumplir las obligaciones de reembolso. Para accionistas, prestamistas y proveedores, la preocupación analítica es si el efectivo llegará antes del vencimiento de los pagos obligatorios, no simplemente si el balance contiene activos importantes.",
+          "uncertainty": "Se trata de una advertencia sobre un posible impago, no de la confirmación de que ya se haya incumplido un pago. El comunicado no confirma que se haya concretado un rescate ni cuantifica los fondos que aún faltan, y señala que las soluciones propuestas siguen siendo inciertas.",
+          "watch": "Conviene observar la confirmación formal del pago del reembolso, los cobros efectivamente recibidos, las ventas de activos completadas y los compromisos vinculantes de financiación externa, en lugar de las declaraciones de intenciones.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos trimestrales según normas contables internacionales"
+              "label": "Saldo de cuentas por cobrar"
             },
             {
               "id": "m2",
-              "label": "Beneficio trimestral atribuible a los propietarios de la empresa"
+              "label": "Saldo de activos por contrato"
             },
             {
               "id": "m3",
-              "label": "Flujo de caja operativo trimestral"
+              "label": "Títulos de bonos pendientes de conversión"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Claves de los resultados de Applied Materials: beneficio y efectivo no son lo mismo",
+          "summary": "Los resultados fiscales publicados recientemente por Applied Materials mostraron un aumento de los ingresos por equipos, junto con beneficios contables y generación de efectivo operativo positivos.",
+          "impact": "Los resultados aportan indicios de que la demanda está llegando a un proveedor de equipos para semiconductores, sin demostrar que el gasto en inteligencia artificial vaya a mantener la misma fortaleza.",
+          "what": "Applied Materials suministra equipos y tecnología de ingeniería de materiales utilizados para fabricar semiconductores. La dirección vinculó la demanda con la inversión en inteligencia artificial, mientras que los estados financieros presentaron por separado los ingresos, el beneficio neto según los principios contables estadounidenses, conocidos como GAAP, y el efectivo generado por las operaciones. Esta explicación corresponde a unos resultados con una fecha concreta, no a una noticia de última hora.",
+          "why": "El mecanismo de inversión conecta el gasto de los fabricantes de chips en fábricas y tecnología con las ventas de los proveedores de equipos. Para las empresas que evalúan el ciclo del sector de semiconductores, los ingresos de los proveedores ofrecen una perspectiva distinta de la que aportan las ventas de chips por sí solas. La generación de efectivo también importa porque los beneficios contables pueden incluir partidas sin movimiento de efectivo y diferir del dinero disponible para invertir o remunerar a los accionistas.",
+          "uncertainty": "La explicación de la dirección sobre la demanda no es una previsión independiente. El flujo de caja operativo no equivale al flujo de caja libre, porque todavía no descuenta las inversiones en activos fijos. Tampoco debe sustituirse el beneficio según GAAP por el beneficio ajustado sin examinar la conciliación que explica sus diferencias. Los cambios en la presentación de los segmentos también exigen cautela al comparar la evolución histórica de las líneas de negocio.",
+          "watch": "Conviene observar las publicaciones posteriores de los clientes sobre inversiones en activos fijos, los ingresos por equipos, la conversión de beneficios en efectivo y la conciliación entre los beneficios declarados y los ajustados.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos del trimestre de cierre del ejercicio fiscal"
+            },
+            {
+              "id": "m2",
+              "label": "Beneficio neto según GAAP del trimestre de cierre del ejercicio fiscal"
+            },
+            {
+              "id": "m3",
+              "label": "Flujo de caja operativo del trimestre de cierre del ejercicio fiscal"
             },
             {
               "id": "m4",
-              "label": "Margen bruto trimestral"
-            },
-            {
-              "id": "m5",
-              "label": "Gasto trimestral en propiedades, planta y equipo"
+              "label": "Crecimiento de los ingresos del trimestre de cierre del ejercicio fiscal"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今号は米国と中国の動向を扱います。各記事の公表日をご確認ください。最近の企業決算は、背景を理解するための解説として掲載しています。",
+      "status": "今回は米国と中国の動向を取り上げます。各資料の公表日をご確認ください。最近公表された企業決算は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "一部の終値情報は確認できませんでした。掲載している各指数の値は、それぞれに記載された取引日のものです。",
-        "cn": "対象の株価指数は、直近で確認できた取引日にはいずれも下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の相場ではありません。"
+        "us": "対象の株価指数は、確認済みの直近取引日でいずれも下落しました。日付付きの終値は、その取引日の結果を示すもので、現在の取引状況ではありません。",
+        "cn": "対象の株価指数は、確認済みの直近取引日でいずれも下落しました。日付付きの終値は、その取引日の結果を示すもので、現在の取引状況ではありません。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "生産者物価の上昇が続き、企業のコスト計画に圧力",
-          "summary": "米国の生産者物価は上昇を続け、食品・エネルギー・商業サービスを除く指標も上がりました。",
-          "impact": "企業は引き続き、販売価格や利益率について判断を迫られています。ただし、この発表だけでは消費者物価や金利の方向性は判断できません。",
-          "what": "米労働統計局が測定するのは、国内の生産者が商品やサービスを売って受け取る価格です。家計が店頭などで支払う価格を測るものとは異なります。今回の発表では、最終需要向けの財とサービスで価格が上昇した一方、エネルギー価格は下落しました。対象を絞った集計指標も上昇しており、全体の動きを単にエネルギー価格の問題として説明することはできません。前月比の指標は季節調整済みですが、前年比の指標は季節調整されていません。これらは公表された実績であり、予測や企業利益への影響の推計ではありません。",
-          "why": "編集部の解釈：仕入れや配送のコストが上がった企業には、販売価格を引き上げる、利益率の低下を受け入れる、仕入れ先を変える、生産性の改善を目指すといった対応が考えられます。どの対応が可能かは、顧客の需要や競争の厳しさによって異なります。そのため投資家は、生産者物価が上がれば企業利益も自動的に増えると考えるのではなく、価格決定力とコストを併せて見る必要があります。家計には、その後の小売価格や資金調達環境を通じて影響する可能性があります。ただし、そのつながりには条件があります。生産者物価と消費者物価では、対象となる商品・サービスの構成や経済を見る視点が異なるため、価格転嫁が自動的に起こるとは限りません。",
-          "uncertainty": "今回の発表からは、こうした価格変動を個々の企業がどの程度吸収し、どの程度顧客に転嫁するかは分かりません。品目ごとの動きは全体と異なる場合があり、その後の改定で公表された傾向が変わる可能性もあります。対象を絞った指標は、価格変動が大きい品目や利幅の影響を受けやすい項目を除いていますが、消費者物価を直接予測するものではありません。市場予想との比較は確認できていないため、予想を上回った、または下回ったという評価はしていません。",
-          "watch": "今後の改定、財・サービスの価格変動がどこまで広がるか、消費者物価のデータ、投入コストや販売価格に関する企業の説明が注目点です。傾向を確かめるには、見出しが似ているだけでなく、これらの情報が整合的な動きを示す必要があります。",
+          "id": "f1",
+          "title": "米生産者物価が上昇、企業のコスト負担は続く",
+          "summary": "米国の生産者物価は上昇し、食品・エネルギー・流通サービスを除いた指標も上昇しました。",
+          "impact": "企業は引き続き、利益率を守るか、コスト上昇を顧客向け価格に転嫁するかという選択を迫られる可能性があります。",
+          "what": "米労働統計局は、国内の生産者が販売する財やサービスの価格が引き続き上昇したと発表しました。ただし、最終需要向けの財では、エネルギー価格が下落しました。",
+          "why": "生産者物価は、家計の買い物代を直接測るものではなく、企業を取り巻くコスト環境を把握する手がかりです。分析上、仕入れ先からの値上げ圧力が続くと、調達予算を組みにくくなり、将来の利益率も見通しにくくなります。価格決定力のある企業はコストを販売価格に転嫁できる可能性がありますが、需要が弱い企業は自社で負担する場合があります。",
+          "uncertainty": "この報告だけでは、コスト上昇がどの程度消費者物価に波及するかや、米連邦準備制度理事会の次の政策判断は分かりません。過去の数値が改定されたことも記されているため、最新の結果を変わらない傾向として捉えるべきではありません。",
+          "watch": "今後の生産者物価の改定に加え、消費者物価の発表や、企業による販売価格・調達コスト・利益率の開示が確認点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "最終需要向け生産者物価の前月比"
+              "label": "最終需要向け生産者物価指数（季節調整済み）"
             },
             {
               "id": "m2",
-              "label": "最終需要向け生産者物価の前年比"
+              "label": "最終需要向け生産者物価指数（前年同月比）"
             },
             {
               "id": "m3",
-              "label": "食品・エネルギー・商業サービスを除く生産者物価の前月比"
+              "label": "食品・エネルギー・流通サービスを除く生産者物価指数（季節調整済み）"
             },
             {
               "id": "m4",
-              "label": "食品・エネルギー・商業サービスを除く生産者物価の前年比"
+              "label": "食品・エネルギー・流通サービスを除く生産者物価指数（前年同月比）"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "QiaoYin、転換社債の償還資金を確保できていないと警告",
+          "summary": "QiaoYinは、手元資金では期限が近づく転換社債の償還を賄えず、資金調達の手配も完了していないと警告しました。",
+          "impact": "顧客からの入金の遅れが、上場サービス企業にとって差し迫った資金繰り問題になり得ることを示しています。",
+          "what": "都市管理サービスを手がける同社は、運転資金の入出金の時期が合わないことを資金繰り悪化の理由に挙げ、サービス関連の売掛債権の回収が難しくなり、時間もかかるようになったと説明しました。資金確保策として、債権回収、資産売却、外部支援の可能性を挙げています。",
+          "why": "重要なのは、顧客に代金を請求できる権利と、債権者への支払いに使える現金は異なるという点です。売掛債権や契約資産は、それ自体では償還の支払いに使えません。株主や融資元、仕入れ先にとっての分析上の焦点は、貸借対照表に多額の資産があるかではなく、支払義務の期限までに現金が入るかどうかです。",
+          "uncertainty": "これは支払いができなくなる可能性についての警告であり、すでに支払いが滞ったと確認されたわけではありません。開示資料は、救済策の成立を示しておらず、残る資金不足額も明らかにしていません。提案された対応策には不確実性があるとも述べています。",
+          "watch": "意向の表明ではなく、償還金の支払いに関する正式な確認、実際の債権回収による入金、資産売却の完了、拘束力のある外部資金調達が確認点です。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "売掛債権残高"
+            },
+            {
+              "id": "m2",
+              "label": "契約資産残高"
+            },
+            {
+              "id": "m3",
+              "label": "未転換社債の残存枚数"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "半導体受託製造の業績は改善も、工場にはなお多額の資金が必要",
-          "summary": "SMICは売上高と売上総利益率の改善を報告しましたが、営業キャッシュフローは有形固定資産への支出を下回りました。",
-          "impact": "利益の改善は、中国本土での半導体製造事業の採算面を支える材料ですが、事業拡大には引き続き資金の確保が必要です。",
-          "what": "公表時点の情報に基づくこの決算解説は、顧客から半導体の製造を受託する企業を扱っています。同社は、前四半期比で売上高が増えた理由をウエハー出荷の増加、売上総利益率が改善した理由を工場稼働率と製品構成の改善と説明しています。掲載指標は、提出資料の国際会計基準に基づくドル建て表示を使用し、株主に帰属する利益と連結営業キャッシュフローを区別しています。表示方法の異なる中国国内の会計基準による数値と混在させるべきではありません。キャッシュフロー計算書には、設備や工場資産の購入が別項目として記載されています。",
-          "why": "編集部の解釈：半導体工場では、生産ラインが十分に稼働する前から多額のコストがかかります。稼働率が上がれば、そのコストをより多くの生産量に分散でき、製造の採算が改善する可能性があります。しかし、会計上の利益が出ているだけで、拡張資金を賄えるわけではありません。設備の購入では現金が支出される一方、減価償却では資産の費用が時間をかけて損益に計上されます。この違いは、代金の支払いを待つ仕入れ先、安定した生産に頼る顧客、資金調達の必要性を見極める株主にとって重要です。また、工場の業績が改善していても、引き続き設備資金が必要になることは矛盾しないと分かります。",
-          "uncertainty": "これは未監査の四半期開示資料であり、現在の稼働率や利益率が続くことを示すものではありません。設備支出との比較は、意図的に範囲を絞った資金面の確認であり、フリーキャッシュフローを完全に計算したものではありません。他の投資活動や財務活動の項目も、手元資金や支払い余力に影響します。また、連結子会社が生み出す現金は、親会社の株主だけに帰属する利益と同じではありません。同社は開示資料で、半導体業界の景気循環や設備の入手可能性などをリスクに挙げています。",
-          "watch": "稼働率や製品構成が引き続き利益率を支えるか、営業キャッシュフローが工場投資に見合う水準になるかが注目点です。今後の借入、顧客需要、設備投資に関する開示は、拡大局面が無理なく管理できているのか、それとも外部資金への依存が強まっているのかを見極める材料になります。",
+          "title": "アプライド・マテリアルズの決算解説：利益と現金収入は異なる",
+          "summary": "アプライド・マテリアルズが最近公表した決算では、装置売上高が増加し、会計上の利益と営業活動による現金収支もプラスとなりました。",
+          "impact": "半導体製造装置メーカーに需要が届いていることを示す結果ですが、人工知能向け支出の強さが今後も同じように続くと証明するものではありません。",
+          "what": "アプライド・マテリアルズは、半導体製造に使われる装置や材料工学技術を提供しています。経営陣は需要を人工知能への投資と結び付けて説明しましたが、財務諸表では売上高、米国会計基準に基づく純利益、営業キャッシュフローがそれぞれ報告されています。これは公表済み決算の背景を説明する記事であり、速報ではありません。",
+          "why": "半導体メーカーによる工場や技術への投資は、装置メーカーの売上につながります。半導体業界の景気循環を見極める企業にとって、装置メーカーの売上高は、半導体そのものの売上高とは異なる視点を提供します。また、会計上の利益には現金の出入りを伴わない項目が含まれることがあり、投資や株主還元に使える資金とは異なるため、現金を生み出す力も重要です。",
+          "uncertainty": "経営陣による需要の説明は、独立した立場からの予測ではありません。営業キャッシュフローは設備投資の支出を差し引く前の数値であり、フリーキャッシュフローとは異なります。また、調整内容を確認せずに、米国会計基準に基づく利益を調整後利益で置き換えて見るべきではありません。事業部門別の表示方法も変わっているため、過去の事業別業績との比較には注意が必要です。",
+          "watch": "今後の顧客企業による設備投資の開示、装置売上高、利益がどの程度現金収入につながっているか、報告利益と調整後利益の差額の説明が確認点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "国際会計基準に基づく四半期売上高"
+              "label": "会計年度末四半期の売上高"
             },
             {
               "id": "m2",
-              "label": "四半期の親会社の所有者に帰属する利益"
+              "label": "会計年度末四半期の純利益（米国会計基準）"
             },
             {
               "id": "m3",
-              "label": "四半期営業キャッシュフロー"
+              "label": "会計年度末四半期の営業キャッシュフロー"
             },
             {
               "id": "m4",
-              "label": "四半期売上総利益率"
-            },
-            {
-              "id": "m5",
-              "label": "四半期の有形固定資産取得支出"
+              "label": "会計年度末四半期の売上高成長率"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; relatórios recentes de empresas são apresentados como explicações de contexto.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; os relatórios empresariais recentes são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Alguns dados de fechamento não puderam ser verificados. Cada índice disponível mantém a data do seu respectivo pregão.",
-        "cn": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os fechamentos com data identificada descrevem aqueles pregões, não as negociações atuais."
+        "us": "Os índices acompanhados caíram nos respectivos pregões mais recentes verificados. Os fechamentos nas datas indicadas descrevem esses pregões, não as negociações atuais.",
+        "cn": "Os índices acompanhados caíram nos respectivos pregões mais recentes verificados. Os fechamentos nas datas indicadas descrevem esses pregões, não as negociações atuais."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Preços ao produtor mantêm pressão sobre o planejamento de custos das empresas",
-          "summary": "Os preços ao produtor nos Estados Unidos continuaram subindo, inclusive na medida que exclui alimentos, energia e serviços de comércio.",
-          "impact": "As empresas continuam tendo de decidir sobre preços e margens, mas essa divulgação, por si só, não permite determinar a inflação ao consumidor nem a direção dos juros.",
-          "what": "O órgão americano de estatísticas do trabalho mede os preços recebidos pelos produtores nacionais, o que é diferente de medir os preços pagos pelas famílias nas compras. A divulgação mostra aumentos nos bens e serviços destinados à demanda final, enquanto os preços da energia recuaram. A medida que exclui determinadas categorias também subiu, indicando que o movimento do índice geral não pode ser explicado apenas pelos preços da energia. Os indicadores mensais têm ajuste sazonal, que considera padrões recorrentes de cada época do ano; os anuais não. São dados observados e divulgados, não previsões nem estimativas de efeito sobre os lucros.",
-          "why": "Interpretação editorial: uma empresa que enfrenta custos maiores de compra ou entrega pode elevar os preços de venda, aceitar uma margem menor, mudar de fornecedores ou buscar ganhos de produtividade. A resposta viável depende da demanda dos clientes e da pressão da concorrência. Por isso, os investidores precisam analisar em conjunto a capacidade de definir preços e os custos, em vez de presumir que a alta dos preços ao produtor aumenta automaticamente os lucros das empresas. Para as famílias, a possível ligação ocorre pelos preços posteriores no varejo e pelas condições de financiamento. Essa ligação depende das circunstâncias: os preços ao produtor abrangem uma cesta e uma perspectiva econômica diferentes das dos preços ao consumidor, portanto o repasse não deve ser tratado como automático.",
-          "uncertainty": "A divulgação não estabelece quanto dessas variações cada empresa absorverá ou repassará aos clientes. As mudanças em produtos específicos podem divergir do resultado agregado, e revisões posteriores podem alterar o padrão divulgado. A medida mais restrita exclui determinadas categorias voláteis ou sensíveis às margens, mas não é uma previsão direta da inflação ao consumidor. Não foi verificada uma comparação com as expectativas do mercado; por isso, a divulgação não é classificada como uma surpresa para cima ou para baixo.",
-          "watch": "Acompanhe as revisões, a abrangência das próximas variações de preços de bens e serviços, os dados de preços ao consumidor e os comentários das empresas sobre custos de insumos e preços de venda. Para confirmar uma tendência, essas fontes precisariam apresentar um quadro coerente, não apenas manchetes parecidas.",
+          "id": "f1",
+          "title": "Preços ao produtor nos Estados Unidos mantêm pressão sobre os custos das empresas",
+          "summary": "Os preços ao produtor nos Estados Unidos subiram, inclusive na medida que exclui alimentos, energia e serviços de comércio.",
+          "impact": "A implicação financeira é que as empresas ainda podem enfrentar a escolha entre preservar suas margens de lucro e repassar custos maiores aos clientes.",
+          "what": "O órgão americano de estatísticas do trabalho informou que os preços de bens e serviços vendidos por produtores nacionais continuaram subindo, enquanto os preços da energia caíram na categoria de bens de demanda final.",
+          "why": "Os preços ao produtor ajudam a entender os custos enfrentados pelas empresas, em vez de medir diretamente os gastos das famílias nas compras. Como implicação analítica, a pressão persistente dos fornecedores pode dificultar o planejamento das compras e tornar as margens de lucro futuras mais difíceis de prever. Uma empresa com capacidade de definir preços pode repassar os custos; uma empresa com demanda fraca pode acabar absorvendo esses custos.",
+          "uncertainty": "O relatório não estabelece quanto dessa pressão chegará aos preços ao consumidor nem determina a próxima decisão do Federal Reserve, o banco central americano. A publicação também informa revisões de dados anteriores, portanto a leitura mais recente não deve ser tratada como uma tendência imutável.",
+          "watch": "Acompanhe as próximas revisões dos preços ao produtor, junto com as divulgações de inflação ao consumidor e as informações das empresas sobre preços, custos de compra e margens.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Preços ao produtor para a demanda final, variação mensal"
+              "label": "Preços ao produtor para demanda final, com ajuste sazonal"
             },
             {
               "id": "m2",
-              "label": "Preços ao produtor para a demanda final, variação anual"
+              "label": "Preços ao produtor para demanda final, variação anual"
             },
             {
               "id": "m3",
-              "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, variação mensal"
+              "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, com ajuste sazonal"
             },
             {
               "id": "m4",
@@ -640,59 +766,79 @@
           ]
         },
         {
-          "id": "f3",
-          "title": "Melhora na fabricação de chips ainda exige desembolsos elevados nas fábricas",
-          "summary": "A SMIC divulgou melhora nas vendas e na margem bruta, enquanto o caixa gerado pelas operações permaneceu abaixo dos gastos com imobilizado, como instalações e equipamentos.",
-          "impact": "A melhora dos resultados reforça os fundamentos operacionais da fabricação de chips na China continental, mas a expansão ainda exige recursos financeiros.",
-          "what": "Esta explicação de resultados, referente ao período indicado, aborda uma fabricante que produz chips sob encomenda para clientes. A empresa atribui o crescimento das vendas em relação ao período anterior ao aumento das remessas de wafers, as lâminas usadas na fabricação de chips, e a melhora da margem bruta à utilização das fábricas e à composição dos produtos vendidos. Os indicadores seguem a apresentação contábil internacional do relatório, em dólares, e distinguem o lucro atribuível aos acionistas do caixa operacional consolidado. Eles não devem ser combinados com números apresentados de forma diferente segundo as normas contábeis locais. A demonstração dos fluxos de caixa registra separadamente as compras de equipamentos e ativos das fábricas.",
-          "why": "Interpretação editorial: uma fábrica de semicondutores tem custos elevados antes mesmo de suas linhas de produção estarem plenamente ocupadas. A maior utilização pode distribuir esses custos por um volume maior de produção, melhorando a rentabilidade da fabricação. No entanto, o lucro contábil, por si só, não financia a expansão. A compra de equipamentos consome caixa, enquanto a depreciação reconhece o custo dos ativos no resultado ao longo do tempo. Essa diferença importa para fornecedores que aguardam pagamento, clientes que dependem de uma produção confiável e acionistas que avaliam as necessidades de financiamento. Ela também explica por que a melhora dos resultados das fábricas pode coexistir com a necessidade contínua de capital, sem contradição.",
-          "uncertainty": "Trata-se de um relatório trimestral não auditado, não de uma prova de que a utilização atual das fábricas ou as margens vão se manter. A comparação com os gastos em equipamentos é uma verificação de caixa deliberadamente restrita, não um cálculo completo do fluxo de caixa livre: outros itens de investimento e financiamento também afetam a liquidez. O caixa gerado pelas subsidiárias incluídas na consolidação também não equivale ao lucro atribuível apenas aos acionistas da controladora. O relatório identifica entre os riscos os ciclos de alta e baixa do setor e a disponibilidade de equipamentos.",
-          "watch": "Acompanhe se a utilização das fábricas e a composição dos produtos vendidos continuam sustentando as margens e se o caixa operacional acompanha o investimento nas fábricas. As próximas divulgações sobre empréstimos, demanda dos clientes e investimentos em ativos fixos ajudarão a distinguir um ciclo de expansão administrável de uma dependência crescente de financiamento externo.",
+          "id": "f2",
+          "title": "QiaoYin alerta que recursos para resgate de títulos ainda não estão garantidos",
+          "summary": "A QiaoYin alertou que seu caixa disponível não cobre o resgate próximo de títulos de dívida conversíveis e que os acordos para obter recursos ainda não foram concluídos.",
+          "impact": "O alerta mostra como atrasos nos pagamentos de clientes podem se tornar um problema imediato de financiamento para uma prestadora de serviços listada em bolsa.",
+          "what": "A empresa de serviços de gestão urbana atribuiu a pressão a um descompasso no capital de giro e afirmou que a cobrança de parte dos valores a receber por serviços ficou mais difícil e demorada. Apresentou a cobrança desses valores, a venda de ativos e um possível apoio externo como medidas para obter recursos.",
+          "why": "A distinção central é entre ter um valor a receber de um cliente e ter dinheiro disponível para pagar um credor. Contas a receber e ativos contratuais não liquidam, por si só, as obrigações de resgate. Para acionistas, credores e fornecedores, a preocupação analítica é saber se o dinheiro entrará antes do vencimento dos pagamentos obrigatórios, e não apenas se o balanço apresenta ativos expressivos.",
+          "uncertainty": "Trata-se de um alerta sobre possível falta de pagamento, não da confirmação de que um pagamento já deixou de ser feito. O documento divulgado não confirma um socorro financeiro concluído nem quantifica os recursos que ainda faltam, e informa que as soluções propostas continuam incertas.",
+          "watch": "Acompanhe a confirmação formal do pagamento do resgate, os valores efetivamente recebidos de clientes, as vendas de ativos concluídas e os compromissos firmes de financiamento externo, em vez de declarações de intenção.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita trimestral segundo as normas internacionais de contabilidade"
+              "label": "Saldo de contas a receber"
             },
             {
               "id": "m2",
-              "label": "Lucro trimestral atribuível aos acionistas da empresa"
+              "label": "Saldo de ativos contratuais"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional trimestral"
+              "label": "Títulos de dívida em circulação ainda não convertidos"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Entenda os resultados da Applied Materials: lucro e caixa são diferentes",
+          "summary": "Os resultados fiscais divulgados recentemente pela Applied Materials mostraram aumento da receita de equipamentos, acompanhado de lucro contábil e geração de caixa operacional positivos.",
+          "impact": "Os resultados oferecem evidências de que a demanda está chegando a um fornecedor de equipamentos para semicondutores, sem provar que os gastos com inteligência artificial continuarão igualmente fortes.",
+          "what": "A Applied Materials fornece equipamentos e tecnologia de engenharia de materiais usados na fabricação de semicondutores. A administração associou a demanda aos investimentos em inteligência artificial, enquanto as demonstrações financeiras apresentaram separadamente receita, lucro líquido segundo os princípios contábeis americanos, conhecidos como GAAP, e caixa gerado pelas operações. Esta é uma explicação de resultados referente à data indicada, não uma notícia de última hora.",
+          "why": "O mecanismo de investimento vai dos gastos dos fabricantes de chips em fábricas e tecnologia até as vendas dos fornecedores de equipamentos. Para empresas que avaliam o ciclo de semicondutores, a receita dos fornecedores oferece uma perspectiva diferente daquela obtida apenas pelas vendas de chips. A geração de caixa também importa porque o lucro contábil pode incluir itens sem movimentação de dinheiro e diferir dos recursos disponíveis para investimentos ou distribuições aos acionistas.",
+          "uncertainty": "A explicação da administração sobre a demanda não é uma previsão independente. O fluxo de caixa operacional não é fluxo de caixa livre, pois ainda não desconta os investimentos em ativos de longo prazo. O lucro ajustado não deve substituir o lucro segundo os critérios GAAP sem examinar a conciliação que explica as diferenças. Mudanças na apresentação dos segmentos também exigem cuidado ao comparar o histórico das áreas de negócio.",
+          "watch": "Acompanhe as próximas divulgações dos clientes sobre investimentos em ativos de longo prazo, a receita de equipamentos, a conversão de lucro em caixa e a conciliação entre os lucros divulgados e os ajustados.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita do trimestre de encerramento do exercício fiscal"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro líquido segundo os critérios GAAP do trimestre de encerramento do exercício fiscal"
+            },
+            {
+              "id": "m3",
+              "label": "Fluxo de caixa operacional do trimestre de encerramento do exercício fiscal"
             },
             {
               "id": "m4",
-              "label": "Margem bruta trimestral"
-            },
-            {
-              "id": "m5",
-              "label": "Gastos trimestrais com imobilizado"
+              "label": "Crescimento da receita do trimestre de encerramento do exercício fiscal"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的財經動態。請留意各項資料的發布日期；近期公司財報以背景解讀方式呈現。",
+      "status": "本期涵蓋美國與中國的財經動態。請留意各篇的發布日期；近期公司財報以背景解讀方式呈現。",
       "marketSummary": {
-        "us": "部分收盤資料未能核實。各項可取得的指數資料均保留各自的交易日期。",
-        "cn": "追蹤的指數在各自最近經核實的交易日均下跌。標示日期的收盤資料反映當時的交易情況，並非目前行情。"
+        "us": "追蹤的指數在最近經核實的交易日均下跌。標示日期的收盤資料反映當日表現，並非即時行情。",
+        "cn": "追蹤的指數在最近經核實的交易日均下跌。標示日期的收盤資料反映當日表現，並非即時行情。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "生產者物價續漲，企業成本規劃仍面臨壓力",
-          "summary": "美國生產者物價持續上升，排除食品、能源與貿易服務後的指標也上漲。",
-          "impact": "企業仍須在定價與利潤率之間做取捨，但僅憑這份資料，無法判定消費者物價的漲勢或利率走向。",
-          "what": "美國勞工統計局衡量的是國內生產者收取的價格，與家庭購物結帳時支付的價格不同。這份資料顯示，最終需求商品與服務價格均上升，能源價格則下跌。排除部分項目的綜合指標也上漲，表示不能將整體變動單純歸因於能源價格。月增率經過季節調整，年增率則未經季節調整。這些是已公布的觀察結果，並非預測，也不是對企業獲利影響的估算。",
-          "why": "編輯解讀：當採購或配送成本提高時，企業可以提高售價、接受較低的利潤率、更換供應商，或設法提升生產效率。哪些做法可行，取決於客戶需求與競爭壓力。因此，投資人需要同時檢視定價能力與成本，而不能假設生產者物價上漲就會自動提高企業獲利。對家庭而言，可能的影響途徑是日後的零售價格與融資環境。但這種連結有其條件：生產者物價與消費者物價涵蓋的商品及服務組合不同，觀察經濟的角度也不同，因此不能認為成本必然會轉嫁給消費者。",
-          "uncertainty": "這份資料無法確定個別公司會自行吸收多少價格變動，又會將多少轉嫁給客戶。特定產品的價格變化可能與整體趨勢不同，後續修正也可能改變已公布的走勢。範圍較窄的指標排除了部分波動較大或對利潤率敏感的類別，但並不是消費者物價漲勢的直接預測。由於未能核實與市場預期的比較，因此不將這份資料描述為高於或低於預期。",
-          "watch": "留意資料修正、後續商品與服務價格變動的普遍程度、消費者物價資料，以及企業對投入成本與售價的說明。要確認趨勢，需要這些來源呈現相互吻合的情況，而不只是標題看起來相似。",
+          "id": "f1",
+          "title": "美國生產者物價上漲，企業成本壓力仍在",
+          "summary": "美國生產者物價上漲，排除食品、能源與貿易服務後的指標也上升。",
+          "impact": "財務上的意義是，企業可能仍須在維持利潤率與將較高成本轉嫁給客戶之間取捨。",
+          "what": "美國勞工統計局公布，國內生產者銷售的商品與服務價格持續上升，但最終需求商品類別中的能源價格下跌。",
+          "why": "生產者物價有助於了解企業面對的成本環境，並非直接衡量家庭購物支出。從分析角度看，供應端持續的價格壓力可能增加採購預算的規劃難度，也讓未來利潤率更難預測。有定價能力的公司可能將成本轉嫁給客戶；面對需求疲弱的公司則可能自行吸收。",
+          "uncertainty": "這份報告無法確定有多少成本壓力會傳導至消費者物價，也不能據此判定聯準會接下來的決策。發布資料也提及先前數據有所修正，因此不應將最新數據視為不會改變的趨勢。",
+          "watch": "關注後續生產者物價數據的修正，並搭配消費者通膨資料，以及企業對定價、採購成本與利潤率的揭露觀察。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "最終需求生產者物價月增率"
+              "label": "最終需求生產者物價，經季節調整"
             },
             {
               "id": "m2",
@@ -700,7 +846,7 @@
             },
             {
               "id": "m3",
-              "label": "排除食品、能源與貿易服務的生產者物價月增率"
+              "label": "排除食品、能源與貿易服務的生產者物價，經季節調整"
             },
             {
               "id": "m4",
@@ -709,34 +855,54 @@
           ]
         },
         {
-          "id": "f3",
-          "title": "晶圓代工營運改善，廠房投資仍需大量現金",
-          "summary": "中芯國際公布的營收與毛利率有所改善，但營業活動現金流仍低於不動產、廠房及設備支出。",
-          "impact": "獲利改善支持中國大陸晶片製造業的營運前景，但擴張仍帶來資金需求。",
-          "what": "這篇附有報告日期的財報解讀，介紹的是代客製造晶片的晶圓代工業者。公司將營收較前季成長歸因於晶圓出貨增加，並將毛利率改善歸因於產能利用率與產品組合。各項指標採用財報中的國際會計準則美元資料，並區分歸屬於公司股東的利潤與合併營業活動現金流，不應與採用不同表達方式的中國境內會計數據混用。現金流量表另行列示設備與廠房資產的購置支出。",
-          "why": "編輯解讀：半導體工廠在產線尚未滿載前，就已承擔可觀成本。產能利用率提高，可讓更多產出分攤這些成本，改善製造效益。不過，帳面獲利本身並不能提供擴張所需的資金。購置設備會消耗現金，而折舊則是在資產使用期間，逐步將資產成本列入損益。這項差異對等待收款的供應商、仰賴穩定生產的客戶，以及評估融資需求的股東都很重要。這也說明，工廠營運成果改善與持續需要資本投入，可以同時存在，並不矛盾。",
-          "uncertainty": "這是未經查核的季度財報，不能證明目前的產能利用率或利潤率會持續。將營業活動現金流與設備支出相比，是刻意限定範圍的現金檢視，並非完整的自由現金流計算；其他投資與融資項目也會影響資金流動性。納入合併報表的子公司所產生的現金，也不等同於僅歸屬母公司股東的利潤。財報列出的風險包括產業景氣循環與設備取得情況。",
-          "watch": "留意產能利用率與產品組合是否持續支撐毛利率，以及營業活動現金流能否跟上廠房投資。後續對借款、客戶需求及資本支出的揭露，將有助於分辨這是可掌控的擴張週期，還是對外部資金的依賴正在增加。",
+          "id": "f2",
+          "title": "僑銀警告：可轉債贖回資金尚未全數到位",
+          "summary": "僑銀警告，現有現金不足以支付即將到期的可轉換公司債贖回款，相關資金安排仍未完成。",
+          "impact": "這項警告凸顯，客戶延遲付款可能讓上市服務業者立即面臨融資壓力。",
+          "what": "這家城市管理服務公司將壓力歸因於營運資金收支時點不匹配，並表示部分服務相關應收款項的收取變得更困難、耗時更長。公司列出的籌資措施包括催收款項、處分資產，以及尋求可能的外部支援。",
+          "why": "關鍵在於，對客戶擁有收款權利，不等於手上有現金可支付債權人。應收帳款與合約資產本身無法用來履行贖回義務。對股東、貸款機構與供應商而言，分析重點是現金能否在必須履行的付款義務到期前入帳，而不只是資產負債表上是否列有可觀資產。",
+          "uncertainty": "這是可能無法付款的警告，並非確認已經未如期付款。公告並未證實紓困安排已完成，也未量化尚待補足的資金缺口，並表示擬議補救措施仍有不確定性。",
+          "watch": "關注贖回款支付的正式確認、實際收回的款項、已完成的資產出售，以及具約束力的外部資金安排，而不只是意向聲明。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "依國際會計準則編製的季度營收"
+              "label": "應收帳款餘額"
             },
             {
               "id": "m2",
-              "label": "季度歸屬於公司股東的利潤"
+              "label": "合約資產餘額"
             },
             {
               "id": "m3",
-              "label": "季度營業活動現金流"
+              "label": "尚未轉股的債券張數"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "應用材料財報解讀：獲利與現金並不相同",
+          "summary": "應用材料近期公布的會計期間業績顯示，設備營收增加，帳面獲利與營業活動現金流入也均為正。",
+          "impact": "這些業績提供了需求傳導至半導體設備供應商的證據，但不足以證明人工智慧支出將維持同樣強勁。",
+          "what": "應用材料供應半導體製造所需的設備與材料工程技術。管理層將需求與人工智慧投資連結，而財務報表則分別列報營收、依美國一般公認會計原則編製的淨利，以及營業活動產生的現金。這是針對已發布財報的背景解讀，並非即時新聞。",
+          "why": "其投資傳導機制，是晶片製造商投入廠房與技術的支出，轉化為設備供應商的銷售。對評估半導體景氣循環的企業而言，供應商營收提供了不同於僅觀察晶片銷售的視角。現金創造能力也很重要，因為帳面盈餘可能包含非現金項目，與可用於投資或分配給股東的資金不同。",
+          "uncertainty": "管理層對需求的解釋並非獨立預測。營業活動現金流量尚未扣除資本支出，因此不等於自由現金流量；在未檢視調節說明前，也不應以調整後獲利取代依美國一般公認會計原則編製的獲利。此外，部門資訊的呈現方式有所變更，比較歷年業務表現時也須留意。",
+          "watch": "關注後續客戶揭露的資本支出、設備營收、盈餘轉化為現金的情況，以及財報獲利與調整後獲利之間的調節說明。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "會計年度末季營收"
+            },
+            {
+              "id": "m2",
+              "label": "會計年度末季美國一般公認會計原則淨利"
+            },
+            {
+              "id": "m3",
+              "label": "會計年度末季營業活動現金流量"
             },
             {
               "id": "m4",
-              "label": "季度毛利率"
-            },
-            {
-              "id": "m5",
-              "label": "季度不動產、廠房及設備支出"
+              "label": "會計年度末季營收成長率"
             }
           ]
         }
