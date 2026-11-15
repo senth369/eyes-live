@@ -1,63 +1,58 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-15T02:38:35.661Z",
-  "generatedAt": "2026-11-15T02:43:05.480Z",
+  "cutoffAt": "2026-11-15T12:44:14.323Z",
+  "generatedAt": "2026-11-15T12:48:59.939Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "FRED broad US equity index closing observations",
+      "label": "Federal Reserve Bank of St. Louis daily broad-market close observations",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src2",
-      "label": "FRED Nasdaq Composite closing observations",
+      "label": "Federal Reserve Bank of St. Louis daily technology-heavy composite close observations",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src3",
-      "label": "Associated Press dated US closing report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-12c1e8155fb85c3c7b09e058ed6d3c74"
+      "label": "Dated mainland market closing report",
+      "url": "https://www.cfi.cn/p20261113000012.html"
     },
     {
       "id": "src4",
-      "label": "Tonghuashun dated mainland equity closing report",
-      "url": "https://news.10jqka.com.cn/20261113/c681796980.shtml"
+      "label": "Investing daily mainland blue-chip index closing table",
+      "url": "https://ph.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Investing mainland large-cap index dated closing table",
-      "url": "https://ng.investing.com/indices/csi300-historical-data"
-    },
-    {
-      "id": "src6",
-      "label": "Bureau of Labor Statistics archived producer price release",
+      "label": "Bureau of Labor Statistics archived producer-price release",
       "url": "https://www.bls.gov/news.release/archives/ppi_11132026.htm"
     },
     {
+      "id": "src6",
+      "label": "NVIDIA public leadership-transition announcement",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+    },
+    {
       "id": "src7",
-      "label": "National Bureau of Statistics production-material market price release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261113_1965820.html"
+      "label": "NVIDIA current report on officer and board changes",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/2bc9480b-60a6-4d8a-90cb-87190f804a3b.pdf"
     },
     {
       "id": "src8",
-      "label": "Applied Materials latest fiscal earnings release",
-      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
+      "label": "CATL unaudited quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225613337.PDF"
     },
     {
       "id": "src9",
-      "label": "Applied Materials preceding fiscal earnings release",
-      "url": "https://investors.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results/"
+      "label": "CATL issuer release describing automotive battery supply",
+      "url": "https://www.catl.com/en/news/7014.html"
     },
     {
       "id": "src10",
-      "label": "Midea quarterly financial report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF"
-    },
-    {
-      "id": "src11",
-      "label": "Midea company business and listing profile",
-      "url": "https://static.cninfo.com.cn/finalpage/enpage/000333_2.pdf"
+      "label": "TCL Technology unaudited quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649475.PDF"
     }
   ],
   "markets": [
@@ -66,10 +61,9 @@
       "sessionDate": "2026-11-13",
       "close": 7561.67,
       "previousClose": 7592.4,
-      "changePercent": -0.4,
+      "changePercent": -0.4047468521,
       "sourceIds": [
-        "src1",
-        "src3"
+        "src1"
       ]
     },
     {
@@ -77,10 +71,9 @@
       "sessionDate": "2026-11-13",
       "close": 25136.27,
       "previousClose": 25366.09,
-      "changePercent": -0.9,
+      "changePercent": -0.9060127122,
       "sourceIds": [
-        "src2",
-        "src3"
+        "src2"
       ]
     },
     {
@@ -90,7 +83,7 @@
       "previousClose": null,
       "changePercent": -0.59,
       "sourceIds": [
-        "src4"
+        "src3"
       ]
     },
     {
@@ -100,7 +93,7 @@
       "previousClose": 4043.93,
       "changePercent": -0.68,
       "sourceIds": [
-        "src5"
+        "src4"
       ]
     }
   ],
@@ -121,9 +114,9 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src5"
           ],
-          "evidence": "Opening paragraph and Table A: seasonally adjusted final-demand producer price change."
+          "evidence": "Opening results paragraph and headline table report the seasonally adjusted final-demand producer-price change."
         },
         {
           "id": "m2",
@@ -134,9 +127,9 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src5"
           ],
-          "evidence": "Opening paragraph and Table A: unadjusted final-demand producer price change."
+          "evidence": "Opening results paragraph reports the unadjusted annual final-demand producer-price change."
         },
         {
           "id": "m3",
@@ -147,9 +140,9 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src5"
           ],
-          "evidence": "Opening discussion and Table A: seasonally adjusted final demand excluding food, energy and trade services."
+          "evidence": "Opening discussion reports the seasonally adjusted change excluding food, energy and trade services."
         },
         {
           "id": "m4",
@@ -160,93 +153,123 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src5"
           ],
-          "evidence": "Opening discussion and Table A: unadjusted final demand excluding food, energy and trade services."
+          "evidence": "Opening discussion reports the annual change excluding food, energy and trade services."
         }
       ],
       "sourceIds": [
-        "src6"
+        "src5"
       ],
-      "evidence": "Archived release opening discussion, Table A and technical note establish producer inflation and its seller-price scope."
+      "evidence": "Archived release opening discussion and Final Demand section establish rising producer prices and continued underlying price pressure."
     },
     {
-      "id": "f2",
+      "id": "f4",
       "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-14",
-      "company": null,
+      "category": "earnings",
+      "publishedOn": "2026-10-31",
+      "company": {
+        "name": "TCL Technology Group Corporation",
+        "ticker": "000100",
+        "exchange": "SZSE"
+      },
       "metrics": [
         {
           "id": "m1",
-          "value": 32,
-          "unit": "count",
-          "periodStart": "2026-11-01",
-          "periodEnd": "2026-11-10",
+          "value": 50051893008,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src10"
           ],
-          "evidence": "Opening monitoring summary: products with prices declining against the preceding monitoring interval."
+          "evidence": "Major accounting data table, current-quarter revenue row."
         },
         {
           "id": "m2",
-          "value": 16,
-          "unit": "count",
-          "periodStart": "2026-11-01",
-          "periodEnd": "2026-11-10",
+          "value": 1312164408,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src10"
           ],
-          "evidence": "Opening monitoring summary: products with prices increasing against the preceding monitoring interval."
+          "evidence": "Major accounting data table, current-quarter profit attributable to listed-company shareholders."
         },
         {
           "id": "m3",
-          "value": 3152.4,
+          "value": 138700079937,
           "unit": "CNY",
-          "periodStart": "2026-11-01",
-          "periodEnd": "2026-11-10",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src10"
           ],
-          "evidence": "Market-price table, ferrous metals section: monitored reinforcing-bar price per tonne."
+          "evidence": "Major accounting data table, year-to-date revenue column."
         },
         {
           "id": "m4",
-          "value": 109779.3,
+          "value": 5120437375,
           "unit": "CNY",
-          "periodStart": "2026-11-01",
-          "periodEnd": "2026-11-10",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src10"
           ],
-          "evidence": "Market-price table, nonferrous metals section: monitored electrolytic-copper price per tonne."
+          "evidence": "Major accounting data table, year-to-date attributable net profit column."
         },
         {
           "id": "m5",
-          "value": 23407.1,
+          "value": 24789987156,
           "unit": "CNY",
-          "periodStart": "2026-11-01",
-          "periodEnd": "2026-11-10",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src10"
           ],
-          "evidence": "Market-price table, nonferrous metals section: monitored aluminium-ingot price per tonne."
+          "evidence": "Consolidated cash-flow statement, net operating cash-flow row."
+        },
+        {
+          "id": "m6",
+          "value": 16891335761,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "Consolidated cash-flow statement, cash purchases of fixed assets, intangible assets and other long-term assets."
+        },
+        {
+          "id": "m7",
+          "value": 14004025336,
+          "unit": "CNY",
+          "periodStart": "2026-09-30",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "Consolidated cash-flow statement, ending cash and cash equivalents row."
         }
       ],
       "sourceIds": [
-        "src7"
+        "src10"
       ],
-      "evidence": "Publication timestamp, opening breadth summary, commodity table and methodological notes establish the latest monitored material prices."
+      "evidence": "Accounting-data table, management discussion and consolidated cash-flow statement establish manufacturing exposure, attributable earnings and cash generation."
     }
   ],
   "locales": {
@@ -259,25 +282,25 @@
       "stories": [
         {
           "id": "f1",
-          "title": "US producer inflation keeps cost pressure in focus",
-          "summary": "The latest producer-price release shows continuing inflation beyond volatile food and energy categories.",
-          "impact": "Our interpretation is that businesses still face difficult pricing decisions, while equity valuations remain exposed to uncertainty about financing costs.",
-          "what": "The Bureau of Labor Statistics reported rising final-demand producer prices, including an increase in the measure excluding food, energy and trade services. Goods and services contributed to the advance, although individual categories moved differently. These are prices received by domestic producers, rather than the retail prices households directly pay. The accompanying metrics distinguish seasonally adjusted monthly movements from unadjusted annual comparisons.",
-          "why": "Our interpretation: a supplier facing higher production costs can try to raise selling prices, accept a smaller profit margin, or change purchasing and staffing plans. The eventual financial effect depends on customer demand and bargaining power. For households, the potential connection is indirect: business costs can influence retail prices and employment decisions, but transmission is neither immediate nor automatic. For shareholders, the useful question is whether companies can preserve profitability without weakening demand. A producer-price release is therefore evidence about the operating environment, not a ready-made forecast for earnings or interest rates.",
-          "uncertainty": "The release does not establish how much of the measured increase will reach consumers, nor does it determine the Federal Reserve's next decision. Preliminary observations can be revised, and seasonal adjustment changes the interpretation of monthly comparisons. Avoid treating annual inflation as the latest monthly pace or assuming that a slower headline movement means underlying pressure has disappeared.",
-          "watch": "Watch subsequent producer-price revisions, consumer-price evidence and company commentary about pricing, input costs and margins. The practical test is whether reported selling-price gains compensate for expenses without undermining orders.",
+          "title": "Producer prices keep inflation pressure on business margins",
+          "summary": "The latest producer-price release shows continued increases in selling prices, including the measure excluding food, energy and trade services.",
+          "impact": "Persistent business-price pressure can complicate household affordability, corporate budgeting and the outlook for financing costs.",
+          "what": "The Bureau of Labor Statistics measures prices received by domestic producers rather than the prices households pay at checkout. Its archived release shows rising final-demand prices across goods and services. The underlying measure also increased, so the report cannot be described simply as an energy-price disturbance. This is a recent scheduled economic release, not a new weekend announcement.",
+          "why": "Financial interpretation: businesses facing higher replacement costs must decide whether customers will accept higher prices or whether profits must absorb the pressure. Firms with long contracts may find it difficult to reprice immediately, while businesses with flexible pricing may protect margins but risk losing orders. For households, the transmission is indirect: producer prices can influence retail prices, service charges and employment decisions, but pass-through is not automatic. Persistent inflation can also make borrowing conditions harder to ease, which matters for mortgages, working-capital loans and investment spending.",
+          "uncertainty": "Producer prices are not consumer inflation and do not determine a central-bank decision by themselves. Trade-service measures concern margins rather than ordinary shelf prices. The release does not establish how much businesses will pass through, and no verified consensus is supplied here, so there is no earnings-style surprise claim.",
+          "watch": "Watch subsequent consumer-price and consumption-price releases, revisions to producer prices, and company commentary about pricing, input costs and order volumes. The useful test is whether rising selling prices coexist with resilient demand or instead conceal pressure on volumes and profitability.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Headline producer prices, monthly change"
+              "label": "Final-demand producer prices, seasonally adjusted monthly change"
             },
             {
               "id": "m2",
-              "label": "Headline producer prices, annual change"
+              "label": "Final-demand producer prices, annual change"
             },
             {
               "id": "m3",
-              "label": "Producer prices excluding food, energy and trade services, monthly change"
+              "label": "Producer prices excluding food, energy and trade services, adjusted monthly change"
             },
             {
               "id": "m4",
@@ -286,136 +309,152 @@
           ]
         },
         {
-          "id": "f2",
-          "title": "Chinese material prices offer a mixed margin signal",
-          "summary": "China's latest production-material monitoring release shows price declines across a broad range of surveyed products.",
-          "impact": "Our interpretation is that easing purchase costs could help downstream manufacturers while pressuring suppliers' selling prices and inventory values.",
-          "what": "The National Bureau of Statistics published its latest early-month survey of production materials traded through distribution channels. Reinforcing bar, copper and aluminium registered lower monitored prices than in the preceding interval. The displayed currency metrics are prices per tonne, not aggregate sales or company revenue. The survey concerns wholesale and distribution-market prices, which include distribution expenses, profit and taxes rather than measuring factory-gate prices alone.",
-          "why": "Our interpretation: the same commodity movement can have opposing implications across A shares. A manufacturer buying metal may eventually benefit from cheaper replenishment, while a producer selling that metal may face revenue pressure. Existing inventory complicates the picture because previously purchased inputs can remain expensive even after market quotations fall. Contract terms and customer negotiations also influence who retains the benefit. For households, cheaper materials could support product affordability, but this survey cannot establish whether retailers will reduce prices. For businesses, purchasing discipline and inventory turnover may matter as much as the direction of commodity quotations.",
-          "uncertainty": "This is a short monitoring interval, not a monthly inflation reading, and the breadth count is not a spending-weighted index. The bureau explicitly notes that distribution prices and factory-gate prices can diverge because their composition differs and transmission takes time. The release alone cannot distinguish weaker demand from improving supply conditions.",
-          "watch": "Watch the next material-price survey alongside factory-gate inflation, industrial activity and issuer disclosures on inventories and procurement. Evidence that lower purchase costs are reaching margins would be more informative than assuming an immediate earnings benefit from the commodity table.",
+          "id": "f4",
+          "title": "Earnings explainer: display manufacturing requires a cash-flow lens",
+          "summary": "TCL Technology's dated report combines attributable profits with operating cash generation across display, photovoltaic and semiconductor-material businesses.",
+          "impact": "Its capital-intensive manufacturing model makes investment spending and liquidity essential companions to the earnings headline.",
+          "what": "This is a dated earnings explainer, not a new announcement. TCL Technology operates manufacturing businesses rather than simply selling branded consumer devices. Its report describes display-panel demand, photovoltaic supply-demand imbalances and semiconductor-material activity. Quarterly earnings and year-to-date cash measures are shown separately. The filing also identifies changes in subsidiary ownership, an important reminder that the parent's share of earnings can change without an equivalent change in factory output.",
+          "why": "Financial interpretation: factories incur substantial costs before finished products are sold, and equipment must be maintained or replaced even when end-market demand is uncertain. Operating cash therefore helps assess the resources generated by ongoing activity, while investment spending shows a separate call on those resources. Panel pricing and customer purchasing schedules can affect the economics of televisions, computers and other devices farther down the supply chain. For businesses and households, the relevance is manufacturing resilience and product costs, not merely whether reported net profit increased.",
+          "uncertainty": "The financial statements are unaudited, and the group contains businesses with different demand and investment cycles. Consolidated operating cash cannot be assigned entirely to display panels. It is also not equivalent to profit available for distribution: capital expenditure, acquisitions, debt service and other financing movements remain separate considerations. Ending cash is a point-in-time balance rather than a measure of earnings.",
+          "watch": "Watch subsequent disclosures for panel pricing, factory utilization, photovoltaic profitability, working-capital movements and investment spending. Compare cash generation with the demands of expansion and financing rather than assuming that an earnings recovery automatically strengthens liquidity. Ownership changes and the contribution of individual businesses will also help explain whether improvement reflects operating performance or the allocation of subsidiary profits.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Monitored products with declining prices"
+              "label": "Quarterly revenue"
             },
             {
               "id": "m2",
-              "label": "Monitored products with increasing prices"
+              "label": "Quarterly net profit attributable to shareholders"
             },
             {
               "id": "m3",
-              "label": "Reinforcing-bar market price per tonne"
+              "label": "Year-to-date revenue"
             },
             {
               "id": "m4",
-              "label": "Electrolytic-copper market price per tonne"
+              "label": "Year-to-date net profit attributable to shareholders"
             },
             {
               "id": "m5",
-              "label": "Aluminium-ingot market price per tonne"
+              "label": "Year-to-date net operating cash flow"
+            },
+            {
+              "id": "m6",
+              "label": "Year-to-date cash purchases of long-term operating assets"
+            },
+            {
+              "id": "m7",
+              "label": "Ending cash and cash equivalents"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports récents des entreprises servent à expliquer le contexte.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés à titre d’éclairage.",
       "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés correspondent à ces séances, et non aux échanges en cours.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés correspondent à ces séances, et non aux échanges en cours."
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Aux États-Unis, les prix à la production maintiennent les pressions sur les coûts au premier plan",
-          "summary": "La dernière publication sur les prix à la production montre une inflation persistante au-delà des catégories volatiles de l’alimentation et de l’énergie.",
-          "impact": "Selon notre analyse, les entreprises restent confrontées à des choix difficiles concernant leurs prix, tandis que la valorisation des actions demeure sensible à l’incertitude sur les coûts de financement.",
-          "what": "Le Bureau américain des statistiques du travail a signalé une hausse des prix à la production destinés à la demande finale, y compris pour l’indicateur hors alimentation, énergie et services commerciaux. Les biens et les services ont contribué à cette hausse, malgré des évolutions différentes selon les catégories. Il s’agit des prix perçus par les producteurs nationaux, et non des prix de détail directement payés par les ménages. Les indicateurs associés distinguent les variations mensuelles corrigées des variations saisonnières des comparaisons annuelles non corrigées.",
-          "why": "Notre analyse : face à une hausse de ses coûts de production, un fournisseur peut tenter de relever ses prix de vente, accepter une marge bénéficiaire plus faible ou modifier ses projets d’achats et de gestion des effectifs. L’effet financier final dépend de la demande des clients et du pouvoir de négociation. Pour les ménages, le lien potentiel est indirect : les coûts des entreprises peuvent influencer les prix de détail et les décisions d’emploi, mais cette transmission n’est ni immédiate ni automatique. Pour les actionnaires, la question utile est de savoir si les entreprises peuvent préserver leur rentabilité sans affaiblir la demande. Une publication sur les prix à la production renseigne donc sur les conditions d’activité ; elle ne constitue pas une prévision toute faite des bénéfices ou des taux d’intérêt.",
-          "uncertainty": "Cette publication ne permet pas de déterminer quelle part de la hausse mesurée sera répercutée sur les consommateurs, ni quelle sera la prochaine décision de la Réserve fédérale. Les données préliminaires peuvent être révisées, et la correction des variations saisonnières modifie l’interprétation des comparaisons mensuelles. Il faut éviter de confondre l’inflation annuelle avec le rythme du dernier mois, ou de supposer qu’un ralentissement de l’indicateur global signifie que les pressions sous-jacentes ont disparu.",
-          "watch": "À surveiller : les révisions ultérieures des prix à la production, les données sur les prix à la consommation et les commentaires des entreprises sur leurs prix, leurs coûts de production et leurs marges. Le point concret à examiner est de savoir si les hausses de prix de vente annoncées compensent les dépenses sans affaiblir les commandes.",
+          "title": "Les prix à la production maintiennent la pression inflationniste sur les marges des entreprises",
+          "summary": "La dernière publication sur les prix à la production montre que les prix de vente continuent d’augmenter, y compris selon l’indicateur hors alimentation, énergie et services commerciaux.",
+          "impact": "La persistance des tensions sur les prix des entreprises peut peser sur le pouvoir d’achat des ménages, compliquer les budgets des entreprises et brouiller les perspectives de coûts de financement.",
+          "what": "Le Bureau of Labor Statistics mesure les prix perçus par les producteurs nationaux, et non ceux que les ménages paient en caisse. Sa publication archivée fait état d’une hausse des prix des biens et services destinés à la demande finale. L’indicateur sous-jacent a également augmenté : le rapport ne peut donc pas se résumer à une perturbation des prix de l’énergie. Il s’agit d’une publication économique récente et programmée, et non d’une nouvelle annonce du week-end.",
+          "why": "Lecture financière : lorsque le remplacement de leurs approvisionnements leur coûte plus cher, les entreprises doivent déterminer si leurs clients accepteront des prix plus élevés ou si leurs bénéfices devront absorber cette pression. Les entreprises liées par des contrats de longue durée peuvent avoir du mal à ajuster immédiatement leurs prix. Celles qui disposent de davantage de souplesse peuvent préserver leurs marges, mais risquent de perdre des commandes. Pour les ménages, la transmission est indirecte : les prix à la production peuvent influencer les prix de détail, les tarifs des services et les décisions d’emploi, mais leur répercussion n’est pas automatique. Une inflation persistante peut aussi compliquer l’assouplissement des conditions d’emprunt, avec des conséquences pour les crédits immobiliers, les prêts destinés aux besoins courants des entreprises et les dépenses d’investissement.",
+          "uncertainty": "Les prix à la production ne mesurent pas l’inflation à la consommation et ne déterminent pas, à eux seuls, les décisions d’une banque centrale. Les indicateurs relatifs aux services commerciaux portent sur les marges, et non sur les prix habituels en rayon. La publication ne permet pas d’établir quelle part des hausses les entreprises répercuteront. Aucune estimation consensuelle vérifiée n’est fournie ici : il n’est donc pas question de qualifier les données de surprise, comme on pourrait le faire pour des résultats d’entreprise.",
+          "watch": "À suivre : les prochaines publications sur les prix à la consommation et les prix des dépenses de consommation, les révisions des prix à la production, ainsi que les commentaires des entreprises sur leurs prix de vente, le coût de leurs approvisionnements et leurs volumes de commandes. L’enjeu est de déterminer si la hausse des prix de vente s’accompagne d’une demande résistante ou si elle masque plutôt des pressions sur les volumes et la rentabilité.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Prix à la production, indice global : variation mensuelle"
+              "label": "Prix à la production pour la demande finale, variation mensuelle corrigée des variations saisonnières"
             },
             {
               "id": "m2",
-              "label": "Prix à la production, indice global : variation annuelle"
+              "label": "Prix à la production pour la demande finale, variation annuelle"
             },
             {
               "id": "m3",
-              "label": "Prix à la production hors alimentation, énergie et services commerciaux : variation mensuelle"
+              "label": "Prix à la production hors alimentation, énergie et services commerciaux, variation mensuelle corrigée des variations季ni或"
             },
             {
               "id": "m4",
-              "label": "Prix à la production hors alimentation, énergie et services commerciaux : variation annuelle"
+              "label": "Prix à la production hors alimentation, énergie et services commerciaux, variation annuelle"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "En Chine, les prix des matériaux donnent un signal contrasté pour les marges",
-          "summary": "La dernière publication chinoise de suivi des prix des matériaux de production fait état de baisses sur un large éventail de produits étudiés.",
-          "impact": "Selon notre analyse, la baisse des coûts d’achat pourrait aider les fabricants qui utilisent ces matériaux, tout en pesant sur les prix de vente des fournisseurs et la valeur de leurs stocks.",
-          "what": "Le Bureau national des statistiques a publié sa dernière enquête de début de mois sur les matériaux de production échangés dans les circuits de distribution. Les prix suivis des barres d’armature, du cuivre et de l’aluminium ont baissé par rapport à la période précédente. Les indicateurs monétaires affichés correspondent à des prix par tonne, et non à des ventes totales ou au chiffre d’affaires des entreprises. L’enquête porte sur les prix des marchés de gros et de distribution, qui incluent les frais de distribution, les bénéfices et les taxes, plutôt que sur les seuls prix à la sortie des usines.",
-          "why": "Notre analyse : un même mouvement des cours des matières premières peut avoir des effets opposés sur les actions de catégorie A. Un fabricant qui achète du métal peut, à terme, profiter d’un réapprovisionnement moins coûteux, tandis qu’un producteur qui vend ce métal peut subir des pressions sur son chiffre d’affaires. Les stocks existants compliquent la situation, car les matériaux achetés auparavant peuvent rester coûteux même après une baisse des cours du marché. Les conditions contractuelles et les négociations avec les clients influencent aussi la répartition des économies réalisées. Pour les ménages, des matériaux moins chers pourraient rendre les produits plus abordables, mais cette enquête ne permet pas de savoir si les détaillants réduiront leurs prix. Pour les entreprises, la rigueur des achats et la vitesse de renouvellement des stocks peuvent compter autant que l’évolution des cours des matières premières.",
-          "uncertainty": "Il s’agit d’un suivi sur une courte période, et non d’une mesure mensuelle de l’inflation. Le décompte des produits selon l’évolution de leur prix n’est pas un indice pondéré par les dépenses. Le Bureau précise que les prix de distribution et les prix à la sortie des usines peuvent diverger, car leurs composantes diffèrent et leur transmission prend du temps. Cette publication ne permet pas, à elle seule, de distinguer un affaiblissement de la demande d’une amélioration des conditions d’offre.",
-          "watch": "À surveiller : la prochaine enquête sur les prix des matériaux, en parallèle de l’inflation à la sortie des usines, de l’activité industrielle et des informations publiées par les entreprises cotées sur leurs stocks et leurs approvisionnements. Des éléments montrant que la baisse des coûts d’achat améliore les marges seraient plus instructifs que de supposer un effet immédiat sur les bénéfices à partir du tableau des matières premières.",
+          "id": "f4",
+          "title": "Décryptage des résultats : la fabrication d’écrans s’analyse aussi par les flux de trésorerie",
+          "summary": "Le rapport daté de TCL Technology présente les bénéfices attribuables aux actionnaires et la trésorerie générée par l’exploitation dans les activités d’écrans, de photovoltaïque et de matériaux pour semi-conducteurs.",
+          "impact": "Ce modèle industriel exige d’importants capitaux : les dépenses d’investissement et la liquidité sont donc indispensables pour compléter la lecture du bénéfice annoncé.",
+          "what": "Il s’agit d’un décryptage de résultats déjà publiés, et non d’une nouvelle annonce. TCL Technology exerce des activités industrielles plutôt que de simplement vendre des appareils grand public sous sa marque. Son rapport décrit la demande de dalles d’affichage, les déséquilibres entre l’offre et la demande dans le photovoltaïque et l’activité des matériaux pour semi-conducteurs. Les résultats trimestriels et les indicateurs de trésorerie cumulés depuis le début de l’exercice sont présentés séparément. Le document fait également état de changements dans les participations détenues dans des filiales. Cela rappelle que la part des bénéfices revenant à la société mère peut évoluer sans changement équivalent de la production des usines.",
+          "why": "Lecture financière : les usines supportent des coûts importants avant la vente des produits finis, et leurs équipements doivent être entretenus ou remplacés même lorsque la demande finale est incertaine. Les flux de trésorerie d’exploitation permettent donc d’évaluer les ressources générées par l’activité courante, tandis que les dépenses d’investissement représentent une utilisation distincte de ces ressources. Les prix des dalles et les calendriers d’achat des clients peuvent influencer les coûts et la rentabilité des téléviseurs, des ordinateurs et d’autres appareils en aval de la chaîne d’approvisionnement. Pour les entreprises et les ménages, l’enjeu concerne la résistance de l’activité industrielle et le coût des produits, et pas seulement la hausse éventuelle du bénéfice net publié.",
+          "uncertainty": "Les états financiers ne sont pas audités, et le groupe comprend des activités dont les cycles de demande et d’investissement diffèrent. Les flux de trésorerie d’exploitation consolidés ne peuvent pas être entièrement attribués aux dalles d’affichage. Ils ne correspondent pas non plus à un bénéfice distribuable : les dépenses d’investissement, les acquisitions, le service de la dette et les autres mouvements de financement doivent être examinés séparément. La trésorerie de clôture est un solde à une date donnée, et non une mesure du résultat.",
+          "watch": "À suivre dans les prochaines publications : les prix des dalles, le taux d’utilisation des usines, la rentabilité du photovoltaïque, les variations du besoin en fonds de roulement et les dépenses d’investissement. Il convient de mettre la trésorerie générée en regard des besoins d’expansion et de financement, sans supposer qu’un redressement des bénéfices renforce automatiquement la liquidité. Les changements de participation et la contribution de chaque activité aideront également à comprendre si l’amélioration provient des performances opérationnelles ou de la répartition des bénéfices des filiales.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Produits suivis dont le prix est en baisse"
+              "label": "Chiffre d’affaires trimestriel"
             },
             {
               "id": "m2",
-              "label": "Produits suivis dont le prix est en hausse"
+              "label": "Bénéfice net trimestriel attribuable aux actionnaires"
             },
             {
               "id": "m3",
-              "label": "Prix de marché des barres d’armature par tonne"
+              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
             },
             {
               "id": "m4",
-              "label": "Prix de marché du cuivre électrolytique par tonne"
+              "label": "Bénéfice net attribuable aux actionnaires cumulé depuis le début de l’exercice"
             },
             {
               "id": "m5",
-              "label": "Prix de marché des lingots d’aluminium par tonne"
+              "label": "Flux net de trésorerie d’exploitation cumulé depuis le début de l’exercice"
+            },
+            {
+              "id": "m6",
+              "label": "Décaissements pour l’acquisition d’actifs d’exploitation à long terme cumulés depuis le début de l’exercice"
+            },
+            {
+              "id": "m7",
+              "label": "Trésorerie et équivalents de trésorerie à la clôture"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请留意各项内容的发布日期；近期公司报告在此作为背景解读。",
+      "status": "本期涵盖美国和中国的动态。请留意各项内容的发布日期；近期公司财报在此作为背景解读，并非最新公告。",
       "marketSummary": {
-        "us": "所跟踪的指数在最近核实的交易日均下跌。标注日期的收盘数据反映对应交易日的情况，并非当前行情。",
-        "cn": "所跟踪的指数在最近核实的交易日均下跌。标注日期的收盘数据反映对应交易日的情况，并非当前行情。"
+        "us": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。",
+        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美国生产者价格上涨，成本压力仍受关注",
-          "summary": "最新生产者价格报告显示，除波动较大的食品和能源类别外，通胀压力仍在持续。",
-          "impact": "我们的解读是，企业定价仍面临艰难取舍，股票估值也仍受到融资成本不确定性的影响。",
-          "what": "美国劳工统计局报告，最终需求生产者价格上涨，剔除食品、能源和贸易服务后的指标也有所上升。商品和服务价格均推动了整体上涨，但具体类别的走势存在差异。这些数据衡量的是美国国内生产者收到的价格，而非家庭直接支付的零售价格。配套指标区分了经季节性调整的环比变动与未经季节性调整的同比变动。",
-          "why": "我们的解读：面对生产成本上涨，供应商可以尝试提高售价、接受更低的利润率，或调整采购和用工计划。最终财务影响取决于客户需求和议价能力。对家庭而言，潜在影响是间接的：企业成本可能影响零售价格和用工决策，但这种传导既非即时，也非必然。对股东而言，值得关注的是企业能否在不削弱需求的情况下维持盈利能力。因此，生产者价格报告提供的是经营环境方面的证据，而非对盈利或利率的现成预测。",
-          "uncertainty": "这份报告无法确定所测得的价格涨幅有多少会传导至消费者，也不能决定美联储接下来的决策。初步数据可能修订，季节性调整也会影响对环比变动的解读。不应将同比通胀率当作最新的环比涨幅，也不应认为整体价格涨势放缓就意味着深层价格压力已经消失。",
-          "watch": "关注后续生产者价格数据修订、消费者价格信息，以及企业对定价、投入成本和利润率的说明。实际检验标准是，企业披露的售价上涨能否在不削弱订单的情况下抵消费用压力。",
+          "title": "生产者价格持续上涨，企业利润率仍承压",
+          "summary": "最新公布的生产者价格数据显示，销售价格继续上涨，剔除食品、能源和贸易服务后的指标也在上升。",
+          "impact": "企业端价格压力持续，可能使家庭负担能力、企业预算以及融资成本前景面临更复杂的局面。",
+          "what": "美国劳工统计局衡量的是国内生产者出售产品和服务时获得的价格，而不是家庭结账时支付的价格。其存档公告显示，最终需求商品和服务的价格普遍上涨。剔除相关波动项目后的指标也有所上升，因此不能简单地将这份报告解读为能源价格扰动。这是近期按计划发布的经济数据，并非周末发布的新消息。",
+          "why": "从财务角度看，企业在补充原料或商品的成本上升时，需要判断客户能否接受涨价，还是必须自行消化成本压力、牺牲利润。签有长期合同的企业可能难以及时调价；定价灵活的企业则可能保住利润率，但也面临订单流失的风险。对家庭而言，影响是间接的：生产者价格可能影响零售价格、服务收费和企业用工决策，但成本并不必然向下游传导。通胀持续还可能使借贷条件更难放宽，从而影响住房贷款、流动资金贷款和投资支出。",
+          "uncertainty": "生产者价格不等于消费通胀，也不能单独决定央行的政策。贸易服务相关指标衡量的是利润空间，而非常见的货架售价。这份公告无法确定企业会将多少成本转嫁给客户；此处也未提供经核实的市场普遍预期，因此不能像解读财报那样声称数据超出或低于预期。",
+          "watch": "关注后续消费者价格和消费支出价格数据、生产者价格修订，以及企业对定价、投入成本和订单量的说明。值得观察的是，销售价格上涨是否伴随着需求保持韧性，还是掩盖了销量和盈利能力的压力。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "生产者价格总指数环比变动"
+              "label": "最终需求生产者价格季调后环比变动"
             },
             {
               "id": "m2",
-              "label": "生产者价格总指数同比变动"
+              "label": "最终需求生产者价格同比变动"
             },
             {
               "id": "m3",
-              "label": "剔除食品、能源和贸易服务的生产者价格环比变动"
+              "label": "剔除食品、能源和贸易服务的生产者价格经调整后环比变动"
             },
             {
               "id": "m4",
@@ -424,34 +463,42 @@
           ]
         },
         {
-          "id": "f2",
-          "title": "中国生产资料价格对利润率的影响有利有弊",
-          "summary": "中国最新生产资料价格监测结果显示，受监测产品中，价格下降的品种分布较广。",
-          "impact": "我们的解读是，采购成本下降可能有利于下游制造商，但也可能使供应商的售价和存货价值承压。",
-          "what": "国家统计局公布了最新月初流通领域生产资料价格监测结果。螺纹钢、铜和铝的监测价格均较上期下降。所列货币金额指标为每吨价格，并非销售总额或公司营收。监测对象是批发和流通市场价格，其中包含流通费用、利润和税费，并非仅衡量出厂价格。",
-          "why": "我们的解读：相同的大宗商品价格变动，对不同A股公司的影响可能相反。采购金属的制造商最终可能受益于补库成本下降，而销售金属的生产商则可能面临营收压力。现有存货会使情况更复杂，因为即使市场报价下降，此前采购的原材料成本仍可能较高。合同条款和客户谈判也会影响成本下降的好处最终由谁保留。对家庭而言，材料降价可能让商品更容易负担，但这项监测无法确定零售商是否会降价。对企业而言，采购管理和存货周转可能与大宗商品报价的涨跌方向同样重要。",
-          "uncertainty": "这项监测覆盖的时间较短，并非月度通胀数据；价格涨跌品种的数量统计也不是按支出加权的指数。国家统计局明确指出，流通价格与出厂价格可能出现差异，因为价格构成不同，且传导需要时间。仅凭这份报告，无法区分价格变化究竟源于需求走弱还是供应条件改善。",
-          "watch": "关注后续生产资料价格监测，并结合工业生产者出厂价格、工业活动，以及上市公司关于存货和采购的披露进行观察。与其根据大宗商品价格表就认定盈利会立即受益，不如关注采购成本下降是否已改善利润率的证据。",
+          "id": "f4",
+          "title": "财报解读：看显示制造业，也要看现金流",
+          "summary": "TCL科技此前发布的报告涵盖显示、光伏和半导体材料业务，呈现了归母净利润及经营活动产生现金的情况。",
+          "impact": "其制造业务需要大量资本投入，因此解读利润表现时，也必须关注投资支出和流动性。",
+          "what": "这是对已发布财报的背景解读，并非新公告。TCL科技经营制造业务，而不只是销售自有品牌的消费电子设备。报告介绍了显示面板需求、光伏供需失衡以及半导体材料业务的情况。季度盈利数据与年初至今的现金流数据分别列示。报告还披露了子公司持股情况的变化，提醒读者：即使工厂产出没有相应变化，归属于母公司的利润份额也可能改变。",
+          "why": "从财务角度看，工厂在成品售出前就会发生大量成本；即使终端市场需求不确定，设备仍需维护或更换。因此，经营现金流有助于判断日常经营产生了多少资金，而投资支出则反映这些资金面临的其他用途。面板价格和客户采购安排可能影响供应链下游电视、电脑及其他设备的成本与盈利状况。对企业和家庭而言，重要的是制造业务的抗压能力和产品成本，而不只是报表中的净利润是否增长。",
+          "uncertainty": "这些财务报表未经审计，集团内各项业务的需求和投资周期也不相同。不能将合并口径的经营现金流全部归于显示面板业务。经营现金流也不等于可供分配的利润：资本开支、收购、偿债及其他融资资金变动仍需另行考虑。期末现金是特定时点的余额，而不是盈利指标。",
+          "watch": "关注后续披露中的面板价格、工厂产能利用率、光伏业务盈利能力、营运资金变动和投资支出。应将经营产生的现金与扩张和融资需求结合来看，而不能假定盈利回升就会自动增强流动性。持股情况变化及各业务的贡献，也有助于判断改善究竟来自经营表现，还是子公司利润归属的变化。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "价格下降的受监测产品品种数"
+              "label": "季度营收"
             },
             {
               "id": "m2",
-              "label": "价格上涨的受监测产品品种数"
+              "label": "季度归母净利润"
             },
             {
               "id": "m3",
-              "label": "螺纹钢每吨市场价格"
+              "label": "年初至今营收"
             },
             {
               "id": "m4",
-              "label": "电解铜每吨市场价格"
+              "label": "年初至今归母净利润"
             },
             {
               "id": "m5",
-              "label": "铝锭每吨市场价格"
+              "label": "年初至今经营活动产生的现金流量净额"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今购建长期经营性资产支付的现金"
+            },
+            {
+              "id": "m7",
+              "label": "期末现金及现金等价物"
             }
           ]
         }
@@ -460,169 +507,185 @@
     "es": {
       "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación; los informes empresariales recientes se presentan como explicaciones de contexto.",
       "marketSummary": {
-        "us": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha indicada describen esas sesiones, no la cotización actual.",
-        "cn": "Los índices seguidos bajaron en sus últimas sesiones verificadas. Los cierres con fecha indicada describen esas sesiones, no la cotización actual."
+        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual.",
+        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La inflación de los precios de producción mantiene la atención sobre los costes en Estados Unidos",
-          "summary": "La última publicación de precios de producción muestra que la inflación persiste más allá de las categorías volátiles de alimentos y energía.",
-          "impact": "Nuestra interpretación es que las empresas siguen afrontando decisiones difíciles sobre sus precios, mientras que las valoraciones bursátiles continúan expuestas a la incertidumbre sobre los costes de financiación.",
-          "what": "La Oficina de Estadísticas Laborales informó de un aumento de los precios de producción de demanda final, incluida la medida que excluye alimentos, energía y servicios de intermediación comercial. Los bienes y los servicios contribuyeron al avance, aunque las distintas categorías evolucionaron de forma diferente. Se trata de los precios que reciben los productores nacionales, no de los precios minoristas que pagan directamente los hogares. Los indicadores adjuntos distinguen las variaciones mensuales ajustadas por estacionalidad de las comparaciones interanuales sin ese ajuste.",
-          "why": "Nuestra interpretación: un proveedor que afronta mayores costes de producción puede intentar subir sus precios de venta, aceptar un margen de beneficio menor o modificar sus planes de compras y contratación. El efecto financiero final depende de la demanda de los clientes y del poder de negociación. Para los hogares, la posible relación es indirecta: los costes empresariales pueden influir en los precios minoristas y en las decisiones de empleo, pero su transmisión no es inmediata ni automática. Para los accionistas, la pregunta útil es si las empresas pueden mantener la rentabilidad sin debilitar la demanda. Por tanto, una publicación de precios de producción aporta información sobre el entorno operativo, no una previsión directa de beneficios o tipos de interés.",
-          "uncertainty": "La publicación no establece qué parte del aumento medido llegará a los consumidores ni determina la próxima decisión de la Reserva Federal. Los datos preliminares pueden revisarse y el ajuste estacional cambia la interpretación de las comparaciones mensuales. No debe confundirse la inflación interanual con el ritmo mensual más reciente ni suponerse que una moderación del indicador general significa que la presión subyacente ha desaparecido.",
-          "watch": "Conviene seguir las revisiones posteriores de los precios de producción, los datos de precios al consumidor y los comentarios empresariales sobre precios de venta, costes de los insumos y márgenes. La prueba práctica es si los aumentos declarados de los precios de venta compensan los gastos sin perjudicar los pedidos.",
+          "title": "Los precios al productor mantienen la presión inflacionaria sobre los márgenes empresariales",
+          "summary": "La última publicación de precios al productor muestra aumentos continuados de los precios de venta, también en la medida que excluye alimentos, energía y servicios comerciales.",
+          "impact": "La presión persistente sobre los precios empresariales puede dificultar que los hogares afronten sus gastos, complicar los presupuestos de las empresas y afectar las perspectivas de los costes de financiación.",
+          "what": "La Oficina de Estadísticas Laborales mide los precios que reciben los productores nacionales, no los que pagan los hogares al comprar. La publicación archivada muestra aumentos de los precios de demanda final tanto en bienes como en servicios. La medida subyacente también subió, por lo que el informe no puede describirse simplemente como una alteración de los precios de la energía. Se trata de una publicación económica reciente y programada, no de un anuncio nuevo del fin de semana.",
+          "why": "Interpretación financiera: las empresas que afrontan mayores costes para reponer sus insumos deben decidir si sus clientes aceptarán precios más altos o si sus beneficios tendrán que absorber esa presión. Las compañías con contratos de larga duración pueden tener dificultades para ajustar sus precios de inmediato. Las que tienen precios flexibles pueden proteger sus márgenes, pero se arriesgan a perder pedidos. Para los hogares, la transmisión es indirecta: los precios al productor pueden influir en los precios minoristas, las tarifas de los servicios y las decisiones de empleo, pero ese traslado no es automático. La inflación persistente también puede dificultar que se relajen las condiciones de financiación, lo que afecta a las hipotecas, los préstamos para capital de trabajo y el gasto de inversión.",
+          "uncertainty": "Los precios al productor no equivalen a la inflación al consumidor ni determinan por sí solos las decisiones del banco central. Las medidas de servicios comerciales se refieren a márgenes, no a los precios habituales de venta al público. La publicación no establece qué parte de los aumentos trasladarán las empresas a sus clientes. Aquí tampoco se aporta un consenso verificado de previsiones, por lo que no se afirma que los datos hayan sorprendido frente a lo esperado, como suele hacerse con los resultados empresariales.",
+          "watch": "Conviene observar las próximas publicaciones de precios al consumidor y de precios del gasto en consumo, las revisiones de los precios al productor y los comentarios empresariales sobre precios, costes de insumos y volumen de pedidos. La clave es comprobar si el aumento de los precios de venta convive con una demanda resistente o si, por el contrario, oculta presión sobre los volúmenes vendidos y la rentabilidad.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Precios de producción generales, variación mensual"
+              "label": "Precios al productor de demanda final: variación mensual desestacionalizada"
             },
             {
               "id": "m2",
-              "label": "Precios de producción generales, variación interanual"
+              "label": "Precios al productor de demanda final: variación interanual"
             },
             {
               "id": "m3",
-              "label": "Precios de producción sin alimentos, energía ni servicios de intermediación comercial, variación mensual"
+              "label": "Precios al productor sin alimentos, energía ni servicios comerciales: variación mensual ajustada"
             },
             {
               "id": "m4",
-              "label": "Precios de producción sin alimentos, energía ni servicios de intermediación comercial, variación interanual"
+              "label": "Precios al productor sin alimentos, energía ni servicios comerciales: variación interanual"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "Los precios de los materiales en China ofrecen señales dispares para los márgenes",
-          "summary": "La última publicación china de seguimiento de materiales de producción muestra descensos de precios en una amplia variedad de los productos observados.",
-          "impact": "Nuestra interpretación es que unos menores costes de compra podrían ayudar a los fabricantes que utilizan esos materiales, al tiempo que presionan los precios de venta de los proveedores y el valor de sus existencias.",
-          "what": "La Oficina Nacional de Estadística publicó su último estudio de principios de mes sobre materiales de producción comercializados a través de canales de distribución. Las barras de acero para refuerzo, el cobre y el aluminio registraron precios inferiores a los del periodo de seguimiento anterior. Los indicadores monetarios mostrados son precios por tonelada, no ventas totales ni ingresos empresariales. El estudio recoge precios de los mercados mayoristas y de distribución, que incluyen gastos de distribución, beneficios e impuestos, en lugar de medir únicamente los precios a la salida de fábrica.",
-          "why": "Nuestra interpretación: un mismo movimiento de las materias primas puede tener efectos opuestos entre las acciones de clase A. Un fabricante que compra metal podría beneficiarse con el tiempo de reponer sus existencias a menor coste, mientras que un productor que vende ese metal podría sufrir presión sobre sus ingresos. Las existencias disponibles complican el panorama, porque los insumos adquiridos anteriormente pueden seguir siendo caros aunque bajen las cotizaciones del mercado. Las condiciones contractuales y las negociaciones con los clientes también influyen en quién conserva el beneficio. Para los hogares, unos materiales más baratos podrían hacer que los productos resulten más asequibles, pero este estudio no permite establecer si los minoristas reducirán sus precios. Para las empresas, la disciplina en las compras y la rotación de existencias pueden importar tanto como la dirección de las cotizaciones de las materias primas.",
-          "uncertainty": "Se trata de un periodo breve de seguimiento, no de un dato mensual de inflación, y el recuento de productos según la evolución de sus precios no es un índice ponderado por el gasto. La oficina señala expresamente que los precios de distribución y los precios a la salida de fábrica pueden divergir porque sus componentes son distintos y la transmisión lleva tiempo. Por sí sola, la publicación no permite distinguir entre una demanda más débil y una mejora de las condiciones de oferta.",
-          "watch": "Conviene seguir el próximo estudio de precios de materiales junto con la inflación a la salida de fábrica, la actividad industrial y la información publicada por las empresas emisoras sobre existencias y compras. Las pruebas de que unos menores costes de compra están mejorando los márgenes serían más informativas que dar por hecho un beneficio inmediato para los resultados a partir de la tabla de materias primas.",
+          "id": "f4",
+          "title": "Claves de los resultados: fabricar pantallas exige mirar el flujo de efectivo",
+          "summary": "El informe fechado de TCL Technology presenta los beneficios atribuibles junto con la generación de efectivo operativo de sus negocios de pantallas, energía fotovoltaica y materiales semiconductores.",
+          "impact": "Su modelo industrial, que requiere grandes inversiones de capital, hace imprescindible analizar el gasto de inversión y la liquidez junto con la cifra principal de beneficios.",
+          "what": "Este análisis explica resultados ya publicados; no es un anuncio nuevo. TCL Technology desarrolla actividades industriales, en lugar de limitarse a vender dispositivos de consumo de marca. Su informe describe la demanda de paneles para pantallas, los desequilibrios entre oferta y demanda en el sector fotovoltaico y la actividad de materiales semiconductores. Los resultados trimestrales y las medidas de efectivo acumuladas en el ejercicio se presentan por separado. El documento también identifica cambios en la participación en filiales, lo que recuerda que la parte de los beneficios correspondiente a la matriz puede variar sin un cambio equivalente en la producción de las fábricas.",
+          "why": "Interpretación financiera: las fábricas afrontan costes considerables antes de vender los productos terminados, y sus equipos necesitan mantenimiento o sustitución incluso cuando la demanda final es incierta. Por eso, el efectivo generado por las operaciones ayuda a evaluar los recursos que produce la actividad habitual, mientras que el gasto de inversión representa un uso distinto de esos recursos. Los precios de los paneles y los calendarios de compra de los clientes pueden afectar a los costes y márgenes de televisores, ordenadores y otros dispositivos en etapas posteriores de la cadena de suministro. Para empresas y hogares, lo relevante es la resistencia de la actividad industrial y el coste de los productos, no simplemente si aumentó el beneficio neto declarado.",
+          "uncertainty": "Los estados financieros no están auditados y el grupo incluye negocios con distintos ciclos de demanda e inversión. El flujo de efectivo operativo consolidado no puede atribuirse íntegramente a los paneles para pantallas. Tampoco equivale a beneficios disponibles para repartir: las inversiones en activos, las adquisiciones, los pagos de deuda e intereses y otros movimientos de financiación deben considerarse por separado. El efectivo al cierre es un saldo en una fecha concreta, no una medida de los beneficios.",
+          "watch": "Conviene observar las próximas publicaciones sobre precios de los paneles, utilización de las fábricas, rentabilidad fotovoltaica, movimientos del capital de trabajo y gasto de inversión. Hay que comparar la generación de efectivo con las necesidades de expansión y financiación, sin asumir que una recuperación de los beneficios fortalece automáticamente la liquidez. Los cambios de participación y la aportación de cada negocio también ayudarán a explicar si la mejora refleja el desempeño operativo o el reparto de los beneficios de las filiales.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Productos observados con precios a la baja"
+              "label": "Ingresos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Productos observados con precios al alza"
+              "label": "Beneficio neto trimestral atribuible a los accionistas"
             },
             {
               "id": "m3",
-              "label": "Precio de mercado por tonelada de barras de acero para refuerzo"
+              "label": "Ingresos acumulados en el ejercicio"
             },
             {
               "id": "m4",
-              "label": "Precio de mercado por tonelada de cobre electrolítico"
+              "label": "Beneficio neto acumulado en el ejercicio atribuible a los accionistas"
             },
             {
               "id": "m5",
-              "label": "Precio de mercado por tonelada de lingotes de aluminio"
+              "label": "Flujo de efectivo neto de las actividades operativas acumulado en el ejercicio"
+            },
+            {
+              "id": "m6",
+              "label": "Pagos en efectivo acumulados en el ejercicio por la compra de activos operativos a largo plazo"
+            },
+            {
+              "id": "m7",
+              "label": "Efectivo y equivalentes de efectivo al cierre"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動向を取り上げます。各資料の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として紹介しています。",
+      "status": "今回は米国と中国の動向を扱います。各資料の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として紹介しています。",
       "marketSummary": {
-        "us": "対象の株価指数は、確認できた直近の取引日でいずれも下落しました。日付付きの終値は、その取引日の状況を示すものであり、現在の取引状況ではありません。",
-        "cn": "対象の株価指数は、確認できた直近の取引日でいずれも下落しました。日付付きの終値は、その取引日の状況を示すものであり、現在の取引状況ではありません。"
+        "us": "対象の株価指数はいずれも、確認済みの直近取引日で下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。",
+        "cn": "対象の株価指数はいずれも、確認済みの直近取引日で下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "米国の生産者物価、続くコスト圧力に注目",
-          "summary": "最新の生産者物価の発表は、価格変動の大きい食品やエネルギー以外でも、物価上昇が続いていることを示しています。",
-          "impact": "私たちの見方では、企業は依然として難しい価格設定の判断を迫られています。また、株価の評価は、資金調達コストの先行きが不透明であることの影響を受けやすい状況です。",
-          "what": "米労働統計局は、最終需要向けの生産者物価が上昇したと発表しました。食品・エネルギー・商業サービスを除く指標も上昇しました。財とサービスが上昇に寄与しましたが、個別分野の動きは異なりました。これは国内の生産者が受け取る価格であり、家計が直接支払う小売価格ではありません。併記の指標では、季節調整済みの前月比と、季節調整前の前年比を区別しています。",
-          "why": "私たちの見方では、生産コストが上がった供給企業には、販売価格を引き上げる、利益率の低下を受け入れる、仕入れや人員配置の計画を変える、といった対応が考えられます。最終的な業績への影響は、顧客の需要や価格交渉力によって変わります。家計へのつながりは間接的です。企業のコストは小売価格や雇用判断に影響し得ますが、その影響がすぐに、あるいは必ず波及するわけではありません。株主にとって重要なのは、企業が需要を弱めずに収益性を維持できるかどうかです。したがって、生産者物価の発表は事業環境を知るための材料であり、そのまま利益や金利の予測になるものではありません。",
-          "uncertainty": "今回の発表だけでは、測定された価格上昇がどの程度消費者に転嫁されるかは分かりません。また、米連邦準備制度理事会の次の判断が決まるわけでもありません。速報値は改定されることがあり、前月比の解釈は季節調整の有無によって異なります。前年比の物価上昇率を直近の月次ペースと混同したり、総合指数の伸びが鈍ったことだけで基調的な圧力がなくなったと考えたりしないよう注意が必要です。",
-          "watch": "今後の生産者物価の改定、消費者物価の動向、価格設定・投入コスト・利益率に関する企業の説明が注目点です。実際の確認点は、販売価格の上昇が受注を損なわずに費用の増加を補えているかどうかです。",
+          "title": "生産者物価の上昇が企業の利益率を圧迫",
+          "summary": "最新の生産者物価の発表では、食品・エネルギー・商業サービスを除く指標も含め、販売価格の上昇が続いています。",
+          "impact": "企業段階での価格上昇圧力が続くと、家計の購買力や企業の予算管理、資金調達コストの見通しに影響が及ぶ可能性があります。",
+          "what": "米労働統計局が測るのは、家計が店頭で支払う価格ではなく、国内の生産者が受け取る価格です。保存されている公表資料では、財とサービスにわたって最終需要向けの価格が上昇しています。基調を示す指標も上昇しているため、単にエネルギー価格の変動によるものとは説明できません。これは最近の予定に沿った経済指標の発表であり、週末に新たに発表されたものではありません。",
+          "why": "金融面での読み解き：仕入れや補充のコストが上がった企業は、顧客が値上げを受け入れるか、それとも利益を削って吸収する必要があるかを判断します。長期契約を結んでいる企業はすぐに価格を改定しにくい場合があります。柔軟に価格を変えられる企業は利益率を守れる可能性がある反面、受注を失うリスクがあります。家計への影響は間接的です。生産者物価は小売価格やサービス料金、雇用の判断に影響し得ますが、価格転嫁が必ず起きるわけではありません。また、インフレが続くと借り入れ条件が緩和されにくくなる可能性があり、住宅ローンや運転資金の借り入れ、設備投資にも関わります。",
+          "uncertainty": "生産者物価は消費者物価の上昇率とは異なり、それだけで中央銀行の政策判断が決まるわけではありません。商業サービスの指標が測るのは、通常の店頭価格ではなく、販売価格と仕入れ価格の差であるマージンです。この発表だけでは、企業がどの程度価格転嫁するかは分かりません。また、ここでは確認済みの市場予想を示していないため、企業決算のように予想を上回ったか下回ったかという評価はしていません。",
+          "watch": "今後の消費者物価や消費支出に関する物価指標、生産者物価の改定、価格設定・投入コスト・受注量についての企業の説明が注目点です。販売価格が上昇しても需要が底堅いのか、それとも販売数量や収益性への圧力が価格上昇に隠れているのかが、見極めのポイントになります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "生産者物価総合・前月比"
+              "label": "最終需要向け生産者物価の前月比（季節調整済み）"
             },
             {
               "id": "m2",
-              "label": "生産者物価総合・前年比"
+              "label": "最終需要向け生産者物価の前年同月比"
             },
             {
               "id": "m3",
-              "label": "食品・エネルギー・商業サービスを除く生産者物価・前月比"
+              "label": "食品・エネルギー・商業サービスを除く生産者物価の前月比（調整済み）"
             },
             {
               "id": "m4",
-              "label": "食品・エネルギー・商業サービスを除く生産者物価・前年比"
+              "label": "食品・エネルギー・商業サービスを除く生産者物価の前年同月比"
             }
           ]
         },
         {
-          "id": "f2",
-          "title": "中国の資材価格、利益率への影響は立場で異なる",
-          "summary": "中国の最新の生産資材価格調査では、調査対象の幅広い品目で価格が下落しました。",
-          "impact": "私たちの見方では、仕入れコストの低下は川下の製造業を支える可能性がある反面、供給企業の販売価格や在庫価値には下押し圧力となり得ます。",
-          "what": "中国国家統計局は、流通段階で取引される生産資材について、最新の月初の調査結果を公表しました。鉄筋、銅、アルミニウムの調査価格は、前回の調査期間を下回りました。表示される通貨建ての指標はトン当たりの価格であり、販売総額や企業の売上高ではありません。この調査が対象とするのは卸売・流通市場の価格です。工場出荷価格だけを測るものではなく、流通費用や利益、税金も含まれます。",
-          "why": "私たちの見方では、同じ商品価格の動きでも、中国本土のＡ株企業への影響は立場によって逆になり得ます。金属を購入する製造業者は、いずれ安い価格での補充が恩恵となる可能性がありますが、その金属を販売する生産者には売上高への圧力となり得ます。既存在庫の存在も判断を複雑にします。市場価格が下がっても、以前に購入した原材料のコストは高いまま残ることがあるためです。誰が値下がりの恩恵を得るかは、契約条件や顧客との交渉にも左右されます。家計にとっては、資材の値下がりが製品を買いやすくする可能性はありますが、この調査だけでは小売業者が値下げするかどうかは分かりません。企業にとっては、商品相場の方向と同じくらい、適切な仕入れ管理や在庫回転率が重要になる可能性があります。",
-          "uncertainty": "これは短い期間の価格調査であり、月次の物価上昇率ではありません。また、値動きした品目の数は、支出額で加重した指数ではありません。国家統計局は、流通価格と工場出荷価格では構成要素が異なり、価格変化の波及にも時間がかかるため、動きが食い違うことがあると明記しています。この発表だけでは、価格下落が需要の弱まりによるものか、供給状況の改善によるものかは判断できません。",
-          "watch": "次回の資材価格調査に加え、工場出荷段階の物価動向、産業活動、上場企業による在庫や調達に関する開示が注目点です。商品価格の一覧から即座の増益効果を想定するよりも、仕入れコストの低下が利益率の改善につながっているという証拠のほうが、判断材料になります。",
+          "id": "f4",
+          "title": "決算解説：ディスプレー製造はキャッシュフローにも注目",
+          "summary": "TCLテクノロジーの公表済み報告書は、ディスプレー、太陽光発電、半導体材料の各事業について、親会社株主に帰属する利益と営業活動による資金創出を示しています。",
+          "impact": "多額の設備を必要とする製造業のため、決算の利益だけでなく、投資支出と資金繰りの余力も重要です。",
+          "what": "これは公表済みの決算に関する解説であり、新たな発表ではありません。TCLテクノロジーは、ブランド付きの消費者向け機器を販売するだけでなく、製造事業を営んでいます。報告書では、ディスプレーパネルの需要、太陽光発電分野の需給の不均衡、半導体材料事業の動向を説明しています。四半期の業績と期初からの累計の資金指標は、区別して示されています。また、子会社の持分比率の変化も記載されています。工場の生産量が同じように変化しなくても、親会社に帰属する利益の取り分は変わり得ることを示す重要な点です。",
+          "why": "金融面での読み解き：工場では製品が売れる前に多額の費用が発生し、最終製品の需要が不透明でも設備の保守や更新が必要です。そのため、営業活動によるキャッシュフローは、継続的な事業が生み出す資金を把握する手掛かりになります。それに対して投資支出は、その資金の別の使い道を示します。パネル価格や顧客の購入時期は、供給網の下流にあるテレビやパソコンなどの製品の採算にも影響し得ます。企業や家計にとって重要なのは、報告上の純利益が増えたかどうかだけでなく、製造を安定して続ける力や製品コストです。",
+          "uncertainty": "財務諸表は未監査で、グループには需要や投資の循環が異なる事業が含まれています。連結の営業キャッシュフローをすべてディスプレーパネル事業によるものとみなすことはできません。また、配当に回せる利益とも異なります。設備投資、買収、元利金の返済、その他の財務活動に伴う資金の動きは、別途考慮する必要があります。期末の現金残高は、その時点で保有する金額であり、利益を測る指標ではありません。",
+          "watch": "今後の開示では、パネル価格、工場の稼働率、太陽光発電事業の収益性、運転資金の変動、投資支出が注目点です。利益が回復すれば自動的に資金繰りの余力も強まると考えるのではなく、事業が生み出す資金と、事業拡大や資金調達に伴う支払いの必要性との関係が焦点になります。持分比率の変化や各事業の貢献度も、改善が事業そのものの成果によるのか、子会社利益の配分によるのかを理解する手掛かりになります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "価格が下落した調査対象品目数"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "価格が上昇した調査対象品目数"
+              "label": "四半期の親会社株主に帰属する純利益"
             },
             {
               "id": "m3",
-              "label": "鉄筋の市場価格・トン当たり"
+              "label": "期初来累計売上高"
             },
             {
               "id": "m4",
-              "label": "電気銅の市場価格・トン当たり"
+              "label": "期初来累計の親会社株主に帰属する純利益"
             },
             {
               "id": "m5",
-              "label": "アルミ地金の市場価格・トン当たり"
+              "label": "期初来累計の営業活動によるキャッシュフロー（純額）"
+            },
+            {
+              "id": "m6",
+              "label": "期初来累計の長期事業用資産の取得による現金支出"
+            },
+            {
+              "id": "m7",
+              "label": "期末現金及び現金同等物"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação; os relatórios empresariais recentes são apresentados para explicar o contexto.",
+      "status": "Esta edição cobre acontecimentos nos EUA e na China. Confira a data de cada publicação; os relatórios recentes das empresas são apresentados como explicações de contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram em seus últimos pregões verificados. Os fechamentos nas datas indicadas descrevem aqueles pregões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram em seus últimos pregões verificados. Os fechamentos nas datas indicadas descrevem aqueles pregões, não as negociações atuais."
+        "us": "Os índices acompanhados caíram nos respectivos pregões mais recentes com dados verificados. Os fechamentos datados descrevem esses pregões, não as negociações atuais.",
+        "cn": "Os índices acompanhados caíram nos respectivos pregões mais recentes com dados verificados. Os fechamentos datados descrevem esses pregões, não as negociações atuais."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Inflação ao produtor nos EUA mantém pressão de custos em foco",
-          "summary": "A divulgação mais recente dos preços ao produtor mostra que a inflação persiste além das categorias voláteis de alimentos e energia.",
-          "impact": "Nossa interpretação é que as empresas ainda enfrentam decisões difíceis sobre preços, enquanto a avaliação das ações continua exposta à incerteza sobre os custos de financiamento.",
-          "what": "O órgão de estatísticas do trabalho dos Estados Unidos informou uma alta nos preços ao produtor para demanda final, inclusive na medida que exclui alimentos, energia e serviços de comércio. Bens e serviços contribuíram para o avanço, embora as categorias tenham apresentado comportamentos diferentes. Esses são os preços recebidos pelos produtores nacionais, não os preços de varejo pagos diretamente pelas famílias. Os indicadores apresentados distinguem as variações mensais com ajuste sazonal das comparações anuais sem esse ajuste.",
-          "why": "Nossa interpretação: um fornecedor que enfrenta custos de produção mais altos pode tentar aumentar os preços de venda, aceitar uma margem de lucro menor ou alterar seus planos de compras e de pessoal. O efeito financeiro final depende da demanda dos clientes e do poder de negociação. Para as famílias, a possível ligação é indireta: os custos das empresas podem influenciar os preços no varejo e as decisões sobre emprego, mas esse repasse não é imediato nem automático. Para os acionistas, a questão relevante é se as empresas conseguem preservar a rentabilidade sem enfraquecer a demanda. Portanto, uma divulgação de preços ao produtor oferece evidências sobre as condições de operação das empresas, não uma previsão pronta sobre lucros ou juros.",
-          "uncertainty": "A divulgação não estabelece quanto da alta medida chegará aos consumidores, nem determina a próxima decisão do Federal Reserve, o banco central dos Estados Unidos. Os dados preliminares podem ser revisados, e o ajuste sazonal muda a interpretação das comparações mensais. Não se deve tratar a inflação anual como se fosse o ritmo mensal mais recente, nem presumir que uma alta menor do índice geral significa que as pressões subjacentes desapareceram.",
-          "watch": "Acompanhe as próximas revisões dos preços ao produtor, os dados de preços ao consumidor e os comentários das empresas sobre preços, custos de insumos e margens. O teste prático é saber se os aumentos informados nos preços de venda compensam as despesas sem prejudicar os pedidos.",
+          "title": "Preços ao produtor mantêm a pressão da inflação sobre as margens das empresas",
+          "summary": "A divulgação mais recente dos preços ao produtor mostra a continuidade da alta dos preços de venda, inclusive na medida que exclui alimentos, energia e serviços de comércio.",
+          "impact": "A pressão persistente sobre os preços das empresas pode dificultar o acesso das famílias a bens e serviços, o planejamento dos orçamentos empresariais e as perspectivas para os custos de financiamento.",
+          "what": "O Bureau of Labor Statistics mede os preços recebidos pelos produtores nacionais, e não os preços pagos pelas famílias no comércio. A divulgação arquivada mostra alta nos preços de bens e serviços destinados à demanda final. A medida que exclui alimentos, energia e serviços de comércio também subiu, portanto o relatório não pode ser descrito apenas como efeito de uma oscilação dos preços da energia. Trata-se de uma divulgação econômica recente e prevista no calendário, não de um novo anúncio de fim de semana.",
+          "why": "Interpretação financeira: empresas que enfrentam custos maiores para repor insumos precisam decidir se os clientes aceitarão preços mais altos ou se os lucros terão de absorver essa pressão. Empresas com contratos longos podem ter dificuldade para reajustar preços imediatamente, enquanto aquelas com preços mais flexíveis podem proteger suas margens, mas correm o risco de perder pedidos. Para as famílias, a transmissão é indireta: os preços ao produtor podem influenciar os preços no varejo, as cobranças por serviços e as decisões de contratação, mas o repasse não é automático. A inflação persistente também pode dificultar o afrouxamento das condições de crédito, o que importa para financiamentos imobiliários, empréstimos para capital de giro e gastos com investimentos.",
+          "uncertainty": "Os preços ao produtor não são uma medida da inflação ao consumidor e não determinam, por si só, uma decisão do banco central. As medidas de serviços de comércio se referem às margens, e não aos preços comuns nas prateleiras. A divulgação não estabelece quanto as empresas repassarão aos clientes. Como não é apresentado aqui um consenso verificado das expectativas, não se afirma que houve uma surpresa em relação ao esperado, como se costuma fazer com resultados empresariais.",
+          "watch": "Acompanhe as próximas divulgações de preços ao consumidor e de preços dos gastos de consumo, as revisões dos preços ao produtor e os comentários das empresas sobre preços, custos de insumos e volumes de pedidos. O teste relevante é saber se a alta dos preços de venda convive com uma demanda resistente ou se, na verdade, esconde pressão sobre os volumes e a rentabilidade.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice geral de preços ao produtor, variação mensal"
+              "label": "Preços ao produtor para a demanda final, variação mensal com ajuste sazonal"
             },
             {
               "id": "m2",
-              "label": "Índice geral de preços ao produtor, variação anual"
+              "label": "Preços ao produtor para a demanda final, variação anual"
             },
             {
               "id": "m3",
-              "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, variação mensal"
+              "label": "Preços ao produtor excluindo alimentos, energia e serviços de comércio, variação mensal com ajuste sazonal"
             },
             {
               "id": "m4",
@@ -631,67 +694,75 @@
           ]
         },
         {
-          "id": "f2",
-          "title": "Preços de materiais na China trazem sinais mistos para as margens",
-          "summary": "O monitoramento mais recente de materiais de produção na China mostra quedas de preços em uma ampla variedade dos produtos pesquisados.",
-          "impact": "Nossa interpretação é que a redução dos custos de compra pode ajudar os fabricantes que utilizam esses materiais, ao mesmo tempo que pressiona os preços de venda dos fornecedores e o valor de seus estoques.",
-          "what": "O órgão nacional de estatísticas da China publicou sua pesquisa mais recente do início do mês sobre materiais de produção negociados nos canais de distribuição. Vergalhão, cobre e alumínio registraram preços monitorados menores que os do período anterior. Os indicadores monetários apresentados são preços por tonelada, não vendas totais nem receita de empresas. A pesquisa trata dos preços nos mercados atacadista e de distribuição, que incluem despesas de distribuição, lucro e impostos, em vez de medir apenas os preços na saída da fábrica.",
-          "why": "Nossa interpretação: o mesmo movimento de uma matéria-prima pode ter efeitos opostos sobre as ações de classe A na China. Um fabricante que compra metal pode, com o tempo, se beneficiar de uma reposição de estoque mais barata, enquanto um produtor que vende esse metal pode enfrentar pressão sobre a receita. Os estoques existentes tornam o cenário mais complexo, pois insumos comprados anteriormente podem continuar caros mesmo após a queda das cotações de mercado. Os termos dos contratos e as negociações com clientes também influenciam quem fica com o benefício. Para as famílias, materiais mais baratos podem tornar os produtos mais acessíveis, mas essa pesquisa não permite determinar se os varejistas reduzirão os preços. Para as empresas, a disciplina nas compras e o giro dos estoques podem importar tanto quanto a direção das cotações das matérias-primas.",
-          "uncertainty": "Trata-se de um intervalo curto de monitoramento, não de uma leitura mensal de inflação, e a contagem de produtos por direção dos preços não é um índice ponderado pelos gastos. O órgão destaca expressamente que os preços na distribuição e na saída da fábrica podem divergir, pois sua composição é diferente e o repasse leva tempo. A divulgação, isoladamente, não permite distinguir uma demanda mais fraca de uma melhora nas condições de oferta.",
-          "watch": "Acompanhe a próxima pesquisa de preços de materiais em conjunto com a inflação na saída da fábrica, a atividade industrial e as informações divulgadas pelas empresas sobre estoques e compras. Evidências de que os custos de compra menores estão se refletindo nas margens seriam mais esclarecedoras do que presumir um benefício imediato para os lucros com base na tabela de matérias-primas.",
+          "id": "f4",
+          "title": "Entenda os resultados: a fabricação de telas exige atenção ao fluxo de caixa",
+          "summary": "O relatório datado da TCL Technology reúne informações sobre o lucro atribuível aos acionistas e a geração de caixa operacional dos negócios de telas, energia fotovoltaica e materiais semicondutores.",
+          "impact": "Seu modelo industrial exige muito capital, o que torna os gastos com investimentos e a liquidez complementos essenciais à análise do lucro divulgado.",
+          "what": "Esta é uma explicação de resultados já divulgados, não um novo anúncio. A TCL Technology atua na fabricação, em vez de apenas vender aparelhos de consumo com sua marca. Seu relatório descreve a demanda por painéis de tela, os desequilíbrios entre oferta e demanda no setor fotovoltaico e a atividade de materiais semicondutores. Os resultados trimestrais e as medidas de caixa acumuladas no ano são apresentados separadamente. O documento também identifica mudanças nas participações societárias em subsidiárias, lembrando que a parcela do lucro que cabe à controladora pode mudar sem uma alteração equivalente na produção das fábricas.",
+          "why": "Interpretação financeira: as fábricas têm custos elevados antes de vender os produtos acabados, e os equipamentos precisam de manutenção ou substituição mesmo quando a demanda nos mercados consumidores é incerta. O caixa operacional ajuda, portanto, a avaliar os recursos gerados pelas atividades em andamento, enquanto os gastos com investimentos representam uma demanda separada por esses recursos. Os preços dos painéis e os cronogramas de compra dos clientes podem afetar os custos e a rentabilidade de televisores, computadores e outros aparelhos nas etapas seguintes da cadeia de produção. Para empresas e famílias, a relevância está na capacidade da indústria de resistir a dificuldades e nos custos dos produtos, não apenas em saber se o lucro líquido divulgado aumentou.",
+          "uncertainty": "As demonstrações financeiras não foram auditadas, e o grupo reúne negócios com ciclos diferentes de demanda e investimento. O caixa operacional consolidado não pode ser atribuído inteiramente aos painéis de tela. Ele também não equivale ao lucro disponível para distribuição: investimentos em ativos, aquisições, serviço da dívida e outros movimentos de financiamento precisam ser considerados separadamente. O saldo final de caixa retrata uma posição em determinado momento, não uma medida de lucro.",
+          "watch": "Acompanhe as próximas divulgações sobre preços dos painéis, utilização da capacidade das fábricas, rentabilidade do negócio fotovoltaico, variações do capital de giro e gastos com investimentos. Compare a geração de caixa com as necessidades de expansão e financiamento, em vez de presumir que a recuperação do lucro fortalece automaticamente a liquidez. Mudanças nas participações societárias e a contribuição de cada negócio também ajudarão a explicar se a melhora reflete o desempenho operacional ou a distribuição dos lucros das subsidiárias.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Produtos monitorados com queda de preços"
+              "label": "Receita trimestral"
             },
             {
               "id": "m2",
-              "label": "Produtos monitorados com alta de preços"
+              "label": "Lucro líquido trimestral atribuível aos acionistas"
             },
             {
               "id": "m3",
-              "label": "Preço de mercado do vergalhão por tonelada"
+              "label": "Receita acumulada no ano"
             },
             {
               "id": "m4",
-              "label": "Preço de mercado do cobre eletrolítico por tonelada"
+              "label": "Lucro líquido acumulado no ano atribuível aos acionistas"
             },
             {
               "id": "m5",
-              "label": "Preço de mercado do lingote de alumínio por tonelada"
+              "label": "Fluxo de caixa líquido das atividades operacionais acumulado no ano"
+            },
+            {
+              "id": "m6",
+              "label": "Pagamentos em caixa pela aquisição de ativos operacionais de longo prazo acumulados no ano"
+            },
+            {
+              "id": "m7",
+              "label": "Saldo final de caixa e equivalentes de caixa"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國市場動態。請留意各項資料的發布日期；近期公司報告作為背景解說。",
+      "status": "本期涵蓋美國與中國的動態。請留意各則內容的發布日期；近期公司財報以背景解讀方式呈現。",
       "marketSummary": {
-        "us": "追蹤的指數在最近經核實的交易日均下跌。標示日期的收盤資料反映當日表現，並非目前行情。",
-        "cn": "追蹤的指數在最近經核實的交易日均下跌。標示日期的收盤資料反映當日表現，並非目前行情。"
+        "us": "追蹤的指數在最近經核實的交易日均下跌。附有日期的收盤資料反映當時表現，並非目前行情。",
+        "cn": "追蹤的指數在最近經核實的交易日均下跌。附有日期的收盤資料反映當時表現，並非目前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美國生產者物價持續上漲，成本壓力仍受關注",
-          "summary": "最新生產者物價報告顯示，除了價格波動較大的食品與能源類別，其他類別也持續面臨通膨壓力。",
-          "impact": "我們的解讀是，企業仍面臨棘手的定價抉擇，而融資成本的不確定性仍可能影響股票估值。",
-          "what": "美國勞工統計局公布，最終需求生產者物價上升，排除食品、能源與貿易服務的指標也呈上漲。商品與服務價格均推動整體上升，但各類別走勢有所不同。這些資料衡量的是國內生產者收取的價格，而非家庭直接支付的零售價格。隨附指標區分了經季節調整的月變動，以及未經季節調整的年比較。",
-          "why": "我們的解讀是：供應商面對生產成本上升時，可以嘗試提高售價、接受較低的利潤率，或調整採購與人力計畫。最終財務影響取決於客戶需求與議價能力。對家庭而言，潛在影響是間接的：企業成本可能影響零售價格與用人決策，但這種傳導既非即時，也不會自動發生。對股東而言，值得關注的是企業能否在不削弱需求的情況下維持獲利能力。因此，生產者物價報告提供的是經營環境的線索，而非可直接套用的獲利或利率預測。",
-          "uncertainty": "這份報告無法確定所測得的漲幅有多少會轉嫁給消費者，也不能決定聯準會接下來的決策。初步資料可能修正，季節調整也會影響月度比較的解讀。應避免將年通膨率視為最新的月度漲幅，也不應認為整體物價漲勢放緩就代表潛在壓力已經消失。",
-          "watch": "留意後續生產者物價修正、消費者物價資料，以及企業對定價、投入成本與利潤率的說明。實際檢驗重點是，企業公布的售價漲幅能否彌補支出，同時不影響訂單。",
+          "title": "生產者物價持續為企業利潤率帶來通膨壓力",
+          "summary": "最新生產者物價報告顯示，銷售價格持續上漲，排除食品、能源與貿易服務後的指標也呈現升勢。",
+          "impact": "企業端持續面臨價格壓力，可能使家庭負擔能力、企業預算規劃與融資成本前景更為複雜。",
+          "what": "美國勞工統計局衡量的是國內生產者收到的價格，而非家庭結帳時支付的價格。其存檔報告顯示，商品與服務的最終需求價格均上漲。排除食品、能源與貿易服務的指標也上升，因此不能將這份報告簡單解讀為能源價格波動所致。這是近期依排程發布的經濟資料，並非週末新公布的消息。",
+          "why": "財務解讀：企業面對更高的補貨或重置成本，必須判斷客戶能否接受漲價，否則就得由利潤吸收壓力。受長期合約約束的企業可能難以立即調價；定價較有彈性的企業則可能維持利潤率，但也面臨流失訂單的風險。對家庭而言，影響是間接的：生產者物價可能影響零售價格、服務收費與聘僱決策，但成本不會自動轉嫁。持續通膨也可能使借貸條件更難放寬，進而影響房貸、營運資金貸款與投資支出。",
+          "uncertainty": "生產者物價不等於消費者通膨，也不會單獨決定央行決策。貿易服務指標衡量的是利潤空間，而非一般商品的架上售價。這份報告無法確定企業會轉嫁多少成本，且此處未提供經核實的市場共識，因此不能像解讀財報那樣，宣稱結果優於或遜於預期。",
+          "watch": "留意後續消費者物價與消費支出物價報告、生產者物價修正，以及企業對定價、投入成本與訂單量的說明。判斷重點在於：售價上漲時，需求是否仍具韌性，還是價格漲勢其實掩蓋了銷量與獲利能力的壓力。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "整體生產者物價月增率"
+              "label": "最終需求生產者物價經季節調整月增率"
             },
             {
               "id": "m2",
-              "label": "整體生產者物價年增率"
+              "label": "最終需求生產者物價年增率"
             },
             {
               "id": "m3",
-              "label": "排除食品、能源與貿易服務的生產者物價月增率"
+              "label": "排除食品、能源與貿易服務的生產者物價經調整月增率"
             },
             {
               "id": "m4",
@@ -700,34 +771,42 @@
           ]
         },
         {
-          "id": "f2",
-          "title": "中國原物料價格對利潤率的影響好壞參半",
-          "summary": "中國最新生產資料價格監測報告顯示，受調查產品中有廣泛類別出現價格下跌。",
-          "impact": "我們的解讀是，採購成本下降可能有利於下游製造商，但也會對供應商的售價與存貨價值造成壓力。",
-          "what": "中國國家統計局公布最新月初流通領域生產資料價格調查。螺紋鋼、銅與鋁的監測價格均較前期下降。所列貨幣金額指標為每公噸價格，並非銷售總額或公司營收。這項調查涵蓋批發與流通市場價格，其中包含流通費用、利潤與稅金，並非僅衡量出廠價格。",
-          "why": "我們的解讀是：相同的原物料價格變動，對不同的中國境內上市股票可能產生相反影響。採購金屬的製造商可能逐漸受惠於補充存貨的成本下降，出售金屬的生產商則可能面臨營收壓力。現有存貨讓情況更複雜，因為即使市場報價下跌，先前購入的原料成本仍可能偏高。合約條款與客戶協商也會影響誰能保留成本下降的好處。對家庭而言，原物料變便宜可能讓產品更容易負擔，但這項調查無法確定零售商是否會降價。對企業而言，採購紀律與存貨週轉可能和原物料報價走勢同樣重要。",
-          "uncertainty": "這是短期監測資料，並非月度通膨數據；價格漲跌的產品項目數，也不是按支出加權的指數。統計局明確指出，流通價格與出廠價格可能出現差異，因為價格組成不同，而且傳導需要時間。僅憑這份報告，無法分辨價格變動是源於需求轉弱，還是供給條件改善。",
-          "watch": "留意後續原物料價格調查，並搭配工業生產者出廠價格、工業活動，以及上市公司對存貨與採購的揭露觀察。相較於僅憑原物料價格表就假定獲利會立即受惠，採購成本下降確實反映在利潤率上的證據更有參考價值。",
+          "id": "f4",
+          "title": "財報解讀：觀察顯示器製造業，也要看現金流",
+          "summary": "TCL科技先前發布的財報，呈現顯示器、太陽能光電與半導體材料業務的歸屬母公司淨利及營業活動產生的現金。",
+          "impact": "其製造業務需要大量資本投入，因此解讀獲利數字時，也必須關注投資支出與資金流動性。",
+          "what": "這是針對先前財報的解讀，並非最新公告。TCL科技經營的是製造業務，而不只是銷售品牌消費性裝置。報告說明了顯示面板需求、太陽能光電產業的供需失衡，以及半導體材料業務狀況。季度獲利與年初至今的現金流指標分開呈現。文件也列出子公司持股變動，提醒讀者：即使工廠產出沒有相應變化，母公司可分得的獲利仍可能改變。",
+          "why": "財務解讀：工廠在成品售出前就須承擔可觀成本，即使終端市場需求不明朗，設備仍須維護或汰換。因此，營業活動現金流有助於評估日常營運產生的資金，而投資支出則反映這些資金的其他用途。面板價格與客戶採購時程，可能影響供應鏈下游電視、電腦及其他裝置的成本與獲利。對企業與家庭而言，重點在於製造業的韌性及產品成本，而不只是帳面淨利是否增加。",
+          "uncertainty": "財務報表未經審計，且集團旗下業務的需求與投資週期各不相同。合併營業活動現金流不能全數歸於顯示面板業務，也不等於可供分配的利潤：資本支出、收購、還本付息及其他融資資金變動，仍須分開考量。期末現金是特定時點的餘額，而非獲利指標。",
+          "watch": "留意後續揭露的面板價格、產能利用率、太陽能光電業務獲利能力、營運資金變動及投資支出。應將現金產生能力與擴張及融資需求對照，而非假設獲利回升就會自動改善資金流動性。持股變動與各業務的貢獻，也有助於釐清改善究竟來自營運表現，還是子公司利潤歸屬的變化。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "價格下跌的受監測產品項目數"
+              "label": "季度營收"
             },
             {
               "id": "m2",
-              "label": "價格上漲的受監測產品項目數"
+              "label": "季度歸屬於母公司股東的淨利"
             },
             {
               "id": "m3",
-              "label": "螺紋鋼每公噸市場價格"
+              "label": "年初至今累計營收"
             },
             {
               "id": "m4",
-              "label": "電解銅每公噸市場價格"
+              "label": "年初至今累計歸屬於母公司股東的淨利"
             },
             {
               "id": "m5",
-              "label": "鋁錠每公噸市場價格"
+              "label": "年初至今累計營業活動現金流量淨額"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今累計購置長期營運資產支付的現金"
+            },
+            {
+              "id": "m7",
+              "label": "期末現金及約當現金"
             }
           ]
         }
