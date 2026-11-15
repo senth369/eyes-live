@@ -1,63 +1,73 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-15T19:47:28.763Z",
-  "generatedAt": "2026-11-15T19:52:41.570Z",
+  "cutoffAt": "2026-11-15T21:48:39.657Z",
+  "generatedAt": "2026-11-15T21:53:21.899Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Federal Reserve Bank of St. Louis — broad US equity index closing observations",
+      "label": "Federal Reserve data: broad US equity index",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite closing observations",
+      "label": "Federal Reserve data: technology-heavy US equity index",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src3",
-      "label": "Xinhua Finance — mainland equity closing report",
-      "url": "https://www.cnfin.com/gs-lb/detail/20261113/4495383_1.html"
+      "label": "Dated mainland market closing report",
+      "url": "https://www.cfi.cn/p20261113000012.html"
     },
     {
       "id": "src4",
-      "label": "Investing — mainland large-cap index dated closing table",
-      "url": "https://ng.investing.com/indices/csi300-historical-data"
+      "label": "Mainland large-cap index daily closing table",
+      "url": "https://za.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Bureau of Labor Statistics — archived producer price release",
-      "url": "https://www.bls.gov/news.release/archives/ppi_11132026.pdf"
+      "label": "Issuer flash-memory contract announcement",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672391.PDF"
     },
     {
       "id": "src6",
-      "label": "China Rare Earth — issuer restructuring announcements in designated disclosure newspaper",
-      "url": "https://epaper.cs.com.cn/zgzqb/html/2026-11/14/nw.D110000zgzqb_20261114_1-B040.htm"
+      "label": "Issuer quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636518.PDF"
     },
     {
       "id": "src7",
-      "label": "China Rare Earth — interim filing business description",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464302.PDF"
+      "label": "Issuer employee ownership draft, original document mirrored by financial publisher",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-16/12707086.PDF"
     },
     {
       "id": "src8",
-      "label": "China Capital Market Society — regulator chairman’s conference address",
-      "url": "https://www.ccms.org.cn/news/photo/c/c_20261114_10837772.shtml"
+      "label": "Issuer board resolution approving employee ownership proposal",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672412.PDF"
     },
     {
       "id": "src9",
-      "label": "Apple — archived earnings announcement",
-      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+      "label": "Issuer quarterly financial statements",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648921.PDF"
     },
     {
       "id": "src10",
-      "label": "Apple — accompanying consolidated financial statements",
-      "url": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf"
+      "label": "Archived US producer-price release",
+      "url": "https://www.bls.gov/news.release/archives/ppi_11132026.pdf"
     },
     {
       "id": "src11",
-      "label": "CATL — quarterly financial report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF"
+      "label": "Official producer-price measurement explanation",
+      "url": "https://www.bls.gov/ppi/overview.htm"
+    },
+    {
+      "id": "src12",
+      "label": "Issuer leadership transition release",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+    },
+    {
+      "id": "src13",
+      "label": "Securities filing confirming leadership appointments",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
     }
   ],
   "markets": [
@@ -105,193 +115,104 @@
   "stories": [
     {
       "id": "f1",
-      "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-11-13",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 0.3,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Opening narrative and table A, latest monthly row: seasonally adjusted final-demand producer price change."
-        },
-        {
-          "id": "m2",
-          "value": 6.5,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Opening narrative and table A, latest row: unadjusted annual change in final-demand producer prices."
-        },
-        {
-          "id": "m3",
-          "value": 0.5,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Opening narrative and table A: seasonally adjusted final demand excluding foods, energy and trade services."
-        },
-        {
-          "id": "m4",
-          "value": 4.9,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Opening narrative and table A: unadjusted annual change excluding foods, energy and trade services."
-        }
-      ],
-      "sourceIds": [
-        "src5"
-      ],
-      "evidence": "Opening discussion and final-demand table distinguish slower headline monthly inflation from persistent underlying producer-price increases."
-    },
-    {
-      "id": "f3",
       "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-14",
-      "company": null,
-      "metrics": [],
-      "sourceIds": [
-        "src8"
-      ],
-      "evidence": "Conference address, research-agenda section: calls for studying technology-company listing arrangements, market-stability mechanisms, patient capital and artificial-intelligence safeguards; the address does not promulgate implementing rules."
-    },
-    {
-      "id": "f5",
-      "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-21",
+      "category": "company",
+      "publishedOn": "2026-11-15",
       "company": {
-        "name": "Contemporary Amperex Technology Co., Limited",
-        "ticker": "300750",
+        "name": "Yoozoo Interactive",
+        "ticker": "002174",
         "exchange": "SZSE"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 165220844000,
+          "value": 1428000000,
           "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
+          "periodStart": "2026-11-12",
+          "periodEnd": "2026-11-12",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src5"
           ],
-          "evidence": "Main accounting-data table, current reporting-period column, operating revenue row; source currency scale converted to base yuan."
+          "evidence": "Contract announcement, order overview and order details: tax-inclusive customer order value, not recognized revenue."
         },
         {
           "id": "m2",
-          "value": 21246061000,
+          "value": 1062619755.2,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Main accounting indicators, year-to-date column: operating revenue."
+        },
+        {
+          "id": "m3",
+          "value": 141996085.95,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Main accounting indicators, year-to-date column: net profit attributable to listed-company shareholders."
+        },
+        {
+          "id": "m4",
+          "value": -650656295.61,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Consolidated year-to-date cash-flow statement: net cash from operating activities."
+        },
+        {
+          "id": "m5",
+          "value": 366248494.89,
           "unit": "CNY",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Main accounting-data table, current reporting-period column, net profit attributable to listed-company shareholders row."
-        },
-        {
-          "id": "m3",
-          "value": 442137424000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Main accounting-data table, year-to-date column, operating revenue row."
-        },
-        {
-          "id": "m4",
-          "value": 64530063000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Main accounting-data table, year-to-date column, net profit attributable to listed-company shareholders row."
-        },
-        {
-          "id": "m5",
-          "value": 61625487000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Main accounting-data table, year-to-date column, net cash from operating activities row; standalone quarterly cash flow is not supplied in this table."
+          "evidence": "Main accounting indicators, current-quarter column: operating revenue."
         },
         {
           "id": "m6",
-          "value": 31.6,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
+          "value": -110684515.45,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
-          "comparison": "yoy",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Main accounting-data table, year-to-date annual-comparison column, attributable net profit row."
-        },
-        {
-          "id": "m7",
-          "value": -23.6,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Main accounting-data table, year-to-date annual-comparison column, operating cash-flow row."
+          "evidence": "Main accounting indicators, current-quarter column: attributable net loss."
         }
       ],
       "sourceIds": [
-        "src11"
+        "src5",
+        "src6"
       ],
-      "evidence": "Main accounting-data table separates calendar-quarter results from year-to-date results and shows attributable profit rising while operating cash generation declines; introductory declarations identify the report as unaudited."
+      "evidence": "Contract announcement, special warnings and financial-impact section: flash-memory sales require net revenue presentation and substantial advance procurement funding; earlier financial statements separate accounting profit from operating cash outflow."
     }
   ],
   "locales": {
     "en": {
-      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
+      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
@@ -299,608 +220,307 @@
       "stories": [
         {
           "id": "f1",
-          "title": "Producer inflation eases monthly, but underlying pressure persists",
-          "summary": "The latest producer-price release shows a slower headline monthly increase alongside continued underlying inflation.",
-          "impact": "The financial implication is that businesses cannot assume cost pressure has disappeared simply because the headline pace moderated.",
-          "what": "The Bureau of Labor Statistics measures prices received by domestic producers, rather than the shopping basket paid for by households. Its release shows increases in goods and services, while the measure excluding food, energy and trade services also advanced. The accompanying table distinguishes seasonally adjusted monthly movements from unadjusted annual comparisons.",
-          "why": "For a manufacturer, retailer or service provider, rising supplier prices create a choice between accepting thinner margins and charging customers more. That makes producer inflation relevant to household purchasing power without making it a direct forecast of consumer inflation. The editorial inference is to examine pricing power and cost control together when assessing future company earnings.",
-          "uncertainty": "Producer prices are not consumer prices, and the release does not establish how much businesses will pass through. Recent observations can be revised. No consensus estimate is included here, so the result is not characterized as a surprise.",
-          "watch": "Watch subsequent producer-price revisions, consumer-price releases and company commentary on selling prices versus input costs; confirmation would require evidence that easing costs are reaching margins or customer bills.",
+          "title": "Yoozoo's memory order is not a revenue windfall",
+          "summary": "Yoozoo disclosed a flash-memory customer order while warning that net accounting makes its expected revenue contribution very small.",
+          "impact": "The financial issue is procurement funding and collection risk, not the headline value of goods passing through the subsidiary.",
+          "what": "The game publisher's controlled memory-distribution subsidiary received an order from an unnamed customer. The announcement says the transaction will use net revenue presentation, rather than recording the full merchandise value as sales. It also warns that fulfilling the order requires substantial advance procurement funding. Earlier filed earnings provide context rather than fresh results: year-to-date attributable profit coexisted with operating cash outflow, while the standalone quarter showed an attributable loss. These are different reporting windows and should not be combined.",
+          "why": "The editorial implication is that a trading contract can expand working-capital needs without creating a comparable addition to reported revenue. Suppliers may require payment before the customer accepts delivery and settles its invoice. Financing that gap can consume liquidity and incur interest expense. For a beginner, revenue is an accounting measure of business activity, profit deducts recognized expenses, and operating cash flow tracks cash generated or consumed in operations. A signed order establishes neither collected cash nor earned profit. The earlier divergence between profit and cash therefore makes execution particularly relevant.",
+          "uncertainty": "The customer is withheld under commercial-confidentiality provisions, limiting independent assessment of its creditworthiness. The issuer identifies inventory shortages, financing costs, acceptance disputes and delayed payment as concrete risks. Final accounting and financial effects remain subject to actual performance and audit confirmation.",
+          "watch": "Watch for delivery and acceptance disclosures, customer collections, financing arrangements and subsequent inventory and receivables balances. The meaningful test is whether the activity produces cash after procurement and funding costs, rather than whether contract announcements become larger.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Headline producer inflation, monthly"
+              "label": "Tax-inclusive customer order value, not revenue"
             },
             {
               "id": "m2",
-              "label": "Headline producer inflation, annual"
-            },
-            {
-              "id": "m3",
-              "label": "Underlying producer inflation, monthly"
-            },
-            {
-              "id": "m4",
-              "label": "Underlying producer inflation, annual"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "China’s regulator outlines research priorities, not new trading rules",
-          "summary": "China’s securities regulator chairman called for research into technology-company financing, market resilience and artificial-intelligence safeguards.",
-          "impact": "The address signals policy priorities but does not itself change listing eligibility, trading arrangements or investor protections.",
-          "what": "In an address published by the conference organizer, Wu Qing discussed adapting capital-market institutions to large and emerging technology businesses. He also highlighted patient capital, market microstructure, cross-market risk transmission and safeguards for artificial intelligence. The language frames these matters as subjects for research and institutional development rather than an immediately operative package.",
-          "why": "Equity financing can support businesses whose development spending comes before dependable cash generation. However, easier access to capital only creates durable household wealth if disclosure, governance and investment discipline help distinguish viable projects from promotional stories. The editorial inference is that financing access and investor protection need to be evaluated together, rather than treating technology support as an unconditional benefit to valuations.",
-          "uncertainty": "The address provides neither binding implementation provisions nor a timetable for the research agenda. It therefore cannot establish imminent issuance changes, guaranteed institutional inflows or a reduction in market risk. Treating the speech as an enacted reform would overstate the evidence.",
-          "watch": "Watch formal consultation papers, exchange rule amendments and published implementation measures. Their actual eligibility tests, disclosure obligations and enforcement arrangements would reveal whether the stated priorities materially alter financing conditions.",
-          "metricLabels": []
-        },
-        {
-          "id": "f5",
-          "title": "Earnings explainer: profit growth diverges from operating cash",
-          "summary": "CATL’s previously released report shows rising attributable profit alongside declining year-to-date operating cash generation.",
-          "impact": "The divergence makes cash conversion an important check on the battery maker’s reported earnings growth.",
-          "what": "This is a previously released earnings explainer, not a new announcement. CATL supplies batteries for electric vehicles and energy storage. Its report separately presents calendar-quarter revenue and attributable profit, then cumulative revenue, profit and operating cash. The cumulative profit comparison is positive while the corresponding operating-cash comparison is negative; the report is unaudited.",
-          "why": "Accounting profit records income and expenses under recognition rules, whereas operating cash reflects collections, payments and other operating movements. A growing business can report stronger profit while cash is absorbed elsewhere in operations. The editorial implication is not that earnings are necessarily unreliable, but that financing capacity and the quality of growth require a separate cash assessment.",
-          "uncertainty": "The main financial table does not provide standalone quarterly operating cash flow, so none is presented here. The observed divergence alone does not identify its cause or establish customer-payment problems. Attributable profit also differs in scope from consolidated operating cash because it excludes earnings belonging to minority shareholders.",
-          "watch": "Watch audited annual cash-flow statements, receivables, inventories, supplier-payment movements and management’s reconciliation of cash conversion. Those disclosures can show whether the divergence reflects temporary operating timing or a more persistent funding requirement.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Calendar-quarter revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Calendar-quarter attributable net profit"
-            },
-            {
-              "id": "m3",
               "label": "Year-to-date revenue"
             },
             {
-              "id": "m4",
+              "id": "m3",
               "label": "Year-to-date attributable net profit"
             },
             {
-              "id": "m5",
+              "id": "m4",
               "label": "Year-to-date operating cash flow"
             },
             {
-              "id": "m6",
-              "label": "Year-to-date attributable profit growth"
+              "id": "m5",
+              "label": "Quarterly revenue"
             },
             {
-              "id": "m7",
-              "label": "Year-to-date operating cash-flow change"
+              "id": "m6",
+              "label": "Quarterly attributable net income"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les rapports d’entreprise récents sont présentés à titre d’explication et de contexte.",
+      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés ne présentent aucune nouvelle actualité vérifiée ; les rapports antérieurs restent clairement signalés comme tels.",
       "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges actuels.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges actuels."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La hausse mensuelle des prix à la production ralentit, mais les tensions sous-jacentes persistent",
-          "summary": "La dernière publication sur les prix à la production montre un ralentissement de la hausse mensuelle de l’indice global, tandis que l’inflation sous-jacente persiste.",
-          "impact": "Sur le plan financier, les entreprises ne peuvent pas supposer que les pressions sur leurs coûts ont disparu simplement parce que le rythme global a ralenti.",
-          "what": "Le Bureau américain des statistiques du travail mesure les prix perçus par les producteurs nationaux, plutôt que ceux du panier d’achats des ménages. Sa publication fait état de hausses dans les biens et les services. L’indicateur hors alimentation, énergie et services de commerce a également progressé. Le tableau joint distingue les variations mensuelles corrigées des variations saisonnières des comparaisons annuelles non corrigées.",
-          "why": "Pour un fabricant, un distributeur ou un prestataire de services, la hausse des prix des fournisseurs impose un choix : accepter des marges réduites ou augmenter les prix facturés aux clients. L’inflation à la production est donc pertinente pour le pouvoir d’achat des ménages, sans constituer une prévision directe de l’inflation à la consommation. L’analyse éditoriale en déduit que le pouvoir de fixation des prix et la maîtrise des coûts doivent être examinés ensemble pour évaluer les bénéfices futurs des entreprises.",
-          "uncertainty": "Les prix à la production ne sont pas les prix à la consommation, et cette publication ne permet pas de déterminer dans quelle mesure les entreprises répercuteront les hausses. Les observations récentes peuvent être révisées. Aucune estimation du consensus n’est incluse ici : le résultat n’est donc pas qualifié de surprise.",
-          "watch": "À surveiller : les révisions ultérieures des prix à la production, les publications sur les prix à la consommation et les commentaires des entreprises sur leurs prix de vente par rapport au coût de leurs intrants. Pour confirmer une amélioration, il faudrait des éléments montrant que l’allègement des coûts se répercute sur les marges ou les factures des clients.",
+          "title": "La commande de mémoires de Yoozoo ne représente pas une manne de chiffre d’affaires",
+          "summary": "Yoozoo a annoncé une commande de mémoires flash passée par un client, tout en précisant que la comptabilisation sur une base nette devrait limiter fortement sa contribution au chiffre d’affaires.",
+          "impact": "L’enjeu financier concerne le financement des achats et le risque de non-paiement, plutôt que la valeur affichée des marchandises transitant par la filiale.",
+          "what": "La filiale de distribution de mémoires contrôlée par cet éditeur de jeux vidéo a reçu une commande d’un client dont le nom n’est pas communiqué. Selon l’annonce, l’opération sera comptabilisée sur une base nette, au lieu d’enregistrer la totalité de la valeur des marchandises en chiffre d’affaires. L’entreprise prévient aussi que l’exécution de la commande nécessite d’avancer des fonds importants pour les achats. Les résultats publiés précédemment apportent du contexte, mais ne constituent pas de nouveaux résultats : depuis le début de l’exercice, un bénéfice net part du groupe coexistait avec des sorties de trésorerie liées à l’exploitation, tandis que le trimestre pris isolément affichait une perte nette part du groupe. Ces périodes comptables sont différentes et ne doivent pas être confondues.",
+          "why": "L’enseignement à retenir est qu’un contrat de négoce peut accroître le besoin en fonds de roulement, c’est-à-dire l’argent nécessaire pour financer l’activité courante, sans augmenter dans les mêmes proportions le chiffre d’affaires publié. Les fournisseurs peuvent exiger un paiement avant que le client accepte la livraison et règle sa facture. Financer ce décalage peut mobiliser de la trésorerie et entraîner des charges d’intérêts. Pour comprendre ces distinctions, le chiffre d’affaires mesure comptablement l’activité commerciale, le bénéfice déduit les charges comptabilisées, et les flux de trésorerie d’exploitation retracent l’argent généré ou consommé par l’activité. Une commande signée ne garantit ni un encaissement ni un bénéfice réalisé. L’écart constaté auparavant entre bénéfice et trésorerie rend donc les conditions d’exécution particulièrement importantes.",
+          "uncertainty": "L’identité du client n’est pas divulguée en raison de clauses de confidentialité commerciale, ce qui limite l’évaluation indépendante de sa solvabilité. L’entreprise cite comme risques concrets les pénuries de stocks, les coûts de financement, les litiges liés à l’acceptation des livraisons et les retards de paiement. Le traitement comptable définitif et les effets financiers restent soumis à l’exécution effective du contrat et à la validation des auditeurs.",
+          "watch": "Les éléments à suivre sont les informations sur les livraisons et leur acceptation, les encaissements auprès du client, les modalités de financement, puis les soldes des stocks et des créances clients. Le véritable critère est la capacité de cette activité à générer de la trésorerie après les coûts d’achat et de financement, plutôt que l’augmentation des montants annoncés dans les contrats.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Inflation globale à la production, variation mensuelle"
+              "label": "Valeur de la commande client toutes taxes comprises, et non chiffre d’affaires"
             },
             {
               "id": "m2",
-              "label": "Inflation globale à la production, variation annuelle"
-            },
-            {
-              "id": "m3",
-              "label": "Inflation sous-jacente à la production, variation mensuelle"
-            },
-            {
-              "id": "m4",
-              "label": "Inflation sous-jacente à la production, variation annuelle"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Le régulateur chinois présente des priorités d’étude, pas de nouvelles règles de marché",
-          "summary": "Le président du régulateur chinois des marchés de titres a appelé à étudier le financement des entreprises technologiques, la résilience des marchés et les garde-fous liés à l’intelligence artificielle.",
-          "impact": "Cette intervention indique des priorités de politique publique, mais ne modifie pas en elle-même les conditions d’admission en Bourse, les modalités de négociation ou les protections des investisseurs.",
-          "what": "Dans une intervention publiée par l’organisateur de la conférence, Wu Qing a évoqué l’adaptation du cadre institutionnel des marchés de capitaux aux grandes entreprises technologiques et à celles des technologies émergentes. Il a également mis l’accent sur les capitaux patients, investis dans une perspective de long terme, la microstructure des marchés, la transmission des risques entre marchés et les garde-fous liés à l’intelligence artificielle. Ces sujets sont présentés comme des pistes de recherche et d’évolution institutionnelle, et non comme un ensemble de mesures immédiatement applicables.",
-          "why": "Le financement par émission d’actions peut soutenir les entreprises dont les dépenses de développement précèdent la génération de flux de trésorerie réguliers. Toutefois, un accès facilité aux capitaux ne crée durablement de la richesse pour les ménages que si la transparence, la gouvernance et la discipline d’investissement permettent de distinguer les projets viables des discours promotionnels. L’analyse éditoriale en déduit que l’accès au financement et la protection des investisseurs doivent être évalués ensemble, plutôt que de considérer le soutien à la technologie comme systématiquement favorable aux valorisations.",
-          "uncertainty": "Cette intervention ne fournit ni dispositions d’application contraignantes ni calendrier pour les travaux d’étude. Elle ne permet donc pas de conclure à des changements imminents des conditions d’émission de titres, à des apports garantis de capitaux institutionnels ou à une réduction du risque de marché. Présenter ce discours comme une réforme adoptée irait au-delà des éléments disponibles.",
-          "watch": "À surveiller : les documents officiels de consultation, les modifications des règles des places boursières et les mesures d’application publiées. Leurs critères d’éligibilité, leurs obligations d’information et leurs dispositifs de contrôle permettront de déterminer si les priorités annoncées modifient sensiblement les conditions de financement.",
-          "metricLabels": []
-        },
-        {
-          "id": "f5",
-          "title": "Décryptage des résultats : les bénéfices progressent, mais la trésorerie d’exploitation recule",
-          "summary": "Le rapport déjà publié de CATL montre une hausse du bénéfice net part du groupe, parallèlement à un recul des flux de trésorerie d’exploitation cumulés depuis le début de l’exercice.",
-          "impact": "Cet écart fait de la conversion des bénéfices en trésorerie un élément important pour apprécier la croissance des résultats annoncée par le fabricant de batteries.",
-          "what": "Il s’agit d’un décryptage de résultats déjà publiés, et non d’une nouvelle annonce. CATL fournit des batteries pour les véhicules électriques et le stockage d’énergie. Son rapport présente séparément le chiffre d’affaires et le bénéfice net part du groupe du trimestre civil, puis les données cumulées de chiffre d’affaires, de bénéfice et de trésorerie d’exploitation. La comparaison du bénéfice cumulé est positive, tandis que celle des flux de trésorerie d’exploitation correspondants est négative. Le rapport n’est pas audité.",
-          "why": "Le bénéfice comptable enregistre les produits et les charges selon les règles de comptabilisation, tandis que les flux de trésorerie d’exploitation reflètent les encaissements, les décaissements et les autres mouvements liés à l’activité. Une entreprise en croissance peut afficher un bénéfice plus élevé alors que son activité absorbe de la trésorerie par ailleurs. L’analyse éditoriale n’en conclut pas que les résultats sont nécessairement peu fiables, mais que la capacité de financement et la qualité de la croissance nécessitent un examen distinct de la trésorerie.",
-          "uncertainty": "Le tableau financier principal ne fournit pas de flux de trésorerie d’exploitation pour le trimestre pris isolément ; aucune donnée de ce type n’est donc présentée ici. L’écart observé ne permet pas, à lui seul, d’en identifier la cause ni de conclure à des problèmes de paiement des clients. Le bénéfice net part du groupe diffère aussi des flux de trésorerie d’exploitation consolidés par son périmètre, car il exclut les bénéfices revenant aux actionnaires minoritaires.",
-          "watch": "À surveiller : les tableaux annuels audités des flux de trésorerie, les créances clients, les stocks, l’évolution des paiements aux fournisseurs et les explications de la direction sur le passage du bénéfice à la trésorerie. Ces informations peuvent montrer si l’écart tient à des décalages temporaires liés à l’activité ou à un besoin de financement plus persistant.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires du trimestre civil"
-            },
-            {
-              "id": "m2",
-              "label": "Bénéfice net part du groupe du trimestre civil"
-            },
-            {
-              "id": "m3",
               "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
             },
             {
-              "id": "m4",
+              "id": "m3",
               "label": "Bénéfice net part du groupe cumulé depuis le début de l’exercice"
             },
             {
-              "id": "m5",
+              "id": "m4",
               "label": "Flux de trésorerie d’exploitation cumulés depuis le début de l’exercice"
             },
             {
-              "id": "m6",
-              "label": "Croissance du bénéfice net part du groupe cumulé depuis le début de l’exercice"
+              "id": "m5",
+              "label": "Chiffre d’affaires trimestriel"
             },
             {
-              "id": "m7",
-              "label": "Variation des flux de trésorerie d’exploitation cumulés depuis le début de l’exercice"
+              "id": "m6",
+              "label": "Résultat net trimestriel part du groupe"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的市场动态。请留意各项内容的发布日期；近期公司报告作为背景解读呈现。",
+      "status": "本期经核实的信息覆盖有限。部分市场暂无经核实的新消息；较早发布的报告仍明确标注其时效。",
       "marketSummary": {
-        "us": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。",
-        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。"
+        "us": "所跟踪的指数在最近经核实的交易时段均下跌。标有日期的收盘数据反映的是对应交易时段的情况，并非当前行情。",
+        "cn": "所跟踪的指数在最近经核实的交易时段均下跌。标有日期的收盘数据反映的是对应交易时段的情况，并非当前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "生产者价格环比涨幅放缓，但潜在通胀压力仍在",
-          "summary": "最新生产者价格数据显示，整体价格环比涨幅放缓，但潜在通胀仍在持续。",
-          "impact": "这意味着，企业不能仅因整体涨价速度放缓，就认定成本压力已经消失。",
-          "what": "美国劳工统计局衡量的是本国生产者出售产品和服务所获得的价格，而非家庭购买商品和服务所支付的价格。报告显示，商品和服务价格均上涨，剔除食品、能源和贸易服务后的价格指标也有所上升。附表区分了经季节性调整的环比变动和未经季节性调整的同比变动。",
-          "why": "对制造商、零售商或服务提供商而言，供应商涨价意味着企业需要在接受利润率下降和向客户提价之间作出选择。因此，生产者价格上涨与家庭购买力有关，但不能直接用来预测消费价格涨幅。本文据此认为，评估企业未来盈利时，需要结合考察定价能力和成本控制。",
-          "uncertainty": "生产者价格不等于消费价格，这份报告也无法确定企业会将多少成本转嫁给客户。近期数据可能修订。本文未提供市场普遍预期，因此不将结果描述为超出或低于预期。",
-          "watch": "关注后续生产者价格数据修订、消费价格报告，以及企业对销售价格和投入成本的说明；要确认成本压力缓解产生了实际效果，还需要看到利润率改善或客户支付金额下降的证据。",
+          "title": "游族网络的存储订单并不意味着营收大增",
+          "summary": "游族网络披露了闪存产品客户订单，同时提示，由于采用净额法核算，预计该订单对营收的贡献很小。",
+          "impact": "财务上的关键在于采购资金需求和回款风险，而不是经由子公司交易的货物总金额。",
+          "what": "这家游戏发行商旗下从事存储产品分销的控股子公司，收到了未具名客户的订单。公告称，该交易将按净额法确认营收，而非将全部货值计入销售收入。公告还提示，履行订单需要提前投入大量采购资金。此前披露的业绩仅作为背景，并非最新业绩：年初至报告期末，公司归母净利润为正，但经营现金流为净流出；单季则录得归母净亏损。这些数据对应不同的报告期间，不应混为一谈。",
+          "why": "这则消息的解读重点是，贸易合同可能增加营运资金需求，却未必带来相应规模的账面营收增长。供应商可能要求公司先付款，之后客户才验收货物并结清货款。填补这段资金缺口可能消耗流动资金，并产生利息费用。对初学者而言，营收是衡量业务活动的会计指标，利润是在收入基础上扣除已确认费用后的结果，而经营现金流反映经营活动实际产生或消耗的现金。签订订单不等于收到现金，也不等于赚取利润。因此，此前利润与现金流的背离，使订单能否顺利执行尤为值得关注。",
+          "uncertainty": "由于商业保密条款，客户身份未予披露，外界难以独立评估其信用状况。公司明确列出的风险包括存货短缺、融资成本、验收争议及付款延迟。最终会计处理和财务影响仍取决于实际履约情况及审计确认。",
+          "watch": "关注交付与验收披露、客户回款、融资安排，以及后续存货和应收账款余额。真正有意义的检验标准，是这项业务在扣除采购和融资成本后能否带来现金，而非公告中的合同金额是否越来越大。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "整体生产者价格环比涨幅"
+              "label": "客户订单含税金额，非营收"
             },
             {
               "id": "m2",
-              "label": "整体生产者价格同比涨幅"
+              "label": "年初至报告期末营收"
             },
             {
               "id": "m3",
-              "label": "核心生产者价格环比涨幅"
+              "label": "年初至报告期末归母净利润"
             },
             {
               "id": "m4",
-              "label": "核心生产者价格同比涨幅"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "中国证监会阐述研究重点，并非出台新的交易规则",
-          "summary": "中国证监会主席提出，要研究科技企业融资、市场韧性和人工智能安全保障等议题。",
-          "impact": "这次讲话释放了政策重点信号，但本身并未改变上市资格、交易安排或投资者保护措施。",
-          "what": "在会议主办方发布的讲话中，吴清讨论了如何使资本市场制度适应大型科技企业和新兴科技企业的发展。他还强调了耐心资本、市场微观结构、跨市场风险传导和人工智能安全保障。讲话将这些事项定位为研究和制度建设的方向，而非立即生效的政策方案。",
-          "why": "有些企业在形成稳定的现金创造能力之前，就需要投入研发资金，股权融资可以为其提供支持。但要让更便利的融资转化为家庭财富的持久增长，还需要信息披露、公司治理和投资纪律帮助区分有可行性的项目与宣传故事。本文据此认为，应结合评估融资便利程度和投资者保护，而不能把支持科技发展视为对估值无条件有利。",
-          "uncertainty": "讲话既未提供具有约束力的实施条款，也未给出研究议程的时间表。因此，不能据此认定发行制度即将变化、机构资金必然流入或市场风险将会下降。将讲话视为已经落地的改革，会夸大现有证据所能支持的结论。",
-          "watch": "关注正式征求意见稿、交易所规则修订和已公布的实施措施。其中具体的资格条件、信息披露义务和执法安排，才能显示这些政策重点是否实质改变融资环境。",
-          "metricLabels": []
-        },
-        {
-          "id": "f5",
-          "title": "财报解读：利润增长与经营现金流走势分化",
-          "summary": "宁德时代此前发布的报告显示，归母净利润增长，但年初至报告期末的经营现金流下降。",
-          "impact": "这种分化表明，在审视这家电池企业披露的盈利增长时，利润转化为现金的能力是重要的检验角度。",
-          "what": "本文解读的是此前已发布的财报，并非新的公告。宁德时代为电动汽车和储能领域供应电池。报告分别列示了自然季度的营收和归母净利润，以及年初至报告期末累计的营收、利润和经营现金流。累计利润同比增长，而同期经营现金流同比下降；该报告未经审计。",
-          "why": "会计利润按收入和费用的确认规则核算，经营现金流则反映收款、付款及其他经营活动中的现金变动。企业即使处于增长阶段，也可能在利润增加的同时，因其他经营环节占用资金而未能带来相应的现金增长。本文并非据此认定盈利不可靠，而是认为，评估融资能力和增长质量时，需要单独审视现金情况。",
-          "uncertainty": "主要财务数据表未提供单独的季度经营现金流，因此本文也不列示该项数据。仅凭利润与现金流的分化，无法判断原因，也不能认定客户付款存在问题。归母净利润与合并口径经营现金流的范围也不同，因为归母净利润不包含归属于少数股东的利润。",
-          "watch": "关注经审计的年度现金流量表、应收账款、存货、向供应商付款的变动，以及管理层对利润与现金流差异的解释。这些披露有助于判断，分化源于暂时性的经营收付款时点差异，还是更持久的资金需求。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "自然季度营收"
-            },
-            {
-              "id": "m2",
-              "label": "自然季度归母净利润"
-            },
-            {
-              "id": "m3",
-              "label": "年初至报告期末累计营收"
-            },
-            {
-              "id": "m4",
-              "label": "年初至报告期末累计归母净利润"
+              "label": "年初至报告期末经营现金流"
             },
             {
               "id": "m5",
-              "label": "年初至报告期末累计经营现金流"
+              "label": "单季营收"
             },
             {
               "id": "m6",
-              "label": "年初至报告期末累计归母净利润增幅"
-            },
-            {
-              "id": "m7",
-              "label": "年初至报告期末累计经营现金流变动幅度"
+              "label": "单季归母净利润"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Revisa la fecha de cada publicación; los informes empresariales recientes se presentan como contexto explicativo.",
+      "status": "La cobertura verificada de esta edición es limitada. Algunos mercados no tienen noticias nuevas verificadas; los informes anteriores siguen claramente identificados como tales.",
       "marketSummary": {
-        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual.",
-        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual."
+        "us": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha indicada describen esas sesiones, no la cotización actual.",
+        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha indicada describen esas sesiones, no la cotización actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La inflación de los productores se modera en términos mensuales, pero persisten las presiones subyacentes",
-          "summary": "El último informe de precios de producción muestra una subida mensual del índice general más lenta, mientras persiste la inflación subyacente.",
-          "impact": "La implicación financiera es que las empresas no pueden dar por desaparecida la presión de los costes solo porque se haya moderado el ritmo del índice general.",
-          "what": "La Oficina de Estadísticas Laborales mide los precios que reciben los productores nacionales, no el coste de la cesta de compra de los hogares. Su informe muestra aumentos en bienes y servicios, y también en la medida que excluye alimentos, energía y servicios comerciales. La tabla adjunta distingue las variaciones mensuales ajustadas por estacionalidad de las comparaciones interanuales sin ajustar.",
-          "why": "Para fabricantes, comercios y proveedores de servicios, el encarecimiento de los suministros plantea una disyuntiva: aceptar márgenes menores o cobrar más a los clientes. Por eso, la inflación de los productores es relevante para el poder adquisitivo de los hogares, aunque no constituye una previsión directa de la inflación al consumidor. La interpretación editorial es que, al evaluar los beneficios futuros de una empresa, conviene analizar conjuntamente su capacidad para fijar precios y su control de costes.",
-          "uncertainty": "Los precios de producción no son los precios al consumidor, y el informe no determina qué parte de las subidas trasladarán las empresas a sus clientes. Los datos recientes pueden revisarse. Aquí no se incluye una estimación de consenso, por lo que el resultado no se califica como una sorpresa.",
-          "watch": "Habrá que seguir las revisiones de los precios de producción, los informes de precios al consumidor y los comentarios empresariales sobre precios de venta frente a costes de los insumos. Para confirmar el efecto, harían falta pruebas de que la moderación de los costes se está reflejando en los márgenes o en las facturas de los clientes.",
+          "title": "El pedido de memorias de Yoozoo no implica un gran aumento de ingresos",
+          "summary": "Yoozoo comunicó un pedido de memorias flash de un cliente, pero advirtió que su contabilización por el importe neto hará que la aportación prevista a los ingresos sea muy pequeña.",
+          "impact": "La cuestión financiera es cómo financiar las compras y el riesgo de impago, no el llamativo valor de las mercancías que pasan por la filial.",
+          "what": "La filial de distribución de memorias controlada por la editora de videojuegos recibió un pedido de un cliente cuya identidad no se ha revelado. El anuncio indica que la operación se contabilizará como ingresos por el importe neto, en lugar de registrar como ventas el valor íntegro de la mercancía. También advierte que cumplir el pedido exige destinar fondos considerables a compras por adelantado. Los resultados presentados anteriormente aportan contexto, pero no son resultados nuevos: el beneficio atribuido acumulado en el ejercicio coexistió con una salida de efectivo de las actividades de explotación, mientras que el trimestre considerado de forma aislada registró una pérdida atribuida. Son periodos contables distintos y no deben combinarse.",
+          "why": "La interpretación editorial es que un contrato comercial puede aumentar las necesidades de capital circulante sin generar un incremento comparable de los ingresos declarados. Los proveedores pueden exigir el pago antes de que el cliente acepte la entrega y abone su factura. Financiar ese desfase puede consumir liquidez y generar gastos por intereses. Para quien empieza, los ingresos son una medida contable de la actividad empresarial; el beneficio descuenta los gastos reconocidos, y el flujo de efectivo de explotación refleja el efectivo generado o consumido por las operaciones. Un pedido firmado no equivale a efectivo cobrado ni a beneficio obtenido. Por eso, la divergencia anterior entre beneficio y efectivo hace especialmente relevante la ejecución del contrato.",
+          "uncertainty": "La identidad del cliente se mantiene reservada por cláusulas de confidencialidad comercial, lo que limita la evaluación independiente de su solvencia. La empresa señala como riesgos concretos la falta de existencias, los costes de financiación, las disputas sobre la aceptación de la mercancía y los retrasos en el pago. La contabilización definitiva y los efectos financieros siguen sujetos a la ejecución real y a la confirmación mediante auditoría.",
+          "watch": "Conviene seguir las comunicaciones sobre entrega y aceptación, los cobros al cliente, los acuerdos de financiación y los saldos posteriores de existencias y cuentas por cobrar. La prueba relevante es si la actividad genera efectivo después de cubrir las compras y los costes de financiación, no si aumenta el importe de los contratos anunciados.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Inflación general de los productores, mensual"
+              "label": "Valor del pedido del cliente con impuestos incluidos, no ingresos"
             },
             {
               "id": "m2",
-              "label": "Inflación general de los productores, interanual"
+              "label": "Ingresos acumulados del ejercicio"
             },
             {
               "id": "m3",
-              "label": "Inflación subyacente de los productores, mensual"
+              "label": "Beneficio neto atribuido acumulado del ejercicio"
             },
             {
               "id": "m4",
-              "label": "Inflación subyacente de los productores, interanual"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "El regulador chino expone prioridades de estudio, no nuevas normas de negociación",
-          "summary": "El presidente del regulador de valores de China pidió estudiar la financiación de empresas tecnológicas, la capacidad del mercado para resistir tensiones y las salvaguardias para la inteligencia artificial.",
-          "impact": "El discurso señala prioridades de política regulatoria, pero no modifica por sí mismo los requisitos para cotizar, las condiciones de negociación ni las protecciones de los inversores.",
-          "what": "En un discurso publicado por el organizador de la conferencia, Wu Qing abordó la adaptación del marco institucional del mercado de capitales a las empresas tecnológicas grandes y emergentes. También destacó el capital paciente, dispuesto a esperar resultados a largo plazo; la microestructura del mercado, es decir, cómo se organizan y ejecutan las operaciones; la transmisión de riesgos entre mercados; y las salvaguardias para la inteligencia artificial. El lenguaje presenta estos asuntos como temas de estudio y desarrollo institucional, no como un paquete de medidas de aplicación inmediata.",
-          "why": "La financiación mediante capital puede apoyar a empresas cuyos gastos de desarrollo llegan antes de que generen efectivo de forma estable. Sin embargo, un acceso más fácil al capital solo crea riqueza duradera para los hogares si la divulgación de información, el gobierno corporativo y la disciplina inversora ayudan a distinguir los proyectos viables de los relatos promocionales. La interpretación editorial es que el acceso a la financiación y la protección del inversor deben evaluarse conjuntamente, en lugar de considerar el apoyo a la tecnología como un beneficio incondicional para las valoraciones.",
-          "uncertainty": "El discurso no aporta disposiciones de aplicación obligatoria ni un calendario para la agenda de estudio. Por tanto, no permite afirmar que habrá cambios inminentes en las emisiones de valores, entradas garantizadas de capital institucional o una reducción del riesgo de mercado. Tratar el discurso como una reforma ya aprobada exageraría lo que demuestra la información disponible.",
-          "watch": "Habrá que seguir los documentos formales de consulta, las modificaciones de las normas bursátiles y las medidas de aplicación que se publiquen. Sus requisitos concretos de acceso, obligaciones de información y mecanismos de supervisión y sanción permitirían saber si las prioridades anunciadas cambian de forma sustancial las condiciones de financiación.",
-          "metricLabels": []
-        },
-        {
-          "id": "f5",
-          "title": "Claves de resultados: el crecimiento del beneficio contrasta con el flujo de caja operativo",
-          "summary": "El informe ya publicado de CATL muestra un aumento del beneficio atribuido junto con una caída de la generación de caja operativa acumulada en el año.",
-          "impact": "Esta divergencia hace que la conversión de beneficios en efectivo sea una comprobación importante del crecimiento de los beneficios declarados por el fabricante de baterías.",
-          "what": "Este análisis explica unos resultados publicados anteriormente; no es un anuncio nuevo. CATL suministra baterías para vehículos eléctricos y almacenamiento de energía. Su informe presenta por separado los ingresos y el beneficio atribuido del trimestre natural, y después los ingresos, el beneficio y el flujo de caja operativo acumulados. La comparación del beneficio acumulado es positiva, mientras que la correspondiente al flujo de caja operativo es negativa. El informe no está auditado.",
-          "why": "El beneficio contable registra ingresos y gastos según las normas de reconocimiento, mientras que el flujo de caja operativo refleja cobros, pagos y otros movimientos de la actividad. Una empresa en crecimiento puede declarar mayores beneficios mientras otras necesidades operativas absorben efectivo. La interpretación editorial no es que los beneficios sean necesariamente poco fiables, sino que la capacidad de financiación y la calidad del crecimiento requieren un análisis específico del efectivo.",
-          "uncertainty": "La tabla financiera principal no proporciona el flujo de caja operativo del trimestre por separado, por lo que aquí no se presenta. La divergencia observada, por sí sola, no identifica su causa ni demuestra problemas de cobro a clientes. Además, el beneficio atribuido tiene un alcance distinto al del flujo de caja operativo consolidado, ya que excluye los beneficios correspondientes a los accionistas minoritarios.",
-          "watch": "Habrá que seguir los estados anuales auditados de flujos de efectivo, las cuentas por cobrar, las existencias, los cambios en los pagos a proveedores y la explicación de la dirección sobre la conversión de beneficios en efectivo. Esa información puede mostrar si la divergencia responde a desfases temporales de la actividad o a una necesidad de financiación más persistente.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos del trimestre natural"
-            },
-            {
-              "id": "m2",
-              "label": "Beneficio neto atribuido del trimestre natural"
-            },
-            {
-              "id": "m3",
-              "label": "Ingresos acumulados en el año"
-            },
-            {
-              "id": "m4",
-              "label": "Beneficio neto atribuido acumulado en el año"
+              "label": "Flujo de efectivo de explotación acumulado del ejercicio"
             },
             {
               "id": "m5",
-              "label": "Flujo de caja operativo acumulado en el año"
+              "label": "Ingresos trimestrales"
             },
             {
               "id": "m6",
-              "label": "Crecimiento del beneficio atribuido acumulado en el año"
-            },
-            {
-              "id": "m7",
-              "label": "Variación del flujo de caja operativo acumulado en el año"
+              "label": "Resultado neto atribuido del trimestre"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動向を取り上げています。各資料の公表日を確認してください。最近公表された企業の報告書は、背景を理解するための解説として紹介しています。",
+      "status": "今回の配信で確認できた情報は限られています。新たなニュースを確認できていない市場もあります。過去の日付の報告は、そのことが分かるようにしています。",
       "marketSummary": {
-        "us": "対象の指数はいずれも、確認済みの直近取引日で下落しました。日付付きの終値はその取引日の状況を示すもので、現在の取引状況ではありません。",
-        "cn": "対象の指数はいずれも、確認済みの直近取引日で下落しました。日付付きの終値はその取引日の状況を示すもので、現在の取引状況ではありません。"
+        "us": "追跡対象の指数はいずれも、直近で確認できた取引日に下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。",
+        "cn": "追跡対象の指数はいずれも、直近で確認できた取引日に下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "生産者物価の前月比上昇率は鈍化、基調的な物価上昇圧力は続く",
-          "summary": "最新の生産者物価の発表では、総合指数の前月比上昇率が鈍化した半面、基調的な物価上昇は続いています。",
-          "impact": "企業にとっては、総合指数の上昇ペースが鈍っただけでコスト上昇圧力がなくなったとは考えられない、という意味があります。",
-          "what": "米労働統計局が測定するのは、家計が購入する商品やサービスの価格ではなく、国内の生産者が受け取る価格です。今回の発表では財とサービスの価格が上昇し、食品・エネルギー・流通サービスを除く指標も上昇しました。付属の表では、季節調整済みの前月比と、季節調整前の前年同月比が区別されています。",
-          "why": "メーカー、小売業者、サービス事業者にとって、仕入れ価格の上昇は、利益率の低下を受け入れるか、顧客への販売価格を引き上げるかという選択につながります。そのため、生産者物価は家計の購買力にも関係しますが、消費者物価の動きを直接予測するものではありません。編集上の考察としては、企業の今後の利益を評価する際、価格を引き上げても顧客を維持できる力と、コスト管理を併せて見ることが重要です。",
-          "uncertainty": "生産者物価と消費者物価は異なり、今回の発表から企業がコスト上昇分をどの程度価格転嫁するかは分かりません。直近の数値は改定される可能性があります。ここでは市場予想を掲載していないため、結果が予想外だったとは評価していません。",
-          "watch": "今後の生産者物価の改定、消費者物価の発表、販売価格と仕入れコストに関する企業の説明が注目点です。コスト上昇の鈍化が利益率や顧客の支払額に反映されているかを確認するには、その裏付けが必要です。",
+          "title": "Yoozooのメモリー受注、大幅な売上増にはつながらず",
+          "summary": "Yoozooはフラッシュメモリーの受注を公表しました。ただし、売上高を純額で計上するため、見込まれる売上への寄与はごく小さいと説明しています。",
+          "impact": "財務面で重要なのは、子会社を経由する商品の取引額の大きさではなく、仕入れ資金の確保と代金回収のリスクです。",
+          "what": "ゲームを販売する同社の傘下でメモリー流通を手がける子会社が、顧客名を非公表とする注文を受けました。発表によると、商品の取引額全体を売上高に計上するのではなく、純額で売上高を表示します。また、注文を履行するには、多額の仕入れ資金を先に用意する必要があるとしています。以前に提出された決算は背景情報であり、新たな業績発表ではありません。その決算では、年初来で親会社株主に帰属する利益を計上したものの、営業キャッシュフローは資金流出となり、当該四半期単独では親会社株主に帰属する損失を計上しました。これらは集計期間が異なるため、混同すべきではありません。",
+          "why": "ここから読み取れるのは、商品売買の契約によって運転資金の必要額が増えても、それに見合う売上高が計上されるとは限らないという点です。顧客が商品を検収し、代金を支払う前に、仕入れ先への支払いが必要になる場合があります。その間の資金を調達することで、手元資金が減ったり、支払利息が発生したりする可能性があります。初心者向けに整理すると、売上高は事業活動を会計上で表す指標で、利益は計上された費用を差し引いたものです。営業キャッシュフローは、事業活動で現金がどれだけ生み出されたか、または使われたかを示します。受注契約を結んだだけでは、現金の回収も利益の獲得も確定しません。過去の決算で利益と現金の動きが食い違っていたことからも、契約が実際にどう履行されるかが特に重要です。",
+          "uncertainty": "顧客名は商業上の秘密保持条項に基づいて非公表となっており、外部からその支払能力を独自に評価するには限界があります。同社は、在庫不足、資金調達コスト、検収をめぐる紛争、支払いの遅延を具体的なリスクとして挙げています。最終的な会計処理と財務への影響は、実際の履行状況と監査による確認次第です。",
+          "watch": "注目点は、納品と検収に関する開示、顧客からの代金回収、資金調達の内容、その後の棚卸資産と売上債権の残高です。重要なのは、発表される契約額が大きくなるかではなく、仕入れと資金調達の費用を差し引いた後に、この取引が現金を生み出すかどうかです。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "生産者物価総合指数の前月比"
+              "label": "税込み受注額（売上高ではない）"
             },
             {
               "id": "m2",
-              "label": "生産者物価総合指数の前年同月比"
+              "label": "年初来売上高"
             },
             {
               "id": "m3",
-              "label": "基調的な生産者物価の前月比"
+              "label": "年初来の親会社株主に帰属する純利益"
             },
             {
               "id": "m4",
-              "label": "基調的な生産者物価の前年同月比"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "中国の証券監督当局が研究の重点課題を提示、新たな取引ルールではない",
-          "summary": "中国の証券監督当局のトップは、テクノロジー企業の資金調達、市場の耐久力、人工知能の安全対策に関する研究を求めました。",
-          "impact": "この講演は政策上の優先課題を示していますが、それ自体が上場要件、取引制度、投資家保護の仕組みを変更するものではありません。",
-          "what": "会議の主催者が公表した講演で、呉清氏は、大規模なテクノロジー企業や新興テクノロジー企業に資本市場の制度を対応させることについて述べました。また、長期的な視点で投資する資金、市場の取引構造、市場をまたぐリスクの波及、人工知能の安全対策も重視しました。これらは、直ちに実施される施策ではなく、研究や制度整備の課題として示されています。",
-          "why": "株式による資金調達は、安定した現金収入を得る前に開発費が必要となる企業を支えることができます。ただし、資金調達が容易になることが家計の持続的な資産形成につながるには、情報開示、企業統治、投資判断の規律を通じて、実現可能な事業と宣伝先行の構想を見分けられることが必要です。編集上の考察としては、テクノロジー支援を無条件に株式評価の追い風と捉えるのではなく、資金調達のしやすさと投資家保護を併せて評価する必要があります。",
-          "uncertainty": "この講演には、法的拘束力のある実施規定も、研究課題に取り組む日程も示されていません。したがって、証券発行に関する変更が間近に迫っていること、機関投資家の資金流入が保証されること、市場リスクが低下することを裏付けるものではありません。すでに成立した改革として扱うのは、示された根拠を超えた解釈です。",
-          "watch": "正式な意見募集文書、取引所規則の改正、公表される実施措置が注目点です。実際の適格要件、情報開示義務、執行の仕組みを見れば、示された優先課題が資金調達環境を実質的に変えるかどうかが分かります。",
-          "metricLabels": []
-        },
-        {
-          "id": "f5",
-          "title": "決算解説：利益は増加、営業キャッシュフローは減少",
-          "summary": "CATLがすでに公表した報告書では、親会社株主に帰属する利益が増えた半面、期初来累計の営業キャッシュフローは減少しています。",
-          "impact": "この動きの違いにより、電池メーカーである同社の利益成長を確認するうえで、利益がどの程度現金収入につながっているかが重要になります。",
-          "what": "これは公表済みの決算を説明する記事であり、新たな発表ではありません。CATLは電気自動車や蓄電設備向けの電池を供給しています。報告書では、暦年ベースの四半期の売上高と親会社株主に帰属する利益に加え、期初来累計の売上高、利益、営業キャッシュフローをそれぞれ示しています。累計利益は前年同期比で増加していますが、対応する営業キャッシュフローは減少しています。この報告書は未監査です。",
-          "why": "会計上の利益は、収益や費用を認識するルールに従って計上されます。一方、営業キャッシュフローは、代金の回収や支払いなど、本業での現金の動きを示します。成長中の企業では、利益が増えていても、事業運営の別の部分で資金が使われることがあります。編集上の示唆は、利益が必ずしも信頼できないということではなく、資金調達力や成長の質を判断するには、現金の動きを別途評価する必要があるという点です。",
-          "uncertainty": "主要な財務表には四半期単独の営業キャッシュフローが示されていないため、ここでも掲載していません。利益と営業キャッシュフローの動きが異なるという事実だけでは、原因を特定できず、顧客の支払いに問題があるとも断定できません。また、親会社株主に帰属する利益には非支配株主に帰属する利益が含まれないため、連結ベースの営業キャッシュフローとは対象範囲も異なります。",
-          "watch": "監査済みの通期キャッシュフロー計算書、売上債権、棚卸資産、仕入れ先への支払いの動き、利益と現金収入の関係についての経営陣の説明が注目点です。こうした開示により、動きの違いが事業上の入出金時期のずれによるものか、より持続的な資金需要を反映するものかを確認できます。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "暦年ベースの四半期売上高"
-            },
-            {
-              "id": "m2",
-              "label": "暦年ベースの四半期の親会社株主に帰属する純利益"
-            },
-            {
-              "id": "m3",
-              "label": "期初来累計売上高"
-            },
-            {
-              "id": "m4",
-              "label": "期初来累計の親会社株主に帰属する純利益"
+              "label": "年初来営業キャッシュフロー"
             },
             {
               "id": "m5",
-              "label": "期初来累計営業キャッシュフロー"
+              "label": "四半期売上高"
             },
             {
               "id": "m6",
-              "label": "期初来累計の親会社株主に帰属する利益の増減率"
-            },
-            {
-              "id": "m7",
-              "label": "期初来累計営業キャッシュフローの増減率"
-            }
-          ]
-        }
-      ]
-    },
-    "pt": {
-      "status": "Esta edição aborda acontecimentos dos EUA e da China. Confira a data de cada publicação; os relatórios empresariais recentes são apresentados como explicações de contexto.",
-      "marketSummary": {
-        "us": "Os índices acompanhados caíram nos respectivos pregões mais recentes verificados. Os fechamentos nas datas indicadas descrevem aqueles pregões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nos respectivos pregões mais recentes verificados. Os fechamentos nas datas indicadas descrevem aqueles pregões, não as negociações atuais."
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "Inflação ao produtor desacelera no mês, mas pressões subjacentes persistem",
-          "summary": "A divulgação mais recente dos preços ao produtor mostra uma alta mensal mais lenta do índice geral, enquanto as pressões inflacionárias subjacentes continuam.",
-          "impact": "A implicação financeira é que as empresas não podem presumir que a pressão dos custos desapareceu apenas porque o ritmo do índice geral diminuiu.",
-          "what": "O Bureau of Labor Statistics, órgão de estatísticas do trabalho dos EUA, mede os preços recebidos pelos produtores nacionais, e não os preços da cesta de compras das famílias. A divulgação mostra aumentos em bens e serviços, enquanto a medida que exclui alimentos, energia e serviços de comércio também avançou. A tabela que acompanha a publicação distingue as variações mensais com ajuste sazonal das comparações anuais sem ajuste.",
-          "why": "Para fabricantes, varejistas e prestadores de serviços, a alta dos preços dos fornecedores cria uma escolha entre aceitar margens menores e cobrar mais dos clientes. Isso torna a inflação ao produtor relevante para o poder de compra das famílias, sem transformá-la em uma previsão direta da inflação ao consumidor. A interpretação editorial é que o poder de definir preços e o controle de custos devem ser examinados em conjunto ao avaliar os lucros futuros das empresas.",
-          "uncertainty": "Preços ao produtor não são preços ao consumidor, e a divulgação não estabelece quanto as empresas vão repassar. Os dados recentes podem ser revisados. Como não há uma estimativa de consenso incluída aqui, o resultado não é caracterizado como uma surpresa.",
-          "watch": "Acompanhe as próximas revisões dos preços ao produtor, as divulgações de preços ao consumidor e os comentários das empresas sobre preços de venda em relação aos custos dos insumos. Uma confirmação exigiria evidências de que o alívio nos custos está se refletindo nas margens ou nas contas dos clientes.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Inflação ao produtor — índice geral, mensal"
-            },
-            {
-              "id": "m2",
-              "label": "Inflação ao produtor — índice geral, anual"
-            },
-            {
-              "id": "m3",
-              "label": "Núcleo da inflação ao produtor, mensal"
-            },
-            {
-              "id": "m4",
-              "label": "Núcleo da inflação ao produtor, anual"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Regulador chinês apresenta prioridades de pesquisa, não novas regras de negociação",
-          "summary": "O presidente do órgão regulador do mercado de valores mobiliários da China defendeu estudos sobre financiamento de empresas de tecnologia, resiliência do mercado e mecanismos de proteção para inteligência artificial.",
-          "impact": "O discurso sinaliza prioridades de política regulatória, mas não altera, por si só, os critérios de admissão à bolsa, as condições de negociação ou as proteções aos investidores.",
-          "what": "Em um discurso publicado pelo organizador da conferência, Wu Qing discutiu a adaptação das estruturas do mercado de capitais às grandes empresas de tecnologia e às empresas tecnológicas emergentes. Também destacou o capital paciente, voltado ao longo prazo, a microestrutura do mercado, a transmissão de riscos entre mercados e os mecanismos de proteção para inteligência artificial. A linguagem apresenta esses temas como assuntos para pesquisa e desenvolvimento institucional, e não como um pacote de aplicação imediata.",
-          "why": "O financiamento por ações pode apoiar empresas cujos gastos de desenvolvimento antecedem a geração consistente de caixa. No entanto, um acesso mais fácil ao capital só cria riqueza duradoura para as famílias se a divulgação de informações, a governança e a disciplina de investimento ajudarem a distinguir projetos viáveis de narrativas promocionais. A interpretação editorial é que o acesso ao financiamento e a proteção dos investidores precisam ser avaliados em conjunto, em vez de tratar o apoio à tecnologia como um benefício incondicional para as avaliações de mercado.",
-          "uncertainty": "O discurso não apresenta disposições de implementação com força obrigatória nem um cronograma para a agenda de pesquisa. Portanto, não permite concluir que haverá mudanças iminentes nas emissões de valores mobiliários, entradas garantidas de recursos de investidores institucionais ou redução do risco de mercado. Tratar o discurso como uma reforma já aprovada exageraria o alcance das evidências.",
-          "watch": "Acompanhe documentos formais de consulta pública, alterações nas regras das bolsas e medidas de implementação publicadas. Seus critérios efetivos de elegibilidade, obrigações de divulgação e mecanismos de fiscalização mostrariam se as prioridades anunciadas alteram de forma relevante as condições de financiamento.",
-          "metricLabels": []
-        },
-        {
-          "id": "f5",
-          "title": "Entenda o balanço: crescimento do lucro diverge do caixa operacional",
-          "summary": "O relatório já divulgado da CATL mostra aumento do lucro atribuível aos acionistas da controladora, acompanhado de queda na geração de caixa operacional acumulada no ano.",
-          "impact": "Essa divergência torna a conversão de lucro em caixa uma verificação importante do crescimento dos lucros informado pela fabricante de baterias.",
-          "what": "Esta é uma explicação de resultados já divulgados, não um novo anúncio. A CATL fornece baterias para veículos elétricos e armazenamento de energia. Seu relatório apresenta separadamente a receita e o lucro atribuível aos acionistas da controladora no trimestre civil e, depois, a receita, o lucro e o caixa operacional acumulados. A comparação do lucro acumulado é positiva, enquanto a comparação correspondente do caixa operacional é negativa. O relatório não foi auditado.",
-          "why": "O lucro contábil registra receitas e despesas conforme as regras de reconhecimento, enquanto o caixa operacional reflete recebimentos, pagamentos e outras movimentações das operações. Uma empresa em crescimento pode apresentar lucro maior enquanto suas operações absorvem caixa em outras frentes. A implicação editorial não é que os lucros sejam necessariamente pouco confiáveis, mas que a capacidade de financiamento e a qualidade do crescimento exigem uma avaliação separada do caixa.",
-          "uncertainty": "A tabela financeira principal não apresenta o fluxo de caixa operacional isolado do trimestre, por isso esse dado não é apresentado aqui. A divergência observada, por si só, não identifica sua causa nem comprova problemas de pagamento por parte dos clientes. O lucro atribuível aos acionistas da controladora também tem um escopo diferente do caixa operacional consolidado, pois exclui os resultados pertencentes aos acionistas não controladores.",
-          "watch": "Acompanhe as demonstrações anuais auditadas dos fluxos de caixa, as contas a receber, os estoques, as movimentações nos pagamentos a fornecedores e a conciliação apresentada pela administração sobre a conversão de lucro em caixa. Essas informações podem mostrar se a divergência reflete diferenças temporárias no momento dos recebimentos e pagamentos operacionais ou uma necessidade mais persistente de financiamento.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita do trimestre civil"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro líquido atribuível aos acionistas da controladora no trimestre civil"
-            },
-            {
-              "id": "m3",
-              "label": "Receita acumulada no ano"
-            },
-            {
-              "id": "m4",
-              "label": "Lucro líquido atribuível aos acionistas da controladora acumulado no ano"
-            },
-            {
-              "id": "m5",
-              "label": "Fluxo de caixa operacional acumulado no ano"
-            },
-            {
-              "id": "m6",
-              "label": "Crescimento do lucro atribuível aos acionistas da controladora acumulado no ano"
-            },
-            {
-              "id": "m7",
-              "label": "Variação do fluxo de caixa operacional acumulado no ano"
+              "label": "四半期の親会社株主に帰属する純損益"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的市場動態。請留意各篇內容的發布日期；近期公司報告以背景解說方式呈現。",
+      "status": "本期經核實的報導有限。部分市場沒有經核實的新消息；較早的報導仍明確標示日期。",
       "marketSummary": {
-        "us": "追蹤的指數在各自最近經查證的交易時段均下跌。附有日期的收盤資料反映當時表現，並非目前行情。",
-        "cn": "追蹤的指數在各自最近經查證的交易時段均下跌。附有日期的收盤資料反映當時表現，並非目前行情。"
+        "us": "追蹤的指數在各自最近經核實的交易日均下跌。所標示日期的收盤資料反映的是當日表現，並非目前行情。",
+        "cn": "追蹤的指數在各自最近經核實的交易日均下跌。所標示日期的收盤資料反映的是當日表現，並非目前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "生產者物價月增幅放緩，但潛在通膨壓力仍在",
-          "summary": "最新生產者物價報告顯示，整體物價月增幅放緩，但潛在通膨壓力持續。",
-          "impact": "對企業財務而言，這代表不能只因整體漲幅放緩，就認定成本壓力已經消失。",
-          "what": "美國勞工統計局衡量的是國內生產者收到的價格，而非家庭購買商品與服務所支付的價格。報告顯示，商品與服務價格均上漲，排除食品、能源及貿易服務的指標也上升。隨附表格分別列出經季節調整的月變動，以及未經季節調整的年比較。",
-          "why": "對製造商、零售商或服務業者而言，供應商漲價意味著必須在利潤率縮水與向顧客調漲售價之間取捨。因此，生產者物價與家庭購買力有關，但不能直接用來預測消費者物價。編輯據此認為，評估企業未來獲利時，應同時檢視定價能力與成本控制。",
-          "uncertainty": "生產者物價不等於消費者物價，這份報告也無法確定企業會將多少成本轉嫁給顧客。近期資料可能修正。本文未納入市場共識預估，因此不將結果描述為超出或低於預期。",
-          "watch": "後續觀察重點包括生產者物價修正、消費者物價報告，以及企業對售價與投入成本的說明；要確認成本壓力減輕是否已改善利潤率或降低顧客支出，仍需相關證據。",
+          "title": "游族記憶體訂單不等於營收大增",
+          "summary": "游族披露快閃記憶體客戶訂單，同時提醒，由於採用淨額法認列，預期對營收的貢獻很小。",
+          "impact": "財務重點在於採購所需資金與收款風險，而非經由子公司交易的商品總額。",
+          "what": "這家遊戲發行商旗下受控的記憶體經銷子公司，接獲未具名客戶的訂單。公告表示，這筆交易將以淨額認列營收，而非將商品全額列為銷售收入。公告也提醒，履行訂單需要預先投入大筆採購資金。先前申報的財報僅供背景參考，並非最新業績：年初至今歸屬母公司淨利為正，但營業活動現金流量為淨流出；單季則出現歸屬母公司淨損。這些資料涵蓋不同期間，不應混為一談。",
+          "why": "本報導的解讀是，貿易合約可能增加營運資金需求，卻未必帶來相應的帳面營收。供應商可能要求先付款，客戶之後才驗收並結清貨款。為這段資金缺口籌資，可能消耗可動用資金並產生利息費用。對初學者而言，營收是衡量業務活動的會計指標；淨利則已扣除認列的費用；營業活動現金流量反映日常營運產生或耗用的現金。簽下訂單不代表已收到現金，也不代表已賺取利潤。先前獲利與現金流不同步，因此訂單能否順利履行格外重要。",
+          "uncertainty": "基於商業保密條款，客戶身分未公開，外界難以獨立評估其信用狀況。公司列出的具體風險包括缺貨、融資成本、驗收爭議及延遲付款。最終會計處理與財務影響，仍須視實際履約情況及查核確認而定。",
+          "watch": "後續觀察重點包括出貨與驗收資訊、客戶付款情況、融資安排，以及後續存貨與應收帳款餘額。真正重要的是，這項業務扣除採購與資金成本後能否帶來現金，而非公告的合約金額是否愈來愈大。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "整體生產者物價月增率"
+              "label": "客戶訂單含稅金額，非營收"
             },
             {
               "id": "m2",
-              "label": "整體生產者物價年增率"
+              "label": "年初至今營收"
             },
             {
               "id": "m3",
-              "label": "基礎生產者物價月增率"
+              "label": "年初至今歸屬母公司淨利"
             },
             {
               "id": "m4",
-              "label": "基礎生產者物價年增率"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "中國證監會提出研究重點，並非公布交易新規",
-          "summary": "中國證監會主席呼籲研究科技企業融資、市場韌性與人工智慧安全防護。",
-          "impact": "這場演說透露政策重點，但本身並未改變上市資格、交易安排或投資人保障。",
-          "what": "在會議主辦方發布的演說中，吳清談到如何調整資本市場制度，以配合大型及新興科技企業的需求。他也強調長期投入的耐心資本、市場微觀結構、跨市場風險傳導，以及人工智慧的安全防護。相關措辭將這些議題定位為研究與制度建設方向，而非立即生效的配套措施。",
-          "why": "有些企業在產生穩定現金收入前，就需要投入研發支出，股權融資可以提供支持。不過，較容易取得資金，只有在資訊揭露、公司治理與投資紀律能協助分辨可行計畫和宣傳話術時，才有助於家庭累積持久財富。編輯據此認為，融資管道與投資人保障需要同時評估，不宜將支持科技企業視為對估值無條件有利。",
-          "uncertainty": "這場演說沒有提出具約束力的實施條文，也沒有研究議程的時間表。因此，無法據此認定證券發行規定即將改變、機構資金必然流入，或市場風險已經降低。若將演說視為已實施的改革，便超出了現有證據所能支持的範圍。",
-          "watch": "後續觀察重點包括正式徵求意見文件、交易所規則修訂，以及已公布的實施辦法。實際的資格條件、資訊揭露義務與執法安排，才能顯示這些政策重點是否實質改變融資條件。",
-          "metricLabels": []
-        },
-        {
-          "id": "f5",
-          "title": "財報解讀：獲利成長與營業現金流走勢分歧",
-          "summary": "寧德時代先前發布的報告顯示，歸屬母公司股東的淨利成長，但年初至今營業活動產生的現金減少。",
-          "impact": "這種分歧使獲利轉化為現金的能力，成為檢視這家電池製造商帳面獲利成長的重要依據。",
-          "what": "本文解讀先前已發布的財報，並非最新公告。寧德時代供應電動車與儲能電池。報告分別列出曆季營收與歸屬母公司股東的淨利，以及年初至今累計營收、淨利和營業現金流。累計淨利較去年同期成長，對應的營業現金流則下降；這份報告未經查核。",
-          "why": "會計利潤依認列規則記錄收入與費用，營業現金流則反映收款、付款及其他營業活動的現金變動。成長中的企業可能獲利增加，但現金被其他營業需求占用。編輯據此認為，這不代表獲利必然不可靠，而是評估融資能力與成長品質時，需要另外檢視現金狀況。",
-          "uncertainty": "主要財務表格未提供當季獨立的營業現金流，因此本文不予呈現。僅憑獲利與現金流的分歧，無法判定原因，也不能認定客戶付款出現問題。歸屬母公司股東的淨利與合併營業現金流的涵蓋範圍也不同，因為前者不包含歸屬少數股東的獲利。",
-          "watch": "後續觀察重點包括經查核的年度現金流量表、應收帳款、存貨、供應商付款變動，以及管理階層對獲利轉化為現金情況的調節說明。這些揭露有助於判斷，分歧究竟來自暫時的營運收付款時點差異，還是較持續的資金需求。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "曆季營收"
-            },
-            {
-              "id": "m2",
-              "label": "曆季歸屬母公司股東淨利"
-            },
-            {
-              "id": "m3",
-              "label": "年初至今累計營收"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今累計歸屬母公司股東淨利"
+              "label": "年初至今營業活動現金流量"
             },
             {
               "id": "m5",
-              "label": "年初至今累計營業現金流"
+              "label": "單季營收"
             },
             {
               "id": "m6",
-              "label": "年初至今累計歸屬母公司股東淨利成長率"
+              "label": "單季歸屬母公司淨利"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
+      "marketSummary": {
+        "us": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os fechamentos com data indicada se referem àqueles pregões, não às negociações atuais.",
+        "cn": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os fechamentos com data indicada se referem àqueles pregões, não às negociações atuais."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "Pedido de memórias da Yoozoo não representa um salto na receita",
+          "summary": "A Yoozoo divulgou um pedido de memórias flash feito por um cliente, mas alertou que o reconhecimento pelo valor líquido torna muito pequena a contribuição esperada para a receita.",
+          "impact": "A questão financeira está no financiamento das compras e no risco de recebimento, não no valor anunciado das mercadorias que passam pela subsidiária.",
+          "what": "A subsidiária de distribuição de memórias controlada pela publicadora de jogos recebeu um pedido de um cliente não identificado. O comunicado informa que a transação terá a receita reconhecida pelo valor líquido, em vez de registrar o valor integral das mercadorias como vendas. Também alerta que atender ao pedido exige recursos antecipados substanciais para as compras. Resultados divulgados anteriormente servem de contexto, não são resultados novos: no acumulado do ano, houve lucro atribuível e saída de caixa operacional, enquanto o trimestre isolado apresentou prejuízo atribuível. Esses períodos de apuração são diferentes e não devem ser combinados.",
+          "why": "A interpretação editorial é que um contrato comercial pode aumentar a necessidade de capital de giro sem gerar um acréscimo semelhante na receita registrada. Os fornecedores podem exigir pagamento antes que o cliente aceite a entrega e quite a fatura. Financiar esse intervalo pode consumir liquidez e gerar despesas com juros. Para quem está começando, receita é uma medida contábil da atividade da empresa; o lucro desconta as despesas reconhecidas; e o fluxo de caixa operacional acompanha o dinheiro gerado ou consumido nas operações. Um pedido assinado não significa dinheiro recebido nem lucro obtido. Por isso, a divergência anterior entre lucro e caixa torna a execução especialmente relevante.",
+          "uncertainty": "A identidade do cliente é mantida em sigilo por cláusulas de confidencialidade comercial, o que limita a avaliação independente de sua capacidade de pagamento. A empresa aponta como riscos concretos a falta de estoques, os custos de financiamento, as disputas sobre o aceite da entrega e os atrasos de pagamento. O tratamento contábil definitivo e os efeitos financeiros ainda dependem da execução efetiva e da confirmação da auditoria.",
+          "watch": "Os pontos a acompanhar são as divulgações sobre entrega e aceite, os recebimentos do cliente, os acordos de financiamento e os saldos posteriores de estoques e contas a receber. O teste relevante é saber se a atividade gera caixa após os custos de compra e financiamento, e não se os valores dos contratos anunciados ficam maiores.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Valor do pedido do cliente com impostos, não receita"
             },
             {
-              "id": "m7",
-              "label": "年初至今累計營業現金流變動率"
+              "id": "m2",
+              "label": "Receita acumulada no ano"
+            },
+            {
+              "id": "m3",
+              "label": "Lucro líquido atribuível acumulado no ano"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional acumulado no ano"
+            },
+            {
+              "id": "m5",
+              "label": "Receita trimestral"
+            },
+            {
+              "id": "m6",
+              "label": "Resultado líquido atribuível trimestral"
             }
           ]
         }
