@@ -1,46 +1,76 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-16T13:38:27.483Z",
-  "generatedAt": "2026-11-16T13:44:23.855Z",
+  "cutoffAt": "2026-11-16T23:24:23.988Z",
+  "generatedAt": "2026-11-16T23:28:29.363Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Federal Reserve Bank of St. Louis — broad US equity benchmark closing observations",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Associated Press — Wall Street closing report",
+      "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
     },
     {
       "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite closing observations",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "Federal Reserve Bank of St. Louis — broad market closing observations",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src3",
-      "label": "Dated mainland equity closing report and index table",
-      "url": "https://stock.cngold.org/c/2026-11-16/c10883008.html"
+      "label": "Federal Reserve Bank of St. Louis — technology market closing observations",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src4",
+      "label": "The Paper — mainland equity closing report",
+      "url": "https://m.thepaper.cn/newsDetail_forward_34489957"
+    },
+    {
+      "id": "src5",
+      "label": "Investing — mainland large capitalization index daily table",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
+    },
+    {
+      "id": "src6",
       "label": "Tyson Foods — earnings release furnished to the securities regulator",
       "url": "https://www.sec.gov/Archives/edgar/data/100493/000010049326000077/tsn2026q4exh-991.htm"
     },
     {
-      "id": "src5",
+      "id": "src7",
+      "label": "Tyson Foods — issuer earnings release and reconciliations",
+      "url": "https://www.tysonfoods.com/news/news-releases/2026/11/tyson-foods-reports-fourth-quarter-2026-results"
+    },
+    {
+      "id": "src8",
       "label": "Aramark — earnings release furnished to the securities regulator",
       "url": "https://www.sec.gov/Archives/edgar/data/1584509/000158450926000152/ex991armkq4fy2026.htm"
     },
     {
-      "id": "src6",
+      "id": "src9",
+      "label": "Aramark — fiscal earnings presentation",
+      "url": "https://aramark.gcs-web.com/static-files/c73603a7-129d-40bd-b3c1-547533f9ecce"
+    },
+    {
+      "id": "src10",
       "label": "National Bureau of Statistics — retail sales release",
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html"
     },
     {
-      "id": "src7",
-      "label": "National Bureau of Statistics — industrial production release",
-      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261116_1965842.html"
+      "id": "src11",
+      "label": "National Bureau of Statistics — economic press conference transcript",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965869.html"
     },
     {
-      "id": "src8",
+      "id": "src12",
+      "label": "National Bureau of Statistics — economic activity release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html"
+    },
+    {
+      "id": "src13",
+      "label": "National Bureau of Statistics — property development release",
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261116_1965840.html"
+    },
+    {
+      "id": "src14",
       "label": "National Bureau of Statistics — industrial production interpretation",
       "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261116_1965852.html"
     }
@@ -48,32 +78,28 @@
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-13",
-      "close": 7561.67,
-      "previousClose": 7592.4,
-      "changePercent": -0.4,
-      "sourceIds": [
-        "src1"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-13",
-      "close": 25136.27,
-      "previousClose": 25366.09,
-      "changePercent": -0.91,
-      "sourceIds": [
-        "src2"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "sse",
       "sessionDate": "2026-11-16",
       "close": 3602.57,
-      "previousClose": 3634.35,
+      "previousClose": null,
       "changePercent": -0.87,
       "sourceIds": [
-        "src3"
+        "src4"
       ]
     },
     {
@@ -83,7 +109,7 @@
       "previousClose": 4016.29,
       "changePercent": -0.91,
       "sourceIds": [
-        "src3"
+        "src5"
       ]
     }
   ],
@@ -108,25 +134,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src6"
           ],
-          "evidence": "Annual sales; opening results table, annual column."
+          "evidence": "Annual sales in the opening results table and consolidated condensed statements of income."
         },
         {
           "id": "m2",
-          "value": 1100000000,
-          "unit": "USD",
-          "periodStart": "2025-09-28",
-          "periodEnd": "2026-10-03",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src4"
-          ],
-          "evidence": "Annual accounting operating income; opening results table, annual column."
-        },
-        {
-          "id": "m3",
           "value": 453000000,
           "unit": "USD",
           "periodStart": "2025-09-28",
@@ -134,12 +147,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src6"
           ],
-          "evidence": "Annual net income attributable to the parent; consolidated income statement."
+          "evidence": "Annual column, consolidated condensed statements of income, net income attributable to the parent."
         },
         {
-          "id": "m4",
+          "id": "m3",
           "value": 2433000000,
           "unit": "USD",
           "periodStart": "2025-09-28",
@@ -147,317 +160,120 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src4"
+            "src6",
+            "src7"
           ],
-          "evidence": "Annual cash provided by operating activities; consolidated cash flow statement."
-        }
-      ],
-      "sourceIds": [
-        "src4"
-      ],
-      "evidence": "Annual highlights, quarterly highlights and outlook distinguish higher reported sales from weaker adjusted profitability, while cash flow statements establish operating cash generation."
-    },
-    {
-      "id": "f2",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-16",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 4646300000000,
-          "unit": "CNY",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Monthly total retail sales; main data table, monthly absolute amount column."
-        },
-        {
-          "id": "m2",
-          "value": 0.4,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Nominal monthly retail sales growth; main data table, total retail sales row."
-        },
-        {
-          "id": "m3",
-          "value": 2.5,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Retail sales excluding automobiles; main data table, monthly growth column."
+          "evidence": "Annual cash flow statement and free cash flow reconciliation, cash provided by operating activities."
         },
         {
           "id": "m4",
-          "value": -21.4,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "value": 14585000000,
+          "unit": "USD",
+          "periodStart": "2026-06-28",
+          "periodEnd": "2026-10-03",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Automobile retail sales at enterprises above the designated threshold; category table, monthly growth column."
+          "evidence": "Quarterly column of the opening results table, sales row."
+        },
+        {
+          "id": "m5",
+          "value": -74000000,
+          "unit": "USD",
+          "periodStart": "2026-06-28",
+          "periodEnd": "2026-10-03",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "Quarterly consolidated condensed income statement, net loss attributable to the parent."
+        },
+        {
+          "id": "m6",
+          "value": -514000000,
+          "unit": "USD",
+          "periodStart": "2026-06-28",
+          "periodEnd": "2026-10-03",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Segment operating income as reported table, quarterly beef row."
         }
       ],
       "sourceIds": [
-        "src6"
+        "src6",
+        "src7"
       ],
-      "evidence": "Opening paragraph and retail category table show subdued nominal spending growth and automobile weakness; explanatory notes define coverage and comparability."
-    },
-    {
-      "id": "f3",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-16",
-      "company": {
-        "name": "Aramark",
-        "ticker": "ARMK",
-        "exchange": "NYSE"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 20090009000,
-          "unit": "USD",
-          "periodStart": "2025-10-04",
-          "periodEnd": "2026-10-02",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Annual revenue; condensed consolidated statements of income, annual column."
-        },
-        {
-          "id": "m2",
-          "value": 433707000,
-          "unit": "USD",
-          "periodStart": "2025-10-04",
-          "periodEnd": "2026-10-02",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Annual net income attributable to stockholders; annual consolidated income statement."
-        },
-        {
-          "id": "m3",
-          "value": 989246000,
-          "unit": "USD",
-          "periodStart": "2025-10-04",
-          "periodEnd": "2026-10-02",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Annual net cash provided by operating activities; consolidated cash flow statement."
-        },
-        {
-          "id": "m4",
-          "value": 917272000,
-          "unit": "USD",
-          "periodStart": "2025-10-04",
-          "periodEnd": "2026-10-02",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src5"
-          ],
-          "evidence": "Annual accounting operating income; annual consolidated income statement."
-        }
-      ],
-      "sourceIds": [
-        "src5"
-      ],
-      "evidence": "Annual highlights and financial statements establish revenue, profit and operating cash growth; capital allocation discussion announces a repurchase authorization."
+      "evidence": "Opening highlights, reported segment results, consolidated income statements and annual cash flow reconciliation establish the quarterly loss, beef pressure and positive annual operating cash generation."
     }
   ],
   "locales": {
     "en": {
-      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
+      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Tyson Foods exposes the gap between sales and earnings",
-          "summary": "Tyson Foods reported higher annual sales but weaker adjusted profitability, alongside stronger operating cash generation.",
-          "impact": "The results suggest that food-industry revenue resilience need not translate into stronger returns when supply constraints and operating costs intervene.",
-          "what": "Tyson Foods processes meat and sells branded prepared foods to retailers and food-service customers. Its release presents annual accounting profit and operating cash flow separately, while the closing quarter produced a parent-attributable accounting loss. An additional reporting week complicates the sales comparison, and management's adjusted measures remove selected effects. Those adjustments should be read alongside, rather than substituted for, the accounting statements.",
-          "why": "The financial distinction matters for households and businesses buying protein. Sales measure what customers were charged, not what remained after production, distribution, financing and taxes. Cash generation answers another question: whether operations supplied money to fund investment and obligations. Our interpretation is that investors should test the durability of cash generation rather than assume revenue growth demonstrates improving economics. A processor can preserve customer demand while struggling to recover procurement costs, and changing product mix can alter profitability without an equivalent change in consumer purchasing power.",
-          "uncertainty": "Management links its weaker sales outlook to beef-network restructuring and tight cattle supplies; that outlook remains a forecast. Annual cash flow cannot establish the closing quarter's cash performance, and operating cash is not fully available for shareholders because capital investment and financing obligations still require funding. The release does not establish a direct path from company margins to supermarket prices.",
-          "watch": "Watch subsequent segment profitability, cattle procurement conditions and the reconciliation between reported and adjusted sales. Further cash flow statements should show whether operating inflows remain resilient after working-capital movements, while investment spending will help establish how much cash remains available after maintaining the production network.",
+          "title": "Beef losses complicate the food producer's cash picture",
+          "summary": "Tyson Foods reported a quarterly loss attributable to shareholders as its beef business remained under pressure.",
+          "impact": "For investors and food buyers, the release illustrates why supermarket prices, processor profitability and cash generation can move differently.",
+          "what": "Tyson Foods processes beef, pork and chicken and sells branded prepared foods to retail and foodservice customers. Its latest earnings release shows annual profitability alongside a loss in the closing fiscal quarter, with beef recording an operating loss. Reported sales benefited from an extended fiscal calendar, while the issuer's comparable-calendar discussion showed underlying quarterly sales pressure. Legal contingency accruals also affected sales presentation, so headline revenue should not be treated as a clean measure of consumer demand.",
+          "why": "The financial mechanism is the gap between livestock purchasing costs and the prices a processor receives for finished meat. An expensive consumer product does not necessarily produce a healthy processor margin. Diversification into chicken and prepared foods can cushion beef weakness without eliminating it. Separately, annual operating cash flow reflects actual cash generated through operations after working-capital movements, rather than simply repeating accounting profit; that distinction matters when assessing capacity to fund equipment, debt obligations and shareholder distributions. These are analytical implications, not forecasts.",
+          "uncertainty": "The quarterly loss and annual operating cash figure cover different periods and are not directly comparable. Management's adjusted results exclude selected expenses and calendar effects; they are neither reported accounting earnings nor a substitute for cash flow. No verified consensus measure is included, so this report makes no earnings-surprise claim.",
+          "watch": "Watch subsequent beef segment margins, comparable-calendar sales volumes and the cash flow statement for evidence that operational improvement is translating into cash rather than merely accounting adjustments.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Fiscal-year revenue"
+              "label": "Fiscal annual revenue"
             },
             {
               "id": "m2",
-              "label": "Fiscal-year accounting operating income"
+              "label": "Fiscal annual net income attributable to shareholders"
             },
             {
               "id": "m3",
-              "label": "Fiscal-year net income attributable to parent"
+              "label": "Fiscal annual operating cash flow"
             },
             {
               "id": "m4",
-              "label": "Fiscal-year operating cash flow"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "China retail spending shows an automobile drag",
-          "summary": "China's retail release showed subdued spending growth, with automobile weakness contrasting with firmer sales outside that category.",
-          "impact": "For mainland consumer businesses, the release argues for examining product categories rather than treating aggregate spending as evidence of a broad recovery.",
-          "what": "The National Bureau of Statistics published its latest monthly retail data, covering physical goods sold for consumption and catering receipts. The headline measure is nominal, meaning it includes price effects. Automobile sales in the designated larger-enterprise sample contracted, while the broader measure excluding automobiles increased. These series have different coverage, so the category result should not be treated as an exact contribution calculation.",
-          "why": "Our interpretation is that the composition of spending matters for earnings transmission. Dealers, suppliers and discretionary retailers depend on different purchasing decisions, inventory requirements and financing arrangements. Weak vehicle receipts could reflect transaction volumes, prices or product mix; the release does not isolate those channels. For a household, postponing a durable purchase is different from reducing everyday consumption. For a business, turnover growth becomes financially useful only if gross profit and collections can cover wages, rent and other commitments. The aggregate release is therefore a demand signal, not a substitute for company accounts.",
-          "uncertainty": "Retail sales do not encompass all household services consumption, and nominal growth is not a direct measure of real purchasing volumes. The statistical notes also explain that enterprise coverage changes and comparable growth calculations can differ from previously published levels. No company-specific revenue, earnings or cash flow conclusion follows automatically from the national totals.",
-          "watch": "Watch whether later releases show improvement across discretionary categories rather than merely a change in the automobile comparison. Issuer disclosures on inventory, discounting, receivables and operating cash would provide the next observable bridge from spending data to shareholder economics. A durable improvement would be more persuasive if demand indicators and cash collection moved consistently, rather than relying on aggregate revenue alone.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Monthly retail sales"
+              "label": "Fiscal closing quarter revenue"
             },
             {
-              "id": "m2",
-              "label": "Nominal retail sales growth"
+              "id": "m5",
+              "label": "Fiscal closing quarter net income attributable to shareholders"
             },
             {
-              "id": "m3",
-              "label": "Retail sales growth excluding automobiles"
-            },
-            {
-              "id": "m4",
-              "label": "Automobile retail growth at larger enterprises"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Aramark pairs earnings growth with stronger cash generation",
-          "summary": "Aramark reported higher annual revenue, accounting profit and operating cash flow, and announced a new repurchase authorization.",
-          "impact": "The release provides evidence that contracted food and facilities services can expand earnings while generating cash, although capital returns remain a management choice.",
-          "what": "Aramark provides food and facilities management services. Its annual statements show revenue, parent-attributable net income and cash from operations as distinct measures. Management attributes growth to new business, client retention and activity at existing accounts, with purchasing and productivity efficiencies supporting profitability. The release also flags reporting-calendar effects that complicate quarterly comparisons.",
-          "why": "Our interpretation is that a service contractor's financial quality depends on converting contract wins into profitable, collectible work. A new account creates revenue opportunities but can also require staffing, equipment and working capital before cash arrives. Retaining customers may reduce replacement effort, while purchasing scale can help absorb food and supply costs. For clients such as employers and institutions, these economics influence the cost of outsourcing. For shareholders, the important distinction is between winning business and producing cash after delivering the service. Neither reported earnings nor a buyback announcement alone settles that question.",
-          "uncertainty": "Operating cash flow is not the same as cash left after investment. Management identifies seasonal cash inflows associated with its collegiate business, so the closing quarter should not be extrapolated mechanically. A repurchase authorization permits transactions but does not establish that purchases have occurred, and forward-looking organic growth measures are not realized accounting revenue.",
-          "watch": "Watch subsequent contract retention, implementation costs and the conversion of new accounts into operating income. Future cash statements should clarify whether collections remain supportive outside the seasonally strong period. Actual repurchases, debt movements and capital expenditure will show how management balances shareholder distributions against financial flexibility and the investment required to serve customers.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Fiscal-year revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Fiscal-year net income attributable to stockholders"
-            },
-            {
-              "id": "m3",
-              "label": "Fiscal-year operating cash flow"
-            },
-            {
-              "id": "m4",
-              "label": "Fiscal-year accounting operating income"
+              "id": "m6",
+              "label": "Fiscal closing quarter beef operating income"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的市场动态。请留意各篇内容的发布日期；近期公司财报在此作为背景解读。",
+      "status": "本期经核实的报道覆盖有限。部分市场暂无经核实的新报道；较早的报道仍明确标注其所属日期。",
       "marketSummary": {
-        "us": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映对应交易日的情况，并非当前行情。",
-        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映对应交易日的情况，并非当前行情。"
+        "us": "部分收盘情况未能核实。已提供的各项指数均保留各自的交易日期。",
+        "cn": "所跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据仅反映对应交易日的情况，并非当前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "泰森食品财报揭示营收与盈利之间的差距",
-          "summary": "泰森食品年度营收增长，但调整后盈利能力减弱，同时经营活动带来的现金增加。",
-          "impact": "这份业绩表明，当供应受限、经营成本承压时，食品行业营收保持韧性，并不意味着回报也会改善。",
-          "what": "泰森食品从事肉类加工，并向零售商和餐饮服务客户销售品牌预制食品。公司公告分别列示了年度会计利润和经营现金流，而财年末季录得归属于母公司的会计净亏损。报告期周数增加，使营收比较更为复杂；管理层采用的调整后指标则剔除了特定因素的影响。阅读这些调整后指标时，应结合会计报表，而不能用它们替代会计报表。",
-          "why": "对于购买蛋白质食品的家庭和企业，这些财务概念的区别很重要。营收衡量的是向客户收取的金额，而非扣除生产、配送、融资和税费后剩余的收益。现金创造能力回答的则是不同的问题：经营活动是否带来了可用于投资和履行付款义务的资金。我们的解读是，投资者应检验现金创造能力能否持续，而不能假定营收增长就代表经营效益改善。加工企业可能保持客户需求，却仍难以通过销售弥补采购成本；产品组合的变化也可能改变盈利能力，而消费者购买力未必发生相应变化。",
-          "uncertainty": "管理层认为，销售前景转弱与牛肉业务网络重组及活牛供应紧张有关，但这仍属于预测。全年现金流无法说明财年末季的现金表现，经营现金也并非全部可供股东分配，因为资本投资和融资相关义务仍需要资金。公告并未证实公司利润率与超市价格之间存在直接的传导关系。",
-          "watch": "关注后续各业务分部的盈利能力、活牛采购状况，以及报表营收与调整后营收之间的调节说明。后续现金流量表应能显示，在营运资金变动的影响下，经营现金流入是否仍有韧性；投资支出则有助于判断，维持生产网络后还有多少现金可用。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "财年营收"
-            },
-            {
-              "id": "m2",
-              "label": "财年会计口径营业利润"
-            },
-            {
-              "id": "m3",
-              "label": "财年归属于母公司的净利润"
-            },
-            {
-              "id": "m4",
-              "label": "财年经营现金流"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "中国零售消费受到汽车销售拖累",
-          "summary": "中国零售数据显示，消费增长偏弱，汽车销售疲软，而汽车以外的销售表现相对稳健。",
-          "impact": "对于中国内地消费企业，这份数据表明，需要仔细观察商品类别，而不能把消费总量视为全面复苏的证据。",
-          "what": "国家统计局发布了最新月度零售数据，涵盖用于消费的实物商品销售额和餐饮收入。整体指标采用名义口径，即包含价格变化的影响。限额以上单位样本中的汽车类销售额下降，而覆盖范围更广的除汽车以外零售额增长。这些统计序列的覆盖范围不同，因此不能直接用该类别的表现精确计算其对整体增长的贡献。",
-          "why": "我们的解读是，消费结构会影响需求如何传导至企业盈利。汽车经销商、供应商和非必需消费品零售商，所依赖的购买决策、库存需求和融资安排各不相同。汽车销售收入疲弱，可能反映成交量、价格或产品组合的变化，但这份数据并未区分这些因素的影响。对家庭而言，推迟购买耐用品与减少日常消费并不相同。对企业而言，只有毛利润和销售回款能够覆盖工资、租金及其他付款义务，营业额增长才有实际财务意义。因此，整体零售数据是需求信号，不能替代公司财务报表。",
-          "uncertainty": "社会消费品零售总额并未涵盖全部居民服务消费，名义增长也不能直接衡量实际购买量的变化。统计说明还指出，纳入统计的企业范围会发生变化，按可比口径计算的增速可能与根据此前公布的总量计算出的结果不同。全国汇总数据不会自动推导出特定公司的营收、盈利或现金流结论。",
-          "watch": "关注后续数据是否显示非必需消费类别普遍改善，而不只是汽车类比较基数发生变化。企业披露的库存、折扣、应收账款和经营现金流，将为观察消费数据如何传导至股东收益提供后续线索。如果需求指标与销售回款同步改善，而非仅有整体营收增长，复苏的持续性会更有说服力。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "月度社会消费品零售总额"
-            },
-            {
-              "id": "m2",
-              "label": "社会消费品零售总额名义增速"
-            },
-            {
-              "id": "m3",
-              "label": "除汽车以外的消费品零售额增速"
-            },
-            {
-              "id": "m4",
-              "label": "限额以上单位汽车类零售额增速"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "爱玛客盈利增长，现金创造能力增强",
-          "summary": "爱玛客年度营收、会计利润和经营现金流均增长，并宣布了新的股份回购授权。",
-          "impact": "这份公告表明，合同制餐饮和设施服务业务可以在增加盈利的同时创造现金，但是否向股东返还资金仍由管理层决定。",
-          "what": "爱玛客提供餐饮和设施管理服务。其年度报表分别列示了营收、归属于母公司的净利润和经营现金流。管理层将增长归因于新业务、客户留存和现有客户业务活动增加，并表示采购和生产效率提升支持了盈利能力。公告也提示，报告期日历安排的影响使季度比较更为复杂。",
-          "why": "我们的解读是，服务承包商的财务质量取决于能否将新签合同转化为有利润、能收回款项的业务。新客户带来营收机会，但也可能需要在收到现金之前投入人员、设备和营运资金。留住客户可能减少寻找替代客户的投入，而规模采购有助于消化食品和物资成本。对于雇主和机构等客户，这些经营因素会影响外包成本。对于股东，关键是区分赢得业务与完成服务后真正产生现金。仅凭账面盈利或回购公告，都无法回答这个问题。",
-          "uncertainty": "经营现金流不等于扣除投资后剩余的现金。管理层指出，高校业务会带来季节性现金流入，因此不应机械地将财年末季的表现外推至其他时期。回购授权只是允许开展交易，并不代表回购已经发生；前瞻性的有机增长指标，也不是已经实现的会计口径营收。",
-          "watch": "关注后续合同续约情况、服务落地成本，以及新客户业务转化为营业利润的情况。未来现金流量表应有助于判断，在季节性旺季之外，回款是否仍能提供支持。实际回购、债务变化和资本支出，将显示管理层如何在股东分配、财务灵活性以及服务客户所需的投资之间取得平衡。",
+          "title": "牛肉业务亏损，让泰森食品的现金状况更难判断",
+          "summary": "泰森食品公布季度归属于股东的净亏损，牛肉业务持续承压。",
+          "impact": "对投资者和食品购买者而言，这份财报说明，超市售价、加工企业的盈利能力和现金创造能力为何可能出现不同走势。",
+          "what": "泰森食品加工牛肉、猪肉和鸡肉，并向零售及餐饮服务客户销售品牌预制食品。最新财报显示，公司全年盈利，但财年末季亏损，牛肉业务也录得营业亏损。财年统计期间延长使报告营收受益，但公司按可比财年日历口径进行的分析显示，季度销售实际承压。针对潜在法律责任计提的款项也影响了营收的列报，因此不能直接将公布的营收视为消费者需求的纯粹体现。",
+          "why": "其财务机制在于牲畜采购成本与加工企业出售肉制品所得价格之间的差额。消费者买肉价格高，并不意味着加工企业的利润率就高。鸡肉和预制食品等多元化业务可以缓冲牛肉业务的疲弱，但无法消除其影响。此外，全年经营现金流反映的是经营活动在营运资金变动后实际产生的现金，并非会计利润的简单重现。评估公司能否为设备投入、偿还债务和向股东分配资金提供支持时，这种区别很重要。这些是分析层面的含义，并非预测。",
+          "uncertainty": "季度亏损与全年经营现金流涵盖的期间不同，不能直接比较。管理层公布的调整后业绩剔除了部分费用和财年日历差异的影响，既不等同于按会计准则报告的利润，也不能替代现金流。本报道未纳入经核实的市场共识预期，因此不判断业绩是否超出或低于预期。",
+          "watch": "后续可关注牛肉业务利润率、可比财年日历口径下的销量及现金流量表，以判断经营改善是否正在转化为现金，而不只是体现为会计调整。",
           "metricLabels": [
             {
               "id": "m1",
@@ -473,121 +289,81 @@
             },
             {
               "id": "m4",
-              "label": "财年会计口径营业利润"
+              "label": "财年末季营收"
+            },
+            {
+              "id": "m5",
+              "label": "财年末季归属于股东的净利润"
+            },
+            {
+              "id": "m6",
+              "label": "财年末季牛肉业务营业利润"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication ; les récents résultats d’entreprises sont présentés pour éclairer le contexte.",
+      "status": "Cette édition contient peu d’informations vérifiées. Certains marchés n’ont pas de nouvelle actualité vérifiée ; les rapports plus anciens restent clairement signalés comme tels.",
       "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, pas les échanges actuels.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, pas les échanges actuels."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Tyson Foods illustre le décalage entre ventes et bénéfices",
-          "summary": "Tyson Foods a annoncé une hausse de son chiffre d’affaires annuel, mais une rentabilité ajustée plus faible, malgré une meilleure génération de trésorerie d’exploitation.",
-          "impact": "Ces résultats suggèrent que la résistance du chiffre d’affaires dans l’agroalimentaire ne se traduit pas nécessairement par une meilleure rentabilité lorsque l’approvisionnement est limité et que les coûts d’exploitation pèsent.",
-          "what": "Tyson Foods transforme de la viande et vend des aliments préparés de marque aux distributeurs et aux professionnels de la restauration. Son communiqué présente séparément le bénéfice comptable annuel et les flux de trésorerie d’exploitation, tandis que le trimestre de clôture s’est soldé par une perte comptable attribuable à la société mère. L’allongement du calendrier comptable hebdomadaire complique la comparaison des ventes, et les indicateurs ajustés de la direction excluent certains effets. Ces ajustements doivent être lus en complément des états comptables, et non les remplacer.",
-          "why": "Cette distinction financière compte pour les ménages et les entreprises qui achètent des aliments protéinés. Le chiffre d’affaires mesure les montants facturés aux clients, pas ce qui reste après les coûts de production, de distribution, de financement et les impôts. La génération de trésorerie répond à une question différente : l’activité fournit-elle les fonds nécessaires aux investissements et aux engagements financiers ? Selon notre analyse, les investisseurs devraient examiner la solidité de cette génération de trésorerie plutôt que supposer qu’une hausse du chiffre d’affaires démontre une amélioration économique. Un transformateur peut conserver la demande de ses clients tout en peinant à répercuter ses coûts d’approvisionnement. La répartition des ventes entre produits peut aussi modifier la rentabilité sans évolution équivalente du pouvoir d’achat des consommateurs.",
-          "uncertainty": "La direction relie ses perspectives de ventes moins favorables à la restructuration de son réseau de production de viande bovine et à une offre de bovins limitée ; ces perspectives restent des prévisions. Les flux de trésorerie annuels ne permettent pas de déterminer ceux du trimestre de clôture. La trésorerie d’exploitation n’est pas entièrement disponible pour les actionnaires, car les investissements et les obligations de financement doivent encore être couverts. Le communiqué ne démontre pas de lien direct entre les marges de l’entreprise et les prix en supermarché.",
-          "watch": "À suivre : la rentabilité des différents segments, les conditions d’approvisionnement en bovins et le rapprochement entre ventes publiées et ventes ajustées. Les prochains tableaux de flux de trésorerie devraient indiquer si les encaissements d’exploitation restent solides après les variations du besoin en fonds de roulement. Les dépenses d’investissement aideront à déterminer la trésorerie encore disponible après l’entretien du réseau de production.",
+          "title": "Les pertes dans le bœuf compliquent la situation de trésorerie du producteur alimentaire",
+          "summary": "Tyson Foods a annoncé une perte trimestrielle attribuable aux actionnaires, alors que son activité de transformation du bœuf restait sous pression.",
+          "impact": "Pour les investisseurs et les acheteurs de produits alimentaires, cette publication montre pourquoi les prix en supermarché, la rentabilité des transformateurs et la trésorerie générée peuvent évoluer différemment.",
+          "what": "Tyson Foods transforme du bœuf, du porc et du poulet, et vend des aliments préparés de marque aux distributeurs et aux professionnels de la restauration. Sa dernière publication de résultats fait apparaître un bénéfice annuel, mais une perte au dernier trimestre de l’exercice, avec une perte d’exploitation dans le bœuf. Le chiffre d’affaires publié a bénéficié d’un exercice comptable plus long, tandis que les commentaires de l’entreprise à calendrier comparable faisaient ressortir des tensions sur les ventes trimestrielles sous-jacentes. Des provisions pour risques liés à des litiges ont également influencé la présentation des ventes : le chiffre d’affaires publié ne doit donc pas être considéré comme une mesure sans distorsion de la demande des consommateurs.",
+          "why": "Le mécanisme financier repose sur l’écart entre le coût d’achat du bétail et les prix que le transformateur obtient pour la viande vendue. Un produit coûteux pour le consommateur ne garantit pas une marge satisfaisante au transformateur. La diversification dans le poulet et les aliments préparés peut atténuer les difficultés du bœuf sans les supprimer. Par ailleurs, le flux de trésorerie d’exploitation annuel représente la trésorerie réellement générée par l’activité, après les variations du besoin en fonds de roulement, et non une simple reprise du bénéfice comptable. Cette distinction compte pour évaluer la capacité à financer les équipements, à honorer les engagements liés à la dette et à rémunérer les actionnaires. Il s’agit de conclusions d’analyse, pas de prévisions.",
+          "uncertainty": "La perte trimestrielle et le flux de trésorerie d’exploitation annuel portent sur des périodes différentes et ne sont pas directement comparables. Les résultats ajustés présentés par la direction excluent certaines charges et certains effets de calendrier ; ils ne correspondent ni aux résultats comptables publiés ni à un substitut aux flux de trésorerie. Aucune estimation vérifiée du consensus des analystes n’est incluse : ce rapport n’affirme donc pas que les résultats ont dépassé ou manqué les attentes.",
+          "watch": "Suivre les prochaines marges de l’activité bœuf, les volumes de ventes à calendrier comparable et le tableau des flux de trésorerie pour voir si l’amélioration opérationnelle se traduit par de la trésorerie, plutôt que par de simples ajustements comptables.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires de l’exercice"
+              "label": "Chiffre d’affaires annuel de l’exercice"
             },
             {
               "id": "m2",
-              "label": "Résultat opérationnel comptable de l’exercice"
+              "label": "Résultat net annuel de l’exercice attribuable aux actionnaires"
             },
             {
               "id": "m3",
-              "label": "Résultat net de l’exercice attribuable à la société mère"
+              "label": "Flux de trésorerie d’exploitation annuel de l’exercice"
             },
             {
               "id": "m4",
-              "label": "Flux de trésorerie d’exploitation de l’exercice"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "L’automobile freine les ventes au détail en Chine",
-          "summary": "La publication chinoise sur les ventes au détail fait état d’une croissance modérée des dépenses, la faiblesse de l’automobile contrastant avec des ventes plus solides hors de cette catégorie.",
-          "impact": "Pour les entreprises de consommation en Chine continentale, cette publication invite à examiner les catégories de produits plutôt qu’à considérer les dépenses globales comme la preuve d’une reprise généralisée.",
-          "what": "Le Bureau national des statistiques a publié ses dernières données mensuelles sur les ventes au détail, qui couvrent les biens matériels vendus pour la consommation et les recettes de la restauration. L’indicateur global est exprimé en valeur nominale : il intègre donc les effets des prix. Les ventes automobiles ont diminué dans l’échantillon des entreprises dépassant le seuil statistique retenu, tandis que l’indicateur plus large excluant l’automobile a progressé. Ces séries n’ont pas le même périmètre : le résultat de cette catégorie ne doit donc pas être interprété comme un calcul exact de sa contribution à l’ensemble.",
-          "why": "Selon notre analyse, la composition des dépenses compte pour comprendre leur effet sur les bénéfices. Les concessionnaires, les fournisseurs et les distributeurs de produits non essentiels dépendent de décisions d’achat, de besoins en stocks et de modalités de financement différents. La faiblesse des recettes automobiles peut refléter les volumes de transactions, les prix ou la répartition des ventes entre modèles ; la publication ne distingue pas ces facteurs. Pour un ménage, reporter l’achat d’un bien durable n’équivaut pas à réduire sa consommation courante. Pour une entreprise, la croissance du chiffre d’affaires ne devient financièrement utile que si la marge brute et les encaissements permettent de couvrir les salaires, les loyers et les autres engagements. Cette publication globale donne donc un signal sur la demande, mais ne remplace pas les comptes des entreprises.",
-          "uncertainty": "Les ventes au détail ne couvrent pas toute la consommation de services des ménages, et leur croissance nominale ne mesure pas directement l’évolution des volumes réellement achetés. Les notes statistiques expliquent également que le périmètre des entreprises évolue et que les calculs de croissance à périmètre comparable peuvent différer de ceux tirés des niveaux publiés auparavant. Les totaux nationaux ne permettent pas de tirer automatiquement des conclusions sur le chiffre d’affaires, les bénéfices ou la trésorerie d’une entreprise donnée.",
-          "watch": "À suivre : les prochaines publications montreront-elles une amélioration dans les catégories de dépenses non essentielles, plutôt qu’un simple changement de la base de comparaison automobile ? Les informations publiées par les entreprises sur les stocks, les remises, les créances clients et la trésorerie d’exploitation permettront ensuite de relier les données de consommation aux résultats pour les actionnaires. Une amélioration durable serait plus convaincante si les indicateurs de demande et les encaissements évoluaient de façon cohérente, plutôt que de reposer uniquement sur le chiffre d’affaires global.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ventes au détail mensuelles"
+              "label": "Chiffre d’affaires du dernier trimestre de l’exercice"
             },
             {
-              "id": "m2",
-              "label": "Croissance nominale des ventes au détail"
+              "id": "m5",
+              "label": "Résultat net du dernier trimestre de l’exercice attribuable aux actionnaires"
             },
             {
-              "id": "m3",
-              "label": "Croissance des ventes au détail hors automobile"
-            },
-            {
-              "id": "m4",
-              "label": "Croissance des ventes automobiles au détail des entreprises au-dessus du seuil statistique"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Aramark associe hausse des bénéfices et meilleure génération de trésorerie",
-          "summary": "Aramark a annoncé une hausse de son chiffre d’affaires annuel, de son bénéfice comptable et de ses flux de trésorerie d’exploitation, ainsi qu’une nouvelle autorisation de rachat d’actions.",
-          "impact": "Cette publication montre que les services de restauration et de gestion des installations sous contrat peuvent accroître leurs bénéfices tout en générant de la trésorerie, même si les distributions aux actionnaires restent un choix de la direction.",
-          "what": "Aramark fournit des services de restauration et de gestion des installations. Ses comptes annuels présentent comme des indicateurs distincts le chiffre d’affaires, le résultat net attribuable à la société mère et les flux de trésorerie d’exploitation. La direction attribue la croissance aux nouveaux contrats, à la fidélisation des clients et à l’activité des contrats existants. Les gains d’efficacité dans les achats et la productivité soutiennent la rentabilité. Le communiqué signale aussi des effets de calendrier comptable qui compliquent les comparaisons trimestrielles.",
-          "why": "Selon notre analyse, la qualité financière d’un prestataire de services dépend de sa capacité à transformer les contrats remportés en prestations rentables dont les factures sont effectivement encaissées. Un nouveau client offre des possibilités de chiffre d’affaires, mais peut aussi nécessiter du personnel, des équipements et du fonds de roulement avant les encaissements. Fidéliser les clients peut réduire les efforts nécessaires pour les remplacer, tandis que le volume des achats peut aider à absorber les coûts alimentaires et des fournitures. Pour les clients, notamment les employeurs et les établissements, ces mécanismes influencent le coût de l’externalisation. Pour les actionnaires, la distinction importante se situe entre remporter des contrats et dégager de la trésorerie après avoir assuré les prestations. Ni les bénéfices publiés ni l’annonce d’un rachat d’actions ne suffisent à trancher cette question.",
-          "uncertainty": "Les flux de trésorerie d’exploitation ne correspondent pas à la trésorerie restante après investissement. La direction signale des encaissements saisonniers liés à son activité universitaire : les résultats du trimestre de clôture ne doivent donc pas être extrapolés mécaniquement. Une autorisation de rachat permet d’effectuer des opérations, mais ne prouve pas que des actions ont déjà été rachetées. Les indicateurs prévisionnels de croissance organique ne constituent pas du chiffre d’affaires comptable réalisé.",
-          "watch": "À suivre : la fidélisation des contrats, les coûts de mise en place et la contribution des nouveaux clients au résultat opérationnel. Les prochains tableaux de flux de trésorerie devraient préciser si les encaissements restent favorables en dehors de la période saisonnière forte. Les rachats effectivement réalisés, l’évolution de la dette et les dépenses d’investissement montreront comment la direction équilibre les distributions aux actionnaires, la souplesse financière et les investissements nécessaires au service des clients.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires de l’exercice"
-            },
-            {
-              "id": "m2",
-              "label": "Résultat net de l’exercice attribuable aux actionnaires"
-            },
-            {
-              "id": "m3",
-              "label": "Flux de trésorerie d’exploitation de l’exercice"
-            },
-            {
-              "id": "m4",
-              "label": "Résultat opérationnel comptable de l’exercice"
+              "id": "m6",
+              "label": "Résultat d’exploitation de l’activité bœuf au dernier trimestre de l’exercice"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Revisa la fecha de cada publicación; los informes empresariales recientes se presentan como contexto explicativo.",
+      "status": "La cobertura verificada de esta edición es limitada. Algunos mercados no tienen noticias nuevas verificadas; los informes de fechas anteriores siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los índices seguidos bajaron en sus respectivas sesiones verificadas más recientes. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual.",
-        "cn": "Los índices seguidos bajaron en sus respectivas sesiones verificadas más recientes. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
+        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Tyson Foods muestra la diferencia entre ventas y beneficios",
-          "summary": "Tyson Foods registró mayores ventas anuales, pero menor rentabilidad ajustada, junto con mayor generación de efectivo por sus operaciones.",
-          "impact": "Los resultados sugieren que la resistencia de los ingresos en la industria alimentaria no necesariamente se traduce en mayor rentabilidad cuando intervienen restricciones de suministro y costes operativos.",
-          "what": "Tyson Foods procesa carne y vende alimentos preparados de marca a comercios minoristas y clientes de servicios de alimentación. Su comunicado presenta por separado el beneficio contable anual y el flujo de efectivo operativo, mientras que el trimestre de cierre arrojó pérdidas contables atribuibles a la sociedad matriz. La semana adicional del período de información complica la comparación de ventas, y las medidas ajustadas de la dirección excluyen determinados efectos. Estos ajustes deben leerse junto con los estados contables, no sustituirlos.",
-          "why": "Esta distinción financiera importa para los hogares y las empresas que compran alimentos proteicos. Las ventas miden lo que se cobró a los clientes, no lo que quedó después de cubrir producción, distribución, financiación e impuestos. La generación de efectivo responde a otra pregunta: si las operaciones aportaron dinero para financiar inversiones y obligaciones. Nuestra interpretación es que los inversores deberían evaluar la capacidad de mantener esa generación de efectivo, en lugar de asumir que el crecimiento de los ingresos demuestra mejoras en la rentabilidad del negocio. La empresa procesadora puede mantener la demanda de sus clientes y, aun así, tener dificultades para recuperar los costes de aprovisionamiento. Además, los cambios en la combinación de productos pueden alterar la rentabilidad sin que cambie de forma equivalente el poder adquisitivo de los consumidores.",
-          "uncertainty": "La dirección vincula sus perspectivas de ventas más débiles con la reestructuración de su red de producción de carne de vacuno y la escasez de ganado; esas perspectivas siguen siendo previsiones. El flujo de efectivo anual no permite determinar el comportamiento del efectivo en el trimestre de cierre. Además, el efectivo operativo no está totalmente disponible para los accionistas, porque todavía debe financiar inversiones de capital y obligaciones financieras. El comunicado no establece cómo se trasladarían directamente los márgenes de la empresa a los precios de los supermercados.",
-          "watch": "Conviene observar la rentabilidad posterior por segmentos, las condiciones de compra de ganado y la conciliación entre las ventas declaradas y las ajustadas. Los próximos estados de flujos de efectivo deberían mostrar si las entradas de efectivo operativo mantienen su solidez tras los cambios en el capital circulante. El gasto en inversión ayudará a determinar cuánto efectivo queda disponible después de mantener la red de producción.",
+          "title": "Las pérdidas del negocio de carne de vacuno complican la situación de caja del productor de alimentos",
+          "summary": "Tyson Foods comunicó una pérdida trimestral atribuible a los accionistas, mientras su negocio de carne de vacuno seguía bajo presión.",
+          "impact": "Para los inversores y los compradores de alimentos, el comunicado ilustra por qué los precios del supermercado, la rentabilidad de las empresas procesadoras y la generación de efectivo pueden evolucionar de forma distinta.",
+          "what": "Tyson Foods procesa carne de vacuno, cerdo y pollo, y vende alimentos preparados de marca a comercios minoristas y clientes del sector de la restauración. Su último comunicado de resultados muestra beneficios anuales, pero también una pérdida en el trimestre de cierre del ejercicio fiscal y una pérdida operativa en el negocio de carne de vacuno. Las ventas publicadas se beneficiaron de un calendario fiscal más largo, mientras que el análisis de la empresa sobre períodos de duración comparable mostró presión sobre las ventas trimestrales subyacentes. Las provisiones por posibles obligaciones legales también afectaron a la presentación de las ventas, por lo que la cifra de ingresos publicada no debe interpretarse como una medida que refleje únicamente la demanda de los consumidores.",
+          "why": "El mecanismo financiero está en la diferencia entre el coste de comprar ganado y los precios que recibe la empresa procesadora por la carne lista para vender. Un producto caro para el consumidor no implica necesariamente un margen saludable para quien lo procesa. La diversificación hacia el pollo y los alimentos preparados puede amortiguar la debilidad del negocio de carne de vacuno, sin eliminarla. Por su parte, el flujo de efectivo operativo anual refleja el efectivo realmente generado por las operaciones tras las variaciones del capital circulante, como las existencias y los importes pendientes de cobro y pago, en lugar de limitarse a reproducir el beneficio contable. Esa distinción importa al evaluar la capacidad de financiar equipos, cumplir obligaciones de deuda y realizar pagos a los accionistas. Estas son implicaciones para el análisis, no previsiones.",
+          "uncertainty": "La pérdida trimestral y la cifra anual de flujo de efectivo operativo corresponden a períodos distintos y no son directamente comparables. Los resultados ajustados de la dirección excluyen determinados gastos y efectos del calendario; no son los resultados contables publicados ni sustituyen al flujo de efectivo. No se incluye una estimación de consenso verificada, por lo que este informe no afirma que los resultados hayan superado o quedado por debajo de las expectativas del mercado.",
+          "watch": "Conviene observar los próximos márgenes del segmento de carne de vacuno, los volúmenes de ventas de períodos de duración comparable y el estado de flujos de efectivo para comprobar si la mejora operativa se traduce en efectivo y no solo en ajustes contables.",
           "metricLabels": [
             {
               "id": "m1",
@@ -595,63 +371,7 @@
             },
             {
               "id": "m2",
-              "label": "Resultado operativo contable del ejercicio fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Resultado neto atribuible a la sociedad matriz del ejercicio fiscal"
-            },
-            {
-              "id": "m4",
-              "label": "Flujo de efectivo operativo del ejercicio fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "El gasto minorista en China acusa la debilidad del automóvil",
-          "summary": "El informe de ventas minoristas de China mostró crecimiento moderado del gasto, con debilidad en los automóviles frente a ventas más firmes fuera de esa categoría.",
-          "impact": "Para las empresas orientadas al consumidor en China continental, el informe subraya la importancia de examinar las categorías de productos, en lugar de interpretar el gasto agregado como prueba de recuperación generalizada.",
-          "what": "La Oficina Nacional de Estadística publicó sus datos mensuales más recientes sobre comercio minorista, que abarcan los bienes físicos vendidos para consumo y los ingresos de restauración. El indicador principal es nominal, es decir, incluye los efectos de los precios. Las ventas de automóviles se contrajeron en la muestra definida de empresas de mayor tamaño, mientras que el indicador más amplio que excluye automóviles aumentó. Estas series tienen coberturas diferentes, por lo que el resultado de esa categoría no debe interpretarse como el cálculo exacto de su contribución al total.",
-          "why": "Nuestra interpretación es que la composición del gasto importa para entender cómo se traslada a los beneficios. Los concesionarios, los proveedores y los comercios de productos no esenciales dependen de decisiones de compra, necesidades de existencias y acuerdos de financiación diferentes. La debilidad de los ingresos por vehículos podría reflejar volúmenes de ventas, precios o cambios en la combinación de productos; el informe no permite aislar esos factores. Para los hogares, aplazar la compra de bienes duraderos es distinto de reducir el consumo cotidiano. Para las empresas, el crecimiento de la facturación solo resulta financieramente útil si el beneficio bruto y los cobros permiten cubrir salarios, alquileres y otros compromisos. Por tanto, el informe agregado es indicador de demanda, no sustituto de las cuentas empresariales.",
-          "uncertainty": "Las ventas minoristas no abarcan todo el consumo de servicios de los hogares, y el crecimiento nominal no mide directamente los volúmenes reales de compra. Las notas estadísticas también explican que cambia el conjunto de empresas incluidas y que los cálculos de crecimiento comparable pueden diferir de los que se obtendrían usando los niveles publicados anteriormente. Los totales nacionales no permiten extraer automáticamente conclusiones sobre los ingresos, los beneficios o el flujo de efectivo de empresas concretas.",
-          "watch": "Conviene observar si las publicaciones posteriores muestran mejoras en las categorías de consumo no esencial y no simplemente cambios en la comparación de automóviles. La información de las empresas emisoras sobre existencias, descuentos, cuentas por cobrar y efectivo operativo permitiría seguir la conexión entre los datos de gasto y los resultados económicos para el accionista. La mejora sostenida sería más convincente si los indicadores de demanda y los cobros evolucionaran de forma coherente, en lugar de apoyarse solo en los ingresos agregados.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ventas minoristas mensuales"
-            },
-            {
-              "id": "m2",
-              "label": "Crecimiento nominal de las ventas minoristas"
-            },
-            {
-              "id": "m3",
-              "label": "Crecimiento de las ventas minoristas sin automóviles"
-            },
-            {
-              "id": "m4",
-              "label": "Crecimiento de las ventas minoristas de automóviles en empresas de mayor tamaño"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Aramark combina mayores beneficios con mayor generación de efectivo",
-          "summary": "Aramark registró aumentos anuales de ingresos, beneficio contable y flujo de efectivo operativo, y anunció autorización para recomprar acciones.",
-          "impact": "El comunicado aporta indicios de que los servicios contratados de alimentación y gestión de instalaciones pueden aumentar sus beneficios mientras generan efectivo, aunque devolver capital a los accionistas sigue siendo decisión de la dirección.",
-          "what": "Aramark presta servicios de alimentación y gestión de instalaciones. Sus estados anuales presentan por separado los ingresos, el resultado neto atribuible a la sociedad matriz y el efectivo generado por las operaciones. La dirección atribuye el crecimiento a nuevos contratos, la retención de clientes y la actividad de los clientes existentes, con mejoras de eficiencia en compras y productividad que apoyan la rentabilidad. El comunicado también señala efectos del calendario contable que complican las comparaciones trimestrales.",
-          "why": "Nuestra interpretación es que la calidad financiera de las empresas contratistas de servicios depende de convertir los contratos conseguidos en trabajo rentable que se pueda cobrar. Los nuevos clientes ofrecen oportunidades de ingresos, pero también pueden exigir personal, equipos y capital circulante antes de que llegue el efectivo. Retener clientes puede reducir el esfuerzo necesario para reemplazarlos, mientras que el volumen de compras puede ayudar a absorber los costes de alimentos y suministros. Para clientes como empleadores e instituciones, estos factores influyen en el coste de contratar servicios externos. Para los accionistas, la distinción importante está entre conseguir contratos y generar efectivo después de prestar el servicio. Ni los beneficios declarados ni el anuncio de recompra de acciones resuelven por sí solos esa cuestión.",
-          "uncertainty": "El flujo de efectivo operativo no equivale al efectivo que queda después de invertir. La dirección identifica entradas de efectivo estacionales vinculadas a su negocio universitario, por lo que no debe extrapolarse mecánicamente el trimestre de cierre. La autorización de recompra permite realizar operaciones, pero no demuestra que se hayan comprado acciones. Asimismo, las medidas previstas de crecimiento orgánico no son ingresos contables ya obtenidos.",
-          "watch": "Conviene observar la retención posterior de contratos, los costes de puesta en marcha y la conversión de nuevos clientes en resultado operativo. Los futuros estados de flujos de efectivo deberían aclarar si los cobros siguen siendo favorables fuera del período de fortaleza estacional. Las recompras efectivamente realizadas, las variaciones de deuda y las inversiones de capital mostrarán cómo equilibra la dirección las distribuciones a los accionistas con la flexibilidad financiera y la inversión necesaria para atender a los clientes.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos del ejercicio fiscal"
-            },
-            {
-              "id": "m2",
-              "label": "Resultado neto atribuible a los accionistas del ejercicio fiscal"
+              "label": "Resultado neto del ejercicio fiscal atribuible a los accionistas"
             },
             {
               "id": "m3",
@@ -659,28 +379,36 @@
             },
             {
               "id": "m4",
-              "label": "Resultado operativo contable del ejercicio fiscal"
+              "label": "Ingresos del trimestre de cierre del ejercicio fiscal"
+            },
+            {
+              "id": "m5",
+              "label": "Resultado neto del trimestre de cierre del ejercicio fiscal atribuible a los accionistas"
+            },
+            {
+              "id": "m6",
+              "label": "Resultado operativo del negocio de carne de vacuno en el trimestre de cierre del ejercicio fiscal"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この版では米国と中国の動向を取り上げています。各資料の公表日を確認してください。最近の企業決算は、背景を理解するための解説として紹介しています。",
+      "status": "今号で確認できた情報は限られています。確認済みの新しいニュースがない市場もあります。過去の日付の情報は、そのことが分かるように示しています。",
       "marketSummary": {
-        "us": "対象の株価指数はいずれも、直近で確認できた取引日に下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。",
-        "cn": "対象の株価指数はいずれも、直近で確認できた取引日に下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
+        "us": "終値に関する情報には、確認できなかったものがあります。掲載している指数には、それぞれの取引日を示しています。",
+        "cn": "対象の指数はいずれも、確認できた直近の取引で下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の値動きではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "タイソン・フーズ、売上高と利益の隔たりが鮮明に",
-          "summary": "タイソン・フーズは通期の売上高が増えたものの、調整後の収益性は低下しました。その一方で、営業活動による資金創出は強まりました。",
-          "impact": "今回の決算は、食品業界で売上高が底堅くても、供給制約や事業運営コストが重荷になれば、利益の改善につながるとは限らないことを示唆しています。",
-          "what": "タイソン・フーズは食肉を加工し、ブランド加工食品を小売業者や外食・給食事業者などに販売しています。発表資料では、通期の会計上の利益と営業キャッシュフローを別々に示しています。一方、期末四半期は、親会社に帰属する会計上の損益が赤字でした。集計期間に追加の週が含まれるため、売上高の比較には注意が必要です。また、経営陣が示す調整後指標では、特定の影響が除かれています。こうした調整後指標は、会計上の財務諸表の代わりではなく、併せて読む必要があります。",
-          "why": "この財務上の違いは、たんぱく源となる食品を買う家計や企業にとって重要です。売上高が示すのは顧客への請求額であり、生産、流通、資金調達、税金の費用を差し引いた後に残る金額ではありません。資金創出力が示すのは、事業活動から投資や支払義務に充てる資金を生み出せたかという、別の側面です。私たちは、投資家は増収だけで事業の採算が改善していると考えず、資金創出力が持続するかを確かめる必要があるとみています。食肉加工業者は顧客の需要を維持できても、調達コストを販売価格で回収するのに苦戦することがあります。また、販売する商品の構成が変わると、消費者の購買力に同程度の変化がなくても、収益性が変わることがあります。",
-          "uncertainty": "経営陣は、弱めの売上高見通しについて、牛肉事業の生産網再編と牛の供給不足を理由に挙げていますが、これはあくまで予測です。通期のキャッシュフローから期末四半期の資金創出状況を判断することはできません。また、設備投資や資金調達に伴う支払義務にも資金が必要なため、営業キャッシュフローの全額を株主に回せるわけではありません。発表資料は、同社の利益率とスーパーの店頭価格との直接的なつながりを示していません。",
-          "watch": "今後の事業部門別の収益性、牛の調達環境、報告売上高と調整後売上高の差異の説明が注目点です。今後のキャッシュフロー計算書では、運転資本の変動を踏まえても営業活動からの資金流入が底堅いかを確認できます。また、投資支出を見ることで、生産網の維持後にどれだけ資金が残るかを判断しやすくなります。",
+          "title": "牛肉事業の赤字で、食品メーカーの資金創出力は見極めが難しく",
+          "summary": "タイソン・フーズは、牛肉事業の厳しい状況が続くなか、株主に帰属する四半期純損失を計上しました。",
+          "impact": "投資家や食品を買う人にとって、今回の発表は、スーパーの販売価格、加工業者の収益性、現金を生み出す力が必ずしも同じ方向に動かない理由を示しています。",
+          "what": "タイソン・フーズは牛肉、豚肉、鶏肉を加工し、ブランド付きの調理済み食品を小売業や外食産業向けに販売しています。最新の決算発表では、通期では黒字だったものの、会計年度の最終四半期は赤字となり、牛肉事業も営業損失を計上しました。公表売上高は会計年度の期間が通常より長かったことに支えられましたが、会社が期間をそろえて比較した説明では、四半期の売上高に実質的な下押し圧力が見られました。訴訟などに伴う損失に備えた引当金の計上も売上高の表示に影響しているため、公表売上高を消費者需要だけを表す指標として扱うべきではありません。",
+          "why": "収益を左右するのは、家畜の仕入れ費用と、加工した食肉を販売して得られる価格との差です。消費者が高い価格を払っていても、加工業者が十分な利益を得られるとは限りません。鶏肉や調理済み食品にも事業を広げていることは、牛肉事業の不振を和らげますが、その影響をなくすわけではありません。また、通期の営業キャッシュフローは、会計上の利益そのものではなく、売掛金や在庫、買掛金などの運転資本の変動を反映したうえで、本業から実際に生み出した現金を示します。この違いは、設備投資、債務の支払い、株主還元に充てる資金力を評価する際に重要です。これらは分析上の意味合いであり、予測ではありません。",
+          "uncertainty": "四半期純損失と通期の営業キャッシュフローは対象期間が異なり、直接比較できません。経営陣が示す調整後の業績は、特定の費用や会計期間の違いによる影響を除いたもので、公表された会計上の利益でも、キャッシュフローの代わりになるものでもありません。確認済みの市場予想は掲載していないため、業績が市場予想を上回ったか下回ったかは判断していません。",
+          "watch": "今後の牛肉部門の利益率、比較期間をそろえた販売数量、キャッシュフロー計算書に注目です。事業運営の改善が、単なる会計上の調整ではなく、現金の創出につながっているかを確認する材料になります。",
           "metricLabels": [
             {
               "id": "m1",
@@ -688,63 +416,7 @@
             },
             {
               "id": "m2",
-              "label": "通期営業利益（会計基準ベース）"
-            },
-            {
-              "id": "m3",
-              "label": "通期親会社帰属純利益"
-            },
-            {
-              "id": "m4",
-              "label": "通期営業キャッシュフロー"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "中国の小売消費、自動車が重荷に",
-          "summary": "中国の小売統計では、消費の伸びは緩やかでした。自動車販売が弱い一方、自動車を除く販売は比較的底堅く推移しました。",
-          "impact": "中国本土の消費関連企業をみるうえでは、消費全体の数字を幅広い回復の証拠と受け止めるのではなく、商品分野ごとに確認する必要があることを示しています。",
-          "what": "中国国家統計局は、消費向けに販売された物品と飲食サービス収入を対象とする、最新の月次小売統計を公表しました。主要指標は名目値で、価格変動の影響を含みます。一定規模以上の企業を対象とした自動車販売は減少しましたが、より広い範囲を対象とする自動車を除いた指標は増加しました。これらの統計は対象範囲が異なるため、自動車分野の結果を、そのまま全体への正確な寄与度として扱うことはできません。",
-          "why": "私たちは、消費が企業利益にどうつながるかを考える際には、その内訳が重要だとみています。自動車販売店、部品などの供給業者、生活必需品以外を扱う小売業者では、顧客の購入判断、必要な在庫、資金調達の仕組みが異なります。自動車の販売額が弱い背景には、販売数量、価格、商品構成の変化が考えられますが、今回の発表ではそれぞれの影響は分かりません。家計にとって、耐久財の購入を先延ばしすることと、日々の消費を減らすことは異なります。企業にとっては、売上総利益と代金回収で賃金や賃料などの支払いを賄えてこそ、増収が財務面で意味を持ちます。したがって、今回の集計は需要の手がかりであり、企業の決算に代わるものではありません。",
-          "uncertainty": "小売売上高は家計のサービス消費をすべて含むわけではなく、名目の伸び率は実際の購入数量の変化を直接示すものでもありません。統計の注記では、対象企業の範囲が変わることや、比較可能な条件で算出した伸び率が、過去の公表額から計算した伸び率とは異なる場合があることも説明されています。全国の集計値だけで、個別企業の売上高、利益、キャッシュフローについて結論を出すことはできません。",
-          "watch": "今後の発表では、自動車の比較条件が変わるだけでなく、生活必需品以外の幅広い分野で改善が見られるかが注目点です。企業による在庫、値引き、売上債権、営業キャッシュフローの開示は、消費統計が株主にとっての経済的な成果にどうつながるかを確認する次の手がかりになります。売上高全体だけに頼るのではなく、需要指標と代金回収が整合的に改善すれば、持続的な改善を示す材料として、より説得力を持ちます。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "月次小売売上高"
-            },
-            {
-              "id": "m2",
-              "label": "名目小売売上高伸び率"
-            },
-            {
-              "id": "m3",
-              "label": "自動車を除く小売売上高伸び率"
-            },
-            {
-              "id": "m4",
-              "label": "一定規模以上の企業の自動車小売売上高伸び率"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "アラマーク、増益と資金創出力の強化が並行",
-          "summary": "アラマークは通期の売上高、会計上の利益、営業キャッシュフローが増加し、新たな自社株買い枠の設定も発表しました。",
-          "impact": "今回の発表は、受託型のフードサービスや施設管理サービスが、利益を伸ばしながら資金を生み出せることを示しています。ただし、株主還元を行うかどうかは経営陣の判断に委ねられます。",
-          "what": "アラマークはフードサービスと施設管理サービスを提供しています。通期の財務諸表では、売上高、親会社に帰属する純利益、営業活動によるキャッシュフローを別々の指標として示しています。経営陣は、新規契約の獲得、顧客の維持、既存契約先での事業活動が成長を支え、調達や生産性の改善が収益性を支えたと説明しています。また、四半期比較を難しくする決算日程上の影響にも言及しています。",
-          "why": "私たちは、受託サービス企業の財務の質は、獲得した契約を、利益が出て代金を回収できる仕事へとつなげられるかに左右されるとみています。新規契約は売上機会を生みますが、入金前に人員、設備、運転資金が必要になる場合もあります。顧客を維持できれば、失った契約を補うための営業負担を抑えられる可能性があります。また、調達規模の大きさは、食品や備品のコストを吸収する助けになります。企業や各種機関などの顧客にとって、こうした採算構造は外部委託費用に影響します。株主にとって重要なのは、契約を獲得することと、サービス提供後に資金を生み出すことの違いです。報告利益だけでも、自社株買いの発表だけでも、その点は判断できません。",
-          "uncertainty": "営業キャッシュフローは、投資後に残る資金と同じではありません。経営陣は大学向け事業に伴う季節的な資金流入を挙げているため、期末四半期の状況がそのまま続くと機械的に考えるべきではありません。自社株買い枠の承認は取引を可能にするものですが、実際に買い付けたことを意味しません。また、将来見通しとして示される既存事業の成長指標は、会計上すでに実現した売上高ではありません。",
-          "watch": "今後の契約継続状況、サービス開始に伴う費用、新規契約が営業利益に結びつくかが注目点です。今後のキャッシュフロー計算書では、季節的に資金流入が強まる時期以外でも、代金回収が資金繰りを支えているかが明らかになるでしょう。実際の自社株買い、負債の増減、設備投資を見れば、経営陣が株主還元と、財務の柔軟性や顧客へのサービス提供に必要な投資をどう両立させているかを確認できます。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "通期売上高"
-            },
-            {
-              "id": "m2",
-              "label": "通期株主帰属純利益"
+              "label": "株主に帰属する通期純利益"
             },
             {
               "id": "m3",
@@ -752,28 +424,36 @@
             },
             {
               "id": "m4",
-              "label": "通期営業利益（会計基準ベース）"
+              "label": "会計年度の最終四半期売上高"
+            },
+            {
+              "id": "m5",
+              "label": "株主に帰属する会計年度の最終四半期純利益"
+            },
+            {
+              "id": "m6",
+              "label": "会計年度の最終四半期の牛肉事業営業利益"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição aborda acontecimentos nos EUA e na China. Confira a data de cada publicação; os relatórios recentes das empresas são apresentados para explicar o contexto.",
+      "status": "Esta edição tem cobertura verificada limitada. Alguns mercados estão sem notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram nos respectivos pregões mais recentes verificados. Os fechamentos com data indicada descrevem aqueles pregões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nos respectivos pregões mais recentes verificados. Os fechamentos com data indicada descrevem aqueles pregões, não as negociações atuais."
+        "us": "Não foi possível verificar algumas informações de fechamento. Cada índice disponível mantém a data do seu respectivo pregão.",
+        "cn": "Os índices acompanhados caíram em seus pregões verificados mais recentes. Os fechamentos datados descrevem aquelas sessões, não as negociações atuais."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Tyson Foods mostra a diferença entre vendas e lucro",
-          "summary": "A Tyson Foods informou aumento nas vendas anuais, mas menor rentabilidade ajustada, acompanhado de maior geração de caixa operacional.",
-          "impact": "Os resultados sugerem que a resistência da receita na indústria de alimentos não se traduz necessariamente em retornos melhores quando há restrições de oferta e pressão dos custos operacionais.",
-          "what": "A Tyson Foods processa carnes e vende alimentos preparados de marca para varejistas e clientes do setor de alimentação. Seu comunicado apresenta separadamente o lucro contábil anual e o fluxo de caixa operacional, enquanto o trimestre de encerramento registrou prejuízo contábil atribuível à controladora. O período adicional no calendário de divulgação dificulta a comparação das vendas, e as medidas ajustadas da administração excluem determinados efeitos. Esses ajustes devem ser lidos em conjunto com as demonstrações contábeis, e não usados para substituí-las.",
-          "why": "Essa distinção financeira importa para famílias e empresas que compram proteína. As vendas medem o valor cobrado dos clientes, não o que restou após produção, distribuição, financiamento e impostos. A geração de caixa responde a uma questão diferente: se as operações forneceram dinheiro para financiar investimentos e compromissos. Nossa interpretação é que os investidores devem avaliar a capacidade de sustentar a geração de caixa, em vez de presumir que o crescimento da receita demonstra melhora nas condições econômicas do negócio. Uma processadora pode manter a demanda dos clientes e, ainda assim, ter dificuldade para repassar os custos de aquisição de insumos. Mudanças na composição dos produtos vendidos também podem alterar a rentabilidade sem uma mudança equivalente no poder de compra dos consumidores.",
-          "uncertainty": "A administração relaciona sua perspectiva mais fraca para as vendas à reestruturação da rede de produção de carne bovina e à oferta restrita de gado; essa perspectiva continua sendo uma previsão. O fluxo de caixa anual não permite determinar o desempenho de caixa do trimestre de encerramento, e o caixa operacional não está integralmente disponível aos acionistas, pois os investimentos em ativos e as obrigações financeiras ainda precisam ser financiados. O comunicado não estabelece uma relação direta entre as margens da empresa e os preços nos supermercados.",
-          "watch": "Acompanhe a rentabilidade posterior dos segmentos, as condições de compra de gado e a conciliação entre as vendas reportadas e as ajustadas. As próximas demonstrações de fluxo de caixa devem mostrar se as entradas operacionais continuam resistentes após as variações do capital de giro, enquanto os gastos com investimentos ajudarão a determinar quanto caixa permanece disponível após a manutenção da rede de produção.",
+          "title": "Prejuízo na carne bovina complica a situação de caixa da produtora de alimentos",
+          "summary": "A Tyson Foods informou prejuízo trimestral atribuível aos acionistas, enquanto seu negócio de carne bovina continuou sob pressão.",
+          "impact": "Para investidores e compradores de alimentos, o comunicado mostra por que os preços nos supermercados, a rentabilidade das processadoras e a geração de caixa podem seguir caminhos diferentes.",
+          "what": "A Tyson Foods processa carnes bovina, suína e de frango e vende alimentos preparados de marca para o varejo e o setor de alimentação fora do lar. Seu comunicado de resultados mais recente mostra lucro no exercício fiscal, mas prejuízo no trimestre de encerramento, com resultado operacional negativo no segmento de carne bovina. As vendas divulgadas foram favorecidas por um calendário fiscal mais longo, enquanto a análise da empresa com períodos de duração comparável mostrou pressão sobre as vendas trimestrais subjacentes. Provisões para contingências judiciais também afetaram a apresentação das vendas, de modo que a receita em destaque não deve ser tratada como uma medida isolada e fiel da demanda dos consumidores.",
+          "why": "O mecanismo financeiro está na diferença entre o custo de compra dos animais e os preços que a processadora recebe pela carne pronta para venda. Um produto caro para o consumidor não garante uma margem saudável para a processadora. A diversificação para frango e alimentos preparados pode amenizar a fraqueza da carne bovina, sem eliminá-la. Já o fluxo de caixa operacional anual reflete o dinheiro efetivamente gerado pelas operações após as variações do capital de giro, em vez de simplesmente repetir o lucro contábil. Essa distinção importa para avaliar a capacidade de financiar equipamentos, cumprir obrigações de dívida e distribuir recursos aos acionistas. Essas são implicações para análise, não previsões.",
+          "uncertainty": "O prejuízo trimestral e o fluxo de caixa operacional anual abrangem períodos diferentes e não são diretamente comparáveis. Os resultados ajustados pela administração excluem determinadas despesas e efeitos do calendário; não equivalem ao lucro contábil divulgado nem substituem o fluxo de caixa. Não há uma estimativa de consenso verificada nesta edição, portanto o relatório não afirma que os resultados tenham surpreendido em relação às expectativas.",
+          "watch": "Acompanhe as próximas margens do segmento de carne bovina, os volumes de vendas em períodos de duração comparável e a demonstração dos fluxos de caixa para verificar se a melhora operacional está se convertendo em dinheiro, e não apenas em ajustes contábeis.",
           "metricLabels": [
             {
               "id": "m1",
@@ -781,63 +461,7 @@
             },
             {
               "id": "m2",
-              "label": "Lucro operacional contábil do exercício fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Lucro líquido do exercício fiscal atribuível à controladora"
-            },
-            {
-              "id": "m4",
-              "label": "Fluxo de caixa operacional do exercício fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "Automóveis pesam sobre os gastos no varejo da China",
-          "summary": "A divulgação do varejo chinês mostrou crescimento modesto dos gastos, com fraqueza nos automóveis em contraste com vendas mais firmes nas demais categorias.",
-          "impact": "Para as empresas de consumo da China continental, a divulgação reforça a importância de examinar as categorias de produtos, em vez de tratar os gastos agregados como evidência de uma recuperação generalizada.",
-          "what": "O órgão nacional de estatísticas publicou seus dados mensais mais recentes do varejo, que abrangem bens físicos vendidos para consumo e receitas de serviços de alimentação. O indicador principal é nominal, ou seja, inclui os efeitos dos preços. As vendas de automóveis na amostra definida de empresas de maior porte recuaram, enquanto o indicador mais amplo que exclui automóveis aumentou. Essas séries têm abrangências diferentes, portanto o resultado da categoria não deve ser tratado como um cálculo exato de sua contribuição para o total.",
-          "why": "Nossa interpretação é que a composição dos gastos importa para entender como a demanda se reflete nos lucros. Concessionárias, fornecedores e varejistas de produtos não essenciais dependem de decisões de compra, necessidades de estoque e condições de financiamento diferentes. A fraqueza na receita com veículos pode refletir volumes vendidos, preços ou composição dos produtos; a divulgação não separa esses fatores. Para uma família, adiar a compra de um bem durável é diferente de reduzir o consumo cotidiano. Para uma empresa, o crescimento do faturamento só é financeiramente útil se o lucro bruto e os recebimentos conseguirem cobrir salários, aluguel e outros compromissos. A divulgação agregada é, portanto, um sinal da demanda, não um substituto das demonstrações financeiras das empresas.",
-          "uncertainty": "As vendas no varejo não abrangem todo o consumo de serviços das famílias, e o crescimento nominal não mede diretamente os volumes reais de compras. As notas estatísticas também explicam que a cobertura das empresas muda e que os cálculos de crescimento em bases comparáveis podem diferir dos níveis publicados anteriormente. Os totais nacionais não permitem concluir automaticamente nada sobre receita, lucro ou fluxo de caixa de uma empresa específica.",
-          "watch": "Acompanhe se as divulgações posteriores mostram melhora nas categorias de consumo não essencial, e não apenas uma mudança na base de comparação dos automóveis. As divulgações das empresas sobre estoques, descontos, contas a receber e caixa operacional forneceriam o próximo elo observável entre os dados de gastos e os resultados financeiros para os acionistas. Uma melhora duradoura seria mais convincente se os indicadores de demanda e os recebimentos evoluíssem de forma coerente, em vez de depender apenas da receita agregada.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Vendas mensais no varejo"
-            },
-            {
-              "id": "m2",
-              "label": "Crescimento nominal das vendas no varejo"
-            },
-            {
-              "id": "m3",
-              "label": "Crescimento das vendas no varejo excluindo automóveis"
-            },
-            {
-              "id": "m4",
-              "label": "Crescimento das vendas de automóveis no varejo em empresas de maior porte"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Aramark combina crescimento do lucro com maior geração de caixa",
-          "summary": "A Aramark informou aumento da receita anual, do lucro contábil e do fluxo de caixa operacional, além de anunciar uma nova autorização para recompra de ações.",
-          "impact": "O comunicado apresenta evidências de que serviços contratados de alimentação e gestão de instalações podem ampliar os lucros e gerar caixa, embora a devolução de capital aos acionistas continue sendo uma escolha da administração.",
-          "what": "A Aramark presta serviços de alimentação e gestão de instalações. Suas demonstrações anuais apresentam receita, lucro líquido atribuível aos acionistas da controladora e caixa gerado pelas operações como medidas distintas. A administração atribui o crescimento a novos contratos, à retenção de clientes e à atividade nos contratos existentes, com ganhos de eficiência em compras e produtividade apoiando a rentabilidade. O comunicado também destaca efeitos do calendário de divulgação que dificultam as comparações trimestrais.",
-          "why": "Nossa interpretação é que a qualidade financeira de uma prestadora de serviços depende de transformar contratos conquistados em trabalho rentável e pagamentos efetivamente recebidos. Um novo cliente cria oportunidades de receita, mas também pode exigir contratação de pessoal, equipamentos e capital de giro antes da entrada de caixa. Reter clientes pode reduzir o esforço necessário para substituí-los, enquanto a escala de compras pode ajudar a absorver os custos de alimentos e suprimentos. Para clientes como empregadores e instituições, essas condições econômicas influenciam o custo da terceirização. Para os acionistas, a distinção importante está entre conquistar contratos e gerar caixa após prestar o serviço. Nem o lucro divulgado nem o anúncio de recompra, isoladamente, resolvem essa questão.",
-          "uncertainty": "Fluxo de caixa operacional não é o mesmo que caixa restante após os investimentos. A administração identifica entradas sazonais de caixa ligadas aos serviços prestados a instituições de ensino superior, portanto o trimestre de encerramento não deve ser extrapolado mecanicamente. Uma autorização de recompra permite realizar operações, mas não comprova que as compras ocorreram, e as projeções de crescimento orgânico não equivalem a receita contábil já realizada.",
-          "watch": "Acompanhe a retenção de contratos, os custos de implantação e a conversão de novos clientes em lucro operacional. As próximas demonstrações de fluxo de caixa devem esclarecer se os recebimentos continuam favoráveis fora do período sazonalmente forte. As recompras efetivas, as variações da dívida e os investimentos em ativos mostrarão como a administração equilibra as distribuições aos acionistas com a flexibilidade financeira e os investimentos necessários para atender os clientes.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita do exercício fiscal"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro líquido do exercício fiscal atribuível aos acionistas"
+              "label": "Lucro líquido atribuível aos acionistas no exercício fiscal"
             },
             {
               "id": "m3",
@@ -845,28 +469,36 @@
             },
             {
               "id": "m4",
-              "label": "Lucro operacional contábil do exercício fiscal"
+              "label": "Receita do trimestre de encerramento do exercício fiscal"
+            },
+            {
+              "id": "m5",
+              "label": "Lucro líquido atribuível aos acionistas no trimestre de encerramento do exercício fiscal"
+            },
+            {
+              "id": "m6",
+              "label": "Resultado operacional do segmento de carne bovina no trimestre de encerramento do exercício fiscal"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國市場動態。請留意各篇資料的發布日期；近期公司財報在此作為背景解說。",
+      "status": "本期經查證的報導範圍有限。部分市場沒有經查證的新報導；較早的報導仍清楚標示日期。",
       "marketSummary": {
-        "us": "追蹤的指數在最近經核實的交易日均下跌。附有日期的收盤資料反映當時交易日的表現，並非目前行情。",
-        "cn": "追蹤的指數在最近經核實的交易日均下跌。附有日期的收盤資料反映當時交易日的表現，並非目前行情。"
+        "us": "部分收盤資訊無法查證。可提供的各項指數資料均保留各自的交易日期。",
+        "cn": "追蹤的指數在最近經查證的交易日均下跌。附有日期的收盤資料反映當日表現，並非目前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "泰森食品揭示營收與獲利之間的落差",
-          "summary": "泰森食品公布全年營收成長，但調整後獲利表現轉弱，同時營業活動創造現金的能力增強。",
-          "impact": "這份業績顯示，當供應受限與營運成本帶來壓力時，食品業營收有韌性，不代表能帶來更好的報酬。",
-          "what": "泰森食品從事肉品加工，並向零售商與餐飲服務客戶銷售品牌調理食品。公司在公告中分別呈現全年會計獲利與營業現金流量，而年度最後季度則出現歸屬於母公司的會計虧損。財報期間多出的週次使營收比較更為複雜，管理階層使用的調整後指標也排除了部分影響。這些調整應搭配會計報表閱讀，而非取代會計報表。",
-          "why": "對購買蛋白質食品的家庭與企業而言，這些財務指標的差異很重要。營收衡量向客戶收取的金額，而非扣除生產、配送、融資成本與稅負後剩下的金額。現金創造能力回答的則是不同問題：營運是否帶來足以支應投資及履行付款義務的資金。我們的解讀是，投資人應檢視現金創造能力能否持續，而非假設營收成長就代表經營效益改善。加工業者可能維持住客戶需求，卻仍難以將採購成本轉嫁出去；產品組合改變也可能影響獲利能力，而消費者購買力未必有相應變化。",
-          "uncertainty": "管理階層將較弱的營收展望歸因於牛肉業務網絡重整與牛隻供應吃緊，但這項展望仍屬預測。全年現金流量無法證明年度最後季度的現金表現，而且營業現金並非全都可供股東分配，因為資本投資與融資相關義務仍需資金支應。這份公告也無法確立公司利潤率如何直接影響超市售價。",
-          "watch": "留意後續各事業部門的獲利能力、牛隻採購情況，以及報表營收與調整後營收之間的調節說明。後續現金流量表應有助於看出，營運資金變動後，營業現金流入是否仍具韌性；投資支出則有助於釐清，維持生產網絡後還有多少現金可供運用。",
+          "title": "牛肉業務虧損，讓食品生產商的現金狀況更難判讀",
+          "summary": "泰森食品公布歸屬股東的季度淨損，牛肉業務持續承壓。",
+          "impact": "對投資人與食品買家而言，這份財報說明了為何超市售價、加工業者獲利能力與現金創造能力可能出現不同走勢。",
+          "what": "泰森食品加工牛肉、豬肉與雞肉，並向零售及餐飲客戶銷售品牌調理食品。最新財報顯示，公司全年獲利，但會計年度末季虧損，牛肉業務也錄得營業損失。公布的營收受惠於會計年度涵蓋期間延長，但公司按可比期間所作的說明顯示，該季營收實際仍面臨壓力。法律或有事項的應計提列也影響了營收呈現，因此不宜直接將公布的營收視為消費需求的純粹指標。",
+          "why": "關鍵在於牲畜採購成本與加工業者出售肉品所得價格之間的差距。消費者買到的產品價格高，不代表加工業者的利潤率就良好。雞肉與調理食品等多元業務可以緩衝牛肉業務的疲弱，卻無法將其完全抵銷。此外，全年營業活動現金流量反映營運資金變動後，營運實際產生的現金，並不等同於帳面獲利；評估公司是否有能力支應設備支出、償債及向股東分配資金時，這項差異很重要。這些是分析上的意涵，並非預測。",
+          "uncertainty": "季度淨損與全年營業活動現金流量涵蓋的期間不同，無法直接比較。管理階層提供的調整後業績排除了特定費用與會計期間長短的影響；這些數據既不是依會計準則公布的損益，也不能取代現金流量。本報導未納入經查證的市場共識預估，因此不判定獲利是否優於或遜於預期。",
+          "watch": "留意後續牛肉部門的利潤率、按可比期間計算的銷量及現金流量表，觀察營運改善是否真正轉化為現金，而不只是帳面調整。",
           "metricLabels": [
             {
               "id": "m1",
@@ -874,71 +506,23 @@
             },
             {
               "id": "m2",
-              "label": "會計年度帳列營業利益"
+              "label": "會計年度歸屬股東淨利"
             },
             {
               "id": "m3",
-              "label": "會計年度歸屬於母公司淨利"
+              "label": "會計年度營業活動現金流量"
             },
             {
               "id": "m4",
-              "label": "會計年度營業現金流量"
-            }
-          ]
-        },
-        {
-          "id": "f2",
-          "title": "中國零售消費受汽車銷售拖累",
-          "summary": "中國公布的零售資料顯示，消費支出成長偏弱，汽車銷售疲軟，與汽車以外類別較穩健的銷售表現形成對比。",
-          "impact": "對中國大陸消費相關企業而言，這份資料說明應細看各產品類別，而非將整體消費支出視為全面復甦的證據。",
-          "what": "中國國家統計局公布最新月度零售資料，涵蓋供消費使用的實體商品銷售與餐飲收入。主要指標採名目金額計算，也就是包含價格變動的影響。限額以上企業樣本中的汽車銷售下滑，而涵蓋範圍較廣的扣除汽車零售指標則成長。這些統計序列的涵蓋範圍不同，因此不應將汽車類別的結果，當作精確計算其對整體成長貢獻的依據。",
-          "why": "我們的解讀是，消費支出的組成會影響需求如何轉化為企業獲利。經銷商、供應商與非必需消費品零售商，所依賴的購買決策、庫存需求與融資安排各有不同。汽車銷售收入疲弱，可能反映成交量、價格或產品組合的變化，但這份資料未區分各項因素的影響。對家庭而言，延後購買耐久財，與減少日常消費並不相同。對企業而言，營業額成長只有在毛利與收回的貨款足以支付薪資、租金及其他款項時，才有實質財務助益。因此，整體零售資料是需求訊號，不能取代公司財報。",
-          "uncertainty": "零售銷售未涵蓋所有家庭服務消費，名目成長也不能直接衡量實際購買量。統計說明也指出，納入統計的企業範圍會變動，按可比基礎計算的成長率，可能與依先前公布金額計算的結果不同。全國總體數據不會自動推導出特定公司的營收、獲利或現金流量結論。",
-          "watch": "留意後續資料是否顯示非必需消費類別普遍改善，而非僅是汽車銷售的比較基礎改變。發行公司揭露的庫存、折扣促銷、應收帳款與營業現金流量，將提供進一步可觀察的線索，連結消費資料與股東的經濟利益。若需求指標與收款表現同步改善，而非僅依賴整體營收，將更能支持改善具有持續性的判斷。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "月度社會消費品零售總額"
+              "label": "會計年度末季營收"
             },
             {
-              "id": "m2",
-              "label": "社會消費品零售總額名目成長率"
+              "id": "m5",
+              "label": "會計年度末季歸屬股東淨利"
             },
             {
-              "id": "m3",
-              "label": "扣除汽車的消費品零售額成長率"
-            },
-            {
-              "id": "m4",
-              "label": "限額以上企業汽車類零售額成長率"
-            }
-          ]
-        },
-        {
-          "id": "f3",
-          "title": "Aramark獲利成長，現金創造能力同步增強",
-          "summary": "Aramark公布全年營收、會計獲利與營業現金流量均成長，並宣布新的股份回購授權。",
-          "impact": "這份公告提供證據，顯示承包餐飲與設施管理服務能在增加獲利的同時創造現金，但是否將資金回饋股東，仍取決於管理階層的決定。",
-          "what": "Aramark提供餐飲與設施管理服務。其年度報表將營收、歸屬於母公司淨利與營業現金流量列為不同指標。管理階層將成長歸因於新業務、客戶留存及既有客戶業務活動增加，採購與生產力改善則支撐獲利能力。公告也提醒，財報期間安排的影響，使季度比較更為複雜。",
-          "why": "我們的解讀是，服務承包商的財務品質，取決於能否將取得的合約轉化為有利潤、且能收到款項的業務。新客戶帶來營收機會，但也可能在款項入帳前，就需要投入人力、設備與營運資金。留住客戶可能減少尋找替代客戶所需的投入，而採購規模則有助於承受食品與物料成本。對雇主與機構等客戶而言，這些經營條件會影響委外成本。對股東而言，重要的差別在於取得業務，以及提供服務後能否產生現金。單憑帳列獲利或回購公告，都無法回答這個問題。",
-          "uncertainty": "營業現金流量不等於扣除投資後剩餘的現金。管理階層指出，大專院校業務會帶來季節性現金流入，因此不應機械式地將年度最後季度的表現推及其他期間。回購授權允許公司執行交易，但不代表已經買回股份；前瞻性的有機成長指標，也不是已實現的會計營收。",
-          "watch": "留意後續合約留存情況、服務導入成本，以及新客戶業務轉化為營業利益的表現。未來現金流量表應有助於釐清，度過季節性旺期後，收款表現是否仍能提供支撐。實際股份回購、債務變動與資本支出，將顯示管理階層如何在股東分配、財務彈性，以及服務客戶所需的投資之間取得平衡。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "會計年度營收"
-            },
-            {
-              "id": "m2",
-              "label": "會計年度歸屬於股東淨利"
-            },
-            {
-              "id": "m3",
-              "label": "會計年度營業現金流量"
-            },
-            {
-              "id": "m4",
-              "label": "會計年度帳列營業利益"
+              "id": "m6",
+              "label": "會計年度末季牛肉部門營業利益"
             }
           ]
         }
