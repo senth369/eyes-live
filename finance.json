@@ -1,115 +1,99 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-16T23:24:23.988Z",
-  "generatedAt": "2026-11-16T23:28:29.363Z",
+  "cutoffAt": "2026-11-17T10:42:51.228Z",
+  "generatedAt": "2026-11-17T10:47:26.603Z",
   "model": "gpt-6.1-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Associated Press — Wall Street closing report",
-      "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
-    },
-    {
-      "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis — broad market closing observations",
+      "label": "FRED broad US equity index closing observations",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
-      "id": "src3",
-      "label": "Federal Reserve Bank of St. Louis — technology market closing observations",
+      "id": "src2",
+      "label": "FRED Nasdaq Composite closing observations",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
+      "id": "src3",
+      "label": "Investing Shanghai Composite dated closing table",
+      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+    },
+    {
       "id": "src4",
-      "label": "The Paper — mainland equity closing report",
-      "url": "https://m.thepaper.cn/newsDetail_forward_34489957"
+      "label": "Investing mainland large-cap benchmark dated closing table",
+      "url": "https://ph.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Investing — mainland large capitalization index daily table",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Federal Reserve productivity conference opening remarks",
+      "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm"
     },
     {
       "id": "src6",
-      "label": "Tyson Foods — earnings release furnished to the securities regulator",
-      "url": "https://www.sec.gov/Archives/edgar/data/100493/000010049326000077/tsn2026q4exh-991.htm"
-    },
-    {
-      "id": "src7",
-      "label": "Tyson Foods — issuer earnings release and reconciliations",
-      "url": "https://www.tysonfoods.com/news/news-releases/2026/11/tyson-foods-reports-fourth-quarter-2026-results"
-    },
-    {
-      "id": "src8",
-      "label": "Aramark — earnings release furnished to the securities regulator",
-      "url": "https://www.sec.gov/Archives/edgar/data/1584509/000158450926000152/ex991armkq4fy2026.htm"
-    },
-    {
-      "id": "src9",
-      "label": "Aramark — fiscal earnings presentation",
-      "url": "https://aramark.gcs-web.com/static-files/c73603a7-129d-40bd-b3c1-547533f9ecce"
-    },
-    {
-      "id": "src10",
-      "label": "National Bureau of Statistics — retail sales release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html"
-    },
-    {
-      "id": "src11",
-      "label": "National Bureau of Statistics — economic press conference transcript",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965869.html"
-    },
-    {
-      "id": "src12",
-      "label": "National Bureau of Statistics — economic activity release",
+      "label": "National Bureau of Statistics economic activity release",
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html"
     },
     {
-      "id": "src13",
-      "label": "National Bureau of Statistics — property development release",
-      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261116_1965840.html"
+      "id": "src7",
+      "label": "National Bureau of Statistics economic activity press questions",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965869.html"
     },
     {
-      "id": "src14",
-      "label": "National Bureau of Statistics — industrial production interpretation",
-      "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261116_1965852.html"
+      "id": "src8",
+      "label": "Cisco fiscal earnings release and financial statements",
+      "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx"
+    },
+    {
+      "id": "src9",
+      "label": "WuXi AppTec voluntary announcement on litigation dismissal",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225674874.PDF"
+    },
+    {
+      "id": "src10",
+      "label": "WuXi AppTec quarterly report and financial statements",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225624435.PDF"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-16",
+      "close": 7416.59,
+      "previousClose": 7561.67,
+      "changePercent": -1.92,
+      "sourceIds": [
+        "src1"
+      ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-16",
+      "close": 24509.76,
+      "previousClose": 25136.27,
+      "changePercent": -2.49,
+      "sourceIds": [
+        "src2"
+      ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-16",
-      "close": 3602.57,
-      "previousClose": null,
-      "changePercent": -0.87,
+      "sessionDate": "2026-11-17",
+      "close": 3584.58,
+      "previousClose": 3602.57,
+      "changePercent": -0.5,
       "sourceIds": [
-        "src4"
+        "src3"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-16",
-      "close": 3979.8,
-      "previousClose": 4016.29,
-      "changePercent": -0.91,
+      "sessionDate": "2026-11-17",
+      "close": 3976.46,
+      "previousClose": 3979.8,
+      "changePercent": -0.08,
       "sourceIds": [
-        "src5"
+        "src4"
       ]
     }
   ],
@@ -117,232 +101,250 @@
     {
       "id": "f1",
       "market": "us",
-      "category": "earnings",
+      "category": "economy",
       "publishedOn": "2026-11-16",
+      "company": null,
+      "metrics": [],
+      "sourceIds": [
+        "src5"
+      ],
+      "evidence": "Opening remarks, discussion of productivity and concluding scenario analysis: the chair described possible productivity benefits, worker displacement and disappointing investment returns, explicitly identifying these as scenarios rather than forecasts."
+    },
+    {
+      "id": "f3",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-12",
       "company": {
-        "name": "Tyson Foods",
-        "ticker": "TSN",
-        "exchange": "NYSE"
+        "name": "Cisco Systems",
+        "ticker": "CSCO",
+        "exchange": "NASDAQ"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 56419000000,
+          "value": 18517000000,
           "unit": "USD",
-          "periodStart": "2025-09-28",
-          "periodEnd": "2026-10-03",
+          "periodStart": "2026-07-26",
+          "periodEnd": "2026-10-24",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src8"
           ],
-          "evidence": "Annual sales in the opening results table and consolidated condensed statements of income."
+          "evidence": "Consolidated statements of operations, total revenue row; published currency scale converted to dollars."
         },
         {
           "id": "m2",
-          "value": 453000000,
+          "value": 4552000000,
           "unit": "USD",
-          "periodStart": "2025-09-28",
-          "periodEnd": "2026-10-03",
+          "periodStart": "2026-07-26",
+          "periodEnd": "2026-10-24",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src8"
           ],
-          "evidence": "Annual column, consolidated condensed statements of income, net income attributable to the parent."
+          "evidence": "Consolidated statements of operations, GAAP net income row."
         },
         {
           "id": "m3",
-          "value": 2433000000,
+          "value": 4357000000,
           "unit": "USD",
-          "periodStart": "2025-09-28",
-          "periodEnd": "2026-10-03",
+          "periodStart": "2026-07-26",
+          "periodEnd": "2026-10-24",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6",
-            "src7"
+            "src8"
           ],
-          "evidence": "Annual cash flow statement and free cash flow reconciliation, cash provided by operating activities."
+          "evidence": "Consolidated statements of cash flows, net cash provided by operating activities row."
         },
         {
           "id": "m4",
-          "value": 14585000000,
-          "unit": "USD",
-          "periodStart": "2026-06-28",
-          "periodEnd": "2026-10-03",
-          "comparison": "level",
+          "value": 24,
+          "unit": "percent",
+          "periodStart": "2026-07-26",
+          "periodEnd": "2026-10-24",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src8"
           ],
-          "evidence": "Quarterly column of the opening results table, sales row."
+          "evidence": "GAAP results summary, reported revenue growth."
         },
         {
           "id": "m5",
-          "value": -74000000,
-          "unit": "USD",
-          "periodStart": "2026-06-28",
-          "periodEnd": "2026-10-03",
-          "comparison": "level",
+          "value": 43,
+          "unit": "percent",
+          "periodStart": "2026-07-26",
+          "periodEnd": "2026-10-24",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src8"
           ],
-          "evidence": "Quarterly consolidated condensed income statement, net loss attributable to the parent."
-        },
-        {
-          "id": "m6",
-          "value": -514000000,
-          "unit": "USD",
-          "periodStart": "2026-06-28",
-          "periodEnd": "2026-10-03",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src7"
-          ],
-          "evidence": "Segment operating income as reported table, quarterly beef row."
+          "evidence": "Financial summary, revenue performance by product category, Networking."
         }
       ],
       "sourceIds": [
-        "src6",
-        "src7"
+        "src8"
       ],
-      "evidence": "Opening highlights, reported segment results, consolidated income statements and annual cash flow reconciliation establish the quarterly loss, beef pressure and positive annual operating cash generation."
+      "evidence": "Dated earnings release: statements of operations and cash flows establish realized results; the product discussion identifies networking growth, while the reconciliation separates GAAP earnings from adjusted measures."
     }
   ],
   "locales": {
     "en": {
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
         "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Beef losses complicate the food producer's cash picture",
-          "summary": "Tyson Foods reported a quarterly loss attributable to shareholders as its beef business remained under pressure.",
-          "impact": "For investors and food buyers, the release illustrates why supermarket prices, processor profitability and cash generation can move differently.",
-          "what": "Tyson Foods processes beef, pork and chicken and sells branded prepared foods to retail and foodservice customers. Its latest earnings release shows annual profitability alongside a loss in the closing fiscal quarter, with beef recording an operating loss. Reported sales benefited from an extended fiscal calendar, while the issuer's comparable-calendar discussion showed underlying quarterly sales pressure. Legal contingency accruals also affected sales presentation, so headline revenue should not be treated as a clean measure of consumer demand.",
-          "why": "The financial mechanism is the gap between livestock purchasing costs and the prices a processor receives for finished meat. An expensive consumer product does not necessarily produce a healthy processor margin. Diversification into chicken and prepared foods can cushion beef weakness without eliminating it. Separately, annual operating cash flow reflects actual cash generated through operations after working-capital movements, rather than simply repeating accounting profit; that distinction matters when assessing capacity to fund equipment, debt obligations and shareholder distributions. These are analytical implications, not forecasts.",
-          "uncertainty": "The quarterly loss and annual operating cash figure cover different periods and are not directly comparable. Management's adjusted results exclude selected expenses and calendar effects; they are neither reported accounting earnings nor a substitute for cash flow. No verified consensus measure is included, so this report makes no earnings-surprise claim.",
-          "watch": "Watch subsequent beef segment margins, comparable-calendar sales volumes and the cash flow statement for evidence that operational improvement is translating into cash rather than merely accounting adjustments.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Fiscal annual revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Fiscal annual net income attributable to shareholders"
-            },
-            {
-              "id": "m3",
-              "label": "Fiscal annual operating cash flow"
-            },
-            {
-              "id": "m4",
-              "label": "Fiscal closing quarter revenue"
-            },
-            {
-              "id": "m5",
-              "label": "Fiscal closing quarter net income attributable to shareholders"
-            },
-            {
-              "id": "m6",
-              "label": "Fiscal closing quarter beef operating income"
-            }
-          ]
-        }
-      ]
-    },
-    "zh-CN": {
-      "status": "本期经核实的报道覆盖有限。部分市场暂无经核实的新报道；较早的报道仍明确标注其所属日期。",
-      "marketSummary": {
-        "us": "部分收盘情况未能核实。已提供的各项指数均保留各自的交易日期。",
-        "cn": "所跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据仅反映对应交易日的情况，并非当前行情。"
-      },
-      "stories": [
+          "title": "Fed frames the rewards and risks of intelligent automation",
+          "summary": "Federal Reserve Chair Kevin Warsh outlined alternative economic paths from advanced artificial intelligence rather than announcing a policy decision.",
+          "impact": "The distinction matters because expectations of better productivity do not guarantee profitable corporate investment or secure household employment.",
+          "what": "In conference opening remarks, Warsh described technology that might accelerate the creation of ideas and improve productivity, while also discussing worker displacement and disappointing investment returns. He explicitly presented the staff's work as illustrative scenarios, not forecasts. The speech therefore supplies a framework for understanding a financial risk, rather than evidence that the favorable or adverse outcome has arrived.",
+          "why": "The investment mechanism is straightforward: companies spend cash building capacity because they expect customers to pay for useful services. If productivity improvements eventually support demand and earnings, that spending can create durable value. If expected returns disappoint, the adjustment can affect investment, employment and household finances. This is an explanation of the transmission channel, not a prediction about the direction of equities.",
+          "uncertainty": "The remarks do not establish when productivity benefits will appear, how widely they will be shared or which firms will capture them. Nor should a discussion of long-run possibilities be treated as an interest-rate commitment. A plausible technological outcome is not the same thing as an observable economic result.",
+          "watch": "Watch realized productivity, employment and company cash generation alongside subsequent monetary-policy communications. The useful test is whether adoption produces economically valuable output and sustainable customer payments, rather than whether management commentary becomes more enthusiastic.",
+          "metricLabels": []
+        },
         {
-          "id": "f1",
-          "title": "牛肉业务亏损，让泰森食品的现金状况更难判断",
-          "summary": "泰森食品公布季度归属于股东的净亏损，牛肉业务持续承压。",
-          "impact": "对投资者和食品购买者而言，这份财报说明，超市售价、加工企业的盈利能力和现金创造能力为何可能出现不同走势。",
-          "what": "泰森食品加工牛肉、猪肉和鸡肉，并向零售及餐饮服务客户销售品牌预制食品。最新财报显示，公司全年盈利，但财年末季亏损，牛肉业务也录得营业亏损。财年统计期间延长使报告营收受益，但公司按可比财年日历口径进行的分析显示，季度销售实际承压。针对潜在法律责任计提的款项也影响了营收的列报，因此不能直接将公布的营收视为消费者需求的纯粹体现。",
-          "why": "其财务机制在于牲畜采购成本与加工企业出售肉制品所得价格之间的差额。消费者买肉价格高，并不意味着加工企业的利润率就高。鸡肉和预制食品等多元化业务可以缓冲牛肉业务的疲弱，但无法消除其影响。此外，全年经营现金流反映的是经营活动在营运资金变动后实际产生的现金，并非会计利润的简单重现。评估公司能否为设备投入、偿还债务和向股东分配资金提供支持时，这种区别很重要。这些是分析层面的含义，并非预测。",
-          "uncertainty": "季度亏损与全年经营现金流涵盖的期间不同，不能直接比较。管理层公布的调整后业绩剔除了部分费用和财年日历差异的影响，既不等同于按会计准则报告的利润，也不能替代现金流。本报道未纳入经核实的市场共识预期，因此不判断业绩是否超出或低于预期。",
-          "watch": "后续可关注牛肉业务利润率、可比财年日历口径下的销量及现金流量表，以判断经营改善是否正在转化为现金，而不只是体现为会计调整。",
+          "id": "f3",
+          "title": "Dated earnings explainer: Cisco's networking demand and cash generation",
+          "summary": "Cisco's previously released fiscal results showed networking-led revenue expansion and positive operating cash generation.",
+          "impact": "The report offers a concrete business-performance check, while illustrating why accounting profit and cash receipts must remain separate.",
+          "what": "This is an earnings explainer of the dated release shown in the interface, not breaking news. Cisco supplies networking equipment, software and related services. Its financial statements report realized revenue, GAAP net income and operating cash flow for its fiscal reporting period; that period should not be confused with a calendar quarter. The release also presents adjusted earnings, which exclude specified accounting costs.",
+          "why": "Networking connects computing resources and users, so demand for that infrastructure is financially relevant beyond the companies selling processors. For a beginner, revenue records business earned under accounting rules, net income reflects recognized expenses and other items, and operating cash flow tracks cash generated by operations. They answer different questions. Cash generation is especially useful when considering how a business supports its ongoing commitments.",
+          "uncertainty": "The release does not establish that current demand will persist, and this coverage makes no claim about an earnings surprise against analyst consensus. Adjusted profit is not an alternative cash-flow statement. Future performance also depends on the costs of supplying products and collecting customer payments, not simply on the attractiveness of the underlying technology.",
+          "watch": "Watch subsequent reported networking sales, gross margins and operating cash flow. The relevant follow-through is whether customer demand continues to convert into recognized sales and cash without an unfavorable change in the cost of delivery. Keep any management outlook separate from results already earned.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "财年营收"
+              "label": "Fiscal-quarter revenue"
             },
             {
               "id": "m2",
-              "label": "财年归属于股东的净利润"
+              "label": "Fiscal-quarter GAAP net income"
             },
             {
               "id": "m3",
-              "label": "财年经营现金流"
+              "label": "Fiscal-quarter operating cash flow"
             },
             {
               "id": "m4",
-              "label": "财年末季营收"
+              "label": "Fiscal-quarter revenue growth"
             },
             {
               "id": "m5",
-              "label": "财年末季归属于股东的净利润"
-            },
-            {
-              "id": "m6",
-              "label": "财年末季牛肉业务营业利润"
+              "label": "Fiscal-quarter networking revenue growth"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition contient peu d’informations vérifiées. Certains marchés n’ont pas de nouvelle actualité vérifiée ; les rapports plus anciens restent clairement signalés comme tels.",
+      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés ne font l’objet d’aucune nouvelle actualité vérifiée ; les rapports antérieurs restent clairement signalés.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de cotation.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les clôtures datées décrivent ces séances, et non les échanges en cours."
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges en cours.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges en cours."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Les pertes dans le bœuf compliquent la situation de trésorerie du producteur alimentaire",
-          "summary": "Tyson Foods a annoncé une perte trimestrielle attribuable aux actionnaires, alors que son activité de transformation du bœuf restait sous pression.",
-          "impact": "Pour les investisseurs et les acheteurs de produits alimentaires, cette publication montre pourquoi les prix en supermarché, la rentabilité des transformateurs et la trésorerie générée peuvent évoluer différemment.",
-          "what": "Tyson Foods transforme du bœuf, du porc et du poulet, et vend des aliments préparés de marque aux distributeurs et aux professionnels de la restauration. Sa dernière publication de résultats fait apparaître un bénéfice annuel, mais une perte au dernier trimestre de l’exercice, avec une perte d’exploitation dans le bœuf. Le chiffre d’affaires publié a bénéficié d’un exercice comptable plus long, tandis que les commentaires de l’entreprise à calendrier comparable faisaient ressortir des tensions sur les ventes trimestrielles sous-jacentes. Des provisions pour risques liés à des litiges ont également influencé la présentation des ventes : le chiffre d’affaires publié ne doit donc pas être considéré comme une mesure sans distorsion de la demande des consommateurs.",
-          "why": "Le mécanisme financier repose sur l’écart entre le coût d’achat du bétail et les prix que le transformateur obtient pour la viande vendue. Un produit coûteux pour le consommateur ne garantit pas une marge satisfaisante au transformateur. La diversification dans le poulet et les aliments préparés peut atténuer les difficultés du bœuf sans les supprimer. Par ailleurs, le flux de trésorerie d’exploitation annuel représente la trésorerie réellement générée par l’activité, après les variations du besoin en fonds de roulement, et non une simple reprise du bénéfice comptable. Cette distinction compte pour évaluer la capacité à financer les équipements, à honorer les engagements liés à la dette et à rémunérer les actionnaires. Il s’agit de conclusions d’analyse, pas de prévisions.",
-          "uncertainty": "La perte trimestrielle et le flux de trésorerie d’exploitation annuel portent sur des périodes différentes et ne sont pas directement comparables. Les résultats ajustés présentés par la direction excluent certaines charges et certains effets de calendrier ; ils ne correspondent ni aux résultats comptables publiés ni à un substitut aux flux de trésorerie. Aucune estimation vérifiée du consensus des analystes n’est incluse : ce rapport n’affirme donc pas que les résultats ont dépassé ou manqué les attentes.",
-          "watch": "Suivre les prochaines marges de l’activité bœuf, les volumes de ventes à calendrier comparable et le tableau des flux de trésorerie pour voir si l’amélioration opérationnelle se traduit par de la trésorerie, plutôt que par de simples ajustements comptables.",
+          "title": "La Fed présente les bénéfices possibles et les risques de l’automatisation intelligente",
+          "summary": "Le président de la Réserve fédérale, Kevin Warsh, a décrit différentes trajectoires économiques possibles liées à l’intelligence artificielle avancée, sans annoncer de décision de politique monétaire.",
+          "impact": "Cette distinction est importante : les gains de productivité espérés ne garantissent ni la rentabilité des investissements des entreprises ni la sécurité de l’emploi des ménages.",
+          "what": "Dans son discours d’ouverture d’une conférence, Warsh a décrit une technologie susceptible d’accélérer la création d’idées et d’améliorer la productivité, tout en évoquant les suppressions d’emplois et les rendements décevants des investissements. Il a explicitement présenté les travaux des équipes de la Fed comme des scénarios illustratifs, et non comme des prévisions. Ce discours fournit donc un cadre pour comprendre un risque financier, sans prouver que les effets favorables ou défavorables se sont déjà concrétisés.",
+          "why": "Le mécanisme d’investissement est simple : les entreprises dépensent de la trésorerie pour développer leurs capacités parce qu’elles s’attendent à ce que des clients paient pour des services utiles. Si les gains de productivité finissent par soutenir la demande et les bénéfices, ces dépenses peuvent créer une valeur durable. Si les rendements attendus déçoivent, l’ajustement peut toucher l’investissement, l’emploi et les finances des ménages. Il s’agit d’expliquer comment ces effets se transmettent à l’économie, et non de prévoir l’évolution des actions.",
+          "uncertainty": "Ces propos ne permettent pas de déterminer quand les gains de productivité apparaîtront, dans quelle mesure ils seront partagés ni quelles entreprises en bénéficieront. Une discussion sur les possibilités à long terme ne doit pas non plus être interprétée comme un engagement sur les taux d’intérêt. Une évolution technologique plausible n’équivaut pas à un résultat économique observable.",
+          "watch": "Suivre la productivité effectivement mesurée, l’emploi et la trésorerie générée par les entreprises, ainsi que les prochaines communications de politique monétaire. Le critère utile est de savoir si l’adoption de ces technologies produit des biens et services ayant une valeur économique et des paiements durables de la part des clients, plutôt que de voir si les dirigeants tiennent des discours plus enthousiastes.",
+          "metricLabels": []
+        },
+        {
+          "id": "f3",
+          "title": "Décryptage de résultats antérieurs : demande en équipements réseau et génération de trésorerie chez Cisco",
+          "summary": "Les résultats financiers déjà publiés par Cisco montraient une croissance du chiffre d’affaires portée par les activités réseau et des flux de trésorerie d’exploitation positifs.",
+          "impact": "Ce rapport permet d’évaluer concrètement la performance de l’entreprise, tout en montrant pourquoi il faut distinguer le bénéfice comptable des encaissements.",
+          "what": "Il s’agit d’un décryptage du communiqué daté affiché dans l’interface, et non d’une actualité de dernière minute. Cisco fournit des équipements réseau, des logiciels et des services associés. Ses états financiers présentent le chiffre d’affaires réalisé, le résultat net selon les normes comptables américaines GAAP et les flux de trésorerie d’exploitation pour sa période de reporting financier ; celle-ci ne doit pas être confondue avec un trimestre civil. Le communiqué présente également des bénéfices ajustés, qui excluent certaines charges comptables précisées.",
+          "why": "Les réseaux relient les ressources informatiques et les utilisateurs : la demande pour ces infrastructures a donc une importance financière au-delà des entreprises qui vendent des processeurs. Pour comprendre ces résultats, le chiffre d’affaires correspond aux ventes comptabilisées selon les règles comptables, le résultat net tient compte des charges et des autres éléments comptabilisés, tandis que les flux de trésorerie d’exploitation mesurent la trésorerie générée par l’activité. Ces indicateurs répondent à des questions différentes. La génération de trésorerie est particulièrement utile pour comprendre comment une entreprise finance ses engagements courants.",
+          "uncertainty": "Le communiqué ne permet pas d’affirmer que la demande actuelle se maintiendra, et cette analyse ne se prononce pas sur un éventuel écart entre les résultats et les attentes moyennes des analystes. Le bénéfice ajusté ne remplace pas un tableau des flux de trésorerie. Les performances futures dépendent aussi des coûts de fourniture des produits et de l’encaissement des paiements des clients, et pas seulement de l’attrait de la technologie sous-jacente.",
+          "watch": "Suivre les prochaines publications concernant les ventes de l’activité réseau, les marges brutes et les flux de trésorerie d’exploitation. Il s’agit de vérifier si la demande des clients continue de se traduire par des ventes comptabilisées et de la trésorerie, sans évolution défavorable des coûts de fourniture. Garder les perspectives annoncées par la direction distinctes des résultats déjà réalisés.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires annuel de l’exercice"
+              "label": "Chiffre d’affaires du trimestre fiscal"
             },
             {
               "id": "m2",
-              "label": "Résultat net annuel de l’exercice attribuable aux actionnaires"
+              "label": "Résultat net GAAP du trimestre fiscal"
             },
             {
               "id": "m3",
-              "label": "Flux de trésorerie d’exploitation annuel de l’exercice"
+              "label": "Flux de trésorerie d’exploitation du trimestre fiscal"
             },
             {
               "id": "m4",
-              "label": "Chiffre d’affaires du dernier trimestre de l’exercice"
+              "label": "Croissance du chiffre d’affaires du trimestre fiscal"
             },
             {
               "id": "m5",
-              "label": "Résultat net du dernier trimestre de l’exercice attribuable aux actionnaires"
+              "label": "Croissance du chiffre d’affaires de l’activité réseau du trimestre fiscal"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-CN": {
+      "status": "本期经核实的报道有限。部分市场暂无经核实的新消息；较早的报道仍明确标注日期。",
+      "marketSummary": {
+        "us": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。",
+        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。"
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "美联储阐述智能自动化的收益与风险",
+          "summary": "美联储主席凯文·沃什阐述了先进人工智能可能带来的不同经济发展路径，并未宣布政策决定。",
+          "impact": "这种区分很重要，因为生产率有望提高，并不意味着企业投资必然盈利，也不意味着家庭成员的就业有保障。",
+          "what": "沃什在会议开幕致辞中表示，相关技术可能加快新想法的产生并提高生产率，同时也讨论了劳动者岗位被替代、投资回报不及预期的风险。他明确指出，工作人员的研究只是用于说明不同可能情形，并非预测。因此，这篇讲话提供的是理解金融风险的框架，而不是有利或不利结果已经出现的证据。",
+          "why": "其中的投资逻辑并不复杂：企业投入现金建设产能，是因为预期客户会为有用的服务付费。如果生产率改善最终能支撑需求和盈利，这些支出就可能创造持久价值。如果预期回报未能实现，随后的调整可能影响投资、就业和家庭财务。这是在解释影响如何传导，而非预测股市涨跌。",
+          "uncertainty": "这番讲话并未确定生产率提升的好处何时出现、惠及范围有多广，或哪些企业能够从中获益。对长期可能性的讨论，也不应被视为利率承诺。技术上合理的可能结果，并不等于经济中已经观察到的实际成效。",
+          "watch": "关注实际生产率、就业和企业创造现金的能力，以及后续货币政策沟通。真正有用的检验标准，是技术应用能否带来具有经济价值的产出和可持续的客户付款，而不是管理层的表态是否更加热情。",
+          "metricLabels": []
+        },
+        {
+          "id": "f3",
+          "title": "往期财报解读：思科的网络业务需求与现金创造能力",
+          "summary": "思科此前发布的财报显示，网络业务带动营收增长，经营现金流为正。",
+          "impact": "这份报告提供了检验企业实际经营表现的具体依据，也说明了为什么必须区分会计利润与现金收款。",
+          "what": "这是对界面所示日期已发布财报的解读，并非突发新闻。思科提供网络设备、软件及相关服务。其财务报表披露了所属财务报告期内已实现的营收、按美国通用会计准则计算的净利润，以及经营现金流；该报告期不应与自然季度混淆。财报还列出了调整后盈利，其中剔除了指定的会计成本。",
+          "why": "网络连接计算资源与用户，因此，对这类基础设施的需求不仅关系到销售处理器的企业，也具有更广泛的财务意义。对初学者而言，营收记录按会计规则确认的业务收入，净利润反映已确认的费用及其他项目，经营现金流则反映经营活动产生的现金。它们回答的是不同问题。在考察企业如何履行持续经营中的各项付款义务时，现金创造能力尤其有用。",
+          "uncertainty": "这份财报并不能证明当前需求将持续，本报道也未判断业绩是否超出分析师普遍预期。调整后利润不能替代现金流量表。未来表现还取决于产品供应成本和客户款项的收回情况，而不仅仅取决于相关技术是否具有吸引力。",
+          "watch": "关注后续披露的网络业务销售额、毛利率和经营现金流。关键在于，客户需求能否持续转化为已确认的销售收入和现金，同时交付成本没有出现不利变化。管理层对未来的展望，应与已经实现的业绩区分开来。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "财季营收"
             },
             {
-              "id": "m6",
-              "label": "Résultat d’exploitation de l’activité bœuf au dernier trimestre de l’exercice"
+              "id": "m2",
+              "label": "财季净利润（美国通用会计准则）"
+            },
+            {
+              "id": "m3",
+              "label": "财季经营现金流"
+            },
+            {
+              "id": "m4",
+              "label": "财季营收增长率"
+            },
+            {
+              "id": "m5",
+              "label": "财季网络业务营收增长率"
             }
           ]
         }
@@ -351,178 +353,206 @@
     "es": {
       "status": "La cobertura verificada de esta edición es limitada. Algunos mercados no tienen noticias nuevas verificadas; los informes de fechas anteriores siguen claramente identificados.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
-        "cn": "Los índices seguidos cayeron en sus últimas sesiones verificadas. Los cierres con fecha corresponden a esas sesiones, no a la cotización actual."
+        "us": "Los índices seguidos bajaron en sus sesiones verificadas más recientes. Los cierres con fecha indicada describen esas sesiones, no la negociación actual.",
+        "cn": "Los índices seguidos bajaron en sus sesiones verificadas más recientes. Los cierres con fecha indicada describen esas sesiones, no la negociación actual."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Las pérdidas del negocio de carne de vacuno complican la situación de caja del productor de alimentos",
-          "summary": "Tyson Foods comunicó una pérdida trimestral atribuible a los accionistas, mientras su negocio de carne de vacuno seguía bajo presión.",
-          "impact": "Para los inversores y los compradores de alimentos, el comunicado ilustra por qué los precios del supermercado, la rentabilidad de las empresas procesadoras y la generación de efectivo pueden evolucionar de forma distinta.",
-          "what": "Tyson Foods procesa carne de vacuno, cerdo y pollo, y vende alimentos preparados de marca a comercios minoristas y clientes del sector de la restauración. Su último comunicado de resultados muestra beneficios anuales, pero también una pérdida en el trimestre de cierre del ejercicio fiscal y una pérdida operativa en el negocio de carne de vacuno. Las ventas publicadas se beneficiaron de un calendario fiscal más largo, mientras que el análisis de la empresa sobre períodos de duración comparable mostró presión sobre las ventas trimestrales subyacentes. Las provisiones por posibles obligaciones legales también afectaron a la presentación de las ventas, por lo que la cifra de ingresos publicada no debe interpretarse como una medida que refleje únicamente la demanda de los consumidores.",
-          "why": "El mecanismo financiero está en la diferencia entre el coste de comprar ganado y los precios que recibe la empresa procesadora por la carne lista para vender. Un producto caro para el consumidor no implica necesariamente un margen saludable para quien lo procesa. La diversificación hacia el pollo y los alimentos preparados puede amortiguar la debilidad del negocio de carne de vacuno, sin eliminarla. Por su parte, el flujo de efectivo operativo anual refleja el efectivo realmente generado por las operaciones tras las variaciones del capital circulante, como las existencias y los importes pendientes de cobro y pago, en lugar de limitarse a reproducir el beneficio contable. Esa distinción importa al evaluar la capacidad de financiar equipos, cumplir obligaciones de deuda y realizar pagos a los accionistas. Estas son implicaciones para el análisis, no previsiones.",
-          "uncertainty": "La pérdida trimestral y la cifra anual de flujo de efectivo operativo corresponden a períodos distintos y no son directamente comparables. Los resultados ajustados de la dirección excluyen determinados gastos y efectos del calendario; no son los resultados contables publicados ni sustituyen al flujo de efectivo. No se incluye una estimación de consenso verificada, por lo que este informe no afirma que los resultados hayan superado o quedado por debajo de las expectativas del mercado.",
-          "watch": "Conviene observar los próximos márgenes del segmento de carne de vacuno, los volúmenes de ventas de períodos de duración comparable y el estado de flujos de efectivo para comprobar si la mejora operativa se traduce en efectivo y no solo en ajustes contables.",
+          "title": "La Fed expone los beneficios potenciales y los riesgos de la automatización inteligente",
+          "summary": "El presidente de la Reserva Federal, Kevin Warsh, planteó posibles trayectorias económicas derivadas de la inteligencia artificial avanzada, sin anunciar ninguna decisión de política monetaria.",
+          "impact": "La distinción importa porque las expectativas de mayor productividad no garantizan inversiones empresariales rentables ni empleos seguros para los hogares.",
+          "what": "En el discurso de apertura de una conferencia, Warsh describió tecnologías que podrían acelerar la creación de ideas y mejorar la productividad, pero también abordó el desplazamiento de trabajadores y la posibilidad de rendimientos decepcionantes de las inversiones. Presentó expresamente el trabajo del equipo técnico como escenarios ilustrativos, no como pronósticos. Por tanto, el discurso ofrece un marco para entender un riesgo financiero, no pruebas de que el resultado favorable o adverso ya se haya materializado.",
+          "why": "El mecanismo de inversión es sencillo: las empresas gastan dinero en ampliar su capacidad porque esperan que los clientes paguen por servicios útiles. Si las mejoras de productividad terminan respaldando la demanda y los beneficios, ese gasto puede crear valor duradero. Si los rendimientos esperados decepcionan, el ajuste puede afectar a la inversión, el empleo y las finanzas de los hogares. Esto explica el mecanismo de transmisión, no predice la dirección de las cotizaciones bursátiles.",
+          "uncertainty": "Las declaraciones no establecen cuándo aparecerán los beneficios de productividad, hasta qué punto se repartirán ni qué empresas los aprovecharán. Tampoco debe interpretarse una reflexión sobre posibilidades a largo plazo como un compromiso sobre los tipos de interés. Un resultado tecnológico plausible no equivale a un resultado económico observable.",
+          "watch": "Conviene observar la productividad efectiva, el empleo y la generación de efectivo de las empresas junto con las comunicaciones posteriores de política monetaria. La prueba útil es si la adopción genera producción con valor económico y pagos sostenibles de los clientes, no si los comentarios de los directivos se vuelven más entusiastas.",
+          "metricLabels": []
+        },
+        {
+          "id": "f3",
+          "title": "Análisis de resultados de una publicación anterior: demanda de redes y generación de efectivo de Cisco",
+          "summary": "Los resultados fiscales publicados anteriormente por Cisco mostraron un aumento de los ingresos impulsado por el negocio de redes y una generación positiva de efectivo de las actividades operativas.",
+          "impact": "El informe permite evaluar el desempeño real del negocio y muestra por qué deben distinguirse el beneficio contable y los cobros de efectivo.",
+          "what": "Este análisis explica los resultados de la publicación cuya fecha aparece en la interfaz; no es una noticia de última hora. Cisco suministra equipos de redes, software y servicios relacionados. Sus estados financieros presentan los ingresos obtenidos, el beneficio neto conforme a los principios contables estadounidenses, conocidos como GAAP, y el flujo de efectivo operativo correspondientes a su período fiscal; ese período no debe confundirse con un trimestre natural. La publicación también presenta beneficios ajustados, que excluyen determinados costes contables.",
+          "why": "Las redes conectan los recursos informáticos y a los usuarios, por lo que la demanda de esa infraestructura tiene relevancia financiera más allá de las empresas que venden procesadores. Para quien empieza, los ingresos registran la actividad del negocio reconocida conforme a las normas contables; el beneficio neto refleja los gastos reconocidos y otras partidas; y el flujo de efectivo operativo recoge el efectivo generado por las operaciones. Cada medida responde a preguntas distintas. La generación de efectivo resulta especialmente útil para valorar cómo una empresa atiende sus compromisos habituales.",
+          "uncertainty": "La publicación no demuestra que la demanda actual vaya a mantenerse, y esta cobertura no afirma que los resultados hayan sorprendido frente al consenso de los analistas. El beneficio ajustado no sustituye al estado de flujos de efectivo. El desempeño futuro también depende de los costes de suministrar productos y de cobrar a los clientes, no solo del atractivo de la tecnología subyacente.",
+          "watch": "Conviene observar las próximas cifras publicadas de ventas del negocio de redes, márgenes brutos y flujo de efectivo operativo. Lo importante es comprobar si la demanda de los clientes sigue convirtiéndose en ventas reconocidas y efectivo sin un cambio desfavorable en los costes de suministro. Las perspectivas de la dirección deben mantenerse separadas de los resultados ya obtenidos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos del ejercicio fiscal"
+              "label": "Ingresos del trimestre fiscal"
             },
             {
               "id": "m2",
-              "label": "Resultado neto del ejercicio fiscal atribuible a los accionistas"
+              "label": "Beneficio neto GAAP del trimestre fiscal"
             },
             {
               "id": "m3",
-              "label": "Flujo de efectivo operativo del ejercicio fiscal"
+              "label": "Flujo de efectivo operativo del trimestre fiscal"
             },
             {
               "id": "m4",
-              "label": "Ingresos del trimestre de cierre del ejercicio fiscal"
+              "label": "Crecimiento de los ingresos del trimestre fiscal"
             },
             {
               "id": "m5",
-              "label": "Resultado neto del trimestre de cierre del ejercicio fiscal atribuible a los accionistas"
-            },
-            {
-              "id": "m6",
-              "label": "Resultado operativo del negocio de carne de vacuno en el trimestre de cierre del ejercicio fiscal"
+              "label": "Crecimiento de los ingresos del negocio de redes del trimestre fiscal"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今号で確認できた情報は限られています。確認済みの新しいニュースがない市場もあります。過去の日付の情報は、そのことが分かるように示しています。",
+      "status": "今号で検証できた情報は限られています。検証済みの新しいニュースがない市場もあります。過去の発表に基づく記事は、その旨を明示しています。",
       "marketSummary": {
-        "us": "終値に関する情報には、確認できなかったものがあります。掲載している指数には、それぞれの取引日を示しています。",
-        "cn": "対象の指数はいずれも、確認できた直近の取引で下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の値動きではありません。"
+        "us": "対象の指数はいずれも、直近で確認できた取引日の終値が下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。",
+        "cn": "対象の指数はいずれも、直近で確認できた取引日の終値が下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "牛肉事業の赤字で、食品メーカーの資金創出力は見極めが難しく",
-          "summary": "タイソン・フーズは、牛肉事業の厳しい状況が続くなか、株主に帰属する四半期純損失を計上しました。",
-          "impact": "投資家や食品を買う人にとって、今回の発表は、スーパーの販売価格、加工業者の収益性、現金を生み出す力が必ずしも同じ方向に動かない理由を示しています。",
-          "what": "タイソン・フーズは牛肉、豚肉、鶏肉を加工し、ブランド付きの調理済み食品を小売業や外食産業向けに販売しています。最新の決算発表では、通期では黒字だったものの、会計年度の最終四半期は赤字となり、牛肉事業も営業損失を計上しました。公表売上高は会計年度の期間が通常より長かったことに支えられましたが、会社が期間をそろえて比較した説明では、四半期の売上高に実質的な下押し圧力が見られました。訴訟などに伴う損失に備えた引当金の計上も売上高の表示に影響しているため、公表売上高を消費者需要だけを表す指標として扱うべきではありません。",
-          "why": "収益を左右するのは、家畜の仕入れ費用と、加工した食肉を販売して得られる価格との差です。消費者が高い価格を払っていても、加工業者が十分な利益を得られるとは限りません。鶏肉や調理済み食品にも事業を広げていることは、牛肉事業の不振を和らげますが、その影響をなくすわけではありません。また、通期の営業キャッシュフローは、会計上の利益そのものではなく、売掛金や在庫、買掛金などの運転資本の変動を反映したうえで、本業から実際に生み出した現金を示します。この違いは、設備投資、債務の支払い、株主還元に充てる資金力を評価する際に重要です。これらは分析上の意味合いであり、予測ではありません。",
-          "uncertainty": "四半期純損失と通期の営業キャッシュフローは対象期間が異なり、直接比較できません。経営陣が示す調整後の業績は、特定の費用や会計期間の違いによる影響を除いたもので、公表された会計上の利益でも、キャッシュフローの代わりになるものでもありません。確認済みの市場予想は掲載していないため、業績が市場予想を上回ったか下回ったかは判断していません。",
-          "watch": "今後の牛肉部門の利益率、比較期間をそろえた販売数量、キャッシュフロー計算書に注目です。事業運営の改善が、単なる会計上の調整ではなく、現金の創出につながっているかを確認する材料になります。",
+          "title": "ＦＲＢ議長、ＡＩによる自動化の恩恵とリスクを整理",
+          "summary": "米連邦準備制度理事会（ＦＲＢ）のケビン・ウォーシュ議長は、政策決定を発表したのではなく、高度な人工知能によって経済がたどりうるさまざまな道筋を示しました。",
+          "impact": "生産性が向上するという期待があっても、企業の投資が利益につながることや、家計を支える雇用が守られることが保証されるわけではありません。そのため、この区別は重要です。",
+          "what": "ウォーシュ議長は会議の冒頭あいさつで、アイデアの創出を速め、生産性を高める可能性のある技術について説明しました。同時に、働き手が仕事を失うリスクや、投資の収益が期待を下回る可能性にも触れました。議長は、職員による分析は説明のためのシナリオであり、予測ではないと明言しています。したがって、この講演は金融面のリスクを理解するための枠組みを示すもので、好ましい結果や悪い結果がすでに現れたことを示す証拠ではありません。",
+          "why": "投資の仕組みは明快です。企業は、役立つサービスに顧客がお金を払うと見込んで、資金を投じて供給能力を整えます。生産性の改善がやがて需要や利益を支えれば、その支出は持続的な価値を生み出しえます。期待した収益が得られなければ、その後の調整が投資、雇用、家計に影響する可能性があります。これは影響が伝わる経路の説明であり、株価の方向を予測するものではありません。",
+          "uncertainty": "今回の発言からは、生産性向上の恩恵がいつ現れるのか、どこまで広く行き渡るのか、どの企業が取り込むのかは分かりません。また、長期的な可能性についての議論を、金利政策の確約と受け取るべきでもありません。技術面で起こりそうなことと、経済で実際に確認できる結果は別です。",
+          "watch": "今後の金融政策に関する発信とともに、実際の生産性、雇用、企業が現金を生み出す力に注目します。判断の手がかりとなるのは、経営陣の発言が楽観的になるかどうかではなく、技術の導入が経済的に価値のある成果や、顧客からの継続的な支払いにつながるかどうかです。",
+          "metricLabels": []
+        },
+        {
+          "id": "f3",
+          "title": "過去の決算を解説：シスコのネットワーク需要と現金創出力",
+          "summary": "シスコが以前に公表した決算では、ネットワーク事業が売上高の拡大をけん引し、営業キャッシュフローもプラスでした。",
+          "impact": "この決算は事業の実績を具体的に確認する材料となるとともに、会計上の利益と現金の受け取りを区別する必要性を示しています。",
+          "what": "これは、画面に日付が表示されている過去の決算発表の解説であり、速報ではありません。シスコはネットワーク機器、ソフトウェア、関連サービスを提供しています。財務諸表には、同社の会計期間における売上高、米国会計基準に基づく純利益、営業キャッシュフローの実績が記載されています。この会計期間は、暦上の四半期とは区別する必要があります。発表には、特定の会計上の費用を除いた調整後利益も示されています。",
+          "why": "ネットワークはコンピューターなどの計算資源と利用者をつなぐため、その基盤への需要は、プロセッサーを販売する企業以外にとっても財務面で重要です。初心者向けに整理すると、売上高は会計ルールに従って事業で得た収益を記録し、純利益は計上された費用などを反映し、営業キャッシュフローは本業が生み出した現金の流れを示します。それぞれ、確認できることが異なります。事業が継続的な支払い義務をどう支えているかを考えるうえでは、現金を生み出す力が特に役立ちます。",
+          "uncertainty": "この発表だけでは、現在の需要が続くとは判断できません。また、今回の記事は、利益がアナリストの市場予想を上回ったか下回ったかについては述べていません。調整後利益は、キャッシュフロー計算書の代わりにはなりません。今後の業績は、技術そのものの魅力だけでなく、製品の供給にかかる費用や、顧客からの代金回収にも左右されます。",
+          "watch": "今後発表されるネットワーク事業の売上高、売上総利益率、営業キャッシュフローに注目します。確認したいのは、製品やサービスの提供コストが不利な方向に変化せず、顧客の需要が引き続き会計上の売上高と現金収入につながるかどうかです。経営陣の見通しは、すでに得られた実績と区別して捉えます。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "通期売上高"
+              "label": "会計四半期の売上高"
             },
             {
               "id": "m2",
-              "label": "株主に帰属する通期純利益"
+              "label": "会計四半期の米国会計基準に基づく純利益"
             },
             {
               "id": "m3",
-              "label": "通期営業キャッシュフロー"
+              "label": "会計四半期の営業キャッシュフロー"
             },
             {
               "id": "m4",
-              "label": "会計年度の最終四半期売上高"
+              "label": "会計四半期の売上高成長率"
             },
             {
               "id": "m5",
-              "label": "株主に帰属する会計年度の最終四半期純利益"
-            },
-            {
-              "id": "m6",
-              "label": "会計年度の最終四半期の牛肉事業営業利益"
+              "label": "会計四半期のネットワーク事業売上高成長率"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição tem cobertura verificada limitada. Alguns mercados estão sem notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
+      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
       "marketSummary": {
-        "us": "Não foi possível verificar algumas informações de fechamento. Cada índice disponível mantém a data do seu respectivo pregão.",
-        "cn": "Os índices acompanhados caíram em seus pregões verificados mais recentes. Os fechamentos datados descrevem aquelas sessões, não as negociações atuais."
+        "us": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os fechamentos com data indicada descrevem esses pregões, não as negociações atuais.",
+        "cn": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os fechamentos com data indicada descrevem esses pregões, não as negociações atuais."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Prejuízo na carne bovina complica a situação de caixa da produtora de alimentos",
-          "summary": "A Tyson Foods informou prejuízo trimestral atribuível aos acionistas, enquanto seu negócio de carne bovina continuou sob pressão.",
-          "impact": "Para investidores e compradores de alimentos, o comunicado mostra por que os preços nos supermercados, a rentabilidade das processadoras e a geração de caixa podem seguir caminhos diferentes.",
-          "what": "A Tyson Foods processa carnes bovina, suína e de frango e vende alimentos preparados de marca para o varejo e o setor de alimentação fora do lar. Seu comunicado de resultados mais recente mostra lucro no exercício fiscal, mas prejuízo no trimestre de encerramento, com resultado operacional negativo no segmento de carne bovina. As vendas divulgadas foram favorecidas por um calendário fiscal mais longo, enquanto a análise da empresa com períodos de duração comparável mostrou pressão sobre as vendas trimestrais subjacentes. Provisões para contingências judiciais também afetaram a apresentação das vendas, de modo que a receita em destaque não deve ser tratada como uma medida isolada e fiel da demanda dos consumidores.",
-          "why": "O mecanismo financeiro está na diferença entre o custo de compra dos animais e os preços que a processadora recebe pela carne pronta para venda. Um produto caro para o consumidor não garante uma margem saudável para a processadora. A diversificação para frango e alimentos preparados pode amenizar a fraqueza da carne bovina, sem eliminá-la. Já o fluxo de caixa operacional anual reflete o dinheiro efetivamente gerado pelas operações após as variações do capital de giro, em vez de simplesmente repetir o lucro contábil. Essa distinção importa para avaliar a capacidade de financiar equipamentos, cumprir obrigações de dívida e distribuir recursos aos acionistas. Essas são implicações para análise, não previsões.",
-          "uncertainty": "O prejuízo trimestral e o fluxo de caixa operacional anual abrangem períodos diferentes e não são diretamente comparáveis. Os resultados ajustados pela administração excluem determinadas despesas e efeitos do calendário; não equivalem ao lucro contábil divulgado nem substituem o fluxo de caixa. Não há uma estimativa de consenso verificada nesta edição, portanto o relatório não afirma que os resultados tenham surpreendido em relação às expectativas.",
-          "watch": "Acompanhe as próximas margens do segmento de carne bovina, os volumes de vendas em períodos de duração comparável e a demonstração dos fluxos de caixa para verificar se a melhora operacional está se convertendo em dinheiro, e não apenas em ajustes contábeis.",
+          "title": "Fed apresenta benefícios potenciais e riscos da automação inteligente",
+          "summary": "O presidente do Federal Reserve, Kevin Warsh, apresentou possíveis trajetórias para a economia com a inteligência artificial avançada, sem anunciar decisão de política monetária.",
+          "impact": "A distinção importa porque a expectativa de maior produtividade não garante investimentos empresariais rentáveis nem segurança no emprego para as famílias.",
+          "what": "Na abertura de uma conferência, Warsh descreveu tecnologias que poderiam acelerar a criação de ideias e melhorar a produtividade, mas também abordou a substituição de trabalhadores e retornos decepcionantes dos investimentos. Ele apresentou explicitamente o trabalho da equipe técnica como cenários ilustrativos, não como previsões. Assim, o discurso oferece uma estrutura para entender riscos financeiros, e não evidências de que os resultados favoráveis ou adversos já se concretizaram.",
+          "why": "O mecanismo do investimento é direto: as empresas gastam recursos para ampliar sua capacidade porque esperam que os clientes paguem por serviços úteis. Se os ganhos de produtividade acabarem sustentando a demanda e os lucros, esses gastos poderão criar valor duradouro. Se os retornos esperados decepcionarem, o ajuste poderá afetar os investimentos, o emprego e as finanças das famílias. Isso explica como os efeitos se transmitem pela economia, sem prever a direção das ações.",
+          "uncertainty": "As declarações não estabelecem quando os benefícios de produtividade aparecerão, como serão distribuídos ou quais empresas conseguirão aproveitá-los. A discussão de possibilidades de longo prazo também não deve ser interpretada como compromisso sobre os juros. Um resultado tecnológico plausível não equivale a um resultado econômico observável.",
+          "watch": "Acompanhe a produtividade efetivamente observada, o emprego e a geração de caixa das empresas, junto com as próximas comunicações de política monetária. O teste relevante é saber se a adoção da tecnologia gera produção com valor econômico e pagamentos sustentáveis dos clientes, e não se os comentários dos administradores ficam mais entusiasmados.",
+          "metricLabels": []
+        },
+        {
+          "id": "f3",
+          "title": "Entenda os resultados de data anterior da Cisco: demanda por redes e geração de caixa",
+          "summary": "Os resultados fiscais já divulgados pela Cisco mostraram expansão da receita impulsionada pelo segmento de redes e geração positiva de caixa operacional.",
+          "impact": "O relatório permite avaliar o desempenho concreto do negócio e mostra por que lucro contábil e recebimentos de caixa devem ser analisados separadamente.",
+          "what": "Esta é uma explicação dos resultados da divulgação cuja data aparece na interface, não uma notícia de última hora. A Cisco fornece equipamentos de rede, software e serviços relacionados. Suas demonstrações financeiras apresentam a receita efetivamente reconhecida, o lucro líquido segundo os princípios contábeis geralmente aceitos nos Estados Unidos, conhecidos como GAAP, e o fluxo de caixa operacional do período fiscal informado; esse período não deve ser confundido com um trimestre do calendário. A divulgação também apresenta lucro ajustado, que exclui custos contábeis especificados.",
+          "why": "As redes conectam recursos de computação e usuários, por isso a demanda por essa infraestrutura tem relevância financeira para além das empresas que vendem processadores. Para quem está começando, a receita registra o valor gerado pelo negócio conforme as regras contábeis, o lucro líquido reflete despesas reconhecidas e outros itens, e o fluxo de caixa operacional acompanha o caixa gerado pelas operações. São medidas que respondem a perguntas diferentes. A geração de caixa é especialmente útil para entender como a empresa sustenta seus compromissos recorrentes.",
+          "uncertainty": "A divulgação não demonstra que a demanda atual continuará, e esta cobertura não afirma que os resultados surpreenderam em relação ao consenso dos analistas. O lucro ajustado não substitui a demonstração dos fluxos de caixa. O desempenho futuro também depende dos custos de fornecer produtos e receber os pagamentos dos clientes, não apenas da atratividade da tecnologia utilizada.",
+          "watch": "Acompanhe as próximas divulgações de vendas do segmento de redes, margens brutas e fluxo de caixa operacional. O ponto relevante é verificar se a demanda dos clientes continua se convertendo em vendas reconhecidas e caixa, sem uma mudança desfavorável nos custos de fornecimento. Mantenha as perspectivas apresentadas pela administração separadas dos resultados já realizados.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita do exercício fiscal"
+              "label": "Receita do trimestre fiscal"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido atribuível aos acionistas no exercício fiscal"
+              "label": "Lucro líquido GAAP do trimestre fiscal"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional do exercício fiscal"
+              "label": "Fluxo de caixa operacional do trimestre fiscal"
             },
             {
               "id": "m4",
-              "label": "Receita do trimestre de encerramento do exercício fiscal"
+              "label": "Crescimento da receita do trimestre fiscal"
             },
             {
               "id": "m5",
-              "label": "Lucro líquido atribuível aos acionistas no trimestre de encerramento do exercício fiscal"
-            },
-            {
-              "id": "m6",
-              "label": "Resultado operacional do segmento de carne bovina no trimestre de encerramento do exercício fiscal"
+              "label": "Crescimento da receita do segmento de redes no trimestre fiscal"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期經查證的報導範圍有限。部分市場沒有經查證的新報導；較早的報導仍清楚標示日期。",
+      "status": "本期經查證的報導有限。部分市場沒有經查證的新消息；較早發布的報告仍明確標示其日期。",
       "marketSummary": {
-        "us": "部分收盤資訊無法查證。可提供的各項指數資料均保留各自的交易日期。",
-        "cn": "追蹤的指數在最近經查證的交易日均下跌。附有日期的收盤資料反映當日表現，並非目前行情。"
+        "us": "追蹤的指數在各自最近經查證的交易日均下跌。所列日期的收盤資料反映當時交易日的表現，並非目前行情。",
+        "cn": "追蹤的指數在各自最近經查證的交易日均下跌。所列日期的收盤資料反映當時交易日的表現，並非目前行情。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "牛肉業務虧損，讓食品生產商的現金狀況更難判讀",
-          "summary": "泰森食品公布歸屬股東的季度淨損，牛肉業務持續承壓。",
-          "impact": "對投資人與食品買家而言，這份財報說明了為何超市售價、加工業者獲利能力與現金創造能力可能出現不同走勢。",
-          "what": "泰森食品加工牛肉、豬肉與雞肉，並向零售及餐飲客戶銷售品牌調理食品。最新財報顯示，公司全年獲利，但會計年度末季虧損，牛肉業務也錄得營業損失。公布的營收受惠於會計年度涵蓋期間延長，但公司按可比期間所作的說明顯示，該季營收實際仍面臨壓力。法律或有事項的應計提列也影響了營收呈現，因此不宜直接將公布的營收視為消費需求的純粹指標。",
-          "why": "關鍵在於牲畜採購成本與加工業者出售肉品所得價格之間的差距。消費者買到的產品價格高，不代表加工業者的利潤率就良好。雞肉與調理食品等多元業務可以緩衝牛肉業務的疲弱，卻無法將其完全抵銷。此外，全年營業活動現金流量反映營運資金變動後，營運實際產生的現金，並不等同於帳面獲利；評估公司是否有能力支應設備支出、償債及向股東分配資金時，這項差異很重要。這些是分析上的意涵，並非預測。",
-          "uncertainty": "季度淨損與全年營業活動現金流量涵蓋的期間不同，無法直接比較。管理階層提供的調整後業績排除了特定費用與會計期間長短的影響；這些數據既不是依會計準則公布的損益，也不能取代現金流量。本報導未納入經查證的市場共識預估，因此不判定獲利是否優於或遜於預期。",
-          "watch": "留意後續牛肉部門的利潤率、按可比期間計算的銷量及現金流量表，觀察營運改善是否真正轉化為現金，而不只是帳面調整。",
+          "title": "聯準會說明智慧自動化的潛在效益與風險",
+          "summary": "聯準會主席凱文・華許說明先進人工智慧可能帶來的不同經濟發展路徑，並未宣布政策決定。",
+          "impact": "釐清這項區別很重要，因為對生產力提升的期待，並不保證企業投資能獲利，也不保證家庭成員的就業穩定。",
+          "what": "華許在會議開場致詞中，說明這類技術可能加快新構想的產生並提升生產力，同時也談到工作被取代及投資報酬不如預期的風險。他明確表示，幕僚的研究是用來說明可能情境，而不是預測。因此，這場演說提供的是理解金融風險的架構，並非有利或不利結果已經出現的證據。",
+          "why": "投資的運作機制並不複雜：企業投入現金擴充產能，是因為預期客戶會為有用的服務付費。如果生產力提升最終能支撐需求與獲利，這些支出就可能創造持久價值。如果預期報酬未能實現，後續調整可能影響投資、就業與家庭財務。這是在解釋影響如何傳導，並非預測股市走向。",
+          "uncertainty": "這些談話並未確定生產力效益何時出現、能有多廣泛的受益範圍，或哪些企業能取得這些效益。對長期可能性的討論，也不應被視為利率承諾。技術上合理的可能結果，不等於已經能觀察到的經濟成果。",
+          "watch": "觀察實際生產力、就業與企業創造現金的能力，並搭配後續貨幣政策訊息判讀。真正有用的檢驗標準，是技術導入是否帶來具有經濟價值的產出，以及客戶是否能持續付費，而不是管理層的說法是否變得更熱切。",
+          "metricLabels": []
+        },
+        {
+          "id": "f3",
+          "title": "歷史財報解析：思科的網路設備需求與現金創造能力",
+          "summary": "思科先前公布的財報顯示，網路業務帶動營收成長，營業現金流也呈現淨流入。",
+          "impact": "這份報告提供具體資料，可用來檢視企業營運表現，也說明為何必須區分會計獲利與實際收到的現金。",
+          "what": "這是針對介面所示日期之財報的解析，並非即時新聞。思科供應網路設備、軟體及相關服務。其財務報表列出該會計期間已實現的營收、依一般公認會計原則編製的淨利，以及營業現金流；這個期間不應與曆年季度混淆。財報也列出調整後獲利，排除了特定會計成本。",
+          "why": "網路連接運算資源與使用者，因此這類基礎設施需求的財務意義，不只限於銷售處理器的企業。對初學者而言，營收記錄依會計規則認列的業務收入，淨利反映已認列的費用與其他項目，營業現金流則追蹤日常營運產生的現金。這些指標回答的問題不同。在評估企業如何支應持續性的支出與責任時，創造現金的能力尤其有參考價值。",
+          "uncertainty": "這份財報無法證明目前需求會持續，本篇也未判定獲利是否優於或低於分析師共識預期。調整後獲利不能取代現金流量表。未來表現也取決於供應產品的成本與向客戶收款的情況，而不只是相關技術是否具有吸引力。",
+          "watch": "觀察後續公布的網路業務營收、毛利率與營業現金流。重點在於客戶需求能否持續轉化為已認列的營收與現金，且交付產品與服務的成本沒有出現不利變化。管理層對未來的展望，應與已實現的業績分開看待。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "會計年度營收"
+              "label": "會計季度營收"
             },
             {
               "id": "m2",
-              "label": "會計年度歸屬股東淨利"
+              "label": "會計季度依一般公認會計原則（GAAP）編製的淨利"
             },
             {
               "id": "m3",
-              "label": "會計年度營業活動現金流量"
+              "label": "會計季度營業現金流"
             },
             {
               "id": "m4",
-              "label": "會計年度末季營收"
+              "label": "會計季度營收成長率"
             },
             {
               "id": "m5",
-              "label": "會計年度末季歸屬股東淨利"
-            },
-            {
-              "id": "m6",
-              "label": "會計年度末季牛肉部門營業利益"
+              "label": "會計季度網路業務營收成長率"
             }
           ]
         }
