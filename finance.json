@@ -1,558 +1,598 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-17T10:42:51.228Z",
-  "generatedAt": "2026-11-17T10:47:26.603Z",
-  "model": "gpt-6.1-sol",
+  "cutoffAt": "2026-11-19T10:19:27.092Z",
+  "generatedAt": "2026-11-19T10:27:11.735Z",
+  "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "FRED broad US equity index closing observations",
+      "label": "FRED broad US equity index daily closes",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src2",
-      "label": "FRED Nasdaq Composite closing observations",
+      "label": "FRED Nasdaq Composite daily closes",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src3",
-      "label": "Investing Shanghai Composite dated closing table",
-      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      "label": "Shanghai Composite dated quote and previous close",
+      "url": "https://summary.jrj.com.cn/stock/sh/000001"
     },
     {
       "id": "src4",
-      "label": "Investing mainland large-cap benchmark dated closing table",
-      "url": "https://ph.investing.com/indices/csi300-historical-data"
+      "label": "Mainland large-cap index dated daily close table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Federal Reserve productivity conference opening remarks",
-      "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm"
+      "label": "Mainland closing bulletin",
+      "url": "https://www.fxbus.com/cn/news/20261119150109433176.html"
     },
     {
       "id": "src6",
-      "label": "National Bureau of Statistics economic activity release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html"
+      "label": "Issuer public offering pricing announcement",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
     },
     {
       "id": "src7",
-      "label": "National Bureau of Statistics economic activity press questions",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965869.html"
+      "label": "SEC registration amendment and financial statements",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm"
     },
     {
       "id": "src8",
-      "label": "Cisco fiscal earnings release and financial statements",
-      "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx"
+      "label": "Retailer fiscal quarter earnings release",
+      "url": "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings"
     },
     {
       "id": "src9",
-      "label": "WuXi AppTec voluntary announcement on litigation dismissal",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225674874.PDF"
+      "label": "Retailer preceding fiscal quarter earnings release",
+      "url": "https://corporate.target.com/press/release/2026/08/target-corporation-reports-second-quarter-earnings"
     },
     {
       "id": "src10",
-      "label": "WuXi AppTec quarterly report and financial statements",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225624435.PDF"
+      "label": "Federal Reserve minutes release notice",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+    },
+    {
+      "id": "src11",
+      "label": "Federal Open Market Committee meeting minutes",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+    },
+    {
+      "id": "src12",
+      "label": "Optical supplier voluntary operating update",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-18/1225678180.PDF"
+    },
+    {
+      "id": "src13",
+      "label": "Optical supplier quarterly filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642947.PDF"
+    },
+    {
+      "id": "src14",
+      "label": "Chemicals group joint venture filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-19/1225678537.PDF"
+    },
+    {
+      "id": "src15",
+      "label": "Chemicals group quarterly filing PDF mirror",
+      "url": "https://cdn.financialreports.eu/financialreports/media/filings/56515/2026/RNS/56515_rns_2026-10-31_6a242934-d366-41f1-a32f-937e7f4a05e8.pdf"
+    },
+    {
+      "id": "src16",
+      "label": "National Bureau of Statistics retail sales release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html"
+    },
+    {
+      "id": "src17",
+      "label": "National Bureau of Statistics property market release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965840.html"
+    },
+    {
+      "id": "src18",
+      "label": "National Bureau of Statistics preceding property market release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965615.html"
+    },
+    {
+      "id": "src19",
+      "label": "Shenzhen exchange listing notice",
+      "url": "https://disc.static.szse.cn/disc/disk02/finalpage/2020-12-23/db88855b-5b67-48f8-97b5-7b66ff3057aa.PDF"
+    },
+    {
+      "id": "src20",
+      "label": "Xinhua Finance dated mainland closing report",
+      "url": "https://www.cnfin.com/yw-lb/detail/20261119/4497629_1.html"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-16",
-      "close": 7416.59,
-      "previousClose": 7561.67,
-      "changePercent": -1.92,
+      "sessionDate": "2026-11-18",
+      "close": 7323.63,
+      "previousClose": 7340.53,
+      "changePercent": -0.23,
       "sourceIds": [
         "src1"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-16",
-      "close": 24509.76,
-      "previousClose": 25136.27,
-      "changePercent": -2.49,
+      "sessionDate": "2026-11-18",
+      "close": 24429.88,
+      "previousClose": 24328.38,
+      "changePercent": 0.42,
       "sourceIds": [
         "src2"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-17",
-      "close": 3584.58,
-      "previousClose": 3602.57,
-      "changePercent": -0.5,
-      "sourceIds": [
-        "src3"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-17",
-      "close": 3976.46,
-      "previousClose": 3979.8,
-      "changePercent": -0.08,
-      "sourceIds": [
-        "src4"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     }
   ],
   "stories": [
     {
       "id": "f1",
       "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-11-16",
-      "company": null,
-      "metrics": [],
-      "sourceIds": [
-        "src5"
-      ],
-      "evidence": "Opening remarks, discussion of productivity and concluding scenario analysis: the chair described possible productivity benefits, worker displacement and disappointing investment returns, explicitly identifying these as scenarios rather than forecasts."
-    },
-    {
-      "id": "f3",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-12",
+      "category": "company",
+      "publishedOn": "2026-11-18",
       "company": {
-        "name": "Cisco Systems",
-        "ticker": "CSCO",
-        "exchange": "NASDAQ"
+        "name": "Anthropic, PBC",
+        "ticker": "ANT",
+        "exchange": "Nasdaq Global Select Market"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 18517000000,
+          "value": 83,
           "unit": "USD",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
+          "periodStart": "2026-11-18",
+          "periodEnd": "2026-11-18",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src6"
           ],
-          "evidence": "Consolidated statements of operations, total revenue row; published currency scale converted to dollars."
+          "evidence": "Opening paragraph gives the agreed offering price per share."
         },
         {
           "id": "m2",
-          "value": 4552000000,
+          "value": 81340000000,
           "unit": "USD",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
+          "periodStart": "2026-11-18",
+          "periodEnd": "2026-11-18",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src6"
           ],
-          "evidence": "Consolidated statements of operations, GAAP net income row."
+          "evidence": "Calculated from the price and total shares in the opening paragraph; includes selling holders and excludes the underwriter option."
         },
         {
           "id": "m3",
-          "value": 4357000000,
+          "value": 79377162382,
           "unit": "USD",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
+          "periodStart": "2026-11-18",
+          "periodEnd": "2026-11-18",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src6"
           ],
-          "evidence": "Consolidated statements of cash flows, net cash provided by operating activities row."
+          "evidence": "Calculated from the price and issuer share count in the opening paragraph; before fees and conditional on closing, excluding selling holders and the underwriter option."
         },
         {
           "id": "m4",
-          "value": 24,
-          "unit": "percent",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
-          "comparison": "yoy",
+          "value": 33242000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src7"
           ],
-          "evidence": "GAAP results summary, reported revenue growth."
+          "evidence": "Consolidated Statements of Operations, unaudited interim revenue column."
         },
         {
           "id": "m5",
-          "value": 43,
-          "unit": "percent",
-          "periodStart": "2026-07-26",
-          "periodEnd": "2026-10-24",
-          "comparison": "yoy",
+          "value": -1260000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src7"
           ],
-          "evidence": "Financial summary, revenue performance by product category, Networking."
+          "evidence": "Consolidated Statements of Operations, unaudited interim operating loss row."
+        },
+        {
+          "id": "m6",
+          "value": -104039000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Consolidated Statements of Operations, unaudited interim net loss row, after nonoperating items and taxes."
+        },
+        {
+          "id": "m7",
+          "value": 6569000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Consolidated Statements of Cash Flows, unaudited interim net cash provided by operating activities."
         }
       ],
       "sourceIds": [
-        "src8"
+        "src6",
+        "src7"
       ],
-      "evidence": "Dated earnings release: statements of operations and cash flows establish realized results; the product discussion identifies networking growth, while the reconciliation separates GAAP earnings from adjusted measures."
+      "evidence": "The pricing announcement separates issuer shares from selling-holder shares. The registration amendment’s revenue note distinguishes usage and subscriptions, and its cash flow statement reconciles the interim net loss to operating cash flow."
     }
   ],
   "locales": {
     "en": {
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "The tracked indexes showed mixed or unchanged moves. Each card identifies the completed session it describes.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Fed frames the rewards and risks of intelligent automation",
-          "summary": "Federal Reserve Chair Kevin Warsh outlined alternative economic paths from advanced artificial intelligence rather than announcing a policy decision.",
-          "impact": "The distinction matters because expectations of better productivity do not guarantee profitable corporate investment or secure household employment.",
-          "what": "In conference opening remarks, Warsh described technology that might accelerate the creation of ideas and improve productivity, while also discussing worker displacement and disappointing investment returns. He explicitly presented the staff's work as illustrative scenarios, not forecasts. The speech therefore supplies a framework for understanding a financial risk, rather than evidence that the favorable or adverse outcome has arrived.",
-          "why": "The investment mechanism is straightforward: companies spend cash building capacity because they expect customers to pay for useful services. If productivity improvements eventually support demand and earnings, that spending can create durable value. If expected returns disappoint, the adjustment can affect investment, employment and household finances. This is an explanation of the transmission channel, not a prediction about the direction of equities.",
-          "uncertainty": "The remarks do not establish when productivity benefits will appear, how widely they will be shared or which firms will capture them. Nor should a discussion of long-run possibilities be treated as an interest-rate commitment. A plausible technological outcome is not the same thing as an observable economic result.",
-          "watch": "Watch realized productivity, employment and company cash generation alongside subsequent monetary-policy communications. The useful test is whether adoption produces economically valuable output and sustainable customer payments, rather than whether management commentary becomes more enthusiastic.",
-          "metricLabels": []
-        },
-        {
-          "id": "f3",
-          "title": "Dated earnings explainer: Cisco's networking demand and cash generation",
-          "summary": "Cisco's previously released fiscal results showed networking-led revenue expansion and positive operating cash generation.",
-          "impact": "The report offers a concrete business-performance check, while illustrating why accounting profit and cash receipts must remain separate.",
-          "what": "This is an earnings explainer of the dated release shown in the interface, not breaking news. Cisco supplies networking equipment, software and related services. Its financial statements report realized revenue, GAAP net income and operating cash flow for its fiscal reporting period; that period should not be confused with a calendar quarter. The release also presents adjusted earnings, which exclude specified accounting costs.",
-          "why": "Networking connects computing resources and users, so demand for that infrastructure is financially relevant beyond the companies selling processors. For a beginner, revenue records business earned under accounting rules, net income reflects recognized expenses and other items, and operating cash flow tracks cash generated by operations. They answer different questions. Cash generation is especially useful when considering how a business supports its ongoing commitments.",
-          "uncertainty": "The release does not establish that current demand will persist, and this coverage makes no claim about an earnings surprise against analyst consensus. Adjusted profit is not an alternative cash-flow statement. Future performance also depends on the costs of supplying products and collecting customer payments, not simply on the attractiveness of the underlying technology.",
-          "watch": "Watch subsequent reported networking sales, gross margins and operating cash flow. The relevant follow-through is whether customer demand continues to convert into recognized sales and cash without an unfavorable change in the cost of delivery. Keep any management outlook separate from results already earned.",
+          "title": "Claude developer prices its public offering",
+          "summary": "Anthropic set the price and share count for its initial public offering ahead of its expected market debut.",
+          "impact": "The sale could bring in substantial financing for the company, but that money is not customer revenue or evidence of profitability.",
+          "what": "Anthropic develops Claude and earns revenue when customers use its models or subscribe to its software. Businesses can buy access directly or through cloud marketplaces. The pricing release separates new shares sold by the company from stock sold by existing holders. The company receives nothing from those holders’ sales, so the full offering value is not what the business stands to raise. The issuer amount shown is before fees and depends on the deal closing.",
+          "why": "The filing makes clear why cash and profit tell different stories here. The company reported an operating loss and a much larger net loss, driven largely by accounting changes in the value of convertible financing and related instruments. Those revaluations were added back in the cash flow statement, which showed positive cash from operations. Neither positive operating cash nor an equity raise makes future computing capacity free. The business still has to pay for the infrastructure used to train and run its models.",
+          "uncertainty": "The offer price is not a trading price, and pricing does not confirm that proceeds have been received. The historical figures are from interim statements in the registration amendment, whose assumed offering terms differ from the final pricing terms.",
+          "watch": "Look for confirmation of trading and settlement, then compare customer revenue and operating cash with spending and commitments for computing capacity.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Fiscal-quarter revenue"
+              "label": "Offering price per share"
             },
             {
               "id": "m2",
-              "label": "Fiscal-quarter GAAP net income"
+              "label": "Gross base offering value"
             },
             {
               "id": "m3",
-              "label": "Fiscal-quarter operating cash flow"
+              "label": "Issuer gross proceeds implied by pricing"
             },
             {
               "id": "m4",
-              "label": "Fiscal-quarter revenue growth"
+              "label": "Year-to-date revenue"
             },
             {
               "id": "m5",
-              "label": "Fiscal-quarter networking revenue growth"
-            }
-          ]
-        }
-      ]
-    },
-    "fr": {
-      "status": "La couverture vérifiée de cette édition est limitée. Certains marchés ne font l’objet d’aucune nouvelle actualité vérifiée ; les rapports antérieurs restent clairement signalés.",
-      "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges en cours.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés décrivent ces séances, et non les échanges en cours."
-      },
-      "stories": [
-        {
-          "id": "f1",
-          "title": "La Fed présente les bénéfices possibles et les risques de l’automatisation intelligente",
-          "summary": "Le président de la Réserve fédérale, Kevin Warsh, a décrit différentes trajectoires économiques possibles liées à l’intelligence artificielle avancée, sans annoncer de décision de politique monétaire.",
-          "impact": "Cette distinction est importante : les gains de productivité espérés ne garantissent ni la rentabilité des investissements des entreprises ni la sécurité de l’emploi des ménages.",
-          "what": "Dans son discours d’ouverture d’une conférence, Warsh a décrit une technologie susceptible d’accélérer la création d’idées et d’améliorer la productivité, tout en évoquant les suppressions d’emplois et les rendements décevants des investissements. Il a explicitement présenté les travaux des équipes de la Fed comme des scénarios illustratifs, et non comme des prévisions. Ce discours fournit donc un cadre pour comprendre un risque financier, sans prouver que les effets favorables ou défavorables se sont déjà concrétisés.",
-          "why": "Le mécanisme d’investissement est simple : les entreprises dépensent de la trésorerie pour développer leurs capacités parce qu’elles s’attendent à ce que des clients paient pour des services utiles. Si les gains de productivité finissent par soutenir la demande et les bénéfices, ces dépenses peuvent créer une valeur durable. Si les rendements attendus déçoivent, l’ajustement peut toucher l’investissement, l’emploi et les finances des ménages. Il s’agit d’expliquer comment ces effets se transmettent à l’économie, et non de prévoir l’évolution des actions.",
-          "uncertainty": "Ces propos ne permettent pas de déterminer quand les gains de productivité apparaîtront, dans quelle mesure ils seront partagés ni quelles entreprises en bénéficieront. Une discussion sur les possibilités à long terme ne doit pas non plus être interprétée comme un engagement sur les taux d’intérêt. Une évolution technologique plausible n’équivaut pas à un résultat économique observable.",
-          "watch": "Suivre la productivité effectivement mesurée, l’emploi et la trésorerie générée par les entreprises, ainsi que les prochaines communications de politique monétaire. Le critère utile est de savoir si l’adoption de ces technologies produit des biens et services ayant une valeur économique et des paiements durables de la part des clients, plutôt que de voir si les dirigeants tiennent des discours plus enthousiastes.",
-          "metricLabels": []
-        },
-        {
-          "id": "f3",
-          "title": "Décryptage de résultats antérieurs : demande en équipements réseau et génération de trésorerie chez Cisco",
-          "summary": "Les résultats financiers déjà publiés par Cisco montraient une croissance du chiffre d’affaires portée par les activités réseau et des flux de trésorerie d’exploitation positifs.",
-          "impact": "Ce rapport permet d’évaluer concrètement la performance de l’entreprise, tout en montrant pourquoi il faut distinguer le bénéfice comptable des encaissements.",
-          "what": "Il s’agit d’un décryptage du communiqué daté affiché dans l’interface, et non d’une actualité de dernière minute. Cisco fournit des équipements réseau, des logiciels et des services associés. Ses états financiers présentent le chiffre d’affaires réalisé, le résultat net selon les normes comptables américaines GAAP et les flux de trésorerie d’exploitation pour sa période de reporting financier ; celle-ci ne doit pas être confondue avec un trimestre civil. Le communiqué présente également des bénéfices ajustés, qui excluent certaines charges comptables précisées.",
-          "why": "Les réseaux relient les ressources informatiques et les utilisateurs : la demande pour ces infrastructures a donc une importance financière au-delà des entreprises qui vendent des processeurs. Pour comprendre ces résultats, le chiffre d’affaires correspond aux ventes comptabilisées selon les règles comptables, le résultat net tient compte des charges et des autres éléments comptabilisés, tandis que les flux de trésorerie d’exploitation mesurent la trésorerie générée par l’activité. Ces indicateurs répondent à des questions différentes. La génération de trésorerie est particulièrement utile pour comprendre comment une entreprise finance ses engagements courants.",
-          "uncertainty": "Le communiqué ne permet pas d’affirmer que la demande actuelle se maintiendra, et cette analyse ne se prononce pas sur un éventuel écart entre les résultats et les attentes moyennes des analystes. Le bénéfice ajusté ne remplace pas un tableau des flux de trésorerie. Les performances futures dépendent aussi des coûts de fourniture des produits et de l’encaissement des paiements des clients, et pas seulement de l’attrait de la technologie sous-jacente.",
-          "watch": "Suivre les prochaines publications concernant les ventes de l’activité réseau, les marges brutes et les flux de trésorerie d’exploitation. Il s’agit de vérifier si la demande des clients continue de se traduire par des ventes comptabilisées et de la trésorerie, sans évolution défavorable des coûts de fourniture. Garder les perspectives annoncées par la direction distinctes des résultats déjà réalisés.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires du trimestre fiscal"
+              "label": "Year-to-date operating loss"
             },
             {
-              "id": "m2",
-              "label": "Résultat net GAAP du trimestre fiscal"
+              "id": "m6",
+              "label": "Year-to-date net loss"
             },
             {
-              "id": "m3",
-              "label": "Flux de trésorerie d’exploitation du trimestre fiscal"
-            },
-            {
-              "id": "m4",
-              "label": "Croissance du chiffre d’affaires du trimestre fiscal"
-            },
-            {
-              "id": "m5",
-              "label": "Croissance du chiffre d’affaires de l’activité réseau du trimestre fiscal"
+              "id": "m7",
+              "label": "Year-to-date operating cash flow"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场暂无经核实的新消息；较早的报道仍明确标注日期。",
+      "status": "本期经核实的内容有限。部分市场没有经核实的新消息；较早的报道仍明确标注日期。",
       "marketSummary": {
-        "us": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。",
-        "cn": "所跟踪的指数在最近经核实的交易日均下跌。标注日期的收盘数据反映的是相应交易日的情况，并非当前行情。"
+        "us": "跟踪的指数涨跌不一，也有指数持平。各卡片均标明所对应的已结束交易日。",
+        "cn": "部分收盘数据未能核实。可提供数据的指数均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美联储阐述智能自动化的收益与风险",
-          "summary": "美联储主席凯文·沃什阐述了先进人工智能可能带来的不同经济发展路径，并未宣布政策决定。",
-          "impact": "这种区分很重要，因为生产率有望提高，并不意味着企业投资必然盈利，也不意味着家庭成员的就业有保障。",
-          "what": "沃什在会议开幕致辞中表示，相关技术可能加快新想法的产生并提高生产率，同时也讨论了劳动者岗位被替代、投资回报不及预期的风险。他明确指出，工作人员的研究只是用于说明不同可能情形，并非预测。因此，这篇讲话提供的是理解金融风险的框架，而不是有利或不利结果已经出现的证据。",
-          "why": "其中的投资逻辑并不复杂：企业投入现金建设产能，是因为预期客户会为有用的服务付费。如果生产率改善最终能支撑需求和盈利，这些支出就可能创造持久价值。如果预期回报未能实现，随后的调整可能影响投资、就业和家庭财务。这是在解释影响如何传导，而非预测股市涨跌。",
-          "uncertainty": "这番讲话并未确定生产率提升的好处何时出现、惠及范围有多广，或哪些企业能够从中获益。对长期可能性的讨论，也不应被视为利率承诺。技术上合理的可能结果，并不等于经济中已经观察到的实际成效。",
-          "watch": "关注实际生产率、就业和企业创造现金的能力，以及后续货币政策沟通。真正有用的检验标准，是技术应用能否带来具有经济价值的产出和可持续的客户付款，而不是管理层的表态是否更加热情。",
-          "metricLabels": []
-        },
-        {
-          "id": "f3",
-          "title": "往期财报解读：思科的网络业务需求与现金创造能力",
-          "summary": "思科此前发布的财报显示，网络业务带动营收增长，经营现金流为正。",
-          "impact": "这份报告提供了检验企业实际经营表现的具体依据，也说明了为什么必须区分会计利润与现金收款。",
-          "what": "这是对界面所示日期已发布财报的解读，并非突发新闻。思科提供网络设备、软件及相关服务。其财务报表披露了所属财务报告期内已实现的营收、按美国通用会计准则计算的净利润，以及经营现金流；该报告期不应与自然季度混淆。财报还列出了调整后盈利，其中剔除了指定的会计成本。",
-          "why": "网络连接计算资源与用户，因此，对这类基础设施的需求不仅关系到销售处理器的企业，也具有更广泛的财务意义。对初学者而言，营收记录按会计规则确认的业务收入，净利润反映已确认的费用及其他项目，经营现金流则反映经营活动产生的现金。它们回答的是不同问题。在考察企业如何履行持续经营中的各项付款义务时，现金创造能力尤其有用。",
-          "uncertainty": "这份财报并不能证明当前需求将持续，本报道也未判断业绩是否超出分析师普遍预期。调整后利润不能替代现金流量表。未来表现还取决于产品供应成本和客户款项的收回情况，而不仅仅取决于相关技术是否具有吸引力。",
-          "watch": "关注后续披露的网络业务销售额、毛利率和经营现金流。关键在于，客户需求能否持续转化为已确认的销售收入和现金，同时交付成本没有出现不利变化。管理层对未来的展望，应与已经实现的业绩区分开来。",
+          "title": "Claude 开发商确定公开发行价格",
+          "summary": "Anthropic 在预计挂牌交易前，确定了首次公开发行的价格和股份数量。",
+          "impact": "此次发行可能为公司筹集可观的资金，但这笔钱不是来自客户的营收，也不能证明公司已经盈利。",
+          "what": "Anthropic 开发了 Claude。客户使用其模型或订阅其软件时，公司会获得营收。企业可以直接向 Anthropic 购买使用权限，也可以通过云服务平台的应用市场购买。定价公告区分了公司发行的新股和现有股东出售的股份。现有股东售股所得不归公司，因此发行总额并不等于公司能筹到的资金。所列公司募资额尚未扣除费用，实际能否收到这笔钱取决于发行能否完成交割。",
+          "why": "申报文件解释了为什么公司的现金流和利润表现不同。公司录得经营亏损，净亏损则大得多，主要是因为可转换融资工具及相关工具的账面价值发生变化。现金流量表在计算经营现金流时，将这些重估影响加了回来，结果显示经营现金流为正。但无论是经营现金流为正，还是通过发行股票筹资，都不意味着公司今后可以免费获得算力。公司仍需为训练和运行模型所用的基础设施付费。",
+          "uncertainty": "发行价不是挂牌后的交易价格，确定发行价也不代表公司已收到募集资金。历史数据来自注册申报修订文件中的中期财务报表，其中假设的发行条款与最终定价条款不同。",
+          "watch": "后续关注股票是否开始交易、发行是否完成交割，再把来自客户的营收和经营现金流与算力支出及相关支出承诺作比较。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "财季营收"
+              "label": "每股发行价"
             },
             {
               "id": "m2",
-              "label": "财季净利润（美国通用会计准则）"
+              "label": "基础发行总额（扣费前）"
             },
             {
               "id": "m3",
-              "label": "财季经营现金流"
+              "label": "按发行定价推算的发行人募资总额（扣费前）"
             },
             {
               "id": "m4",
-              "label": "财季营收增长率"
+              "label": "年初至今营收"
             },
             {
               "id": "m5",
-              "label": "财季网络业务营收增长率"
+              "label": "年初至今经营亏损"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今净亏损"
+            },
+            {
+              "id": "m7",
+              "label": "年初至今经营现金流"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "status": "Cette édition ne présente qu’un nombre limité d’informations vérifiées. Pour certains marchés, aucune nouvelle information n’a pu être vérifiée ; les comptes rendus datés restent clairement signalés.",
+      "marketSummary": {
+        "us": "Les indices suivis ont évolué en ordre dispersé ou sont restés stables. Chaque fiche précise la séance de Bourse terminée dont elle rend compte.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Pour chaque indice dont les données sont disponibles, la date de la séance est indiquée."
+      },
+      "stories": [
+        {
+          "id": "f1",
+          "title": "Le créateur de Claude fixe le prix de son introduction en Bourse",
+          "summary": "Anthropic a fixé le prix et le nombre d’actions de son offre en vue de ses débuts attendus en Bourse.",
+          "impact": "La vente pourrait apporter un financement important à l’entreprise, mais cet argent ne constitue pas du chiffre d’affaires réalisé auprès de ses clients et ne prouve pas qu’elle est rentable.",
+          "what": "Anthropic développe Claude et génère du chiffre d’affaires lorsque ses clients utilisent ses modèles ou s’abonnent à ses logiciels. Les entreprises peuvent acheter un accès directement auprès d’Anthropic ou sur des plateformes de services cloud. Le communiqué qui fixe le prix distingue les actions nouvelles vendues par Anthropic des actions cédées par des actionnaires existants. Anthropic ne touche rien sur ces cessions : la valeur totale de l’offre ne correspond donc pas à la somme que l’entreprise pourrait lever. Le montant indiqué pour Anthropic est calculé avant déduction des frais et reste conditionné à la finalisation de l’opération.",
+          "why": "Le document déposé explique pourquoi les flux de trésorerie et les résultats comptables donnent ici des images différentes. Anthropic a déclaré une perte d’exploitation et une perte nette bien plus importante, due en grande partie à la réévaluation comptable de financements convertibles et d’instruments financiers connexes. Les effets de ces réévaluations ont été neutralisés dans le tableau des flux de trésorerie, qui fait ressortir un flux de trésorerie d’exploitation positif. Ni ce flux positif ni une levée de fonds par émission d’actions ne rendent gratuite la capacité de calcul dont Anthropic aura besoin. L’entreprise doit toujours payer l’infrastructure nécessaire pour entraîner et faire fonctionner ses modèles.",
+          "uncertainty": "Le prix de l’offre n’est pas le cours de l’action en Bourse, et le fait de fixer ce prix ne signifie pas que les fonds ont été encaissés. Les chiffres historiques proviennent des états financiers intermédiaires inclus dans la version modifiée du dossier d’introduction en Bourse. Les conditions de l’offre retenues comme hypothèses dans ce dossier diffèrent des conditions définitives fixées lors de l’annonce du prix.",
+          "watch": "À suivre : la confirmation du début des échanges en Bourse et du règlement de l’opération, puis la comparaison du chiffre d’affaires réalisé auprès des clients et du flux de trésorerie d’exploitation avec les dépenses et les engagements liés à la capacité de calcul.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Prix d’offre par action"
+            },
+            {
+              "id": "m2",
+              "label": "Montant brut de l’offre de base"
+            },
+            {
+              "id": "m3",
+              "label": "Produit brut revenant à l’émetteur selon le prix fixé"
+            },
+            {
+              "id": "m4",
+              "label": "Chiffre d’affaires cumulé depuis le début de l’année"
+            },
+            {
+              "id": "m5",
+              "label": "Perte d’exploitation cumulée depuis le début de l’année"
+            },
+            {
+              "id": "m6",
+              "label": "Perte nette cumulée depuis le début de l’année"
+            },
+            {
+              "id": "m7",
+              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’année"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "La cobertura verificada de esta edición es limitada. Algunos mercados no tienen noticias nuevas verificadas; los informes de fechas anteriores siguen claramente identificados.",
+      "status": "Esta edición tiene una cobertura verificada limitada. En algunos mercados no hay noticias nuevas que se hayan podido verificar. Los informes de fechas anteriores siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los índices seguidos bajaron en sus sesiones verificadas más recientes. Los cierres con fecha indicada describen esas sesiones, no la negociación actual.",
-        "cn": "Los índices seguidos bajaron en sus sesiones verificadas más recientes. Los cierres con fecha indicada describen esas sesiones, no la negociación actual."
+        "us": "Los índices que seguimos registraron movimientos dispares o se mantuvieron sin cambios. Cada ficha indica a qué sesión ya finalizada corresponden los datos.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva su propia fecha de negociación."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La Fed expone los beneficios potenciales y los riesgos de la automatización inteligente",
-          "summary": "El presidente de la Reserva Federal, Kevin Warsh, planteó posibles trayectorias económicas derivadas de la inteligencia artificial avanzada, sin anunciar ninguna decisión de política monetaria.",
-          "impact": "La distinción importa porque las expectativas de mayor productividad no garantizan inversiones empresariales rentables ni empleos seguros para los hogares.",
-          "what": "En el discurso de apertura de una conferencia, Warsh describió tecnologías que podrían acelerar la creación de ideas y mejorar la productividad, pero también abordó el desplazamiento de trabajadores y la posibilidad de rendimientos decepcionantes de las inversiones. Presentó expresamente el trabajo del equipo técnico como escenarios ilustrativos, no como pronósticos. Por tanto, el discurso ofrece un marco para entender un riesgo financiero, no pruebas de que el resultado favorable o adverso ya se haya materializado.",
-          "why": "El mecanismo de inversión es sencillo: las empresas gastan dinero en ampliar su capacidad porque esperan que los clientes paguen por servicios útiles. Si las mejoras de productividad terminan respaldando la demanda y los beneficios, ese gasto puede crear valor duradero. Si los rendimientos esperados decepcionan, el ajuste puede afectar a la inversión, el empleo y las finanzas de los hogares. Esto explica el mecanismo de transmisión, no predice la dirección de las cotizaciones bursátiles.",
-          "uncertainty": "Las declaraciones no establecen cuándo aparecerán los beneficios de productividad, hasta qué punto se repartirán ni qué empresas los aprovecharán. Tampoco debe interpretarse una reflexión sobre posibilidades a largo plazo como un compromiso sobre los tipos de interés. Un resultado tecnológico plausible no equivale a un resultado económico observable.",
-          "watch": "Conviene observar la productividad efectiva, el empleo y la generación de efectivo de las empresas junto con las comunicaciones posteriores de política monetaria. La prueba útil es si la adopción genera producción con valor económico y pagos sostenibles de los clientes, no si los comentarios de los directivos se vuelven más entusiastas.",
-          "metricLabels": []
-        },
-        {
-          "id": "f3",
-          "title": "Análisis de resultados de una publicación anterior: demanda de redes y generación de efectivo de Cisco",
-          "summary": "Los resultados fiscales publicados anteriormente por Cisco mostraron un aumento de los ingresos impulsado por el negocio de redes y una generación positiva de efectivo de las actividades operativas.",
-          "impact": "El informe permite evaluar el desempeño real del negocio y muestra por qué deben distinguirse el beneficio contable y los cobros de efectivo.",
-          "what": "Este análisis explica los resultados de la publicación cuya fecha aparece en la interfaz; no es una noticia de última hora. Cisco suministra equipos de redes, software y servicios relacionados. Sus estados financieros presentan los ingresos obtenidos, el beneficio neto conforme a los principios contables estadounidenses, conocidos como GAAP, y el flujo de efectivo operativo correspondientes a su período fiscal; ese período no debe confundirse con un trimestre natural. La publicación también presenta beneficios ajustados, que excluyen determinados costes contables.",
-          "why": "Las redes conectan los recursos informáticos y a los usuarios, por lo que la demanda de esa infraestructura tiene relevancia financiera más allá de las empresas que venden procesadores. Para quien empieza, los ingresos registran la actividad del negocio reconocida conforme a las normas contables; el beneficio neto refleja los gastos reconocidos y otras partidas; y el flujo de efectivo operativo recoge el efectivo generado por las operaciones. Cada medida responde a preguntas distintas. La generación de efectivo resulta especialmente útil para valorar cómo una empresa atiende sus compromisos habituales.",
-          "uncertainty": "La publicación no demuestra que la demanda actual vaya a mantenerse, y esta cobertura no afirma que los resultados hayan sorprendido frente al consenso de los analistas. El beneficio ajustado no sustituye al estado de flujos de efectivo. El desempeño futuro también depende de los costes de suministrar productos y de cobrar a los clientes, no solo del atractivo de la tecnología subyacente.",
-          "watch": "Conviene observar las próximas cifras publicadas de ventas del negocio de redes, márgenes brutos y flujo de efectivo operativo. Lo importante es comprobar si la demanda de los clientes sigue convirtiéndose en ventas reconocidas y efectivo sin un cambio desfavorable en los costes de suministro. Las perspectivas de la dirección deben mantenerse separadas de los resultados ya obtenidos.",
+          "title": "La empresa que desarrolla Claude fija el precio de su salida a bolsa",
+          "summary": "Anthropic fijó el precio y la cantidad de acciones de su oferta pública inicial antes de su previsto debut en bolsa.",
+          "impact": "La venta podría aportar una financiación considerable a la empresa, pero ese dinero no son ingresos de clientes ni demuestra que la empresa sea rentable.",
+          "what": "Anthropic desarrolla Claude y obtiene ingresos cuando los clientes usan sus modelos o se suscriben a su software. Las empresas pueden contratar el acceso directamente o a través de plataformas de servicios en la nube. El comunicado que anuncia el precio distingue las acciones nuevas que vende Anthropic de las que venden los accionistas actuales. Anthropic no recibe dinero por las ventas de esos accionistas, así que el valor total de la oferta no equivale a lo que la empresa podría captar. El importe indicado para Anthropic no descuenta las comisiones y depende de que se cierre la operación.",
+          "why": "El documento de registro explica por qué el flujo de caja y el resultado contable cuentan historias distintas. Anthropic registró una pérdida operativa y una pérdida neta mucho mayor, debida en gran parte a ajustes contables en el valor de la financiación convertible y de instrumentos relacionados. Esos ajustes se sumaron de nuevo al calcular el flujo de caja de las operaciones, que fue positivo. Ni generar efectivo con sus operaciones ni captar fondos con la emisión de acciones elimina el coste de la capacidad informática que necesitará en el futuro. La empresa sigue teniendo que pagar por la infraestructura que usa para entrenar y ejecutar sus modelos.",
+          "uncertainty": "El precio de la oferta no es el precio al que cotizan las acciones en bolsa. Fijar ese precio tampoco confirma que la empresa ya haya recibido los fondos. Las cifras históricas proceden de los estados financieros intermedios incluidos en la versión modificada del documento de registro, que partía de condiciones de la oferta distintas de las definitivas.",
+          "watch": "Queda por confirmar el inicio de la cotización y la liquidación de la operación. Después, el punto de comparación serán los ingresos de clientes y el flujo de caja operativo frente al gasto y los compromisos de pago por capacidad informática.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos del trimestre fiscal"
+              "label": "Precio de la oferta por acción"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto GAAP del trimestre fiscal"
+              "label": "Importe bruto de la oferta base"
             },
             {
               "id": "m3",
-              "label": "Flujo de efectivo operativo del trimestre fiscal"
+              "label": "Fondos brutos que captaría el emisor al precio fijado"
             },
             {
               "id": "m4",
-              "label": "Crecimiento de los ingresos del trimestre fiscal"
+              "label": "Ingresos acumulados en el año"
             },
             {
               "id": "m5",
-              "label": "Crecimiento de los ingresos del negocio de redes del trimestre fiscal"
+              "label": "Pérdida operativa acumulada en el año"
+            },
+            {
+              "id": "m6",
+              "label": "Pérdida neta acumulada en el año"
+            },
+            {
+              "id": "m7",
+              "label": "Flujo de caja operativo acumulado en el año"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今号で検証できた情報は限られています。検証済みの新しいニュースがない市場もあります。過去の発表に基づく記事は、その旨を明示しています。",
+      "status": "今号で確認できた情報は限られています。新たなニュースを確認できなかった市場もあります。過去の報道には日付を明記しています。",
       "marketSummary": {
-        "us": "対象の指数はいずれも、直近で確認できた取引日の終値が下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。",
-        "cn": "対象の指数はいずれも、直近で確認できた取引日の終値が下落しました。日付付きの終値は、その取引日の状況を示すもので、現在の取引状況ではありません。"
+        "us": "対象の株価指数は、上昇したもの、下落したもの、横ばいのものがありました。各カードには、取引が終了したどの日の値動きかを明記しています。",
+        "cn": "終値を確認できなかった指数もあります。掲載できた指数には、それぞれの取引日を明記しています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "ＦＲＢ議長、ＡＩによる自動化の恩恵とリスクを整理",
-          "summary": "米連邦準備制度理事会（ＦＲＢ）のケビン・ウォーシュ議長は、政策決定を発表したのではなく、高度な人工知能によって経済がたどりうるさまざまな道筋を示しました。",
-          "impact": "生産性が向上するという期待があっても、企業の投資が利益につながることや、家計を支える雇用が守られることが保証されるわけではありません。そのため、この区別は重要です。",
-          "what": "ウォーシュ議長は会議の冒頭あいさつで、アイデアの創出を速め、生産性を高める可能性のある技術について説明しました。同時に、働き手が仕事を失うリスクや、投資の収益が期待を下回る可能性にも触れました。議長は、職員による分析は説明のためのシナリオであり、予測ではないと明言しています。したがって、この講演は金融面のリスクを理解するための枠組みを示すもので、好ましい結果や悪い結果がすでに現れたことを示す証拠ではありません。",
-          "why": "投資の仕組みは明快です。企業は、役立つサービスに顧客がお金を払うと見込んで、資金を投じて供給能力を整えます。生産性の改善がやがて需要や利益を支えれば、その支出は持続的な価値を生み出しえます。期待した収益が得られなければ、その後の調整が投資、雇用、家計に影響する可能性があります。これは影響が伝わる経路の説明であり、株価の方向を予測するものではありません。",
-          "uncertainty": "今回の発言からは、生産性向上の恩恵がいつ現れるのか、どこまで広く行き渡るのか、どの企業が取り込むのかは分かりません。また、長期的な可能性についての議論を、金利政策の確約と受け取るべきでもありません。技術面で起こりそうなことと、経済で実際に確認できる結果は別です。",
-          "watch": "今後の金融政策に関する発信とともに、実際の生産性、雇用、企業が現金を生み出す力に注目します。判断の手がかりとなるのは、経営陣の発言が楽観的になるかどうかではなく、技術の導入が経済的に価値のある成果や、顧客からの継続的な支払いにつながるかどうかです。",
-          "metricLabels": []
-        },
-        {
-          "id": "f3",
-          "title": "過去の決算を解説：シスコのネットワーク需要と現金創出力",
-          "summary": "シスコが以前に公表した決算では、ネットワーク事業が売上高の拡大をけん引し、営業キャッシュフローもプラスでした。",
-          "impact": "この決算は事業の実績を具体的に確認する材料となるとともに、会計上の利益と現金の受け取りを区別する必要性を示しています。",
-          "what": "これは、画面に日付が表示されている過去の決算発表の解説であり、速報ではありません。シスコはネットワーク機器、ソフトウェア、関連サービスを提供しています。財務諸表には、同社の会計期間における売上高、米国会計基準に基づく純利益、営業キャッシュフローの実績が記載されています。この会計期間は、暦上の四半期とは区別する必要があります。発表には、特定の会計上の費用を除いた調整後利益も示されています。",
-          "why": "ネットワークはコンピューターなどの計算資源と利用者をつなぐため、その基盤への需要は、プロセッサーを販売する企業以外にとっても財務面で重要です。初心者向けに整理すると、売上高は会計ルールに従って事業で得た収益を記録し、純利益は計上された費用などを反映し、営業キャッシュフローは本業が生み出した現金の流れを示します。それぞれ、確認できることが異なります。事業が継続的な支払い義務をどう支えているかを考えるうえでは、現金を生み出す力が特に役立ちます。",
-          "uncertainty": "この発表だけでは、現在の需要が続くとは判断できません。また、今回の記事は、利益がアナリストの市場予想を上回ったか下回ったかについては述べていません。調整後利益は、キャッシュフロー計算書の代わりにはなりません。今後の業績は、技術そのものの魅力だけでなく、製品の供給にかかる費用や、顧客からの代金回収にも左右されます。",
-          "watch": "今後発表されるネットワーク事業の売上高、売上総利益率、営業キャッシュフローに注目します。確認したいのは、製品やサービスの提供コストが不利な方向に変化せず、顧客の需要が引き続き会計上の売上高と現金収入につながるかどうかです。経営陣の見通しは、すでに得られた実績と区別して捉えます。",
+          "title": "Claudeの開発元、IPOの公開価格を決定",
+          "summary": "Anthropicは、予定されている上場を前に、新規株式公開（IPO）の公開価格と公開株式数を決めました。",
+          "impact": "株式の公開を通じて、同社は多額の資金を調達できる可能性があります。ただし、調達資金は顧客から得た売上高ではなく、同社が利益を出していることを示すものでもありません。",
+          "what": "AnthropicはClaudeを開発しており、顧客が同社のAIモデルを利用したり、ソフトウェアの利用契約を結んだりすることで売上を得ています。企業は、同社から直接、またはクラウドのマーケットプレイスを通じて利用契約を結べます。公開価格の発表では、同社が新たに発行する株式と、既存の株主が売り出す株式を分けて示しています。既存株主が株式を売って得る代金は同社には入らないため、公開総額がそのまま同社の調達額になるわけではありません。記載された同社の調達額は手数料を差し引く前の金額で、取引の成立が前提です。",
+          "why": "届出書を読むと、利益と現金の動きがなぜ異なるのかが分かります。同社は営業赤字を計上し、純損失は営業損失を大幅に上回りました。主な要因は、株式に転換できる資金調達手段や関連する金融商品の評価額が会計上変動したことです。キャッシュフロー計算書では、この評価変動による損失を足し戻した結果、営業キャッシュフローはプラスでした。ただし、営業キャッシュフローがプラスでも、株式発行で資金を調達しても、今後必要になる計算能力を無料で確保できるわけではありません。同社は引き続き、モデルの学習や稼働に使う設備やサービスの費用を負担する必要があります。",
+          "uncertainty": "公開価格は市場での取引価格とは異なります。また、公開価格が決まっても、調達資金が入金されたことにはなりません。過去の業績数値は訂正届出書に掲載された期中財務諸表に基づいており、そこで想定されていた公開条件は、最終的に決まった条件とは異なります。",
+          "watch": "注目点は、株式の取引開始と受け渡しが確認されるかどうかです。その後は、顧客からの売上高や営業キャッシュフローを、計算能力の確保にかかる支出や、契約で約束した支払いと比較します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "会計四半期の売上高"
+              "label": "公開価格（株当たり）"
             },
             {
               "id": "m2",
-              "label": "会計四半期の米国会計基準に基づく純利益"
+              "label": "基本公開分の総額（手数料控除前）"
             },
             {
               "id": "m3",
-              "label": "会計四半期の営業キャッシュフロー"
+              "label": "公開価格に基づく発行会社の調達額（手数料控除前）"
             },
             {
               "id": "m4",
-              "label": "会計四半期の売上高成長率"
+              "label": "年初来の売上高"
             },
             {
               "id": "m5",
-              "label": "会計四半期のネットワーク事業売上高成長率"
+              "label": "年初来の営業損失"
+            },
+            {
+              "id": "m6",
+              "label": "年初来の純損失"
+            },
+            {
+              "id": "m7",
+              "label": "年初来の営業キャッシュフロー"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Cobertura verificada limitada nesta edição. Alguns mercados não têm notícias novas verificadas; os relatórios de datas anteriores continuam claramente identificados.",
+      "status": "Esta edição tem cobertura verificada limitada. Para alguns mercados, não há notícias novas verificadas. Os relatos com data continuam claramente identificados.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os fechamentos com data indicada descrevem esses pregões, não as negociações atuais.",
-        "cn": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os fechamentos com data indicada descrevem esses pregões, não as negociações atuais."
+        "us": "Entre os índices acompanhados, houve altas, quedas e estabilidade. Cada cartão identifica o pregão já encerrado a que se refere.",
+        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Fed apresenta benefícios potenciais e riscos da automação inteligente",
-          "summary": "O presidente do Federal Reserve, Kevin Warsh, apresentou possíveis trajetórias para a economia com a inteligência artificial avançada, sem anunciar decisão de política monetária.",
-          "impact": "A distinção importa porque a expectativa de maior produtividade não garante investimentos empresariais rentáveis nem segurança no emprego para as famílias.",
-          "what": "Na abertura de uma conferência, Warsh descreveu tecnologias que poderiam acelerar a criação de ideias e melhorar a produtividade, mas também abordou a substituição de trabalhadores e retornos decepcionantes dos investimentos. Ele apresentou explicitamente o trabalho da equipe técnica como cenários ilustrativos, não como previsões. Assim, o discurso oferece uma estrutura para entender riscos financeiros, e não evidências de que os resultados favoráveis ou adversos já se concretizaram.",
-          "why": "O mecanismo do investimento é direto: as empresas gastam recursos para ampliar sua capacidade porque esperam que os clientes paguem por serviços úteis. Se os ganhos de produtividade acabarem sustentando a demanda e os lucros, esses gastos poderão criar valor duradouro. Se os retornos esperados decepcionarem, o ajuste poderá afetar os investimentos, o emprego e as finanças das famílias. Isso explica como os efeitos se transmitem pela economia, sem prever a direção das ações.",
-          "uncertainty": "As declarações não estabelecem quando os benefícios de produtividade aparecerão, como serão distribuídos ou quais empresas conseguirão aproveitá-los. A discussão de possibilidades de longo prazo também não deve ser interpretada como compromisso sobre os juros. Um resultado tecnológico plausível não equivale a um resultado econômico observável.",
-          "watch": "Acompanhe a produtividade efetivamente observada, o emprego e a geração de caixa das empresas, junto com as próximas comunicações de política monetária. O teste relevante é saber se a adoção da tecnologia gera produção com valor econômico e pagamentos sustentáveis dos clientes, e não se os comentários dos administradores ficam mais entusiasmados.",
-          "metricLabels": []
-        },
-        {
-          "id": "f3",
-          "title": "Entenda os resultados de data anterior da Cisco: demanda por redes e geração de caixa",
-          "summary": "Os resultados fiscais já divulgados pela Cisco mostraram expansão da receita impulsionada pelo segmento de redes e geração positiva de caixa operacional.",
-          "impact": "O relatório permite avaliar o desempenho concreto do negócio e mostra por que lucro contábil e recebimentos de caixa devem ser analisados separadamente.",
-          "what": "Esta é uma explicação dos resultados da divulgação cuja data aparece na interface, não uma notícia de última hora. A Cisco fornece equipamentos de rede, software e serviços relacionados. Suas demonstrações financeiras apresentam a receita efetivamente reconhecida, o lucro líquido segundo os princípios contábeis geralmente aceitos nos Estados Unidos, conhecidos como GAAP, e o fluxo de caixa operacional do período fiscal informado; esse período não deve ser confundido com um trimestre do calendário. A divulgação também apresenta lucro ajustado, que exclui custos contábeis especificados.",
-          "why": "As redes conectam recursos de computação e usuários, por isso a demanda por essa infraestrutura tem relevância financeira para além das empresas que vendem processadores. Para quem está começando, a receita registra o valor gerado pelo negócio conforme as regras contábeis, o lucro líquido reflete despesas reconhecidas e outros itens, e o fluxo de caixa operacional acompanha o caixa gerado pelas operações. São medidas que respondem a perguntas diferentes. A geração de caixa é especialmente útil para entender como a empresa sustenta seus compromissos recorrentes.",
-          "uncertainty": "A divulgação não demonstra que a demanda atual continuará, e esta cobertura não afirma que os resultados surpreenderam em relação ao consenso dos analistas. O lucro ajustado não substitui a demonstração dos fluxos de caixa. O desempenho futuro também depende dos custos de fornecer produtos e receber os pagamentos dos clientes, não apenas da atratividade da tecnologia utilizada.",
-          "watch": "Acompanhe as próximas divulgações de vendas do segmento de redes, margens brutas e fluxo de caixa operacional. O ponto relevante é verificar se a demanda dos clientes continua se convertendo em vendas reconhecidas e caixa, sem uma mudança desfavorável nos custos de fornecimento. Mantenha as perspectivas apresentadas pela administração separadas dos resultados já realizados.",
+          "title": "Criadora do Claude define o preço de sua oferta pública inicial",
+          "summary": "A Anthropic definiu o preço e a quantidade de ações de sua oferta pública inicial antes da estreia prevista na bolsa.",
+          "impact": "A venda pode levantar um volume significativo de recursos para a empresa, mas esse dinheiro não é receita de clientes nem prova que a empresa seja lucrativa.",
+          "what": "A Anthropic desenvolve o Claude e obtém receita quando clientes usam seus modelos ou assinam seus serviços de software. As empresas podem contratar o acesso diretamente ou por meio de plataformas de venda de serviços em nuvem. O comunicado que anunciou o preço distingue as ações novas vendidas pela Anthropic das ações vendidas por quem já era acionista. A empresa não recebe dinheiro pelas vendas desses acionistas. Por isso, o valor total da oferta não corresponde ao que a Anthropic pode captar. O valor indicado para a empresa não desconta as taxas e só será recebido se a operação for concluída.",
+          "why": "O documento mostra por que o caixa e o lucro contam histórias diferentes neste caso. A empresa registrou prejuízo operacional e um prejuízo líquido bem maior, principalmente por causa de ajustes contábeis no valor de financiamentos conversíveis e instrumentos relacionados. O efeito dessas reavaliações foi revertido no cálculo do fluxo de caixa, que mostrou que as operações geraram caixa. Nem a geração de caixa pelas operações nem a captação com a emissão de ações eliminam os custos futuros de computação. A empresa ainda precisa pagar pela infraestrutura usada para treinar e executar seus modelos.",
+          "uncertainty": "O preço da oferta não é o preço de negociação na bolsa, e a definição desse preço não confirma que a empresa já recebeu os recursos. Os dados históricos vêm das demonstrações financeiras intermediárias incluídas na atualização do pedido de registro. As condições da oferta usadas nessas demonstrações diferem das condições finais anunciadas.",
+          "watch": "Os pontos a acompanhar são a confirmação do início das negociações e da liquidação da oferta, ou seja, da entrega das ações e do pagamento. Depois, o foco é a comparação da receita de clientes e do fluxo de caixa operacional com os gastos e compromissos ligados à capacidade de computação.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita do trimestre fiscal"
+              "label": "Preço da oferta por ação"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido GAAP do trimestre fiscal"
+              "label": "Valor bruto da oferta-base"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional do trimestre fiscal"
+              "label": "Captação bruta da emissora com base no preço da oferta"
             },
             {
               "id": "m4",
-              "label": "Crescimento da receita do trimestre fiscal"
+              "label": "Receita acumulada no ano"
             },
             {
               "id": "m5",
-              "label": "Crescimento da receita do segmento de redes no trimestre fiscal"
+              "label": "Prejuízo operacional acumulado no ano"
+            },
+            {
+              "id": "m6",
+              "label": "Prejuízo líquido acumulado no ano"
+            },
+            {
+              "id": "m7",
+              "label": "Fluxo de caixa operacional acumulado no ano"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期經查證的報導有限。部分市場沒有經查證的新消息；較早發布的報告仍明確標示其日期。",
+      "status": "本期經查證的資訊有限。部分市場沒有經查證的新消息；有日期的報導仍清楚標示日期。",
       "marketSummary": {
-        "us": "追蹤的指數在各自最近經查證的交易日均下跌。所列日期的收盤資料反映當時交易日的表現，並非目前行情。",
-        "cn": "追蹤的指數在各自最近經查證的交易日均下跌。所列日期的收盤資料反映當時交易日的表現，並非目前行情。"
+        "us": "追蹤的指數漲跌互見，也有指數持平。各張卡片均標明所述的已結束交易日。",
+        "cn": "部分收盤資訊無法查證。有資料的指數均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "聯準會說明智慧自動化的潛在效益與風險",
-          "summary": "聯準會主席凱文・華許說明先進人工智慧可能帶來的不同經濟發展路徑，並未宣布政策決定。",
-          "impact": "釐清這項區別很重要，因為對生產力提升的期待，並不保證企業投資能獲利，也不保證家庭成員的就業穩定。",
-          "what": "華許在會議開場致詞中，說明這類技術可能加快新構想的產生並提升生產力，同時也談到工作被取代及投資報酬不如預期的風險。他明確表示，幕僚的研究是用來說明可能情境，而不是預測。因此，這場演說提供的是理解金融風險的架構，並非有利或不利結果已經出現的證據。",
-          "why": "投資的運作機制並不複雜：企業投入現金擴充產能，是因為預期客戶會為有用的服務付費。如果生產力提升最終能支撐需求與獲利，這些支出就可能創造持久價值。如果預期報酬未能實現，後續調整可能影響投資、就業與家庭財務。這是在解釋影響如何傳導，並非預測股市走向。",
-          "uncertainty": "這些談話並未確定生產力效益何時出現、能有多廣泛的受益範圍，或哪些企業能取得這些效益。對長期可能性的討論，也不應被視為利率承諾。技術上合理的可能結果，不等於已經能觀察到的經濟成果。",
-          "watch": "觀察實際生產力、就業與企業創造現金的能力，並搭配後續貨幣政策訊息判讀。真正有用的檢驗標準，是技術導入是否帶來具有經濟價值的產出，以及客戶是否能持續付費，而不是管理層的說法是否變得更熱切。",
-          "metricLabels": []
-        },
-        {
-          "id": "f3",
-          "title": "歷史財報解析：思科的網路設備需求與現金創造能力",
-          "summary": "思科先前公布的財報顯示，網路業務帶動營收成長，營業現金流也呈現淨流入。",
-          "impact": "這份報告提供具體資料，可用來檢視企業營運表現，也說明為何必須區分會計獲利與實際收到的現金。",
-          "what": "這是針對介面所示日期之財報的解析，並非即時新聞。思科供應網路設備、軟體及相關服務。其財務報表列出該會計期間已實現的營收、依一般公認會計原則編製的淨利，以及營業現金流；這個期間不應與曆年季度混淆。財報也列出調整後獲利，排除了特定會計成本。",
-          "why": "網路連接運算資源與使用者，因此這類基礎設施需求的財務意義，不只限於銷售處理器的企業。對初學者而言，營收記錄依會計規則認列的業務收入，淨利反映已認列的費用與其他項目，營業現金流則追蹤日常營運產生的現金。這些指標回答的問題不同。在評估企業如何支應持續性的支出與責任時，創造現金的能力尤其有參考價值。",
-          "uncertainty": "這份財報無法證明目前需求會持續，本篇也未判定獲利是否優於或低於分析師共識預期。調整後獲利不能取代現金流量表。未來表現也取決於供應產品的成本與向客戶收款的情況，而不只是相關技術是否具有吸引力。",
-          "watch": "觀察後續公布的網路業務營收、毛利率與營業現金流。重點在於客戶需求能否持續轉化為已認列的營收與現金，且交付產品與服務的成本沒有出現不利變化。管理層對未來的展望，應與已實現的業績分開看待。",
+          "title": "Claude 開發商敲定股票公開發行價格",
+          "summary": "Anthropic 在預計掛牌交易前，敲定了股票初次公開發行的價格與股數。",
+          "impact": "這次發行可望為公司籌得可觀資金，但這筆錢不是來自客戶的營收，也不能證明公司已經獲利。",
+          "what": "Anthropic 開發 Claude，並透過客戶使用其模型或訂閱其軟體取得營收。企業可以直接向 Anthropic 購買使用權，也可以透過雲端市集購買。定價公告分別列出公司發行的新股，以及現有股東出售的股票。現有股東售股的款項不會流入公司，因此整筆發行的總金額並不等於公司能籌到的資金。所列的發行公司募資金額尚未扣除費用，且須等交易完成才能取得。",
+          "why": "申報文件說明了為什麼現金流和損益呈現不同的情況。公司申報營業虧損，而淨虧損大得多，主要是因為可轉換融資及相關金融工具在會計上的價值變動。這些重估影響在編製現金流量表時被加回，而表上顯示營業活動現金流量為正。不過，營業活動現金流量為正，或透過發行股票籌到資金，都不代表未來能免費取得所需的算力。公司仍須為訓練和執行模型所用的基礎設施付費。",
+          "uncertainty": "發行價格不等於掛牌後的成交價格；完成定價也不代表公司已收到募資款項。歷史數據取自修訂版註冊申報文件中的期中財務報表，報表所採用的發行條件假設與最終定價條件不同。",
+          "watch": "後續可留意股票是否已開始交易、交割是否完成，再對照來自客戶的營收與營業活動現金流量，以及公司在算力方面的支出與支出承諾。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "會計季度營收"
+              "label": "每股發行價格"
             },
             {
               "id": "m2",
-              "label": "會計季度依一般公認會計原則（GAAP）編製的淨利"
+              "label": "基本發行總金額（未扣費用）"
             },
             {
               "id": "m3",
-              "label": "會計季度營業現金流"
+              "label": "依定價推算的發行公司募資總額（未扣費用）"
             },
             {
               "id": "m4",
-              "label": "會計季度營收成長率"
+              "label": "年初至今營收"
             },
             {
               "id": "m5",
-              "label": "會計季度網路業務營收成長率"
+              "label": "年初至今營業虧損"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今淨虧損"
+            },
+            {
+              "id": "m7",
+              "label": "年初至今營業活動現金流量"
             }
           ]
         }
