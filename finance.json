@@ -1,108 +1,83 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-19T10:19:27.092Z",
-  "generatedAt": "2026-11-19T10:27:11.735Z",
+  "cutoffAt": "2026-11-19T19:28:48.243Z",
+  "generatedAt": "2026-11-19T19:34:33.524Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "FRED broad US equity index daily closes",
+      "label": "Federal Reserve Bank of St. Louis — broad US equity index daily closes",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src2",
-      "label": "FRED Nasdaq Composite daily closes",
+      "label": "Federal Reserve Bank of St. Louis — Nasdaq Composite daily closes",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src3",
-      "label": "Shanghai Composite dated quote and previous close",
-      "url": "https://summary.jrj.com.cn/stock/sh/000001"
+      "label": "Investing.com — Shanghai Composite historical closes",
+      "url": "https://uk.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src4",
-      "label": "Mainland large-cap index dated daily close table",
+      "label": "Investing.com — large-cap mainland equity index historical closes",
       "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Mainland closing bulletin",
-      "url": "https://www.fxbus.com/cn/news/20261119150109433176.html"
+      "label": "US retailer quarterly earnings release and financial tables",
+      "url": "https://corporate.walmart.com/content/dam/corporate/documents/newsroom/2026/11/q3-fy27-earnings/q3-fy27-earnings-release.pdf"
     },
     {
       "id": "src6",
-      "label": "Issuer public offering pricing announcement",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+      "label": "Final public offering prospectus filed with the SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
     },
     {
       "id": "src7",
-      "label": "SEC registration amendment and financial statements",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm"
-    },
-    {
-      "id": "src8",
-      "label": "Retailer fiscal quarter earnings release",
-      "url": "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings"
-    },
-    {
-      "id": "src9",
-      "label": "Retailer preceding fiscal quarter earnings release",
-      "url": "https://corporate.target.com/press/release/2026/08/target-corporation-reports-second-quarter-earnings"
-    },
-    {
-      "id": "src10",
-      "label": "Federal Reserve minutes release notice",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
-    },
-    {
-      "id": "src11",
-      "label": "Federal Open Market Committee meeting minutes",
+      "label": "Federal Reserve — policy meeting minutes",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
     },
     {
+      "id": "src8",
+      "label": "Federal Reserve — publication notice for the policy minutes",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+    },
+    {
+      "id": "src9",
+      "label": "Optical transceiver maker — chair's repurchase proposal filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-18/1225678038.PDF"
+    },
+    {
+      "id": "src10",
+      "label": "Optical transceiver maker — quarterly financial filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643953.PDF"
+    },
+    {
+      "id": "src11",
+      "label": "Memory interface chipmaker — completed repurchase filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-19/1225678561.PDF"
+    },
+    {
       "id": "src12",
-      "label": "Optical supplier voluntary operating update",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-18/1225678180.PDF"
+      "label": "Memory interface chipmaker — quarterly financial filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643270.PDF"
     },
     {
       "id": "src13",
-      "label": "Optical supplier quarterly filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642947.PDF"
+      "label": "Memory interface chipmaker — server memory product release",
+      "url": "https://www.montage-tech.com/Press_Releases/20260928"
     },
     {
       "id": "src14",
-      "label": "Chemicals group joint venture filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-19/1225678537.PDF"
+      "label": "National Bureau of Statistics of China — monthly economic activity release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html"
     },
     {
       "id": "src15",
-      "label": "Chemicals group quarterly filing PDF mirror",
-      "url": "https://cdn.financialreports.eu/financialreports/media/filings/56515/2026/RNS/56515_rns_2026-10-31_6a242934-d366-41f1-a32f-937e7f4a05e8.pdf"
-    },
-    {
-      "id": "src16",
-      "label": "National Bureau of Statistics retail sales release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html"
-    },
-    {
-      "id": "src17",
-      "label": "National Bureau of Statistics property market release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965840.html"
-    },
-    {
-      "id": "src18",
-      "label": "National Bureau of Statistics preceding property market release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965615.html"
-    },
-    {
-      "id": "src19",
-      "label": "Shenzhen exchange listing notice",
-      "url": "https://disc.static.szse.cn/disc/disk02/finalpage/2020-12-23/db88855b-5b67-48f8-97b5-7b66ff3057aa.PDF"
-    },
-    {
-      "id": "src20",
-      "label": "Xinhua Finance dated mainland closing report",
-      "url": "https://www.cnfin.com/yw-lb/detail/20261119/4497629_1.html"
+      "label": "National Bureau of Statistics of China — monthly retail sales tables",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202611/t20261116_1965839.html"
     }
   ],
   "markets": [
@@ -128,27 +103,236 @@
     },
     {
       "id": "sse",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-19",
+      "close": 3577.62,
+      "previousClose": 3587.83,
+      "changePercent": -0.28,
+      "sourceIds": [
+        "src3"
+      ]
     },
     {
       "id": "csi300",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-19",
+      "close": 3984.84,
+      "previousClose": 3983.77,
+      "changePercent": 0.03,
+      "sourceIds": [
+        "src4"
+      ]
     }
   ],
   "stories": [
     {
       "id": "f1",
       "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-19",
+      "company": {
+        "name": "Walmart Inc.",
+        "ticker": "WMT",
+        "exchange": "Nasdaq"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 188835000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Condensed consolidated income statement, current quarter total revenues row."
+        },
+        {
+          "id": "m2",
+          "value": 5.2,
+          "unit": "percent",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Condensed consolidated income statement, current quarter total revenues change column."
+        },
+        {
+          "id": "m3",
+          "value": 7770000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Condensed consolidated income statement, current quarter operating income row."
+        },
+        {
+          "id": "m4",
+          "value": 4945000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Condensed consolidated income statement, current quarter net income attributable to the parent row."
+        },
+        {
+          "id": "m5",
+          "value": 29436000000,
+          "unit": "USD",
+          "periodStart": "2026-02-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Condensed consolidated cash flow statement, fiscal year-to-date net cash provided by operating activities."
+        },
+        {
+          "id": "m6",
+          "value": 22621000000,
+          "unit": "USD",
+          "periodStart": "2026-02-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Condensed consolidated cash flow statement, fiscal year-to-date payments for property and equipment, expressed as spending."
+        },
+        {
+          "id": "m7",
+          "value": 4.9,
+          "unit": "percent",
+          "periodStart": "2026-02-01",
+          "periodEnd": "2027-01-31",
+          "comparison": "yoy",
+          "basis": "guidance",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Fiscal-year guidance table, low end of updated constant-currency net sales growth range."
+        },
+        {
+          "id": "m8",
+          "value": 5.2,
+          "unit": "percent",
+          "periodStart": "2026-02-01",
+          "periodEnd": "2027-01-31",
+          "comparison": "yoy",
+          "basis": "guidance",
+          "sourceIds": [
+            "src5"
+          ],
+          "evidence": "Fiscal-year guidance table, high end of updated constant-currency net sales growth range."
+        }
+      ],
+      "sourceIds": [
+        "src5"
+      ],
+      "evidence": "The quarterly highlights identify store-fulfilled pickup and delivery as drivers of online growth. The guidance table raises full-year ranges. The income statement and investment adjustment notes separate rising operating income from falling attributable net income; the cash flow statement and free cash flow reconciliation show higher year-to-date operating cash and higher property and equipment spending."
+    },
+    {
+      "id": "f2",
+      "market": "cn",
       "category": "company",
-      "publishedOn": "2026-11-18",
+      "publishedOn": "2026-11-19",
+      "company": {
+        "name": "Montage Technology Co., Ltd.",
+        "ticker": "688008",
+        "exchange": "Shanghai Stock Exchange STAR Market"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 3313900,
+          "unit": "count",
+          "periodStart": "2026-10-30",
+          "periodEnd": "2026-11-18",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Implementation section gives cumulative shares purchased from the first purchase through completion; the share movement table corroborates the count."
+        },
+        {
+          "id": "m2",
+          "value": 500000000,
+          "unit": "CNY",
+          "periodStart": "2026-10-30",
+          "periodEnd": "2026-11-18",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Implementation section reports approximate total cash paid, excluding transaction fees."
+        },
+        {
+          "id": "m3",
+          "value": 2078918669.66,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "Key accounting data table, current quarter operating revenue row."
+        },
+        {
+          "id": "m4",
+          "value": 1239743093.95,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "Key accounting data table, current quarter net profit attributable to listed company shareholders."
+        },
+        {
+          "id": "m5",
+          "value": 2898317055.1,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "Key accounting data table, year-to-date net cash from operating activities; no standalone quarter is shown."
+        }
+      ],
+      "sourceIds": [
+        "src11",
+        "src12",
+        "src13"
+      ],
+      "evidence": "The implementation section confirms completion using company funds. The share movement table shows no change in total shares, and the disposition section earmarks the repurchased shares for employee ownership or equity incentives. The separately filed quarterly report provides operating results, and the product release describes the server memory business."
+    },
+    {
+      "id": "f3",
+      "market": "us",
+      "category": "company",
+      "publishedOn": "2026-11-19",
       "company": {
         "name": "Anthropic, PBC",
         "ticker": "ANT",
@@ -166,7 +350,7 @@
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Opening paragraph gives the agreed offering price per share."
+          "evidence": "Dated final prospectus cover, priced public offering amount per share."
         },
         {
           "id": "m2",
@@ -179,23 +363,10 @@
           "sourceIds": [
             "src6"
           ],
-          "evidence": "Calculated from the price and total shares in the opening paragraph; includes selling holders and excludes the underwriter option."
+          "evidence": "Final prospectus cover, total public offering value at pricing, including selling shareholders and before discounts; not settlement cash."
         },
         {
           "id": "m3",
-          "value": 79377162382,
-          "unit": "USD",
-          "periodStart": "2026-11-18",
-          "periodEnd": "2026-11-18",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "Calculated from the price and issuer share count in the opening paragraph; before fees and conditional on closing, excluding selling holders and the underwriter option."
-        },
-        {
-          "id": "m4",
           "value": 33242000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -203,12 +374,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src6"
           ],
-          "evidence": "Consolidated Statements of Operations, unaudited interim revenue column."
+          "evidence": "Management discussion, Results of Operations table, current interim revenue."
         },
         {
-          "id": "m5",
+          "id": "m4",
           "value": -1260000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -216,12 +387,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src6"
           ],
-          "evidence": "Consolidated Statements of Operations, unaudited interim operating loss row."
+          "evidence": "Management discussion, Results of Operations table, current interim operating loss."
         },
         {
-          "id": "m6",
+          "id": "m5",
           "value": -104039000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -229,12 +400,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src6"
           ],
-          "evidence": "Consolidated Statements of Operations, unaudited interim net loss row, after nonoperating items and taxes."
+          "evidence": "Management discussion, Results of Operations table, current interim net loss, including financing instrument revaluations."
         },
         {
-          "id": "m7",
+          "id": "m6",
           "value": 6569000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -242,62 +413,133 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src6"
           ],
-          "evidence": "Consolidated Statements of Cash Flows, unaudited interim net cash provided by operating activities."
+          "evidence": "Consolidated statement of cash flows, current interim net cash provided by operating activities."
         }
       ],
       "sourceIds": [
-        "src6",
-        "src7"
+        "src6"
       ],
-      "evidence": "The pricing announcement separates issuer shares from selling-holder shares. The registration amendment’s revenue note distinguishes usage and subscriptions, and its cash flow statement reconciles the interim net loss to operating cash flow."
+      "evidence": "The SEC-filed final prospectus cover establishes priced offering terms and distinguishes company shares from those sold by existing holders. The use-of-proceeds and liquidity sections discuss financing for computing infrastructure. The operating results and cash flow statements show an operating loss and positive operating cash, with financing revaluations a major contributor to the net loss."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "The tracked indexes showed mixed or unchanged moves. Each card identifies the completed session it describes.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "cn": "The tracked indexes showed mixed or unchanged moves. Each card identifies the completed session it describes."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Claude developer prices its public offering",
-          "summary": "Anthropic set the price and share count for its initial public offering ahead of its expected market debut.",
-          "impact": "The sale could bring in substantial financing for the company, but that money is not customer revenue or evidence of profitability.",
-          "what": "Anthropic develops Claude and earns revenue when customers use its models or subscribe to its software. Businesses can buy access directly or through cloud marketplaces. The pricing release separates new shares sold by the company from stock sold by existing holders. The company receives nothing from those holders’ sales, so the full offering value is not what the business stands to raise. The issuer amount shown is before fees and depends on the deal closing.",
-          "why": "The filing makes clear why cash and profit tell different stories here. The company reported an operating loss and a much larger net loss, driven largely by accounting changes in the value of convertible financing and related instruments. Those revaluations were added back in the cash flow statement, which showed positive cash from operations. Neither positive operating cash nor an equity raise makes future computing capacity free. The business still has to pay for the infrastructure used to train and run its models.",
-          "uncertainty": "The offer price is not a trading price, and pricing does not confirm that proceeds have been received. The historical figures are from interim statements in the registration amendment, whose assumed offering terms differ from the final pricing terms.",
-          "watch": "Look for confirmation of trading and settlement, then compare customer revenue and operating cash with spending and commitments for computing capacity.",
+          "title": "Walmart raises its outlook as online sales grow",
+          "summary": "Walmart lifted its full-year outlook after a quarter in which revenue and operating profit rose but net income attributable to shareholders fell.",
+          "impact": "Store pickup and delivery helped grow sales, but higher spending on property and equipment left less free cash flow despite stronger cash from operations.",
+          "what": "Walmart sells groceries and general merchandise through stores, membership clubs and online channels. It said store-fulfilled pickup and delivery led online sales growth. The income statement shows stronger operating income but weaker profit attributable to shareholders, with an unfavorable swing in investment gains and losses below the operating line. Separately, the company raised its forecast for fiscal-year net sales growth excluding exchange-rate effects.",
+          "why": "Stores double as local fulfillment hubs, so customers can pick up an order or get it delivered without the retailer relying entirely on distant warehouses. That can make shopping more convenient and help Walmart compete for routine purchases. It also takes investment: operating cash rose for the fiscal year to date, but payments for property and equipment rose enough to leave less free cash flow. Neither cash measure covers the same period as the quarterly profit figure.",
+          "uncertainty": "The higher outlook is management’s forecast, not a result. Payment timing and when stock arrives can affect operating cash, and the earnings release does not isolate the long-run return on pickup and delivery investment.",
+          "watch": "Compare holiday sales and operating margins with the updated outlook, then check whether operating cash grows fast enough to keep pace with spending on property and equipment.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Offering price per share"
+              "label": "Quarterly revenue"
             },
             {
               "id": "m2",
-              "label": "Gross base offering value"
+              "label": "Quarterly revenue growth"
             },
             {
               "id": "m3",
-              "label": "Issuer gross proceeds implied by pricing"
+              "label": "Quarterly operating income"
             },
             {
               "id": "m4",
-              "label": "Year-to-date revenue"
+              "label": "Quarterly net income attributable to shareholders"
             },
             {
               "id": "m5",
-              "label": "Year-to-date operating loss"
+              "label": "Fiscal year-to-date operating cash flow"
             },
             {
               "id": "m6",
-              "label": "Year-to-date net loss"
+              "label": "Fiscal year-to-date property and equipment spending"
             },
             {
               "id": "m7",
+              "label": "Full-year constant-currency net sales growth guidance, low end"
+            },
+            {
+              "id": "m8",
+              "label": "Full-year constant-currency net sales growth guidance, high end"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Montage completes repurchase intended for employee incentives",
+          "summary": "Montage Technology completed an on-market repurchase using its own funds and set aside the shares for employee ownership or equity incentives.",
+          "impact": "The company has spent the cash, but the transaction did not immediately reduce its total issued share count.",
+          "what": "Montage designs chips that help server processors communicate reliably with memory modules. Its filing confirms that the purchases are complete and that the shares are held in a dedicated account pending use for employees. The earlier quarterly filing provides context for the business funding the purchases: it reports revenue and attributable profit for the quarter, but provides operating cash only on a year-to-date basis.",
+          "why": "Buying existing shares for employee awards can reduce the need to issue new shares when equity compensation is delivered. It still uses cash that could otherwise fund engineering, product qualification or other investments. And unlike canceling shares, holding them for awards does not permanently remove them from circulation. The filing says the shares lack voting and distribution rights while held in the repurchase account; transferring them to employees would be a separate step.",
+          "uncertainty": "Completion of the purchases does not establish when employees will receive the shares or on what terms. If the shares are not transferred within the permitted window, the filing provides for cancellation. The purchase amount excludes transaction fees.",
+          "watch": "Look for the employee plan or award terms and the next share-count reconciliation, alongside operating cash flow and spending on product development.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Mainland shares repurchased"
+            },
+            {
+              "id": "m2",
+              "label": "Approximate repurchase spending before fees"
+            },
+            {
+              "id": "m3",
+              "label": "Quarterly revenue"
+            },
+            {
+              "id": "m4",
+              "label": "Quarterly net profit attributable to shareholders"
+            },
+            {
+              "id": "m5",
+              "label": "Year-to-date operating cash flow"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Anthropic files final terms for its public offering",
+          "summary": "Anthropic’s final prospectus sets the public offering terms and shows a company generating operating cash while still reporting an operating loss.",
+          "impact": "The offering gives the Claude developer a route to finance computing capacity, but the headline deal value is not the cash the company receives.",
+          "what": "Anthropic develops Claude and sells access to its models and tools for tasks such as coding and office work. The final prospectus separates newly issued shares from those sold by existing shareholders. The latter do not finance the company. It also describes a concurrent private placement separately from the public offering. The interim financial statements show that the accounting net loss was much larger than the operating loss, largely because financing instruments were revalued.",
+          "why": "A model developer needs computing capacity both to train models and to run them for customers. Raising equity can help pay for that capacity before customer receipts are sufficient to cover the full investment. It is also why the cash flow statement matters: revaluing financing instruments can enlarge the accounting loss without consuming that amount of cash, while positive operating cash does not account for all cash spent on infrastructure or other investing activities.",
+          "uncertainty": "The prospectus records the priced terms, not confirmation of settlement. The interim statements are unaudited, and cash receipts and vendor payment timing can make operating cash flow fluctuate. The filing also describes a governance structure that limits public shareholders’ influence.",
+          "watch": "Look for confirmation of settlement and realized proceeds, and then compare customer revenue, computing costs and operating cash in the next financial filing.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Public offering price per share"
+            },
+            {
+              "id": "m2",
+              "label": "Gross public offering value at pricing, including selling holders"
+            },
+            {
+              "id": "m3",
+              "label": "Year-to-date revenue"
+            },
+            {
+              "id": "m4",
+              "label": "Year-to-date operating loss"
+            },
+            {
+              "id": "m5",
+              "label": "Year-to-date net loss"
+            },
+            {
+              "id": "m6",
               "label": "Year-to-date operating cash flow"
             }
           ]
@@ -305,146 +547,362 @@
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的内容有限。部分市场没有经核实的新消息；较早的报道仍明确标注日期。",
+      "status": "本期关注美国和中国的动态。请留意各条内容的发布日期；近期发布的公司报告用于解读背景。",
       "marketSummary": {
-        "us": "跟踪的指数涨跌不一，也有指数持平。各卡片均标明所对应的已结束交易日。",
-        "cn": "部分收盘数据未能核实。可提供数据的指数均保留各自的交易日期。"
+        "us": "跟踪的指数涨跌不一，部分持平。各卡片均标明所述的已结束交易时段。",
+        "cn": "跟踪的指数涨跌不一，部分持平。各卡片均标明所述的已结束交易时段。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Claude 开发商确定公开发行价格",
-          "summary": "Anthropic 在预计挂牌交易前，确定了首次公开发行的价格和股份数量。",
-          "impact": "此次发行可能为公司筹集可观的资金，但这笔钱不是来自客户的营收，也不能证明公司已经盈利。",
-          "what": "Anthropic 开发了 Claude。客户使用其模型或订阅其软件时，公司会获得营收。企业可以直接向 Anthropic 购买使用权限，也可以通过云服务平台的应用市场购买。定价公告区分了公司发行的新股和现有股东出售的股份。现有股东售股所得不归公司，因此发行总额并不等于公司能筹到的资金。所列公司募资额尚未扣除费用，实际能否收到这笔钱取决于发行能否完成交割。",
-          "why": "申报文件解释了为什么公司的现金流和利润表现不同。公司录得经营亏损，净亏损则大得多，主要是因为可转换融资工具及相关工具的账面价值发生变化。现金流量表在计算经营现金流时，将这些重估影响加了回来，结果显示经营现金流为正。但无论是经营现金流为正，还是通过发行股票筹资，都不意味着公司今后可以免费获得算力。公司仍需为训练和运行模型所用的基础设施付费。",
-          "uncertainty": "发行价不是挂牌后的交易价格，确定发行价也不代表公司已收到募集资金。历史数据来自注册申报修订文件中的中期财务报表，其中假设的发行条款与最终定价条款不同。",
-          "watch": "后续关注股票是否开始交易、发行是否完成交割，再把来自客户的营收和经营现金流与算力支出及相关支出承诺作比较。",
+          "title": "沃尔玛线上销售增长，上调业绩展望",
+          "summary": "沃尔玛当季营收和营业利润均有所增长，但归属于股东的净利润下降。公司随后上调了全年业绩展望。",
+          "impact": "到店自提和配送带动了销售增长。尽管经营现金流增加，但由于购置物业及设备的支出上升，自由现金流反而减少。",
+          "what": "沃尔玛通过实体门店、会员制商店和线上渠道销售食品杂货及日用商品。公司表示，由门店处理的自提和配送订单是线上销售增长的主要动力。利润表显示，营业利润上升，但归属于股东的净利润下降；在营业利润之外列示的投资损益较此前恶化。此外，公司上调了剔除汇率影响后的财年净销售额增速预期。",
+          "why": "门店也能处理附近顾客的订单。顾客可以到店自提，也可以选择送货上门，沃尔玛不必完全依靠远处的仓库。这能让购物更方便，也有助于沃尔玛争取顾客的日常采购。不过，这种做法也需要投入：本财年以来累计经营现金流有所增加，但购置物业及设备的支出增幅足以使自由现金流减少。这些现金流指标的统计期间与当季利润数据的统计期间不同。",
+          "uncertainty": "上调后的展望是管理层的预测，并非已经实现的业绩。付款时间和商品到货时间都可能影响经营现金流，业绩公告也没有单独披露自提和配送投入的长期回报。",
+          "watch": "将假日购物季的销售表现和营业利润率与更新后的展望对照，再看经营现金流的增长能否跟上物业及设备支出的增长。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "每股发行价"
+              "label": "季度营收"
             },
             {
               "id": "m2",
-              "label": "基础发行总额（扣费前）"
+              "label": "季度营收增速"
             },
             {
               "id": "m3",
-              "label": "按发行定价推算的发行人募资总额（扣费前）"
+              "label": "季度营业利润"
             },
             {
               "id": "m4",
-              "label": "年初至今营收"
+              "label": "季度归属于股东的净利润"
             },
             {
               "id": "m5",
-              "label": "年初至今经营亏损"
+              "label": "本财年迄今累计经营现金流"
             },
             {
               "id": "m6",
-              "label": "年初至今净亏损"
+              "label": "本财年迄今累计物业及设备支出"
             },
             {
               "id": "m7",
-              "label": "年初至今经营现金流"
+              "label": "全年净销售额增速指引下限（剔除汇率影响）"
+            },
+            {
+              "id": "m8",
+              "label": "全年净销售额增速指引上限（剔除汇率影响）"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "澜起科技完成股份回购，拟用于员工持股或股权激励",
+          "summary": "澜起科技已使用自有资金在公开市场完成股份回购，回购股份留作员工持股或股权激励之用。",
+          "impact": "公司已经支付了回购款，但这笔交易并未立即减少公司已发行股份总数。",
+          "what": "澜起科技设计的芯片可帮助服务器处理器与内存模块稳定通信。公司公告确认，回购已经完成，股份存放在回购专用账户中，等待用于员工持股或股权激励。此前的季度报告有助于了解为回购提供资金的业务表现：报告披露了当季营收和归属于股东的净利润，但经营现金流只披露了年初至报告期末的累计数据。",
+          "why": "回购现有股份用于员工奖励，可以减少兑现股权薪酬时发行新股的需要。不过，回购会占用原本可用于研发、产品验证或其他投资的现金。与注销股份不同，留作员工奖励不会让这些股份永久退出流通。公告称，股份存放在回购专用账户期间不享有表决权和分配权；将股份转给员工还需另行办理。",
+          "uncertainty": "回购完成并不意味着员工何时获得股份、按什么条件获得股份已经确定。公告规定，若股份未在允许的期限内转让，则予以注销。回购金额不含交易费用。",
+          "watch": "关注员工持股计划或股权奖励条款，以及下次披露的股本变动明细，同时留意经营现金流和产品研发支出。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "境内股份回购数量"
+            },
+            {
+              "id": "m2",
+              "label": "回购金额约值（不含交易费用）"
+            },
+            {
+              "id": "m3",
+              "label": "季度营收"
+            },
+            {
+              "id": "m4",
+              "label": "季度归属于股东的净利润"
+            },
+            {
+              "id": "m5",
+              "label": "年初至报告期末累计经营现金流"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Anthropic 提交公开发行最终条款",
+          "summary": "Anthropic 在最终招股说明书中明确了公开发行条款。文件显示，公司经营现金流为正，但仍录得营业亏损。",
+          "impact": "此次发行让 Claude 的开发商可以为算力投入筹资，但公布的发行总额并不是公司实际收到的现金。",
+          "what": "Anthropic 开发 Claude，并向客户提供付费服务，让客户使用其模型和工具完成编程、办公等任务。最终招股说明书区分了公司新发行的股份与现有股东出售的股份。现有股东出售股份所得并不归公司。文件还单独说明了与公开发行同期进行的私募配售。中期财务报表显示，账面净亏损远高于营业亏损，主要是因为融资工具的账面价值经过重新计量。",
+          "why": "模型开发商需要算力来训练模型，也需要算力来运行模型、为客户提供服务。在客户回款还不足以覆盖全部投入时，股权融资可以帮助支付算力成本。这也说明了现金流量表为何重要：重新计量融资工具可能扩大账面亏损，却不会带来等额的现金流出；经营现金流为正，也不代表已经计入了基础设施或其他投资活动的全部现金支出。",
+          "uncertainty": "招股说明书记录的是定价后确定的条款，并不确认发行已经完成交割。中期财务报表未经审计，客户回款和向供应商付款的时间都可能导致经营现金流波动。文件还介绍了限制公众股东影响力的公司治理架构。",
+          "watch": "关注发行是否完成交割以及实际募集资金，再对照下次财务披露中的客户收入、算力成本和经营现金流。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "公开发行每股价格"
+            },
+            {
+              "id": "m2",
+              "label": "按发行定价计算的公开发行总额（含现有股东售股）"
+            },
+            {
+              "id": "m3",
+              "label": "年初至报告期末累计营收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至报告期末累计营业亏损"
+            },
+            {
+              "id": "m5",
+              "label": "年初至报告期末累计净亏损"
+            },
+            {
+              "id": "m6",
+              "label": "年初至报告期末累计经营现金流"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition ne présente qu’un nombre limité d’informations vérifiées. Pour certains marchés, aucune nouvelle information n’a pu être vérifiée ; les comptes rendus datés restent clairement signalés.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de publication de chaque article : les rapports récents des entreprises servent à éclairer le contexte.",
       "marketSummary": {
-        "us": "Les indices suivis ont évolué en ordre dispersé ou sont restés stables. Chaque fiche précise la séance de Bourse terminée dont elle rend compte.",
-        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Pour chaque indice dont les données sont disponibles, la date de la séance est indiquée."
+        "us": "Les indices suivis ont évolué en ordre dispersé ou sont restés stables. Chaque fiche précise de quelle séance clôturée il s’agit.",
+        "cn": "Les indices suivis ont évolué en ordre dispersé ou sont restés stables. Chaque fiche précise de quelle séance clôturée il s’agit."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Le créateur de Claude fixe le prix de son introduction en Bourse",
-          "summary": "Anthropic a fixé le prix et le nombre d’actions de son offre en vue de ses débuts attendus en Bourse.",
-          "impact": "La vente pourrait apporter un financement important à l’entreprise, mais cet argent ne constitue pas du chiffre d’affaires réalisé auprès de ses clients et ne prouve pas qu’elle est rentable.",
-          "what": "Anthropic développe Claude et génère du chiffre d’affaires lorsque ses clients utilisent ses modèles ou s’abonnent à ses logiciels. Les entreprises peuvent acheter un accès directement auprès d’Anthropic ou sur des plateformes de services cloud. Le communiqué qui fixe le prix distingue les actions nouvelles vendues par Anthropic des actions cédées par des actionnaires existants. Anthropic ne touche rien sur ces cessions : la valeur totale de l’offre ne correspond donc pas à la somme que l’entreprise pourrait lever. Le montant indiqué pour Anthropic est calculé avant déduction des frais et reste conditionné à la finalisation de l’opération.",
-          "why": "Le document déposé explique pourquoi les flux de trésorerie et les résultats comptables donnent ici des images différentes. Anthropic a déclaré une perte d’exploitation et une perte nette bien plus importante, due en grande partie à la réévaluation comptable de financements convertibles et d’instruments financiers connexes. Les effets de ces réévaluations ont été neutralisés dans le tableau des flux de trésorerie, qui fait ressortir un flux de trésorerie d’exploitation positif. Ni ce flux positif ni une levée de fonds par émission d’actions ne rendent gratuite la capacité de calcul dont Anthropic aura besoin. L’entreprise doit toujours payer l’infrastructure nécessaire pour entraîner et faire fonctionner ses modèles.",
-          "uncertainty": "Le prix de l’offre n’est pas le cours de l’action en Bourse, et le fait de fixer ce prix ne signifie pas que les fonds ont été encaissés. Les chiffres historiques proviennent des états financiers intermédiaires inclus dans la version modifiée du dossier d’introduction en Bourse. Les conditions de l’offre retenues comme hypothèses dans ce dossier diffèrent des conditions définitives fixées lors de l’annonce du prix.",
-          "watch": "À suivre : la confirmation du début des échanges en Bourse et du règlement de l’opération, puis la comparaison du chiffre d’affaires réalisé auprès des clients et du flux de trésorerie d’exploitation avec les dépenses et les engagements liés à la capacité de calcul.",
+          "title": "Walmart relève ses prévisions grâce à la progression des ventes en ligne",
+          "summary": "Walmart a relevé ses prévisions pour l’ensemble de l’exercice après un trimestre où le chiffre d’affaires et le résultat d’exploitation ont progressé, mais où le bénéfice net attribuable aux actionnaires a reculé.",
+          "impact": "Le retrait en magasin et la livraison ont soutenu les ventes. La hausse des dépenses en immobilisations corporelles a toutefois réduit le flux de trésorerie disponible malgré l’amélioration du flux de trésorerie d’exploitation.",
+          "what": "Walmart vend des produits alimentaires et des articles de grande consommation en magasin, dans des clubs-entrepôts réservés aux membres et en ligne. Selon l’entreprise, les commandes préparées en magasin pour le retrait ou la livraison ont été le principal moteur de la croissance des ventes en ligne. Le compte de résultat montre une hausse du résultat d’exploitation, mais un recul du bénéfice attribuable aux actionnaires. L’évolution défavorable des gains et pertes sur placements a pesé sur ce bénéfice sans affecter le résultat d’exploitation. Par ailleurs, Walmart a relevé sa prévision de croissance des ventes nettes pour l’exercice, hors effets de change.",
+          "why": "Les magasins servent aussi de centres de préparation locaux. Les clients peuvent ainsi retirer leur commande ou se la faire livrer sans que Walmart dépende entièrement d’entrepôts éloignés. Cela peut simplifier les courses et aider Walmart à attirer les clients pour leurs achats courants. Ce service demande aussi des investissements : depuis le début de l’exercice, le flux de trésorerie d’exploitation a augmenté, mais les dépenses en immobilisations corporelles ont suffisamment progressé pour réduire le flux de trésorerie disponible. Ces mesures de trésorerie portent sur une période différente de celle du bénéfice trimestriel.",
+          "uncertainty": "La prévision revue à la hausse reste une estimation de la direction, pas un résultat acquis. Le calendrier des paiements et des arrivées de marchandises peut influer sur le flux de trésorerie d’exploitation. Le communiqué de résultats ne permet pas de mesurer séparément la rentabilité à long terme des investissements dans le retrait et la livraison.",
+          "watch": "Comparer les ventes de la période des fêtes et les marges d’exploitation aux prévisions actualisées, puis vérifier si le flux de trésorerie d’exploitation augmente assez vite pour suivre la hausse des dépenses en immobilisations corporelles.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Prix d’offre par action"
+              "label": "Chiffre d’affaires trimestriel"
             },
             {
               "id": "m2",
-              "label": "Montant brut de l’offre de base"
+              "label": "Croissance du chiffre d’affaires trimestriel"
             },
             {
               "id": "m3",
-              "label": "Produit brut revenant à l’émetteur selon le prix fixé"
+              "label": "Résultat d’exploitation trimestriel"
             },
             {
               "id": "m4",
-              "label": "Chiffre d’affaires cumulé depuis le début de l’année"
+              "label": "Bénéfice net trimestriel attribuable aux actionnaires"
             },
             {
               "id": "m5",
-              "label": "Perte d’exploitation cumulée depuis le début de l’année"
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
             },
             {
               "id": "m6",
-              "label": "Perte nette cumulée depuis le début de l’année"
+              "label": "Dépenses en immobilisations corporelles depuis le début de l’exercice"
             },
             {
               "id": "m7",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’année"
+              "label": "Prévision de croissance des ventes nettes sur l’exercice à taux de change constants — borne basse"
+            },
+            {
+              "id": "m8",
+              "label": "Prévision de croissance des ventes nettes sur l’exercice à taux de change constants — borne haute"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Montage achève un rachat d’actions destinées à ses salariés",
+          "summary": "Montage Technology a achevé un rachat d’actions sur le marché avec sa propre trésorerie. Les titres sont réservés à un dispositif d’actionnariat salarié ou de rémunération en actions.",
+          "impact": "L’entreprise a décaissé les fonds, mais l’opération n’a pas immédiatement réduit le nombre total d’actions émises.",
+          "what": "Montage conçoit des puces qui permettent aux processeurs des serveurs de communiquer de manière fiable avec les modules de mémoire. Le document réglementaire confirme que les achats sont terminés et que les actions sont conservées sur un compte dédié en attendant leur utilisation au profit des salariés. La publication trimestrielle précédente éclaire l’activité qui finance ces achats : elle présente le chiffre d’affaires et le bénéfice attribuable aux actionnaires pour le trimestre, mais le flux de trésorerie d’exploitation n’est publié qu’en cumul depuis le début de l’exercice.",
+          "why": "Racheter des actions existantes pour les attribuer aux salariés peut limiter le besoin d’en émettre de nouvelles au moment de verser une rémunération en actions. Cette opération mobilise toutefois de la trésorerie qui pourrait servir à financer l’ingénierie, la validation des produits ou d’autres investissements. Contrairement à une annulation, la mise en réserve des titres en vue de leur attribution ne les retire pas définitivement de la circulation. Selon le document réglementaire, les titres ne donnent ni droit de vote ni droit aux distributions tant qu’ils restent sur le compte de rachat. Leur transfert aux salariés constituerait une étape distincte.",
+          "uncertainty": "La fin des achats ne précise ni quand les salariés recevront les titres ni à quelles conditions. Si les titres ne sont pas transférés dans le délai autorisé, le document prévoit leur annulation. Le montant du rachat n’inclut pas les frais de transaction.",
+          "watch": "Suivre la publication du plan destiné aux salariés ou des conditions d’attribution, ainsi que le prochain état détaillant l’évolution du nombre d’actions. Suivre aussi le flux de trésorerie d’exploitation et les dépenses de développement des produits.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Actions rachetées en Chine continentale"
+            },
+            {
+              "id": "m2",
+              "label": "Montant approximatif du rachat hors frais"
+            },
+            {
+              "id": "m3",
+              "label": "Chiffre d’affaires trimestriel"
+            },
+            {
+              "id": "m4",
+              "label": "Bénéfice net trimestriel attribuable aux actionnaires"
+            },
+            {
+              "id": "m5",
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Anthropic dépose les conditions définitives de son offre au public",
+          "summary": "Le prospectus définitif d’Anthropic fixe les conditions de l’offre au public et montre que l’entreprise dégage un flux de trésorerie d’exploitation positif malgré une perte d’exploitation.",
+          "impact": "L’offre permet au développeur de Claude de financer ses capacités de calcul, mais le montant total annoncé ne correspond pas à la somme que l’entreprise reçoit.",
+          "what": "Anthropic développe Claude et vend l’accès à ses modèles et outils pour des tâches comme la programmation et le travail de bureau. Le prospectus définitif distingue les actions nouvellement émises de celles que vendent les actionnaires actuels. La vente de ces dernières ne finance pas l’entreprise. Le document présente aussi un placement privé réalisé en parallèle, mais distinct de l’offre au public. Les comptes intermédiaires montrent que la perte nette comptable était bien supérieure à la perte d’exploitation, surtout en raison de la réévaluation d’instruments de financement.",
+          "why": "Un développeur de modèles a besoin de capacités de calcul pour entraîner ses modèles et les faire fonctionner pour ses clients. Une levée de fonds en actions peut aider à financer ces capacités avant que les paiements des clients suffisent à couvrir l’ensemble de l’investissement. C’est aussi ce qui rend le tableau des flux de trésorerie utile : la réévaluation d’instruments de financement peut creuser la perte comptable sans entraîner une sortie de trésorerie du même montant. Un flux de trésorerie d’exploitation positif ne tient pas compte de toutes les sommes consacrées aux infrastructures ou à d’autres investissements.",
+          "uncertainty": "Le prospectus indique les conditions arrêtées lors de la fixation du prix, mais ne confirme pas que le règlement-livraison a eu lieu. Les comptes intermédiaires ne sont pas audités. Le calendrier des encaissements et des paiements aux fournisseurs peut faire varier le flux de trésorerie d’exploitation. Le document décrit aussi un mode de gouvernance qui limite l’influence des actionnaires du public.",
+          "watch": "Attendre la confirmation du règlement-livraison et du produit effectivement encaissé, puis comparer le chiffre d’affaires généré par les clients, les coûts de calcul et le flux de trésorerie d’exploitation dans la prochaine publication financière.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Prix de l’offre au public par action"
+            },
+            {
+              "id": "m2",
+              "label": "Montant brut de l’offre au public au prix fixé, ventes des actionnaires cédants comprises"
+            },
+            {
+              "id": "m3",
+              "label": "Chiffre d’affaires depuis le début de l’exercice"
+            },
+            {
+              "id": "m4",
+              "label": "Perte d’exploitation depuis le début de l’exercice"
+            },
+            {
+              "id": "m5",
+              "label": "Perte nette depuis le début de l’exercice"
+            },
+            {
+              "id": "m6",
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición tiene una cobertura verificada limitada. En algunos mercados no hay noticias nuevas que se hayan podido verificar. Los informes de fechas anteriores siguen claramente identificados.",
+      "status": "Esta edición recoge novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan como contexto para entender las noticias.",
       "marketSummary": {
-        "us": "Los índices que seguimos registraron movimientos dispares o se mantuvieron sin cambios. Cada ficha indica a qué sesión ya finalizada corresponden los datos.",
-        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva su propia fecha de negociación."
+        "us": "Entre los índices que seguimos hubo movimientos dispares o sin cambios. Cada ficha indica a qué sesión ya cerrada corresponden los datos.",
+        "cn": "Entre los índices que seguimos hubo movimientos dispares o sin cambios. Cada ficha indica a qué sesión ya cerrada corresponden los datos."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "La empresa que desarrolla Claude fija el precio de su salida a bolsa",
-          "summary": "Anthropic fijó el precio y la cantidad de acciones de su oferta pública inicial antes de su previsto debut en bolsa.",
-          "impact": "La venta podría aportar una financiación considerable a la empresa, pero ese dinero no son ingresos de clientes ni demuestra que la empresa sea rentable.",
-          "what": "Anthropic desarrolla Claude y obtiene ingresos cuando los clientes usan sus modelos o se suscriben a su software. Las empresas pueden contratar el acceso directamente o a través de plataformas de servicios en la nube. El comunicado que anuncia el precio distingue las acciones nuevas que vende Anthropic de las que venden los accionistas actuales. Anthropic no recibe dinero por las ventas de esos accionistas, así que el valor total de la oferta no equivale a lo que la empresa podría captar. El importe indicado para Anthropic no descuenta las comisiones y depende de que se cierre la operación.",
-          "why": "El documento de registro explica por qué el flujo de caja y el resultado contable cuentan historias distintas. Anthropic registró una pérdida operativa y una pérdida neta mucho mayor, debida en gran parte a ajustes contables en el valor de la financiación convertible y de instrumentos relacionados. Esos ajustes se sumaron de nuevo al calcular el flujo de caja de las operaciones, que fue positivo. Ni generar efectivo con sus operaciones ni captar fondos con la emisión de acciones elimina el coste de la capacidad informática que necesitará en el futuro. La empresa sigue teniendo que pagar por la infraestructura que usa para entrenar y ejecutar sus modelos.",
-          "uncertainty": "El precio de la oferta no es el precio al que cotizan las acciones en bolsa. Fijar ese precio tampoco confirma que la empresa ya haya recibido los fondos. Las cifras históricas proceden de los estados financieros intermedios incluidos en la versión modificada del documento de registro, que partía de condiciones de la oferta distintas de las definitivas.",
-          "watch": "Queda por confirmar el inicio de la cotización y la liquidación de la operación. Después, el punto de comparación serán los ingresos de clientes y el flujo de caja operativo frente al gasto y los compromisos de pago por capacidad informática.",
+          "title": "Walmart mejora sus previsiones al crecer las ventas en línea",
+          "summary": "Walmart elevó sus previsiones para el ejercicio completo tras un trimestre en el que aumentaron los ingresos y el beneficio operativo, pero cayó el beneficio neto atribuible a los accionistas.",
+          "impact": "La recogida en tienda y la entrega a domicilio ayudaron a impulsar las ventas. Sin embargo, el mayor gasto en inmuebles y equipos redujo el flujo de caja libre, pese a que la actividad generó más efectivo.",
+          "what": "Walmart vende alimentos y otros productos de consumo en tiendas, clubes de compra para socios y canales en línea. Según la empresa, la recogida y la entrega de pedidos preparados en sus tiendas fueron el principal motor del crecimiento de las ventas en línea. La cuenta de resultados muestra que subió el beneficio operativo, pero bajó el beneficio atribuible a los accionistas. Entre las partidas que se contabilizan después del resultado operativo, empeoró el saldo de ganancias y pérdidas de las inversiones. Por separado, la empresa elevó su previsión de crecimiento de las ventas netas para el ejercicio fiscal, sin contar el efecto de los tipos de cambio.",
+          "why": "Las tiendas también sirven como centros locales de preparación de pedidos. Así, los clientes pueden recoger sus compras o recibirlas sin que Walmart dependa por completo de almacenes lejanos. Esto puede facilitar las compras y ayudar a la empresa a competir por el gasto habitual de los clientes. También requiere inversión: el flujo de caja operativo aumentó en lo que va del ejercicio fiscal, pero los pagos por inmuebles y equipos subieron lo suficiente para reducir el flujo de caja libre. Ninguna de esas medidas de efectivo corresponde al mismo período que el beneficio trimestral.",
+          "uncertainty": "La mejora de las previsiones refleja las expectativas de la dirección, no un resultado ya conseguido. Las fechas de los pagos y de llegada de la mercancía pueden afectar al flujo de caja operativo. El comunicado de resultados no permite saber por separado qué rentabilidad tendrán a largo plazo las inversiones en recogida y entrega.",
+          "watch": "Compara las ventas de la temporada festiva y los márgenes operativos con las previsiones actualizadas. Después, comprueba si el flujo de caja operativo crece lo suficiente para seguir el ritmo del gasto en inmuebles y equipos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Precio de la oferta por acción"
+              "label": "Ingresos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Importe bruto de la oferta base"
+              "label": "Crecimiento de los ingresos trimestrales"
             },
             {
               "id": "m3",
-              "label": "Fondos brutos que captaría el emisor al precio fijado"
+              "label": "Beneficio operativo trimestral"
             },
             {
               "id": "m4",
-              "label": "Ingresos acumulados en el año"
+              "label": "Beneficio neto trimestral atribuible a los accionistas"
             },
             {
               "id": "m5",
-              "label": "Pérdida operativa acumulada en el año"
+              "label": "Flujo de caja operativo acumulado en el ejercicio fiscal"
             },
             {
               "id": "m6",
-              "label": "Pérdida neta acumulada en el año"
+              "label": "Gasto acumulado en inmuebles y equipos en el ejercicio fiscal"
             },
             {
               "id": "m7",
+              "label": "Previsión anual de crecimiento de las ventas netas a tipos de cambio constantes: límite inferior"
+            },
+            {
+              "id": "m8",
+              "label": "Previsión anual de crecimiento de las ventas netas a tipos de cambio constantes: límite superior"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Montage completa una recompra de acciones para incentivar a sus empleados",
+          "summary": "Montage Technology completó una recompra de acciones en el mercado con fondos propios y reservó los títulos para planes de participación de los empleados en el capital o de incentivos en acciones.",
+          "impact": "La empresa ya desembolsó el dinero, pero la operación no redujo de inmediato el total de acciones emitidas.",
+          "what": "Montage diseña chips que permiten a los procesadores de los servidores comunicarse de forma fiable con los módulos de memoria. Su comunicado oficial confirma que las compras han terminado y que las acciones se mantienen en una cuenta específica hasta que se destinen a los empleados. El informe trimestral anterior aporta contexto sobre la actividad con la que se financió la recompra: incluye los ingresos y el beneficio atribuible a los accionistas del trimestre, pero solo informa del flujo de caja operativo acumulado en el año.",
+          "why": "Comprar acciones ya emitidas para entregarlas como incentivos puede reducir la necesidad de emitir nuevas acciones cuando se haga efectiva esa parte de la remuneración. Aun así, consume efectivo que podría destinarse a ingeniería, validación de productos u otras inversiones. Y, a diferencia de la cancelación, reservar las acciones para incentivos no las retira definitivamente de circulación. Según el comunicado, mientras estén en la cuenta de recompra, las acciones no dan derecho a voto ni a recibir distribuciones. Su entrega a los empleados sería un paso aparte.",
+          "uncertainty": "Que las compras hayan terminado no indica cuándo recibirán los empleados las acciones ni en qué condiciones. Si no se transfieren dentro del plazo permitido, el comunicado prevé su cancelación. El importe de la recompra no incluye los gastos de transacción.",
+          "watch": "Fíjate en el plan para empleados o en las condiciones de entrega de las acciones, así como en el próximo desglose de los cambios en el número de acciones. Revisa también el flujo de caja operativo y el gasto en desarrollo de productos.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Acciones recompradas en China continental"
+            },
+            {
+              "id": "m2",
+              "label": "Importe aproximado de la recompra antes de gastos"
+            },
+            {
+              "id": "m3",
+              "label": "Ingresos trimestrales"
+            },
+            {
+              "id": "m4",
+              "label": "Beneficio neto trimestral atribuible a los accionistas"
+            },
+            {
+              "id": "m5",
+              "label": "Flujo de caja operativo acumulado en el año"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Anthropic presenta las condiciones definitivas de su oferta pública",
+          "summary": "El folleto definitivo de Anthropic fija las condiciones de la oferta pública y muestra que la empresa genera efectivo con su actividad pese a seguir registrando pérdidas operativas.",
+          "impact": "La oferta le permite a la empresa que desarrolla Claude obtener financiación para ampliar su capacidad de cómputo, pero el importe total anunciado no equivale al efectivo que recibe la empresa.",
+          "what": "Anthropic desarrolla Claude y vende acceso a sus modelos y herramientas para tareas como la programación y el trabajo de oficina. El folleto definitivo distingue entre las acciones de nueva emisión y las que venden los accionistas actuales. El dinero de estas últimas ventas no va a la empresa. También describe, por separado, una colocación privada simultánea a la oferta pública. Los estados financieros intermedios muestran que la pérdida neta contable fue mucho mayor que la pérdida operativa, en gran parte por cambios en la valoración de los instrumentos de financiación.",
+          "why": "Una empresa que desarrolla modelos necesita capacidad de cómputo tanto para entrenarlos como para que sus clientes puedan usarlos. Captar capital mediante la emisión de acciones puede ayudar a pagar esa capacidad antes de que los cobros de los clientes basten para cubrir toda la inversión. Por eso también importa el estado de flujos de efectivo: un cambio en la valoración de los instrumentos de financiación puede aumentar la pérdida contable sin que salga ese mismo importe de caja. Por su parte, un flujo de caja operativo positivo no refleja todo el dinero destinado a infraestructura u otras inversiones.",
+          "uncertainty": "El folleto recoge las condiciones fijadas para la oferta, incluido el precio, pero no confirma que la operación se haya liquidado. Los estados financieros intermedios no están auditados. El momento en que se cobra a los clientes y se paga a los proveedores puede hacer fluctuar el flujo de caja operativo. El documento también describe una estructura de gobierno corporativo que limita la influencia de los accionistas que participan a través del mercado público.",
+          "watch": "Busca la confirmación de que la operación se ha liquidado y del importe efectivamente recaudado. Después, compara los ingresos de clientes, los costes de cómputo y el flujo de caja operativo en el próximo informe financiero.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Precio por acción de la oferta pública"
+            },
+            {
+              "id": "m2",
+              "label": "Importe bruto de la oferta pública al precio fijado, incluidas las ventas de accionistas"
+            },
+            {
+              "id": "m3",
+              "label": "Ingresos acumulados en el año"
+            },
+            {
+              "id": "m4",
+              "label": "Pérdida operativa acumulada en el año"
+            },
+            {
+              "id": "m5",
+              "label": "Pérdida neta acumulada en el año"
+            },
+            {
+              "id": "m6",
               "label": "Flujo de caja operativo acumulado en el año"
             }
           ]
@@ -452,146 +910,362 @@
       ]
     },
     "ja": {
-      "status": "今号で確認できた情報は限られています。新たなニュースを確認できなかった市場もあります。過去の報道には日付を明記しています。",
+      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として紹介します。",
       "marketSummary": {
-        "us": "対象の株価指数は、上昇したもの、下落したもの、横ばいのものがありました。各カードには、取引が終了したどの日の値動きかを明記しています。",
-        "cn": "終値を確認できなかった指数もあります。掲載できた指数には、それぞれの取引日を明記しています。"
+        "us": "対象の株価指数は、上昇と下落が入り交じるか、横ばいでした。各カードには、取引が終了したどの取引日を取り上げているかを示しています。",
+        "cn": "対象の株価指数は、上昇と下落が入り交じるか、横ばいでした。各カードには、取引が終了したどの取引日を取り上げているかを示しています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Claudeの開発元、IPOの公開価格を決定",
-          "summary": "Anthropicは、予定されている上場を前に、新規株式公開（IPO）の公開価格と公開株式数を決めました。",
-          "impact": "株式の公開を通じて、同社は多額の資金を調達できる可能性があります。ただし、調達資金は顧客から得た売上高ではなく、同社が利益を出していることを示すものでもありません。",
-          "what": "AnthropicはClaudeを開発しており、顧客が同社のAIモデルを利用したり、ソフトウェアの利用契約を結んだりすることで売上を得ています。企業は、同社から直接、またはクラウドのマーケットプレイスを通じて利用契約を結べます。公開価格の発表では、同社が新たに発行する株式と、既存の株主が売り出す株式を分けて示しています。既存株主が株式を売って得る代金は同社には入らないため、公開総額がそのまま同社の調達額になるわけではありません。記載された同社の調達額は手数料を差し引く前の金額で、取引の成立が前提です。",
-          "why": "届出書を読むと、利益と現金の動きがなぜ異なるのかが分かります。同社は営業赤字を計上し、純損失は営業損失を大幅に上回りました。主な要因は、株式に転換できる資金調達手段や関連する金融商品の評価額が会計上変動したことです。キャッシュフロー計算書では、この評価変動による損失を足し戻した結果、営業キャッシュフローはプラスでした。ただし、営業キャッシュフローがプラスでも、株式発行で資金を調達しても、今後必要になる計算能力を無料で確保できるわけではありません。同社は引き続き、モデルの学習や稼働に使う設備やサービスの費用を負担する必要があります。",
-          "uncertainty": "公開価格は市場での取引価格とは異なります。また、公開価格が決まっても、調達資金が入金されたことにはなりません。過去の業績数値は訂正届出書に掲載された期中財務諸表に基づいており、そこで想定されていた公開条件は、最終的に決まった条件とは異なります。",
-          "watch": "注目点は、株式の取引開始と受け渡しが確認されるかどうかです。その後は、顧客からの売上高や営業キャッシュフローを、計算能力の確保にかかる支出や、契約で約束した支払いと比較します。",
+          "title": "ウォルマート、ネット販売の伸びを受けて業績見通しを引き上げ",
+          "summary": "ウォルマートは、四半期の売上高と営業利益が増えた一方で、株主に帰属する純利益が減少するなか、通期の業績見通しを引き上げました。",
+          "impact": "店舗での受け取りや店舗からの配送が売上の伸びを支えました。営業活動で得た現金は増えましたが、建物や設備などへの支出が増えたため、フリーキャッシュフローは減りました。",
+          "what": "ウォルマートは、店舗や会員制店舗、ネット通販を通じて、食料品や日用品などを販売しています。同社によると、ネット販売の伸びをけん引したのは、店舗で商品を受け取るサービスと、店舗から商品を届けるサービスです。損益計算書では営業利益が増えた一方、営業利益には含まれない投資損益が悪化し、株主に帰属する純利益は減りました。また、為替変動の影響を除いた通期の純売上高の伸び率見通しを引き上げました。",
+          "why": "店舗を近隣の注文に対応する拠点としても使うことで、遠くの倉庫だけに頼らず、店頭での受け取りや配送に対応できます。買い物が便利になり、日常の買い物先として選ばれやすくなる可能性があります。ただし、その仕組みには投資が必要です。今期の期初からの累計では、営業活動で得た現金は増えましたが、建物や設備などへの支出の増加がそれを上回り、フリーキャッシュフローは減りました。営業キャッシュフローもフリーキャッシュフローも、四半期の利益とは集計期間が異なります。",
+          "uncertainty": "引き上げられた見通しは経営陣の予想であり、実績ではありません。代金の支払いや商品の入荷の時期によって、営業キャッシュフローは変動し得ます。決算発表では、店頭受け取りや配送への投資が長期的にどれほどの見返りを生むかは、切り分けて示されていません。",
+          "watch": "年末商戦の売上と営業利益率が更新後の見通しに沿っているか、また営業キャッシュフローの伸びが建物や設備などへの支出の増加に追いつくかが注目点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "公開価格（株当たり）"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "基本公開分の総額（手数料控除前）"
+              "label": "四半期売上高伸び率"
             },
             {
               "id": "m3",
-              "label": "公開価格に基づく発行会社の調達額（手数料控除前）"
+              "label": "四半期営業利益"
             },
             {
               "id": "m4",
-              "label": "年初来の売上高"
+              "label": "四半期の株主に帰属する純利益"
             },
             {
               "id": "m5",
-              "label": "年初来の営業損失"
+              "label": "今期累計の営業キャッシュフロー"
             },
             {
               "id": "m6",
-              "label": "年初来の純損失"
+              "label": "今期累計の有形固定資産取得支出"
             },
             {
               "id": "m7",
-              "label": "年初来の営業キャッシュフロー"
+              "label": "為替変動の影響を除く通期純売上高伸び率見通しの下限"
+            },
+            {
+              "id": "m8",
+              "label": "為替変動の影響を除く通期純売上高伸び率見通しの上限"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "モンタージュ、従業員向け報酬などに充てる自社株買いを完了",
+          "summary": "モンタージュ・テクノロジーは、自己資金による市場での自社株買いを完了し、取得した株式を従業員持株制度や株式報酬に充てるために確保しました。",
+          "impact": "買い付けで現金は支出されましたが、この取引で発行済み株式総数がすぐに減ったわけではありません。",
+          "what": "モンタージュは、サーバーのプロセッサーとメモリーモジュールが安定してデータをやり取りできるようにする半導体を設計しています。開示資料では、買い付けが完了し、取得した株式は従業員向けに使うまで専用口座で保有するとしています。先に公表された四半期の開示資料では、買い付けの資金を支える本業の状況が確認できます。売上高と株主に帰属する純利益は四半期分が示されていますが、営業キャッシュフローは期初からの累計のみです。",
+          "why": "すでに発行されている株式を買い戻しておけば、従業員に株式報酬を渡す際に新株を発行する必要を減らせます。ただし、買い付けには、技術開発や製品の適格性評価、その他の投資に回せたはずの現金を使います。また、株式を消却する場合とは異なり、報酬用に保有しても、株式が流通から恒久的に取り除かれるわけではありません。開示資料によると、買い戻し専用口座で保有している間、その株式には議決権や配当などの分配を受ける権利がありません。従業員に渡すには、別途手続きが必要です。",
+          "uncertainty": "買い付けが完了しても、従業員がいつ、どのような条件で株式を受け取るかは確定しません。定められた期間内に株式が移転されなければ、消却すると開示資料に記載されています。買い付け額には取引手数料が含まれていません。",
+          "watch": "従業員向け制度や株式の付与条件、次回開示される株式数の増減の内訳に加え、営業キャッシュフローと製品開発への支出が注目点です。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "中国本土株式の買い戻し株数"
+            },
+            {
+              "id": "m2",
+              "label": "手数料を除く買い戻し概算額"
+            },
+            {
+              "id": "m3",
+              "label": "四半期売上高"
+            },
+            {
+              "id": "m4",
+              "label": "四半期の株主に帰属する純利益"
+            },
+            {
+              "id": "m5",
+              "label": "期初からの累計営業キャッシュフロー"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "アンソロピック、株式の公開募集・売り出しの最終条件を届け出",
+          "summary": "アンソロピックの最終目論見書には、株式の公開募集・売り出しの条件が示されています。同社は営業赤字を計上する一方、営業活動では現金を生み出しています。",
+          "impact": "公開募集は、クロードを開発する同社が計算資源を確保するための資金調達手段になります。ただし、募集・売り出しの総額がそのまま同社に入るわけではありません。",
+          "what": "アンソロピックはクロードを開発し、プログラミングや事務作業などに使えるモデルやツールを提供して利用料を得ています。最終目論見書では、同社が新たに発行する株式と、既存株主が売り出す株式を区別しています。既存株主による売却代金は、同社には入りません。同時に行われる私募についても、公開募集・売り出しとは別に説明しています。期中財務諸表では、主に資金調達に使った金融商品の評価額を見直したことで、会計上の純損失が営業損失を大きく上回りました。",
+          "why": "モデルの開発には、学習させるときも、顧客向けに動かすときも、計算資源が必要です。顧客からの入金だけでは投資額をまかなえない段階でも、株式発行で資金を調達すれば、計算資源の確保にかかる費用を支払いやすくなります。そこで重要になるのがキャッシュフロー計算書です。資金調達に使った金融商品の評価額を見直すと、会計上の損失が膨らんでも、同じ額の現金が出ていくわけではありません。一方、営業キャッシュフローが黒字でも、インフラ整備などの投資活動に使った現金がすべてそこに含まれるわけではありません。",
+          "uncertainty": "目論見書に記載されているのは、価格決定時の条件であり、株式の受け渡しや代金の決済が完了したことを示すものではありません。期中財務諸表は未監査で、顧客からの入金や取引先への支払いの時期によって営業キャッシュフローは変動し得ます。開示資料では、一般株主が経営に及ぼせる影響を制限するガバナンスの仕組みも説明しています。",
+          "watch": "決済が完了したか、実際にいくら調達できたかが注目点です。次の財務開示では、顧客からの売上高、計算資源にかかる費用、営業キャッシュフローの関係が注目されます。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "株式の公開募集・売出価格（株当たり）"
+            },
+            {
+              "id": "m2",
+              "label": "価格決定時の公開募集・売出総額（既存株主の売却分を含む）"
+            },
+            {
+              "id": "m3",
+              "label": "期初からの累計売上高"
+            },
+            {
+              "id": "m4",
+              "label": "期初からの累計営業損失"
+            },
+            {
+              "id": "m5",
+              "label": "期初からの累計純損失"
+            },
+            {
+              "id": "m6",
+              "label": "期初からの累計営業キャッシュフロー"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição tem cobertura verificada limitada. Para alguns mercados, não há notícias novas verificadas. Os relatos com data continuam claramente identificados.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes das empresas servem para explicar o contexto.",
       "marketSummary": {
-        "us": "Entre os índices acompanhados, houve altas, quedas e estabilidade. Cada cartão identifica o pregão já encerrado a que se refere.",
-        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente."
+        "us": "Os índices acompanhados tiveram movimentos mistos ou ficaram estáveis. Cada cartão indica a sessão já encerrada a que se refere.",
+        "cn": "Os índices acompanhados tiveram movimentos mistos ou ficaram estáveis. Cada cartão indica a sessão já encerrada a que se refere."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Criadora do Claude define o preço de sua oferta pública inicial",
-          "summary": "A Anthropic definiu o preço e a quantidade de ações de sua oferta pública inicial antes da estreia prevista na bolsa.",
-          "impact": "A venda pode levantar um volume significativo de recursos para a empresa, mas esse dinheiro não é receita de clientes nem prova que a empresa seja lucrativa.",
-          "what": "A Anthropic desenvolve o Claude e obtém receita quando clientes usam seus modelos ou assinam seus serviços de software. As empresas podem contratar o acesso diretamente ou por meio de plataformas de venda de serviços em nuvem. O comunicado que anunciou o preço distingue as ações novas vendidas pela Anthropic das ações vendidas por quem já era acionista. A empresa não recebe dinheiro pelas vendas desses acionistas. Por isso, o valor total da oferta não corresponde ao que a Anthropic pode captar. O valor indicado para a empresa não desconta as taxas e só será recebido se a operação for concluída.",
-          "why": "O documento mostra por que o caixa e o lucro contam histórias diferentes neste caso. A empresa registrou prejuízo operacional e um prejuízo líquido bem maior, principalmente por causa de ajustes contábeis no valor de financiamentos conversíveis e instrumentos relacionados. O efeito dessas reavaliações foi revertido no cálculo do fluxo de caixa, que mostrou que as operações geraram caixa. Nem a geração de caixa pelas operações nem a captação com a emissão de ações eliminam os custos futuros de computação. A empresa ainda precisa pagar pela infraestrutura usada para treinar e executar seus modelos.",
-          "uncertainty": "O preço da oferta não é o preço de negociação na bolsa, e a definição desse preço não confirma que a empresa já recebeu os recursos. Os dados históricos vêm das demonstrações financeiras intermediárias incluídas na atualização do pedido de registro. As condições da oferta usadas nessas demonstrações diferem das condições finais anunciadas.",
-          "watch": "Os pontos a acompanhar são a confirmação do início das negociações e da liquidação da oferta, ou seja, da entrega das ações e do pagamento. Depois, o foco é a comparação da receita de clientes e do fluxo de caixa operacional com os gastos e compromissos ligados à capacidade de computação.",
+          "title": "Walmart eleva projeção com o crescimento das vendas online",
+          "summary": "O Walmart elevou sua projeção para o ano fiscal após um trimestre em que a receita e o lucro operacional cresceram, mas o lucro líquido atribuível aos acionistas caiu.",
+          "impact": "A retirada em loja e as entregas ajudaram a aumentar as vendas. Apesar da maior geração de caixa nas operações, os gastos mais altos com imóveis e equipamentos reduziram o fluxo de caixa livre.",
+          "what": "O Walmart vende alimentos e outros produtos em lojas, clubes de compras para associados e canais online. Segundo a empresa, a retirada e as entregas de pedidos a partir das lojas puxaram o crescimento das vendas online. A demonstração de resultados mostra um lucro operacional maior, mas um lucro menor atribuível aos acionistas. O saldo de ganhos e perdas com investimentos piorou e é contabilizado fora do resultado operacional. Além disso, a empresa elevou a projeção de crescimento das vendas líquidas para o ano fiscal, sem considerar os efeitos do câmbio.",
+          "why": "As lojas também funcionam como centros locais de distribuição. Assim, os clientes podem retirar ou receber seus pedidos sem que o varejista dependa totalmente de armazéns distantes. Isso pode facilitar as compras e ajudar o Walmart a disputar as compras do dia a dia. Mas também exige investimento: o fluxo de caixa operacional cresceu no acumulado do ano fiscal, porém os pagamentos por imóveis e equipamentos aumentaram o suficiente para reduzir o fluxo de caixa livre. As medidas de caixa cobrem um período diferente do lucro trimestral.",
+          "uncertainty": "A projeção mais alta é uma estimativa da administração, não um resultado já alcançado. As datas dos pagamentos e da chegada de mercadorias podem afetar o caixa das operações. O relatório de resultados não mostra separadamente o retorno de longo prazo do investimento em retirada e entrega de pedidos.",
+          "watch": "Compare as vendas do período de festas e as margens operacionais com a projeção revisada. Depois, veja se o fluxo de caixa operacional cresce o suficiente para acompanhar os gastos com imóveis e equipamentos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Preço da oferta por ação"
+              "label": "Receita trimestral"
             },
             {
               "id": "m2",
-              "label": "Valor bruto da oferta-base"
+              "label": "Crescimento da receita trimestral"
             },
             {
               "id": "m3",
-              "label": "Captação bruta da emissora com base no preço da oferta"
+              "label": "Lucro operacional trimestral"
             },
             {
               "id": "m4",
-              "label": "Receita acumulada no ano"
+              "label": "Lucro líquido trimestral atribuível aos acionistas"
             },
             {
               "id": "m5",
-              "label": "Prejuízo operacional acumulado no ano"
+              "label": "Fluxo de caixa operacional no acumulado do ano fiscal"
             },
             {
               "id": "m6",
-              "label": "Prejuízo líquido acumulado no ano"
+              "label": "Gastos com imóveis e equipamentos no acumulado do ano fiscal"
             },
             {
               "id": "m7",
-              "label": "Fluxo de caixa operacional acumulado no ano"
+              "label": "Limite inferior da projeção anual de crescimento das vendas líquidas a câmbio constante"
+            },
+            {
+              "id": "m8",
+              "label": "Limite superior da projeção anual de crescimento das vendas líquidas a câmbio constante"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Montage conclui recompra de ações destinada a incentivar funcionários",
+          "summary": "A Montage Technology concluiu a recompra de ações no mercado com recursos próprios e reservou os papéis para um plano de participação acionária ou de remuneração em ações para funcionários.",
+          "impact": "A empresa já desembolsou os recursos, mas a operação não reduziu de imediato o total de ações emitidas.",
+          "what": "A Montage projeta chips que ajudam os processadores de servidores a se comunicar de forma confiável com os módulos de memória. O comunicado confirma que as compras foram concluídas e que as ações estão em uma conta exclusiva para a recompra, à espera de serem destinadas aos funcionários. O relatório trimestral anterior dá contexto sobre o negócio que financia as compras: apresenta a receita e o lucro atribuível aos acionistas no trimestre, mas informa o fluxo de caixa operacional apenas no acumulado do ano.",
+          "why": "Recomprar ações que já existem para remunerar funcionários pode reduzir a necessidade de emitir novos papéis na hora de conceder o benefício. Ainda assim, a recompra consome recursos que poderiam financiar atividades de engenharia, testes de qualificação de produtos ou outros investimentos. Ao contrário do cancelamento, reservar as ações para concedê-las aos funcionários não as retira de circulação de forma permanente. Segundo o comunicado, enquanto estiverem na conta de recompra, as ações não dão direito a voto nem ao recebimento de distribuições. A transferência aos funcionários seria uma etapa separada.",
+          "uncertainty": "A conclusão das compras não define quando os funcionários receberão as ações nem em que condições. Se as ações não forem transferidas dentro do prazo permitido, o comunicado prevê seu cancelamento. O valor da recompra não inclui as taxas da operação.",
+          "watch": "Acompanhe a divulgação do plano ou das condições para a concessão de ações aos funcionários e o próximo demonstrativo das mudanças na quantidade de ações. Observe também o fluxo de caixa operacional e os gastos com desenvolvimento de produtos.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ações recompradas na China continental"
+            },
+            {
+              "id": "m2",
+              "label": "Gasto aproximado com a recompra, sem taxas"
+            },
+            {
+              "id": "m3",
+              "label": "Receita trimestral"
+            },
+            {
+              "id": "m4",
+              "label": "Lucro líquido trimestral atribuível aos acionistas"
+            },
+            {
+              "id": "m5",
+              "label": "Fluxo de caixa operacional no acumulado do ano"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Anthropic protocola os termos definitivos de sua oferta pública",
+          "summary": "O prospecto definitivo da Anthropic estabelece as condições da oferta pública e mostra que a empresa gera caixa com suas operações, embora ainda registre prejuízo operacional.",
+          "impact": "A oferta dá à desenvolvedora do Claude uma forma de financiar sua capacidade computacional, mas o valor total anunciado para a operação não é o que a empresa recebe em caixa.",
+          "what": "A Anthropic desenvolve o Claude e vende acesso a seus modelos e ferramentas para tarefas como programação e trabalho de escritório. O prospecto definitivo distingue as ações recém-emitidas das que são vendidas por acionistas atuais. O dinheiro da venda das ações desses acionistas não vai para a empresa. O prospecto também descreve, separadamente da oferta pública, uma colocação privada que ocorre em paralelo. As demonstrações financeiras intermediárias mostram que o prejuízo líquido contábil foi bem maior que o prejuízo operacional, principalmente por causa da reavaliação de instrumentos de financiamento.",
+          "why": "Uma empresa que desenvolve modelos precisa de capacidade computacional para treiná-los e para oferecê-los aos clientes. A emissão de ações pode ajudar a pagar por essa capacidade enquanto os valores recebidos dos clientes ainda não cobrem todo o investimento. Por isso, a demonstração do fluxo de caixa também é importante: a reavaliação de instrumentos de financiamento pode aumentar o prejuízo contábil sem gerar uma saída de caixa de valor equivalente. Já um fluxo de caixa operacional positivo não leva em conta todos os gastos com infraestrutura ou outras atividades de investimento.",
+          "uncertainty": "O prospecto registra as condições definidas na precificação, mas não confirma a liquidação da oferta. As demonstrações intermediárias não foram auditadas, e as datas dos recebimentos de clientes e dos pagamentos a fornecedores podem causar oscilações no fluxo de caixa operacional. O documento também descreve uma estrutura de governança que limita a influência dos investidores que compram ações no mercado.",
+          "watch": "Acompanhe a confirmação da liquidação e dos valores efetivamente captados. Depois, compare a receita de clientes, os custos de computação e o fluxo de caixa operacional no próximo relatório financeiro.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Preço por ação na oferta pública"
+            },
+            {
+              "id": "m2",
+              "label": "Valor bruto da oferta pública na precificação, incluindo ações dos acionistas vendedores"
+            },
+            {
+              "id": "m3",
+              "label": "Receita no acumulado do ano"
+            },
+            {
+              "id": "m4",
+              "label": "Prejuízo operacional no acumulado do ano"
+            },
+            {
+              "id": "m5",
+              "label": "Prejuízo líquido no acumulado do ano"
+            },
+            {
+              "id": "m6",
+              "label": "Fluxo de caixa operacional no acumulado do ano"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期經查證的資訊有限。部分市場沒有經查證的新消息；有日期的報導仍清楚標示日期。",
+      "status": "本期涵蓋美國與中國的最新動態。請留意各篇的發布日期；近期的公司報告用於解說背景。",
       "marketSummary": {
-        "us": "追蹤的指數漲跌互見，也有指數持平。各張卡片均標明所述的已結束交易日。",
-        "cn": "部分收盤資訊無法查證。有資料的指數均保留各自的交易日期。"
+        "us": "追蹤的指數漲跌互見，也有持平。各張卡片都標示所描述的已收盤交易時段。",
+        "cn": "追蹤的指數漲跌互見，也有持平。各張卡片都標示所描述的已收盤交易時段。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Claude 開發商敲定股票公開發行價格",
-          "summary": "Anthropic 在預計掛牌交易前，敲定了股票初次公開發行的價格與股數。",
-          "impact": "這次發行可望為公司籌得可觀資金，但這筆錢不是來自客戶的營收，也不能證明公司已經獲利。",
-          "what": "Anthropic 開發 Claude，並透過客戶使用其模型或訂閱其軟體取得營收。企業可以直接向 Anthropic 購買使用權，也可以透過雲端市集購買。定價公告分別列出公司發行的新股，以及現有股東出售的股票。現有股東售股的款項不會流入公司，因此整筆發行的總金額並不等於公司能籌到的資金。所列的發行公司募資金額尚未扣除費用，且須等交易完成才能取得。",
-          "why": "申報文件說明了為什麼現金流和損益呈現不同的情況。公司申報營業虧損，而淨虧損大得多，主要是因為可轉換融資及相關金融工具在會計上的價值變動。這些重估影響在編製現金流量表時被加回，而表上顯示營業活動現金流量為正。不過，營業活動現金流量為正，或透過發行股票籌到資金，都不代表未來能免費取得所需的算力。公司仍須為訓練和執行模型所用的基礎設施付費。",
-          "uncertainty": "發行價格不等於掛牌後的成交價格；完成定價也不代表公司已收到募資款項。歷史數據取自修訂版註冊申報文件中的期中財務報表，報表所採用的發行條件假設與最終定價條件不同。",
-          "watch": "後續可留意股票是否已開始交易、交割是否完成，再對照來自客戶的營收與營業活動現金流量，以及公司在算力方面的支出與支出承諾。",
+          "title": "沃爾瑪線上銷售成長，上修全年展望",
+          "summary": "沃爾瑪本季營收與營業利益上升，但歸屬股東的淨利下滑。公司隨後上修全年展望。",
+          "impact": "門市取貨與配送帶動銷售成長。雖然營業現金流量增加，但由於不動產及設備支出增加，自由現金流量反而減少。",
+          "what": "沃爾瑪透過實體門市、會員制賣場及線上通路銷售生鮮雜貨與日用商品。公司表示，由門市處理的取貨與配送訂單，是線上銷售成長的主要來源。損益表顯示，營業利益增加，但歸屬股東的淨利下滑；列在營業利益之後的投資損益也轉差。此外，公司上修了排除匯率影響後的會計年度淨銷售額成長率預估。",
+          "why": "門市也能就近處理網路訂單，讓顧客到店取貨或收貨，不必完全依賴較遠的倉庫出貨。這能讓購物更方便，也有助於沃爾瑪爭取日常採買的生意。不過，這也需要投入資金：本會計年度截至目前的營業現金流量增加，但不動產及設備支出的增幅更大，使自由現金流量減少。這些現金流數據涵蓋的期間，和單季獲利數字並不相同。",
+          "uncertainty": "上修後的展望是管理層的預估，不是實際業績。款項何時支付、商品何時到貨，都可能影響營業現金流量；財報也未單獨揭露門市取貨與配送投資的長期回報。",
+          "watch": "可對照年底購物旺季的銷售與營業利益率和更新後的展望，再觀察營業現金流量的成長是否跟得上不動產及設備支出的增加。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "每股發行價格"
+              "label": "單季營收"
             },
             {
               "id": "m2",
-              "label": "基本發行總金額（未扣費用）"
+              "label": "單季營收成長率"
             },
             {
               "id": "m3",
-              "label": "依定價推算的發行公司募資總額（未扣費用）"
+              "label": "單季營業利益"
             },
             {
               "id": "m4",
-              "label": "年初至今營收"
+              "label": "單季歸屬股東淨利"
             },
             {
               "id": "m5",
-              "label": "年初至今營業虧損"
+              "label": "本會計年度截至目前的營業活動現金流量"
             },
             {
               "id": "m6",
-              "label": "年初至今淨虧損"
+              "label": "本會計年度截至目前的不動產及設備支出"
             },
             {
               "id": "m7",
+              "label": "全年淨銷售額成長率預估下限（排除匯率影響）"
+            },
+            {
+              "id": "m8",
+              "label": "全年淨銷售額成長率預估上限（排除匯率影響）"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "瀾起科技完成庫藏股買回，將用於員工持股或股權獎勵",
+          "summary": "瀾起科技已用自有資金在公開市場完成股票買回，並保留這些股份，供員工持股或股權獎勵之用。",
+          "impact": "公司已付出現金，但這項交易並未立即減少已發行股份總數。",
+          "what": "瀾起科技設計晶片，讓伺服器處理器能與記憶體模組穩定傳輸資料。公司公告確認買回已完成，股份存放在專用帳戶，等待日後用於員工持股或獎勵。先前的季報則交代了支應買回的本業表現：報告揭露單季營收及歸屬股東的淨利，但營業現金流量只提供年初至今的累計數字。",
+          "why": "買回現有股份作為員工獎勵，可以減少日後發放股權獎酬時增發新股的需要。不過，買回仍會用掉原本可投入工程研發、產品驗證或其他投資的現金。保留股份供員工獎勵，也不同於註銷股份，不會讓這些股份永久退出流通。公告指出，股份存放在買回專戶期間不享有表決權或分配權；日後移轉給員工則是另一道程序。",
+          "uncertainty": "買回完成不代表已確定員工何時、依何種條件取得股份。公告載明，若未在規定期限內移轉，股份將予註銷。買回金額不含交易費用。",
+          "watch": "可留意員工持股計畫或獎勵條件，以及下次揭露的股數變動明細，並觀察營業現金流量與產品開發支出。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "買回的中國大陸上市股數"
+            },
+            {
+              "id": "m2",
+              "label": "買回支出約略金額（未含交易費用）"
+            },
+            {
+              "id": "m3",
+              "label": "單季營收"
+            },
+            {
+              "id": "m4",
+              "label": "單季歸屬股東淨利"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今營業活動現金流量"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Anthropic 提交公開發售的最終條款",
+          "summary": "Anthropic 的最終公開說明書列明公開發售條款，也顯示公司雖然仍有營業虧損，但營業活動已帶來淨現金流入。",
+          "impact": "公開發售讓 Claude 的開發商有管道籌措算力所需的資金，但對外公布的交易總額並不等於公司實際收到的現金。",
+          "what": "Anthropic 開發 Claude，並向客戶提供模型及工具的使用權，可用於撰寫程式、處理辦公事務等工作。最終公開說明書區分公司新發行的股份與既有股東出售的股份；既有股東出售股份的款項不會流入公司。說明書也另行交代與公開發售同步進行的私募。期中財務報表顯示，帳面淨損遠高於營業虧損，主因是融資工具的價值經過重新評估。",
+          "why": "模型開發商需要算力來訓練模型，也需要算力讓客戶使用模型。在向客戶收取的款項還不足以支應全部投資前，發行股票有助於籌措這筆資金。這也是現金流量表重要的原因：重新評估融資工具的價值，可能放大帳面虧損，卻不會造成同等金額的現金流出；而營業現金流量為正，也不代表已計入基礎設施或其他投資活動的所有現金支出。",
+          "uncertainty": "公開說明書載明的是定價後的發售條款，並不代表交割已完成。期中財務報表未經查核，客戶款項何時入帳、公司何時付款給供應商，都可能使營業現金流量波動。文件也說明，公司的治理架構限制了公開市場股東的影響力。",
+          "watch": "可留意交割是否確認完成，以及公司實際募得的款項，再對照下次財務申報中的客戶營收、算力成本及營業現金流量。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "公開發售每股價格"
+            },
+            {
+              "id": "m2",
+              "label": "按定價計算的公開發售總額（含既有股東出售的股份）"
+            },
+            {
+              "id": "m3",
+              "label": "年初至今營收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今營業虧損"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今淨損"
+            },
+            {
+              "id": "m6",
               "label": "年初至今營業活動現金流量"
             }
           ]
