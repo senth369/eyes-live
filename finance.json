@@ -1,88 +1,121 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-20T21:49:57.599Z",
-  "generatedAt": "2026-11-20T21:56:56.233Z",
+  "cutoffAt": "2026-11-21T01:30:19.866Z",
+  "generatedAt": "2026-11-21T01:40:00.326Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Associated Press closing index figures",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135"
+      "label": "MarketScreener US broad-market index closing table",
+      "url": "https://www.marketscreener.com/quote/index/S-P-500-4985/quotes/"
     },
     {
       "id": "src2",
-      "label": "FRED broad US equity index closes",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Associated Press dated US index closing report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135"
     },
     {
       "id": "src3",
-      "label": "FRED Nasdaq Composite closes",
+      "label": "Federal Reserve Bank of St. Louis Nasdaq Composite daily close series",
       "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src4",
-      "label": "Mainland China closing table with previous closes",
-      "url": "https://stock.cngold.org/c/2026-11-20/c10893781.html"
+      "label": "Xinhua Finance dated mainland closing report",
+      "url": "https://m.cnfin.com/yw-lb/zixun/20261120/4498150_1.html"
     },
     {
       "id": "src5",
-      "label": "Investing.com large-cap mainland index daily prices",
-      "url": "https://uk.investing.com/indices/csi300-historical-data"
+      "label": "Jin10 mainland closing snapshot",
+      "url": "https://flash.jin10.com/detail/20261120150241840800"
     },
     {
       "id": "src6",
-      "label": "Issuer announcement of offering and private placement close",
-      "url": "https://www.anthropic.com/news/ipo-close"
+      "label": "Jin10 prior mainland closing snapshot",
+      "url": "https://flash.jin10.com/detail/20261119150214210800"
     },
     {
       "id": "src7",
-      "label": "Final offering prospectus filed with the SEC",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+      "label": "Issuer announcement of public offering and private placement closing",
+      "url": "https://www.anthropic.com/news/ipo-close"
     },
     {
       "id": "src8",
-      "label": "China Money current loan prime rate notice",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
+      "label": "SEC final public offering prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
     },
     {
       "id": "src9",
-      "label": "China Money previous loan prime rate notice",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
+      "label": "SEC exhibit containing the warehouse retailer earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/bj-2026103126x8kex991.htm"
     },
     {
       "id": "src10",
-      "label": "People’s Bank of China gazette on mortgage pricing",
-      "url": "https://www.pbc.gov.cn/chubanwu/114566/114579/5358353/5540955/2024122310475773688.pdf"
+      "label": "University of Michigan final November consumer sentiment release",
+      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
+    },
+    {
+      "id": "src11",
+      "label": "National Interbank Funding Center November loan prime rate notice",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
     },
     {
       "id": "src12",
-      "label": "Chipmaker fiscal quarterly results and outlook",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+      "label": "National Interbank Funding Center October loan prime rate notice",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
     },
     {
       "id": "src13",
-      "label": "Chipmaker preceding quarterly filing and fiscal calendar",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+      "label": "Shanghai Stock Exchange share repurchase plan filing",
+      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-20/601899_20261120_J5LM.pdf"
     },
     {
       "id": "src14",
-      "label": "National Bureau of Statistics monthly economic release",
-      "url": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202611/t20261116_1965844.html"
+      "label": "Issuer announcement of initial mainland share repurchase filed in Hong Kong",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1120/2026112001709.pdf"
     },
     {
       "id": "src15",
-      "label": "Automaker quarterly filing on CNINFO",
+      "label": "CNINFO mining group quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620996.PDF"
+    },
+    {
+      "id": "src16",
+      "label": "CNINFO vehicle maker quarterly financial report",
       "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+    },
+    {
+      "id": "src17",
+      "label": "CNINFO vehicle maker interim report and business review",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225532750.PDF"
+    },
+    {
+      "id": "src18",
+      "label": "SEC current report confirming the retailer earnings release date",
+      "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/bj-20261120.htm"
+    },
+    {
+      "id": "src19",
+      "label": "Issuer disclosure return detailing treasury treatment of the repurchase",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1120/2026112000358.pdf"
+    },
+    {
+      "id": "src20",
+      "label": "University of Michigan final October survey results",
+      "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=82351"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-20",
+      "close": 6910.39,
+      "previousClose": 7175.83,
+      "changePercent": -3.7,
+      "sourceIds": [
+        "src1",
+        "src2"
+      ]
     },
     {
       "id": "nasdaq",
@@ -94,24 +127,19 @@
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-20",
-      "close": 3533.79,
-      "previousClose": 3577.62,
-      "changePercent": -1.23,
-      "sourceIds": [
-        "src4"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-20",
-      "close": 3954.57,
-      "previousClose": 3984.84,
-      "changePercent": -0.76,
-      "sourceIds": [
-        "src4",
-        "src5"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     }
   ],
   "stories": [
@@ -135,9 +163,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src7"
           ],
-          "evidence": "The closing release distinguishes approximate gross public offering proceeds received by the issuer from proceeds received by selling shareholders."
+          "evidence": "The offering proceeds paragraph gives approximate gross proceeds to the issuer and excludes proceeds paid to selling shareholders."
         },
         {
           "id": "m2",
@@ -148,9 +176,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src7"
           ],
-          "evidence": "The private placement paragraph states the approximate aggregate purchase price at closing."
+          "evidence": "The private placement paragraph gives the approximate aggregate purchase price paid by strategic investors."
         },
         {
           "id": "m3",
@@ -161,9 +189,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The Results of Operations table gives consolidated revenue in the current year-to-date column."
+          "evidence": "The consolidated statements of operations give revenue in the current unaudited year-to-date column."
         },
         {
           "id": "m4",
@@ -174,9 +202,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The Results of Operations table reports consolidated net loss; its footnote explains the fair-value changes included in that loss."
+          "evidence": "The consolidated statements of operations give the net loss in the current unaudited year-to-date column."
         },
         {
           "id": "m5",
@@ -187,330 +215,43 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The Cash Flows summary table reports net cash provided by operating activities in the current year-to-date column."
+          "evidence": "The consolidated cash flow statement gives positive net cash from operating activities in the current unaudited year-to-date column."
         }
       ],
       "sourceIds": [
-        "src6",
-        "src7"
+        "src7",
+        "src8"
       ],
-      "evidence": "The issuer’s closing announcement confirms settlement of the public offering and concurrent private placement. The final prospectus describes the business and intended uses of proceeds and distinguishes reported revenue, net loss and operating cash flow in Results of Operations and Cash Flows."
-    },
-    {
-      "id": "f4",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-17",
-      "company": {
-        "name": "NVIDIA Corporation",
-        "ticker": "NVDA",
-        "exchange": "Nasdaq"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 115844000000,
-          "unit": "USD",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12",
-            "src13"
-          ],
-          "evidence": "The quarterly income statement gives consolidated revenue; the preceding filing establishes the previous quarter-end."
-        },
-        {
-          "id": "m2",
-          "value": 107600000000,
-          "unit": "USD",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12",
-            "src13"
-          ],
-          "evidence": "The Data Center highlights give the rounded quarterly revenue for that business."
-        },
-        {
-          "id": "m3",
-          "value": 65287000000,
-          "unit": "USD",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12",
-            "src13"
-          ],
-          "evidence": "The current fiscal quarter column of the consolidated income statement gives GAAP net income."
-        },
-        {
-          "id": "m4",
-          "value": 48253000000,
-          "unit": "USD",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12",
-            "src13"
-          ],
-          "evidence": "The current fiscal quarter column of the consolidated cash flow statement gives net cash from operations."
-        },
-        {
-          "id": "m5",
-          "value": 130000000000,
-          "unit": "USD",
-          "periodStart": "2026-10-26",
-          "periodEnd": "2027-01-31",
-          "comparison": "level",
-          "basis": "guidance",
-          "sourceIds": [
-            "src12",
-            "src13"
-          ],
-          "evidence": "The Outlook section gives the midpoint of management’s revenue range; the prior filing’s fiscal calendar defines the longer upcoming quarter."
-        }
-      ],
-      "sourceIds": [
-        "src12",
-        "src13"
-      ],
-      "evidence": "The quarterly release reports data center growth and initial shipments of the new computing platform. The consolidated statements show income and operating cash separately. Outlook excludes mainland China data center compute revenue, and the preceding quarterly filing establishes the fiscal calendar."
-    },
-    {
-      "id": "f5",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-16",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 4.8,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "The industrial production section gives the annual comparison for monthly value added at enterprises above the designated size."
-        },
-        {
-          "id": "m2",
-          "value": 0.4,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "The retail section gives the annual comparison for monthly retail sales of consumer goods."
-        },
-        {
-          "id": "m3",
-          "value": 28.7,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "The foreign trade section reports the annual change in monthly goods export value."
-        },
-        {
-          "id": "m4",
-          "value": 0.7,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "The price section reports the annual change in the monthly consumer price index."
-        },
-        {
-          "id": "m5",
-          "value": 5.7,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "The price section reports the annual change in industrial producer selling prices."
-        }
-      ],
-      "sourceIds": [
-        "src14"
-      ],
-      "evidence": "The original Chinese-language release shows faster growth in measured factory output and goods export value than in retail sales of consumer goods. Its price section shows a larger rise in industrial producer selling prices than in consumer prices."
-    },
-    {
-      "id": "f6",
-      "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-29",
-      "company": {
-        "name": "BYD Company Limited",
-        "ticker": "002594",
-        "exchange": "Shenzhen Stock Exchange"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 221488251000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "The key financial data table gives revenue in the standalone quarter column."
-        },
-        {
-          "id": "m2",
-          "value": 10019570000,
-          "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "The key financial data table gives standalone quarterly net income attributable to listed-company shareholders."
-        },
-        {
-          "id": "m3",
-          "value": 28.08,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "The key financial data table gives the annual change in standalone quarterly attributable profit."
-        },
-        {
-          "id": "m4",
-          "value": 566303672000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "The key financial data table gives revenue in the year-to-date column."
-        },
-        {
-          "id": "m5",
-          "value": 22344978000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "The key financial data table gives net income attributable to listed-company shareholders in the year-to-date column."
-        },
-        {
-          "id": "m6",
-          "value": 54469572000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "The consolidated cash flow statement gives net cash from operations for the year to date."
-        },
-        {
-          "id": "m7",
-          "value": 33.36,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "The cash flow discussion gives the annual growth rate and attributes the improvement mainly to lower payments for goods and services."
-        },
-        {
-          "id": "m8",
-          "value": 87379038000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "The investing activities section of the cash flow statement gives payments to acquire or build fixed, intangible and other long-term assets."
-        }
-      ],
-      "sourceIds": [
-        "src15"
-      ],
-      "evidence": "The quarterly filing separates standalone results from year-to-date figures. It reports stronger quarterly sales and attributable profit year over year, but nearly flat cumulative sales and lower cumulative attributable profit. The cash flow discussion and consolidated statement report higher cumulative operating cash flow and identify the main change in payments."
+      "evidence": "The issuer closing announcement confirms completion of the public offering and concurrent private placement. The prospectus describes the model business, and its operating and cash flow statements show revenue, net loss, operating cash flow and noncash adjustments related to financial instruments."
     }
   ],
   "locales": {
     "en": {
-      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
+      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Anthropic closes its public offering and private placement",
-          "summary": "Anthropic completed its public offering and a separate private placement after its shares began trading.",
-          "impact": "The financing gives the AI developer more room to fund computing capacity without relying solely on cash generated by the business.",
-          "what": "Anthropic develops Claude and sells access through subscriptions and usage-based arrangements. At the public offering close, the underwriters took up their option to purchase additional shares from the company. The public sale included shares sold by existing holders, but Anthropic did not receive that part of the proceeds. Technology companies also bought newly issued shares through the concurrent private placement. The proceeds shown are gross, before applicable fees and expenses.",
-          "why": "Selling new shares brings in cash from investors, not from customers. The distinction matters for a company that needs computing capacity to train and run its models. The prospectus shows positive operating cash flow alongside an accounting loss. A major reason for the loss was a rise in the recorded value of convertible financing and related obligations, not a matching cash payment. The new funding can support infrastructure spending, but the operating cash line by itself does not show how much cash remains after investment.",
-          "uncertainty": "The closing announcement confirms that the transactions settled, not how much of the cash will ultimately go to infrastructure. The prospectus gives management discretion over spending, and historical operating cash flow predates the offering.",
-          "watch": "In the next public filing, look at operating cash flow alongside infrastructure spending and contractual commitments.",
+          "title": "Anthropic closes its IPO and strategic share sale",
+          "summary": "Anthropic completed its public offering and a separate private placement with technology partners.",
+          "impact": "The financing gives the Claude developer more capacity to fund computing infrastructure, but it does not show that the underlying business is profitable.",
+          "what": "Anthropic develops Claude and sells access through subscriptions, developer tools and distribution partners. Its closing notice separates the gross proceeds it received from proceeds paid to existing shareholders who sold shares. The private placement brought in additional financing. The prospectus, which covers an earlier operating period, reports substantial revenue and positive operating cash flow alongside a large accounting loss.",
+          "why": "The difference matters because the company needs cash to pay for computing capacity and develop new models. A share sale brings in financing, not revenue from customers. Meanwhile, changes in the recorded value of convertible notes and other financial instruments accounted for much of the gap between the reported loss and cash generated from operations. For businesses adopting these tools, the financing makes it easier for a supplier to commit to infrastructure, but it does not establish what customers will pay or what it will cost to serve them.",
+          "uncertainty": "The closing notice gives gross proceeds, not the final cash retained after offering costs. Positive operating cash flow also excludes investing outlays, so it does not show that the company can fund expansion from operations alone.",
+          "watch": "Look for the first periodic filing after the listing. Compare operating cash flow with infrastructure investment, contracted hosting commitments and changes in receivables.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Gross public offering proceeds to issuer"
+              "label": "Gross IPO proceeds to issuer"
             },
             {
               "id": "m2",
-              "label": "Gross private placement proceeds"
+              "label": "Private placement purchase price"
             },
             {
               "id": "m3",
@@ -518,744 +259,204 @@
             },
             {
               "id": "m4",
-              "label": "Year-to-date net income or loss"
+              "label": "Year-to-date net loss"
             },
             {
               "id": "m5",
               "label": "Year-to-date operating cash flow"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Earnings explainer: Data centers drive Nvidia’s growth",
-          "summary": "Nvidia’s fiscal quarterly report showed strong data center growth and the start of shipments for its new computing platform.",
-          "impact": "The results show that customers are committing money to AI hardware, while the cash statement shows why sales and collections need to be tracked separately.",
-          "what": "Nvidia designs processors, networking equipment and software used in data centers, as well as graphics products for gaming and other uses. Data center products accounted for most of its quarterly revenue. The release reported higher sales and accounting profit than a year earlier. Operating cash flow also increased, but it was below reported net income. The reconciliation shows that rising receivables and inventories absorbed cash during the quarter.",
-          "why": "A hardware shipment can count as a sale before a customer pays, leaving a receivable on the books. Inventory also uses cash before it produces a sale. This is why reported income can grow while expanding the business still ties up cash. For cloud providers, the purchase is also only part of the cost: they have to install the equipment, power it and find customers willing to pay to use it. Supplier revenue therefore measures demand for infrastructure, not the profitability of the applications that eventually run on it.",
-          "uncertainty": "The revenue outlook is management guidance, not a result. It covers a longer fiscal quarter and assumes no data center compute revenue from China, which matters when comparing it with the completed quarter.",
-          "watch": "Look for receivables and inventory trends in the next filing and for evidence that new systems are moving from shipments into paying cloud workloads.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Fiscal quarterly revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Fiscal quarterly data center revenue"
-            },
-            {
-              "id": "m3",
-              "label": "Fiscal quarterly net income"
-            },
-            {
-              "id": "m4",
-              "label": "Fiscal quarterly operating cash flow"
-            },
-            {
-              "id": "m5",
-              "label": "Next fiscal quarter revenue guidance midpoint"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "China’s factories and exports outpace consumer goods sales",
-          "summary": "China’s monthly activity release showed stronger growth in industrial production and goods export value than in retail sales of consumer goods.",
-          "impact": "The divergence gives manufacturers and exporters a different demand picture from businesses that depend on domestic shoppers.",
-          "what": "The National Bureau of Statistics reported growth in factory output, with equipment and high-tech manufacturing contributing to the expansion. The value of goods exports rose much faster than domestic retail sales of consumer goods. Industrial producers’ selling prices also rose faster than consumer prices. These measures cover different activities: industrial value added tracks production, export value tracks trade receipts at reported prices, and the retail series reflects spending on consumer goods and catering.",
-          "why": "Stronger output can support orders for equipment, components and logistics even if shops and restaurants see little improvement. For households, the retail figures offer a closer look at domestic demand than exports do, but they are not a complete measure of household spending. For businesses, the gap between factory-gate and consumer prices is worth watching: a producer may receive higher prices, while businesses buying its output may struggle to pass those costs on. The headline price figures cannot establish which companies gained or lost margin.",
-          "uncertainty": "The export headline is a value measure, so it does not isolate shipment volumes from price or product-mix effects. The retail and industrial growth rates also use different measurement bases and should not be read as a direct comparison of real growth.",
-          "watch": "Follow the next breakdowns of retail spending, industrial output and trade to see whether domestic demand strengthens or the split persists.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Industrial value added growth"
-            },
-            {
-              "id": "m2",
-              "label": "Consumer goods retail sales growth"
-            },
-            {
-              "id": "m3",
-              "label": "Goods export value growth"
-            },
-            {
-              "id": "m4",
-              "label": "Consumer price inflation"
-            },
-            {
-              "id": "m5",
-              "label": "Industrial producer selling price inflation"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Earnings explainer: BYD’s stronger quarter and the cash behind it",
-          "summary": "BYD reported higher quarterly revenue and attributable profit, while its cumulative attributable profit remained below the prior year.",
-          "impact": "Improved year-to-date operating cash flow is useful context, but it does not mean vehicle sales brought in more cash or that the business covered its investment spending from operations.",
-          "what": "BYD makes battery-electric and plug-in hybrid vehicles. The quarterly filing separates the standalone quarter from the cumulative period since the start of the year. The quarter showed stronger sales and profit, while cumulative revenue was nearly flat and cumulative attributable profit fell. The filing reports operating cash flow for the cumulative period, not for the standalone quarter, and says lower payments for goods and services were the main reason it improved.",
-          "why": "Accounting profit records sales and expenses when they are recognized, while operating cash flow tracks money actually received and paid. A manufacturer can improve operating cash flow by lowering cash outlays to suppliers even when receipts fall. Cash spent on fixed and other long-term assets is reported under investing activities. Here those outlays exceeded operating cash flow for the same cumulative period, so the stronger operating cash line does not mean the company funded all of that spending from operations.",
-          "uncertainty": "The interim filing is unaudited. It does not establish how much of the improvement in supplier payments reflects lasting cost reductions rather than timing, and it does not support a standalone quarterly operating cash flow figure.",
-          "watch": "Look for the next report’s customer receipts, supplier payments, inventory and long-term asset spending to see whether operating cash keeps improving.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Standalone quarterly revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Standalone quarterly attributable net income"
-            },
-            {
-              "id": "m3",
-              "label": "Quarterly attributable net income growth"
-            },
-            {
-              "id": "m4",
-              "label": "Year-to-date revenue"
-            },
-            {
-              "id": "m5",
-              "label": "Year-to-date attributable net income"
-            },
-            {
-              "id": "m6",
-              "label": "Year-to-date operating cash flow"
-            },
-            {
-              "id": "m7",
-              "label": "Year-to-date operating cash flow growth"
-            },
-            {
-              "id": "m8",
-              "label": "Year-to-date cash spending on long-term assets"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期关注美国和中国的财经动态。请留意各条内容的发布日期；近期公司财报用于帮助读者了解背景。",
+      "status": "本期经核实的报道有限，部分市场没有经核实的新消息。已有报道仍明确标注日期。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。已核实的指数收盘数据均保留各自对应的交易日期。",
-        "cn": "跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据反映的是当日行情，并非当前走势。"
+        "us": "部分收盘数据未能核实。已列出的指数均保留各自对应的交易日期。",
+        "cn": "部分收盘数据未能核实。已列出的指数均保留各自对应的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Anthropic完成公开发行和私募配售",
-          "summary": "Anthropic股票开始交易后，公司完成了公开发行及另行安排的私募配售。",
-          "impact": "这笔融资让这家人工智能开发商有更多资金用于建设算力，不必只依赖日常经营带来的现金。",
-          "what": "Anthropic开发了Claude，通过订阅和按使用量计费等方式提供服务。公开发行交割时，承销商行使了向公司增购股份的选择权。公开发行也包括原有股东出售的股份，这部分所得并未进入Anthropic。科技公司还通过同期进行的私募配售认购了新股。所列募资额均为扣除适用费用和开支之前的总额。",
-          "why": "发行新股带来的现金来自投资者，而非客户。对需要算力来训练和运行模型的公司来说，这个区别很重要。招股书显示，公司虽然出现账面亏损，经营现金流却为正。亏损的主要原因之一是可转换融资及相关义务的账面价值上升，而不是公司实际付出了相应金额的现金。新融资可以支持基础设施支出，但只看经营现金流，无法知道投资后还剩多少现金。",
-          "uncertainty": "交割公告只确认相关交易已经完成，并未说明最终会有多少资金用于基础设施。招股书允许管理层自行决定资金用途，而所披露的历史经营现金流反映的是发行前的情况。",
-          "watch": "关注后续公开披露，把经营现金流与基础设施支出及合同承诺结合起来看。",
+          "title": "Anthropic 完成 IPO 和面向战略合作伙伴的股份出售",
+          "summary": "Anthropic 完成公开发行，并另行向科技合作伙伴私募配售股份。",
+          "impact": "这笔融资让 Claude 的开发商有更多资金可投入算力基础设施，但不能说明其主营业务已经盈利。",
+          "what": "Anthropic 开发 Claude，通过订阅、开发者工具和分销合作伙伴提供付费使用服务。发行完成公告区分了公司收到的募资总额和现有股东出售股份所得的款项。私募配售为公司带来了额外资金。招股书披露的是较早经营期间的情况：公司营收可观，经营现金流为正，但账面亏损较大。",
+          "why": "区分募资与售股所得很重要，因为公司需要现金来购买算力和开发新模型。出售股份带来的是融资，不是客户带来的营收。同时，可转换票据及其他金融工具的账面价值变动，在很大程度上解释了报表亏损与经营活动产生的现金之间的差异。对采用这些工具的企业来说，这笔融资让供应商更有能力承诺投入基础设施，但不能说明客户愿意付多少钱，也不能说明为客户提供服务需要多少成本。",
+          "uncertainty": "发行完成公告披露的是募资总额，而不是扣除发行费用后公司实际留下的现金。经营现金流也不包含投资支出，因此即使为正，也不能说明公司仅靠经营所得的现金就能支持扩张。",
+          "watch": "关注上市后发布的首份定期报告，对照查看经营现金流、基础设施投资、已签约的托管服务承诺和应收款项的变化。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "发行人公开发行募资总额"
+              "label": "发行人 IPO 募资总额"
             },
             {
               "id": "m2",
-              "label": "私募配售募资总额"
+              "label": "私募配售认购价"
             },
             {
               "id": "m3",
-              "label": "年初至今累计营收"
+              "label": "年初至今营收"
             },
             {
               "id": "m4",
-              "label": "年初至今累计净利润或净亏损"
+              "label": "年初至今净亏损"
             },
             {
               "id": "m5",
-              "label": "年初至今累计经营现金流"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "财报解读：数据中心业务带动英伟达增长",
-          "summary": "英伟达财季报告显示，数据中心业务强劲增长，新计算平台也已开始出货。",
-          "impact": "业绩显示，客户正在投入资金采购人工智能硬件；现金流量表则说明，销售额和实际回款需要分开看。",
-          "what": "英伟达设计用于数据中心的处理器、网络设备和软件，也设计用于游戏及其他用途的图形产品。数据中心产品贡献了当季大部分营收。财报显示，销售额和账面利润均较去年同期增长。经营现金流也有所增加，但低于披露的净利润。净利润与经营现金流的调节明细显示，当季应收款项和存货增加，占用了现金。",
-          "why": "硬件发货后，即使客户尚未付款，也可能已经确认营收，未收回的款项则记为应收款项。存货在卖出之前也会占用资金。因此，即便账面利润增长，业务扩张仍可能占用现金。对云服务商来说，采购只是成本的一部分：他们还要安装设备、为设备供电，并找到愿意付费使用这些设备的客户。因此，供应商营收反映的是基础设施需求，而不是最终在这些设施上运行的应用能否盈利。",
-          "uncertainty": "营收展望是管理层给出的指引，并非实际业绩。指引涵盖的财季更长，并假设不计入来自中国的数据中心计算业务营收。将指引与已结束财季的业绩比较时，需要留意这些差异。",
-          "watch": "关注后续财报中应收款项和存货的变化，以及新系统是否已从出货进入为付费客户运行云端任务的阶段。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "财季营收"
-            },
-            {
-              "id": "m2",
-              "label": "财季数据中心业务营收"
-            },
-            {
-              "id": "m3",
-              "label": "财季净利润"
-            },
-            {
-              "id": "m4",
-              "label": "财季经营现金流"
-            },
-            {
-              "id": "m5",
-              "label": "下个财季营收指引区间中值"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中国工业生产和货物出口增速快于消费品零售",
-          "summary": "中国月度经济数据显示，工业生产和货物出口额的增速均快于社会消费品零售总额。",
-          "impact": "这种分化意味着，制造商和出口商感受到的需求，与依赖国内消费者的企业有所不同。",
-          "what": "国家统计局公布的数据显示，工业生产有所增长，装备制造业和高技术制造业为增长作出了贡献。货物出口额的增速明显快于国内社会消费品零售总额。工业生产者出厂价格的涨幅也高于居民消费价格。这些指标衡量的内容不同：工业增加值反映生产情况，货物出口额按统计价格反映出口金额，社会消费品零售总额则反映商品零售和餐饮消费。",
-          "why": "即使商店和餐馆的生意改善不明显，工业生产增长仍可能带动设备、零部件和物流订单。与出口数据相比，零售数据更贴近居民的国内消费需求，但并不能涵盖居民的全部支出。对企业而言，出厂价格和消费价格涨幅之间的差距值得留意：生产商可能卖出更高的价格，但采购这些产品的企业未必能把增加的成本转嫁给客户。仅凭总体价格数据，无法判断哪些企业的利润率上升或下降。",
-          "uncertainty": "出口总额按金额统计，无法区分出口数量、价格和商品构成变化各自带来的影响。零售和工业增速的统计口径也不同，不能直接用来比较实际增速。",
-          "watch": "关注后续公布的零售、工业生产和贸易分项数据，看看国内需求是否增强，还是这种分化仍在持续。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "工业增加值增速"
-            },
-            {
-              "id": "m2",
-              "label": "社会消费品零售总额增速"
-            },
-            {
-              "id": "m3",
-              "label": "货物出口额增速"
-            },
-            {
-              "id": "m4",
-              "label": "居民消费价格涨幅"
-            },
-            {
-              "id": "m5",
-              "label": "工业生产者出厂价格涨幅"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "财报解读：比亚迪当季业绩改善，现金流怎么看",
-          "summary": "比亚迪当季营收和归母净利润均有所增长，但年初至今累计归母净利润仍低于上年同期。",
-          "impact": "年初至今累计经营现金流改善，有助于理解公司业绩，但这并不意味着卖车带来了更多现金，也不意味着经营活动产生的现金足以覆盖投资支出。",
-          "what": "比亚迪生产纯电动汽车和插电式混合动力汽车。季报分别披露了当季和年初至今的累计数据。当季营收和利润均有增长，但累计营收基本持平，累计归母净利润有所下降。季报披露的是累计经营现金流，而非当季经营现金流，并说明改善主要是因为购买商品和接受服务支付的现金减少。",
-          "why": "会计利润在营收和费用符合确认条件时入账，经营现金流则记录实际收到和付出的现金。即使收到的现金减少，制造商也可以通过减少向供应商支付的现金来改善经营现金流。购买固定资产和其他长期资产的现金支出计入投资活动。比亚迪这类支出超过了同一累计期间的经营现金流，因此，经营现金流改善并不意味着公司能用经营所得覆盖全部这类支出。",
-          "uncertainty": "这份中期财报未经审计。它无法说明供应商付款减少在多大程度上源于持续性的成本下降，而非付款时间的变化，也无法据此得出当季经营现金流。",
-          "watch": "关注后续财报中的客户回款、供应商付款、存货和长期资产支出，看看经营现金流是否继续改善。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "当季营收"
-            },
-            {
-              "id": "m2",
-              "label": "当季归母净利润"
-            },
-            {
-              "id": "m3",
-              "label": "当季归母净利润增速"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今累计营收"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今累计归母净利润"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今累计经营现金流"
-            },
-            {
-              "id": "m7",
-              "label": "年初至今累计经营现金流增速"
-            },
-            {
-              "id": "m8",
-              "label": "年初至今累计长期资产现金支出"
+              "label": "年初至今经营现金流"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour aider à comprendre leur activité et leurs résultats.",
+      "status": "Cette édition couvre un nombre limité d’informations vérifiées. Pour certains marchés, aucune nouvelle information n’a pu être vérifiée. Les informations déjà publiées restent clairement datées.",
       "marketSummary": {
-        "us": "Certains cours de clôture n’ont pas pu être vérifiés. Pour chaque indice dont la clôture est disponible, la date de la séance correspondante est indiquée.",
-        "cn": "Les indices suivis ont tous reculé lors de leur dernière séance vérifiée. Les cours de clôture indiqués correspondent à ces séances, et non aux échanges en cours."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible conserve sa propre date de séance."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Anthropic boucle son offre au public et son placement privé",
-          "summary": "Anthropic a finalisé son offre au public et un placement privé distinct après le début de la cotation de ses actions.",
-          "impact": "Ce financement donne à l’entreprise d’intelligence artificielle plus de marge pour financer ses capacités de calcul sans dépendre uniquement de la trésorerie générée par son activité.",
-          "what": "Anthropic développe Claude et en commercialise l’accès par abonnement ou avec une tarification à l’usage. À la clôture de l’offre au public, les banques chargées de l’opération ont exercé leur option d’achat d’actions supplémentaires auprès d’Anthropic. Des actionnaires existants ont aussi vendu des titres dans le cadre de l’offre, mais Anthropic n’a pas touché le produit de ces ventes. Des entreprises technologiques ont par ailleurs acheté des actions nouvellement émises dans le cadre du placement privé mené en parallèle. Les montants indiqués sont bruts, avant déduction des commissions et frais applicables.",
-          "why": "L’émission d’actions nouvelles fait entrer de l’argent versé par les investisseurs, pas par les clients. La distinction compte pour une entreprise qui a besoin de capacités de calcul pour entraîner et faire fonctionner ses modèles. Le prospectus fait état d’un flux de trésorerie d’exploitation positif malgré une perte comptable. Cette perte s’explique en grande partie par la hausse de la valeur comptable des financements convertibles et des obligations qui y sont liées, sans décaissement équivalent. Les nouveaux fonds peuvent servir à financer les infrastructures, mais le flux de trésorerie d’exploitation ne suffit pas à montrer combien il reste après les investissements.",
-          "uncertainty": "L’annonce de clôture confirme que les opérations ont été réglées, mais pas quelle part des fonds sera finalement consacrée aux infrastructures. Le prospectus laisse à la direction le choix de l’utilisation des fonds, et le flux de trésorerie d’exploitation publié porte sur une période antérieure à l’offre.",
-          "watch": "Dans la prochaine publication réglementaire, examinez le flux de trésorerie d’exploitation en parallèle des dépenses d’infrastructure et des engagements contractuels.",
+          "title": "Anthropic boucle son introduction en Bourse et sa vente d’actions à des partenaires stratégiques",
+          "summary": "Anthropic a finalisé son offre au public ainsi qu’un placement privé distinct auprès de partenaires technologiques.",
+          "impact": "Ce financement donne à l’entreprise qui développe Claude davantage de moyens pour financer son infrastructure informatique, sans pour autant montrer que son activité est rentable.",
+          "what": "Anthropic développe Claude et en vend l’accès par abonnement, via des outils pour les développeurs et par l’intermédiaire de partenaires de distribution. Son communiqué de clôture distingue le produit brut qu’elle a encaissé des sommes versées aux actionnaires qui ont vendu leurs titres. Le placement privé lui a apporté un financement supplémentaire. Le prospectus, qui porte sur une période d’activité antérieure, fait état d’un chiffre d’affaires important et de flux de trésorerie d’exploitation positifs, malgré une lourde perte comptable.",
+          "why": "Cette distinction compte, car l’entreprise a besoin de liquidités pour payer ses capacités de calcul et développer de nouveaux modèles. La vente d’actions apporte un financement, mais ne constitue pas du chiffre d’affaires réalisé auprès des clients. Par ailleurs, les variations de la valeur comptable des titres de dette convertibles et d’autres instruments financiers expliquent une grande partie de l’écart entre la perte déclarée et la trésorerie dégagée par l’activité. Pour les entreprises qui adoptent ces outils, le financement permet plus facilement à leur fournisseur de s’engager sur des dépenses d’infrastructure. Il ne montre toutefois ni ce que les clients paieront ni ce qu’il en coûtera pour les servir.",
+          "uncertainty": "Le communiqué de clôture indique le produit brut de l’opération, et non la somme qu’Anthropic conservera après déduction des frais. Les flux de trésorerie d’exploitation, même positifs, ne tiennent pas compte des dépenses d’investissement. Ils ne montrent donc pas que l’entreprise peut financer son expansion grâce à sa seule activité.",
+          "watch": "À surveiller : la publication du rapport périodique qui suivra l’introduction en Bourse. Les flux de trésorerie d’exploitation seront à comparer aux investissements dans les infrastructures, aux engagements contractuels d’hébergement et à l’évolution des créances clients.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Produit brut de l’offre au public revenant à l’émetteur"
+              "label": "Produit brut de l’introduction en Bourse revenant à l’émetteur"
             },
             {
               "id": "m2",
-              "label": "Produit brut du placement privé"
+              "label": "Prix d’achat des actions dans le cadre du placement privé"
             },
             {
               "id": "m3",
-              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
+              "label": "Chiffre d’affaires depuis le début de l’exercice"
             },
             {
               "id": "m4",
-              "label": "Résultat net cumulé depuis le début de l’exercice"
+              "label": "Perte nette depuis le début de l’exercice"
             },
             {
               "id": "m5",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Comprendre les résultats : les centres de données tirent la croissance de Nvidia",
-          "summary": "Le rapport trimestriel de Nvidia fait état d’une forte croissance de l’activité liée aux centres de données et du début des livraisons de sa nouvelle plateforme de calcul.",
-          "impact": "Les résultats montrent que les clients consacrent des fonds au matériel d’intelligence artificielle. Le tableau des flux de trésorerie explique pourquoi il faut suivre séparément les ventes et les encaissements.",
-          "what": "Nvidia conçoit des processeurs, des équipements réseau et des logiciels pour les centres de données, ainsi que des produits graphiques pour les jeux vidéo et d’autres usages. Les produits destinés aux centres de données ont représenté l’essentiel de son chiffre d’affaires trimestriel. Le communiqué fait état de ventes et d’un bénéfice comptable en hausse par rapport à la même période de l’exercice précédent. Le flux de trésorerie d’exploitation a également progressé, mais il est resté inférieur au résultat net publié. Le rapprochement entre le résultat net et le flux de trésorerie d’exploitation montre que la hausse des créances clients et des stocks a mobilisé de la trésorerie pendant le trimestre.",
-          "why": "Une livraison de matériel peut être comptabilisée comme une vente avant le paiement du client. La somme due figure alors dans les créances clients. Les stocks mobilisent aussi de l’argent avant de générer des ventes. Le bénéfice publié peut donc augmenter alors même que le développement de l’activité immobilise de la trésorerie. Pour les fournisseurs de services cloud, l’achat du matériel ne représente qu’une partie du coût : ils doivent aussi l’installer, l’alimenter en électricité et trouver des clients prêts à payer pour l’utiliser. Le chiffre d’affaires des fournisseurs de matériel renseigne donc sur la demande d’infrastructures, pas sur la rentabilité des applications qui y fonctionneront.",
-          "uncertainty": "Le chiffre d’affaires annoncé pour le prochain trimestre est une prévision de la direction, pas un résultat. La prévision porte sur un trimestre plus long et suppose que les produits de calcul pour centres de données ne généreront aucun chiffre d’affaires en Chine. Il faut en tenir compte dans la comparaison avec le trimestre écoulé.",
-          "watch": "Dans la prochaine publication réglementaire, suivez l’évolution des créances clients et des stocks. Cherchez aussi des signes que les nouveaux systèmes livrés servent effectivement à fournir des services cloud payants.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires trimestriel"
-            },
-            {
-              "id": "m2",
-              "label": "Chiffre d’affaires trimestriel des centres de données"
-            },
-            {
-              "id": "m3",
-              "label": "Résultat net trimestriel"
-            },
-            {
-              "id": "m4",
-              "label": "Flux de trésorerie d’exploitation trimestriel"
-            },
-            {
-              "id": "m5",
-              "label": "Milieu de la fourchette de prévision du chiffre d’affaires pour le prochain trimestre de l’exercice"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "En Chine, la production industrielle et les exportations progressent plus vite que les ventes au détail",
-          "summary": "Les données mensuelles sur l’activité en Chine montrent que la production industrielle et la valeur des exportations de biens ont augmenté plus vite que les ventes au détail de biens de consommation.",
-          "impact": "Cet écart montre que les fabricants et les exportateurs ne font pas face à la même demande que les entreprises qui dépendent des consommateurs chinois.",
-          "what": "Le Bureau national des statistiques a fait état d’une hausse de la production industrielle, à laquelle ont contribué la fabrication d’équipements et les industries de haute technologie. La valeur des exportations de biens a progressé bien plus vite que les ventes au détail de biens de consommation sur le marché intérieur. Les prix de vente des producteurs industriels ont aussi augmenté plus vite que les prix à la consommation. Ces indicateurs ne mesurent pas la même chose : la valeur ajoutée industrielle suit la production, la valeur des exportations mesure les recettes tirées des ventes à l’étranger aux prix déclarés, et les ventes au détail reflètent les dépenses en biens de consommation et en restauration.",
-          "why": "Une hausse de la production peut soutenir les commandes d’équipements, de composants et de services logistiques, même si l’activité des magasins et des restaurants s’améliore peu. Les ventes au détail donnent une meilleure idée de la demande intérieure des ménages que les exportations, mais elles ne couvrent pas toutes leurs dépenses. Pour les entreprises, l’écart entre les prix à la sortie d’usine et les prix à la consommation mérite attention : un fabricant peut vendre plus cher, tandis que ses clients professionnels peuvent avoir du mal à répercuter cette hausse sur leurs propres prix. Les chiffres globaux sur les prix ne permettent pas de savoir quelles entreprises ont vu leurs marges augmenter ou diminuer.",
-          "uncertainty": "Le chiffre global des exportations est exprimé en valeur : il ne permet pas de distinguer l’évolution des volumes expédiés des effets liés aux prix ou à la composition des exportations. Les taux de croissance des ventes au détail et de la production industrielle sont par ailleurs calculés sur des bases différentes : ils ne permettent pas de comparer directement leur croissance en volume.",
-          "watch": "Suivez les prochaines données détaillées sur les ventes au détail, la production industrielle et le commerce extérieur pour voir si la demande intérieure se renforce ou si l’écart persiste.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Croissance de la valeur ajoutée industrielle"
-            },
-            {
-              "id": "m2",
-              "label": "Croissance des ventes au détail de biens de consommation"
-            },
-            {
-              "id": "m3",
-              "label": "Croissance de la valeur des exportations de biens"
-            },
-            {
-              "id": "m4",
-              "label": "Inflation des prix à la consommation"
-            },
-            {
-              "id": "m5",
-              "label": "Inflation des prix à la production industrielle"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Comprendre les résultats : BYD améliore ses résultats trimestriels, mais qu’en est-il de la trésorerie ?",
-          "summary": "BYD a annoncé un chiffre d’affaires et un bénéfice net part du groupe en hausse sur le trimestre, mais son bénéfice net part du groupe cumulé est resté inférieur à celui de la même période de l’exercice précédent.",
-          "impact": "L’amélioration du flux de trésorerie d’exploitation depuis le début de l’exercice aide à lire les résultats. Elle ne signifie toutefois pas que les ventes de véhicules ont généré davantage d’encaissements, ni que l’activité a permis de couvrir les dépenses d’investissement.",
-          "what": "BYD fabrique des véhicules électriques à batterie et des véhicules hybrides rechargeables. Son rapport distingue les résultats du trimestre seul des chiffres cumulés depuis le début de l’exercice. Sur le trimestre, le chiffre d’affaires et le bénéfice ont augmenté. En cumul, le chiffre d’affaires est resté quasiment stable et le bénéfice net part du groupe a diminué. Le rapport indique le flux de trésorerie d’exploitation pour la période cumulée, et non pour le trimestre seul. Il attribue principalement son amélioration à la baisse des paiements pour les biens et services.",
-          "why": "Le bénéfice comptable tient compte des ventes et des charges au moment où elles sont comptabilisées. Le flux de trésorerie d’exploitation, lui, suit les sommes réellement encaissées et décaissées. Un fabricant peut améliorer ce flux en payant moins à ses fournisseurs, même si ses encaissements diminuent. Les décaissements pour les immobilisations et les autres actifs à long terme figurent dans les flux liés aux activités d’investissement. Chez BYD, ils ont dépassé le flux de trésorerie d’exploitation sur la même période cumulée. L’amélioration de ce flux ne veut donc pas dire que l’activité a financé la totalité de ces dépenses.",
-          "uncertainty": "Le rapport intermédiaire n’a pas été audité. Il ne permet pas de déterminer quelle part de la baisse des paiements aux fournisseurs tient à une réduction durable des coûts plutôt qu’au calendrier des règlements. Il ne permet pas non plus de chiffrer le flux de trésorerie d’exploitation du trimestre seul.",
-          "watch": "Dans le prochain rapport, examinez les encaissements clients, les paiements aux fournisseurs, les stocks et les dépenses en actifs à long terme pour voir si le flux de trésorerie d’exploitation continue de s’améliorer.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires du trimestre seul"
-            },
-            {
-              "id": "m2",
-              "label": "Résultat net part du groupe du trimestre seul"
-            },
-            {
-              "id": "m3",
-              "label": "Croissance du résultat net part du groupe sur le trimestre"
-            },
-            {
-              "id": "m4",
-              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m5",
-              "label": "Résultat net part du groupe cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m6",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m7",
-              "label": "Croissance du flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m8",
-              "label": "Décaissements cumulés pour les actifs à long terme depuis le début de l’exercice"
+              "label": "Flux de trésorerie d’exploitation depuis le début de l’exercice"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan como explicaciones de contexto.",
+      "status": "Esta edición tiene una cobertura verificada limitada. En algunos mercados no hay noticias nuevas que se hayan podido verificar. Los informes anteriores siguen identificados con su fecha.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión.",
-        "cn": "Los índices que seguimos bajaron en sus respectivas últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la negociación actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de la sesión correspondiente.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de la sesión correspondiente."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Anthropic cierra su oferta pública y su colocación privada",
-          "summary": "Anthropic completó su oferta pública y, en una operación separada, su colocación privada después de que sus acciones empezaran a cotizar.",
-          "impact": "La financiación da a la desarrolladora de inteligencia artificial más margen para costear su capacidad de cómputo sin depender solo del efectivo que genera el negocio.",
-          "what": "Anthropic desarrolla Claude y vende acceso mediante suscripciones y acuerdos de pago según el uso. Al cierre de la oferta pública, los bancos colocadores ejercieron su opción de comprar acciones adicionales a la empresa. La oferta incluyó acciones vendidas por accionistas existentes, pero Anthropic no recibió el dinero de esas ventas. Varias empresas tecnológicas también compraron acciones de nueva emisión en la colocación privada realizada en paralelo. Los importes indicados son brutos, antes de descontar las comisiones y los gastos aplicables.",
-          "why": "Al vender acciones nuevas, la empresa recibe efectivo de los inversores, no de los clientes. La distinción importa porque Anthropic necesita capacidad de cómputo para entrenar y utilizar sus modelos. El folleto de la oferta muestra un flujo de efectivo operativo positivo pese a una pérdida contable. La pérdida se debió en gran medida al aumento del valor registrado de la financiación convertible y de las obligaciones asociadas, no a un desembolso equivalente. Los nuevos fondos pueden ayudar a financiar el gasto en infraestructura, pero el flujo de efectivo operativo por sí solo no indica cuánto dinero queda después de invertir.",
-          "uncertainty": "El anuncio de cierre confirma que las operaciones se liquidaron, pero no dice cuánto efectivo acabará destinándose a infraestructura. El folleto deja en manos de la dirección las decisiones de gasto, y el flujo de efectivo operativo publicado corresponde a un período anterior a la oferta.",
-          "watch": "En el próximo informe público, conviene mirar el flujo de efectivo operativo junto con el gasto en infraestructura y los compromisos contractuales.",
+          "title": "Anthropic completa su salida a bolsa y una venta estratégica de acciones",
+          "summary": "Anthropic completó su oferta pública inicial y, por separado, una colocación privada de acciones con socios tecnológicos.",
+          "impact": "La financiación da a la empresa que desarrolla Claude más margen para invertir en infraestructura informática, pero no demuestra que su negocio sea rentable.",
+          "what": "Anthropic desarrolla Claude y vende acceso a través de suscripciones, herramientas para desarrolladores y socios de distribución. En el comunicado de cierre, distingue entre los fondos brutos que recibió la empresa y el dinero que cobraron los accionistas que vendieron sus acciones. La colocación privada aportó financiación adicional. El folleto de la oferta, que abarca un período anterior de actividad, recoge ingresos considerables y un flujo de caja operativo positivo, pese a una pérdida contable importante.",
+          "why": "La diferencia importa porque la empresa necesita efectivo para pagar la capacidad informática y desarrollar nuevos modelos. Vender acciones aporta financiación, no ingresos de clientes. Por otra parte, los cambios en el valor contable de los títulos de deuda convertibles y otros instrumentos financieros explican buena parte de la diferencia entre la pérdida declarada y el efectivo generado por la actividad de la empresa. Para las empresas que adoptan estas herramientas, la financiación facilita que su proveedor asuma compromisos de infraestructura, pero no aclara cuánto pagarán los clientes ni cuánto costará prestarles el servicio.",
+          "uncertainty": "El comunicado de cierre indica cuánto se recaudó antes de gastos, no cuánto efectivo le quedó a la empresa tras pagar los costes de la oferta. Además, el flujo de caja operativo positivo no incluye los desembolsos de inversión, así que no demuestra que la empresa pueda financiar su expansión solo con el efectivo que genera su actividad.",
+          "watch": "El próximo informe periódico tras la salida a bolsa. La comparación del flujo de caja operativo con la inversión en infraestructura, los compromisos de alojamiento informático ya contratados y los cambios en las cuentas por cobrar.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Importe bruto recibido por el emisor en la oferta pública"
+              "label": "Fondos brutos captados por el emisor en la oferta pública inicial"
             },
             {
               "id": "m2",
-              "label": "Importe bruto de la colocación privada"
+              "label": "Precio de compra en la colocación privada"
             },
             {
               "id": "m3",
-              "label": "Ingresos acumulados en el año"
+              "label": "Ingresos acumulados en lo que va de año"
             },
             {
               "id": "m4",
-              "label": "Beneficio o pérdida neta acumulada en el año"
+              "label": "Pérdida neta acumulada en lo que va de año"
             },
             {
               "id": "m5",
-              "label": "Flujo de efectivo operativo acumulado en el año"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Claves de los resultados: los centros de datos impulsan el crecimiento de Nvidia",
-          "summary": "El informe del trimestre fiscal de Nvidia mostró un fuerte crecimiento del negocio de centros de datos y el inicio de los envíos de su nueva plataforma de cómputo.",
-          "impact": "Los resultados muestran que los clientes están destinando dinero a equipos para inteligencia artificial, mientras que el estado de flujos de efectivo explica por qué hay que distinguir entre vender y cobrar.",
-          "what": "Nvidia diseña procesadores, equipos de red y software para centros de datos, además de productos gráficos para videojuegos y otros usos. Los productos para centros de datos aportaron la mayor parte de los ingresos trimestrales. La empresa informó de ventas y beneficios contables superiores a los del mismo trimestre del año anterior. El flujo de efectivo operativo también aumentó, pero quedó por debajo del beneficio neto declarado. El desglose que concilia ambas cifras muestra que el aumento de las cuentas por cobrar y de las existencias absorbió efectivo durante el trimestre.",
-          "why": "Un envío de equipos puede contabilizarse como venta antes de que el cliente pague. Hasta entonces, queda registrado como una cuenta por cobrar. Las existencias también requieren efectivo antes de generar una venta. Por eso, el beneficio declarado puede crecer mientras la expansión del negocio sigue absorbiendo efectivo. Para los proveedores de servicios en la nube, la compra es solo parte del coste: también tienen que instalar los equipos, suministrarles electricidad y encontrar clientes dispuestos a pagar por usarlos. Por eso, los ingresos del proveedor de equipos reflejan la demanda de infraestructura, no la rentabilidad de las aplicaciones que acabarán funcionando en ella.",
-          "uncertainty": "La previsión de ingresos es una estimación de la dirección, no un resultado. Abarca un trimestre fiscal más largo y no contempla ingresos en China por productos de cómputo para centros de datos, algo que importa al compararla con el trimestre ya cerrado.",
-          "watch": "En el próximo informe, conviene observar cómo evolucionan las cuentas por cobrar y las existencias, y si los nuevos sistemas que ya se están enviando empiezan a utilizarse en servicios en la nube por los que pagan los clientes.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos del trimestre fiscal"
-            },
-            {
-              "id": "m2",
-              "label": "Ingresos de centros de datos del trimestre fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Beneficio neto del trimestre fiscal"
-            },
-            {
-              "id": "m4",
-              "label": "Flujo de efectivo operativo del trimestre fiscal"
-            },
-            {
-              "id": "m5",
-              "label": "Punto medio del rango previsto de ingresos para el próximo trimestre fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "La producción industrial y las exportaciones de China crecen más que las ventas minoristas",
-          "summary": "Los datos mensuales de actividad de China mostraron que la producción industrial y el valor de las exportaciones de bienes crecieron más que las ventas minoristas de bienes de consumo.",
-          "impact": "La diferencia muestra que los fabricantes y exportadores se enfrentan a una demanda distinta de la que ven los negocios que dependen de los consumidores del país.",
-          "what": "La Oficina Nacional de Estadística informó de un aumento de la producción fabril, al que contribuyeron la fabricación de equipos y la de productos de alta tecnología. El valor de las exportaciones de bienes creció mucho más rápido que las ventas minoristas de bienes de consumo en el país. Los precios de venta de los productores industriales también subieron más rápido que los precios al consumidor. Los indicadores miden cosas distintas: el valor añadido industrial refleja la producción, el valor de las exportaciones recoge el importe de las ventas al exterior a los precios declarados y la serie de ventas minoristas refleja el gasto en bienes de consumo y servicios de comidas y bebidas.",
-          "why": "Una producción más fuerte puede impulsar los pedidos de equipos y componentes y la demanda de servicios logísticos, aunque las tiendas y los restaurantes apenas noten una mejora. Las ventas minoristas dan una idea más directa de la demanda de los hogares del país que las exportaciones, pero no recogen todo su gasto. Para las empresas, importa la diferencia entre los precios a la salida de fábrica y los precios al consumidor: un fabricante puede vender más caro, mientras que a las empresas que le compran puede costarles trasladar ese aumento a sus clientes. Las cifras generales de precios no permiten saber qué empresas ganaron o perdieron margen.",
-          "uncertainty": "La cifra principal de exportaciones mide su valor, por lo que no permite separar el volumen de los envíos de los efectos de los precios o de los cambios en los tipos de productos exportados. Las tasas de crecimiento de las ventas minoristas y de la producción industrial también se calculan sobre bases distintas, por lo que no deben compararse directamente como tasas de crecimiento real.",
-          "watch": "Los próximos desgloses de ventas minoristas, producción industrial y comercio exterior ayudarán a ver si se fortalece la demanda interna o si persiste la diferencia.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Crecimiento del valor añadido industrial"
-            },
-            {
-              "id": "m2",
-              "label": "Crecimiento de las ventas minoristas de bienes de consumo"
-            },
-            {
-              "id": "m3",
-              "label": "Crecimiento del valor de las exportaciones de bienes"
-            },
-            {
-              "id": "m4",
-              "label": "Inflación de los precios al consumidor"
-            },
-            {
-              "id": "m5",
-              "label": "Inflación de los precios de venta de los productores industriales"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Claves de los resultados: BYD mejora en el trimestre, ¿qué pasó con el efectivo?",
-          "summary": "BYD informó de mayores ingresos y un mayor beneficio atribuible a los accionistas de la matriz en el trimestre, aunque el beneficio atribuible acumulado siguió por debajo del mismo período del año anterior.",
-          "impact": "La mejora del flujo de efectivo operativo acumulado en el año aporta contexto, pero no significa que la venta de vehículos haya generado más cobros ni que la actividad del negocio haya cubierto el gasto en inversiones.",
-          "what": "BYD fabrica vehículos eléctricos de batería e híbridos enchufables. El informe distingue el trimestre por separado del período acumulado desde el inicio del año. Las ventas y el beneficio del trimestre mejoraron, mientras que los ingresos acumulados apenas variaron y el beneficio atribuible acumulado cayó. El informe publica el flujo de efectivo operativo del período acumulado, no el del trimestre por separado, y atribuye la mejora principalmente a menores pagos por bienes y servicios.",
-          "why": "El beneficio contable recoge las ventas y los gastos cuando se reconocen en la contabilidad, mientras que el flujo de efectivo operativo refleja el dinero que realmente se cobra y se paga. Un fabricante puede mejorar ese flujo si desembolsa menos a sus proveedores, aunque también cobre menos. El efectivo destinado a activos fijos y a otros activos a largo plazo se registra como parte de las actividades de inversión. En este caso, esos desembolsos superaron el flujo de efectivo operativo del mismo período acumulado, así que la mejora del flujo no significa que la empresa haya financiado todo ese gasto con el efectivo de su actividad.",
-          "uncertainty": "El informe intermedio no está auditado. No permite saber en qué medida la reducción de los pagos a proveedores se debe a recortes duraderos de costes o a cambios en el momento de pagar. Tampoco permite establecer el flujo de efectivo operativo del trimestre por separado.",
-          "watch": "En el próximo informe, los cobros a clientes, los pagos a proveedores, las existencias y el gasto en activos a largo plazo ayudarán a ver si el flujo de efectivo operativo sigue mejorando.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos del trimestre por separado"
-            },
-            {
-              "id": "m2",
-              "label": "Beneficio neto atribuible a los accionistas de la matriz en el trimestre por separado"
-            },
-            {
-              "id": "m3",
-              "label": "Crecimiento del beneficio neto trimestral atribuible a los accionistas de la matriz"
-            },
-            {
-              "id": "m4",
-              "label": "Ingresos acumulados en el año"
-            },
-            {
-              "id": "m5",
-              "label": "Beneficio neto atribuible a los accionistas de la matriz acumulado en el año"
-            },
-            {
-              "id": "m6",
-              "label": "Flujo de efectivo operativo acumulado en el año"
-            },
-            {
-              "id": "m7",
-              "label": "Crecimiento del flujo de efectivo operativo acumulado en el año"
-            },
-            {
-              "id": "m8",
-              "label": "Desembolsos en activos a largo plazo acumulados en el año"
+              "label": "Flujo de caja operativo acumulado en lo que va de año"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業決算は、背景を理解するための解説として紹介します。",
+      "status": "今号は、確認できた情報が限られています。新たなニュースを確認できなかった市場もあります。過去の報告には、引き続き日付を明示しています。",
       "marketSummary": {
-        "us": "終値データの中には確認できなかったものがあります。確認できた指数については、それぞれの取引日を示しています。",
-        "cn": "掲載対象の株価指数はいずれも、確認できた直近の取引日に下落しました。記載の終値は表示された取引日のもので、現在の取引状況を示すものではありません。"
+        "us": "終値を確認できなかった指数もあります。掲載している指数には、それぞれの取引日を示しています。",
+        "cn": "終値を確認できなかった指数もあります。掲載している指数には、それぞれの取引日を示しています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "アンソロピック、株式の公開募集と私募を完了",
-          "summary": "アンソロピックは、株式の取引が始まった後、公開募集と、それとは別に実施した私募を完了しました。",
-          "impact": "今回の資金調達により、AIを開発する同社は、本業で得た現金だけに頼らず、計算能力の確保に資金を回しやすくなります。",
-          "what": "アンソロピックはクロードを開発し、定額契約や従量課金で提供しています。公開募集の決済にあたり、引受会社は同社から株式を追加取得できる権利を行使しました。公開での販売には既存株主が売り出した株式も含まれていましたが、その売却代金は同社には入りませんでした。同時に実施した私募では、テクノロジー企業が新株を取得しました。掲載している調達額は、該当する手数料や諸費用を差し引く前の金額です。",
-          "why": "新株の発行で入る現金は、顧客ではなく投資家から受け取るものです。モデルの学習や運用に計算能力が必要な同社にとって、この違いは重要です。目論見書では、会計上は赤字でも、営業キャッシュフローはプラスでした。赤字の主な要因は、株式などに転換できる形で調達した資金や、それに関連する債務の帳簿上の評価額が上がったことです。評価額の上昇に見合う現金の支払いがあったわけではありません。今回の調達資金はインフラ投資に充てられますが、営業キャッシュフローだけでは、投資後にどれだけ現金が残るかは分かりません。",
-          "uncertainty": "完了の発表で確認できたのは、取引の決済が済んだことまでです。調達資金が最終的にどの程度インフラに回るかは分かりません。目論見書では資金の使い道を経営陣の裁量に委ねており、掲載された営業キャッシュフローは公開募集より前の実績です。",
-          "watch": "次回の開示では、営業キャッシュフローをインフラへの支出や契約上の支払い義務とあわせて確認します。",
+          "title": "アンソロピック、新規株式公開と事業提携先への株式売却を完了",
+          "summary": "アンソロピックは新規株式公開を完了し、それとは別に、提携するテクノロジー企業を引受先とする株式の私募も実施しました。",
+          "impact": "資金調達により、Claudeを開発するアンソロピックは計算インフラに資金を振り向けやすくなります。ただし、本業で利益が出ていることを示すものではありません。",
+          "what": "アンソロピックはClaudeを開発し、サブスクリプションや開発者向けツール、販売パートナーを通じて利用サービスを提供しています。取引完了の発表では、同社が受け取った費用控除前の調達額と、株式を売却した既存株主が受け取った代金を区別しています。私募でも追加の資金を調達しました。それより前の事業期間を対象とする目論見書によると、売上高は大きく、営業キャッシュフローはプラスだった一方、会計上は大幅な赤字でした。",
+          "why": "会計上の損益と実際の資金の動きを分けて見ることが大切です。同社は、計算能力の確保や新しいモデルの開発に資金を必要としています。株式の売却で得る資金は、顧客からの売上ではなく、資金調達によるものです。報告された赤字額と営業活動で得た資金との差の大部分は、株式に転換できる債券などの金融商品の帳簿上の評価額が変動したことで生じました。こうしたツールを導入する企業にとっては、サービス提供元がインフラの確保に向けた契約を結びやすくなります。ただし、顧客がいくら支払うのか、サービスの提供にいくらかかるのかは、この資金調達からは分かりません。",
+          "uncertainty": "取引完了の発表が示しているのは費用控除前の調達額であり、株式公開にかかった費用を差し引いて最終的に手元に残る資金ではありません。また、営業キャッシュフローには投資に伴う支出が含まれないため、プラスであっても、営業活動で得た資金だけで事業を拡大できるとは限りません。",
+          "watch": "上場後初の定期開示が注目点です。営業キャッシュフローを、インフラ投資、ホスティング契約で負う義務、売掛金などの債権の増減と照らし合わせます。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "公開募集による発行会社の資金調達額（費用控除前）"
+              "label": "新規株式公開による発行会社の調達総額（費用控除前）"
             },
             {
               "id": "m2",
-              "label": "私募による資金調達額（費用控除前）"
+              "label": "私募株式の取得価額"
             },
             {
               "id": "m3",
-              "label": "年初来累計売上高"
+              "label": "年初来の累計売上高"
             },
             {
               "id": "m4",
-              "label": "年初来累計純損益"
+              "label": "年初来の累計純損失"
             },
             {
               "id": "m5",
-              "label": "年初来累計営業キャッシュフロー"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "決算解説：データセンター事業がエヌビディアの成長をけん引",
-          "summary": "エヌビディアの決算では、データセンター事業が大きく伸び、新しいコンピューティング基盤の出荷も始まりました。",
-          "impact": "決算からは、顧客がAI向け機器に資金を投じていることが分かります。キャッシュフロー計算書を見ると、売上と代金の回収を分けて捉える必要性も見えてきます。",
-          "what": "エヌビディアは、データセンター向けのプロセッサー、ネットワーク機器、ソフトウェアのほか、ゲームなどに使われる画像処理製品も設計しています。対象期間の売上高の大部分は、データセンター向け製品によるものでした。売上高と会計上の利益は前年同期を上回りました。営業キャッシュフローも増えましたが、公表された純利益を下回りました。純利益から営業キャッシュフローへの調整内訳を見ると、売掛金と在庫の増加が営業キャッシュフローを押し下げていました。",
-          "why": "機器を出荷すると、入金前でも売上に計上されることがあり、未回収の代金は売掛金として帳簿に残ります。在庫の確保にも、売れる前に現金が必要です。そのため、会計上の利益が伸びていても、事業の拡大で資金が拘束されることがあります。クラウド事業者にとっても、機器代は費用の一部にすぎません。設置や電力供給が必要で、利用料を払う顧客も見つけなければなりません。したがって、機器メーカーの売上高が示すのはインフラへの需要であり、その上で動くアプリケーションの採算性ではありません。",
-          "uncertainty": "売上高見通しは経営陣の予想であり、実績ではありません。見通しの対象期間は今回の決算期間より長く、中国向けのデータセンター用計算機器の売上を見込んでいません。今回の実績と比べる際には、この違いが重要です。",
-          "watch": "次回の開示では、売掛金と在庫の動きを確認します。また、新システムが出荷にとどまらず、クラウドで料金を払う顧客の処理に使われ始めているかも注目点です。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期データセンター売上高"
-            },
-            {
-              "id": "m3",
-              "label": "四半期純利益"
-            },
-            {
-              "id": "m4",
-              "label": "四半期営業キャッシュフロー"
-            },
-            {
-              "id": "m5",
-              "label": "翌四半期の売上高見通しレンジの中央値"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中国、工業生産と輸出額の伸びが消費財小売を上回る",
-          "summary": "中国の月次経済統計では、工業生産と財の輸出額が、消費財小売売上高を上回る伸びを示しました。",
-          "impact": "この差から、製造業や輸出企業が直面する需要の状況は、国内の買い物客に頼る企業とは異なることが分かります。",
-          "what": "中国国家統計局によると、工業生産は増加し、設備製造業やハイテク製造業が伸びに寄与しました。財の輸出額は、国内の消費財小売売上高より大幅に伸びました。工業製品の出荷価格も、消費者物価より速いペースで上昇しました。各指標が捉える活動は異なります。工業付加価値は生産の動きを示し、輸出額は報告された価格での輸出取引額を示します。消費財小売売上高には、消費財の購入や外食への支出が反映されます。",
-          "why": "小売店や飲食店の売れ行きがあまり改善しなくても、生産が伸びれば、設備や部品、物流サービスへの発注を下支えすることがあります。家計に関わる国内需要を見るには、小売統計の方が輸出統計より参考になりますが、家計支出のすべてを捉えるわけではありません。企業にとっては、工業製品の出荷価格と消費者物価の差も注目点です。メーカーはより高く売れても、仕入れる側の企業はコスト増を販売価格に転嫁しにくい場合があります。物価の全体指標だけでは、どの企業の利益率が上がり、どの企業の利益率が下がったかは分かりません。",
-          "uncertainty": "輸出額は金額ベースの指標なので、輸出数量の変化を、価格や輸出品の構成の変化による影響と切り分けることはできません。小売と工業生産の伸び率も計算の基準が異なるため、実質的な伸びを直接比べることはできません。",
-          "watch": "次回の小売支出、工業生産、貿易の内訳で、国内需要が強まるのか、伸びの差が続くのかを確認します。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "工業付加価値の伸び率"
-            },
-            {
-              "id": "m2",
-              "label": "消費財小売売上高の伸び率"
-            },
-            {
-              "id": "m3",
-              "label": "財の輸出額の伸び率"
-            },
-            {
-              "id": "m4",
-              "label": "消費者物価上昇率"
-            },
-            {
-              "id": "m5",
-              "label": "工業製品出荷価格の上昇率"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "決算解説：BYDの増収増益と、その裏側の資金の動き",
-          "summary": "BYDは対象期間の売上高と親会社株主に帰属する純利益が増えたと発表しましたが、年初来累計の同純利益は前年同期を下回りました。",
-          "impact": "年初来累計の営業キャッシュフローの改善は、資金の動きを理解する手がかりです。ただし、車両販売による現金収入が増えたことや、投資支出を本業で得た現金で賄えたことを意味するわけではありません。",
-          "what": "BYDは、バッテリー式電気自動車とプラグインハイブリッド車を製造しています。決算報告書では、対象期間だけの実績と年初からの累計を分けて示しています。対象期間だけで見ると増収増益でしたが、年初来累計では売上高がほぼ横ばいで、親会社株主に帰属する純利益は減少しました。営業キャッシュフローは対象期間だけの数値ではなく、年初来累計で開示されています。同社は、物品やサービスの購入に伴う支払いが減ったことが、改善の主な理由だと説明しています。",
-          "why": "会計上の利益は売上や費用を計上した時点を基準にしますが、営業キャッシュフローは実際の入出金を表します。メーカーは入金が減っても、仕入れ先への支払いを減らすことで、営業キャッシュフローが改善することがあります。固定資産などの長期資産の取得に使った現金は、投資活動に計上されます。今回、その支出は同じ累計期間の営業キャッシュフローを上回りました。そのため、営業キャッシュフローが改善していても、その支出をすべて本業で得た現金で賄えたわけではありません。",
-          "uncertainty": "この期中報告書は監査を受けていません。仕入れ先への支払いの減少が、支払い時期のずれではなく、継続的なコスト削減をどの程度反映しているかは分かりません。また、この開示からは対象期間だけの営業キャッシュフローも分かりません。",
-          "watch": "次回の報告では、顧客からの入金、仕入れ先への支払い、在庫、長期資産への支出を確認し、営業キャッシュフローの改善が続いているかを見ます。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期単独の売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期単独の親会社株主に帰属する純利益"
-            },
-            {
-              "id": "m3",
-              "label": "四半期の親会社株主に帰属する純利益の伸び率"
-            },
-            {
-              "id": "m4",
-              "label": "年初来累計売上高"
-            },
-            {
-              "id": "m5",
-              "label": "年初来累計の親会社株主に帰属する純利益"
-            },
-            {
-              "id": "m6",
-              "label": "年初来累計営業キャッシュフロー"
-            },
-            {
-              "id": "m7",
-              "label": "年初来累計営業キャッシュフローの伸び率"
-            },
-            {
-              "id": "m8",
-              "label": "年初来累計の長期資産取得に伴う現金支出"
+              "label": "年初来の累計営業キャッシュフロー"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes das empresas servem de base para textos explicativos.",
+      "status": "Esta edição tem cobertura verificada limitada. Em alguns mercados, não há notícias novas que tenham sido confirmadas. Os informes com data continuam claramente identificados.",
       "marketSummary": {
-        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente.",
-        "cn": "Os índices acompanhados caíram nos pregões mais recentes que foi possível verificar. Os fechamentos se referem às datas indicadas, não às negociações atuais."
+        "us": "Não foi possível confirmar alguns dados de fechamento. Cada índice disponível mantém a data do pregão a que se refere.",
+        "cn": "Não foi possível confirmar alguns dados de fechamento. Cada índice disponível mantém a data do pregão a que se refere."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Anthropic conclui oferta pública e colocação privada",
-          "summary": "A Anthropic concluiu sua oferta pública e uma colocação privada separada depois que suas ações começaram a ser negociadas.",
-          "impact": "A captação dá à desenvolvedora de inteligência artificial mais margem para financiar sua capacidade computacional sem depender apenas do caixa gerado pelo negócio.",
-          "what": "A Anthropic desenvolve o Claude e vende acesso por assinatura ou com cobrança conforme o uso. No encerramento da oferta pública, os bancos coordenadores exerceram a opção de comprar ações adicionais da empresa. A oferta também incluiu ações vendidas por acionistas que já as detinham, mas o dinheiro dessas vendas não foi para a Anthropic. Empresas de tecnologia também compraram ações recém-emitidas na colocação privada realizada em paralelo. Os valores de captação apresentados são brutos, antes das taxas e despesas aplicáveis.",
-          "why": "A emissão de ações traz dinheiro de investidores, não de clientes. Essa diferença importa para uma empresa que precisa de capacidade computacional para treinar e rodar seus modelos. O prospecto mostra fluxo de caixa operacional positivo apesar do prejuízo contábil. O prejuízo se deveu em grande parte ao aumento do valor registrado na contabilidade para financiamentos conversíveis e obrigações relacionadas, e não a um pagamento em dinheiro de valor equivalente. Os novos recursos podem financiar gastos com infraestrutura, mas o fluxo de caixa operacional, por si só, não mostra quanto dinheiro sobra depois dos investimentos.",
-          "uncertainty": "O anúncio confirma que as operações foram liquidadas, mas não informa quanto do dinheiro acabará sendo destinado à infraestrutura. O prospecto deixa as decisões de gasto a critério da administração, e os dados históricos de fluxo de caixa operacional são anteriores à oferta.",
-          "watch": "No próximo documento divulgado ao mercado, observe o fluxo de caixa operacional junto com os gastos com infraestrutura e os compromissos contratuais.",
+          "title": "Anthropic conclui abertura de capital e venda estratégica de ações",
+          "summary": "A Anthropic concluiu sua oferta pública inicial de ações e, em uma operação separada, fez uma colocação privada com parceiros do setor de tecnologia.",
+          "impact": "A captação dá à desenvolvedora do Claude mais recursos para financiar sua infraestrutura computacional, mas não demonstra que o negócio seja lucrativo.",
+          "what": "A Anthropic desenvolve o Claude e vende acesso a ele por meio de assinaturas, ferramentas para desenvolvedores e parceiros de distribuição. O comunicado de encerramento da oferta distingue os recursos brutos recebidos pela empresa dos valores pagos aos acionistas que venderam suas ações. A colocação privada trouxe recursos adicionais. O prospecto, que cobre um período anterior de operação, informa receita expressiva e fluxo de caixa operacional positivo, apesar de um grande prejuízo contábil.",
+          "why": "Essa diferença importa porque a empresa precisa de dinheiro para pagar pela capacidade computacional e desenvolver novos modelos. Vender ações é uma forma de captar recursos, não de gerar receita com clientes. Boa parte da diferença entre o prejuízo informado e o caixa gerado pelas operações se explica por mudanças no valor contábil de títulos de dívida conversíveis e de outros instrumentos financeiros. Para as empresas que adotam essas ferramentas, a captação facilita que o fornecedor assuma compromissos com infraestrutura, mas não esclarece quanto os clientes pagarão nem quanto custará atendê-los.",
+          "uncertainty": "O comunicado de encerramento informa a captação bruta, não o valor que ficou com a empresa depois dos custos da oferta. Além disso, o fluxo de caixa operacional positivo não inclui os gastos com investimentos e, por isso, não mostra se a empresa consegue financiar a expansão só com o caixa gerado pelas operações.",
+          "watch": "Vale acompanhar a divulgação que inicia a série de relatórios periódicos após a listagem. Compare o fluxo de caixa operacional com os investimentos em infraestrutura, os compromissos assumidos em contratos de hospedagem e as variações nas contas a receber.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Captação bruta da emissora na oferta pública"
+              "label": "Captação bruta da emissora na oferta pública inicial"
             },
             {
               "id": "m2",
-              "label": "Captação bruta na colocação privada"
+              "label": "Preço de compra na colocação privada"
             },
             {
               "id": "m3",
@@ -1263,268 +464,52 @@
             },
             {
               "id": "m4",
-              "label": "Lucro ou prejuízo líquido acumulado no ano"
+              "label": "Prejuízo líquido acumulado no ano"
             },
             {
               "id": "m5",
               "label": "Fluxo de caixa operacional acumulado no ano"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "Entenda o balanço: data centers impulsionam o crescimento da Nvidia",
-          "summary": "O relatório do trimestre fiscal da Nvidia mostrou forte crescimento em data centers e o início dos envios da nova plataforma de computação da empresa.",
-          "impact": "Os resultados mostram que os clientes estão destinando recursos a equipamentos de inteligência artificial. Já a demonstração de fluxo de caixa ajuda a entender por que vendas e recebimentos precisam ser acompanhados separadamente.",
-          "what": "A Nvidia projeta processadores, equipamentos de rede e software usados em data centers, além de produtos gráficos para jogos e outros usos. Os produtos para data centers responderam pela maior parte da receita trimestral. O comunicado mostrou que as vendas e o lucro contábil aumentaram em relação ao mesmo período do ano anterior. O fluxo de caixa operacional também cresceu, mas ficou abaixo do lucro líquido divulgado. A conciliação entre lucro e caixa mostra que o aumento das contas a receber e dos estoques consumiu caixa no trimestre.",
-          "why": "O envio de um equipamento pode ser registrado como venda antes de o cliente pagar. Até o pagamento, o valor fica registrado como conta a receber. Manter estoques também consome caixa antes que os produtos sejam vendidos. Por isso, o lucro divulgado pode crescer enquanto a expansão do negócio ainda prende recursos em estoques e contas a receber. Para os fornecedores de serviços de computação em nuvem, a compra é só parte do custo: eles precisam instalar os equipamentos, fornecer energia e encontrar clientes dispostos a pagar pelo uso. Assim, a receita da fornecedora mede a demanda por infraestrutura, não a rentabilidade dos aplicativos que acabarão rodando nela.",
-          "uncertainty": "A projeção de receita é uma estimativa da administração, não um resultado já apurado. Ela se refere a um trimestre fiscal mais longo e não conta com receita da China em computação para data centers. Isso importa na comparação com o trimestre encerrado.",
-          "watch": "No próximo relatório, observe a evolução das contas a receber e dos estoques, além de sinais de que os novos sistemas enviados já estão sendo usados por clientes pagantes na nuvem.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita do trimestre fiscal"
-            },
-            {
-              "id": "m2",
-              "label": "Receita de data centers no trimestre fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Lucro líquido do trimestre fiscal"
-            },
-            {
-              "id": "m4",
-              "label": "Fluxo de caixa operacional do trimestre fiscal"
-            },
-            {
-              "id": "m5",
-              "label": "Ponto médio da faixa de projeção de receita para o próximo trimestre fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Produção industrial e exportações da China crescem mais que o varejo de bens de consumo",
-          "summary": "Os dados mensais de atividade da China mostraram que a produção industrial e o valor das exportações de bens cresceram mais que as vendas no varejo de bens de consumo.",
-          "impact": "Essa diferença mostra que fabricantes e exportadores enfrentam um cenário de demanda distinto do vivido por empresas que dependem dos consumidores locais.",
-          "what": "O órgão nacional de estatísticas informou que a produção das fábricas cresceu, com contribuição da fabricação de equipamentos e de produtos de alta tecnologia. O valor das exportações de bens subiu bem mais rápido que as vendas internas no varejo de bens de consumo. Os preços cobrados pelos produtores industriais também subiram mais rápido que os preços ao consumidor. Esses indicadores medem coisas diferentes: o valor adicionado industrial acompanha a produção, o valor das exportações mede a receita com as vendas externas aos preços informados, e a série do varejo reflete gastos com bens de consumo e serviços de alimentação.",
-          "why": "Uma produção mais forte pode sustentar pedidos de equipamentos, componentes e serviços de logística mesmo que lojas e restaurantes percebam pouca melhora. Os dados do varejo ajudam a entender a demanda interna melhor que os de exportação, mas não captam todo o gasto das famílias. Para as empresas, vale observar a diferença entre os preços na saída da fábrica e os preços ao consumidor: um fabricante pode conseguir cobrar mais, enquanto as empresas que compram seus produtos podem ter dificuldade para repassar esse custo. Os índices gerais de preços não mostram quais empresas ganharam ou perderam margem.",
-          "uncertainty": "O dado principal de exportações é medido em valor, por isso não separa o volume embarcado dos efeitos dos preços ou de mudanças na composição dos produtos exportados. As taxas de crescimento do varejo e da indústria também são calculadas em bases diferentes e não devem ser comparadas diretamente como medidas de crescimento real.",
-          "watch": "Acompanhe os próximos dados detalhados de gastos no varejo, produção industrial e comércio exterior para ver se a demanda interna ganha força ou se a diferença persiste.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Crescimento do valor adicionado industrial"
-            },
-            {
-              "id": "m2",
-              "label": "Crescimento das vendas no varejo de bens de consumo"
-            },
-            {
-              "id": "m3",
-              "label": "Crescimento do valor das exportações de bens"
-            },
-            {
-              "id": "m4",
-              "label": "Inflação ao consumidor"
-            },
-            {
-              "id": "m5",
-              "label": "Inflação dos preços de venda dos produtores industriais"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Entenda o balanço: o trimestre mais forte da BYD e o que o caixa mostra",
-          "summary": "A BYD registrou receita e lucro atribuível aos acionistas da controladora maiores no trimestre, mas o lucro atribuível acumulado no ano continuou abaixo do registrado no mesmo período do ano anterior.",
-          "impact": "A melhora do fluxo de caixa operacional acumulado no ano ajuda a entender o resultado, mas não significa que as vendas de veículos tenham gerado mais entradas de caixa nem que o caixa das operações tenha coberto os gastos com investimentos.",
-          "what": "A BYD fabrica veículos elétricos a bateria e híbridos recarregáveis na tomada. O relatório separa os resultados do trimestre dos valores acumulados desde o início do ano. As vendas e o lucro cresceram no trimestre, enquanto a receita acumulada ficou praticamente estável e o lucro acumulado atribuível aos acionistas da controladora caiu. O relatório informa o fluxo de caixa operacional do período acumulado, não o do trimestre isolado, e aponta a redução dos pagamentos por bens e serviços como o principal motivo da melhora.",
-          "why": "O lucro contábil registra vendas e despesas quando elas são reconhecidas. Já o fluxo de caixa operacional acompanha o dinheiro efetivamente recebido e pago. Um fabricante pode melhorar o fluxo de caixa operacional pagando menos aos fornecedores, mesmo quando recebe menos. Os pagamentos por bens do ativo imobilizado e outros ativos de longo prazo são registrados nas atividades de investimento. No caso da BYD, esses gastos superaram o fluxo de caixa operacional do mesmo período acumulado. Portanto, a melhora no caixa das operações não significa que ele tenha bancado todos esses gastos.",
-          "uncertainty": "O relatório intermediário não foi auditado. Ele não mostra em que medida a redução dos pagamentos a fornecedores reflete uma queda duradoura nos custos ou apenas uma mudança no momento dos pagamentos. Também não permite determinar o fluxo de caixa operacional do trimestre isolado.",
-          "watch": "No próximo relatório, observe os recebimentos de clientes, os pagamentos a fornecedores, os estoques e os gastos com ativos de longo prazo para ver se o fluxo de caixa operacional continua melhorando.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita do trimestre isolado"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro líquido do trimestre isolado atribuível aos acionistas da controladora"
-            },
-            {
-              "id": "m3",
-              "label": "Crescimento do lucro líquido trimestral atribuível aos acionistas da controladora"
-            },
-            {
-              "id": "m4",
-              "label": "Receita acumulada no ano"
-            },
-            {
-              "id": "m5",
-              "label": "Lucro líquido acumulado no ano atribuível aos acionistas da controladora"
-            },
-            {
-              "id": "m6",
-              "label": "Fluxo de caixa operacional acumulado no ano"
-            },
-            {
-              "id": "m7",
-              "label": "Crescimento do fluxo de caixa operacional acumulado no ano"
-            },
-            {
-              "id": "m8",
-              "label": "Desembolsos com ativos de longo prazo acumulados no ano"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的財經動態。請留意各則消息的發布日期；近期公司財報在本期用來解說背景。",
+      "status": "本期經查證的報導有限。部分市場沒有經查證的新消息；先前的報導仍清楚標示日期。",
       "marketSummary": {
-        "us": "部分收盤資料無法核實。可取得資料的指數均沿用各自的交易日期。",
-        "cn": "追蹤的指數在各自最近一次經核實的交易日均收低。標有日期的收盤資料反映當日行情，不代表目前走勢。"
+        "us": "部分收盤數據未能查證。可提供的指數資料均保留各自的交易日期。",
+        "cn": "部分收盤數據未能查證。可提供的指數資料均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Anthropic 完成公開發行與私募",
-          "summary": "Anthropic 股票開始交易後，完成公開發行及另行辦理的私募。",
-          "impact": "這筆融資讓這家人工智慧開發商更有餘裕投入運算資源，不必只靠本業帶來的現金。",
-          "what": "Anthropic 開發 Claude，透過訂閱或按用量計費提供服務。公開發行交割時，承銷商行使選擇權，向公司加購股份。公開發售也包括原股東出售的股份，但那部分款項並未流入 Anthropic。科技公司也透過同步進行的私募認購新股。所列募資金額均為扣除相關費用前的總額。",
-          "why": "發行新股帶來的現金來自投資人，而非客戶。對需要運算資源來訓練和運行模型的公司而言，這項區別很重要。公開說明書顯示，公司雖出現帳面虧損，營業活動現金流量仍為正。虧損的主要原因包括可轉換融資及相關義務的帳面價值上升，並非公司實際付出了相應的現金。新資金可支應基礎設施支出，但光看營業活動現金流量，無法知道投資後還剩多少現金。",
-          "uncertainty": "交割公告確認交易已完成，但沒有說明最終有多少現金會用於基礎設施。公開說明書讓管理階層自行決定資金用途，而過往的營業活動現金流量資料反映的是發行前的情況。",
-          "watch": "下次公開申報時，可對照營業活動現金流量、基礎設施支出與依合約承諾的款項。",
+          "title": "Anthropic 完成股票公開發行及策略性私募",
+          "summary": "Anthropic 完成股票公開發行，並另行向科技合作夥伴私募股份。",
+          "impact": "這筆募資讓 Claude 的開發商有更多資金可投入運算基礎設施，但不代表其本業已經獲利。",
+          "what": "Anthropic 開發 Claude，透過訂閱服務、開發者工具和通路合作夥伴銷售使用權。交割公告分開列示公司收到的募資總額，以及原股東出售持股所得的款項。私募則為公司帶來額外資金。公開說明書涵蓋較早的營運期間，顯示公司有相當規模的營收，營業活動現金流量也為正，但帳面上仍有大幅虧損。",
+          "why": "這些差異之所以重要，是因為公司需要現金來支付運算資源的費用，並開發新模型。出售股份帶來的是融資，不是來自客戶的營收。此外，可轉換票據及其他金融工具的帳面價值變動，解釋了帳面虧損與營業活動所產生的現金之間的很大一部分落差。對採用這些工具的企業而言，募資讓供應商更有能力承諾投入基礎設施，但仍無法據此判斷客戶會付多少錢，或供應商提供服務要花多少成本。",
+          "uncertainty": "交割公告揭露的是募資總額，而非扣除發行費用後公司實際保留的現金。營業活動現金流量為正，也不包含投資支出，因此不能據此判斷公司能否僅靠營運產生的現金支應擴張。",
+          "watch": "留意上市後首份定期申報文件，並將營業活動現金流量與基礎設施投資、託管服務的合約承諾及應收款項變動對照。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "發行公司公開發行募資總額"
+              "label": "公開發行募資總額（發行公司所得）"
             },
             {
               "id": "m2",
-              "label": "私募募資總額"
+              "label": "私募認購價"
             },
             {
               "id": "m3",
-              "label": "年初至今累計營收"
+              "label": "年初至今營收"
             },
             {
               "id": "m4",
-              "label": "年初至今累計淨利或淨損"
+              "label": "年初至今淨損"
             },
             {
               "id": "m5",
-              "label": "年初至今累計營業活動現金流量"
-            }
-          ]
-        },
-        {
-          "id": "f4",
-          "title": "財報解讀：資料中心帶動輝達成長",
-          "summary": "輝達財季報告顯示，資料中心業務強勁成長，新運算平台也已開始出貨。",
-          "impact": "財報顯示客戶願意投入資金採購人工智慧硬體；現金流量表則說明了為何銷售額與實際收款要分開看。",
-          "what": "輝達設計資料中心使用的處理器、網路設備和軟體，也設計供遊戲及其他用途使用的圖形處理產品。資料中心產品是當季營收的主要來源。財報顯示，銷售額與帳面獲利均較去年同期增加。營業活動現金流量也增加，但低於公布的淨利。現金流量調節明細顯示，應收款項和存貨增加，占用了當季現金。",
-          "why": "硬體出貨後，即使客戶尚未付款，公司也可能已認列銷售，並在帳上列為應收款項。備貨也會在商品售出前占用現金。因此，帳面獲利可以增加，業務擴張卻仍可能占用現金。對雲端服務商來說，採購設備並不是全部成本：還得安裝設備、供電，並找到願意付費使用的客戶。因此，供應商的營收反映的是基礎設施需求，而非日後在這些設備上運行的應用能否獲利。",
-          "uncertainty": "營收展望是管理階層的預估，並非實際業績。展望涵蓋的財季較長，且假設不會有來自中國的資料中心運算業務營收；與已結束的財季相比時，須留意這些差異。",
-          "watch": "下次申報時，可留意應收款項與存貨的變化，以及新系統出貨後，是否已有付費客戶實際使用這些系統來執行雲端運算。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "財季營收"
-            },
-            {
-              "id": "m2",
-              "label": "財季資料中心營收"
-            },
-            {
-              "id": "m3",
-              "label": "財季淨利"
-            },
-            {
-              "id": "m4",
-              "label": "財季營業活動現金流量"
-            },
-            {
-              "id": "m5",
-              "label": "下個財季營收財測區間中點"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "中國工業生產與出口金額成長快於消費品零售",
-          "summary": "中國公布的月度經濟數據顯示，工業生產和貨品出口金額的增幅都高於消費品零售額。",
-          "impact": "這項差距顯示，製造商與出口商面對的需求情況，和仰賴國內消費者的業者不同。",
-          "what": "中國國家統計局公布工業產出成長，設備製造與高科技製造均有貢獻。貨品出口金額的增幅遠高於國內消費品零售額。工業生產者出廠價格的漲幅也高於消費者物價。這些指標衡量的活動不同：工業增加值反映生產，出口金額反映按申報價格計算的貿易收入，消費品零售數據則反映消費品與餐飲支出。",
-          "why": "即使商店和餐廳的生意沒有明顯起色，工業產出走強仍可支撐設備、零組件與物流服務的訂單。零售數據比出口數據更貼近家庭的國內需求，但並未涵蓋所有家庭支出。對企業來說，值得留意出廠價格與消費者物價的差距：生產商可能賣到較高的價格，但採購這些產品的企業未必能把增加的成本轉嫁給客戶。整體物價數據無法判定哪些公司的利潤率上升或下降。",
-          "uncertainty": "出口數據衡量的是金額，無法單獨看出出貨量如何變動，也無法排除價格或出口品項組合的影響。零售與工業成長率的衡量基礎也不同，不能直接拿來比較實質成長。",
-          "watch": "可留意下一次公布的零售支出、工業產出和貿易明細，觀察國內需求是否轉強，或目前的增速差距是否持續。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "工業增加值成長率"
-            },
-            {
-              "id": "m2",
-              "label": "社會消費品零售總額成長率"
-            },
-            {
-              "id": "m3",
-              "label": "貨品出口金額成長率"
-            },
-            {
-              "id": "m4",
-              "label": "消費者物價變動率"
-            },
-            {
-              "id": "m5",
-              "label": "工業生產者出廠價格變動率"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "財報解讀：比亞迪當季業績改善，現金流又如何？",
-          "summary": "比亞迪當季營收與歸屬母公司股東的淨利均增加，但累計歸屬母公司股東的淨利仍低於去年同期。",
-          "impact": "年初至今的營業活動現金流量改善，有助於理解財報，但不代表賣車收到的現金增加，也不代表本業帶來的現金足以支應投資支出。",
-          "what": "比亞迪生產純電動車和插電式油電混合車。季度財報分開列示當季與年初至今的累計數據。當季營收和獲利均改善，但累計營收大致持平，累計歸屬母公司股東的淨利下滑。財報僅公布累計營業活動現金流量，未公布當季數據，並指出採購商品和服務的付款減少，是累計現金流量改善的主因。",
-          "why": "帳面獲利是按收入和費用的認列時點計算，營業活動現金流量則追蹤實際收付的現金。即使收到的現金減少，製造商也可能因付給供應商的現金減少，而改善營業活動現金流量。購置固定資產及其他長期資產所支付的現金，列為投資活動。比亞迪在同一累計期間的這類支出高於營業活動現金流量，因此，即使營業活動現金流量改善，也不代表公司能靠本業帶來的現金支應全部這類支出。",
-          "uncertainty": "這份期中財報未經查核。財報無法確認供應商付款減少有多少來自持續性的成本下降，而非付款時間不同，也無法據此得出當季的營業活動現金流量。",
-          "watch": "可留意下次財報中的客戶收款、供應商付款、存貨與長期資產支出，觀察營業活動現金流量是否持續改善。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "當季營收"
-            },
-            {
-              "id": "m2",
-              "label": "當季歸屬母公司股東淨利"
-            },
-            {
-              "id": "m3",
-              "label": "當季歸屬母公司股東淨利成長率"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今累計營收"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今累計歸屬母公司股東淨利"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今累計營業活動現金流量"
-            },
-            {
-              "id": "m7",
-              "label": "年初至今累計營業活動現金流量成長率"
-            },
-            {
-              "id": "m8",
-              "label": "年初至今累計購置長期資產現金支出"
+              "label": "年初至今營業活動現金流量"
             }
           ]
         }
