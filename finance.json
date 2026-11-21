@@ -1,124 +1,129 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-21T09:49:26.730Z",
-  "generatedAt": "2026-11-21T09:57:24.603Z",
+  "cutoffAt": "2026-11-21T17:57:38.492Z",
+  "generatedAt": "2026-11-21T18:07:08.538Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Xinhua Finance US closing report",
-      "url": "https://www.cnfin.com/yw-lb/detail/20261121/4498500_1.html"
+      "label": "Associated Press — Friday closing levels and point changes",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135"
     },
     {
       "id": "src2",
-      "label": "FRED broad US equity index daily observations",
+      "label": "FRED — S&P Dow Jones Indices daily close table",
       "url": "https://fred.stlouisfed.org/data/SP500"
     },
     {
       "id": "src3",
-      "label": "FRED Nasdaq Composite daily observations",
+      "label": "FRED — Nasdaq Composite daily close table",
       "url": "https://fred.stlouisfed.org/data/NASDAQCOM"
     },
     {
       "id": "src4",
-      "label": "Shanghai Composite daily close table",
-      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
+      "label": "Xinhua Finance — Friday mainland closing report",
+      "url": "https://m.cnfin.com/yw-lb/zixun/20261120/4498150_1.html"
     },
     {
       "id": "src5",
-      "label": "Mainland price index closing bulletin",
-      "url": "https://flash.jin10.com/detail/20261120150241840800"
+      "label": "Investing.com — Shanghai Composite daily close table",
+      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src6",
-      "label": "Mainland large-cap price index daily close table",
+      "label": "Investing.com — CSI daily close table",
       "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src7",
-      "label": "Xinhua Finance mainland closing report",
-      "url": "https://m.cnfin.com/yw-lb/zixun/20261120/4498150_1.html"
-    },
-    {
-      "id": "src8",
-      "label": "Issuer announcement of offering and private placement completion",
+      "label": "Anthropic — offering and private placement closing announcement",
       "url": "https://www.anthropic.com/news/ipo-close"
     },
     {
-      "id": "src9",
-      "label": "Final offering prospectus and consolidated financial statements",
+      "id": "src8",
+      "label": "SEC — Anthropic final offering prospectus",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
     },
     {
-      "id": "src10",
-      "label": "Brokerage acquisition filing revision notice",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225678899.PDF"
-    },
-    {
-      "id": "src11",
-      "label": "Brokerage acquisition registration-stage report summary",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225678905.PDF"
-    },
-    {
-      "id": "src12",
-      "label": "Acquiring brokerage quarterly financial report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649370.PDF"
-    },
-    {
-      "id": "src13",
-      "label": "University of Michigan monthly consumer survey release",
-      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
-    },
-    {
-      "id": "src14",
-      "label": "China interbank lending benchmark announcement",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
-    },
-    {
-      "id": "src15",
-      "label": "Prior China interbank lending benchmark announcement",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
-    },
-    {
-      "id": "src16",
-      "label": "China National Bureau of Statistics monthly economic release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html"
-    },
-    {
-      "id": "src17",
-      "label": "Chip designer quarterly earnings release",
+      "id": "src9",
+      "label": "NVIDIA — quarterly earnings release and consolidated statements",
       "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
     },
     {
+      "id": "src10",
+      "label": "NVIDIA — preceding fiscal quarter release",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+    },
+    {
+      "id": "src11",
+      "label": "University of Michigan — final monthly consumer sentiment release",
+      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
+    },
+    {
+      "id": "src12",
+      "label": "China Foreign Exchange Trade System — current loan prime rate announcement",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
+    },
+    {
+      "id": "src13",
+      "label": "China Foreign Exchange Trade System — preceding loan prime rate announcement",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
+    },
+    {
+      "id": "src14",
+      "label": "People’s Bank of China — explanation of loan pricing reference",
+      "url": "https://wzdt.pbc.gov.cn/eportal/ui?msgDataId=d5033b88445d445fba30e19dad3739e6&pageId=77c3557bd521439ea5cd869f5393ba98"
+    },
+    {
+      "id": "src15",
+      "label": "Soochow Securities — acquisition filing revision notice",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225678899.PDF"
+    },
+    {
+      "id": "src16",
+      "label": "Soochow Securities — acquisition registration draft summary",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225678905.PDF"
+    },
+    {
+      "id": "src17",
+      "label": "Soochow Securities — quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649370.PDF"
+    },
+    {
       "id": "src18",
-      "label": "Chip designer supplemental income and cash flow statements",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm"
+      "label": "Rongsheng Petrochemical — controlling shareholder purchase plan",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-21/1225680901.PDF"
     },
     {
       "id": "src19",
-      "label": "Mainland processor designer initial repurchase filing",
-      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-20/688041_20261120_CNJJ.pdf"
+      "label": "Rongsheng Petrochemical — issuer quarterly report hosted by Sina Finance",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2026/2026-10/2026-10-28/12666197.PDF"
+    },
+    {
+      "id": "src20",
+      "label": "Rongsheng Petrochemical — interim report and business review",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225495698.PDF"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-20",
-      "close": 6910.39,
-      "previousClose": 7175.83,
-      "changePercent": -3.7,
-      "sourceIds": [
-        "src1",
-        "src2"
-      ]
-    },
-    {
-      "id": "nasdaq",
       "sessionDate": null,
       "close": null,
       "previousClose": null,
       "changePercent": null,
       "sourceIds": []
+    },
+    {
+      "id": "nasdaq",
+      "sessionDate": "2026-11-20",
+      "close": 22617.73,
+      "previousClose": 23879.2,
+      "changePercent": -5.28,
+      "sourceIds": [
+        "src1",
+        "src3"
+      ]
     },
     {
       "id": "sse",
@@ -130,11 +135,13 @@
     },
     {
       "id": "csi300",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-20",
+      "close": 3954.56,
+      "previousClose": 3984.84,
+      "changePercent": -0.76,
+      "sourceIds": [
+        "src6"
+      ]
     }
   ],
   "stories": [
@@ -158,9 +165,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src7"
           ],
-          "evidence": "Closing announcement reports approximate gross public offering proceeds attributable to the issuer, excluding selling stockholders."
+          "evidence": "Closing announcement gives approximate gross IPO proceeds received by the issuer, before fees and excluding selling stockholders’ proceeds."
         },
         {
           "id": "m2",
@@ -171,9 +178,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src8"
+            "src7"
           ],
-          "evidence": "Closing announcement reports the approximate aggregate purchase price for the concurrent private placement."
+          "evidence": "Closing announcement gives the approximate aggregate purchase price of the completed private placement."
         },
         {
           "id": "m3",
@@ -184,25 +191,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src8"
           ],
-          "evidence": "Consolidated statements of operations, current year-to-date revenue row."
+          "evidence": "Consolidated statements of operations, current unaudited year-to-date revenue row."
         },
         {
           "id": "m4",
-          "value": -1260000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "Consolidated statements of operations, current year-to-date operating loss row."
-        },
-        {
-          "id": "m5",
           "value": -104039000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -210,12 +204,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src8"
           ],
-          "evidence": "Consolidated statements of operations, current year-to-date net loss row."
+          "evidence": "Consolidated statements of operations, current unaudited year-to-date net loss row."
         },
         {
-          "id": "m6",
+          "id": "m5",
           "value": 6569000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -223,16 +217,113 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src8"
           ],
-          "evidence": "Consolidated cash flow statements, current year-to-date net cash from operating activities row."
+          "evidence": "Consolidated cash flow statements, current unaudited year-to-date net cash from operations."
         }
       ],
       "sourceIds": [
-        "src8",
-        "src9"
+        "src7",
+        "src8"
       ],
-      "evidence": "The issuer's closing announcement confirms settlement of the public offering and private placement and full exercise of the underwriters' option. The prospectus business overview describes its AI products, while the consolidated statements distinguish operating loss, net loss and operating cash flow."
+      "evidence": "The issuer’s closing announcement confirms settlement of the public offering with the underwriters’ option fully exercised, as well as a concurrent private placement. The prospectus business section describes Claude distribution; the consolidated statements and cash flow reconciliation distinguish financing proceeds, reported losses and operating cash."
+    },
+    {
+      "id": "f2",
+      "market": "cn",
+      "category": "company",
+      "publishedOn": "2026-11-21",
+      "company": {
+        "name": "Rongsheng Petrochemical Co., Ltd.",
+        "ticker": "002493",
+        "exchange": "Shenzhen Stock Exchange"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 1000000000,
+          "unit": "CNY",
+          "periodStart": "2026-11-23",
+          "periodEnd": "2027-05-22",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src18"
+          ],
+          "evidence": "Plan terms specify the lower spending bound over the stated implementation window, before any extension."
+        },
+        {
+          "id": "m2",
+          "value": 2000000000,
+          "unit": "CNY",
+          "periodStart": "2026-11-23",
+          "periodEnd": "2027-05-22",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src18"
+          ],
+          "evidence": "Plan terms specify the upper spending bound over the stated implementation window, before any extension."
+        },
+        {
+          "id": "m3",
+          "value": 193599117483.78,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src19"
+          ],
+          "evidence": "Quarterly report, key accounting data table, year-to-date operating revenue."
+        },
+        {
+          "id": "m4",
+          "value": 8014927570.72,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src19"
+          ],
+          "evidence": "Quarterly report, key accounting data table, year-to-date net profit attributable to listed-company shareholders."
+        },
+        {
+          "id": "m5",
+          "value": 27075660126.09,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src19"
+          ],
+          "evidence": "Quarterly report, key accounting data table, year-to-date net cash from operating activities."
+        },
+        {
+          "id": "m6",
+          "value": 27111923269.22,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src19"
+          ],
+          "evidence": "Consolidated cash flow statement, year-to-date cash paid to acquire or build fixed, intangible and other long-term assets."
+        }
+      ],
+      "sourceIds": [
+        "src18",
+        "src19",
+        "src20"
+      ],
+      "evidence": "The purchase notice identifies the controlling shareholder as the planned buyer and describes execution and funding risks. The quarterly report supplies historical results and investment cash payments; the interim report’s business review describes integrated refining and chemicals operations."
     },
     {
       "id": "f3",
@@ -242,19 +333,6 @@
       "company": null,
       "metrics": [
         {
-          "id": "m1",
-          "value": 51.5,
-          "unit": "index",
-          "periodStart": "2026-11-20",
-          "periodEnd": "2026-11-20",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The Consumer Sentiment Index section gives the headline reading for the current survey month. The metric is dated to the release, not the calendar month-end."
-        },
-        {
           "id": "m2",
           "value": 48,
           "unit": "index",
@@ -263,41 +341,15 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src13"
+            "src11"
           ],
-          "evidence": "Consumer Sentiment Index section gives the prior month's headline reading."
-        },
-        {
-          "id": "m3",
-          "value": 49.4,
-          "unit": "index",
-          "periodStart": "2026-11-20",
-          "periodEnd": "2026-11-20",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The Consumer Sentiment Index section gives the current conditions reading. The metric is dated to the release, not the calendar month-end."
-        },
-        {
-          "id": "m4",
-          "value": 52.9,
-          "unit": "index",
-          "periodStart": "2026-11-20",
-          "periodEnd": "2026-11-20",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The Consumer Sentiment Index section gives the expectations reading. The metric is dated to the release, not the calendar month-end."
+          "evidence": "Consumer Sentiment Index section, preceding survey month’s headline reading."
         }
       ],
       "sourceIds": [
-        "src13"
+        "src11"
       ],
-      "evidence": "The dated survey release reports improved headline sentiment and business expectations, alongside softer near-term inflation expectations. The release gives the interview window and describes differences across households."
+      "evidence": "The university’s final release records a higher headline reading. Its survey methods section gives a statistical significance threshold that the headline monthly increase did not reach."
     },
     {
       "id": "f6",
@@ -305,55 +357,96 @@
       "category": "company",
       "publishedOn": "2026-11-20",
       "company": {
-        "name": "Hygon Information Technology Co., Ltd.",
-        "ticker": "688041",
-        "exchange": "Shanghai Stock Exchange STAR Market"
+        "name": "Soochow Securities Co., Ltd.",
+        "ticker": "601555",
+        "exchange": "Shanghai Stock Exchange"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 1376676,
-          "unit": "count",
-          "periodStart": "2026-11-19",
-          "periodEnd": "2026-11-19",
+          "value": 83.68,
+          "unit": "percent",
+          "periodStart": "2026-11-20",
+          "periodEnd": "2026-11-20",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src19"
+            "src16"
           ],
-          "evidence": "Repurchase progress section gives the shares purchased in the initial execution."
+          "evidence": "Valuation and transaction table gives the proposed stake as disclosed in the registration draft, not ownership already acquired."
         },
         {
           "id": "m2",
-          "value": 235259040.58,
+          "value": 11518500600,
           "unit": "CNY",
-          "periodStart": "2026-11-19",
-          "periodEnd": "2026-11-19",
+          "periodStart": "2026-11-20",
+          "periodEnd": "2026-11-20",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src19"
+            "src16"
           ],
-          "evidence": "Repurchase progress section gives actual cash paid, excluding commissions and other transaction expenses."
+          "evidence": "Valuation and transaction table gives the agreed consideration for the proposed stake, not a completed payment."
         },
         {
           "id": "m3",
-          "value": 0.06,
-          "unit": "percent",
-          "periodStart": "2026-11-19",
-          "periodEnd": "2026-11-19",
+          "value": 732261600,
+          "unit": "CNY",
+          "periodStart": "2026-11-20",
+          "periodEnd": "2026-11-20",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src19"
+            "src16"
           ],
-          "evidence": "Repurchase progress section gives the rounded proportion of outstanding share capital repurchased."
+          "evidence": "Transaction counterparty table, total cash component of proposed consideration, not cash already paid."
+        },
+        {
+          "id": "m4",
+          "value": 6974493362.75,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src17"
+          ],
+          "evidence": "Quarterly report, key financial data table, year-to-date operating revenue before the proposed acquisition."
+        },
+        {
+          "id": "m5",
+          "value": 2708122673.19,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src17"
+          ],
+          "evidence": "Quarterly report, key financial data table, year-to-date net profit attributable to listed-company shareholders."
+        },
+        {
+          "id": "m6",
+          "value": -14818095330.84,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src17"
+          ],
+          "evidence": "Quarterly report, consolidated cash flow statement, year-to-date net cash used in operations."
         }
       ],
       "sourceIds": [
-        "src19"
+        "src15",
+        "src16",
+        "src17"
       ],
-      "evidence": "The initial repurchase filing records completed open-market purchases and identifies employee ownership or equity incentives as the intended use. The background section describes a dedicated bank loan commitment without reporting a draw."
+      "evidence": "The revision notice records the exchange committee’s favorable review; the registration draft states the proposed share-and-cash consideration and the remaining securities regulator registration requirement. The quarterly report provides historical financials before any combination."
     }
   ],
   "locales": {
@@ -367,12 +460,12 @@
         {
           "id": "f1",
           "title": "Anthropic closes its public offering and private placement",
-          "summary": "The maker of Claude completed its public share sale and a separate placement with strategic investors.",
-          "impact": "The financing expands its capacity to pay for computing infrastructure without showing whether its AI services can fund that expansion on their own.",
-          "what": "Anthropic develops AI models and sells access through software products and developer tools, including coding tools. Its closing notice says underwriters exercised their option to buy additional shares in full. The public sale included both newly issued shares and shares sold by existing holders; the issuer received no proceeds from the latter. The company also completed a separate sale to strategic investors.",
-          "why": "Money raised from investors is financing cash, not revenue from customers. The prospectus shows that Anthropic reported an operating loss and a much larger net loss, yet generated positive cash from operations over the same period. Revaluing convertible notes and related instruments added a large accounting charge that was reversed in the reconciliation to operating cash. The funding gives Anthropic room to invest in capacity, but says little about what customers will ultimately pay to use it.",
-          "uncertainty": "Positive operating cash flow does not show what remains after equipment purchases and other infrastructure commitments. Customer collection and vendor payment timing can also make cash generation uneven.",
-          "watch": "Look for the next public cash flow statement, especially whether operating cash generation persists alongside spending on equipment and prepayments for leased assets.",
+          "summary": "Anthropic completed its public offering and a separate share sale to strategic investors.",
+          "impact": "The equity proceeds expand its ability to fund computing capacity, but do not show whether selling AI services can cover the cost of scaling.",
+          "what": "Anthropic develops Claude and sells access through its own products, developer tools and cloud partners. The closing release confirms that the underwriters took up their option to buy additional shares and that the private placement also settled. Some of the public offering consisted of existing stockholders selling their shares, so the total deal size is not the amount raised by the company. The prospectus provides a separate view of how the business performed before the listing.",
+          "why": "Issuing shares brings cash in from investors; selling access to Claude brings in revenue from customers. The distinction matters because training and serving AI models require computing capacity well before the return on that investment is known. The prospectus shows positive operating cash flow alongside an accounting loss. Its reconciliation shows that changes in the recorded value of financing instruments were a major noncash adjustment. That makes the headline loss a poor proxy for cash spent running the business, just as positive operating cash flow is not proof the company covered all of its investment spending.",
+          "uncertainty": "The closing proceeds are gross, and the interim results do not establish whether operating cash generation will persist as customer collections, supplier payments and infrastructure spending change.",
+          "watch": "Read the next public cash flow statement alongside compute expense and hosting commitments. Look for whether customer cash receipts keep pace with the cost of delivering the service.",
           "metricLabels": [
             {
               "id": "m1",
@@ -380,7 +473,7 @@
             },
             {
               "id": "m2",
-              "label": "Gross private placement proceeds"
+              "label": "Private placement proceeds"
             },
             {
               "id": "m3",
@@ -388,74 +481,106 @@
             },
             {
               "id": "m4",
-              "label": "Year-to-date operating loss"
+              "label": "Year-to-date net loss"
             },
             {
               "id": "m5",
-              "label": "Year-to-date net loss"
+              "label": "Year-to-date operating cash flow"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Rongsheng’s controlling shareholder plans market purchases",
+          "summary": "Rongsheng Petrochemical disclosed that its controlling shareholder intends to buy more of the listed company’s shares.",
+          "impact": "The purchases could add demand for the stock if carried out, but they would not put cash into the refiner.",
+          "what": "Rongsheng runs integrated refining and chemical operations, turning crude oil into fuels and materials used in products such as plastics and textiles. Its controlling shareholder plans to buy existing shares through the market without setting a purchase price range. The notice describes an intended purchase program, not trades that have already occurred. The earlier quarterly report gives operating context: year-to-date sales were lower than a year earlier, while profit attributable to shareholders and operating cash flow were higher.",
+          "why": "This is different from a company buyback. Cash would go from the controlling shareholder to investors who sell, rather than leave or enter the listed company’s accounts. For the refiner itself, the cash remaining after investment matters more to its ability to finance plants and service debt. Its quarterly filing shows that cash paid for long-term assets slightly exceeded cash generated by operations over the same year-to-date period. Higher accounting profit therefore does not automatically translate into more cash available for other uses.",
+          "uncertainty": "The notice says funding availability and market conditions could delay or prevent implementation. Past cash generation also does not establish how much the refiner will retain as crude costs, product prices and project spending change.",
+          "watch": "Look for disclosures of shares actually purchased and amounts spent, then compare operating cash and long-term asset spending in the next financial report.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Planned shareholder purchases, lower bound"
+            },
+            {
+              "id": "m2",
+              "label": "Planned shareholder purchases, upper bound"
+            },
+            {
+              "id": "m3",
+              "label": "Year-to-date revenue"
+            },
+            {
+              "id": "m4",
+              "label": "Year-to-date net profit attributable to shareholders"
+            },
+            {
+              "id": "m5",
+              "label": "Year-to-date operating cash flow"
+            },
+            {
+              "id": "m6",
+              "label": "Year-to-date cash paid for long-term assets"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "US consumer sentiment improves, but the signal is tentative",
+          "summary": "The University of Michigan’s final survey showed better consumer sentiment, with stronger expectations for business conditions.",
+          "impact": "Improving confidence could help support discretionary spending, but the survey does not show that households are already spending more.",
+          "what": "The university’s headline index rose from the previous survey, and its measures of current conditions and expectations also improved. The survey director reported that lower- and middle-wealth households felt some relief from declining gasoline prices, while respondents with the largest stock portfolios reported weaker personal finances. The improvement in the average did not mean that every group experienced the economy the same way.",
+          "why": "Gasoline savings can leave more room in household budgets for other purchases. Confidence about future income and business conditions can also affect whether people commit to a large purchase or keep money aside. A household can feel better about the outlook but still be constrained by rent, debt payments or today’s prices. Actual sales and spending data are a better test of whether the change in sentiment reached retailers.",
+          "uncertainty": "The headline increase was below the university’s threshold for statistical significance. The interviews also ended before Friday’s stock market decline, so this release cannot show how households reacted to it.",
+          "watch": "Compare the next survey with retail sales and personal spending data to see whether stronger expectations are accompanied by actual purchases.",
+          "metricLabels": [
+            {
+              "id": "m2",
+              "label": "Prior month consumer sentiment index"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "Soochow advances its proposed Donghai Securities acquisition",
+          "summary": "Soochow Securities published a revised registration draft for its proposed controlling investment in Donghai Securities after favorable exchange committee review.",
+          "impact": "The deal could widen the broker’s client reach, but new shares would spread ownership across a larger shareholder base.",
+          "what": "Soochow, a securities broker, proposes to acquire control of Donghai Securities using mostly newly issued shares and a smaller cash payment funded from its own resources. The updated filing records the exchange review and the approvals still needed. It is not a closing announcement. The buyer’s earlier standalone report shows positive year-to-date profit attributable to shareholders alongside a net operating cash outflow.",
+          "why": "Combining brokers can spread technology and compliance costs across more clients. But the economics for existing shareholders depend on how much profit the acquired business adds relative to the extra shares issued and the cost of integration. The buyer’s historical operating outflow is also not the same as an accounting loss: its cash flow statement includes a large outflow tied to repurchase financing, a form of secured borrowing used by securities firms. That makes funding flows important when assessing the cash cost of the acquisition.",
+          "uncertainty": "Registration by China’s securities regulator is still required. The filing does not establish that the businesses will integrate successfully or that hypothetical combined results will be realized.",
+          "watch": "Look for the regulator’s registration decision, a closing or share issuance notice, and subsequent reporting on integration costs and regulatory capital.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Proposed stake in target"
+            },
+            {
+              "id": "m2",
+              "label": "Proposed total consideration"
+            },
+            {
+              "id": "m3",
+              "label": "Proposed cash consideration"
+            },
+            {
+              "id": "m4",
+              "label": "Year-to-date revenue before acquisition"
+            },
+            {
+              "id": "m5",
+              "label": "Year-to-date net profit attributable to shareholders"
             },
             {
               "id": "m6",
               "label": "Year-to-date operating cash flow"
             }
           ]
-        },
-        {
-          "id": "f3",
-          "title": "US consumer confidence improves but remains subdued",
-          "summary": "The University of Michigan's final monthly survey showed better consumer sentiment and softer near-term inflation expectations.",
-          "impact": "The improvement is useful context for holiday demand, but it does not show that households are spending more.",
-          "what": "The final reading improved from the prior month, and the expectations gauge rose more than the current conditions gauge. Households with less wealth reported some relief from falling gasoline prices, while those with the largest stockholdings reported a deterioration in personal finances.",
-          "why": "Expecting prices to rise more slowly can ease household budget worries, but it does not undo earlier price increases. Households may save the money freed up at the pump or repay debt rather than spend it at stores. For retailers, the question is whether better expectations translate into purchases without heavier promotions. Spending data can help businesses decide whether to adjust staffing or inventory.",
-          "uncertainty": "This survey measures attitudes, not purchases or actual inflation. Interviews ended before the latest equity-market close, so the release cannot show how households reacted to that session.",
-          "watch": "Compare the next survey with retail sales and household spending data, and check whether changes in gasoline prices show up in measured inflation.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Consumer sentiment index at release"
-            },
-            {
-              "id": "m2",
-              "label": "Prior month consumer sentiment index"
-            },
-            {
-              "id": "m3",
-              "label": "Current economic conditions index at release"
-            },
-            {
-              "id": "m4",
-              "label": "Consumer expectations index at release"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Hygon begins buying shares for employee incentives",
-          "summary": "Hygon disclosed completed open-market repurchases under its plan to use shares for employee ownership or equity incentives.",
-          "impact": "The purchases use cash for a potential tool to retain chip designers rather than to retire shares outright.",
-          "what": "Hygon designs general-purpose processors and specialized computing accelerators. Its exchange filing reports the initial purchases and separates actual spending from the previously authorized program. It also discloses a bank commitment for a dedicated repurchase loan. The commitment is not evidence that Hygon drew on the loan to fund the trades.",
-          "why": "Hygon spends cash now to have shares available for future awards. If those shares are transferred to employees, the purchase may not produce a lasting reduction in shares held outside the company. Equity compensation can help retain engineers through long product cycles, but shareholders still need to weigh that potential benefit against the cash used and any financing cost.",
-          "uncertainty": "The filing does not establish the eventual size of the program, the source of cash for the completed purchases, or the terms on which employees might receive shares. It does not provide a fresh measure of sales, profit or operating cash generation.",
-          "watch": "Look for subsequent repurchase totals, any draw under the loan commitment, and an employee plan filing that sets out award and vesting terms.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Shares repurchased"
-            },
-            {
-              "id": "m2",
-              "label": "Repurchase cash paid before fees"
-            },
-            {
-              "id": "m3",
-              "label": "Share capital repurchased"
-            }
-          ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请留意各条消息的发布日期；近期公司报告仅用于提供背景和解读。",
+      "status": "本期聚焦美国和中国的财经动态。请留意各条消息的发布日期；近期发布的公司报告在本期用作背景解读。",
       "marketSummary": {
         "us": "部分收盘数据未能核实。已取得数据的指数均保留各自对应的交易日期。",
         "cn": "部分收盘数据未能核实。已取得数据的指数均保留各自对应的交易日期。"
@@ -464,12 +589,12 @@
         {
           "id": "f1",
           "title": "Anthropic 完成公开发行和私募配售",
-          "summary": "Claude 的开发商 Anthropic 完成了公开售股，并另行向战略投资者配售股份。",
-          "impact": "这笔融资增强了公司为算力基础设施投入资金的能力，但并不能说明其人工智能服务能否靠自身赚来的钱支撑扩张。",
-          "what": "Anthropic 开发人工智能模型，通过软件产品和开发者工具提供付费使用服务，编程工具也在其中。公司在发行完成公告中表示，承销商已全额行使额外购股权。公开发售既包括新发行的股份，也包括原股东出售的股份；后者的售股款不归公司。公司还完成了面向战略投资者的配售。",
-          "why": "从投资者那里筹到的是融资款，不是客户带来的营收。招股说明书显示，Anthropic 当期出现营业亏损，净亏损远大于营业亏损，但同期经营现金流为正。可转换票据及相关金融工具的重新估值带来了大额账面损失；从净亏损调节至经营现金流时，这笔非现金损失被加回。融资让公司有更多余地扩充算力，但不能说明客户最终愿意为使用这些服务付多少钱。",
-          "uncertainty": "经营现金流为正，并不代表扣除设备采购和其他基础设施承诺支出后还能剩下多少现金。客户回款和向供应商付款的时间也可能造成经营现金流波动。",
-          "watch": "关注下次公开披露的现金流量表，尤其是在购置设备和预付租赁资产款项的同时，经营现金流能否继续保持为正。",
+          "summary": "Anthropic 完成了股票公开发行，也完成了面向战略投资者的私募配售。",
+          "impact": "股权融资让公司有更多资金投入算力，但不能说明销售人工智能服务的收入能否覆盖扩大业务规模的成本。",
+          "what": "Anthropic 开发了 Claude，通过自有产品、开发者工具和云服务合作伙伴向客户提供付费使用渠道。交割公告确认，承销商行使了增购股份的选择权，私募配售也已完成交割。公开发行中有部分股份由原股东出售，因此交易总规模不等于公司实际募集的金额。招股说明书则提供了公司上市前的经营情况。",
+          "why": "发行股票带来的是投资者投入的资金，销售 Claude 的使用权限带来的是客户支付形成的营收。区分两者很重要，因为训练和运行人工智能模型需要提前投入算力，而这些投入能带来多少回报，当时还不清楚。招股说明书显示，公司账面亏损，但经营现金流为正。利润与经营现金流的调节表显示，融资工具账面价值的变动是主要的非现金调整项目。这意味着，不能仅凭账面亏损判断公司日常经营花了多少现金，也不能因为经营现金流为正，就认定公司已覆盖全部投资支出。",
+          "uncertainty": "交割时披露的募集金额为未扣除相关费用的总额。随着客户回款、供应商付款和基础设施支出发生变化，期间业绩无法说明经营活动能否持续带来现金净流入。",
+          "watch": "结合算力费用和托管服务支出承诺，查看下次公开披露的现金流量表，关注客户回款能否跟上提供服务所需的支出。",
           "metricLabels": [
             {
               "id": "m1",
@@ -477,7 +602,7 @@
             },
             {
               "id": "m2",
-              "label": "私募配售募集资金总额"
+              "label": "私募配售募集资金"
             },
             {
               "id": "m3",
@@ -485,88 +610,120 @@
             },
             {
               "id": "m4",
-              "label": "年初至今营业亏损"
-            },
-            {
-              "id": "m5",
               "label": "年初至今净亏损"
             },
             {
-              "id": "m6",
+              "id": "m5",
               "label": "年初至今经营现金流"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "美国消费者信心回升，但仍处于低位",
-          "summary": "密歇根大学公布的月度调查终值显示，消费者信心有所改善，对短期通胀的预期有所下降。",
-          "impact": "信心回升有助于理解假日消费需求，但不能证明家庭实际花得更多了。",
-          "what": "调查终值较上月回升，消费者预期指数的升幅超过当前经济状况指数。财富较少的家庭表示，汽油价格下跌给他们减轻了些压力；持有股票最多的家庭则表示，自身财务状况有所恶化。",
-          "why": "预期物价涨得慢些，可以减轻家庭对预算的担忧，但不会抵消此前的涨价。家庭可能把加油省下的钱存起来或用于还债，而不是拿去购物。对零售商而言，关键在于不加大促销力度，消费者预期好转能否带来实际购买。消费支出数据有助于企业判断是否需要调整人员安排或库存。",
-          "uncertainty": "这项调查反映的是消费者的看法，不是实际购买行为或实际通胀。访谈在股市最近收盘前就已结束，因此这次发布无法反映家庭对该交易时段行情的反应。",
-          "watch": "将下次调查结果与零售销售和家庭消费支出数据对照，并留意汽油价格变化是否反映在通胀数据中。",
+          "id": "f2",
+          "title": "荣盛石化控股股东拟通过市场增持",
+          "summary": "荣盛石化披露，控股股东拟增持上市公司股份。",
+          "impact": "如果增持落地，可能增加市场对该股的买入需求，但不会给荣盛石化带来现金流入。",
+          "what": "荣盛石化经营炼油和化工一体化业务，将原油加工成燃料，以及用于塑料、纺织品等产品的原材料。控股股东计划通过市场买入已发行股份，没有设定增持价格区间。公告披露的是增持计划，并非已经完成的交易。此前的季报提供了经营背景：年初至今的营收较上年同期下降，归属于股东的净利润和经营现金流则有所增加。",
+          "why": "这与上市公司回购不同：资金将由控股股东付给卖出股份的投资者，不会流入或流出上市公司的账户。对荣盛石化而言，投资后剩余的现金，更能说明公司能否为工厂项目筹措资金并偿还债务。季报显示，年初至今用于购建长期资产的现金支出略高于同期经营活动带来的现金净流入。因此，账面利润增加，并不意味着可用于其他用途的现金也会增加。",
+          "uncertainty": "公告称，资金能否到位以及市场状况都可能导致增持推迟或无法实施。随着原油成本、产品价格和项目支出变化，过去的现金流表现也不能说明公司今后能留下多少现金。",
+          "watch": "关注后续披露的实际增持股份和支出金额，再对照下份财报中的经营现金流和长期资产支出。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "本期消费者信心指数"
+              "label": "股东拟增持金额下限"
             },
             {
               "id": "m2",
-              "label": "上月消费者信心指数"
+              "label": "股东拟增持金额上限"
             },
             {
               "id": "m3",
-              "label": "本期当前经济状况指数"
+              "label": "年初至今营收"
             },
             {
               "id": "m4",
-              "label": "本期消费者预期指数"
+              "label": "年初至今归属于股东的净利润"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今经营现金流"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今购建长期资产支付的现金"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "美国消费者信心回升，但改善迹象尚不明确",
+          "summary": "密歇根大学公布的调查终值显示，消费者信心有所回升，对未来经济形势的预期也更乐观。",
+          "impact": "信心回升可能有助于支撑非必需消费，但调查并未显示家庭已经增加支出。",
+          "what": "密歇根大学的消费者信心总指数较上次调查上升，反映当前状况和未来预期的指标也有所改善。调查负责人表示，汽油价格下降，让财富水平较低和居中的家庭感到压力有所缓解；而股票持仓规模最大的受访者则表示，个人财务状况有所恶化。整体信心回升，并不意味着各群体对经济状况的感受相同。",
+          "why": "汽油开销减少，可以让家庭腾出更多预算用于其他消费。人们对未来收入和经济形势的信心，也会影响他们是愿意花大钱购物，还是先把钱存起来。即使对前景更乐观，家庭仍可能受到房租、还款压力或当前物价的限制。实际销售和消费支出数据，更能检验信心回升是否带动了零售消费。",
+          "uncertainty": "总指数的涨幅未达到密歇根大学设定的统计显著性门槛。调查访谈在周五股市下跌前就已结束，因此本次结果无法反映家庭对这次下跌的反应。",
+          "watch": "将下次调查结果与零售销售和个人消费支出数据对照，看看预期改善是否伴随实际消费增加。",
+          "metricLabels": [
+            {
+              "id": "m2",
+              "label": "上月消费者信心指数"
             }
           ]
         },
         {
           "id": "f6",
-          "title": "海光信息开始为员工激励回购股份",
-          "summary": "海光信息披露，已按计划在公开市场回购股份，拟用于员工持股或股权激励。",
-          "impact": "公司动用现金回购股份，目的是为留住芯片设计人才提供激励工具，而不是直接注销股份。",
-          "what": "海光信息设计通用处理器和专用计算加速器。公司向交易所提交的公告披露了计划启动后的回购情况，并区分了实际支出和此前获批的回购安排。公告还披露了银行提供的回购专项贷款承诺，但这并不能证明公司已提取贷款来支付这些回购款。",
-          "why": "海光信息现在花钱回购，是为了给未来的员工激励留出可用股份。如果这些股份之后转给员工，回购未必能持续减少公司以外持有的股份。股权激励有助于公司在漫长的产品周期中留住工程师，但股东仍需权衡这种潜在好处、已经花掉的现金以及可能产生的融资成本。",
-          "uncertainty": "公告没有明确最终回购规模、已完成回购的资金来源，也没有说明员工可能按什么条件获得股份。公告也未提供销售、利润或经营现金流的最新数据。",
-          "watch": "关注后续累计回购情况、公司是否根据贷款承诺提款，以及员工持股或激励计划公告是否明确股份授予和归属条件。",
+          "title": "东吴证券推进拟收购东海证券控股权的交易",
+          "summary": "拟取得东海证券控股权的交易获交易所审核委员会审议通过后，东吴证券发布了修订后的注册稿。",
+          "impact": "交易可能扩大东吴证券的客户覆盖范围，但发行新股会稀释现有股东的持股比例。",
+          "what": "东吴证券拟以新发行的股份为主要对价，并用自有资金支付较少的现金，以取得东海证券的控股权。更新后的申报文件说明了交易所的审核情况和仍需完成的审批程序，并不是交割公告。东吴证券此前不含本次收购的财报显示，年初至今归属于股东的净利润为正，但经营活动现金净流出。",
+          "why": "券商合并后，可以由更大的客户群分摊技术和合规成本。但对现有股东是否划算，要看被收购业务能增加多少利润，以及为此需要发行多少新股、承担多少整合成本。东吴证券此前的经营现金净流出也不等于账面亏损：其现金流量表列有与回购融资相关的大额现金流出。回购融资是券商使用的有担保借款方式。因此，评估这笔收购需要动用多少现金时，也要看融资相关的资金流动。",
+          "uncertainty": "交易仍需中国证监会注册。申报文件无法证明双方能够顺利整合，也不能保证按合并口径测算的业绩能够实现。",
+          "watch": "关注证监会的注册决定、交割或股份发行公告，以及后续披露的整合成本和监管资本情况。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "已回购股份数量"
+              "label": "拟收购标的股权比例"
             },
             {
               "id": "m2",
-              "label": "已支付回购金额（不含交易费用）"
+              "label": "拟议交易总对价"
             },
             {
               "id": "m3",
-              "label": "已回购股份占总股本比例"
+              "label": "拟支付现金对价"
+            },
+            {
+              "id": "m4",
+              "label": "收购前年初至今营收"
+            },
+            {
+              "id": "m5",
+              "label": "收购前年初至今归属于股东的净利润"
+            },
+            {
+              "id": "m6",
+              "label": "收购前年初至今经营现金流"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité aux États-Unis et en Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises servent à expliquer le contexte.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour éclairer le contexte.",
       "marketSummary": {
-        "us": "Certains cours de clôture n’ont pas pu être vérifiés. Chaque indice pour lequel des données sont disponibles conserve la date de la séance correspondante.",
-        "cn": "Certains cours de clôture n’ont pas pu être vérifiés. Chaque indice pour lequel des données sont disponibles conserve la date de la séance correspondante."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Les données disponibles pour chaque indice restent associées à leur date de cotation.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Les données disponibles pour chaque indice restent associées à leur date de cotation."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Anthropic finalise son offre au public et son placement privé",
-          "summary": "Le créateur de Claude a mené à terme son offre d’actions au public ainsi qu’un placement distinct auprès d’investisseurs stratégiques.",
-          "impact": "Les fonds levés permettent à Anthropic de consacrer davantage de moyens à son infrastructure informatique, sans montrer si ses services d’IA peuvent à eux seuls financer ce développement.",
-          "what": "Anthropic développe des modèles d’IA et vend l’accès à ces modèles via des logiciels et des outils destinés aux développeurs, notamment pour écrire du code. D’après l’avis de clôture de l’opération, les banques chargées du placement ont exercé intégralement leur option d’achat d’actions supplémentaires. L’offre au public portait sur des actions nouvellement émises et sur des actions cédées par des actionnaires existants. Anthropic n’a rien encaissé sur ces cessions. La société a également finalisé un placement distinct auprès d’investisseurs stratégiques.",
-          "why": "Les fonds apportés par les investisseurs sont des entrées de trésorerie liées au financement, pas du chiffre d’affaires provenant des clients. Le prospectus indique qu’Anthropic a enregistré une perte d’exploitation et une perte nette nettement plus importante, tout en dégageant un flux de trésorerie d’exploitation positif sur la même période. La réévaluation des titres de dette convertibles et des instruments associés a entraîné une charge comptable importante. Celle-ci a été neutralisée lors du passage du résultat net au flux de trésorerie d’exploitation. Les fonds levés donnent à Anthropic de la marge pour investir dans ses capacités informatiques, mais renseignent peu sur ce que les clients paieront à terme pour les utiliser.",
-          "uncertainty": "Un flux de trésorerie d’exploitation positif ne dit pas ce qu’il reste après les achats de matériel et les autres engagements liés aux infrastructures. Le décalage entre les encaissements auprès des clients et les paiements aux fournisseurs peut aussi rendre ces flux irréguliers.",
-          "watch": "Dans le prochain tableau des flux de trésorerie rendu public, regardez si l’activité continue de dégager de la trésorerie alors que l’entreprise achète du matériel et verse des avances pour des actifs loués.",
+          "title": "Anthropic clôture son offre au public et son placement privé",
+          "summary": "Anthropic a mené à terme son offre au public et une vente distincte d’actions à des investisseurs stratégiques.",
+          "impact": "Les fonds levés renforcent la capacité d’Anthropic à financer ses moyens de calcul, sans montrer si la vente de services d’IA peut couvrir les coûts liés à leur déploiement à plus grande échelle.",
+          "what": "Anthropic développe Claude et en vend l’accès via ses propres produits, ses outils pour les développeurs et ses partenaires du cloud. Le communiqué de clôture confirme que les banques chargées du placement ont exercé leur option d’achat d’actions supplémentaires et que le placement privé a également été finalisé. Une partie de l’offre au public portait sur des actions vendues par des actionnaires existants : le montant total de l’opération ne correspond donc pas à la somme levée par Anthropic. Le prospectus présente séparément les résultats de l’entreprise avant son entrée en Bourse.",
+          "why": "Émettre des actions permet de faire entrer de l’argent apporté par les investisseurs ; vendre l’accès à Claude génère du chiffre d’affaires auprès des clients. La distinction compte, car il faut mobiliser des moyens de calcul pour entraîner les modèles d’IA et les faire fonctionner bien avant de savoir ce que cet investissement rapportera. Le prospectus fait état d’un flux de trésorerie d’exploitation positif malgré une perte comptable. Le détail du passage du résultat comptable au flux de trésorerie montre que les variations de la valeur comptable des instruments de financement ont constitué un ajustement important, sans mouvement de trésorerie. La perte affichée donne donc une mauvaise idée des sommes réellement dépensées pour faire tourner l’activité. De même, un flux de trésorerie d’exploitation positif ne prouve pas que l’entreprise a couvert toutes ses dépenses d’investissement.",
+          "uncertainty": "Les montants annoncés à la clôture sont bruts. Les résultats intermédiaires ne permettent pas de savoir si l’activité continuera à dégager de la trésorerie à mesure qu’évolueront les encaissements auprès des clients, les paiements aux fournisseurs et les dépenses d’infrastructure.",
+          "watch": "Lisez le prochain tableau des flux de trésorerie rendu public en parallèle des dépenses de calcul et des engagements liés à l’hébergement. Vérifiez si les encaissements auprès des clients suivent l’évolution du coût de fourniture du service.",
           "metricLabels": [
             {
               "id": "m1",
@@ -574,298 +731,394 @@
             },
             {
               "id": "m2",
-              "label": "Produit brut du placement privé"
+              "label": "Produit du placement privé"
             },
             {
               "id": "m3",
-              "label": "Chiffre d’affaires cumulé depuis le début de l’année"
+              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
             },
             {
               "id": "m4",
-              "label": "Perte d’exploitation cumulée depuis le début de l’année"
+              "label": "Perte nette cumulée depuis le début de l’exercice"
             },
             {
               "id": "m5",
-              "label": "Perte nette cumulée depuis le début de l’année"
+              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "L’actionnaire de contrôle de Rongsheng prévoit d’acheter des actions en Bourse",
+          "summary": "Rongsheng Petrochemical a annoncé que son actionnaire de contrôle comptait acheter davantage d’actions de la société cotée.",
+          "impact": "S’ils se concrétisent, ces achats pourraient soutenir la demande pour le titre, mais ils n’apporteraient pas de trésorerie au raffineur.",
+          "what": "Rongsheng combine raffinage et production chimique : le groupe transforme le pétrole brut en carburants et en matières utilisées notamment dans les plastiques et les textiles. Son actionnaire de contrôle prévoit d’acheter en Bourse des actions déjà en circulation, sans fixer de fourchette de prix. L’avis décrit un programme d’achats envisagé, et non des transactions déjà réalisées. Le rapport trimestriel précédent donne du contexte sur l’activité : depuis le début de l’exercice, le chiffre d’affaires était en baisse par rapport à la même période de l’exercice précédent, tandis que le bénéfice attribuable aux actionnaires et le flux de trésorerie d’exploitation étaient en hausse.",
+          "why": "Ce n’est pas un rachat d’actions par la société. L’argent irait de l’actionnaire de contrôle aux investisseurs qui vendent leurs titres, sans entrer dans les comptes de la société cotée ni en sortir. Pour le raffineur lui-même, c’est surtout la trésorerie qui reste après les investissements qui compte pour financer ses installations et honorer sa dette. Selon le rapport trimestriel, les sommes versées pour acquérir des actifs à long terme ont légèrement dépassé la trésorerie générée par l’exploitation sur la même période depuis le début de l’exercice. Un bénéfice comptable en hausse ne signifie donc pas automatiquement que l’entreprise dispose de plus de liquidités pour d’autres usages.",
+          "uncertainty": "L’avis précise que la disponibilité des fonds et les conditions de marché pourraient retarder ou empêcher les achats. La trésorerie générée par le passé ne permet pas non plus de savoir combien le raffineur conservera à mesure qu’évolueront le coût du brut, les prix de ses produits et les dépenses liées à ses projets.",
+          "watch": "Suivez les annonces sur les actions effectivement achetées et les montants dépensés. Dans le prochain rapport financier, comparez la trésorerie générée par l’exploitation aux dépenses consacrées aux actifs à long terme.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Achats prévus par l’actionnaire : borne basse"
+            },
+            {
+              "id": "m2",
+              "label": "Achats prévus par l’actionnaire : borne haute"
+            },
+            {
+              "id": "m3",
+              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
+            },
+            {
+              "id": "m4",
+              "label": "Bénéfice net attribuable aux actionnaires, cumulé depuis le début de l’exercice"
+            },
+            {
+              "id": "m5",
+              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
             },
             {
               "id": "m6",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’année"
+              "label": "Décaissements pour l’acquisition d’actifs à long terme, cumulés depuis le début de l’exercice"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "États-Unis : la confiance des consommateurs remonte mais reste faible",
-          "summary": "Les résultats définitifs de l’enquête mensuelle de l’université du Michigan montrent que les consommateurs sont plus confiants et s’attendent à une inflation moins forte à court terme.",
-          "impact": "Cette amélioration aide à comprendre le contexte de la demande pendant les fêtes, mais elle ne montre pas que les ménages dépensent davantage.",
-          "what": "L’indice définitif a progressé par rapport au mois précédent, et l’indice des anticipations a davantage augmenté que celui de la situation économique actuelle. Les ménages au patrimoine plus modeste ont indiqué que la baisse du prix de l’essence leur avait apporté un certain répit. Ceux qui détenaient le plus d’actions ont en revanche signalé une dégradation de leurs finances personnelles.",
-          "why": "S’attendre à une hausse plus lente des prix peut rassurer les ménages au sujet de leur budget, sans effacer les hausses passées. Ils peuvent épargner l’argent économisé à la pompe ou rembourser leurs dettes plutôt que de le dépenser en magasin. Pour les commerçants, la question est de savoir si ce regain d’optimisme se traduira par des achats sans qu’il soit nécessaire d’accentuer les promotions. Les données sur les dépenses peuvent aider les entreprises à décider s’il faut ajuster leurs effectifs ou leurs stocks.",
-          "uncertainty": "Cette enquête mesure le ressenti des ménages, pas leurs achats ni l’inflation constatée. Les entretiens se sont achevés avant la clôture de la dernière séance boursière, de sorte que les résultats ne montrent pas comment les ménages ont réagi à cette séance.",
-          "watch": "Comparez la prochaine enquête aux données sur les ventes au détail et les dépenses des ménages, et vérifiez si les variations du prix de l’essence se retrouvent dans l’inflation mesurée.",
+          "title": "La confiance des ménages américains s’améliore, mais le signal reste incertain",
+          "summary": "Les résultats définitifs de l’enquête de l’université du Michigan montrent une amélioration de la confiance des ménages et des attentes plus favorables quant à la conjoncture économique.",
+          "impact": "Une confiance accrue pourrait soutenir les dépenses non essentielles, mais l’enquête ne montre pas que les ménages dépensent déjà davantage.",
+          "what": "L’indice global de l’université a progressé par rapport à l’enquête précédente, tout comme ses indicateurs de la situation actuelle et des attentes. Selon la direction de l’enquête, la baisse des prix de l’essence a quelque peu soulagé les ménages au patrimoine modeste ou intermédiaire. Les personnes détenant les portefeuilles d’actions les plus importants ont, elles, fait état d’une dégradation de leurs finances personnelles. L’amélioration de la moyenne ne signifie donc pas que tous les groupes ont vécu la situation économique de la même façon.",
+          "why": "Dépenser moins à la pompe peut laisser davantage de place à d’autres achats dans le budget des ménages. La confiance dans les revenus futurs et dans la conjoncture peut aussi peser sur la décision de faire un achat important ou de mettre de l’argent de côté. Un ménage peut voir l’avenir avec plus d’optimisme tout en restant limité par son loyer, ses remboursements ou les prix actuels. Les chiffres des ventes et des dépenses effectives permettent de mieux vérifier si le regain de confiance s’est traduit par des achats chez les commerçants.",
+          "uncertainty": "La hausse de l’indice global est restée sous le seuil de significativité statistique fixé par l’université. Les entretiens se sont par ailleurs terminés avant le recul de la Bourse vendredi : cette publication ne montre donc pas comment les ménages y ont réagi.",
+          "watch": "Comparez la prochaine enquête aux données sur les ventes au détail et les dépenses de consommation des ménages pour voir si des attentes plus favorables s’accompagnent d’achats effectifs.",
           "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Indice de confiance des consommateurs à la publication"
-            },
             {
               "id": "m2",
               "label": "Indice de confiance des consommateurs du mois précédent"
-            },
-            {
-              "id": "m3",
-              "label": "Indice de la situation économique actuelle à la publication"
-            },
-            {
-              "id": "m4",
-              "label": "Indice des anticipations des consommateurs à la publication"
             }
           ]
         },
         {
           "id": "f6",
-          "title": "Hygon commence à racheter des actions destinées à ses salariés",
-          "summary": "Hygon a annoncé avoir racheté des actions sur le marché dans le cadre de son programme d’actionnariat salarié ou de rémunération en actions.",
-          "impact": "Hygon mobilise sa trésorerie pour se donner un moyen de fidéliser ses concepteurs de puces, plutôt que pour annuler les actions rachetées.",
-          "what": "Hygon conçoit des processeurs à usage général et des accélérateurs de calcul spécialisés. Dans sa déclaration à la Bourse, la société présente les premiers rachats et distingue les sommes effectivement dépensées du programme déjà autorisé. Elle mentionne aussi l’engagement d’une banque à lui accorder un prêt dédié aux rachats. Cet engagement ne prouve pas que Hygon a utilisé ce prêt pour financer les opérations.",
-          "why": "Hygon dépense de l’argent dès maintenant pour disposer d’actions à attribuer ultérieurement. Si ces actions sont transférées aux salariés, leur rachat pourrait ne pas réduire durablement le nombre d’actions détenues en dehors de l’entreprise. La rémunération en actions peut aider à fidéliser les ingénieurs pendant les longs cycles de développement des produits, mais les actionnaires doivent mettre cet avantage potentiel en regard des sommes dépensées et des éventuels frais de financement.",
-          "uncertainty": "La déclaration ne précise ni l’ampleur finale du programme, ni l’origine des fonds utilisés pour les rachats déjà réalisés, ni les conditions auxquelles les salariés pourraient recevoir les actions. Elle ne fournit pas non plus de données actualisées sur le chiffre d’affaires, le bénéfice ou les flux de trésorerie d’exploitation.",
-          "watch": "Surveillez les prochains chiffres cumulés des rachats, tout recours au prêt promis par la banque et la publication d’un plan salarié précisant les modalités d’attribution des actions et les conditions à remplir pour qu’elles soient définitivement acquises.",
+          "title": "Soochow avance dans son projet de prise de contrôle de Donghai Securities",
+          "summary": "Soochow Securities a publié une version révisée de son projet de dossier d’enregistrement pour la prise de contrôle de Donghai Securities, après un avis favorable du comité de la Bourse.",
+          "impact": "L’opération pourrait élargir la clientèle du courtier, mais l’émission d’actions nouvelles répartirait le capital entre davantage d’actionnaires.",
+          "what": "Soochow, un courtier en valeurs mobilières, propose de prendre le contrôle de Donghai Securities en payant principalement avec des actions nouvelles et, pour une part moins importante, en numéraire sur ses fonds propres. Le dossier actualisé rend compte de l’examen par la Bourse et précise les autorisations encore nécessaires. Il n’annonce pas la finalisation de l’opération. Le précédent rapport de Soochow, établi sur son seul périmètre, fait état d’un bénéfice attribuable aux actionnaires depuis le début de l’exercice, mais aussi d’une sortie nette de trésorerie liée à l’exploitation.",
+          "why": "Le rapprochement de courtiers peut permettre de répartir les coûts de technologie et de conformité sur une clientèle plus large. Pour les actionnaires actuels, l’intérêt de l’opération dépend toutefois du bénéfice apporté par l’entreprise acquise, au regard des actions supplémentaires émises et des coûts d’intégration. La sortie de trésorerie d’exploitation enregistrée par Soochow n’équivaut pas non plus à une perte comptable : son tableau des flux de trésorerie fait apparaître un décaissement important lié aux opérations de pension sur titres, une forme d’emprunt garanti utilisée par les sociétés de courtage. Il importe donc de tenir compte de ces mouvements de financement pour évaluer le coût de l’acquisition en trésorerie.",
+          "uncertainty": "L’autorité chinoise des marchés financiers doit encore enregistrer l’opération. Le dossier ne garantit ni la réussite de l’intégration ni la réalisation des résultats présentés à titre hypothétique pour l’ensemble après rapprochement.",
+          "watch": "Suivez la décision de l’autorité sur l’enregistrement, l’éventuel avis de finalisation de l’opération ou d’émission d’actions, puis les informations publiées sur les coûts d’intégration et les fonds propres réglementaires.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Nombre d’actions rachetées"
+              "label": "Participation envisagée dans la société cible"
             },
             {
               "id": "m2",
-              "label": "Montant payé pour les rachats, hors frais"
+              "label": "Contrepartie totale proposée"
             },
             {
               "id": "m3",
-              "label": "Part du capital social rachetée"
+              "label": "Contrepartie proposée en numéraire"
+            },
+            {
+              "id": "m4",
+              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice, avant acquisition"
+            },
+            {
+              "id": "m5",
+              "label": "Bénéfice net attribuable aux actionnaires, cumulé depuis le début de l’exercice"
+            },
+            {
+              "id": "m6",
+              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan para aportar contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Comprueba la fecha de cada publicación: los informes empresariales recientes se presentan para dar contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su sesión bursátil.",
-        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su sesión bursátil."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de la sesión a la que corresponden.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de la sesión a la que corresponden."
       },
       "stories": [
         {
           "id": "f1",
           "title": "Anthropic cierra su oferta pública y su colocación privada",
-          "summary": "La creadora de Claude completó su oferta pública de acciones y una colocación por separado entre inversores estratégicos.",
-          "impact": "La financiación le da más margen para pagar infraestructura informática, pero no demuestra que sus servicios de IA puedan costear esa expansión por sí solos.",
-          "what": "Anthropic desarrolla modelos de IA y vende acceso a ellos a través de productos de software y herramientas para desarrolladores, incluidas las de programación. Según el comunicado de cierre, las entidades colocadoras ejercieron en su totalidad la opción de comprar acciones adicionales. La oferta pública incluyó acciones de nueva emisión y acciones vendidas por accionistas existentes. Anthropic no recibió fondos por la venta de estas últimas. La empresa también completó una venta por separado a inversores estratégicos.",
-          "why": "El efectivo captado de inversores procede de la financiación, no de las ventas a clientes. Según el folleto de la oferta, Anthropic registró una pérdida operativa y una pérdida neta mucho mayor, pero generó efectivo con sus operaciones durante el mismo periodo. La revalorización de la deuda convertible y de instrumentos relacionados dio lugar a un cargo contable considerable que se ajustó al calcular el flujo de caja operativo. Los fondos le dan margen para ampliar su capacidad informática, pero dicen poco sobre cuánto acabarán pagando los clientes por usar sus servicios.",
-          "uncertainty": "Un flujo de caja operativo positivo no indica cuánto efectivo queda tras comprar equipos y atender otros compromisos de infraestructura. El momento en que se cobra a los clientes y se paga a los proveedores también puede hacer que la generación de efectivo varíe.",
-          "watch": "En el próximo estado de flujos de efectivo que se publique, conviene observar si las operaciones siguen generando efectivo mientras la empresa compra equipos y realiza pagos anticipados por activos arrendados.",
+          "summary": "Anthropic completó su oferta pública y, por separado, una venta de acciones a inversores estratégicos.",
+          "impact": "Los fondos captados con la emisión de acciones amplían su capacidad para financiar recursos informáticos, pero no muestran si la venta de servicios de IA puede cubrir el coste de ampliar sus operaciones.",
+          "what": "Anthropic desarrolla Claude y vende acceso a través de sus propios productos, herramientas para desarrolladores y socios que ofrecen servicios en la nube. El comunicado de cierre confirma que las entidades colocadoras ejercieron su opción de comprar acciones adicionales y que también se liquidó la colocación privada. Parte de la oferta pública correspondió a acciones vendidas por accionistas que ya las tenían, por lo que el tamaño total de la operación no equivale al importe que captó la empresa. El folleto de la oferta muestra por separado cómo le fue al negocio antes de salir a bolsa.",
+          "why": "Al emitir acciones, la empresa recibe efectivo de los inversores; al vender acceso a Claude, obtiene ingresos de los clientes. La diferencia importa porque entrenar y ejecutar modelos de IA exige disponer de recursos informáticos mucho antes de saber qué rendimiento dará esa inversión. El folleto muestra un flujo de efectivo operativo positivo pese a una pérdida contable. Al conciliar ambas cifras, el folleto muestra que los cambios en el valor contable de los instrumentos de financiación fueron un ajuste importante que no supuso movimientos de efectivo. Por eso, la pérdida contable no refleja bien cuánto efectivo se gastó en operar el negocio, del mismo modo que un flujo de efectivo operativo positivo no demuestra que la empresa cubriera todos sus gastos de inversión.",
+          "uncertainty": "Los fondos anunciados al cierre son brutos. Los resultados intermedios no permiten saber si la empresa seguirá generando efectivo con sus operaciones a medida que cambien los cobros a clientes, los pagos a proveedores y el gasto en infraestructura.",
+          "watch": "Lee el próximo estado de flujos de efectivo que publique la empresa junto con los datos sobre el gasto en recursos informáticos y los compromisos de alojamiento. Fíjate en si los cobros a clientes siguen el ritmo del coste de prestar el servicio.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Importe bruto captado por el emisor en la oferta pública"
+              "label": "Fondos brutos captados por el emisor en la oferta pública"
             },
             {
               "id": "m2",
-              "label": "Importe bruto captado en la colocación privada"
+              "label": "Fondos captados en la colocación privada"
             },
             {
               "id": "m3",
-              "label": "Ingresos acumulados en lo que va de año"
+              "label": "Ingresos acumulados en el año"
             },
             {
               "id": "m4",
-              "label": "Pérdida operativa acumulada en lo que va de año"
+              "label": "Pérdida neta acumulada en el año"
             },
             {
               "id": "m5",
-              "label": "Pérdida neta acumulada en lo que va de año"
+              "label": "Flujo de efectivo operativo acumulado en el año"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "El accionista de control de Rongsheng planea comprar acciones en el mercado",
+          "summary": "Rongsheng Petrochemical informó de que su accionista de control tiene previsto comprar más acciones de la empresa cotizada.",
+          "impact": "Si se realizan, las compras podrían aumentar la demanda de las acciones, pero no aportarían efectivo a la refinadora.",
+          "what": "Rongsheng integra la refinación de petróleo y la producción química: transforma el crudo en combustibles y materiales que se utilizan en productos como plásticos y textiles. Su accionista de control planea comprar en el mercado acciones que ya están en circulación, sin fijar un rango de precios de compra. El aviso describe un plan de compras, no operaciones ya realizadas. El informe trimestral anterior aporta contexto sobre el negocio: los ingresos acumulados en el año fueron menores que en el mismo periodo del año anterior, mientras que el beneficio atribuible a los accionistas y el flujo de efectivo operativo fueron mayores.",
+          "why": "Esto no es lo mismo que una recompra por parte de la empresa. El efectivo iría del accionista de control a los inversores que vendan, sin entrar ni salir de las cuentas de la empresa cotizada. Para la refinadora, el efectivo que queda después de invertir es más relevante a la hora de financiar sus plantas y atender los pagos de la deuda. Su informe trimestral muestra que, en el mismo periodo acumulado del año, los pagos en efectivo por activos a largo plazo superaron ligeramente el efectivo generado por las operaciones. Por tanto, un mayor beneficio contable no se traduce automáticamente en más efectivo disponible para otros usos.",
+          "uncertainty": "El aviso señala que la disponibilidad de fondos y las condiciones del mercado podrían retrasar o impedir las compras. El efectivo generado en el pasado tampoco permite saber cuánto conservará la refinadora a medida que cambien el coste del crudo, los precios de sus productos y el gasto en proyectos.",
+          "watch": "Busca comunicados sobre las acciones que se hayan comprado y los importes pagados. Después, compara el efectivo generado por las operaciones con el gasto en activos a largo plazo en el próximo informe financiero.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Límite inferior de las compras previstas por el accionista"
+            },
+            {
+              "id": "m2",
+              "label": "Límite superior de las compras previstas por el accionista"
+            },
+            {
+              "id": "m3",
+              "label": "Ingresos acumulados en el año"
+            },
+            {
+              "id": "m4",
+              "label": "Beneficio neto atribuible a los accionistas acumulado en el año"
+            },
+            {
+              "id": "m5",
+              "label": "Flujo de efectivo operativo acumulado en el año"
             },
             {
               "id": "m6",
-              "label": "Flujo de caja operativo acumulado en lo que va de año"
+              "label": "Pagos en efectivo por activos a largo plazo acumulados en el año"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "La confianza del consumidor en Estados Unidos mejora, pero sigue baja",
-          "summary": "La encuesta mensual definitiva de la Universidad de Míchigan mostró una mejora de la confianza del consumidor y menores expectativas de inflación a corto plazo.",
-          "impact": "La mejora ayuda a interpretar la demanda durante la temporada festiva, pero no demuestra que los hogares estén gastando más.",
-          "what": "El dato definitivo mejoró respecto al mes anterior y el índice de expectativas subió más que el de condiciones económicas actuales. Los hogares con menor patrimonio notaron cierto alivio por la bajada del precio de la gasolina, mientras que los que tenían mayores inversiones en acciones señalaron un deterioro de sus finanzas personales.",
-          "why": "Esperar que los precios suban más despacio puede aliviar la preocupación por el presupuesto familiar, pero no revierte las subidas anteriores. Los hogares pueden ahorrar lo que dejan de gastar en gasolina o destinarlo a pagar deudas en vez de gastarlo en las tiendas. Para los comercios, la cuestión es si la mejora de las expectativas se traduce en compras sin tener que intensificar las promociones. Los datos de gasto pueden ayudar a las empresas a decidir si ajustan su plantilla o sus existencias.",
-          "uncertainty": "La encuesta mide percepciones, no compras ni inflación real. Las entrevistas terminaron antes del último cierre bursátil, así que los resultados no muestran cómo reaccionaron los hogares a esa sesión.",
-          "watch": "Compara la próxima encuesta con los datos de ventas minoristas y de gasto de los hogares, y observa si los cambios en el precio de la gasolina se reflejan en los datos de inflación.",
+          "title": "Mejora la confianza del consumidor en Estados Unidos, pero la señal aún es débil",
+          "summary": "Los resultados definitivos de la encuesta de la Universidad de Michigan mostraron una mejora de la confianza del consumidor y expectativas más favorables sobre la situación de las empresas.",
+          "impact": "La mejora de la confianza podría favorecer el gasto en compras no esenciales, pero la encuesta no muestra que los hogares ya estén gastando más.",
+          "what": "El índice general de la universidad subió respecto a la encuesta anterior, y también mejoraron los indicadores de condiciones actuales y de expectativas. La dirección de la encuesta señaló que la bajada del precio de la gasolina alivió en cierta medida a los hogares con patrimonio bajo y medio, mientras que los encuestados con las mayores carteras de acciones dijeron que su situación financiera personal había empeorado. La mejora del promedio no significa que todos los grupos hayan vivido la situación económica de la misma manera.",
+          "why": "Ahorrar en gasolina puede dejar más margen en el presupuesto familiar para otras compras. La confianza en los ingresos futuros y en la situación de las empresas también puede influir en la decisión de hacer una compra importante o reservar el dinero. Un hogar puede ver el futuro con más optimismo y, aun así, tener poco margen por el alquiler, los pagos de deudas o los precios actuales. Los datos de ventas y de gasto efectivo permiten comprobar mejor si ese cambio en la confianza se reflejó en las compras en comercios.",
+          "uncertainty": "La subida del índice general quedó por debajo del umbral de significación estadística de la universidad. Además, las entrevistas terminaron antes de la caída bursátil del viernes, así que estos resultados no muestran cómo reaccionaron los hogares.",
+          "watch": "Compara la próxima encuesta con los datos de ventas minoristas y de gasto personal para ver si las mejores expectativas se reflejan en compras efectivas.",
           "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Índice de confianza del consumidor al publicarse"
-            },
             {
               "id": "m2",
               "label": "Índice de confianza del consumidor del mes anterior"
-            },
-            {
-              "id": "m3",
-              "label": "Índice de condiciones económicas actuales al publicarse"
-            },
-            {
-              "id": "m4",
-              "label": "Índice de expectativas del consumidor al publicarse"
             }
           ]
         },
         {
           "id": "f6",
-          "title": "Hygon empieza a recomprar acciones para incentivar a sus empleados",
-          "summary": "Hygon comunicó que ya había recomprado acciones en el mercado abierto como parte de su plan para facilitar que los empleados sean accionistas o para ofrecerles incentivos en acciones.",
-          "impact": "La empresa destina efectivo a una posible forma de retener a sus diseñadores de chips, en lugar de recomprar las acciones para amortizarlas de inmediato.",
-          "what": "Hygon diseña procesadores de uso general y aceleradores informáticos especializados. En su comunicación a la bolsa, informa de las compras iniciales y distingue el gasto efectivo del programa autorizado con anterioridad. También da a conocer el compromiso de un banco de concederle un préstamo específico para las recompras. Ese compromiso no demuestra que Hygon haya utilizado el préstamo para financiar las operaciones.",
-          "why": "Hygon usa efectivo ahora para tener acciones disponibles para futuras asignaciones. Si las entrega a sus empleados, la recompra quizá no reduzca de forma duradera la cantidad de acciones en manos de terceros. La remuneración en acciones puede ayudar a retener a los ingenieros durante ciclos largos de desarrollo de productos, pero los accionistas aún tienen que sopesar ese posible beneficio frente al efectivo utilizado y los posibles costes de financiación.",
-          "uncertainty": "La comunicación no aclara el tamaño final del programa, de dónde salió el efectivo para las compras ya realizadas ni en qué condiciones podrían recibir acciones los empleados. Tampoco aporta datos actualizados sobre ventas, beneficios o generación de efectivo con las operaciones.",
-          "watch": "Presta atención a los próximos totales de recompra, a si Hygon utiliza el préstamo comprometido y a si publica un plan para empleados que detalle las condiciones de concesión de las acciones y cuándo se consolidan los derechos sobre ellas.",
+          "title": "Soochow avanza en su propuesta de adquirir el control de Donghai Securities",
+          "summary": "Soochow Securities publicó un borrador revisado de su solicitud de registro para adquirir una participación de control en Donghai Securities, tras la evaluación favorable del comité de la bolsa.",
+          "impact": "La operación podría permitir a la firma de corretaje llegar a más clientes, pero las nuevas acciones repartirían la propiedad entre una base más amplia de accionistas.",
+          "what": "Soochow, una firma de corretaje, propone adquirir el control de Donghai Securities pagando principalmente con acciones de nueva emisión y, en menor medida, con efectivo de sus propios recursos. El documento actualizado recoge la revisión de la bolsa y las autorizaciones que aún faltan. No anuncia el cierre de la operación. El informe anterior de Soochow, referido solo a su propio negocio, muestra un beneficio atribuible a los accionistas positivo en lo que va del año, junto con una salida neta de efectivo de las operaciones.",
+          "why": "Al combinarse, las firmas de corretaje pueden repartir los costes de tecnología y de cumplimiento normativo entre más clientes. Pero el efecto económico para los accionistas actuales depende de cuánto beneficio aporte la empresa adquirida en relación con las nuevas acciones que se emitan y con el coste de integrar los negocios. La salida de efectivo operativo que registró Soochow tampoco equivale a una pérdida contable: su estado de flujos de efectivo incluye una salida importante vinculada a operaciones de recompra de valores, una forma de financiación con garantía que utilizan las firmas de valores. Por eso, al evaluar cuánto efectivo costará la adquisición, importa tener en cuenta los flujos asociados a la financiación.",
+          "uncertainty": "La operación aún requiere el registro por parte del regulador chino del mercado de valores. El documento no garantiza que los negocios se integren con éxito ni que se alcancen los resultados estimados para la empresa combinada.",
+          "watch": "Sigue la decisión del regulador sobre el registro, los posibles avisos de cierre o de emisión de acciones y los informes posteriores sobre los costes de integración y el capital regulatorio.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Acciones recompradas"
+              "label": "Participación propuesta en la empresa objetivo"
             },
             {
               "id": "m2",
-              "label": "Importe pagado en efectivo por la recompra antes de comisiones"
+              "label": "Contraprestación total propuesta"
             },
             {
               "id": "m3",
-              "label": "Capital social recomprado"
+              "label": "Contraprestación en efectivo propuesta"
+            },
+            {
+              "id": "m4",
+              "label": "Ingresos acumulados en el año antes de la adquisición"
+            },
+            {
+              "id": "m5",
+              "label": "Beneficio neto atribuible a los accionistas acumulado en el año"
+            },
+            {
+              "id": "m6",
+              "label": "Flujo de efectivo operativo acumulado en el año"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動きを取り上げます。各情報の公表日をご確認ください。企業の最近の発表は、背景を理解するための解説として紹介します。",
+      "status": "今回は米国と中国の動きを取り上げます。各資料の公表日をご確認ください。最近の企業発表は、背景を理解するための解説として紹介しています。",
       "marketSummary": {
-        "us": "終値を確認できなかった指数があります。確認できた指数には、それぞれの取引日を付けています。",
-        "cn": "終値を確認できなかった指数があります。確認できた指数には、それぞれの取引日を付けています。"
+        "us": "終値を確認できなかったものがあります。確認できた指数には、それぞれの取引日を記載しています。",
+        "cn": "終値を確認できなかったものがあります。確認できた指数には、それぞれの取引日を記載しています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "アンソロピック、株式の公募・売り出しと私募を完了",
-          "summary": "クロードを開発するアンソロピックは、株式の公募・売り出しと、それとは別に戦略的投資家向けの私募を完了しました。",
-          "impact": "今回の資金調達で、計算インフラに使える資金は増えます。ただし、インフラの拡張費用を自社の人工知能サービスだけでまかなえるかは分かりません。",
-          "what": "アンソロピックは人工知能モデルを開発し、ソフトウェア製品や、プログラミング支援などの開発者向けツールを通じて、モデルを利用できるサービスを販売しています。取引完了の発表によると、引受会社は株式を追加で取得できる権利をすべて行使しました。公開で販売された株式には、新たに発行された株式と、既存株主が売却した株式が含まれます。既存株主による売却の代金は、発行会社には入りません。同社はこれとは別に、戦略的投資家向けの株式の私募も完了しました。",
-          "why": "投資家から調達した資金は財務活動による資金であり、顧客から得た売上高ではありません。目論見書によると、アンソロピックは営業損失を計上し、純損失はそれを大きく上回りましたが、同じ期間の営業キャッシュフローはプラスでした。転換社債などの関連金融商品を再評価したことで、会計上の費用が大きく膨らみました。この費用は、営業キャッシュフローを計算する際に足し戻されました。今回の調達で計算能力を増強する余地は広がりますが、顧客が最終的にその利用にどれだけ支払うかは、ほとんど分かりません。",
-          "uncertainty": "営業キャッシュフローがプラスでも、設備の購入やインフラに関するそのほかの契約上の支払いを済ませた後に、どれだけ資金が残るかは分かりません。顧客から代金を回収する時期や取引先への支払い時期によっても、手元に入る資金にはばらつきが出ます。",
-          "watch": "次に公表されるキャッシュフロー計算書では、設備への支出やリース資産の前払いがあるなかで、営業活動による資金流入が続くかが注目点です。",
+          "title": "アンソロピック、株式の公募と私募の決済を完了",
+          "summary": "アンソロピックは、株式の公募と、それとは別に行った戦略的投資家向けの株式販売を完了しました。",
+          "impact": "株式による資金調達で、計算能力の確保に資金を回しやすくなります。ただし、事業拡大にかかる費用をAIサービスの販売で賄えるかどうかは、今回の調達からは分かりません。",
+          "what": "アンソロピックはClaudeを開発し、自社製品や開発者向けツール、提携するクラウド事業者を通じて利用サービスを販売しています。決済完了の発表では、引受証券会社が株式を追加取得する権利を行使し、私募も決済されたことが確認されました。公募には既存株主による株式の売り出しも含まれているため、取引全体の金額がそのまま会社の調達額になるわけではありません。目論見書では、これとは別に上場前の事業の実績を確認できます。",
+          "why": "株式を発行すると投資家から資金が入り、Claudeの利用サービスを販売すると顧客から売上高が得られます。この違いが重要なのは、AIモデルの学習やサービス提供に必要な計算能力を、投資に見合う収益が得られるか分かるよりもずっと前に確保する必要があるからです。目論見書では、会計上は赤字でも、営業キャッシュフローはプラスでした。利益と営業キャッシュフローの差を説明する内訳では、資金調達に使った金融商品の帳簿上の価値の変動が、現金の出入りを伴わない主な調整項目でした。そのため、純損失の額だけでは事業運営に使った現金を把握しにくく、営業キャッシュフローがプラスでも、投資支出をすべて賄えたとは限りません。",
+          "uncertainty": "決済時の調達額は費用を差し引く前の金額です。顧客からの代金回収、取引先への支払い、インフラへの支出が変化するなかで、営業活動で現金を生み出し続けられるかは、期中の実績だけでは分かりません。",
+          "watch": "次に公表されるキャッシュフロー計算書を、計算資源にかかる費用やホスティング契約に基づく支払義務とあわせて確認します。顧客からの入金がサービス提供費用の増加に追いつくかが注目点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "公募による発行会社の調達総額（費用控除前）"
+              "label": "公募による発行会社の総調達額（費用控除前）"
             },
             {
               "id": "m2",
-              "label": "私募による調達総額（費用控除前）"
+              "label": "私募による調達額"
             },
             {
               "id": "m3",
-              "label": "年初来累計売上高"
+              "label": "期初来累計売上高"
             },
             {
               "id": "m4",
-              "label": "年初来累計営業損失"
+              "label": "期初来累計純損失"
             },
             {
               "id": "m5",
-              "label": "年初来累計純損失"
+              "label": "期初来累計営業キャッシュフロー"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "栄盛石化の支配株主、市場での買い増しを計画",
+          "summary": "栄盛石化は、支配株主が同社の上場株式を買い増す意向を明らかにしました。",
+          "impact": "計画が実行されれば株式の買い需要が増える可能性がありますが、栄盛石化に現金が入るわけではありません。",
+          "what": "栄盛石化は石油精製から化学品製造まで手がけ、原油から燃料や、プラスチック・繊維などに使われる原材料をつくっています。支配株主は購入価格の範囲を設定せず、市場で既発行株式を買う計画です。今回の開示は買い付けの予定を伝えるもので、すでに取引が行われたという報告ではありません。先に公表された四半期報告書によると、期初からの累計売上高は前年同期を下回る一方、株主に帰属する純利益と営業キャッシュフローは前年同期を上回りました。",
+          "why": "これは会社による自社株買いとは異なります。現金は支配株主から株式を売る投資家に渡り、上場会社の口座には出入りしません。栄盛石化自身が工場への資金を手当てし、債務の元利金を支払えるかを考えるうえでは、投資後に手元に残る現金のほうが重要です。四半期報告書では、期初からの同じ累計期間に、長期資産の取得に支払った現金が、営業活動で得た現金をわずかに上回っていました。会計上の利益が増えても、ほかの用途に回せる現金が増えるとは限りません。",
+          "uncertainty": "開示によると、資金の確保状況や市場環境によって、実行が遅れたり、見送られたりする可能性があります。原油の調達費用や製品価格、プロジェクトへの支出が変化するなかで、同社がどれだけ現金を手元に残せるかは、これまでの実績だけでは分かりません。",
+          "watch": "実際に買い付けた株式数と支出額の開示を確認し、次の決算報告では営業キャッシュフローと長期資産の取得支出を比較します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "支配株主の買い付け予定額の下限"
+            },
+            {
+              "id": "m2",
+              "label": "支配株主の買い付け予定額の上限"
+            },
+            {
+              "id": "m3",
+              "label": "期初来累計売上高"
+            },
+            {
+              "id": "m4",
+              "label": "期初来累計の株主に帰属する純利益"
+            },
+            {
+              "id": "m5",
+              "label": "期初来累計営業キャッシュフロー"
             },
             {
               "id": "m6",
-              "label": "年初来累計営業キャッシュフロー"
+              "label": "期初来累計の長期資産取得に伴う現金支出"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "米消費者心理は改善、なお低調",
-          "summary": "ミシガン大学の月次調査の確報では、消費者心理が改善し、短期のインフレ期待は低下しました。",
-          "impact": "消費者心理の改善は年末商戦の需要を考える手がかりになりますが、家計の支出が実際に増えたことを示すわけではありません。",
-          "what": "確報値は前月から上昇し、先行きへの期待を示す指数は、足元の景況感を示す指数より大きく上がりました。資産が比較的少ない世帯は、ガソリン価格の下落で家計の負担がいくらか軽くなったと答えました。株式保有額が最も多い層は、自分たちの家計状況が悪化したと答えました。",
-          "why": "物価の上昇ペースが鈍るという見方は、家計への不安を和らげることがあります。ただし、それまでに上がった物価が元に戻るわけではありません。世帯は給油代の節約で浮いたお金を、店での買い物ではなく、貯蓄や借金の返済に回すかもしれません。小売業者にとっては、販促を強めなくても、先行きへの期待の改善が実際の購入につながるかが焦点です。支出のデータは、人員配置や在庫を調整するかどうかを企業が判断する材料になります。",
-          "uncertainty": "この調査が測るのは消費者の意識であり、実際の購入や物価上昇ではありません。聞き取りは直近の株式市場の取引終了前に終わっていたため、その日の値動きに世帯がどう反応したかは分かりません。",
-          "watch": "次回の調査結果と小売売上高や家計支出データがどう動くか、また、ガソリン価格の変動が物価統計に表れるかが注目点です。",
+          "title": "米国の消費者心理は改善、ただし判断はまだ早い",
+          "summary": "ミシガン大学の調査の確報では、景況感の先行きに対する期待が強まり、消費者心理が改善しました。",
+          "impact": "消費者の自信が高まれば、生活必需品以外への支出を下支えする可能性があります。ただし、この調査は家計がすでに支出を増やしていることを示すものではありません。",
+          "what": "ミシガン大学の消費者信頼感指数は前回調査から上昇し、現況指数と期待指数も改善しました。調査責任者によると、保有資産が少なめか中程度の世帯はガソリン価格の下落で負担がいくらか軽くなったと感じた一方、株式保有額が最も大きい層では、家計の状況が悪化したとの回答がありました。平均が改善しても、すべての層が景気を同じように感じたわけではありません。",
+          "why": "ガソリン代が下がると、家計はほかの買い物にお金を回しやすくなります。今後の収入や景気をどう見るかも、高額な買い物に踏み切るか、現金を手元に残すかに影響します。先行きに明るさを感じても、家賃や債務の返済、足元の物価が支出の制約になることはあります。消費者心理の改善が小売店の売り上げに表れたかどうかは、実際の売上高や支出のデータのほうが確かめやすくなります。",
+          "uncertainty": "総合指数の上昇幅は、ミシガン大学が統計的に意味のある変化とみなす基準に届きませんでした。聞き取り調査は金曜日の株価下落より前に終わっているため、今回の発表からは下落に対する家計の反応は分かりません。",
+          "watch": "次回の調査を小売売上高や個人消費支出のデータと照らし合わせ、先行きへの期待の高まりが実際の買い物を伴っているかを確認します。",
           "metricLabels": [
             {
-              "id": "m1",
-              "label": "消費者信頼感指数（今回公表値）"
-            },
-            {
               "id": "m2",
-              "label": "消費者信頼感指数（前月値）"
-            },
-            {
-              "id": "m3",
-              "label": "現況指数（今回公表値）"
-            },
-            {
-              "id": "m4",
-              "label": "消費者期待指数（今回公表値）"
+              "label": "前月の消費者信頼感指数"
             }
           ]
         },
         {
           "id": "f6",
-          "title": "海光信息、従業員向けの報酬制度に備え自社株買いを開始",
-          "summary": "海光信息は、自社株を従業員持株制度や株式報酬制度に活用する計画に基づき、市場で自社株を買い付けたと公表しました。",
-          "impact": "今回の買い付けは、自社株をそのまま消却するためではなく、半導体の設計人材をつなぎ留める手段になり得る制度に資金を使うものです。",
-          "what": "海光信息は、汎用プロセッサーや、特定の計算処理を高速化する専用半導体を設計しています。取引所への提出資料には、買い付けを開始したことが記され、実際の支出額と、以前に承認された買い付け計画の枠は区別して示されています。同社は、自社株買い専用の融資について銀行から確約を得たことも明らかにしました。ただし、その確約だけでは、今回の買い付けに融資を利用したことは確認できません。",
-          "why": "海光信息は、将来従業員に付与できる株式を確保するため、今の時点で現金を使っています。その株式が従業員に渡れば、社外で保有される株式が長期的に減るとは限りません。株式報酬は、製品開発に長い時間がかかるなかで技術者をつなぎ留める手段になり得ます。ただし株主にとっては、その効果が見込めるかを、使った現金や資金調達にかかる費用と照らし合わせて考える必要があります。",
-          "uncertainty": "提出資料からは、計画の最終的な規模、実施済みの買い付けに使った資金の出どころ、従業員が株式を受け取る場合の条件は分かりません。売上高や利益、営業活動で得た資金についても、新たな数字は示されていません。",
-          "watch": "今後の買い付け累計、融資枠が実際に利用されるかどうか、株式の付与条件や受け取る権利が確定する条件を示す従業員向け制度の開示が注目点です。",
+          "title": "東呉証券、東海証券の買収計画で手続きを進める",
+          "summary": "東呉証券は、取引所の審査委員会で了承を得た後、東海証券の経営権取得計画について、登録申請書類の改訂案を公表しました。",
+          "impact": "買収によって顧客基盤が広がる可能性がありますが、新株発行で株主の裾野が広がり、既存株主の持分比率は薄まります。",
+          "what": "証券会社の東呉証券は、主に新株を発行し、残りを自己資金から現金で支払って、東海証券の経営権を取得する計画です。改訂書類には取引所での審査結果と、今後必要な承認手続きが記されています。買収完了の発表ではありません。先に公表された買い手の単独決算では、期初からの累計で株主に帰属する純利益は黒字でしたが、営業活動では現金の流出が流入を上回りました。",
+          "why": "証券会社が統合すれば、システムや法令順守にかかる費用を、より多くの顧客にサービスを提供しながら負担できます。ただし、既存株主にとっての損得は、新株の発行で株式が増えることや統合費用に対し、買収先の事業がどれだけ利益を上乗せできるかによります。また、買い手の過去の営業キャッシュフローがマイナスだったことは、会計上の赤字を意味しません。キャッシュフロー計算書には、証券会社が使う担保付き借り入れの一種であるレポ取引による資金調達に関連した、大きな現金流出が含まれています。そのため、買収に伴う現金負担を見極めるには、資金調達に伴う現金の動きにも目を向ける必要があります。",
+          "uncertainty": "中国の証券監督当局による登録がまだ必要です。今回の書類は、事業の統合がうまくいくことや、統合を仮定して試算した業績が実現することを示すものではありません。",
+          "watch": "証券監督当局の登録判断、買収完了や新株発行の通知、その後の統合費用と規制上の自己資本に関する開示を確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "自社株買付株数"
+              "label": "買収対象会社の取得予定持分比率"
             },
             {
               "id": "m2",
-              "label": "自社株買付代金（手数料除く）"
+              "label": "買収対価の予定総額"
             },
             {
               "id": "m3",
-              "label": "買付株数の発行済株式総数に対する比率"
+              "label": "現金で支払う予定の対価"
+            },
+            {
+              "id": "m4",
+              "label": "買収前の期初来累計売上高"
+            },
+            {
+              "id": "m5",
+              "label": "期初来累計の株主に帰属する純利益"
+            },
+            {
+              "id": "m6",
+              "label": "期初来累計営業キャッシュフロー"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes das empresas são apresentados para dar contexto.",
+      "status": "Esta edição cobre acontecimentos nos EUA e na China. Confira a data de cada publicação: os relatórios recentes das empresas servem para dar contexto às notícias.",
       "marketSummary": {
-        "us": "Não foi possível confirmar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão a que se refere.",
-        "cn": "Não foi possível confirmar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão a que se refere."
+        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão a que se refere.",
+        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão a que se refere."
       },
       "stories": [
         {
           "id": "f1",
           "title": "Anthropic conclui oferta pública e colocação privada de ações",
-          "summary": "A criadora do Claude concluiu a venda pública de ações e uma colocação separada junto a investidores estratégicos.",
-          "impact": "A captação amplia a capacidade da Anthropic de pagar pela infraestrutura computacional, mas não mostra se seus serviços de inteligência artificial conseguem financiar essa expansão por conta própria.",
-          "what": "A Anthropic desenvolve modelos de inteligência artificial e vende acesso a eles por meio de produtos de software e ferramentas para desenvolvedores, incluindo ferramentas de programação. Segundo o comunicado de encerramento da oferta, as instituições responsáveis pela distribuição exerceram integralmente a opção de comprar ações adicionais. A oferta pública incluiu ações recém-emitidas e ações vendidas por quem já era acionista. A empresa não recebeu recursos pela venda das ações desses acionistas. A Anthropic também concluiu uma venda separada para investidores estratégicos.",
-          "why": "O dinheiro captado com investidores entra no caixa como financiamento, não como receita de clientes. O prospecto mostra que a Anthropic registrou prejuízo operacional e um prejuízo líquido bem maior, mas gerou caixa com suas operações no mesmo período. A reavaliação de títulos de dívida conversíveis e instrumentos relacionados gerou uma despesa contábil relevante, que foi somada de volta no cálculo do fluxo de caixa operacional. A captação dá à Anthropic margem para ampliar sua capacidade computacional, mas diz pouco sobre quanto os clientes acabarão pagando para usá-la.",
-          "uncertainty": "Um fluxo de caixa operacional positivo não mostra quanto sobra após a compra de equipamentos e outros compromissos com infraestrutura. O momento em que a empresa recebe dos clientes e paga os fornecedores também pode fazer a geração de caixa oscilar.",
-          "watch": "Na próxima demonstração pública dos fluxos de caixa, o ponto a observar é se as operações continuam gerando caixa à medida que a empresa gasta com equipamentos e faz pagamentos antecipados por ativos arrendados.",
+          "summary": "A Anthropic concluiu sua oferta pública e, separadamente, a venda de ações a investidores estratégicos.",
+          "impact": "Os recursos captados com as ações ampliam a capacidade de financiar infraestrutura computacional, mas não mostram se a venda de serviços de inteligência artificial consegue cobrir os custos da expansão.",
+          "what": "A Anthropic desenvolve o Claude e vende acesso a ele por meio de seus produtos, de ferramentas para desenvolvedores e de parceiros de computação em nuvem. O comunicado de encerramento confirma que as instituições responsáveis pela oferta exerceram a opção de comprar ações adicionais e que a colocação privada também foi liquidada. Parte da oferta pública envolveu a venda de ações por quem já era acionista, por isso o valor total da operação não corresponde ao montante captado pela empresa. O prospecto mostra, separadamente, como o negócio se saiu antes da estreia em bolsa.",
+          "why": "A emissão de ações traz dinheiro dos investidores; a venda de acesso ao Claude gera receita de clientes. Essa diferença importa porque treinar modelos de inteligência artificial e mantê-los disponíveis para uso exige capacidade computacional bem antes de se conhecer o retorno sobre o investimento. O prospecto mostra fluxo de caixa operacional positivo apesar do prejuízo contábil. A conciliação entre esses dados mostra que as mudanças no valor contábil dos instrumentos de financiamento foram um ajuste importante sem efeito no caixa. Por isso, o prejuízo divulgado não é uma boa medida do dinheiro gasto para manter o negócio funcionando. Da mesma forma, o fluxo de caixa operacional positivo não prova que a empresa cobriu todos os seus gastos com investimentos.",
+          "uncertainty": "Os valores captados no encerramento da operação são brutos. Os resultados do período parcial não mostram se a geração de caixa operacional vai se manter à medida que mudem os recebimentos de clientes, os pagamentos a fornecedores e os gastos com infraestrutura.",
+          "watch": "Na próxima demonstração pública dos fluxos de caixa, compare os dados com os gastos com computação e os compromissos de hospedagem. Observe se os recebimentos de clientes acompanham o custo de prestar o serviço.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Recursos brutos captados pela emissora na oferta pública"
+              "label": "Recursos brutos da oferta pública destinados à emissora"
             },
             {
               "id": "m2",
-              "label": "Recursos brutos captados na colocação privada"
+              "label": "Recursos captados na colocação privada"
             },
             {
               "id": "m3",
@@ -873,96 +1126,128 @@
             },
             {
               "id": "m4",
-              "label": "Prejuízo operacional acumulado no ano"
+              "label": "Prejuízo líquido acumulado no ano"
             },
             {
               "id": "m5",
-              "label": "Prejuízo líquido acumulado no ano"
+              "label": "Fluxo de caixa operacional acumulado no ano"
+            }
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "Acionista controlador da Rongsheng planeja comprar ações no mercado",
+          "summary": "A Rongsheng Petrochemical informou que seu acionista controlador pretende comprar mais ações da companhia listada.",
+          "impact": "Se forem realizadas, as compras podem aumentar a demanda pelas ações, mas não colocarão dinheiro no caixa da refinadora.",
+          "what": "A Rongsheng integra operações de refino e produção química, transformando petróleo bruto em combustíveis e materiais usados em produtos como plásticos e têxteis. O acionista controlador pretende comprar ações já em circulação no mercado, sem definir uma faixa de preço. O comunicado descreve um plano de compra, não operações já realizadas. O relatório trimestral anterior dá contexto sobre o negócio: no acumulado do ano, as vendas foram menores que no mesmo período do ano anterior, enquanto o lucro atribuível aos acionistas e o fluxo de caixa operacional foram maiores.",
+          "why": "Isso é diferente de uma recompra pela própria empresa. O dinheiro passaria do acionista controlador para os investidores que vendessem suas ações, sem entrar nem sair do caixa da companhia listada. Para a refinadora, o caixa que sobra depois dos investimentos é mais relevante para financiar suas instalações e pagar suas dívidas. O relatório trimestral mostra que, no mesmo período acumulado do ano, os pagamentos por ativos de longo prazo superaram ligeiramente o caixa gerado pelas operações. Assim, um lucro contábil maior não significa automaticamente mais dinheiro disponível para outros fins.",
+          "uncertainty": "Segundo o comunicado, a disponibilidade de recursos e as condições de mercado podem atrasar ou impedir as compras. A geração de caixa passada também não mostra quanto dinheiro sobrará para a refinadora à medida que mudem o custo do petróleo bruto, os preços dos produtos e os gastos com projetos.",
+          "watch": "Acompanhe os comunicados sobre as ações efetivamente compradas e os valores gastos. No próximo relatório financeiro, compare o caixa gerado pelas operações com os gastos com ativos de longo prazo.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Limite inferior das compras planejadas pelo acionista"
+            },
+            {
+              "id": "m2",
+              "label": "Limite superior das compras planejadas pelo acionista"
+            },
+            {
+              "id": "m3",
+              "label": "Receita acumulada no ano"
+            },
+            {
+              "id": "m4",
+              "label": "Lucro líquido atribuível aos acionistas acumulado no ano"
+            },
+            {
+              "id": "m5",
+              "label": "Fluxo de caixa operacional acumulado no ano"
+            },
+            {
+              "id": "m6",
+              "label": "Pagamentos por ativos de longo prazo acumulados no ano"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Confiança do consumidor melhora nos EUA, mas o sinal ainda é incerto",
+          "summary": "O resultado final da pesquisa da Universidade de Michigan mostrou melhora na confiança dos consumidores e expectativas mais favoráveis para o ambiente de negócios.",
+          "impact": "A melhora da confiança pode ajudar a sustentar os gastos com itens não essenciais, mas a pesquisa não mostra que as famílias já estejam gastando mais.",
+          "what": "O índice geral da universidade subiu em relação à pesquisa anterior, e os indicadores de condições atuais e de expectativas também melhoraram. O responsável pela pesquisa informou que as famílias de patrimônio baixo e intermediário sentiram algum alívio com a queda no preço da gasolina, enquanto os entrevistados com as maiores carteiras de ações relataram piora nas finanças pessoais. A melhora na média não significa que todos os grupos sentiram a economia da mesma forma.",
+          "why": "Economizar na gasolina pode abrir espaço no orçamento familiar para outras compras. A confiança na renda futura e no ambiente de negócios também pode influenciar a decisão de fazer uma compra de valor elevado ou guardar dinheiro. Uma família pode estar mais otimista com o futuro e ainda ter o orçamento apertado pelo aluguel, pelas parcelas de dívidas ou pelos preços atuais. Os dados de vendas e de gastos efetivos mostram melhor se a mudança de confiança se refletiu no varejo.",
+          "uncertainty": "A alta do índice geral ficou abaixo do limiar de significância estatística adotado pela universidade. Além disso, as entrevistas terminaram antes da queda do mercado de ações na sexta-feira, por isso a pesquisa não mostra como as famílias reagiram a ela.",
+          "watch": "Compare a próxima pesquisa com os dados de vendas no varejo e de gastos das famílias para ver se as expectativas mais favoráveis vieram acompanhadas de compras efetivas.",
+          "metricLabels": [
+            {
+              "id": "m2",
+              "label": "Índice de confiança do consumidor do mês anterior"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "Soochow avança na proposta de aquisição da Donghai Securities",
+          "summary": "A Soochow Securities publicou uma versão revisada do pedido de registro da proposta de aquisição do controle da Donghai Securities, após parecer favorável do comitê da bolsa.",
+          "impact": "A operação pode ajudar a corretora a alcançar mais clientes, mas a emissão de ações distribuiria a propriedade da empresa entre mais acionistas.",
+          "what": "A corretora Soochow propõe assumir o controle da Donghai Securities pagando principalmente com ações novas e, em menor parte, com dinheiro de seus próprios recursos. O documento atualizado registra a análise da bolsa e indica quais aprovações ainda faltam. Não é um anúncio de conclusão da operação. O relatório individual anterior da compradora mostra lucro atribuível aos acionistas no acumulado do ano, mas também uma saída líquida de caixa nas operações.",
+          "why": "A união das corretoras pode diluir os custos de tecnologia e de cumprimento das regras do setor entre mais clientes. Para os acionistas atuais, porém, o efeito financeiro depende de quanto lucro o negócio adquirido acrescenta diante das novas ações emitidas e dos custos de integração. A saída de caixa operacional registrada pela compradora também não equivale a um prejuízo contábil. Sua demonstração dos fluxos de caixa inclui uma saída relevante ligada a operações compromissadas, uma forma de empréstimo com garantia usada por corretoras. Por isso, os fluxos de dinheiro ligados ao financiamento importam na avaliação do custo da aquisição para o caixa.",
+          "uncertainty": "A operação ainda precisa ser registrada pelo regulador do mercado de valores mobiliários da China. O documento não garante que a integração dos negócios terá sucesso nem que os resultados estimados para as empresas em conjunto se concretizarão.",
+          "watch": "Acompanhe a decisão do regulador sobre o registro, um eventual comunicado de conclusão da operação ou de emissão de ações e os relatórios posteriores sobre custos de integração e capital regulatório.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Participação proposta na empresa-alvo"
+            },
+            {
+              "id": "m2",
+              "label": "Valor total proposto para a aquisição"
+            },
+            {
+              "id": "m3",
+              "label": "Valor proposto para pagamento em dinheiro"
+            },
+            {
+              "id": "m4",
+              "label": "Receita acumulada no ano antes da aquisição"
+            },
+            {
+              "id": "m5",
+              "label": "Lucro líquido atribuível aos acionistas acumulado no ano"
             },
             {
               "id": "m6",
               "label": "Fluxo de caixa operacional acumulado no ano"
             }
           ]
-        },
-        {
-          "id": "f3",
-          "title": "Confiança do consumidor nos Estados Unidos melhora, mas segue baixa",
-          "summary": "A leitura final da pesquisa mensal da Universidade de Michigan mostrou melhora na confiança dos consumidores e expectativas de inflação mais baixa no curto prazo.",
-          "impact": "A melhora ajuda a entender o cenário para as compras de fim de ano, mas não mostra que as famílias estejam gastando mais.",
-          "what": "A leitura final melhorou em relação ao mês anterior, e o índice de expectativas subiu mais que o índice de condições atuais. As famílias com menor patrimônio relataram algum alívio com a queda no preço da gasolina, enquanto as que tinham as maiores posições em ações relataram piora nas finanças pessoais.",
-          "why": "A expectativa de que os preços subam mais devagar pode aliviar preocupações com o orçamento familiar, mas não desfaz os aumentos anteriores. Em vez de gastar nas lojas o dinheiro economizado na gasolina, as famílias podem guardá-lo ou usá-lo para pagar dívidas. Para o varejo, a questão é se a melhora das expectativas se traduz em compras sem a necessidade de promoções mais agressivas. Os dados de consumo podem ajudar as empresas a decidir se precisam ajustar equipes ou estoques.",
-          "uncertainty": "A pesquisa mede percepções, não compras nem a inflação efetivamente registrada. As entrevistas terminaram antes do fechamento mais recente do mercado de ações, então o resultado não mostra como as famílias reagiram àquele pregão.",
-          "watch": "Os dados de vendas no varejo e de gastos das famílias ajudam a colocar a próxima pesquisa em contexto. Outro ponto a observar é se as mudanças no preço da gasolina aparecem nos dados de inflação.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Índice de confiança do consumidor na divulgação"
-            },
-            {
-              "id": "m2",
-              "label": "Índice de confiança do consumidor no mês anterior"
-            },
-            {
-              "id": "m3",
-              "label": "Índice de condições econômicas atuais na divulgação"
-            },
-            {
-              "id": "m4",
-              "label": "Índice de expectativas do consumidor na divulgação"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Hygon inicia recompra de ações para incentivar funcionários",
-          "summary": "A Hygon informou que já recomprou ações no mercado como parte de seu plano de destinar esses papéis à participação acionária de funcionários ou a incentivos baseados em ações.",
-          "impact": "As recompras usam recursos do caixa como possível forma de reter projetistas de chips, em vez de cancelar as ações adquiridas.",
-          "what": "A Hygon projeta processadores de uso geral e aceleradores computacionais especializados. No comunicado à bolsa, a empresa informa as compras iniciais e distingue o valor efetivamente gasto do que havia sido autorizado para o programa. O documento também informa que um banco se comprometeu a disponibilizar um empréstimo específico para as recompras. Esse compromisso não demonstra que a Hygon tenha usado o empréstimo para pagar pelas operações.",
-          "why": "A Hygon usa caixa agora para ter ações disponíveis para futuras concessões a funcionários. Se essas ações forem transferidas a eles, a recompra pode não reduzir de forma duradoura a quantidade de ações em circulação fora da empresa. A remuneração em ações pode ajudar a reter engenheiros durante ciclos longos de desenvolvimento de produtos, mas os acionistas ainda precisam ponderar esse possível benefício diante do dinheiro gasto e de eventuais custos de financiamento.",
-          "uncertainty": "O comunicado não esclarece qual será o tamanho final do programa, de onde vieram os recursos das compras já feitas nem em que condições os funcionários poderão receber ações. Também não traz dados atualizados sobre vendas, lucro ou geração de caixa operacional.",
-          "watch": "Os próximos pontos a observar são o total acumulado de recompras, se a empresa usará o empréstimo e a divulgação de um plano para funcionários que detalhe as condições de concessão das ações e os prazos e requisitos para ter direito a elas.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Quantidade de ações recompradas"
-            },
-            {
-              "id": "m2",
-              "label": "Valor pago na recompra, antes de taxas"
-            },
-            {
-              "id": "m3",
-              "label": "Parcela do capital social recomprada"
-            }
-          ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的最新動態。請留意各篇的發布日期；近期的公司報告在此用來說明背景。",
+      "status": "本期涵蓋美國與中國的財經動態。請留意各則消息的發布日期；近期企業報告用於說明背景。",
       "marketSummary": {
-        "us": "部分收盤資料無法查證。各項有資料的指數均保留各自的交易日期。",
-        "cn": "部分收盤資料無法查證。各項有資料的指數均保留各自的交易日期。"
+        "us": "部分收盤行情無法核實。可查證的指數均保留各自對應的交易日期。",
+        "cn": "部分收盤行情無法核實。可查證的指數均保留各自對應的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Anthropic 完成股票公開發行與私募",
-          "summary": "開發 Claude 的 Anthropic 已完成股票公開銷售，並另外向策略投資人辦理私募。",
-          "impact": "這次募資讓 Anthropic 更有能力負擔運算基礎設施的支出，但無法看出單靠 AI 服務能否支應擴建。",
-          "what": "Anthropic 開發 AI 模型，透過軟體產品和開發者工具收費提供使用權，這些工具也包括程式撰寫工具。根據交割公告，承銷商已全數行使額外認購股份的權利。公開銷售涵蓋公司新發行的股份，以及既有股東出售的股份；後者的售股款不歸公司所有。公司也另外完成向策略投資人出售股份的私募交易。",
-          "why": "向投資人募集的款項是籌資現金流入，不是來自客戶的營收。公開說明書顯示，Anthropic 同期出現營業虧損，淨損更大，但營業活動仍帶來正現金流。可轉換票據及相關金融工具的價值重估認列了大筆會計費用；從淨損調節至營業活動現金流量時，這筆費用已加回。募資讓 Anthropic 有餘裕投資擴充運算能力，卻無法據此判斷客戶最終願意付多少錢來使用這些服務。",
-          "uncertainty": "營業活動現金流量為正，並不代表能看出支付設備採購及其他基礎設施承諾款項後還剩多少現金。向客戶收款和向供應商付款的時間也可能讓營業現金流量起伏。",
-          "watch": "留意下次公開的現金流量表，尤其是公司在支出設備採購款和預付資產租賃款的同時，能否繼續透過營業活動產生現金。",
+          "title": "Anthropic 完成公開發行與私募",
+          "summary": "Anthropic 已完成股票公開發行，也另外透過私募向策略投資人出售股份。",
+          "impact": "募得的資金讓公司更有餘裕投入運算資源，但不能據此判斷銷售人工智慧服務能否負擔擴大營運規模的成本。",
+          "what": "Anthropic 開發 Claude，透過自家產品、開發者工具與雲端合作夥伴，提供付費使用服務。交割公告確認，承銷商已行使增購股份的選擇權，私募也已完成交割。公開發行中有部分股份由原股東出售，因此交易總額並不等於公司募得的金額。公開說明書則另外揭露了公司上市前的營運表現。",
+          "why": "發行股票是向投資人籌措現金；提供 Claude 的使用服務則是向客戶賺取營收。釐清這項差別很重要，因為訓練人工智慧模型及提供模型服務，都得先投入運算資源，之後才知道投資能帶來多少回報。公開說明書顯示，公司雖有帳面虧損，營業活動現金流量仍為正。現金流量的調節明細顯示，融資工具帳面價值的變動是主要的非現金調整項目。因此，光看帳面虧損，無法準確判斷營運花了多少現金；營業活動現金流量為正，也不代表足以支付所有投資支出。",
+          "uncertainty": "交割公告所列的是未扣除費用的募資總額。隨著客戶付款、公司支付供應商款項及基礎設施支出出現變化，期中財報還不足以判斷公司能否持續從營運中取得現金。",
+          "watch": "可將下次公開的現金流量表與運算費用、代管服務支出承諾對照，觀察向客戶收取的現金能否跟上提供服務的成本。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "發行公司公開發行募資總額"
+              "label": "發行公司公開發行募資總額（未扣除費用）"
             },
             {
               "id": "m2",
-              "label": "私募募資總額"
+              "label": "私募募資金額"
             },
             {
               "id": "m3",
@@ -970,67 +1255,99 @@
             },
             {
               "id": "m4",
-              "label": "年初至今營業虧損"
-            },
-            {
-              "id": "m5",
               "label": "年初至今淨損"
             },
             {
-              "id": "m6",
+              "id": "m5",
               "label": "年初至今營業活動現金流量"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "美國消費者信心回升，但仍偏低",
-          "summary": "密西根大學公布的月度調查終值顯示，消費者信心改善，短期通膨預期下降。",
-          "impact": "信心回升有助於理解假期購物需求，但不代表家庭已增加支出。",
-          "what": "調查終值較前月回升，反映未來預期的指數升幅大於反映經濟現況的指數。財富較少的家庭表示，汽油價格下跌讓負擔有所減輕；股票持有最多的家庭則表示，自身財務狀況轉差。",
-          "why": "預期物價漲得比較慢，可以減輕家庭對預算的擔憂，但先前漲上去的價格不會因此降回來。家庭可能把加油省下的錢存起來或拿去還債，而不是到店裡消費。對零售商而言，關鍵是不用加大促銷力道，改善的預期能否轉為實際購買。支出資料能幫助企業判斷是否調整人力或庫存。",
-          "uncertainty": "這項調查衡量的是消費者看法，不是實際購買行為或實際通膨。訪問在最近的股市收盤前就已結束，因此這次公布的結果無法反映家庭對當天股市表現的反應。",
-          "watch": "將下次調查結果與零售銷售及家庭支出資料對照，並觀察汽油價格變動是否反映在通膨數據上。",
+          "id": "f2",
+          "title": "榮盛石化控股股東擬在市場增持",
+          "summary": "榮盛石化公告，控股股東有意增持這家上市公司的股份。",
+          "impact": "若買進計畫付諸實行，可能增加市場對該股票的需求，但不會為榮盛石化帶來現金。",
+          "what": "榮盛石化整合煉油與化工業務，將原油加工成燃料，以及製造塑膠、紡織品等產品所需的材料。控股股東打算在市場上買進已發行的股份，未設定買進價格區間。公告說明的是增持計畫，並非已成交的交易。先前的季報提供了營運背景：年初至今營收低於去年同期，但歸屬於股東的淨利與營業活動現金流量均高於去年同期。",
+          "why": "這與公司買回庫藏股不同。現金會由控股股東付給出售股份的投資人，不會流入或流出上市公司的帳戶。對榮盛石化而言，投資後剩下多少現金，更關係到公司能否支應廠房所需資金及償付債務。季報顯示，在同一段年初至今的期間，購置長期資產所支付的現金略高於營業活動所產生的現金。因此，帳面獲利增加，不代表可用於其他用途的現金也會增加。",
+          "uncertainty": "公告指出，資金是否到位及市場狀況都可能使計畫延後，甚至無法執行。過往從營運取得的現金，也不足以判斷原油成本、產品價格與專案支出變動後，公司能留下多少現金。",
+          "watch": "留意後續公告實際買進的股份數量與支出金額，並對照下份財報中的營業活動現金流量與長期資產支出。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "本次公布的消費者信心指數"
+              "label": "股東計畫增持金額下限"
             },
             {
               "id": "m2",
-              "label": "前月消費者信心指數"
+              "label": "股東計畫增持金額上限"
             },
             {
               "id": "m3",
-              "label": "本次公布的經濟現況指數"
+              "label": "年初至今營收"
             },
             {
               "id": "m4",
-              "label": "本次公布的消費者預期指數"
+              "label": "年初至今歸屬於股東的淨利"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今營業活動現金流量"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今購置長期資產支付的現金"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "美國消費者信心回升，但仍難確認是否真的好轉",
+          "summary": "密西根大學的調查終值顯示，消費者信心改善，對景氣的預期也更樂觀。",
+          "impact": "信心改善可能有助於支撐非必需品消費，但這份調查並未顯示家庭已增加支出。",
+          "what": "密西根大學的消費者信心總指數較前次調查上升，反映目前情況與未來預期的分項指標也都有改善。調查主持人指出，油價下跌讓財富較低及居中的家庭感到壓力略有減輕，但股票持有部位最大的受訪者表示，個人財務狀況變差。整體平均值改善，不代表各群體對經濟的感受都相同。",
+          "why": "汽油支出減少，家庭預算就可能多出一些空間，供其他消費使用。對未來收入與景氣的信心，也會影響人們是願意花大筆錢購物，還是先把錢留著。即使家庭對前景更樂觀，支出仍可能受房租、債務還款或當前物價限制。實際銷售與支出數據，更能檢驗信心變化是否反映在零售業的業績上。",
+          "uncertainty": "總指數的升幅未達密西根大學判定具有統計顯著性的門檻。訪問也在當週股市下跌前就已結束，因此這份調查無法反映家庭對這波跌勢的反應。",
+          "watch": "可將下次調查與零售銷售及個人消費支出數據對照，看看更樂觀的預期是否也伴隨實際購買行為。",
+          "metricLabels": [
+            {
+              "id": "m2",
+              "label": "前月消費者信心指數"
             }
           ]
         },
         {
           "id": "f6",
-          "title": "海光資訊開始買回股份，擬用於員工激勵",
-          "summary": "海光資訊揭露已依計畫在公開市場買回股份，擬供員工持股或股權激勵使用。",
-          "impact": "公司動用現金買回股份，可能藉此留住晶片設計人才，而非直接註銷股份。",
-          "what": "海光資訊設計通用處理器和專用運算加速器。公司向交易所提交的公告揭露了回購啟動後的成交情況，並將實際支出與先前核准的回購計畫分開列示。公司也揭露已取得銀行的股票回購專項貸款承諾，但這不代表公司已動用該筆貸款支付回購款項。",
-          "why": "海光資訊現在動用現金，是為了讓日後發放股權獎酬時有股份可用。如果這些股份日後轉給員工，回購未必會讓公司以外持有的股份持續減少。股權獎酬可能有助於公司在漫長的產品開發週期中留住工程師，但股東仍需衡量這項潛在好處、實際動用的現金，以及可能產生的融資成本。",
-          "uncertainty": "公告未交代計畫最終會做到多大、已完成回購的資金來源，或員工可能依哪些條件取得股份。公告也未提供營收、獲利或營業活動現金流量的最新數據。",
-          "watch": "留意後續公布的累計回購情況、公司是否動用銀行承諾提供的貸款，以及員工計畫公告中是否列明股權獎酬的授予條件和員工正式取得權利的條件。",
+          "title": "東吳證券擬收購東海證券案取得進展",
+          "summary": "東吳證券擬取得東海證券的控制權，並在交易所審議委員會審議通過後，公布修訂後的註冊申報稿。",
+          "impact": "交易可能擴大東吳證券的客戶群，但發行新股會讓股權分散到更多股東手中，稀釋原股東的持股比例。",
+          "what": "東吳證券是證券商，擬以發行新股為主、以自有資金支付較少部分的現金為輔，取得東海證券的控制權。更新後的申報文件記載交易所的審議結果，以及仍須取得的核准，並不是交割公告。東吳證券先前單獨公布的財報顯示，年初至今歸屬於股東的淨利為正，但營業活動現金為淨流出。",
+          "why": "券商合併後，可以由更多客戶分攤科技與法規遵循成本。不過，原股東能否受益，得看收購帶來的獲利增量，能否抵銷發行新股造成的稀釋與整合成本。東吳證券先前的營業活動現金淨流出，也不等於帳面虧損。其現金流量表列有大筆與附買回融資相關的現金流出；這是券商使用的有擔保借款方式。因此，評估收購需要動用多少現金時，也要看融資款項如何流入與流出。",
+          "uncertainty": "本案仍須由中國證券監管機關辦理註冊。申報文件並不能證明雙方業務將順利整合，也不能保證試算的合併後業績會實現。",
+          "watch": "留意監管機關的註冊決定、交割或新股發行公告，以及後續對整合成本與監理資本的揭露。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "買回股數"
+              "label": "擬取得的標的公司持股比例"
             },
             {
               "id": "m2",
-              "label": "買回支付金額（不含費用）"
+              "label": "擬議交易總對價"
             },
             {
               "id": "m3",
-              "label": "買回股份占總股本比率"
+              "label": "擬議現金對價"
+            },
+            {
+              "id": "m4",
+              "label": "收購前年初至今營收"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今歸屬於股東的淨利"
+            },
+            {
+              "id": "m6",
+              "label": "年初至今營業活動現金流量"
             }
           ]
         }
