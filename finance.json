@@ -1,113 +1,93 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-22T09:46:05.861Z",
-  "generatedAt": "2026-11-22T09:53:46.606Z",
+  "cutoffAt": "2026-11-22T18:30:30.912Z",
+  "generatedAt": "2026-11-22T18:36:19.475Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "S&P benchmark daily closing table",
-      "url": "https://www.investing.com/indices/us-spx-500-historical-data?cid=40826"
+      "label": "Investing.com — broad US equity benchmark daily closes",
+      "url": "https://www.investing.com/indices/us-spx-500-historical-data"
     },
     {
       "id": "src2",
-      "label": "Nasdaq Composite official close",
-      "url": "https://indexes.nasdaqomx.com/Index/Overview/COMP"
+      "label": "Investing.com — Nasdaq Composite daily closes",
+      "url": "https://ca.investing.com/indices/nasdaq-composite-historical-data"
     },
     {
       "id": "src3",
-      "label": "St. Louis Fed Nasdaq Composite closing series",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
-    },
-    {
-      "id": "src4",
-      "label": "Mainland benchmark closing table",
+      "label": "CNGold — dated mainland equity index closing table",
       "url": "https://stock.cngold.org/c/2026-11-20/c10893781.html"
     },
     {
-      "id": "src5",
-      "label": "Xinhua Finance mainland session recap",
+      "id": "src4",
+      "label": "Xinhua Finance — mainland equity closing report",
       "url": "https://m.cnfin.com/yw-lb/zixun/20261120/4498150_1.html"
     },
     {
+      "id": "src5",
+      "label": "Shanghai Stock Exchange — formal margin financing notice",
+      "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20261122_10838633.shtml"
+    },
+    {
       "id": "src6",
-      "label": "Issuer filing on A-share repurchase progress",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-21/1225681195.PDF"
+      "label": "Shanghai Stock Exchange — joint market margin rule explanation",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20261122_10838649.shtml"
     },
     {
       "id": "src7",
-      "label": "Issuer filing on first purchase under the program",
-      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-04-01/9c384bd3-561a-4977-9025-a562fd7dda21.PDF?n=%E7%BE%8E%E7%9A%84%E9%9B%86%E5%9B%A2%EF%BC%9A%E5%85%B3%E4%BA%8E%E9%A6%96%E6%AC%A1%E5%AE%9E%E6%96%BD%E4%BB%A5%E9%9B%86%E4%B8%AD%E7%AB%9E%E4%BB%B7%E4%BA%A4%E6%98%93%E6%96%B9%E5%BC%8F%E5%9B%9E%E8%B4%ADA%E8%82%A1%E8%82%A1%E4%BB%BD%E7%9A%84%E5%85%AC%E5%91%8A.PDF"
+      "label": "Issuer announcement — signed overseas engineering contract",
+      "url": "https://www.cnoocengineering.com/tzzgx/ggxx/202611/P020261120608909369256.pdf"
     },
     {
       "id": "src8",
-      "label": "Appliance maker quarterly filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF"
+      "label": "CNINFO — offshore engineering issuer quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639716.PDF"
     },
     {
       "id": "src9",
-      "label": "University of Michigan consumer survey release",
-      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
+      "label": "Issuer release — completed public offering and private placement",
+      "url": "https://www.anthropic.com/news/ipo-close"
     },
     {
       "id": "src10",
-      "label": "National Interbank Funding Center current loan quote release",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
-    },
-    {
-      "id": "src11",
-      "label": "National Interbank Funding Center prior loan quote release",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
-    },
-    {
-      "id": "src12",
-      "label": "National Bureau of Statistics monthly activity release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html"
-    },
-    {
-      "id": "src13",
-      "label": "Brokerage filing on revised acquisition documents",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225678899.PDF"
-    },
-    {
-      "id": "src14",
-      "label": "Issuer acquisition registration summary filed with the exchange",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-20/12713805.PDF"
-    },
-    {
-      "id": "src15",
-      "label": "Acquiring brokerage quarterly filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649370.PDF"
-    },
-    {
-      "id": "src16",
-      "label": "Exchange announcement confirming the trading debut",
-      "url": "https://www.nasdaq.com/newsroom/anthropic-marks-ipo-at-nasdaq"
-    },
-    {
-      "id": "src17",
-      "label": "Final offering prospectus filed with the SEC",
+      "label": "SEC — final prospectus for the public offering",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
     },
     {
-      "id": "src18",
-      "label": "Chipmaker quarterly earnings release",
+      "id": "src11",
+      "label": "University of Michigan — final consumer sentiment release",
+      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
+    },
+    {
+      "id": "src12",
+      "label": "China Money — current loan prime rate fixing notice",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
+    },
+    {
+      "id": "src13",
+      "label": "China Money — previous loan prime rate fixing notice",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
+    },
+    {
+      "id": "src14",
+      "label": "National Bureau of Statistics — monthly economic activity release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html"
+    },
+    {
+      "id": "src15",
+      "label": "Issuer release — fiscal quarterly earnings and financial statements",
       "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
     },
     {
-      "id": "src19",
-      "label": "Quarterly finance chief commentary filed with the SEC",
+      "id": "src16",
+      "label": "SEC — preceding fiscal quarterly release confirming the period boundary",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+    },
+    {
+      "id": "src17",
+      "label": "SEC — earnings commentary and revenue by market platform",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
-    },
-    {
-      "id": "src20",
-      "label": "Appliance maker interim report and business description",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225533135.PDF"
-    },
-    {
-      "id": "src21",
-      "label": "People’s Bank of China report on loan pricing and transmission",
-      "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/5347949/afbfa5df25ee45889d916a2819b60a43/2024110815410752868.pdf"
     }
   ],
   "markets": [
@@ -123,11 +103,13 @@
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-20",
+      "close": 22617.73,
+      "previousClose": 23879.2,
+      "changePercent": -5.28,
+      "sourceIds": [
+        "src2"
+      ]
     },
     {
       "id": "sse",
@@ -144,7 +126,7 @@
       "previousClose": 3984.84,
       "changePercent": -0.76,
       "sourceIds": [
-        "src4"
+        "src3"
       ]
     }
   ],
@@ -152,34 +134,8 @@
     {
       "id": "f2",
       "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-11-20",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m2",
-          "value": 48,
-          "unit": "index",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "The Consumer Sentiment Index section gives the previous reporting month as a comparator."
-        }
-      ],
-      "sourceIds": [
-        "src9"
-      ],
-      "evidence": "The release shows improvement in the headline and both subindexes, softer near-term inflation expectations, and weaker personal-finance assessments among respondents with the largest stock holdings. Its survey notes give the threshold for a statistically significant monthly move."
-    },
-    {
-      "id": "f5",
-      "market": "us",
       "category": "company",
-      "publishedOn": "2026-11-19",
+      "publishedOn": "2026-11-20",
       "company": {
         "name": "Anthropic, PBC",
         "ticker": "ANT",
@@ -188,45 +144,32 @@
       "metrics": [
         {
           "id": "m1",
-          "value": 83,
+          "value": 91600000000,
           "unit": "USD",
-          "periodStart": "2026-11-18",
-          "periodEnd": "2026-11-18",
+          "periodStart": "2026-11-20",
+          "periodEnd": "2026-11-20",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src17"
+            "src9"
           ],
-          "evidence": "The final prospectus cover gives the public offering price per share."
+          "evidence": "Closing release, opening paragraph: approximate issuer share of gross public offering proceeds, before expenses and excluding selling shareholders."
         },
         {
           "id": "m2",
-          "value": 111.5,
+          "value": 26000000000,
           "unit": "USD",
-          "periodStart": "2026-11-19",
-          "periodEnd": "2026-11-19",
+          "periodStart": "2026-11-20",
+          "periodEnd": "2026-11-20",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src16"
+            "src9"
           ],
-          "evidence": "The exchange’s debut announcement gives the opening trade price per share, not the closing price."
+          "evidence": "The concurrent placement paragraph gives the approximate aggregate purchase price for the privately placed shares."
         },
         {
           "id": "m3",
-          "value": 104800000000,
-          "unit": "USD",
-          "periodStart": "2026-11-18",
-          "periodEnd": "2026-11-18",
-          "comparison": "level",
-          "basis": "guidance",
-          "sourceIds": [
-            "src17"
-          ],
-          "evidence": "Use of Proceeds estimates combined net proceeds from the public offering and concurrent private placement, before any underwriter option exercise."
-        },
-        {
-          "id": "m4",
           "value": 33242000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -234,25 +177,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src17"
+            "src10"
           ],
-          "evidence": "Results of Operations gives consolidated revenue in the current interim column."
+          "evidence": "Management discussion, revenue comparison table: reported interim revenue in the current year column."
         },
         {
-          "id": "m5",
-          "value": -1260000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src17"
-          ],
-          "evidence": "Results of Operations gives the operating loss in the same interim column."
-        },
-        {
-          "id": "m6",
+          "id": "m4",
           "value": -104039000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -260,12 +190,12 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src17"
+            "src10"
           ],
-          "evidence": "Results of Operations gives net loss; its footnote explains the effect of financing instrument revaluations."
+          "evidence": "Consolidated cash flow statement, starting line of the operating reconciliation: reported net loss, not the pro forma loss."
         },
         {
-          "id": "m7",
+          "id": "m5",
           "value": 6569000000,
           "unit": "USD",
           "periodStart": "2026-01-01",
@@ -273,821 +203,521 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src17"
+            "src10"
           ],
-          "evidence": "The Cash Flows table gives net cash provided by operations for the same interim period."
+          "evidence": "Consolidated cash flow statement, current interim column: net cash provided by operating activities."
         }
       ],
       "sourceIds": [
-        "src16",
-        "src17"
+        "src9",
+        "src10"
       ],
-      "evidence": "The exchange confirms the trading start and opening price. The final prospectus supplies offering terms, estimated proceeds, operating results, cash flows and an explanation of the noncash revaluation charges."
+      "evidence": "The dated issuer release confirms both financing closings and full exercise of the underwriters’ additional share option. The final prospectus describes sales by usage and subscription and reconciles the interim accounting loss to positive operating cash flow."
     },
     {
-      "id": "f6",
+      "id": "f4",
       "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-17",
-      "company": {
-        "name": "NVIDIA Corporation",
-        "ticker": "NVDA",
-        "exchange": "Nasdaq Global Select Market"
-      },
+      "category": "economy",
+      "publishedOn": "2026-11-20",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 115844000000,
-          "unit": "USD",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
+          "value": 51.5,
+          "unit": "index",
+          "periodStart": "2026-10-20",
+          "periodEnd": "2026-11-16",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src18",
-            "src19"
+            "src11"
           ],
-          "evidence": "The quarterly income statement reports revenue; the finance chief’s reconciliation identifies the preceding fiscal quarter end."
+          "evidence": "The Consumer Sentiment Index section gives the final survey reading; the introduction specifies the interview window."
         },
         {
           "id": "m2",
-          "value": 103,
-          "unit": "percent",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
-          "comparison": "yoy",
+          "value": 49.4,
+          "unit": "index",
+          "periodStart": "2026-10-20",
+          "periodEnd": "2026-11-16",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src18",
-            "src19"
+            "src11"
           ],
-          "evidence": "The earnings summary reports annual revenue growth for the current fiscal quarter."
+          "evidence": "The Consumer Sentiment Index section gives the current conditions component for the same interview window."
         },
         {
           "id": "m3",
-          "value": 65287000000,
-          "unit": "USD",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
+          "value": 52.9,
+          "unit": "index",
+          "periodStart": "2026-10-20",
+          "periodEnd": "2026-11-16",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src18",
-            "src19"
+            "src11"
           ],
-          "evidence": "The condensed consolidated income statement gives GAAP net income for the fiscal quarter."
-        },
-        {
-          "id": "m4",
-          "value": 48253000000,
-          "unit": "USD",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src18",
-            "src19"
-          ],
-          "evidence": "The condensed consolidated cash flow statement gives net cash from operating activities for the fiscal quarter."
-        },
-        {
-          "id": "m5",
-          "value": 107600000000,
-          "unit": "USD",
-          "periodStart": "2026-07-27",
-          "periodEnd": "2026-10-25",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src19"
-          ],
-          "evidence": "The Revenue by Market Platform table gives rounded Data Center revenue for the fiscal quarter."
-        },
-        {
-          "id": "m6",
-          "value": 118000000000,
-          "unit": "USD",
-          "periodStart": "2026-10-25",
-          "periodEnd": "2026-10-25",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src19"
-          ],
-          "evidence": "The guarantees table gives maximum gross exposure at quarter end, not payments made or expected losses."
+          "evidence": "The Consumer Sentiment Index section gives the expectations component for the same interview window."
         }
       ],
       "sourceIds": [
-        "src18",
-        "src19"
+        "src11"
       ],
-      "evidence": "The earnings release shows rising revenue, GAAP net income and operating cash flow. The finance chief’s commentary identifies the data center contribution, discusses slower collections and inventories, and lists contingent guarantee exposure separately from cash paid."
+      "evidence": "The final release shows a rise in headline sentiment, current conditions and expectations. The headline increase falls short of the survey’s published significance threshold; the release also describes softer inflation expectations."
     }
   ],
   "locales": {
     "en": {
       "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
         "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "US consumer sentiment improves, but the rebound is uneven",
-          "summary": "The University of Michigan’s final reading showed better assessments of current conditions and a brighter outlook.",
-          "impact": "The improvement matters for consumer-facing businesses, but it does not yet establish that households are spending more.",
-          "what": "The survey recorded stronger perceptions of business conditions and softer near-term inflation expectations. Researchers reported that households with low or middle wealth generally felt better about their current finances, with some relief from lower gasoline prices. Respondents with the largest stock holdings instead reported deterioration. This is a survey of how people see their circumstances, not a count of purchases or a measure of actual inflation.",
-          "why": "Lower fuel bills can free up money for other spending, and households that feel more secure about income and prices may be less inclined to delay purchases. Retailers and lenders care whether that shift reaches their own customers. The split by wealth is a reminder that falling gasoline prices and falling stock prices can affect different households in different ways. A national sentiment average can move up while some customers are becoming more cautious.",
-          "uncertainty": "The headline rise was smaller than the survey’s stated threshold for statistical significance. The interviews also ended before the latest market close in this briefing, so the results cannot show how households reacted to that session.",
-          "watch": "Compare the next sentiment reading with actual retail sales, inflation and household spending data to see whether the improvement persists and reaches checkout receipts.",
-          "metricLabels": [
-            {
-              "id": "m2",
-              "label": "Previous month consumer sentiment index"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "AI model developer begins public trading",
-          "summary": "Anthropic opened above its offering price as public trading began, following an offering paired with a private placement.",
-          "impact": "The financing could help fund computing capacity, but an opening trade does not establish whether the business can finance expansion from operations.",
-          "what": "Anthropic develops the Claude family of AI models and sells access to consumers, businesses and developers. The exchange confirmed the debut and opening price. The final prospectus distinguishes the shares sold by the company from those sold by existing holders, whose proceeds do not go to the company. It also estimates net proceeds from the public offering and concurrent private placement together, rather than cash confirmed as received at settlement.",
-          "why": "Training models and serving customer requests both require computing capacity, which can mean paying for infrastructure before demand is fully known. Equity funding can help bridge that gap. The prospectus reports positive operating cash flow alongside an operating loss and a much larger net loss. Revaluations of financing instruments explain much of the accounting loss; they were not equivalent to cash paid to run the business. Conversely, positive operating cash flow does not show how much money was left after investment in equipment and infrastructure.",
-          "uncertainty": "The opening trade is not a closing price or a forecast of durable investor demand. The prospectus estimate is not a receipt, and the reported operating cash flow precedes the listing and reflects the timing of customer collections and vendor payments.",
-          "watch": "Look for reported financing proceeds and the next public financial statements, especially computing commitments, capital spending and whether customer cash receipts keep pace.",
+          "title": "Anthropic closes its public offering and private placement",
+          "summary": "Anthropic completed its public stock offering and a concurrent private placement with technology companies.",
+          "impact": "The transactions add financing for an AI business whose computing needs and operating cash generation are separate questions from its reported accounting loss.",
+          "what": "Anthropic develops the Claude family of AI models and sells access through usage charges and subscriptions. Its closing release confirms that underwriters exercised their option to buy additional shares in full. Some public offering proceeds went to existing shareholders selling stock, not to the company. The figures distinguish the company’s gross public offering proceeds from the concurrent private placement.",
+          "why": "Training and running models requires computing capacity, which can cost money before customers pay for using it. Revaluations of financing instruments weighed heavily on reported earnings even as operating cash flow was positive. Neither operating cash flow nor the proceeds from selling shares show how much cash the business can retain after paying for infrastructure. For customers, sustained funding may help support capacity, but it does not guarantee lower prices or better service.",
+          "uncertainty": "The prospectus covers an interim period before the closing, and gross proceeds are before offering expenses. The closing confirms access to financing, not durable profitability or the return on future computing commitments.",
+          "watch": "In the next financial filing, compare revenue, operating cash flow and infrastructure spending, and look for updated purchase and leasing commitments.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Offering price per share"
+              "label": "Issuer gross public offering proceeds"
             },
             {
               "id": "m2",
-              "label": "Opening trade price per share"
+              "label": "Private placement purchase price"
             },
             {
               "id": "m3",
-              "label": "Estimated combined net financing proceeds"
-            },
-            {
-              "id": "m4",
               "label": "Year-to-date revenue"
             },
             {
+              "id": "m4",
+              "label": "Year-to-date GAAP net loss"
+            },
+            {
               "id": "m5",
-              "label": "Year-to-date operating loss"
-            },
-            {
-              "id": "m6",
-              "label": "Year-to-date net loss"
-            },
-            {
-              "id": "m7",
               "label": "Year-to-date operating cash flow"
             }
           ]
         },
         {
-          "id": "f6",
-          "title": "Earnings explainer: AI chip sales rise alongside guarantee exposure",
-          "summary": "NVIDIA’s earlier quarterly release showed rising revenue, profit and operating cash flow as its data center business expanded.",
-          "impact": "The results show strong infrastructure demand, while the guarantee disclosures show how the supplier can also take on risk from customers’ buildouts.",
-          "what": "NVIDIA designs accelerated computing chips and sells networking and integrated systems used to train and run AI models. Data center sales drove growth as the company began shipping its Rubin platform. The finance chief also disclosed maximum exposure under guarantees supporting projects such as data center buildings and power infrastructure. That exposure was contingent, and the company said it had not made payments on the guarantees at the time of the commentary.",
-          "why": "Cloud providers and other businesses need equipment before they can sell more computing services. Supporting a customer’s project can help it get built and create demand for systems, but it can also leave the supplier exposed if the customer cannot meet its obligations. The quarter’s operating cash flow was below accounting profit even though both rose from a year earlier. The cash flow statement shows that receivables and inventory absorbed cash: equipment can be shipped before cash is collected, and building inventory ties up money before the equipment is sold.",
-          "uncertainty": "Maximum gross exposure is not a forecast of losses or a bill due immediately. Some guarantees take effect in phases as buildings become ready. Sales growth does not show whether all buyers will earn enough on their own projects to pay for the infrastructure.",
-          "watch": "In the next filing, compare receivables and inventory with sales and operating cash flow, and look for any guarantees taking effect or requiring payment.",
+          "id": "f4",
+          "title": "US consumers report better conditions, but the rebound is not conclusive",
+          "summary": "The University of Michigan’s final survey showed that consumer sentiment improved, with gains in assessments of current conditions and in expectations.",
+          "impact": "Some households reported relief from gasoline costs, but the survey does not establish that consumers are spending more.",
+          "what": "The survey asks households how they see their finances and the wider economy. The final release reported stronger expectations for business conditions and softer year-ahead inflation expectations. The survey director said households with lower or middle levels of wealth generally reported improved personal finances, while those with the largest stockholdings reported deterioration.",
+          "why": "Consumers who feel less squeezed may be more willing to make purchases they had postponed. Retailers can use that signal when thinking about demand, but feelings about personal finances can improve without a rise in purchases if credit or income is tight. Lower expected inflation is also different from lower actual prices: the survey captures what households think will happen, not what they paid at the checkout.",
+          "uncertainty": "The headline improvement fell below the survey’s published threshold for statistical significance. Interviews also ended before Friday’s stock-market decline, so the release cannot show how households reacted to that session.",
+          "watch": "Compare the next sentiment release with retail sales and household spending data to see whether the improvement persists and whether it translates into purchases.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Fiscal-quarter revenue"
+              "label": "Final consumer sentiment index"
             },
             {
               "id": "m2",
-              "label": "Fiscal-quarter revenue growth from a year earlier"
+              "label": "Current economic conditions index"
             },
             {
               "id": "m3",
-              "label": "Fiscal-quarter GAAP net income"
-            },
-            {
-              "id": "m4",
-              "label": "Fiscal-quarter operating cash flow"
-            },
-            {
-              "id": "m5",
-              "label": "Fiscal-quarter data center revenue"
-            },
-            {
-              "id": "m6",
-              "label": "Maximum gross guarantee exposure at quarter end"
+              "label": "Consumer expectations index"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场没有经核实的新消息；较早发布的报告仍明确标注日期。",
+      "status": "本期经核实的报道有限。部分市场暂无经核实的新消息；较早的报道仍明确标注日期。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。可提供数据的指数均保留各自的交易日期。",
-        "cn": "部分收盘数据未能核实。可提供数据的指数均保留各自的交易日期。"
+        "us": "所跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据仅反映当日行情，并非实时行情。",
+        "cn": "部分收盘数据未能核实。可核实的指数收盘数据均保留各自对应的交易日期。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "美国消费者信心回升，但不同家庭感受不一",
-          "summary": "密歇根大学公布的调查终值显示，受访者对当前状况的评价有所改善，对未来也更乐观。",
-          "impact": "信心改善值得面向消费者的企业关注，但还不能据此断定家庭支出已经增加。",
-          "what": "调查显示，受访者对商业状况的看法有所改善，对近期通胀的预期有所下降。研究人员发现，财富水平较低或居中的家庭普遍觉得目前的财务状况有所好转，汽油价格下跌也减轻了部分负担。相比之下，股票持有量最大的受访者反映自身状况有所恶化。这项调查反映的是人们如何看待自身处境，并不统计实际购买情况，也不衡量实际通胀。",
-          "why": "油费下降可以腾出钱用于其他开支。如果家庭对收入和物价更有把握，就可能不那么倾向于推迟购买。零售商和贷款机构关心的是，这种变化是否也出现在自己的客户中。不同财富群体的感受出现分化，说明油价下跌和股价下跌对不同家庭的影响并不相同。即使全国消费者信心指数回升，部分客户也可能变得更加谨慎。",
-          "uncertainty": "总体指数的涨幅未达到调查所列的统计显著性门槛。调查访谈也在本简报所述的最近一次市场收盘之前结束，因此无法反映家庭对该交易日行情的反应。",
-          "watch": "可将下次公布的消费者信心指数与实际零售销售、通胀和家庭支出数据对照，观察信心改善能否持续，并体现为实际消费。",
+          "title": "Anthropic 完成股票公开发行和私募配售",
+          "summary": "Anthropic 完成了股票公开发行，并同期向科技公司完成了私募配售。",
+          "impact": "这些交易为这家人工智能企业补充了资金。公司需要多少算力、日常经营能带来多少现金，不能只看账面亏损来判断。",
+          "what": "Anthropic 开发 Claude 系列人工智能模型，通过按使用量收费和订阅收费提供服务。公司在发行完成公告中确认，承销商已全额行使购买额外股份的选择权。公开发行的部分款项归出售股份的现有股东，而非公司。披露数据将公司通过公开发行募集的资金总额与同期私募配售的款项分开列示。",
+          "why": "训练和运行模型都需要算力，公司可能要在收到客户支付的使用费用之前就承担相关成本。尽管经营现金流为正，融资工具的估值调整仍明显拖累了账面业绩。无论是经营现金流还是出售股份所得，都不能说明公司在支付基础设施开支后能留下多少现金。对客户来说，持续获得资金可能有助于维持算力供应，但不保证价格下降或服务改善。",
+          "uncertainty": "招股说明书涵盖的是发行完成前的中期报告期，募集资金总额尚未扣除发行费用。交易完成只说明公司获得了融资，并不能说明公司能否持续盈利，也不能说明未来承诺投入的算力支出能带来怎样的回报。",
+          "watch": "下一份财务披露中，可对照查看营收、经营现金流和基础设施支出，并关注采购和租赁承诺有何变化。",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "发行人公开发行募集资金总额"
+            },
+            {
               "id": "m2",
-              "label": "上月消费者信心指数"
+              "label": "私募配售认购价款"
+            },
+            {
+              "id": "m3",
+              "label": "年初至今累计营收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今累计净亏损（按美国通用会计准则）"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今累计经营现金流"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "人工智能模型开发商开始上市交易",
-          "summary": "Anthropic 在公开发行并同步进行私募配售后开始上市交易，开盘成交价高于发行价。",
-          "impact": "这笔融资有望为扩充算力提供资金，但开盘成交情况不能说明公司能否靠自身经营为扩张筹资。",
-          "what": "Anthropic 开发 Claude 系列人工智能模型，向消费者、企业和开发者出售模型使用服务。交易所确认了上市交易及开盘价。最终版招股书区分了公司出售的股份与现有股东出售的股份，后者的出售所得不归公司。招股书列出的是公开发行和同期私募配售合计的预计净募资额，而不是交割时确认到账的现金。",
-          "why": "训练模型和处理客户请求都需要算力，公司可能在需求尚未完全明朗时就得投入基础设施。股权融资可以帮助填补这段时期的资金缺口。招股书显示，公司经营现金流为正，但仍有营业亏损，净亏损则大得多。会计亏损有很大一部分来自融资工具的价值重估，并不等于公司为维持经营实际支付了相应金额的现金。反过来，经营现金流为正也不能说明投入设备和基础设施后还剩多少资金。",
-          "uncertainty": "开盘成交价不是收盘价，也不能用来预测投资者需求能否持续。招股书中的估算不代表资金已经到账。披露的经营现金流来自上市前的期间，也受客户付款和公司向供应商付款的时间影响。",
-          "watch": "关注公司披露的实际募资所得和下次公开发布的财务报表，尤其是算力相关承诺、资本支出，以及客户回款能否跟上资金支出。",
+          "id": "f4",
+          "title": "美国消费者对经济状况的看法好转，但尚不能确认信心回升",
+          "summary": "密歇根大学的调查终值显示，消费者信心有所改善，对当前经济状况的评价和对未来的预期均有好转。",
+          "impact": "部分家庭表示汽油开支压力有所缓解，但调查并不能证明消费者增加了支出。",
+          "what": "这项调查询问家庭如何看待自身财务状况和整体经济。最终公布的结果显示，受访家庭对商业环境的预期有所改善，对未来的通胀预期有所下降。调查负责人表示，财富水平较低或处于中等水平的家庭普遍认为自身财务状况有所改善，而持股最多的家庭则认为财务状况有所恶化。",
+          "why": "如果经济压力有所减轻，消费者可能更愿意购买此前推迟购买的商品。零售商可以把这种变化作为判断需求的参考，但如果信贷或收入仍然紧张，即使消费者对自身财务状况的看法好转，实际购买也未必会增加。通胀预期下降也不等于实际价格下降：调查反映的是家庭对未来的看法，而不是结账时实际支付的价格。",
+          "uncertainty": "总体指数的改善幅度未达到调查公布的统计显著性门槛。访谈也在周五股市下跌前结束，因此调查结果无法反映家庭对当日行情的反应。",
+          "watch": "可将后续公布的消费者信心调查结果与零售销售和家庭支出数据对照，观察信心是否继续改善，以及这种改善是否带来更多实际购买。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "每股发行价"
+              "label": "消费者信心指数终值"
             },
             {
               "id": "m2",
-              "label": "每股开盘成交价"
+              "label": "当前经济状况指数"
             },
             {
               "id": "m3",
-              "label": "预计合计净募资额"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今营收"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今营业亏损"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今净亏损"
-            },
-            {
-              "id": "m7",
-              "label": "年初至今经营现金流"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "财报解读：人工智能芯片销售增长，也需留意担保风险",
-          "summary": "英伟达此前发布的季度财报显示，随着数据中心业务扩张，营收、利润和经营现金流均有所增长。",
-          "impact": "业绩显示基础设施需求强劲，担保披露也表明，供应商在支持客户建设项目时可能要承担相应风险。",
-          "what": "英伟达设计加速计算芯片，并销售用于训练和运行人工智能模型的网络设备和集成系统。随着公司开始交付 Rubin 平台，数据中心业务的销售额带动了整体增长。财务负责人还披露了公司为数据中心楼宇和电力基础设施等项目提供担保所承担的最大风险敞口。这些担保是否需要付款取决于相关条件是否触发。公司表示，截至披露时尚未因这些担保支付款项。",
-          "why": "云服务商和其他企业需要先配备设备，才能扩大算力服务的销售。供应商支持客户项目，有助于推动项目落地并带来系统需求，但如果客户无法履行义务，供应商也可能承担损失。该财季的经营现金流低于账面利润，尽管两者均较上年同期增长。现金流量表显示，应收账款和存货占用了资金：设备发货后不一定马上收到货款，而备货也会在设备售出前占用资金。",
-          "uncertainty": "担保风险敞口总额的上限既不是预计损失，也不是立即要付的账单。部分担保会随着楼宇陆续具备使用条件而分阶段生效。销售增长并不能说明所有买家都能从各自的项目中赚到足够的钱来支付基础设施费用。",
-          "watch": "可在下次提交的财务文件中，将应收账款和存货与销售额及经营现金流对照，并关注是否有担保生效或需要付款。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "财季营收"
-            },
-            {
-              "id": "m2",
-              "label": "财季营收同比增幅"
-            },
-            {
-              "id": "m3",
-              "label": "财季净利润（按公认会计原则）"
-            },
-            {
-              "id": "m4",
-              "label": "财季经营现金流"
-            },
-            {
-              "id": "m5",
-              "label": "财季数据中心营收"
-            },
-            {
-              "id": "m6",
-              "label": "财季末担保风险敞口总额上限"
+              "label": "消费者预期指数"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition ne contient qu’un nombre limité d’informations vérifiées. Pour certains marchés, aucune nouvelle information n’a pu être vérifiée. Les publications antérieures restent clairement datées.",
+      "status": "Cette édition ne présente qu’un nombre limité d’informations vérifiées. Pour certains marchés, aucune nouvelle actualité n’a pu être vérifiée. Les publications datées restent clairement signalées.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. La date de séance est indiquée pour chaque indice dont les données sont disponibles.",
-        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. La date de séance est indiquée pour chaque indice dont les données sont disponibles."
+        "us": "Les indices suivis ont tous reculé lors de leur dernière séance vérifiée. Les cours de clôture datés correspondent à ces séances, pas aux échanges en cours.",
+        "cn": "Certains cours de clôture n’ont pas pu être vérifiés. Chaque indice pour lequel des données sont disponibles conserve sa propre date de séance."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "La confiance des consommateurs américains remonte, mais pas chez tous les ménages",
-          "summary": "Les résultats définitifs de l’enquête de l’Université du Michigan montrent que les ménages jugent la situation actuelle plus favorablement et sont plus optimistes pour la suite.",
-          "impact": "Cette amélioration compte pour les entreprises qui vendent aux particuliers, mais elle ne prouve pas que les ménages dépensent davantage.",
-          "what": "Les personnes interrogées jugent la conjoncture économique plus favorablement et s’attendent à une inflation moins forte à court terme. Selon les chercheurs, les ménages au patrimoine faible ou moyen se sentent généralement mieux lotis sur le plan financier, en partie grâce à la baisse du prix de l’essence. À l’inverse, les personnes qui détiennent le plus d’actions disent que leur situation s’est dégradée. L’enquête mesure la façon dont les ménages perçoivent leur situation : elle ne comptabilise pas les achats et ne mesure pas l’inflation réelle.",
-          "why": "Dépenser moins à la pompe peut laisser plus d’argent pour d’autres achats. Les ménages plus confiants quant à leurs revenus et à l’évolution des prix peuvent aussi être moins enclins à reporter leurs achats. Les commerçants et les prêteurs cherchent à savoir si ce changement touche leur propre clientèle. Les écarts selon le patrimoine rappellent que la baisse du prix de l’essence et celle des cours boursiers ne touchent pas tous les ménages de la même façon. La confiance moyenne peut progresser à l’échelle nationale alors même que certains clients deviennent plus prudents.",
-          "uncertainty": "La hausse de l’indice global est restée en deçà du seuil que l’enquête fixe pour qu’une variation soit considérée comme statistiquement significative. Les entretiens se sont aussi achevés avant la dernière clôture mentionnée dans cette édition. Les résultats ne disent donc pas comment les ménages ont réagi à cette séance.",
-          "watch": "Comparer le prochain indice de confiance aux chiffres des ventes au détail, de l’inflation et des dépenses des ménages pour voir si l’amélioration se confirme et se traduit par des achats.",
+          "title": "Anthropic finalise son offre publique d’actions et son placement privé",
+          "summary": "Anthropic a bouclé son offre publique d’actions ainsi qu’un placement privé réalisé en parallèle auprès d’entreprises technologiques.",
+          "impact": "Ces opérations apportent des fonds à une entreprise d’IA. Ses besoins en puissance de calcul et les liquidités générées par son activité sont à distinguer de la perte comptable qu’elle a publiée.",
+          "what": "Anthropic développe la famille de modèles d’IA Claude et en facture l’accès à l’usage ou par abonnement. Dans son communiqué de clôture, l’entreprise confirme que les banques chargées de l’offre ont intégralement exercé leur option d’achat d’actions supplémentaires. Une partie du produit de l’offre publique est revenue aux actionnaires qui vendaient leurs titres, et non à l’entreprise. Les chiffres distinguent le produit brut de l’offre publique revenant à Anthropic du montant du placement privé réalisé en parallèle.",
+          "why": "Entraîner et faire fonctionner les modèles exige de la puissance de calcul, ce qui peut entraîner des dépenses avant même que les clients ne paient pour les utiliser. La réévaluation d’instruments de financement a fortement pesé sur le résultat publié, alors même que le flux de trésorerie d’exploitation était positif. Ni ce flux ni le produit de la vente d’actions n’indiquent combien de liquidités l’entreprise peut conserver après avoir payé ses infrastructures. Pour les clients, un financement durable peut aider à maintenir les capacités de calcul, sans pour autant garantir des prix plus bas ou un meilleur service.",
+          "uncertainty": "Le prospectus couvre une période intermédiaire antérieure à la clôture, et les montants bruts sont indiqués avant déduction des frais de l’offre. La clôture confirme qu’Anthropic a pu se financer, mais ne dit pas si l’entreprise sera durablement rentable ni ce que rapporteront ses futurs engagements en matière de capacité de calcul.",
+          "watch": "Dans la prochaine publication financière, comparer le chiffre d’affaires, le flux de trésorerie d’exploitation et les dépenses d’infrastructure, et relever les éventuelles mises à jour des engagements d’achat et de location.",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "Produit brut de l’offre publique revenant à l’émetteur"
+            },
+            {
               "id": "m2",
-              "label": "Indice de confiance des consommateurs du mois précédent"
+              "label": "Prix d’achat dans le cadre du placement privé"
+            },
+            {
+              "id": "m3",
+              "label": "Chiffre d’affaires cumulé depuis le début de l’année"
+            },
+            {
+              "id": "m4",
+              "label": "Perte nette selon les normes GAAP cumulée depuis le début de l’année"
+            },
+            {
+              "id": "m5",
+              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’année"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Un développeur de modèles d’IA fait ses débuts en Bourse",
-          "summary": "L’action Anthropic a commencé à s’échanger au-dessus de son prix d’introduction, après une offre au public accompagnée d’un placement privé.",
-          "impact": "Les fonds levés pourraient aider à financer des capacités de calcul, mais le cours d’ouverture ne dit pas si l’entreprise peut financer son expansion avec l’argent généré par son activité.",
-          "what": "Anthropic développe la gamme de modèles d’IA Claude et en vend l’accès aux particuliers, aux entreprises et aux développeurs. La Bourse a confirmé le début de la cotation et le cours d’ouverture. Le prospectus définitif distingue les actions vendues par l’entreprise de celles vendues par les actionnaires existants : le produit des ventes de ces derniers ne revient pas à l’entreprise. Il présente aussi une estimation du produit net total de l’offre au public et du placement privé mené en parallèle, et non des sommes dont l’encaissement a été confirmé au moment du règlement de l’opération.",
-          "why": "Entraîner les modèles et répondre aux demandes des clients mobilisent des capacités de calcul. L’entreprise peut donc devoir payer des infrastructures avant de connaître pleinement la demande. Une levée de fonds par émission d’actions peut l’aider à couvrir ce décalage. Le prospectus fait état d’un flux de trésorerie d’exploitation positif, malgré une perte d’exploitation et une perte nette bien plus importante. La réévaluation d’instruments de financement explique une grande partie de la perte comptable, sans correspondre à des décaissements nécessaires au fonctionnement de l’entreprise. À l’inverse, un flux de trésorerie d’exploitation positif ne dit pas combien d’argent il reste après les investissements en équipements et en infrastructures.",
-          "uncertainty": "Le cours d’ouverture n’est pas un cours de clôture et ne permet pas de prévoir si l’intérêt des investisseurs durera. L’estimation du prospectus ne prouve pas que les fonds ont été encaissés. Le flux de trésorerie d’exploitation publié porte sur la période précédant la cotation et dépend du moment où les clients paient et où l’entreprise règle ses fournisseurs.",
-          "watch": "Suivre les montants que l’entreprise déclarera avoir levés et les prochains états financiers publics. Regarder en particulier les engagements liés aux capacités de calcul, les dépenses d’investissement et si les encaissements auprès des clients suivent le rythme.",
+          "id": "f4",
+          "title": "Les consommateurs américains jugent la situation meilleure, mais le rebond reste à confirmer",
+          "summary": "Les résultats définitifs de l’enquête de l’université du Michigan montrent une amélioration de la confiance des consommateurs, tant dans leur appréciation de la situation actuelle que dans leurs attentes.",
+          "impact": "Certains ménages ont indiqué que le coût de l’essence pesait moins sur leur budget, mais l’enquête ne montre pas que les consommateurs dépensent davantage.",
+          "what": "L’enquête demande aux ménages comment ils voient leurs finances et la situation économique dans son ensemble. Les résultats définitifs font état d’attentes plus favorables pour la conjoncture et d’anticipations d’inflation en baisse pour l’année à venir. Le directeur de l’enquête a indiqué que les ménages au patrimoine faible ou moyen faisaient généralement état d’une amélioration de leurs finances, tandis que ceux qui détenaient le plus d’actions signalaient une dégradation.",
+          "why": "Les consommateurs qui se sentent moins à l’étroit financièrement peuvent être plus disposés à effectuer des achats qu’ils avaient reportés. Ce signal peut éclairer les commerçants sur la demande, mais les ménages peuvent se sentir mieux lotis sans acheter davantage si l’accès au crédit est difficile ou si leurs revenus restent serrés. S’attendre à une inflation plus faible ne veut pas non plus dire que les prix ont baissé : l’enquête mesure ce que les ménages pensent qu’il va se passer, pas ce qu’ils ont payé en caisse.",
+          "uncertainty": "La hausse de l’indice principal est restée sous le seuil de significativité statistique publié par l’enquête. Les entretiens se sont aussi terminés avant le recul de la Bourse vendredi : les résultats ne permettent donc pas de savoir comment les ménages ont réagi à cette séance.",
+          "watch": "Comparer les prochains résultats de l’enquête aux données sur les ventes au détail et les dépenses des ménages pour voir si l’amélioration se maintient et si elle se traduit par des achats.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Prix d’introduction par action"
+              "label": "Indice de confiance des consommateurs, estimation définitive"
             },
             {
               "id": "m2",
-              "label": "Cours d’ouverture par action"
+              "label": "Indice de la situation économique actuelle"
             },
             {
               "id": "m3",
-              "label": "Produit net total estimé des opérations de financement"
-            },
-            {
-              "id": "m4",
-              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m5",
-              "label": "Perte d’exploitation cumulée depuis le début de l’exercice"
-            },
-            {
-              "id": "m6",
-              "label": "Perte nette cumulée depuis le début de l’exercice"
-            },
-            {
-              "id": "m7",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Décryptage des résultats : les ventes de puces d’IA progressent, tandis que les garanties exposent NVIDIA à des risques",
-          "summary": "Une publication trimestrielle antérieure de NVIDIA faisait état d’une hausse du chiffre d’affaires, du bénéfice et du flux de trésorerie d’exploitation, portée par le développement de son activité dans les centres de données.",
-          "impact": "Les résultats montrent que la demande d’infrastructures est forte. Les informations sur les garanties montrent aussi que le fournisseur peut assumer une partie du risque lié aux projets de ses clients.",
-          "what": "NVIDIA conçoit des puces qui accélèrent les calculs et vend des équipements de réseau et des systèmes intégrés qui servent à entraîner et à faire fonctionner des modèles d’IA. Les ventes destinées aux centres de données ont tiré la croissance, alors que l’entreprise commençait à livrer sa plateforme Rubin. La direction financière a aussi indiqué le montant maximal auquel NVIDIA pourrait être exposée au titre de garanties soutenant des projets comme la construction de centres de données et d’infrastructures électriques. Cette exposition dépendait de la réalisation de certaines conditions et, au moment de cette communication, l’entreprise indiquait n’avoir effectué aucun versement au titre de ces garanties.",
-          "why": "Les fournisseurs de services cloud et d’autres entreprises ont besoin d’équipements avant de pouvoir vendre davantage de services de calcul. Soutenir le projet d’un client peut l’aider à voir le jour et créer des débouchés pour les équipements, mais le fournisseur prend aussi un risque si le client ne peut pas honorer ses engagements. Le flux de trésorerie d’exploitation du trimestre était inférieur au bénéfice comptable, même si chacun a progressé par rapport à la même période de l’exercice précédent. Le tableau des flux de trésorerie montre que les créances clients et les stocks ont mobilisé de l’argent : les équipements peuvent être livrés avant d’être payés, et constituer des stocks immobilise de l’argent avant la vente.",
-          "uncertainty": "L’exposition brute maximale n’est ni une prévision de pertes ni une somme à payer immédiatement. Certaines garanties prennent effet par étapes, à mesure que les bâtiments sont prêts. La hausse des ventes ne dit pas si tous les acheteurs tireront suffisamment de revenus de leurs projets pour payer les infrastructures.",
-          "watch": "Dans la prochaine publication financière, comparer les créances clients et les stocks au chiffre d’affaires et au flux de trésorerie d’exploitation. Vérifier aussi si des garanties sont entrées en vigueur ou ont nécessité un versement.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires du trimestre de l’exercice"
-            },
-            {
-              "id": "m2",
-              "label": "Croissance du chiffre d’affaires trimestriel sur un an"
-            },
-            {
-              "id": "m3",
-              "label": "Bénéfice net trimestriel selon les normes GAAP"
-            },
-            {
-              "id": "m4",
-              "label": "Flux de trésorerie d’exploitation trimestriel"
-            },
-            {
-              "id": "m5",
-              "label": "Chiffre d’affaires trimestriel de l’activité centres de données"
-            },
-            {
-              "id": "m6",
-              "label": "Exposition brute maximale au titre des garanties en fin de trimestre"
+              "label": "Indice des attentes des consommateurs"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición tiene una cobertura verificada limitada. En algunos mercados no hay novedades verificadas. Los informes de fechas anteriores siguen claramente identificados.",
+      "status": "La cobertura verificada de esta edición es limitada. En algunos mercados no hay novedades verificadas; los informes anteriores siguen identificados con su fecha.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
-        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil."
+        "us": "Los índices que seguimos bajaron en sus respectivas sesiones verificadas más recientes. Los datos de cierre corresponden a esas sesiones y no reflejan la cotización actual.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión bursátil."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Mejora la confianza de los consumidores en Estados Unidos, pero el repunte es desigual",
-          "summary": "El dato definitivo de la Universidad de Michigan mostró una mejor valoración de la situación actual y perspectivas más favorables.",
-          "impact": "La mejora es relevante para las empresas que venden a los consumidores, pero aún no demuestra que los hogares estén gastando más.",
-          "what": "La encuesta reflejó una mejor percepción de la situación empresarial y menores expectativas de inflación a corto plazo. Según los investigadores, los hogares con un patrimonio bajo o medio tendían a valorar mejor su situación financiera actual, en parte por el alivio que les dio la bajada del precio de la gasolina. En cambio, quienes tenían las mayores carteras de acciones dijeron que su situación había empeorado. La encuesta recoge cómo ven las personas su propia situación: no registra compras ni mide la inflación real.",
-          "why": "Gastar menos en combustible puede dejar más dinero para otras compras. Los hogares que se sienten más seguros respecto a sus ingresos y a los precios pueden estar menos dispuestos a posponerlas. A los comercios y a las entidades de crédito les importa saber si ese cambio se da también entre sus clientes. Las diferencias por nivel de patrimonio recuerdan que una bajada del precio de la gasolina y una caída de las cotizaciones bursátiles pueden afectar de forma distinta a cada hogar. La confianza media del país puede subir aunque algunos clientes actúen con más cautela.",
-          "uncertainty": "La subida del índice general quedó por debajo del umbral que fija la encuesta para considerar que un cambio es estadísticamente significativo. Las entrevistas también terminaron antes del último cierre bursátil recogido en esta edición, por lo que los resultados no muestran cómo reaccionaron los hogares a esa sesión.",
-          "watch": "Comparar el próximo dato de confianza con los datos de ventas minoristas, inflación y gasto de los hogares para ver si la mejora se mantiene y se traduce en compras.",
+          "title": "Anthropic cierra su oferta pública de acciones y su colocación privada",
+          "summary": "Anthropic completó su oferta pública de acciones y, en paralelo, una colocación privada con empresas tecnológicas.",
+          "impact": "Las operaciones aportan financiación a una empresa de inteligencia artificial. La pérdida contable que declaró no indica cuánta capacidad de cómputo necesita ni cuánto efectivo genera con su actividad.",
+          "what": "Anthropic desarrolla la familia de modelos de inteligencia artificial Claude y cobra por el acceso mediante tarifas por uso y suscripciones. En el comunicado de cierre, confirmó que los bancos colocadores ejercieron en su totalidad la opción de comprar acciones adicionales. Parte del dinero de la oferta pública fue a los accionistas que vendieron sus acciones, no a la empresa. Las cifras distinguen el importe bruto que recibió la empresa por la oferta pública del importe de la colocación privada simultánea.",
+          "why": "Entrenar y operar los modelos requiere capacidad de cómputo, y eso puede generar gastos antes de que los clientes paguen por usar los modelos. Los cambios en la valoración de los instrumentos de financiación pesaron mucho en el resultado contable, aunque el flujo de efectivo operativo fue positivo. Ni ese flujo ni el dinero captado con la venta de acciones muestran cuánto efectivo puede conservar la empresa después de pagar la infraestructura. Para los clientes, contar con financiación sostenida puede ayudar a mantener la capacidad disponible, pero no garantiza precios más bajos ni un mejor servicio.",
+          "uncertainty": "El folleto de la oferta abarca un periodo financiero intermedio anterior al cierre, y los importes brutos no descuentan los gastos de la oferta. El cierre confirma que la empresa consiguió financiación, pero no demuestra que pueda mantener la rentabilidad ni indica qué rendimiento obtendrá de sus futuros compromisos de capacidad de cómputo.",
+          "watch": "En el próximo informe financiero, conviene comparar los ingresos, el flujo de efectivo operativo y el gasto en infraestructura, y comprobar si se han actualizado los compromisos de compra y arrendamiento.",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "Importe bruto captado por el emisor en la oferta pública"
+            },
+            {
               "id": "m2",
-              "label": "Índice de confianza del consumidor del mes anterior"
+              "label": "Precio de compra en la colocación privada"
+            },
+            {
+              "id": "m3",
+              "label": "Ingresos acumulados en el año"
+            },
+            {
+              "id": "m4",
+              "label": "Pérdida neta acumulada en el año según los principios contables GAAP"
+            },
+            {
+              "id": "m5",
+              "label": "Flujo de efectivo operativo acumulado en el año"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "Una empresa que desarrolla modelos de inteligencia artificial empieza a cotizar en bolsa",
-          "summary": "Anthropic debutó en bolsa por encima del precio de la oferta, que se realizó junto con una colocación privada.",
-          "impact": "La financiación podría ayudar a pagar la capacidad informática, pero la operación de apertura no demuestra que la empresa pueda costear su expansión con los recursos que genera su actividad.",
-          "what": "Anthropic desarrolla la familia de modelos de inteligencia artificial Claude y vende acceso a consumidores, empresas y desarrolladores. La bolsa confirmó el debut y el precio de apertura. El folleto definitivo distingue entre las acciones que vende la empresa y las que venden los accionistas existentes, cuyo importe no recibe la empresa. El folleto también estima cuánto captaría la empresa en términos netos con la oferta pública y la colocación privada simultánea. Esa estimación no confirma cuánto dinero recibió al liquidarse las operaciones.",
-          "why": "Entrenar modelos y atender las solicitudes de los clientes requiere capacidad informática, lo que puede obligar a pagar por infraestructura antes de saber con claridad cuánta demanda habrá. La financiación mediante acciones puede ayudar a cubrir ese desfase. El folleto muestra un flujo de caja operativo positivo, pese a una pérdida operativa y una pérdida neta mucho mayor. Los cambios de valoración de instrumentos de financiación explican buena parte de la pérdida contable y no equivalen a pagos en efectivo para operar el negocio. A su vez, un flujo de caja operativo positivo no indica cuánto dinero quedó después de invertir en equipos e infraestructura.",
-          "uncertainty": "El precio de la operación de apertura no es el precio de cierre ni permite prever si la demanda de los inversores se mantendrá. La estimación del folleto no prueba que se haya recibido el dinero. El flujo de caja operativo publicado corresponde a un periodo anterior a la salida a bolsa y refleja cuándo se cobró a los clientes y cuándo se pagó a los proveedores.",
-          "watch": "Consultar el importe que la empresa declare haber captado y sus próximos estados financieros públicos, con atención a los compromisos de capacidad informática, el gasto de capital y si los cobros a clientes siguen el ritmo de esos gastos.",
+          "id": "f4",
+          "title": "Los consumidores de EE. UU. perciben una mejora, pero el repunte no es concluyente",
+          "summary": "La encuesta definitiva de la Universidad de Michigan mostró una mejora en la confianza de los consumidores. Mejoraron la valoración de la situación actual y las expectativas.",
+          "impact": "Algunos hogares dijeron sentir menos presión por el coste de la gasolina, pero la encuesta no demuestra que los consumidores estén gastando más.",
+          "what": "La encuesta pregunta a los hogares cómo ven sus finanzas y la economía en general. Los resultados definitivos mostraron mejores perspectivas para la actividad empresarial y menores expectativas de inflación para el próximo año. Según la dirección de la encuesta, los hogares con patrimonio bajo o medio señalaron, por lo general, que sus finanzas personales habían mejorado, mientras que los hogares con mayores carteras de acciones dijeron que habían empeorado.",
+          "why": "Los consumidores que sienten menos presión económica pueden estar más dispuestos a hacer compras que habían aplazado. Los comercios minoristas pueden tomarlo como una señal al evaluar la demanda, pero los hogares pueden sentirse mejor respecto a sus finanzas sin comprar más si tienen ingresos limitados o dificultades para acceder al crédito. Además, esperar menos inflación no significa que los precios hayan bajado: la encuesta recoge lo que los hogares creen que ocurrirá, no lo que pagaron en caja.",
+          "uncertainty": "La mejora del índice general quedó por debajo del umbral de significación estadística publicado por la encuesta. Además, las entrevistas terminaron antes de la caída bursátil del viernes, por lo que los resultados no muestran cómo reaccionaron los hogares a esa sesión.",
+          "watch": "Al comparar los próximos datos de confianza con las ventas minoristas y el gasto de los hogares, se podrá ver si la mejora persiste y si se traduce en compras.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Precio de la oferta por acción"
+              "label": "Índice definitivo de confianza del consumidor"
             },
             {
               "id": "m2",
-              "label": "Precio de la operación de apertura por acción"
+              "label": "Índice de condiciones económicas actuales"
             },
             {
               "id": "m3",
-              "label": "Importe neto estimado de la financiación conjunta"
-            },
-            {
-              "id": "m4",
-              "label": "Ingresos acumulados en el ejercicio"
-            },
-            {
-              "id": "m5",
-              "label": "Pérdida operativa acumulada en el ejercicio"
-            },
-            {
-              "id": "m6",
-              "label": "Pérdida neta acumulada en el ejercicio"
-            },
-            {
-              "id": "m7",
-              "label": "Flujo de caja operativo acumulado en el ejercicio"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Resultados de NVIDIA: suben las ventas de chips de inteligencia artificial y crece la exposición por garantías",
-          "summary": "El informe trimestral anterior de NVIDIA mostró un aumento de los ingresos, el beneficio y el flujo de caja operativo a medida que crecía su negocio de centros de datos.",
-          "impact": "Los resultados muestran una fuerte demanda de infraestructura. La información sobre las garantías muestra que el proveedor también puede asumir riesgos ligados a los proyectos de construcción de sus clientes.",
-          "what": "NVIDIA diseña chips de computación acelerada y vende equipos de red y sistemas integrados que se usan para entrenar y ejecutar modelos de inteligencia artificial. Las ventas de centros de datos impulsaron el crecimiento mientras la empresa empezaba a enviar su plataforma Rubin. La responsable de finanzas también informó del importe máximo que la empresa podría tener que cubrir por garantías que respaldan proyectos como edificios para centros de datos e infraestructura eléctrica. La obligación de pago dependía de que se dieran ciertas condiciones, y la empresa indicó que hasta ese momento no había efectuado pagos por esas garantías.",
-          "why": "Los proveedores de servicios en la nube y otras empresas necesitan equipos antes de poder vender más servicios informáticos. Respaldar el proyecto de un cliente puede ayudar a que se construya y generar demanda de sistemas, pero también puede dejar al proveedor expuesto si el cliente no cumple sus obligaciones. El flujo de caja operativo del trimestre fue inferior al beneficio contable, aunque ambos aumentaron respecto al mismo periodo del ejercicio anterior. El estado de flujos de efectivo muestra que las cuentas por cobrar y las existencias absorbieron efectivo: los equipos pueden enviarse antes de que se cobren, y acumular existencias inmoviliza dinero hasta que se venden.",
-          "uncertainty": "La exposición bruta máxima no es una previsión de pérdidas ni un importe que deba pagarse de inmediato. Algunas garantías entran en vigor por etapas, a medida que los edificios quedan listos. El crecimiento de las ventas no indica si todos los compradores ganarán lo suficiente con sus propios proyectos para pagar la infraestructura.",
-          "watch": "En el próximo informe financiero, comparar las cuentas por cobrar y las existencias con las ventas y el flujo de caja operativo, y comprobar si alguna garantía entra en vigor o exige un pago.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos del trimestre fiscal"
-            },
-            {
-              "id": "m2",
-              "label": "Crecimiento interanual de los ingresos del trimestre fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Beneficio neto del trimestre fiscal según las normas contables estadounidenses (GAAP)"
-            },
-            {
-              "id": "m4",
-              "label": "Flujo de caja operativo del trimestre fiscal"
-            },
-            {
-              "id": "m5",
-              "label": "Ingresos de centros de datos del trimestre fiscal"
-            },
-            {
-              "id": "m6",
-              "label": "Exposición bruta máxima por garantías al cierre del trimestre"
+              "label": "Índice de expectativas del consumidor"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今号で確認できた情報は限られています。新たなニュースを確認できなかった市場もあります。過去の報告には、いつの情報かを明記しています。",
+      "status": "今回お伝えするのは、確認できた情報に限られます。新たなニュースを確認できなかった市場もあります。過去の取引や発表を扱う記事には、該当する日付を明示しています。",
       "marketSummary": {
-        "us": "取引終了時点の値を確認できなかったものがあります。確認できた指数には、それぞれの取引日を表示しています。",
-        "cn": "取引終了時点の値を確認できなかったものがあります。確認できた指数には、それぞれの取引日を表示しています。"
+        "us": "対象の株価指数はいずれも、終値を確認できた直近の取引日に下落しました。日付付きの終値はその日のもので、現在の取引状況を示すものではありません。",
+        "cn": "終値を確認できなかった指数もあります。確認できた終値には、それぞれの取引日を記載しています。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "米国の消費者心理が改善、ただし家計によってばらつき",
-          "summary": "ミシガン大学の消費者調査の確報では、足元の状況に対する評価が改善し、先行きの見方も明るくなりました。",
-          "impact": "消費者向けの企業にとって注目すべき改善ですが、家計が実際に支出を増やしているとまでは言えません。",
-          "what": "調査では、景況感が改善し、近い将来の物価上昇に対する見通しも和らぎました。調査担当者によると、保有資産が少ない家計や中程度の家計では、ガソリン価格の低下も負担の軽減につながり、足元の家計状況に対する見方がおおむね改善しました。一方、株式保有額が最も大きい層では、見方が悪化しました。この調査がとらえるのは、回答者が自分の状況をどう感じているかです。実際の買い物の件数や物価上昇率を測るものではありません。",
-          "why": "燃料代が下がると、ほかの支出にお金を回しやすくなります。収入や物価への不安が和らげば、買い物を先送りしなくなる可能性もあります。小売業者や融資を行う金融機関にとっては、こうした変化が自社の顧客にも及ぶかどうかが重要です。資産状況によって結果が分かれたのは、ガソリン価格の下落と株価の下落の影響が家計によって異なりうるためです。全国平均の消費者心理が改善しても、買い物に慎重になる顧客はいます。",
-          "uncertainty": "総合指数の上昇幅は、調査が統計的に意味のある変化とみなす基準に届きませんでした。また、聞き取りは今号で扱う直近の取引が終了する前に終わっているため、その日の相場に家計がどう反応したかは分かりません。",
-          "watch": "次回の消費者心理の結果を、小売売上高、物価、家計支出の実績と見比べると、改善が続いているか、実際の買い物に表れているかを確認できます。",
+          "title": "アンソロピック、株式の公開募集と第三者割当を完了",
+          "summary": "アンソロピックは、株式の公開募集と、それに合わせてテクノロジー企業を対象に行った第三者割当を完了しました。",
+          "impact": "今回の取引で、AI事業に使える資金が増えました。ただし、事業にどれだけの計算能力が必要か、本業でどれだけ現金を生み出せるかは、決算上の赤字とは別の問題です。",
+          "what": "アンソロピックはAIモデル「Claude」シリーズを開発し、従量課金や定額契約で利用できるようにしています。取引完了の発表によると、引受会社は株式を追加で購入できる権利をすべて行使しました。公開募集で投資家が支払った代金のうち、既存株主が売却した株式の代金は、会社ではなくその株主に渡りました。公表資料では、公開募集で会社が受け取った費用控除前の総額と、同時に行った第三者割当の払込額が分けて示されています。",
+          "why": "AIモデルの学習や運用には計算能力が必要で、利用料が入る前に費用がかかることがあります。営業キャッシュフローはプラスでしたが、資金調達に使った金融商品の評価額の見直しが、決算上の損益を大きく押し下げました。営業キャッシュフローや株式の売却で得た資金を見ても、インフラ費用を支払った後で事業にどれだけ現金が残るかは分かりません。利用者にとっては、資金を継続して確保できれば、サービスの提供に必要な計算能力を維持しやすくなるかもしれませんが、値下げやサービスの改善が保証されるわけではありません。",
+          "uncertainty": "目論見書が対象とするのは、取引完了前の期中の業績です。また、調達総額からは募集にかかった費用が差し引かれていません。今回の取引で資金を確保できたことは確認できますが、継続して利益を出せるか、今後契約する計算資源への支出に見合うリターンが得られるかは分かりません。",
+          "watch": "次回の決算関連資料では、売上高、営業キャッシュフロー、インフラ支出を見比べ、購入契約やリース契約に基づく今後の支払い義務に更新があるかを確認します。",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "公開募集による発行会社の調達総額（費用控除前）"
+            },
+            {
               "id": "m2",
-              "label": "前月の消費者信頼感指数"
+              "label": "第三者割当の払込額"
+            },
+            {
+              "id": "m3",
+              "label": "年初来の売上高"
+            },
+            {
+              "id": "m4",
+              "label": "年初来の純損失（GAAPベース）"
+            },
+            {
+              "id": "m5",
+              "label": "年初来の営業キャッシュフロー"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "AIモデル開発企業の株式が取引開始",
-          "summary": "アンソロピックは株式の公開と同時に私募を行い、上場後の初値は公開価格を上回りました。",
-          "impact": "今回の資金調達は計算基盤の整備に役立つ可能性があります。ただし、初値だけでは、事業で得た資金で拡大を賄えるかどうかは分かりません。",
-          "what": "アンソロピックはAIモデル「Claude」シリーズを開発し、個人、企業、開発者向けに有料で提供しています。取引所は上場と初値を確認しました。最終目論見書では、会社が販売する株式と、既存株主が売却する株式を区別しています。既存株主による売却の代金は会社には入りません。また、目論見書に示されているのは、公開と同時に行った私募を合わせた手取り調達額の見積もりで、受け渡し時に実際に入金されたことを確認した金額ではありません。",
-          "why": "AIモデルの学習にも、顧客からのリクエストへの応答にも、計算能力が必要です。どれだけの需要があるか分かりきらないうちに、設備などの費用を負担することもあります。株式による資金調達は、その先行負担を賄う助けになります。目論見書によると、営業キャッシュフローは黒字でしたが、営業損失を計上し、純損失はそれを大きく上回りました。会計上の損失の多くは資金調達に使った金融商品の評価見直しによるもので、事業運営のために支払った現金と同じではありません。逆に、営業キャッシュフローが黒字でも、機器やインフラへの投資後にいくら残ったかは分かりません。",
-          "uncertainty": "初値は終値ではなく、投資家の買い需要が続くことを示す予測でもありません。目論見書の見積もりは入金を確認した金額ではありません。公表された営業キャッシュフローは上場前のもので、顧客からの代金回収や取引先への支払いの時期にも左右されています。",
-          "watch": "実際の調達額が公表されるかと、次回公表される財務諸表が注目点です。特に、計算能力を確保するための契約上の負担、設備投資、顧客からの入金がそうした負担に見合って増えているかが焦点です。",
+          "id": "f4",
+          "title": "米国の消費者心理は改善、持ち直しの判断にはまだ早い",
+          "summary": "ミシガン大学の消費者調査の確報では、足元の景気に対する評価と先行きへの期待がともに上向き、消費者心理が改善しました。",
+          "impact": "ガソリン代の負担が軽くなったと答えた世帯もありましたが、この調査だけでは、消費者の支出が増えているとは言えません。",
+          "what": "この調査では、世帯が自分たちの家計や経済全体をどう見ているかを尋ねています。確報では、景気の先行きに対する見方が改善し、先行きの予想インフレ率は低下しました。調査責任者によると、資産が少ない世帯や中程度の世帯では、おおむね家計が改善したとの回答が見られた一方、株式保有額が最も大きい層では、家計が悪化したとの回答が見られました。",
+          "why": "家計の負担が軽くなったと感じる消費者は、先送りしていた買い物に踏み切りやすくなるかもしれません。小売業者にとっては需要を考える手がかりになりますが、借り入れが難しかったり、収入に余裕がなかったりすれば、家計に対する見方が改善しても買い物は増えないことがあります。また、今後の物価上昇が緩やかになるとの予想と、実際に物価が下がることは別です。この調査が捉えるのは世帯の先行きに対する見方であり、店頭で実際に支払った金額ではありません。",
+          "uncertainty": "総合指数の改善幅は、調査が公表している統計的に有意と判断する基準に届きませんでした。また、聞き取りは金曜日の株価下落前に終わっており、その日の取引を受けて世帯がどう反応したかは、今回の発表からは分かりません。",
+          "watch": "次回の消費者心理の発表を小売売上高や家計支出のデータと見比べ、改善が続くか、実際の買い物の増加につながるかを確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "公開価格（株式単価）"
+              "label": "消費者態度指数（確報値）"
             },
             {
               "id": "m2",
-              "label": "初値（株式単価）"
+              "label": "現況指数"
             },
             {
               "id": "m3",
-              "label": "手取り調達額の合計（見積もり）"
-            },
-            {
-              "id": "m4",
-              "label": "年初来累計の売上高"
-            },
-            {
-              "id": "m5",
-              "label": "年初来累計の営業損失"
-            },
-            {
-              "id": "m6",
-              "label": "年初来累計の純損失"
-            },
-            {
-              "id": "m7",
-              "label": "年初来累計の営業キャッシュフロー"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "決算解説：AI半導体の売上が伸びる一方、保証に伴うリスクも",
-          "summary": "エヌビディアが先に公表した四半期決算では、データセンター事業の拡大に伴い、売上高、利益、営業キャッシュフローが増えました。",
-          "impact": "決算からはインフラへの強い需要がうかがえます。一方、保証に関する開示からは、供給元であるエヌビディアも顧客の設備整備に伴うリスクを負いうることが分かります。",
-          "what": "エヌビディアは計算処理を高速化する半導体を設計し、AIモデルの学習や稼働に使うネットワーク機器や統合システムを販売しています。同社が「Rubin」プラットフォームの出荷を始めるなか、データセンター向けの売上が成長をけん引しました。最高財務責任者は、データセンターの建物や電力インフラなどの事業を支える保証について、会社が負担しうる最大額も明らかにしました。実際に負担が生じるかは条件次第で、同社によると、説明時点では保証に基づく支払いは発生していませんでした。",
-          "why": "クラウド事業者などが計算サービスの提供を拡大するには、先に設備をそろえる必要があります。供給元が顧客の事業を支援すれば、設備整備が進み、システムの需要につながる可能性があります。ただし、顧客が契約上の義務を果たせなければ、供給元が負担を負うおそれもあります。この四半期は、営業キャッシュフローも会計上の利益も前年同期から増えましたが、営業キャッシュフローは利益を下回りました。キャッシュフロー計算書を見ると、売掛金と在庫が手元資金を圧迫していました。機器を出荷しても代金の回収は後になることがあり、在庫を積み増せば機器が売れるまで資金が寝るためです。",
-          "uncertainty": "保証に基づく負担の最大総額は、損失の見込み額でも、すぐに支払うべき金額でもありません。建物の準備が整うのに合わせて、段階的に効力が生じる保証もあります。売上が伸びていても、すべての買い手が自社の事業でインフラ費用を賄えるだけの収益を上げられるかは分かりません。",
-          "watch": "次回の開示では、売掛金と在庫の動きを売上高や営業キャッシュフローと見比べることができます。効力が生じた保証や、支払いが必要になった保証があるかも注目点です。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期売上高の前年同期比増加率"
-            },
-            {
-              "id": "m3",
-              "label": "四半期純利益（米国会計基準）"
-            },
-            {
-              "id": "m4",
-              "label": "四半期営業キャッシュフロー"
-            },
-            {
-              "id": "m5",
-              "label": "四半期データセンター売上高"
-            },
-            {
-              "id": "m6",
-              "label": "四半期末の保証に基づく最大負担額（総額）"
+              "label": "期待指数"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição tem cobertura verificada limitada. Para alguns mercados, não há notícias novas verificadas. As datas dos relatórios continuam claramente identificadas.",
+      "status": "Esta edição tem cobertura verificada limitada. Em alguns mercados, não há novas notícias verificadas. As informações de sessões anteriores continuam identificadas pelas respectivas datas.",
       "marketSummary": {
-        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém a data do pregão a que se refere.",
-        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém a data do pregão a que se refere."
+        "us": "Os índices acompanhados caíram em suas últimas sessões com dados verificados. Os fechamentos informados se referem às sessões indicadas, não às negociações em curso.",
+        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data da sua sessão de negociação."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Confiança do consumidor melhora nos EUA, mas a recuperação é desigual",
-          "summary": "O resultado final da pesquisa da Universidade de Michigan mostrou uma avaliação mais favorável da situação atual e mais otimismo em relação ao futuro.",
-          "impact": "A melhora é relevante para empresas que vendem ao consumidor, mas ainda não comprova que as famílias estejam gastando mais.",
-          "what": "Os entrevistados avaliaram de forma mais positiva as condições para os negócios e passaram a esperar uma inflação menor no curto prazo. Segundo os pesquisadores, as famílias com patrimônio baixo ou intermediário, em geral, passaram a avaliar melhor sua situação financeira atual, em parte graças à queda no preço da gasolina. Já os entrevistados com as maiores carteiras de ações relataram piora. A pesquisa mostra como as pessoas veem sua situação, não quantas compras fizeram nem qual foi a inflação de fato.",
-          "why": "Gastar menos com combustível pode liberar dinheiro para outras despesas. Quem se sente mais seguro quanto à renda e aos preços também pode ficar menos inclinado a adiar compras. Para varejistas e instituições de crédito, importa saber se essa mudança chega à sua própria clientela. A diferença entre as faixas de patrimônio mostra que as quedas nos preços da gasolina e das ações podem afetar as famílias de maneiras diferentes. A confiança média no país pode subir enquanto parte dos consumidores fica mais cautelosa.",
-          "uncertainty": "A alta do índice geral ficou abaixo do limite que a própria pesquisa usa para considerar uma variação estatisticamente significativa. Além disso, as entrevistas terminaram antes do fechamento do pregão mais recente citado nesta edição. Por isso, os resultados não mostram como as famílias reagiram àquele pregão.",
-          "watch": "Compare o próximo resultado da pesquisa com os dados efetivos de vendas no varejo, inflação e gastos das famílias para ver se a melhora se mantém e aparece nas compras.",
-          "metricLabels": [
-            {
-              "id": "m2",
-              "label": "Índice de confiança do consumidor do mês anterior"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "Desenvolvedora de modelos de IA estreia na bolsa",
-          "summary": "As ações da Anthropic começaram a ser negociadas acima do preço da oferta pública, que foi acompanhada de uma colocação privada.",
-          "impact": "A captação pode ajudar a financiar a capacidade computacional, mas o preço do negócio de abertura não mostra se a empresa consegue bancar a expansão com recursos gerados pelas próprias operações.",
-          "what": "A Anthropic desenvolve a família Claude de modelos de IA e vende acesso a consumidores, empresas e desenvolvedores. A bolsa confirmou a estreia e o preço de abertura. O prospecto definitivo distingue as ações vendidas pela empresa das vendidas por acionistas que já detinham os papéis. O dinheiro dessas vendas pelos acionistas não vai para a empresa. O documento também estima a captação líquida total da oferta pública e da colocação privada simultânea, sem confirmar quanto dinheiro de fato entrou na liquidação.",
-          "why": "Treinar modelos e processar as solicitações dos clientes exige capacidade computacional, o que pode significar pagar pela infraestrutura antes de saber ao certo qual será a demanda. A captação com a venda de ações pode ajudar a cobrir esse intervalo. O prospecto mostra fluxo de caixa operacional positivo, apesar do prejuízo operacional e de um prejuízo líquido bem maior. Reavaliações de instrumentos de financiamento explicam boa parte do prejuízo contábil e não equivalem a desembolsos para manter as operações. Por outro lado, o fluxo de caixa operacional positivo não mostra quanto dinheiro sobrou após os investimentos em equipamentos e infraestrutura.",
-          "uncertainty": "O preço do negócio de abertura não é o preço de fechamento nem indica se o interesse dos investidores vai se manter. A estimativa do prospecto não comprova o recebimento dos recursos. O fluxo de caixa operacional divulgado é anterior à estreia na bolsa e reflete quando os clientes pagaram e quando a empresa pagou seus fornecedores.",
-          "watch": "Acompanhe os valores efetivamente captados que forem divulgados e as próximas demonstrações financeiras públicas. Observe, em especial, os compromissos com capacidade computacional, os investimentos em bens de capital e se os recebimentos de clientes acompanham esses gastos e compromissos.",
+          "title": "Anthropic conclui oferta pública e colocação privada de ações",
+          "summary": "A Anthropic concluiu sua oferta pública de ações e, paralelamente, uma colocação privada com empresas de tecnologia.",
+          "impact": "As operações ampliam o financiamento da empresa de IA. O prejuízo contábil divulgado, por si só, não mostra de quanta capacidade computacional a empresa precisa nem quanto caixa gera com suas operações.",
+          "what": "A Anthropic desenvolve a família Claude de modelos de IA e vende acesso por meio de cobranças pelo uso e de assinaturas. O comunicado de encerramento confirma que as instituições que coordenaram a oferta exerceram integralmente a opção de comprar ações adicionais. Parte dos recursos da oferta pública foi para acionistas que venderam suas ações, não para a empresa. Os valores apresentados distinguem a captação bruta da empresa na oferta pública do valor da colocação privada realizada em paralelo.",
+          "why": "Treinar e operar modelos exige capacidade computacional, o que pode gerar gastos antes que os clientes paguem pelo uso. As reavaliações de instrumentos de financiamento pesaram bastante no resultado contábil divulgado, embora o fluxo de caixa operacional tenha sido positivo. Nem o fluxo de caixa operacional nem os recursos da venda de ações mostram quanto dinheiro sobra para a empresa depois de pagar pela infraestrutura. Para os clientes, a continuidade do financiamento pode ajudar a manter a capacidade disponível, mas não garante preços menores nem um serviço melhor.",
+          "uncertainty": "O prospecto cobre um período intermediário anterior à conclusão da oferta, e os valores brutos captados não descontam as despesas da operação. A conclusão confirma o acesso a financiamento, mas não demonstra que a empresa conseguirá manter a lucratividade nem indica o retorno dos compromissos futuros com capacidade computacional.",
+          "watch": "Na próxima divulgação financeira, compare a receita, o fluxo de caixa operacional e os gastos com infraestrutura. Veja também se há atualizações sobre os compromissos de compra e arrendamento.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Preço da oferta por ação"
+              "label": "Captação bruta da emissora na oferta pública"
             },
             {
               "id": "m2",
-              "label": "Preço por ação no negócio de abertura"
+              "label": "Preço de compra na colocação privada"
             },
             {
               "id": "m3",
-              "label": "Captação líquida total estimada"
-            },
-            {
-              "id": "m4",
               "label": "Receita acumulada no ano"
             },
             {
+              "id": "m4",
+              "label": "Prejuízo líquido acumulado no ano segundo as normas GAAP"
+            },
+            {
               "id": "m5",
-              "label": "Prejuízo operacional acumulado no ano"
-            },
-            {
-              "id": "m6",
-              "label": "Prejuízo líquido acumulado no ano"
-            },
-            {
-              "id": "m7",
               "label": "Fluxo de caixa operacional acumulado no ano"
             }
           ]
         },
         {
-          "id": "f6",
-          "title": "Entenda o balanço: vendas de chips para IA crescem, e garantias trazem riscos",
-          "summary": "Em uma divulgação trimestral anterior, a NVIDIA mostrou aumento da receita, do lucro e do fluxo de caixa operacional com a expansão do negócio de data centers.",
-          "impact": "Os resultados mostram forte demanda por infraestrutura. Já as informações sobre as garantias mostram que a fornecedora também pode assumir riscos ligados aos projetos de expansão dos clientes.",
-          "what": "A NVIDIA projeta chips de computação acelerada e vende equipamentos de rede e sistemas integrados usados para treinar e executar modelos de IA. As vendas para data centers impulsionaram o crescimento enquanto a empresa começava a entregar sua plataforma Rubin. O diretor financeiro também informou o valor máximo que a empresa poderia ter de pagar por garantias que apoiam projetos como a construção de data centers e de infraestrutura elétrica. Essa exposição dependia de certas condições, e a empresa disse que, na data do comentário, não havia feito pagamentos relativos a essas garantias.",
-          "why": "Provedores de serviços em nuvem e outras empresas precisam de equipamentos antes de poder vender mais serviços de computação. Apoiar o projeto de um cliente pode ajudar a viabilizar a obra e gerar demanda por sistemas, mas também pode expor a fornecedora a perdas se o cliente não cumprir suas obrigações. No trimestre, o fluxo de caixa operacional ficou abaixo do lucro contábil, embora ambos tenham crescido em relação ao mesmo período do ano anterior. A demonstração dos fluxos de caixa mostra que as contas a receber e os estoques consumiram caixa: os equipamentos podem ser entregues antes de o pagamento entrar, e formar estoques imobiliza dinheiro até a venda.",
-          "uncertainty": "A exposição bruta máxima não é uma previsão de perdas nem uma conta com vencimento imediato. Algumas garantias entram em vigor por etapas, conforme os prédios ficam prontos. O crescimento das vendas não mostra se todos os compradores conseguirão ganhar o suficiente com seus projetos para pagar pela infraestrutura.",
-          "watch": "No próximo relatório financeiro, compare as contas a receber e os estoques com as vendas e o fluxo de caixa operacional. Veja também se alguma garantia entrou em vigor ou exigiu pagamento.",
+          "id": "f4",
+          "title": "Consumidores dos EUA relatam condições melhores, mas a recuperação ainda não está confirmada",
+          "summary": "O resultado final da pesquisa da Universidade de Michigan mostrou melhora na confiança dos consumidores, tanto na avaliação das condições atuais quanto nas expectativas.",
+          "impact": "Algumas famílias relataram alívio nos gastos com gasolina, mas a pesquisa não comprova que os consumidores estejam gastando mais.",
+          "what": "A pesquisa pergunta às famílias como elas avaliam suas finanças e a economia em geral. A divulgação final mostrou mais otimismo sobre as condições para as empresas e expectativas de inflação mais baixas para o próximo ano. Segundo a direção da pesquisa, as famílias com patrimônio mais baixo ou intermediário em geral relataram melhora nas finanças pessoais, enquanto as que tinham as maiores carteiras de ações relataram piora.",
+          "why": "Consumidores que se sentem menos apertados podem ficar mais dispostos a fazer compras que vinham adiando. O varejo pode levar esse sinal em conta ao avaliar a demanda, mas a percepção sobre as finanças pessoais pode melhorar sem que as compras aumentem, se o crédito estiver restrito ou a renda estiver apertada. Esperar uma inflação menor também não significa que os preços tenham caído: a pesquisa mostra o que as famílias acham que vai acontecer, não o que pagaram no caixa.",
+          "uncertainty": "A melhora no índice geral ficou abaixo do limite que a própria pesquisa usa para considerar uma mudança estatisticamente significativa. As entrevistas também terminaram antes da queda da bolsa na sexta-feira, por isso o resultado não mostra como as famílias reagiram àquele pregão.",
+          "watch": "Compare o próximo resultado da pesquisa de confiança com os dados de vendas no varejo e de gastos das famílias para ver se a melhora se mantém e se aparece nas compras.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita do trimestre fiscal"
+              "label": "Índice final de confiança do consumidor"
             },
             {
               "id": "m2",
-              "label": "Crescimento da receita do trimestre fiscal em relação ao mesmo período do ano anterior"
+              "label": "Índice de condições econômicas atuais"
             },
             {
               "id": "m3",
-              "label": "Lucro líquido do trimestre fiscal segundo as normas GAAP"
-            },
-            {
-              "id": "m4",
-              "label": "Fluxo de caixa operacional do trimestre fiscal"
-            },
-            {
-              "id": "m5",
-              "label": "Receita de data centers no trimestre fiscal"
-            },
-            {
-              "id": "m6",
-              "label": "Exposição bruta máxima a garantias no fim do trimestre"
+              "label": "Índice de expectativas do consumidor"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期可查證的報導有限。部分市場沒有經查證的新消息，較早的報導仍清楚標示日期。",
+      "status": "本期經查證的報導有限。部分市場沒有可查證的新消息；較早的報導仍會清楚標示日期。",
       "marketSummary": {
-        "us": "部分收盤行情未能查證。各項可提供的指數行情均保留各自的交易日期。",
-        "cn": "部分收盤行情未能查證。各項可提供的指數行情均保留各自的交易日期。"
+        "us": "追蹤的指數在各自最近可查證的交易日收跌。標有日期的收盤資料反映的是當天行情，不代表目前的交易情況。",
+        "cn": "部分收盤資料無法查證。有可查證資料的指數均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "美國消費者信心回升，但並非所有家庭都感到好轉",
-          "summary": "密西根大學公布的調查終值顯示，消費者對現況的評價改善，對未來也更樂觀。",
-          "impact": "信心改善對面向消費者的企業很重要，但還不能證明家庭已經增加支出。",
-          "what": "調查顯示，受訪者對景氣的看法轉佳，對短期通膨的預期也下降。研究人員指出，資產較少或居中的家庭，普遍覺得目前的財務狀況有所改善，部分壓力因汽油價格下跌而減輕。持股最多的受訪者則表示情況變差。這項調查反映的是人們對自身處境的看法，並不統計實際購買情況，也不衡量實際通膨。",
-          "why": "油錢減少，可以讓家庭有更多錢用於其他開銷。對收入和物價較有安全感的家庭，也可能比較不會延後購買。零售商和放款機構關心的是，自家客戶是否也有這樣的變化。不同資產群體的反應提醒我們，油價下跌和股價下跌，對不同家庭的影響可能不同。全國消費者信心的平均值可能上升，但部分顧客同時變得更謹慎。",
-          "uncertainty": "整體指數的升幅未達調查所列的統計顯著門檻。訪問也在本期簡報涵蓋的最近交易時段收盤前結束，因此結果無法反映家庭對當天行情的反應。",
-          "watch": "將下次公布的消費者信心指數與實際零售銷售、通膨及家庭支出數據對照，觀察信心改善是否持續，以及是否反映在實際消費上。",
+          "title": "Anthropic 完成股票公開發行及私募",
+          "summary": "Anthropic 完成股票公開發行，也同時完成向科技公司的私募。",
+          "impact": "這些交易為這家人工智慧公司帶來額外資金，但帳面虧損並不能說明公司需要多少算力，也不能說明日常營運能帶來多少現金。",
+          "what": "Anthropic 開發 Claude 系列人工智慧模型，透過按用量收費和訂閱提供使用服務。公司公告確認，承銷商已全數行使額外購股權。公開發行的部分款項由出售股票的原有股東取得，而非由公司取得。相關數據分別列出公司從公開發行取得的募資總額和同期私募的認購價款。",
+          "why": "訓練和運行模型都需要算力，公司可能得在收到客戶的使用費之前就支付相關成本。融資工具的價值重估大幅拖累財報上的獲利表現，但營業活動仍帶來現金淨流入。無論是營業活動現金流量，還是出售股票所得，都無法看出公司在支付基礎設施費用後能留下多少現金。對客戶來說，持續取得資金可能有助於維持運算資源供應，但不保證價格會下降或服務會改善。",
+          "uncertainty": "公開說明書涵蓋的是交易完成前的期中財務資料，募資總額也尚未扣除發行費用。交易完成只證實公司取得了資金，不能證明公司能持續獲利，也不能說明未來承諾投入算力的支出能帶來多少回報。",
+          "watch": "在下次公布的財務申報資料中，比較營收、營業活動現金流量和基礎設施支出，並留意採購與租賃承諾是否有更新。",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "發行人公開發行募資總額"
+            },
+            {
               "id": "m2",
-              "label": "上月消費者信心指數"
+              "label": "私募認購價款"
+            },
+            {
+              "id": "m3",
+              "label": "年初至今累計營收"
+            },
+            {
+              "id": "m4",
+              "label": "年初至今累計淨損（依美國一般公認會計原則）"
+            },
+            {
+              "id": "m5",
+              "label": "年初至今累計營業活動現金流量"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "AI 模型開發商掛牌交易",
-          "summary": "Anthropic 辦理公開發行並搭配私募後掛牌，開盤成交價高於發行價。",
-          "impact": "募得的資金可能有助於擴充算力，但開盤成交價無法證明公司能否靠本業營運支應擴張。",
-          "what": "Anthropic 開發 Claude 系列 AI 模型，向消費者、企業和開發者收費提供使用服務。交易所證實公司已掛牌，並確認開盤價。最終版公開說明書區分了公司出售的股份和既有股東出售的股份；既有股東售股所得不會流入公司。公開說明書也估算了公開發行與同步私募合計的募資淨額，但這並非交割時已確認入帳的現金。",
-          "why": "訓練模型和處理客戶請求都需要算力，公司可能得在需求尚未明朗前就先支付基礎設施費用。股權募資有助於填補這段期間的資金缺口。公開說明書顯示，公司營業活動現金流量為正，但仍有營業虧損，且淨損大得多。會計帳面虧損很大一部分來自融資工具的價值重估，並不等同於公司實際為營運付出的現金。反過來說，營業活動現金流量為正，也看不出投資設備和基礎設施後還剩多少現金。",
-          "uncertainty": "開盤成交價不是收盤價，也不能用來預測投資人買盤能否持續。公開說明書的募資估計不代表款項已入帳；揭露的營業活動現金流量則屬掛牌前的資料，會受向客戶收款和向供應商付款的時點影響。",
-          "watch": "留意後續公布的募資所得和下次公開財報，尤其是公司已承諾投入的算力支出、資本支出，以及客戶的實際付款能否跟上。",
+          "id": "f4",
+          "title": "美國消費者對現況的看法好轉，但尚難確認信心已回升",
+          "summary": "密西根大學公布的調查終值顯示，消費者信心有所改善，對現況的評價和對未來的預期都比先前樂觀。",
+          "impact": "部分家庭表示汽油支出的壓力減輕，但調查無法證明消費者已增加支出。",
+          "what": "這項調查詢問各家庭如何看待自身財務和整體經濟。最終結果顯示，家庭對景氣的預期轉趨樂觀，對來年通膨的預期則有所下降。調查負責人表示，財富較少或處於中等水準的家庭普遍認為自身財務有所改善，持股最多的家庭則表示財務狀況變差。",
+          "why": "財務壓力減輕的消費者，可能更願意買原本延後購買的東西。零售商可把這當作評估需求的參考，但如果借貸不易或收入吃緊，即使消費者覺得自己的財務狀況變好，也未必會多買。通膨預期下降也不等於物價真的下跌：調查反映的是家庭預期會發生什麼，而不是他們結帳時實際付了多少。",
+          "uncertainty": "整體指數的升幅未達調查公布的統計顯著門檻。訪問也在週五股市下跌前結束，因此這份結果無法反映家庭對當天行情的反應。",
+          "watch": "將下次公布的消費者信心調查與零售銷售及家庭支出資料對照，看看改善是否持續，以及消費者是否因此增加購買。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "每股發行價"
+              "label": "消費者信心指數終值"
             },
             {
               "id": "m2",
-              "label": "每股開盤成交價"
+              "label": "當前經濟狀況指數"
             },
             {
               "id": "m3",
-              "label": "估計合計募資淨額"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今營收"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今營業虧損"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今淨損"
-            },
-            {
-              "id": "m7",
-              "label": "年初至今營業活動現金流量"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "財報解讀：AI 晶片銷售成長，供應商也承擔專案擔保風險",
-          "summary": "輝達先前公布的季度財報顯示，隨著資料中心業務擴張，營收、獲利和營業活動現金流量都增加。",
-          "impact": "財報顯示基礎設施需求強勁；擔保揭露也說明，供應商可能因客戶的建置專案而承擔風險。",
-          "what": "輝達設計加速運算晶片，也銷售用來訓練和執行 AI 模型的網路設備與整合系統。公司開始出貨 Rubin 平台之際，資料中心業務的銷售帶動成長。財務長也揭露，公司為資料中心建物和供電基礎設施等專案提供擔保，並說明這些擔保可能涉及的最高金額。是否需要付款取決於相關條件，公司表示截至說明當時，尚未因這些擔保支付款項。",
-          "why": "雲端服務商和其他企業需要先備妥設備，才能提供更多運算服務。供應商支持客戶的專案，有助於專案順利建成，並帶動系統需求；但如果客戶無法履行義務，供應商也可能得承擔損失。該季營業活動現金流量低於帳面獲利，儘管兩者都較去年同期增加。現金流量表顯示，應收帳款和存貨占用了資金：設備可能先出貨、後收款，而備貨也會在設備賣出前占用現金。",
-          "uncertainty": "擔保風險的最高總額並非預估損失，也不是必須立即支付的款項。部分擔保會隨建物陸續就緒而分階段生效。銷售成長無法說明所有買家是否都能靠自己的專案賺到足夠的錢，支付基礎設施費用。",
-          "watch": "在下次申報文件中，將應收帳款、存貨與銷售額、營業活動現金流量對照，並留意是否有擔保開始生效或需要付款。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "該財季營收"
-            },
-            {
-              "id": "m2",
-              "label": "該財季營收年增率"
-            },
-            {
-              "id": "m3",
-              "label": "該財季依一般公認會計原則計算的淨利"
-            },
-            {
-              "id": "m4",
-              "label": "該財季營業活動現金流量"
-            },
-            {
-              "id": "m5",
-              "label": "該財季資料中心營收"
-            },
-            {
-              "id": "m6",
-              "label": "財季末擔保風險最高總額"
+              "label": "消費者預期指數"
             }
           ]
         }
