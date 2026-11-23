@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-23T00:52:09.701Z",
-  "generatedAt": "2026-11-23T00:56:26.722Z",
+  "cutoffAt": "2026-11-23T10:45:11.952Z",
+  "generatedAt": "2026-11-23T10:54:34.001Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Investing.com — broad US benchmark daily closes",
+      "label": "Investing.com — broad US equity index daily closes",
       "url": "https://www.investing.com/indices/us-spx-500-historical-data"
     },
     {
@@ -21,58 +21,78 @@
     },
     {
       "id": "src4",
-      "label": "Investing.com — mainland large-cap benchmark daily closes",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "Investing.com — mainland large-cap index daily closes",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Project investment announcement filed on CNINFO",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-21/1225682170.PDF"
+      "label": "CNINFO — issuer notice on the Nanchang optical components project",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682889.PDF"
     },
     {
       "id": "src6",
-      "label": "Issuer quarterly filing, PDF copy hosted by Sina Finance",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-10/2026-10-28/12666269.PDF"
+      "label": "CNINFO — optical components supplier quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634414.PDF"
     },
     {
       "id": "src7",
-      "label": "CNINFO issuer profile and listing details",
-      "url": "https://static.cninfo.com.cn/finalpage/enpage/002745_2.pdf"
+      "label": "Issuer notice on the battery logistics contract — PDF hosted by Sina Finance",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-23/12717886.PDF"
     },
     {
       "id": "src8",
-      "label": "China Money — November loan prime rate announcement",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
+      "label": "Shanghai Stock Exchange — logistics equipment supplier quarterly report",
+      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-10-31/688557_20261031_N051.pdf"
     },
     {
       "id": "src9",
-      "label": "China Money — October loan prime rate announcement",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
+      "label": "China Money — current loan prime rate announcement",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
     },
     {
       "id": "src10",
-      "label": "University of Michigan — November consumer survey release",
-      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
+      "label": "China Money — preceding loan prime rate announcement",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
     },
     {
       "id": "src11",
-      "label": "Retailer earnings release furnished to the SEC",
-      "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000168/earningsreleasefy27q3.htm"
+      "label": "National Bureau of Statistics — monthly economic activity release",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html"
     },
     {
       "id": "src12",
-      "label": "Chipmaker newsroom — fiscal earnings release and statements",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+      "label": "University of Michigan Institute for Social Research — final consumer sentiment release",
+      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
     },
     {
       "id": "src13",
-      "label": "Chipmaker preceding quarterly report — SEC filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+      "label": "Nasdaq — exchange notice confirming the AI developer trading debut",
+      "url": "https://www.nasdaq.com/newsroom/anthropic-marks-ipo-at-nasdaq"
     },
     {
       "id": "src14",
-      "label": "National Bureau of Statistics — October economic activity release",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html"
+      "label": "SEC EDGAR — AI developer final offering prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+    },
+    {
+      "id": "src15",
+      "label": "Issuer investor relations — chip designer quarterly earnings release",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "id": "src16",
+      "label": "CNINFO — logistics equipment supplier half-year report and issuer identification",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225486829.PDF"
+    },
+    {
+      "id": "src17",
+      "label": "Shenzhen Stock Exchange — optical components supplier half-year report and issuer identification",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-19/788b066c-b687-4f11-8ae4-c6197f019370.PDF"
+    },
+    {
+      "id": "src18",
+      "label": "SEC EDGAR — chip designer financial commentary and fiscal-quarter dates",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
     }
   ],
   "markets": [
@@ -98,20 +118,20 @@
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-20",
-      "close": 3533.79,
-      "previousClose": 3577.62,
-      "changePercent": -1.22,
+      "sessionDate": "2026-11-23",
+      "close": 3538.95,
+      "previousClose": 3533.79,
+      "changePercent": 0.15,
       "sourceIds": [
         "src3"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-20",
-      "close": 3954.56,
-      "previousClose": 3984.84,
-      "changePercent": -0.76,
+      "sessionDate": "2026-11-23",
+      "close": 3958.29,
+      "previousClose": 3954.56,
+      "changePercent": 0.09,
       "sourceIds": [
         "src4"
       ]
@@ -119,203 +139,171 @@
   ],
   "stories": [
     {
-      "id": "f2",
-      "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-11-20",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 51.5,
-          "unit": "index",
-          "periodStart": "2026-10-20",
-          "periodEnd": "2026-11-16",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src10"
-          ],
-          "evidence": "The Consumer Sentiment Index section gives the final reading; the introduction lists the interview window."
-        },
-        {
-          "id": "m2",
-          "value": 49.4,
-          "unit": "index",
-          "periodStart": "2026-10-20",
-          "periodEnd": "2026-11-16",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src10"
-          ],
-          "evidence": "The Consumer Sentiment Index section gives the current conditions reading for this survey wave."
-        },
-        {
-          "id": "m3",
-          "value": 52.9,
-          "unit": "index",
-          "periodStart": "2026-10-20",
-          "periodEnd": "2026-11-16",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src10"
-          ],
-          "evidence": "The Consumer Sentiment Index section gives the expectations reading for this survey wave."
-        }
-      ],
-      "sourceIds": [
-        "src10"
-      ],
-      "evidence": "The final survey release shows higher headline sentiment and expectations than in the prior wave. The methodology section gives a significance threshold above the observed monthly change in headline sentiment."
-    },
-    {
-      "id": "f4",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-19",
+      "id": "f1",
+      "market": "cn",
+      "category": "company",
+      "publishedOn": "2026-11-23",
       "company": {
-        "name": "Walmart Inc.",
-        "ticker": "WMT",
-        "exchange": "Nasdaq"
+        "name": "Suzhou TFC Optical Communication Co., Ltd.",
+        "ticker": "300394",
+        "exchange": "Shenzhen Stock Exchange"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 188835000000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
+          "value": 4751099905,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Total revenue in the fiscal-quarter column of the consolidated statement of income."
+          "evidence": "Main financial indicators, year-to-date column: consolidated operating revenue."
         },
         {
           "id": "m2",
-          "value": 7770000000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
+          "value": 2083459571.46,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Operating income in the fiscal-quarter column of the consolidated statement of income."
+          "evidence": "Main financial indicators, year-to-date column: net profit attributable to listed-company shareholders."
         },
         {
           "id": "m3",
-          "value": 4945000000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
+          "value": 1461851321.62,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src11"
+            "src6"
           ],
-          "evidence": "Net income attributable to the parent in the fiscal-quarter column of the consolidated statement of income."
-        },
-        {
-          "id": "m4",
-          "value": 29436000000,
-          "unit": "USD",
-          "periodStart": "2026-02-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Net cash from operations in the fiscal year-to-date consolidated cash flow statement."
-        },
-        {
-          "id": "m5",
-          "value": 22621000000,
-          "unit": "USD",
-          "periodStart": "2026-02-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Cash payments for property and equipment, expressed as positive spending, in the fiscal year-to-date cash flow statement."
+          "evidence": "Consolidated cash flow statement: cumulative net cash generated by operating activities."
         }
       ],
       "sourceIds": [
-        "src11"
+        "src5",
+        "src6",
+        "src17"
       ],
-      "evidence": "The earnings release and income statement show higher revenue and operating income but lower profit attributable to the parent. The cash flow statement and free cash flow reconciliation show higher year-to-date operating cash and higher capital spending."
+      "evidence": "The cooperation overview and project terms disclose an agreement with the Nanchang development zone and a subsidiary registered to carry out the proposed optical components project. The impact section says management does not expect the signing to materially affect current-year results. The quarterly report supplies the financial baseline, and the half-year report identifies the issuer."
     },
     {
-      "id": "f6",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-16",
-      "company": null,
+      "id": "f5",
+      "market": "us",
+      "category": "company",
+      "publishedOn": "2026-11-19",
+      "company": {
+        "name": "Anthropic, PBC",
+        "ticker": "ANT",
+        "exchange": "Nasdaq Global Select Market"
+      },
       "metrics": [
         {
           "id": "m1",
-          "value": 4.8,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "value": 83,
+          "unit": "USD",
+          "periodStart": "2026-11-18",
+          "periodEnd": "2026-11-18",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src14"
           ],
-          "evidence": "Industrial production section and monthly indicator table, value added at enterprises above the designated size."
+          "evidence": "Final prospectus cover: initial public offering price per share on the pricing date."
         },
         {
           "id": "m2",
-          "value": 0.4,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "value": 111.5,
+          "unit": "USD",
+          "periodStart": "2026-11-19",
+          "periodEnd": "2026-11-19",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src14"
+            "src13"
           ],
-          "evidence": "Market sales section and monthly indicator table, total consumer goods retail sales."
+          "evidence": "Exchange debut notice: opening trade price per share, not the closing price."
         },
         {
           "id": "m3",
-          "value": 28.7,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "value": 81340000000,
+          "unit": "USD",
+          "periodStart": "2026-11-18",
+          "periodEnd": "2026-11-18",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src14"
           ],
-          "evidence": "Monthly indicator table, goods exports in yuan, compared with the same month a year earlier."
+          "evidence": "Final prospectus cover pricing table: gross initial offering value, including selling-holder shares and excluding the underwriter option."
         },
         {
           "id": "m4",
-          "value": 5.7,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "value": 33242000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src14"
           ],
-          "evidence": "Monthly indicator table, industrial producer selling prices compared with the same month a year earlier."
+          "evidence": "Results of Operations, current interim column: consolidated revenue."
+        },
+        {
+          "id": "m5",
+          "value": -104039000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "Results of Operations, current interim column: consolidated net loss, including fair-value changes on financing instruments."
+        },
+        {
+          "id": "m6",
+          "value": 6569000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "Cash Flows summary, current interim column: net cash provided by operating activities."
+        },
+        {
+          "id": "m7",
+          "value": -36546000000,
+          "unit": "USD",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "Consolidated cash flow statement, current interim column: net cash used in investing activities, including purchases of short-term investments."
         }
       ],
       "sourceIds": [
+        "src13",
         "src14"
       ],
-      "evidence": "The official activity release pairs growth in industrial value added and goods exports with modest consumer goods retail growth. The monthly indicator table separately reports factory-gate inflation."
+      "evidence": "The exchange confirms the debut and opening price. The prospectus cover separates issuer shares from selling-holder shares. The interim operating results and cash flow tables show that a reported net loss coexisted with positive operating cash flow."
     }
   ],
   "locales": {
@@ -323,648 +311,508 @@
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "US consumer mood improves, but the rebound is not yet clear",
-          "summary": "The University of Michigan’s final November survey showed firmer sentiment and expectations than in the previous survey.",
-          "impact": "The improvement is a tentative signal for consumer-facing businesses, not evidence that spending has already picked up.",
-          "what": "The survey asks households how they view current economic conditions and what they expect ahead. The final release showed improvement in both categories and noted softer expectations for near-term inflation. The headline move, however, was smaller than the university’s threshold for statistical significance. The result is best read as a modest improvement in the survey, not as a decisive turn in household confidence.",
-          "why": "Shoppers who feel more secure about their finances may be more willing to replace an appliance, book a trip or make another purchase they can put off. Retailers care about that possibility because staffing, promotions and inventory often have to be planned before demand is visible. But a household can feel better about the outlook and still hold back because rent, groceries or loan payments leave little room in the budget. That is why a sentiment reading and actual sales can tell different stories.",
-          "uncertainty": "The survey reflects interviews completed before publication, not reactions to the subsequent market close. It measures reported views rather than purchases, and sampling variation could account for the headline move.",
-          "watch": "Compare the next survey with official consumer spending and retail sales reports, especially spending on purchases that households can defer.",
+          "id": "f1",
+          "title": "A mainland optical supplier plans a new production base",
+          "summary": "An optical components supplier signed a development agreement for a research and manufacturing project in Nanchang.",
+          "impact": "The proposed plant could expand capacity for high-speed data links, but the agreement does not guarantee customer orders.",
+          "what": "Suzhou TFC Optical Communication makes optical components that help transmit data at high speeds. Its agreement with the Nanchang development zone covers research and manufacturing for products aimed at large data centers and supercomputing facilities. The company registered a local subsidiary to carry out the project. The zone agreed to help with site preparation, utility access and administrative approvals. The filing is an agreement to develop capacity, not a disclosure of completed construction or equipment already in service.",
+          "why": "A data center needs to move information quickly between machines as well as process it. That creates demand for optical links alongside demand for computing chips. The earlier earnings report shows the supplier was already profitable and generating operating cash, but those figures describe the existing business. A new plant would require spending before it could make and ship saleable components. Its economic value depends on how much of the new capacity customers ultimately use.",
+          "uncertainty": "The filing does not quantify the capital budget, customer commitments or the date commercial production begins. Management does not expect the signing itself to materially affect current-year results.",
+          "watch": "Look for a completed land transfer, disclosed capital spending, equipment installation and evidence that customers have qualified products made at the new site.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Consumer sentiment index"
+              "label": "Year-to-date revenue"
             },
             {
               "id": "m2",
-              "label": "Current economic conditions index"
+              "label": "Year-to-date attributable net profit"
             },
             {
               "id": "m3",
-              "label": "Consumer expectations index"
+              "label": "Year-to-date operating cash flow"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Earnings explainer: Retail operations improve while net profit falls",
-          "summary": "Walmart’s quarterly release showed higher revenue and operating profit but lower net income attributable to shareholders.",
-          "impact": "Store and online performance improved, while heavier investment limited how much operating cash remained after spending on property and equipment.",
-          "what": "Walmart sells groceries and general merchandise through stores, membership clubs and online channels. Its fiscal-quarter statement shows a stronger operating result, while the swing from other gains to losses below operating income helped push bottom-line profit lower. The cash flow statement covers the fiscal year to date, a different period. It shows that operations generated more cash than a year earlier, while spending on property and equipment rose enough to leave less cash after that spending.",
-          "why": "Operating profit helps readers assess how the retail business is doing before financing and other items. Operating cash flow answers a different question: how much cash the business brought in net of its operating payments, including the effects of when it paid suppliers and stocked shelves. Stores and fulfillment capacity require cash up front. For customers, those investments can improve pickup and delivery; for the retailer, their value depends on whether additional sales and more efficient fulfillment justify the cost.",
-          "uncertainty": "The company cited payment and inventory timing in its cash discussion, so the improvement should not be treated as a permanent change. The quarter does not settle how holiday demand or the cost of serving online orders will evolve.",
-          "watch": "Look for holiday sales, inventory levels and the next cash flow reconciliation to see whether growth leaves more cash after capital spending.",
+          "id": "f5",
+          "title": "An AI developer goes public, putting its cash needs on display",
+          "summary": "Anthropic began public trading above its offer price, and its prospectus laid out the difference between its reported loss and operating cash generation.",
+          "impact": "The listing gives public investors a direct view of whether paid AI usage can support the cost of supplying it.",
+          "what": "Anthropic sells access to its Claude models through subscriptions and usage-based services. The exchange confirmed that its shares began trading and identified the opening price. The offering value includes stock sold by existing holders, whose proceeds do not go to the company. The prospectus also disclosed an interim accounting loss alongside positive operating cash flow. Revaluations of financing instruments explain much of the reported loss; those accounting entries are not equivalent to cash paid out in the period.",
+          "why": "Selling new shares brings in financing, not customer revenue. That distinction matters for a business that needs computing capacity to train models and serve customers. Positive operating cash flow shows that operations generated cash over the disclosed period, but it does not tell investors what remains after investment. The investing outflow also includes purchases of short-term investments, so treating it all as spending on computers would overstate that cost. For businesses adopting these tools, how the provider manages capacity affects the availability and cost of the service.",
+          "uncertainty": "The opening price is not a closing price or a measure of long-term demand for the stock. The interim financial statements are unaudited, and the offering value is not a confirmation of net cash received by the company.",
+          "watch": "Use the next public financial filing to track usage-based revenue, computing commitments, infrastructure spending and cash generated by operations separately from new financing.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Fiscal-quarter total revenue"
+              "label": "Initial offer price per share"
             },
             {
               "id": "m2",
-              "label": "Fiscal-quarter operating income"
+              "label": "Opening trade price per share"
             },
             {
               "id": "m3",
-              "label": "Fiscal-quarter net income attributable to shareholders"
+              "label": "Gross offering value at pricing"
             },
             {
               "id": "m4",
-              "label": "Fiscal year-to-date operating cash flow"
+              "label": "Year-to-date revenue"
             },
             {
               "id": "m5",
-              "label": "Fiscal year-to-date property and equipment spending"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "China’s factories show more momentum than retail sales",
-          "summary": "China’s October activity release showed rising industrial output and strong goods exports alongside modest retail sales growth.",
-          "impact": "The split suggests export-oriented producers and businesses dependent on domestic shoppers may face quite different conditions.",
-          "what": "The National Bureau of Statistics reported growth in industrial value added at enterprises above its designated size threshold. Goods export values also rose, while consumer goods retail sales barely grew from a year earlier. Producer selling prices increased. These series cover different things: factory output tracks production, export values track cross-border goods sales in yuan, and retail turnover is not a complete measure of household consumption.",
-          "why": "Factories can keep production lines busy even when local shoppers are cautious. That can support orders for suppliers and logistics firms without producing an equivalent pickup at stores. The increase in factory-gate prices can help producers who are able to charge more, but it can squeeze their customers if those businesses cannot pass higher costs along. For households, the activity report is therefore more useful as a map of where demand is stronger than as a verdict on purchasing power.",
-          "uncertainty": "Export values combine changes in prices and quantities and are not a direct measure of shipment volume. The retail headline does not capture all services, and the report does not establish how margins changed at individual companies.",
-          "watch": "Look for follow-through in the next activity release, particularly retail and services indicators, and in company disclosures on orders, costs and margins.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Industrial value added growth from a year earlier"
+              "label": "Year-to-date net loss"
             },
             {
-              "id": "m2",
-              "label": "Consumer goods retail sales growth from a year earlier"
+              "id": "m6",
+              "label": "Year-to-date operating cash flow"
             },
             {
-              "id": "m3",
-              "label": "Goods export value growth from a year earlier"
-            },
-            {
-              "id": "m4",
-              "label": "Industrial producer selling price growth from a year earlier"
+              "id": "m7",
+              "label": "Year-to-date investing cash flow"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期关注美国和中国的经济与市场动态。请留意各条内容的发布日期；近期公司财报用于解读背景。",
+      "status": "本期涵盖美国和中国的动态。请留意各条内容的发布日期；近期发布的公司报告仅用于帮助理解背景。",
       "marketSummary": {
-        "us": "跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据反映的是当日行情，并非实时行情。",
-        "cn": "跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据反映的是当日行情，并非实时行情。"
+        "us": "本期跟踪的指数在各自最近经核实的交易日均收跌。标注日期的收盘数据反映的是对应交易日的表现，并非实时行情。",
+        "cn": "本期跟踪的指数在各自最近经核实的交易日均收涨。标注日期的收盘数据反映的是对应交易日的表现，并非实时行情。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "美国消费者信心有所改善，但回升尚不明朗",
-          "summary": "密歇根大学公布的消费者调查终值显示，消费者信心和预期较上次调查有所改善。",
-          "impact": "对面向消费者的企业来说，这是个初步的积极信号，但还不能说明消费支出已经回升。",
-          "what": "这项调查询问家庭如何看待当前经济状况，以及对未来有什么预期。最终结果显示，受访者对当前经济的评价和对未来的预期均有改善，对短期通胀的预期也有所下降。不过，消费者信心总指数的变动幅度未达到该校设定的统计显著性门槛。更合适的解读是，调查结果略有好转，但尚不能认定家庭信心已出现明确转折。",
-          "why": "如果消费者对自家财务状况更有把握，就可能更愿意换家电、预订旅行，或把原本可以推迟的消费提上日程。零售商之所以关注这种可能性，是因为往往要在实际需求明朗之前就安排人手、促销和库存。不过，即使家庭对前景更乐观，房租、食品杂货或贷款还款也可能让预算所剩无几，消费依然会受限。这就是为什么信心指数和实际销售表现可能并不同步。",
-          "uncertainty": "访谈在结果公布前已经完成，并不反映受访者对随后市场收盘表现的反应。调查衡量的是受访者表达的看法，而不是实际购买行为。总指数的变动也可能只是抽样波动。",
-          "watch": "将下次调查与官方的消费支出和零售销售报告对照，尤其关注家庭可以推迟的消费项目。",
+          "id": "f1",
+          "title": "中国大陆光器件供应商拟建新生产基地",
+          "summary": "光器件供应商天孚通信签署了在南昌开展研发和生产项目的开发协议。",
+          "impact": "拟建工厂有望扩大用于高速数据传输的光器件产能，但签约并不意味着一定能拿到客户订单。",
+          "what": "苏州天孚光通信生产用于高速传输数据的光器件。公司与南昌开发区签署的协议涵盖面向大型数据中心和超级计算设施的产品研发与生产。公司已在当地注册子公司来实施项目。开发区同意协助做好场地准备、水电等配套接入和行政审批。公告披露的是扩建产能的协议，并不代表工厂已经建成或设备已经投用。",
+          "why": "数据中心不仅要处理信息，还要在设备之间快速传输信息。因此，除了需要计算芯片，数据中心也需要光互连。此前的财报显示，公司已有盈利，经营活动也产生了现金，但这些数据反映的是现有业务。新工厂要先投入资金，才能生产并交付可销售的器件。项目的经济价值取决于客户需求最终能消化多少新增产能。",
+          "uncertainty": "公告未披露具体的投资预算、客户承诺或正式投产时间。管理层预计，签约本身不会对当年业绩产生重大影响。",
+          "watch": "关注土地是否完成移交、资本支出是否披露、设备是否安装，以及新基地生产的产品是否通过客户验证。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "消费者信心指数"
+              "label": "年初至今累计营收"
             },
             {
               "id": "m2",
-              "label": "当前经济状况指数"
+              "label": "年初至今累计归母净利润"
             },
             {
               "id": "m3",
-              "label": "消费者预期指数"
+              "label": "年初至今累计经营现金流"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "财报解读：零售业务表现改善，净利润却下滑",
-          "summary": "沃尔玛财季报告显示，营收和营业利润上升，但归属于股东的净利润下降。",
-          "impact": "门店和线上业务表现有所改善，但对物业和设备的投入增加，扣除这部分开支后，经营活动产生的现金剩得更少。",
-          "what": "沃尔玛通过门店、会员制卖场和线上渠道销售食品杂货和日用百货。财季报表显示，经营业绩有所改善，但列在营业利润之后的其他损益项目由收益转为亏损，是净利润下滑的原因之一。现金流量表采用不同的统计期间，涵盖本财年截至报告期的累计情况。报表显示，经营活动产生的现金比上年同期更多，但物业和设备支出增加，扣除这部分支出后，剩余现金反而减少。",
-          "why": "营业利润有助于判断零售业务本身表现如何，不受融资等其他项目影响。经营现金流回答的是另一个问题：扣除经营性付款后，业务实际带来了多少现金。何时向供应商付款、何时备货，都会影响这个指标。建设门店和提升订单履约能力都需要先投入现金。对顾客来说，这些投入可能改善自提和配送体验；对零售商来说，是否值得投入，要看新增销售和履约效率的提升能否抵得上成本。",
-          "uncertainty": "公司在解释现金流时提到付款和备货的时间安排，因此不宜把经营现金流的改善视为长期变化。这份财季报告也无法说明假日购物季的需求或处理线上订单的成本将如何变化。",
-          "watch": "关注假日销售、库存水平和下期现金流调节明细，看看业务增长后，扣除资本支出所剩的现金是否增加。",
+          "id": "f5",
+          "title": "人工智能开发商上市，资金需求受到关注",
+          "summary": "Anthropic 上市开盘价高于发行价。招股书解释了为何公司账面亏损，经营现金流却为正。",
+          "impact": "上市后，公开市场投资者可以直接观察客户为使用人工智能服务支付的费用能否覆盖服务成本。",
+          "what": "Anthropic 通过订阅和按用量计费的服务向客户提供 Claude 模型。交易所确认公司股票已开始交易，并公布了开盘价。发行总额包含原股东出售股份的金额，这部分资金不会流入公司。招股书还披露，公司在中期报告期内出现账面亏损，但经营现金流为正。账面亏损很大程度上来自融资工具的重新估值，这些会计调整并不等同于报告期内实际付出的现金。",
+          "why": "发行新股筹到的是融资款，不是来自客户的营收。对需要算力来训练模型和服务客户的公司来说，这一区别很重要。经营现金流为正，说明披露期内经营活动带来了净现金流入，但不能说明投资之后还剩多少现金。投资活动的现金流出也包括购买短期投资产品，如果全算成计算设备开支，就会高估这项成本。对采用这些工具的企业来说，服务商如何管理算力资源，会影响服务的可用性和使用成本。",
+          "uncertainty": "开盘价不是收盘价，也不能用来衡量市场对该股票的长期需求。中期财务报表未经审计，发行总额也不能用来确认公司实际收到的净额。",
+          "watch": "关注下次公开披露的财务文件，跟踪按用量计费的营收、已承诺的算力支出和基础设施开支，并区分经营活动产生的现金与新融入的资金。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "财季总营收"
+              "label": "每股发行价"
             },
             {
               "id": "m2",
-              "label": "财季营业利润"
+              "label": "每股开盘价"
             },
             {
               "id": "m3",
-              "label": "财季归属于股东的净利润"
+              "label": "按发行价计算的发行总额"
             },
             {
               "id": "m4",
-              "label": "本财年截至报告期累计经营现金流"
+              "label": "年初至今累计营收"
             },
             {
               "id": "m5",
-              "label": "本财年截至报告期累计物业及设备支出"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "中国工业生产势头强于零售销售",
-          "summary": "中国公布的经济运行数据显示，工业产出上升，货物出口表现强劲，而零售销售仅小幅增长。",
-          "impact": "这表明，出口导向型生产企业和依赖国内消费者的企业，面对的经营环境可能明显不同。",
-          "what": "国家统计局公布的数据显示，规模以上工业增加值增长。货物出口额也有所上升，而社会消费品零售总额同比仅微幅增长。工业生产者出厂价格也有所上涨。这些指标衡量的并不是同一件事：工业产出反映生产情况，出口额反映以人民币计价的跨境货物销售额，社会消费品零售总额则无法全面衡量家庭消费。",
-          "why": "即使国内消费者花钱谨慎，工厂也可能维持较忙的生产节奏。这有助于支撑供应商和物流企业的订单，却不一定带来同等程度的门店销售回暖。出厂价格上涨有利于能够提高售价的生产商，但如果下游企业无法把上涨的成本转嫁出去，就可能承压。对家庭来说，这份报告更适合用来了解哪些领域的需求较强，而不能据此判断家庭购买力。",
-          "uncertainty": "出口额同时受到价格和数量变动的影响，不能直接反映出口货物的实际数量。零售总额并未覆盖所有服务，这份报告也无法说明各家企业的利润率如何变化。",
-          "watch": "关注下次公布的经济运行数据，尤其是零售和服务业指标，以及企业披露的订单、成本和利润率，看看当前表现是否延续。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "规模以上工业增加值同比增速"
+              "label": "年初至今累计净亏损"
             },
             {
-              "id": "m2",
-              "label": "社会消费品零售总额同比增速"
+              "id": "m6",
+              "label": "年初至今累计经营现金流"
             },
             {
-              "id": "m3",
-              "label": "货物出口额同比增速"
-            },
-            {
-              "id": "m4",
-              "label": "工业生产者出厂价格同比涨幅"
+              "id": "m7",
+              "label": "年初至今累计投资现金流"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité économique aux États-Unis et en Chine. Vérifiez la date de chaque publication : les résultats récents des entreprises sont présentés pour donner du contexte.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour donner du contexte.",
       "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture affichés correspondent aux dates indiquées et ne reflètent pas les échanges en cours.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture affichés correspondent aux dates indiquées et ne reflètent pas les échanges en cours."
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés correspondent à ces séances et non aux échanges en cours.",
+        "cn": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les cours de clôture datés correspondent à ces séances et non aux échanges en cours."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "États-Unis : le moral des consommateurs s’améliore, mais le rebond reste incertain",
-          "summary": "Les résultats définitifs de l’enquête de l’université du Michigan montrent que les ménages jugent la situation actuelle plus favorablement et sont plus optimistes pour la suite que lors de l’enquête précédente.",
-          "impact": "Cette amélioration est un signal encore fragile pour les entreprises qui vendent aux particuliers. Elle ne prouve pas que les dépenses ont déjà augmenté.",
-          "what": "L’enquête demande aux ménages comment ils jugent la situation économique actuelle et à quoi ils s’attendent pour la suite. Les résultats définitifs montrent une amélioration de ces appréciations et des attentes d’inflation à court terme moins élevées. La hausse de l’indice global reste toutefois en deçà du seuil de signification statistique fixé par l’université. Il vaut donc mieux y voir une légère amélioration dans l’enquête qu’un tournant dans la confiance des ménages.",
-          "why": "Les consommateurs qui se sentent plus à l’aise financièrement peuvent être plus enclins à remplacer un appareil ménager, à réserver un voyage ou à faire un autre achat qu’ils auraient pu reporter. Cette possibilité intéresse les commerçants, qui doivent souvent prévoir leurs effectifs, leurs promotions et leurs stocks avant de savoir ce que les clients achèteront. Mais un ménage peut être plus optimiste tout en limitant ses achats si le loyer, les courses ou les remboursements d’emprunts laissent peu de marge dans son budget. C’est pourquoi la confiance déclarée et les ventes réelles peuvent évoluer différemment.",
-          "uncertainty": "L’enquête repose sur des entretiens menés avant sa publication. Elle ne reflète donc pas les réactions à la clôture boursière qui a suivi. Elle mesure des opinions déclarées, pas des achats, et la hausse de l’indice global pourrait tenir au hasard de l’échantillonnage.",
-          "watch": "Comparer la prochaine enquête aux données officielles sur les dépenses de consommation et les ventes au détail, en particulier pour les achats que les ménages peuvent reporter.",
+          "id": "f1",
+          "title": "Un fournisseur de composants optiques de Chine continentale prévoit un nouveau site de production",
+          "summary": "Un fournisseur de composants optiques a signé un accord pour développer un projet de recherche et de fabrication à Nanchang.",
+          "impact": "L’usine envisagée pourrait accroître les capacités de production de composants pour les liaisons de données à haut débit, mais l’accord ne garantit aucune commande.",
+          "what": "Suzhou TFC Optical Communication fabrique des composants optiques qui servent à transmettre des données à haut débit. Son accord avec la zone de développement de Nanchang porte sur la recherche et la fabrication de produits destinés aux grands centres de données et aux installations de calcul intensif. L’entreprise a fait immatriculer une filiale locale pour mener le projet. La zone de développement s’est engagée à faciliter l’aménagement du site, son raccordement aux réseaux et l’obtention des autorisations administratives. Le document publié présente un accord visant à développer les capacités de production. Il n’annonce ni la fin des travaux ni la mise en service d’équipements.",
+          "why": "Un centre de données doit non seulement traiter les informations, mais aussi les faire circuler rapidement entre les machines. Cela crée une demande de liaisons optiques en plus de la demande de puces de calcul. Le précédent rapport de résultats montre que le fournisseur était déjà rentable et que son activité générait de la trésorerie, mais ces résultats concernent l’activité existante. Une nouvelle usine nécessiterait des dépenses avant de pouvoir fabriquer et livrer des composants commercialisables. Son intérêt économique dépendra de la part de la nouvelle capacité que les clients utiliseront en pratique.",
+          "uncertainty": "Le document ne précise ni le budget d’investissement, ni les engagements des clients, ni la date de démarrage de la production commerciale. La direction ne s’attend pas à ce que la signature elle-même ait un effet significatif sur les résultats de l’exercice en cours.",
+          "watch": "À suivre : la finalisation du transfert du terrain, la publication des dépenses d’investissement, l’installation des équipements et la confirmation que les clients ont validé les produits fabriqués sur le nouveau site.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Indice de confiance des consommateurs"
+              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
             },
             {
               "id": "m2",
-              "label": "Indice des conditions économiques actuelles"
+              "label": "Résultat net part du groupe cumulé depuis le début de l’exercice"
             },
             {
               "id": "m3",
-              "label": "Indice des attentes des consommateurs"
+              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Résultats de Walmart : l’activité commerciale s’améliore, mais le résultat net recule",
-          "summary": "Les résultats trimestriels de Walmart montrent une hausse du chiffre d’affaires et du résultat d’exploitation, mais une baisse du résultat net part du groupe.",
-          "impact": "Les magasins et les ventes en ligne ont obtenu de meilleurs résultats, mais la hausse des investissements a réduit la trésorerie d’exploitation restante après les dépenses immobilières et d’équipement.",
-          "what": "Walmart vend des produits alimentaires et des articles divers en magasin, dans des magasins réservés aux adhérents et en ligne. Sur le trimestre de son exercice, le résultat d’exploitation s’est amélioré. En revanche, les autres éléments comptabilisés après le résultat d’exploitation sont passés de gains à des pertes, ce qui a contribué au recul du résultat net. Le tableau des flux de trésorerie couvre une période différente : il présente le cumul depuis le début de l’exercice. L’activité a dégagé plus de trésorerie qu’à la même période de l’exercice précédent, mais la hausse des dépenses immobilières et d’équipement a été suffisante pour qu’il reste moins de trésorerie après ces dépenses.",
-          "why": "Le résultat d’exploitation aide à comprendre comment se porte l’activité commerciale avant de tenir compte du financement et d’autres éléments. Le flux de trésorerie d’exploitation répond à une autre question : combien d’argent l’activité a-t-elle généré une fois ses dépenses courantes payées ? Il dépend notamment du moment où l’entreprise paie ses fournisseurs et constitue ses stocks. Les magasins et les moyens nécessaires pour préparer et livrer les commandes exigent des dépenses dès le départ. Pour les clients, ces investissements peuvent améliorer le retrait des commandes et la livraison. Pour Walmart, leur intérêt dépend de la capacité à vendre davantage et à traiter les commandes plus efficacement, de façon à justifier les coûts engagés.",
-          "uncertainty": "Dans ses commentaires sur la trésorerie, Walmart a souligné l’effet du calendrier des paiements et de la constitution des stocks. L’amélioration n’est donc pas nécessairement durable. Les résultats du trimestre ne permettent pas non plus de savoir comment évolueront la demande pendant les fêtes ou le coût du traitement des commandes en ligne.",
-          "watch": "Suivre les ventes pendant les fêtes, les niveaux de stocks et le prochain rapprochement entre le résultat net et le flux de trésorerie d’exploitation pour voir si la croissance laisse davantage de trésorerie après les dépenses d’investissement.",
+          "id": "f5",
+          "title": "L’entrée en Bourse d’un développeur d’IA met en lumière ses besoins de financement",
+          "summary": "Anthropic a commencé à coter au-dessus de son prix d’introduction. Son prospectus explique pourquoi l’entreprise a pu afficher une perte comptable tout en générant de la trésorerie grâce à son activité.",
+          "impact": "La cotation permet aux investisseurs en Bourse de voir directement si les revenus tirés de l’utilisation payante de l’IA peuvent couvrir les coûts du service.",
+          "what": "Anthropic vend l’accès à ses modèles Claude par abonnement ou en facturant les services à l’usage. La Bourse a confirmé le début des échanges sur l’action et indiqué son cours d’ouverture. Le montant de l’offre inclut la vente d’actions par des actionnaires existants, qui en reçoivent le produit à la place de l’entreprise. Le prospectus fait aussi état d’une perte comptable sur la période intermédiaire, alors que le flux de trésorerie d’exploitation était positif. La réévaluation d’instruments de financement explique une grande partie de la perte publiée. Ces écritures comptables ne correspondent pas à des sorties d’argent sur la période.",
+          "why": "L’émission d’actions nouvelles apporte des fonds à l’entreprise, mais ne constitue pas du chiffre d’affaires. La distinction compte pour une société qui a besoin de puissance de calcul pour entraîner ses modèles et servir ses clients. Un flux de trésorerie d’exploitation positif montre que l’activité a généré de la trésorerie sur la période présentée, sans indiquer ce qu’il reste après les investissements. Les sorties de trésorerie liées aux investissements comprennent aussi des achats de placements à court terme. Les attribuer toutes à l’achat de matériel informatique reviendrait donc à surestimer ce coût. Pour les entreprises qui adoptent ces outils, la façon dont le fournisseur gère sa capacité de calcul influe sur la disponibilité et le coût du service.",
+          "uncertainty": "Le cours d’ouverture n’est ni un cours de clôture ni une mesure de la demande à long terme pour l’action. Les comptes intermédiaires n’ont pas été audités, et le montant de l’offre ne confirme pas combien l’entreprise a réellement encaissé, net de frais.",
+          "watch": "Dans la prochaine publication financière, suivre les revenus facturés à l’usage, les engagements liés à la capacité de calcul et les dépenses d’infrastructure. Distinguer la trésorerie générée par l’activité des fonds issus de nouveaux financements.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires total du trimestre de l’exercice"
+              "label": "Prix d’introduction par action"
             },
             {
               "id": "m2",
-              "label": "Résultat d’exploitation du trimestre de l’exercice"
+              "label": "Cours d’ouverture par action"
             },
             {
               "id": "m3",
-              "label": "Résultat net part du groupe du trimestre de l’exercice"
+              "label": "Montant brut de l’offre au prix fixé"
             },
             {
               "id": "m4",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
+              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
             },
             {
               "id": "m5",
-              "label": "Dépenses immobilières et d’équipement cumulées depuis le début de l’exercice"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "En Chine, l’industrie est plus dynamique que les ventes au détail",
-          "summary": "Les données chinoises sur l’activité montrent une hausse de la production industrielle et une forte progression des exportations de biens, tandis que les ventes au détail n’ont que modestement augmenté.",
-          "impact": "Cet écart suggère que les producteurs tournés vers l’exportation et les entreprises qui dépendent des consommateurs chinois pourraient évoluer dans des conditions assez différentes.",
-          "what": "Le Bureau national des statistiques a fait état d’une hausse de la valeur ajoutée industrielle dans les entreprises dépassant le seuil de taille qu’il a fixé. La valeur des exportations de biens a également augmenté, tandis que les ventes au détail de biens de consommation ont à peine progressé par rapport à la même période de l’année précédente. Les prix de vente des producteurs industriels ont augmenté. Ces indicateurs ne mesurent pas la même chose : la production industrielle suit ce que produisent les usines, la valeur des exportations mesure en yuans les ventes de biens à l’étranger, et le montant des ventes au détail ne couvre pas toute la consommation des ménages.",
-          "why": "Les usines peuvent tourner à bon rythme même si les consommateurs chinois restent prudents. Cela peut soutenir les commandes des fournisseurs et des entreprises de logistique, sans que les ventes en magasin progressent autant. La hausse des prix à la sortie des usines peut profiter aux producteurs qui arrivent à vendre plus cher, mais elle peut peser sur leurs clients professionnels si ceux-ci ne peuvent pas répercuter la hausse de leurs coûts sur leurs propres prix. Pour les ménages, ces données servent donc surtout à repérer où la demande est la plus forte, plutôt qu’à tirer une conclusion sur leur pouvoir d’achat.",
-          "uncertainty": "La valeur des exportations dépend à la fois des prix et des quantités. Elle ne mesure donc pas directement le volume de biens expédiés. L’indicateur global des ventes au détail ne couvre pas tous les services, et ces données ne permettent pas de savoir comment les marges ont évolué dans chaque entreprise.",
-          "watch": "Vérifier si ces tendances se confirment dans la prochaine publication sur l’activité, notamment dans les indicateurs du commerce de détail et des services, ainsi que dans les informations publiées par les entreprises sur leurs commandes, leurs coûts et leurs marges.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Croissance de la valeur ajoutée industrielle en glissement annuel"
+              "label": "Perte nette cumulée depuis le début de l’exercice"
             },
             {
-              "id": "m2",
-              "label": "Croissance des ventes au détail de biens de consommation en glissement annuel"
+              "id": "m6",
+              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
             },
             {
-              "id": "m3",
-              "label": "Croissance de la valeur des exportations de biens en glissement annuel"
-            },
-            {
-              "id": "m4",
-              "label": "Hausse des prix de vente des producteurs industriels en glissement annuel"
+              "id": "m7",
+              "label": "Flux de trésorerie d’investissement cumulé depuis le début de l’exercice"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición repasa las novedades de Estados Unidos y China. Comprueba la fecha de cada publicación: los informes empresariales recientes se presentan como contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan como contexto.",
       "marketSummary": {
-        "us": "Los índices que seguimos bajaron en sus últimas sesiones verificadas. Los cierres corresponden a las sesiones indicadas, no a la negociación actual.",
-        "cn": "Los índices que seguimos bajaron en sus últimas sesiones verificadas. Los cierres corresponden a las sesiones indicadas, no a la negociación actual."
+        "us": "Los índices que seguimos bajaron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la negociación actual.",
+        "cn": "Los índices que seguimos subieron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la negociación actual."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Mejora la confianza del consumidor en Estados Unidos, pero el repunte aún no está claro",
-          "summary": "Los resultados definitivos de la encuesta de la Universidad de Míchigan mostraron que la confianza y las expectativas de los consumidores mejoraron respecto a la encuesta anterior.",
-          "impact": "La mejora es una señal preliminar para las empresas que venden a los consumidores, no una prueba de que el gasto ya haya aumentado.",
-          "what": "La encuesta pregunta a los hogares cómo ven la situación económica actual y qué esperan de cara al futuro. Los resultados definitivos mostraron una mejora en la valoración de la situación actual y en las expectativas. También indicaron que los hogares esperaban menos inflación a corto plazo. Sin embargo, la subida del índice general no alcanzó el umbral que usa la universidad para distinguir un cambio significativo de una fluctuación propia de la encuesta. El resultado apunta a una mejora modesta, no a un cambio de rumbo claro en la confianza de los hogares.",
-          "why": "Quienes se sienten más seguros de sus finanzas pueden estar más dispuestos a renovar un electrodoméstico, reservar un viaje o hacer alguna otra compra que podrían aplazar. A los comercios les importa esa posibilidad porque suelen tener que planificar el personal, las promociones y las existencias antes de saber cómo responderán los clientes. Pero un hogar puede ver el futuro con más optimismo y aun así contener el gasto si el alquiler, la compra de alimentos o las cuotas de los préstamos dejan poco margen en el presupuesto. Por eso, la confianza y las ventas efectivas pueden evolucionar de forma distinta.",
-          "uncertainty": "La encuesta recoge entrevistas realizadas antes de su publicación, no reacciones al cierre bursátil posterior. Mide opiniones declaradas, no compras, y la variación del índice general podría deberse a fluctuaciones propias de la muestra.",
-          "watch": "Compara la próxima encuesta con los informes oficiales de gasto de los consumidores y ventas minoristas, prestando especial atención a las compras que los hogares pueden aplazar.",
+          "id": "f1",
+          "title": "Un proveedor de componentes ópticos de China continental planea una nueva planta",
+          "summary": "Un proveedor de componentes ópticos firmó un acuerdo para desarrollar un proyecto de investigación y fabricación en Nanchang.",
+          "impact": "La planta prevista podría ampliar la capacidad de producción de componentes para enlaces de datos de alta velocidad, pero el acuerdo no garantiza pedidos de clientes.",
+          "what": "Suzhou TFC Optical Communication fabrica componentes ópticos que permiten transmitir datos a gran velocidad. Su acuerdo con la zona de desarrollo de Nanchang abarca la investigación y la fabricación de productos destinados a grandes centros de datos e instalaciones de supercomputación. La empresa registró una filial local para llevar a cabo el proyecto. La zona se comprometió a facilitar la preparación del terreno, el acceso a servicios básicos y la tramitación de permisos. El comunicado anuncia un acuerdo para ampliar la capacidad de producción; no afirma que las obras hayan terminado ni que haya equipos en funcionamiento.",
+          "why": "Un centro de datos necesita tanto procesar información como moverla rápidamente entre equipos. Eso genera demanda de enlaces ópticos, además de chips de cómputo. El informe de resultados anterior muestra que el proveedor ya era rentable y generaba efectivo con sus operaciones, pero esos datos corresponden al negocio existente. La nueva planta exigiría invertir antes de poder fabricar y entregar componentes listos para la venta. Su valor económico dependerá de cuánto de esa capacidad terminen utilizando los clientes.",
+          "uncertainty": "El comunicado no indica el presupuesto de inversión, los compromisos de los clientes ni la fecha de inicio de la producción comercial. La dirección no espera que la firma del acuerdo, por sí sola, afecte de forma significativa a los resultados del ejercicio en curso.",
+          "watch": "Conviene seguir si se completa la transferencia del terreno, si se publica el gasto de inversión, si se instalan los equipos y si hay pruebas de que los clientes han aprobado los productos fabricados en la nueva planta.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice de confianza del consumidor"
+              "label": "Ingresos acumulados en el ejercicio"
             },
             {
               "id": "m2",
-              "label": "Índice de condiciones económicas actuales"
+              "label": "Beneficio neto atribuible acumulado en el ejercicio"
             },
             {
               "id": "m3",
-              "label": "Índice de expectativas del consumidor"
+              "label": "Flujo de efectivo de las actividades de explotación acumulado en el ejercicio"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Claves de los resultados: mejora el negocio minorista, pero cae el beneficio neto",
-          "summary": "Los resultados trimestrales de Walmart mostraron un aumento de los ingresos y del beneficio operativo, pero una caída del beneficio neto atribuible a los accionistas.",
-          "impact": "Mejoraron los resultados en tiendas y en línea, pero la mayor inversión hizo que quedara menos efectivo de las operaciones tras el gasto en inmuebles y equipos.",
-          "what": "Walmart vende alimentos y otros productos en tiendas, clubes de compra con membresía y canales en línea. En el trimestre fiscal mejoró su beneficio operativo, pero otras partidas que se contabilizan después de ese beneficio pasaron de ganancias a pérdidas y contribuyeron a reducir el beneficio neto. El estado de flujos de efectivo abarca un periodo distinto: lo que va del ejercicio fiscal. En ese periodo, las operaciones generaron más efectivo en términos interanuales, pero el gasto en inmuebles y equipos aumentó lo suficiente como para que quedara menos efectivo después de cubrirlo.",
-          "why": "El beneficio operativo ayuda a entender cómo marcha el negocio minorista antes de tener en cuenta la financiación y otras partidas. El flujo de caja operativo responde a otra pregunta: cuánto efectivo generó el negocio tras descontar los pagos de su actividad, teniendo en cuenta cuándo pagó a sus proveedores y cuándo repuso sus existencias. Las tiendas y la capacidad para preparar y entregar pedidos exigen un desembolso inicial. Para los clientes, estas inversiones pueden mejorar la recogida y la entrega de pedidos. Para la empresa, su valor depende de que el aumento de las ventas y una gestión más eficiente de los pedidos justifiquen el coste.",
-          "uncertainty": "Al explicar el flujo de caja, la empresa mencionó el momento en que realizó los pagos y repuso sus existencias. Por eso, no conviene interpretar la mejora como un cambio permanente. Los resultados del trimestre no aclaran cómo evolucionarán la demanda durante la temporada festiva ni el coste de atender los pedidos en línea.",
-          "watch": "Observa las ventas de la temporada festiva, los niveles de existencias y la próxima conciliación del flujo de caja para ver si el crecimiento deja más efectivo después de las inversiones en activos.",
+          "id": "f5",
+          "title": "La salida a bolsa de una empresa de IA pone de relieve sus necesidades de efectivo",
+          "summary": "Anthropic debutó en bolsa por encima de su precio de oferta. Su folleto explicó la diferencia entre la pérdida contable declarada y el efectivo que generaron sus operaciones.",
+          "impact": "La salida a bolsa permite a los inversores ver directamente si los ingresos por el uso de servicios de IA pueden cubrir el coste de ofrecerlos.",
+          "what": "Anthropic vende acceso a sus modelos Claude mediante suscripciones y servicios que se cobran según el uso. La bolsa confirmó el inicio de la negociación de las acciones y dio a conocer el precio de apertura. El importe de la oferta incluye acciones vendidas por accionistas existentes: el dinero de esas ventas no va a la empresa. El folleto también mostró una pérdida contable en el periodo intermedio y, al mismo tiempo, un flujo de efectivo positivo de las actividades de explotación. Los cambios en la valoración de instrumentos de financiación explican gran parte de la pérdida declarada. Esos ajustes contables no equivalen a salidas de efectivo durante el periodo.",
+          "why": "Vender acciones nuevas aporta financiación, no ingresos de clientes. La distinción importa para una empresa que necesita capacidad de cómputo para entrenar modelos y prestar servicio a sus clientes. Un flujo de efectivo positivo de las actividades de explotación indica que el negocio generó efectivo durante el periodo informado, pero no dice cuánto quedó después de invertir. Las salidas de efectivo por actividades de inversión también incluyen compras de inversiones a corto plazo. Atribuirlas por completo a la compra de equipos informáticos exageraría ese coste. Para las empresas que adoptan estas herramientas, la forma en que el proveedor gestiona su capacidad influye en la disponibilidad y el coste del servicio.",
+          "uncertainty": "El precio de apertura no es el de cierre ni mide la demanda de las acciones a largo plazo. Los estados financieros del periodo intermedio no están auditados, y el importe de la oferta no confirma cuánto efectivo neto recibió la empresa.",
+          "watch": "En el próximo informe financiero público, conviene seguir los ingresos por servicios cobrados según el uso, los compromisos de capacidad de cómputo y el gasto en infraestructura, y distinguir el efectivo generado por las operaciones del obtenido mediante nueva financiación.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos totales del trimestre fiscal"
+              "label": "Precio inicial de oferta por acción"
             },
             {
               "id": "m2",
-              "label": "Beneficio operativo del trimestre fiscal"
+              "label": "Precio de apertura por acción"
             },
             {
               "id": "m3",
-              "label": "Beneficio neto atribuible a los accionistas del trimestre fiscal"
+              "label": "Importe bruto de la oferta al fijarse el precio"
             },
             {
               "id": "m4",
-              "label": "Flujo de caja operativo acumulado en el ejercicio fiscal"
+              "label": "Ingresos acumulados en el ejercicio"
             },
             {
               "id": "m5",
-              "label": "Inversión acumulada en inmuebles y equipos en el ejercicio fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Las fábricas de China muestran más dinamismo que las ventas minoristas",
-          "summary": "El informe de actividad de China mostró un aumento de la producción industrial y un fuerte avance de las exportaciones de bienes, mientras que las ventas minoristas crecieron poco.",
-          "impact": "El contraste sugiere que los productores orientados a la exportación y los negocios que dependen de los compradores del país podrían afrontar condiciones bastante distintas.",
-          "what": "La Oficina Nacional de Estadística de China informó de un aumento del valor añadido industrial en las empresas que superan el umbral de tamaño que establece el organismo. También subió el valor de las exportaciones de bienes, mientras que las ventas minoristas de bienes de consumo apenas crecieron en términos interanuales. Los precios de venta de los productores industriales aumentaron. Estos indicadores miden cosas distintas: la producción industrial refleja lo que producen las fábricas, el valor de las exportaciones refleja las ventas de bienes al exterior expresadas en yuanes y las ventas minoristas no recogen todo el consumo de los hogares.",
-          "why": "Las fábricas pueden mantener sus líneas de producción ocupadas aunque los compradores del país sean prudentes. Eso puede sostener los pedidos para proveedores y empresas de logística sin que las ventas en las tiendas repunten en la misma medida. El aumento de los precios a la salida de fábrica puede beneficiar a los productores que logran cobrar más, pero puede presionar a las empresas que les compran si estas no pueden trasladar el aumento de costes a sus propios clientes. Por eso, a los hogares el informe les sirve más para saber dónde es más fuerte la demanda que para sacar conclusiones sobre su poder adquisitivo.",
-          "uncertainty": "El valor de las exportaciones refleja cambios en los precios y en las cantidades, por lo que no mide directamente el volumen exportado. El dato general de ventas minoristas no abarca todos los servicios, y el informe no permite saber cómo cambiaron los márgenes de cada empresa.",
-          "watch": "Fíjate en si la tendencia se mantiene en el próximo informe de actividad, sobre todo en los indicadores de ventas minoristas y servicios, y en lo que las empresas publiquen sobre pedidos, costes y márgenes.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Crecimiento interanual del valor añadido industrial"
+              "label": "Pérdida neta acumulada en el ejercicio"
             },
             {
-              "id": "m2",
-              "label": "Crecimiento interanual de las ventas minoristas de bienes de consumo"
+              "id": "m6",
+              "label": "Flujo de efectivo de las actividades de explotación acumulado en el ejercicio"
             },
             {
-              "id": "m3",
-              "label": "Crecimiento interanual del valor de las exportaciones de bienes"
-            },
-            {
-              "id": "m4",
-              "label": "Crecimiento interanual de los precios de venta de los productores industriales"
+              "id": "m7",
+              "label": "Flujo de efectivo de las actividades de inversión acumulado en el ejercicio"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業決算は、背景を理解するための解説として掲載しています。",
+      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業発表は、背景を理解するための解説として紹介しています。",
       "marketSummary": {
-        "us": "対象の株価指数は、確認できた直近の取引でいずれも下落しました。日付付きの終値は、その日の取引結果であり、現在の値動きを示すものではありません。",
-        "cn": "対象の株価指数は、確認できた直近の取引でいずれも下落しました。日付付きの終値は、その日の取引結果であり、現在の値動きを示すものではありません。"
+        "us": "対象の株価指数はいずれも、確認できた直近の取引で下落しました。日付が付いた終値は、その日の取引終了時点の値で、現在の値動きを示すものではありません。",
+        "cn": "対象の株価指数はいずれも、確認できた直近の取引で上昇しました。日付が付いた終値は、その日の取引終了時点の値で、現在の値動きを示すものではありません。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "米国の消費者心理は改善、持ち直しはまだ明確でない",
-          "summary": "ミシガン大学の消費者調査の確報では、消費者心理と先行きへの見方が前回調査より改善しました。",
-          "impact": "消費者向けの企業にとっては改善の兆しですが、実際に消費支出が増えたことを示すものではありません。",
-          "what": "この調査では、家計が今の景気をどう見ているか、先行きをどう予想しているかを尋ねます。確報ではいずれも改善し、短期的な物価上昇の予想も弱まりました。ただし、総合指数の変化幅は、同大学が統計的に意味のある変化とみなす基準に届きませんでした。家計の景気に対する見方がはっきり好転したというより、調査結果が小幅に改善したと受け止めるのが妥当です。",
-          "why": "家計に安心感が出ると、家電の買い替えや旅行の予約など、先送りできる支出にも踏み切りやすくなります。小売企業は、需要が見えてくる前に人員配置や販促、在庫を計画することが多いため、こうした変化を気にかけます。ただ、先行きへの見方が良くなっても、家賃や食料品代、ローンの返済で家計に余裕がなければ、支出を控えることはあります。そのため、消費者心理と実際の売上は必ずしも同じ動きにはなりません。",
-          "uncertainty": "調査は公表前に終えた聞き取りに基づいており、その後の市場の終値を受けた反応は反映していません。測っているのは回答者の見方であって、実際の購入ではありません。総合指数の変化は、調査対象のばらつきでも説明できる可能性があります。",
-          "watch": "次回の調査結果と、個人消費支出や小売売上高の公式統計を見比べます。特に、家計が先送りできる買い物への支出が注目点です。",
+          "id": "f1",
+          "title": "中国本土の光部品メーカー、新たな生産拠点を計画",
+          "summary": "光部品メーカーが、南昌で研究開発と製造を行う事業の協定を結びました。",
+          "impact": "計画中の工場ができれば、高速データ通信向け部品の生産能力が増える可能性があります。ただし、協定を結んだからといって、顧客からの受注が確約されたわけではありません。",
+          "what": "蘇州天孚光通信は、高速でデータを伝送するための光部品を製造しています。南昌の開発区と結んだ協定は、大規模なデータセンターやスーパーコンピューター施設向けの製品を研究開発し、製造するためのものです。同社は事業を進めるため、現地で子会社を登記しました。開発区側は、用地の整備、電気や水道などの利用、行政の許認可手続きを支援することに合意しました。今回の開示は生産能力を整備するための協定に関するもので、工事の完了や設備の稼働を発表したものではありません。",
+          "why": "データセンターでは、情報を処理するだけでなく、機器の間でデータを素早くやり取りする必要があります。そのため、計算用の半導体に加え、光通信で機器をつなぐための部品にも需要があります。先に公表された決算では、同社が黒字で、営業活動から現金を生み出していたことが分かります。ただし、その実績は既存事業のものです。新工場で販売できる部品を作り、出荷するには、まず投資が必要です。新工場がどれだけの経済的な価値を生むかは、増えた生産能力がどの程度、顧客の需要に応える形で使われるかにかかっています。",
+          "uncertainty": "開示資料では、設備投資の予算、顧客からの発注の確約状況、商業生産の開始時期は明らかにされていません。経営陣は、協定の締結自体が当年の業績に大きな影響を与えるとは見込んでいません。",
+          "watch": "用地の引き渡しが完了するか、設備投資額が公表されるか、設備の設置が進むか、新拠点で作った製品が顧客の評価を経て承認されたことを確認できるかが注目点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "消費者信頼感指数"
+              "label": "年初来累計売上高"
             },
             {
               "id": "m2",
-              "label": "現況指数"
+              "label": "年初来累計の親会社株主に帰属する純利益"
             },
             {
               "id": "m3",
-              "label": "消費者期待指数"
+              "label": "年初来累計の営業キャッシュフロー"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "決算解説：小売事業は改善、純利益は減少",
-          "summary": "ウォルマートの四半期決算では、売上高と営業利益が増えた一方、株主に帰属する純利益は減りました。",
-          "impact": "店舗とネット通販の業績は改善しましたが、投資が増えたため、営業活動で得た現金のうち設備投資後に残る額は減りました。",
-          "what": "ウォルマートは、店舗や会員制店舗、ネット通販で食品や日用品などを販売しています。四半期決算では本業の利益が伸びましたが、損益計算書で営業利益より下に記載されるその他損益が黒字から赤字に転じ、最終的な利益を押し下げる要因となりました。一方、キャッシュフロー計算書が対象とするのは、会計年度の期首からの累計で、四半期決算の対象期間とは異なります。営業活動で得た現金は前年同期より増えましたが、有形固定資産への支出がそれ以上に増えたため、その支出を差し引いた後に残る現金は減りました。",
-          "why": "営業利益を見ると、資金調達にかかる費用などを差し引く前の、小売事業の稼ぎ具合が分かります。一方、営業キャッシュフローは、事業で受け取った現金から営業上の支払いを差し引いて、実際にどれだけ現金が入ったかを示します。仕入れ先への支払いや在庫を仕入れる時期にも左右されます。店舗や注文を処理・発送する体制を整えるには、先に資金が必要です。こうした投資は、客にとって商品の受け取りや配送を便利にする可能性があります。小売企業にとって投資に見合うかどうかは、売上の増加や注文処理・発送の効率化で費用を補えるかにかかっています。",
-          "uncertainty": "会社は、現金の動きを説明するなかで、支払いや在庫のタイミングに言及しました。このため、営業キャッシュフローの改善が続くとは限りません。今回の四半期決算だけでは、年末商戦の需要やネット注文に対応する費用が今後どう変わるかは分かりません。",
-          "watch": "年末商戦の売上、在庫水準、次回のキャッシュフローの増減内訳が注目点です。事業の成長によって、設備投資後に残る現金が増えるかを見ます。",
+          "id": "f5",
+          "title": "AI開発企業が上場、資金需要が見えるように",
+          "summary": "アンソロピックの株式は公開価格を上回る値で取引が始まりました。目論見書では、会計上の損失と、営業活動で生み出した現金との違いが示されました。",
+          "impact": "上場により、AIの利用料収入でサービス提供のコストをまかなえるかを、株式市場の投資家が自ら確かめられるようになります。",
+          "what": "アンソロピックは、AIモデル「Claude」を定額制や従量課金制のサービスで提供しています。取引所は株式の売買開始を確認し、最初に取引が成立した価格を公表しました。公開時の売出総額には、既存株主が売却した株式の代金も含まれます。その代金は会社には入りません。目論見書によると、期中の会計上の損益は赤字でしたが、営業キャッシュフローはプラスでした。報告された損失の大きな要因は、資金調達に使った金融商品の評価額を見直したことです。この会計処理は、その期間に実際に現金を支払ったことを意味しません。",
+          "why": "新株の発行で入る資金は、顧客から得た売上ではなく、資金調達によるものです。モデルの学習にも顧客へのサービス提供にも計算資源が必要な事業では、この違いが重要です。営業キャッシュフローがプラスだったことは、開示対象の期間に事業活動で現金を生み出したことを示しますが、投資をした後に手元にいくら残ったかまでは分かりません。投資活動による現金の流出には短期投資商品の購入も含まれるため、全額をコンピューターへの支出とみなすと、その費用を実際より大きく見積もることになります。こうしたツールを導入する企業にとっては、提供元が計算資源をどうやりくりするかが、サービスの利用しやすさや費用に影響します。",
+          "uncertainty": "取引開始時の価格は終値ではなく、その株への長期的な需要を示すものでもありません。期中の財務諸表は監査を受けておらず、公開時の売出総額から、会社が実際に受け取った手取り額を確かめることはできません。",
+          "watch": "次の財務開示では、従量課金による売上高、計算資源を確保するための契約上の約束、インフラへの支出、営業活動で生み出した現金が注目点です。これらは新たな資金調達とは分けて見る必要があります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期売上高合計"
+              "label": "公開価格（株式単価）"
             },
             {
               "id": "m2",
-              "label": "四半期営業利益"
+              "label": "上場時の初値（株式単価）"
             },
             {
               "id": "m3",
-              "label": "四半期の株主に帰属する純利益"
+              "label": "公開価格決定時の募集・売出総額"
             },
             {
               "id": "m4",
-              "label": "会計年度累計の営業キャッシュフロー"
+              "label": "年初来累計売上高"
             },
             {
               "id": "m5",
-              "label": "会計年度累計の有形固定資産への支出"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "中国、工業生産は小売売上高より勢い",
-          "summary": "中国の経済活動統計では、工業生産が増え、財の輸出額も力強く伸びた一方、小売売上高の伸びは小幅にとどまりました。",
-          "impact": "輸出向けの製造業者と、国内の消費者に頼る企業とでは、事業環境が大きく異なる可能性があります。",
-          "what": "中国国家統計局によると、同局が定める規模基準以上の企業で工業付加価値が増えました。財の輸出額も増えましたが、消費財小売売上高は前年同月からわずかに増えた程度でした。工業製品の出荷価格は上昇しました。これらの指標は、それぞれ異なるものを測っています。工業生産は生産活動を、財の輸出額は国境を越えて販売された財の金額を人民元建てで示します。小売売上高だけでは、家計の消費全体は把握できません。",
-          "why": "国内の買い物客が慎重でも、工場は生産ラインを活発に動かせます。店頭の売上が同じように伸びなくても、部品や原材料の供給業者、物流会社への発注は支えられることがあります。出荷価格の上昇は、販売価格を引き上げられるメーカーには追い風になりますが、仕入れ先からの値上げ分を自社の販売価格に転嫁できない企業には負担になります。家計にとって、この統計は購買力を判断する材料というより、どこで需要が強いかを知る手がかりです。",
-          "uncertainty": "輸出額には価格と数量の変化が混ざっており、輸出数量を直接示すものではありません。小売売上高はサービス全体をカバーしておらず、この統計だけでは個々の企業の利益率がどう変わったかも分かりません。",
-          "watch": "この動きが続くかどうかは、次回の経済活動統計、特に小売やサービスの指標と、企業が公表する受注、コスト、利益率が注目点です。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "工業付加価値の前年同月比伸び率"
+              "label": "年初来累計純損失"
             },
             {
-              "id": "m2",
-              "label": "消費財小売売上高の前年同月比伸び率"
+              "id": "m6",
+              "label": "年初来累計の営業キャッシュフロー"
             },
             {
-              "id": "m3",
-              "label": "財の輸出額の前年同月比伸び率"
-            },
-            {
-              "id": "m4",
-              "label": "工業製品出荷価格の前年同月比上昇率"
+              "id": "m7",
+              "label": "年初来累計の投資キャッシュフロー"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação. Os relatórios recentes de empresas são apresentados para ajudar a entender o contexto.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes das empresas são apresentados para dar contexto.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram em seus pregões mais recentes com dados verificados. Os valores de fechamento se referem aos pregões nas datas indicadas, não às negociações atuais.",
-        "cn": "Os índices acompanhados caíram em seus pregões mais recentes com dados verificados. Os valores de fechamento se referem aos pregões nas datas indicadas, não às negociações atuais."
+        "us": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os valores de fechamento correspondem aos pregões das datas indicadas e não refletem as negociações em curso.",
+        "cn": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os valores de fechamento correspondem aos pregões das datas indicadas e não refletem as negociações em curso."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Confiança do consumidor melhora nos EUA, mas a recuperação ainda não está clara",
-          "summary": "A versão final da pesquisa da Universidade de Michigan mostrou melhora na confiança e nas expectativas dos consumidores em relação à pesquisa anterior.",
-          "impact": "A melhora é um sinal ainda incerto para empresas que vendem ao consumidor, não uma prova de que os gastos já aumentaram.",
-          "what": "A pesquisa pergunta às famílias como elas avaliam as condições econômicas atuais e o que esperam para o futuro. A versão final mostrou melhora nas avaliações das condições atuais e nas expectativas, além de indicar que as famílias esperavam menos inflação no curto prazo. A variação do índice geral, porém, ficou abaixo do limite que a universidade usa para considerar uma mudança estatisticamente significativa. O resultado indica uma melhora modesta na pesquisa, não uma mudança decisiva na confiança das famílias.",
-          "why": "Quem se sente mais seguro em relação às próprias finanças pode estar mais disposto a trocar um eletrodoméstico, reservar uma viagem ou fazer outra compra que poderia adiar. Isso importa para os varejistas porque muitas vezes é preciso planejar as equipes, as promoções e os estoques antes de saber qual será a demanda. Ainda assim, uma família pode ficar mais otimista e continuar segurando os gastos porque o aluguel, as compras de supermercado ou as parcelas de empréstimos deixam pouca folga no orçamento. Por isso, a confiança medida pela pesquisa e as vendas efetivas podem contar histórias diferentes.",
-          "uncertainty": "A pesquisa reflete entrevistas concluídas antes da publicação, não reações ao fechamento posterior do mercado. Ela mede as opiniões declaradas, não as compras, e a variação do índice geral pode se dever a diferenças na amostra.",
-          "watch": "Compare a próxima pesquisa com os dados oficiais de gastos dos consumidores e de vendas no varejo, com atenção especial às compras que as famílias podem adiar.",
+          "id": "f1",
+          "title": "Fabricante de componentes ópticos da China continental planeja nova unidade de produção",
+          "summary": "Uma fornecedora de componentes ópticos assinou um acordo para desenvolver um projeto de pesquisa e fabricação em Nanchang.",
+          "impact": "A fábrica planejada pode ampliar a capacidade de produção de componentes para conexões de alta velocidade, mas o acordo não garante pedidos de clientes.",
+          "what": "A Suzhou TFC Optical Communication fabrica componentes ópticos que ajudam a transmitir dados em alta velocidade. O acordo com a zona de desenvolvimento de Nanchang abrange a pesquisa e a fabricação de produtos voltados a grandes centros de dados e instalações de supercomputação. A empresa registrou uma subsidiária local para executar o projeto. A zona se comprometeu a ajudar na preparação do terreno, no acesso a serviços como água e energia e na obtenção de autorizações administrativas. O comunicado apresenta um acordo para ampliar a capacidade de produção, sem indicar que a construção tenha sido concluída ou que já haja equipamentos em operação.",
+          "why": "Além de processar dados, um centro de dados precisa transferi-los rapidamente entre máquinas. Isso gera demanda por conexões ópticas, além da demanda por chips de processamento. O relatório de resultados anterior mostra que a fornecedora já tinha lucro e gerava caixa com suas operações, mas esses dados se referem ao negócio existente. A nova fábrica exigiria gastos antes de poder fabricar e entregar componentes em condições de venda. Seu valor econômico dependerá de quanto da nova capacidade os clientes efetivamente usarem.",
+          "uncertainty": "O comunicado não informa o valor previsto para o investimento, o volume de compras que os clientes se comprometeram a fazer nem a data de início da produção comercial. A administração não espera que a assinatura do acordo, por si só, tenha efeito relevante nos resultados do ano corrente.",
+          "watch": "Acompanhe a conclusão da transferência do terreno, a divulgação dos gastos com o projeto, a instalação dos equipamentos e os sinais de que os clientes aprovaram os produtos fabricados na nova unidade.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice de confiança do consumidor"
+              "label": "Receita acumulada no ano"
             },
             {
               "id": "m2",
-              "label": "Índice de condições econômicas atuais"
+              "label": "Lucro líquido atribuível aos acionistas da controladora acumulado no ano"
             },
             {
               "id": "m3",
-              "label": "Índice de expectativas do consumidor"
+              "label": "Fluxo de caixa operacional acumulado no ano"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "Entenda o balanço: operação de varejo melhora, mas lucro líquido cai",
-          "summary": "O balanço trimestral do Walmart mostrou alta da receita e do lucro operacional, mas queda do lucro líquido atribuível aos acionistas.",
-          "impact": "O desempenho das lojas e das vendas pela internet melhorou, mas o aumento dos investimentos reduziu o caixa que sobrou da operação após os gastos com imóveis e equipamentos.",
-          "what": "O Walmart vende alimentos e produtos em geral em lojas, clubes de compras para associados e canais digitais. O balanço do trimestre fiscal mostra que o lucro operacional melhorou. Entre os itens contabilizados depois do lucro operacional, outros ganhos deram lugar a perdas, o que contribuiu para a queda do lucro líquido. A demonstração dos fluxos de caixa cobre um período diferente: o acumulado do ano fiscal. Ela mostra que a operação gerou mais caixa do que no mesmo período do ano anterior, mas os gastos com imóveis e equipamentos aumentaram a ponto de deixar menos caixa disponível depois desses desembolsos.",
-          "why": "O lucro operacional ajuda a entender como vai o negócio de varejo antes de considerar os efeitos do financiamento e de outros itens. O fluxo de caixa operacional responde a outra pergunta: quanto dinheiro entrou no negócio depois de descontar os pagamentos da operação, levando em conta, por exemplo, quando a empresa pagou os fornecedores e abasteceu as prateleiras. Lojas e estruturas para preparar e entregar pedidos exigem desembolsos antecipados. Para os clientes, esses investimentos podem melhorar a retirada e a entrega de compras. Para a varejista, o valor dos investimentos depende de as vendas adicionais e a maior eficiência no atendimento dos pedidos compensarem o custo.",
-          "uncertainty": "Ao comentar o fluxo de caixa, a empresa citou o momento dos pagamentos e da formação dos estoques. Por isso, a melhora não deve ser vista como permanente. O balanço do trimestre não esclarece como vão evoluir a demanda no fim do ano nem os custos de atender aos pedidos feitos pela internet.",
-          "watch": "Acompanhe as vendas de fim de ano, os níveis de estoque e a próxima conciliação do fluxo de caixa para ver se o crescimento deixa mais caixa depois dos investimentos.",
+          "id": "f5",
+          "title": "Desenvolvedora de IA abre capital e expõe suas necessidades de caixa",
+          "summary": "As ações da Anthropic começaram a ser negociadas acima do preço da oferta, e o prospecto explicou a diferença entre o prejuízo contábil divulgado e o caixa gerado pelas operações.",
+          "impact": "A estreia na bolsa permite aos investidores avaliar diretamente se o uso pago de serviços de IA pode cobrir o custo de oferecê-los.",
+          "what": "A Anthropic vende acesso aos modelos Claude por meio de assinaturas e serviços cobrados conforme o uso. A bolsa confirmou o início das negociações das ações e informou o preço de abertura. O valor da oferta inclui ações vendidas por quem já era acionista; o dinheiro dessas vendas não vai para a empresa. O prospecto também mostrou que, no período intermediário, a empresa registrou prejuízo contábil e teve fluxo de caixa operacional positivo. Reavaliações de instrumentos de financiamento explicam boa parte do prejuízo divulgado. Esses lançamentos contábeis não equivalem a pagamentos feitos no período.",
+          "why": "A venda de novas ações traz recursos para financiar a empresa, mas não gera receita de clientes. Essa distinção importa para um negócio que precisa de capacidade computacional para treinar modelos e atender clientes. O fluxo de caixa operacional positivo mostra que as operações geraram caixa no período divulgado, mas não diz quanto sobrou após os investimentos. As saídas de caixa das atividades de investimento também incluem compras de aplicações financeiras de curto prazo. Atribuir todo esse valor à compra de computadores superestimaria esse gasto. Para as empresas que adotam essas ferramentas, a forma como a fornecedora administra sua capacidade afeta a disponibilidade e o custo do serviço.",
+          "uncertainty": "O preço de abertura não é o preço de fechamento nem indica a demanda de longo prazo pelas ações. As demonstrações financeiras do período intermediário não foram auditadas, e o valor da oferta não confirma quanto dinheiro a empresa recebeu após as deduções.",
+          "watch": "Na próxima divulgação pública de resultados financeiros, acompanhe a receita dos serviços cobrados conforme o uso, os compromissos com capacidade computacional, os gastos com infraestrutura e o caixa gerado pelas operações, sem confundi-lo com recursos de novos financiamentos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita total do trimestre fiscal"
+              "label": "Preço inicial da oferta por ação"
             },
             {
               "id": "m2",
-              "label": "Lucro operacional do trimestre fiscal"
+              "label": "Preço de abertura da negociação por ação"
             },
             {
               "id": "m3",
-              "label": "Lucro líquido atribuível aos acionistas no trimestre fiscal"
+              "label": "Valor bruto da oferta na definição do preço"
             },
             {
               "id": "m4",
-              "label": "Fluxo de caixa operacional acumulado no ano fiscal"
+              "label": "Receita acumulada no ano"
             },
             {
               "id": "m5",
-              "label": "Gastos com imóveis e equipamentos acumulados no ano fiscal"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "Indústria chinesa ganha mais força do que o varejo",
-          "summary": "Os dados de atividade da China mostraram alta na produção industrial e bom desempenho das exportações de bens, enquanto as vendas no varejo cresceram pouco.",
-          "impact": "O contraste sugere que os produtores voltados à exportação e as empresas que dependem dos consumidores chineses podem enfrentar condições bem diferentes.",
-          "what": "O Escritório Nacional de Estatísticas informou que o valor adicionado industrial cresceu nas empresas acima do limite de porte definido pelo órgão. O valor das exportações de bens também subiu, enquanto as vendas de bens de consumo no varejo mal cresceram em relação ao mesmo período do ano anterior. Os preços de venda dos produtores industriais aumentaram. Esses indicadores medem coisas diferentes: a produção industrial mostra o que as fábricas produzem, o valor das exportações mede as vendas de bens ao exterior em yuans, e as vendas no varejo não abrangem todo o consumo das famílias.",
-          "why": "As fábricas podem manter suas linhas de produção ocupadas mesmo quando os consumidores locais estão cautelosos. Isso pode sustentar os pedidos para fornecedores e empresas de logística sem gerar uma melhora equivalente nas vendas das lojas. Preços mais altos na saída das fábricas podem favorecer os produtores que conseguem cobrar mais, mas podem pressionar as empresas que compram deles se elas não conseguirem repassar o aumento dos custos. Para as famílias, os dados de atividade ajudam mais a identificar onde a demanda está mais forte do que a tirar conclusões sobre o poder de compra.",
-          "uncertainty": "O valor das exportações reflete mudanças nos preços e nas quantidades, por isso não mede diretamente o volume embarcado. O indicador geral do varejo não inclui todos os serviços, e o relatório não mostra como mudaram as margens de cada empresa.",
-          "watch": "Veja se essas tendências continuam na próxima divulgação de dados de atividade, sobretudo nos indicadores de varejo e serviços, e nos comunicados das empresas sobre pedidos, custos e margens.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Crescimento do valor adicionado industrial na comparação anual"
+              "label": "Prejuízo líquido acumulado no ano"
             },
             {
-              "id": "m2",
-              "label": "Crescimento das vendas de bens de consumo no varejo na comparação anual"
+              "id": "m6",
+              "label": "Fluxo de caixa operacional acumulado no ano"
             },
             {
-              "id": "m3",
-              "label": "Crescimento do valor das exportações de bens na comparação anual"
-            },
-            {
-              "id": "m4",
-              "label": "Variação dos preços de venda dos produtores industriais na comparação anual"
+              "id": "m7",
+              "label": "Fluxo de caixa das atividades de investimento acumulado no ano"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的經濟動態。請留意各則消息的發布日期；近期企業財報以背景解讀的方式呈現。",
+      "status": "本期涵蓋美國與中國的市場及企業動態。請留意各篇的發布日期；近期的公司報告在此用來補充背景。",
       "marketSummary": {
-        "us": "追蹤的指數在各自最近經查證的交易日均收跌。標示日期的收盤數據只反映當日表現，不代表即時行情。",
-        "cn": "追蹤的指數在各自最近經查證的交易日均收跌。標示日期的收盤數據只反映當日表現，不代表即時行情。"
+        "us": "追蹤的指數在各自最近經查證的交易日均下跌。標有日期的收盤資訊反映的是當日行情，不代表目前的交易情況。",
+        "cn": "追蹤的指數在各自最近經查證的交易日均上漲。標有日期的收盤資訊反映的是當日行情，不代表目前的交易情況。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "美國消費者信心改善，但反彈仍不明朗",
-          "summary": "密西根大學公布的消費者調查終值顯示，消費者信心與預期都比上次調查改善。",
-          "impact": "對面向消費者的企業來說，這是初步的好轉訊號，但不代表消費支出已經回升。",
-          "what": "這項調查詢問家庭如何看待目前的經濟狀況，以及對未來有何預期。最終公布的結果顯示，受訪者對現況與未來的看法都有所改善，對近期通膨的預期也有所降溫。不過，整體信心指數的變動幅度未達密西根大學設定的統計顯著門檻。這比較適合解讀為調查結果小幅改善，而不是家庭信心已明確轉強。",
-          "why": "當消費者對自己的財務狀況更有安全感時，可能更願意換購家電、預訂旅遊行程，或進行其他原本可以延後的消費。零售商之所以關注這種可能性，是因為往往得在需求明朗前，就安排人力、促銷和庫存。不過，即使家庭對前景更樂觀，也可能因房租、食品雜貨或貸款還款壓縮預算而暫緩消費。因此，信心指數和實際銷售可能呈現不同的情況。",
-          "uncertainty": "調查反映的是發布前完成的訪談，不是受訪者對之後市場收盤表現的反應。調查衡量的是受訪者表達的看法，而非實際購買行為；整體指數的變動也可能只是抽樣波動。",
-          "watch": "可將下次調查與官方的消費支出和零售銷售報告對照，尤其留意家庭可以延後的消費項目。",
+          "id": "f1",
+          "title": "中國大陸光通訊零組件廠商規劃新生產基地",
+          "summary": "光通訊零組件供應商簽署開發協議，計畫在南昌設立研發與製造基地。",
+          "impact": "新廠若落成，可擴大高速資料傳輸零組件的產能，但簽署協議不代表已取得客戶訂單。",
+          "what": "蘇州天孚光通信生產用於高速資料傳輸的光通訊零組件。公司與南昌開發區簽署協議，規劃研發及製造供大型資料中心與超級運算設施使用的產品。公司已在當地登記設立子公司，負責執行計畫。開發區同意協助整備廠址、接通水電等公用設施，並辦理行政審批。公告說明的是擴建產能的協議，並未表示廠房已完工或設備已投入使用。",
+          "why": "資料中心除了要處理資料，也要在設備之間快速傳輸資料。因此，除了運算晶片，也需要光通訊連線。先前的財報顯示，這家供應商已經獲利，且營業活動有現金淨流入，但這些數據反映的是現有業務。新廠必須先投入資金，才能生產並出貨可銷售的零組件。新廠能帶來多少經濟效益，取決於客戶需求最終能消化多少新增產能。",
+          "uncertainty": "公告未說明資本支出預算、客戶承諾或何時開始商業量產。管理層預期，簽署協議本身不會對本年度業績造成重大影響。",
+          "watch": "可留意土地移轉是否完成、公司是否公布資本支出、設備是否安裝，以及新廠生產的產品是否通過客戶驗證。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "消費者信心指數"
+              "label": "本年累計營收"
             },
             {
               "id": "m2",
-              "label": "當前經濟狀況指數"
+              "label": "本年累計歸屬母公司業主淨利"
             },
             {
               "id": "m3",
-              "label": "消費者預期指數"
+              "label": "本年累計營業活動現金流量"
             }
           ]
         },
         {
-          "id": "f4",
-          "title": "財報解讀：零售本業改善，淨利卻下滑",
-          "summary": "沃爾瑪的季度財報顯示，營收與營業利益上升，但歸屬於股東的淨利下滑。",
-          "impact": "實體門市和線上業務表現改善，但投資支出增加，使營運現金在扣除不動產及設備支出後所剩較少。",
-          "what": "沃爾瑪透過實體門市、會員制賣場和線上通路銷售食品雜貨與一般商品。單季財報顯示，營業表現改善，但列在營業利益之後的其他損益由盈轉虧，是淨利下滑的原因之一。現金流量表涵蓋的是會計年度開始至今，與單季財報的期間不同。這段期間的營業活動現金流量較去年同期增加，但不動產及設備支出也增加，使扣除這項支出後剩下的現金反而減少。",
-          "why": "營業利益可以用來了解零售本業在計入融資及其他項目前的表現。營業活動現金流量回答的是另一個問題：扣除日常營運付款後，公司實際留下多少現金。這也會受到公司何時付款給供應商、何時備貨的影響。門市和訂單履約能力都需要先投入資金。對顧客來說，這些投資可以改善取貨與配送服務；對零售商來說，值不值得則取決於增加的銷售和提升的履約效率能否抵過成本。",
-          "uncertainty": "公司在說明現金流量時提到付款與備貨的時點，因此不宜將這次改善視為持久的變化。這份季度財報也無法確定假期購物需求或線上訂單的處理成本接下來會如何變化。",
-          "watch": "可留意假期銷售、庫存水準及下次的現金流量調節明細，觀察業務成長後，扣除資本支出是否能留下更多現金。",
+          "id": "f5",
+          "title": "人工智慧開發商上市，資金需求浮上檯面",
+          "summary": "Anthropic 掛牌開盤價高於發行價。公開說明書解釋了為何公司帳面上虧損，營業活動卻仍有現金淨流入。",
+          "impact": "上市後，投資人可以直接觀察客戶付費使用人工智慧服務所帶來的收入，能否支應提供服務的成本。",
+          "what": "Anthropic 透過訂閱及按使用量計費的服務，讓客戶付費使用 Claude 模型。交易所證實股票已開始交易，並公布開盤價。發行總額包含原有股東出售持股的金額，這部分款項不會流入公司。公開說明書也揭露，公司在期中財報中列有帳面虧損，但營業活動現金流量為正。列報虧損有很大一部分來自融資工具的價值重估；這些會計調整並不等於當期實際付出的現金。",
+          "why": "發行新股取得的是融資款，不是客戶帶來的營收。對需要運算資源來訓練模型和服務客戶的企業來說，這個區別很重要。營業活動現金流量為正，表示公司在揭露期間透過營運帶來現金淨流入，但看不出扣除投資支出後還剩多少現金。投資活動的現金流出也包含買入短期投資的款項，若全算成運算設備支出，就會高估這項成本。對採用這些工具的企業而言，供應商如何管理運算資源，會影響服務是否容易取得以及使用成本。",
+          "uncertainty": "開盤價不是收盤價，也不能用來衡量市場對這檔股票的長期需求。期中財務報表未經查核，發行總額也不能用來確認公司實際收到的現金淨額。",
+          "watch": "可從後續公開財報追蹤按使用量計費的營收、已承諾採購的運算資源及基礎設施支出，並區分營業活動產生的現金與新籌得的資金。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "會計季度總營收"
+              "label": "每股首次公開發行價格"
             },
             {
               "id": "m2",
-              "label": "會計季度營業利益"
+              "label": "每股開盤成交價"
             },
             {
               "id": "m3",
-              "label": "會計季度歸屬於股東的淨利"
+              "label": "定價時的發行總額"
             },
             {
               "id": "m4",
-              "label": "會計年度迄今營業活動現金流量"
+              "label": "本年累計營收"
             },
             {
               "id": "m5",
-              "label": "會計年度迄今不動產及設備支出"
-            }
-          ]
-        },
-        {
-          "id": "f6",
-          "title": "中國工業生產動能比零售銷售強",
-          "summary": "中國公布的經濟活動數據顯示，工業產出上升、貨物出口表現強勁，零售銷售則僅小幅成長。",
-          "impact": "這樣的落差顯示，出口導向的生產商與仰賴國內消費的企業，面對的經營環境可能相當不同。",
-          "what": "中國國家統計局公布，達到規定規模門檻的工業企業，其工業增加值有所成長。貨物出口金額也上升，社會消費品零售總額則較去年同期微幅成長。工業生產者出廠價格也有所上漲。這些指標衡量的內容各不相同：工業產出反映生產情況，出口金額反映以人民幣計價的跨境貨物銷售，而零售總額並未涵蓋家庭消費的全貌。",
-          "why": "即使國內消費者花錢較謹慎，工廠的產線仍可能維持忙碌。這可以支撐供應商和物流業者的訂單，但不代表門市銷售會同樣好轉。出廠價格上漲有利於能夠提高售價的生產商，但如果向他們採購的企業無法把增加的成本轉嫁出去，就可能面臨壓力。因此，對家庭而言，這份報告更適合用來了解哪些領域的需求較強，而不是用來判斷家庭購買力。",
-          "uncertainty": "出口金額同時受價格與數量變動影響，不能直接反映出貨量。零售總額未涵蓋所有服務，這份報告也無法說明個別公司的利潤率如何變化。",
-          "watch": "可留意下次公布的經濟活動數據，尤其是零售與服務業指標，以及企業揭露的訂單、成本與利潤率，觀察目前的情況是否延續。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "工業增加值年增率"
+              "label": "本年累計淨損"
             },
             {
-              "id": "m2",
-              "label": "社會消費品零售總額年增率"
+              "id": "m6",
+              "label": "本年累計營業活動現金流量"
             },
             {
-              "id": "m3",
-              "label": "貨物出口金額年增率"
-            },
-            {
-              "id": "m4",
-              "label": "工業生產者出廠價格年增率"
+              "id": "m7",
+              "label": "本年累計投資活動現金流量"
             }
           ]
         }
