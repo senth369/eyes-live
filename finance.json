@@ -1,98 +1,78 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-22T20:44:07.445Z",
-  "generatedAt": "2026-11-22T20:51:02.271Z",
+  "cutoffAt": "2026-11-23T00:52:09.701Z",
+  "generatedAt": "2026-11-23T00:56:26.722Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Investing.com US large-cap index daily closes",
-      "url": "https://uk.investing.com/indices/us-spx-500-historical-data"
+      "label": "Investing.com — broad US benchmark daily closes",
+      "url": "https://www.investing.com/indices/us-spx-500-historical-data"
     },
     {
       "id": "src2",
-      "label": "Nasdaq official Composite index data",
-      "url": "https://beta.indexes.nasdaq.com/Index/Weighting/COMP"
+      "label": "Investing.com — Nasdaq Composite daily closes",
+      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
     },
     {
       "id": "src3",
-      "label": "Federal Reserve Bank of St. Louis Nasdaq Composite daily close table",
-      "url": "https://fred.stlouisfed.org/data/NASDAQCOM"
-    },
-    {
-      "id": "src4",
-      "label": "Investing.com Shanghai Composite daily closes",
+      "label": "Investing.com — Shanghai Composite daily closes",
       "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
     },
     {
+      "id": "src4",
+      "label": "Investing.com — mainland large-cap benchmark daily closes",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
+    },
+    {
       "id": "src5",
-      "label": "Jin Data mainland closing bulletin",
-      "url": "https://flash.jin10.com/detail/20261120150241840800"
+      "label": "Project investment announcement filed on CNINFO",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-21/1225682170.PDF"
     },
     {
       "id": "src6",
-      "label": "Jin Data prior mainland closing bulletin",
-      "url": "https://flash.jin10.com/detail/20261119150214210800"
+      "label": "Issuer quarterly filing, PDF copy hosted by Sina Finance",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-10/2026-10-28/12666269.PDF"
     },
     {
       "id": "src7",
-      "label": "Shanghai Stock Exchange nationwide margin rule announcement",
-      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20261122_10838649.shtml"
+      "label": "CNINFO issuer profile and listing details",
+      "url": "https://static.cninfo.com.cn/finalpage/enpage/002745_2.pdf"
     },
     {
       "id": "src8",
-      "label": "Shanghai Stock Exchange operative margin notice",
-      "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20261122_10838633.shtml"
-    },
-    {
-      "id": "src9",
-      "label": "University of Michigan consumer sentiment release",
-      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
-    },
-    {
-      "id": "src10",
-      "label": "Issuer release confirming acquisition completion",
-      "url": "https://investors.mastec.com/news-releases/news-release-details/mastec-completes-previously-announced-acquisition-murphy"
-    },
-    {
-      "id": "src11",
-      "label": "SEC current report on acquisition financing",
-      "url": "https://www.sec.gov/Archives/edgar/data/15615/000119312526470279/d174795d8k.htm"
-    },
-    {
-      "id": "src12",
-      "label": "Infrastructure contractor quarterly results and financial tables",
-      "url": "https://investors.mastec.com/news-releases/news-release-details/mastec-reports-third-quarter-2026-results-and-updates-full-year"
-    },
-    {
-      "id": "src13",
-      "label": "Broker acquisition registration draft revision notice",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225678899.PDF"
-    },
-    {
-      "id": "src14",
-      "label": "Broker acquisition registration draft and transaction terms",
-      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-20/601555_20261120_VWXB.pdf"
-    },
-    {
-      "id": "src15",
-      "label": "China Foreign Exchange Trade System current loan prime rate announcement",
+      "label": "China Money — November loan prime rate announcement",
       "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
     },
     {
-      "id": "src16",
-      "label": "China Foreign Exchange Trade System prior loan prime rate announcement",
+      "id": "src9",
+      "label": "China Money — October loan prime rate announcement",
       "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
     },
     {
-      "id": "src17",
-      "label": "Chipmaker fiscal quarter earnings release and financial statements",
+      "id": "src10",
+      "label": "University of Michigan — November consumer survey release",
+      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
+    },
+    {
+      "id": "src11",
+      "label": "Retailer earnings release furnished to the SEC",
+      "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000168/earningsreleasefy27q3.htm"
+    },
+    {
+      "id": "src12",
+      "label": "Chipmaker newsroom — fiscal earnings release and statements",
       "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
     },
     {
-      "id": "src18",
-      "label": "SEC exhibit for the chipmaker’s preceding fiscal quarter",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+      "id": "src13",
+      "label": "Chipmaker preceding quarterly report — SEC filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    },
+    {
+      "id": "src14",
+      "label": "National Bureau of Statistics — October economic activity release",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html"
     }
   ],
   "markets": [
@@ -108,27 +88,33 @@
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-20",
+      "close": 22617.73,
+      "previousClose": 23879.2,
+      "changePercent": -5.28,
+      "sourceIds": [
+        "src2"
+      ]
     },
     {
       "id": "sse",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-20",
+      "close": 3533.79,
+      "previousClose": 3577.62,
+      "changePercent": -1.22,
+      "sourceIds": [
+        "src3"
+      ]
     },
     {
       "id": "csi300",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-20",
+      "close": 3954.56,
+      "previousClose": 3984.84,
+      "changePercent": -0.76,
+      "sourceIds": [
+        "src4"
+      ]
     }
   ],
   "stories": [
@@ -138,151 +124,849 @@
       "category": "economy",
       "publishedOn": "2026-11-20",
       "company": null,
-      "metrics": [],
-      "sourceIds": [
-        "src9"
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 51.5,
+          "unit": "index",
+          "periodStart": "2026-10-20",
+          "periodEnd": "2026-11-16",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "The Consumer Sentiment Index section gives the final reading; the introduction lists the interview window."
+        },
+        {
+          "id": "m2",
+          "value": 49.4,
+          "unit": "index",
+          "periodStart": "2026-10-20",
+          "periodEnd": "2026-11-16",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "The Consumer Sentiment Index section gives the current conditions reading for this survey wave."
+        },
+        {
+          "id": "m3",
+          "value": 52.9,
+          "unit": "index",
+          "periodStart": "2026-10-20",
+          "periodEnd": "2026-11-16",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src10"
+          ],
+          "evidence": "The Consumer Sentiment Index section gives the expectations reading for this survey wave."
+        }
       ],
-      "evidence": "The release shows gains in sentiment, current conditions and expectations from October. The methodology note gives a significance threshold above the observed monthly change in the headline index."
+      "sourceIds": [
+        "src10"
+      ],
+      "evidence": "The final survey release shows higher headline sentiment and expectations than in the prior wave. The methodology section gives a significance threshold above the observed monthly change in headline sentiment."
+    },
+    {
+      "id": "f4",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-19",
+      "company": {
+        "name": "Walmart Inc.",
+        "ticker": "WMT",
+        "exchange": "Nasdaq"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 188835000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Total revenue in the fiscal-quarter column of the consolidated statement of income."
+        },
+        {
+          "id": "m2",
+          "value": 7770000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Operating income in the fiscal-quarter column of the consolidated statement of income."
+        },
+        {
+          "id": "m3",
+          "value": 4945000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Net income attributable to the parent in the fiscal-quarter column of the consolidated statement of income."
+        },
+        {
+          "id": "m4",
+          "value": 29436000000,
+          "unit": "USD",
+          "periodStart": "2026-02-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Net cash from operations in the fiscal year-to-date consolidated cash flow statement."
+        },
+        {
+          "id": "m5",
+          "value": 22621000000,
+          "unit": "USD",
+          "periodStart": "2026-02-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Cash payments for property and equipment, expressed as positive spending, in the fiscal year-to-date cash flow statement."
+        }
+      ],
+      "sourceIds": [
+        "src11"
+      ],
+      "evidence": "The earnings release and income statement show higher revenue and operating income but lower profit attributable to the parent. The cash flow statement and free cash flow reconciliation show higher year-to-date operating cash and higher capital spending."
+    },
+    {
+      "id": "f6",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-11-16",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 4.8,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "Industrial production section and monthly indicator table, value added at enterprises above the designated size."
+        },
+        {
+          "id": "m2",
+          "value": 0.4,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "Market sales section and monthly indicator table, total consumer goods retail sales."
+        },
+        {
+          "id": "m3",
+          "value": 28.7,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "Monthly indicator table, goods exports in yuan, compared with the same month a year earlier."
+        },
+        {
+          "id": "m4",
+          "value": 5.7,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "Monthly indicator table, industrial producer selling prices compared with the same month a year earlier."
+        }
+      ],
+      "sourceIds": [
+        "src14"
+      ],
+      "evidence": "The official activity release pairs growth in industrial value added and goods exports with modest consumer goods retail growth. The monthly indicator table separately reports factory-gate inflation."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "US consumer sentiment improves, but spending is the test",
-          "summary": "The University of Michigan’s November survey showed an improvement in consumer sentiment, including assessments of current conditions and expectations.",
-          "impact": "Improved sentiment can support discretionary purchases, but the survey does not show that households spent more.",
-          "what": "Households rated current conditions and the outlook more favorably than in the preceding month. Researchers reported that households with less wealth cited some relief from lower gasoline prices, while those with the largest stockholdings reported weaker personal finances.",
-          "why": "A smaller fuel bill can free up money for purchases, savings or debt repayment. For retailers, which choice households make matters more than the confidence reading itself. Lower fuel costs and weaker investment accounts can pull demand in different directions.",
-          "uncertainty": "The headline improvement was smaller than the survey’s threshold for statistical significance. The survey does not establish that sentiment has turned or that spending will rise.",
-          "watch": "Compare the next survey with official retail sales and household spending data, especially for purchases that can easily be postponed.",
-          "metricLabels": []
+          "title": "US consumer mood improves, but the rebound is not yet clear",
+          "summary": "The University of Michigan’s final November survey showed firmer sentiment and expectations than in the previous survey.",
+          "impact": "The improvement is a tentative signal for consumer-facing businesses, not evidence that spending has already picked up.",
+          "what": "The survey asks households how they view current economic conditions and what they expect ahead. The final release showed improvement in both categories and noted softer expectations for near-term inflation. The headline move, however, was smaller than the university’s threshold for statistical significance. The result is best read as a modest improvement in the survey, not as a decisive turn in household confidence.",
+          "why": "Shoppers who feel more secure about their finances may be more willing to replace an appliance, book a trip or make another purchase they can put off. Retailers care about that possibility because staffing, promotions and inventory often have to be planned before demand is visible. But a household can feel better about the outlook and still hold back because rent, groceries or loan payments leave little room in the budget. That is why a sentiment reading and actual sales can tell different stories.",
+          "uncertainty": "The survey reflects interviews completed before publication, not reactions to the subsequent market close. It measures reported views rather than purchases, and sampling variation could account for the headline move.",
+          "watch": "Compare the next survey with official consumer spending and retail sales reports, especially spending on purchases that households can defer.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Consumer sentiment index"
+            },
+            {
+              "id": "m2",
+              "label": "Current economic conditions index"
+            },
+            {
+              "id": "m3",
+              "label": "Consumer expectations index"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Earnings explainer: Retail operations improve while net profit falls",
+          "summary": "Walmart’s quarterly release showed higher revenue and operating profit but lower net income attributable to shareholders.",
+          "impact": "Store and online performance improved, while heavier investment limited how much operating cash remained after spending on property and equipment.",
+          "what": "Walmart sells groceries and general merchandise through stores, membership clubs and online channels. Its fiscal-quarter statement shows a stronger operating result, while the swing from other gains to losses below operating income helped push bottom-line profit lower. The cash flow statement covers the fiscal year to date, a different period. It shows that operations generated more cash than a year earlier, while spending on property and equipment rose enough to leave less cash after that spending.",
+          "why": "Operating profit helps readers assess how the retail business is doing before financing and other items. Operating cash flow answers a different question: how much cash the business brought in net of its operating payments, including the effects of when it paid suppliers and stocked shelves. Stores and fulfillment capacity require cash up front. For customers, those investments can improve pickup and delivery; for the retailer, their value depends on whether additional sales and more efficient fulfillment justify the cost.",
+          "uncertainty": "The company cited payment and inventory timing in its cash discussion, so the improvement should not be treated as a permanent change. The quarter does not settle how holiday demand or the cost of serving online orders will evolve.",
+          "watch": "Look for holiday sales, inventory levels and the next cash flow reconciliation to see whether growth leaves more cash after capital spending.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Fiscal-quarter total revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Fiscal-quarter operating income"
+            },
+            {
+              "id": "m3",
+              "label": "Fiscal-quarter net income attributable to shareholders"
+            },
+            {
+              "id": "m4",
+              "label": "Fiscal year-to-date operating cash flow"
+            },
+            {
+              "id": "m5",
+              "label": "Fiscal year-to-date property and equipment spending"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "China’s factories show more momentum than retail sales",
+          "summary": "China’s October activity release showed rising industrial output and strong goods exports alongside modest retail sales growth.",
+          "impact": "The split suggests export-oriented producers and businesses dependent on domestic shoppers may face quite different conditions.",
+          "what": "The National Bureau of Statistics reported growth in industrial value added at enterprises above its designated size threshold. Goods export values also rose, while consumer goods retail sales barely grew from a year earlier. Producer selling prices increased. These series cover different things: factory output tracks production, export values track cross-border goods sales in yuan, and retail turnover is not a complete measure of household consumption.",
+          "why": "Factories can keep production lines busy even when local shoppers are cautious. That can support orders for suppliers and logistics firms without producing an equivalent pickup at stores. The increase in factory-gate prices can help producers who are able to charge more, but it can squeeze their customers if those businesses cannot pass higher costs along. For households, the activity report is therefore more useful as a map of where demand is stronger than as a verdict on purchasing power.",
+          "uncertainty": "Export values combine changes in prices and quantities and are not a direct measure of shipment volume. The retail headline does not capture all services, and the report does not establish how margins changed at individual companies.",
+          "watch": "Look for follow-through in the next activity release, particularly retail and services indicators, and in company disclosures on orders, costs and margins.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Industrial value added growth from a year earlier"
+            },
+            {
+              "id": "m2",
+              "label": "Consumer goods retail sales growth from a year earlier"
+            },
+            {
+              "id": "m3",
+              "label": "Goods export value growth from a year earlier"
+            },
+            {
+              "id": "m4",
+              "label": "Industrial producer selling price growth from a year earlier"
+            }
+          ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场暂无经核实的新消息；已有报道的日期仍会明确标注。",
+      "status": "本期关注美国和中国的经济与市场动态。请留意各条内容的发布日期；近期公司财报用于解读背景。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。已取得数据的指数均标注各自对应的交易日期。",
-        "cn": "部分收盘数据未能核实。已取得数据的指数均标注各自对应的交易日期。"
+        "us": "跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据反映的是当日行情，并非实时行情。",
+        "cn": "跟踪的指数在各自最近经核实的交易日均下跌。标注日期的收盘数据反映的是当日行情，并非实时行情。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "美国消费者信心回升，但还要看实际支出",
-          "summary": "密歇根大学的月度调查显示，消费者信心有所回升，对当前状况和未来前景的评价均有改善。",
-          "impact": "信心回升可能带动非必需品消费，但调查并未显示家庭实际增加了支出。",
-          "what": "与上月相比，受访家庭对当前状况和未来前景的评价更为乐观。研究人员指出，财富较少的家庭表示，汽油价格下跌让支出压力有所缓解；持股最多的家庭则表示，自身财务状况有所恶化。",
-          "why": "油费减少后，家庭可以把省下的钱用于消费、储蓄或还债。对零售商来说，家庭怎么用这笔钱，比消费者信心指标本身更重要。油费下降和投资账户表现走弱，可能对消费需求产生方向相反的影响。",
-          "uncertainty": "整体信心指标的升幅未达到该调查的统计显著性门槛。仅凭这项调查，无法确认消费者信心是否已出现转折，也无法判断支出是否会增加。",
-          "watch": "可将下次调查结果与官方零售销售和家庭支出数据对照，尤其关注容易推迟的购物支出。",
-          "metricLabels": []
+          "title": "美国消费者信心有所改善，但回升尚不明朗",
+          "summary": "密歇根大学公布的消费者调查终值显示，消费者信心和预期较上次调查有所改善。",
+          "impact": "对面向消费者的企业来说，这是个初步的积极信号，但还不能说明消费支出已经回升。",
+          "what": "这项调查询问家庭如何看待当前经济状况，以及对未来有什么预期。最终结果显示，受访者对当前经济的评价和对未来的预期均有改善，对短期通胀的预期也有所下降。不过，消费者信心总指数的变动幅度未达到该校设定的统计显著性门槛。更合适的解读是，调查结果略有好转，但尚不能认定家庭信心已出现明确转折。",
+          "why": "如果消费者对自家财务状况更有把握，就可能更愿意换家电、预订旅行，或把原本可以推迟的消费提上日程。零售商之所以关注这种可能性，是因为往往要在实际需求明朗之前就安排人手、促销和库存。不过，即使家庭对前景更乐观，房租、食品杂货或贷款还款也可能让预算所剩无几，消费依然会受限。这就是为什么信心指数和实际销售表现可能并不同步。",
+          "uncertainty": "访谈在结果公布前已经完成，并不反映受访者对随后市场收盘表现的反应。调查衡量的是受访者表达的看法，而不是实际购买行为。总指数的变动也可能只是抽样波动。",
+          "watch": "将下次调查与官方的消费支出和零售销售报告对照，尤其关注家庭可以推迟的消费项目。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "消费者信心指数"
+            },
+            {
+              "id": "m2",
+              "label": "当前经济状况指数"
+            },
+            {
+              "id": "m3",
+              "label": "消费者预期指数"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "财报解读：零售业务表现改善，净利润却下滑",
+          "summary": "沃尔玛财季报告显示，营收和营业利润上升，但归属于股东的净利润下降。",
+          "impact": "门店和线上业务表现有所改善，但对物业和设备的投入增加，扣除这部分开支后，经营活动产生的现金剩得更少。",
+          "what": "沃尔玛通过门店、会员制卖场和线上渠道销售食品杂货和日用百货。财季报表显示，经营业绩有所改善，但列在营业利润之后的其他损益项目由收益转为亏损，是净利润下滑的原因之一。现金流量表采用不同的统计期间，涵盖本财年截至报告期的累计情况。报表显示，经营活动产生的现金比上年同期更多，但物业和设备支出增加，扣除这部分支出后，剩余现金反而减少。",
+          "why": "营业利润有助于判断零售业务本身表现如何，不受融资等其他项目影响。经营现金流回答的是另一个问题：扣除经营性付款后，业务实际带来了多少现金。何时向供应商付款、何时备货，都会影响这个指标。建设门店和提升订单履约能力都需要先投入现金。对顾客来说，这些投入可能改善自提和配送体验；对零售商来说，是否值得投入，要看新增销售和履约效率的提升能否抵得上成本。",
+          "uncertainty": "公司在解释现金流时提到付款和备货的时间安排，因此不宜把经营现金流的改善视为长期变化。这份财季报告也无法说明假日购物季的需求或处理线上订单的成本将如何变化。",
+          "watch": "关注假日销售、库存水平和下期现金流调节明细，看看业务增长后，扣除资本支出所剩的现金是否增加。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "财季总营收"
+            },
+            {
+              "id": "m2",
+              "label": "财季营业利润"
+            },
+            {
+              "id": "m3",
+              "label": "财季归属于股东的净利润"
+            },
+            {
+              "id": "m4",
+              "label": "本财年截至报告期累计经营现金流"
+            },
+            {
+              "id": "m5",
+              "label": "本财年截至报告期累计物业及设备支出"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "中国工业生产势头强于零售销售",
+          "summary": "中国公布的经济运行数据显示，工业产出上升，货物出口表现强劲，而零售销售仅小幅增长。",
+          "impact": "这表明，出口导向型生产企业和依赖国内消费者的企业，面对的经营环境可能明显不同。",
+          "what": "国家统计局公布的数据显示，规模以上工业增加值增长。货物出口额也有所上升，而社会消费品零售总额同比仅微幅增长。工业生产者出厂价格也有所上涨。这些指标衡量的并不是同一件事：工业产出反映生产情况，出口额反映以人民币计价的跨境货物销售额，社会消费品零售总额则无法全面衡量家庭消费。",
+          "why": "即使国内消费者花钱谨慎，工厂也可能维持较忙的生产节奏。这有助于支撑供应商和物流企业的订单，却不一定带来同等程度的门店销售回暖。出厂价格上涨有利于能够提高售价的生产商，但如果下游企业无法把上涨的成本转嫁出去，就可能承压。对家庭来说，这份报告更适合用来了解哪些领域的需求较强，而不能据此判断家庭购买力。",
+          "uncertainty": "出口额同时受到价格和数量变动的影响，不能直接反映出口货物的实际数量。零售总额并未覆盖所有服务，这份报告也无法说明各家企业的利润率如何变化。",
+          "watch": "关注下次公布的经济运行数据，尤其是零售和服务业指标，以及企业披露的订单、成本和利润率，看看当前表现是否延续。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "规模以上工业增加值同比增速"
+            },
+            {
+              "id": "m2",
+              "label": "社会消费品零售总额同比增速"
+            },
+            {
+              "id": "m3",
+              "label": "货物出口额同比增速"
+            },
+            {
+              "id": "m4",
+              "label": "工业生产者出厂价格同比涨幅"
+            }
+          ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition ne contient qu’un nombre limité d’informations vérifiées. Pour certains marchés, aucune nouvelle information n’a pu être confirmée. Les rapports déjà publiés restent clairement datés.",
+      "status": "Cette édition couvre l’actualité économique aux États-Unis et en Chine. Vérifiez la date de chaque publication : les résultats récents des entreprises sont présentés pour donner du contexte.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice présenté conserve la date de la séance à laquelle il se rapporte.",
-        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice présenté conserve la date de la séance à laquelle il se rapporte."
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture affichés correspondent aux dates indiquées et ne reflètent pas les échanges en cours.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture affichés correspondent aux dates indiquées et ne reflètent pas les échanges en cours."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "La confiance des consommateurs américains s’améliore, mais reste à voir si les dépenses suivront",
-          "summary": "L’enquête de novembre de l’université du Michigan fait état d’une amélioration de la confiance des consommateurs, tant dans leur appréciation de la situation actuelle que dans leurs attentes pour l’avenir.",
-          "impact": "Une confiance accrue peut encourager les achats non essentiels, mais l’enquête ne montre pas que les ménages ont dépensé davantage.",
-          "what": "Les ménages ont jugé la situation actuelle et les perspectives plus favorables que le mois précédent. Selon les chercheurs, les ménages les moins fortunés ont indiqué que la baisse du prix de l’essence leur avait donné un peu de répit, tandis que ceux qui détenaient le plus d’actions ont fait état d’une dégradation de leur situation financière personnelle.",
-          "why": "Une facture de carburant moins élevée peut laisser plus d’argent pour faire des achats, épargner ou rembourser des dettes. Pour les détaillants, le choix des ménages compte davantage que l’indicateur de confiance lui-même. La baisse des dépenses de carburant et le recul de la valeur des placements peuvent avoir des effets opposés sur la demande.",
-          "uncertainty": "La hausse de l’indicateur global est restée en deçà du seuil de signification statistique de l’enquête. Celle-ci ne permet pas de conclure que la confiance a changé de tendance ni que les dépenses vont augmenter.",
-          "watch": "Comparer la prochaine enquête aux chiffres officiels des ventes au détail et des dépenses des ménages, en particulier pour les achats qui peuvent facilement être reportés.",
-          "metricLabels": []
+          "title": "États-Unis : le moral des consommateurs s’améliore, mais le rebond reste incertain",
+          "summary": "Les résultats définitifs de l’enquête de l’université du Michigan montrent que les ménages jugent la situation actuelle plus favorablement et sont plus optimistes pour la suite que lors de l’enquête précédente.",
+          "impact": "Cette amélioration est un signal encore fragile pour les entreprises qui vendent aux particuliers. Elle ne prouve pas que les dépenses ont déjà augmenté.",
+          "what": "L’enquête demande aux ménages comment ils jugent la situation économique actuelle et à quoi ils s’attendent pour la suite. Les résultats définitifs montrent une amélioration de ces appréciations et des attentes d’inflation à court terme moins élevées. La hausse de l’indice global reste toutefois en deçà du seuil de signification statistique fixé par l’université. Il vaut donc mieux y voir une légère amélioration dans l’enquête qu’un tournant dans la confiance des ménages.",
+          "why": "Les consommateurs qui se sentent plus à l’aise financièrement peuvent être plus enclins à remplacer un appareil ménager, à réserver un voyage ou à faire un autre achat qu’ils auraient pu reporter. Cette possibilité intéresse les commerçants, qui doivent souvent prévoir leurs effectifs, leurs promotions et leurs stocks avant de savoir ce que les clients achèteront. Mais un ménage peut être plus optimiste tout en limitant ses achats si le loyer, les courses ou les remboursements d’emprunts laissent peu de marge dans son budget. C’est pourquoi la confiance déclarée et les ventes réelles peuvent évoluer différemment.",
+          "uncertainty": "L’enquête repose sur des entretiens menés avant sa publication. Elle ne reflète donc pas les réactions à la clôture boursière qui a suivi. Elle mesure des opinions déclarées, pas des achats, et la hausse de l’indice global pourrait tenir au hasard de l’échantillonnage.",
+          "watch": "Comparer la prochaine enquête aux données officielles sur les dépenses de consommation et les ventes au détail, en particulier pour les achats que les ménages peuvent reporter.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Indice de confiance des consommateurs"
+            },
+            {
+              "id": "m2",
+              "label": "Indice des conditions économiques actuelles"
+            },
+            {
+              "id": "m3",
+              "label": "Indice des attentes des consommateurs"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Résultats de Walmart : l’activité commerciale s’améliore, mais le résultat net recule",
+          "summary": "Les résultats trimestriels de Walmart montrent une hausse du chiffre d’affaires et du résultat d’exploitation, mais une baisse du résultat net part du groupe.",
+          "impact": "Les magasins et les ventes en ligne ont obtenu de meilleurs résultats, mais la hausse des investissements a réduit la trésorerie d’exploitation restante après les dépenses immobilières et d’équipement.",
+          "what": "Walmart vend des produits alimentaires et des articles divers en magasin, dans des magasins réservés aux adhérents et en ligne. Sur le trimestre de son exercice, le résultat d’exploitation s’est amélioré. En revanche, les autres éléments comptabilisés après le résultat d’exploitation sont passés de gains à des pertes, ce qui a contribué au recul du résultat net. Le tableau des flux de trésorerie couvre une période différente : il présente le cumul depuis le début de l’exercice. L’activité a dégagé plus de trésorerie qu’à la même période de l’exercice précédent, mais la hausse des dépenses immobilières et d’équipement a été suffisante pour qu’il reste moins de trésorerie après ces dépenses.",
+          "why": "Le résultat d’exploitation aide à comprendre comment se porte l’activité commerciale avant de tenir compte du financement et d’autres éléments. Le flux de trésorerie d’exploitation répond à une autre question : combien d’argent l’activité a-t-elle généré une fois ses dépenses courantes payées ? Il dépend notamment du moment où l’entreprise paie ses fournisseurs et constitue ses stocks. Les magasins et les moyens nécessaires pour préparer et livrer les commandes exigent des dépenses dès le départ. Pour les clients, ces investissements peuvent améliorer le retrait des commandes et la livraison. Pour Walmart, leur intérêt dépend de la capacité à vendre davantage et à traiter les commandes plus efficacement, de façon à justifier les coûts engagés.",
+          "uncertainty": "Dans ses commentaires sur la trésorerie, Walmart a souligné l’effet du calendrier des paiements et de la constitution des stocks. L’amélioration n’est donc pas nécessairement durable. Les résultats du trimestre ne permettent pas non plus de savoir comment évolueront la demande pendant les fêtes ou le coût du traitement des commandes en ligne.",
+          "watch": "Suivre les ventes pendant les fêtes, les niveaux de stocks et le prochain rapprochement entre le résultat net et le flux de trésorerie d’exploitation pour voir si la croissance laisse davantage de trésorerie après les dépenses d’investissement.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires total du trimestre de l’exercice"
+            },
+            {
+              "id": "m2",
+              "label": "Résultat d’exploitation du trimestre de l’exercice"
+            },
+            {
+              "id": "m3",
+              "label": "Résultat net part du groupe du trimestre de l’exercice"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
+            },
+            {
+              "id": "m5",
+              "label": "Dépenses immobilières et d’équipement cumulées depuis le début de l’exercice"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "En Chine, l’industrie est plus dynamique que les ventes au détail",
+          "summary": "Les données chinoises sur l’activité montrent une hausse de la production industrielle et une forte progression des exportations de biens, tandis que les ventes au détail n’ont que modestement augmenté.",
+          "impact": "Cet écart suggère que les producteurs tournés vers l’exportation et les entreprises qui dépendent des consommateurs chinois pourraient évoluer dans des conditions assez différentes.",
+          "what": "Le Bureau national des statistiques a fait état d’une hausse de la valeur ajoutée industrielle dans les entreprises dépassant le seuil de taille qu’il a fixé. La valeur des exportations de biens a également augmenté, tandis que les ventes au détail de biens de consommation ont à peine progressé par rapport à la même période de l’année précédente. Les prix de vente des producteurs industriels ont augmenté. Ces indicateurs ne mesurent pas la même chose : la production industrielle suit ce que produisent les usines, la valeur des exportations mesure en yuans les ventes de biens à l’étranger, et le montant des ventes au détail ne couvre pas toute la consommation des ménages.",
+          "why": "Les usines peuvent tourner à bon rythme même si les consommateurs chinois restent prudents. Cela peut soutenir les commandes des fournisseurs et des entreprises de logistique, sans que les ventes en magasin progressent autant. La hausse des prix à la sortie des usines peut profiter aux producteurs qui arrivent à vendre plus cher, mais elle peut peser sur leurs clients professionnels si ceux-ci ne peuvent pas répercuter la hausse de leurs coûts sur leurs propres prix. Pour les ménages, ces données servent donc surtout à repérer où la demande est la plus forte, plutôt qu’à tirer une conclusion sur leur pouvoir d’achat.",
+          "uncertainty": "La valeur des exportations dépend à la fois des prix et des quantités. Elle ne mesure donc pas directement le volume de biens expédiés. L’indicateur global des ventes au détail ne couvre pas tous les services, et ces données ne permettent pas de savoir comment les marges ont évolué dans chaque entreprise.",
+          "watch": "Vérifier si ces tendances se confirment dans la prochaine publication sur l’activité, notamment dans les indicateurs du commerce de détail et des services, ainsi que dans les informations publiées par les entreprises sur leurs commandes, leurs coûts et leurs marges.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Croissance de la valeur ajoutée industrielle en glissement annuel"
+            },
+            {
+              "id": "m2",
+              "label": "Croissance des ventes au détail de biens de consommation en glissement annuel"
+            },
+            {
+              "id": "m3",
+              "label": "Croissance de la valeur des exportations de biens en glissement annuel"
+            },
+            {
+              "id": "m4",
+              "label": "Hausse des prix de vente des producteurs industriels en glissement annuel"
+            }
+          ]
         }
       ]
     },
     "es": {
-      "status": "La cobertura verificada de esta edición es limitada. En algunos mercados no hay noticias nuevas que se hayan podido verificar. Los informes anteriores conservan su fecha claramente indicada.",
+      "status": "Esta edición repasa las novedades de Estados Unidos y China. Comprueba la fecha de cada publicación: los informes empresariales recientes se presentan como contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su sesión bursátil.",
-        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su sesión bursátil."
+        "us": "Los índices que seguimos bajaron en sus últimas sesiones verificadas. Los cierres corresponden a las sesiones indicadas, no a la negociación actual.",
+        "cn": "Los índices que seguimos bajaron en sus últimas sesiones verificadas. Los cierres corresponden a las sesiones indicadas, no a la negociación actual."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Mejora la confianza del consumidor en Estados Unidos, pero la prueba está en el gasto",
-          "summary": "La encuesta de noviembre de la Universidad de Michigan mostró una mejora en la confianza de los consumidores, tanto en su valoración de la situación actual como en sus expectativas.",
-          "impact": "Una mayor confianza puede favorecer las compras no esenciales, pero la encuesta no demuestra que los hogares hayan gastado más.",
-          "what": "Los hogares valoraron la situación actual y las perspectivas de forma más favorable que el mes anterior. Según los investigadores, los hogares con menor patrimonio dijeron que la bajada del precio de la gasolina les dio algo de alivio, mientras que los hogares con mayores inversiones en acciones señalaron un deterioro de sus finanzas personales.",
-          "why": "Gastar menos en combustible puede dejar más dinero para comprar, ahorrar o pagar deudas. A los comercios les importa más qué hacen los hogares con ese dinero que el dato de confianza en sí. El menor coste del combustible y el deterioro de las cuentas de inversión pueden tener efectos opuestos sobre la demanda.",
-          "uncertainty": "La mejora del índice general no alcanzó el umbral de significación estadística de la encuesta. La encuesta no permite concluir que la confianza haya cambiado de rumbo ni que el gasto vaya a aumentar.",
-          "watch": "La comparación clave será entre la próxima encuesta y los datos oficiales de ventas minoristas y gasto de los hogares, sobre todo en las compras que pueden aplazarse con facilidad.",
-          "metricLabels": []
+          "title": "Mejora la confianza del consumidor en Estados Unidos, pero el repunte aún no está claro",
+          "summary": "Los resultados definitivos de la encuesta de la Universidad de Míchigan mostraron que la confianza y las expectativas de los consumidores mejoraron respecto a la encuesta anterior.",
+          "impact": "La mejora es una señal preliminar para las empresas que venden a los consumidores, no una prueba de que el gasto ya haya aumentado.",
+          "what": "La encuesta pregunta a los hogares cómo ven la situación económica actual y qué esperan de cara al futuro. Los resultados definitivos mostraron una mejora en la valoración de la situación actual y en las expectativas. También indicaron que los hogares esperaban menos inflación a corto plazo. Sin embargo, la subida del índice general no alcanzó el umbral que usa la universidad para distinguir un cambio significativo de una fluctuación propia de la encuesta. El resultado apunta a una mejora modesta, no a un cambio de rumbo claro en la confianza de los hogares.",
+          "why": "Quienes se sienten más seguros de sus finanzas pueden estar más dispuestos a renovar un electrodoméstico, reservar un viaje o hacer alguna otra compra que podrían aplazar. A los comercios les importa esa posibilidad porque suelen tener que planificar el personal, las promociones y las existencias antes de saber cómo responderán los clientes. Pero un hogar puede ver el futuro con más optimismo y aun así contener el gasto si el alquiler, la compra de alimentos o las cuotas de los préstamos dejan poco margen en el presupuesto. Por eso, la confianza y las ventas efectivas pueden evolucionar de forma distinta.",
+          "uncertainty": "La encuesta recoge entrevistas realizadas antes de su publicación, no reacciones al cierre bursátil posterior. Mide opiniones declaradas, no compras, y la variación del índice general podría deberse a fluctuaciones propias de la muestra.",
+          "watch": "Compara la próxima encuesta con los informes oficiales de gasto de los consumidores y ventas minoristas, prestando especial atención a las compras que los hogares pueden aplazar.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Índice de confianza del consumidor"
+            },
+            {
+              "id": "m2",
+              "label": "Índice de condiciones económicas actuales"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de expectativas del consumidor"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Claves de los resultados: mejora el negocio minorista, pero cae el beneficio neto",
+          "summary": "Los resultados trimestrales de Walmart mostraron un aumento de los ingresos y del beneficio operativo, pero una caída del beneficio neto atribuible a los accionistas.",
+          "impact": "Mejoraron los resultados en tiendas y en línea, pero la mayor inversión hizo que quedara menos efectivo de las operaciones tras el gasto en inmuebles y equipos.",
+          "what": "Walmart vende alimentos y otros productos en tiendas, clubes de compra con membresía y canales en línea. En el trimestre fiscal mejoró su beneficio operativo, pero otras partidas que se contabilizan después de ese beneficio pasaron de ganancias a pérdidas y contribuyeron a reducir el beneficio neto. El estado de flujos de efectivo abarca un periodo distinto: lo que va del ejercicio fiscal. En ese periodo, las operaciones generaron más efectivo en términos interanuales, pero el gasto en inmuebles y equipos aumentó lo suficiente como para que quedara menos efectivo después de cubrirlo.",
+          "why": "El beneficio operativo ayuda a entender cómo marcha el negocio minorista antes de tener en cuenta la financiación y otras partidas. El flujo de caja operativo responde a otra pregunta: cuánto efectivo generó el negocio tras descontar los pagos de su actividad, teniendo en cuenta cuándo pagó a sus proveedores y cuándo repuso sus existencias. Las tiendas y la capacidad para preparar y entregar pedidos exigen un desembolso inicial. Para los clientes, estas inversiones pueden mejorar la recogida y la entrega de pedidos. Para la empresa, su valor depende de que el aumento de las ventas y una gestión más eficiente de los pedidos justifiquen el coste.",
+          "uncertainty": "Al explicar el flujo de caja, la empresa mencionó el momento en que realizó los pagos y repuso sus existencias. Por eso, no conviene interpretar la mejora como un cambio permanente. Los resultados del trimestre no aclaran cómo evolucionarán la demanda durante la temporada festiva ni el coste de atender los pedidos en línea.",
+          "watch": "Observa las ventas de la temporada festiva, los niveles de existencias y la próxima conciliación del flujo de caja para ver si el crecimiento deja más efectivo después de las inversiones en activos.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos totales del trimestre fiscal"
+            },
+            {
+              "id": "m2",
+              "label": "Beneficio operativo del trimestre fiscal"
+            },
+            {
+              "id": "m3",
+              "label": "Beneficio neto atribuible a los accionistas del trimestre fiscal"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de caja operativo acumulado en el ejercicio fiscal"
+            },
+            {
+              "id": "m5",
+              "label": "Inversión acumulada en inmuebles y equipos en el ejercicio fiscal"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "Las fábricas de China muestran más dinamismo que las ventas minoristas",
+          "summary": "El informe de actividad de China mostró un aumento de la producción industrial y un fuerte avance de las exportaciones de bienes, mientras que las ventas minoristas crecieron poco.",
+          "impact": "El contraste sugiere que los productores orientados a la exportación y los negocios que dependen de los compradores del país podrían afrontar condiciones bastante distintas.",
+          "what": "La Oficina Nacional de Estadística de China informó de un aumento del valor añadido industrial en las empresas que superan el umbral de tamaño que establece el organismo. También subió el valor de las exportaciones de bienes, mientras que las ventas minoristas de bienes de consumo apenas crecieron en términos interanuales. Los precios de venta de los productores industriales aumentaron. Estos indicadores miden cosas distintas: la producción industrial refleja lo que producen las fábricas, el valor de las exportaciones refleja las ventas de bienes al exterior expresadas en yuanes y las ventas minoristas no recogen todo el consumo de los hogares.",
+          "why": "Las fábricas pueden mantener sus líneas de producción ocupadas aunque los compradores del país sean prudentes. Eso puede sostener los pedidos para proveedores y empresas de logística sin que las ventas en las tiendas repunten en la misma medida. El aumento de los precios a la salida de fábrica puede beneficiar a los productores que logran cobrar más, pero puede presionar a las empresas que les compran si estas no pueden trasladar el aumento de costes a sus propios clientes. Por eso, a los hogares el informe les sirve más para saber dónde es más fuerte la demanda que para sacar conclusiones sobre su poder adquisitivo.",
+          "uncertainty": "El valor de las exportaciones refleja cambios en los precios y en las cantidades, por lo que no mide directamente el volumen exportado. El dato general de ventas minoristas no abarca todos los servicios, y el informe no permite saber cómo cambiaron los márgenes de cada empresa.",
+          "watch": "Fíjate en si la tendencia se mantiene en el próximo informe de actividad, sobre todo en los indicadores de ventas minoristas y servicios, y en lo que las empresas publiquen sobre pedidos, costes y márgenes.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Crecimiento interanual del valor añadido industrial"
+            },
+            {
+              "id": "m2",
+              "label": "Crecimiento interanual de las ventas minoristas de bienes de consumo"
+            },
+            {
+              "id": "m3",
+              "label": "Crecimiento interanual del valor de las exportaciones de bienes"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento interanual de los precios de venta de los productores industriales"
+            }
+          ]
         }
       ]
     },
     "ja": {
-      "status": "今回お伝えできる確認済みの情報は限られています。新たに確認できたニュースがない市場もあります。日付のある報告は、その日付が分かるようにしています。",
+      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業決算は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "終値を確認できなかったものもあります。確認できた指数には、それぞれの取引日を示しています。",
-        "cn": "終値を確認できなかったものもあります。確認できた指数には、それぞれの取引日を示しています。"
+        "us": "対象の株価指数は、確認できた直近の取引でいずれも下落しました。日付付きの終値は、その日の取引結果であり、現在の値動きを示すものではありません。",
+        "cn": "対象の株価指数は、確認できた直近の取引でいずれも下落しました。日付付きの終値は、その日の取引結果であり、現在の値動きを示すものではありません。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "米国の消費者心理が改善、焦点は実際の支出",
-          "summary": "ミシガン大学の調査では、消費者心理が改善しました。現在の経済状況に対する評価も、先行きの見通しも良くなりました。",
-          "impact": "消費者心理が良くなると、生活必需品以外の買い物を後押しすることがあります。ただし、この調査は家計の支出が実際に増えたことを示すものではありません。",
-          "what": "家計は前回の調査に比べ、現在の状況と先行きをより前向きに評価しました。調査担当者によると、資産が比較的少ない世帯からは、ガソリン価格の低下で負担がいくらか軽くなったとの声がありました。株式保有額が最も大きい層では、家計の状況が悪化したとの回答がありました。",
-          "why": "ガソリン代が下がれば、浮いたお金を買い物や貯蓄、借金の返済に回せます。小売業者にとっては、消費者心理の指数そのものよりも、家計が実際にどの使い道を選ぶかが重要です。ガソリン代の低下は需要を支える可能性がある一方、投資資産の目減りは需要を抑える可能性があります。",
-          "uncertainty": "総合指数の改善幅は、この調査で統計的に意味のある変化と判断するための基準に届きませんでした。この調査だけでは、消費者心理が改善傾向に転じたとも、支出が増えるとも言えません。",
-          "watch": "次回の調査結果と、小売売上高や家計支出の公式統計を見比べます。特に、先送りしやすい買い物の動きが焦点です。",
-          "metricLabels": []
+          "title": "米国の消費者心理は改善、持ち直しはまだ明確でない",
+          "summary": "ミシガン大学の消費者調査の確報では、消費者心理と先行きへの見方が前回調査より改善しました。",
+          "impact": "消費者向けの企業にとっては改善の兆しですが、実際に消費支出が増えたことを示すものではありません。",
+          "what": "この調査では、家計が今の景気をどう見ているか、先行きをどう予想しているかを尋ねます。確報ではいずれも改善し、短期的な物価上昇の予想も弱まりました。ただし、総合指数の変化幅は、同大学が統計的に意味のある変化とみなす基準に届きませんでした。家計の景気に対する見方がはっきり好転したというより、調査結果が小幅に改善したと受け止めるのが妥当です。",
+          "why": "家計に安心感が出ると、家電の買い替えや旅行の予約など、先送りできる支出にも踏み切りやすくなります。小売企業は、需要が見えてくる前に人員配置や販促、在庫を計画することが多いため、こうした変化を気にかけます。ただ、先行きへの見方が良くなっても、家賃や食料品代、ローンの返済で家計に余裕がなければ、支出を控えることはあります。そのため、消費者心理と実際の売上は必ずしも同じ動きにはなりません。",
+          "uncertainty": "調査は公表前に終えた聞き取りに基づいており、その後の市場の終値を受けた反応は反映していません。測っているのは回答者の見方であって、実際の購入ではありません。総合指数の変化は、調査対象のばらつきでも説明できる可能性があります。",
+          "watch": "次回の調査結果と、個人消費支出や小売売上高の公式統計を見比べます。特に、家計が先送りできる買い物への支出が注目点です。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "消費者信頼感指数"
+            },
+            {
+              "id": "m2",
+              "label": "現況指数"
+            },
+            {
+              "id": "m3",
+              "label": "消費者期待指数"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "決算解説：小売事業は改善、純利益は減少",
+          "summary": "ウォルマートの四半期決算では、売上高と営業利益が増えた一方、株主に帰属する純利益は減りました。",
+          "impact": "店舗とネット通販の業績は改善しましたが、投資が増えたため、営業活動で得た現金のうち設備投資後に残る額は減りました。",
+          "what": "ウォルマートは、店舗や会員制店舗、ネット通販で食品や日用品などを販売しています。四半期決算では本業の利益が伸びましたが、損益計算書で営業利益より下に記載されるその他損益が黒字から赤字に転じ、最終的な利益を押し下げる要因となりました。一方、キャッシュフロー計算書が対象とするのは、会計年度の期首からの累計で、四半期決算の対象期間とは異なります。営業活動で得た現金は前年同期より増えましたが、有形固定資産への支出がそれ以上に増えたため、その支出を差し引いた後に残る現金は減りました。",
+          "why": "営業利益を見ると、資金調達にかかる費用などを差し引く前の、小売事業の稼ぎ具合が分かります。一方、営業キャッシュフローは、事業で受け取った現金から営業上の支払いを差し引いて、実際にどれだけ現金が入ったかを示します。仕入れ先への支払いや在庫を仕入れる時期にも左右されます。店舗や注文を処理・発送する体制を整えるには、先に資金が必要です。こうした投資は、客にとって商品の受け取りや配送を便利にする可能性があります。小売企業にとって投資に見合うかどうかは、売上の増加や注文処理・発送の効率化で費用を補えるかにかかっています。",
+          "uncertainty": "会社は、現金の動きを説明するなかで、支払いや在庫のタイミングに言及しました。このため、営業キャッシュフローの改善が続くとは限りません。今回の四半期決算だけでは、年末商戦の需要やネット注文に対応する費用が今後どう変わるかは分かりません。",
+          "watch": "年末商戦の売上、在庫水準、次回のキャッシュフローの増減内訳が注目点です。事業の成長によって、設備投資後に残る現金が増えるかを見ます。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "四半期売上高合計"
+            },
+            {
+              "id": "m2",
+              "label": "四半期営業利益"
+            },
+            {
+              "id": "m3",
+              "label": "四半期の株主に帰属する純利益"
+            },
+            {
+              "id": "m4",
+              "label": "会計年度累計の営業キャッシュフロー"
+            },
+            {
+              "id": "m5",
+              "label": "会計年度累計の有形固定資産への支出"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "中国、工業生産は小売売上高より勢い",
+          "summary": "中国の経済活動統計では、工業生産が増え、財の輸出額も力強く伸びた一方、小売売上高の伸びは小幅にとどまりました。",
+          "impact": "輸出向けの製造業者と、国内の消費者に頼る企業とでは、事業環境が大きく異なる可能性があります。",
+          "what": "中国国家統計局によると、同局が定める規模基準以上の企業で工業付加価値が増えました。財の輸出額も増えましたが、消費財小売売上高は前年同月からわずかに増えた程度でした。工業製品の出荷価格は上昇しました。これらの指標は、それぞれ異なるものを測っています。工業生産は生産活動を、財の輸出額は国境を越えて販売された財の金額を人民元建てで示します。小売売上高だけでは、家計の消費全体は把握できません。",
+          "why": "国内の買い物客が慎重でも、工場は生産ラインを活発に動かせます。店頭の売上が同じように伸びなくても、部品や原材料の供給業者、物流会社への発注は支えられることがあります。出荷価格の上昇は、販売価格を引き上げられるメーカーには追い風になりますが、仕入れ先からの値上げ分を自社の販売価格に転嫁できない企業には負担になります。家計にとって、この統計は購買力を判断する材料というより、どこで需要が強いかを知る手がかりです。",
+          "uncertainty": "輸出額には価格と数量の変化が混ざっており、輸出数量を直接示すものではありません。小売売上高はサービス全体をカバーしておらず、この統計だけでは個々の企業の利益率がどう変わったかも分かりません。",
+          "watch": "この動きが続くかどうかは、次回の経済活動統計、特に小売やサービスの指標と、企業が公表する受注、コスト、利益率が注目点です。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "工業付加価値の前年同月比伸び率"
+            },
+            {
+              "id": "m2",
+              "label": "消費財小売売上高の前年同月比伸び率"
+            },
+            {
+              "id": "m3",
+              "label": "財の輸出額の前年同月比伸び率"
+            },
+            {
+              "id": "m4",
+              "label": "工業製品出荷価格の前年同月比上昇率"
+            }
+          ]
         }
       ]
     },
     "pt": {
-      "status": "A cobertura verificada desta edição é limitada. Em alguns mercados, não há notícias novas verificadas. As datas dos relatórios continuam claramente indicadas.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação. Os relatórios recentes de empresas são apresentados para ajudar a entender o contexto.",
       "marketSummary": {
-        "us": "Não foi possível confirmar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente.",
-        "cn": "Não foi possível confirmar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente."
+        "us": "Os índices acompanhados caíram em seus pregões mais recentes com dados verificados. Os valores de fechamento se referem aos pregões nas datas indicadas, não às negociações atuais.",
+        "cn": "Os índices acompanhados caíram em seus pregões mais recentes com dados verificados. Os valores de fechamento se referem aos pregões nas datas indicadas, não às negociações atuais."
       },
       "stories": [
         {
           "id": "f2",
-          "title": "Confiança do consumidor nos EUA melhora, mas o teste está nos gastos",
-          "summary": "A pesquisa da Universidade de Michigan referente a novembro mostrou melhora na confiança dos consumidores, tanto na avaliação da situação atual quanto nas expectativas.",
-          "impact": "A melhora na confiança pode favorecer compras não essenciais, mas a pesquisa não mostra que as famílias tenham gastado mais.",
-          "what": "As famílias avaliaram a situação atual e as perspectivas de forma mais favorável do que no mês anterior. Segundo os pesquisadores, as famílias com menos patrimônio relataram algum alívio com a queda no preço da gasolina, enquanto as que tinham os maiores investimentos em ações disseram que suas finanças pessoais pioraram.",
-          "why": "Gastar menos com combustível pode liberar dinheiro para compras, poupança ou pagamento de dívidas. Para o varejo, o que as famílias fazem com esse dinheiro importa mais do que o próprio indicador de confiança. Combustível mais barato e a piora no valor dos investimentos podem afetar a demanda em sentidos opostos.",
-          "uncertainty": "A alta do indicador geral ficou abaixo do limite que a pesquisa usa para considerar uma mudança estatisticamente significativa. O levantamento não permite concluir que a confiança mudou de tendência nem que os gastos vão aumentar.",
-          "watch": "Compare a próxima pesquisa com os dados oficiais de vendas no varejo e de gastos das famílias, com atenção especial às compras que podem ser adiadas com facilidade.",
-          "metricLabels": []
+          "title": "Confiança do consumidor melhora nos EUA, mas a recuperação ainda não está clara",
+          "summary": "A versão final da pesquisa da Universidade de Michigan mostrou melhora na confiança e nas expectativas dos consumidores em relação à pesquisa anterior.",
+          "impact": "A melhora é um sinal ainda incerto para empresas que vendem ao consumidor, não uma prova de que os gastos já aumentaram.",
+          "what": "A pesquisa pergunta às famílias como elas avaliam as condições econômicas atuais e o que esperam para o futuro. A versão final mostrou melhora nas avaliações das condições atuais e nas expectativas, além de indicar que as famílias esperavam menos inflação no curto prazo. A variação do índice geral, porém, ficou abaixo do limite que a universidade usa para considerar uma mudança estatisticamente significativa. O resultado indica uma melhora modesta na pesquisa, não uma mudança decisiva na confiança das famílias.",
+          "why": "Quem se sente mais seguro em relação às próprias finanças pode estar mais disposto a trocar um eletrodoméstico, reservar uma viagem ou fazer outra compra que poderia adiar. Isso importa para os varejistas porque muitas vezes é preciso planejar as equipes, as promoções e os estoques antes de saber qual será a demanda. Ainda assim, uma família pode ficar mais otimista e continuar segurando os gastos porque o aluguel, as compras de supermercado ou as parcelas de empréstimos deixam pouca folga no orçamento. Por isso, a confiança medida pela pesquisa e as vendas efetivas podem contar histórias diferentes.",
+          "uncertainty": "A pesquisa reflete entrevistas concluídas antes da publicação, não reações ao fechamento posterior do mercado. Ela mede as opiniões declaradas, não as compras, e a variação do índice geral pode se dever a diferenças na amostra.",
+          "watch": "Compare a próxima pesquisa com os dados oficiais de gastos dos consumidores e de vendas no varejo, com atenção especial às compras que as famílias podem adiar.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Índice de confiança do consumidor"
+            },
+            {
+              "id": "m2",
+              "label": "Índice de condições econômicas atuais"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de expectativas do consumidor"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Entenda o balanço: operação de varejo melhora, mas lucro líquido cai",
+          "summary": "O balanço trimestral do Walmart mostrou alta da receita e do lucro operacional, mas queda do lucro líquido atribuível aos acionistas.",
+          "impact": "O desempenho das lojas e das vendas pela internet melhorou, mas o aumento dos investimentos reduziu o caixa que sobrou da operação após os gastos com imóveis e equipamentos.",
+          "what": "O Walmart vende alimentos e produtos em geral em lojas, clubes de compras para associados e canais digitais. O balanço do trimestre fiscal mostra que o lucro operacional melhorou. Entre os itens contabilizados depois do lucro operacional, outros ganhos deram lugar a perdas, o que contribuiu para a queda do lucro líquido. A demonstração dos fluxos de caixa cobre um período diferente: o acumulado do ano fiscal. Ela mostra que a operação gerou mais caixa do que no mesmo período do ano anterior, mas os gastos com imóveis e equipamentos aumentaram a ponto de deixar menos caixa disponível depois desses desembolsos.",
+          "why": "O lucro operacional ajuda a entender como vai o negócio de varejo antes de considerar os efeitos do financiamento e de outros itens. O fluxo de caixa operacional responde a outra pergunta: quanto dinheiro entrou no negócio depois de descontar os pagamentos da operação, levando em conta, por exemplo, quando a empresa pagou os fornecedores e abasteceu as prateleiras. Lojas e estruturas para preparar e entregar pedidos exigem desembolsos antecipados. Para os clientes, esses investimentos podem melhorar a retirada e a entrega de compras. Para a varejista, o valor dos investimentos depende de as vendas adicionais e a maior eficiência no atendimento dos pedidos compensarem o custo.",
+          "uncertainty": "Ao comentar o fluxo de caixa, a empresa citou o momento dos pagamentos e da formação dos estoques. Por isso, a melhora não deve ser vista como permanente. O balanço do trimestre não esclarece como vão evoluir a demanda no fim do ano nem os custos de atender aos pedidos feitos pela internet.",
+          "watch": "Acompanhe as vendas de fim de ano, os níveis de estoque e a próxima conciliação do fluxo de caixa para ver se o crescimento deixa mais caixa depois dos investimentos.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita total do trimestre fiscal"
+            },
+            {
+              "id": "m2",
+              "label": "Lucro operacional do trimestre fiscal"
+            },
+            {
+              "id": "m3",
+              "label": "Lucro líquido atribuível aos acionistas no trimestre fiscal"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional acumulado no ano fiscal"
+            },
+            {
+              "id": "m5",
+              "label": "Gastos com imóveis e equipamentos acumulados no ano fiscal"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "Indústria chinesa ganha mais força do que o varejo",
+          "summary": "Os dados de atividade da China mostraram alta na produção industrial e bom desempenho das exportações de bens, enquanto as vendas no varejo cresceram pouco.",
+          "impact": "O contraste sugere que os produtores voltados à exportação e as empresas que dependem dos consumidores chineses podem enfrentar condições bem diferentes.",
+          "what": "O Escritório Nacional de Estatísticas informou que o valor adicionado industrial cresceu nas empresas acima do limite de porte definido pelo órgão. O valor das exportações de bens também subiu, enquanto as vendas de bens de consumo no varejo mal cresceram em relação ao mesmo período do ano anterior. Os preços de venda dos produtores industriais aumentaram. Esses indicadores medem coisas diferentes: a produção industrial mostra o que as fábricas produzem, o valor das exportações mede as vendas de bens ao exterior em yuans, e as vendas no varejo não abrangem todo o consumo das famílias.",
+          "why": "As fábricas podem manter suas linhas de produção ocupadas mesmo quando os consumidores locais estão cautelosos. Isso pode sustentar os pedidos para fornecedores e empresas de logística sem gerar uma melhora equivalente nas vendas das lojas. Preços mais altos na saída das fábricas podem favorecer os produtores que conseguem cobrar mais, mas podem pressionar as empresas que compram deles se elas não conseguirem repassar o aumento dos custos. Para as famílias, os dados de atividade ajudam mais a identificar onde a demanda está mais forte do que a tirar conclusões sobre o poder de compra.",
+          "uncertainty": "O valor das exportações reflete mudanças nos preços e nas quantidades, por isso não mede diretamente o volume embarcado. O indicador geral do varejo não inclui todos os serviços, e o relatório não mostra como mudaram as margens de cada empresa.",
+          "watch": "Veja se essas tendências continuam na próxima divulgação de dados de atividade, sobretudo nos indicadores de varejo e serviços, e nos comunicados das empresas sobre pedidos, custos e margens.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Crescimento do valor adicionado industrial na comparação anual"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento das vendas de bens de consumo no varejo na comparação anual"
+            },
+            {
+              "id": "m3",
+              "label": "Crescimento do valor das exportações de bens na comparação anual"
+            },
+            {
+              "id": "m4",
+              "label": "Variação dos preços de venda dos produtores industriais na comparação anual"
+            }
+          ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期能查證的資訊有限。部分市場沒有可查證的新消息；較早的報導仍清楚標示日期。",
+      "status": "本期涵蓋美國與中國的經濟動態。請留意各則消息的發布日期；近期企業財報以背景解讀的方式呈現。",
       "marketSummary": {
-        "us": "部分收盤數據無法查證。已取得數據的指數均保留各自的交易日期。",
-        "cn": "部分收盤數據無法查證。已取得數據的指數均保留各自的交易日期。"
+        "us": "追蹤的指數在各自最近經查證的交易日均收跌。標示日期的收盤數據只反映當日表現，不代表即時行情。",
+        "cn": "追蹤的指數在各自最近經查證的交易日均收跌。標示日期的收盤數據只反映當日表現，不代表即時行情。"
       },
       "stories": [
         {
           "id": "f2",
-          "title": "美國消費者信心好轉，但實際支出才是考驗",
-          "summary": "密西根大學的調查顯示，消費者信心有所改善，民眾對目前情況與未來前景的看法也都轉好。",
-          "impact": "信心好轉有助於帶動非必需品消費，但這項調查並未顯示家庭實際增加了支出。",
-          "what": "受訪家庭對目前情況與未來前景的評價比前月樂觀。研究人員指出，資產較少的家庭表示，汽油價格下跌讓開銷壓力略有減輕；持有股票最多的家庭則表示，自身財務狀況變差。",
-          "why": "油錢省下來後，家庭可以拿去消費、儲蓄或還債。對零售商來說，家庭怎麼用這筆錢，比消費者信心指數本身更重要。油錢變少可能帶動消費，但投資帳戶的資產縮水也可能抑制需求。",
-          "uncertainty": "整體信心指數的改善幅度未達調查所採用的統計顯著門檻。這項調查不足以確認消費者信心已經反轉，也不能證明支出將會增加。",
-          "watch": "可對照後續調查與官方零售銷售及家庭支出數據，尤其是容易延後購買的項目。",
-          "metricLabels": []
+          "title": "美國消費者信心改善，但反彈仍不明朗",
+          "summary": "密西根大學公布的消費者調查終值顯示，消費者信心與預期都比上次調查改善。",
+          "impact": "對面向消費者的企業來說，這是初步的好轉訊號，但不代表消費支出已經回升。",
+          "what": "這項調查詢問家庭如何看待目前的經濟狀況，以及對未來有何預期。最終公布的結果顯示，受訪者對現況與未來的看法都有所改善，對近期通膨的預期也有所降溫。不過，整體信心指數的變動幅度未達密西根大學設定的統計顯著門檻。這比較適合解讀為調查結果小幅改善，而不是家庭信心已明確轉強。",
+          "why": "當消費者對自己的財務狀況更有安全感時，可能更願意換購家電、預訂旅遊行程，或進行其他原本可以延後的消費。零售商之所以關注這種可能性，是因為往往得在需求明朗前，就安排人力、促銷和庫存。不過，即使家庭對前景更樂觀，也可能因房租、食品雜貨或貸款還款壓縮預算而暫緩消費。因此，信心指數和實際銷售可能呈現不同的情況。",
+          "uncertainty": "調查反映的是發布前完成的訪談，不是受訪者對之後市場收盤表現的反應。調查衡量的是受訪者表達的看法，而非實際購買行為；整體指數的變動也可能只是抽樣波動。",
+          "watch": "可將下次調查與官方的消費支出和零售銷售報告對照，尤其留意家庭可以延後的消費項目。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "消費者信心指數"
+            },
+            {
+              "id": "m2",
+              "label": "當前經濟狀況指數"
+            },
+            {
+              "id": "m3",
+              "label": "消費者預期指數"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "財報解讀：零售本業改善，淨利卻下滑",
+          "summary": "沃爾瑪的季度財報顯示，營收與營業利益上升，但歸屬於股東的淨利下滑。",
+          "impact": "實體門市和線上業務表現改善，但投資支出增加，使營運現金在扣除不動產及設備支出後所剩較少。",
+          "what": "沃爾瑪透過實體門市、會員制賣場和線上通路銷售食品雜貨與一般商品。單季財報顯示，營業表現改善，但列在營業利益之後的其他損益由盈轉虧，是淨利下滑的原因之一。現金流量表涵蓋的是會計年度開始至今，與單季財報的期間不同。這段期間的營業活動現金流量較去年同期增加，但不動產及設備支出也增加，使扣除這項支出後剩下的現金反而減少。",
+          "why": "營業利益可以用來了解零售本業在計入融資及其他項目前的表現。營業活動現金流量回答的是另一個問題：扣除日常營運付款後，公司實際留下多少現金。這也會受到公司何時付款給供應商、何時備貨的影響。門市和訂單履約能力都需要先投入資金。對顧客來說，這些投資可以改善取貨與配送服務；對零售商來說，值不值得則取決於增加的銷售和提升的履約效率能否抵過成本。",
+          "uncertainty": "公司在說明現金流量時提到付款與備貨的時點，因此不宜將這次改善視為持久的變化。這份季度財報也無法確定假期購物需求或線上訂單的處理成本接下來會如何變化。",
+          "watch": "可留意假期銷售、庫存水準及下次的現金流量調節明細，觀察業務成長後，扣除資本支出是否能留下更多現金。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "會計季度總營收"
+            },
+            {
+              "id": "m2",
+              "label": "會計季度營業利益"
+            },
+            {
+              "id": "m3",
+              "label": "會計季度歸屬於股東的淨利"
+            },
+            {
+              "id": "m4",
+              "label": "會計年度迄今營業活動現金流量"
+            },
+            {
+              "id": "m5",
+              "label": "會計年度迄今不動產及設備支出"
+            }
+          ]
+        },
+        {
+          "id": "f6",
+          "title": "中國工業生產動能比零售銷售強",
+          "summary": "中國公布的經濟活動數據顯示，工業產出上升、貨物出口表現強勁，零售銷售則僅小幅成長。",
+          "impact": "這樣的落差顯示，出口導向的生產商與仰賴國內消費的企業，面對的經營環境可能相當不同。",
+          "what": "中國國家統計局公布，達到規定規模門檻的工業企業，其工業增加值有所成長。貨物出口金額也上升，社會消費品零售總額則較去年同期微幅成長。工業生產者出廠價格也有所上漲。這些指標衡量的內容各不相同：工業產出反映生產情況，出口金額反映以人民幣計價的跨境貨物銷售，而零售總額並未涵蓋家庭消費的全貌。",
+          "why": "即使國內消費者花錢較謹慎，工廠的產線仍可能維持忙碌。這可以支撐供應商和物流業者的訂單，但不代表門市銷售會同樣好轉。出廠價格上漲有利於能夠提高售價的生產商，但如果向他們採購的企業無法把增加的成本轉嫁出去，就可能面臨壓力。因此，對家庭而言，這份報告更適合用來了解哪些領域的需求較強，而不是用來判斷家庭購買力。",
+          "uncertainty": "出口金額同時受價格與數量變動影響，不能直接反映出貨量。零售總額未涵蓋所有服務，這份報告也無法說明個別公司的利潤率如何變化。",
+          "watch": "可留意下次公布的經濟活動數據，尤其是零售與服務業指標，以及企業揭露的訂單、成本與利潤率，觀察目前的情況是否延續。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "工業增加值年增率"
+            },
+            {
+              "id": "m2",
+              "label": "社會消費品零售總額年增率"
+            },
+            {
+              "id": "m3",
+              "label": "貨物出口金額年增率"
+            },
+            {
+              "id": "m4",
+              "label": "工業生產者出廠價格年增率"
+            }
+          ]
         }
       ]
     }
