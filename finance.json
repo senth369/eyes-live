@@ -1,818 +1,671 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-23T10:45:11.952Z",
-  "generatedAt": "2026-11-23T10:54:34.001Z",
+  "cutoffAt": "2026-11-23T22:38:17.353Z",
+  "generatedAt": "2026-11-23T22:47:48.024Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Investing.com — broad US equity index daily closes",
-      "url": "https://www.investing.com/indices/us-spx-500-historical-data"
+      "label": "Schwab — broad US benchmark closing quote",
+      "url": "https://www.schwab.wallst.com/schwab/Prospect/charts/interactive/popup.asp?symbol=%24SPX"
     },
     {
       "id": "src2",
-      "label": "Investing.com — Nasdaq Composite daily closes",
-      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
+      "label": "FRED — broad US benchmark daily closes",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src3",
-      "label": "Investing.com — Shanghai Composite daily closes",
-      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      "label": "Nasdaq Indexes — Composite index data",
+      "url": "https://indexes.nasdaq.com/Index/Weighting/COMP"
     },
     {
       "id": "src4",
-      "label": "Investing.com — mainland large-cap index daily closes",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Associated Press — Monday US closing snapshot",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-fcdf1bad36b4f81c90cbb0f33a2c5704"
     },
     {
       "id": "src5",
-      "label": "CNINFO — issuer notice on the Nanchang optical components project",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682889.PDF"
+      "label": "Associated Press — Friday US closing snapshot",
+      "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad"
     },
     {
       "id": "src6",
-      "label": "CNINFO — optical components supplier quarterly report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634414.PDF"
+      "label": "CNGold — mainland closing and previous-close table",
+      "url": "https://stock.cngold.org/c/2026-11-23/c10897775.html"
     },
     {
       "id": "src7",
-      "label": "Issuer notice on the battery logistics contract — PDF hosted by Sina Finance",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-23/12717886.PDF"
+      "label": "Xinhua Finance — mainland closing report",
+      "url": "https://m.cnfin.com/yw-lb/zixun/20261123/4499011_1.html"
     },
     {
       "id": "src8",
-      "label": "Shanghai Stock Exchange — logistics equipment supplier quarterly report",
-      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-10-31/688557_20261031_N051.pdf"
+      "label": "Issuer newsroom — board reinstatement announcement",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
     },
     {
       "id": "src9",
-      "label": "China Money — current loan prime rate announcement",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
-    },
-    {
-      "id": "src10",
-      "label": "China Money — preceding loan prime rate announcement",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
-    },
-    {
-      "id": "src11",
-      "label": "National Bureau of Statistics — monthly economic activity release",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html"
-    },
-    {
-      "id": "src12",
-      "label": "University of Michigan Institute for Social Research — final consumer sentiment release",
-      "url": "https://isr.umich.edu/news-events/news-releases/sentiment-ticks-up-as-election-expected-to-usher-in-changes-to-economic-policy/"
-    },
-    {
-      "id": "src13",
-      "label": "Nasdaq — exchange notice confirming the AI developer trading debut",
-      "url": "https://www.nasdaq.com/newsroom/anthropic-marks-ipo-at-nasdaq"
-    },
-    {
-      "id": "src14",
-      "label": "SEC EDGAR — AI developer final offering prospectus",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
-    },
-    {
-      "id": "src15",
-      "label": "Issuer investor relations — chip designer quarterly earnings release",
+      "label": "Issuer investor relations — fiscal quarterly earnings release",
       "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
     },
     {
+      "id": "src10",
+      "label": "Issuer investor relations — preceding fiscal quarter release",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "id": "src11",
+      "label": "Issuer investor relations — definitive cybersecurity merger announcement",
+      "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero/"
+    },
+    {
+      "id": "src12",
+      "label": "Issuer filing — cybersecurity earnings exhibit and financial tables",
+      "url": "https://ir.crowdstrike.com/static-files/b5de12b0-ee2b-4f54-8246-fbba2c190b6d"
+    },
+    {
+      "id": "src13",
+      "label": "S&P Global — November flash US business survey commentary",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/us-flash-pmi-indicates-still-elevated-but-cooling-business-activity-growth-and-price-pressures"
+    },
+    {
+      "id": "src14",
+      "label": "CNINFO — display supplier acquisition framework filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225683687.PDF"
+    },
+    {
+      "id": "src15",
+      "label": "CNINFO — display supplier annual report summary",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225194635.PDF"
+    },
+    {
       "id": "src16",
-      "label": "CNINFO — logistics equipment supplier half-year report and issuer identification",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225486829.PDF"
+      "label": "Issuer quarterly report — display supplier filing PDF mirrored by Sina",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2026/2026-10/2026-10-29/12670824.PDF"
     },
     {
       "id": "src17",
-      "label": "Shenzhen Stock Exchange — optical components supplier half-year report and issuer identification",
-      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-19/788b066c-b687-4f11-8ae4-c6197f019370.PDF"
+      "label": "CNINFO — bank software supplier investigation notice",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682709.PDF"
     },
     {
       "id": "src18",
-      "label": "SEC EDGAR — chip designer financial commentary and fiscal-quarter dates",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+      "label": "CNINFO — bank software supplier buyback execution notice",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225684343.PDF"
+    },
+    {
+      "id": "src19",
+      "label": "CNINFO — bank software supplier interim report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225484708.PDF"
+    },
+    {
+      "id": "src20",
+      "label": "Issuer quarterly report — bank software supplier filing PDF mirrored by Sina",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2026/2026-10/2026-10-28/12668534.PDF"
+    },
+    {
+      "id": "src21",
+      "label": "China Money — November loan prime rate notice",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
+    },
+    {
+      "id": "src22",
+      "label": "China Money — October loan prime rate notice",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
+    },
+    {
+      "id": "src23",
+      "label": "CNINFO — bank software supplier buyback plan",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225682322.PDF"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-20",
-      "close": 6910.39,
-      "previousClose": 7175.83,
-      "changePercent": -3.7,
-      "sourceIds": [
-        "src1"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-20",
-      "close": 22617.73,
-      "previousClose": 23879.2,
-      "changePercent": -5.28,
+      "sessionDate": "2026-11-23",
+      "close": 24089.56,
+      "previousClose": 22617.73,
+      "changePercent": 6.51,
       "sourceIds": [
-        "src2"
+        "src3",
+        "src4",
+        "src5"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-23",
-      "close": 3538.95,
-      "previousClose": 3533.79,
-      "changePercent": 0.15,
-      "sourceIds": [
-        "src3"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
       "sessionDate": "2026-11-23",
       "close": 3958.29,
-      "previousClose": 3954.56,
+      "previousClose": 3954.57,
       "changePercent": 0.09,
       "sourceIds": [
-        "src4"
+        "src6"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f1",
-      "market": "cn",
-      "category": "company",
+      "id": "f3",
+      "market": "us",
+      "category": "earnings",
       "publishedOn": "2026-11-23",
       "company": {
-        "name": "Suzhou TFC Optical Communication Co., Ltd.",
-        "ticker": "300394",
-        "exchange": "Shenzhen Stock Exchange"
+        "name": "CrowdStrike Holdings, Inc.",
+        "ticker": "CRWD",
+        "exchange": "Nasdaq"
       },
       "metrics": [
         {
           "id": "m1",
-          "value": 4751099905,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
+          "value": 43900000000,
+          "unit": "USD",
+          "periodStart": "2026-11-20",
+          "periodEnd": "2026-11-20",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src11"
           ],
-          "evidence": "Main financial indicators, year-to-date column: consolidated operating revenue."
+          "evidence": "Transaction Details, approximate announced enterprise value based on the acquirer's reference closing share price; not cash paid or realized consideration."
         },
         {
           "id": "m2",
-          "value": 2083459571.46,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
+          "value": 1583419000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src12"
           ],
-          "evidence": "Main financial indicators, year-to-date column: net profit attributable to listed-company shareholders."
+          "evidence": "Earnings exhibit, consolidated statement of operations, fiscal quarter total revenue."
         },
         {
           "id": "m3",
-          "value": 1461851321.62,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
+          "value": 24856000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src6"
+            "src12"
           ],
-          "evidence": "Consolidated cash flow statement: cumulative net cash generated by operating activities."
+          "evidence": "Earnings exhibit, consolidated statement of operations, fiscal quarter GAAP net income attributable to the parent."
+        },
+        {
+          "id": "m4",
+          "value": 665176000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "Earnings exhibit, free cash flow reconciliation, quarterly GAAP operating cash flow row before deductions."
         }
       ],
       "sourceIds": [
-        "src5",
-        "src6",
-        "src17"
+        "src11",
+        "src12"
       ],
-      "evidence": "The cooperation overview and project terms disclose an agreement with the Nanchang development zone and a subsidiary registered to carry out the proposed optical components project. The impact section says management does not expect the signing to materially affect current-year results. The quarterly report supplies the financial baseline, and the half-year report identifies the issuer."
+      "evidence": "The merger release describes a definitive all-stock agreement, independent operations until closing, and shareholder and regulatory conditions. The earnings exhibit separately reports standalone sales, GAAP income and operating cash flow."
     },
     {
       "id": "f5",
       "market": "us",
-      "category": "company",
-      "publishedOn": "2026-11-19",
-      "company": {
-        "name": "Anthropic, PBC",
-        "ticker": "ANT",
-        "exchange": "Nasdaq Global Select Market"
-      },
+      "category": "economy",
+      "publishedOn": "2026-11-23",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 83,
-          "unit": "USD",
-          "periodStart": "2026-11-18",
-          "periodEnd": "2026-11-18",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Final prospectus cover: initial public offering price per share on the pricing date."
-        },
-        {
-          "id": "m2",
-          "value": 111.5,
-          "unit": "USD",
-          "periodStart": "2026-11-19",
-          "periodEnd": "2026-11-19",
+          "value": 54.6,
+          "unit": "index",
+          "periodStart": "2026-11-01",
+          "periodEnd": "2026-11-23",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src13"
           ],
-          "evidence": "Exchange debut notice: opening trade price per share, not the closing price."
+          "evidence": "Output section, preliminary November composite output index as of the flash release, not a final reading for the month."
         },
         {
-          "id": "m3",
-          "value": 81340000000,
-          "unit": "USD",
-          "periodStart": "2026-11-18",
-          "periodEnd": "2026-11-18",
+          "id": "m2",
+          "value": 55.9,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src14"
+            "src13"
           ],
-          "evidence": "Final prospectus cover pricing table: gross initial offering value, including selling-holder shares and excluding the underwriter option."
-        },
-        {
-          "id": "m4",
-          "value": 33242000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Results of Operations, current interim column: consolidated revenue."
-        },
-        {
-          "id": "m5",
-          "value": -104039000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Results of Operations, current interim column: consolidated net loss, including fair-value changes on financing instruments."
-        },
-        {
-          "id": "m6",
-          "value": 6569000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Cash Flows summary, current interim column: net cash provided by operating activities."
-        },
-        {
-          "id": "m7",
-          "value": -36546000000,
-          "unit": "USD",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Consolidated cash flow statement, current interim column: net cash used in investing activities, including purchases of short-term investments."
+          "evidence": "Output section, October composite output index given as the comparison reading."
         }
       ],
       "sourceIds": [
-        "src13",
-        "src14"
+        "src13"
       ],
-      "evidence": "The exchange confirms the debut and opening price. The prospectus cover separates issuer shares from selling-holder shares. The interim operating results and cash flow tables show that a reported net loss coexisted with positive operating cash flow."
+      "evidence": "The survey producer's output and prices sections show softer but still expanding activity and easing but elevated price pressures. Its employment and operating capacity section reports rising backlogs and continued hiring."
     }
   ],
   "locales": {
     "en": {
-      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
+      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
       "marketSummary": {
-        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "A mainland optical supplier plans a new production base",
-          "summary": "An optical components supplier signed a development agreement for a research and manufacturing project in Nanchang.",
-          "impact": "The proposed plant could expand capacity for high-speed data links, but the agreement does not guarantee customer orders.",
-          "what": "Suzhou TFC Optical Communication makes optical components that help transmit data at high speeds. Its agreement with the Nanchang development zone covers research and manufacturing for products aimed at large data centers and supercomputing facilities. The company registered a local subsidiary to carry out the project. The zone agreed to help with site preparation, utility access and administrative approvals. The filing is an agreement to develop capacity, not a disclosure of completed construction or equipment already in service.",
-          "why": "A data center needs to move information quickly between machines as well as process it. That creates demand for optical links alongside demand for computing chips. The earlier earnings report shows the supplier was already profitable and generating operating cash, but those figures describe the existing business. A new plant would require spending before it could make and ship saleable components. Its economic value depends on how much of the new capacity customers ultimately use.",
-          "uncertainty": "The filing does not quantify the capital budget, customer commitments or the date commercial production begins. Management does not expect the signing itself to materially affect current-year results.",
-          "watch": "Look for a completed land transfer, disclosed capital spending, equipment installation and evidence that customers have qualified products made at the new site.",
+          "id": "f3",
+          "title": "CrowdStrike reports earnings and agrees to buy Zscaler with stock",
+          "summary": "CrowdStrike reported a quarterly accounting profit and agreed to buy Zscaler in an all-stock deal.",
+          "impact": "The combination could simplify security purchasing for some businesses, while existing CrowdStrike shareholders would share ownership with the seller's investors.",
+          "what": "CrowdStrike sells subscriptions that help organizations monitor and protect devices and workloads. Zscaler focuses on securing access to applications and data over networks. Their standalone offerings address different parts of the same job: protecting a device and controlling what it can connect to. The merger announcement and CrowdStrike's quarterly report were released together, but the reported earnings do not include a combined business.",
+          "why": "A combined offering could let buyers manage devices and access policies under fewer contracts. That only helps if the products work together well enough to offset migration and training costs. Investors should also separate the announcement value from the way the deal is paid for. With stock as consideration, the implied value can move with the buyer's share price; it is not a cash bill. In the quarter, operating cash flow exceeded GAAP profit. Cash collections and accounting expenses do not occur on the same schedule, and operating cash flow is measured before equipment and capitalized software spending.",
+          "uncertainty": "The deal still needs approval from Zscaler shareholders and relevant regulators, and the companies remain independent until closing. The releases do not establish what customers will pay for combined products or how many will adopt them.",
+          "watch": "Look for the merger registration and proxy materials, regulatory decisions and later disclosures on product integration, customer retention and spending.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Year-to-date revenue"
+              "label": "Announced enterprise value at reference close"
             },
             {
               "id": "m2",
-              "label": "Year-to-date attributable net profit"
+              "label": "Fiscal quarter revenue"
             },
             {
               "id": "m3",
-              "label": "Year-to-date operating cash flow"
+              "label": "Fiscal quarter GAAP net income attributable to parent"
+            },
+            {
+              "id": "m4",
+              "label": "Fiscal quarter operating cash flow"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "An AI developer goes public, putting its cash needs on display",
-          "summary": "Anthropic began public trading above its offer price, and its prospectus laid out the difference between its reported loss and operating cash generation.",
-          "impact": "The listing gives public investors a direct view of whether paid AI usage can support the cost of supplying it.",
-          "what": "Anthropic sells access to its Claude models through subscriptions and usage-based services. The exchange confirmed that its shares began trading and identified the opening price. The offering value includes stock sold by existing holders, whose proceeds do not go to the company. The prospectus also disclosed an interim accounting loss alongside positive operating cash flow. Revaluations of financing instruments explain much of the reported loss; those accounting entries are not equivalent to cash paid out in the period.",
-          "why": "Selling new shares brings in financing, not customer revenue. That distinction matters for a business that needs computing capacity to train models and serve customers. Positive operating cash flow shows that operations generated cash over the disclosed period, but it does not tell investors what remains after investment. The investing outflow also includes purchases of short-term investments, so treating it all as spending on computers would overstate that cost. For businesses adopting these tools, how the provider manages capacity affects the availability and cost of the service.",
-          "uncertainty": "The opening price is not a closing price or a measure of long-term demand for the stock. The interim financial statements are unaudited, and the offering value is not a confirmation of net cash received by the company.",
-          "watch": "Use the next public financial filing to track usage-based revenue, computing commitments, infrastructure spending and cash generated by operations separately from new financing.",
+          "title": "US business activity still expands as growth and price pressure cool",
+          "summary": "The preliminary US purchasing managers survey showed slower expansion, continued hiring and easing but still elevated price pressure.",
+          "impact": "Businesses are still reporting growth, but the survey gives households little reason to expect that price increases will stop quickly.",
+          "what": "The composite index tracks whether surveyed firms report that activity is rising or falling. The November preliminary reading slipped from October but still pointed to expansion. Services outpaced manufacturing, though activity growth slowed in each. The survey also reported that firms added staff as unfinished work piled up, and that manufacturers faced longer delivery times for inputs.",
+          "why": "Slower growth is different from falling output. A business can still be taking on work even as new activity loses momentum. Rising backlogs also suggest that a slowdown in completed work can reflect limited capacity, not just softer demand. Easing fuel costs helped relieve some price pressure, but firms continued to report rising costs for other inputs and wages. Whether households notice relief depends partly on how much of that cost businesses pass through and whether the slowdown in price pressure lasts beyond the survey.",
+          "uncertainty": "This is an early survey reading, not an official output, payroll or consumer inflation release. It cannot establish how much the economy grew or what the Federal Reserve will do.",
+          "watch": "Compare the final survey with official payroll and inflation releases, and look for whether supplier delays and backlogs ease without a broad decline in hiring.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Initial offer price per share"
+              "label": "November flash composite output index"
             },
             {
               "id": "m2",
-              "label": "Opening trade price per share"
-            },
-            {
-              "id": "m3",
-              "label": "Gross offering value at pricing"
-            },
-            {
-              "id": "m4",
-              "label": "Year-to-date revenue"
-            },
-            {
-              "id": "m5",
-              "label": "Year-to-date net loss"
-            },
-            {
-              "id": "m6",
-              "label": "Year-to-date operating cash flow"
-            },
-            {
-              "id": "m7",
-              "label": "Year-to-date investing cash flow"
+              "label": "October composite output index"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请留意各条内容的发布日期；近期发布的公司报告仅用于帮助理解背景。",
+      "status": "本期经核实的报道有限。部分市场没有经核实的新消息；较早发布的报告仍明确标注原有日期。",
       "marketSummary": {
-        "us": "本期跟踪的指数在各自最近经核实的交易日均收跌。标注日期的收盘数据反映的是对应交易日的表现，并非实时行情。",
-        "cn": "本期跟踪的指数在各自最近经核实的交易日均收涨。标注日期的收盘数据反映的是对应交易日的表现，并非实时行情。"
+        "us": "部分收盘数据未能核实。已取得数据的指数均保留各自对应的交易日期。",
+        "cn": "部分收盘数据未能核实。已取得数据的指数均保留各自对应的交易日期。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "中国大陆光器件供应商拟建新生产基地",
-          "summary": "光器件供应商天孚通信签署了在南昌开展研发和生产项目的开发协议。",
-          "impact": "拟建工厂有望扩大用于高速数据传输的光器件产能，但签约并不意味着一定能拿到客户订单。",
-          "what": "苏州天孚光通信生产用于高速传输数据的光器件。公司与南昌开发区签署的协议涵盖面向大型数据中心和超级计算设施的产品研发与生产。公司已在当地注册子公司来实施项目。开发区同意协助做好场地准备、水电等配套接入和行政审批。公告披露的是扩建产能的协议，并不代表工厂已经建成或设备已经投用。",
-          "why": "数据中心不仅要处理信息，还要在设备之间快速传输信息。因此，除了需要计算芯片，数据中心也需要光互连。此前的财报显示，公司已有盈利，经营活动也产生了现金，但这些数据反映的是现有业务。新工厂要先投入资金，才能生产并交付可销售的器件。项目的经济价值取决于客户需求最终能消化多少新增产能。",
-          "uncertainty": "公告未披露具体的投资预算、客户承诺或正式投产时间。管理层预计，签约本身不会对当年业绩产生重大影响。",
-          "watch": "关注土地是否完成移交、资本支出是否披露、设备是否安装，以及新基地生产的产品是否通过客户验证。",
+          "id": "f3",
+          "title": "CrowdStrike公布财报，同意以股票收购Zscaler",
+          "summary": "CrowdStrike公布财季会计利润，并同意收购Zscaler，交易对价全部以股票支付。",
+          "impact": "合并可能让部分企业更容易采购安全产品，但CrowdStrike现有股东将与Zscaler股东共同持有合并后的公司。",
+          "what": "CrowdStrike以订阅方式提供服务，帮助各类机构监控和保护设备及其运行的应用和任务。Zscaler专注于保护通过网络访问应用和数据的过程。两家公司的现有产品各有侧重：CrowdStrike保护设备，Zscaler则管控设备能访问哪些应用和数据。合并公告与CrowdStrike的财季报告同时发布，但已公布的业绩不包含合并后的业务。",
+          "why": "合并后的产品可能让买方用更少的合同来管理设备和访问权限。但只有产品配合得足够好，带来的好处能抵消系统迁移和人员培训成本，这样做才有价值。理解这笔交易时，要区分公告中的交易估值和实际支付方式。由于对价是股票，按股价推算的交易价值会随买方股价变动，并不是要支付的现金金额。该财季的经营现金流高于按美国通用会计准则计算的净利润。实际收款与会计上确认费用的时间并不总是相同，经营现金流也未扣除设备购置和计入资产的软件支出。",
+          "uncertainty": "交易仍需获得Zscaler股东和相关监管机构批准。在交割前，两家公司仍独立运营。已发布的信息无法说明客户会为整合后的产品支付多少，也无法确定会有多少客户采用。",
+          "watch": "后续关注合并注册文件、股东投票委托材料和监管决定，以及公司对产品整合、客户留存和支出的后续披露。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "年初至今累计营收"
+              "label": "按参考收盘价计算的公告企业价值"
             },
             {
               "id": "m2",
-              "label": "年初至今累计归母净利润"
+              "label": "财季营收"
             },
             {
               "id": "m3",
-              "label": "年初至今累计经营现金流"
+              "label": "财季归属于母公司的净利润（按美国通用会计准则）"
+            },
+            {
+              "id": "m4",
+              "label": "财季经营现金流"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "人工智能开发商上市，资金需求受到关注",
-          "summary": "Anthropic 上市开盘价高于发行价。招股书解释了为何公司账面亏损，经营现金流却为正。",
-          "impact": "上市后，公开市场投资者可以直接观察客户为使用人工智能服务支付的费用能否覆盖服务成本。",
-          "what": "Anthropic 通过订阅和按用量计费的服务向客户提供 Claude 模型。交易所确认公司股票已开始交易，并公布了开盘价。发行总额包含原股东出售股份的金额，这部分资金不会流入公司。招股书还披露，公司在中期报告期内出现账面亏损，但经营现金流为正。账面亏损很大程度上来自融资工具的重新估值，这些会计调整并不等同于报告期内实际付出的现金。",
-          "why": "发行新股筹到的是融资款，不是来自客户的营收。对需要算力来训练模型和服务客户的公司来说，这一区别很重要。经营现金流为正，说明披露期内经营活动带来了净现金流入，但不能说明投资之后还剩多少现金。投资活动的现金流出也包括购买短期投资产品，如果全算成计算设备开支，就会高估这项成本。对采用这些工具的企业来说，服务商如何管理算力资源，会影响服务的可用性和使用成本。",
-          "uncertainty": "开盘价不是收盘价，也不能用来衡量市场对该股票的长期需求。中期财务报表未经审计，发行总额也不能用来确认公司实际收到的净额。",
-          "watch": "关注下次公开披露的财务文件，跟踪按用量计费的营收、已承诺的算力支出和基础设施开支，并区分经营活动产生的现金与新融入的资金。",
+          "title": "美国商业活动仍在扩张，增速放缓，价格压力减轻",
+          "summary": "美国采购经理人调查初值显示，商业活动扩张放缓，企业仍在增聘员工，价格压力有所减轻但依然偏高。",
+          "impact": "企业仍报告业务增长，但调查并未给家庭多少理由预期物价会很快停止上涨。",
+          "what": "综合指数反映受访企业报告的业务活动是在增加还是减少。本期初值较上期回落，但仍显示商业活动在扩张。服务业增长快于制造业，不过各行业的活动增速均有所放缓。调查还显示，随着未完成的工作积压，企业增加了人手；制造商采购的生产物资则需要更长时间才能到货。",
+          "why": "增速放缓不等于产出下降。即使新增业务势头减弱，企业也可能仍在接到新业务。积压增加也表明，工作完成得更慢可能是因为人手或产能有限，不只是因为需求走弱。燃料成本下降缓解了部分价格压力，但企业仍报告其他投入品成本和工资上涨。家庭能否感受到价格压力减轻，部分取决于企业把多少成本转嫁给消费者，以及这种缓和能否在调查期之后延续。",
+          "uncertainty": "这只是调查初值，不是官方发布的产出、非农就业人数或消费者通胀数据。它无法确定经济增长了多少，也不能说明美联储会采取什么行动。",
+          "watch": "将调查终值与官方非农就业人数和通胀数据对照，观察供应商交货延迟和工作积压能否在招聘没有普遍减少的情况下缓解。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "每股发行价"
+              "label": "本期综合产出指数初值"
             },
             {
               "id": "m2",
-              "label": "每股开盘价"
-            },
-            {
-              "id": "m3",
-              "label": "按发行价计算的发行总额"
-            },
-            {
-              "id": "m4",
-              "label": "年初至今累计营收"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今累计净亏损"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今累计经营现金流"
-            },
-            {
-              "id": "m7",
-              "label": "年初至今累计投资现金流"
+              "label": "上期综合产出指数"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour donner du contexte.",
+      "status": "Cette édition contient peu d’informations vérifiées. Pour certains marchés, aucune nouvelle information n’a pu être vérifiée. Les publications déjà datées restent clairement identifiées.",
       "marketSummary": {
-        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés correspondent à ces séances et non aux échanges en cours.",
-        "cn": "Les indices suivis ont progressé lors de leurs dernières séances vérifiées. Les cours de clôture datés correspondent à ces séances et non aux échanges en cours."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice présenté conserve la date de la séance correspondante.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice présenté conserve la date de la séance correspondante."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Un fournisseur de composants optiques de Chine continentale prévoit un nouveau site de production",
-          "summary": "Un fournisseur de composants optiques a signé un accord pour développer un projet de recherche et de fabrication à Nanchang.",
-          "impact": "L’usine envisagée pourrait accroître les capacités de production de composants pour les liaisons de données à haut débit, mais l’accord ne garantit aucune commande.",
-          "what": "Suzhou TFC Optical Communication fabrique des composants optiques qui servent à transmettre des données à haut débit. Son accord avec la zone de développement de Nanchang porte sur la recherche et la fabrication de produits destinés aux grands centres de données et aux installations de calcul intensif. L’entreprise a fait immatriculer une filiale locale pour mener le projet. La zone de développement s’est engagée à faciliter l’aménagement du site, son raccordement aux réseaux et l’obtention des autorisations administratives. Le document publié présente un accord visant à développer les capacités de production. Il n’annonce ni la fin des travaux ni la mise en service d’équipements.",
-          "why": "Un centre de données doit non seulement traiter les informations, mais aussi les faire circuler rapidement entre les machines. Cela crée une demande de liaisons optiques en plus de la demande de puces de calcul. Le précédent rapport de résultats montre que le fournisseur était déjà rentable et que son activité générait de la trésorerie, mais ces résultats concernent l’activité existante. Une nouvelle usine nécessiterait des dépenses avant de pouvoir fabriquer et livrer des composants commercialisables. Son intérêt économique dépendra de la part de la nouvelle capacité que les clients utiliseront en pratique.",
-          "uncertainty": "Le document ne précise ni le budget d’investissement, ni les engagements des clients, ni la date de démarrage de la production commerciale. La direction ne s’attend pas à ce que la signature elle-même ait un effet significatif sur les résultats de l’exercice en cours.",
-          "watch": "À suivre : la finalisation du transfert du terrain, la publication des dépenses d’investissement, l’installation des équipements et la confirmation que les clients ont validé les produits fabriqués sur le nouveau site.",
+          "id": "f3",
+          "title": "CrowdStrike publie ses résultats et conclut un accord pour racheter Zscaler en actions",
+          "summary": "CrowdStrike a dégagé un bénéfice comptable sur le trimestre et a conclu un accord pour racheter Zscaler dans le cadre d’une opération entièrement payée en actions.",
+          "impact": "Le rapprochement pourrait simplifier l’achat de solutions de cybersécurité pour certaines entreprises. Les actionnaires actuels de CrowdStrike partageraient le capital avec les actionnaires de Zscaler.",
+          "what": "CrowdStrike vend des abonnements qui aident les organisations à surveiller et à protéger leurs appareils et les applications qui s’exécutent sur leurs systèmes. Zscaler se spécialise dans la sécurisation de l’accès aux applications et aux données via les réseaux. Leurs offres actuelles sont complémentaires : l’une protège les appareils, l’autre contrôle les ressources auxquelles ils peuvent se connecter. L’accord de fusion et les résultats trimestriels de CrowdStrike ont été annoncés en même temps, mais les résultats publiés ne tiennent pas compte du rapprochement.",
+          "why": "Une offre commune pourrait permettre aux clients de gérer leurs appareils et leurs règles d’accès avec moins de contrats. Cet avantage ne se concrétiserait que si les produits fonctionnent assez bien ensemble pour compenser les coûts de transition et de formation. Il faut aussi distinguer la valeur annoncée de l’opération de son mode de paiement. Comme le paiement se fait en actions, la valeur de l’opération peut évoluer avec le cours de CrowdStrike : il ne s’agit pas d’une somme à verser en espèces. Sur le trimestre, le flux de trésorerie d’exploitation a dépassé le bénéfice calculé selon les normes comptables américaines. Les encaissements et la comptabilisation des charges ne suivent pas le même calendrier. Le flux de trésorerie d’exploitation est calculé avant déduction des dépenses d’équipement et des dépenses de logiciels comptabilisées comme investissements.",
+          "uncertainty": "L’opération doit encore être approuvée par les actionnaires de Zscaler et les autorités compétentes. Les entreprises resteront indépendantes jusqu’à sa finalisation. Les communiqués ne permettent pas de savoir quel prix les clients paieront pour les offres communes ni dans quelle mesure ils les adopteront.",
+          "watch": "À suivre : le dossier d’enregistrement de la fusion, les documents de sollicitation de procurations, les décisions des autorités et les prochaines communications sur l’intégration des produits, la fidélisation des clients et les dépenses.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
+              "label": "Valeur d’entreprise annoncée au cours de clôture de référence"
             },
             {
               "id": "m2",
-              "label": "Résultat net part du groupe cumulé depuis le début de l’exercice"
+              "label": "Chiffre d’affaires du trimestre fiscal"
             },
             {
               "id": "m3",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
+              "label": "Résultat net du trimestre fiscal, part du groupe, selon les normes comptables américaines"
+            },
+            {
+              "id": "m4",
+              "label": "Flux de trésorerie d’exploitation du trimestre fiscal"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "L’entrée en Bourse d’un développeur d’IA met en lumière ses besoins de financement",
-          "summary": "Anthropic a commencé à coter au-dessus de son prix d’introduction. Son prospectus explique pourquoi l’entreprise a pu afficher une perte comptable tout en générant de la trésorerie grâce à son activité.",
-          "impact": "La cotation permet aux investisseurs en Bourse de voir directement si les revenus tirés de l’utilisation payante de l’IA peuvent couvrir les coûts du service.",
-          "what": "Anthropic vend l’accès à ses modèles Claude par abonnement ou en facturant les services à l’usage. La Bourse a confirmé le début des échanges sur l’action et indiqué son cours d’ouverture. Le montant de l’offre inclut la vente d’actions par des actionnaires existants, qui en reçoivent le produit à la place de l’entreprise. Le prospectus fait aussi état d’une perte comptable sur la période intermédiaire, alors que le flux de trésorerie d’exploitation était positif. La réévaluation d’instruments de financement explique une grande partie de la perte publiée. Ces écritures comptables ne correspondent pas à des sorties d’argent sur la période.",
-          "why": "L’émission d’actions nouvelles apporte des fonds à l’entreprise, mais ne constitue pas du chiffre d’affaires. La distinction compte pour une société qui a besoin de puissance de calcul pour entraîner ses modèles et servir ses clients. Un flux de trésorerie d’exploitation positif montre que l’activité a généré de la trésorerie sur la période présentée, sans indiquer ce qu’il reste après les investissements. Les sorties de trésorerie liées aux investissements comprennent aussi des achats de placements à court terme. Les attribuer toutes à l’achat de matériel informatique reviendrait donc à surestimer ce coût. Pour les entreprises qui adoptent ces outils, la façon dont le fournisseur gère sa capacité de calcul influe sur la disponibilité et le coût du service.",
-          "uncertainty": "Le cours d’ouverture n’est ni un cours de clôture ni une mesure de la demande à long terme pour l’action. Les comptes intermédiaires n’ont pas été audités, et le montant de l’offre ne confirme pas combien l’entreprise a réellement encaissé, net de frais.",
-          "watch": "Dans la prochaine publication financière, suivre les revenus facturés à l’usage, les engagements liés à la capacité de calcul et les dépenses d’infrastructure. Distinguer la trésorerie générée par l’activité des fonds issus de nouveaux financements.",
+          "title": "Aux États-Unis, l’activité des entreprises progresse encore, mais la croissance ralentit et les pressions sur les prix s’atténuent",
+          "summary": "Les résultats préliminaires de l’enquête américaine auprès des directeurs d’achat indiquent une croissance plus lente, des embauches qui se poursuivent et des pressions sur les prix qui s’atténuent mais restent fortes.",
+          "impact": "Les entreprises signalent toujours une hausse de leur activité, mais l’enquête donne peu de raisons aux ménages de s’attendre à ce que les prix cessent rapidement d’augmenter.",
+          "what": "L’indice composite indique si les entreprises interrogées signalent une hausse ou une baisse de leur activité. L’estimation préliminaire de novembre a reculé par rapport à octobre, mais indiquait toujours une progression de l’activité. Les services ont progressé plus vite que l’industrie manufacturière, même si la croissance a ralenti dans chacun de ces secteurs. Selon l’enquête, les entreprises ont aussi recruté alors que le travail en attente s’accumulait, et les industriels ont signalé des délais de livraison plus longs pour leurs approvisionnements.",
+          "why": "Une croissance plus lente ne signifie pas que la production recule. Une entreprise peut continuer à accepter du travail même si les nouvelles commandes arrivent moins vite. L’accumulation de travail en attente suggère aussi que, si le travail avance moins vite, cela peut tenir à des capacités limitées et pas seulement à une demande plus faible. La baisse du coût des carburants a atténué les pressions sur les prix, mais les entreprises continuent de signaler une hausse du coût de leurs autres approvisionnements et des salaires. Pour les ménages, le soulagement dépend notamment de la part de ces hausses de coûts que les entreprises répercutent sur leurs prix et de la durée de cette accalmie au-delà de la période couverte par l’enquête.",
+          "uncertainty": "Il s’agit de résultats préliminaires d’une enquête, et non de statistiques officielles sur la production, l’emploi salarié ou les prix à la consommation. Ils ne permettent pas de mesurer la croissance de l’économie ni de savoir ce que fera la Réserve fédérale.",
+          "watch": "À suivre : les résultats définitifs de l’enquête, à comparer aux statistiques officielles sur l’emploi salarié et l’inflation. Il reste à voir si les délais de livraison raccourcissent et si le travail en attente diminue sans recul généralisé des embauches.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Prix d’introduction par action"
+              "label": "Indice composite d’activité de novembre, estimation préliminaire"
             },
             {
               "id": "m2",
-              "label": "Cours d’ouverture par action"
-            },
-            {
-              "id": "m3",
-              "label": "Montant brut de l’offre au prix fixé"
-            },
-            {
-              "id": "m4",
-              "label": "Chiffre d’affaires cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m5",
-              "label": "Perte nette cumulée depuis le début de l’exercice"
-            },
-            {
-              "id": "m6",
-              "label": "Flux de trésorerie d’exploitation cumulé depuis le début de l’exercice"
-            },
-            {
-              "id": "m7",
-              "label": "Flux de trésorerie d’investissement cumulé depuis le début de l’exercice"
+              "label": "Indice composite d’activité d’octobre"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan como contexto.",
+      "status": "La cobertura verificada de esta edición es limitada. En algunos mercados no hay noticias nuevas que se hayan podido verificar. Los informes de fechas anteriores siguen claramente identificados.",
       "marketSummary": {
-        "us": "Los índices que seguimos bajaron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la negociación actual.",
-        "cn": "Los índices que seguimos subieron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la negociación actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su sesión bursátil.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su sesión bursátil."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Un proveedor de componentes ópticos de China continental planea una nueva planta",
-          "summary": "Un proveedor de componentes ópticos firmó un acuerdo para desarrollar un proyecto de investigación y fabricación en Nanchang.",
-          "impact": "La planta prevista podría ampliar la capacidad de producción de componentes para enlaces de datos de alta velocidad, pero el acuerdo no garantiza pedidos de clientes.",
-          "what": "Suzhou TFC Optical Communication fabrica componentes ópticos que permiten transmitir datos a gran velocidad. Su acuerdo con la zona de desarrollo de Nanchang abarca la investigación y la fabricación de productos destinados a grandes centros de datos e instalaciones de supercomputación. La empresa registró una filial local para llevar a cabo el proyecto. La zona se comprometió a facilitar la preparación del terreno, el acceso a servicios básicos y la tramitación de permisos. El comunicado anuncia un acuerdo para ampliar la capacidad de producción; no afirma que las obras hayan terminado ni que haya equipos en funcionamiento.",
-          "why": "Un centro de datos necesita tanto procesar información como moverla rápidamente entre equipos. Eso genera demanda de enlaces ópticos, además de chips de cómputo. El informe de resultados anterior muestra que el proveedor ya era rentable y generaba efectivo con sus operaciones, pero esos datos corresponden al negocio existente. La nueva planta exigiría invertir antes de poder fabricar y entregar componentes listos para la venta. Su valor económico dependerá de cuánto de esa capacidad terminen utilizando los clientes.",
-          "uncertainty": "El comunicado no indica el presupuesto de inversión, los compromisos de los clientes ni la fecha de inicio de la producción comercial. La dirección no espera que la firma del acuerdo, por sí sola, afecte de forma significativa a los resultados del ejercicio en curso.",
-          "watch": "Conviene seguir si se completa la transferencia del terreno, si se publica el gasto de inversión, si se instalan los equipos y si hay pruebas de que los clientes han aprobado los productos fabricados en la nueva planta.",
+          "id": "f3",
+          "title": "CrowdStrike presenta sus resultados y acuerda comprar Zscaler con acciones",
+          "summary": "CrowdStrike registró un beneficio contable trimestral y acordó comprar Zscaler en una operación que se pagará íntegramente con acciones.",
+          "impact": "La unión podría simplificar la compra de servicios de seguridad para algunas empresas. Los actuales accionistas de CrowdStrike compartirían la propiedad con los accionistas de Zscaler.",
+          "what": "CrowdStrike vende suscripciones que ayudan a las organizaciones a supervisar y proteger sus dispositivos y cargas de trabajo informáticas. Zscaler se centra en proteger el acceso a aplicaciones y datos a través de redes. Sus productos cubren aspectos distintos de una misma tarea: proteger un dispositivo y controlar a qué puede conectarse. El anuncio de la fusión y el informe trimestral de CrowdStrike se publicaron al mismo tiempo, pero los resultados no incluyen las operaciones de las empresas como negocio combinado.",
+          "why": "Una oferta conjunta podría permitir a los clientes gestionar sus dispositivos y políticas de acceso con menos contratos. Eso solo sería una ventaja si los productos funcionan juntos lo bastante bien como para compensar los costes de migración y formación. También conviene distinguir el valor anunciado de la operación de la forma de pago. Como se paga con acciones, el valor implícito puede variar con la cotización de CrowdStrike: no es un desembolso en efectivo. En el trimestre, el flujo de efectivo de las actividades operativas superó el beneficio contable según los principios GAAP. Los cobros y el reconocimiento de los gastos contables no siempre coinciden en el tiempo. Además, el flujo de efectivo de las actividades operativas se calcula sin descontar el gasto en equipos ni en software que se registra como activo.",
+          "uncertainty": "La operación aún necesita la aprobación de los accionistas de Zscaler y de los reguladores pertinentes. Las empresas seguirán siendo independientes hasta que se cierre la compra. Los comunicados no indican cuánto pagarán los clientes por los productos combinados ni cuántos los usarán.",
+          "watch": "Documentación de registro de la fusión y de votación de los accionistas, decisiones de los reguladores y futuras comunicaciones sobre la integración de los productos, la retención de clientes y el gasto.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos acumulados en el ejercicio"
+              "label": "Valor de empresa anunciado según la cotización de cierre de referencia"
             },
             {
               "id": "m2",
-              "label": "Beneficio neto atribuible acumulado en el ejercicio"
+              "label": "Ingresos del trimestre fiscal"
             },
             {
               "id": "m3",
-              "label": "Flujo de efectivo de las actividades de explotación acumulado en el ejercicio"
+              "label": "Beneficio neto del trimestre fiscal atribuible a la matriz según GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Flujo de efectivo de las actividades operativas del trimestre fiscal"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "La salida a bolsa de una empresa de IA pone de relieve sus necesidades de efectivo",
-          "summary": "Anthropic debutó en bolsa por encima de su precio de oferta. Su folleto explicó la diferencia entre la pérdida contable declarada y el efectivo que generaron sus operaciones.",
-          "impact": "La salida a bolsa permite a los inversores ver directamente si los ingresos por el uso de servicios de IA pueden cubrir el coste de ofrecerlos.",
-          "what": "Anthropic vende acceso a sus modelos Claude mediante suscripciones y servicios que se cobran según el uso. La bolsa confirmó el inicio de la negociación de las acciones y dio a conocer el precio de apertura. El importe de la oferta incluye acciones vendidas por accionistas existentes: el dinero de esas ventas no va a la empresa. El folleto también mostró una pérdida contable en el periodo intermedio y, al mismo tiempo, un flujo de efectivo positivo de las actividades de explotación. Los cambios en la valoración de instrumentos de financiación explican gran parte de la pérdida declarada. Esos ajustes contables no equivalen a salidas de efectivo durante el periodo.",
-          "why": "Vender acciones nuevas aporta financiación, no ingresos de clientes. La distinción importa para una empresa que necesita capacidad de cómputo para entrenar modelos y prestar servicio a sus clientes. Un flujo de efectivo positivo de las actividades de explotación indica que el negocio generó efectivo durante el periodo informado, pero no dice cuánto quedó después de invertir. Las salidas de efectivo por actividades de inversión también incluyen compras de inversiones a corto plazo. Atribuirlas por completo a la compra de equipos informáticos exageraría ese coste. Para las empresas que adoptan estas herramientas, la forma en que el proveedor gestiona su capacidad influye en la disponibilidad y el coste del servicio.",
-          "uncertainty": "El precio de apertura no es el de cierre ni mide la demanda de las acciones a largo plazo. Los estados financieros del periodo intermedio no están auditados, y el importe de la oferta no confirma cuánto efectivo neto recibió la empresa.",
-          "watch": "En el próximo informe financiero público, conviene seguir los ingresos por servicios cobrados según el uso, los compromisos de capacidad de cómputo y el gasto en infraestructura, y distinguir el efectivo generado por las operaciones del obtenido mediante nueva financiación.",
+          "title": "La actividad empresarial en Estados Unidos sigue creciendo, pero pierde ritmo y se modera la presión sobre los precios",
+          "summary": "La encuesta preliminar a los responsables de compras de Estados Unidos mostró que la actividad creció más despacio, que las empresas siguieron contratando y que la presión sobre los precios disminuyó, aunque siguió siendo alta.",
+          "impact": "Las empresas siguen registrando crecimiento, pero la encuesta da pocos motivos a los hogares para esperar que los precios dejen de subir pronto.",
+          "what": "El índice compuesto refleja si las empresas encuestadas dicen que su actividad aumenta o disminuye. El dato preliminar de noviembre bajó respecto al de octubre, pero siguió indicando expansión. Los servicios crecieron más que la industria manufacturera, aunque el ritmo de crecimiento se moderó en ambos sectores. La encuesta también señaló que las empresas contrataron personal mientras se acumulaba el trabajo pendiente y que la industria manufacturera tuvo que esperar más tiempo para recibir sus insumos.",
+          "why": "Crecer más despacio no es lo mismo que producir menos. Una empresa puede seguir aceptando trabajo aunque la actividad nueva pierda impulso. Si se acumula el trabajo pendiente, eso también sugiere que se podría estar terminando trabajo a un ritmo más lento por falta de capacidad y no solo por una demanda más débil. El abaratamiento del combustible alivió parte de la presión sobre los precios, pero las empresas siguieron señalando aumentos salariales y subidas en el coste de otros insumos. Que los hogares noten algún alivio depende en parte de cuánto trasladen las empresas esos costes a sus precios y de si la moderación de las presiones continúa después del periodo de la encuesta.",
+          "uncertainty": "Es un dato preliminar de una encuesta, no una publicación oficial sobre producción, empleo asalariado o inflación al consumidor. No permite determinar cuánto creció la economía ni qué hará la Reserva Federal.",
+          "watch": "Comparación de los resultados definitivos de la encuesta con los datos oficiales de empleo asalariado e inflación. También importa si se reducen los retrasos de los proveedores y el trabajo pendiente sin que caigan las contrataciones de forma generalizada.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Precio inicial de oferta por acción"
+              "label": "Índice compuesto de actividad de noviembre, dato preliminar"
             },
             {
               "id": "m2",
-              "label": "Precio de apertura por acción"
-            },
-            {
-              "id": "m3",
-              "label": "Importe bruto de la oferta al fijarse el precio"
-            },
-            {
-              "id": "m4",
-              "label": "Ingresos acumulados en el ejercicio"
-            },
-            {
-              "id": "m5",
-              "label": "Pérdida neta acumulada en el ejercicio"
-            },
-            {
-              "id": "m6",
-              "label": "Flujo de efectivo de las actividades de explotación acumulado en el ejercicio"
-            },
-            {
-              "id": "m7",
-              "label": "Flujo de efectivo de las actividades de inversión acumulado en el ejercicio"
+              "label": "Índice compuesto de actividad de octubre"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業発表は、背景を理解するための解説として紹介しています。",
+      "status": "今号で確認できた情報は限られています。新たに確認できたニュースがない市場もあります。過去の報告には、いつの情報かを明記しています。",
       "marketSummary": {
-        "us": "対象の株価指数はいずれも、確認できた直近の取引で下落しました。日付が付いた終値は、その日の取引終了時点の値で、現在の値動きを示すものではありません。",
-        "cn": "対象の株価指数はいずれも、確認できた直近の取引で上昇しました。日付が付いた終値は、その日の取引終了時点の値で、現在の値動きを示すものではありません。"
+        "us": "終値を確認できなかった指数があります。掲載している指数には、それぞれの取引日を示しています。",
+        "cn": "終値を確認できなかった指数があります。掲載している指数には、それぞれの取引日を示しています。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "中国本土の光部品メーカー、新たな生産拠点を計画",
-          "summary": "光部品メーカーが、南昌で研究開発と製造を行う事業の協定を結びました。",
-          "impact": "計画中の工場ができれば、高速データ通信向け部品の生産能力が増える可能性があります。ただし、協定を結んだからといって、顧客からの受注が確約されたわけではありません。",
-          "what": "蘇州天孚光通信は、高速でデータを伝送するための光部品を製造しています。南昌の開発区と結んだ協定は、大規模なデータセンターやスーパーコンピューター施設向けの製品を研究開発し、製造するためのものです。同社は事業を進めるため、現地で子会社を登記しました。開発区側は、用地の整備、電気や水道などの利用、行政の許認可手続きを支援することに合意しました。今回の開示は生産能力を整備するための協定に関するもので、工事の完了や設備の稼働を発表したものではありません。",
-          "why": "データセンターでは、情報を処理するだけでなく、機器の間でデータを素早くやり取りする必要があります。そのため、計算用の半導体に加え、光通信で機器をつなぐための部品にも需要があります。先に公表された決算では、同社が黒字で、営業活動から現金を生み出していたことが分かります。ただし、その実績は既存事業のものです。新工場で販売できる部品を作り、出荷するには、まず投資が必要です。新工場がどれだけの経済的な価値を生むかは、増えた生産能力がどの程度、顧客の需要に応える形で使われるかにかかっています。",
-          "uncertainty": "開示資料では、設備投資の予算、顧客からの発注の確約状況、商業生産の開始時期は明らかにされていません。経営陣は、協定の締結自体が当年の業績に大きな影響を与えるとは見込んでいません。",
-          "watch": "用地の引き渡しが完了するか、設備投資額が公表されるか、設備の設置が進むか、新拠点で作った製品が顧客の評価を経て承認されたことを確認できるかが注目点です。",
+          "id": "f3",
+          "title": "クラウドストライクが決算を発表、株式を対価とするゼットスケーラー買収で合意",
+          "summary": "クラウドストライクは四半期決算で会計上の黒字を計上し、買収対価の全額を自社株式で支払う形でゼットスケーラーを買収することに合意しました。",
+          "impact": "統合によって、企業によってはセキュリティ製品の調達がしやすくなる可能性があります。クラウドストライクの既存株主は、買収相手の株主とクラウドストライクの株式を持ち合うことになります。",
+          "what": "クラウドストライクは、組織が端末やシステム上で動く処理を監視・保護するためのサービスを、定額契約で提供しています。ゼットスケーラーは、ネットワーク経由でアプリやデータに安全にアクセスできるようにするサービスが中心です。端末を守ることと、その端末から何に接続できるかを管理することは、同じセキュリティ対策の別々の役割です。買収の発表とクラウドストライクの四半期決算は同時に公表されましたが、決算には統合後の事業は反映されていません。",
+          "why": "サービスが統合されれば、利用企業は契約を減らしながら、端末とアクセス権限を管理できる可能性があります。ただし、メリットが出るのは、製品同士がうまく連携し、移行や研修にかかる費用を補える場合です。発表時点の買収金額と、実際の支払い方法は別です。対価が株式なので、買収金額の換算額は買い手の株価によって変わり、現金でその額を支払うわけではありません。この四半期は、営業活動によるキャッシュフローが会計基準に基づく純利益を上回りました。代金を回収する時期と、会計上の費用を計上する時期は必ずしも一致しません。また、営業活動によるキャッシュフローには、設備への支出や、資産として計上されるソフトウェアへの支出は反映されていません。",
+          "uncertainty": "買収には、ゼットスケーラーの株主と関係する規制当局の承認が必要です。買収が完了するまでは、両社は独立した企業のままです。今回の発表では、統合製品の価格や、どの程度の顧客が導入するかは明らかになっていません。",
+          "watch": "今後の焦点は、買収に関する登録届出書と株主向けの議決権行使資料、規制当局の判断、その後に開示される製品統合、顧客の契約継続状況、支出に関する情報です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "年初来累計売上高"
+              "label": "基準日の終値に基づく発表時の企業価値"
             },
             {
               "id": "m2",
-              "label": "年初来累計の親会社株主に帰属する純利益"
+              "label": "会計四半期の売上高"
             },
             {
               "id": "m3",
-              "label": "年初来累計の営業キャッシュフロー"
+              "label": "会計四半期の親会社株主に帰属する純利益（GAAP基準）"
+            },
+            {
+              "id": "m4",
+              "label": "会計四半期の営業活動によるキャッシュフロー"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "AI開発企業が上場、資金需要が見えるように",
-          "summary": "アンソロピックの株式は公開価格を上回る値で取引が始まりました。目論見書では、会計上の損失と、営業活動で生み出した現金との違いが示されました。",
-          "impact": "上場により、AIの利用料収入でサービス提供のコストをまかなえるかを、株式市場の投資家が自ら確かめられるようになります。",
-          "what": "アンソロピックは、AIモデル「Claude」を定額制や従量課金制のサービスで提供しています。取引所は株式の売買開始を確認し、最初に取引が成立した価格を公表しました。公開時の売出総額には、既存株主が売却した株式の代金も含まれます。その代金は会社には入りません。目論見書によると、期中の会計上の損益は赤字でしたが、営業キャッシュフローはプラスでした。報告された損失の大きな要因は、資金調達に使った金融商品の評価額を見直したことです。この会計処理は、その期間に実際に現金を支払ったことを意味しません。",
-          "why": "新株の発行で入る資金は、顧客から得た売上ではなく、資金調達によるものです。モデルの学習にも顧客へのサービス提供にも計算資源が必要な事業では、この違いが重要です。営業キャッシュフローがプラスだったことは、開示対象の期間に事業活動で現金を生み出したことを示しますが、投資をした後に手元にいくら残ったかまでは分かりません。投資活動による現金の流出には短期投資商品の購入も含まれるため、全額をコンピューターへの支出とみなすと、その費用を実際より大きく見積もることになります。こうしたツールを導入する企業にとっては、提供元が計算資源をどうやりくりするかが、サービスの利用しやすさや費用に影響します。",
-          "uncertainty": "取引開始時の価格は終値ではなく、その株への長期的な需要を示すものでもありません。期中の財務諸表は監査を受けておらず、公開時の売出総額から、会社が実際に受け取った手取り額を確かめることはできません。",
-          "watch": "次の財務開示では、従量課金による売上高、計算資源を確保するための契約上の約束、インフラへの支出、営業活動で生み出した現金が注目点です。これらは新たな資金調達とは分けて見る必要があります。",
+          "title": "米国の企業活動は拡大を維持、伸びは鈍化し物価上昇圧力も和らぐ",
+          "summary": "米国の購買担当者景気調査の速報では、企業活動の伸びが鈍るなかでも採用は続き、物価の上昇圧力は和らいだものの、なお強いことが示されました。",
+          "impact": "企業活動は引き続き拡大していますが、この調査からは、家計が直面する値上がりがすぐに止まるとは見込みにくい状況です。",
+          "what": "総合指数は、調査対象の企業が事業活動の増加と減少のどちらを報告しているかを示す指標です。当月の速報値は前月を下回りましたが、引き続き活動の拡大を示しました。サービス業は製造業より伸びが大きかったものの、どちらも伸びは鈍りました。また、未処理の仕事が積み上がるなかで企業は人員を増やし、製造業では原材料や部品の納入にかかる時間が長くなったことも報告されました。",
+          "why": "伸びが鈍ることと、生産やサービスの提供が減ることは別です。新たな仕事の伸びが鈍っても、企業が仕事を引き受け続けていることはあります。未処理の仕事が増えているなら、仕事を完了させるペースが落ちた背景には、需要の弱まりだけでなく、企業が処理できる量の限界もあると考えられます。燃料費の低下で物価の上昇圧力はやや和らぎましたが、企業からは燃料以外の調達費や賃金が引き続き上がっているとの報告がありました。家計が負担の軽減を実感できるかは、企業がこうした費用をどの程度販売価格に転嫁するかや、調査時点以降も物価の上昇圧力が弱まった状態が続くかに左右されます。",
+          "uncertainty": "これは調査の速報値であり、生産、雇用者数、消費者物価の公式統計ではありません。この調査だけでは、経済がどの程度成長したかや、米連邦準備制度がどのような対応を取るかは分かりません。",
+          "watch": "今後の焦点は、調査の確報値が雇用者数や物価の公式統計とどの程度一致するか、また、採用が幅広く落ち込むことなく、納入の遅れや未処理の仕事の積み上がりが解消に向かうかです。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "公開価格（株式単価）"
+              "label": "当月の総合景況指数（速報値）"
             },
             {
               "id": "m2",
-              "label": "上場時の初値（株式単価）"
-            },
-            {
-              "id": "m3",
-              "label": "公開価格決定時の募集・売出総額"
-            },
-            {
-              "id": "m4",
-              "label": "年初来累計売上高"
-            },
-            {
-              "id": "m5",
-              "label": "年初来累計純損失"
-            },
-            {
-              "id": "m6",
-              "label": "年初来累計の営業キャッシュフロー"
-            },
-            {
-              "id": "m7",
-              "label": "年初来累計の投資キャッシュフロー"
+              "label": "前月の総合景況指数"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes das empresas são apresentados para dar contexto.",
+      "status": "A cobertura verificada desta edição é limitada. Em alguns mercados, não há notícias novas verificadas. As datas dos relatórios continuam claramente indicadas.",
       "marketSummary": {
-        "us": "Os índices acompanhados caíram nos pregões mais recentes com dados verificados. Os valores de fechamento correspondem aos pregões das datas indicadas e não refletem as negociações em curso.",
-        "cn": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os valores de fechamento correspondem aos pregões das datas indicadas e não refletem as negociações em curso."
+        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém a data do pregão correspondente.",
+        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém a data do pregão correspondente."
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "Fabricante de componentes ópticos da China continental planeja nova unidade de produção",
-          "summary": "Uma fornecedora de componentes ópticos assinou um acordo para desenvolver um projeto de pesquisa e fabricação em Nanchang.",
-          "impact": "A fábrica planejada pode ampliar a capacidade de produção de componentes para conexões de alta velocidade, mas o acordo não garante pedidos de clientes.",
-          "what": "A Suzhou TFC Optical Communication fabrica componentes ópticos que ajudam a transmitir dados em alta velocidade. O acordo com a zona de desenvolvimento de Nanchang abrange a pesquisa e a fabricação de produtos voltados a grandes centros de dados e instalações de supercomputação. A empresa registrou uma subsidiária local para executar o projeto. A zona se comprometeu a ajudar na preparação do terreno, no acesso a serviços como água e energia e na obtenção de autorizações administrativas. O comunicado apresenta um acordo para ampliar a capacidade de produção, sem indicar que a construção tenha sido concluída ou que já haja equipamentos em operação.",
-          "why": "Além de processar dados, um centro de dados precisa transferi-los rapidamente entre máquinas. Isso gera demanda por conexões ópticas, além da demanda por chips de processamento. O relatório de resultados anterior mostra que a fornecedora já tinha lucro e gerava caixa com suas operações, mas esses dados se referem ao negócio existente. A nova fábrica exigiria gastos antes de poder fabricar e entregar componentes em condições de venda. Seu valor econômico dependerá de quanto da nova capacidade os clientes efetivamente usarem.",
-          "uncertainty": "O comunicado não informa o valor previsto para o investimento, o volume de compras que os clientes se comprometeram a fazer nem a data de início da produção comercial. A administração não espera que a assinatura do acordo, por si só, tenha efeito relevante nos resultados do ano corrente.",
-          "watch": "Acompanhe a conclusão da transferência do terreno, a divulgação dos gastos com o projeto, a instalação dos equipamentos e os sinais de que os clientes aprovaram os produtos fabricados na nova unidade.",
+          "id": "f3",
+          "title": "CrowdStrike divulga resultados e fecha acordo para comprar a Zscaler com ações",
+          "summary": "A CrowdStrike registrou lucro contábil no trimestre e concordou em comprar a Zscaler em uma operação paga inteiramente em ações.",
+          "impact": "A união pode facilitar a contratação de serviços de segurança para algumas empresas. Os atuais acionistas da CrowdStrike passariam a dividir a propriedade da empresa com os acionistas da Zscaler.",
+          "what": "A CrowdStrike vende assinaturas que ajudam organizações a monitorar e proteger dispositivos e sistemas em execução. A Zscaler se concentra em proteger o acesso a aplicativos e dados por meio de redes. Os produtos que elas oferecem separadamente cobrem partes diferentes da mesma tarefa: proteger o dispositivo e controlar a que ele pode se conectar. O anúncio da fusão saiu junto com o relatório trimestral da CrowdStrike, mas o lucro divulgado não inclui os resultados das empresas combinadas.",
+          "why": "Uma oferta integrada poderia permitir que os clientes gerenciassem dispositivos e regras de acesso com menos contratos. Isso só seria vantajoso se os produtos funcionassem bem o bastante em conjunto para compensar os custos de migração e treinamento. Para entender o acordo, vale distinguir o valor anunciado da forma de pagamento. Como o pagamento será em ações, o valor implícito da operação pode variar com a cotação das ações da compradora; não se trata de um valor a pagar em dinheiro. No trimestre, o fluxo de caixa operacional superou o lucro apurado pelas normas contábeis GAAP. Os recebimentos em dinheiro e o registro contábil das despesas não ocorrem necessariamente no mesmo momento. Além disso, o fluxo de caixa operacional é calculado antes de descontar os gastos com equipamentos e com software registrado como ativo.",
+          "uncertainty": "O acordo ainda depende da aprovação dos acionistas da Zscaler e dos órgãos reguladores competentes. Até a conclusão da operação, as empresas continuam independentes. Os comunicados não esclarecem quanto os clientes pagarão pelos produtos integrados nem quantos vão adotá-los.",
+          "watch": "Documentos de registro da fusão e materiais para a votação dos acionistas, decisões dos órgãos reguladores e divulgações posteriores sobre a integração dos produtos, a retenção de clientes e os gastos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita acumulada no ano"
+              "label": "Valor da firma anunciado com base na cotação de fechamento de referência"
             },
             {
               "id": "m2",
-              "label": "Lucro líquido atribuível aos acionistas da controladora acumulado no ano"
+              "label": "Receita do trimestre fiscal"
             },
             {
               "id": "m3",
-              "label": "Fluxo de caixa operacional acumulado no ano"
+              "label": "Lucro líquido do trimestre fiscal atribuível à controladora pelas normas GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Fluxo de caixa operacional do trimestre fiscal"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "Desenvolvedora de IA abre capital e expõe suas necessidades de caixa",
-          "summary": "As ações da Anthropic começaram a ser negociadas acima do preço da oferta, e o prospecto explicou a diferença entre o prejuízo contábil divulgado e o caixa gerado pelas operações.",
-          "impact": "A estreia na bolsa permite aos investidores avaliar diretamente se o uso pago de serviços de IA pode cobrir o custo de oferecê-los.",
-          "what": "A Anthropic vende acesso aos modelos Claude por meio de assinaturas e serviços cobrados conforme o uso. A bolsa confirmou o início das negociações das ações e informou o preço de abertura. O valor da oferta inclui ações vendidas por quem já era acionista; o dinheiro dessas vendas não vai para a empresa. O prospecto também mostrou que, no período intermediário, a empresa registrou prejuízo contábil e teve fluxo de caixa operacional positivo. Reavaliações de instrumentos de financiamento explicam boa parte do prejuízo divulgado. Esses lançamentos contábeis não equivalem a pagamentos feitos no período.",
-          "why": "A venda de novas ações traz recursos para financiar a empresa, mas não gera receita de clientes. Essa distinção importa para um negócio que precisa de capacidade computacional para treinar modelos e atender clientes. O fluxo de caixa operacional positivo mostra que as operações geraram caixa no período divulgado, mas não diz quanto sobrou após os investimentos. As saídas de caixa das atividades de investimento também incluem compras de aplicações financeiras de curto prazo. Atribuir todo esse valor à compra de computadores superestimaria esse gasto. Para as empresas que adotam essas ferramentas, a forma como a fornecedora administra sua capacidade afeta a disponibilidade e o custo do serviço.",
-          "uncertainty": "O preço de abertura não é o preço de fechamento nem indica a demanda de longo prazo pelas ações. As demonstrações financeiras do período intermediário não foram auditadas, e o valor da oferta não confirma quanto dinheiro a empresa recebeu após as deduções.",
-          "watch": "Na próxima divulgação pública de resultados financeiros, acompanhe a receita dos serviços cobrados conforme o uso, os compromissos com capacidade computacional, os gastos com infraestrutura e o caixa gerado pelas operações, sem confundi-lo com recursos de novos financiamentos.",
+          "title": "Atividade empresarial nos EUA segue em expansão, mas crescimento e pressão sobre os preços perdem força",
+          "summary": "A pesquisa preliminar com gerentes de compras dos EUA mostrou expansão mais lenta, continuidade das contratações e menor pressão sobre os preços, que ainda permanece elevada.",
+          "impact": "As empresas ainda relatam crescimento, mas a pesquisa dá poucos motivos para as famílias esperarem que os preços parem de subir rapidamente.",
+          "what": "O índice composto acompanha se as empresas consultadas relatam aumento ou queda na atividade. A leitura preliminar de novembro caiu em relação à de outubro, mas ainda indicou expansão. Os serviços cresceram mais que a indústria de transformação, embora a atividade tenha perdido ritmo em ambos os setores. A pesquisa também mostrou que as empresas contrataram à medida que o trabalho pendente se acumulava e que os fabricantes passaram a esperar mais tempo pela entrega de insumos.",
+          "why": "Crescer mais devagar não é o mesmo que produzir menos. Uma empresa pode continuar aceitando trabalho mesmo quando o volume de novas atividades perde ritmo. O acúmulo de trabalho pendente também indica que concluir menos trabalho pode refletir uma limitação de capacidade, não apenas uma demanda mais fraca. A queda no custo dos combustíveis aliviou parte da pressão sobre os preços, mas as empresas continuaram a relatar aumento nos custos de outros insumos e nos salários. O alívio para as famílias depende, em parte, de quanto desses custos as empresas repassam aos preços e de a pressão sobre os preços continuar diminuindo após o período da pesquisa.",
+          "uncertainty": "Esta é uma leitura preliminar de uma pesquisa, não uma divulgação oficial de produção, emprego ou inflação ao consumidor. Ela não permite determinar quanto a economia cresceu nem o que o Federal Reserve fará.",
+          "watch": "A versão final da pesquisa em comparação com os dados oficiais de emprego e inflação, e se os atrasos nas entregas dos fornecedores e o acúmulo de trabalho pendente diminuem sem uma queda generalizada nas contratações.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Preço inicial da oferta por ação"
+              "label": "Índice composto de atividade de novembro, leitura preliminar"
             },
             {
               "id": "m2",
-              "label": "Preço de abertura da negociação por ação"
-            },
-            {
-              "id": "m3",
-              "label": "Valor bruto da oferta na definição do preço"
-            },
-            {
-              "id": "m4",
-              "label": "Receita acumulada no ano"
-            },
-            {
-              "id": "m5",
-              "label": "Prejuízo líquido acumulado no ano"
-            },
-            {
-              "id": "m6",
-              "label": "Fluxo de caixa operacional acumulado no ano"
-            },
-            {
-              "id": "m7",
-              "label": "Fluxo de caixa das atividades de investimento acumulado no ano"
+              "label": "Índice composto de atividade de outubro"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的市場及企業動態。請留意各篇的發布日期；近期的公司報告在此用來補充背景。",
+      "status": "本期經查證的報導有限。部分市場沒有已查證的新消息；較早的報導仍清楚標示日期。",
       "marketSummary": {
-        "us": "追蹤的指數在各自最近經查證的交易日均下跌。標有日期的收盤資訊反映的是當日行情，不代表目前的交易情況。",
-        "cn": "追蹤的指數在各自最近經查證的交易日均上漲。標有日期的收盤資訊反映的是當日行情，不代表目前的交易情況。"
+        "us": "部分收盤資料未能查證。有資料可用的指數均保留各自的交易日期。",
+        "cn": "部分收盤資料未能查證。有資料可用的指數均保留各自的交易日期。"
       },
       "stories": [
         {
-          "id": "f1",
-          "title": "中國大陸光通訊零組件廠商規劃新生產基地",
-          "summary": "光通訊零組件供應商簽署開發協議，計畫在南昌設立研發與製造基地。",
-          "impact": "新廠若落成，可擴大高速資料傳輸零組件的產能，但簽署協議不代表已取得客戶訂單。",
-          "what": "蘇州天孚光通信生產用於高速資料傳輸的光通訊零組件。公司與南昌開發區簽署協議，規劃研發及製造供大型資料中心與超級運算設施使用的產品。公司已在當地登記設立子公司，負責執行計畫。開發區同意協助整備廠址、接通水電等公用設施，並辦理行政審批。公告說明的是擴建產能的協議，並未表示廠房已完工或設備已投入使用。",
-          "why": "資料中心除了要處理資料，也要在設備之間快速傳輸資料。因此，除了運算晶片，也需要光通訊連線。先前的財報顯示，這家供應商已經獲利，且營業活動有現金淨流入，但這些數據反映的是現有業務。新廠必須先投入資金，才能生產並出貨可銷售的零組件。新廠能帶來多少經濟效益，取決於客戶需求最終能消化多少新增產能。",
-          "uncertainty": "公告未說明資本支出預算、客戶承諾或何時開始商業量產。管理層預期，簽署協議本身不會對本年度業績造成重大影響。",
-          "watch": "可留意土地移轉是否完成、公司是否公布資本支出、設備是否安裝，以及新廠生產的產品是否通過客戶驗證。",
+          "id": "f3",
+          "title": "CrowdStrike 公布財報，同意以股票收購 Zscaler",
+          "summary": "CrowdStrike 公布的季度財報顯示帳面獲利，並同意以全股票交易收購 Zscaler。",
+          "impact": "合併可能讓部分企業更容易採購資安服務；CrowdStrike 的原有股東則將與 Zscaler 的股東共同持有合併後的公司。",
+          "what": "CrowdStrike 提供訂閱服務，協助組織監控並保護裝置與運算工作負載。Zscaler 則專注於保障透過網路存取應用程式與資料的安全。兩家公司的產品各有分工：CrowdStrike 保護裝置，Zscaler 管控裝置可以連到哪些資源。合併公告與 CrowdStrike 的季度財報同時發布，但這份財報並未納入合併後的業務。",
+          "why": "如果產品整合，客戶可能不必簽那麼多份合約，就能管理裝置和存取權限。但產品必須配合得夠好，帶來的好處足以抵銷系統移轉與人員訓練成本，客戶才能受益。對投資人而言，公告的交易估值和實際付款方式是不同的概念。這筆交易以股票支付，推算出的交易價值會隨收購方的股價變動，並不是要付出的現金金額。該季營業活動現金流量高於依一般公認會計原則（GAAP）計算的淨利。現金入帳與會計上認列費用的時間不一定相同，而且營業活動現金流量尚未扣除設備支出和列為資產的軟體支出。",
+          "uncertainty": "交易仍須獲得 Zscaler 股東及相關主管機關核准。交易完成前，各公司仍獨立營運。公告並未說明客戶須為整合產品支付多少費用，也無法確定會有多少客戶採用。",
+          "watch": "後續可留意合併登記文件、股東表決委託書相關資料及主管機關的決定，以及公司日後對產品整合、客戶留存和支出的說明。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "本年累計營收"
+              "label": "按參考收盤價計算的公告企業價值"
             },
             {
               "id": "m2",
-              "label": "本年累計歸屬母公司業主淨利"
+              "label": "會計季度營收"
             },
             {
               "id": "m3",
-              "label": "本年累計營業活動現金流量"
+              "label": "會計季度歸屬於母公司業主的淨利（GAAP）"
+            },
+            {
+              "id": "m4",
+              "label": "會計季度營業活動現金流量"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "人工智慧開發商上市，資金需求浮上檯面",
-          "summary": "Anthropic 掛牌開盤價高於發行價。公開說明書解釋了為何公司帳面上虧損，營業活動卻仍有現金淨流入。",
-          "impact": "上市後，投資人可以直接觀察客戶付費使用人工智慧服務所帶來的收入，能否支應提供服務的成本。",
-          "what": "Anthropic 透過訂閱及按使用量計費的服務，讓客戶付費使用 Claude 模型。交易所證實股票已開始交易，並公布開盤價。發行總額包含原有股東出售持股的金額，這部分款項不會流入公司。公開說明書也揭露，公司在期中財報中列有帳面虧損，但營業活動現金流量為正。列報虧損有很大一部分來自融資工具的價值重估；這些會計調整並不等於當期實際付出的現金。",
-          "why": "發行新股取得的是融資款，不是客戶帶來的營收。對需要運算資源來訓練模型和服務客戶的企業來說，這個區別很重要。營業活動現金流量為正，表示公司在揭露期間透過營運帶來現金淨流入，但看不出扣除投資支出後還剩多少現金。投資活動的現金流出也包含買入短期投資的款項，若全算成運算設備支出，就會高估這項成本。對採用這些工具的企業而言，供應商如何管理運算資源，會影響服務是否容易取得以及使用成本。",
-          "uncertainty": "開盤價不是收盤價，也不能用來衡量市場對這檔股票的長期需求。期中財務報表未經查核，發行總額也不能用來確認公司實際收到的現金淨額。",
-          "watch": "可從後續公開財報追蹤按使用量計費的營收、已承諾採購的運算資源及基礎設施支出，並區分營業活動產生的現金與新籌得的資金。",
+          "title": "美國企業活動持續擴張，但成長放緩、價格壓力趨緩",
+          "summary": "美國採購經理人調查初值顯示，企業活動擴張放緩，企業仍在增聘人手，價格壓力雖有緩和，但仍偏高。",
+          "impact": "企業仍回報業務成長，但這份調查並未提供太多理由，讓家庭預期物價會很快停止上漲。",
+          "what": "綜合產出指數反映受訪企業回報的業務活動是增加還是減少。本月初值低於上月，但仍顯示企業活動正在擴張。服務業成長快於製造業，但各自的成長速度都比之前慢。調查也顯示，未完成的工作持續累積，企業因而增聘人手；製造商則得等更久才能收到生產所需的物料。",
+          "why": "成長放慢不等於產出減少。即使新增業務的成長力道轉弱，企業仍可能繼續接到工作。待完成的工作增加也表示，完成工作的速度放慢，可能是因為企業忙不過來，而不只是需求轉弱。燃料成本下降，有助於減輕部分價格壓力，但企業仍回報其他投入成本和薪資上升。家庭能否感受到價格壓力減輕，部分取決於企業把多少成本轉嫁給消費者，以及價格壓力是否在調查期過後仍持續緩和。",
+          "uncertainty": "這是調查初值，並非官方的產出、非農就業人數或消費者物價數據。單憑這份調查，無法確定經濟成長了多少，也無法判斷聯準會接下來會怎麼做。",
+          "watch": "可將調查終值與官方公布的非農就業人數和通膨數據對照，並留意供應商交貨延誤及工作積壓是否緩解，同時觀察招聘是否普遍轉弱。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "每股首次公開發行價格"
+              "label": "本月綜合產出指數初值"
             },
             {
               "id": "m2",
-              "label": "每股開盤成交價"
-            },
-            {
-              "id": "m3",
-              "label": "定價時的發行總額"
-            },
-            {
-              "id": "m4",
-              "label": "本年累計營收"
-            },
-            {
-              "id": "m5",
-              "label": "本年累計淨損"
-            },
-            {
-              "id": "m6",
-              "label": "本年累計營業活動現金流量"
-            },
-            {
-              "id": "m7",
-              "label": "本年累計投資活動現金流量"
+              "label": "上月綜合產出指數"
             }
           ]
         }
