@@ -1,223 +1,143 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-24T06:57:29.758Z",
-  "generatedAt": "2026-11-24T07:04:10.859Z",
+  "cutoffAt": "2026-11-24T19:29:56.910Z",
+  "generatedAt": "2026-11-24T19:38:25.775Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Associated Press US closing index levels and point changes",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-fcdf1bad36b4f81c90cbb0f33a2c5704"
+      "label": "FRED daily broad US equity index close table",
+      "url": "https://fred.stlouisfed.org/data/SP500"
     },
     {
       "id": "src2",
-      "label": "FRED large-cap price index observations",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Nasdaq Composite daily index data",
+      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
     },
     {
       "id": "src3",
-      "label": "First Trust preceding US session closing levels",
-      "url": "https://www.ftportfolios.com/Commentary/Insights/2026/11/23/week-ended-november-20th%2C-2026"
+      "label": "Shanghai Composite daily index data",
+      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src4",
-      "label": "Tonghuashun mainland closing report",
-      "url": "https://news.10jqka.com.cn/20261123/c682101377.shtml"
+      "label": "Mainland large-cap benchmark daily index data",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Tonghuashun preceding mainland closing report",
-      "url": "https://news.10jqka.com.cn/20261120/c682043117.shtml"
-    },
-    {
-      "id": "src6",
-      "label": "Investing mainland large-cap daily price index table",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
-    },
-    {
-      "id": "src7",
-      "label": "Shanghai exchange rules on session timing",
-      "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/exchange/c/c_20260424_10816482.shtml"
-    },
-    {
-      "id": "src8",
-      "label": "Board reinstatement announcement",
+      "label": "Board announcement on leadership reinstatement",
       "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
     },
     {
+      "id": "src6",
+      "label": "Chipmaker quarterly earnings release and financial statements",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "id": "src7",
+      "label": "Chipmaker preceding quarterly release confirming fiscal period boundary",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+    },
+    {
+      "id": "src8",
+      "label": "Issuer preliminary acquisition filing mirrored by Sina",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-24/12719812.PDF"
+    },
+    {
       "id": "src9",
-      "label": "SEC officer and director reinstatement filing",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm"
+      "label": "Selling shareholder transaction disclosure filed on CNINFO",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225684628.PDF"
     },
     {
       "id": "src10",
-      "label": "Accelerated computing issuer quarterly results and financial statements",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+      "label": "Medical device issuer earnings release and financial schedules",
+      "url": "https://news.medtronic.com/2026-11-24-Medtronic-reports-second-quarter-fiscal-2027-results-performance-reflects-consistent-execution-across-the-portfolio"
     },
     {
       "id": "src11",
-      "label": "Electronics manufacturer repurchase disclosure return",
-      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301709.pdf"
+      "label": "Medical device issuer preceding quarterly release",
+      "url": "https://news.medtronic.com/2026-09-01-Medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance"
     },
     {
       "id": "src12",
-      "label": "Electronics manufacturer proposed debt registration announcement",
-      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301655.pdf"
+      "label": "Medical device issuer preceding fiscal year-end release",
+      "url": "https://news.medtronic.com/2026-06-03-Medtronic-reports-fourth-quarter-and-full-year-fiscal-2026-results-delivers-highest-annual-revenue-growth-in-10-years"
     },
     {
       "id": "src13",
-      "label": "Electronics manufacturer quarterly filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225629349.PDF"
-    },
-    {
-      "id": "src14",
-      "label": "Cybersecurity issuer quarterly results SEC filing exhibit",
-      "url": "https://ir.crowdstrike.com/static-files/b5de12b0-ee2b-4f54-8246-fbba2c190b6d"
-    },
-    {
-      "id": "src15",
-      "label": "Joint cybersecurity merger announcement and transaction terms",
-      "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero"
-    },
-    {
-      "id": "src16",
-      "label": "National Bureau of Statistics industrial input price monitoring bulletin",
+      "label": "National Bureau of Statistics industrial materials price release and product table",
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261123_1965935.html"
     },
     {
+      "id": "src14",
+      "label": "Conference Board dated consumer confidence press release",
+      "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html"
+    },
+    {
+      "id": "src15",
+      "label": "Automaker quarterly report filed on CNINFO",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+    },
+    {
+      "id": "src16",
+      "label": "Simultaneous automaker quarterly filing on HKEX",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900816.pdf"
+    },
+    {
       "id": "src17",
-      "label": "Preliminary US purchasing managers survey and analysis",
-      "url": "https://www.spglobal.com/content/dam/spglobal/mi/en/documents/news-insights/research/2026/11/6328150_6328134_0.1.pdf"
+      "label": "Analog chip designer issuer business profile",
+      "url": "https://www.awinic.com/en/aboutus.html"
     },
     {
       "id": "src18",
-      "label": "Battery manufacturer repurchase disclosure return",
-      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301268.pdf"
-    },
-    {
-      "id": "src19",
-      "label": "Battery manufacturer energy storage financing framework announcement",
-      "url": "https://www.catl.com/en/news/7088.html"
+      "label": "Automaker issuer business profile",
+      "url": "https://www.byd.com/en/about-byd"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-23",
+      "close": 7237.17,
+      "previousClose": 6910.39,
+      "changePercent": 4.73,
+      "sourceIds": [
+        "src1"
+      ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-23",
+      "close": 24089.56,
+      "previousClose": 22617.73,
+      "changePercent": 6.51,
+      "sourceIds": [
+        "src2"
+      ]
     },
     {
       "id": "sse",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-24",
+      "close": 3548.37,
+      "previousClose": 3538.95,
+      "changePercent": 0.27,
+      "sourceIds": [
+        "src3"
+      ]
     },
     {
       "id": "csi300",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-24",
+      "close": 3963.82,
+      "previousClose": 3958.29,
+      "changePercent": 0.14,
+      "sourceIds": [
+        "src4"
+      ]
     }
   ],
   "stories": [
-    {
-      "id": "f3",
-      "market": "us",
-      "category": "earnings",
-      "publishedOn": "2026-11-23",
-      "company": {
-        "name": "CrowdStrike Holdings, Inc.",
-        "ticker": "CRWD",
-        "exchange": "Nasdaq"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 1583419000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Earnings exhibit, consolidated statement of operations, quarterly total revenue."
-        },
-        {
-          "id": "m2",
-          "value": 24856000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Earnings exhibit, statement of operations, quarterly GAAP net income attributable to the issuer."
-        },
-        {
-          "id": "m3",
-          "value": -756000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Earnings exhibit, consolidated statement of operations, quarterly operating loss."
-        },
-        {
-          "id": "m4",
-          "value": 665176000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src14"
-          ],
-          "evidence": "Earnings exhibit, free cash flow reconciliation, quarterly GAAP cash provided by operations before deductions."
-        },
-        {
-          "id": "m5",
-          "value": 43900000000,
-          "unit": "USD",
-          "periodStart": "2026-11-20",
-          "periodEnd": "2026-11-20",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src15"
-          ],
-          "evidence": "Transaction terms give approximate enterprise value using the acquirer's preceding session close; this is not cash paid."
-        }
-      ],
-      "sourceIds": [
-        "src14",
-        "src15"
-      ],
-      "evidence": "The earnings exhibit reports the issuer's standalone quarterly results. The joint release describes a definitive all-stock agreement, its implied enterprise value and the conditions to closing."
-    },
     {
       "id": "f4",
       "market": "cn",
@@ -234,9 +154,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src16"
+            "src13"
           ],
-          "evidence": "Opening tally counts product specifications whose prices fell from the preceding observation window."
+          "evidence": "The opening count of declines agrees with a recount of negative entries in the product table's percentage-change column, the column specified in the methodology note."
         },
         {
           "id": "m2",
@@ -247,9 +167,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src16"
+            "src13"
           ],
-          "evidence": "Opening tally counts product specifications whose prices rose from the preceding observation window."
+          "evidence": "The opening count of increases agrees with the table's positive percentage changes: paraffin wax, washed anthracite, Shanxi blended coal, float glass, corn, cotton, live hogs, peanuts, monoammonium phosphate, natural rubber and wood pulp."
         },
         {
           "id": "m3",
@@ -260,100 +180,94 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src16"
+            "src13"
           ],
-          "evidence": "Opening tally counts product specifications with no price change from the preceding observation window."
+          "evidence": "The opening count of unchanged prices agrees with the table's percentage-change column, where dense polysilicon is the only unchanged entry."
         }
       ],
       "sourceIds": [
-        "src16"
+        "src13"
       ],
-      "evidence": "The opening tally shows declines dominated the midmonth monitoring window. The product table shows lower rebar, copper and diesel prices but firmer prices for some coal grades. The methodology distinguishes distribution-market prices from factory-gate prices."
+      "evidence": "The opening tally reconciles with the signs of the changes in the published product table. Product rows show lower prices for diesel, copper and rebar; the methodology note defines these as distribution-market prices."
     },
     {
       "id": "f5",
       "market": "us",
       "category": "economy",
-      "publishedOn": "2026-11-23",
+      "publishedOn": "2026-11-24",
       "company": null,
       "metrics": [
         {
-          "id": "m2",
-          "value": 55.9,
+          "id": "m1",
+          "value": 103.3,
           "unit": "index",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "periodStart": "2026-11-01",
+          "periodEnd": "2026-11-17",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src17"
+            "src14"
           ],
-          "evidence": "Opening growth discussion gives the preceding monthly composite output index as the comparator."
+          "evidence": "The opening release paragraphs give the headline index and the preliminary survey window."
+        },
+        {
+          "id": "m2",
+          "value": 132.8,
+          "unit": "index",
+          "periodStart": "2026-11-01",
+          "periodEnd": "2026-11-17",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "The opening release paragraph gives the index of views on current business and labor market conditions."
+        },
+        {
+          "id": "m3",
+          "value": 83.6,
+          "unit": "index",
+          "periodStart": "2026-11-01",
+          "periodEnd": "2026-11-17",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src14"
+          ],
+          "evidence": "The opening release paragraph gives the index of short-term expectations for income, business and labor market conditions."
         }
       ],
       "sourceIds": [
-        "src17"
+        "src14"
       ],
-      "evidence": "The preliminary survey reports slower US private-sector output and order growth. Its opening price discussion says input costs and selling prices continued to rise, but less quickly."
+      "evidence": "The opening comparison shows stronger current assessments and expectations. The spending and labor sections show firmer buying intentions and improved views of current job availability."
     }
   ],
   "locales": {
     "en": {
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "Cybersecurity earnings land alongside a stock-funded merger agreement",
-          "summary": "CrowdStrike reported positive net income and stronger operating cash flow while announcing an all-stock agreement to acquire Zscaler.",
-          "impact": "The deal could change how businesses buy device and network protection, but the reported financial results are still for CrowdStrike on its own.",
-          "what": "CrowdStrike mainly sells subscriptions to security software that protects devices and cloud workloads. Zscaler focuses on securing connections between users, applications and cloud services. The announced deal would use shares rather than a cash purchase price. The quoted enterprise value is an estimate based on the acquirer's share price at the stated reference close. The earnings filing shows a small operating loss despite positive net income, with interest income helping explain the distinction.",
-          "why": "A business customer might find it easier to investigate suspicious activity if evidence from a laptop and its network connection appears in the same product. That benefit depends on useful integration, clear contracts and reliable service through the transition. For shareholders, issuing stock means sharing ownership of the combined business. Separately, operating cash flow measures cash from the business before investing and financing flows; it is neither accounting profit nor the amount left after capital spending.",
-          "uncertainty": "The companies remain independent until closing, which requires the target's shareholder approval and regulatory clearances. The agreement does not establish that customers will adopt bundles or that integration will deliver savings.",
-          "watch": "Follow the merger disclosures and approvals, and use later standalone results to track subscriptions, operating profitability and cash generation.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Quarterly revenue"
-            },
-            {
-              "id": "m2",
-              "label": "Quarterly GAAP attributable net income"
-            },
-            {
-              "id": "m3",
-              "label": "Quarterly GAAP operating result"
-            },
-            {
-              "id": "m4",
-              "label": "Quarterly operating cash flow"
-            },
-            {
-              "id": "m5",
-              "label": "Approximate implied transaction enterprise value"
-            }
-          ]
-        },
-        {
           "id": "f4",
-          "title": "Industrial input prices soften across China's monitored markets",
-          "summary": "China's statistics bureau reported widespread price declines across monitored production inputs, including rebar, copper and diesel.",
-          "impact": "The decline can ease procurement costs for some manufacturers and builders while squeezing selling prices for some upstream suppliers.",
-          "what": "The bulletin tracks prices quoted by wholesalers, distributors and other businesses selling production materials. It compares the midmonth observation window with the preceding window. Metals and several fuels weakened, but the move was not uniform: some coal grades firmed. The counts show how widely prices moved across the monitored products, not how much the typical business's input bill changed.",
-          "why": "A builder buying steel at prevailing prices may get relief on new work, while a steelmaker may receive less for the same shipment. Buyers with fixed-price contracts may see little immediate effect. Cheaper fuel can also reduce costs for transport businesses, but contracts, margins and taxes affect whether the benefit reaches customers. For listed manufacturers, the useful question is whether input costs fall faster than the prices they can charge, and whether orders hold up.",
-          "uncertainty": "The bulletin does not establish whether the moves came from weaker demand, greater supply or both. It is neither a spending-weighted inflation measure nor a direct reading of supermarket or factory-gate prices.",
-          "watch": "Compare the next bulletin with factory-gate prices and listed manufacturers' commentary on new orders, selling prices and margins.",
+          "title": "Prices fall across much of China's industrial input survey",
+          "summary": "China's statistics bureau recorded price declines across much of its mid-November materials survey, including diesel, copper and rebar.",
+          "impact": "Lower prices could ease costs for some mainland manufacturers and builders while putting pressure on the revenue of materials suppliers.",
+          "what": "The survey covers prices charged by businesses that distribute industrial and agricultural materials. It compares the middle of November with the opening part of the month. Diesel and copper fell, as did several common steel products, but some coal grades rose. The counts show how widespread the moves were across monitored products, not how much the typical factory's total input bill changed.",
+          "why": "A manufacturer buying copper at current market prices could see some relief on new purchases. A fabricator buying under a fixed contract or using stock it already paid for may not see that benefit immediately. Lower diesel prices can similarly ease a carrier's costs without reducing the price a household pays for delivery. For suppliers, cheaper materials are a different signal: what matters for profit is whether selling prices fall faster than their own costs.",
+          "uncertainty": "These are distribution prices, not factory-gate prices or a measure of consumer inflation. The release does not say whether weaker demand, greater supply or a combination drove the declines, and it does not report how much material buyers purchased.",
+          "watch": "Check the next materials survey for persistence, then compare factory-gate prices and company margin disclosures for evidence that the price changes reached producers.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Monitored products with falling prices"
+              "label": "Monitored products with lower prices"
             },
             {
               "id": "m2",
-              "label": "Monitored products with rising prices"
+              "label": "Monitored products with higher prices"
             },
             {
               "id": "m3",
@@ -363,313 +277,217 @@
         },
         {
           "id": "f5",
-          "title": "US business activity expands more slowly as price pressure cools",
-          "summary": "The preliminary purchasing managers survey showed continued US private-sector expansion, with slower output and order growth.",
-          "impact": "Cooling selling-price pressure is welcome for buyers, but the survey still points to rising prices and does not show that borrowing costs will fall.",
-          "what": "The composite survey brings together responses from service providers and manufacturers about how activity changed from the preceding month. Its latest reading remained in expansion territory but moved lower. The survey also reported that order growth moderated and backlogs increased. Input costs and prices charged to customers continued rising, though less quickly.",
-          "why": "New orders can tell a business whether it needs to add shifts, hire staff or postpone an equipment purchase. Growing backlogs alongside slower orders can mean some firms have trouble completing existing work, rather than simply having too little demand. For households, slower price increases are not the same as lower prices. Employers can also face different conditions from the national picture depending on their industry, staffing needs and local customers.",
-          "uncertainty": "This is a preliminary survey, not a direct measure of national output or consumer inflation. Later responses can change the reading, and the release does not tell us how much of the slowdown will persist.",
-          "watch": "Look to the final survey for confirmation, then compare its order and price signals with official spending, employment and inflation releases.",
+          "title": "US consumers feel better about the economy",
+          "summary": "The Conference Board's preliminary November survey showed stronger assessments of current conditions and a brighter outlook.",
+          "impact": "Better sentiment is encouraging for retailers and service businesses, but it does not establish that households are spending more.",
+          "what": "More respondents described jobs as plentiful, and fewer said jobs were hard to get. Expectations also improved overall, although the share expecting income gains did not rise. Plans to buy homes and vehicles strengthened slightly. The headline and component readings are survey indexes: they summarize answers, not dollars spent or jobs added.",
+          "why": "A household that feels more secure about work may be more willing to replace a car or book a trip. That can make the survey useful to businesses deciding how much inventory to carry or how many employees to schedule. The distinction between sentiment and spending matters most for purchases that require financing. A shopper can feel more optimistic and still defer a purchase if monthly payments do not fit the budget.",
+          "uncertainty": "The preliminary survey window ended before the release, and spending plans are self-reported. The change cannot establish how much households will spend or whether confidence improved as much among households facing tighter budgets.",
+          "watch": "Compare the survey with retail sales, household spending and payroll releases to see whether the rise in confidence shows up in actual purchases and hiring.",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "Consumer confidence index"
+            },
+            {
               "id": "m2",
-              "label": "Prior month composite output index"
+              "label": "Present situation index"
+            },
+            {
+              "id": "m3",
+              "label": "Expectations index"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期关注美国和中国的动态。请留意各条消息的发布日期；近期发布的公司报告在本期用作背景解读。",
+      "status": "本期关注美国和中国的动态。请留意各条内容的发布日期；近期发布的公司报告在本期用于解读背景。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。已取得数据的指数均保留各自对应的交易日期。",
-        "cn": "部分收盘数据未能核实。已取得数据的指数均保留各自对应的交易日期。"
+        "us": "跟踪的指数在各自最近经核实的交易日均收涨。标注日期的收盘数据仅反映对应交易日的表现，并非实时行情。",
+        "cn": "跟踪的指数在各自最近经核实的交易日均收涨。标注日期的收盘数据仅反映对应交易日的表现，并非实时行情。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "网络安全公司发布财报，同时宣布全股票收购协议",
-          "summary": "CrowdStrike公布的净利润为正，经营现金流有所改善，同时宣布已达成以股票为全部对价收购Zscaler的协议。",
-          "impact": "这笔交易可能改变企业采购设备和网络防护服务的方式，但本次公布的财务业绩仍只反映CrowdStrike自身的经营情况。",
-          "what": "CrowdStrike主要以订阅方式销售安全软件，用于保护设备和在云端运行的业务。Zscaler专注于保护用户、应用程序和云服务之间的连接。根据公布的协议，收购方将用股票而非现金支付收购价款。披露的企业价值是根据收购方股票在指定参考交易日的收盘价估算的。财报显示，尽管净利润为正，公司在经营层面仍小幅亏损；利息收入有助于解释这两项结果为何不同。",
-          "why": "如果企业客户能在同一款产品里看到来自笔记本电脑及其网络连接的线索，调查可疑活动可能会更容易。能否实现这一好处，取决于产品整合是否实用、合同条款是否清晰，以及过渡期间服务是否可靠。对股东而言，发行股票意味着要与其他股东分享合并后公司的所有权。另外，经营现金流反映日常经营产生的现金流动，不包含投资和融资活动的现金流。它既不是会计利润，也不是扣除资本支出后剩下的现金。",
-          "uncertainty": "交易完成前，两家公司仍各自独立。交易须获得被收购方股东批准和监管部门许可。达成协议并不意味着客户会购买捆绑服务，也不意味着整合一定能节省成本。",
-          "watch": "关注并购相关披露和审批进展，并通过后续单独披露的业绩跟踪订阅业务、经营盈利能力和创造现金的能力。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "季度营收"
-            },
-            {
-              "id": "m2",
-              "label": "季度归母净利润（按美国通用会计准则）"
-            },
-            {
-              "id": "m3",
-              "label": "季度经营损益（按美国通用会计准则）"
-            },
-            {
-              "id": "m4",
-              "label": "季度经营现金流"
-            },
-            {
-              "id": "m5",
-              "label": "交易隐含企业价值估算"
-            }
-          ]
-        },
-        {
           "id": "f4",
-          "title": "中国受监测市场的工业生产资料价格普遍走弱",
-          "summary": "中国国家统计局公布，受监测的生产资料价格普遍下跌，其中包括螺纹钢、铜和柴油。",
-          "impact": "价格下跌可能减轻部分制造商和建筑企业的采购成本压力，同时压低部分上游供应商的售价。",
-          "what": "这份通报跟踪批发商、经销商等生产资料销售企业的报价，并将月中观测期与前一个观测期作比较。金属和多种燃料价格走弱，但并非所有品种都下跌：部分煤炭品种价格有所上涨。各类价格变动涉及的产品数量，反映的是涨跌在受监测产品中的范围，而不是一般企业的采购支出变动了多少。",
-          "why": "按现行市价采购钢材的建筑企业，新项目的成本压力可能减轻；钢厂出售同样一批钢材，收到的货款却可能变少。采用固定价格合同的买家短期内可能感受不到明显变化。燃料价格下跌也可能降低运输企业的成本，但客户能否从中受益，还取决于合同、利润率和税费。对于上市制造企业，值得关注的是原材料等投入成本是否比产品售价降得更快，以及订单能否保持稳定。",
-          "uncertainty": "通报无法确定价格变动是由需求减弱、供应增加，还是由两者共同造成的。它既不是按支出权重计算的通胀指标，也不直接反映超市售价或工厂出厂价格。",
-          "watch": "将下期通报与工业品出厂价格，以及上市制造企业对新订单、售价和利润率的说明对照来看。",
+          "title": "中国工业生产资料调查：多种产品价格下跌",
+          "summary": "中国国家统计局的月中调查显示，不少受监测的生产资料价格下跌，包括柴油、铜和螺纹钢。",
+          "impact": "价格下跌可能减轻中国内地部分制造企业和建筑企业的成本压力，但也可能给材料供应商的营收带来压力。",
+          "what": "这项调查跟踪工农业生产资料经销企业的销售价格，对比当月月中与月初的价格。柴油、铜和一些常见钢材价格下跌，但部分品种的煤炭价格上涨。涨跌品种数反映的是价格变化在受监测产品中有多普遍，并不表示一般工厂的投入总成本变动了多少。",
+          "why": "按当前市场价采购铜的制造商，新采购时可能少花一些钱。按固定价格合同采购或仍在使用已付款库存的加工企业，则未必能马上受益。柴油降价也可能降低运输企业的成本，但家庭支付的配送费不一定会随之下降。对供应商而言，材料降价的含义不同：利润是否承压，关键要看售价是不是比自身成本降得更快。",
+          "uncertainty": "这些是流通环节的价格，不是出厂价格，也不能用来衡量消费通胀。报告没有说明降价究竟是因为需求减弱、供应增加，还是这些因素共同作用，也没有公布买家的采购量。",
+          "watch": "留意下期生产资料价格调查，看看跌势是否持续，再对照出厂价格和企业披露的利润率，判断这些价格变化是否已传导至生产企业。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "价格下跌的受监测产品数量"
+              "label": "价格下跌的监测产品品种数"
             },
             {
               "id": "m2",
-              "label": "价格上涨的受监测产品数量"
+              "label": "价格上涨的监测产品品种数"
             },
             {
               "id": "m3",
-              "label": "价格持平的受监测产品数量"
+              "label": "价格持平的监测产品品种数"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "美国商业活动扩张放缓，价格上涨压力减轻",
-          "summary": "采购经理调查初值显示，美国私营部门仍在扩张，但产出和订单增速均有所放缓。",
-          "impact": "销售价格上涨压力减轻对买家是个好消息，但调查仍显示价格在上涨，也不能据此判断借贷成本会下降。",
-          "what": "这项综合调查汇总了服务企业和制造企业的反馈，了解其经营活动较上月有何变化。最新读数虽有所回落，但仍处于扩张区间。调查还显示，订单增速放缓，积压的订单增多。投入成本和企业向客户收取的价格继续上涨，但涨幅有所收窄。",
-          "why": "新订单的变化有助于企业判断是否需要增加班次、招聘员工或推迟购买设备。订单增长放缓、积压却在增加，可能意味着部分企业难以完成手头的订单，而不只是需求不足。对家庭来说，价格涨得更慢，并不等于价格下降。不同企业面临的情况也可能与全国整体情况不同，具体取决于所在行业、用工需求和当地客户的情况。",
-          "uncertainty": "这是调查初值，并非对全国经济产出或消费价格涨幅的直接衡量。后续收到的反馈可能改变读数，这次发布的结果也无法说明放缓态势会在多大程度上持续。",
-          "watch": "关注调查终值是否印证初步结果，再把调查反映的订单和价格变化与官方发布的支出、就业和通胀数据对照来看。",
+          "title": "美国消费者对经济更乐观",
+          "summary": "美国世界大型企业联合会当月的初步调查显示，消费者对当前经济状况的评价有所改善，对未来也更乐观。",
+          "impact": "信心改善对零售商和服务企业是个积极信号，但并不能证明家庭实际支出有所增加。",
+          "what": "认为工作机会充足的受访者增多，认为工作难找的受访者减少。受访者的预期总体也有所改善，但预计收入会增加的人所占比重并未上升。购房和购车意愿略有增强。总体指数和分项指数都是根据调查回答汇总得出的，并不反映实际花了多少钱或新增了多少就业岗位。",
+          "why": "如果一个家庭觉得工作更有保障，就可能更愿意换车或预订旅行。企业在决定备多少货或安排多少员工上班时，可以参考这项调查。对于需要贷款或分期付款的消费，尤其要区分信心和实际支出。消费者即使更乐观，若每月还款额超出预算，也可能推迟购买。",
+          "uncertainty": "初步调查在结果发布前就已结束，支出计划由受访者自行填报。信心的变化无法说明家庭实际会花多少钱，也无法判断预算更紧的家庭是否同样乐观了起来。",
+          "watch": "把调查结果与随后公布的零售销售、家庭支出和非农就业人数数据对照，看看信心回升是否反映在实际消费和招聘上。",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "消费者信心指数"
+            },
+            {
               "id": "m2",
-              "label": "上月综合产出指数"
+              "label": "现况指数"
+            },
+            {
+              "id": "m3",
+              "label": "预期指数"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition revient sur l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises servent à éclairer le contexte.",
+      "status": "Cette édition couvre l’actualité économique aux États-Unis et en Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour donner du contexte.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible est présenté avec la date de la séance correspondante.",
-        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible est présenté avec la date de la séance correspondante."
+        "us": "Les indices suivis ont tous progressé lors de leur dernière séance vérifiée. Les cours de clôture indiqués correspondent aux séances datées et ne reflètent pas les échanges en cours.",
+        "cn": "Les indices suivis ont tous progressé lors de leur dernière séance vérifiée. Les cours de clôture indiqués correspondent aux séances datées et ne reflètent pas les échanges en cours."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "CrowdStrike publie ses résultats et annonce un accord de rachat de Zscaler entièrement en actions",
-          "summary": "CrowdStrike a dégagé un bénéfice net et amélioré son flux de trésorerie d’exploitation, tout en annonçant un accord pour racheter Zscaler entièrement en actions.",
-          "impact": "L’opération pourrait changer la façon dont les entreprises achètent leurs solutions de protection des appareils et des réseaux. Les résultats publiés concernent toutefois CrowdStrike seule.",
-          "what": "CrowdStrike vend surtout des abonnements à des logiciels qui protègent les appareils et les applications qui tournent dans le cloud. Zscaler se concentre sur la sécurisation des connexions entre les utilisateurs, les applications et les services cloud. Le rachat annoncé serait payé en actions plutôt qu’en espèces. La valeur d’entreprise annoncée pour l’opération est une estimation fondée sur le cours de clôture de l’action de CrowdStrike à la date de référence indiquée. Le rapport financier fait état d’une légère perte d’exploitation malgré un bénéfice net. Les intérêts perçus expliquent en partie cet écart.",
-          "why": "Pour une entreprise cliente, il pourrait être plus facile d’enquêter sur une activité suspecte si le même outil réunit les indices provenant d’un ordinateur portable et de sa connexion au réseau. Cet avantage dépend de la qualité de l’intégration des outils, de la clarté des contrats et de la fiabilité du service pendant la transition. Pour les actionnaires, émettre des actions revient à partager la propriété de l’entreprise issue du rapprochement. Par ailleurs, le flux de trésorerie d’exploitation mesure les liquidités générées par l’activité, sans compter les flux liés aux investissements ou au financement. Ce n’est ni le bénéfice comptable ni la somme qui reste après les dépenses d’investissement.",
-          "uncertainty": "Les sociétés resteront indépendantes tant que le rachat ne sera pas finalisé. Sa finalisation nécessite l’accord des actionnaires de Zscaler et les autorisations des autorités compétentes. L’accord ne garantit ni que les clients adopteront les offres groupées ni que l’intégration permettra de réaliser des économies.",
-          "watch": "Suivre les informations publiées sur le rachat et les autorisations nécessaires. Les prochains résultats de CrowdStrike seule permettront de suivre les abonnements, la rentabilité de l’exploitation et la capacité à générer des liquidités.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Chiffre d’affaires trimestriel"
-            },
-            {
-              "id": "m2",
-              "label": "Résultat net trimestriel part du groupe selon les normes GAAP"
-            },
-            {
-              "id": "m3",
-              "label": "Résultat d’exploitation trimestriel selon les normes GAAP"
-            },
-            {
-              "id": "m4",
-              "label": "Flux de trésorerie d’exploitation trimestriel"
-            },
-            {
-              "id": "m5",
-              "label": "Valeur d’entreprise implicite estimée de la transaction"
-            }
-          ]
-        },
-        {
           "id": "f4",
-          "title": "Les prix des intrants industriels reculent sur les marchés suivis en Chine",
-          "summary": "Le bureau chinois des statistiques a signalé des baisses de prix dans une large partie des intrants suivis, notamment les barres d’armature en acier, le cuivre et le gazole.",
-          "impact": "Le recul peut réduire les coûts d’approvisionnement de certains industriels et entreprises du bâtiment, tout en pesant sur les prix de vente de certains fournisseurs en amont.",
-          "what": "Le bulletin suit les prix proposés par des grossistes, des distributeurs et d’autres vendeurs de matériaux utilisés dans la production. Il compare la période d’observation de la mi-mois à la période précédente. Les prix des métaux et de divers combustibles ont baissé, mais pas partout : certaines qualités de charbon se sont renchéries. Le décompte des produits concernés montre à quel point ces mouvements de prix sont répandus parmi les produits suivis, pas de combien a varié la facture d’approvisionnement d’une entreprise type.",
-          "why": "Une entreprise de construction qui achète son acier au prix du marché peut payer moins cher pour ses nouveaux chantiers, tandis qu’un sidérurgiste peut toucher moins pour une livraison équivalente. Les acheteurs liés par des contrats à prix fixe peuvent ne pas constater d’effet immédiat notable. Un carburant moins cher peut aussi réduire les coûts des transporteurs, mais les contrats, les marges et les taxes influent sur la part de ces économies qui revient aux clients. Pour les industriels cotés en Bourse, la question est de savoir si leurs coûts d’approvisionnement baissent plus vite que leurs prix de vente et si les commandes se maintiennent.",
-          "uncertainty": "Le bulletin ne permet pas de savoir si ces mouvements tiennent à une demande plus faible, à une offre plus abondante ou à une combinaison de ces facteurs. Ce n’est pas un indicateur d’inflation pondéré selon les dépenses, et il ne mesure pas directement les prix en supermarché ni les prix à la sortie d’usine.",
-          "watch": "Comparer le prochain bulletin avec les prix à la sortie d’usine et avec ce que disent les industriels cotés en Bourse de leurs nouvelles commandes, de leurs prix de vente et de leurs marges.",
+          "title": "En Chine, les prix baissent pour une grande partie des produits industriels suivis",
+          "summary": "À la mi-novembre, le bureau chinois des statistiques a relevé des baisses de prix pour une grande partie des produits suivis dans son enquête, dont le gazole, le cuivre et les barres d’armature pour le béton.",
+          "impact": "La baisse des prix pourrait alléger les coûts de certains fabricants et entreprises du bâtiment en Chine continentale, tout en pesant sur le chiffre d’affaires des fournisseurs de matières premières.",
+          "what": "L’enquête porte sur les prix pratiqués par les distributeurs de produits industriels et agricoles. Elle compare les prix de la mi-novembre à ceux du début du mois. Le gazole, le cuivre et des produits sidérurgiques courants ont baissé, tandis que certaines catégories de charbon ont augmenté. Le décompte par produit montre à quel point ces mouvements étaient répandus. Il ne dit pas de combien a varié la facture totale d’approvisionnement d’une usine type.",
+          "why": "Un fabricant qui achète du cuivre au prix du marché pourrait payer moins cher ses nouveaux achats. Une entreprise qui transforme le cuivre et l’achète à un prix fixé par contrat, ou qui utilise des stocks déjà payés, pourrait ne pas en profiter tout de suite. De même, un gazole moins cher peut réduire les coûts d’un transporteur sans faire baisser le prix de la livraison pour les ménages. Pour les fournisseurs, la baisse des prix a une autre signification : pour leurs bénéfices, la question est de savoir si leurs prix de vente baissent plus vite que leurs propres coûts.",
+          "uncertainty": "Il s’agit de prix pratiqués par les distributeurs, et non de prix à la sortie des usines ni d’une mesure de l’inflation à la consommation. La publication ne précise pas si les baisses viennent d’une demande plus faible, d’une offre plus abondante ou de l’effet combiné de ces facteurs. Elle n’indique pas non plus les quantités achetées.",
+          "watch": "La prochaine enquête permettra de voir si ces mouvements se poursuivent. Les prix à la sortie des usines et les marges publiées par les entreprises aideront ensuite à déterminer si les variations de prix se sont répercutées sur les producteurs.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Nombre de produits suivis dont le prix baisse"
+              "label": "Nombre de produits suivis dont le prix a baissé"
             },
             {
               "id": "m2",
-              "label": "Nombre de produits suivis dont le prix augmente"
+              "label": "Nombre de produits suivis dont le prix a augmenté"
             },
             {
               "id": "m3",
-              "label": "Nombre de produits suivis dont le prix reste stable"
+              "label": "Nombre de produits suivis dont le prix est resté stable"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "L’activité des entreprises américaines progresse moins vite et la pression sur les prix s’atténue",
-          "summary": "L’enquête préliminaire auprès des directeurs d’achat indique que l’activité du secteur privé américain continue de progresser, mais que la production et les commandes augmentent moins vite.",
-          "impact": "La hausse plus lente des prix de vente est une bonne nouvelle pour les acheteurs, mais l’enquête indique que les prix continuent d’augmenter et ne permet pas de conclure que le coût des emprunts va baisser.",
-          "what": "L’enquête composite rassemble les réponses d’entreprises de services et d’industriels sur l’évolution de leur activité par rapport au mois précédent. Le dernier indice a reculé, mais signale toujours une progression de l’activité. L’enquête indique aussi que les commandes ont augmenté moins vite, tandis que le volume de commandes en attente a augmenté. Les coûts d’approvisionnement et les prix facturés aux clients ont continué de monter, mais plus lentement.",
-          "why": "Les nouvelles commandes peuvent aider une entreprise à décider si elle doit ajouter des créneaux de travail, embaucher ou reporter un achat de matériel. Si les commandes en attente s’accumulent alors que les nouvelles commandes progressent moins vite, cela peut indiquer que certaines entreprises peinent à terminer le travail déjà engagé, plutôt qu’un simple manque de demande. Pour les ménages, des prix qui montent moins vite ne sont pas des prix qui baissent. La situation des employeurs peut aussi s’écarter de la tendance nationale selon leur secteur, leurs besoins de personnel et leur clientèle locale.",
-          "uncertainty": "Il s’agit d’une enquête préliminaire, et non d’une mesure directe de la production nationale ou de l’inflation des prix à la consommation. Les réponses reçues par la suite peuvent modifier l’indice, et la publication ne permet pas de savoir dans quelle mesure le ralentissement va durer.",
-          "watch": "Vérifier si les résultats définitifs de l’enquête confirment ces tendances, puis comparer ses indications sur les commandes et les prix avec les données officielles sur les dépenses, l’emploi et l’inflation.",
+          "title": "Les consommateurs américains sont plus confiants dans l’économie",
+          "summary": "Les résultats préliminaires de l’enquête de novembre du Conference Board montrent que les consommateurs jugent la situation actuelle plus favorablement et sont plus optimistes pour la suite.",
+          "impact": "Ce regain de confiance est encourageant pour les commerçants et les entreprises de services, mais il ne prouve pas que les ménages dépensent davantage.",
+          "what": "Davantage de répondants estiment que les emplois sont nombreux, et moins de répondants disent qu’il est difficile d’en trouver. Les attentes se sont aussi améliorées dans l’ensemble, même si la part des personnes qui s’attendent à une hausse de leurs revenus n’a pas augmenté. Les intentions d’achat de logements et de véhicules ont légèrement progressé. L’indice global et ses composantes résument les réponses à l’enquête : ils ne mesurent ni les sommes dépensées ni les emplois créés.",
+          "why": "Un ménage qui se sent plus sûr de sa situation professionnelle peut être davantage disposé à remplacer sa voiture ou à réserver un voyage. L’enquête peut donc aider les entreprises à décider du niveau de leurs stocks ou à déterminer combien de personnes prévoir pour assurer le service. La différence entre confiance et dépenses compte surtout pour les achats qui nécessitent un financement. Même plus optimiste, un consommateur peut reporter un achat si les mensualités dépassent ce que lui permet son budget.",
+          "uncertainty": "Les réponses à l’enquête préliminaire ont été recueillies avant la publication des résultats, et les intentions de dépense sont déclarées par les répondants. La hausse de l’indice ne permet pas de savoir combien les ménages dépenseront ni si la confiance s’est autant améliorée chez ceux dont le budget est plus serré.",
+          "watch": "Les prochaines données sur les ventes au détail, les dépenses des ménages et l’emploi salarié permettront de voir si le regain de confiance se traduit par des achats et des embauches.",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "Indice de confiance des consommateurs"
+            },
+            {
               "id": "m2",
-              "label": "Indice composite de la production du mois précédent"
+              "label": "Indice de la situation actuelle"
+            },
+            {
+              "id": "m3",
+              "label": "Indice des anticipations"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición repasa novedades de Estados Unidos y China. Comprueba la fecha de publicación de cada noticia: los informes empresariales recientes se presentan como contexto.",
+      "status": "Esta edición recoge novedades de Estados Unidos y China. Fíjate en la fecha de cada publicación: los informes empresariales recientes se presentan para dar contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación.",
-        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva su propia fecha de negociación."
+        "us": "Los índices que seguimos subieron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la cotización actual.",
+        "cn": "Los índices que seguimos subieron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la cotización actual."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "CrowdStrike presenta resultados y anuncia un acuerdo para comprar Zscaler con acciones",
-          "summary": "CrowdStrike registró un beneficio neto positivo y un aumento del flujo de caja operativo, al tiempo que anunció un acuerdo para adquirir Zscaler mediante un canje de acciones.",
-          "impact": "La operación podría cambiar la forma en que las empresas contratan servicios de protección de dispositivos y redes, pero los resultados publicados corresponden únicamente a CrowdStrike.",
-          "what": "CrowdStrike vende principalmente suscripciones a programas que protegen dispositivos y sistemas que funcionan en la nube. Zscaler se centra en proteger las conexiones entre usuarios, aplicaciones y servicios en la nube. Según el acuerdo anunciado, la compra se pagaría con acciones en lugar de efectivo. El valor de empresa anunciado es una estimación basada en el precio de cierre de las acciones de CrowdStrike en la sesión de referencia. El informe de resultados muestra una pequeña pérdida operativa pese al beneficio neto positivo. Los ingresos por intereses ayudan a explicar esa diferencia.",
-          "why": "A una empresa cliente podría resultarle más fácil investigar una actividad sospechosa si puede consultar en la misma herramienta los indicios procedentes de un portátil y de su conexión a la red. Esa ventaja depende de que la integración sea útil, los contratos sean claros y el servicio siga siendo fiable durante la transición. Para los accionistas, emitir acciones significa compartir la propiedad de la empresa resultante. Por separado, el flujo de caja operativo mide el efectivo que genera la actividad del negocio antes de contar los flujos de inversión y financiación. No equivale al beneficio contable ni al efectivo que queda después de invertir en activos.",
-          "uncertainty": "Las empresas seguirán siendo independientes hasta que se cierre la operación, para lo cual se necesita la aprobación de los accionistas de Zscaler y de las autoridades regulatorias. El acuerdo no garantiza que los clientes contraten paquetes de servicios ni que la integración genere ahorros.",
-          "watch": "Sigue las comunicaciones y las aprobaciones de la operación. Los próximos resultados de CrowdStrike por separado permitirán seguir la evolución de las suscripciones, la rentabilidad operativa y la generación de efectivo.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Ingresos trimestrales"
-            },
-            {
-              "id": "m2",
-              "label": "Resultado neto atribuible trimestral según GAAP"
-            },
-            {
-              "id": "m3",
-              "label": "Resultado operativo trimestral según GAAP"
-            },
-            {
-              "id": "m4",
-              "label": "Flujo de caja operativo trimestral"
-            },
-            {
-              "id": "m5",
-              "label": "Valor de empresa implícito aproximado de la operación"
-            }
-          ]
-        },
-        {
           "id": "f4",
-          "title": "Bajan los precios de los insumos industriales en los mercados que sigue China",
-          "summary": "La oficina de estadística de China informó de caídas generalizadas de precios entre los insumos que sigue, entre ellos las barras de acero para hormigón, el cobre y el diésel.",
-          "impact": "La bajada puede reducir el coste de las compras de algunos fabricantes y constructores, pero también presionar a la baja los precios de venta de algunos proveedores de materiales.",
-          "what": "El boletín sigue los precios que ofrecen mayoristas, distribuidores y otras empresas que venden materiales para la producción. Compara el periodo de observación de mediados de mes con el periodo anterior. Los metales y varios combustibles se abarataron, aunque no todos los precios siguieron esa tendencia: algunos tipos de carbón se encarecieron. El recuento indica hasta qué punto se extendieron las variaciones entre los productos observados, no cuánto cambió el gasto en materiales de una empresa típica.",
-          "why": "Una constructora que compre acero a los precios actuales puede gastar menos en obras nuevas, mientras que una acería puede cobrar menos por el mismo envío. Quienes compran con contratos a precio fijo quizá apenas noten el efecto inmediato. El combustible más barato también puede reducir los costes de las empresas de transporte, pero que el ahorro llegue a sus clientes depende de los contratos, los márgenes y los impuestos. Para los fabricantes que cotizan en bolsa, importa si sus costes de compra bajan más deprisa que los precios que pueden cobrar y si los pedidos se mantienen.",
-          "uncertainty": "El boletín no aclara si los cambios se debieron a una demanda más débil, a una mayor oferta o a una combinación de esos factores. No es una medida de inflación ponderada por el gasto ni mide directamente los precios de los supermercados o los precios a la salida de fábrica.",
-          "watch": "Compara el próximo boletín con los precios a la salida de fábrica y con lo que digan los fabricantes cotizados sobre los nuevos pedidos, los precios de venta y los márgenes.",
+          "title": "Bajan los precios de buena parte de los insumos industriales que sigue China",
+          "summary": "La oficina de estadística de China registró caídas de precios en buena parte de los materiales incluidos en su encuesta de mediados de noviembre, entre ellos el diésel, el cobre y las barras de acero para hormigón.",
+          "impact": "La bajada de precios podría reducir los costes de algunos fabricantes y empresas constructoras de China continental, pero también presionar los ingresos de los proveedores de materiales.",
+          "what": "La encuesta recoge los precios que cobran las empresas que distribuyen materiales industriales y agrícolas. Compara los precios de mediados de noviembre con los de principios del mes. Bajaron el diésel, el cobre y varios productos de acero de uso habitual, pero subieron algunos tipos de carbón. El recuento muestra hasta qué punto se extendieron los cambios de precio entre los productos analizados, no cuánto cambió el gasto total en materiales de una fábrica típica.",
+          "why": "Los fabricantes que compran cobre al precio de mercado actual podrían pagar menos por sus nuevas compras. En cambio, una empresa que transforma el cobre y lo compra a un precio fijado por contrato o usa existencias que ya pagó quizá no note el alivio de inmediato. De forma parecida, el diésel más barato puede reducir los costes de una empresa de transporte sin abaratar lo que paga un hogar por una entrega. Para los proveedores, la bajada tiene otra lectura: lo que importa para sus beneficios es si sus precios de venta caen más rápido que sus propios costes.",
+          "uncertainty": "Son precios de distribución, no precios a la salida de fábrica ni una medida de la inflación al consumidor. El informe no aclara si las caídas se debieron a una demanda más débil, a una mayor oferta o a una combinación de esos factores. Tampoco indica qué cantidad de materiales se compró.",
+          "watch": "La próxima encuesta de materiales permitirá ver si las bajadas continúan. Después, los precios a la salida de fábrica y los márgenes que publiquen las empresas pueden dar pistas sobre si los cambios de precios llegaron a los productores.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Productos observados con bajadas de precio"
+              "label": "Productos analizados con bajadas de precio"
             },
             {
               "id": "m2",
-              "label": "Productos observados con subidas de precio"
+              "label": "Productos analizados con subidas de precio"
             },
             {
               "id": "m3",
-              "label": "Productos observados sin cambios de precio"
+              "label": "Productos analizados sin cambios de precio"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "La actividad empresarial en Estados Unidos crece más despacio y se modera la presión sobre los precios",
-          "summary": "La encuesta preliminar a responsables de compras indicó que el sector privado estadounidense siguió creciendo, aunque la producción y los pedidos avanzaron a menor ritmo.",
-          "impact": "Que los precios de venta suban más despacio es favorable para los compradores, pero la encuesta sigue apuntando a aumentos de precios y no indica que vaya a abaratarse el crédito.",
-          "what": "La encuesta compuesta reúne las respuestas de empresas de servicios y fabricantes sobre cómo cambió su actividad respecto al mes anterior. El índice bajó, pero siguió indicando un aumento de la actividad. La encuesta también señaló que los pedidos crecieron más despacio y que aumentó el trabajo pendiente. Los costes de los insumos y los precios que las empresas cobran a sus clientes siguieron subiendo, aunque a menor ritmo.",
-          "why": "Los nuevos pedidos pueden ayudar a una empresa a decidir si necesita añadir turnos, contratar personal o aplazar la compra de equipos. Si aumenta el trabajo pendiente mientras los pedidos pierden ritmo, puede ser que algunas empresas tengan dificultades para terminar el trabajo que ya tienen, no simplemente que falte demanda. Para los hogares, que los precios suban más despacio no significa que bajen. Las empresas también pueden encontrarse en una situación distinta de la que refleja el dato nacional, según su sector, sus necesidades de personal y su clientela local.",
-          "uncertainty": "La encuesta es preliminar y no mide directamente la producción nacional ni la inflación al consumidor. Las respuestas que lleguen después pueden modificar el resultado, y la publicación no aclara en qué medida persistirá la desaceleración.",
-          "watch": "Consulta la encuesta definitiva para ver si confirma el resultado y compara después lo que indica sobre los pedidos y los precios con los datos oficiales de gasto, empleo e inflación.",
+          "title": "Los consumidores de Estados Unidos ven la economía con más optimismo",
+          "summary": "La encuesta preliminar de noviembre de The Conference Board mostró una mejor valoración de la situación actual y más optimismo sobre el futuro.",
+          "impact": "La mejora de la confianza es una señal alentadora para el comercio minorista y las empresas de servicios, pero no demuestra que los hogares estén gastando más.",
+          "what": "Más personas encuestadas dijeron que abundaban los puestos de trabajo y menos dijeron que era difícil encontrar empleo. Las expectativas también mejoraron en general, aunque no aumentó la proporción de quienes esperan que suban sus ingresos. Los planes de comprar viviendas y vehículos repuntaron ligeramente. Tanto el índice general como sus componentes resumen respuestas a la encuesta: no miden cuánto se gastó ni cuántos empleos se crearon.",
+          "why": "Un hogar que siente más estabilidad laboral puede estar más dispuesto a cambiar de coche o reservar un viaje. Por eso, la encuesta puede servir a las empresas para decidir cuánto inventario mantener o cuánto personal necesitan por turno. Distinguir entre confianza y gasto importa sobre todo en las compras que requieren financiación. Una persona puede sentirse más optimista y aun así aplazar una compra si las cuotas mensuales no le caben en el presupuesto.",
+          "uncertainty": "La recogida de respuestas para la encuesta preliminar terminó antes de que se publicaran los resultados, y los planes de gasto son los que declaran las personas encuestadas. La mejora no permite saber cuánto gastarán los hogares ni si la confianza aumentó en la misma medida entre quienes tienen un presupuesto más ajustado.",
+          "watch": "Los próximos datos de ventas minoristas, gasto de los hogares y empleo no agrícola permitirán comprobar si la mejora de la confianza se refleja en las compras y las contrataciones.",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "Índice de confianza del consumidor"
+            },
+            {
               "id": "m2",
-              "label": "Índice compuesto de producción del mes anterior"
+              "label": "Índice de situación actual"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de expectativas"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今号では、米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業発表は、背景を理解するための解説として掲載しています。",
+      "status": "今号では米国と中国の動きを取り上げます。各資料の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "終値データの一部は確認できませんでした。確認できた指数には、それぞれの取引日を記載しています。",
-        "cn": "終値データの一部は確認できませんでした。確認できた指数には、それぞれの取引日を記載しています。"
+        "us": "対象の株価指数はいずれも、確認できた直近の取引日には上昇しました。日付付きの終値は当時の取引結果で、現在の値動きを示すものではありません。",
+        "cn": "対象の株価指数はいずれも、確認できた直近の取引日には上昇しました。日付付きの終値は当時の取引結果で、現在の値動きを示すものではありません。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "サイバーセキュリティー企業が決算と株式による買収合意を同時に発表",
-          "summary": "クラウドストライクは、純利益が黒字で営業キャッシュフローが改善したと報告し、対価をすべて株式で支払う形でゼットスケーラーを買収することで合意したと発表しました。",
-          "impact": "買収によって、企業が端末やネットワークを守るサービスの選び方が変わる可能性があります。ただし、今回の決算はクラウドストライク単独のものです。",
-          "what": "クラウドストライクは主に、端末やクラウド上で動くアプリケーションなどを守るセキュリティーソフトを、継続契約で提供しています。ゼットスケーラーは、利用者、アプリケーション、クラウドサービスの間の通信を守ることに力を入れています。発表された買収では、現金ではなく株式を対価とします。公表された企業価値は、基準として示された時点の買い手の株価終値に基づく概算です。決算資料では、純利益は黒字でしたが、営業損益は小幅な赤字でした。この違いには受取利息が影響しています。",
-          "why": "ノートパソコンとそのネットワーク接続に関する記録を同じ製品で確認できれば、企業の担当者は不審な動きを調べやすくなるかもしれません。その利点が得られるかどうかは、製品が使いやすい形で統合されるか、契約内容が明確か、移行中もサービスが安定しているかによります。株主にとっては、株式が発行されることで、統合後の会社の持ち分を他の株主と分け合うことになります。また、営業キャッシュフローは、投資や資金調達による現金の出入りを含めず、本業での現金の出入りを示す指標です。会計上の利益でも、設備投資を差し引いた後に残る現金でもありません。",
-          "uncertainty": "買収が完了するまでは、両社は独立した企業です。完了には、買収される側の株主の承認と規制当局の承認が必要です。合意したからといって、顧客がセット商品を採用するか、統合で費用を削減できるかはまだ分かりません。",
-          "watch": "買収に関する開示と承認手続きに注目です。今後の単独決算では、継続契約の動向、本業の採算、現金を生み出す力を確認できます。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "四半期売上高"
-            },
-            {
-              "id": "m2",
-              "label": "四半期の親会社株主に帰属する純利益（米国会計基準）"
-            },
-            {
-              "id": "m3",
-              "label": "四半期営業損益（米国会計基準）"
-            },
-            {
-              "id": "m4",
-              "label": "四半期営業キャッシュフロー"
-            },
-            {
-              "id": "m5",
-              "label": "買収条件から算出した企業価値（概算）"
-            }
-          ]
-        },
-        {
           "id": "f4",
-          "title": "中国の調査対象市場で生産資材の価格が幅広く下落",
-          "summary": "中国の国家統計局によると、鉄筋や銅、軽油など、調査対象の生産資材は幅広い品目で値下がりしました。",
-          "impact": "一部の製造業者や建設業者では調達費用が下がる一方、原材料などを供給する業者の中には、販売価格の下落に直面するところもあります。",
-          "what": "この報告は、卸売業者や流通業者など、生産資材を販売する事業者が提示する価格を調べたものです。月の中旬の調査期間を、その直前の調査期間と比較しています。金属や燃料の一部は値下がりしましたが、すべてが同じ動きではなく、石炭には値上がりした品種もありました。品目数から分かるのは、価格の変動が調査対象のどの程度に広がったかであり、一般的な企業の調達費用がどれだけ変わったかではありません。",
-          "why": "建設業者がその時点の相場で鋼材を買うなら、新たな工事の費用を抑えられる可能性があります。一方、鉄鋼メーカーは同じ出荷でも受け取る代金が減るかもしれません。価格を固定した契約で買っている企業には、すぐには影響が出にくい場合があります。燃料安は運送業者の費用も抑えますが、その恩恵が顧客に届くかは、契約条件や利益率、税金によって変わります。上場メーカーを見るうえでは、調達費用が販売価格より速く下がるか、受注が底堅さを保つかがポイントです。",
-          "uncertainty": "価格の変動が需要の弱まりによるものか、供給の増加によるものか、あるいは両方によるものかは、この報告では分かりません。支出の割合を反映した物価指標ではなく、スーパーの店頭価格や工場出荷価格を直接示すものでもありません。",
-          "watch": "次回の報告を、工場出荷価格の動きや、上場メーカーによる新規受注、販売価格、利益率についての説明と照らし合わせると、動きを確認できます。",
+          "title": "中国の資材価格調査、幅広い品目で値下がり",
+          "summary": "中国の国家統計局による月半ばの資材価格調査では、軽油や銅、鉄筋など、幅広い品目で価格が下がりました。",
+          "impact": "資材の値下がりは、中国本土の製造業者や建設業者のコスト負担を軽くする可能性がある一方、資材供給業者の売上高を押し下げる可能性があります。",
+          "what": "この調査は、工業や農業に使う資材を扱う流通業者の販売価格を対象とし、月半ばの価格を月初めと比べています。軽油や銅、よく使われる鋼材が値下がりした一方、石炭には値上がりした種類もありました。品目数から分かるのは、調査対象の中で値動きがどれほど広がったかです。一般的な工場で原材料費などの総額がどれほど変わったかを示すものではありません。",
+          "why": "銅をその時々の相場で仕入れるメーカーなら、新たな購入分の負担が軽くなる可能性があります。一方、契約で決まった価格で仕入れる加工業者や、支払い済みの在庫を使う加工業者には、値下がりの恩恵がすぐには及ばないかもしれません。同じように、軽油が安くなれば運送会社のコストは下がり得ますが、家庭が払う配送料まで下がるとは限りません。資材を売る側にとって、値下がりの意味は異なります。利益を左右するのは、販売価格が自社のコストよりも速いペースで下がるかどうかです。",
+          "uncertainty": "調査が示すのは流通段階の価格で、工場出荷価格でも、消費者物価の上昇率でもありません。公表資料では、需要の弱まりと供給の増加のどちらが値下がりの要因なのか、両方が影響したのかは明らかにされていません。買い手が資材をどれだけ購入したかも分かりません。",
+          "watch": "次回の資材価格調査では値下がりが続くかが焦点です。工場出荷価格と、企業が公表する利益率を照らし合わせると、価格の変化が生産者にも及んだかを見極める手がかりになります。",
           "metricLabels": [
             {
               "id": "m1",
@@ -687,70 +505,46 @@
         },
         {
           "id": "f5",
-          "title": "米国の企業活動は拡大が鈍化、値上げ圧力も和らぐ",
-          "summary": "購買担当者を対象とした調査の速報では、米国の民間部門の活動は拡大を続けたものの、生産と受注の伸びは鈍りました。",
-          "impact": "販売価格の上昇圧力が和らぐのは買い手にとって好材料ですが、調査では価格の上昇が続いており、借り入れコストが下がることを示しているわけではありません。",
-          "what": "総合指数は、企業活動が前月からどう変わったかについて、サービス業と製造業の回答をまとめたものです。今回の指数は前回より低下しましたが、引き続き活動の拡大を示す水準でした。受注の伸びは鈍った一方、まだ処理を終えていない受注は増えました。仕入れなどにかかる費用も、顧客向けの販売価格も、ペースは鈍ったものの上昇が続きました。",
-          "why": "新規受注の動きは、勤務シフトを増やすか、人を雇うか、設備の購入を先送りするかを企業が考える手がかりになります。受注の伸びが鈍る一方で未処理の受注が増えているなら、単に需要が足りないのではなく、すでに引き受けた仕事をこなしきれていない企業があるのかもしれません。家計にとって、値上がりのペースが鈍ることと、価格が下がることは別です。雇用する側が直面する状況も、業種や必要な人員、地元の顧客の動きによっては、全国の傾向と異なります。",
-          "uncertainty": "この調査は速報であり、米国全体の生産や消費者物価の上昇を直接測るものではありません。後から届く回答で指数が変わることがあり、今回の発表だけでは、減速がどの程度続くかは分かりません。",
-          "watch": "確報で速報時の傾向が確認できるかが注目点です。そのうえで、調査が示す受注と価格の動きを、支出、雇用、物価に関する公式統計と照らし合わせます。",
+          "title": "米国の消費者、景気の見方が改善",
+          "summary": "コンファレンス・ボードの月次調査の速報では、景気の現状に対する評価が改善し、先行きの見方も明るくなりました。",
+          "impact": "消費者心理の改善は小売業やサービス業にとって明るい材料ですが、家計の支出が増えていることを示すものではありません。",
+          "what": "「仕事は豊富にある」と答えた人が増え、「仕事を見つけにくい」と答えた人は減りました。先行きへの期待は全体として改善したものの、収入が増えると見込む人の割合は上がりませんでした。住宅や自動車の購入意向はわずかに強まりました。総合指数も内訳の指数も、調査への回答をまとめたもので、実際の支出額や雇用の増加数を示すものではありません。",
+          "why": "雇用への不安が和らぐと、車の買い替えや旅行の予約に前向きになる家庭もあります。そのため、この調査は企業が在庫をどれだけ持つか、勤務シフトにどれだけ人を配置するかを決める際の参考になります。消費者心理と実際の支出の違いがとりわけ重要なのは、ローンなどを利用する買い物です。先行きに楽観的になっても、毎月の返済額が家計の予算に収まらなければ、購入を先送りすることがあります。",
+          "uncertainty": "速報値の集計対象となる回答期間は公表前に終了しており、支出計画は回答者の自己申告です。今回の改善だけでは、家計が実際にどれだけ支出するかも、予算に余裕のない世帯で消費者心理が同じ程度に改善したかも分かりません。",
+          "watch": "小売売上高や家計支出、非農業部門雇用者数の発表と照らし合わせると、消費者心理の改善が実際の買い物や採用に表れているかを見極める手がかりになります。",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "消費者信頼感指数"
+            },
+            {
               "id": "m2",
-              "label": "前月の総合生産指数"
+              "label": "現況指数"
+            },
+            {
+              "id": "m3",
+              "label": "期待指数"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição traz novidades dos Estados Unidos e da China. Confira a data de cada publicação. Relatórios recentes de empresas são apresentados para explicar o contexto.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação. Os relatórios empresariais recentes são apresentados para ajudar a entender o contexto.",
       "marketSummary": {
-        "us": "Não foi possível confirmar alguns dados de fechamento. Os dados disponíveis de cada índice mantêm a data do pregão correspondente.",
-        "cn": "Não foi possível confirmar alguns dados de fechamento. Os dados disponíveis de cada índice mantêm a data do pregão correspondente."
+        "us": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os valores de fechamento se referem aos pregões das datas indicadas, não às negociações atuais.",
+        "cn": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os valores de fechamento se referem aos pregões das datas indicadas, não às negociações atuais."
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "CrowdStrike divulga resultados e anuncia acordo de aquisição com pagamento em ações",
-          "summary": "A CrowdStrike registrou lucro líquido e melhora no fluxo de caixa operacional, ao mesmo tempo que anunciou um acordo para adquirir a Zscaler com pagamento integral em ações.",
-          "impact": "O negócio pode mudar a forma como as empresas contratam proteção para dispositivos e redes, mas os resultados divulgados ainda são apenas da CrowdStrike.",
-          "what": "A CrowdStrike vende principalmente assinaturas de programas de segurança que protegem dispositivos e operações executadas na nuvem. A Zscaler se concentra em proteger as conexões entre usuários, aplicativos e serviços na nuvem. Pelo acordo anunciado, o pagamento seria feito em ações, não em dinheiro. O valor da empresa implícito na transação é uma estimativa baseada na cotação de fechamento das ações da compradora na data de referência informada. O relatório de resultados mostra um pequeno prejuízo operacional apesar do lucro líquido. A receita de juros ajuda a explicar essa diferença.",
-          "why": "Uma empresa cliente pode ter mais facilidade para investigar atividades suspeitas se o mesmo produto reunir indícios do que aconteceu em um notebook e na sua conexão com a rede. Esse benefício depende de uma integração que funcione na prática, de contratos claros e de um serviço confiável durante a transição. Para os acionistas, a emissão de ações significa dividir a participação no negócio combinado. Já o fluxo de caixa operacional mede o dinheiro gerado pelas atividades do negócio antes dos fluxos de investimento e financiamento. Não é o mesmo que lucro contábil nem que o dinheiro que sobra depois dos gastos com bens de capital.",
-          "uncertainty": "As empresas continuam independentes até a conclusão do negócio, que depende da aprovação dos acionistas da Zscaler e das autorizações dos órgãos reguladores. O acordo não garante que os clientes vão aderir a pacotes de serviços nem que a integração vai reduzir custos.",
-          "watch": "Acompanhe os comunicados sobre a operação e as aprovações. Nos próximos resultados da CrowdStrike como empresa independente, observe as assinaturas, a rentabilidade operacional e a geração de caixa.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Receita trimestral"
-            },
-            {
-              "id": "m2",
-              "label": "Lucro líquido trimestral atribuível aos acionistas da empresa, segundo o GAAP"
-            },
-            {
-              "id": "m3",
-              "label": "Resultado operacional trimestral segundo o GAAP"
-            },
-            {
-              "id": "m4",
-              "label": "Fluxo de caixa operacional trimestral"
-            },
-            {
-              "id": "m5",
-              "label": "Valor aproximado da empresa implícito na transação"
-            }
-          ]
-        },
-        {
           "id": "f4",
-          "title": "Preços de insumos industriais recuam nos mercados monitorados da China",
-          "summary": "O órgão de estatística da China registrou quedas generalizadas nos preços dos insumos monitorados, entre eles vergalhões de aço, cobre e diesel.",
-          "impact": "O recuo pode aliviar os custos de compra de algumas indústrias e construtoras, mas pressionar os preços de venda de alguns fornecedores no início da cadeia produtiva.",
-          "what": "O boletim acompanha os preços informados por atacadistas, distribuidores e outras empresas que vendem materiais usados na produção. Ele compara o período de observação de meados do mês com o período anterior. Os preços dos metais e de vários combustíveis caíram, mas o movimento não foi uniforme: alguns tipos de carvão ficaram mais caros. A contagem de produtos por direção da variação mostra o alcance das mudanças de preço, não quanto mudou o gasto com insumos de uma empresa típica.",
-          "why": "Uma construtora que compra aço aos preços atuais pode gastar menos em novas obras, enquanto uma siderúrgica pode receber menos pelo mesmo carregamento. Quem compra com contratos de preço fixo pode sentir pouco efeito imediato. Combustíveis mais baratos também podem reduzir os custos das transportadoras, mas contratos, margens e impostos influenciam se a economia chega aos clientes. Para as indústrias de capital aberto, importa saber se os custos dos insumos caem mais depressa do que os preços que elas conseguem cobrar e se os pedidos se mantêm.",
-          "uncertainty": "O boletim não permite saber se as mudanças vieram de uma demanda mais fraca, de uma oferta maior ou de uma combinação desses fatores. Ele não mede a inflação levando em conta o peso de cada produto nos gastos, nem acompanha diretamente os preços nos supermercados ou na saída das fábricas.",
-          "watch": "Compare o próximo boletim com os preços na saída das fábricas e com os comentários das indústrias de capital aberto sobre novos pedidos, preços de venda e margens.",
+          "title": "Preços caem em boa parte dos insumos industriais pesquisados na China",
+          "summary": "O órgão de estatística da China registrou queda nos preços de boa parte dos materiais pesquisados em meados de novembro, entre eles o diesel, o cobre e o vergalhão de aço.",
+          "impact": "Preços menores podem aliviar os custos de alguns fabricantes e construtoras na China continental, mas pressionar a receita dos fornecedores de materiais.",
+          "what": "O levantamento acompanha os preços cobrados por empresas que distribuem insumos industriais e agrícolas. Ele compara meados de novembro com o início do mês. O diesel e o cobre ficaram mais baratos, assim como vários produtos comuns de aço, mas alguns tipos de carvão ficaram mais caros. A contagem por produto mostra o quanto essas variações se espalharam pelos itens monitorados, não quanto mudou o gasto total de uma fábrica típica com insumos.",
+          "why": "Um fabricante que compra cobre ao preço de mercado pode economizar nas novas compras. Já uma empresa que trabalha com preço fixado em contrato ou usa estoque pelo qual já pagou talvez não sinta esse alívio de imediato. Da mesma forma, o diesel mais barato pode reduzir os custos de uma transportadora sem baratear o frete para as famílias. Para os fornecedores, a queda dos preços tem outra implicação: o que importa para o lucro é saber se os preços de venda caem mais rápido do que os próprios custos.",
+          "uncertainty": "Esses são preços cobrados por distribuidores, não preços na porta da fábrica nem uma medida da inflação ao consumidor. O relatório não esclarece se as quedas vieram de uma demanda mais fraca, de uma oferta maior ou de uma combinação desses fatores. Também não informa quanto material foi comprado.",
+          "watch": "Veja no próximo levantamento se as quedas persistem. Depois, compare os preços na porta da fábrica e as margens divulgadas pelas empresas para ver se há sinais de que as mudanças chegaram aos produtores.",
           "metricLabels": [
             {
               "id": "m1",
@@ -762,104 +556,88 @@
             },
             {
               "id": "m3",
-              "label": "Produtos monitorados com preços estáveis"
+              "label": "Produtos monitorados com preço estável"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "Atividade empresarial nos Estados Unidos cresce mais devagar, e pressão sobre os preços diminui",
-          "summary": "A pesquisa preliminar com gerentes de compras mostrou que o setor privado dos Estados Unidos continuou em expansão, mas a produção e os pedidos cresceram mais devagar.",
-          "impact": "A menor pressão sobre os preços de venda é uma boa notícia para os compradores, mas a pesquisa ainda aponta alta de preços e não indica que o custo dos empréstimos vá cair.",
-          "what": "A pesquisa que compõe o índice reúne respostas de empresas de serviços e da indústria sobre como a atividade mudou em relação ao mês anterior. O índice recuou na leitura mais recente, mas continuou indicando expansão. A pesquisa também mostrou que os pedidos cresceram mais devagar e que o volume de trabalho pendente aumentou. Os custos dos insumos e os preços cobrados dos clientes continuaram subindo, mas em ritmo menor.",
-          "why": "Os novos pedidos ajudam uma empresa a avaliar se precisa abrir mais turnos, contratar pessoal ou adiar a compra de equipamentos. Quando o trabalho pendente aumenta e os pedidos crescem mais devagar, isso pode indicar que algumas empresas têm dificuldade para concluir o trabalho que já receberam, e não simplesmente que falta demanda. Para as famílias, preços que sobem mais devagar não são o mesmo que preços mais baixos. As condições de cada empregador também podem diferir do cenário nacional, conforme o setor, as necessidades de pessoal e os clientes da região.",
-          "uncertainty": "A pesquisa é preliminar e não mede diretamente a produção do país nem a inflação ao consumidor. Respostas recebidas mais tarde podem mudar o resultado, e a divulgação não mostra quanto da desaceleração vai persistir.",
-          "watch": "Veja se a versão final da pesquisa confirma o resultado e compare os sinais sobre pedidos e preços com os dados oficiais de gastos, emprego e inflação.",
+          "title": "Consumidores dos EUA estão mais confiantes na economia",
+          "summary": "A pesquisa preliminar de novembro do Conference Board mostrou uma avaliação mais favorável da situação atual e mais otimismo em relação ao futuro.",
+          "impact": "A melhora na confiança é um sinal encorajador para o varejo e as empresas de serviços, mas não comprova que as famílias estejam gastando mais.",
+          "what": "Mais entrevistados disseram que havia empregos de sobra, e menos disseram que era difícil conseguir trabalho. As expectativas também melhoraram no geral, embora a proporção dos que esperam aumento de renda não tenha subido. A intenção de comprar imóveis e veículos cresceu ligeiramente. O índice geral e seus componentes resumem as respostas à pesquisa: não medem valores gastos nem empregos criados.",
+          "why": "Uma família que se sente mais segura em relação ao emprego pode estar mais disposta a trocar de carro ou reservar uma viagem. Por isso, a pesquisa pode ajudar as empresas a decidir quanto estoque manter ou quantos funcionários pôr na escala. A diferença entre confiança e gasto efetivo é especialmente importante nas compras que exigem financiamento. Um consumidor pode estar mais otimista e ainda assim adiar uma compra se as parcelas mensais não couberem no orçamento.",
+          "uncertainty": "A coleta de respostas para a pesquisa preliminar terminou antes da divulgação, e os planos de compra foram informados pelos próprios entrevistados. A melhora no índice não permite saber quanto as famílias vão gastar nem se a confiança aumentou na mesma medida entre as que têm o orçamento mais apertado.",
+          "watch": "Compare a pesquisa com os dados divulgados sobre vendas no varejo, gastos das famílias e emprego para ver se o aumento da confiança se reflete nas compras e contratações.",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "Índice de confiança do consumidor"
+            },
+            {
               "id": "m2",
-              "label": "Índice composto de produção do mês anterior"
+              "label": "Índice da situação atual"
+            },
+            {
+              "id": "m3",
+              "label": "Índice de expectativas"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的動態。請留意各則消息的發布日期；近期的公司財報在本期用於說明背景。",
+      "status": "本期涵蓋美國與中國的經濟動態。請留意各則消息的發布日期；近期企業財報僅作為背景解讀。",
       "marketSummary": {
-        "us": "部分收盤資料未能核實。可取得資料的指數均保留各自對應的交易日期。",
-        "cn": "部分收盤資料未能核實。可取得資料的指數均保留各自對應的交易日期。"
+        "us": "追蹤的指數在最近經查證的交易日均收漲。標註日期的收盤數據反映當日表現，不是即時行情。",
+        "cn": "追蹤的指數在最近經查證的交易日均收漲。標註日期的收盤數據反映當日表現，不是即時行情。"
       },
       "stories": [
         {
-          "id": "f3",
-          "title": "資安業者公布財報，並宣布全股票收購協議",
-          "summary": "CrowdStrike 公布淨利為正、營業活動現金流量增加，並宣布已達成以股票收購 Zscaler 的協議。",
-          "impact": "這項交易可能改變企業採購裝置與網路防護服務的方式，但已公布的財務結果仍僅反映 CrowdStrike 本身的營運。",
-          "what": "CrowdStrike 主要銷售資安軟體訂閱服務，用來保護裝置及在雲端執行的應用程式與作業。Zscaler 則專注於保護使用者、應用程式與雲端服務之間的連線。依照公布的協議，收購方將以股票而非現金支付收購價款。公布的企業價值，是根據收購方在指定基準交易日的收盤股價推估而來。財報顯示，雖然淨利為正，營業結果仍小幅虧損；利息收入有助於解釋這項差異。",
-          "why": "如果企業能在同個產品裡查看筆電及其網路連線的相關線索，調查可疑活動可能會更容易。這項好處能否實現，要看整合能否提供實用功能、合約是否清楚，以及過渡期間的服務是否可靠。對股東而言，發行股票代表合併後公司的所有權將由股東共同持有。至於營業活動現金流量，衡量的是本業帶來的現金流量，不計入投資和籌資活動；它不是帳面利潤，也不是扣除資本支出後剩下的現金。",
-          "uncertainty": "交易完成前，雙方仍各自獨立營運。交易須經被收購公司股東同意，並取得監管機關核准。達成協議並不代表客戶會採用組合方案，也不保證整合能節省成本。",
-          "watch": "可留意後續的交易資訊揭露與審批進度，並從之後公布的獨立營運結果追蹤訂閱業務、本業獲利情況及創造現金的能力。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "單季營收"
-            },
-            {
-              "id": "m2",
-              "label": "單季歸屬淨利（GAAP）"
-            },
-            {
-              "id": "m3",
-              "label": "單季營業損益（GAAP）"
-            },
-            {
-              "id": "m4",
-              "label": "單季營業活動現金流量"
-            },
-            {
-              "id": "m5",
-              "label": "交易隱含企業價值估計"
-            }
-          ]
-        },
-        {
           "id": "f4",
-          "title": "中國受監測市場的工業生產資料價格普遍走弱",
-          "summary": "中國國家統計局指出，受監測的生產資料價格普遍下跌，包括鋼筋、銅和柴油。",
-          "impact": "價格下跌可減輕部分製造商和營造業者的採購成本，但也可能讓部分上游供應商的售價承壓。",
-          "what": "這份公告追蹤批發商、經銷商及其他生產資料銷售業者的報價，並將月中的觀察期間與前期比較。金屬及部分燃料價格走弱，但並非所有品項都下跌，部分煤種價格有所上漲。各類品項的統計數量反映價格變動在受監測品項中有多普遍，並不代表一般企業的投入成本變動了多少。",
-          "why": "按市價採購鋼材的營造商，新工程的用料成本可能減輕；鋼鐵業者出貨的貨品沒變，收到的貨款卻可能變少。採用固定價格合約的買方，短期內可能感受不到太大影響。燃料變便宜也能降低運輸業者的成本，但客戶能否受惠，還要看合約條款、利潤空間及稅負。觀察上市製造商時，值得留意的是投入成本是否比產品售價降得更快，以及訂單能否維持。",
-          "uncertainty": "公告無法判定價格變動是來自需求走弱、供給增加，還是兩者共同作用。這也不是按支出占比加權的通膨指標，不能直接反映超市售價或工廠出廠價格。",
-          "watch": "可將下期公告與工廠出廠價格，以及上市製造商對新訂單、售價與利潤率的說法相互對照。",
+          "title": "中國工業投入品調查顯示，不少品項價格下跌",
+          "summary": "中國國家統計局的月中調查顯示，不少物資價格下跌，包括柴油、銅和螺紋鋼。",
+          "impact": "價格下跌可能減輕中國大陸部分製造商和營造業者的成本負擔，但也可能讓物資供應商的營收承壓。",
+          "what": "這項調查追蹤工業和農業物資經銷商的售價，比較月中與月初的價格。柴油、銅和多種常見鋼材價格下跌，但部分煤種價格上漲。各類品項的統計反映漲跌涉及的範圍，並不代表一般工廠的投入成本總額變動了多少。",
+          "why": "按當前市價買銅的製造商，新採購時可能省下一些成本；按固定價格合約採購，或仍在使用已付款庫存的加工業者，則未必能立刻受惠。同樣地，柴油降價可能降低運輸業者的成本，但家庭支付的配送費不一定會跟著下降。對物資供應商而言，價格下跌的意義不同：獲利要看售價是否比自身成本降得更快。",
+          "uncertainty": "這些是流通環節的價格，不是工廠出廠價，也不是衡量消費者通膨的指標。報告未說明價格下跌是由需求轉弱、供給增加，還是兩者共同造成，也未公布買方的採購量。",
+          "watch": "可留意後續物資調查，看看跌勢是否持續，再對照出廠價格和企業公布的利潤率，觀察價格變動是否已傳導到生產端。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "價格下跌的受監測品項數"
+              "label": "價格下跌的監測品項數"
             },
             {
               "id": "m2",
-              "label": "價格上漲的受監測品項數"
+              "label": "價格上漲的監測品項數"
             },
             {
               "id": "m3",
-              "label": "價格持平的受監測品項數"
+              "label": "價格持平的監測品項數"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "美國企業活動擴張放緩，價格上漲壓力減輕",
-          "summary": "採購經理人調查初值顯示，美國民間部門持續擴張，但產出與訂單的成長速度放慢。",
-          "impact": "售價上漲壓力減輕，對買方而言是好消息，但調查仍顯示價格在上漲，也未顯示借款成本會下降。",
-          "what": "這項綜合調查彙整服務業與製造業的回覆，了解企業活動與上月相比有何變化。最新指數仍處於擴張區間，但較前期下降。調查也顯示，訂單成長放緩，積壓的訂單則有所增加。投入成本與向客戶收取的價格仍在上升，只是漲得比較慢。",
-          "why": "新訂單的變化可幫助企業判斷是否需要增加班次、增聘人手，或延後採購設備。訂單成長放慢、積壓訂單卻增加，可能表示部分企業難以完成手上的工作，而不只是需求不足。對家庭來說，物價漲得比較慢並不等於物價下跌。雇主面臨的情況也可能與全國趨勢不同，取決於所屬產業、人力需求及當地客戶的狀況。",
-          "uncertainty": "這是調查初值，並不直接衡量全國產出或消費者通膨。後續收到的回覆可能改變指數，而這次公布的結果也無法判斷放緩的情況會持續到什麼程度。",
-          "watch": "可留意調查終值是否印證初步結果，再將訂單及價格走勢與官方公布的支出、就業和通膨資料對照。",
+          "title": "美國消費者對經濟更有信心",
+          "summary": "美國經濟評議會的月度初步調查顯示，消費者對現況的評價改善，對未來也更樂觀。",
+          "impact": "信心回升對零售業和服務業是個正面訊號，但不代表家庭實際支出已經增加。",
+          "what": "認為工作機會充足的受訪者變多，認為工作難找的則變少。整體預期也有所改善，但預期收入增加的受訪者比例並未上升。購屋和購車意願略有增強。整體指數與各分項指數都是根據調查回答彙整而成，並非實際支出金額或新增就業人數。",
+          "why": "家庭若對工作更有安全感，可能更願意換車或預訂旅遊行程。因此，企業在決定備多少貨、安排多少員工上班時，可以參考這份調查。對需要貸款的消費來說，信心和實際支出的差別尤其重要：即使消費者變得更樂觀，若每月還款金額超出預算，仍可能延後購買。",
+          "uncertainty": "初步調查在結果公布前便已結束，消費計畫也是由受訪者自行填報。信心回升無法說明家庭接下來會花多少錢，也無法確定預算較緊的家庭是否同樣變得更有信心。",
+          "watch": "可將調查結果與零售銷售、家庭支出和就業人數資料對照，看看信心回升是否反映在實際消費和企業招募上。",
           "metricLabels": [
             {
+              "id": "m1",
+              "label": "消費者信心指數"
+            },
+            {
               "id": "m2",
-              "label": "上月綜合產出指數"
+              "label": "現況指數"
+            },
+            {
+              "id": "m3",
+              "label": "預期指數"
             }
           ]
         }
