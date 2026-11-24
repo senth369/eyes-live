@@ -1,123 +1,93 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-23T22:38:17.353Z",
-  "generatedAt": "2026-11-23T22:47:48.024Z",
+  "cutoffAt": "2026-11-24T01:41:31.042Z",
+  "generatedAt": "2026-11-24T01:48:53.121Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Schwab — broad US benchmark closing quote",
-      "url": "https://www.schwab.wallst.com/schwab/Prospect/charts/interactive/popup.asp?symbol=%24SPX"
+      "label": "Associated Press — dated US closing report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-fcdf1bad36b4f81c90cbb0f33a2c5704"
     },
     {
       "id": "src2",
-      "label": "FRED — broad US benchmark daily closes",
+      "label": "FRED — broad US price index daily close",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src3",
-      "label": "Nasdaq Indexes — Composite index data",
-      "url": "https://indexes.nasdaq.com/Index/Weighting/COMP"
+      "label": "Portfolio Terminal — dated US closing data",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close/november-23-2026"
     },
     {
       "id": "src4",
-      "label": "Associated Press — Monday US closing snapshot",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-fcdf1bad36b4f81c90cbb0f33a2c5704"
+      "label": "Investing.com — Nasdaq Composite daily price data",
+      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
     },
     {
       "id": "src5",
-      "label": "Associated Press — Friday US closing snapshot",
-      "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad"
+      "label": "Investing.com — Shanghai Composite daily price data",
+      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src6",
-      "label": "CNGold — mainland closing and previous-close table",
-      "url": "https://stock.cngold.org/c/2026-11-23/c10897775.html"
+      "label": "Investing.com — mainland large-cap index daily price data",
+      "url": "https://ph.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src7",
-      "label": "Xinhua Finance — mainland closing report",
-      "url": "https://m.cnfin.com/yw-lb/zixun/20261123/4499011_1.html"
-    },
-    {
-      "id": "src8",
-      "label": "Issuer newsroom — board reinstatement announcement",
+      "label": "Issuer release — leadership reinstatement and board oversight",
       "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
     },
     {
+      "id": "src8",
+      "label": "SEC current report — board action and effective date",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm"
+    },
+    {
       "id": "src9",
-      "label": "Issuer investor relations — fiscal quarterly earnings release",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+      "label": "Issuer release — accelerator maker quarterly financial results",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
     },
     {
       "id": "src10",
-      "label": "Issuer investor relations — preceding fiscal quarter release",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+      "label": "Joint issuer release — cybersecurity acquisition agreement",
+      "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero"
     },
     {
       "id": "src11",
-      "label": "Issuer investor relations — definitive cybersecurity merger announcement",
-      "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero/"
-    },
-    {
-      "id": "src12",
-      "label": "Issuer filing — cybersecurity earnings exhibit and financial tables",
+      "label": "Issuer current report and cybersecurity earnings exhibit",
       "url": "https://ir.crowdstrike.com/static-files/b5de12b0-ee2b-4f54-8246-fbba2c190b6d"
     },
     {
+      "id": "src12",
+      "label": "New York Fed — prepared remarks on inflation and the economy",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil261123"
+    },
+    {
       "id": "src13",
-      "label": "S&P Global — November flash US business survey commentary",
-      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/us-flash-pmi-indicates-still-elevated-but-cooling-business-activity-growth-and-price-pressures"
+      "label": "Shanghai Stock Exchange — active fund listing announcement",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20261123_10838703.shtml"
     },
     {
       "id": "src14",
-      "label": "CNINFO — display supplier acquisition framework filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225683687.PDF"
+      "label": "CNINFO — optical components investment agreement notice",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682889.PDF"
     },
     {
       "id": "src15",
-      "label": "CNINFO — display supplier annual report summary",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225194635.PDF"
+      "label": "CNINFO — optical components quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634414.PDF"
     },
     {
       "id": "src16",
-      "label": "Issuer quarterly report — display supplier filing PDF mirrored by Sina",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2026/2026-10/2026-10-29/12670824.PDF"
+      "label": "CNINFO — automaker quarterly report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
     },
     {
       "id": "src17",
-      "label": "CNINFO — bank software supplier investigation notice",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682709.PDF"
-    },
-    {
-      "id": "src18",
-      "label": "CNINFO — bank software supplier buyback execution notice",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225684343.PDF"
-    },
-    {
-      "id": "src19",
-      "label": "CNINFO — bank software supplier interim report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225484708.PDF"
-    },
-    {
-      "id": "src20",
-      "label": "Issuer quarterly report — bank software supplier filing PDF mirrored by Sina",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2026/2026-10/2026-10-28/12668534.PDF"
-    },
-    {
-      "id": "src21",
-      "label": "China Money — November loan prime rate notice",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
-    },
-    {
-      "id": "src22",
-      "label": "China Money — October loan prime rate notice",
-      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
-    },
-    {
-      "id": "src23",
-      "label": "CNINFO — bank software supplier buyback plan",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225682322.PDF"
+      "label": "HKEX — simultaneous automaker quarterly disclosure",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900816.pdf"
     }
   ],
   "markets": [
@@ -131,18 +101,6 @@
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-23",
-      "close": 24089.56,
-      "previousClose": 22617.73,
-      "changePercent": 6.51,
-      "sourceIds": [
-        "src3",
-        "src4",
-        "src5"
-      ]
-    },
-    {
-      "id": "sse",
       "sessionDate": null,
       "close": null,
       "previousClose": null,
@@ -150,10 +108,20 @@
       "sourceIds": []
     },
     {
+      "id": "sse",
+      "sessionDate": "2026-11-23",
+      "close": 3538.95,
+      "previousClose": 3533.79,
+      "changePercent": 0.15,
+      "sourceIds": [
+        "src5"
+      ]
+    },
+    {
       "id": "csi300",
       "sessionDate": "2026-11-23",
       "close": 3958.29,
-      "previousClose": 3954.57,
+      "previousClose": 3954.56,
       "changePercent": 0.09,
       "sourceIds": [
         "src6"
@@ -164,508 +132,331 @@
     {
       "id": "f3",
       "market": "us",
-      "category": "earnings",
+      "category": "economy",
       "publishedOn": "2026-11-23",
-      "company": {
-        "name": "CrowdStrike Holdings, Inc.",
-        "ticker": "CRWD",
-        "exchange": "Nasdaq"
-      },
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 43900000000,
-          "unit": "USD",
-          "periodStart": "2026-11-20",
-          "periodEnd": "2026-11-20",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Transaction Details, approximate announced enterprise value based on the acquirer's reference closing share price; not cash paid or realized consideration."
-        },
-        {
-          "id": "m2",
-          "value": 1583419000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Earnings exhibit, consolidated statement of operations, fiscal quarter total revenue."
-        },
-        {
-          "id": "m3",
-          "value": 24856000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Earnings exhibit, consolidated statement of operations, fiscal quarter GAAP net income attributable to the parent."
-        },
-        {
-          "id": "m4",
-          "value": 665176000,
-          "unit": "USD",
-          "periodStart": "2026-08-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "Earnings exhibit, free cash flow reconciliation, quarterly GAAP operating cash flow row before deductions."
-        }
-      ],
+      "company": null,
+      "metrics": [],
       "sourceIds": [
-        "src11",
         "src12"
       ],
-      "evidence": "The merger release describes a definitive all-stock agreement, independent operations until closing, and shareholder and regulatory conditions. The earnings exhibit separately reports standalone sales, GAAP income and operating cash flow."
+      "evidence": "In the prepared remarks' inflation and monetary policy sections, John Williams describes resilient demand and a stable labor market alongside persistent inflation, and explains how AI investment could ease or intensify price pressures."
     },
     {
-      "id": "f5",
-      "market": "us",
+      "id": "f4",
+      "market": "cn",
       "category": "economy",
       "publishedOn": "2026-11-23",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 54.6,
-          "unit": "index",
-          "periodStart": "2026-11-01",
+          "value": 9,
+          "unit": "count",
+          "periodStart": "2026-11-23",
           "periodEnd": "2026-11-23",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src13"
           ],
-          "evidence": "Output section, preliminary November composite output index as of the flash release, not a final reading for the month."
+          "evidence": "Exchange release, launch cohort paragraph, count of active funds listed in Shanghai."
         },
         {
           "id": "m2",
-          "value": 55.9,
-          "unit": "index",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
+          "value": 18000000000,
+          "unit": "CNY",
+          "periodStart": "2026-11-23",
+          "periodEnd": "2026-11-23",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src13"
           ],
-          "evidence": "Output section, October composite output index given as the comparison reading."
+          "evidence": "Exchange release, launch cohort paragraph, cumulative initial subscriptions disclosed at listing; this is not listing-day inflow or trading turnover."
         }
       ],
       "sourceIds": [
         "src13"
       ],
-      "evidence": "The survey producer's output and prices sections show softer but still expanding activity and easing but elevated price pressures. Its employment and operating capacity section reports rising backlogs and continued hiring."
+      "evidence": "The Shanghai exchange's listing announcement gives the cohort count and aggregate subscriptions, says the products reached their fundraising caps early, and describes the range of strategies."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
+        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
           "id": "f3",
-          "title": "CrowdStrike reports earnings and agrees to buy Zscaler with stock",
-          "summary": "CrowdStrike reported a quarterly accounting profit and agreed to buy Zscaler in an all-stock deal.",
-          "impact": "The combination could simplify security purchasing for some businesses, while existing CrowdStrike shareholders would share ownership with the seller's investors.",
-          "what": "CrowdStrike sells subscriptions that help organizations monitor and protect devices and workloads. Zscaler focuses on securing access to applications and data over networks. Their standalone offerings address different parts of the same job: protecting a device and controlling what it can connect to. The merger announcement and CrowdStrike's quarterly report were released together, but the reported earnings do not include a combined business.",
-          "why": "A combined offering could let buyers manage devices and access policies under fewer contracts. That only helps if the products work together well enough to offset migration and training costs. Investors should also separate the announcement value from the way the deal is paid for. With stock as consideration, the implied value can move with the buyer's share price; it is not a cash bill. In the quarter, operating cash flow exceeded GAAP profit. Cash collections and accounting expenses do not occur on the same schedule, and operating cash flow is measured before equipment and capitalized software spending.",
-          "uncertainty": "The deal still needs approval from Zscaler shareholders and relevant regulators, and the companies remain independent until closing. The releases do not establish what customers will pay for combined products or how many will adopt them.",
-          "watch": "Look for the merger registration and proxy materials, regulatory decisions and later disclosures on product integration, customer retention and spending.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Announced enterprise value at reference close"
-            },
-            {
-              "id": "m2",
-              "label": "Fiscal quarter revenue"
-            },
-            {
-              "id": "m3",
-              "label": "Fiscal quarter GAAP net income attributable to parent"
-            },
-            {
-              "id": "m4",
-              "label": "Fiscal quarter operating cash flow"
-            }
-          ]
+          "title": "New York Fed president says inflation remains too high",
+          "summary": "John Williams described a resilient US economy with persistent inflation and a stable labor market.",
+          "impact": "His remarks suggest strong activity alone is not a reason to expect near-term relief in borrowing costs.",
+          "what": "In prepared remarks, Williams said AI investment supported growth but also pushed demand ahead of supply for some goods, including chips. He pointed to tariffs and energy disruptions as other sources of pressure. He noted that housing services inflation had slowed and said he saw little evidence that wage growth was adding to inflation pressure. The remarks were his assessment, not a new Federal Reserve policy decision.",
+          "why": "If price pressures spread beyond goods in short supply and persist, policymakers may need to keep borrowing conditions tighter than they otherwise would. That can affect mortgage quotes and the cost of financing business equipment. Conversely, easing supply bottlenecks could take pressure off prices without requiring weaker hiring.",
+          "uncertainty": "Williams described ways AI investment could raise or ease price pressures. His view does not commit the rate-setting committee to a particular move.",
+          "watch": "Watch upcoming personal consumption prices, wage and employment releases, and whether inflation remains concentrated in the categories he identified.",
+          "metricLabels": []
         },
         {
-          "id": "f5",
-          "title": "US business activity still expands as growth and price pressure cool",
-          "summary": "The preliminary US purchasing managers survey showed slower expansion, continued hiring and easing but still elevated price pressure.",
-          "impact": "Businesses are still reporting growth, but the survey gives households little reason to expect that price increases will stop quickly.",
-          "what": "The composite index tracks whether surveyed firms report that activity is rising or falling. The November preliminary reading slipped from October but still pointed to expansion. Services outpaced manufacturing, though activity growth slowed in each. The survey also reported that firms added staff as unfinished work piled up, and that manufacturers faced longer delivery times for inputs.",
-          "why": "Slower growth is different from falling output. A business can still be taking on work even as new activity loses momentum. Rising backlogs also suggest that a slowdown in completed work can reflect limited capacity, not just softer demand. Easing fuel costs helped relieve some price pressure, but firms continued to report rising costs for other inputs and wages. Whether households notice relief depends partly on how much of that cost businesses pass through and whether the slowdown in price pressure lasts beyond the survey.",
-          "uncertainty": "This is an early survey reading, not an official output, payroll or consumer inflation release. It cannot establish how much the economy grew or what the Federal Reserve will do.",
-          "watch": "Compare the final survey with official payroll and inflation releases, and look for whether supplier delays and backlogs ease without a broad decline in hiring.",
+          "id": "f4",
+          "title": "Shanghai opens trading in its first actively managed funds",
+          "summary": "Shanghai's debut cohort of actively managed exchange-traded funds began trading after reaching its fundraising caps.",
+          "impact": "Mainland investors can buy manager-selected stock portfolios through a brokerage account during the trading day.",
+          "what": "The Shanghai Stock Exchange said the debut cohort included funds focused on growth, dividends, quality, and value. Unlike an index tracker, an active fund gives its manager discretion over which securities to hold within the fund's rules. The exchange said the funds hit their subscription limits early. The fundraising figure measures subscriptions collected before listing, not money that flowed into A shares during the debut session.",
+          "why": "Investors can buy a managed portfolio without picking each holding, but funds with similar labels can own different businesses and perform differently. The exchange price can also differ from the value of the underlying portfolio. For listed companies, the funds represent a potential source of demand, depending on what the managers hold and whether investors keep adding money.",
+          "uncertainty": "Hitting subscription caps shows demand at launch, not durable inflows, easy trading in stressed markets, or better performance than an index tracker.",
+          "watch": "Compare changes in fund units outstanding, trading spreads, and reported holdings once trading has settled.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "November flash composite output index"
+              "label": "Active funds listed in Shanghai"
             },
             {
               "id": "m2",
-              "label": "October composite output index"
+              "label": "Initial subscriptions disclosed at listing"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场没有经核实的新消息；较早发布的报告仍明确标注原有日期。",
+      "status": "本期聚焦美国和中国的动态。请留意各篇内容的发布日期；近期发布的公司报告在本期用作背景解读。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。已取得数据的指数均保留各自对应的交易日期。",
-        "cn": "部分收盘数据未能核实。已取得数据的指数均保留各自对应的交易日期。"
+        "us": "部分收盘数据未能核实。已核实的指数收盘数据均标注各自对应的交易日期。",
+        "cn": "本期跟踪的指数在各自最近经核实的交易日均上涨。标注日期的收盘数据反映的是当日行情，并非当前走势。"
       },
       "stories": [
         {
           "id": "f3",
-          "title": "CrowdStrike公布财报，同意以股票收购Zscaler",
-          "summary": "CrowdStrike公布财季会计利润，并同意收购Zscaler，交易对价全部以股票支付。",
-          "impact": "合并可能让部分企业更容易采购安全产品，但CrowdStrike现有股东将与Zscaler股东共同持有合并后的公司。",
-          "what": "CrowdStrike以订阅方式提供服务，帮助各类机构监控和保护设备及其运行的应用和任务。Zscaler专注于保护通过网络访问应用和数据的过程。两家公司的现有产品各有侧重：CrowdStrike保护设备，Zscaler则管控设备能访问哪些应用和数据。合并公告与CrowdStrike的财季报告同时发布，但已公布的业绩不包含合并后的业务。",
-          "why": "合并后的产品可能让买方用更少的合同来管理设备和访问权限。但只有产品配合得足够好，带来的好处能抵消系统迁移和人员培训成本，这样做才有价值。理解这笔交易时，要区分公告中的交易估值和实际支付方式。由于对价是股票，按股价推算的交易价值会随买方股价变动，并不是要支付的现金金额。该财季的经营现金流高于按美国通用会计准则计算的净利润。实际收款与会计上确认费用的时间并不总是相同，经营现金流也未扣除设备购置和计入资产的软件支出。",
-          "uncertainty": "交易仍需获得Zscaler股东和相关监管机构批准。在交割前，两家公司仍独立运营。已发布的信息无法说明客户会为整合后的产品支付多少，也无法确定会有多少客户采用。",
-          "watch": "后续关注合并注册文件、股东投票委托材料和监管决定，以及公司对产品整合、客户留存和支出的后续披露。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "按参考收盘价计算的公告企业价值"
-            },
-            {
-              "id": "m2",
-              "label": "财季营收"
-            },
-            {
-              "id": "m3",
-              "label": "财季归属于母公司的净利润（按美国通用会计准则）"
-            },
-            {
-              "id": "m4",
-              "label": "财季经营现金流"
-            }
-          ]
+          "title": "纽约联储行长称通胀仍然过高",
+          "summary": "约翰·威廉姆斯表示，美国经济仍有韧性，通胀居高不下，就业市场保持稳定。",
+          "impact": "他的讲话表明，仅凭经济活动强劲，不能指望借贷成本近期下降。",
+          "what": "威廉姆斯在事先准备的讲话稿中表示，人工智能投资支撑了经济增长，但也使芯片等部分商品供不应求。他指出，关税和能源供应中断也是推高物价的因素。他还提到，住房服务价格涨幅已放缓，目前几乎没有证据表明工资上涨加大了通胀压力。这番话是他对经济形势的判断，并非美联储的新政策决定。",
+          "why": "如果涨价压力从供应紧张的商品蔓延到其他领域，并且持续下去，政策制定者可能需要让借贷条件比原本更紧。这会影响房贷利率报价和企业为购置设备筹资的成本。反过来，如果供应瓶颈缓解，即使招聘不降温，物价压力也可能减轻。",
+          "uncertainty": "威廉姆斯解释了人工智能投资可能如何推高或缓解物价压力。他的看法不代表美联储负责利率决策的委员会承诺采取某种行动。",
+          "watch": "关注接下来公布的个人消费支出价格、工资和就业数据，以及通胀压力是否仍集中在他提到的类别。",
+          "metricLabels": []
         },
         {
-          "id": "f5",
-          "title": "美国商业活动仍在扩张，增速放缓，价格压力减轻",
-          "summary": "美国采购经理人调查初值显示，商业活动扩张放缓，企业仍在增聘员工，价格压力有所减轻但依然偏高。",
-          "impact": "企业仍报告业务增长，但调查并未给家庭多少理由预期物价会很快停止上涨。",
-          "what": "综合指数反映受访企业报告的业务活动是在增加还是减少。本期初值较上期回落，但仍显示商业活动在扩张。服务业增长快于制造业，不过各行业的活动增速均有所放缓。调查还显示，随着未完成的工作积压，企业增加了人手；制造商采购的生产物资则需要更长时间才能到货。",
-          "why": "增速放缓不等于产出下降。即使新增业务势头减弱，企业也可能仍在接到新业务。积压增加也表明，工作完成得更慢可能是因为人手或产能有限，不只是因为需求走弱。燃料成本下降缓解了部分价格压力，但企业仍报告其他投入品成本和工资上涨。家庭能否感受到价格压力减轻，部分取决于企业把多少成本转嫁给消费者，以及这种缓和能否在调查期之后延续。",
-          "uncertainty": "这只是调查初值，不是官方发布的产出、非农就业人数或消费者通胀数据。它无法确定经济增长了多少，也不能说明美联储会采取什么行动。",
-          "watch": "将调查终值与官方非农就业人数和通胀数据对照，观察供应商交货延迟和工作积压能否在招聘没有普遍减少的情况下缓解。",
+          "id": "f4",
+          "title": "上交所迎来主动管理型基金上市交易",
+          "summary": "上海证券交易所推出的主动管理型交易所交易基金在达到募集上限后开始交易。",
+          "impact": "内地投资者可以在交易时段通过证券账户买入这些基金，投资由基金经理挑选的股票组合。",
+          "what": "上海证券交易所表示，此次推出的基金涵盖成长、红利、质量和价值等投资方向。与跟踪指数的基金不同，主动管理型基金的基金经理可以在基金规则允许的范围内自主决定持有哪些证券。上交所表示，这些基金提前达到了认购上限。募集数据反映的是上市前收到的认购资金，并非挂牌当天流入A股的资金。",
+          "why": "投资者不必自行挑选成分股，就能投资由基金经理管理的组合。不过，投资方向标签相似的基金也可能持有不同公司的股票，表现也可能不同。基金在交易所的成交价格也可能偏离其持有资产的价值。对上市公司而言，这些基金可能带来买入需求，具体取决于基金经理持有哪些股票，以及投资者是否继续投入资金。",
+          "uncertainty": "达到认购上限说明基金推出时有需求，但不能说明资金会持续流入、市场承压时仍容易买卖，或表现会优于跟踪指数的基金。",
+          "watch": "待交易趋于平稳后，可比较基金份额总量的变化、买卖价差和披露的持仓。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "本期综合产出指数初值"
+              "label": "上交所上市的主动管理型基金"
             },
             {
               "id": "m2",
-              "label": "上期综合产出指数"
+              "label": "上市时披露的初始认购规模"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition contient peu d’informations vérifiées. Pour certains marchés, aucune nouvelle information n’a pu être vérifiée. Les publications déjà datées restent clairement identifiées.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour aider à comprendre le contexte.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice présenté conserve la date de la séance correspondante.",
-        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice présenté conserve la date de la séance correspondante."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice pour lequel des données sont disponibles est présenté avec sa propre date de séance.",
+        "cn": "Les indices suivis ont tous progressé lors de leurs dernières séances vérifiées. Les cours de clôture indiqués se rapportent aux séances datées, pas aux échanges en cours."
       },
       "stories": [
         {
           "id": "f3",
-          "title": "CrowdStrike publie ses résultats et conclut un accord pour racheter Zscaler en actions",
-          "summary": "CrowdStrike a dégagé un bénéfice comptable sur le trimestre et a conclu un accord pour racheter Zscaler dans le cadre d’une opération entièrement payée en actions.",
-          "impact": "Le rapprochement pourrait simplifier l’achat de solutions de cybersécurité pour certaines entreprises. Les actionnaires actuels de CrowdStrike partageraient le capital avec les actionnaires de Zscaler.",
-          "what": "CrowdStrike vend des abonnements qui aident les organisations à surveiller et à protéger leurs appareils et les applications qui s’exécutent sur leurs systèmes. Zscaler se spécialise dans la sécurisation de l’accès aux applications et aux données via les réseaux. Leurs offres actuelles sont complémentaires : l’une protège les appareils, l’autre contrôle les ressources auxquelles ils peuvent se connecter. L’accord de fusion et les résultats trimestriels de CrowdStrike ont été annoncés en même temps, mais les résultats publiés ne tiennent pas compte du rapprochement.",
-          "why": "Une offre commune pourrait permettre aux clients de gérer leurs appareils et leurs règles d’accès avec moins de contrats. Cet avantage ne se concrétiserait que si les produits fonctionnent assez bien ensemble pour compenser les coûts de transition et de formation. Il faut aussi distinguer la valeur annoncée de l’opération de son mode de paiement. Comme le paiement se fait en actions, la valeur de l’opération peut évoluer avec le cours de CrowdStrike : il ne s’agit pas d’une somme à verser en espèces. Sur le trimestre, le flux de trésorerie d’exploitation a dépassé le bénéfice calculé selon les normes comptables américaines. Les encaissements et la comptabilisation des charges ne suivent pas le même calendrier. Le flux de trésorerie d’exploitation est calculé avant déduction des dépenses d’équipement et des dépenses de logiciels comptabilisées comme investissements.",
-          "uncertainty": "L’opération doit encore être approuvée par les actionnaires de Zscaler et les autorités compétentes. Les entreprises resteront indépendantes jusqu’à sa finalisation. Les communiqués ne permettent pas de savoir quel prix les clients paieront pour les offres communes ni dans quelle mesure ils les adopteront.",
-          "watch": "À suivre : le dossier d’enregistrement de la fusion, les documents de sollicitation de procurations, les décisions des autorités et les prochaines communications sur l’intégration des produits, la fidélisation des clients et les dépenses.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Valeur d’entreprise annoncée au cours de clôture de référence"
-            },
-            {
-              "id": "m2",
-              "label": "Chiffre d’affaires du trimestre fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Résultat net du trimestre fiscal, part du groupe, selon les normes comptables américaines"
-            },
-            {
-              "id": "m4",
-              "label": "Flux de trésorerie d’exploitation du trimestre fiscal"
-            }
-          ]
+          "title": "Le président de la Fed de New York estime que l’inflation reste trop élevée",
+          "summary": "John Williams a décrit une économie américaine qui résiste bien, malgré une inflation persistante, et un marché du travail stable.",
+          "impact": "Selon ses propos, la vigueur de l’activité ne suffit pas à elle seule pour s’attendre à une baisse prochaine des coûts d’emprunt.",
+          "what": "Dans un discours préparé à l’avance, John Williams a expliqué que les investissements dans l’intelligence artificielle soutenaient la croissance, mais qu’ils avaient aussi poussé la demande à dépasser l’offre pour certains biens, notamment les puces électroniques. Il a cité les droits de douane et les perturbations dans le secteur de l’énergie comme autres sources de pression sur les prix. Il a relevé que la hausse des prix des services liés au logement avait ralenti et a dit voir peu de signes que la progression des salaires accentuait l’inflation. Il présentait son analyse, et non une nouvelle décision de politique monétaire de la Réserve fédérale.",
+          "why": "Si les pressions sur les prix s’étendent au-delà des biens dont l’offre est insuffisante et persistent, les responsables de la politique monétaire pourraient devoir maintenir des conditions d’emprunt plus strictes qu’ils ne le feraient autrement. Cela peut influer sur les taux proposés pour les prêts immobiliers et sur le coût du financement des équipements des entreprises. À l’inverse, si les difficultés d’approvisionnement s’atténuent, les pressions sur les prix pourraient diminuer sans qu’il soit nécessaire que les embauches ralentissent.",
+          "uncertainty": "John Williams a expliqué comment les investissements dans l’intelligence artificielle pourraient aussi bien accentuer qu’atténuer les pressions sur les prix. Son analyse ne préjuge pas de la décision du comité qui fixe les taux directeurs.",
+          "watch": "À suivre : les prochaines données sur les prix des dépenses de consommation des ménages, les salaires et l’emploi, ainsi que la possibilité que l’inflation reste concentrée dans les catégories qu’il a signalées.",
+          "metricLabels": []
         },
         {
-          "id": "f5",
-          "title": "Aux États-Unis, l’activité des entreprises progresse encore, mais la croissance ralentit et les pressions sur les prix s’atténuent",
-          "summary": "Les résultats préliminaires de l’enquête américaine auprès des directeurs d’achat indiquent une croissance plus lente, des embauches qui se poursuivent et des pressions sur les prix qui s’atténuent mais restent fortes.",
-          "impact": "Les entreprises signalent toujours une hausse de leur activité, mais l’enquête donne peu de raisons aux ménages de s’attendre à ce que les prix cessent rapidement d’augmenter.",
-          "what": "L’indice composite indique si les entreprises interrogées signalent une hausse ou une baisse de leur activité. L’estimation préliminaire de novembre a reculé par rapport à octobre, mais indiquait toujours une progression de l’activité. Les services ont progressé plus vite que l’industrie manufacturière, même si la croissance a ralenti dans chacun de ces secteurs. Selon l’enquête, les entreprises ont aussi recruté alors que le travail en attente s’accumulait, et les industriels ont signalé des délais de livraison plus longs pour leurs approvisionnements.",
-          "why": "Une croissance plus lente ne signifie pas que la production recule. Une entreprise peut continuer à accepter du travail même si les nouvelles commandes arrivent moins vite. L’accumulation de travail en attente suggère aussi que, si le travail avance moins vite, cela peut tenir à des capacités limitées et pas seulement à une demande plus faible. La baisse du coût des carburants a atténué les pressions sur les prix, mais les entreprises continuent de signaler une hausse du coût de leurs autres approvisionnements et des salaires. Pour les ménages, le soulagement dépend notamment de la part de ces hausses de coûts que les entreprises répercutent sur leurs prix et de la durée de cette accalmie au-delà de la période couverte par l’enquête.",
-          "uncertainty": "Il s’agit de résultats préliminaires d’une enquête, et non de statistiques officielles sur la production, l’emploi salarié ou les prix à la consommation. Ils ne permettent pas de mesurer la croissance de l’économie ni de savoir ce que fera la Réserve fédérale.",
-          "watch": "À suivre : les résultats définitifs de l’enquête, à comparer aux statistiques officielles sur l’emploi salarié et l’inflation. Il reste à voir si les délais de livraison raccourcissent et si le travail en attente diminue sans recul généralisé des embauches.",
+          "id": "f4",
+          "title": "La Bourse de Shanghai lance la cotation de fonds à gestion active",
+          "summary": "La Bourse de Shanghai a ouvert la négociation de ses tout nouveaux fonds cotés à gestion active, après que ceux-ci ont atteint leurs plafonds de souscription.",
+          "impact": "Les investisseurs de Chine continentale peuvent acheter en cours de séance, via un compte de courtage, des parts de portefeuilles d’actions sélectionnées par des gérants.",
+          "what": "La Bourse de Shanghai a indiqué que les fonds de ce lancement privilégiaient, selon leur stratégie, la croissance, les dividendes, la qualité ou les actions décotées. Contrairement à un fonds indiciel, un fonds à gestion active laisse au gérant le choix des titres à détenir, dans le respect des règles du fonds. Selon la Bourse, les fonds ont rapidement atteint leurs plafonds de souscription. Le montant annoncé correspond aux souscriptions recueillies avant la cotation, et non à des sommes investies dans les actions chinoises de catégorie A lors de la séance de lancement.",
+          "why": "Les investisseurs peuvent accéder à un portefeuille géré sans avoir à choisir eux-mêmes les titres qui le composent. Mais des fonds aux intitulés similaires peuvent détenir des titres d’entreprises différentes et afficher des performances différentes. Le cours du fonds en Bourse peut aussi s’écarter de la valeur du portefeuille qu’il détient. Pour les sociétés cotées, ces fonds peuvent créer une demande pour leurs actions, selon les titres retenus par les gérants et selon que les investisseurs continuent ou non d’y placer de l’argent.",
+          "uncertainty": "L’atteinte des plafonds de souscription témoigne d’une demande au lancement, mais ne garantit ni des entrées de capitaux durables, ni des échanges faciles en période de tensions sur les marchés, ni une meilleure performance que celle d’un fonds indiciel.",
+          "watch": "Une fois les échanges stabilisés, les éléments à comparer sont l’évolution des parts en circulation, les écarts entre les prix d’achat et de vente et la composition publiée des portefeuilles.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Indice composite d’activité de novembre, estimation préliminaire"
+              "label": "Fonds à gestion active cotés à Shanghai"
             },
             {
               "id": "m2",
-              "label": "Indice composite d’activité d’octobre"
+              "label": "Souscriptions initiales annoncées lors de la cotation"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "La cobertura verificada de esta edición es limitada. En algunos mercados no hay noticias nuevas que se hayan podido verificar. Los informes de fechas anteriores siguen claramente identificados.",
+      "status": "Esta edición recoge novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan como material explicativo de contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su sesión bursátil.",
-        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su sesión bursátil."
+        "us": "No se pudieron verificar algunos datos de cierre. Los datos disponibles de cada índice conservan la fecha de su propia sesión bursátil.",
+        "cn": "Los índices que seguimos subieron en sus respectivas últimas sesiones verificadas. Los cierres corresponden a esas fechas y no reflejan la negociación actual."
       },
       "stories": [
         {
           "id": "f3",
-          "title": "CrowdStrike presenta sus resultados y acuerda comprar Zscaler con acciones",
-          "summary": "CrowdStrike registró un beneficio contable trimestral y acordó comprar Zscaler en una operación que se pagará íntegramente con acciones.",
-          "impact": "La unión podría simplificar la compra de servicios de seguridad para algunas empresas. Los actuales accionistas de CrowdStrike compartirían la propiedad con los accionistas de Zscaler.",
-          "what": "CrowdStrike vende suscripciones que ayudan a las organizaciones a supervisar y proteger sus dispositivos y cargas de trabajo informáticas. Zscaler se centra en proteger el acceso a aplicaciones y datos a través de redes. Sus productos cubren aspectos distintos de una misma tarea: proteger un dispositivo y controlar a qué puede conectarse. El anuncio de la fusión y el informe trimestral de CrowdStrike se publicaron al mismo tiempo, pero los resultados no incluyen las operaciones de las empresas como negocio combinado.",
-          "why": "Una oferta conjunta podría permitir a los clientes gestionar sus dispositivos y políticas de acceso con menos contratos. Eso solo sería una ventaja si los productos funcionan juntos lo bastante bien como para compensar los costes de migración y formación. También conviene distinguir el valor anunciado de la operación de la forma de pago. Como se paga con acciones, el valor implícito puede variar con la cotización de CrowdStrike: no es un desembolso en efectivo. En el trimestre, el flujo de efectivo de las actividades operativas superó el beneficio contable según los principios GAAP. Los cobros y el reconocimiento de los gastos contables no siempre coinciden en el tiempo. Además, el flujo de efectivo de las actividades operativas se calcula sin descontar el gasto en equipos ni en software que se registra como activo.",
-          "uncertainty": "La operación aún necesita la aprobación de los accionistas de Zscaler y de los reguladores pertinentes. Las empresas seguirán siendo independientes hasta que se cierre la compra. Los comunicados no indican cuánto pagarán los clientes por los productos combinados ni cuántos los usarán.",
-          "watch": "Documentación de registro de la fusión y de votación de los accionistas, decisiones de los reguladores y futuras comunicaciones sobre la integración de los productos, la retención de clientes y el gasto.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Valor de empresa anunciado según la cotización de cierre de referencia"
-            },
-            {
-              "id": "m2",
-              "label": "Ingresos del trimestre fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Beneficio neto del trimestre fiscal atribuible a la matriz según GAAP"
-            },
-            {
-              "id": "m4",
-              "label": "Flujo de efectivo de las actividades operativas del trimestre fiscal"
-            }
-          ]
+          "title": "El presidente de la Fed de Nueva York afirma que la inflación sigue siendo demasiado alta",
+          "summary": "John Williams describió una economía estadounidense que se mantiene firme, con una inflación persistente y un mercado laboral estable.",
+          "impact": "Sus declaraciones sugieren que la fortaleza de la actividad económica no basta por sí sola para esperar que pedir prestado sea más barato a corto plazo.",
+          "what": "En su discurso preparado, Williams dijo que la inversión en inteligencia artificial impulsó el crecimiento, pero también hizo que la demanda de algunos bienes, como los chips, superara la oferta. Señaló que los aranceles y las interrupciones en el suministro de energía también presionaban los precios. Indicó que la inflación de los servicios de vivienda se había moderado y dijo que veía pocos indicios de que el aumento de los salarios estuviera presionando los precios al alza. Sus declaraciones reflejaban su evaluación, no una nueva decisión de política monetaria de la Reserva Federal.",
+          "why": "Si la presión sobre los precios se extiende más allá de los bienes escasos y persiste, las autoridades monetarias podrían tener que mantener el crédito en condiciones más restrictivas de lo que sería necesario de otro modo. Eso puede afectar a los tipos de interés que se ofrecen para las hipotecas y al coste de financiar equipos para las empresas. En cambio, si se alivian los problemas de suministro, la presión sobre los precios podría disminuir sin que se debilite la contratación.",
+          "uncertainty": "Williams explicó cómo la inversión en inteligencia artificial podría aumentar o aliviar la presión sobre los precios. Su opinión no compromete al comité que fija los tipos de interés a tomar una medida concreta.",
+          "watch": "Conviene seguir las próximas publicaciones sobre los precios del gasto en consumo personal, los salarios y el empleo, y observar si la inflación sigue concentrada en las categorías que señaló.",
+          "metricLabels": []
         },
         {
-          "id": "f5",
-          "title": "La actividad empresarial en Estados Unidos sigue creciendo, pero pierde ritmo y se modera la presión sobre los precios",
-          "summary": "La encuesta preliminar a los responsables de compras de Estados Unidos mostró que la actividad creció más despacio, que las empresas siguieron contratando y que la presión sobre los precios disminuyó, aunque siguió siendo alta.",
-          "impact": "Las empresas siguen registrando crecimiento, pero la encuesta da pocos motivos a los hogares para esperar que los precios dejen de subir pronto.",
-          "what": "El índice compuesto refleja si las empresas encuestadas dicen que su actividad aumenta o disminuye. El dato preliminar de noviembre bajó respecto al de octubre, pero siguió indicando expansión. Los servicios crecieron más que la industria manufacturera, aunque el ritmo de crecimiento se moderó en ambos sectores. La encuesta también señaló que las empresas contrataron personal mientras se acumulaba el trabajo pendiente y que la industria manufacturera tuvo que esperar más tiempo para recibir sus insumos.",
-          "why": "Crecer más despacio no es lo mismo que producir menos. Una empresa puede seguir aceptando trabajo aunque la actividad nueva pierda impulso. Si se acumula el trabajo pendiente, eso también sugiere que se podría estar terminando trabajo a un ritmo más lento por falta de capacidad y no solo por una demanda más débil. El abaratamiento del combustible alivió parte de la presión sobre los precios, pero las empresas siguieron señalando aumentos salariales y subidas en el coste de otros insumos. Que los hogares noten algún alivio depende en parte de cuánto trasladen las empresas esos costes a sus precios y de si la moderación de las presiones continúa después del periodo de la encuesta.",
-          "uncertainty": "Es un dato preliminar de una encuesta, no una publicación oficial sobre producción, empleo asalariado o inflación al consumidor. No permite determinar cuánto creció la economía ni qué hará la Reserva Federal.",
-          "watch": "Comparación de los resultados definitivos de la encuesta con los datos oficiales de empleo asalariado e inflación. También importa si se reducen los retrasos de los proveedores y el trabajo pendiente sin que caigan las contrataciones de forma generalizada.",
+          "id": "f4",
+          "title": "Debutan en la Bolsa de Shanghái sus primeros fondos cotizados de gestión activa",
+          "summary": "Los fondos cotizados de gestión activa con los que Shanghái estrenó esta modalidad empezaron a negociarse tras alcanzar sus límites de suscripción.",
+          "impact": "Los inversores de China continental pueden comprar, a través de una cuenta de corretaje y durante la sesión bursátil, participaciones en carteras de acciones seleccionadas por gestores.",
+          "what": "La Bolsa de Shanghái indicó que los fondos del debut incluían estrategias centradas en crecimiento, dividendos, calidad y valor. A diferencia de un fondo que replica un índice, en un fondo de gestión activa el gestor decide qué valores mantener dentro de las reglas del fondo. La bolsa señaló que los fondos alcanzaron pronto sus límites de suscripción. La cifra de captación mide las suscripciones recibidas antes de la cotización, no el dinero que entró en acciones de clase A durante la sesión de debut.",
+          "why": "Los inversores pueden acceder a una cartera gestionada sin elegir cada valor, pero los fondos con nombres similares pueden invertir en empresas distintas y ofrecer resultados diferentes. El precio de un fondo en bolsa también puede diferir del valor de su cartera. Para las empresas cotizadas, estos fondos representan una posible fuente de demanda de sus acciones, según qué valores mantengan los gestores y si los inversores siguen aportando dinero.",
+          "uncertainty": "Alcanzar los límites de suscripción indica que hubo demanda en el lanzamiento, pero no garantiza que las entradas de dinero se mantengan, que sea fácil negociar los fondos en momentos de tensión en el mercado ni que rindan mejor que un fondo que replica un índice.",
+          "watch": "Una vez que se estabilice la negociación, conviene comparar los cambios en las participaciones en circulación, las diferencias entre los precios de compra y venta y la composición de las carteras que publiquen los fondos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice compuesto de actividad de noviembre, dato preliminar"
+              "label": "Fondos de gestión activa cotizados en Shanghái"
             },
             {
               "id": "m2",
-              "label": "Índice compuesto de actividad de octubre"
+              "label": "Suscripciones iniciales anunciadas al inicio de la cotización"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今号で確認できた情報は限られています。新たに確認できたニュースがない市場もあります。過去の報告には、いつの情報かを明記しています。",
+      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近公表された企業の報告は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "終値を確認できなかった指数があります。掲載している指数には、それぞれの取引日を示しています。",
-        "cn": "終値を確認できなかった指数があります。掲載している指数には、それぞれの取引日を示しています。"
+        "us": "終値を確認できなかったものがあります。終値を掲載している指数には、それぞれの取引日を示しています。",
+        "cn": "掲載対象の株価指数はいずれも、終値を確認できた直近の取引日に上昇しました。日付付きの終値は、その日の取引結果であり、現在の取引状況を示すものではありません。"
       },
       "stories": [
         {
           "id": "f3",
-          "title": "クラウドストライクが決算を発表、株式を対価とするゼットスケーラー買収で合意",
-          "summary": "クラウドストライクは四半期決算で会計上の黒字を計上し、買収対価の全額を自社株式で支払う形でゼットスケーラーを買収することに合意しました。",
-          "impact": "統合によって、企業によってはセキュリティ製品の調達がしやすくなる可能性があります。クラウドストライクの既存株主は、買収相手の株主とクラウドストライクの株式を持ち合うことになります。",
-          "what": "クラウドストライクは、組織が端末やシステム上で動く処理を監視・保護するためのサービスを、定額契約で提供しています。ゼットスケーラーは、ネットワーク経由でアプリやデータに安全にアクセスできるようにするサービスが中心です。端末を守ることと、その端末から何に接続できるかを管理することは、同じセキュリティ対策の別々の役割です。買収の発表とクラウドストライクの四半期決算は同時に公表されましたが、決算には統合後の事業は反映されていません。",
-          "why": "サービスが統合されれば、利用企業は契約を減らしながら、端末とアクセス権限を管理できる可能性があります。ただし、メリットが出るのは、製品同士がうまく連携し、移行や研修にかかる費用を補える場合です。発表時点の買収金額と、実際の支払い方法は別です。対価が株式なので、買収金額の換算額は買い手の株価によって変わり、現金でその額を支払うわけではありません。この四半期は、営業活動によるキャッシュフローが会計基準に基づく純利益を上回りました。代金を回収する時期と、会計上の費用を計上する時期は必ずしも一致しません。また、営業活動によるキャッシュフローには、設備への支出や、資産として計上されるソフトウェアへの支出は反映されていません。",
-          "uncertainty": "買収には、ゼットスケーラーの株主と関係する規制当局の承認が必要です。買収が完了するまでは、両社は独立した企業のままです。今回の発表では、統合製品の価格や、どの程度の顧客が導入するかは明らかになっていません。",
-          "watch": "今後の焦点は、買収に関する登録届出書と株主向けの議決権行使資料、規制当局の判断、その後に開示される製品統合、顧客の契約継続状況、支出に関する情報です。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "基準日の終値に基づく発表時の企業価値"
-            },
-            {
-              "id": "m2",
-              "label": "会計四半期の売上高"
-            },
-            {
-              "id": "m3",
-              "label": "会計四半期の親会社株主に帰属する純利益（GAAP基準）"
-            },
-            {
-              "id": "m4",
-              "label": "会計四半期の営業活動によるキャッシュフロー"
-            }
-          ]
+          "title": "ニューヨーク連銀総裁、インフレ率は依然として高すぎると指摘",
+          "summary": "ジョン・ウィリアムズ総裁は、米国経済は底堅く、雇用情勢も安定しているものの、インフレは続いているとの認識を示しました。",
+          "impact": "総裁の発言は、景気が堅調だからといって、借り入れコストが近く下がるとは限らないことを示唆しています。",
+          "what": "ウィリアムズ総裁は、事前に用意した講演原稿で、AIへの投資が経済成長を支える一方、半導体など一部の財では需要が供給を上回る要因にもなったと述べました。また、関税やエネルギー供給の混乱も物価を押し上げる要因に挙げました。家賃などの住居関連サービスでは価格の上昇が鈍り、賃金の伸びが物価上昇圧力を強めていることを示す証拠はほとんどないとの見方を示しました。これは総裁自身の経済情勢に対する見立てであり、米連邦準備制度の新たな政策決定ではありません。",
+          "why": "物価の上昇圧力が供給不足の品目以外にも広がり、長引くなら、金融政策の担当者は、そうでない場合よりも借り入れ環境を引き締めておく必要があるかもしれません。それは、金融機関が提示する住宅ローン金利や、企業が設備の購入資金を調達する際のコストにも影響し得ます。逆に、供給の滞りが解消に向かえば、採用が弱まらなくても物価上昇圧力が和らぐ可能性があります。",
+          "uncertainty": "ウィリアムズ総裁は、AIへの投資が物価上昇圧力を強める場合と、和らげる場合の両方を説明しました。総裁の見解は、政策金利を決める委員会が特定の措置を取ることを意味しません。",
+          "watch": "今後発表される個人消費支出の物価指数や賃金・雇用の統計、インフレが引き続き総裁の挙げた品目やサービスに集中するかが注目点です。",
+          "metricLabels": []
         },
         {
-          "id": "f5",
-          "title": "米国の企業活動は拡大を維持、伸びは鈍化し物価上昇圧力も和らぐ",
-          "summary": "米国の購買担当者景気調査の速報では、企業活動の伸びが鈍るなかでも採用は続き、物価の上昇圧力は和らいだものの、なお強いことが示されました。",
-          "impact": "企業活動は引き続き拡大していますが、この調査からは、家計が直面する値上がりがすぐに止まるとは見込みにくい状況です。",
-          "what": "総合指数は、調査対象の企業が事業活動の増加と減少のどちらを報告しているかを示す指標です。当月の速報値は前月を下回りましたが、引き続き活動の拡大を示しました。サービス業は製造業より伸びが大きかったものの、どちらも伸びは鈍りました。また、未処理の仕事が積み上がるなかで企業は人員を増やし、製造業では原材料や部品の納入にかかる時間が長くなったことも報告されました。",
-          "why": "伸びが鈍ることと、生産やサービスの提供が減ることは別です。新たな仕事の伸びが鈍っても、企業が仕事を引き受け続けていることはあります。未処理の仕事が増えているなら、仕事を完了させるペースが落ちた背景には、需要の弱まりだけでなく、企業が処理できる量の限界もあると考えられます。燃料費の低下で物価の上昇圧力はやや和らぎましたが、企業からは燃料以外の調達費や賃金が引き続き上がっているとの報告がありました。家計が負担の軽減を実感できるかは、企業がこうした費用をどの程度販売価格に転嫁するかや、調査時点以降も物価の上昇圧力が弱まった状態が続くかに左右されます。",
-          "uncertainty": "これは調査の速報値であり、生産、雇用者数、消費者物価の公式統計ではありません。この調査だけでは、経済がどの程度成長したかや、米連邦準備制度がどのような対応を取るかは分かりません。",
-          "watch": "今後の焦点は、調査の確報値が雇用者数や物価の公式統計とどの程度一致するか、また、採用が幅広く落ち込むことなく、納入の遅れや未処理の仕事の積み上がりが解消に向かうかです。",
+          "id": "f4",
+          "title": "上海で初のアクティブ運用型ETFが取引開始",
+          "summary": "上海で初めて上場したアクティブ運用型の上場投資信託（ETF）は、募集額が上限に達した後、取引が始まりました。",
+          "impact": "中国本土の投資家は、運用担当者が銘柄を選んだ株式の組み合わせを、取引時間中に証券口座を通じて購入できます。",
+          "what": "上海証券取引所によると、今回上場したファンドには、成長性、配当、企業の質、割安さをそれぞれ重視するものが含まれます。指数への連動を目指すファンドと異なり、アクティブ運用型では、運用担当者がファンドのルールの範囲内で保有銘柄を選べます。取引所によると、募集額は早い段階で上限に達しました。募集額は上場前の購入申し込みで集まった資金を示すもので、取引開始日に中国本土のA株に流入した資金を示すものではありません。",
+          "why": "投資家は個別の銘柄を自分で選ばずに、運用を任せたポートフォリオを購入できます。ただし、似た名称のファンドでも、投資先の企業や運用成績は異なることがあります。取引所での価格が、ファンドの保有資産の価値とずれることもあります。上場企業にとっては、運用担当者がどの銘柄を保有し、投資家が資金を入れ続けるかによって、自社株への買い需要につながる可能性があります。",
+          "uncertainty": "募集額が上限に達したことは、募集時に需要があったことを示します。ただし、資金流入が続くこと、市場が不安定なときでも売買しやすいこと、指数連動型ファンドを上回る成績を上げることを示すものではありません。",
+          "watch": "取引が落ち着いた後は、発行済み口数の増減、売り気配値と買い気配値の差、開示される保有銘柄が比較のポイントです。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "当月の総合景況指数（速報値）"
+              "label": "上海上場のアクティブ運用型ファンド数"
             },
             {
               "id": "m2",
-              "label": "前月の総合景況指数"
+              "label": "上場時に開示された当初募集額"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "A cobertura verificada desta edição é limitada. Em alguns mercados, não há notícias novas verificadas. As datas dos relatórios continuam claramente indicadas.",
+      "status": "Esta edição acompanha acontecimentos nos EUA e na China. Confira a data de publicação de cada texto: os relatórios recentes de empresas são apresentados para ajudar a entender o contexto.",
       "marketSummary": {
-        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém a data do pregão correspondente.",
-        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice disponível mantém a data do pregão correspondente."
+        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente.",
+        "cn": "Os índices acompanhados subiram em seus pregões mais recentes com fechamento confirmado. Os dados de fechamento se referem às datas indicadas, não às negociações em andamento."
       },
       "stories": [
         {
           "id": "f3",
-          "title": "CrowdStrike divulga resultados e fecha acordo para comprar a Zscaler com ações",
-          "summary": "A CrowdStrike registrou lucro contábil no trimestre e concordou em comprar a Zscaler em uma operação paga inteiramente em ações.",
-          "impact": "A união pode facilitar a contratação de serviços de segurança para algumas empresas. Os atuais acionistas da CrowdStrike passariam a dividir a propriedade da empresa com os acionistas da Zscaler.",
-          "what": "A CrowdStrike vende assinaturas que ajudam organizações a monitorar e proteger dispositivos e sistemas em execução. A Zscaler se concentra em proteger o acesso a aplicativos e dados por meio de redes. Os produtos que elas oferecem separadamente cobrem partes diferentes da mesma tarefa: proteger o dispositivo e controlar a que ele pode se conectar. O anúncio da fusão saiu junto com o relatório trimestral da CrowdStrike, mas o lucro divulgado não inclui os resultados das empresas combinadas.",
-          "why": "Uma oferta integrada poderia permitir que os clientes gerenciassem dispositivos e regras de acesso com menos contratos. Isso só seria vantajoso se os produtos funcionassem bem o bastante em conjunto para compensar os custos de migração e treinamento. Para entender o acordo, vale distinguir o valor anunciado da forma de pagamento. Como o pagamento será em ações, o valor implícito da operação pode variar com a cotação das ações da compradora; não se trata de um valor a pagar em dinheiro. No trimestre, o fluxo de caixa operacional superou o lucro apurado pelas normas contábeis GAAP. Os recebimentos em dinheiro e o registro contábil das despesas não ocorrem necessariamente no mesmo momento. Além disso, o fluxo de caixa operacional é calculado antes de descontar os gastos com equipamentos e com software registrado como ativo.",
-          "uncertainty": "O acordo ainda depende da aprovação dos acionistas da Zscaler e dos órgãos reguladores competentes. Até a conclusão da operação, as empresas continuam independentes. Os comunicados não esclarecem quanto os clientes pagarão pelos produtos integrados nem quantos vão adotá-los.",
-          "watch": "Documentos de registro da fusão e materiais para a votação dos acionistas, decisões dos órgãos reguladores e divulgações posteriores sobre a integração dos produtos, a retenção de clientes e os gastos.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Valor da firma anunciado com base na cotação de fechamento de referência"
-            },
-            {
-              "id": "m2",
-              "label": "Receita do trimestre fiscal"
-            },
-            {
-              "id": "m3",
-              "label": "Lucro líquido do trimestre fiscal atribuível à controladora pelas normas GAAP"
-            },
-            {
-              "id": "m4",
-              "label": "Fluxo de caixa operacional do trimestre fiscal"
-            }
-          ]
+          "title": "Presidente do Fed de Nova York diz que a inflação continua alta demais",
+          "summary": "John Williams descreveu uma economia americana que continua firme, com inflação persistente e mercado de trabalho estável.",
+          "impact": "As declarações sugerem que uma economia forte, por si só, não é motivo para esperar que os empréstimos fiquem mais baratos no curto prazo.",
+          "what": "Em um discurso preparado, Williams disse que os investimentos em inteligência artificial ajudaram a economia a crescer, mas também fizeram a demanda superar a oferta de alguns produtos, como chips. Ele citou as tarifas de importação e as interrupções no fornecimento de energia como outras fontes de pressão. Observou que a inflação dos serviços ligados à moradia havia desacelerado e disse ver poucos sinais de que o aumento dos salários estivesse pressionando a inflação. As declarações refletiam a avaliação dele, não uma nova decisão de política monetária do Federal Reserve.",
+          "why": "Se a pressão sobre os preços persistir e se espalhar para além dos produtos com oferta limitada, o banco central pode precisar manter o crédito mais apertado do que manteria sem essa pressão. Isso pode afetar as taxas oferecidas no crédito imobiliário e o custo de financiar a compra de equipamentos pelas empresas. Por outro lado, se as dificuldades de abastecimento diminuírem, a pressão sobre os preços pode ceder sem que as contratações precisem perder força.",
+          "uncertainty": "Williams descreveu como os investimentos em inteligência artificial poderiam aumentar ou aliviar a pressão sobre os preços. A avaliação dele não compromete o comitê responsável pelos juros com nenhuma medida específica.",
+          "watch": "Acompanhe as próximas divulgações de preços dos gastos com consumo pessoal, salários e emprego. Observe também se a inflação continua concentrada nas categorias que Williams apontou.",
+          "metricLabels": []
         },
         {
-          "id": "f5",
-          "title": "Atividade empresarial nos EUA segue em expansão, mas crescimento e pressão sobre os preços perdem força",
-          "summary": "A pesquisa preliminar com gerentes de compras dos EUA mostrou expansão mais lenta, continuidade das contratações e menor pressão sobre os preços, que ainda permanece elevada.",
-          "impact": "As empresas ainda relatam crescimento, mas a pesquisa dá poucos motivos para as famílias esperarem que os preços parem de subir rapidamente.",
-          "what": "O índice composto acompanha se as empresas consultadas relatam aumento ou queda na atividade. A leitura preliminar de novembro caiu em relação à de outubro, mas ainda indicou expansão. Os serviços cresceram mais que a indústria de transformação, embora a atividade tenha perdido ritmo em ambos os setores. A pesquisa também mostrou que as empresas contrataram à medida que o trabalho pendente se acumulava e que os fabricantes passaram a esperar mais tempo pela entrega de insumos.",
-          "why": "Crescer mais devagar não é o mesmo que produzir menos. Uma empresa pode continuar aceitando trabalho mesmo quando o volume de novas atividades perde ritmo. O acúmulo de trabalho pendente também indica que concluir menos trabalho pode refletir uma limitação de capacidade, não apenas uma demanda mais fraca. A queda no custo dos combustíveis aliviou parte da pressão sobre os preços, mas as empresas continuaram a relatar aumento nos custos de outros insumos e nos salários. O alívio para as famílias depende, em parte, de quanto desses custos as empresas repassam aos preços e de a pressão sobre os preços continuar diminuindo após o período da pesquisa.",
-          "uncertainty": "Esta é uma leitura preliminar de uma pesquisa, não uma divulgação oficial de produção, emprego ou inflação ao consumidor. Ela não permite determinar quanto a economia cresceu nem o que o Federal Reserve fará.",
-          "watch": "A versão final da pesquisa em comparação com os dados oficiais de emprego e inflação, e se os atrasos nas entregas dos fornecedores e o acúmulo de trabalho pendente diminuem sem uma queda generalizada nas contratações.",
+          "id": "f4",
+          "title": "Fundos de gestão ativa estreiam na Bolsa de Xangai",
+          "summary": "Os ETFs de gestão ativa estrearam na Bolsa de Xangai depois de atingir seus limites de captação.",
+          "impact": "Investidores da China continental podem usar uma conta em corretora para comprar, durante o pregão, cotas de fundos com carteiras de ações escolhidas por gestores.",
+          "what": "A Bolsa de Xangai informou que a estreia incluiu fundos com foco em crescimento, dividendos, qualidade e valor. Ao contrário de um fundo que replica um índice, um fundo de gestão ativa permite ao gestor escolher os ativos da carteira dentro das regras do fundo. Segundo a bolsa, os fundos atingiram seus limites de subscrição antes do previsto. O valor captado corresponde às subscrições recebidas antes da listagem, não ao dinheiro que entrou nas ações classe A no pregão de estreia.",
+          "why": "Os investidores podem ter acesso a uma carteira administrada sem escolher cada ativo, mas fundos com nomes parecidos podem investir em empresas diferentes e ter desempenhos distintos. O preço da cota na bolsa também pode diferir do valor da parcela da carteira que ela representa. Para as empresas listadas, os fundos podem gerar demanda por suas ações, dependendo dos papéis escolhidos pelos gestores e de os investidores continuarem a aplicar dinheiro.",
+          "uncertainty": "Atingir os limites de subscrição mostra que houve procura no lançamento. Isso não garante que os aportes continuem, que seja fácil negociar as cotas em momentos de tensão no mercado ou que os fundos tenham desempenho melhor que o de um fundo que replica um índice.",
+          "watch": "Quando as negociações se estabilizarem, compare as variações na quantidade de cotas em circulação, as diferenças entre os preços de compra e venda e a composição divulgada das carteiras.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice composto de atividade de novembro, leitura preliminar"
+              "label": "Fundos de gestão ativa listados em Xangai"
             },
             {
               "id": "m2",
-              "label": "Índice composto de atividade de outubro"
+              "label": "Subscrições iniciais divulgadas na listagem"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期經查證的報導有限。部分市場沒有已查證的新消息；較早的報導仍清楚標示日期。",
+      "status": "本期涵蓋美國與中國的財經動態。請留意各則消息的發布日期；近期的公司報告用來說明背景。",
       "marketSummary": {
-        "us": "部分收盤資料未能查證。有資料可用的指數均保留各自的交易日期。",
-        "cn": "部分收盤資料未能查證。有資料可用的指數均保留各自的交易日期。"
+        "us": "部分指數的收盤資料無法核實。可提供的收盤資料均保留各指數原有的交易日期。",
+        "cn": "追蹤的指數在各自最近可核實的交易日均收漲。標註日期的收盤資料只反映當天的行情，不代表即時走勢。"
       },
       "stories": [
         {
           "id": "f3",
-          "title": "CrowdStrike 公布財報，同意以股票收購 Zscaler",
-          "summary": "CrowdStrike 公布的季度財報顯示帳面獲利，並同意以全股票交易收購 Zscaler。",
-          "impact": "合併可能讓部分企業更容易採購資安服務；CrowdStrike 的原有股東則將與 Zscaler 的股東共同持有合併後的公司。",
-          "what": "CrowdStrike 提供訂閱服務，協助組織監控並保護裝置與運算工作負載。Zscaler 則專注於保障透過網路存取應用程式與資料的安全。兩家公司的產品各有分工：CrowdStrike 保護裝置，Zscaler 管控裝置可以連到哪些資源。合併公告與 CrowdStrike 的季度財報同時發布，但這份財報並未納入合併後的業務。",
-          "why": "如果產品整合，客戶可能不必簽那麼多份合約，就能管理裝置和存取權限。但產品必須配合得夠好，帶來的好處足以抵銷系統移轉與人員訓練成本，客戶才能受益。對投資人而言，公告的交易估值和實際付款方式是不同的概念。這筆交易以股票支付，推算出的交易價值會隨收購方的股價變動，並不是要付出的現金金額。該季營業活動現金流量高於依一般公認會計原則（GAAP）計算的淨利。現金入帳與會計上認列費用的時間不一定相同，而且營業活動現金流量尚未扣除設備支出和列為資產的軟體支出。",
-          "uncertainty": "交易仍須獲得 Zscaler 股東及相關主管機關核准。交易完成前，各公司仍獨立營運。公告並未說明客戶須為整合產品支付多少費用，也無法確定會有多少客戶採用。",
-          "watch": "後續可留意合併登記文件、股東表決委託書相關資料及主管機關的決定，以及公司日後對產品整合、客戶留存和支出的說明。",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "按參考收盤價計算的公告企業價值"
-            },
-            {
-              "id": "m2",
-              "label": "會計季度營收"
-            },
-            {
-              "id": "m3",
-              "label": "會計季度歸屬於母公司業主的淨利（GAAP）"
-            },
-            {
-              "id": "m4",
-              "label": "會計季度營業活動現金流量"
-            }
-          ]
+          "title": "紐約聯準銀行總裁表示通膨仍過高",
+          "summary": "約翰・威廉斯表示，美國經濟仍具韌性，就業市場穩定，但通膨壓力仍未消退。",
+          "impact": "他的談話顯示，光是經濟活動強勁，並不意味著借貸成本短期內就會下降。",
+          "what": "威廉斯在事先準備的講稿中表示，人工智慧投資帶動經濟成長，但也讓晶片等部分商品供不應求。他指出，關稅和能源供應中斷也帶來物價壓力。他提到，住宅服務價格的漲幅已放緩，目前也沒有太多證據顯示薪資成長正在加劇通膨壓力。這番談話是他的研判，並非聯準會的新政策決定。",
+          "why": "如果物價壓力從供應短缺的商品擴散到其他類別，而且遲遲未消退，決策者可能得讓借貸條件比原本更緊。這可能影響房貸利率報價，以及企業購置設備的融資成本。反過來說，如果供應瓶頸緩解，物價壓力就可能減輕，不必靠企業縮減招募來降溫。",
+          "uncertainty": "威廉斯說明了人工智慧投資可能加劇或緩解物價壓力的原因。他的看法不代表負責決定利率的委員會會採取特定行動。",
+          "watch": "接下來可留意個人消費支出物價、薪資與就業數據，以及通膨是否仍集中在他提到的類別。",
+          "metricLabels": []
         },
         {
-          "id": "f5",
-          "title": "美國企業活動持續擴張，但成長放緩、價格壓力趨緩",
-          "summary": "美國採購經理人調查初值顯示，企業活動擴張放緩，企業仍在增聘人手，價格壓力雖有緩和，但仍偏高。",
-          "impact": "企業仍回報業務成長，但這份調查並未提供太多理由，讓家庭預期物價會很快停止上漲。",
-          "what": "綜合產出指數反映受訪企業回報的業務活動是增加還是減少。本月初值低於上月，但仍顯示企業活動正在擴張。服務業成長快於製造業，但各自的成長速度都比之前慢。調查也顯示，未完成的工作持續累積，企業因而增聘人手；製造商則得等更久才能收到生產所需的物料。",
-          "why": "成長放慢不等於產出減少。即使新增業務的成長力道轉弱，企業仍可能繼續接到工作。待完成的工作增加也表示，完成工作的速度放慢，可能是因為企業忙不過來，而不只是需求轉弱。燃料成本下降，有助於減輕部分價格壓力，但企業仍回報其他投入成本和薪資上升。家庭能否感受到價格壓力減輕，部分取決於企業把多少成本轉嫁給消費者，以及價格壓力是否在調查期過後仍持續緩和。",
-          "uncertainty": "這是調查初值，並非官方的產出、非農就業人數或消費者物價數據。單憑這份調查，無法確定經濟成長了多少，也無法判斷聯準會接下來會怎麼做。",
-          "watch": "可將調查終值與官方公布的非農就業人數和通膨數據對照，並留意供應商交貨延誤及工作積壓是否緩解，同時觀察招聘是否普遍轉弱。",
+          "id": "f4",
+          "title": "上海推出主動式交易所交易基金",
+          "summary": "上海新推出的主動式交易所交易基金在募資達到上限後開始交易。",
+          "impact": "中國大陸投資人可在盤中透過證券帳戶，買進由基金經理人挑選股票的投資組合。",
+          "what": "上海證券交易所表示，這次推出的基金涵蓋成長、股息、品質與價值等投資主題。與追蹤指數的基金不同，主動式基金的經理人可在基金規則允許的範圍內自行選擇要持有的證券。交易所表示，這些基金提前達到認購上限。募資金額指的是上市前收到的認購金額，不是掛牌當天流入Ａ股的資金。",
+          "why": "投資人不必自行挑選個別標的，就能買進由經理人管理的投資組合。不過，名稱或主題相似的基金，可能投資不同公司，績效也可能不同。基金在交易所的成交價格也可能與其持有資產的價值不同。對上市公司而言，這些基金可能帶來買盤，但仍取決於經理人選擇持有哪些股票，以及投資人是否持續投入資金。",
+          "uncertainty": "認購達到上限顯示推出時有需求，但不代表資金會持續流入、市場承壓時仍能順利買賣，或績效會優於追蹤指數的基金。",
+          "watch": "等交易趨於穩定後，可比較流通在外的基金受益權單位數變化、買賣價差，以及揭露的持倉。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "本月綜合產出指數初值"
+              "label": "上海掛牌的主動式基金數量"
             },
             {
               "id": "m2",
-              "label": "上月綜合產出指數"
+              "label": "掛牌時揭露的初始認購金額"
             }
           ]
         }
