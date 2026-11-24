@@ -1,130 +1,110 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-24T19:29:56.910Z",
-  "generatedAt": "2026-11-24T19:38:25.775Z",
+  "cutoffAt": "2026-11-24T23:29:27.788Z",
+  "generatedAt": "2026-11-24T23:38:20.434Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "FRED daily broad US equity index close table",
-      "url": "https://fred.stlouisfed.org/data/SP500"
+      "label": "Associated Press US closing snapshot",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-6cc4e580290aadf304ee316d6d46dd81"
     },
     {
       "id": "src2",
-      "label": "Nasdaq Composite daily index data",
-      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
+      "label": "Portfolio Terminal dated US index close table",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close/november-24-2026"
     },
     {
       "id": "src3",
-      "label": "Shanghai Composite daily index data",
-      "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      "label": "China Finance Information dated Shanghai closing report",
+      "url": "https://www1.cfi.cn/p20261124000009.html"
     },
     {
       "id": "src4",
-      "label": "Mainland large-cap benchmark daily index data",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Investing.com Hong Kong mainland large-cap index close table",
+      "url": "https://hk.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src5",
-      "label": "Board announcement on leadership reinstatement",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      "label": "Tonghuashun dated mainland closing report and market breadth",
+      "url": "https://yuanchuang.10jqka.com.cn/20261124/c682148613.shtml"
     },
     {
       "id": "src6",
-      "label": "Chipmaker quarterly earnings release and financial statements",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+      "label": "Issuer fiscal quarter earnings release and financial statements",
+      "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
     },
     {
       "id": "src7",
-      "label": "Chipmaker preceding quarterly release confirming fiscal period boundary",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+      "label": "Issuer fiscal quarter earnings release and financial statements",
+      "url": "https://newsroom.workday.com/2026-11-24-Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results"
     },
     {
       "id": "src8",
-      "label": "Issuer preliminary acquisition filing mirrored by Sina",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-24/12719812.PDF"
+      "label": "The Conference Board US consumer confidence release",
+      "url": "https://www.conference-board.org/topics/consumer-confidence/"
     },
     {
       "id": "src9",
-      "label": "Selling shareholder transaction disclosure filed on CNINFO",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225684628.PDF"
+      "label": "CNINFO issuer share repurchase plan filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-24/1225685032.PDF"
     },
     {
       "id": "src10",
-      "label": "Medical device issuer earnings release and financial schedules",
-      "url": "https://news.medtronic.com/2026-11-24-Medtronic-reports-second-quarter-fiscal-2027-results-performance-reflects-consistent-execution-across-the-portfolio"
+      "label": "CNINFO issuer quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643953.PDF"
     },
     {
       "id": "src11",
-      "label": "Medical device issuer preceding quarterly release",
-      "url": "https://news.medtronic.com/2026-09-01-Medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance"
+      "label": "The Conference Board China leading and coincident index release",
+      "url": "https://www.conference-board.org/topics/business-cycle-indicators/china/"
     },
     {
       "id": "src12",
-      "label": "Medical device issuer preceding fiscal year-end release",
-      "url": "https://news.medtronic.com/2026-06-03-Medtronic-reports-fourth-quarter-and-full-year-fiscal-2026-results-delivers-highest-annual-revenue-growth-in-10-years"
+      "label": "Shanghai Stock Exchange statement on the joint margin adjustment",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20261122_10838649.shtml"
     },
     {
       "id": "src13",
-      "label": "National Bureau of Statistics industrial materials price release and product table",
-      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261123_1965935.html"
+      "label": "Shanghai Stock Exchange formal margin financing notice",
+      "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20261122_10838633.shtml"
     },
     {
       "id": "src14",
-      "label": "Conference Board dated consumer confidence press release",
-      "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html"
-    },
-    {
-      "id": "src15",
-      "label": "Automaker quarterly report filed on CNINFO",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
-    },
-    {
-      "id": "src16",
-      "label": "Simultaneous automaker quarterly filing on HKEX",
-      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900816.pdf"
-    },
-    {
-      "id": "src17",
-      "label": "Analog chip designer issuer business profile",
-      "url": "https://www.awinic.com/en/aboutus.html"
-    },
-    {
-      "id": "src18",
-      "label": "Automaker issuer business profile",
-      "url": "https://www.byd.com/en/about-byd"
+      "label": "Issuer supplementary fiscal quarter tables and guidance periods",
+      "url": "https://investors.delltechnologies.com/_assets/_ac8eb2555e5a0153972bd8852ad15163/delltechnologies/db/3595/34778/financial_tables/Q3_FY27_Financial_Tables.pdf"
     }
   ],
   "markets": [
     {
       "id": "sp500",
-      "sessionDate": "2026-11-23",
-      "close": 7237.17,
-      "previousClose": 6910.39,
-      "changePercent": 4.73,
+      "sessionDate": "2026-11-24",
+      "close": 7201.09,
+      "previousClose": 7237.17,
+      "changePercent": -0.5,
       "sourceIds": [
-        "src1"
+        "src1",
+        "src2"
       ]
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-23",
-      "close": 24089.56,
-      "previousClose": 22617.73,
-      "changePercent": 6.51,
+      "sessionDate": "2026-11-24",
+      "close": 23733.54,
+      "previousClose": 24089.56,
+      "changePercent": -1.48,
       "sourceIds": [
+        "src1",
         "src2"
       ]
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-24",
-      "close": 3548.37,
-      "previousClose": 3538.95,
-      "changePercent": 0.27,
-      "sourceIds": [
-        "src3"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
@@ -139,59 +119,7 @@
   ],
   "stories": [
     {
-      "id": "f4",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-24",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 38,
-          "unit": "count",
-          "periodStart": "2026-11-11",
-          "periodEnd": "2026-11-20",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The opening count of declines agrees with a recount of negative entries in the product table's percentage-change column, the column specified in the methodology note."
-        },
-        {
-          "id": "m2",
-          "value": 11,
-          "unit": "count",
-          "periodStart": "2026-11-11",
-          "periodEnd": "2026-11-20",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The opening count of increases agrees with the table's positive percentage changes: paraffin wax, washed anthracite, Shanxi blended coal, float glass, corn, cotton, live hogs, peanuts, monoammonium phosphate, natural rubber and wood pulp."
-        },
-        {
-          "id": "m3",
-          "value": 1,
-          "unit": "count",
-          "periodStart": "2026-11-11",
-          "periodEnd": "2026-11-20",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The opening count of unchanged prices agrees with the table's percentage-change column, where dense polysilicon is the only unchanged entry."
-        }
-      ],
-      "sourceIds": [
-        "src13"
-      ],
-      "evidence": "The opening tally reconciles with the signs of the changes in the published product table. Product rows show lower prices for diesel, copper and rebar; the methodology note defines these as distribution-market prices."
-    },
-    {
-      "id": "f5",
+      "id": "f3",
       "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-24",
@@ -206,9 +134,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src14"
+            "src8"
           ],
-          "evidence": "The opening release paragraphs give the headline index and the preliminary survey window."
+          "evidence": "Opening release paragraph gives the headline reading and preliminary survey window."
         },
         {
           "id": "m2",
@@ -219,9 +147,9 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src14"
+            "src8"
           ],
-          "evidence": "The opening release paragraph gives the index of views on current business and labor market conditions."
+          "evidence": "Opening release paragraph gives the present situation reading for the preliminary survey."
         },
         {
           "id": "m3",
@@ -232,58 +160,194 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src14"
+            "src8"
           ],
-          "evidence": "The opening release paragraph gives the index of short-term expectations for income, business and labor market conditions."
+          "evidence": "Opening release paragraph gives the expectations reading for the preliminary survey."
         }
       ],
       "sourceIds": [
-        "src14"
+        "src8"
       ],
-      "evidence": "The opening comparison shows stronger current assessments and expectations. The spending and labor sections show firmer buying intentions and improved views of current job availability."
+      "evidence": "The opening results and survey breakdown show stronger assessments of current conditions and improved expectations. The spending discussion reports more willingness to make some purchases, while income expectations softened."
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-11-24",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 147.3,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Opening results paragraph gives the leading index level for the reporting month."
+        },
+        {
+          "id": "m2",
+          "value": -0.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Opening results paragraph gives the leading index change from the prior month."
+        },
+        {
+          "id": "m3",
+          "value": 160.8,
+          "unit": "index",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Coincident index paragraph gives the level for the reporting month."
+        },
+        {
+          "id": "m4",
+          "value": 0.2,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "Coincident index paragraph gives the change from the prior month."
+        }
+      ],
+      "sourceIds": [
+        "src11"
+      ],
+      "evidence": "The leading index release identifies consumer expectations, logistics and longer-term loans as drags. The coincident index paragraph reports an increase in the measure tracking current activity."
+    },
+    {
+      "id": "f5",
+      "market": "us",
+      "category": "earnings",
+      "publishedOn": "2026-11-24",
+      "company": {
+        "name": "Workday, Inc.",
+        "ticker": "WDAY",
+        "exchange": "Nasdaq"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 2705000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Condensed consolidated statements of operations, quarterly total revenue."
+        },
+        {
+          "id": "m2",
+          "value": 12.8,
+          "unit": "percent",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Quarterly results highlights give subscription revenue growth against the same fiscal quarter a year earlier."
+        },
+        {
+          "id": "m3",
+          "value": 329000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Condensed consolidated statements of operations, quarterly operating income."
+        },
+        {
+          "id": "m4",
+          "value": 237000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Condensed consolidated statements of operations, quarterly net income after taxes."
+        },
+        {
+          "id": "m5",
+          "value": 735000000,
+          "unit": "USD",
+          "periodStart": "2026-08-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Condensed consolidated statements of cash flows, quarterly net cash from operating activities."
+        },
+        {
+          "id": "m6",
+          "value": 9958000000,
+          "unit": "USD",
+          "periodStart": "2026-02-01",
+          "periodEnd": "2027-01-31",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Financial Outlook gives the updated full fiscal year subscription sales forecast."
+        }
+      ],
+      "sourceIds": [
+        "src7"
+      ],
+      "evidence": "The statements show stronger subscription sales, operating income and operating cash flow, but lower net income. The accompanying outlook raises projected full-year subscription revenue."
     }
   ],
   "locales": {
     "en": {
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
-        "us": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading.",
-        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "us": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading.",
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
-          "id": "f4",
-          "title": "Prices fall across much of China's industrial input survey",
-          "summary": "China's statistics bureau recorded price declines across much of its mid-November materials survey, including diesel, copper and rebar.",
-          "impact": "Lower prices could ease costs for some mainland manufacturers and builders while putting pressure on the revenue of materials suppliers.",
-          "what": "The survey covers prices charged by businesses that distribute industrial and agricultural materials. It compares the middle of November with the opening part of the month. Diesel and copper fell, as did several common steel products, but some coal grades rose. The counts show how widespread the moves were across monitored products, not how much the typical factory's total input bill changed.",
-          "why": "A manufacturer buying copper at current market prices could see some relief on new purchases. A fabricator buying under a fixed contract or using stock it already paid for may not see that benefit immediately. Lower diesel prices can similarly ease a carrier's costs without reducing the price a household pays for delivery. For suppliers, cheaper materials are a different signal: what matters for profit is whether selling prices fall faster than their own costs.",
-          "uncertainty": "These are distribution prices, not factory-gate prices or a measure of consumer inflation. The release does not say whether weaker demand, greater supply or a combination drove the declines, and it does not report how much material buyers purchased.",
-          "watch": "Check the next materials survey for persistence, then compare factory-gate prices and company margin disclosures for evidence that the price changes reached producers.",
-          "metricLabels": [
-            {
-              "id": "m1",
-              "label": "Monitored products with lower prices"
-            },
-            {
-              "id": "m2",
-              "label": "Monitored products with higher prices"
-            },
-            {
-              "id": "m3",
-              "label": "Monitored products with unchanged prices"
-            }
-          ]
-        },
-        {
-          "id": "f5",
-          "title": "US consumers feel better about the economy",
-          "summary": "The Conference Board's preliminary November survey showed stronger assessments of current conditions and a brighter outlook.",
-          "impact": "Better sentiment is encouraging for retailers and service businesses, but it does not establish that households are spending more.",
-          "what": "More respondents described jobs as plentiful, and fewer said jobs were hard to get. Expectations also improved overall, although the share expecting income gains did not rise. Plans to buy homes and vehicles strengthened slightly. The headline and component readings are survey indexes: they summarize answers, not dollars spent or jobs added.",
-          "why": "A household that feels more secure about work may be more willing to replace a car or book a trip. That can make the survey useful to businesses deciding how much inventory to carry or how many employees to schedule. The distinction between sentiment and spending matters most for purchases that require financing. A shopper can feel more optimistic and still defer a purchase if monthly payments do not fit the budget.",
-          "uncertainty": "The preliminary survey window ended before the release, and spending plans are self-reported. The change cannot establish how much households will spend or whether confidence improved as much among households facing tighter budgets.",
-          "watch": "Compare the survey with retail sales, household spending and payroll releases to see whether the rise in confidence shows up in actual purchases and hiring.",
+          "id": "f3",
+          "title": "US consumers feel better about jobs and business conditions",
+          "summary": "The Conference Board’s preliminary survey showed a rebound in confidence as households gave better assessments of current conditions and the outlook.",
+          "impact": "The improvement is encouraging for consumer-facing businesses, but spending and hiring data still need to confirm it.",
+          "what": "The survey asks households how they see the economy today and what they expect for jobs, business conditions and income. Respondents were more likely to describe jobs as plentiful and less likely to say they were hard to find. Expectations for business conditions improved, and views of the future jobs market became less negative. The income responses were less encouraging: more respondents expected their income to decline.",
+          "why": "A household that feels more secure at work may be more willing to book a trip, replace an appliance or consider a vehicle purchase. That matters to retailers and service businesses deciding how much stock to carry or how many shifts to schedule. But confidence can improve without wages rising or borrowing getting cheaper, so the gap between better job perceptions and softer income expectations matters for purchases that stretch a household budget.",
+          "uncertainty": "The figures come from a preliminary online survey collected before the end of the reporting month. They measure opinions and intentions, not transactions, and the release does not establish what caused the change in sentiment.",
+          "watch": "Compare the next confidence reading with actual retail sales, household spending and labor-market data to see whether the improved mood changes behavior.",
           "metricLabels": [
             {
               "id": "m1",
@@ -298,49 +362,89 @@
               "label": "Expectations index"
             }
           ]
-        }
-      ]
-    },
-    "zh-CN": {
-      "status": "本期关注美国和中国的动态。请留意各条内容的发布日期；近期发布的公司报告在本期用于解读背景。",
-      "marketSummary": {
-        "us": "跟踪的指数在各自最近经核实的交易日均收涨。标注日期的收盘数据仅反映对应交易日的表现，并非实时行情。",
-        "cn": "跟踪的指数在各自最近经核实的交易日均收涨。标注日期的收盘数据仅反映对应交易日的表现，并非实时行情。"
-      },
-      "stories": [
+        },
         {
           "id": "f4",
-          "title": "中国工业生产资料调查：多种产品价格下跌",
-          "summary": "中国国家统计局的月中调查显示，不少受监测的生产资料价格下跌，包括柴油、铜和螺纹钢。",
-          "impact": "价格下跌可能减轻中国内地部分制造企业和建筑企业的成本压力，但也可能给材料供应商的营收带来压力。",
-          "what": "这项调查跟踪工农业生产资料经销企业的销售价格，对比当月月中与月初的价格。柴油、铜和一些常见钢材价格下跌，但部分品种的煤炭价格上涨。涨跌品种数反映的是价格变化在受监测产品中有多普遍，并不表示一般工厂的投入总成本变动了多少。",
-          "why": "按当前市场价采购铜的制造商，新采购时可能少花一些钱。按固定价格合同采购或仍在使用已付款库存的加工企业，则未必能马上受益。柴油降价也可能降低运输企业的成本，但家庭支付的配送费不一定会随之下降。对供应商而言，材料降价的含义不同：利润是否承压，关键要看售价是不是比自身成本降得更快。",
-          "uncertainty": "这些是流通环节的价格，不是出厂价格，也不能用来衡量消费通胀。报告没有说明降价究竟是因为需求减弱、供应增加，还是这些因素共同作用，也没有公布买家的采购量。",
-          "watch": "留意下期生产资料价格调查，看看跌势是否持续，再对照出厂价格和企业披露的利润率，判断这些价格变化是否已传导至生产企业。",
+          "title": "China’s leading indicators weaken as current activity improves",
+          "summary": "The Conference Board’s leading index for China fell even as its separate gauge of current activity rose.",
+          "impact": "That divergence matters for mainland businesses that need household demand and business borrowing to strengthen, not just current output to hold up.",
+          "what": "The leading index combines measures that can turn before the broader economy does. In the latest release, weaker household expectations, softer logistics conditions and longer-term lending weighed on the gauge. Improved imports of machinery and transport equipment provided a partial offset. The coincident index, which is designed to track conditions closer to the present, moved higher.",
+          "why": "A factory can still be busy filling existing orders while its customers are becoming less willing to take out loans or commit to new purchases. Those developments can coexist, but they tell managers different things about whether to build inventory, hire staff or add capacity. For mainland equities, this is a reason to separate companies that depend on local discretionary spending or business investment from those whose orders can be supported by other sources of demand.",
+          "uncertainty": "This is a private composite indicator, not an official GDP estimate or proof of a recession. Lending weakness can reflect borrowing demand, credit availability or both, and the aggregate index does not separate those effects for individual industries.",
+          "watch": "Look for the next leading-index release alongside official retail sales and enterprise lending data, especially for signs that household expectations and longer-term credit are improving together.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "价格下跌的监测产品品种数"
+              "label": "Leading economic index"
             },
             {
               "id": "m2",
-              "label": "价格上涨的监测产品品种数"
+              "label": "Leading index monthly change"
             },
             {
               "id": "m3",
-              "label": "价格持平的监测产品品种数"
+              "label": "Coincident economic index"
+            },
+            {
+              "id": "m4",
+              "label": "Coincident index monthly change"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "美国消费者对经济更乐观",
-          "summary": "美国世界大型企业联合会当月的初步调查显示，消费者对当前经济状况的评价有所改善，对未来也更乐观。",
-          "impact": "信心改善对零售商和服务企业是个积极信号，但并不能证明家庭实际支出有所增加。",
-          "what": "认为工作机会充足的受访者增多，认为工作难找的受访者减少。受访者的预期总体也有所改善，但预计收入会增加的人所占比重并未上升。购房和购车意愿略有增强。总体指数和分项指数都是根据调查回答汇总得出的，并不反映实际花了多少钱或新增了多少就业岗位。",
-          "why": "如果一个家庭觉得工作更有保障，就可能更愿意换车或预订旅行。企业在决定备多少货或安排多少员工上班时，可以参考这项调查。对于需要贷款或分期付款的消费，尤其要区分信心和实际支出。消费者即使更乐观，若每月还款额超出预算，也可能推迟购买。",
-          "uncertainty": "初步调查在结果发布前就已结束，支出计划由受访者自行填报。信心的变化无法说明家庭实际会花多少钱，也无法判断预算更紧的家庭是否同样乐观了起来。",
-          "watch": "把调查结果与随后公布的零售销售、家庭支出和非农就业人数数据对照，看看信心回升是否反映在实际消费和招聘上。",
+          "title": "Workday raises its subscription outlook as net income slips",
+          "summary": "Workday reported higher subscription sales and operating cash flow, even as its bottom-line profit fell from a year earlier.",
+          "impact": "The report shows why recurring sales, operating performance and net profit need to be read separately when assessing an enterprise software business.",
+          "what": "Workday sells cloud software that employers use for payroll, staffing and finance. Subscription revenue grew faster than total sales, and operating profit climbed despite restructuring expenses. Lower other income and a higher tax provision left net income below the prior-year quarter. Management raised its full-year subscription sales forecast and highlighted new contracts for AI products.",
+          "why": "Subscription contracts make revenue more predictable than a stream of isolated software purchases, but a signed contract, recorded revenue and cash collection are different events. Stock-based compensation also reduces accounting profit without an equivalent current cash payment, which helps explain why operating cash flow and net income can diverge. For employers, the practical test of the new AI features is whether they save time in payroll and finance processes reliably enough to justify paying for them.",
+          "uncertainty": "Management’s account of new AI contract value does not establish recognized AI revenue, the cash collected on those contracts or the savings customers actually achieved. The higher annual outlook remains a forecast.",
+          "watch": "Check the next results for subscription backlog and cash collections, and look for evidence that customers are putting paid AI features into routine use.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Quarterly total revenue"
+            },
+            {
+              "id": "m2",
+              "label": "Subscription revenue growth from a year earlier"
+            },
+            {
+              "id": "m3",
+              "label": "Quarterly GAAP operating income"
+            },
+            {
+              "id": "m4",
+              "label": "Quarterly GAAP net income"
+            },
+            {
+              "id": "m5",
+              "label": "Quarterly operating cash flow"
+            },
+            {
+              "id": "m6",
+              "label": "Full-year subscription revenue guidance"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-CN": {
+      "status": "本期关注美国和中国的经济与市场动态。请留意各篇报道的发布日期；近期公司财报用于帮助理解相关背景。",
+      "marketSummary": {
+        "us": "本期跟踪的股指在各自最近可核实的交易日均收跌。所列收盘数据仅反映标注日期的行情，不代表当前走势。",
+        "cn": "部分收盘数据未能核实。可核实的指数行情均保留各自对应的交易日期。"
+      },
+      "stories": [
+        {
+          "id": "f3",
+          "title": "美国消费者对就业和商业状况更乐观",
+          "summary": "美国谘商会的初步调查显示，随着家庭对经济现状和前景的评价好转，消费者信心有所回升。",
+          "impact": "信心回升对面向消费者的企业是个积极信号，但还需看实际消费和招聘数据能否印证。",
+          "what": "调查询问家庭如何看待当前经济，以及对就业、商业状况和收入有何预期。认为就业机会充足的受访者增多，认为工作难找的受访者减少。受访者对商业前景更乐观，对未来就业市场也没那么悲观。不过，收入预期没那么乐观：预计收入会下降的受访者增多。",
+          "why": "如果家庭觉得工作更稳，就可能更愿意预订旅行、更换家电或考虑买车。这会影响零售商和服务企业的备货和排班。但即使工资没有上涨、借钱也没有变便宜，消费者信心仍可能回升。因此，就业感受好转、收入预期却走弱，这种反差对可能给家庭预算带来压力的消费尤其重要。",
+          "uncertainty": "这些结果来自报告月份结束前开展的初步线上调查。调查反映的是看法和意向，而非实际交易，也不能说明情绪变化的原因。",
+          "watch": "把下次公布的消费者信心数据与实际零售销售、家庭支出和劳动力市场数据对照，看看信心回升是否转化为实际行动。",
           "metricLabels": [
             {
               "id": "m1",
@@ -348,56 +452,96 @@
             },
             {
               "id": "m2",
-              "label": "现况指数"
+              "label": "现状指数"
             },
             {
               "id": "m3",
               "label": "预期指数"
             }
           ]
-        }
-      ]
-    },
-    "fr": {
-      "status": "Cette édition couvre l’actualité économique aux États-Unis et en Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour donner du contexte.",
-      "marketSummary": {
-        "us": "Les indices suivis ont tous progressé lors de leur dernière séance vérifiée. Les cours de clôture indiqués correspondent aux séances datées et ne reflètent pas les échanges en cours.",
-        "cn": "Les indices suivis ont tous progressé lors de leur dernière séance vérifiée. Les cours de clôture indiqués correspondent aux séances datées et ne reflètent pas les échanges en cours."
-      },
-      "stories": [
+        },
         {
           "id": "f4",
-          "title": "En Chine, les prix baissent pour une grande partie des produits industriels suivis",
-          "summary": "À la mi-novembre, le bureau chinois des statistiques a relevé des baisses de prix pour une grande partie des produits suivis dans son enquête, dont le gazole, le cuivre et les barres d’armature pour le béton.",
-          "impact": "La baisse des prix pourrait alléger les coûts de certains fabricants et entreprises du bâtiment en Chine continentale, tout en pesant sur le chiffre d’affaires des fournisseurs de matières premières.",
-          "what": "L’enquête porte sur les prix pratiqués par les distributeurs de produits industriels et agricoles. Elle compare les prix de la mi-novembre à ceux du début du mois. Le gazole, le cuivre et des produits sidérurgiques courants ont baissé, tandis que certaines catégories de charbon ont augmenté. Le décompte par produit montre à quel point ces mouvements étaient répandus. Il ne dit pas de combien a varié la facture totale d’approvisionnement d’une usine type.",
-          "why": "Un fabricant qui achète du cuivre au prix du marché pourrait payer moins cher ses nouveaux achats. Une entreprise qui transforme le cuivre et l’achète à un prix fixé par contrat, ou qui utilise des stocks déjà payés, pourrait ne pas en profiter tout de suite. De même, un gazole moins cher peut réduire les coûts d’un transporteur sans faire baisser le prix de la livraison pour les ménages. Pour les fournisseurs, la baisse des prix a une autre signification : pour leurs bénéfices, la question est de savoir si leurs prix de vente baissent plus vite que leurs propres coûts.",
-          "uncertainty": "Il s’agit de prix pratiqués par les distributeurs, et non de prix à la sortie des usines ni d’une mesure de l’inflation à la consommation. La publication ne précise pas si les baisses viennent d’une demande plus faible, d’une offre plus abondante ou de l’effet combiné de ces facteurs. Elle n’indique pas non plus les quantités achetées.",
-          "watch": "La prochaine enquête permettra de voir si ces mouvements se poursuivent. Les prix à la sortie des usines et les marges publiées par les entreprises aideront ensuite à déterminer si les variations de prix se sont répercutées sur les producteurs.",
+          "title": "中国先行经济指标走弱，当前经济活动改善",
+          "summary": "美国谘商会发布的中国先行经济指数下降，但衡量当前经济活动的同步经济指数上升。",
+          "impact": "对中国内地企业来说，这种分化值得关注：仅靠当前产出保持稳定还不够，家庭需求和企业借款也需要回暖。",
+          "what": "先行经济指数汇集了可能比整体经济更早出现转折的指标。最新数据显示，家庭预期转弱、物流状况走弱以及中长期贷款疲软拖累了指数。机械和运输设备进口改善，抵消了部分拖累。更侧重反映当下经济状况的同步经济指数则有所上升。",
+          "why": "工厂可能还在忙着交付现有订单，但客户已经不太愿意借款或承诺新的采购。这些情况可以同时出现，却会给管理层不同的信号，影响是否增加库存、招聘员工或扩大产能。分析中国内地股市时，这也说明要区分依赖本地非必需消费或企业投资的公司，与订单能得到其他需求支撑的公司。",
+          "uncertainty": "这是由非官方机构编制的综合指标，不是官方国内生产总值估算，也不能证明经济陷入衰退。贷款疲软可能是因为借款需求不足、信贷供给受限，也可能是这些因素共同作用。综合指数无法区分这些因素对各行业的影响。",
+          "watch": "结合官方零售销售和企业贷款数据看下次公布的先行经济指数，尤其留意家庭预期和中长期信贷是否有同步改善的迹象。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Nombre de produits suivis dont le prix a baissé"
+              "label": "先行经济指数"
             },
             {
               "id": "m2",
-              "label": "Nombre de produits suivis dont le prix a augmenté"
+              "label": "先行经济指数环比变动"
             },
             {
               "id": "m3",
-              "label": "Nombre de produits suivis dont le prix est resté stable"
+              "label": "同步经济指数"
+            },
+            {
+              "id": "m4",
+              "label": "同步经济指数环比变动"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "Les consommateurs américains sont plus confiants dans l’économie",
-          "summary": "Les résultats préliminaires de l’enquête de novembre du Conference Board montrent que les consommateurs jugent la situation actuelle plus favorablement et sont plus optimistes pour la suite.",
-          "impact": "Ce regain de confiance est encourageant pour les commerçants et les entreprises de services, mais il ne prouve pas que les ménages dépensent davantage.",
-          "what": "Davantage de répondants estiment que les emplois sont nombreux, et moins de répondants disent qu’il est difficile d’en trouver. Les attentes se sont aussi améliorées dans l’ensemble, même si la part des personnes qui s’attendent à une hausse de leurs revenus n’a pas augmenté. Les intentions d’achat de logements et de véhicules ont légèrement progressé. L’indice global et ses composantes résument les réponses à l’enquête : ils ne mesurent ni les sommes dépensées ni les emplois créés.",
-          "why": "Un ménage qui se sent plus sûr de sa situation professionnelle peut être davantage disposé à remplacer sa voiture ou à réserver un voyage. L’enquête peut donc aider les entreprises à décider du niveau de leurs stocks ou à déterminer combien de personnes prévoir pour assurer le service. La différence entre confiance et dépenses compte surtout pour les achats qui nécessitent un financement. Même plus optimiste, un consommateur peut reporter un achat si les mensualités dépassent ce que lui permet son budget.",
-          "uncertainty": "Les réponses à l’enquête préliminaire ont été recueillies avant la publication des résultats, et les intentions de dépense sont déclarées par les répondants. La hausse de l’indice ne permet pas de savoir combien les ménages dépenseront ni si la confiance s’est autant améliorée chez ceux dont le budget est plus serré.",
-          "watch": "Les prochaines données sur les ventes au détail, les dépenses des ménages et l’emploi salarié permettront de voir si le regain de confiance se traduit par des achats et des embauches.",
+          "title": "Workday上调订阅营收指引，净利润下滑",
+          "summary": "Workday公布的订阅营收和经营现金流均有所增长，但净利润同比下降。",
+          "impact": "这份财报说明，评估企业软件公司时，需要把经常性营收、经营表现和净利润分开看。",
+          "what": "Workday销售云软件，供雇主处理薪酬发放、人员管理和财务工作。订阅营收增速高于总营收增速。尽管发生了重组费用，营业利润仍有增长。其他收入减少、计提的所得税费用增加，导致净利润低于上年同期。管理层上调了全年订阅营收预期，并重点提到了人工智能产品的新签合同。",
+          "why": "相比客户零散地购买软件，订阅合同让营收更容易预测。但签合同、确认营收和收到款项并不是一回事。股权激励也会减少账面利润，却不需要在当期支付等额现金，这有助于解释为什么经营现金流和净利润可能不同步。对雇主来说，检验新人工智能功能是否值得付费，关键在于它能否稳定地为薪酬和财务流程节省时间。",
+          "uncertainty": "管理层披露的新签人工智能合同金额，并不能说明已确认的相关营收、合同实际回款或客户实际节省的成本。上调后的全年指引仍是预测。",
+          "watch": "留意下次财报披露的待确认订阅营收和回款情况，以及是否有迹象表明客户已在日常工作中使用付费的人工智能功能。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "季度总营收"
+            },
+            {
+              "id": "m2",
+              "label": "订阅营收同比增速"
+            },
+            {
+              "id": "m3",
+              "label": "季度营业利润（按美国通用会计准则）"
+            },
+            {
+              "id": "m4",
+              "label": "季度净利润（按美国通用会计准则）"
+            },
+            {
+              "id": "m5",
+              "label": "季度经营现金流"
+            },
+            {
+              "id": "m6",
+              "label": "全年订阅营收指引"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les résultats d’entreprise récents sont présentés pour éclairer le contexte.",
+      "marketSummary": {
+        "us": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture datés reflètent ces séances, et non les échanges en cours.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice pour lequel des données sont disponibles conserve sa propre date de cotation."
+      },
+      "stories": [
+        {
+          "id": "f3",
+          "title": "Aux États-Unis, les ménages voient l’emploi et la conjoncture d’un meilleur œil",
+          "summary": "L’enquête préliminaire du Conference Board montre un rebond de la confiance : les ménages jugent plus favorablement la situation actuelle et les perspectives.",
+          "impact": "Cette amélioration est encourageante pour les entreprises qui vendent aux particuliers, mais elle reste à confirmer par les données sur les dépenses et les embauches.",
+          "what": "L’enquête demande aux ménages comment ils perçoivent l’économie aujourd’hui et ce qu’ils attendent en matière d’emploi, de conjoncture et de revenus. Les répondants ont plus souvent estimé que les emplois étaient nombreux et moins souvent déclaré qu’ils étaient difficiles à trouver. Leurs attentes concernant la conjoncture se sont améliorées et leur vision de l’avenir du marché du travail est devenue moins pessimiste. Les réponses sur les revenus sont moins encourageantes : davantage de répondants s’attendent à une baisse de leurs revenus.",
+          "why": "Un ménage qui se sent plus sûr de son emploi peut être davantage disposé à réserver un voyage, à remplacer un appareil électroménager ou à envisager l’achat d’un véhicule. Cela compte pour les commerces et les entreprises de services lorsqu’ils décident du niveau de leurs stocks ou des horaires de travail à prévoir. Mais la confiance peut s’améliorer sans que les salaires augmentent ni que le crédit coûte moins cher. L’écart entre une meilleure perception de l’emploi et des attentes moins favorables sur les revenus compte donc pour les achats qui pèsent sur le budget des ménages.",
+          "uncertainty": "Les données proviennent d’une enquête préliminaire menée en ligne avant la fin du mois concerné. Elles reflètent des opinions et des intentions, pas des transactions, et la publication ne permet pas de déterminer pourquoi la confiance a évolué.",
+          "watch": "Comparer le prochain indice de confiance aux données sur les ventes au détail, les dépenses des ménages et le marché du travail pour voir si cette amélioration se traduit par des changements de comportement.",
           "metricLabels": [
             {
               "id": "m1",
@@ -412,49 +556,89 @@
               "label": "Indice des anticipations"
             }
           ]
-        }
-      ]
-    },
-    "es": {
-      "status": "Esta edición recoge novedades de Estados Unidos y China. Fíjate en la fecha de cada publicación: los informes empresariales recientes se presentan para dar contexto.",
-      "marketSummary": {
-        "us": "Los índices que seguimos subieron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la cotización actual.",
-        "cn": "Los índices que seguimos subieron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la cotización actual."
-      },
-      "stories": [
+        },
         {
           "id": "f4",
-          "title": "Bajan los precios de buena parte de los insumos industriales que sigue China",
-          "summary": "La oficina de estadística de China registró caídas de precios en buena parte de los materiales incluidos en su encuesta de mediados de noviembre, entre ellos el diésel, el cobre y las barras de acero para hormigón.",
-          "impact": "La bajada de precios podría reducir los costes de algunos fabricantes y empresas constructoras de China continental, pero también presionar los ingresos de los proveedores de materiales.",
-          "what": "La encuesta recoge los precios que cobran las empresas que distribuyen materiales industriales y agrícolas. Compara los precios de mediados de noviembre con los de principios del mes. Bajaron el diésel, el cobre y varios productos de acero de uso habitual, pero subieron algunos tipos de carbón. El recuento muestra hasta qué punto se extendieron los cambios de precio entre los productos analizados, no cuánto cambió el gasto total en materiales de una fábrica típica.",
-          "why": "Los fabricantes que compran cobre al precio de mercado actual podrían pagar menos por sus nuevas compras. En cambio, una empresa que transforma el cobre y lo compra a un precio fijado por contrato o usa existencias que ya pagó quizá no note el alivio de inmediato. De forma parecida, el diésel más barato puede reducir los costes de una empresa de transporte sin abaratar lo que paga un hogar por una entrega. Para los proveedores, la bajada tiene otra lectura: lo que importa para sus beneficios es si sus precios de venta caen más rápido que sus propios costes.",
-          "uncertainty": "Son precios de distribución, no precios a la salida de fábrica ni una medida de la inflación al consumidor. El informe no aclara si las caídas se debieron a una demanda más débil, a una mayor oferta o a una combinación de esos factores. Tampoco indica qué cantidad de materiales se compró.",
-          "watch": "La próxima encuesta de materiales permitirá ver si las bajadas continúan. Después, los precios a la salida de fábrica y los márgenes que publiquen las empresas pueden dar pistas sobre si los cambios de precios llegaron a los productores.",
+          "title": "En Chine, les indicateurs avancés faiblissent alors que l’activité actuelle s’améliore",
+          "summary": "L’indice avancé du Conference Board pour la Chine a reculé, alors que son indicateur de l’activité actuelle a progressé.",
+          "impact": "Ce décalage compte pour les entreprises de Chine continentale qui ont besoin d’une demande plus forte des ménages et d’une reprise des emprunts des entreprises, et pas seulement du maintien de la production actuelle.",
+          "what": "L’indice avancé regroupe des indicateurs qui peuvent changer de direction avant l’ensemble de l’économie. Dans la dernière publication, des attentes moins favorables chez les ménages, une situation moins bonne dans la logistique et la faiblesse du crédit à plus long terme ont pesé sur l’indice. L’amélioration des importations de machines et de matériel de transport a en partie compensé ces effets. L’indice coïncident, conçu pour suivre de plus près la conjoncture actuelle, a progressé.",
+          "why": "Une usine peut encore tourner à plein régime pour honorer ses commandes en cours alors que ses clients hésitent davantage à emprunter ou à s’engager dans de nouveaux achats. Ces évolutions peuvent coexister, mais elles donnent des signaux différents aux dirigeants qui doivent décider s’il faut étoffer leurs stocks, recruter ou accroître leur capacité de production. Pour les actions de Chine continentale, cela aide à distinguer les entreprises qui dépendent des dépenses non essentielles des ménages locaux ou des investissements des entreprises de celles dont les commandes peuvent être soutenues par d’autres sources de demande.",
+          "uncertainty": "Il s’agit d’un indicateur composite élaboré par un organisme privé, et non d’une estimation officielle du PIB ni d’une preuve de récession. La faiblesse des prêts peut tenir à la demande d’emprunts, à la disponibilité du crédit ou à une combinaison de ces facteurs. L’indice global ne permet pas de distinguer ces effets pour chaque secteur.",
+          "watch": "Examiner la prochaine publication de l’indice avancé avec les données officielles sur les ventes au détail et les prêts aux entreprises, notamment pour voir si les attentes des ménages et le crédit à plus long terme s’améliorent en même temps.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Productos analizados con bajadas de precio"
+              "label": "Indice économique avancé"
             },
             {
               "id": "m2",
-              "label": "Productos analizados con subidas de precio"
+              "label": "Variation mensuelle de l’indice avancé"
             },
             {
               "id": "m3",
-              "label": "Productos analizados sin cambios de precio"
+              "label": "Indice économique coïncident"
+            },
+            {
+              "id": "m4",
+              "label": "Variation mensuelle de l’indice coïncident"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "Los consumidores de Estados Unidos ven la economía con más optimismo",
-          "summary": "La encuesta preliminar de noviembre de The Conference Board mostró una mejor valoración de la situación actual y más optimismo sobre el futuro.",
-          "impact": "La mejora de la confianza es una señal alentadora para el comercio minorista y las empresas de servicios, pero no demuestra que los hogares estén gastando más.",
-          "what": "Más personas encuestadas dijeron que abundaban los puestos de trabajo y menos dijeron que era difícil encontrar empleo. Las expectativas también mejoraron en general, aunque no aumentó la proporción de quienes esperan que suban sus ingresos. Los planes de comprar viviendas y vehículos repuntaron ligeramente. Tanto el índice general como sus componentes resumen respuestas a la encuesta: no miden cuánto se gastó ni cuántos empleos se crearon.",
-          "why": "Un hogar que siente más estabilidad laboral puede estar más dispuesto a cambiar de coche o reservar un viaje. Por eso, la encuesta puede servir a las empresas para decidir cuánto inventario mantener o cuánto personal necesitan por turno. Distinguir entre confianza y gasto importa sobre todo en las compras que requieren financiación. Una persona puede sentirse más optimista y aun así aplazar una compra si las cuotas mensuales no le caben en el presupuesto.",
-          "uncertainty": "La recogida de respuestas para la encuesta preliminar terminó antes de que se publicaran los resultados, y los planes de gasto son los que declaran las personas encuestadas. La mejora no permite saber cuánto gastarán los hogares ni si la confianza aumentó en la misma medida entre quienes tienen un presupuesto más ajustado.",
-          "watch": "Los próximos datos de ventas minoristas, gasto de los hogares y empleo no agrícola permitirán comprobar si la mejora de la confianza se refleja en las compras y las contrataciones.",
+          "title": "Workday relève ses prévisions de revenus d’abonnement malgré un recul du résultat net",
+          "summary": "Workday a annoncé une hausse de ses revenus d’abonnement et de ses flux de trésorerie d’exploitation, tandis que son résultat net a reculé sur un an.",
+          "impact": "Ces résultats montrent pourquoi il faut examiner séparément les revenus récurrents, la performance d’exploitation et le résultat net pour évaluer un éditeur de logiciels d’entreprise.",
+          "what": "Workday vend des logiciels en ligne que les employeurs utilisent pour gérer la paie, les effectifs et les finances. Les revenus d’abonnement ont progressé plus vite que le chiffre d’affaires total, et le résultat d’exploitation a augmenté malgré les charges de restructuration. Le recul des autres produits et la hausse de la provision pour impôts ont ramené le résultat net sous son niveau du trimestre comparable de l’exercice précédent. La direction a relevé sa prévision de revenus d’abonnement pour l’ensemble de l’exercice et mis en avant de nouveaux contrats pour ses produits d’intelligence artificielle.",
+          "why": "Les contrats d’abonnement rendent le chiffre d’affaires plus prévisible que des achats ponctuels de logiciels. Mais la signature d’un contrat, la comptabilisation du chiffre d’affaires et l’encaissement du paiement ne se font pas nécessairement au même moment. La rémunération en actions réduit aussi le résultat comptable sans entraîner de sortie de trésorerie équivalente sur la période, ce qui aide à comprendre pourquoi les flux de trésorerie d’exploitation et le résultat net peuvent évoluer différemment. Pour les employeurs, la question est de savoir si les nouvelles fonctions d’intelligence artificielle leur font gagner du temps de façon suffisamment fiable dans la gestion de la paie et des finances pour justifier leur coût.",
+          "uncertainty": "Les déclarations de la direction sur la valeur des nouveaux contrats liés à l’intelligence artificielle ne permettent pas de savoir quels revenus ont été comptabilisés, quelles sommes ont été encaissées ni quelles économies les clients ont réellement réalisées. Les perspectives annuelles revues à la hausse restent des prévisions.",
+          "watch": "Dans les prochains résultats, examiner le carnet de commandes lié aux abonnements et les encaissements, et vérifier si les clients utilisent régulièrement les fonctions payantes d’intelligence artificielle.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Chiffre d’affaires total du trimestre"
+            },
+            {
+              "id": "m2",
+              "label": "Croissance du chiffre d’affaires des abonnements en glissement annuel"
+            },
+            {
+              "id": "m3",
+              "label": "Résultat d’exploitation trimestriel selon les normes GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Résultat net trimestriel selon les normes GAAP"
+            },
+            {
+              "id": "m5",
+              "label": "Flux de trésorerie d’exploitation du trimestre"
+            },
+            {
+              "id": "m6",
+              "label": "Prévision de chiffre d’affaires des abonnements pour l’exercice"
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Revisa la fecha de cada publicación: los informes empresariales recientes se presentan para dar contexto.",
+      "marketSummary": {
+        "us": "Los índices que seguimos cayeron en sus últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas y no reflejan la negociación actual.",
+        "cn": "No se pudieron verificar todos los datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión."
+      },
+      "stories": [
+        {
+          "id": "f3",
+          "title": "Los consumidores de Estados Unidos ven con más optimismo el empleo y la situación empresarial",
+          "summary": "La encuesta preliminar de The Conference Board mostró un repunte de la confianza: los hogares valoraron mejor la situación actual y las perspectivas.",
+          "impact": "La mejora es alentadora para las empresas que venden al consumidor, pero falta ver si los datos de gasto y contratación la confirman.",
+          "what": "La encuesta pregunta a los hogares cómo ven la economía actual y qué esperan del empleo, la situación empresarial y sus ingresos. Aumentó la proporción de encuestados que dijeron que había muchos puestos de trabajo disponibles y disminuyó la de quienes dijeron que era difícil encontrar empleo. Mejoraron las expectativas sobre la situación empresarial y las opiniones sobre el futuro del mercado laboral fueron menos negativas. Las respuestas sobre los ingresos fueron menos alentadoras: más encuestados esperaban que sus ingresos bajaran.",
+          "why": "Un hogar que se siente más seguro en el trabajo puede estar más dispuesto a reservar un viaje, cambiar un electrodoméstico o plantearse la compra de un vehículo. Esto importa a los comercios y a las empresas de servicios cuando deciden cuánto inventario mantener o qué turnos programar. Pero la confianza puede mejorar sin que suban los salarios ni se abarate el crédito. Por eso, la diferencia entre una mejor percepción del empleo y unas expectativas de ingresos menos favorables importa cuando una compra pone presión sobre el presupuesto familiar.",
+          "uncertainty": "Los datos provienen de una encuesta preliminar en línea realizada antes de que terminara el mes que se analiza. Reflejan opiniones e intenciones, no compras reales, y el informe no determina qué causó el cambio de ánimo.",
+          "watch": "Compara el próximo dato de confianza con los datos efectivos de ventas minoristas, gasto de los hogares y empleo para ver si la mejora del ánimo cambia el comportamiento.",
           "metricLabels": [
             {
               "id": "m1",
@@ -469,49 +653,89 @@
               "label": "Índice de expectativas"
             }
           ]
-        }
-      ]
-    },
-    "ja": {
-      "status": "今号では米国と中国の動きを取り上げます。各資料の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として掲載しています。",
-      "marketSummary": {
-        "us": "対象の株価指数はいずれも、確認できた直近の取引日には上昇しました。日付付きの終値は当時の取引結果で、現在の値動きを示すものではありません。",
-        "cn": "対象の株価指数はいずれも、確認できた直近の取引日には上昇しました。日付付きの終値は当時の取引結果で、現在の値動きを示すものではありません。"
-      },
-      "stories": [
+        },
         {
           "id": "f4",
-          "title": "中国の資材価格調査、幅広い品目で値下がり",
-          "summary": "中国の国家統計局による月半ばの資材価格調査では、軽油や銅、鉄筋など、幅広い品目で価格が下がりました。",
-          "impact": "資材の値下がりは、中国本土の製造業者や建設業者のコスト負担を軽くする可能性がある一方、資材供給業者の売上高を押し下げる可能性があります。",
-          "what": "この調査は、工業や農業に使う資材を扱う流通業者の販売価格を対象とし、月半ばの価格を月初めと比べています。軽油や銅、よく使われる鋼材が値下がりした一方、石炭には値上がりした種類もありました。品目数から分かるのは、調査対象の中で値動きがどれほど広がったかです。一般的な工場で原材料費などの総額がどれほど変わったかを示すものではありません。",
-          "why": "銅をその時々の相場で仕入れるメーカーなら、新たな購入分の負担が軽くなる可能性があります。一方、契約で決まった価格で仕入れる加工業者や、支払い済みの在庫を使う加工業者には、値下がりの恩恵がすぐには及ばないかもしれません。同じように、軽油が安くなれば運送会社のコストは下がり得ますが、家庭が払う配送料まで下がるとは限りません。資材を売る側にとって、値下がりの意味は異なります。利益を左右するのは、販売価格が自社のコストよりも速いペースで下がるかどうかです。",
-          "uncertainty": "調査が示すのは流通段階の価格で、工場出荷価格でも、消費者物価の上昇率でもありません。公表資料では、需要の弱まりと供給の増加のどちらが値下がりの要因なのか、両方が影響したのかは明らかにされていません。買い手が資材をどれだけ購入したかも分かりません。",
-          "watch": "次回の資材価格調査では値下がりが続くかが焦点です。工場出荷価格と、企業が公表する利益率を照らし合わせると、価格の変化が生産者にも及んだかを見極める手がかりになります。",
+          "title": "Los indicadores adelantados de China se debilitan mientras mejora la actividad actual",
+          "summary": "El índice adelantado de The Conference Board para China cayó, mientras que su indicador de la actividad actual subió.",
+          "impact": "La diferencia importa para las empresas de China continental que necesitan que se recuperen la demanda de los hogares y el crédito empresarial, no solo que se mantenga la producción actual.",
+          "what": "El índice adelantado reúne indicadores que pueden cambiar de rumbo antes que la economía en general. En la última publicación, el deterioro de las expectativas de los hogares, la debilidad de la actividad logística y la de los préstamos a más largo plazo pesaron sobre el índice. La mejora de las importaciones de maquinaria y equipos de transporte compensó parte de ese efecto. El índice coincidente, diseñado para seguir más de cerca la situación actual, subió.",
+          "why": "Una fábrica puede seguir ocupada atendiendo pedidos pendientes mientras sus clientes se muestran menos dispuestos a pedir préstamos o comprometerse con nuevas compras. Estas situaciones pueden darse al mismo tiempo, pero transmiten señales distintas a la dirección sobre si conviene aumentar el inventario, contratar personal o ampliar la capacidad. En la bolsa de China continental, esta diferencia ayuda a distinguir entre las empresas que dependen del gasto local en compras no esenciales o de la inversión empresarial y aquellas cuyos pedidos pueden sostenerse con otras fuentes de demanda.",
+          "uncertainty": "Es un indicador compuesto elaborado por una entidad privada, no una estimación oficial del PIB ni una prueba de recesión. La debilidad de los préstamos puede deberse a la demanda de crédito, a su disponibilidad o a una combinación de esos factores. El índice general no distingue esos efectos por sector.",
+          "watch": "Sigue la próxima publicación del índice adelantado junto con los datos oficiales de ventas minoristas y préstamos a empresas, en especial para ver si las expectativas de los hogares y el crédito a más largo plazo mejoran al mismo tiempo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "値下がりした調査対象品目数"
+              "label": "Índice económico adelantado"
             },
             {
               "id": "m2",
-              "label": "値上がりした調査対象品目数"
+              "label": "Variación mensual del índice adelantado"
             },
             {
               "id": "m3",
-              "label": "価格が横ばいだった調査対象品目数"
+              "label": "Índice económico coincidente"
+            },
+            {
+              "id": "m4",
+              "label": "Variación mensual del índice coincidente"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "米国の消費者、景気の見方が改善",
-          "summary": "コンファレンス・ボードの月次調査の速報では、景気の現状に対する評価が改善し、先行きの見方も明るくなりました。",
-          "impact": "消費者心理の改善は小売業やサービス業にとって明るい材料ですが、家計の支出が増えていることを示すものではありません。",
-          "what": "「仕事は豊富にある」と答えた人が増え、「仕事を見つけにくい」と答えた人は減りました。先行きへの期待は全体として改善したものの、収入が増えると見込む人の割合は上がりませんでした。住宅や自動車の購入意向はわずかに強まりました。総合指数も内訳の指数も、調査への回答をまとめたもので、実際の支出額や雇用の増加数を示すものではありません。",
-          "why": "雇用への不安が和らぐと、車の買い替えや旅行の予約に前向きになる家庭もあります。そのため、この調査は企業が在庫をどれだけ持つか、勤務シフトにどれだけ人を配置するかを決める際の参考になります。消費者心理と実際の支出の違いがとりわけ重要なのは、ローンなどを利用する買い物です。先行きに楽観的になっても、毎月の返済額が家計の予算に収まらなければ、購入を先送りすることがあります。",
-          "uncertainty": "速報値の集計対象となる回答期間は公表前に終了しており、支出計画は回答者の自己申告です。今回の改善だけでは、家計が実際にどれだけ支出するかも、予算に余裕のない世帯で消費者心理が同じ程度に改善したかも分かりません。",
-          "watch": "小売売上高や家計支出、非農業部門雇用者数の発表と照らし合わせると、消費者心理の改善が実際の買い物や採用に表れているかを見極める手がかりになります。",
+          "title": "Workday eleva su previsión de ingresos por suscripciones pese a la caída del beneficio neto",
+          "summary": "Workday registró mayores ingresos por suscripciones y un mayor flujo de caja operativo, aunque su beneficio neto cayó en términos interanuales.",
+          "impact": "El informe muestra por qué conviene analizar por separado los ingresos recurrentes, el desempeño operativo y el beneficio neto al evaluar una empresa de software para negocios.",
+          "what": "Workday vende software en la nube que las empresas usan para gestionar nóminas, personal y finanzas. Los ingresos por suscripciones crecieron más rápido que los ingresos totales, y el beneficio operativo aumentó pese a los gastos de reestructuración. La caída de otros ingresos y el aumento de la provisión para impuestos dejaron el beneficio neto por debajo del registrado en el mismo trimestre del ejercicio anterior. La dirección elevó su previsión de ingresos por suscripciones para el ejercicio completo y destacó nuevos contratos de productos de inteligencia artificial.",
+          "why": "Los contratos de suscripción hacen que los ingresos sean más previsibles que las compras puntuales de software, pero firmar un contrato, registrar el ingreso y cobrar son cosas distintas. La remuneración en acciones también reduce el beneficio contable sin que haya un desembolso equivalente en ese momento. Esto ayuda a explicar por qué el flujo de caja operativo y el beneficio neto pueden evolucionar de forma distinta. Para las empresas que usan el software, la prueba práctica es si las nuevas funciones de inteligencia artificial les ahorran tiempo de forma sistemática en la gestión de nóminas y finanzas, hasta el punto de justificar su coste.",
+          "uncertainty": "El valor de los nuevos contratos de inteligencia artificial que comunica la dirección no indica cuánto se ha registrado como ingreso, cuánto se ha cobrado por esos contratos ni cuánto han ahorrado realmente los clientes. La previsión anual revisada al alza sigue siendo una estimación.",
+          "watch": "Revisa en los próximos resultados los compromisos de suscripción pendientes de reconocer como ingresos y los cobros, y busca señales de que los clientes usan habitualmente las funciones de pago de inteligencia artificial.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Ingresos totales trimestrales"
+            },
+            {
+              "id": "m2",
+              "label": "Crecimiento interanual de los ingresos por suscripciones"
+            },
+            {
+              "id": "m3",
+              "label": "Beneficio operativo trimestral según los GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Beneficio neto trimestral según los GAAP"
+            },
+            {
+              "id": "m5",
+              "label": "Flujo de caja operativo trimestral"
+            },
+            {
+              "id": "m6",
+              "label": "Previsión de ingresos por suscripciones para el ejercicio completo"
+            }
+          ]
+        }
+      ]
+    },
+    "ja": {
+      "status": "今回の配信では、米国と中国の動向を取り上げます。記事ごとの公開日をご確認ください。最近の企業決算は、背景を理解するための解説として掲載しています。",
+      "marketSummary": {
+        "us": "対象の株価指数はいずれも、終値を確認できた直近の取引日に下落しました。日付付きの終値は、その日の取引結果であり、現在の取引状況を示すものではありません。",
+        "cn": "終値を確認できなかった指数があります。確認できた指数には、それぞれの取引日を表示しています。"
+      },
+      "stories": [
+        {
+          "id": "f3",
+          "title": "米国の消費者、雇用や景況への見方が改善",
+          "summary": "コンファレンス・ボードの調査速報では、家計の現状評価と先行きの見方が改善し、消費者信頼感が持ち直しました。",
+          "impact": "消費者向けの企業にとっては明るい材料ですが、実際の消費や採用にも改善が表れるかは、今後のデータで確認する必要があります。",
+          "what": "この調査では、家計に景気の現状をどう見ているか、雇用や景況、収入の先行きをどう見込んでいるかを尋ねます。仕事は豊富だと答えた人が増え、仕事を見つけにくいと答えた人は減りました。景況の見通しは改善し、雇用の先行きに対する悲観も和らぎました。ただ、収入については明るい結果とは言えず、減ると見込む人が増えました。",
+          "why": "雇用への不安が和らげば、旅行を予約したり、家電を買い替えたり、車の購入を検討したりしやすくなります。これは、どれだけ在庫を持つか、どの程度の人員をシフトに入れるかを決める小売業やサービス業にとって重要です。ただ、賃金が上がったり借り入れ費用が下がったりしなくても、消費者の気分は上向くことがあります。雇用への見方が改善する一方で収入の見通しが弱まっている点は、家計の負担が大きい買い物を考えるうえで重要です。",
+          "uncertainty": "今回の結果は、調査対象月の月末前に回答を集めたオンライン調査の速報です。把握しているのは人々の見方や意向であり、実際の購買行動ではありません。今回の発表からは、消費者心理が変化した理由までは分かりません。",
+          "watch": "次回の消費者信頼感の結果を、小売売上高や家計支出、労働市場のデータと照らし合わせ、心理の改善が実際の行動に表れるかを確認します。",
           "metricLabels": [
             {
               "id": "m1",
@@ -526,49 +750,89 @@
               "label": "期待指数"
             }
           ]
-        }
-      ]
-    },
-    "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação. Os relatórios empresariais recentes são apresentados para ajudar a entender o contexto.",
-      "marketSummary": {
-        "us": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os valores de fechamento se referem aos pregões das datas indicadas, não às negociações atuais.",
-        "cn": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os valores de fechamento se referem aos pregões das datas indicadas, não às negociações atuais."
-      },
-      "stories": [
+        },
         {
           "id": "f4",
-          "title": "Preços caem em boa parte dos insumos industriais pesquisados na China",
-          "summary": "O órgão de estatística da China registrou queda nos preços de boa parte dos materiais pesquisados em meados de novembro, entre eles o diesel, o cobre e o vergalhão de aço.",
-          "impact": "Preços menores podem aliviar os custos de alguns fabricantes e construtoras na China continental, mas pressionar a receita dos fornecedores de materiais.",
-          "what": "O levantamento acompanha os preços cobrados por empresas que distribuem insumos industriais e agrícolas. Ele compara meados de novembro com o início do mês. O diesel e o cobre ficaram mais baratos, assim como vários produtos comuns de aço, mas alguns tipos de carvão ficaram mais caros. A contagem por produto mostra o quanto essas variações se espalharam pelos itens monitorados, não quanto mudou o gasto total de uma fábrica típica com insumos.",
-          "why": "Um fabricante que compra cobre ao preço de mercado pode economizar nas novas compras. Já uma empresa que trabalha com preço fixado em contrato ou usa estoque pelo qual já pagou talvez não sinta esse alívio de imediato. Da mesma forma, o diesel mais barato pode reduzir os custos de uma transportadora sem baratear o frete para as famílias. Para os fornecedores, a queda dos preços tem outra implicação: o que importa para o lucro é saber se os preços de venda caem mais rápido do que os próprios custos.",
-          "uncertainty": "Esses são preços cobrados por distribuidores, não preços na porta da fábrica nem uma medida da inflação ao consumidor. O relatório não esclarece se as quedas vieram de uma demanda mais fraca, de uma oferta maior ou de uma combinação desses fatores. Também não informa quanto material foi comprado.",
-          "watch": "Veja no próximo levantamento se as quedas persistem. Depois, compare os preços na porta da fábrica e as margens divulgadas pelas empresas para ver se há sinais de que as mudanças chegaram aos produtores.",
+          "title": "中国の景気先行指数が低下、足元の経済活動は改善",
+          "summary": "コンファレンス・ボードの中国の景気先行指数は低下しましたが、足元の経済活動を示す別の指数は上昇しました。",
+          "impact": "この違いは、足元の生産が持ちこたえるだけでなく、家計の需要が強まり、企業の借り入れが増えることも必要な中国本土の企業にとって重要です。",
+          "what": "景気先行指数は、経済全体に先駆けて動くことのある指標を組み合わせたものです。今回の発表では、家計の先行きへの期待の後退、物流の弱さ、長期の貸し出しの低調さが指数を押し下げました。機械や輸送用機器の輸入の改善が、下押しの影響をいくらか和らげました。足元の景気を捉えるための景気一致指数は上昇しました。",
+          "why": "工場がすでに受けた注文の対応に追われていても、取引先は借り入れや新たな購入に慎重になっていることがあります。こうした動きは同時に起こり得ますが、在庫を積み増すか、人を雇うか、生産能力を増やすかを考える経営者にとって、それぞれが示す意味は異なります。中国本土株を見る際には、国内の家計が必需品以外に使うお金や企業の投資に頼る会社と、別の需要源に受注を支えてもらえる会社を分けて考える理由になります。",
+          "uncertainty": "これは民間の総合指標であり、公式の国内総生産の推計ではなく、景気後退を示す証拠でもありません。貸し出しが弱いのは、借り入れ需要が低いからか、融資を受けにくいからか、あるいはそれらが重なったためかもしれません。この総合指数では、業種ごとにどの要因が影響したかを切り分けられません。",
+          "watch": "次回の景気先行指数を、公式の小売売上高や企業向け融資のデータとあわせて確認します。特に、家計の先行きへの期待と長期の貸し出しがそろって改善する兆しがあるかが注目点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Produtos monitorados com queda de preço"
+              "label": "景気先行指数"
             },
             {
               "id": "m2",
-              "label": "Produtos monitorados com alta de preço"
+              "label": "景気先行指数の前月比"
             },
             {
               "id": "m3",
-              "label": "Produtos monitorados com preço estável"
+              "label": "景気一致指数"
+            },
+            {
+              "id": "m4",
+              "label": "景気一致指数の前月比"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "Consumidores dos EUA estão mais confiantes na economia",
-          "summary": "A pesquisa preliminar de novembro do Conference Board mostrou uma avaliação mais favorável da situação atual e mais otimismo em relação ao futuro.",
-          "impact": "A melhora na confiança é um sinal encorajador para o varejo e as empresas de serviços, mas não comprova que as famílias estejam gastando mais.",
-          "what": "Mais entrevistados disseram que havia empregos de sobra, e menos disseram que era difícil conseguir trabalho. As expectativas também melhoraram no geral, embora a proporção dos que esperam aumento de renda não tenha subido. A intenção de comprar imóveis e veículos cresceu ligeiramente. O índice geral e seus componentes resumem as respostas à pesquisa: não medem valores gastos nem empregos criados.",
-          "why": "Uma família que se sente mais segura em relação ao emprego pode estar mais disposta a trocar de carro ou reservar uma viagem. Por isso, a pesquisa pode ajudar as empresas a decidir quanto estoque manter ou quantos funcionários pôr na escala. A diferença entre confiança e gasto efetivo é especialmente importante nas compras que exigem financiamento. Um consumidor pode estar mais otimista e ainda assim adiar uma compra se as parcelas mensais não couberem no orçamento.",
-          "uncertainty": "A coleta de respostas para a pesquisa preliminar terminou antes da divulgação, e os planos de compra foram informados pelos próprios entrevistados. A melhora no índice não permite saber quanto as famílias vão gastar nem se a confiança aumentou na mesma medida entre as que têm o orçamento mais apertado.",
-          "watch": "Compare a pesquisa com os dados divulgados sobre vendas no varejo, gastos das famílias e emprego para ver se o aumento da confiança se reflete nas compras e contratações.",
+          "title": "ワークデイ、純利益は減少もサブスクリプション売上高の見通しを引き上げ",
+          "summary": "ワークデイのサブスクリプション売上高と営業キャッシュフローは増加しましたが、純利益は前年同期を下回りました。",
+          "impact": "今回の決算は、企業向けソフトウェア事業を評価する際、継続的に得られる売上、本業の業績、純利益を分けて見る必要があることを示しています。",
+          "what": "ワークデイは、企業が給与計算や人員管理、財務に使うクラウドソフトウェアを販売しています。サブスクリプション売上高の伸びは売上高全体の伸びを上回り、事業再編費用がかかったものの営業利益は増加しました。その他の収益が減り、法人税費用が増えたため、純利益は前年同期を下回りました。経営陣は通期のサブスクリプション売上高の見通しを引き上げ、AI製品の新規契約にも言及しました。",
+          "why": "サブスクリプション契約では、顧客がその都度ソフトウェアを購入する場合よりも、売上の見通しを立てやすくなります。ただし、契約を結ぶこと、売上を計上すること、代金を受け取ることは別です。また、株式報酬は、同じ額の現金をその時点で支払わなくても、会計上の利益を押し下げます。これは、営業キャッシュフローと純利益の動きが異なる理由のひとつです。導入する企業にとって新しいAI機能の価値を判断する基準は、利用料に見合うだけの時間を給与計算や財務の業務で安定して節約できるかどうかです。",
+          "uncertainty": "経営陣はAI製品の新規契約額について説明しましたが、それだけでは、AI関連で計上された売上高や契約に基づいて受け取った代金、顧客が実際にどれだけ節約できたかは分かりません。引き上げられた通期見通しも、あくまで予測です。",
+          "watch": "次回の決算では、サブスクリプションの受注残と代金の回収状況に加え、顧客が有料のAI機能を日常業務で使うようになっているかに注目します。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "四半期売上高"
+            },
+            {
+              "id": "m2",
+              "label": "サブスクリプション売上高の前年同期比伸び率"
+            },
+            {
+              "id": "m3",
+              "label": "四半期営業利益（米国会計基準）"
+            },
+            {
+              "id": "m4",
+              "label": "四半期純利益（米国会計基準）"
+            },
+            {
+              "id": "m5",
+              "label": "四半期営業キャッシュフロー"
+            },
+            {
+              "id": "m6",
+              "label": "通期サブスクリプション売上高見通し"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os balanços recentes das empresas servem como contexto.",
+      "marketSummary": {
+        "us": "Os índices acompanhados caíram em seus respectivos pregões mais recentes com fechamento verificado. Os valores de fechamento se referem aos pregões indicados, não às negociações atuais.",
+        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente."
+      },
+      "stories": [
+        {
+          "id": "f3",
+          "title": "Consumidores dos Estados Unidos veem com mais otimismo o emprego e as condições para os negócios",
+          "summary": "A pesquisa preliminar do Conference Board mostrou uma recuperação da confiança: as famílias avaliaram melhor tanto a situação atual quanto as perspectivas.",
+          "impact": "A melhora é animadora para as empresas que vendem ao consumidor, mas ainda precisa ser confirmada pelos dados de consumo e contratações.",
+          "what": "A pesquisa pergunta às famílias como elas veem a economia hoje e o que esperam do emprego, das condições para os negócios e da renda. Mais entrevistados disseram que havia empregos em abundância, e menos disseram que era difícil encontrar trabalho. As expectativas para os negócios melhoraram, e as avaliações sobre o futuro do mercado de trabalho ficaram menos negativas. As respostas sobre renda foram menos animadoras: mais entrevistados esperavam que sua renda caísse.",
+          "why": "Quem se sente mais seguro no emprego pode ficar mais disposto a reservar uma viagem, trocar um eletrodoméstico ou pensar em comprar um veículo. Isso importa para varejistas e prestadores de serviços ao decidirem quanto manter em estoque ou como organizar os turnos de trabalho. Mas a confiança pode melhorar sem que os salários subam ou o crédito fique mais barato. Por isso, o contraste entre a percepção mais favorável do emprego e as expectativas mais fracas para a renda importa nas compras que pesam no orçamento familiar.",
+          "uncertainty": "Os dados vêm de uma pesquisa preliminar feita pela internet antes do fim do mês de referência. Eles medem opiniões e intenções, não transações, e a divulgação não esclarece o que provocou a mudança na confiança.",
+          "watch": "Compare a próxima leitura da confiança com os dados efetivos de vendas no varejo, gastos das famílias e mercado de trabalho para ver se a melhora nas expectativas se traduz em mudanças de comportamento.",
           "metricLabels": [
             {
               "id": "m1",
@@ -583,49 +847,89 @@
               "label": "Índice de expectativas"
             }
           ]
-        }
-      ]
-    },
-    "zh-TW": {
-      "status": "本期涵蓋美國與中國的經濟動態。請留意各則消息的發布日期；近期企業財報僅作為背景解讀。",
-      "marketSummary": {
-        "us": "追蹤的指數在最近經查證的交易日均收漲。標註日期的收盤數據反映當日表現，不是即時行情。",
-        "cn": "追蹤的指數在最近經查證的交易日均收漲。標註日期的收盤數據反映當日表現，不是即時行情。"
-      },
-      "stories": [
+        },
         {
           "id": "f4",
-          "title": "中國工業投入品調查顯示，不少品項價格下跌",
-          "summary": "中國國家統計局的月中調查顯示，不少物資價格下跌，包括柴油、銅和螺紋鋼。",
-          "impact": "價格下跌可能減輕中國大陸部分製造商和營造業者的成本負擔，但也可能讓物資供應商的營收承壓。",
-          "what": "這項調查追蹤工業和農業物資經銷商的售價，比較月中與月初的價格。柴油、銅和多種常見鋼材價格下跌，但部分煤種價格上漲。各類品項的統計反映漲跌涉及的範圍，並不代表一般工廠的投入成本總額變動了多少。",
-          "why": "按當前市價買銅的製造商，新採購時可能省下一些成本；按固定價格合約採購，或仍在使用已付款庫存的加工業者，則未必能立刻受惠。同樣地，柴油降價可能降低運輸業者的成本，但家庭支付的配送費不一定會跟著下降。對物資供應商而言，價格下跌的意義不同：獲利要看售價是否比自身成本降得更快。",
-          "uncertainty": "這些是流通環節的價格，不是工廠出廠價，也不是衡量消費者通膨的指標。報告未說明價格下跌是由需求轉弱、供給增加，還是兩者共同造成，也未公布買方的採購量。",
-          "watch": "可留意後續物資調查，看看跌勢是否持續，再對照出廠價格和企業公布的利潤率，觀察價格變動是否已傳導到生產端。",
+          "title": "Indicadores antecedentes da China enfraquecem, mas a atividade atual melhora",
+          "summary": "O índice antecedente do Conference Board para a China caiu, enquanto o indicador que acompanha a atividade atual subiu.",
+          "impact": "Essa diferença importa para as empresas da China continental que precisam de mais demanda das famílias e de mais crédito às empresas, e não apenas da manutenção do nível atual de produção.",
+          "what": "O índice antecedente reúne indicadores que podem mudar de rumo antes da economia como um todo. Na divulgação mais recente, expectativas mais fracas das famílias, piora nas condições logísticas e fraqueza nos empréstimos de prazo mais longo pressionaram o índice para baixo. A melhora nas importações de máquinas e equipamentos de transporte compensou parte dessa pressão. Já o índice coincidente, que busca acompanhar a atividade econômica no momento, subiu.",
+          "why": "Uma fábrica pode continuar ocupada atendendo a pedidos já feitos enquanto seus clientes ficam menos dispostos a tomar empréstimos ou assumir novos compromissos de compra. As duas situações podem ocorrer ao mesmo tempo, mas dão sinais diferentes aos gestores na hora de decidir se devem aumentar os estoques, contratar pessoal ou ampliar a capacidade de produção. Para quem acompanha as ações da China continental, vale distinguir as empresas que dependem dos gastos não essenciais das famílias locais ou dos investimentos de outras empresas daquelas que podem sustentar seus pedidos com outras fontes de demanda.",
+          "uncertainty": "Trata-se de um índice composto elaborado por uma instituição privada, não de uma estimativa oficial do PIB nem de uma prova de recessão. A fraqueza nos empréstimos pode refletir menor procura por crédito, menor oferta ou uma combinação desses fatores. O índice agregado não distingue esses efeitos por setor.",
+          "watch": "Acompanhe a próxima divulgação do índice antecedente junto com os dados oficiais de vendas no varejo e de crédito às empresas. Observe se as expectativas das famílias e o crédito de prazo mais longo dão sinais de melhora ao mesmo tempo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "價格下跌的監測品項數"
+              "label": "Índice econômico antecedente"
             },
             {
               "id": "m2",
-              "label": "價格上漲的監測品項數"
+              "label": "Variação mensal do índice antecedente"
             },
             {
               "id": "m3",
-              "label": "價格持平的監測品項數"
+              "label": "Índice econômico coincidente"
+            },
+            {
+              "id": "m4",
+              "label": "Variação mensal do índice coincidente"
             }
           ]
         },
         {
           "id": "f5",
-          "title": "美國消費者對經濟更有信心",
-          "summary": "美國經濟評議會的月度初步調查顯示，消費者對現況的評價改善，對未來也更樂觀。",
-          "impact": "信心回升對零售業和服務業是個正面訊號，但不代表家庭實際支出已經增加。",
-          "what": "認為工作機會充足的受訪者變多，認為工作難找的則變少。整體預期也有所改善，但預期收入增加的受訪者比例並未上升。購屋和購車意願略有增強。整體指數與各分項指數都是根據調查回答彙整而成，並非實際支出金額或新增就業人數。",
-          "why": "家庭若對工作更有安全感，可能更願意換車或預訂旅遊行程。因此，企業在決定備多少貨、安排多少員工上班時，可以參考這份調查。對需要貸款的消費來說，信心和實際支出的差別尤其重要：即使消費者變得更樂觀，若每月還款金額超出預算，仍可能延後購買。",
-          "uncertainty": "初步調查在結果公布前便已結束，消費計畫也是由受訪者自行填報。信心回升無法說明家庭接下來會花多少錢，也無法確定預算較緊的家庭是否同樣變得更有信心。",
-          "watch": "可將調查結果與零售銷售、家庭支出和就業人數資料對照，看看信心回升是否反映在實際消費和企業招募上。",
+          "title": "Workday eleva a previsão de receita de assinaturas, mas o lucro líquido cai",
+          "summary": "A Workday registrou aumento na receita de assinaturas e no fluxo de caixa operacional, apesar da queda do lucro líquido em relação ao mesmo período do ano anterior.",
+          "impact": "O balanço ilustra por que é importante analisar separadamente a receita recorrente, o desempenho operacional e o lucro líquido de uma empresa de software corporativo.",
+          "what": "A Workday vende software em nuvem que empregadores usam para gerenciar a folha de pagamento, o quadro de pessoal e as finanças. A receita de assinaturas cresceu mais rápido que a receita total, e o lucro operacional aumentou apesar das despesas de reestruturação. A queda em outras receitas e o aumento da provisão para impostos fizeram o lucro líquido ficar abaixo do registrado no mesmo trimestre do ano anterior. A direção elevou a previsão de receita de assinaturas para o ano inteiro e destacou novos contratos de produtos de inteligência artificial.",
+          "why": "Os contratos de assinatura tornam a receita mais previsível do que as compras avulsas de software. Mas assinar um contrato, registrar a receita e receber o pagamento são etapas distintas. A remuneração baseada em ações também reduz o lucro contábil sem exigir uma saída de caixa equivalente naquele momento. Isso ajuda a explicar por que o fluxo de caixa operacional e o lucro líquido podem seguir rumos diferentes. Para os empregadores, o teste prático dos novos recursos de inteligência artificial é saber se eles economizam tempo de forma consistente nas rotinas de folha de pagamento e finanças a ponto de justificar o custo.",
+          "uncertainty": "O valor dos novos contratos de inteligência artificial informado pela direção não mostra quanta receita já foi reconhecida, quanto dinheiro foi recebido por esses contratos nem quanto os clientes efetivamente economizaram. A projeção anual revisada para cima continua sendo uma previsão.",
+          "watch": "Nos próximos resultados, acompanhe a carteira de contratos de assinatura ainda não reconhecidos como receita e os pagamentos recebidos. Observe também se os clientes passaram a usar os recursos pagos de inteligência artificial no dia a dia.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Receita total trimestral"
+            },
+            {
+              "id": "m2",
+              "label": "Crescimento da receita de assinaturas em relação ao mesmo período do ano anterior"
+            },
+            {
+              "id": "m3",
+              "label": "Lucro operacional trimestral segundo o GAAP"
+            },
+            {
+              "id": "m4",
+              "label": "Lucro líquido trimestral segundo o GAAP"
+            },
+            {
+              "id": "m5",
+              "label": "Fluxo de caixa operacional trimestral"
+            },
+            {
+              "id": "m6",
+              "label": "Projeção de receita de assinaturas para o ano"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-TW": {
+      "status": "本期涵蓋美國與中國的財經動態。請留意各則內容的發布日期；近期的公司財報是用來解說背景。",
+      "marketSummary": {
+        "us": "追蹤的指數在各自最近可核實的交易日皆收跌。標示日期的收盤資料只反映當天的表現，不代表即時行情。",
+        "cn": "部分收盤資料無法核實。可提供收盤資料的指數均保留各自的交易日期。"
+      },
+      "stories": [
+        {
+          "id": "f3",
+          "title": "美國消費者對就業與景氣更樂觀",
+          "summary": "世界大型企業聯合會的初步調查顯示，家庭對現況和前景的評價改善，帶動消費者信心回升。",
+          "impact": "信心回升對面向消費者的企業是正面訊號，但仍須由實際消費與招募數據印證。",
+          "what": "調查詢問家庭如何看待目前的經濟，以及對未來就業、景氣與所得的預期。認為工作機會充足的受訪者變多，認為工作難找的則變少。受訪者對景氣的預期改善，對未來就業市場也沒那麼悲觀。不過，所得預期較不樂觀：預期所得會下降的受訪者變多。",
+          "why": "家庭如果覺得工作更有保障，可能更願意預訂旅遊行程、更換家電，或考慮買車。這會影響零售商和服務業者備多少貨、安排多少班次。不過，即使薪資沒有上漲、借款成本沒有降低，消費者信心也可能回升。因此，就業觀感好轉、所得預期卻轉弱，對可能讓家庭預算吃緊的消費尤其重要。",
+          "uncertainty": "這些結果來自統計月份結束前進行的初步線上調查，反映的是看法與意向，不是實際交易。這份調查也無法確定信心變動的原因。",
+          "watch": "可將下次公布的信心指數與實際零售銷售、家庭消費及勞動市場數據對照，看看信心回升是否帶來行為改變。",
           "metricLabels": [
             {
               "id": "m1",
@@ -638,6 +942,70 @@
             {
               "id": "m3",
               "label": "預期指數"
+            }
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "中國當前經濟活動改善，景氣領先指標卻走弱",
+          "summary": "世界大型企業聯合會編製的中國景氣領先指數下滑，反映當前經濟活動的指數則上升。",
+          "impact": "這種落差對中國大陸企業很重要：它們不只需要當前產出維持穩定，也需要家庭需求和企業借貸回升。",
+          "what": "景氣領先指數綜合多項可能比整體經濟更早轉向的指標。最新公布的資料顯示，家庭預期轉弱、物流情況走軟，以及較長期放款疲弱，都拖累了指數。機械與運輸設備進口改善，抵銷了部分跌幅。用來反映當前經濟狀況的景氣同時指數則有所上升。",
+          "why": "工廠可能還在忙著趕製手上的訂單，客戶卻已變得不太願意借款或承諾新的採購。這些情況可以同時出現，但對管理者判斷是否該增加庫存、招人或擴充產能，傳達的是不同訊息。看待中國大陸股票時，這也說明為何要區分仰賴本地非必需消費或企業投資的公司，以及訂單可由其他需求來源支撐的公司。",
+          "uncertainty": "這是民間機構編製的綜合指標，不是官方的國內生產毛額估計，也不能證明經濟已陷入衰退。放款疲弱可能反映借款需求不足、信貸較難取得，或這些因素同時存在；整體指數無法按產業區分這些因素的影響。",
+          "watch": "可把下次公布的景氣領先指數與官方零售銷售及企業放款數據對照，特別留意家庭預期和較長期信貸是否同步改善。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "景氣領先指數"
+            },
+            {
+              "id": "m2",
+              "label": "景氣領先指數月變動"
+            },
+            {
+              "id": "m3",
+              "label": "景氣同時指數"
+            },
+            {
+              "id": "m4",
+              "label": "景氣同時指數月變動"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Workday 上調訂閱營收展望，淨利卻下滑",
+          "summary": "Workday 公布訂閱營收與營業現金流增加，但淨利低於去年同期。",
+          "impact": "這份財報說明，評估企業軟體公司時，為何要分開看經常性營收、本業表現和淨利。",
+          "what": "Workday 銷售雇主用來處理薪資、人力配置與財務的雲端軟體。訂閱營收的成長速度高於整體營收，營業利益也在有重整費用的情況下增加。不過，其他收益減少，加上認列的所得稅費用增加，使淨利低於去年同季。管理層上調全年訂閱營收預測，並特別提到人工智慧產品的新合約。",
+          "why": "訂閱合約比零星的軟體採購更容易預估營收，但簽約、認列營收和收到款項是不同的事。以股票為基礎的酬勞也會降低帳面獲利，卻不必在當期支付等額現金，這有助於解釋營業現金流和淨利為何可能不同步。對雇主來說，新人工智慧功能的實際考驗，在於能否穩定地為薪資與財務作業省下足夠時間，讓付費值得。",
+          "uncertainty": "管理層提到的人工智慧新合約金額，不能用來確定已認列多少相關營收、這些合約實際收到了多少款項，或客戶實際節省了多少。上調後的全年展望仍只是預測。",
+          "watch": "可留意下次財報中的訂閱待履約金額和收款情況，並觀察是否有跡象顯示客戶已將付費人工智慧功能用於日常作業。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "單季總營收"
+            },
+            {
+              "id": "m2",
+              "label": "訂閱營收年增率"
+            },
+            {
+              "id": "m3",
+              "label": "單季營業利益（依一般公認會計原則）"
+            },
+            {
+              "id": "m4",
+              "label": "單季淨利（依一般公認會計原則）"
+            },
+            {
+              "id": "m5",
+              "label": "單季營業現金流"
+            },
+            {
+              "id": "m6",
+              "label": "全年訂閱營收財測"
             }
           ]
         }
