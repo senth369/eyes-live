@@ -1,88 +1,98 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-25T03:32:36.723Z",
-  "generatedAt": "2026-11-25T03:41:44.981Z",
+  "cutoffAt": "2026-11-25T23:07:18.895Z",
+  "generatedAt": "2026-11-25T23:16:28.013Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Associated Press US closing report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-6cc4e580290aadf304ee316d6d46dd81"
+      "label": "Associated Press daily closing index report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-94fdb0ecb060ec65c0b02879ce0d2d09"
     },
     {
       "id": "src2",
-      "label": "Federal Reserve Economic Data daily broad US index series",
+      "label": "Federal Reserve Bank of St. Louis broad US index observations",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src3",
-      "label": "Investing.com Nasdaq Composite daily price table",
-      "url": "https://ca.investing.com/indices/nasdaq-composite-historical-data"
+      "label": "Nasdaq Composite daily index table",
+      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
     },
     {
       "id": "src4",
-      "label": "Investing.com Shanghai Composite daily price table",
+      "label": "Shanghai Composite daily index table",
       "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src5",
-      "label": "Investing.com mainland large-cap index daily price table",
-      "url": "https://hk.investing.com/indices/csi300-historical-data"
+      "label": "Mainland large-cap daily index table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src6",
-      "label": "Technology hardware issuer quarterly earnings exhibit",
+      "label": "Fiscal quarterly earnings exhibit",
       "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
     },
     {
       "id": "src7",
-      "label": "Technology hardware issuer prior quarterly filing and fiscal calendar",
-      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm"
+      "label": "Prior fiscal quarterly filing and accounting calendar",
+      "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000046/dell-20260731.htm"
     },
     {
       "id": "src8",
-      "label": "Lithium issuer acquisition announcement filed with Hong Kong Exchanges",
-      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401521.pdf"
+      "label": "China Ministry of Finance central government operations and financing tables",
+      "url": "https://gks.mof.gov.cn/tongjishuju/202611/P020261125523880642855.pdf"
     },
     {
       "id": "src9",
-      "label": "Discount retailer quarterly earnings release and financial tables",
-      "url": "https://corporate.dollartree.com/_assets/_9faed642e43ede14ce1c38b0d9d784fe/dollartreeinfo/news/2026-11-24_Dollar_Tree_Inc_Reports_Third_Quarter_313.pdf"
+      "label": "Bureau of Economic Analysis personal income and outlays release",
+      "url": "https://bea.gov/sites/default/files/2026-11/pi1026.pdf"
     },
     {
       "id": "src10",
-      "label": "Discount retailer prior quarterly filing",
-      "url": "https://corporate.dollartree.com/investors/sec-filings/content/0000935703-26-000109/dltr-20260801.htm"
+      "label": "SEC fiscal year-end earnings exhibit and cash flow statement",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d1.htm"
     },
     {
       "id": "src11",
-      "label": "Brokerage equity transfer notice filed with the Shanghai Stock Exchange",
-      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-25/600958_20261125_VYBI.pdf"
+      "label": "SEC prior fiscal quarter earnings exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926098904/de-20260820xex99d1.htm"
     },
     {
       "id": "src12",
-      "label": "Brokerage acquisition report and consideration schedule",
-      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1030/2026103002175_c.pdf"
+      "label": "Mainland quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
     },
     {
       "id": "src13",
-      "label": "The Conference Board dated consumer confidence release",
-      "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html"
+      "label": "Hong Kong exchange filing of the quarterly financial report",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900816.pdf"
     },
     {
       "id": "src14",
-      "label": "People’s Bank of China medium-term lending facility tender notice",
-      "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125437/125446/125873/2026112417194622152/index.html"
+      "label": "Issuer monthly vehicle production and sales filing",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1101/2026110100043.pdf"
     },
     {
       "id": "src15",
-      "label": "People’s Bank of China reverse repo tender notice",
-      "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/5492845/2026112416390750568/index.html"
+      "label": "Mainland issuer notice confirming subsidiary procurement suspension",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-25/1225687365.PDF"
     },
     {
       "id": "src16",
-      "label": "China’s mineral resources law on exploration and mining rights",
-      "url": "https://www.mee.gov.cn/ywgz/fgbz/fl/202511/t20251107_1132286.shtml"
+      "label": "Cable maker quarterly financial report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613512.PDF"
+    },
+    {
+      "id": "src17",
+      "label": "Cable maker interim report and business description",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225523771.PDF"
+    },
+    {
+      "id": "src18",
+      "label": "Federal Reserve Bank of St. Louis Nasdaq Composite observations",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     }
   ],
   "markets": [
@@ -104,20 +114,20 @@
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-24",
-      "close": 3548.37,
-      "previousClose": 3538.95,
-      "changePercent": 0.27,
+      "sessionDate": "2026-11-25",
+      "close": 3476.47,
+      "previousClose": 3548.37,
+      "changePercent": -2.03,
       "sourceIds": [
         "src4"
       ]
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-24",
-      "close": 3963.82,
-      "previousClose": 3958.29,
-      "changePercent": 0.14,
+      "sessionDate": "2026-11-25",
+      "close": 3898.24,
+      "previousClose": 3963.82,
+      "changePercent": -1.65,
       "sourceIds": [
         "src5"
       ]
@@ -125,326 +135,833 @@
   ],
   "stories": [
     {
-      "id": "f5",
-      "market": "us",
+      "id": "f2",
+      "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-11-24",
+      "publishedOn": "2026-11-25",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 103.3,
-          "unit": "index",
-          "periodStart": "2026-11-01",
-          "periodEnd": "2026-11-17",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The opening paragraph gives the preliminary headline index; the methodology note gives the preliminary survey cutoff, not the publication date."
-        },
-        {
-          "id": "m2",
-          "value": 91.9,
-          "unit": "index",
+          "value": 1232700000000,
+          "unit": "CNY",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src13"
+            "src8"
           ],
-          "evidence": "The opening paragraph gives the updated prior-month headline reading. The dates identify the reference month, not a verified fieldwork window for the revision."
+          "evidence": "October revenue row in the monthly central government operations table."
+        },
+        {
+          "id": "m2",
+          "value": 1313800000000,
+          "unit": "CNY",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "October expenditure row in the monthly central government operations table."
         },
         {
           "id": "m3",
-          "value": 132.8,
-          "unit": "index",
-          "periodStart": "2026-11-01",
-          "periodEnd": "2026-11-17",
+          "value": -81100000000,
+          "unit": "CNY",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src13"
+            "src8"
           ],
-          "evidence": "The opening paragraph gives the preliminary Present Situation Index; the methodology note gives the preliminary survey cutoff."
+          "evidence": "October balance row in the monthly central government operations table."
         },
         {
           "id": "m4",
-          "value": 83.6,
-          "unit": "index",
-          "periodStart": "2026-11-01",
-          "periodEnd": "2026-11-17",
+          "value": 699800000000,
+          "unit": "CNY",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src13"
+            "src8"
           ],
-          "evidence": "The opening paragraph gives the preliminary Expectations Index; the methodology note gives the survey cutoff. The index summarizes respondents’ outlook, not an economic forecast."
+          "evidence": "October financing total in the monthly financing table; the note excludes principal repayment from the measure."
+        },
+        {
+          "id": "m5",
+          "value": 875700000000,
+          "unit": "CNY",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "October transfers from central to local governments in the expenditure breakdown."
+        },
+        {
+          "id": "m6",
+          "value": 699900000000,
+          "unit": "CNY",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "October bonds row in the financing breakdown by instrument."
+        },
+        {
+          "id": "m7",
+          "value": -100000000,
+          "unit": "CNY",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "October loans row in the financing breakdown by instrument."
         }
       ],
       "sourceIds": [
-        "src13"
+        "src8"
       ],
-      "evidence": "The opening paragraph shows higher headline, present-situation and expectations readings. The labor-market section shows better views of current job availability, and the methodology note identifies the earlier cutoff for preliminary responses."
+      "evidence": "The monthly operations table shows the shortfall narrowed from September and transfers fell. In the October breakdown by instrument, a negative loan entry puts total financing below the bond component. The notes define budget coverage and exclude principal repayment from the financing measure."
+    },
+    {
+      "id": "f3",
+      "market": "us",
+      "category": "economy",
+      "publishedOn": "2026-11-25",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 3.8,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "October headline personal consumption expenditures price index change in the price discussion and annual-change chart."
+        },
+        {
+          "id": "m2",
+          "value": 3.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "October price index change excluding food and energy in the price discussion and annual-change chart."
+        },
+        {
+          "id": "m3",
+          "value": 0.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "October headline price index change in the monthly related-measures table."
+        },
+        {
+          "id": "m4",
+          "value": 0.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "October current-dollar consumer spending change in the related-measures table."
+        },
+        {
+          "id": "m5",
+          "value": 0,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "The monthly related-measures table rounds the real spending change to flat; the narrative describes a small decline."
+        },
+        {
+          "id": "m6",
+          "value": 0.5,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "October real disposable personal income change in the monthly related-measures table."
+        },
+        {
+          "id": "m7",
+          "value": 4.1,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src9"
+          ],
+          "evidence": "October personal saving as a share of disposable income in the saving discussion."
+        }
+      ],
+      "sourceIds": [
+        "src9"
+      ],
+      "evidence": "The price chart shows faster annual headline and core inflation. The monthly table shows higher nominal spending and real disposable income, while the real spending discussion records a small decline that rounds to flat."
     }
   ],
   "locales": {
     "en": {
-      "status": "Limited verified coverage in this edition. Some markets have no verified new story; dated reports remain clearly identified.",
+      "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
       },
       "stories": [
         {
-          "id": "f5",
-          "title": "US consumer confidence rebounds as job views improve",
-          "summary": "The Conference Board’s survey showed an improvement in how households rated current conditions and in what they expected ahead.",
-          "impact": "Better perceptions of job availability may support spending, but survey optimism is not evidence that purchases or hiring have already increased.",
-          "what": "The Conference Board’s preliminary monthly reading rose from the prior month. Respondents were more positive about current business conditions and job availability. Their outlook also improved, although views of future job availability remained slightly negative on balance. Written responses still showed frustration with high prices and living costs. The headline improvement therefore sits alongside concerns that can still constrain household budgets.",
-          "why": "A household that feels more secure about work may be more comfortable making a purchase it has postponed. That can matter to retailers deciding how much stock to carry or whether to hire. But the survey records how people feel and what they say they plan to do. Actual spending also depends on pay, prices and the cost of borrowing, so improving confidence can coexist with cautious purchases.",
-          "uncertainty": "The preliminary reading reflects responses gathered through a survey cutoff that preceded publication and month-end. It does not measure actual payrolls, retail receipts or purchases, and the headline cannot establish why confidence changed.",
-          "watch": "Compare the next confidence release with retail sales, household spending and payroll data to see whether better sentiment is accompanied by stronger activity.",
+          "id": "f2",
+          "title": "China’s central government shortfall narrows",
+          "summary": "China’s finance ministry reported higher central government revenue and lower expenditure than in the preceding month.",
+          "impact": "The release helps separate transfers to local governments from financing activity in the bond market.",
+          "what": "The ministry’s October tables show that the central government spent more than it received, although the gap narrowed from September. Transfers to local governments remained a substantial part of expenditure even as they declined from the prior month. The ministry reports financing separately. The bond component was slightly larger than total financing because the loan component was negative. The financing measure excludes principal repayment, so it should not be read as a tally of all bond sales.",
+          "why": "A central transfer can give a local government the resources to operate public services or pay suppliers. The money does not necessarily reach a contractor or household when the transfer is recorded: the local recipient still has to commit or disburse it. Government bond supply matters for a different reason. Investors can choose between public and private debt, so changes in the amount the government brings to market can affect the financing environment for businesses. The release measures financing, not that market effect.",
+          "uncertainty": "This is a central government release, not a consolidated account of all levels of government. The monthly gap can narrow because receipts and payments move around the calendar. It does not establish that policy tightened or that demand for mainland-listed contractors changed.",
+          "watch": "Compare the next monthly central tables with local budget execution and public bond auction results. Look for local spending and supplier payments before concluding that transfers are feeding through to business activity.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Preliminary current-month consumer confidence index"
+              "label": "Central government revenue"
             },
             {
               "id": "m2",
-              "label": "Prior-month consumer confidence index as updated"
+              "label": "Central government expenditure"
             },
             {
               "id": "m3",
-              "label": "Preliminary Present Situation Index"
+              "label": "Central government balance"
             },
             {
               "id": "m4",
-              "label": "Preliminary Expectations Index"
+              "label": "Central government financing"
+            },
+            {
+              "id": "m5",
+              "label": "Central transfers to local governments"
+            },
+            {
+              "id": "m6",
+              "label": "Bond financing component"
+            },
+            {
+              "id": "m7",
+              "label": "Loan financing component"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "US inflation picks up as real spending stalls",
+          "summary": "Annual consumer spending inflation accelerated, while household spending edged down from the prior month after adjusting for prices.",
+          "impact": "Higher receipts at the checkout can mask weak sales volumes, and persistent inflation can complicate the case for easier borrowing conditions.",
+          "what": "The Bureau of Economic Analysis reported that annual inflation picked up both overall and after excluding food and energy. The overall price index rose from the prior month too, but less quickly than it had in September. Households spent more dollars, yet inflation-adjusted spending slipped slightly and rounded to flat in the published table. After-tax income increased even after adjusting for prices, and the report separately measured how much disposable income was saved rather than spent.",
+          "why": "Nominal spending measures what households paid at the prices they faced. Real spending asks how much those dollars bought. The gap helps explain why a retailer can report more money at the register without selling more goods, or why a household can spend more without feeling better off. For the Federal Reserve, measures that exclude food and energy help assess whether underlying price pressure is persisting. If it does, policymakers may be less inclined to ease even when real demand looks soft. That matters for businesses refinancing loans and households shopping for credit.",
+          "uncertainty": "The report is an aggregate estimate subject to revision. Higher average purchasing power does not show which households gained, and the mix of spending can vary across retailers and service providers. The release does not determine the next interest-rate decision.",
+          "watch": "In the next release, check whether real spending resumes growing and whether inflation excluding food and energy cools. Revisions to the current estimates could also change the starting point.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Consumer spending price inflation from a year earlier"
+            },
+            {
+              "id": "m2",
+              "label": "Core consumer spending price inflation from a year earlier"
+            },
+            {
+              "id": "m3",
+              "label": "Monthly consumer spending price change"
+            },
+            {
+              "id": "m4",
+              "label": "Monthly nominal consumer spending change"
+            },
+            {
+              "id": "m5",
+              "label": "Monthly real consumer spending change at published precision"
+            },
+            {
+              "id": "m6",
+              "label": "Monthly real disposable income change"
+            },
+            {
+              "id": "m7",
+              "label": "Personal saving rate"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期经核实的报道有限。部分市场没有经核实的新消息；较早的报道仍明确标注日期。",
+      "status": "本期关注美国和中国的动态。请留意各条消息的发布日期；近期发布的公司报告在本期用作背景解读。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。凡有可用数据的指数，均保留各自对应的交易日期。",
-        "cn": "所跟踪的指数均在各自最近经核实的交易日上涨。标注日期的收盘数据反映的是当日行情，而非当前走势。"
+        "us": "部分收盘数据未能核实。已核实的指数收盘数据均保留各自的交易日期。",
+        "cn": "跟踪的指数在各自最近可核实的交易日均收跌。标注日期的收盘数据只反映对应交易日的表现，不代表当前行情。"
       },
       "stories": [
         {
-          "id": "f5",
-          "title": "美国消费者信心回升，民众对就业机会的看法改善",
-          "summary": "美国经济咨商会的调查显示，受访家庭对当前经济状况的评价有所提高，对未来也更乐观。",
-          "impact": "民众觉得工作更好找，可能有助于带动消费，但调查中的乐观情绪并不意味着实际消费或企业招聘已经增加。",
-          "what": "美国经济咨商会公布的月度初值较上月上升。受访者对当前经营状况和就业机会的看法更为积极。他们对未来的预期也有所改善，但对未来就业机会的看法总体仍略偏悲观。从文字答复来看，受访者仍对物价和生活成本居高不下感到不满。因此，尽管整体信心有所回升，这些担忧仍可能给家庭预算带来压力。",
-          "why": "如果觉得工作更有保障，家庭可能更愿意把原先推迟的东西买下来。这会影响零售商决定备多少货、要不要招人。不过，调查记录的是人们的感受和他们所说的计划。实际花多少钱还取决于工资、物价和借贷成本，因此即使信心回升，消费者花钱时仍可能比较谨慎。",
-          "uncertainty": "初值只纳入调查截止前收到的答复，而调查在数据发布前、也在月底前就已截止。这项调查不衡量实际就业人数、零售销售额或购买情况，整体指数也不能说明信心为何变化。",
-          "watch": "可将下次公布的消费者信心数据与零售销售、家庭支出和就业人数数据对照，看看信心好转是否伴随着实际经济活动走强。",
+          "id": "f2",
+          "title": "中国中央政府收支缺口收窄",
+          "summary": "中国财政部公布的数据显示，中央政府收入较上月增加，支出较上月减少。",
+          "impact": "这份数据有助于区分中央对地方的转移支付和政府在债券市场上的融资活动。",
+          "what": "财政部的月度报表显示，中央政府支出仍高于收入，但收支缺口较上月收窄。对地方的转移支付虽较上月减少，仍占中央政府支出的较大比重。财政部单独列示融资数据。由于贷款融资分项为负，债券融资额略高于融资总额。这里的融资统计不包括偿还本金，不能把它理解为全部债券的发行额。",
+          "why": "中央转移支付可以为地方政府提供资金，用于维持公共服务或向供应商付款。但转移支付记账时，资金不一定已经到了承包商或居民手中：收到资金的地方政府还要安排支出或实际拨款。政府发债规模则通过另一种渠道产生影响。投资者可以在政府债券和非政府债券之间选择，所以政府在市场上发债规模的变化可能影响企业的融资环境。这份数据衡量的是融资规模，并不衡量这种市场影响。",
+          "uncertainty": "这份数据只涉及中央政府，并非各级政府的合并账目。收入入账和支出付款的时间变化，就可能使月度缺口收窄。仅凭这份数据，不能认定政策已经收紧，也不能判断中国内地上市的承包商所面对的需求是否发生变化。",
+          "watch": "可将下期中央政府月度报表与地方预算执行情况及公开的债券招标结果对照。判断转移支付是否带动了企业经营活动，还要看地方是否实际支出、是否向供应商付款。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "当月消费者信心指数初值"
+              "label": "中央政府收入"
             },
             {
               "id": "m2",
-              "label": "上月消费者信心指数修正值"
+              "label": "中央政府支出"
             },
             {
               "id": "m3",
-              "label": "现况指数初值"
+              "label": "中央政府收支差额"
             },
             {
               "id": "m4",
-              "label": "预期指数初值"
+              "label": "中央政府融资"
+            },
+            {
+              "id": "m5",
+              "label": "中央对地方转移支付"
+            },
+            {
+              "id": "m6",
+              "label": "债券融资分项"
+            },
+            {
+              "id": "m7",
+              "label": "贷款融资分项"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "美国通胀升温，实际消费支出停滞",
+          "summary": "个人消费支出价格同比涨幅扩大，而扣除价格变动后，居民消费支出较上月略有下降。",
+          "impact": "商家销售额增加，可能掩盖销量疲软；如果通胀持续，放宽信贷条件的理由可能没那么充分。",
+          "what": "美国经济分析局报告称，整体个人消费支出价格同比涨幅扩大，剔除食品和能源后的同比涨幅也有所扩大。整体价格指数环比仍上涨，但涨幅较上月收窄。居民花的钱更多了，但扣除价格变动后，实际消费支出略有下降，按报表公布的精度取整后显示为持平。税后收入在扣除价格变动后仍有所增加。报告还单独统计了可支配收入中用于储蓄而非消费的比例。",
+          "why": "名义消费支出衡量的是居民按当时的价格实际付了多少钱；实际消费支出衡量的是这些钱能买到多少商品和服务。两者的差别有助于解释，为什么零售商的销售额可以增加，卖出的商品却没有变多；也能解释为什么居民花的钱更多，却未必觉得日子更宽裕。对美联储来说，剔除食品和能源的通胀指标有助于判断基础价格压力是否持续。如果这种压力持续，即使扣除价格变化后的需求看起来偏弱，决策者也可能不那么愿意放松货币政策。这关系到需要为现有贷款再融资的企业，也关系到正在比较贷款条件的家庭。",
+          "uncertainty": "报告提供的是总体估算，今后可能修订。平均购买力上升，并不说明哪些家庭的购买力提高了；不同零售商和服务提供商面对的消费结构也可能不同。这份报告并不能决定下次利率决策。",
+          "watch": "关注下期报告中实际消费支出是否恢复增长，以及剔除食品和能源后的通胀是否降温。本期估算若有修订，也可能改变后续比较的基准。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "个人消费支出价格指数同比涨幅"
+            },
+            {
+              "id": "m2",
+              "label": "核心个人消费支出价格指数同比涨幅"
+            },
+            {
+              "id": "m3",
+              "label": "个人消费支出价格指数环比变动"
+            },
+            {
+              "id": "m4",
+              "label": "名义个人消费支出环比变动"
+            },
+            {
+              "id": "m5",
+              "label": "实际个人消费支出环比变动（按公布精度）"
+            },
+            {
+              "id": "m6",
+              "label": "实际可支配收入环比变动"
+            },
+            {
+              "id": "m7",
+              "label": "个人储蓄率"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition ne couvre qu’un nombre limité d’informations vérifiées. Pour certains marchés, aucune nouvelle information n’a pu être vérifiée. Les dates des publications restent clairement indiquées.",
+      "status": "Cette édition couvre l’actualité économique aux États-Unis et en Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises servent à éclairer le contexte.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. La date de séance est indiquée pour chaque indice dont la clôture a pu être vérifiée.",
-        "cn": "Les indices suivis ont progressé lors de leur dernière séance vérifiée. Les clôtures datées se rapportent à ces séances et ne reflètent pas les échanges en cours."
+        "us": "Certains cours de clôture n’ont pas pu être vérifiés. Chaque indice pour lequel un cours est disponible conserve la date de sa propre séance.",
+        "cn": "Les indices suivis ont reculé lors de leur dernière séance vérifiée respective. Les cours de clôture indiqués correspondent à ces séances, et non aux échanges en cours."
       },
       "stories": [
         {
-          "id": "f5",
-          "title": "La confiance des consommateurs américains rebondit grâce à une meilleure perception du marché de l’emploi",
-          "summary": "L’enquête du Conference Board montre que les ménages jugent plus favorablement la situation actuelle et sont plus optimistes pour la suite.",
-          "impact": "Le sentiment qu’il est plus facile de trouver un emploi peut soutenir la consommation. Mais l’optimisme exprimé dans l’enquête ne prouve pas que les achats ou les embauches ont déjà augmenté.",
-          "what": "L’indice mensuel provisoire du Conference Board a progressé par rapport au mois précédent. Les personnes interrogées ont jugé plus favorablement la conjoncture économique et les possibilités de trouver un emploi. Leurs attentes se sont aussi améliorées, même si leur avis sur les possibilités futures de trouver un emploi est resté, dans l’ensemble, légèrement négatif. Les réponses écrites témoignent toujours d’un mécontentement face aux prix élevés et au coût de la vie. La hausse de l’indice global s’accompagne donc de préoccupations qui peuvent encore peser sur le budget des ménages.",
-          "why": "Un ménage qui se sent plus en sécurité sur le plan professionnel peut être plus à l’aise à l’idée de faire un achat qu’il avait reporté. Cela peut jouer dans les décisions des commerçants sur le niveau de leurs stocks ou sur l’opportunité d’embaucher. Mais l’enquête mesure ce que les gens ressentent et ce qu’ils disent avoir l’intention de faire. Les dépenses réelles dépendent aussi des salaires, des prix et du coût du crédit. La confiance peut donc s’améliorer sans que les ménages cessent d’être prudents dans leurs achats.",
-          "uncertainty": "Le résultat provisoire repose sur des réponses recueillies jusqu’à une date limite antérieure à la publication et à la fin du mois. Il ne mesure ni le nombre d’emplois salariés, ni les recettes des commerces de détail, ni les achats réellement effectués. L’indice global ne suffit pas à expliquer pourquoi la confiance a changé.",
-          "watch": "Comparer la prochaine publication sur la confiance des consommateurs aux données sur les ventes au détail, les dépenses des ménages et l’emploi salarié pour voir si le regain d’optimisme s’accompagne d’une activité plus soutenue.",
+          "id": "f2",
+          "title": "Le déficit de l’administration centrale chinoise se réduit",
+          "summary": "Le ministère chinois des Finances a fait état d’une hausse des recettes et d’une baisse des dépenses de l’administration centrale par rapport au mois précédent.",
+          "impact": "La publication permet de distinguer les transferts aux collectivités locales des opérations de financement sur le marché obligataire.",
+          "what": "Les tableaux du ministère montrent que l’administration centrale a dépensé plus qu’elle n’a encaissé, même si l’écart s’est réduit par rapport au mois précédent. Les transferts aux collectivités locales ont continué de représenter une part importante des dépenses malgré leur recul sur le mois. Le ministère présente le financement à part. Le financement par obligations a légèrement dépassé le financement total, car la composante liée aux prêts était négative. La mesure du financement exclut les remboursements du principal : elle ne correspond donc pas au montant de toutes les obligations vendues.",
+          "why": "Un transfert de l’administration centrale peut donner à une collectivité locale les moyens de faire fonctionner ses services publics ou de payer ses fournisseurs. Mais quand le transfert est enregistré, l’argent ne parvient pas forcément tout de suite à une entreprise prestataire ou à un ménage : la collectivité doit encore engager la dépense ou effectuer le paiement. Les émissions d’obligations d’État comptent pour une autre raison. Les investisseurs peuvent choisir entre dette publique et dette privée. Une variation des montants que l’État emprunte sur le marché peut donc modifier les conditions de financement des entreprises. La publication mesure le financement de l’État, et non ses effets sur le marché.",
+          "uncertainty": "Cette publication porte sur l’administration centrale et ne regroupe pas les comptes de tous les niveaux de gouvernement. Le déficit mensuel peut se réduire simplement parce que les encaissements et les paiements ne tombent pas aux mêmes dates. Ce recul ne prouve ni un durcissement de la politique budgétaire ni une évolution de la demande adressée aux entreprises prestataires cotées en Chine continentale.",
+          "watch": "Comparez les prochains tableaux mensuels de l’administration centrale avec les données sur l’exécution des budgets locaux et les résultats des adjudications d’obligations publiques. Avant de conclure que les transferts soutiennent l’activité des entreprises, vérifiez si les collectivités dépensent effectivement ces fonds et paient leurs fournisseurs.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Indice provisoire de confiance des consommateurs pour le mois en cours"
+              "label": "Recettes de l’administration centrale"
             },
             {
               "id": "m2",
-              "label": "Indice révisé de confiance des consommateurs pour le mois précédent"
+              "label": "Dépenses de l’administration centrale"
             },
             {
               "id": "m3",
-              "label": "Indice provisoire de la situation actuelle"
+              "label": "Solde budgétaire de l’administration centrale"
             },
             {
               "id": "m4",
-              "label": "Indice provisoire des anticipations"
+              "label": "Financement de l’administration centrale"
+            },
+            {
+              "id": "m5",
+              "label": "Transferts de l’administration centrale aux collectivités locales"
+            },
+            {
+              "id": "m6",
+              "label": "Financement par obligations"
+            },
+            {
+              "id": "m7",
+              "label": "Financement par prêts"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "L’inflation accélère aux États-Unis, tandis que les dépenses réelles marquent le pas",
+          "summary": "L’inflation annuelle mesurée par les prix des dépenses de consommation a accéléré, tandis que les dépenses des ménages ont légèrement reculé par rapport au mois précédent, une fois la hausse des prix prise en compte.",
+          "impact": "Des recettes plus élevées en caisse peuvent masquer la faiblesse des volumes de vente, et une inflation persistante peut rendre plus difficile un assouplissement des conditions d’emprunt.",
+          "what": "Le Bureau d’analyse économique a indiqué que l’inflation annuelle avait accéléré, aussi bien dans son ensemble que hors alimentation et énergie. L’indice global des prix a également progressé par rapport au mois précédent, mais moins vite que lors de la période mensuelle précédente. Les ménages ont dépensé davantage en dollars, mais leurs dépenses corrigées de l’inflation ont légèrement reculé. Avec l’arrondi utilisé dans le tableau publié, elles apparaissent stables. Le revenu après impôts a augmenté même après correction de l’inflation. Le rapport indique séparément quelle part du revenu disponible a été épargnée plutôt que dépensée.",
+          "why": "Les dépenses nominales correspondent à ce que les ménages ont payé aux prix en vigueur. Les dépenses réelles mesurent ce que cet argent leur a permis d’acheter. Cette distinction explique pourquoi un commerçant peut encaisser davantage sans vendre plus de produits, ou pourquoi un ménage peut dépenser plus sans avoir le sentiment de mieux vivre. Pour la Réserve fédérale, les mesures qui excluent l’alimentation et l’énergie aident à déterminer si les pressions de fond sur les prix persistent. Si c’est le cas, elle pourrait être moins encline à assouplir sa politique monétaire, même si la demande réelle paraît faible. Cela compte pour les entreprises qui refinancent leurs emprunts et les ménages qui cherchent un crédit.",
+          "uncertainty": "Le rapport présente des estimations pour l’ensemble des ménages, qui peuvent être révisées. La hausse du pouvoir d’achat moyen ne dit pas quels ménages en ont bénéficié, et la répartition des dépenses peut varier selon les commerçants et les prestataires de services. Cette publication ne détermine pas la prochaine décision sur les taux d’intérêt.",
+          "watch": "Dans la prochaine publication, vérifiez si les dépenses réelles renouent avec la croissance et si l’inflation hors alimentation et énergie ralentit. Des révisions des estimations actuelles pourraient aussi modifier la base de comparaison.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Inflation annuelle des prix des dépenses de consommation"
+            },
+            {
+              "id": "m2",
+              "label": "Inflation annuelle des prix des dépenses de consommation hors alimentation et énergie"
+            },
+            {
+              "id": "m3",
+              "label": "Variation mensuelle des prix des dépenses de consommation"
+            },
+            {
+              "id": "m4",
+              "label": "Variation mensuelle des dépenses de consommation nominales"
+            },
+            {
+              "id": "m5",
+              "label": "Variation mensuelle des dépenses de consommation réelles (avec l’arrondi publié)"
+            },
+            {
+              "id": "m6",
+              "label": "Variation mensuelle du revenu disponible réel"
+            },
+            {
+              "id": "m7",
+              "label": "Taux d’épargne des ménages"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "La cobertura verificada de esta edición es limitada. En algunos mercados no hay noticias nuevas verificadas. Los informes de fechas anteriores siguen claramente identificados.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Revisa la fecha de cada publicación: los informes empresariales recientes se presentan como material de contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Los datos disponibles de cada índice conservan la fecha de la sesión correspondiente.",
-        "cn": "Los índices que seguimos subieron en sus respectivas últimas sesiones verificadas. Los cierres fechados corresponden a esas sesiones y no reflejan la negociación actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión.",
+        "cn": "Los índices que seguimos bajaron en sus respectivas sesiones verificadas más recientes. Los cierres corresponden a las fechas indicadas y no reflejan la negociación actual."
       },
       "stories": [
         {
-          "id": "f5",
-          "title": "La confianza del consumidor en EE. UU. repunta al mejorar la percepción del empleo",
-          "summary": "La encuesta de The Conference Board mostró que los hogares valoraron mejor la situación actual y tenían expectativas más favorables.",
-          "impact": "Una mejor percepción de las oportunidades de empleo puede favorecer el gasto, pero el optimismo que recoge la encuesta no demuestra que las compras o las contrataciones ya hayan aumentado.",
-          "what": "El dato mensual preliminar de The Conference Board subió respecto al mes anterior. Los encuestados valoraron mejor la situación actual de las empresas y las oportunidades de empleo. Sus expectativas también mejoraron, aunque su valoración de las oportunidades de empleo futuras seguía siendo ligeramente negativa en conjunto. Las respuestas escritas seguían reflejando malestar por los precios altos y el costo de vida. Así, la mejora del índice general convive con preocupaciones que aún pueden limitar el presupuesto de los hogares.",
-          "why": "Si un hogar siente que su situación laboral es más segura, puede animarse a hacer una compra que había aplazado. Eso puede influir en las decisiones de los comercios sobre cuánto inventario mantener o si contratar personal. Pero la encuesta recoge cómo se siente la gente y qué dice que piensa hacer. El gasto efectivo también depende de los salarios, los precios y el costo de pedir prestado, por lo que la confianza puede mejorar mientras los hogares siguen comprando con cautela.",
-          "uncertainty": "El dato preliminar recoge las respuestas recibidas hasta el cierre de la encuesta, que fue antes de la publicación y del fin de mes. No mide el empleo efectivo, los ingresos por ventas minoristas ni las compras realizadas. El índice general tampoco permite determinar por qué cambió la confianza.",
-          "watch": "La comparación del próximo dato de confianza con las ventas minoristas, el gasto de los hogares y las cifras de empleo permitirá ver si la mejora del ánimo va acompañada de más actividad.",
+          "id": "f2",
+          "title": "Se reduce el déficit del Gobierno central de China",
+          "summary": "El Ministerio de Finanzas de China informó que los ingresos del Gobierno central aumentaron y el gasto disminuyó respecto al mes anterior.",
+          "impact": "La publicación permite distinguir las transferencias a los gobiernos locales de la financiación en el mercado de bonos.",
+          "what": "Las tablas de octubre del ministerio muestran que el Gobierno central gastó más de lo que ingresó, aunque la diferencia se redujo respecto a septiembre. Las transferencias a los gobiernos locales siguieron representando una parte importante del gasto, pese a bajar respecto al mes anterior. El ministerio publica los datos de financiación por separado. La financiación mediante bonos fue algo mayor que la financiación total porque el componente de préstamos fue negativo. La medida de financiación excluye la devolución del principal, es decir, del importe prestado. Por eso, no equivale al total de bonos vendidos.",
+          "why": "Una transferencia del Gobierno central puede dar a un gobierno local recursos para prestar servicios públicos o pagar a sus proveedores. Que se registre la transferencia no significa que el dinero llegue en ese momento a un contratista o a un hogar: el gobierno local todavía tiene que comprometer esos fondos o desembolsarlos. La oferta de bonos públicos importa por otro motivo. Los inversores pueden elegir entre deuda pública y privada, así que los cambios en el volumen de deuda que el Gobierno coloca en el mercado pueden afectar a las condiciones de financiación de las empresas. La publicación mide la financiación, no su efecto en el mercado.",
+          "uncertainty": "Los datos corresponden al Gobierno central y no consolidan las cuentas de todos los niveles de gobierno. El déficit mensual puede reducirse por cambios en las fechas de cobros y pagos. Eso no demuestra que la política fiscal se haya vuelto más restrictiva ni que haya cambiado la demanda de los servicios de contratistas que cotizan en China continental.",
+          "watch": "Compara las próximas tablas mensuales del Gobierno central con los datos de ejecución presupuestaria local y los resultados de las subastas de bonos públicos. Antes de concluir que las transferencias se traducen en actividad empresarial, fíjate en el gasto de los gobiernos locales y en sus pagos a proveedores.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice preliminar de confianza del consumidor del mes en curso"
+              "label": "Ingresos del Gobierno central"
             },
             {
               "id": "m2",
-              "label": "Índice actualizado de confianza del consumidor del mes anterior"
+              "label": "Gasto del Gobierno central"
             },
             {
               "id": "m3",
-              "label": "Índice preliminar de situación actual"
+              "label": "Saldo presupuestario del Gobierno central"
             },
             {
               "id": "m4",
-              "label": "Índice preliminar de expectativas"
+              "label": "Financiación del Gobierno central"
+            },
+            {
+              "id": "m5",
+              "label": "Transferencias del Gobierno central a los gobiernos locales"
+            },
+            {
+              "id": "m6",
+              "label": "Componente de financiación mediante bonos"
+            },
+            {
+              "id": "m7",
+              "label": "Componente de financiación mediante préstamos"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "La inflación repunta en Estados Unidos mientras el gasto real se estanca",
+          "summary": "La inflación interanual del gasto en consumo se aceleró, mientras que el gasto de los hogares bajó ligeramente respecto al mes anterior tras descontar el efecto de los precios.",
+          "impact": "Una mayor recaudación en caja puede ocultar un volumen de ventas débil. Si la inflación persiste, puede ser más difícil justificar condiciones de crédito más flexibles.",
+          "what": "La Oficina de Análisis Económico informó que la inflación interanual repuntó tanto en el índice general como en el que excluye alimentos y energía. El índice general de precios también subió respecto al mes anterior, aunque menos que en septiembre. Los hogares gastaron más en dólares, pero su gasto real, es decir, ajustado por la inflación, bajó ligeramente y quedó sin cambios al redondearlo en la tabla publicada. Los ingresos después de impuestos aumentaron incluso tras ajustar por la inflación. El informe también midió por separado qué parte de la renta disponible se ahorró en vez de gastarse.",
+          "why": "El gasto nominal mide lo que pagaron los hogares a los precios del momento. El gasto real indica qué pudieron comprar con ese dinero. La diferencia ayuda a entender por qué un comercio puede ingresar más sin vender más productos o por qué un hogar puede gastar más sin sentir que está mejor. La Reserva Federal usa los indicadores que excluyen alimentos y energía para evaluar si persiste la presión de fondo sobre los precios. Si persiste, las autoridades monetarias podrían mostrarse menos dispuestas a relajar su política, incluso si la demanda real parece débil. Esto importa a las empresas que refinancian préstamos y a los hogares que buscan crédito.",
+          "uncertainty": "El informe presenta estimaciones agregadas que pueden revisarse. El aumento del poder adquisitivo medio no indica qué hogares se beneficiaron, y la composición del gasto puede variar entre comercios y proveedores de servicios. La publicación no determina la próxima decisión sobre los tipos de interés.",
+          "watch": "En la próxima publicación, comprueba si el gasto real vuelve a crecer y si se modera la inflación sin alimentos ni energía. Las revisiones de las estimaciones actuales también podrían cambiar el punto de partida.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Inflación interanual del gasto en consumo"
+            },
+            {
+              "id": "m2",
+              "label": "Inflación subyacente interanual del gasto en consumo"
+            },
+            {
+              "id": "m3",
+              "label": "Variación mensual del índice de precios del gasto en consumo"
+            },
+            {
+              "id": "m4",
+              "label": "Variación mensual del gasto nominal en consumo"
+            },
+            {
+              "id": "m5",
+              "label": "Variación mensual del gasto real en consumo con el redondeo publicado"
+            },
+            {
+              "id": "m6",
+              "label": "Variación mensual de la renta disponible real"
+            },
+            {
+              "id": "m7",
+              "label": "Tasa de ahorro personal"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回の配信では、確認できた情報が限られています。新たに確認できたニュースがない市場もあります。過去の報告には、いつの情報かを明示しています。",
+      "status": "この号では米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "終値を確認できなかったものがあります。確認できた株価指数には、それぞれの取引日を表示しています。",
-        "cn": "追跡対象の株価指数は、いずれも確認できた直近の取引日に上昇しました。日付付きの終値は、その取引日のもので、現在の取引状況を示すものではありません。"
+        "us": "終値を確認できなかった指数もあります。終値を掲載している指数には、それぞれの取引日を示しています。",
+        "cn": "対象の株価指数はいずれも、終値を確認できた直近の取引日に下落しました。掲載している終値は、記載された取引日のもので、現在の値動きを示すものではありません。"
       },
       "stories": [
         {
-          "id": "f5",
-          "title": "米消費者信頼感が持ち直す、仕事の見つけやすさへの見方が改善",
-          "summary": "コンファレンス・ボードの調査では、家計による現状の評価が上向き、先行きの見方も改善しました。",
-          "impact": "仕事を見つけやすくなったと感じる人が増えれば、消費を支える可能性があります。ただし、調査で前向きな回答が増えても、実際に買い物や採用が増えたことにはなりません。",
-          "what": "コンファレンス・ボードが発表した月次調査の速報値は、前月を上回りました。回答者は、現在の景況や仕事の見つけやすさを以前より前向きに評価しました。先行きの見方も改善しましたが、今後の仕事の見つけやすさについては、全体としてなおやや悲観的でした。自由記述の回答からは、物価や生活費の高さへの不満も引き続きうかがえました。総合指数は改善したものの、家計の支出を抑えかねない懸念は残っています。",
-          "why": "仕事への不安が和らぐと、先送りしていた買い物に踏み切りやすくなるかもしれません。これは、小売業者がどれだけ在庫を持つか、従業員を採用するかを判断する際にも関わります。ただし、この調査が捉えるのは、人々がどう感じ、今後どうするつもりだと答えたかです。実際の支出は、賃金や物価、借り入れにかかる費用にも左右されるため、消費者心理が改善しても、買い物には慎重なままということがあります。",
-          "uncertainty": "速報値に反映されているのは、公表日よりも月末よりも前に設定された締め切りまでに集まった回答です。この調査は、実際の雇用者数や小売売上高、買い物の実績を測るものではなく、総合指数だけでは消費者心理が変化した理由は特定できません。",
-          "watch": "次回の消費者信頼感指数を、小売売上高や家計支出、雇用者数のデータと照らし合わせると、消費者心理の改善に実際の経済活動の強まりが伴っているかを確認できます。",
+          "id": "f2",
+          "title": "中国の中央政府、財政赤字が縮小",
+          "summary": "中国財政部の発表によると、中央政府の歳入は前月より増え、歳出は減りました。",
+          "impact": "この発表は、地方政府への移転支出と、債券市場での資金調達を分けて捉えるのに役立ちます。",
+          "what": "中国財政部が公表した月次資料によると、中央政府の歳出は歳入を上回りましたが、その差は前月より縮まりました。地方政府への移転支出は前月より減ったものの、引き続き歳出の大きな部分を占めました。財政部は資金調達額を歳入・歳出とは別に公表しています。借入による調達額がマイナスだったため、債券による調達額は資金調達総額をわずかに上回りました。この資金調達の指標には元本の返済が含まれず、債券の発行総額を示すものではありません。",
+          "why": "中央政府からの資金移転は、地方政府が公共サービスを運営したり、取引先に代金を支払ったりするための財源になります。ただし、移転が計上された時点で、受託企業や家計に資金が届くとは限りません。資金を受け取る地方政府が、支出を決めたり、実際に支払ったりする必要があるためです。国債の供給が重要なのは、これとは別の理由です。投資家は国債と企業などが発行する債券を選べるため、政府が市場に出す国債の量が変わると、企業の資金調達環境に影響することがあります。今回の発表が示すのは資金調達額であり、そうした市場への影響ではありません。",
+          "uncertainty": "今回の発表は中央政府を対象としたもので、地方政府も含めた政府全体の連結収支ではありません。歳入や支払いの時期がずれるだけでも、月ごとの赤字は縮むことがあります。今回の資料だけでは、財政政策が引き締められたとも、中国本土の市場に上場する受託企業への需要が変わったとも判断できません。",
+          "watch": "次回の中央政府の月次資料を、地方政府の予算執行状況や公的部門の債券入札結果と見比べます。移転資金が企業活動につながっていると判断する前に、地方政府の支出や取引先への支払いを確認します。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "当月の消費者信頼感指数（速報値）"
+              "label": "中央政府の歳入"
             },
             {
               "id": "m2",
-              "label": "前月の消費者信頼感指数（改定値）"
+              "label": "中央政府の歳出"
             },
             {
               "id": "m3",
-              "label": "現況指数（速報値）"
+              "label": "中央政府の財政収支"
             },
             {
               "id": "m4",
-              "label": "期待指数（速報値）"
+              "label": "中央政府の資金調達額"
+            },
+            {
+              "id": "m5",
+              "label": "中央政府から地方政府への移転支出"
+            },
+            {
+              "id": "m6",
+              "label": "債券による資金調達額"
+            },
+            {
+              "id": "m7",
+              "label": "借入による資金調達額"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "米国でインフレが加速、実質消費は伸び悩む",
+          "summary": "個人消費の物価上昇率は前年同月比で加速した一方、物価の影響を除いた家計の支出は前月からわずかに減りました。",
+          "impact": "売上金額が増えても、販売数量の弱さが隠れていることがあります。また、インフレが長引けば、借り入れ条件を緩めるべきだと判断しにくくなります。",
+          "what": "米経済分析局の発表によると、個人消費支出の物価上昇率は、総合でも、食品・エネルギーを除いた場合でも、前年同月比で加速しました。総合の物価指数は前月からも上昇しましたが、その伸びは前月より鈍くなりました。家計が支払った金額は増えたものの、物価の影響を除いた実質消費支出はわずかに減り、公表表では端数処理により横ばいとなりました。税引き後の所得は物価の影響を除いても増えました。報告では、可処分所得のうち消費に回らず貯蓄に回った割合も別に示されています。",
+          "why": "名目消費支出は、家計がその時点の価格で実際に支払った金額です。実質消費支出は、その金額でどれだけの商品やサービスを買えたかを示します。この違いを知ると、小売店で販売数量が増えなくても売上金額が増えたり、家計の支出が増えても暮らしにゆとりが出たと感じられなかったりする理由が分かります。米連邦準備制度にとって、食品・エネルギーを除く物価指標は、基調的な物価上昇圧力が続いているかを判断する手がかりです。その圧力が続けば、物価の影響を除いた需要が弱く見えても、金融緩和に踏み切りにくくなる可能性があります。これは、融資の借り換えを検討する企業や、借り入れ先を探す家計にも関係します。",
+          "uncertainty": "この報告は全体をまとめた推計で、後から改定されることがあります。平均の購買力が高まっても、どの家計の購買力が上がったかは分かりません。また、小売店やサービス事業者によって、消費者がお金を使う先の内訳は異なり得ます。この発表だけで次回の政策金利が決まるわけではありません。",
+          "watch": "次回の発表では、実質消費支出が増加に転じるか、食品・エネルギーを除く物価の上昇が鈍るかを確認します。今回の推計が改定されれば、比較の出発点も変わる可能性があります。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "個人消費支出（PCE）物価指数の前年同月比"
+            },
+            {
+              "id": "m2",
+              "label": "コア個人消費支出（PCE）物価指数の前年同月比"
+            },
+            {
+              "id": "m3",
+              "label": "個人消費支出（PCE）物価指数の前月比"
+            },
+            {
+              "id": "m4",
+              "label": "名目個人消費支出の前月比"
+            },
+            {
+              "id": "m5",
+              "label": "実質個人消費支出の前月比（公表時の表示桁数）"
+            },
+            {
+              "id": "m6",
+              "label": "実質可処分所得の前月比"
+            },
+            {
+              "id": "m7",
+              "label": "個人貯蓄率"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição tem cobertura verificada limitada. Para alguns mercados, não há notícias novas com informações verificadas. As datas dos relatórios continuam claramente indicadas.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação. Os relatórios empresariais recentes são apresentados para ajudar a entender o contexto.",
       "marketSummary": {
-        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente.",
-        "cn": "Os índices acompanhados subiram nos pregões mais recentes com dados verificados. Os fechamentos apresentados se referem aos pregões das datas indicadas, não às negociações em curso."
+        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis é apresentado com a data do pregão correspondente.",
+        "cn": "Os índices acompanhados caíram em seus pregões mais recentes com dados verificados. Os fechamentos se referem às datas indicadas, não ao pregão atual."
       },
       "stories": [
         {
-          "id": "f5",
-          "title": "Confiança do consumidor volta a subir nos EUA com melhora na percepção sobre o emprego",
-          "summary": "A pesquisa do Conference Board mostrou que as famílias avaliaram melhor a situação atual e ficaram mais otimistas em relação ao futuro.",
-          "impact": "Uma percepção melhor sobre a oferta de empregos pode favorecer o consumo, mas o otimismo na pesquisa não comprova que as compras ou as contratações já aumentaram.",
-          "what": "O índice mensal preliminar do Conference Board subiu em relação ao mês anterior. Os participantes avaliaram melhor a situação atual dos negócios e a oferta de empregos. As expectativas também melhoraram, embora o saldo das opiniões sobre a oferta futura de empregos ainda fosse ligeiramente negativo. Nas respostas por escrito, os participantes continuaram a expressar insatisfação com os preços altos e o custo de vida. Assim, a melhora do índice geral convive com preocupações que ainda podem apertar o orçamento das famílias.",
-          "why": "Quando uma família se sente mais segura em relação ao emprego, pode ficar mais à vontade para fazer uma compra que vinha adiando. Isso pode pesar nas decisões dos varejistas sobre quanto manter em estoque ou se devem contratar. Mas a pesquisa registra como as pessoas se sentem e o que dizem pretender fazer. Os gastos efetivos também dependem dos salários, dos preços e do custo do crédito. Por isso, a confiança pode melhorar sem que as famílias deixem de comprar com cautela.",
-          "uncertainty": "O resultado preliminar considera as respostas recebidas até a data de corte da pesquisa, anterior à publicação e ao fim do mês. A pesquisa não mede o número de empregos nas folhas de pagamento, a receita do varejo nem as compras realizadas. O índice geral, por si só, não explica por que a confiança mudou.",
-          "watch": "Compare a próxima divulgação do índice de confiança com os dados de vendas no varejo, gastos das famílias e emprego nas folhas de pagamento para ver se a melhora na confiança vem acompanhada de mais atividade econômica.",
+          "id": "f2",
+          "title": "Déficit do governo central da China diminui",
+          "summary": "O Ministério das Finanças da China informou que a receita do governo central aumentou e a despesa diminuiu em relação ao mês anterior.",
+          "impact": "A divulgação ajuda a distinguir as transferências para os governos locais da captação de recursos no mercado de títulos.",
+          "what": "As tabelas mensais do ministério mostram que o governo central gastou mais do que arrecadou, mas que essa diferença diminuiu em relação ao mês anterior. As transferências para os governos locais continuaram representando uma parcela importante da despesa, apesar de terem caído na comparação mensal. O ministério informa o financiamento separadamente. O valor captado por meio de títulos foi ligeiramente superior ao financiamento total porque a parcela referente a empréstimos foi negativa. A medida de financiamento não inclui a amortização do principal e, por isso, não deve ser interpretada como o total das vendas de títulos.",
+          "why": "Uma transferência do governo central pode dar a um governo local os recursos necessários para manter serviços públicos ou pagar fornecedores. O dinheiro não chega necessariamente a uma empresa contratada ou a uma família no momento em que a transferência é registrada: o governo local ainda precisa comprometer os recursos ou efetuar o pagamento. A oferta de títulos públicos importa por outro motivo. Como os investidores podem escolher entre títulos públicos e privados, mudanças no volume de títulos que o governo oferece no mercado podem afetar as condições de financiamento das empresas. A divulgação mede o financiamento, não esse efeito sobre o mercado.",
+          "uncertainty": "Os dados dizem respeito ao governo central e não consolidam as contas de todos os níveis de governo. O déficit mensal pode diminuir por causa de mudanças nas datas de recebimentos e pagamentos. Os dados não demonstram que a política fiscal ficou mais restritiva nem que mudou a demanda pelos serviços de empresas contratadas e listadas em bolsas da China continental.",
+          "watch": "Compare as próximas tabelas mensais do governo central com a execução dos orçamentos locais e os resultados dos leilões de títulos públicos. Observe os gastos dos governos locais e os pagamentos a fornecedores antes de concluir que as transferências estão se refletindo na atividade das empresas.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Índice preliminar de confiança do consumidor no mês atual"
+              "label": "Receita do governo central"
             },
             {
               "id": "m2",
-              "label": "Índice revisado de confiança do consumidor no mês anterior"
+              "label": "Despesa do governo central"
             },
             {
               "id": "m3",
-              "label": "Índice preliminar da situação atual"
+              "label": "Saldo orçamentário do governo central"
             },
             {
               "id": "m4",
-              "label": "Índice preliminar de expectativas"
+              "label": "Financiamento do governo central"
+            },
+            {
+              "id": "m5",
+              "label": "Transferências do governo central para governos locais"
+            },
+            {
+              "id": "m6",
+              "label": "Parcela do financiamento via títulos"
+            },
+            {
+              "id": "m7",
+              "label": "Parcela do financiamento via empréstimos"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "Inflação acelera nos Estados Unidos, enquanto o consumo real fica praticamente estável",
+          "summary": "A inflação anual medida pelos preços das despesas de consumo acelerou, enquanto os gastos das famílias, descontada a inflação, recuaram ligeiramente em relação ao mês anterior.",
+          "impact": "Uma receita maior no caixa pode esconder vendas fracas em volume, e a persistência da inflação pode dificultar a adoção de condições de crédito mais favoráveis.",
+          "what": "O Bureau de Análise Econômica dos Estados Unidos informou que a inflação anual acelerou tanto no índice geral quanto no índice que exclui alimentos e energia. O índice geral de preços também subiu em relação ao mês anterior, mas em ritmo mais lento do que na leitura mensal anterior. As famílias gastaram mais em dólares, mas, descontada a inflação, os gastos recuaram ligeiramente e apareceram como estáveis após o arredondamento na tabela publicada. A renda após impostos aumentou mesmo descontada a inflação. O relatório também mostrou, separadamente, qual parcela da renda disponível foi poupada em vez de gasta.",
+          "why": "O gasto nominal mostra quanto as famílias pagaram aos preços do momento. O gasto real mostra quanto elas conseguiram comprar com esse dinheiro. Essa diferença ajuda a explicar por que uma loja pode arrecadar mais no caixa sem vender mais produtos, ou por que uma família pode gastar mais sem sentir que está em situação melhor. Para o Federal Reserve, o banco central dos Estados Unidos, os indicadores que excluem alimentos e energia ajudam a avaliar se a pressão sobre os preços persiste. Se persistir, o banco central pode ficar menos inclinado a afrouxar a política monetária, mesmo quando a demanda real parece fraca. Isso importa para empresas que precisam refinanciar empréstimos e para famílias em busca de crédito.",
+          "uncertainty": "O relatório apresenta estimativas para o conjunto da economia, sujeitas a revisão. O aumento do poder de compra médio não mostra quais famílias se beneficiaram, e a composição dos gastos pode variar entre varejistas e prestadores de serviços. A divulgação não determina a próxima decisão sobre a taxa de juros.",
+          "watch": "Na próxima divulgação, verifique se os gastos reais voltam a crescer e se a inflação que exclui alimentos e energia desacelera. Revisões das estimativas atuais também podem mudar a base de comparação.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Inflação anual dos preços das despesas de consumo"
+            },
+            {
+              "id": "m2",
+              "label": "Núcleo da inflação anual dos preços das despesas de consumo"
+            },
+            {
+              "id": "m3",
+              "label": "Variação mensal dos preços das despesas de consumo"
+            },
+            {
+              "id": "m4",
+              "label": "Variação mensal nominal das despesas de consumo"
+            },
+            {
+              "id": "m5",
+              "label": "Variação mensal real das despesas de consumo, com o arredondamento publicado"
+            },
+            {
+              "id": "m6",
+              "label": "Variação mensal da renda disponível real"
+            },
+            {
+              "id": "m7",
+              "label": "Taxa de poupança pessoal"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期可查證的資訊有限。部分市場沒有經查證的新消息；較早的報導仍會清楚標示日期。",
+      "status": "本期涵蓋美國與中國的財經動態。請留意各項資料的發布日期；近期企業報告在本期用於解說背景。",
       "marketSummary": {
-        "us": "部分收盤資訊未能查證。凡有可用資料的指數，均保留各自的交易日期。",
-        "cn": "追蹤的指數在各自最近可查證的交易日均上漲。標有日期的收盤資訊反映的是當日行情，並非目前走勢。"
+        "us": "部分收盤資料無法查證。可查證的指數資料均保留各自的交易日期。",
+        "cn": "追蹤的指數在各自最近可查證的交易日均告下跌。標有日期的收盤資料反映的是當天的行情，不代表目前的交易情況。"
       },
       "stories": [
         {
-          "id": "f5",
-          "title": "民眾對就業機會的看法好轉，美國消費者信心回升",
-          "summary": "美國經濟評議會的調查顯示，家庭對目前情況的評價和對未來的預期都有所改善。",
-          "impact": "民眾若覺得工作更好找，可能更願意花錢，但調查結果變得樂觀，並不代表消費或招募已經增加。",
-          "what": "美國經濟評議會公布的本月初值較上月上升。受訪者對目前的企業景氣和就業機會看法更正面。他們對未來的預期也有所改善，但整體而言，對未來的就業機會仍略偏悲觀。文字回覆也顯示，受訪者仍對高物價和高生活成本感到不滿。因此，整體信心雖然回升，這些顧慮仍可能讓家庭在花費上受到限制。",
-          "why": "如果家庭覺得工作更有保障，可能更願意買下原本打算晚點再買的東西。這可能影響零售商決定要備多少貨、是否增聘人手。但調查記錄的是民眾的感受，以及他們表示自己打算怎麼做。實際支出還取決於薪資、物價和借貸成本，因此即使信心回升，民眾花錢時仍可能很謹慎。",
-          "uncertainty": "初值反映的是截至調查截止日收到的回覆，而截止日早於公布日和月底。這項調查不衡量實際的受僱人數、零售收入或購買情況，單看整體指數也無法確定信心為何改變。",
-          "watch": "可將下期消費者信心數據與零售銷售、家庭支出及受僱人數數據對照，看看信心好轉時，實際的消費與就業活動是否也有起色。",
+          "id": "f2",
+          "title": "中國中央政府財政赤字收窄",
+          "summary": "中國財政部公布，中央政府收入較前月增加，支出則減少。",
+          "impact": "這份資料有助於區分中央對地方政府的移轉支付，以及政府在債券市場上的籌資活動。",
+          "what": "財政部本次公布的月度表格顯示，中央政府支出仍高於收入，但差額較前月縮小。對地方政府的移轉支付雖較前月減少，仍占中央政府支出相當大的比重。財政部另外列出融資數據。由於貸款融資為負值，債券融資金額略高於融資總額。這項融資統計不計入本金償還，因此不能把它當成所有債券的發行總額。",
+          "why": "中央的移轉支付可以讓地方政府有資金維持公共服務或支付供應商款項。但款項在帳上列為移轉支付時，不見得已交到承包商或家庭手中；地方政府仍須承諾支用或實際撥款。政府債券供給的重要性則在於，投資人可以在政府債務與民間債務之間選擇，因此政府在市場上發行的債券規模若有變化，可能影響企業的融資環境。這份資料衡量的是融資金額，而不是對市場的影響。",
+          "uncertainty": "這是中央政府的財政資料，並非合併各級政府的帳目。單月收支差額縮小，可能只是因為款項收付的時間不同。這不足以證明政策已經收緊，也不能據此判定中國大陸上市承包商面對的需求有所變化。",
+          "watch": "可將下次公布的中央政府月度表格，與地方政府的預算執行情況及公開債券標售結果對照。先觀察地方是否實際支出、是否支付供應商款項，再判斷移轉支付是否已反映在企業活動上。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "本月消費者信心指數初值"
+              "label": "中央政府收入"
             },
             {
               "id": "m2",
-              "label": "上月消費者信心指數修正值"
+              "label": "中央政府支出"
             },
             {
               "id": "m3",
-              "label": "現況指數初值"
+              "label": "中央政府財政收支差額"
             },
             {
               "id": "m4",
-              "label": "預期指數初值"
+              "label": "中央政府融資總額"
+            },
+            {
+              "id": "m5",
+              "label": "中央對地方政府移轉支付"
+            },
+            {
+              "id": "m6",
+              "label": "債券融資金額"
+            },
+            {
+              "id": "m7",
+              "label": "貸款融資金額"
+            }
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "美國通膨升溫，實質消費停滯",
+          "summary": "個人消費支出物價的年增幅擴大，但扣除物價變動後，家庭消費較前月微幅下滑。",
+          "impact": "商家即使收到更多錢，也可能掩蓋銷量疲弱的情況；通膨若持續，放寬借貸條件的理由就可能沒那麼充分。",
+          "what": "美國經濟分析局指出，不論是整體物價，還是排除食品與能源後的物價，年增幅都擴大。整體物價指數也較前月上升，但月增幅比前月小。家庭實際付出的金額增加，但扣除物價變動後，消費支出略減，四捨五入後在公布的表格中呈現持平。稅後所得即使扣除物價變動仍有增加；報告也另外衡量可支配所得中有多少比例存了下來、沒有花掉。",
+          "why": "名目消費支出衡量的是家庭按當時的價格付了多少錢；實質消費支出看的則是這些錢能買到多少商品和服務。這個差別有助於解釋，為什麼零售商收進更多錢，卻不見得賣出更多商品；家庭也可能花得更多，卻沒覺得日子更好過。對美國聯準會而言，排除食品與能源的物價指標，有助於判斷較根本的物價上漲壓力是否持續。如果壓力未消，即使實質需求看來偏弱，決策者也可能較不願放寬貨幣政策。這會影響需要辦理貸款再融資的企業，以及正在比較借貸方案的家庭。",
+          "uncertainty": "這份報告是整體估計值，日後可能修正。平均購買力提高，不代表能看出哪些家庭受益；不同零售商和服務業者面對的消費組合也可能不同。這份資料無法決定下次的利率決策。",
+          "watch": "下次公布資料時，可留意實質消費支出是否恢復成長，以及排除食品與能源後的通膨是否降溫。本次估計值若有修正，也可能改變後續比較的基準。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "個人消費支出物價指數年增率"
+            },
+            {
+              "id": "m2",
+              "label": "核心個人消費支出物價指數年增率"
+            },
+            {
+              "id": "m3",
+              "label": "個人消費支出物價指數月增率"
+            },
+            {
+              "id": "m4",
+              "label": "名目個人消費支出月增率"
+            },
+            {
+              "id": "m5",
+              "label": "實質個人消費支出月增率（依公布精度）"
+            },
+            {
+              "id": "m6",
+              "label": "實質可支配所得月增率"
+            },
+            {
+              "id": "m7",
+              "label": "個人儲蓄率"
             }
           ]
         }
