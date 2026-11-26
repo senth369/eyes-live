@@ -1,73 +1,108 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-26T00:59:28.063Z",
-  "generatedAt": "2026-11-26T01:04:45.143Z",
+  "cutoffAt": "2026-11-26T10:53:06.616Z",
+  "generatedAt": "2026-11-26T11:03:56.163Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "FRED daily S&P price index series",
-      "url": "https://fred.stlouisfed.org/series/SP500"
+      "label": "Xinhua Finance New York closing report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261126/4500464_1.html"
     },
     {
       "id": "src2",
-      "label": "FX close bulletin for US stock indexes",
-      "url": "https://www.fx168news.com/express/fastnews/1475689"
+      "label": "St. Louis Fed broad US equity index observations",
+      "url": "https://fred.stlouisfed.org/data/SP500"
     },
     {
       "id": "src3",
-      "label": "Nasdaq Composite daily price history",
-      "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
+      "label": "St. Louis Fed Nasdaq Composite closing observations",
+      "url": "https://fred.stlouisfed.org/data/NASDAQCOM"
     },
     {
       "id": "src4",
-      "label": "Shanghai Composite daily price history",
-      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
+      "label": "Nasdaq holiday and trading hours notice",
+      "url": "https://www.nasdaq.com/holidayandtradinghours"
     },
     {
       "id": "src5",
-      "label": "CSI large-cap benchmark daily price history",
-      "url": "https://www.investing.com/indices/csi300-historical-data"
+      "label": "Xinhua Finance latest mainland closing report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261126/4500639_1.html"
     },
     {
       "id": "src6",
-      "label": "BEA revised GDP and corporate profits release",
-      "url": "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf"
+      "label": "Xinhua Finance preceding mainland closing report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261125/4500099_1.html"
     },
     {
       "id": "src7",
-      "label": "BEA personal income and outlays release",
-      "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026"
+      "label": "Mainland large-cap index daily closing table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src8",
-      "label": "Fiscal year and quarter earnings release filed with the SEC",
-      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d1.htm"
+      "label": "BEA personal income and outlays release and tables",
+      "url": "https://bea.gov/sites/default/files/2026-11/pi1026.pdf"
     },
     {
       "id": "src9",
-      "label": "Prior quarterly SEC filing and fiscal calendar note",
-      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926102213/de-20260802x10q.htm"
+      "label": "US machinery issuer fiscal year-end results and financial statements",
+      "url": "https://s22.q4cdn.com/253594569/files/content_files/DE-4Q26-News-Release.pdf"
     },
     {
       "id": "src10",
-      "label": "Issuer notice of major engineering award",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-26/12724039.PDF"
+      "label": "US machinery issuer preceding quarterly filing and fiscal calendar note",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926102213/de-20260802x10q.htm"
     },
     {
       "id": "src11",
-      "label": "Engineering group quarterly filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645830.PDF"
+      "label": "Mainland travel retailer preliminary related-party restructuring filing",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-26/12724613.PDF"
     },
     {
       "id": "src12",
-      "label": "Automaker quarterly filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+      "label": "Mainland travel retailer board and trading-resumption notice",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-26/12724590.PDF"
     },
     {
       "id": "src13",
-      "label": "Automaker interim filing and business review",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225532750.PDF"
+      "label": "Mainland travel retailer unaudited quarterly report",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-10/2026-10-30/12678634.PDF"
+    },
+    {
+      "id": "src14",
+      "label": "China Commerce Ministry notice publishing the services trade plan",
+      "url": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_6ed41ce4da7e40a4ba7c393a7135c784.html"
+    },
+    {
+      "id": "src15",
+      "label": "China Commerce Ministry services trade plan and baseline data",
+      "url": "https://www.mofcom.gov.cn/cms_files/filemanager/10364010/attach/20269/0709d8b5b26b48c39aae452c3296b9ea.pdf?fileName=%E6%9C%8D%E5%8A%A1%E8%B4%B8%E6%98%93%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92.pdf"
+    },
+    {
+      "id": "src16",
+      "label": "US Trade Representative determinations and proposed actions release",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+    },
+    {
+      "id": "src17",
+      "label": "US Trade Representative proposed action notice for China with product annexes",
+      "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/China%20FRN.pdf"
+    },
+    {
+      "id": "src18",
+      "label": "Mainland renewable power issuer operating and shareholder returns notice",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-11/2026-11-26/12724685.PDF"
+    },
+    {
+      "id": "src19",
+      "label": "Mainland renewable power issuer unaudited quarterly report",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-10/2026-10-29/12672971.PDF"
+    },
+    {
+      "id": "src20",
+      "label": "Mainland renewable power issuer listing announcement",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-01/1225402016.PDF"
     }
   ],
   "markets": [
@@ -81,32 +116,28 @@
     },
     {
       "id": "nasdaq",
-      "sessionDate": "2026-11-25",
-      "close": 23585.8,
-      "previousClose": 23733.54,
-      "changePercent": -0.62,
-      "sourceIds": [
-        "src3"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-25",
-      "close": 3476.47,
-      "previousClose": 3548.37,
-      "changePercent": -2.03,
-      "sourceIds": [
-        "src4"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-25",
-      "close": 3898.24,
-      "previousClose": 3963.82,
-      "changePercent": -1.65,
+      "sessionDate": "2026-11-26",
+      "close": 3900.55,
+      "previousClose": 3898.24,
+      "changePercent": 0.06,
       "sourceIds": [
-        "src5"
+        "src7"
       ]
     }
   ],
@@ -120,32 +151,6 @@
       "metrics": [
         {
           "id": "m1",
-          "value": 4.3,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The release lead and related measures table give the revised, seasonally adjusted annualized rate of real GDP growth."
-        },
-        {
-          "id": "m2",
-          "value": 5.8,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "qoq",
-          "basis": "reported",
-          "sourceIds": [
-            "src6"
-          ],
-          "evidence": "The related measures table gives the revised annualized growth rate for real final sales to private domestic purchasers."
-        },
-        {
-          "id": "m3",
           "value": 3.8,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -153,12 +158,12 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The main release gives the headline consumption price change from the same month a year earlier."
+          "evidence": "The price index discussion reports the annual change in the headline consumption price index."
         },
         {
-          "id": "m4",
+          "id": "m2",
           "value": 3.3,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -166,12 +171,12 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The main release gives the annual consumption price change excluding food and energy."
+          "evidence": "The price index discussion reports the annual change excluding food and energy."
         },
         {
-          "id": "m5",
+          "id": "m3",
           "value": 0.3,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -179,12 +184,25 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The personal income and related measures table reports an increase in current-dollar consumption spending."
+          "evidence": "The personal income and related measures table gives the monthly change in the headline price index."
         },
         {
-          "id": "m6",
+          "id": "m4",
+          "value": 0.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "The personal income and related measures table gives the monthly change in current-dollar spending."
+        },
+        {
+          "id": "m5",
           "value": 0,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -192,12 +210,12 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The table rounds real consumption spending growth to zero; the release text notes a small decline before rounding."
+          "evidence": "The personal income and related measures table rounds the small monthly decline in real spending to no change."
         },
         {
-          "id": "m7",
+          "id": "m6",
           "value": 0.5,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -205,12 +223,12 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The personal income and related measures table reports growth in inflation-adjusted disposable income."
+          "evidence": "The personal income and related measures table reports growth in real disposable personal income."
         },
         {
-          "id": "m8",
+          "id": "m7",
           "value": 4.1,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -218,138 +236,111 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src7"
+            "src8"
           ],
-          "evidence": "The main release gives personal saving as a share of disposable personal income."
+          "evidence": "The opening release text reports personal saving as a share of disposable income."
         }
       ],
       "sourceIds": [
-        "src6",
-        "src7"
+        "src8"
       ],
-      "evidence": "The GDP release lead, related measures table and technical notes show an upward growth revision led by investment and consumption. The personal income and outlays release shows rising prices and little movement in real spending in the subsequent month."
+      "evidence": "The price index discussion and income and spending table show faster annual inflation and virtually unchanged real spending. Technical notes identify a Medicare premium rebate among the contributors to income growth."
     },
     {
       "id": "f4",
       "market": "cn",
-      "category": "earnings",
-      "publishedOn": "2026-10-30",
-      "company": {
-        "name": "BYD Company Limited",
-        "ticker": "002594",
-        "exchange": "Shenzhen Stock Exchange"
-      },
+      "category": "economy",
+      "publishedOn": "2026-11-26",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 221488251000,
+          "value": 3626790000000,
           "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
+          "periodStart": "2025-01-01",
+          "periodEnd": "2025-12-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src12"
+            "src15"
           ],
-          "evidence": "The key financial data table reports operating revenue in the current-quarter column."
+          "evidence": "The development baseline section gives full calendar-year service exports."
         },
         {
           "id": "m2",
-          "value": 13.59,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "The key financial data table reports year-over-year quarterly operating revenue growth."
-        },
-        {
-          "id": "m3",
-          "value": 10019570000,
+          "value": 4455510000000,
           "unit": "CNY",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
+          "periodStart": "2025-01-01",
+          "periodEnd": "2025-12-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src12"
+            "src15"
           ],
-          "evidence": "The key financial data table reports quarterly net profit attributable to listed-company shareholders."
-        },
-        {
-          "id": "m4",
-          "value": 28.08,
-          "unit": "percent",
-          "periodStart": "2026-07-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "The key financial data table reports year-over-year growth in quarterly attributable net profit."
-        },
-        {
-          "id": "m5",
-          "value": -4.24,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "The year-to-date comparison column shows a decline in attributable net profit."
-        },
-        {
-          "id": "m6",
-          "value": 54469572000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "The consolidated cash flow statement gives year-to-date net cash from operating activities."
-        },
-        {
-          "id": "m7",
-          "value": 33.36,
-          "unit": "percent",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "yoy",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "The cash flow change explanation table compares year-to-date operating cash flow with the matching prior-year period."
-        },
-        {
-          "id": "m8",
-          "value": 87379038000,
-          "unit": "CNY",
-          "periodStart": "2026-01-01",
-          "periodEnd": "2026-09-30",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src12"
-          ],
-          "evidence": "The investing section of the consolidated cash flow statement reports cash paid to acquire or build long-term assets."
+          "evidence": "The development baseline section gives full calendar-year service imports."
         }
       ],
       "sourceIds": [
-        "src12",
-        "src13"
+        "src14",
+        "src15"
       ],
-      "evidence": "The quarterly filing shows stronger quarterly revenue and attributable profit, lower year-to-date attributable profit and higher year-to-date operating cash flow. Its balance sheet discussion links increases in receivables and stock to overseas auto operations. The interim management review describes the vehicle, battery and electronics businesses."
+      "evidence": "The publication notice releases the jointly issued plan. Its export and policy-support sections call for more cross-border industrial services, wider use of electronic shipping documents, and stronger trade finance and export credit insurance. Historical trade values appear in the development baseline."
+    },
+    {
+      "id": "f5",
+      "market": "global",
+      "category": "economy",
+      "publishedOn": "2026-11-25",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 20,
+          "unit": "percent",
+          "periodStart": "2026-11-25",
+          "periodEnd": "2026-11-25",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src16",
+            "src17"
+          ],
+          "evidence": "The proposed action section gives a ceiling for Chinese goods outside the annexes, net of the specified separate duty. The date is the proposal snapshot, not a start date for collection."
+        },
+        {
+          "id": "m2",
+          "value": 10,
+          "unit": "percent",
+          "periodStart": "2026-11-25",
+          "periodEnd": "2026-11-25",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src16",
+            "src17"
+          ],
+          "evidence": "The proposed action section gives a separate ceiling for goods listed in Annex A, subject to Annex B exemptions."
+        },
+        {
+          "id": "m3",
+          "value": 40,
+          "unit": "percent",
+          "periodStart": "2026-11-25",
+          "periodEnd": "2026-11-25",
+          "comparison": "level",
+          "basis": "guidance",
+          "sourceIds": [
+            "src16",
+            "src17"
+          ],
+          "evidence": "The proposed action section describes a conditional alternative ceiling on all Chinese goods, net of the specified separate duty, if engagement is judged inadequate."
+        }
+      ],
+      "sourceIds": [
+        "src16",
+        "src17"
+      ],
+      "evidence": "The release announces determinations and proposed action. The China notice distinguishes tariff treatment by product annex, describes a conditional alternative, and opens a public comment and hearing process."
     }
   ],
   "locales": {
@@ -357,676 +348,648 @@
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Both tracked indexes fell in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "US growth revised higher as consumer prices keep rising",
-          "summary": "Federal statisticians raised their estimate of summer growth, while a separate release showed that household spending barely moved after inflation in October.",
-          "impact": "For retailers and lenders, the GDP revision is a better reading of past demand, not evidence that households are buying more now.",
-          "what": "The Bureau of Economic Analysis revised inflation-adjusted gross domestic product higher after incorporating updated data on investment and consumer spending. The investment revision was led by intellectual property products, notably software. Final sales to private domestic purchasers, a measure focused on household spending and private investment inside the country, were also revised up. The separate October report shows a different picture for household spending: people spent more dollars, but after adjusting for prices, the amount they bought edged down before rounding. Inflation-adjusted after-tax income rose, and the saving rate increased.",
-          "why": "A store can collect more money without selling more merchandise if its prices rise. That is why current-dollar spending and inflation-adjusted spending answer different questions. The distinction matters to businesses deciding whether to order extra inventory or add staff. It also matters for interest rates: continued price pressure can make policymakers cautious about easing, while weak real spending can signal that customers are under strain. For households, the fact that average after-tax purchasing power improved does not mean individual budgets did; changes in wages, benefits and prices affect households differently.",
-          "uncertainty": "The growth estimate is subject to revision and refers to a period that ended before the monthly spending report began. The annualized GDP rate describes the pace implied by the quarter, not growth already realized over a full year. The rounded reading for real consumption also should not be mistaken for an exact standstill, and neither release establishes what the Federal Reserve will do.",
-          "watch": "Read the next spending and income release for signs that stronger purchasing power is translating into more real spending. Check whether price pressure excluding food and energy eases, and whether the next GDP estimate preserves the upward revision to private demand.",
+          "title": "US prices rose while real spending barely moved",
+          "summary": "US consumer prices rose, but household spending was essentially flat after adjusting for inflation.",
+          "impact": "Businesses can take in more dollars without selling more, and persistent inflation can keep borrowing costs under pressure.",
+          "what": "The Bureau of Economic Analysis reported that households spent more in dollar terms, while inflation-adjusted consumption edged down by an amount that rounds to no change in its summary table. Annual inflation picked up both overall and after excluding food and energy. Inflation-adjusted disposable income, or the purchasing power of income left after personal taxes, rose. The agency pointed to compensation, government benefits and income from assets as contributors to the rise in personal income, and flagged a Medicare premium rebate in the benefits figures.",
+          "why": "A store can report higher revenue because customers bought more things or because the same basket cost more. The gap between dollar spending and real spending helps separate those explanations across the economy. For households, an increase in purchasing power offers some relief, but it does not mean everyone got a raise or faced the same price increases. For businesses that borrow or sell financed purchases, the combination of soft real spending and persistent inflation matters: stronger price pressure can make it harder for the Federal Reserve to ease policy even if demand looks less vigorous.",
+          "uncertainty": "These are national estimates, not a household budget breakdown, and the release revises earlier readings. The rebate is not recurring wage income, and a nearly flat spending reading does not establish a trend or determine the next interest-rate decision.",
+          "watch": "Look for the next release to show whether real spending picks up, whether core price growth slows, and whether income growth holds up without the rebate contribution.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Real GDP growth, annualized"
+              "label": "Headline consumption inflation, annual change"
             },
             {
               "id": "m2",
-              "label": "Real private domestic final sales growth, annualized"
+              "label": "Core consumption inflation, annual change"
             },
             {
               "id": "m3",
-              "label": "Headline PCE inflation"
+              "label": "Headline consumption inflation, monthly change"
             },
             {
               "id": "m4",
-              "label": "PCE inflation excluding food and energy"
+              "label": "Consumer spending before inflation, monthly change"
             },
             {
               "id": "m5",
-              "label": "Current-dollar consumer spending growth"
+              "label": "Consumer spending after inflation, monthly change"
             },
             {
               "id": "m6",
-              "label": "Inflation-adjusted consumer spending growth, rounded"
+              "label": "Real disposable income, monthly change"
             },
             {
               "id": "m7",
-              "label": "Inflation-adjusted disposable income growth"
-            },
-            {
-              "id": "m8",
               "label": "Personal saving rate"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "October earnings explainer: BYD’s profit rebound and cash flow tell different stories",
-          "summary": "BYD’s October filing showed that quarterly revenue and attributable profit rebounded even though attributable profit was still down for the year to date.",
-          "impact": "Operating cash improved over the year-to-date period, but cash spending on long-term assets was greater than the cash generated by operations.",
-          "what": "BYD makes battery-electric and plug-in hybrid vehicles and also has battery and electronics businesses. Its October filing showed higher quarterly revenue and higher net profit attributable to shareholders than a year earlier. Attributable profit also rose after stripping out items the company classified as nonrecurring. The broader year-to-date profit comparison was weaker, even as operating cash flow improved. In its explanation of the cash flow change, the company cited lower cash payments for goods and services. The balance sheet discussion attributed higher receivables and more inventory to growth and stocking in the overseas auto business.",
-          "why": "The filing shows why a more profitable quarter does not automatically mean every sale has turned into cash. A manufacturer can book a sale while still waiting for payment and can spend money building vehicles before they are delivered. Overseas expansion can add customers and give the company more markets in which to sell, while requiring stock to be positioned in advance. Operating cash is also measured before the cash paid to build or buy long-term assets. Looking at those outlays alongside operating cash helps explain why higher cash generation does not necessarily leave more money available for other uses.",
-          "uncertainty": "The quarterly filing is unaudited and presents operating cash flow for the year to date, not for the quarter on its own. It does not show how much of the group's cash improvement came from overseas vehicle sales. Lower cash payments to suppliers for goods and services do not by themselves show that the underlying cost of making each vehicle fell.",
-          "watch": "In the next financial statements, check whether receivables are collected and whether inventories rise or fall relative to sales. Compare operating cash with long-term asset spending again to see whether the stronger cash performance persists as the company expands.",
+          "title": "China puts industrial services at the center of a new trade plan",
+          "summary": "China published a services trade plan that calls for expanding exports of industrial support, transport and professional services.",
+          "impact": "If the measures are implemented, mainland manufacturers and logistics providers could find it easier to sell services alongside goods overseas.",
+          "what": "The Commerce Ministry and other agencies issued a plan that treats design, testing, maintenance and logistics as businesses that can earn revenue across borders. It calls for wider use of electronic shipping and warehouse documents, better recognition of electronic signatures across borders, and broader access to trade finance and export credit insurance. The trade values shown here are the plan’s historical baseline, when China imported more services than it exported. They are not projections or evidence that the measures have taken effect.",
+          "why": "For a manufacturer selling equipment overseas, the relationship need not end when the machine arrives. Maintenance, diagnostics and other support can earn revenue over the life of the equipment, while buyers may face less downtime if service is easier to obtain. For logistics firms, recognition of electronic documents could reduce paperwork and delays if customers, banks and overseas authorities accept the same records. Export credit insurance can make it easier to offer overseas customers time to pay by covering specified risks of nonpayment, although it costs money and does not eliminate every risk.",
+          "uncertainty": "The plan sets priorities, not firm-level revenue guarantees or evidence of new orders. Benefits will depend on implementing rules, adoption by overseas counterparts and the cost of building local service networks.",
+          "watch": "Look for implementing notices, operational changes to shipping documentation, and listed-company disclosures that separate overseas service revenue from equipment sales.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Quarterly operating revenue"
+              "label": "Historical annual service exports"
             },
             {
               "id": "m2",
-              "label": "Quarterly operating revenue growth"
+              "label": "Historical annual service imports"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Proposed US duties put import costs back in focus",
+          "summary": "The US Trade Representative proposed new duties after manufacturing overcapacity investigations, with different treatment and exemptions for Chinese goods.",
+          "impact": "The proposal matters for US importers’ margins and mainland exporters’ orders, but it does not establish a new duty payable at the border.",
+          "what": "The US Trade Representative announced determinations covering China and other economies and opened a consultation on proposed action. The China notice separates products by tariff classification and identifies exemptions in its annexes. It also discusses a broader alternative if ongoing engagement fails to address the issues the agency identified. The proposed ceilings vary by product, and the notice describes how specified duties from a separate action would be taken into account.",
+          "why": "The importer generally pays the duty at the border, but who ultimately bears the cost depends on commercial terms. A US retailer could ask a supplier to lower its price, accept a smaller margin, switch sources or pass the cost to shoppers. For a mainland exporter, the same choices can mean lower selling prices or fewer orders even though the exporter is not the party paying US customs. Equipment and parts buyers may have less room to switch quickly if alternatives need product testing or customer approval. That makes product classification, supplier contracts and sourcing flexibility more informative than a headline tariff rate.",
+          "uncertainty": "The notice is a proposal. The final scope, exemptions, rates and effective date remain unsettled, and the effect on any company depends on what it imports or exports and how its contracts allocate the cost.",
+          "watch": "Follow the comment docket and hearing, then look for a final notice specifying product coverage, duty offsets and when collection would begin.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Proposed ceiling for Chinese goods outside the annexes"
+            },
+            {
+              "id": "m2",
+              "label": "Proposed ceiling for goods in the main product annex"
             },
             {
               "id": "m3",
-              "label": "Quarterly net profit attributable to shareholders"
-            },
-            {
-              "id": "m4",
-              "label": "Quarterly attributable net profit growth"
-            },
-            {
-              "id": "m5",
-              "label": "Year-to-date attributable net profit growth"
-            },
-            {
-              "id": "m6",
-              "label": "Year-to-date operating cash flow"
-            },
-            {
-              "id": "m7",
-              "label": "Year-to-date operating cash flow growth"
-            },
-            {
-              "id": "m8",
-              "label": "Year-to-date cash paid for long-term assets"
+              "label": "Conditional alternative tariff ceiling for Chinese goods"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期关注美国和中国的经济与市场动态。请留意各条内容的发布日期；近期公司报告仅作为背景解读。",
+      "status": "本期涵盖美国和中国的动态。请留意各条内容的发布日期；近期发布的公司报告仅作背景解读。",
       "marketSummary": {
         "us": "部分收盘数据未能核实。可提供数据的指数均保留各自对应的交易日期。",
-        "cn": "所跟踪的指数在各自最近有数据可核实的交易日均收跌。标注日期的收盘数据仅反映对应交易日的表现，不代表当前行情。"
+        "cn": "部分收盘数据未能核实。可提供数据的指数均保留各自对应的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美国经济增速上修，消费价格继续上涨",
-          "summary": "美国联邦统计部门上调了对夏季经济增速的估计。另行发布的月度报告显示，扣除物价上涨的影响后，居民消费支出几乎没有变化。",
-          "impact": "对零售商和贷款机构来说，国内生产总值的修订让过去的需求情况更清楚，但并不能说明居民现在买得更多了。",
-          "what": "美国经济分析局纳入更新后的投资和消费支出数据后，上调了实际国内生产总值的估计。投资数据的上修主要来自知识产权产品，尤其是软件。衡量本国居民消费和私人投资的私人国内最终销售也被上修。另行发布的月度报告则显示，居民花出去的钱更多了，但扣除物价变动的影响后，实际购买量在取整前略有下降。扣除通胀影响后的税后收入有所增加，个人储蓄率也有所上升。",
-          "why": "如果商品涨价，即使卖出的商品没有增加，商店收到的钱也可能更多。因此，按当期价格计算的名义支出反映的是花了多少钱，扣除物价变动影响后的实际支出反映的则是买了多少。这一区别关系到企业是否要增加库存或招人，也关系到利率：物价持续承压可能让政策制定者对放松货币政策更加谨慎，而实际支出疲软可能意味着消费者的预算吃紧。对居民来说，平均税后购买力提高，并不意味着各家各户的预算都更宽裕，因为工资、福利和物价的变化对不同家庭的影响各不相同。",
-          "uncertainty": "经济增速估计仍可能修订，而且对应的时期在月度支出报告所覆盖的月份开始前就已结束。国内生产总值的年化增速反映的是按当季速度折算的增长步伐，并非已经实现的全年增幅。实际消费支出增速取整后看似没有变化，也不代表实际支出完全没变。这些报告都不能确定美联储接下来会怎么做。",
-          "watch": "留意下次支出和收入报告，看看购买力增强是否带动实际消费支出增加。关注剔除食品和能源后的物价涨势是否放缓，以及下次国内生产总值估计是否保留对私人需求的上修。",
+          "title": "美国物价上涨，实际消费支出几乎没变",
+          "summary": "美国消费价格上涨，但剔除通胀影响后，家庭消费支出基本持平。",
+          "impact": "即使销量没增加，企业的营收也可能上涨。通胀若持续，借贷成本可能难以下降。",
+          "what": "美国经济分析局报告称，按美元金额计算，家庭消费支出有所增加；剔除通胀影响后，消费支出略有下降，但降幅很小，在汇总表中按精度取整后显示为持平。整体通胀同比加快，剔除食品和能源后的核心通胀同比也有所加快。实际可支配收入上升，也就是说，缴纳个人税款后剩余收入的购买力增强了。该机构指出，劳动报酬、政府福利和资产收入都推动了个人收入增长，并特别提到福利数据中包含美国联邦医疗保险的保费返还。",
+          "why": "商店营收上涨，可能是因为顾客买得更多，也可能是因为同样的商品更贵了。对比按美元金额计算的支出和剔除通胀后的实际支出，有助于从整个经济层面区分这两种情况。购买力增强能缓解家庭的部分压力，但不意味着人人都涨了工资，也不意味着各家面对的涨价幅度都相同。对需要借款经营或向顾客提供贷款、分期等付款方式的企业来说，实际消费走弱与通胀持续并存值得关注：即使需求显得没那么旺，较强的物价压力也可能让美联储更难放松货币政策。",
+          "uncertainty": "这些是全国层面的估算，并非家庭收支明细，而且本次发布修订了此前的数据。保费返还并非经常性的工资收入，消费支出基本持平也不足以说明趋势，更不能据此判断美联储接下来会如何调整利率。",
+          "watch": "留意下次发布的数据：实际消费支出是否回升，核心消费价格涨势是否放缓，以及不计保费返还的贡献后，收入能否保持增长。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "实际国内生产总值年化增速"
+              "label": "整体个人消费支出价格指数同比变动"
             },
             {
               "id": "m2",
-              "label": "实际私人国内最终销售年化增速"
+              "label": "核心个人消费支出价格指数同比变动"
             },
             {
               "id": "m3",
-              "label": "个人消费支出价格指数涨幅"
+              "label": "整体个人消费支出价格指数环比变动"
             },
             {
               "id": "m4",
-              "label": "核心个人消费支出价格指数涨幅（剔除食品和能源）"
+              "label": "名义个人消费支出环比变动"
             },
             {
               "id": "m5",
-              "label": "名义消费支出增速"
+              "label": "实际个人消费支出环比变动"
             },
             {
               "id": "m6",
-              "label": "实际消费支出增速（取整后）"
+              "label": "实际可支配收入环比变动"
             },
             {
               "id": "m7",
-              "label": "实际可支配收入增速"
-            },
-            {
-              "id": "m8",
               "label": "个人储蓄率"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "比亚迪财报解读：利润回升，现金流怎么看",
-          "summary": "比亚迪发布的财报显示，当季营收和归母净利润均有回升，但年初至报告期末的累计归母净利润仍同比下降。",
-          "impact": "年初至报告期末，经营活动产生的现金流有所改善，但用于长期资产的现金支出超过了经营活动产生的现金净额。",
-          "what": "比亚迪生产纯电动汽车和插电式混合动力汽车，也经营电池和电子业务。财报显示，当季营收和归属于母公司股东的净利润均高于上年同期。扣除公司认定的非经常性损益后，归母净利润也同比增长。相比之下，年初至报告期末的累计利润同比表现较弱，经营现金流却有所改善。公司解释现金流变化时提到，购买商品和接受服务支付的现金减少。公司在说明资产负债表变动时，将应收款项和存货增加归因于海外汽车业务增长及备货。",
-          "why": "当季利润提高，并不意味着确认的销售收入都已变成到手的现金。制造商可以在收到货款前确认收入，也可能在交付前就为生产汽车花钱。拓展海外业务可以带来新客户和更多销售市场，但也需要提前备货。经营现金流并未扣除购建长期资产所支付的现金。把这类支出和经营现金流放在一起看，就能理解为什么经营活动带来的现金增加后，可用于其他用途的钱未必更多。",
-          "uncertainty": "这份季度报告未经审计，披露的是年初至报告期末的累计经营现金流，并非当季数据。报告没有说明集团现金流的改善有多大程度来自海外汽车销售。向供应商支付的商品和服务款项减少，本身并不能说明汽车的单位生产成本下降。",
-          "watch": "留意后续财报中应收款项是否收回、存货相对于营收是上升还是下降。再把经营现金流和长期资产支出作比较，看看随着公司扩张，现金流的改善能否持续。",
+          "title": "中国将工业服务列为新贸易方案的重点",
+          "summary": "中国发布服务贸易方案，提出扩大工业配套、运输和专业服务出口。",
+          "impact": "如果措施落地，中国内地制造商和物流服务商在海外销售商品时，可能更容易同时销售配套服务。",
+          "what": "中国商务部等部门发布方案，将设计、检测、维护和物流视为可以通过跨境经营获得营收的业务。方案提出扩大电子运输和仓储单证的使用，推动跨境认可电子签名，并让更多企业能够获得贸易融资和出口信用保险。这里列出的贸易额是方案采用的历史基准数据，当时中国的服务进口额高于出口额。这些数据不是预测，也不能证明相关措施已经生效。",
+          "why": "对向海外销售设备的制造商来说，设备交付并不意味着客户关系就此结束。维护、故障诊断等支持服务能在设备使用期间带来营收，而买家如果更容易获得服务，设备停机时间也可能缩短。对物流企业来说，如果客户、银行和境外主管部门都认可相同的电子记录，就可能减少文书手续和延误。出口信用保险可以承保约定范围内的欠款风险，让出口商更容易允许海外客户延期付款，但投保有成本，也不能消除所有风险。",
+          "uncertainty": "方案明确了发展重点，但不保证具体企业的营收，也不能证明已经有新订单。实际收益取决于实施细则、境外合作方是否采用相关做法，以及在当地建立服务网络的成本。",
+          "watch": "留意实施通知、运输单证实际办理流程的变化，以及上市公司是否在披露中将海外服务营收与设备销售收入分开列示。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "当季营业收入"
+              "label": "历史年度服务出口额"
             },
             {
               "id": "m2",
-              "label": "当季营业收入增速"
+              "label": "历史年度服务进口额"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "美国拟加征关税，进口成本再受关注",
+          "summary": "美国贸易代表办公室在制造业产能过剩调查后提出加征关税，对不同中国商品拟作区别处理，并设有豁免安排。",
+          "impact": "这项提案关系到美国进口商的利润率和中国内地出口商的订单，但不意味着进口清关时已须缴纳新关税。",
+          "what": "美国贸易代表办公室公布了涉及中国及其他经济体的调查认定，并就拟采取的措施征求意见。针对中国的公告按关税归类区分商品，并在附件中列明豁免情形。公告还讨论了适用范围更广的备选方案，以备正在进行的沟通未能解决该机构指出的问题。拟议税率上限因商品而异，公告也说明了如何计入另一项措施所规定的特定关税。",
+          "why": "通常由进口商在清关时缴纳关税，但最终由谁承担成本，要看商业条款。美国零售商可能要求供应商降价、接受较低的利润率、更换采购来源，或把成本转嫁给消费者。对中国内地出口商来说，即使不用向美国海关缴税，零售商的这些做法也可能导致售价下降或订单减少。如果替代产品需要经过检测或获得客户批准，设备和零部件买家就可能难以迅速更换采购来源。因此，商品的关税归类、供应商合同和采购来源能否灵活调整，比公告中的关税税率更能说明实际影响。",
+          "uncertainty": "公告仍处于提案阶段。最终适用范围、豁免安排、税率和生效日期尚未确定。具体企业会受到什么影响，取决于其进出口的商品以及合同如何分摊成本。",
+          "watch": "关注公开征求意见记录和听证会，随后留意最终公告是否明确适用商品范围、关税抵扣方式和起征时间。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "未列入附件的中国商品拟议关税税率上限"
+            },
+            {
+              "id": "m2",
+              "label": "主要商品附件所列商品的拟议关税税率上限"
             },
             {
               "id": "m3",
-              "label": "当季归母净利润"
-            },
-            {
-              "id": "m4",
-              "label": "当季归母净利润增速"
-            },
-            {
-              "id": "m5",
-              "label": "年初至报告期末归母净利润增速"
-            },
-            {
-              "id": "m6",
-              "label": "年初至报告期末经营现金流"
-            },
-            {
-              "id": "m7",
-              "label": "年初至报告期末经营现金流增速"
-            },
-            {
-              "id": "m8",
-              "label": "年初至报告期末购建长期资产支付的现金"
+              "label": "满足条件时对中国商品适用的备选关税税率上限"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez les dates de publication : les rapports récents des entreprises sont présentés pour éclairer le contexte.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports d’entreprise récents sont présentés pour aider à comprendre le contexte.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice pour lequel une clôture est disponible conserve la date de la séance correspondante.",
-        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture indiqués correspondent à ces séances, et non aux échanges en cours."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice pour lequel des données sont disponibles conserve la date de la séance correspondante.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice pour lequel des données sont disponibles conserve la date de la séance correspondante."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "États-Unis : la croissance est revue à la hausse, tandis que les prix à la consommation continuent de monter",
-          "summary": "Les statisticiens fédéraux ont relevé leur estimation de la croissance estivale. Une autre publication montre qu’en octobre, les dépenses des ménages ont à peine varié une fois la hausse des prix prise en compte.",
-          "impact": "Pour les commerçants et les prêteurs, la révision du PIB donne une image plus précise de la demande passée. Elle ne prouve pas que les ménages achètent davantage aujourd’hui.",
-          "what": "Le Bureau américain d’analyse économique a revu à la hausse le produit intérieur brut corrigé de l’inflation après avoir intégré des données actualisées sur l’investissement et la consommation. La révision de l’investissement tient surtout aux produits de propriété intellectuelle, notamment aux logiciels. Les ventes finales aux acheteurs privés du pays, un indicateur centré sur les dépenses des ménages et l’investissement privé sur le territoire, ont également été revues à la hausse. Le rapport distinct sur octobre donne une autre image de la consommation : les ménages ont dépensé davantage en dollars, mais, une fois la hausse des prix prise en compte, le volume de leurs achats a légèrement reculé avant arrondi. Le revenu après impôts corrigé de l’inflation a progressé, tout comme le taux d’épargne.",
-          "why": "Un magasin peut encaisser davantage sans vendre plus de marchandises si ses prix augmentent. Les dépenses en dollars courants et les dépenses corrigées de l’inflation ne répondent donc pas à la même question. La différence compte pour les entreprises qui hésitent à commander davantage de marchandises ou à recruter. Elle compte aussi pour les taux d’intérêt : des pressions persistantes sur les prix peuvent inciter la banque centrale à la prudence avant d’assouplir sa politique, tandis qu’une consommation en volume peu dynamique peut signaler que les budgets des clients sont sous pression. Enfin, une amélioration du pouvoir d’achat moyen après impôts ne veut pas dire que le budget de chaque ménage s’est amélioré : les salaires, les prestations et les prix n’évoluent pas de la même façon pour tout le monde.",
-          "uncertainty": "L’estimation de la croissance peut encore être révisée. Elle porte sur une période qui s’est terminée avant celle couverte par le rapport mensuel sur les dépenses. Le taux de croissance annualisé du PIB exprime le rythme du trimestre en équivalent annuel, et non la croissance effectivement réalisée sur l’année entière. Le chiffre arrondi de la consommation corrigée de l’inflation ne signifie pas non plus qu’elle est restée parfaitement stable. Ces publications ne permettent pas de savoir ce que décidera la Réserve fédérale.",
-          "watch": "Dans la prochaine publication sur les dépenses et les revenus, regardez si le gain de pouvoir d’achat se traduit par une hausse des achats en volume. Vérifiez si les pressions sur les prix s’atténuent hors alimentation et énergie, et si la prochaine estimation du PIB maintient la révision à la hausse de la demande privée.",
+          "title": "Aux États-Unis, les prix ont augmenté et les dépenses réelles ont à peine bougé",
+          "summary": "Les prix à la consommation ont augmenté aux États-Unis, mais les dépenses des ménages sont restées pratiquement stables une fois l’inflation prise en compte.",
+          "impact": "Les entreprises peuvent encaisser davantage sans vendre plus, et une inflation persistante peut maintenir les coûts d’emprunt sous pression.",
+          "what": "Le Bureau américain d’analyse économique a indiqué que les ménages avaient dépensé davantage en dollars, mais que leur consommation corrigée de l’inflation avait légèrement reculé. Le recul est si faible qu’il n’apparaît pas après arrondi dans le tableau récapitulatif. L’inflation sur un an a accéléré, aussi bien dans son ensemble que hors alimentation et énergie. Le revenu disponible réel, c’est-à-dire le pouvoir d’achat du revenu restant après les impôts personnels, a augmenté. Le Bureau a cité les rémunérations, les prestations publiques et les revenus du patrimoine parmi les facteurs de hausse du revenu des ménages. Il a aussi signalé que les chiffres des prestations incluaient un remboursement de cotisations à Medicare.",
+          "why": "Le chiffre d’affaires d’un magasin peut augmenter parce que les clients achètent davantage ou parce que le même panier coûte plus cher. L’écart entre les dépenses en dollars et les dépenses corrigées de l’inflation aide à distinguer ces explications à l’échelle de l’économie. Pour les ménages, la hausse du pouvoir d’achat apporte un peu de répit, mais elle ne signifie pas que tout le monde a reçu une augmentation de salaire ou subi les mêmes hausses de prix. Pour les entreprises qui empruntent ou dont les clients achètent à crédit, il importe que les dépenses réelles restent peu dynamiques alors que l’inflation persiste : des pressions plus fortes sur les prix peuvent rendre plus difficile un assouplissement de la politique monétaire de la Réserve fédérale, même si la demande paraît moins vigoureuse.",
+          "uncertainty": "Il s’agit d’estimations nationales, et non d’un détail du budget des ménages. La publication révise aussi des chiffres antérieurs. Le remboursement n’est pas un revenu salarial régulier, et la quasi-stabilité des dépenses ne suffit ni à établir une tendance ni à déterminer la prochaine décision sur les taux d’intérêt.",
+          "watch": "La prochaine publication permettra de voir si les dépenses réelles repartent, si la hausse des prix hors alimentation et énergie ralentit et si la progression des revenus se maintient sans l’apport du remboursement.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Croissance annualisée du PIB réel"
+              "label": "Inflation globale des dépenses de consommation, variation annuelle"
             },
             {
               "id": "m2",
-              "label": "Croissance annualisée des ventes finales réelles aux acheteurs privés du pays"
+              "label": "Inflation des dépenses de consommation hors alimentation et énergie, variation annuelle"
             },
             {
               "id": "m3",
-              "label": "Inflation globale selon l’indice des prix PCE"
+              "label": "Inflation globale des dépenses de consommation, variation mensuelle"
             },
             {
               "id": "m4",
-              "label": "Inflation PCE hors alimentation et énergie"
+              "label": "Dépenses de consommation en valeur, variation mensuelle"
             },
             {
               "id": "m5",
-              "label": "Croissance des dépenses de consommation en dollars courants"
+              "label": "Dépenses de consommation en volume, variation mensuelle"
             },
             {
               "id": "m6",
-              "label": "Croissance des dépenses de consommation corrigées de l’inflation, après arrondi"
+              "label": "Revenu disponible réel, variation mensuelle"
             },
             {
               "id": "m7",
-              "label": "Croissance du revenu disponible réel"
-            },
-            {
-              "id": "m8",
               "label": "Taux d’épargne des ménages"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Résultats d’octobre : le rebond du bénéfice de BYD ne dit pas tout sur sa trésorerie",
-          "summary": "Le rapport publié par BYD en octobre montre un rebond du chiffre d’affaires et du bénéfice net attribuable aux actionnaires sur le trimestre. Ce bénéfice restait toutefois en baisse en cumul depuis le début de l’année.",
-          "impact": "Le flux de trésorerie d’exploitation s’est amélioré en cumul depuis le début de l’année, mais les paiements consacrés aux actifs à long terme ont dépassé les liquidités générées par l’activité.",
-          "what": "BYD fabrique des véhicules électriques à batterie et des hybrides rechargeables. Le groupe est également présent dans les batteries et l’électronique. Son rapport d’octobre a fait état d’une hausse du chiffre d’affaires trimestriel et du bénéfice net attribuable aux actionnaires par rapport à la même période de l’année précédente. Ce bénéfice a aussi progressé après exclusion des éléments que le groupe a classés comme non récurrents. En cumul depuis le début de l’année, la comparaison était moins favorable pour le bénéfice, alors même que le flux de trésorerie d’exploitation s’améliorait. Pour expliquer cette amélioration, le groupe a notamment cité une baisse des paiements pour les biens et services. Dans son commentaire sur le bilan, il a attribué la hausse des créances et des stocks à la croissance de ses activités automobiles à l’étranger et à la constitution de stocks pour ces marchés.",
-          "why": "Le rapport montre pourquoi un trimestre plus rentable ne signifie pas que toutes les ventes ont été encaissées. Un constructeur peut comptabiliser une vente alors qu’il attend encore le paiement, et engager des dépenses pour fabriquer des véhicules avant de les livrer. En se développant à l’étranger, il peut gagner des clients et accéder à davantage de marchés, mais il peut aussi devoir y constituer des stocks à l’avance. Par ailleurs, le flux de trésorerie d’exploitation ne tient pas compte des sommes versées pour construire ou acheter des actifs à long terme. Comparer ces paiements aux liquidités générées par l’activité aide à comprendre pourquoi une amélioration du flux de trésorerie d’exploitation ne laisse pas forcément plus d’argent disponible pour d’autres usages.",
-          "uncertainty": "Le rapport trimestriel n’a pas été audité. Il présente le flux de trésorerie d’exploitation en cumul depuis le début de l’année, et non pour le seul trimestre. Il ne précise pas dans quelle mesure les ventes de véhicules à l’étranger ont contribué à l’amélioration de la trésorerie du groupe. Une baisse des paiements aux fournisseurs de biens et services ne suffit pas à démontrer que le coût de fabrication par véhicule a diminué.",
-          "watch": "Dans les prochains états financiers, vérifiez si les créances sont encaissées et si les stocks augmentent ou diminuent par rapport aux ventes. Comparez de nouveau le flux de trésorerie d’exploitation aux paiements consacrés aux actifs à long terme pour voir si l’amélioration de la trésorerie se confirme à mesure que le groupe se développe.",
+          "title": "La Chine place les services industriels au cœur d’un nouveau plan commercial",
+          "summary": "La Chine a publié un plan sur le commerce des services qui prévoit de développer les exportations de services de soutien à l’industrie, de transport et de services professionnels.",
+          "impact": "Si les mesures sont mises en œuvre, les fabricants et les prestataires logistiques de Chine continentale pourraient vendre plus facilement des services à l’étranger en complément de leurs marchandises.",
+          "what": "Le ministère du Commerce et d’autres administrations ont publié un plan qui présente la conception, les essais, la maintenance et la logistique comme des activités pouvant générer des recettes à l’étranger. Le plan prévoit un recours accru aux documents électroniques de transport et d’entreposage, une meilleure reconnaissance des signatures électroniques d’un pays à l’autre et un accès plus large au financement du commerce et à l’assurance-crédit à l’exportation. Les montants des échanges présentés ici servent de référence historique au plan : à l’époque, la Chine importait plus de services qu’elle n’en exportait. Ce ne sont ni des projections ni la preuve que les mesures sont entrées en vigueur.",
+          "why": "Pour un fabricant qui vend du matériel à l’étranger, la relation avec le client ne s’arrête pas forcément à la livraison. La maintenance, le diagnostic et d’autres services d’assistance peuvent générer des recettes pendant toute la durée de vie du matériel. De leur côté, les acheteurs peuvent subir moins d’interruptions si ces services sont plus faciles d’accès. Pour les entreprises de logistique, la reconnaissance des documents électroniques pourrait réduire les formalités et les retards si les clients, les banques et les autorités étrangères acceptent les mêmes documents. L’assurance-crédit à l’exportation peut aider les entreprises à accorder des délais de paiement à leurs clients étrangers en couvrant certains risques d’impayés, mais elle a un coût et ne couvre pas tous les risques.",
+          "uncertainty": "Le plan fixe des priorités : il ne garantit pas de recettes aux entreprises et ne prouve pas qu’elles ont reçu de nouvelles commandes. Les avantages dépendront des règles d’application, de leur adoption par les partenaires étrangers et du coût de création de réseaux de services locaux.",
+          "watch": "À suivre : la publication des règles d’application, les changements concrets dans la gestion des documents de transport et les informations publiées par les sociétés cotées qui distinguent les recettes de services à l’étranger des ventes de matériel.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Chiffre d’affaires trimestriel"
+              "label": "Exportations annuelles de services, données historiques"
             },
             {
               "id": "m2",
-              "label": "Croissance du chiffre d’affaires trimestriel"
+              "label": "Importations annuelles de services, données historiques"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Les droits de douane proposés par les États-Unis remettent le coût des importations au premier plan",
+          "summary": "À la suite d’enquêtes sur les surcapacités industrielles, le représentant américain au Commerce a proposé de nouveaux droits de douane, avec un traitement distinct et des exemptions pour les produits chinois.",
+          "impact": "La proposition compte pour les marges des importateurs américains et les commandes des exportateurs de Chine continentale, mais elle n’instaure pas de nouveau droit exigible à la frontière.",
+          "what": "Le représentant américain au Commerce a annoncé ses conclusions concernant la Chine et d’autres économies, et a ouvert une consultation sur les mesures proposées. L’avis concernant la Chine distingue les produits selon leur classement tarifaire et indique les exemptions dans ses annexes. Il envisage aussi une mesure de portée plus large si les échanges en cours ne permettent pas de résoudre les problèmes relevés. Les plafonds proposés varient selon les produits, et l’avis explique comment certains droits relevant d’une autre mesure seraient pris en compte.",
+          "why": "En général, l’importateur paie les droits à la frontière, mais les conditions commerciales déterminent qui en supporte finalement le coût. Un détaillant américain peut demander à son fournisseur de baisser son prix, accepter une marge plus faible, changer de source d’approvisionnement ou répercuter le coût sur ses clients. Pour un exportateur de Chine continentale, ces choix peuvent se traduire par des prix de vente plus bas ou moins de commandes, même si ce n’est pas lui qui paie les droits aux douanes américaines. Les acheteurs de matériel et de pièces peuvent avoir plus de mal à changer rapidement de fournisseur si les produits de remplacement doivent être testés ou approuvés par leurs clients. Le classement tarifaire des produits, les contrats avec les fournisseurs et la facilité à changer de source d’approvisionnement sont donc plus utiles pour comprendre les effets possibles que le taux de droit de douane annoncé.",
+          "uncertainty": "L’avis présente une proposition. Les produits finalement concernés, les exemptions, les taux et la date d’entrée en vigueur restent à déterminer. Pour chaque entreprise, les effets dépendront des produits qu’elle importe ou exporte et de la façon dont ses contrats répartissent le coût.",
+          "watch": "À suivre : les commentaires déposés dans le cadre de la consultation et l’audience, puis la publication d’un avis final précisant les produits concernés, les déductions applicables aux droits et la date à laquelle leur perception commencerait.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Plafond proposé des droits de douane sur les produits chinois non visés par les annexes"
+            },
+            {
+              "id": "m2",
+              "label": "Plafond proposé des droits de douane sur les produits visés par l’annexe principale"
             },
             {
               "id": "m3",
-              "label": "Bénéfice net trimestriel attribuable aux actionnaires"
-            },
-            {
-              "id": "m4",
-              "label": "Croissance du bénéfice net trimestriel attribuable aux actionnaires"
-            },
-            {
-              "id": "m5",
-              "label": "Croissance du bénéfice net attribuable aux actionnaires en cumul depuis le début de l’année"
-            },
-            {
-              "id": "m6",
-              "label": "Flux de trésorerie d’exploitation en cumul depuis le début de l’année"
-            },
-            {
-              "id": "m7",
-              "label": "Croissance du flux de trésorerie d’exploitation en cumul depuis le début de l’année"
-            },
-            {
-              "id": "m8",
-              "label": "Paiements pour les actifs à long terme en cumul depuis le début de l’année"
+              "label": "Plafond des droits de douane sur les produits chinois selon la mesure de remplacement conditionnelle"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan para dar contexto.",
+      "status": "Esta edición recoge novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan para dar contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de la sesión a la que corresponden.",
-        "cn": "Los índices que seguimos bajaron en sus últimas sesiones verificadas. Los cierres publicados corresponden a esas sesiones y no reflejan la negociación actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión bursátil.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión bursátil."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Estados Unidos revisa al alza el crecimiento mientras siguen subiendo los precios al consumidor",
-          "summary": "Los estadísticos federales elevaron su estimación del crecimiento del verano. Por separado, un informe mensual mostró que el gasto de los hogares apenas cambió una vez descontada la inflación.",
-          "impact": "Para los comercios minoristas y las entidades de crédito, la revisión del PIB ofrece una imagen más precisa de la demanda pasada, pero no demuestra que los hogares estén comprando más ahora.",
-          "what": "La Oficina de Análisis Económico revisó al alza el producto interno bruto ajustado por inflación tras incorporar datos actualizados sobre la inversión y el gasto de los consumidores. La revisión de la inversión se debió sobre todo a los productos de propiedad intelectual, en particular al software. También se revisaron al alza las ventas finales a compradores privados nacionales, un indicador que se centra en el gasto de los hogares y la inversión privada dentro del país. El informe mensual de gasto mostró un panorama distinto: los hogares gastaron más dólares, pero, al ajustar por los precios, el volumen de sus compras bajó ligeramente antes de redondear la cifra. Los ingresos después de impuestos, ajustados por inflación, subieron, al igual que la tasa de ahorro.",
-          "why": "Una tienda puede ingresar más dinero sin vender más mercancía si sube los precios. Por eso, el gasto en dólares corrientes indica cuánto se pagó, mientras que el gasto ajustado por inflación indica cuánto se compró. La diferencia importa a las empresas que deciden si aumentar sus existencias o contratar más personal. También importa para las tasas de interés: si persiste la presión sobre los precios, las autoridades monetarias pueden actuar con cautela a la hora de bajar las tasas, mientras que un gasto real débil puede indicar que los consumidores tienen dificultades. Que el poder adquisitivo medio después de impuestos haya mejorado no significa que haya mejorado el presupuesto de cada hogar: los cambios en los salarios, las prestaciones y los precios afectan de forma distinta a cada familia.",
-          "uncertainty": "La estimación del crecimiento puede revisarse y corresponde a un período que terminó antes de comenzar el mes que cubre el informe de gasto. La tasa anualizada del PIB expresa el ritmo de crecimiento del trimestre como si se mantuviera durante todo el año; no indica cuánto creció ya la economía en ese plazo. La cifra redondeada del consumo real tampoco significa que el gasto no haya variado en absoluto. Los informes no permiten saber qué hará la Reserva Federal.",
-          "watch": "El próximo informe de gasto e ingresos permitirá ver si la mejora del poder adquisitivo se traduce en más gasto real. También queda por ver si se modera la presión sobre los precios sin contar los alimentos y la energía y si la próxima estimación del PIB mantiene la revisión al alza de la demanda privada.",
+          "title": "Los precios subieron en Estados Unidos, pero el gasto real apenas varió",
+          "summary": "Los precios al consumidor subieron en Estados Unidos, pero el gasto de los hogares apenas cambió al descontar la inflación.",
+          "impact": "Las empresas pueden ingresar más dólares sin vender más, y una inflación persistente puede mantener la presión sobre el coste de pedir dinero prestado.",
+          "what": "La Oficina de Análisis Económico informó de que los hogares gastaron más en dólares, mientras que el consumo ajustado por inflación bajó tan poco que, al redondear el dato, figura sin cambios en la tabla resumen. La inflación anual se aceleró tanto en el índice general como en el que excluye los alimentos y la energía. Aumentó la renta disponible real, es decir, el poder adquisitivo de los ingresos que quedan tras pagar los impuestos personales. La oficina señaló que la remuneración laboral, las prestaciones públicas y los rendimientos de los activos contribuyeron al aumento de los ingresos personales. También indicó que las cifras de prestaciones incluían un reembolso de primas de Medicare.",
+          "why": "Una tienda puede registrar más ingresos porque sus clientes compraron más productos o porque la misma cesta costaba más. La diferencia entre el gasto en dólares y el gasto real ayuda a distinguir esas explicaciones en el conjunto de la economía. Para los hogares, ganar poder adquisitivo supone cierto alivio, pero no significa que todo el mundo haya recibido un aumento de sueldo ni que haya afrontado las mismas subidas de precios. Para las empresas que piden préstamos o venden productos que se compran a crédito, importa que el gasto real esté débil y la inflación persista: si aumenta la presión sobre los precios, a la Reserva Federal le puede resultar más difícil relajar su política monetaria, aunque la demanda parezca menos firme.",
+          "uncertainty": "Son estimaciones nacionales, no un desglose del presupuesto de los hogares, y la publicación revisa datos previos. El reembolso no es un ingreso salarial recurrente. Que el gasto apenas haya variado no basta para establecer una tendencia ni determina la próxima decisión sobre los tipos de interés.",
+          "watch": "En la próxima publicación, la clave será ver si repunta el gasto real, si se modera la inflación subyacente y si los ingresos siguen creciendo sin el aporte del reembolso.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Crecimiento anualizado del PIB real"
+              "label": "Inflación general del gasto de consumo, variación interanual"
             },
             {
               "id": "m2",
-              "label": "Crecimiento anualizado de las ventas finales reales a compradores privados nacionales"
+              "label": "Inflación subyacente del gasto de consumo, variación interanual"
             },
             {
               "id": "m3",
-              "label": "Inflación general según el índice de precios PCE"
+              "label": "Inflación general del gasto de consumo, variación mensual"
             },
             {
               "id": "m4",
-              "label": "Inflación PCE sin alimentos ni energía"
+              "label": "Gasto nominal de los consumidores, variación mensual"
             },
             {
               "id": "m5",
-              "label": "Crecimiento del gasto de los consumidores en dólares corrientes"
+              "label": "Gasto real de los consumidores, variación mensual"
             },
             {
               "id": "m6",
-              "label": "Crecimiento del gasto de los consumidores ajustado por inflación, redondeado"
+              "label": "Renta disponible real, variación mensual"
             },
             {
               "id": "m7",
-              "label": "Crecimiento de la renta disponible ajustada por inflación"
-            },
-            {
-              "id": "m8",
               "label": "Tasa de ahorro personal"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Resultados de BYD: el repunte del beneficio y el flujo de caja muestran panoramas distintos",
-          "summary": "El informe de BYD mostró que los ingresos y el beneficio atribuible a los accionistas repuntaron en el trimestre, aunque el beneficio atribuible seguía por debajo del registrado en el mismo período del año anterior.",
-          "impact": "El flujo de caja operativo mejoró en lo que va de año, pero los pagos por activos a largo plazo superaron el efectivo generado por las operaciones.",
-          "what": "BYD fabrica vehículos eléctricos de batería e híbridos enchufables y también tiene negocios de baterías y electrónica. Su informe trimestral mostró que tanto los ingresos como el beneficio neto atribuible a los accionistas aumentaron respecto al mismo trimestre del año anterior. El beneficio atribuible también subió al excluir las partidas que la empresa clasificó como no recurrentes. La comparación del beneficio acumulado en el año fue menos favorable, pese a la mejora del flujo de caja operativo. Al explicar ese cambio en el flujo de caja, la empresa señaló que había pagado menos en efectivo por bienes y servicios. En su análisis del balance, atribuyó el aumento de las cuentas por cobrar y de las existencias al crecimiento del negocio de automóviles en el extranjero y a la acumulación de inventario para esos mercados.",
-          "why": "Un trimestre más rentable no significa que la empresa ya haya cobrado todas sus ventas. Un fabricante puede registrar una venta mientras espera el pago y gastar dinero en fabricar vehículos antes de entregarlos. La expansión internacional puede atraer más clientes y abrir nuevos mercados, pero también puede exigir que la empresa coloque existencias en esos mercados con antelación. Además, el flujo de caja operativo no descuenta los pagos para construir o comprar activos a largo plazo. Comparar esos pagos con el flujo de caja operativo ayuda a entender por qué generar más efectivo no siempre deja más dinero disponible para otros usos.",
-          "uncertainty": "El informe trimestral no está auditado y presenta el flujo de caja operativo acumulado en el año, no el del trimestre por separado. Tampoco muestra qué parte de la mejora del flujo de caja del grupo se debió a las ventas de vehículos en el extranjero. Que se haya pagado menos en efectivo a los proveedores de bienes y servicios no demuestra por sí solo que haya bajado el costo de fabricar cada vehículo.",
-          "watch": "Los próximos estados financieros permitirán ver si se cobran las cuentas pendientes y si las existencias aumentan o disminuyen en relación con las ventas. Volver a comparar el flujo de caja operativo con los pagos por activos a largo plazo ayudará a ver si la mejora se mantiene a medida que la empresa se expande.",
+          "title": "China sitúa los servicios industriales en el centro de su nuevo plan comercial",
+          "summary": "China publicó un plan de comercio de servicios que plantea ampliar las exportaciones de servicios de apoyo industrial, transporte y servicios profesionales.",
+          "impact": "Si se aplican las medidas, a los fabricantes y operadores logísticos de China continental podría resultarles más fácil vender servicios en el extranjero junto con sus productos.",
+          "what": "El Ministerio de Comercio y otros organismos publicaron un plan que presenta el diseño, las pruebas, el mantenimiento y la logística como actividades que pueden generar ingresos en mercados extranjeros. El plan propone usar más documentos electrónicos de transporte y almacenamiento, facilitar el reconocimiento internacional de las firmas electrónicas y ampliar el acceso a la financiación comercial y al seguro de crédito a la exportación. Los valores comerciales que se muestran aquí son la referencia histórica del plan y corresponden a un periodo en el que China importaba más servicios de los que exportaba. No son previsiones ni demuestran que las medidas ya se hayan aplicado.",
+          "why": "Para un fabricante que vende equipos en el extranjero, la relación con el cliente no tiene por qué acabar con la entrega. El mantenimiento, el diagnóstico de averías y otros servicios de apoyo pueden generar ingresos durante la vida útil del equipo, y los compradores podrían sufrir menos paradas si es más fácil acceder a esos servicios. Para las empresas de logística, el reconocimiento de los documentos electrónicos podría reducir los trámites y los retrasos si los clientes, los bancos y las autoridades extranjeras aceptan los mismos documentos. El seguro de crédito a la exportación puede facilitar que se dé más tiempo para pagar a los clientes extranjeros, porque cubre determinados riesgos de impago, aunque tiene un coste y no elimina todos los riesgos.",
+          "uncertainty": "El plan fija prioridades, pero no garantiza ingresos a las empresas ni demuestra que haya nuevos pedidos. Los beneficios dependerán de las normas de aplicación, de que las contrapartes extranjeras adopten las medidas y del coste de crear redes locales de servicio.",
+          "watch": "Las señales a seguir son los avisos sobre la aplicación del plan, los cambios prácticos en la documentación de transporte y los informes de empresas cotizadas que distingan los ingresos por servicios en el extranjero de las ventas de equipos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos operativos trimestrales"
+              "label": "Exportaciones anuales de servicios, dato histórico"
             },
             {
               "id": "m2",
-              "label": "Crecimiento de los ingresos operativos trimestrales"
+              "label": "Importaciones anuales de servicios, dato histórico"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "La propuesta de aranceles de Estados Unidos vuelve a poner el foco en los costes de importación",
+          "summary": "La Oficina del Representante Comercial de Estados Unidos propuso nuevos aranceles tras investigar el exceso de capacidad manufacturera. La propuesta prevé un trato diferenciado y exenciones para los productos chinos.",
+          "impact": "La propuesta afecta a los márgenes de los importadores estadounidenses y a los pedidos de los exportadores de China continental, pero no establece un nuevo arancel que deba pagarse en aduana.",
+          "what": "La Oficina del Representante Comercial de Estados Unidos anunció las conclusiones de sus investigaciones sobre China y otras economías y abrió una consulta sobre las medidas propuestas. El aviso sobre China distingue los productos según su clasificación arancelaria y detalla las exenciones en sus anexos. También plantea una alternativa de mayor alcance si las conversaciones en curso no resuelven los problemas señalados por la oficina. Los topes arancelarios propuestos varían según el producto, y el aviso explica cómo se tendrían en cuenta determinados aranceles establecidos en otra medida.",
+          "why": "Por lo general, el importador paga el arancel en aduana, pero quién acaba asumiendo el coste depende de las condiciones comerciales. Un minorista estadounidense podría pedirle al proveedor que baje el precio, aceptar un margen menor, cambiar de proveedor o trasladar el coste a los consumidores. Para un exportador de China continental, esas decisiones pueden significar precios de venta más bajos o menos pedidos, aunque no sea quien paga el arancel en la aduana estadounidense. Los compradores de equipos y repuestos pueden tener menos margen para cambiar rápido si las alternativas deben someterse a pruebas o necesitan la aprobación del cliente. Por eso, la clasificación de los productos, los contratos con los proveedores y la facilidad para cambiar de fuente de suministro dicen más que el tipo arancelario que acapara los titulares.",
+          "uncertainty": "El aviso contiene una propuesta. El alcance definitivo, las exenciones, los tipos arancelarios y la fecha de entrada en vigor siguen sin definirse. El efecto en cada empresa depende de lo que importe o exporte y de cómo sus contratos repartan el coste.",
+          "watch": "Los próximos hitos son el registro de comentarios y la audiencia, seguidos de un aviso definitivo que indique qué productos quedarían cubiertos, cómo se compensarían los aranceles y cuándo empezaría el cobro.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Tope arancelario propuesto para productos chinos no incluidos en los anexos"
+            },
+            {
+              "id": "m2",
+              "label": "Tope arancelario propuesto para productos del anexo principal"
             },
             {
               "id": "m3",
-              "label": "Beneficio neto trimestral atribuible a los accionistas"
-            },
-            {
-              "id": "m4",
-              "label": "Crecimiento del beneficio neto trimestral atribuible a los accionistas"
-            },
-            {
-              "id": "m5",
-              "label": "Crecimiento del beneficio atribuible a los accionistas acumulado en el año"
-            },
-            {
-              "id": "m6",
-              "label": "Flujo de caja operativo acumulado en el año"
-            },
-            {
-              "id": "m7",
-              "label": "Crecimiento del flujo de caja operativo acumulado en el año"
-            },
-            {
-              "id": "m8",
-              "label": "Pagos en efectivo por activos a largo plazo acumulados en el año"
+              "label": "Tope arancelario alternativo y condicionado para productos chinos"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業決算は、背景を理解するための解説として掲載しています。",
+      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "終値を確認できなかったものがあります。確認できた指数については、それぞれの取引日を記載しています。",
-        "cn": "対象の株価指数はいずれも、終値を確認できた直近の取引日に下落しました。記載の終値はその取引日のもので、現在の相場を示すものではありません。"
+        "us": "終値を確認できなかった指数もあります。確認できた指数は、それぞれの取引日で掲載しています。",
+        "cn": "終値を確認できなかった指数もあります。確認できた指数は、それぞれの取引日で掲載しています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "米国の経済成長率は上方修正、消費者が支払う物価は上昇が続く",
-          "summary": "米政府の統計当局は、夏場の経済成長率の推計を上方修正しました。一方、別に公表された月次統計では、物価上昇の影響を除いた家計の消費支出はほとんど変わりませんでした。",
-          "impact": "小売業者や金融機関にとって、ＧＤＰの上方修正は過去の需要をより正確に把握する材料ですが、家計がいま買い物を増やしている証拠ではありません。",
-          "what": "米経済分析局は、投資と個人消費の最新データを反映し、物価変動の影響を除いた国内総生産（実質ＧＤＰ）の推計を上方修正しました。投資の上方修正を主に押し上げたのは、ソフトウェアなどの知的財産生産物です。国内の家計消費と民間投資に着目した指標である国内民間最終需要も上方修正されました。一方、別の月次統計では、家計が実際に支払った金額は増えましたが、物価変動の影響を除いた消費支出は、端数処理前の値ではわずかに減りました。物価変動の影響を除いた税引き後の所得は増え、貯蓄率も上がりました。",
-          "why": "店は、値上げすれば販売量が増えなくても売上高が伸びることがあります。支払った金額をそのまま見る名目支出と、物価変動の影響を除いて見る実質支出は、違うことを教えてくれます。この違いは、仕入れや人員を増やすかどうかを決める企業にとって重要です。金利を考える上でも、物価の上昇圧力が続けば、金融当局は金融緩和に慎重になりやすい一方、実質支出の弱さは家計に余裕がなくなっている兆しかもしれません。また、税引き後の所得で買えるものが平均で増えても、どの家計も楽になったとは限りません。賃金や給付、物価の変化がもたらす影響は、家計によって異なります。",
-          "uncertainty": "成長率の推計は今後も改定される可能性があります。また、ＧＤＰの対象期間は、消費支出の月次統計の対象月が始まる前に終わっています。年率換算のＧＤＰ成長率は、その四半期の伸びを年間のペースに換算したもので、年間の実績ではありません。端数処理後の実質個人消費が横ばいに見えても、まったく変化がなかったわけではありません。どちらの統計からも、米連邦準備制度理事会がどう動くかは分かりません。",
-          "watch": "次回の支出・所得統計では、購買力の改善が実質支出の増加につながっているかが焦点です。食品とエネルギーを除いた物価の上昇圧力が和らぐか、次回のＧＤＰ推計でも国内民間最終需要の上方修正が維持されるかも注目点です。",
+          "title": "米国の物価は上昇、実質消費はほぼ横ばい",
+          "summary": "米国の消費者が購入する商品やサービスの価格は上がりましたが、物価の影響を除くと、家計の支出はほぼ横ばいでした。",
+          "impact": "企業は販売量が増えなくても売上高が伸びることがあります。また、物価上昇が続けば、借入コストが下がりにくくなることがあります。",
+          "what": "米経済分析局によると、ドルで見た家計の支出は増えましたが、物価の影響を除いた実質消費はわずかに減り、公表資料の概要表では丸め処理により横ばいと表示されました。前年と比べた物価の上昇率は、全体でも、食品とエネルギーを除いても高まりました。個人が税金を払った後に手元に残る所得の購買力を示す実質可処分所得は増えました。同局は、個人所得が増えた要因として、雇用者報酬、政府からの給付、資産から得られる所得を挙げ、給付の集計にはメディケアの保険料の払い戻しが含まれると説明しました。",
+          "why": "店の売上高が増えても、客が買う量を増やしたのか、同じ買い物にかかる金額が上がったのかは、売上高だけでは分かりません。物価調整前と調整後の支出を比べると、経済全体でどちらの要因が働いているかを見分けやすくなります。家計にとって購買力の向上は負担をいくらか和らげますが、誰もが賃上げを受けたわけでも、同じように物価上昇の影響を受けたわけでもありません。借り入れをする企業や、顧客がローンを組んで買う商品を扱う企業にとっては、実質消費が伸び悩むなかで物価上昇が続いていることが重要です。物価の上昇圧力が強まると、需要の勢いが弱く見えても、米連邦準備制度理事会は金融政策を緩和しにくくなります。",
+          "uncertainty": "この統計は全国の推計で、個々の家計の収支を示すものではありません。また、今回の公表では過去の数値も改定されています。保険料の払い戻しは継続的に得られる賃金収入ではありません。支出がほぼ横ばいだったことだけでは、今後の傾向は分からず、次の政策金利の判断も決まりません。",
+          "watch": "次回の発表では、実質消費が持ち直すか、食品とエネルギーを除いた物価の伸びが鈍るか、払い戻しによる押し上げがなくても所得の伸びが続くかが注目点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "実質ＧＤＰ成長率（年率換算）"
+              "label": "個人消費支出物価指数（総合、前年同月比）"
             },
             {
               "id": "m2",
-              "label": "実質国内民間最終需要の伸び率（年率換算）"
+              "label": "個人消費支出物価指数（コア、前年同月比）"
             },
             {
               "id": "m3",
-              "label": "ＰＣＥ物価指数上昇率（総合）"
+              "label": "個人消費支出物価指数（総合、前月比）"
             },
             {
               "id": "m4",
-              "label": "コアＰＣＥ物価指数上昇率（食品・エネルギーを除く）"
+              "label": "名目個人消費支出（前月比）"
             },
             {
               "id": "m5",
-              "label": "名目個人消費支出の伸び率"
+              "label": "実質個人消費支出（前月比）"
             },
             {
               "id": "m6",
-              "label": "実質個人消費支出の伸び率（端数処理後）"
+              "label": "実質可処分所得（前月比）"
             },
             {
               "id": "m7",
-              "label": "実質可処分所得の伸び率"
-            },
-            {
-              "id": "m8",
               "label": "個人貯蓄率"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "比亜迪の決算解説：利益は持ち直し、資金繰りには別の動き",
-          "summary": "比亜迪の決算資料では、四半期の売上高と親会社株主に帰属する純利益が持ち直しました。ただし、年初来累計の同純利益は前年同期を下回りました。",
-          "impact": "年初来累計の営業キャッシュフローは改善しましたが、長期資産の取得などに支払った現金は、本業で生み出した現金を上回りました。",
-          "what": "比亜迪は、バッテリー式電気自動車やプラグインハイブリッド車を製造し、電池や電子機器の事業も手がけています。決算資料によると、四半期の売上高と親会社株主に帰属する純利益は前年同期を上回りました。会社が臨時的と分類した損益を除いても、同純利益は増えました。一方、年初来累計の純利益は前年同期を下回りましたが、営業キャッシュフローは改善しました。会社は、商品やサービスの購入に伴う現金支払いが減ったことを、キャッシュフロー改善の要因に挙げています。また、売掛金や在庫が増えた理由として、海外自動車事業の拡大と、販売に備えた在庫の積み増しを挙げています。",
-          "why": "四半期の利益が増えても、売上代金がすべて現金で入ってきたとは限りません。メーカーは代金を受け取る前に売上を計上できますし、車を引き渡す前に製造費用を支払うこともあります。海外展開で顧客や販売先の市場を増やせる一方、販売に備えてあらかじめ在庫を用意する必要もあります。また、営業キャッシュフローには、長期資産を建設したり購入したりするための現金支出は含まれません。その支出と営業キャッシュフローをあわせて見ると、本業で生み出す現金が増えても、ほかの用途に使えるお金が増えるとは限らない理由が分かります。",
-          "uncertainty": "四半期の決算資料は監査を受けていません。また、営業キャッシュフローは年初来の累計で、四半期だけの数字ではありません。グループ全体の営業キャッシュフローの改善に、海外での自動車販売がどの程度寄与したかは分かりません。商品やサービスの代金として取引先に支払った現金が減っただけでは、車両あたりの製造原価が下がったとは言えません。",
-          "watch": "次の決算では、売掛金が回収されているか、売上高に対して在庫が増えているか減っているかが焦点です。事業を拡大するなかで現金収支の改善が続くかを見るには、営業キャッシュフローと長期資産への現金支出の比較も手がかりになります。",
+          "title": "中国、新たな貿易計画の柱に産業向けサービス",
+          "summary": "中国はサービス貿易の計画を公表し、産業を支えるサービスや輸送、専門サービスの輸出を拡大する方針を示しました。",
+          "impact": "施策が実行されれば、中国本土のメーカーや物流会社は、海外で製品とあわせてサービスを販売しやすくなる可能性があります。",
+          "what": "中国商務省などが公表した計画は、設計、試験、保守、物流を、海外の顧客からも売上を得られる事業と位置づけています。輸送や倉庫業務に使う書類の電子化を広げ、電子署名が国をまたいで認められやすくし、貿易金融や輸出信用保険を利用しやすくする方針です。ここに掲載した貿易額は、中国のサービス輸入が輸出を上回っていた時期の実績で、計画の基準として使われています。将来の見通しでも、施策の効果がすでに出たことを示す数字でもありません。",
+          "why": "メーカーが海外に機器を販売しても、納品で顧客との取引が終わるとは限りません。保守や故障診断などのサポートは、機器が使われている間の売上につながります。買い手にとっても、サービスを受けやすくなれば、機器が止まる時間を短くできる可能性があります。物流会社にとっては、顧客や銀行、海外当局が同じ電子書類を受け入れれば、事務作業や遅れを減らせる可能性があります。輸出信用保険は、代金が支払われない場合に契約で定められたリスクを補償するため、海外の顧客に支払い猶予を与えやすくなります。ただし、保険料がかかり、すべてのリスクがなくなるわけではありません。",
+          "uncertainty": "計画が示すのは政策の優先事項です。個々の企業の売上を保証するものでも、新規受注があったことを示すものでもありません。どの程度の効果が出るかは、実施に向けた規則、海外の関係先がこうした仕組みを採用するかどうか、現地でサービス網を整える費用に左右されます。",
+          "watch": "今後の注目点は、実施に関する通知、輸送書類の実務上の変更、上場企業が海外でのサービス売上高と機器の売上高を分けて開示するかどうかです。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "四半期売上高"
+              "label": "サービス輸出額（年次実績）"
             },
             {
               "id": "m2",
-              "label": "四半期売上高の伸び率"
+              "label": "サービス輸入額（年次実績）"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "米国の関税案で輸入コストが再び焦点に",
+          "summary": "米通商代表部は、製造業の過剰生産能力に関する調査を受け、新たな関税を提案しました。中国製品は品目によって扱いが異なり、適用除外もあります。",
+          "impact": "この提案は米国の輸入業者の利益率や中国本土の輸出業者の受注に関わりますが、現時点で輸入時に新たな関税の支払いが必要になったわけではありません。",
+          "what": "米通商代表部は、中国などを対象とする調査結果を公表し、提案した措置について意見募集を始めました。中国に関する告示では、製品を関税分類ごとに分け、付属文書で適用除外を示しています。また、協議を続けても同部が指摘した問題を解消できない場合には、対象を広げる代替案も示しています。提案する税率の上限は品目によって異なり、別の措置で課される所定の関税をどのように考慮するかも説明しています。",
+          "why": "輸入時に関税を納めるのは通常、輸入業者ですが、最終的に誰が負担するかは取引条件によります。米国の小売業者は、仕入れ先に値下げを求める、自社の利益率の低下を受け入れる、調達先を変える、消費者向けの価格に転嫁するといった対応を取ることがあります。中国本土の輸出業者は、米国の税関に直接支払う立場でなくても、こうした対応によって販売価格が下がったり、受注が減ったりする可能性があります。機器や部品の買い手は、代替品に試験や顧客の承認が必要なら、調達先をすぐには変えにくい場合があります。そのため、実際の影響を理解するには、表に出ている関税率だけでなく、品目の関税分類、仕入れ先との契約、調達先をどれだけ柔軟に変えられるかが重要です。",
+          "uncertainty": "告示は提案段階です。最終的な対象範囲、適用除外、税率、発効日はまだ決まっていません。各企業への影響は、何を輸出入しているか、契約で費用負担をどう定めているかによって異なります。",
+          "watch": "意見募集で公開される提出資料や公聴会の内容が注目点です。その後は、対象品目、他の関税との調整、徴収開始時期を明記する最終告示が焦点となります。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "付属文書に記載のない中国製品の提案関税率上限"
+            },
+            {
+              "id": "m2",
+              "label": "主要品目の付属文書に記載された製品の提案関税率上限"
             },
             {
               "id": "m3",
-              "label": "四半期の親会社株主に帰属する純利益"
-            },
-            {
-              "id": "m4",
-              "label": "四半期の親会社株主に帰属する純利益の伸び率"
-            },
-            {
-              "id": "m5",
-              "label": "年初来累計の親会社株主に帰属する純利益の伸び率"
-            },
-            {
-              "id": "m6",
-              "label": "年初来累計の営業キャッシュフロー"
-            },
-            {
-              "id": "m7",
-              "label": "年初来累計の営業キャッシュフローの伸び率"
-            },
-            {
-              "id": "m8",
-              "label": "年初来累計の長期資産取得などに伴う現金支出"
+              "label": "中国製品の条件付き代替案における関税率上限"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes de empresas são apresentados para dar contexto.",
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: relatórios empresariais recentes são apresentados para dar contexto.",
       "marketSummary": {
-        "us": "Não foi possível confirmar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão a que eles se referem.",
-        "cn": "Os índices acompanhados caíram em seus pregões mais recentes com dados confirmados. Os fechamentos se referem aos pregões nas datas indicadas, não às negociações atuais."
+        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do seu próprio pregão.",
+        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do seu próprio pregão."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Crescimento dos EUA é revisado para cima enquanto os preços ao consumidor continuam subindo",
-          "summary": "Os estatísticos do governo federal elevaram a estimativa de crescimento no verão, enquanto outro relatório mostrou que os gastos das famílias pouco mudaram em outubro, descontada a inflação.",
-          "impact": "Para varejistas e instituições de crédito, a revisão do PIB dá uma visão mais precisa da demanda passada, mas não é sinal de que as famílias estejam comprando mais agora.",
-          "what": "O Escritório de Análise Econômica dos EUA revisou para cima o produto interno bruto (PIB) descontada a inflação, depois de incorporar dados atualizados sobre investimentos e consumo. O principal motivo da revisão dos investimentos foram os produtos de propriedade intelectual, sobretudo software. As vendas finais a compradores privados no país, indicador que considera os gastos das famílias e os investimentos privados dentro dos EUA, também foram revisadas para cima. O relatório de outubro sobre os gastos das famílias mostra um quadro diferente: as pessoas gastaram mais em dólares, mas, descontado o efeito dos preços, o volume comprado caiu ligeiramente antes do arredondamento. A renda após impostos subiu em termos reais, e a taxa de poupança aumentou.",
-          "why": "Uma loja pode faturar mais sem vender mais mercadorias se os preços subirem. Por isso, os gastos em dólares correntes e os gastos descontada a inflação respondem a perguntas diferentes. Essa distinção importa para empresas que precisam decidir se devem reforçar os estoques ou contratar pessoal. Também importa para os juros: a pressão persistente sobre os preços pode levar o banco central a agir com cautela antes de reduzir os juros, enquanto gastos fracos em termos reais podem indicar que os consumidores estão com o orçamento apertado. A melhora do poder de compra médio após impostos não significa que o orçamento de todas as famílias tenha melhorado: mudanças em salários, benefícios e preços afetam cada família de forma diferente.",
-          "uncertainty": "A estimativa de crescimento pode ser revisada e se refere a um período que terminou antes do mês coberto pelo relatório de gastos. A taxa anualizada do PIB indica o ritmo sugerido pelo desempenho do trimestre, não o crescimento já registrado ao longo de todo o ano. O dado arredondado do consumo real também não significa que ele tenha ficado exatamente no mesmo nível. Nenhuma das divulgações indica com certeza o que o banco central dos EUA fará.",
-          "watch": "Na próxima divulgação de gastos e renda, vale observar se o maior poder de compra se traduz em mais consumo em termos reais, se a pressão sobre os preços diminui quando se excluem alimentos e energia e se a próxima estimativa do PIB mantém a revisão para cima da demanda privada.",
+          "title": "Preços sobem nos Estados Unidos, mas gastos reais mal se mexem",
+          "summary": "Os preços ao consumidor subiram nos Estados Unidos, mas os gastos das famílias ficaram praticamente estáveis após o ajuste pela inflação.",
+          "impact": "As empresas podem faturar mais em dólares sem vender mais, e a inflação persistente pode manter os custos de empréstimos e financiamentos sob pressão.",
+          "what": "O Bureau de Análise Econômica dos Estados Unidos informou que as famílias gastaram mais em dólares, mas que o consumo ajustado pela inflação recuou ligeiramente. A queda foi tão pequena que, com o arredondamento, aparece como estabilidade na tabela-resumo. A inflação anual acelerou tanto no índice geral quanto no índice que exclui alimentos e energia. A renda disponível real, ou seja, o poder de compra da renda que sobra após o pagamento de impostos pessoais, aumentou. O órgão apontou a remuneração do trabalho, os benefícios do governo e os rendimentos de ativos como fatores que contribuíram para a alta da renda pessoal. Também destacou, nos dados de benefícios, um reembolso de mensalidades do Medicare.",
+          "why": "Uma loja pode registrar receita maior porque os clientes compraram mais produtos ou porque os mesmos produtos ficaram mais caros. A diferença entre os gastos em dólares e os gastos reais ajuda a distinguir essas explicações no conjunto da economia. Para as famílias, o aumento do poder de compra traz algum alívio, mas não significa que todos receberam aumento de salário ou enfrentaram as mesmas altas de preços. Para empresas que tomam empréstimos ou vendem produtos por meio de financiamento, a combinação de gastos reais fracos e inflação persistente é importante: uma pressão maior sobre os preços pode dificultar que o Federal Reserve afrouxe a política monetária, mesmo que a demanda pareça menos forte.",
+          "uncertainty": "São estimativas nacionais, não um detalhamento do orçamento das famílias, e a divulgação revisa dados anteriores. O reembolso não é renda salarial recorrente, e a estabilidade aproximada dos gastos não estabelece uma tendência nem determina a próxima decisão sobre juros.",
+          "watch": "Na próxima divulgação, observe se os gastos reais ganham força, se o núcleo da inflação desacelera e se a renda continua crescendo sem a contribuição do reembolso.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Crescimento anualizado do PIB real"
+              "label": "Inflação geral do consumo, variação anual"
             },
             {
               "id": "m2",
-              "label": "Crescimento real anualizado das vendas finais a compradores privados no país"
+              "label": "Núcleo da inflação do consumo, variação anual"
             },
             {
               "id": "m3",
-              "label": "Inflação cheia medida pelo índice de preços PCE"
+              "label": "Inflação geral do consumo, variação mensal"
             },
             {
               "id": "m4",
-              "label": "Inflação medida pelo índice de preços PCE, excluindo alimentos e energia"
+              "label": "Gastos nominais do consumidor, variação mensal"
             },
             {
               "id": "m5",
-              "label": "Crescimento nominal dos gastos dos consumidores"
+              "label": "Gastos reais do consumidor, variação mensal"
             },
             {
               "id": "m6",
-              "label": "Crescimento real dos gastos dos consumidores, com arredondamento"
+              "label": "Renda disponível real, variação mensal"
             },
             {
               "id": "m7",
-              "label": "Crescimento da renda disponível real"
-            },
-            {
-              "id": "m8",
               "label": "Taxa de poupança pessoal"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "Balanço de outubro: a recuperação do lucro e o fluxo de caixa da BYD mostram quadros diferentes",
-          "summary": "O relatório de outubro da BYD mostrou recuperação da receita e do lucro atribuível aos acionistas no trimestre, embora esse lucro ainda estivesse em queda no acumulado do ano.",
-          "impact": "A geração de caixa das operações melhorou no acumulado do ano, mas os desembolsos com ativos de longo prazo superaram o caixa gerado pelas operações.",
-          "what": "A BYD fabrica veículos elétricos a bateria e híbridos plug-in e também atua nos setores de baterias e eletrônicos. O relatório de outubro mostrou que a receita e o lucro líquido atribuível aos acionistas cresceram no trimestre em relação ao mesmo período do ano anterior. O lucro atribuível aos acionistas também aumentou quando se excluíram os itens que a empresa classificou como não recorrentes. No acumulado do ano, o desempenho do lucro foi mais fraco, embora o fluxo de caixa operacional tenha melhorado. Para explicar a mudança no fluxo de caixa, a empresa citou desembolsos menores com bens e serviços. Na análise do balanço patrimonial, a empresa atribuiu o aumento das contas a receber e dos estoques à expansão e à formação de estoques nas operações de veículos no exterior.",
-          "why": "O relatório mostra por que um trimestre mais lucrativo não significa que todas as vendas já viraram dinheiro em caixa. Uma fabricante pode registrar uma venda antes de receber o pagamento e gastar com a produção de veículos antes de entregá-los. A expansão para o exterior pode atrair clientes e abrir mercados, mas também pode exigir que a empresa abasteça esses mercados com antecedência. O fluxo de caixa operacional é apurado sem descontar os desembolsos para construir ou comprar ativos de longo prazo. Comparar esses gastos com o caixa gerado pelas operações ajuda a entender por que gerar mais caixa não significa necessariamente ter mais dinheiro disponível para outros usos.",
-          "uncertainty": "O relatório trimestral não foi auditado e apresenta o fluxo de caixa operacional acumulado no ano, não o do trimestre isolado. Ele não informa quanto da melhora no caixa do grupo veio das vendas de veículos no exterior. Pagamentos menores a fornecedores de bens e serviços não demonstram, por si só, que o custo de fabricação de cada veículo caiu.",
-          "watch": "Nas próximas demonstrações financeiras, vale observar se a empresa recebe os valores em aberto e se os estoques aumentam ou diminuem em relação às vendas. Uma nova comparação entre o caixa gerado pelas operações e os desembolsos com ativos de longo prazo ajuda a avaliar se a melhora no caixa se mantém à medida que a empresa se expande.",
+          "title": "China coloca serviços industriais no centro de um novo plano comercial",
+          "summary": "A China publicou um plano para o comércio de serviços que prevê ampliar as exportações de serviços de apoio industrial, transporte e serviços profissionais.",
+          "impact": "Se as medidas forem implementadas, fabricantes e empresas de logística da China continental poderão ter mais facilidade para vender serviços junto com mercadorias no exterior.",
+          "what": "O Ministério do Comércio e outros órgãos divulgaram um plano que trata atividades como projeto, testes, manutenção e logística como fontes de receita no comércio internacional. O plano propõe ampliar o uso de documentos eletrônicos de transporte e armazenagem, facilitar o reconhecimento de assinaturas eletrônicas entre países e ampliar o acesso ao financiamento comercial e ao seguro de crédito à exportação. Os valores de comércio apresentados aqui são a referência histórica do plano, de um período em que a China importava mais serviços do que exportava. Não são projeções nem demonstram que as medidas entraram em vigor.",
+          "why": "Para um fabricante que vende equipamentos no exterior, a relação com o cliente não precisa terminar na entrega da máquina. Manutenção, diagnóstico de problemas e outros serviços de suporte podem gerar receita ao longo da vida útil do equipamento. Para o comprador, a facilidade de acesso a esses serviços pode reduzir o tempo em que a máquina fica parada. Para empresas de logística, o reconhecimento de documentos eletrônicos pode reduzir a burocracia e os atrasos, desde que clientes, bancos e autoridades estrangeiras aceitem os mesmos registros. O seguro de crédito à exportação pode facilitar a concessão de prazos de pagamento a clientes no exterior porque cobre determinados riscos de inadimplência, mas tem custo e não elimina todos os riscos.",
+          "uncertainty": "O plano define prioridades, mas não garante receita para empresas específicas nem comprova a existência de novos pedidos. Os benefícios dependerão das regras de implementação, da adesão das contrapartes no exterior e do custo de montar redes locais de atendimento.",
+          "watch": "Acompanhe a publicação das regras de implementação, mudanças práticas na documentação de transporte e divulgações de empresas listadas em bolsa que apresentem separadamente a receita de serviços no exterior e a receita da venda de equipamentos.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita operacional trimestral"
+              "label": "Exportações anuais de serviços, dados históricos"
             },
             {
               "id": "m2",
-              "label": "Crescimento da receita operacional trimestral"
+              "label": "Importações anuais de serviços, dados históricos"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "Proposta de tarifas dos Estados Unidos volta a pôr o custo das importações em foco",
+          "summary": "O Representante Comercial dos Estados Unidos propôs novas tarifas após investigações sobre o excesso de capacidade industrial, com tratamento diferenciado e isenções para produtos chineses.",
+          "impact": "A proposta é relevante para as margens dos importadores dos Estados Unidos e para os pedidos recebidos por exportadores da China continental, mas não cria uma nova tarifa a ser paga na alfândega.",
+          "what": "O Representante Comercial dos Estados Unidos anunciou decisões que abrangem a China e outras economias e abriu consulta pública sobre as medidas propostas. O aviso sobre a China separa os produtos por classificação tarifária e identifica isenções nos anexos. Também apresenta uma alternativa mais abrangente caso as negociações em andamento não resolvam os problemas apontados pelo órgão. Os tetos propostos variam conforme o produto, e o aviso explica como seriam consideradas determinadas tarifas de outra medida.",
+          "why": "Em geral, o importador paga a tarifa na alfândega, mas quem acaba arcando com o custo depende das condições comerciais. Um varejista dos Estados Unidos pode pedir que o fornecedor reduza o preço, aceitar uma margem menor, trocar de fornecedor ou repassar o custo aos consumidores. Para um exportador da China continental, essas escolhas podem significar preços de venda mais baixos ou menos pedidos, mesmo que ele não seja responsável pelo pagamento à alfândega dos Estados Unidos. Compradores de equipamentos e peças podem ter menos margem para trocar rapidamente de fornecedor se as alternativas exigirem testes de produto ou aprovação dos clientes. Por isso, a classificação dos produtos, os contratos com fornecedores e a facilidade de mudar de fornecedor dizem mais do que a alíquota anunciada.",
+          "uncertainty": "O aviso apresenta uma proposta. A abrangência final, as isenções, as alíquotas e a data de entrada em vigor ainda não foram definidas. O efeito sobre cada empresa depende do que ela importa ou exporta e de como seus contratos distribuem o custo.",
+          "watch": "Acompanhe as manifestações registradas na consulta pública e a audiência. Depois, confira se o aviso final especifica quais produtos serão abrangidos, como as tarifas serão compensadas e quando a cobrança começaria.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Teto tarifário proposto para produtos chineses fora dos anexos"
+            },
+            {
+              "id": "m2",
+              "label": "Teto tarifário proposto para produtos do anexo principal"
             },
             {
               "id": "m3",
-              "label": "Lucro líquido trimestral atribuível aos acionistas"
-            },
-            {
-              "id": "m4",
-              "label": "Crescimento do lucro líquido trimestral atribuível aos acionistas"
-            },
-            {
-              "id": "m5",
-              "label": "Crescimento do lucro líquido atribuível aos acionistas no acumulado do ano"
-            },
-            {
-              "id": "m6",
-              "label": "Fluxo de caixa operacional no acumulado do ano"
-            },
-            {
-              "id": "m7",
-              "label": "Crescimento do fluxo de caixa operacional no acumulado do ano"
-            },
-            {
-              "id": "m8",
-              "label": "Desembolsos com ativos de longo prazo no acumulado do ano"
+              "label": "Teto tarifário alternativo e condicionado para produtos chineses"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的財經動態。請留意各則消息的發布日期；近期企業財報用於解讀背景。",
+      "status": "本期涵蓋美國與中國的最新動態。請留意各則內容的發布日期；近期企業報告以背景解說的方式呈現。",
       "marketSummary": {
-        "us": "部分收盤資料未能核實。可提供收盤資料的指數，均保留各自的交易日期。",
-        "cn": "追蹤的指數在各自最近可核實的交易日均收跌。標註日期的收盤結果只反映當天行情，不代表目前走勢。"
+        "us": "部分收盤數據未能核實。各項有資料的指數均保留各自的交易日期。",
+        "cn": "部分收盤數據未能核實。各項有資料的指數均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "美國經濟成長上修，消費物價持續上漲",
-          "summary": "美國官方統計機構上修夏季經濟成長估計；另份月度報告顯示，扣除通膨影響後，當月家庭支出幾乎沒有變動。",
-          "impact": "對零售商與放款機構來說，國內生產毛額的上修讓過去的需求更清楚，但不代表家庭現在買得更多。",
-          "what": "美國經濟分析局納入更新後的投資與消費支出資料，上修扣除物價影響後的實質國內生產毛額。投資上修主要來自智慧財產產品，尤其是軟體。主要衡量美國境內家庭消費與民間投資的「對國內民間購買者的最終銷售」也獲上修。另一份月度報告呈現不同情況：家庭花出去的金額增加，但扣除物價影響後，實際購買量在按公布精度取位前略有下降。扣除通膨影響後的稅後所得上升，儲蓄率也提高。",
-          "why": "如果物價上漲，商店即使沒有賣出更多商品，也可能收到更多錢。這就是為什麼名目支出反映花了多少錢，實質支出則反映買了多少。這個差別會影響企業是否增加備貨或人手，也和利率有關：物價若持續承壓，決策者對放寬貨幣政策可能更謹慎；實質支出疲弱，則可能反映消費者手頭吃緊。對家庭而言，平均稅後購買力提高，不代表各自的預算都變寬裕，因為薪資、福利給付與物價的變動對不同家庭影響不一。",
-          "uncertainty": "成長估計仍可能修正，且涵蓋的期間在月度支出報告所涵蓋的月份開始前就已結束。年化成長率是把該季的成長速度換算成年率，不是已經實現的全年成長。取位後公布的實質消費數據看似持平，也不代表完全沒有變動。這些報告都無法確定美國聯準會接下來會怎麼做。",
-          "watch": "留意下次支出與所得報告，看看購買力提高是否帶動實質支出增加。也可觀察扣除食品與能源後的物價壓力是否減輕，以及下次國內生產毛額估計是否維持對民間需求的上修。",
+          "title": "美國物價上漲，實質消費支出幾乎沒變",
+          "summary": "美國消費物價上漲，但扣除通膨影響後，家庭支出大致持平。",
+          "impact": "即使賣出的商品沒有增加，企業營收也可能上升；如果通膨持續，借貸成本也可能居高不下。",
+          "what": "美國經濟分析局指出，以金額計算的家庭支出增加，但扣除通膨影響後，實質消費支出略為下滑，降幅經取整後在摘要表中顯示為持平。整體通膨年增率上升，扣除食品與能源後的核心通膨年增率也上升。實質可支配所得也有所增加，表示個人繳稅後剩餘所得的購買力提高。該局指出，勞動報酬、政府給付與資產所得都推升了個人所得，並特別提到政府給付數據包含聯邦醫療保險保費退還。",
+          "why": "商店營收增加，可能是因為顧客買得更多，也可能只是因為購買相同的商品要花更多錢。比較名目支出與實質支出，有助於分辨整體經濟中的支出變化究竟來自購買量還是價格。購買力提高能讓家庭稍微喘口氣，但不代表人人都加薪，也不代表各家庭面對的漲幅都相同。對需要借款或提供融資購物的企業來說，實質支出疲弱而通膨持續，值得留意：即使需求看起來沒那麼強勁，物價上漲壓力若加大，聯準會也可能更難放寬貨幣政策。",
+          "uncertainty": "這些是全國性的估計值，不是個別家庭的收支明細；本次發布也修正了先前的數據。退還的保費並非經常性的薪資所得，支出幾乎持平也不足以確認趨勢，或判定下次的利率決策。",
+          "watch": "留意下次公布的數據：實質支出是否回升、核心物價漲幅是否放緩，以及少了保費退還的挹注，所得能否維持成長。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "實質國內生產毛額成長率（年化）"
-            },
-            {
-              "id": "m2",
-              "label": "對國內民間購買者的實質最終銷售成長率（年化）"
-            },
-            {
-              "id": "m3",
               "label": "整體個人消費支出物價指數年增率"
             },
             {
+              "id": "m2",
+              "label": "核心個人消費支出物價指數年增率"
+            },
+            {
+              "id": "m3",
+              "label": "整體個人消費支出物價指數月增率"
+            },
+            {
               "id": "m4",
-              "label": "核心個人消費支出物價指數年增率（不含食品與能源）"
+              "label": "名目個人消費支出月增率"
             },
             {
               "id": "m5",
-              "label": "名目消費支出成長率"
+              "label": "實質個人消費支出月增率"
             },
             {
               "id": "m6",
-              "label": "實質消費支出成長率（按公布精度取位）"
+              "label": "實質可支配所得月增率"
             },
             {
               "id": "m7",
-              "label": "實質可支配所得成長率"
-            },
-            {
-              "id": "m8",
               "label": "個人儲蓄率"
             }
           ]
         },
         {
           "id": "f4",
-          "title": "比亞迪財報解析：獲利回升，現金流呈現不同情況",
-          "summary": "比亞迪公布的財報顯示，單季營收與歸屬股東淨利回升，但年初至今的歸屬股東淨利仍較去年同期下滑。",
-          "impact": "年初至今的營業現金流有所改善，但用於長期資產的現金支出仍超過營業活動帶來的現金。",
-          "what": "比亞迪生產純電動車與插電式油電混合車，也經營電池和電子業務。公司公布的財報顯示，單季營收與歸屬股東淨利均較去年同期增加。扣除公司列為非經常性的項目後，歸屬股東淨利也有所成長。相比之下，年初至今的獲利表現較弱，但營業現金流有所改善。公司解釋現金流變動時，提到購買商品與服務所支付的現金減少。公司在說明資產負債表時，將應收款項與存貨增加歸因於海外汽車業務成長與備貨。",
-          "why": "這份財報說明，單季獲利提高，不代表每筆銷售款項都已入帳收到。製造商可以先認列銷售收入、之後才收到貨款，也可能在交車前就先花錢生產。拓展海外業務可以增加客戶、擴大銷售市場，但也需要提前備貨。營業現金流並未扣除興建或購置長期資產所支付的現金。把這些支出和營業現金流放在一起看，就能理解為什麼營業活動帶來的現金增加，不代表公司有更多現金可用於其他用途。",
-          "uncertainty": "這份季報未經會計師查核，揭露的是年初至今的營業現金流，而非單季數字。財報也沒有說明集團現金流改善有多少來自海外汽車銷售。支付給供應商的商品與服務款項減少，本身不足以證明每輛車的實際生產成本下降。",
-          "watch": "留意下次財報中應收款項是否收回，以及存貨相對於銷售額是增加還是減少。再比較營業現金流與長期資產支出，看看公司擴張之際，現金流改善的情況是否延續。",
+          "title": "中國新貿易方案聚焦產業服務",
+          "summary": "中國公布服務貿易方案，提出擴大產業支援、運輸與專業服務出口。",
+          "impact": "如果措施落實，中國大陸的製造商與物流業者在向海外銷售商品時，可能更容易搭配銷售服務。",
+          "what": "中國商務部與其他機關發布方案，將設計、檢測、維護與物流視為可取得跨境營收的業務。方案提出擴大使用電子運輸與倉儲單據、促進電子簽章在跨境交易中獲得承認，並讓業者更容易取得貿易融資與出口信用保險。此處列出的貿易金額是方案採用的歷史基準，當時中國的服務進口額高於出口額。這些金額不是預測，也不能證明措施已經生效。",
+          "why": "對向海外銷售設備的製造商來說，設備交付後仍可繼續與客戶做生意。在設備使用期間，維護、故障診斷及其他支援服務都能帶來營收；如果服務更容易取得，買方也可能縮短停機時間。對物流業者而言，如果客戶、銀行與海外主管機關都接受相同的電子紀錄，承認電子單據就可能減少文書作業與延誤。出口信用保險可承保特定的款項未付風險，讓業者更容易給海外客戶較長的付款期限，但投保有成本，也無法排除所有風險。",
+          "uncertainty": "方案列出施政重點，不保證個別企業的營收，也不能證明已有新訂單。實際效益取決於執行細則、海外合作方的採用情況，以及建立當地服務網絡的成本。",
+          "watch": "留意後續實施公告、運輸單據作業是否有變化，以及上市公司是否在揭露資訊時，將海外服務營收與設備銷售營收分開列示。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "單季營業收入"
+              "label": "歷史年度服務出口額"
             },
             {
               "id": "m2",
-              "label": "單季營業收入成長率"
+              "label": "歷史年度服務進口額"
+            }
+          ]
+        },
+        {
+          "id": "f5",
+          "title": "美國關稅提案讓進口成本再受關注",
+          "summary": "美國貿易代表署調查製造業產能過剩後，提出新關稅方案，對中國商品採取不同處理方式，並列出豁免項目。",
+          "impact": "這項提案關係到美國進口商的利潤率與中國大陸出口商的訂單，但不代表進口通關時已須繳納新關稅。",
+          "what": "美國貿易代表署公布對中國與其他經濟體的調查認定，並就擬議措施徵詢意見。針對中國的公告按關稅分類區分商品，並在附件中列出豁免項目。公告也說明，如果目前的溝通未能解決該署認定的問題，還有涵蓋範圍更廣的替代方案。擬議的關稅上限因商品而異，公告也說明會如何計入其他措施下的指定關稅。",
+          "why": "關稅通常由進口商在通關時繳納，但最終由誰承擔成本，取決於交易條件。美國零售商可能要求供應商降價、接受較低的利潤率、改向其他來源採購，或把成本轉嫁給消費者。對中國大陸出口商而言，即使不是向美國海關繳稅的一方，這些做法仍可能導致售價下降或訂單減少。如果替代品須經過產品測試或取得客戶核准，設備和零組件的買家可能難以迅速更換供應來源。因此，要判斷實際影響，商品分類、供應合約與採購彈性，比單看公布的關稅稅率更有參考價值。",
+          "uncertainty": "這份公告仍是提案。最終適用範圍、豁免項目、稅率與生效日期都尚未確定。個別公司會受到什麼影響，取決於其進出口商品，以及合約如何分攤成本。",
+          "watch": "留意公開意見徵詢紀錄和聽證會，並觀察最終公告會如何規定適用商品、關稅抵扣方式和開始徵收的時間。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "附件未列中國商品的擬議關稅上限"
+            },
+            {
+              "id": "m2",
+              "label": "主要商品附件所列商品的擬議關稅上限"
             },
             {
               "id": "m3",
-              "label": "單季歸屬股東淨利"
-            },
-            {
-              "id": "m4",
-              "label": "單季歸屬股東淨利成長率"
-            },
-            {
-              "id": "m5",
-              "label": "年初至今歸屬股東淨利成長率"
-            },
-            {
-              "id": "m6",
-              "label": "年初至今營業現金流"
-            },
-            {
-              "id": "m7",
-              "label": "年初至今營業現金流成長率"
-            },
-            {
-              "id": "m8",
-              "label": "年初至今購置或興建長期資產支付的現金"
+              "label": "符合條件時適用的中國商品替代關稅上限"
             }
           ]
         }
