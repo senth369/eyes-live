@@ -1,98 +1,73 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-25T23:07:18.895Z",
-  "generatedAt": "2026-11-25T23:16:28.013Z",
+  "cutoffAt": "2026-11-26T00:59:28.063Z",
+  "generatedAt": "2026-11-26T01:04:45.143Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Associated Press daily closing index report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-94fdb0ecb060ec65c0b02879ce0d2d09"
-    },
-    {
-      "id": "src2",
-      "label": "Federal Reserve Bank of St. Louis broad US index observations",
+      "label": "FRED daily S&P price index series",
       "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
+      "id": "src2",
+      "label": "FX close bulletin for US stock indexes",
+      "url": "https://www.fx168news.com/express/fastnews/1475689"
+    },
+    {
       "id": "src3",
-      "label": "Nasdaq Composite daily index table",
+      "label": "Nasdaq Composite daily price history",
       "url": "https://www.investing.com/indices/nasdaq-composite-historical-data"
     },
     {
       "id": "src4",
-      "label": "Shanghai Composite daily index table",
+      "label": "Shanghai Composite daily price history",
       "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src5",
-      "label": "Mainland large-cap daily index table",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "CSI large-cap benchmark daily price history",
+      "url": "https://www.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src6",
-      "label": "Fiscal quarterly earnings exhibit",
-      "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
+      "label": "BEA revised GDP and corporate profits release",
+      "url": "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf"
     },
     {
       "id": "src7",
-      "label": "Prior fiscal quarterly filing and accounting calendar",
-      "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000046/dell-20260731.htm"
+      "label": "BEA personal income and outlays release",
+      "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026"
     },
     {
       "id": "src8",
-      "label": "China Ministry of Finance central government operations and financing tables",
-      "url": "https://gks.mof.gov.cn/tongjishuju/202611/P020261125523880642855.pdf"
-    },
-    {
-      "id": "src9",
-      "label": "Bureau of Economic Analysis personal income and outlays release",
-      "url": "https://bea.gov/sites/default/files/2026-11/pi1026.pdf"
-    },
-    {
-      "id": "src10",
-      "label": "SEC fiscal year-end earnings exhibit and cash flow statement",
+      "label": "Fiscal year and quarter earnings release filed with the SEC",
       "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d1.htm"
     },
     {
+      "id": "src9",
+      "label": "Prior quarterly SEC filing and fiscal calendar note",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926102213/de-20260802x10q.htm"
+    },
+    {
+      "id": "src10",
+      "label": "Issuer notice of major engineering award",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-26/12724039.PDF"
+    },
+    {
       "id": "src11",
-      "label": "SEC prior fiscal quarter earnings exhibit",
-      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926098904/de-20260820xex99d1.htm"
+      "label": "Engineering group quarterly filing",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645830.PDF"
     },
     {
       "id": "src12",
-      "label": "Mainland quarterly financial report",
+      "label": "Automaker quarterly filing",
       "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
     },
     {
       "id": "src13",
-      "label": "Hong Kong exchange filing of the quarterly financial report",
-      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900816.pdf"
-    },
-    {
-      "id": "src14",
-      "label": "Issuer monthly vehicle production and sales filing",
-      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1101/2026110100043.pdf"
-    },
-    {
-      "id": "src15",
-      "label": "Mainland issuer notice confirming subsidiary procurement suspension",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-11-25/1225687365.PDF"
-    },
-    {
-      "id": "src16",
-      "label": "Cable maker quarterly financial report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613512.PDF"
-    },
-    {
-      "id": "src17",
-      "label": "Cable maker interim report and business description",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225523771.PDF"
-    },
-    {
-      "id": "src18",
-      "label": "Federal Reserve Bank of St. Louis Nasdaq Composite observations",
-      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+      "label": "Automaker interim filing and business review",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225532750.PDF"
     }
   ],
   "markets": [
@@ -106,11 +81,13 @@
     },
     {
       "id": "nasdaq",
-      "sessionDate": null,
-      "close": null,
-      "previousClose": null,
-      "changePercent": null,
-      "sourceIds": []
+      "sessionDate": "2026-11-25",
+      "close": 23585.8,
+      "previousClose": 23733.54,
+      "changePercent": -0.62,
+      "sourceIds": [
+        "src3"
+      ]
     },
     {
       "id": "sse",
@@ -135,111 +112,7 @@
   ],
   "stories": [
     {
-      "id": "f2",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-25",
-      "company": null,
-      "metrics": [
-        {
-          "id": "m1",
-          "value": 1232700000000,
-          "unit": "CNY",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "October revenue row in the monthly central government operations table."
-        },
-        {
-          "id": "m2",
-          "value": 1313800000000,
-          "unit": "CNY",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "October expenditure row in the monthly central government operations table."
-        },
-        {
-          "id": "m3",
-          "value": -81100000000,
-          "unit": "CNY",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "October balance row in the monthly central government operations table."
-        },
-        {
-          "id": "m4",
-          "value": 699800000000,
-          "unit": "CNY",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "October financing total in the monthly financing table; the note excludes principal repayment from the measure."
-        },
-        {
-          "id": "m5",
-          "value": 875700000000,
-          "unit": "CNY",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "October transfers from central to local governments in the expenditure breakdown."
-        },
-        {
-          "id": "m6",
-          "value": 699900000000,
-          "unit": "CNY",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "October bonds row in the financing breakdown by instrument."
-        },
-        {
-          "id": "m7",
-          "value": -100000000,
-          "unit": "CNY",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "level",
-          "basis": "reported",
-          "sourceIds": [
-            "src8"
-          ],
-          "evidence": "October loans row in the financing breakdown by instrument."
-        }
-      ],
-      "sourceIds": [
-        "src8"
-      ],
-      "evidence": "The monthly operations table shows the shortfall narrowed from September and transfers fell. In the October breakdown by instrument, a negative loan entry puts total financing below the bond component. The notes define budget coverage and exclude principal repayment from the financing measure."
-    },
-    {
-      "id": "f3",
+      "id": "f1",
       "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-25",
@@ -247,6 +120,32 @@
       "metrics": [
         {
           "id": "m1",
+          "value": 4.3,
+          "unit": "percent",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "qoq",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "The release lead and related measures table give the revised, seasonally adjusted annualized rate of real GDP growth."
+        },
+        {
+          "id": "m2",
+          "value": 5.8,
+          "unit": "percent",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "qoq",
+          "basis": "reported",
+          "sourceIds": [
+            "src6"
+          ],
+          "evidence": "The related measures table gives the revised annualized growth rate for real final sales to private domestic purchasers."
+        },
+        {
+          "id": "m3",
           "value": 3.8,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -254,12 +153,12 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src7"
           ],
-          "evidence": "October headline personal consumption expenditures price index change in the price discussion and annual-change chart."
+          "evidence": "The main release gives the headline consumption price change from the same month a year earlier."
         },
         {
-          "id": "m2",
+          "id": "m4",
           "value": 3.3,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -267,38 +166,25 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src7"
           ],
-          "evidence": "October price index change excluding food and energy in the price discussion and annual-change chart."
-        },
-        {
-          "id": "m3",
-          "value": 0.3,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "October headline price index change in the monthly related-measures table."
-        },
-        {
-          "id": "m4",
-          "value": 0.3,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src9"
-          ],
-          "evidence": "October current-dollar consumer spending change in the related-measures table."
+          "evidence": "The main release gives the annual consumption price change excluding food and energy."
         },
         {
           "id": "m5",
+          "value": 0.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "The personal income and related measures table reports an increase in current-dollar consumption spending."
+        },
+        {
+          "id": "m6",
           "value": 0,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -306,12 +192,12 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src7"
           ],
-          "evidence": "The monthly related-measures table rounds the real spending change to flat; the narrative describes a small decline."
+          "evidence": "The table rounds real consumption spending growth to zero; the release text notes a small decline before rounding."
         },
         {
-          "id": "m6",
+          "id": "m7",
           "value": 0.5,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -319,12 +205,12 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src7"
           ],
-          "evidence": "October real disposable personal income change in the monthly related-measures table."
+          "evidence": "The personal income and related measures table reports growth in inflation-adjusted disposable income."
         },
         {
-          "id": "m7",
+          "id": "m8",
           "value": 4.1,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -332,15 +218,138 @@
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src7"
           ],
-          "evidence": "October personal saving as a share of disposable income in the saving discussion."
+          "evidence": "The main release gives personal saving as a share of disposable personal income."
         }
       ],
       "sourceIds": [
-        "src9"
+        "src6",
+        "src7"
       ],
-      "evidence": "The price chart shows faster annual headline and core inflation. The monthly table shows higher nominal spending and real disposable income, while the real spending discussion records a small decline that rounds to flat."
+      "evidence": "The GDP release lead, related measures table and technical notes show an upward growth revision led by investment and consumption. The personal income and outlays release shows rising prices and little movement in real spending in the subsequent month."
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "earnings",
+      "publishedOn": "2026-10-30",
+      "company": {
+        "name": "BYD Company Limited",
+        "ticker": "002594",
+        "exchange": "Shenzhen Stock Exchange"
+      },
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 221488251000,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "The key financial data table reports operating revenue in the current-quarter column."
+        },
+        {
+          "id": "m2",
+          "value": 13.59,
+          "unit": "percent",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "The key financial data table reports year-over-year quarterly operating revenue growth."
+        },
+        {
+          "id": "m3",
+          "value": 10019570000,
+          "unit": "CNY",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "The key financial data table reports quarterly net profit attributable to listed-company shareholders."
+        },
+        {
+          "id": "m4",
+          "value": 28.08,
+          "unit": "percent",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "The key financial data table reports year-over-year growth in quarterly attributable net profit."
+        },
+        {
+          "id": "m5",
+          "value": -4.24,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "The year-to-date comparison column shows a decline in attributable net profit."
+        },
+        {
+          "id": "m6",
+          "value": 54469572000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "The consolidated cash flow statement gives year-to-date net cash from operating activities."
+        },
+        {
+          "id": "m7",
+          "value": 33.36,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "The cash flow change explanation table compares year-to-date operating cash flow with the matching prior-year period."
+        },
+        {
+          "id": "m8",
+          "value": 87379038000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src12"
+          ],
+          "evidence": "The investing section of the consolidated cash flow statement reports cash paid to acquire or build long-term assets."
+        }
+      ],
+      "sourceIds": [
+        "src12",
+        "src13"
+      ],
+      "evidence": "The quarterly filing shows stronger quarterly revenue and attributable profit, lower year-to-date attributable profit and higher year-to-date operating cash flow. Its balance sheet discussion links increases in receivables and stock to overseas auto operations. The interim management review describes the vehicle, battery and electronics businesses."
     }
   ],
   "locales": {
@@ -352,616 +361,672 @@
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "China’s central government shortfall narrows",
-          "summary": "China’s finance ministry reported higher central government revenue and lower expenditure than in the preceding month.",
-          "impact": "The release helps separate transfers to local governments from financing activity in the bond market.",
-          "what": "The ministry’s October tables show that the central government spent more than it received, although the gap narrowed from September. Transfers to local governments remained a substantial part of expenditure even as they declined from the prior month. The ministry reports financing separately. The bond component was slightly larger than total financing because the loan component was negative. The financing measure excludes principal repayment, so it should not be read as a tally of all bond sales.",
-          "why": "A central transfer can give a local government the resources to operate public services or pay suppliers. The money does not necessarily reach a contractor or household when the transfer is recorded: the local recipient still has to commit or disburse it. Government bond supply matters for a different reason. Investors can choose between public and private debt, so changes in the amount the government brings to market can affect the financing environment for businesses. The release measures financing, not that market effect.",
-          "uncertainty": "This is a central government release, not a consolidated account of all levels of government. The monthly gap can narrow because receipts and payments move around the calendar. It does not establish that policy tightened or that demand for mainland-listed contractors changed.",
-          "watch": "Compare the next monthly central tables with local budget execution and public bond auction results. Look for local spending and supplier payments before concluding that transfers are feeding through to business activity.",
+          "id": "f1",
+          "title": "US growth revised higher as consumer prices keep rising",
+          "summary": "Federal statisticians raised their estimate of summer growth, while a separate release showed that household spending barely moved after inflation in October.",
+          "impact": "For retailers and lenders, the GDP revision is a better reading of past demand, not evidence that households are buying more now.",
+          "what": "The Bureau of Economic Analysis revised inflation-adjusted gross domestic product higher after incorporating updated data on investment and consumer spending. The investment revision was led by intellectual property products, notably software. Final sales to private domestic purchasers, a measure focused on household spending and private investment inside the country, were also revised up. The separate October report shows a different picture for household spending: people spent more dollars, but after adjusting for prices, the amount they bought edged down before rounding. Inflation-adjusted after-tax income rose, and the saving rate increased.",
+          "why": "A store can collect more money without selling more merchandise if its prices rise. That is why current-dollar spending and inflation-adjusted spending answer different questions. The distinction matters to businesses deciding whether to order extra inventory or add staff. It also matters for interest rates: continued price pressure can make policymakers cautious about easing, while weak real spending can signal that customers are under strain. For households, the fact that average after-tax purchasing power improved does not mean individual budgets did; changes in wages, benefits and prices affect households differently.",
+          "uncertainty": "The growth estimate is subject to revision and refers to a period that ended before the monthly spending report began. The annualized GDP rate describes the pace implied by the quarter, not growth already realized over a full year. The rounded reading for real consumption also should not be mistaken for an exact standstill, and neither release establishes what the Federal Reserve will do.",
+          "watch": "Read the next spending and income release for signs that stronger purchasing power is translating into more real spending. Check whether price pressure excluding food and energy eases, and whether the next GDP estimate preserves the upward revision to private demand.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Central government revenue"
+              "label": "Real GDP growth, annualized"
             },
             {
               "id": "m2",
-              "label": "Central government expenditure"
+              "label": "Real private domestic final sales growth, annualized"
             },
             {
               "id": "m3",
-              "label": "Central government balance"
+              "label": "Headline PCE inflation"
             },
             {
               "id": "m4",
-              "label": "Central government financing"
+              "label": "PCE inflation excluding food and energy"
             },
             {
               "id": "m5",
-              "label": "Central transfers to local governments"
+              "label": "Current-dollar consumer spending growth"
             },
             {
               "id": "m6",
-              "label": "Bond financing component"
+              "label": "Inflation-adjusted consumer spending growth, rounded"
             },
             {
               "id": "m7",
-              "label": "Loan financing component"
+              "label": "Inflation-adjusted disposable income growth"
+            },
+            {
+              "id": "m8",
+              "label": "Personal saving rate"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "US inflation picks up as real spending stalls",
-          "summary": "Annual consumer spending inflation accelerated, while household spending edged down from the prior month after adjusting for prices.",
-          "impact": "Higher receipts at the checkout can mask weak sales volumes, and persistent inflation can complicate the case for easier borrowing conditions.",
-          "what": "The Bureau of Economic Analysis reported that annual inflation picked up both overall and after excluding food and energy. The overall price index rose from the prior month too, but less quickly than it had in September. Households spent more dollars, yet inflation-adjusted spending slipped slightly and rounded to flat in the published table. After-tax income increased even after adjusting for prices, and the report separately measured how much disposable income was saved rather than spent.",
-          "why": "Nominal spending measures what households paid at the prices they faced. Real spending asks how much those dollars bought. The gap helps explain why a retailer can report more money at the register without selling more goods, or why a household can spend more without feeling better off. For the Federal Reserve, measures that exclude food and energy help assess whether underlying price pressure is persisting. If it does, policymakers may be less inclined to ease even when real demand looks soft. That matters for businesses refinancing loans and households shopping for credit.",
-          "uncertainty": "The report is an aggregate estimate subject to revision. Higher average purchasing power does not show which households gained, and the mix of spending can vary across retailers and service providers. The release does not determine the next interest-rate decision.",
-          "watch": "In the next release, check whether real spending resumes growing and whether inflation excluding food and energy cools. Revisions to the current estimates could also change the starting point.",
+          "id": "f4",
+          "title": "October earnings explainer: BYD’s profit rebound and cash flow tell different stories",
+          "summary": "BYD’s October filing showed that quarterly revenue and attributable profit rebounded even though attributable profit was still down for the year to date.",
+          "impact": "Operating cash improved over the year-to-date period, but cash spending on long-term assets was greater than the cash generated by operations.",
+          "what": "BYD makes battery-electric and plug-in hybrid vehicles and also has battery and electronics businesses. Its October filing showed higher quarterly revenue and higher net profit attributable to shareholders than a year earlier. Attributable profit also rose after stripping out items the company classified as nonrecurring. The broader year-to-date profit comparison was weaker, even as operating cash flow improved. In its explanation of the cash flow change, the company cited lower cash payments for goods and services. The balance sheet discussion attributed higher receivables and more inventory to growth and stocking in the overseas auto business.",
+          "why": "The filing shows why a more profitable quarter does not automatically mean every sale has turned into cash. A manufacturer can book a sale while still waiting for payment and can spend money building vehicles before they are delivered. Overseas expansion can add customers and give the company more markets in which to sell, while requiring stock to be positioned in advance. Operating cash is also measured before the cash paid to build or buy long-term assets. Looking at those outlays alongside operating cash helps explain why higher cash generation does not necessarily leave more money available for other uses.",
+          "uncertainty": "The quarterly filing is unaudited and presents operating cash flow for the year to date, not for the quarter on its own. It does not show how much of the group's cash improvement came from overseas vehicle sales. Lower cash payments to suppliers for goods and services do not by themselves show that the underlying cost of making each vehicle fell.",
+          "watch": "In the next financial statements, check whether receivables are collected and whether inventories rise or fall relative to sales. Compare operating cash with long-term asset spending again to see whether the stronger cash performance persists as the company expands.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Consumer spending price inflation from a year earlier"
+              "label": "Quarterly operating revenue"
             },
             {
               "id": "m2",
-              "label": "Core consumer spending price inflation from a year earlier"
+              "label": "Quarterly operating revenue growth"
             },
             {
               "id": "m3",
-              "label": "Monthly consumer spending price change"
+              "label": "Quarterly net profit attributable to shareholders"
             },
             {
               "id": "m4",
-              "label": "Monthly nominal consumer spending change"
+              "label": "Quarterly attributable net profit growth"
             },
             {
               "id": "m5",
-              "label": "Monthly real consumer spending change at published precision"
+              "label": "Year-to-date attributable net profit growth"
             },
             {
               "id": "m6",
-              "label": "Monthly real disposable income change"
+              "label": "Year-to-date operating cash flow"
             },
             {
               "id": "m7",
-              "label": "Personal saving rate"
+              "label": "Year-to-date operating cash flow growth"
+            },
+            {
+              "id": "m8",
+              "label": "Year-to-date cash paid for long-term assets"
             }
           ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期关注美国和中国的动态。请留意各条消息的发布日期；近期发布的公司报告在本期用作背景解读。",
+      "status": "本期关注美国和中国的经济与市场动态。请留意各条内容的发布日期；近期公司报告仅作为背景解读。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。已核实的指数收盘数据均保留各自的交易日期。",
-        "cn": "跟踪的指数在各自最近可核实的交易日均收跌。标注日期的收盘数据只反映对应交易日的表现，不代表当前行情。"
+        "us": "部分收盘数据未能核实。可提供数据的指数均保留各自对应的交易日期。",
+        "cn": "所跟踪的指数在各自最近有数据可核实的交易日均收跌。标注日期的收盘数据仅反映对应交易日的表现，不代表当前行情。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "中国中央政府收支缺口收窄",
-          "summary": "中国财政部公布的数据显示，中央政府收入较上月增加，支出较上月减少。",
-          "impact": "这份数据有助于区分中央对地方的转移支付和政府在债券市场上的融资活动。",
-          "what": "财政部的月度报表显示，中央政府支出仍高于收入，但收支缺口较上月收窄。对地方的转移支付虽较上月减少，仍占中央政府支出的较大比重。财政部单独列示融资数据。由于贷款融资分项为负，债券融资额略高于融资总额。这里的融资统计不包括偿还本金，不能把它理解为全部债券的发行额。",
-          "why": "中央转移支付可以为地方政府提供资金，用于维持公共服务或向供应商付款。但转移支付记账时，资金不一定已经到了承包商或居民手中：收到资金的地方政府还要安排支出或实际拨款。政府发债规模则通过另一种渠道产生影响。投资者可以在政府债券和非政府债券之间选择，所以政府在市场上发债规模的变化可能影响企业的融资环境。这份数据衡量的是融资规模，并不衡量这种市场影响。",
-          "uncertainty": "这份数据只涉及中央政府，并非各级政府的合并账目。收入入账和支出付款的时间变化，就可能使月度缺口收窄。仅凭这份数据，不能认定政策已经收紧，也不能判断中国内地上市的承包商所面对的需求是否发生变化。",
-          "watch": "可将下期中央政府月度报表与地方预算执行情况及公开的债券招标结果对照。判断转移支付是否带动了企业经营活动，还要看地方是否实际支出、是否向供应商付款。",
+          "id": "f1",
+          "title": "美国经济增速上修，消费价格继续上涨",
+          "summary": "美国联邦统计部门上调了对夏季经济增速的估计。另行发布的月度报告显示，扣除物价上涨的影响后，居民消费支出几乎没有变化。",
+          "impact": "对零售商和贷款机构来说，国内生产总值的修订让过去的需求情况更清楚，但并不能说明居民现在买得更多了。",
+          "what": "美国经济分析局纳入更新后的投资和消费支出数据后，上调了实际国内生产总值的估计。投资数据的上修主要来自知识产权产品，尤其是软件。衡量本国居民消费和私人投资的私人国内最终销售也被上修。另行发布的月度报告则显示，居民花出去的钱更多了，但扣除物价变动的影响后，实际购买量在取整前略有下降。扣除通胀影响后的税后收入有所增加，个人储蓄率也有所上升。",
+          "why": "如果商品涨价，即使卖出的商品没有增加，商店收到的钱也可能更多。因此，按当期价格计算的名义支出反映的是花了多少钱，扣除物价变动影响后的实际支出反映的则是买了多少。这一区别关系到企业是否要增加库存或招人，也关系到利率：物价持续承压可能让政策制定者对放松货币政策更加谨慎，而实际支出疲软可能意味着消费者的预算吃紧。对居民来说，平均税后购买力提高，并不意味着各家各户的预算都更宽裕，因为工资、福利和物价的变化对不同家庭的影响各不相同。",
+          "uncertainty": "经济增速估计仍可能修订，而且对应的时期在月度支出报告所覆盖的月份开始前就已结束。国内生产总值的年化增速反映的是按当季速度折算的增长步伐，并非已经实现的全年增幅。实际消费支出增速取整后看似没有变化，也不代表实际支出完全没变。这些报告都不能确定美联储接下来会怎么做。",
+          "watch": "留意下次支出和收入报告，看看购买力增强是否带动实际消费支出增加。关注剔除食品和能源后的物价涨势是否放缓，以及下次国内生产总值估计是否保留对私人需求的上修。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "中央政府收入"
+              "label": "实际国内生产总值年化增速"
             },
             {
               "id": "m2",
-              "label": "中央政府支出"
+              "label": "实际私人国内最终销售年化增速"
             },
             {
               "id": "m3",
-              "label": "中央政府收支差额"
+              "label": "个人消费支出价格指数涨幅"
             },
             {
               "id": "m4",
-              "label": "中央政府融资"
+              "label": "核心个人消费支出价格指数涨幅（剔除食品和能源）"
             },
             {
               "id": "m5",
-              "label": "中央对地方转移支付"
+              "label": "名义消费支出增速"
             },
             {
               "id": "m6",
-              "label": "债券融资分项"
+              "label": "实际消费支出增速（取整后）"
             },
             {
               "id": "m7",
-              "label": "贷款融资分项"
+              "label": "实际可支配收入增速"
+            },
+            {
+              "id": "m8",
+              "label": "个人储蓄率"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "美国通胀升温，实际消费支出停滞",
-          "summary": "个人消费支出价格同比涨幅扩大，而扣除价格变动后，居民消费支出较上月略有下降。",
-          "impact": "商家销售额增加，可能掩盖销量疲软；如果通胀持续，放宽信贷条件的理由可能没那么充分。",
-          "what": "美国经济分析局报告称，整体个人消费支出价格同比涨幅扩大，剔除食品和能源后的同比涨幅也有所扩大。整体价格指数环比仍上涨，但涨幅较上月收窄。居民花的钱更多了，但扣除价格变动后，实际消费支出略有下降，按报表公布的精度取整后显示为持平。税后收入在扣除价格变动后仍有所增加。报告还单独统计了可支配收入中用于储蓄而非消费的比例。",
-          "why": "名义消费支出衡量的是居民按当时的价格实际付了多少钱；实际消费支出衡量的是这些钱能买到多少商品和服务。两者的差别有助于解释，为什么零售商的销售额可以增加，卖出的商品却没有变多；也能解释为什么居民花的钱更多，却未必觉得日子更宽裕。对美联储来说，剔除食品和能源的通胀指标有助于判断基础价格压力是否持续。如果这种压力持续，即使扣除价格变化后的需求看起来偏弱，决策者也可能不那么愿意放松货币政策。这关系到需要为现有贷款再融资的企业，也关系到正在比较贷款条件的家庭。",
-          "uncertainty": "报告提供的是总体估算，今后可能修订。平均购买力上升，并不说明哪些家庭的购买力提高了；不同零售商和服务提供商面对的消费结构也可能不同。这份报告并不能决定下次利率决策。",
-          "watch": "关注下期报告中实际消费支出是否恢复增长，以及剔除食品和能源后的通胀是否降温。本期估算若有修订，也可能改变后续比较的基准。",
+          "id": "f4",
+          "title": "比亚迪财报解读：利润回升，现金流怎么看",
+          "summary": "比亚迪发布的财报显示，当季营收和归母净利润均有回升，但年初至报告期末的累计归母净利润仍同比下降。",
+          "impact": "年初至报告期末，经营活动产生的现金流有所改善，但用于长期资产的现金支出超过了经营活动产生的现金净额。",
+          "what": "比亚迪生产纯电动汽车和插电式混合动力汽车，也经营电池和电子业务。财报显示，当季营收和归属于母公司股东的净利润均高于上年同期。扣除公司认定的非经常性损益后，归母净利润也同比增长。相比之下，年初至报告期末的累计利润同比表现较弱，经营现金流却有所改善。公司解释现金流变化时提到，购买商品和接受服务支付的现金减少。公司在说明资产负债表变动时，将应收款项和存货增加归因于海外汽车业务增长及备货。",
+          "why": "当季利润提高，并不意味着确认的销售收入都已变成到手的现金。制造商可以在收到货款前确认收入，也可能在交付前就为生产汽车花钱。拓展海外业务可以带来新客户和更多销售市场，但也需要提前备货。经营现金流并未扣除购建长期资产所支付的现金。把这类支出和经营现金流放在一起看，就能理解为什么经营活动带来的现金增加后，可用于其他用途的钱未必更多。",
+          "uncertainty": "这份季度报告未经审计，披露的是年初至报告期末的累计经营现金流，并非当季数据。报告没有说明集团现金流的改善有多大程度来自海外汽车销售。向供应商支付的商品和服务款项减少，本身并不能说明汽车的单位生产成本下降。",
+          "watch": "留意后续财报中应收款项是否收回、存货相对于营收是上升还是下降。再把经营现金流和长期资产支出作比较，看看随着公司扩张，现金流的改善能否持续。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "个人消费支出价格指数同比涨幅"
+              "label": "当季营业收入"
             },
             {
               "id": "m2",
-              "label": "核心个人消费支出价格指数同比涨幅"
+              "label": "当季营业收入增速"
             },
             {
               "id": "m3",
-              "label": "个人消费支出价格指数环比变动"
+              "label": "当季归母净利润"
             },
             {
               "id": "m4",
-              "label": "名义个人消费支出环比变动"
+              "label": "当季归母净利润增速"
             },
             {
               "id": "m5",
-              "label": "实际个人消费支出环比变动（按公布精度）"
+              "label": "年初至报告期末归母净利润增速"
             },
             {
               "id": "m6",
-              "label": "实际可支配收入环比变动"
+              "label": "年初至报告期末经营现金流"
             },
             {
               "id": "m7",
-              "label": "个人储蓄率"
+              "label": "年初至报告期末经营现金流增速"
+            },
+            {
+              "id": "m8",
+              "label": "年初至报告期末购建长期资产支付的现金"
             }
           ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité économique aux États-Unis et en Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises servent à éclairer le contexte.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez les dates de publication : les rapports récents des entreprises sont présentés pour éclairer le contexte.",
       "marketSummary": {
-        "us": "Certains cours de clôture n’ont pas pu être vérifiés. Chaque indice pour lequel un cours est disponible conserve la date de sa propre séance.",
-        "cn": "Les indices suivis ont reculé lors de leur dernière séance vérifiée respective. Les cours de clôture indiqués correspondent à ces séances, et non aux échanges en cours."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice pour lequel une clôture est disponible conserve la date de la séance correspondante.",
+        "cn": "Les indices suivis ont reculé lors de leurs dernières séances vérifiées. Les cours de clôture indiqués correspondent à ces séances, et non aux échanges en cours."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Le déficit de l’administration centrale chinoise se réduit",
-          "summary": "Le ministère chinois des Finances a fait état d’une hausse des recettes et d’une baisse des dépenses de l’administration centrale par rapport au mois précédent.",
-          "impact": "La publication permet de distinguer les transferts aux collectivités locales des opérations de financement sur le marché obligataire.",
-          "what": "Les tableaux du ministère montrent que l’administration centrale a dépensé plus qu’elle n’a encaissé, même si l’écart s’est réduit par rapport au mois précédent. Les transferts aux collectivités locales ont continué de représenter une part importante des dépenses malgré leur recul sur le mois. Le ministère présente le financement à part. Le financement par obligations a légèrement dépassé le financement total, car la composante liée aux prêts était négative. La mesure du financement exclut les remboursements du principal : elle ne correspond donc pas au montant de toutes les obligations vendues.",
-          "why": "Un transfert de l’administration centrale peut donner à une collectivité locale les moyens de faire fonctionner ses services publics ou de payer ses fournisseurs. Mais quand le transfert est enregistré, l’argent ne parvient pas forcément tout de suite à une entreprise prestataire ou à un ménage : la collectivité doit encore engager la dépense ou effectuer le paiement. Les émissions d’obligations d’État comptent pour une autre raison. Les investisseurs peuvent choisir entre dette publique et dette privée. Une variation des montants que l’État emprunte sur le marché peut donc modifier les conditions de financement des entreprises. La publication mesure le financement de l’État, et non ses effets sur le marché.",
-          "uncertainty": "Cette publication porte sur l’administration centrale et ne regroupe pas les comptes de tous les niveaux de gouvernement. Le déficit mensuel peut se réduire simplement parce que les encaissements et les paiements ne tombent pas aux mêmes dates. Ce recul ne prouve ni un durcissement de la politique budgétaire ni une évolution de la demande adressée aux entreprises prestataires cotées en Chine continentale.",
-          "watch": "Comparez les prochains tableaux mensuels de l’administration centrale avec les données sur l’exécution des budgets locaux et les résultats des adjudications d’obligations publiques. Avant de conclure que les transferts soutiennent l’activité des entreprises, vérifiez si les collectivités dépensent effectivement ces fonds et paient leurs fournisseurs.",
+          "id": "f1",
+          "title": "États-Unis : la croissance est revue à la hausse, tandis que les prix à la consommation continuent de monter",
+          "summary": "Les statisticiens fédéraux ont relevé leur estimation de la croissance estivale. Une autre publication montre qu’en octobre, les dépenses des ménages ont à peine varié une fois la hausse des prix prise en compte.",
+          "impact": "Pour les commerçants et les prêteurs, la révision du PIB donne une image plus précise de la demande passée. Elle ne prouve pas que les ménages achètent davantage aujourd’hui.",
+          "what": "Le Bureau américain d’analyse économique a revu à la hausse le produit intérieur brut corrigé de l’inflation après avoir intégré des données actualisées sur l’investissement et la consommation. La révision de l’investissement tient surtout aux produits de propriété intellectuelle, notamment aux logiciels. Les ventes finales aux acheteurs privés du pays, un indicateur centré sur les dépenses des ménages et l’investissement privé sur le territoire, ont également été revues à la hausse. Le rapport distinct sur octobre donne une autre image de la consommation : les ménages ont dépensé davantage en dollars, mais, une fois la hausse des prix prise en compte, le volume de leurs achats a légèrement reculé avant arrondi. Le revenu après impôts corrigé de l’inflation a progressé, tout comme le taux d’épargne.",
+          "why": "Un magasin peut encaisser davantage sans vendre plus de marchandises si ses prix augmentent. Les dépenses en dollars courants et les dépenses corrigées de l’inflation ne répondent donc pas à la même question. La différence compte pour les entreprises qui hésitent à commander davantage de marchandises ou à recruter. Elle compte aussi pour les taux d’intérêt : des pressions persistantes sur les prix peuvent inciter la banque centrale à la prudence avant d’assouplir sa politique, tandis qu’une consommation en volume peu dynamique peut signaler que les budgets des clients sont sous pression. Enfin, une amélioration du pouvoir d’achat moyen après impôts ne veut pas dire que le budget de chaque ménage s’est amélioré : les salaires, les prestations et les prix n’évoluent pas de la même façon pour tout le monde.",
+          "uncertainty": "L’estimation de la croissance peut encore être révisée. Elle porte sur une période qui s’est terminée avant celle couverte par le rapport mensuel sur les dépenses. Le taux de croissance annualisé du PIB exprime le rythme du trimestre en équivalent annuel, et non la croissance effectivement réalisée sur l’année entière. Le chiffre arrondi de la consommation corrigée de l’inflation ne signifie pas non plus qu’elle est restée parfaitement stable. Ces publications ne permettent pas de savoir ce que décidera la Réserve fédérale.",
+          "watch": "Dans la prochaine publication sur les dépenses et les revenus, regardez si le gain de pouvoir d’achat se traduit par une hausse des achats en volume. Vérifiez si les pressions sur les prix s’atténuent hors alimentation et énergie, et si la prochaine estimation du PIB maintient la révision à la hausse de la demande privée.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Recettes de l’administration centrale"
+              "label": "Croissance annualisée du PIB réel"
             },
             {
               "id": "m2",
-              "label": "Dépenses de l’administration centrale"
+              "label": "Croissance annualisée des ventes finales réelles aux acheteurs privés du pays"
             },
             {
               "id": "m3",
-              "label": "Solde budgétaire de l’administration centrale"
+              "label": "Inflation globale selon l’indice des prix PCE"
             },
             {
               "id": "m4",
-              "label": "Financement de l’administration centrale"
+              "label": "Inflation PCE hors alimentation et énergie"
             },
             {
               "id": "m5",
-              "label": "Transferts de l’administration centrale aux collectivités locales"
+              "label": "Croissance des dépenses de consommation en dollars courants"
             },
             {
               "id": "m6",
-              "label": "Financement par obligations"
+              "label": "Croissance des dépenses de consommation corrigées de l’inflation, après arrondi"
             },
             {
               "id": "m7",
-              "label": "Financement par prêts"
+              "label": "Croissance du revenu disponible réel"
+            },
+            {
+              "id": "m8",
+              "label": "Taux d’épargne des ménages"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "L’inflation accélère aux États-Unis, tandis que les dépenses réelles marquent le pas",
-          "summary": "L’inflation annuelle mesurée par les prix des dépenses de consommation a accéléré, tandis que les dépenses des ménages ont légèrement reculé par rapport au mois précédent, une fois la hausse des prix prise en compte.",
-          "impact": "Des recettes plus élevées en caisse peuvent masquer la faiblesse des volumes de vente, et une inflation persistante peut rendre plus difficile un assouplissement des conditions d’emprunt.",
-          "what": "Le Bureau d’analyse économique a indiqué que l’inflation annuelle avait accéléré, aussi bien dans son ensemble que hors alimentation et énergie. L’indice global des prix a également progressé par rapport au mois précédent, mais moins vite que lors de la période mensuelle précédente. Les ménages ont dépensé davantage en dollars, mais leurs dépenses corrigées de l’inflation ont légèrement reculé. Avec l’arrondi utilisé dans le tableau publié, elles apparaissent stables. Le revenu après impôts a augmenté même après correction de l’inflation. Le rapport indique séparément quelle part du revenu disponible a été épargnée plutôt que dépensée.",
-          "why": "Les dépenses nominales correspondent à ce que les ménages ont payé aux prix en vigueur. Les dépenses réelles mesurent ce que cet argent leur a permis d’acheter. Cette distinction explique pourquoi un commerçant peut encaisser davantage sans vendre plus de produits, ou pourquoi un ménage peut dépenser plus sans avoir le sentiment de mieux vivre. Pour la Réserve fédérale, les mesures qui excluent l’alimentation et l’énergie aident à déterminer si les pressions de fond sur les prix persistent. Si c’est le cas, elle pourrait être moins encline à assouplir sa politique monétaire, même si la demande réelle paraît faible. Cela compte pour les entreprises qui refinancent leurs emprunts et les ménages qui cherchent un crédit.",
-          "uncertainty": "Le rapport présente des estimations pour l’ensemble des ménages, qui peuvent être révisées. La hausse du pouvoir d’achat moyen ne dit pas quels ménages en ont bénéficié, et la répartition des dépenses peut varier selon les commerçants et les prestataires de services. Cette publication ne détermine pas la prochaine décision sur les taux d’intérêt.",
-          "watch": "Dans la prochaine publication, vérifiez si les dépenses réelles renouent avec la croissance et si l’inflation hors alimentation et énergie ralentit. Des révisions des estimations actuelles pourraient aussi modifier la base de comparaison.",
+          "id": "f4",
+          "title": "Résultats d’octobre : le rebond du bénéfice de BYD ne dit pas tout sur sa trésorerie",
+          "summary": "Le rapport publié par BYD en octobre montre un rebond du chiffre d’affaires et du bénéfice net attribuable aux actionnaires sur le trimestre. Ce bénéfice restait toutefois en baisse en cumul depuis le début de l’année.",
+          "impact": "Le flux de trésorerie d’exploitation s’est amélioré en cumul depuis le début de l’année, mais les paiements consacrés aux actifs à long terme ont dépassé les liquidités générées par l’activité.",
+          "what": "BYD fabrique des véhicules électriques à batterie et des hybrides rechargeables. Le groupe est également présent dans les batteries et l’électronique. Son rapport d’octobre a fait état d’une hausse du chiffre d’affaires trimestriel et du bénéfice net attribuable aux actionnaires par rapport à la même période de l’année précédente. Ce bénéfice a aussi progressé après exclusion des éléments que le groupe a classés comme non récurrents. En cumul depuis le début de l’année, la comparaison était moins favorable pour le bénéfice, alors même que le flux de trésorerie d’exploitation s’améliorait. Pour expliquer cette amélioration, le groupe a notamment cité une baisse des paiements pour les biens et services. Dans son commentaire sur le bilan, il a attribué la hausse des créances et des stocks à la croissance de ses activités automobiles à l’étranger et à la constitution de stocks pour ces marchés.",
+          "why": "Le rapport montre pourquoi un trimestre plus rentable ne signifie pas que toutes les ventes ont été encaissées. Un constructeur peut comptabiliser une vente alors qu’il attend encore le paiement, et engager des dépenses pour fabriquer des véhicules avant de les livrer. En se développant à l’étranger, il peut gagner des clients et accéder à davantage de marchés, mais il peut aussi devoir y constituer des stocks à l’avance. Par ailleurs, le flux de trésorerie d’exploitation ne tient pas compte des sommes versées pour construire ou acheter des actifs à long terme. Comparer ces paiements aux liquidités générées par l’activité aide à comprendre pourquoi une amélioration du flux de trésorerie d’exploitation ne laisse pas forcément plus d’argent disponible pour d’autres usages.",
+          "uncertainty": "Le rapport trimestriel n’a pas été audité. Il présente le flux de trésorerie d’exploitation en cumul depuis le début de l’année, et non pour le seul trimestre. Il ne précise pas dans quelle mesure les ventes de véhicules à l’étranger ont contribué à l’amélioration de la trésorerie du groupe. Une baisse des paiements aux fournisseurs de biens et services ne suffit pas à démontrer que le coût de fabrication par véhicule a diminué.",
+          "watch": "Dans les prochains états financiers, vérifiez si les créances sont encaissées et si les stocks augmentent ou diminuent par rapport aux ventes. Comparez de nouveau le flux de trésorerie d’exploitation aux paiements consacrés aux actifs à long terme pour voir si l’amélioration de la trésorerie se confirme à mesure que le groupe se développe.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Inflation annuelle des prix des dépenses de consommation"
+              "label": "Chiffre d’affaires trimestriel"
             },
             {
               "id": "m2",
-              "label": "Inflation annuelle des prix des dépenses de consommation hors alimentation et énergie"
+              "label": "Croissance du chiffre d’affaires trimestriel"
             },
             {
               "id": "m3",
-              "label": "Variation mensuelle des prix des dépenses de consommation"
+              "label": "Bénéfice net trimestriel attribuable aux actionnaires"
             },
             {
               "id": "m4",
-              "label": "Variation mensuelle des dépenses de consommation nominales"
+              "label": "Croissance du bénéfice net trimestriel attribuable aux actionnaires"
             },
             {
               "id": "m5",
-              "label": "Variation mensuelle des dépenses de consommation réelles (avec l’arrondi publié)"
+              "label": "Croissance du bénéfice net attribuable aux actionnaires en cumul depuis le début de l’année"
             },
             {
               "id": "m6",
-              "label": "Variation mensuelle du revenu disponible réel"
+              "label": "Flux de trésorerie d’exploitation en cumul depuis le début de l’année"
             },
             {
               "id": "m7",
-              "label": "Taux d’épargne des ménages"
+              "label": "Croissance du flux de trésorerie d’exploitation en cumul depuis le début de l’année"
+            },
+            {
+              "id": "m8",
+              "label": "Paiements pour les actifs à long terme en cumul depuis le début de l’année"
             }
           ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Revisa la fecha de cada publicación: los informes empresariales recientes se presentan como material de contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan para dar contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión.",
-        "cn": "Los índices que seguimos bajaron en sus respectivas sesiones verificadas más recientes. Los cierres corresponden a las fechas indicadas y no reflejan la negociación actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de la sesión a la que corresponden.",
+        "cn": "Los índices que seguimos bajaron en sus últimas sesiones verificadas. Los cierres publicados corresponden a esas sesiones y no reflejan la negociación actual."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Se reduce el déficit del Gobierno central de China",
-          "summary": "El Ministerio de Finanzas de China informó que los ingresos del Gobierno central aumentaron y el gasto disminuyó respecto al mes anterior.",
-          "impact": "La publicación permite distinguir las transferencias a los gobiernos locales de la financiación en el mercado de bonos.",
-          "what": "Las tablas de octubre del ministerio muestran que el Gobierno central gastó más de lo que ingresó, aunque la diferencia se redujo respecto a septiembre. Las transferencias a los gobiernos locales siguieron representando una parte importante del gasto, pese a bajar respecto al mes anterior. El ministerio publica los datos de financiación por separado. La financiación mediante bonos fue algo mayor que la financiación total porque el componente de préstamos fue negativo. La medida de financiación excluye la devolución del principal, es decir, del importe prestado. Por eso, no equivale al total de bonos vendidos.",
-          "why": "Una transferencia del Gobierno central puede dar a un gobierno local recursos para prestar servicios públicos o pagar a sus proveedores. Que se registre la transferencia no significa que el dinero llegue en ese momento a un contratista o a un hogar: el gobierno local todavía tiene que comprometer esos fondos o desembolsarlos. La oferta de bonos públicos importa por otro motivo. Los inversores pueden elegir entre deuda pública y privada, así que los cambios en el volumen de deuda que el Gobierno coloca en el mercado pueden afectar a las condiciones de financiación de las empresas. La publicación mide la financiación, no su efecto en el mercado.",
-          "uncertainty": "Los datos corresponden al Gobierno central y no consolidan las cuentas de todos los niveles de gobierno. El déficit mensual puede reducirse por cambios en las fechas de cobros y pagos. Eso no demuestra que la política fiscal se haya vuelto más restrictiva ni que haya cambiado la demanda de los servicios de contratistas que cotizan en China continental.",
-          "watch": "Compara las próximas tablas mensuales del Gobierno central con los datos de ejecución presupuestaria local y los resultados de las subastas de bonos públicos. Antes de concluir que las transferencias se traducen en actividad empresarial, fíjate en el gasto de los gobiernos locales y en sus pagos a proveedores.",
+          "id": "f1",
+          "title": "Estados Unidos revisa al alza el crecimiento mientras siguen subiendo los precios al consumidor",
+          "summary": "Los estadísticos federales elevaron su estimación del crecimiento del verano. Por separado, un informe mensual mostró que el gasto de los hogares apenas cambió una vez descontada la inflación.",
+          "impact": "Para los comercios minoristas y las entidades de crédito, la revisión del PIB ofrece una imagen más precisa de la demanda pasada, pero no demuestra que los hogares estén comprando más ahora.",
+          "what": "La Oficina de Análisis Económico revisó al alza el producto interno bruto ajustado por inflación tras incorporar datos actualizados sobre la inversión y el gasto de los consumidores. La revisión de la inversión se debió sobre todo a los productos de propiedad intelectual, en particular al software. También se revisaron al alza las ventas finales a compradores privados nacionales, un indicador que se centra en el gasto de los hogares y la inversión privada dentro del país. El informe mensual de gasto mostró un panorama distinto: los hogares gastaron más dólares, pero, al ajustar por los precios, el volumen de sus compras bajó ligeramente antes de redondear la cifra. Los ingresos después de impuestos, ajustados por inflación, subieron, al igual que la tasa de ahorro.",
+          "why": "Una tienda puede ingresar más dinero sin vender más mercancía si sube los precios. Por eso, el gasto en dólares corrientes indica cuánto se pagó, mientras que el gasto ajustado por inflación indica cuánto se compró. La diferencia importa a las empresas que deciden si aumentar sus existencias o contratar más personal. También importa para las tasas de interés: si persiste la presión sobre los precios, las autoridades monetarias pueden actuar con cautela a la hora de bajar las tasas, mientras que un gasto real débil puede indicar que los consumidores tienen dificultades. Que el poder adquisitivo medio después de impuestos haya mejorado no significa que haya mejorado el presupuesto de cada hogar: los cambios en los salarios, las prestaciones y los precios afectan de forma distinta a cada familia.",
+          "uncertainty": "La estimación del crecimiento puede revisarse y corresponde a un período que terminó antes de comenzar el mes que cubre el informe de gasto. La tasa anualizada del PIB expresa el ritmo de crecimiento del trimestre como si se mantuviera durante todo el año; no indica cuánto creció ya la economía en ese plazo. La cifra redondeada del consumo real tampoco significa que el gasto no haya variado en absoluto. Los informes no permiten saber qué hará la Reserva Federal.",
+          "watch": "El próximo informe de gasto e ingresos permitirá ver si la mejora del poder adquisitivo se traduce en más gasto real. También queda por ver si se modera la presión sobre los precios sin contar los alimentos y la energía y si la próxima estimación del PIB mantiene la revisión al alza de la demanda privada.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Ingresos del Gobierno central"
+              "label": "Crecimiento anualizado del PIB real"
             },
             {
               "id": "m2",
-              "label": "Gasto del Gobierno central"
+              "label": "Crecimiento anualizado de las ventas finales reales a compradores privados nacionales"
             },
             {
               "id": "m3",
-              "label": "Saldo presupuestario del Gobierno central"
+              "label": "Inflación general según el índice de precios PCE"
             },
             {
               "id": "m4",
-              "label": "Financiación del Gobierno central"
+              "label": "Inflación PCE sin alimentos ni energía"
             },
             {
               "id": "m5",
-              "label": "Transferencias del Gobierno central a los gobiernos locales"
+              "label": "Crecimiento del gasto de los consumidores en dólares corrientes"
             },
             {
               "id": "m6",
-              "label": "Componente de financiación mediante bonos"
+              "label": "Crecimiento del gasto de los consumidores ajustado por inflación, redondeado"
             },
             {
               "id": "m7",
-              "label": "Componente de financiación mediante préstamos"
+              "label": "Crecimiento de la renta disponible ajustada por inflación"
+            },
+            {
+              "id": "m8",
+              "label": "Tasa de ahorro personal"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "La inflación repunta en Estados Unidos mientras el gasto real se estanca",
-          "summary": "La inflación interanual del gasto en consumo se aceleró, mientras que el gasto de los hogares bajó ligeramente respecto al mes anterior tras descontar el efecto de los precios.",
-          "impact": "Una mayor recaudación en caja puede ocultar un volumen de ventas débil. Si la inflación persiste, puede ser más difícil justificar condiciones de crédito más flexibles.",
-          "what": "La Oficina de Análisis Económico informó que la inflación interanual repuntó tanto en el índice general como en el que excluye alimentos y energía. El índice general de precios también subió respecto al mes anterior, aunque menos que en septiembre. Los hogares gastaron más en dólares, pero su gasto real, es decir, ajustado por la inflación, bajó ligeramente y quedó sin cambios al redondearlo en la tabla publicada. Los ingresos después de impuestos aumentaron incluso tras ajustar por la inflación. El informe también midió por separado qué parte de la renta disponible se ahorró en vez de gastarse.",
-          "why": "El gasto nominal mide lo que pagaron los hogares a los precios del momento. El gasto real indica qué pudieron comprar con ese dinero. La diferencia ayuda a entender por qué un comercio puede ingresar más sin vender más productos o por qué un hogar puede gastar más sin sentir que está mejor. La Reserva Federal usa los indicadores que excluyen alimentos y energía para evaluar si persiste la presión de fondo sobre los precios. Si persiste, las autoridades monetarias podrían mostrarse menos dispuestas a relajar su política, incluso si la demanda real parece débil. Esto importa a las empresas que refinancian préstamos y a los hogares que buscan crédito.",
-          "uncertainty": "El informe presenta estimaciones agregadas que pueden revisarse. El aumento del poder adquisitivo medio no indica qué hogares se beneficiaron, y la composición del gasto puede variar entre comercios y proveedores de servicios. La publicación no determina la próxima decisión sobre los tipos de interés.",
-          "watch": "En la próxima publicación, comprueba si el gasto real vuelve a crecer y si se modera la inflación sin alimentos ni energía. Las revisiones de las estimaciones actuales también podrían cambiar el punto de partida.",
+          "id": "f4",
+          "title": "Resultados de BYD: el repunte del beneficio y el flujo de caja muestran panoramas distintos",
+          "summary": "El informe de BYD mostró que los ingresos y el beneficio atribuible a los accionistas repuntaron en el trimestre, aunque el beneficio atribuible seguía por debajo del registrado en el mismo período del año anterior.",
+          "impact": "El flujo de caja operativo mejoró en lo que va de año, pero los pagos por activos a largo plazo superaron el efectivo generado por las operaciones.",
+          "what": "BYD fabrica vehículos eléctricos de batería e híbridos enchufables y también tiene negocios de baterías y electrónica. Su informe trimestral mostró que tanto los ingresos como el beneficio neto atribuible a los accionistas aumentaron respecto al mismo trimestre del año anterior. El beneficio atribuible también subió al excluir las partidas que la empresa clasificó como no recurrentes. La comparación del beneficio acumulado en el año fue menos favorable, pese a la mejora del flujo de caja operativo. Al explicar ese cambio en el flujo de caja, la empresa señaló que había pagado menos en efectivo por bienes y servicios. En su análisis del balance, atribuyó el aumento de las cuentas por cobrar y de las existencias al crecimiento del negocio de automóviles en el extranjero y a la acumulación de inventario para esos mercados.",
+          "why": "Un trimestre más rentable no significa que la empresa ya haya cobrado todas sus ventas. Un fabricante puede registrar una venta mientras espera el pago y gastar dinero en fabricar vehículos antes de entregarlos. La expansión internacional puede atraer más clientes y abrir nuevos mercados, pero también puede exigir que la empresa coloque existencias en esos mercados con antelación. Además, el flujo de caja operativo no descuenta los pagos para construir o comprar activos a largo plazo. Comparar esos pagos con el flujo de caja operativo ayuda a entender por qué generar más efectivo no siempre deja más dinero disponible para otros usos.",
+          "uncertainty": "El informe trimestral no está auditado y presenta el flujo de caja operativo acumulado en el año, no el del trimestre por separado. Tampoco muestra qué parte de la mejora del flujo de caja del grupo se debió a las ventas de vehículos en el extranjero. Que se haya pagado menos en efectivo a los proveedores de bienes y servicios no demuestra por sí solo que haya bajado el costo de fabricar cada vehículo.",
+          "watch": "Los próximos estados financieros permitirán ver si se cobran las cuentas pendientes y si las existencias aumentan o disminuyen en relación con las ventas. Volver a comparar el flujo de caja operativo con los pagos por activos a largo plazo ayudará a ver si la mejora se mantiene a medida que la empresa se expande.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Inflación interanual del gasto en consumo"
+              "label": "Ingresos operativos trimestrales"
             },
             {
               "id": "m2",
-              "label": "Inflación subyacente interanual del gasto en consumo"
+              "label": "Crecimiento de los ingresos operativos trimestrales"
             },
             {
               "id": "m3",
-              "label": "Variación mensual del índice de precios del gasto en consumo"
+              "label": "Beneficio neto trimestral atribuible a los accionistas"
             },
             {
               "id": "m4",
-              "label": "Variación mensual del gasto nominal en consumo"
+              "label": "Crecimiento del beneficio neto trimestral atribuible a los accionistas"
             },
             {
               "id": "m5",
-              "label": "Variación mensual del gasto real en consumo con el redondeo publicado"
+              "label": "Crecimiento del beneficio atribuible a los accionistas acumulado en el año"
             },
             {
               "id": "m6",
-              "label": "Variación mensual de la renta disponible real"
+              "label": "Flujo de caja operativo acumulado en el año"
             },
             {
               "id": "m7",
-              "label": "Tasa de ahorro personal"
+              "label": "Crecimiento del flujo de caja operativo acumulado en el año"
+            },
+            {
+              "id": "m8",
+              "label": "Pagos en efectivo por activos a largo plazo acumulados en el año"
             }
           ]
         }
       ]
     },
     "ja": {
-      "status": "この号では米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として掲載しています。",
+      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業決算は、背景を理解するための解説として掲載しています。",
       "marketSummary": {
-        "us": "終値を確認できなかった指数もあります。終値を掲載している指数には、それぞれの取引日を示しています。",
-        "cn": "対象の株価指数はいずれも、終値を確認できた直近の取引日に下落しました。掲載している終値は、記載された取引日のもので、現在の値動きを示すものではありません。"
+        "us": "終値を確認できなかったものがあります。確認できた指数については、それぞれの取引日を記載しています。",
+        "cn": "対象の株価指数はいずれも、終値を確認できた直近の取引日に下落しました。記載の終値はその取引日のもので、現在の相場を示すものではありません。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "中国の中央政府、財政赤字が縮小",
-          "summary": "中国財政部の発表によると、中央政府の歳入は前月より増え、歳出は減りました。",
-          "impact": "この発表は、地方政府への移転支出と、債券市場での資金調達を分けて捉えるのに役立ちます。",
-          "what": "中国財政部が公表した月次資料によると、中央政府の歳出は歳入を上回りましたが、その差は前月より縮まりました。地方政府への移転支出は前月より減ったものの、引き続き歳出の大きな部分を占めました。財政部は資金調達額を歳入・歳出とは別に公表しています。借入による調達額がマイナスだったため、債券による調達額は資金調達総額をわずかに上回りました。この資金調達の指標には元本の返済が含まれず、債券の発行総額を示すものではありません。",
-          "why": "中央政府からの資金移転は、地方政府が公共サービスを運営したり、取引先に代金を支払ったりするための財源になります。ただし、移転が計上された時点で、受託企業や家計に資金が届くとは限りません。資金を受け取る地方政府が、支出を決めたり、実際に支払ったりする必要があるためです。国債の供給が重要なのは、これとは別の理由です。投資家は国債と企業などが発行する債券を選べるため、政府が市場に出す国債の量が変わると、企業の資金調達環境に影響することがあります。今回の発表が示すのは資金調達額であり、そうした市場への影響ではありません。",
-          "uncertainty": "今回の発表は中央政府を対象としたもので、地方政府も含めた政府全体の連結収支ではありません。歳入や支払いの時期がずれるだけでも、月ごとの赤字は縮むことがあります。今回の資料だけでは、財政政策が引き締められたとも、中国本土の市場に上場する受託企業への需要が変わったとも判断できません。",
-          "watch": "次回の中央政府の月次資料を、地方政府の予算執行状況や公的部門の債券入札結果と見比べます。移転資金が企業活動につながっていると判断する前に、地方政府の支出や取引先への支払いを確認します。",
+          "id": "f1",
+          "title": "米国の経済成長率は上方修正、消費者が支払う物価は上昇が続く",
+          "summary": "米政府の統計当局は、夏場の経済成長率の推計を上方修正しました。一方、別に公表された月次統計では、物価上昇の影響を除いた家計の消費支出はほとんど変わりませんでした。",
+          "impact": "小売業者や金融機関にとって、ＧＤＰの上方修正は過去の需要をより正確に把握する材料ですが、家計がいま買い物を増やしている証拠ではありません。",
+          "what": "米経済分析局は、投資と個人消費の最新データを反映し、物価変動の影響を除いた国内総生産（実質ＧＤＰ）の推計を上方修正しました。投資の上方修正を主に押し上げたのは、ソフトウェアなどの知的財産生産物です。国内の家計消費と民間投資に着目した指標である国内民間最終需要も上方修正されました。一方、別の月次統計では、家計が実際に支払った金額は増えましたが、物価変動の影響を除いた消費支出は、端数処理前の値ではわずかに減りました。物価変動の影響を除いた税引き後の所得は増え、貯蓄率も上がりました。",
+          "why": "店は、値上げすれば販売量が増えなくても売上高が伸びることがあります。支払った金額をそのまま見る名目支出と、物価変動の影響を除いて見る実質支出は、違うことを教えてくれます。この違いは、仕入れや人員を増やすかどうかを決める企業にとって重要です。金利を考える上でも、物価の上昇圧力が続けば、金融当局は金融緩和に慎重になりやすい一方、実質支出の弱さは家計に余裕がなくなっている兆しかもしれません。また、税引き後の所得で買えるものが平均で増えても、どの家計も楽になったとは限りません。賃金や給付、物価の変化がもたらす影響は、家計によって異なります。",
+          "uncertainty": "成長率の推計は今後も改定される可能性があります。また、ＧＤＰの対象期間は、消費支出の月次統計の対象月が始まる前に終わっています。年率換算のＧＤＰ成長率は、その四半期の伸びを年間のペースに換算したもので、年間の実績ではありません。端数処理後の実質個人消費が横ばいに見えても、まったく変化がなかったわけではありません。どちらの統計からも、米連邦準備制度理事会がどう動くかは分かりません。",
+          "watch": "次回の支出・所得統計では、購買力の改善が実質支出の増加につながっているかが焦点です。食品とエネルギーを除いた物価の上昇圧力が和らぐか、次回のＧＤＰ推計でも国内民間最終需要の上方修正が維持されるかも注目点です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "中央政府の歳入"
+              "label": "実質ＧＤＰ成長率（年率換算）"
             },
             {
               "id": "m2",
-              "label": "中央政府の歳出"
+              "label": "実質国内民間最終需要の伸び率（年率換算）"
             },
             {
               "id": "m3",
-              "label": "中央政府の財政収支"
+              "label": "ＰＣＥ物価指数上昇率（総合）"
             },
             {
               "id": "m4",
-              "label": "中央政府の資金調達額"
+              "label": "コアＰＣＥ物価指数上昇率（食品・エネルギーを除く）"
             },
             {
               "id": "m5",
-              "label": "中央政府から地方政府への移転支出"
+              "label": "名目個人消費支出の伸び率"
             },
             {
               "id": "m6",
-              "label": "債券による資金調達額"
+              "label": "実質個人消費支出の伸び率（端数処理後）"
             },
             {
               "id": "m7",
-              "label": "借入による資金調達額"
+              "label": "実質可処分所得の伸び率"
+            },
+            {
+              "id": "m8",
+              "label": "個人貯蓄率"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "米国でインフレが加速、実質消費は伸び悩む",
-          "summary": "個人消費の物価上昇率は前年同月比で加速した一方、物価の影響を除いた家計の支出は前月からわずかに減りました。",
-          "impact": "売上金額が増えても、販売数量の弱さが隠れていることがあります。また、インフレが長引けば、借り入れ条件を緩めるべきだと判断しにくくなります。",
-          "what": "米経済分析局の発表によると、個人消費支出の物価上昇率は、総合でも、食品・エネルギーを除いた場合でも、前年同月比で加速しました。総合の物価指数は前月からも上昇しましたが、その伸びは前月より鈍くなりました。家計が支払った金額は増えたものの、物価の影響を除いた実質消費支出はわずかに減り、公表表では端数処理により横ばいとなりました。税引き後の所得は物価の影響を除いても増えました。報告では、可処分所得のうち消費に回らず貯蓄に回った割合も別に示されています。",
-          "why": "名目消費支出は、家計がその時点の価格で実際に支払った金額です。実質消費支出は、その金額でどれだけの商品やサービスを買えたかを示します。この違いを知ると、小売店で販売数量が増えなくても売上金額が増えたり、家計の支出が増えても暮らしにゆとりが出たと感じられなかったりする理由が分かります。米連邦準備制度にとって、食品・エネルギーを除く物価指標は、基調的な物価上昇圧力が続いているかを判断する手がかりです。その圧力が続けば、物価の影響を除いた需要が弱く見えても、金融緩和に踏み切りにくくなる可能性があります。これは、融資の借り換えを検討する企業や、借り入れ先を探す家計にも関係します。",
-          "uncertainty": "この報告は全体をまとめた推計で、後から改定されることがあります。平均の購買力が高まっても、どの家計の購買力が上がったかは分かりません。また、小売店やサービス事業者によって、消費者がお金を使う先の内訳は異なり得ます。この発表だけで次回の政策金利が決まるわけではありません。",
-          "watch": "次回の発表では、実質消費支出が増加に転じるか、食品・エネルギーを除く物価の上昇が鈍るかを確認します。今回の推計が改定されれば、比較の出発点も変わる可能性があります。",
+          "id": "f4",
+          "title": "比亜迪の決算解説：利益は持ち直し、資金繰りには別の動き",
+          "summary": "比亜迪の決算資料では、四半期の売上高と親会社株主に帰属する純利益が持ち直しました。ただし、年初来累計の同純利益は前年同期を下回りました。",
+          "impact": "年初来累計の営業キャッシュフローは改善しましたが、長期資産の取得などに支払った現金は、本業で生み出した現金を上回りました。",
+          "what": "比亜迪は、バッテリー式電気自動車やプラグインハイブリッド車を製造し、電池や電子機器の事業も手がけています。決算資料によると、四半期の売上高と親会社株主に帰属する純利益は前年同期を上回りました。会社が臨時的と分類した損益を除いても、同純利益は増えました。一方、年初来累計の純利益は前年同期を下回りましたが、営業キャッシュフローは改善しました。会社は、商品やサービスの購入に伴う現金支払いが減ったことを、キャッシュフロー改善の要因に挙げています。また、売掛金や在庫が増えた理由として、海外自動車事業の拡大と、販売に備えた在庫の積み増しを挙げています。",
+          "why": "四半期の利益が増えても、売上代金がすべて現金で入ってきたとは限りません。メーカーは代金を受け取る前に売上を計上できますし、車を引き渡す前に製造費用を支払うこともあります。海外展開で顧客や販売先の市場を増やせる一方、販売に備えてあらかじめ在庫を用意する必要もあります。また、営業キャッシュフローには、長期資産を建設したり購入したりするための現金支出は含まれません。その支出と営業キャッシュフローをあわせて見ると、本業で生み出す現金が増えても、ほかの用途に使えるお金が増えるとは限らない理由が分かります。",
+          "uncertainty": "四半期の決算資料は監査を受けていません。また、営業キャッシュフローは年初来の累計で、四半期だけの数字ではありません。グループ全体の営業キャッシュフローの改善に、海外での自動車販売がどの程度寄与したかは分かりません。商品やサービスの代金として取引先に支払った現金が減っただけでは、車両あたりの製造原価が下がったとは言えません。",
+          "watch": "次の決算では、売掛金が回収されているか、売上高に対して在庫が増えているか減っているかが焦点です。事業を拡大するなかで現金収支の改善が続くかを見るには、営業キャッシュフローと長期資産への現金支出の比較も手がかりになります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "個人消費支出（PCE）物価指数の前年同月比"
+              "label": "四半期売上高"
             },
             {
               "id": "m2",
-              "label": "コア個人消費支出（PCE）物価指数の前年同月比"
+              "label": "四半期売上高の伸び率"
             },
             {
               "id": "m3",
-              "label": "個人消費支出（PCE）物価指数の前月比"
+              "label": "四半期の親会社株主に帰属する純利益"
             },
             {
               "id": "m4",
-              "label": "名目個人消費支出の前月比"
+              "label": "四半期の親会社株主に帰属する純利益の伸び率"
             },
             {
               "id": "m5",
-              "label": "実質個人消費支出の前月比（公表時の表示桁数）"
+              "label": "年初来累計の親会社株主に帰属する純利益の伸び率"
             },
             {
               "id": "m6",
-              "label": "実質可処分所得の前月比"
+              "label": "年初来累計の営業キャッシュフロー"
             },
             {
               "id": "m7",
-              "label": "個人貯蓄率"
+              "label": "年初来累計の営業キャッシュフローの伸び率"
+            },
+            {
+              "id": "m8",
+              "label": "年初来累計の長期資産取得などに伴う現金支出"
             }
           ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação. Os relatórios empresariais recentes são apresentados para ajudar a entender o contexto.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes de empresas são apresentados para dar contexto.",
       "marketSummary": {
-        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis é apresentado com a data do pregão correspondente.",
-        "cn": "Os índices acompanhados caíram em seus pregões mais recentes com dados verificados. Os fechamentos se referem às datas indicadas, não ao pregão atual."
+        "us": "Não foi possível confirmar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão a que eles se referem.",
+        "cn": "Os índices acompanhados caíram em seus pregões mais recentes com dados confirmados. Os fechamentos se referem aos pregões nas datas indicadas, não às negociações atuais."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "Déficit do governo central da China diminui",
-          "summary": "O Ministério das Finanças da China informou que a receita do governo central aumentou e a despesa diminuiu em relação ao mês anterior.",
-          "impact": "A divulgação ajuda a distinguir as transferências para os governos locais da captação de recursos no mercado de títulos.",
-          "what": "As tabelas mensais do ministério mostram que o governo central gastou mais do que arrecadou, mas que essa diferença diminuiu em relação ao mês anterior. As transferências para os governos locais continuaram representando uma parcela importante da despesa, apesar de terem caído na comparação mensal. O ministério informa o financiamento separadamente. O valor captado por meio de títulos foi ligeiramente superior ao financiamento total porque a parcela referente a empréstimos foi negativa. A medida de financiamento não inclui a amortização do principal e, por isso, não deve ser interpretada como o total das vendas de títulos.",
-          "why": "Uma transferência do governo central pode dar a um governo local os recursos necessários para manter serviços públicos ou pagar fornecedores. O dinheiro não chega necessariamente a uma empresa contratada ou a uma família no momento em que a transferência é registrada: o governo local ainda precisa comprometer os recursos ou efetuar o pagamento. A oferta de títulos públicos importa por outro motivo. Como os investidores podem escolher entre títulos públicos e privados, mudanças no volume de títulos que o governo oferece no mercado podem afetar as condições de financiamento das empresas. A divulgação mede o financiamento, não esse efeito sobre o mercado.",
-          "uncertainty": "Os dados dizem respeito ao governo central e não consolidam as contas de todos os níveis de governo. O déficit mensal pode diminuir por causa de mudanças nas datas de recebimentos e pagamentos. Os dados não demonstram que a política fiscal ficou mais restritiva nem que mudou a demanda pelos serviços de empresas contratadas e listadas em bolsas da China continental.",
-          "watch": "Compare as próximas tabelas mensais do governo central com a execução dos orçamentos locais e os resultados dos leilões de títulos públicos. Observe os gastos dos governos locais e os pagamentos a fornecedores antes de concluir que as transferências estão se refletindo na atividade das empresas.",
+          "id": "f1",
+          "title": "Crescimento dos EUA é revisado para cima enquanto os preços ao consumidor continuam subindo",
+          "summary": "Os estatísticos do governo federal elevaram a estimativa de crescimento no verão, enquanto outro relatório mostrou que os gastos das famílias pouco mudaram em outubro, descontada a inflação.",
+          "impact": "Para varejistas e instituições de crédito, a revisão do PIB dá uma visão mais precisa da demanda passada, mas não é sinal de que as famílias estejam comprando mais agora.",
+          "what": "O Escritório de Análise Econômica dos EUA revisou para cima o produto interno bruto (PIB) descontada a inflação, depois de incorporar dados atualizados sobre investimentos e consumo. O principal motivo da revisão dos investimentos foram os produtos de propriedade intelectual, sobretudo software. As vendas finais a compradores privados no país, indicador que considera os gastos das famílias e os investimentos privados dentro dos EUA, também foram revisadas para cima. O relatório de outubro sobre os gastos das famílias mostra um quadro diferente: as pessoas gastaram mais em dólares, mas, descontado o efeito dos preços, o volume comprado caiu ligeiramente antes do arredondamento. A renda após impostos subiu em termos reais, e a taxa de poupança aumentou.",
+          "why": "Uma loja pode faturar mais sem vender mais mercadorias se os preços subirem. Por isso, os gastos em dólares correntes e os gastos descontada a inflação respondem a perguntas diferentes. Essa distinção importa para empresas que precisam decidir se devem reforçar os estoques ou contratar pessoal. Também importa para os juros: a pressão persistente sobre os preços pode levar o banco central a agir com cautela antes de reduzir os juros, enquanto gastos fracos em termos reais podem indicar que os consumidores estão com o orçamento apertado. A melhora do poder de compra médio após impostos não significa que o orçamento de todas as famílias tenha melhorado: mudanças em salários, benefícios e preços afetam cada família de forma diferente.",
+          "uncertainty": "A estimativa de crescimento pode ser revisada e se refere a um período que terminou antes do mês coberto pelo relatório de gastos. A taxa anualizada do PIB indica o ritmo sugerido pelo desempenho do trimestre, não o crescimento já registrado ao longo de todo o ano. O dado arredondado do consumo real também não significa que ele tenha ficado exatamente no mesmo nível. Nenhuma das divulgações indica com certeza o que o banco central dos EUA fará.",
+          "watch": "Na próxima divulgação de gastos e renda, vale observar se o maior poder de compra se traduz em mais consumo em termos reais, se a pressão sobre os preços diminui quando se excluem alimentos e energia e se a próxima estimativa do PIB mantém a revisão para cima da demanda privada.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Receita do governo central"
+              "label": "Crescimento anualizado do PIB real"
             },
             {
               "id": "m2",
-              "label": "Despesa do governo central"
+              "label": "Crescimento real anualizado das vendas finais a compradores privados no país"
             },
             {
               "id": "m3",
-              "label": "Saldo orçamentário do governo central"
+              "label": "Inflação cheia medida pelo índice de preços PCE"
             },
             {
               "id": "m4",
-              "label": "Financiamento do governo central"
+              "label": "Inflação medida pelo índice de preços PCE, excluindo alimentos e energia"
             },
             {
               "id": "m5",
-              "label": "Transferências do governo central para governos locais"
+              "label": "Crescimento nominal dos gastos dos consumidores"
             },
             {
               "id": "m6",
-              "label": "Parcela do financiamento via títulos"
+              "label": "Crescimento real dos gastos dos consumidores, com arredondamento"
             },
             {
               "id": "m7",
-              "label": "Parcela do financiamento via empréstimos"
+              "label": "Crescimento da renda disponível real"
+            },
+            {
+              "id": "m8",
+              "label": "Taxa de poupança pessoal"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "Inflação acelera nos Estados Unidos, enquanto o consumo real fica praticamente estável",
-          "summary": "A inflação anual medida pelos preços das despesas de consumo acelerou, enquanto os gastos das famílias, descontada a inflação, recuaram ligeiramente em relação ao mês anterior.",
-          "impact": "Uma receita maior no caixa pode esconder vendas fracas em volume, e a persistência da inflação pode dificultar a adoção de condições de crédito mais favoráveis.",
-          "what": "O Bureau de Análise Econômica dos Estados Unidos informou que a inflação anual acelerou tanto no índice geral quanto no índice que exclui alimentos e energia. O índice geral de preços também subiu em relação ao mês anterior, mas em ritmo mais lento do que na leitura mensal anterior. As famílias gastaram mais em dólares, mas, descontada a inflação, os gastos recuaram ligeiramente e apareceram como estáveis após o arredondamento na tabela publicada. A renda após impostos aumentou mesmo descontada a inflação. O relatório também mostrou, separadamente, qual parcela da renda disponível foi poupada em vez de gasta.",
-          "why": "O gasto nominal mostra quanto as famílias pagaram aos preços do momento. O gasto real mostra quanto elas conseguiram comprar com esse dinheiro. Essa diferença ajuda a explicar por que uma loja pode arrecadar mais no caixa sem vender mais produtos, ou por que uma família pode gastar mais sem sentir que está em situação melhor. Para o Federal Reserve, o banco central dos Estados Unidos, os indicadores que excluem alimentos e energia ajudam a avaliar se a pressão sobre os preços persiste. Se persistir, o banco central pode ficar menos inclinado a afrouxar a política monetária, mesmo quando a demanda real parece fraca. Isso importa para empresas que precisam refinanciar empréstimos e para famílias em busca de crédito.",
-          "uncertainty": "O relatório apresenta estimativas para o conjunto da economia, sujeitas a revisão. O aumento do poder de compra médio não mostra quais famílias se beneficiaram, e a composição dos gastos pode variar entre varejistas e prestadores de serviços. A divulgação não determina a próxima decisão sobre a taxa de juros.",
-          "watch": "Na próxima divulgação, verifique se os gastos reais voltam a crescer e se a inflação que exclui alimentos e energia desacelera. Revisões das estimativas atuais também podem mudar a base de comparação.",
+          "id": "f4",
+          "title": "Balanço de outubro: a recuperação do lucro e o fluxo de caixa da BYD mostram quadros diferentes",
+          "summary": "O relatório de outubro da BYD mostrou recuperação da receita e do lucro atribuível aos acionistas no trimestre, embora esse lucro ainda estivesse em queda no acumulado do ano.",
+          "impact": "A geração de caixa das operações melhorou no acumulado do ano, mas os desembolsos com ativos de longo prazo superaram o caixa gerado pelas operações.",
+          "what": "A BYD fabrica veículos elétricos a bateria e híbridos plug-in e também atua nos setores de baterias e eletrônicos. O relatório de outubro mostrou que a receita e o lucro líquido atribuível aos acionistas cresceram no trimestre em relação ao mesmo período do ano anterior. O lucro atribuível aos acionistas também aumentou quando se excluíram os itens que a empresa classificou como não recorrentes. No acumulado do ano, o desempenho do lucro foi mais fraco, embora o fluxo de caixa operacional tenha melhorado. Para explicar a mudança no fluxo de caixa, a empresa citou desembolsos menores com bens e serviços. Na análise do balanço patrimonial, a empresa atribuiu o aumento das contas a receber e dos estoques à expansão e à formação de estoques nas operações de veículos no exterior.",
+          "why": "O relatório mostra por que um trimestre mais lucrativo não significa que todas as vendas já viraram dinheiro em caixa. Uma fabricante pode registrar uma venda antes de receber o pagamento e gastar com a produção de veículos antes de entregá-los. A expansão para o exterior pode atrair clientes e abrir mercados, mas também pode exigir que a empresa abasteça esses mercados com antecedência. O fluxo de caixa operacional é apurado sem descontar os desembolsos para construir ou comprar ativos de longo prazo. Comparar esses gastos com o caixa gerado pelas operações ajuda a entender por que gerar mais caixa não significa necessariamente ter mais dinheiro disponível para outros usos.",
+          "uncertainty": "O relatório trimestral não foi auditado e apresenta o fluxo de caixa operacional acumulado no ano, não o do trimestre isolado. Ele não informa quanto da melhora no caixa do grupo veio das vendas de veículos no exterior. Pagamentos menores a fornecedores de bens e serviços não demonstram, por si só, que o custo de fabricação de cada veículo caiu.",
+          "watch": "Nas próximas demonstrações financeiras, vale observar se a empresa recebe os valores em aberto e se os estoques aumentam ou diminuem em relação às vendas. Uma nova comparação entre o caixa gerado pelas operações e os desembolsos com ativos de longo prazo ajuda a avaliar se a melhora no caixa se mantém à medida que a empresa se expande.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Inflação anual dos preços das despesas de consumo"
+              "label": "Receita operacional trimestral"
             },
             {
               "id": "m2",
-              "label": "Núcleo da inflação anual dos preços das despesas de consumo"
+              "label": "Crescimento da receita operacional trimestral"
             },
             {
               "id": "m3",
-              "label": "Variação mensal dos preços das despesas de consumo"
+              "label": "Lucro líquido trimestral atribuível aos acionistas"
             },
             {
               "id": "m4",
-              "label": "Variação mensal nominal das despesas de consumo"
+              "label": "Crescimento do lucro líquido trimestral atribuível aos acionistas"
             },
             {
               "id": "m5",
-              "label": "Variação mensal real das despesas de consumo, com o arredondamento publicado"
+              "label": "Crescimento do lucro líquido atribuível aos acionistas no acumulado do ano"
             },
             {
               "id": "m6",
-              "label": "Variação mensal da renda disponível real"
+              "label": "Fluxo de caixa operacional no acumulado do ano"
             },
             {
               "id": "m7",
-              "label": "Taxa de poupança pessoal"
+              "label": "Crescimento do fluxo de caixa operacional no acumulado do ano"
+            },
+            {
+              "id": "m8",
+              "label": "Desembolsos com ativos de longo prazo no acumulado do ano"
             }
           ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的財經動態。請留意各項資料的發布日期；近期企業報告在本期用於解說背景。",
+      "status": "本期涵蓋美國與中國的財經動態。請留意各則消息的發布日期；近期企業財報用於解讀背景。",
       "marketSummary": {
-        "us": "部分收盤資料無法查證。可查證的指數資料均保留各自的交易日期。",
-        "cn": "追蹤的指數在各自最近可查證的交易日均告下跌。標有日期的收盤資料反映的是當天的行情，不代表目前的交易情況。"
+        "us": "部分收盤資料未能核實。可提供收盤資料的指數，均保留各自的交易日期。",
+        "cn": "追蹤的指數在各自最近可核實的交易日均收跌。標註日期的收盤結果只反映當天行情，不代表目前走勢。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "中國中央政府財政赤字收窄",
-          "summary": "中國財政部公布，中央政府收入較前月增加，支出則減少。",
-          "impact": "這份資料有助於區分中央對地方政府的移轉支付，以及政府在債券市場上的籌資活動。",
-          "what": "財政部本次公布的月度表格顯示，中央政府支出仍高於收入，但差額較前月縮小。對地方政府的移轉支付雖較前月減少，仍占中央政府支出相當大的比重。財政部另外列出融資數據。由於貸款融資為負值，債券融資金額略高於融資總額。這項融資統計不計入本金償還，因此不能把它當成所有債券的發行總額。",
-          "why": "中央的移轉支付可以讓地方政府有資金維持公共服務或支付供應商款項。但款項在帳上列為移轉支付時，不見得已交到承包商或家庭手中；地方政府仍須承諾支用或實際撥款。政府債券供給的重要性則在於，投資人可以在政府債務與民間債務之間選擇，因此政府在市場上發行的債券規模若有變化，可能影響企業的融資環境。這份資料衡量的是融資金額，而不是對市場的影響。",
-          "uncertainty": "這是中央政府的財政資料，並非合併各級政府的帳目。單月收支差額縮小，可能只是因為款項收付的時間不同。這不足以證明政策已經收緊，也不能據此判定中國大陸上市承包商面對的需求有所變化。",
-          "watch": "可將下次公布的中央政府月度表格，與地方政府的預算執行情況及公開債券標售結果對照。先觀察地方是否實際支出、是否支付供應商款項，再判斷移轉支付是否已反映在企業活動上。",
+          "id": "f1",
+          "title": "美國經濟成長上修，消費物價持續上漲",
+          "summary": "美國官方統計機構上修夏季經濟成長估計；另份月度報告顯示，扣除通膨影響後，當月家庭支出幾乎沒有變動。",
+          "impact": "對零售商與放款機構來說，國內生產毛額的上修讓過去的需求更清楚，但不代表家庭現在買得更多。",
+          "what": "美國經濟分析局納入更新後的投資與消費支出資料，上修扣除物價影響後的實質國內生產毛額。投資上修主要來自智慧財產產品，尤其是軟體。主要衡量美國境內家庭消費與民間投資的「對國內民間購買者的最終銷售」也獲上修。另一份月度報告呈現不同情況：家庭花出去的金額增加，但扣除物價影響後，實際購買量在按公布精度取位前略有下降。扣除通膨影響後的稅後所得上升，儲蓄率也提高。",
+          "why": "如果物價上漲，商店即使沒有賣出更多商品，也可能收到更多錢。這就是為什麼名目支出反映花了多少錢，實質支出則反映買了多少。這個差別會影響企業是否增加備貨或人手，也和利率有關：物價若持續承壓，決策者對放寬貨幣政策可能更謹慎；實質支出疲弱，則可能反映消費者手頭吃緊。對家庭而言，平均稅後購買力提高，不代表各自的預算都變寬裕，因為薪資、福利給付與物價的變動對不同家庭影響不一。",
+          "uncertainty": "成長估計仍可能修正，且涵蓋的期間在月度支出報告所涵蓋的月份開始前就已結束。年化成長率是把該季的成長速度換算成年率，不是已經實現的全年成長。取位後公布的實質消費數據看似持平，也不代表完全沒有變動。這些報告都無法確定美國聯準會接下來會怎麼做。",
+          "watch": "留意下次支出與所得報告，看看購買力提高是否帶動實質支出增加。也可觀察扣除食品與能源後的物價壓力是否減輕，以及下次國內生產毛額估計是否維持對民間需求的上修。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "中央政府收入"
+              "label": "實質國內生產毛額成長率（年化）"
             },
             {
               "id": "m2",
-              "label": "中央政府支出"
+              "label": "對國內民間購買者的實質最終銷售成長率（年化）"
             },
             {
               "id": "m3",
-              "label": "中央政府財政收支差額"
+              "label": "整體個人消費支出物價指數年增率"
             },
             {
               "id": "m4",
-              "label": "中央政府融資總額"
+              "label": "核心個人消費支出物價指數年增率（不含食品與能源）"
             },
             {
               "id": "m5",
-              "label": "中央對地方政府移轉支付"
+              "label": "名目消費支出成長率"
             },
             {
               "id": "m6",
-              "label": "債券融資金額"
+              "label": "實質消費支出成長率（按公布精度取位）"
             },
             {
               "id": "m7",
-              "label": "貸款融資金額"
+              "label": "實質可支配所得成長率"
+            },
+            {
+              "id": "m8",
+              "label": "個人儲蓄率"
             }
           ]
         },
         {
-          "id": "f3",
-          "title": "美國通膨升溫，實質消費停滯",
-          "summary": "個人消費支出物價的年增幅擴大，但扣除物價變動後，家庭消費較前月微幅下滑。",
-          "impact": "商家即使收到更多錢，也可能掩蓋銷量疲弱的情況；通膨若持續，放寬借貸條件的理由就可能沒那麼充分。",
-          "what": "美國經濟分析局指出，不論是整體物價，還是排除食品與能源後的物價，年增幅都擴大。整體物價指數也較前月上升，但月增幅比前月小。家庭實際付出的金額增加，但扣除物價變動後，消費支出略減，四捨五入後在公布的表格中呈現持平。稅後所得即使扣除物價變動仍有增加；報告也另外衡量可支配所得中有多少比例存了下來、沒有花掉。",
-          "why": "名目消費支出衡量的是家庭按當時的價格付了多少錢；實質消費支出看的則是這些錢能買到多少商品和服務。這個差別有助於解釋，為什麼零售商收進更多錢，卻不見得賣出更多商品；家庭也可能花得更多，卻沒覺得日子更好過。對美國聯準會而言，排除食品與能源的物價指標，有助於判斷較根本的物價上漲壓力是否持續。如果壓力未消，即使實質需求看來偏弱，決策者也可能較不願放寬貨幣政策。這會影響需要辦理貸款再融資的企業，以及正在比較借貸方案的家庭。",
-          "uncertainty": "這份報告是整體估計值，日後可能修正。平均購買力提高，不代表能看出哪些家庭受益；不同零售商和服務業者面對的消費組合也可能不同。這份資料無法決定下次的利率決策。",
-          "watch": "下次公布資料時，可留意實質消費支出是否恢復成長，以及排除食品與能源後的通膨是否降溫。本次估計值若有修正，也可能改變後續比較的基準。",
+          "id": "f4",
+          "title": "比亞迪財報解析：獲利回升，現金流呈現不同情況",
+          "summary": "比亞迪公布的財報顯示，單季營收與歸屬股東淨利回升，但年初至今的歸屬股東淨利仍較去年同期下滑。",
+          "impact": "年初至今的營業現金流有所改善，但用於長期資產的現金支出仍超過營業活動帶來的現金。",
+          "what": "比亞迪生產純電動車與插電式油電混合車，也經營電池和電子業務。公司公布的財報顯示，單季營收與歸屬股東淨利均較去年同期增加。扣除公司列為非經常性的項目後，歸屬股東淨利也有所成長。相比之下，年初至今的獲利表現較弱，但營業現金流有所改善。公司解釋現金流變動時，提到購買商品與服務所支付的現金減少。公司在說明資產負債表時，將應收款項與存貨增加歸因於海外汽車業務成長與備貨。",
+          "why": "這份財報說明，單季獲利提高，不代表每筆銷售款項都已入帳收到。製造商可以先認列銷售收入、之後才收到貨款，也可能在交車前就先花錢生產。拓展海外業務可以增加客戶、擴大銷售市場，但也需要提前備貨。營業現金流並未扣除興建或購置長期資產所支付的現金。把這些支出和營業現金流放在一起看，就能理解為什麼營業活動帶來的現金增加，不代表公司有更多現金可用於其他用途。",
+          "uncertainty": "這份季報未經會計師查核，揭露的是年初至今的營業現金流，而非單季數字。財報也沒有說明集團現金流改善有多少來自海外汽車銷售。支付給供應商的商品與服務款項減少，本身不足以證明每輛車的實際生產成本下降。",
+          "watch": "留意下次財報中應收款項是否收回，以及存貨相對於銷售額是增加還是減少。再比較營業現金流與長期資產支出，看看公司擴張之際，現金流改善的情況是否延續。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "個人消費支出物價指數年增率"
+              "label": "單季營業收入"
             },
             {
               "id": "m2",
-              "label": "核心個人消費支出物價指數年增率"
+              "label": "單季營業收入成長率"
             },
             {
               "id": "m3",
-              "label": "個人消費支出物價指數月增率"
+              "label": "單季歸屬股東淨利"
             },
             {
               "id": "m4",
-              "label": "名目個人消費支出月增率"
+              "label": "單季歸屬股東淨利成長率"
             },
             {
               "id": "m5",
-              "label": "實質個人消費支出月增率（依公布精度）"
+              "label": "年初至今歸屬股東淨利成長率"
             },
             {
               "id": "m6",
-              "label": "實質可支配所得月增率"
+              "label": "年初至今營業現金流"
             },
             {
               "id": "m7",
-              "label": "個人儲蓄率"
+              "label": "年初至今營業現金流成長率"
+            },
+            {
+              "id": "m8",
+              "label": "年初至今購置或興建長期資產支付的現金"
             }
           ]
         }
