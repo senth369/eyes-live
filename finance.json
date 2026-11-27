@@ -1,98 +1,93 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-26T23:00:02.385Z",
-  "generatedAt": "2026-11-26T23:08:13.710Z",
+  "cutoffAt": "2026-11-27T15:03:56.893Z",
+  "generatedAt": "2026-11-27T15:12:19.826Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Investing.com — broad US price index daily closing table",
-      "url": "https://ph.investing.com/indices/us-spx-500-historical-data"
+      "label": "Portfolio Terminal dated US closing report",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close/november-25-2026"
     },
     {
       "id": "src2",
-      "label": "FRED — Nasdaq Composite daily closing observations",
-      "url": "https://fred.stlouisfed.org/data/NASDAQCOM"
+      "label": "FRED broad US equity index daily close table",
+      "url": "https://fred.stlouisfed.org/data/SP500"
     },
     {
       "id": "src3",
-      "label": "Investing.com — Shanghai Composite daily closing table",
-      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
+      "label": "FRED Nasdaq Composite daily close table",
+      "url": "https://fred.stlouisfed.org/data/NASDAQCOM"
     },
     {
       "id": "src4",
-      "label": "Investing.com — mainland large-cap benchmark daily closing table",
-      "url": "https://cn.investing.com/indices/csi300-historical-data"
+      "label": "NYSE holiday and early closing notice",
+      "url": "https://s2.q4cdn.com/154085107/files/doc_news/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar-2025.pdf"
     },
     {
       "id": "src5",
-      "label": "Nasdaq — exchange trading calendar",
-      "url": "https://www.nasdaq.com/trading-calendar"
+      "label": "Xinhua Finance mainland closing report",
+      "url": "https://m.cnfin.com/yw-lb/zixun/20261127/4501205_1.html"
     },
     {
       "id": "src6",
-      "label": "Issuer filing — preliminary duty-free restructuring plan summary",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-26/12724604.PDF"
+      "label": "Gold Investment Network mainland daily closing table",
+      "url": "https://stock.cngold.org/c/2026-11-27/c10908785.html"
     },
     {
       "id": "src7",
-      "label": "Issuer filing — restructuring and trading resumption notice",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-26/12724590.PDF"
+      "label": "Investing mainland large-cap index daily data table",
+      "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
       "id": "src8",
-      "label": "Issuer filing — duty-free group quarterly financial report",
-      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-10/2026-10-30/12678634.PDF"
+      "label": "US Census Bureau advance economic indicators release",
+      "url": "https://www.census.gov/econ/indicators/2026/advance_report2610.pdf"
     },
     {
       "id": "src9",
-      "label": "China Ministry of Commerce — services trade plan publication notice",
-      "url": "https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_6ed41ce4da7e40a4ba7c393a7135c784.html"
+      "label": "Mainland exchange filing on proposed share placement",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691528.PDF"
     },
     {
       "id": "src10",
-      "label": "China Ministry of Commerce — full services trade plan",
-      "url": "https://www.mofcom.gov.cn/cms_files/filemanager/10364010/attach/20269/0709d8b5b26b48c39aae452c3296b9ea.pdf?fileName=%E6%9C%8D%E5%8A%A1%E8%B4%B8%E6%98%93%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92.pdf"
+      "label": "Mainland issuer quarterly report and consolidated cash flow statement",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620903.PDF"
     },
     {
       "id": "src11",
-      "label": "Bureau of Economic Analysis — October personal income and outlays release",
-      "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026"
+      "label": "National Bureau of Statistics industrial profits release reproduced by Fujian’s industry department",
+      "url": "https://gxt.fj.gov.cn/zwgk/gysj/jjyxsj/202611/t20261127_7255759.htm"
     },
     {
       "id": "src12",
-      "label": "Issuer newsroom — latest fiscal-quarter results for infrastructure and PC maker",
-      "url": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+      "label": "Securities regulator publication of State Council meeting readout",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7673432/content.shtml"
     },
     {
       "id": "src13",
-      "label": "Issuer newsroom — preceding fiscal-quarter results and period boundary",
-      "url": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-delivers-second-quarter-fiscal-2027-financial-results"
+      "label": "Bureau of Economic Analysis personal income and outlays release",
+      "url": "https://www.bea.gov/sites/default/files/2026-11/pi1026.pdf"
     },
     {
       "id": "src14",
-      "label": "CNINFO — electric vehicle maker quarterly filing",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641442.PDF"
+      "label": "US issuer earnings release and financial statements filed with the SEC",
+      "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/0001571996-26-000050.pdf"
     },
     {
       "id": "src15",
-      "label": "Issuer profile — vehicle, battery and electronics operations",
-      "url": "https://www.byd.com/en-re/about-byd"
+      "label": "US issuer prior quarter results establishing the fiscal quarter boundary",
+      "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000039/exhibit991earnings8kq2fy27.htm"
     },
     {
       "id": "src16",
-      "label": "US Trade Representative — manufacturing investigation findings and proposed actions",
-      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+      "label": "Nasdaq Thanksgiving holiday and early closing notice",
+      "url": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2026-69"
     },
     {
       "id": "src17",
-      "label": "US Trade Representative — China proposed-action notice and product annexes",
-      "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/China%20FRN.pdf"
-    },
-    {
-      "id": "src18",
-      "label": "NYSE — exchange holidays and trading hours",
-      "url": "https://www.nyse.com/trade/hours-calendars"
+      "label": "Bureau of Economic Analysis prior-month personal income and outlays release",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
     }
   ],
   "markets": [
@@ -114,89 +109,138 @@
     },
     {
       "id": "sse",
-      "sessionDate": "2026-11-26",
-      "close": 3476.88,
-      "previousClose": 3476.47,
-      "changePercent": 0.01,
-      "sourceIds": [
-        "src3"
-      ]
+      "sessionDate": null,
+      "close": null,
+      "previousClose": null,
+      "changePercent": null,
+      "sourceIds": []
     },
     {
       "id": "csi300",
-      "sessionDate": "2026-11-26",
-      "close": 3900.55,
-      "previousClose": 3898.24,
-      "changePercent": 0.06,
+      "sessionDate": "2026-11-27",
+      "close": 4063.06,
+      "previousClose": 3900.55,
+      "changePercent": 4.17,
       "sourceIds": [
-        "src4"
+        "src7"
       ]
     }
   ],
   "stories": [
     {
-      "id": "f2",
-      "market": "cn",
+      "id": "f1",
+      "market": "us",
       "category": "economy",
-      "publishedOn": "2026-11-26",
+      "publishedOn": "2026-11-27",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 8082310000000,
-          "unit": "CNY",
-          "periodStart": "2025-01-01",
-          "periodEnd": "2025-12-31",
+          "value": -149478000000,
+          "unit": "USD",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src10"
+            "src8"
           ],
-          "evidence": "The development baseline gives the historical national total for services imports and exports combined."
+          "evidence": "Seasonally adjusted balance row in the principal end-use goods trade table; the negative sign denotes a deficit."
+        },
+        {
+          "id": "m2",
+          "value": 365297000000,
+          "unit": "USD",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Seasonally adjusted imports row in the principal end-use goods trade table."
+        },
+        {
+          "id": "m3",
+          "value": 215819000000,
+          "unit": "USD",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Seasonally adjusted exports row in the principal end-use goods trade table."
+        },
+        {
+          "id": "m4",
+          "value": 0.9,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Monthly change in seasonally adjusted merchant wholesale stocks in the inventories table."
+        },
+        {
+          "id": "m5",
+          "value": 0.8,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Monthly change in seasonally adjusted total retail stocks in the inventories table."
         }
       ],
       "sourceIds": [
-        "src9",
-        "src10"
+        "src8"
       ],
-      "evidence": "The ministry notice publishes the plan. The productive-services export and cross-border flows sections cover industrial support services, bank settlement and compliant data transfers. The opening baseline gives the historical trade total, not a target or forecast. ([mofcom.gov.cn](https://www.mofcom.gov.cn/zcfb/zc/art/2026/art_6ed41ce4da7e40a4ba7c393a7135c784.html))"
+      "evidence": "The opening trade and inventories sections report a wider goods deficit and rising stocks at wholesalers and retailers; detailed adjusted tables give the underlying values."
     },
     {
       "id": "f3",
-      "market": "global",
+      "market": "cn",
       "category": "economy",
-      "publishedOn": "2026-11-25",
-      "company": null,
-      "metrics": [],
-      "sourceIds": [
-        "src16",
-        "src17"
-      ],
-      "evidence": "The announcement separates the manufacturing investigation findings from proposed remedies. The China notice's proposed-action section and annexes distinguish product treatment, offsets and exemptions, and describe a broader alternative. The notice requests public comments and provides for a hearing. ([ustr.gov](https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural))"
-    },
-    {
-      "id": "f4",
-      "market": "us",
-      "category": "economy",
-      "publishedOn": "2026-11-25",
+      "publishedOn": "2026-11-27",
       "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 3.8,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
+          "value": 6737360000000,
+          "unit": "CNY",
+          "periodStart": "2026-01-01",
           "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "comparison": "level",
           "basis": "reported",
           "sourceIds": [
             "src11"
           ],
-          "evidence": "Annual price-change paragraph: headline personal consumption expenditures price index."
+          "evidence": "The opening paragraph gives cumulative total profit for industrial firms in scope."
         },
         {
           "id": "m2",
-          "value": 3.3,
+          "value": 16,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "The opening paragraph gives comparable-basis year-to-date profit growth."
+        },
+        {
+          "id": "m3",
+          "value": 20.1,
           "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
@@ -205,52 +249,64 @@
           "sourceIds": [
             "src11"
           ],
-          "evidence": "Annual price-change paragraph: personal consumption expenditures price index excluding food and energy."
-        },
-        {
-          "id": "m3",
-          "value": 0.3,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src11"
-          ],
-          "evidence": "Personal Income and Related Measures table: change in current-dollar consumption spending."
+          "evidence": "The standalone monthly observation before the tables gives profit growth for the reporting month alone."
         },
         {
           "id": "m4",
-          "value": 0,
+          "value": 6.7,
           "unit": "percent",
-          "periodStart": "2026-10-01",
+          "periodStart": "2026-01-01",
           "periodEnd": "2026-10-31",
-          "comparison": "mom",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
             "src11"
           ],
-          "evidence": "Personal Income and Related Measures table: rounded real spending change; the release narrative reports a slight decline before rounding."
+          "evidence": "The paragraph on operating revenue and costs gives cumulative operating revenue growth."
         },
         {
           "id": "m5",
-          "value": 0.5,
+          "value": 17.5,
           "unit": "percent",
-          "periodStart": "2026-10-01",
+          "periodStart": "2026-01-01",
           "periodEnd": "2026-10-31",
-          "comparison": "mom",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
             "src11"
           ],
-          "evidence": "Personal Income and Related Measures table: change in inflation-adjusted disposable personal income."
+          "evidence": "The broad industry breakdown gives cumulative manufacturing profit growth."
+        },
+        {
+          "id": "m6",
+          "value": -14.8,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src11"
+          ],
+          "evidence": "The broad industry breakdown gives the cumulative profit decline for power, heat, gas, and water producers and suppliers."
         }
       ],
       "sourceIds": [
         "src11"
       ],
-      "evidence": "The release narrative and monthly table separate current-dollar from inflation-adjusted spending and report headline and core price changes. The technical notes identify wages, dividends and a Medicare premium rebate as contributors to personal income growth and document revisions to earlier estimates. ([bea.gov](https://bea.gov/news/2026/personal-income-and-outlays-october-2026))"
+      "evidence": "The official reproduction separates cumulative industrial results from the latest month. Its month-end discussion reports rising receivables and slower collections, and its statistical notes define which firms are covered."
+    },
+    {
+      "id": "f4",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-11-27",
+      "company": null,
+      "metrics": [],
+      "sourceIds": [
+        "src12"
+      ],
+      "evidence": "The capital-market paragraph calls for stronger stabilization and liquidity support, more long-term institutional participation, greater shareholder distributions, and tougher enforcement. It does not announce a funding amount or purchase schedule."
     }
   ],
   "locales": {
@@ -258,475 +314,615 @@
       "status": "This edition covers US and China developments. Check each publication date; recent company reports are presented as background explainers.",
       "marketSummary": {
         "us": "Some closing observations could not be verified. Each available index retains its own trading date.",
-        "cn": "Both tracked indexes rose in their latest verified sessions. The dated closes describe those sessions, not current trading."
+        "cn": "Some closing observations could not be verified. Each available index retains its own trading date."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "China puts cross-border services alongside goods exports",
-          "summary": "China published a services trade plan that promotes industrial support exports and calls for easier cross-border settlement for eligible businesses.",
-          "impact": "If implemented, the plan could help manufacturers earn more from servicing equipment abroad and make it easier for service exporters to get paid.",
-          "what": "The plan treats design, testing, repairs and logistics as services Chinese companies can sell abroad alongside physical products. It also calls for banks to make cross-border settlement easier for compliant businesses and for clearer arrangements governing data and other inputs used to deliver services across borders. The trade figure in the plan is a historical baseline. It is not new spending or a pledge to reach a particular total.",
-          "why": "A machinery maker can keep earning after delivery if a customer pays it for maintenance or diagnostics. Offering that support can also make the original equipment easier to sell because the buyer knows who will fix it. But the service becomes harder to provide if payments are slow or the equipment data needed for remote support cannot legally move. For households, opening service markets could expand choices in areas such as tourism or health services, though that depends on the rules that follow.",
-          "uncertainty": "The plan sets a direction. It does not grant every firm permission to move customer data abroad, guarantee cheaper banking, or identify how much additional revenue listed companies will earn.",
-          "watch": "Look for pilot rules on settlement and data transfers, followed by services trade releases that distinguish exports from imports and show which activities are growing.",
+          "id": "f1",
+          "title": "US goods trade gap widens as imports rise",
+          "summary": "The Census Bureau reported a wider goods deficit as import values rose faster than export values.",
+          "impact": "Rising imports and inventories make it important to distinguish goods arriving at businesses from goods actually sold to customers.",
+          "what": "The advance report measures the dollar value of goods moving into and out of the United States. Exports rose, but imports rose by more, so the goods balance moved further into deficit. The same release estimated that wholesalers and retailers held more inventory at the end of the reporting month. The headline trade figures strip out normal seasonal patterns but do not strip out price changes.",
+          "why": "More goods on hand can help stores keep shelves stocked and give manufacturers access to inputs. But inventory absorbs cash until the goods sell. If sales disappoint, retailers may need to mark down stock and distributors may cut future orders. For the economy, imports are subtracted in the calculation of domestic output so that spending on goods made abroad is not counted as US production. A wider goods gap does not, by itself, tell us whether the economy grew or shrank.",
+          "uncertainty": "This is an advance estimate, excludes services, and does not establish whether the higher dollar value of imports reflects prices, volumes, or a change in the mix of goods. The inventory figures cannot show whether firms stocked up deliberately or were left with unsold goods.",
+          "watch": "Look for the fuller goods and services trade report and compare subsequent retail sales with inventory growth to see whether customers are buying through the buildup.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Historical annual services imports and exports combined"
+              "label": "Goods trade balance"
+            },
+            {
+              "id": "m2",
+              "label": "Goods imports"
+            },
+            {
+              "id": "m3",
+              "label": "Goods exports"
+            },
+            {
+              "id": "m4",
+              "label": "Wholesale inventory growth"
+            },
+            {
+              "id": "m5",
+              "label": "Retail inventory growth"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "Proposed US tariffs put product sourcing back under review",
-          "summary": "The US trade representative published proposed tariff measures covering China and other manufacturing economies and opened them to public comment.",
-          "impact": "Importers face a possible change in the cost of getting goods into the country, but the proposal does not establish what they will ultimately pay.",
-          "what": "The trade office announced its findings on manufacturing practices separately from its proposed response. The China notice lays out different treatments for different product lists, including exemptions and an offset tied to a separate tariff action. It also describes a broader alternative if talks do not address the trade office’s concerns. For a business, the practical question is which customs classification its goods fall under. Applying a headline rate to every shipment would miss differences the notice makes explicit.",
-          "why": "If a duty takes effect, the importer has to decide whether to absorb it, ask suppliers to lower prices, or pass it on to customers. Those choices depend on contracts, competition and how readily buyers can switch products. Moving production or finding another supplier takes time and may not solve the problem if the alternative is also covered. Households could see higher prices in some categories, but the notice does not show how much of any new cost would reach store shelves.",
-          "uncertainty": "These are proposals, not duties newly collected under this action. Final product coverage, offsets, exemptions and effective dates could change after comments and hearings.",
-          "watch": "Look for final notices and customs instructions, then for company disclosures that quantify exposure by product or sourcing market.",
-          "metricLabels": []
-        },
-        {
-          "id": "f4",
-          "title": "US households spent more dollars but bought slightly less",
-          "summary": "US consumer spending rose in dollar terms, but slipped slightly after adjusting for prices even as after-tax income gained purchasing power.",
-          "impact": "Businesses cannot assume rising receipts mean customers are buying more, and the report leaves the durability of the income gain open.",
-          "what": "The Bureau of Economic Analysis measured what households spent and how the prices of those purchases changed. Spending rose before adjusting for prices, with services accounting for most of the dollar increase. In the published table, inflation-adjusted spending rounds to flat, although the release describes a slight decline. After-tax income rose even after adjusting for inflation. The technical notes point to wages, dividend receipts and a Medicare premium rebate among the contributors to income.",
-          "why": "A shop can take in more cash without selling more goods if prices rise. That distinction matters for hiring and inventory because a business that sees higher receipts may not need to stock more or add shifts. For households, higher real after-tax income provides some room to spend or save, but a rebate does not support future budgets in the same way as a sustained increase in wages. The release also separates overall inflation from a measure that excludes food and energy, whose prices can fluctuate sharply.",
-          "uncertainty": "The figures are estimates subject to revision, and this release already revised earlier estimates. They describe households in aggregate, not how much financial room a particular family has or what customers will spend during the holidays.",
-          "watch": "Watch the next income and spending release for whether real consumption recovers and whether income growth holds up without the same rebate contribution.",
+          "title": "China’s industrial profits rise unevenly",
+          "summary": "Profit at larger Chinese industrial firms rose faster than revenue over the year to date, with manufacturing gains contrasting with weaker utility profits.",
+          "impact": "The improvement may give some producers more room to invest, but it does not mean cash is reaching suppliers faster.",
+          "what": "The National Bureau of Statistics reported higher cumulative profit for industrial firms above its reporting threshold. It also published a separate gain for the latest month, which should not be confused with the cumulative reading. The industry breakdown shows rising profits in manufacturing and a decline in the group that includes power, heat, gas, and water suppliers. The release also reported higher receivables and longer average collection times.",
+          "why": "When profit rises faster than sales, the group as a whole is retaining more of its revenue as profit, but the aggregate can hide sharply different conditions across industries. Stronger profits may make it easier for some producers to fund equipment purchases or absorb cost increases. The cash picture can be less favorable: when customers take longer to pay, firms can record sales and profit while still needing financing for wages, inventory, or supplier bills.",
+          "uncertainty": "This is a survey of larger industrial businesses, not a census of all firms or a report on listed companies alone. The profit measure is accounting profit, not operating cash flow, and the survey cannot show whether a specific company is collecting more cash.",
+          "watch": "Compare the next release’s sector profit figures with collection times and inventory turnover, then look for confirmation in listed manufacturers’ cash flow statements.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Headline consumption inflation from a year earlier"
+              "label": "Cumulative industrial profit"
             },
             {
               "id": "m2",
-              "label": "Core consumption inflation from a year earlier"
+              "label": "Cumulative industrial profit growth"
             },
             {
               "id": "m3",
-              "label": "Monthly change in dollar spending"
+              "label": "Latest month industrial profit growth"
             },
             {
               "id": "m4",
-              "label": "Monthly change in real spending, rounded"
+              "label": "Cumulative industrial revenue growth"
             },
             {
               "id": "m5",
-              "label": "Monthly change in real after-tax income"
+              "label": "Cumulative manufacturing profit growth"
+            },
+            {
+              "id": "m6",
+              "label": "Cumulative utility profit growth"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "China calls for stronger stock market support",
+          "summary": "The State Council called for stronger market stabilization, more participation by long-term institutions, and greater use of dividends and buybacks.",
+          "impact": "The measures could make trading more resilient in a selloff, but the readout does not establish that fresh money has entered the market.",
+          "what": "The meeting readout calls for a stronger role for state-backed investors in stabilizing the market and for refinements to the arrangements that help keep trading liquid. It also asks for better policies to support participation by insurers, enterprise pension plans, and social security funds. Alongside those measures, it calls for more dividends and repurchases by listed companies and tougher enforcement against financial fraud and improper share sales.",
+          "why": "A market with willing buyers during a selloff can make it easier to trade without moving prices sharply. Longer-term pools of savings can help provide that demand if their investment rules and incentives allow it. Dividends are different: they transfer corporate cash to shareholders, while buybacks use company cash to purchase its shares. Neither creates operating earnings, so households exposed through funds and companies that rely on equity financing should distinguish market support from improved business results.",
+          "uncertainty": "The readout gives no new funding amount, purchase schedule, or binding allocation requirement. It does not show that particular investors traded or establish how the measures affected share prices.",
+          "watch": "Look for implementing rules from regulators, disclosed changes to institutional investment arrangements, and issuer notices showing dividends declared or repurchases actually executed.",
+          "metricLabels": []
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请留意各条内容的发布日期；近期公司报告仅用于解读背景。",
+      "status": "本期关注美国和中国的财经动态。请留意各条内容的发布日期；近期发布的公司报告仅作为背景解读。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。已取得数据的指数均保留各自的交易日期。",
-        "cn": "所跟踪的指数在各自最近可核实的交易日均上涨。标注日期的收盘数据仅反映相应交易日的表现，并非实时行情。"
+        "us": "部分收盘数据未能核实。已获得数据的指数均保留各自对应的交易日期。",
+        "cn": "部分收盘数据未能核实。已获得数据的指数均保留各自对应的交易日期。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "中国推动服务与货物共同出口",
-          "summary": "中国发布服务贸易方案，推动产业配套服务出口，并提出为符合条件的企业简化跨境结算。",
-          "impact": "如果方案落地，制造商有望通过为海外设备提供服务获得更多收入，服务出口企业也可能更容易收到款项。",
-          "what": "方案提出，中国企业在出口实物商品的同时，也可以向海外销售设计、检测、维修和物流等服务。方案还提出，银行应为合规企业提供更便利的跨境结算服务，并明确跨境提供服务所需的数据及其他要素如何使用。方案中的贸易数据是用于比较的历史基准，既不是新增支出，也不是对达到特定规模的承诺。",
-          "why": "设备交付后，如果客户愿意为维护或故障诊断付费，机械制造商就能继续获得收入。买家知道设备出了问题可以找谁维修，设备本身也可能更好卖。不过，如果收款慢，或者远程支持所需的设备数据无法合法跨境传输，这类服务就更难提供。对家庭来说，服务市场开放可能增加旅游、医疗健康等方面的选择，但具体要看后续规则。",
-          "uncertainty": "方案明确了政策方向，但并不意味着所有企业都能把客户数据传到境外，也不保证银行服务费用会降低，或说明上市公司的营收能增加多少。",
-          "watch": "后续可关注跨境结算和数据传输的试点规则，以及区分出口和进口、反映哪些服务类别在增长的服务贸易数据。",
+          "id": "f1",
+          "title": "进口增加，美国货物贸易逆差扩大",
+          "summary": "美国人口普查局报告称，进口额增幅超过出口额，货物贸易逆差随之扩大。",
+          "impact": "进口额和库存都在上升，更需要区分企业收到的货物和实际卖给顾客的货物。",
+          "what": "这份初步报告统计进出美国的货物价值，以美元计。出口额有所上升，但进口额增幅更大，货物贸易逆差因而扩大。同份报告还估计，批发商和零售商在报告期月末持有的库存有所增加。主要贸易数据已剔除常见季节性波动的影响，但未剔除价格变化的影响。",
+          "why": "库存增加有助于商店保持货架有货，也能让制造商更容易获得生产所需的物料。但货物售出前，库存会占用资金。如果销售不及预期，零售商可能需要降价促销，经销商也可能减少后续订单。在计算美国国内产出时，需要扣除进口，以免把用于购买国外生产商品的支出算作美国产出。仅凭货物贸易逆差扩大，无法判断经济是增长还是萎缩。",
+          "uncertainty": "这只是初步估算，不包括服务贸易，也无法确定进口额上升究竟源于价格变化、进口量变化，还是进口商品构成变化。库存数据也无法说明企业是主动备货，还是有货物没卖出去。",
+          "watch": "关注更完整的货物和服务贸易报告，并将后续零售销售数据与库存增幅对照，观察顾客的购买能否消化新增库存。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "历史年度服务进出口总额"
+              "label": "货物贸易差额"
+            },
+            {
+              "id": "m2",
+              "label": "货物进口额"
+            },
+            {
+              "id": "m3",
+              "label": "货物出口额"
+            },
+            {
+              "id": "m4",
+              "label": "批发库存增幅"
+            },
+            {
+              "id": "m5",
+              "label": "零售库存增幅"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "美国关税提案让企业重新审视采购来源",
-          "summary": "美国贸易代表办公室公布了涉及中国及其他制造业经济体的关税提案，并向公众征求意见。",
-          "impact": "进口商将货物运入美国的成本可能变化，但提案并未确定其最终要支付多少。",
-          "what": "美国贸易代表办公室分别公布了对制造业相关做法的调查结论和拟采取的应对措施。针对中国的公告对不同产品清单作出不同安排，包括豁免，以及与另一项关税措施挂钩的抵扣安排。如果谈判未能解决该办公室关切的问题，公告还提出了适用范围更广的备选方案。对企业来说，实际要弄清的是货物属于哪个海关税目。把广为报道的税率套用到所有货物上，会忽略公告明确列出的差异。",
-          "why": "如果关税生效，进口商就得决定是自行承担成本、要求供应商降价，还是把成本转嫁给客户。这取决于合同条款、市场竞争，以及买家换用其他产品的难易程度。转移生产或更换供应商都需要时间；如果替代来源也在征税范围内，问题可能仍然存在。家庭购买某些商品时可能面临涨价，但公告并未说明新增成本会有多少反映在零售价上。",
-          "uncertainty": "这些措施仍是提案，并非已经据此开始征收的新关税。征求意见和听证结束后，最终涉及的产品范围、抵扣和豁免安排以及生效日期都可能调整。",
-          "watch": "后续可关注正式公告和海关执行指引，以及企业是否披露不同产品或采购市场受到影响的程度。",
-          "metricLabels": []
-        },
-        {
-          "id": "f4",
-          "title": "美国家庭花的钱更多，实际消费却略降",
-          "summary": "美国消费者按金额计算的支出增加，但扣除价格变动后略有下降。与此同时，税后收入的购买力有所提高。",
-          "impact": "企业不能仅凭销售收入增加就认定顾客买得更多。这份报告也未说明收入增长能否持续。",
-          "what": "美国经济分析局统计了家庭花了多少钱，以及所购商品和服务的价格如何变化。未扣除价格变动时，消费支出有所上升，增加的金额主要来自服务消费。公布的表格中，经通胀调整后的支出经四舍五入显示为持平，但报告正文指出实际支出略有下降。扣除通胀后，税后收入仍有所增长。技术说明列出的收入增长因素包括工资、收到的股息，以及美国联邦医疗保险的保费返还。",
-          "why": "如果价格上涨，即使卖出的商品没有增加，商店收到的钱也可能更多。这一区别关系到用工和库存：销售收入增加，并不意味着企业就需要多备货或增加班次。对家庭来说，实际税后收入提高，意味着消费或储蓄有了更多余地；但保费返还不像工资持续上涨那样，能为今后的家庭预算提供稳定支撑。报告还分别列出了整体通胀指标和剔除食品与能源后的通胀指标，因为食品和能源价格可能大幅波动。",
-          "uncertainty": "这些数字是可能修订的估算值，本次发布也已修订了此前的估算。数据反映的是家庭部门的整体情况，不能说明某个家庭的预算有多宽裕，也不能说明消费者在节日期间会花多少钱。",
-          "watch": "后续可关注下次收入与支出数据，看看实际消费是否回升，以及在没有同样的保费返还带动时，收入增长能否保持。",
+          "title": "中国工业企业利润上升，行业表现分化",
+          "summary": "年初以来，中国规模以上工业企业累计利润增幅超过营收增幅。其中，制造业利润上升，公用事业利润下滑。",
+          "impact": "利润改善可能让部分生产企业有更大的投资空间，但不代表供应商能更快收到货款。",
+          "what": "国家统计局公布的数据显示，达到统计规模门槛的工业企业累计利润有所上升。统计局还单独公布了最近月份的利润增幅，不应与累计数据混淆。分行业看，制造业利润上升，涵盖电力、热力、燃气及水供应的行业类别利润下降。报告还显示，应收账款增加，平均回款时间延长。",
+          "why": "当利润增幅超过营收增幅时，这些企业整体上能把更大比例的营收留作利润，但汇总数据可能掩盖行业之间的显著差异。利润改善可能让部分生产企业更容易筹措设备采购所需资金，或缓冲成本上涨的影响。不过，现金状况可能没那么乐观：客户付款变慢时，企业即使已确认营收和利润，也可能仍需融资来支付工资、采购存货或结清供应商货款。",
+          "uncertainty": "这项调查针对规模以上工业企业，并非对所有企业的普查，也不只涵盖上市公司。所报利润是会计利润，不是经营现金流。调查也无法说明某家企业实际收到的现金是否增加。",
+          "watch": "关注下期数据，将各行业的利润表现与平均回款时间和存货周转情况对照，再看上市制造企业的现金流量表能否印证这些变化。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "个人消费支出价格指数同比涨幅"
+              "label": "规模以上工业企业累计利润"
             },
             {
               "id": "m2",
-              "label": "核心个人消费支出价格指数同比涨幅"
+              "label": "规模以上工业企业累计利润增幅"
             },
             {
               "id": "m3",
-              "label": "名义个人消费支出环比变动"
+              "label": "规模以上工业企业最近月份利润增幅"
             },
             {
               "id": "m4",
-              "label": "实际个人消费支出环比变动（经四舍五入）"
+              "label": "规模以上工业企业累计营收增幅"
             },
             {
               "id": "m5",
-              "label": "实际可支配个人收入环比变动"
+              "label": "制造业累计利润增幅"
+            },
+            {
+              "id": "m6",
+              "label": "公用事业累计利润增幅"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "中国提出加大股市支持力度",
+          "summary": "国务院提出加强稳市力度，推动长期机构投资者更多参与市场，并鼓励上市公司增加分红和回购。",
+          "impact": "这些措施可能增强市场应对抛售的能力，但会议通报并不能证明已有新增资金入市。",
+          "what": "会议通报提出，要让有国家支持的投资者在稳定市场方面发挥更大作用，并完善有助于维持交易流动性的机制。通报还提出完善相关政策，支持保险机构、企业年金和社保基金参与市场。同时，通报提出推动上市公司增加分红和股份回购，并加大对财务造假和违规减持的查处力度。",
+          "why": "市场遭遇抛售时，如果仍有买家愿意接手，交易就比较容易成交，也不至于让价格剧烈波动。如果投资规则允许、激励机制也能鼓励入市，长期资金可以提供这种买盘。分红与回购的作用不同：分红是将公司现金发给股东，回购则是用公司现金买回自家股份。分红和回购都不会创造经营利润。因此，通过基金投资股市的家庭和依赖股权融资的企业，需要区分市场受到支持和企业经营业绩改善。",
+          "uncertainty": "会议通报没有给出新的资金规模、买入时间表，也没有提出有约束力的资金配置要求。通报并未表明哪些投资者实际进行了交易，也无法据此确定这些措施对股价有何影响。",
+          "watch": "关注监管部门出台的实施细则、机构公开披露的投资安排变化，以及上市公司关于已宣告分红或已实际执行回购的公告。",
+          "metricLabels": []
         }
       ]
     },
     "fr": {
-      "status": "Cette édition revient sur l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports d’entreprise récents sont présentés pour donner du contexte.",
+      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour donner du contexte.",
       "marketSummary": {
-        "us": "Certains niveaux de clôture n’ont pas pu être vérifiés. Chaque indice pour lequel un niveau est disponible est présenté avec la date de la séance correspondante.",
-        "cn": "Les indices suivis ont progressé lors de leur dernière séance vérifiée. Les niveaux de clôture indiqués correspondent aux séances datées, et non aux échanges en cours."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible est présenté avec la date de la séance correspondante.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible est présenté avec la date de la séance correspondante."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "La Chine veut exporter des services en plus des biens",
-          "summary": "La Chine a publié un plan pour développer les exportations de services de soutien à l’industrie et faciliter les paiements transfrontaliers pour les entreprises admissibles.",
-          "impact": "S’il est mis en œuvre, le plan pourrait aider les fabricants à tirer davantage de revenus de l’entretien de leurs équipements à l’étranger et permettre aux exportateurs de services d’être payés plus facilement.",
-          "what": "Le plan présente la conception, les essais, les réparations et la logistique comme des services que les entreprises chinoises peuvent vendre à l’étranger en plus de leurs produits. Il demande aussi aux banques de faciliter les paiements transfrontaliers pour les entreprises qui respectent la réglementation et prévoit de clarifier les règles qui encadrent les données et les autres ressources nécessaires à la prestation de services à l’étranger. Le montant des échanges cité dans le plan sert de point de comparaison historique. Il ne correspond ni à de nouvelles dépenses ni à un objectif chiffré.",
-          "why": "Un fabricant de machines peut continuer à gagner de l’argent après la livraison si son client le paie pour l’entretien ou le diagnostic de pannes. Ce service peut aussi faciliter la vente du matériel : l’acheteur sait à qui s’adresser en cas de panne. Mais le service est plus difficile à assurer si les paiements tardent ou si la loi interdit de transférer les données nécessaires à l’assistance à distance. Pour les ménages, l’ouverture des marchés de services pourrait élargir le choix dans des domaines comme le tourisme ou la santé, selon les règles qui seront adoptées.",
-          "uncertainty": "Le plan fixe une orientation. Il n’autorise pas toutes les entreprises à transférer les données de leurs clients à l’étranger, ne garantit pas une baisse des frais bancaires et ne précise pas quel chiffre d’affaires supplémentaire les sociétés cotées pourraient en tirer.",
-          "watch": "À suivre : les règles pilotes sur les paiements et les transferts de données, puis les statistiques du commerce des services qui distinguent les exportations des importations et montrent quelles activités progressent.",
+          "id": "f1",
+          "title": "États-Unis : le déficit commercial des biens se creuse avec la hausse des importations",
+          "summary": "Le Bureau du recensement a annoncé un creusement du déficit commercial des biens : la valeur des importations a augmenté plus vite que celle des exportations.",
+          "impact": "La hausse des importations et des stocks invite à distinguer les marchandises que les entreprises reçoivent de celles qu’elles vendent réellement à leurs clients.",
+          "what": "Le rapport préliminaire mesure en dollars la valeur des biens qui entrent aux États-Unis et qui en sortent. Les exportations ont augmenté, mais les importations ont progressé davantage, ce qui a creusé le déficit commercial des biens. Selon la même publication, les grossistes et les détaillants détenaient davantage de stocks à la fin du mois étudié. Les principaux chiffres du commerce sont corrigés des variations saisonnières habituelles, mais pas des variations de prix.",
+          "why": "Des stocks plus importants aident les magasins à garder leurs rayons garnis et les fabricants à disposer de ce dont ils ont besoin pour produire. Mais ces stocks immobilisent de l’argent tant qu’ils ne sont pas vendus. Si les ventes déçoivent, les détaillants peuvent devoir baisser leurs prix et les distributeurs réduire leurs prochaines commandes. Dans le calcul de la production nationale, les importations sont déduites pour éviter que les dépenses consacrées à des biens fabriqués à l’étranger ne soient comptées comme de la production américaine. Le creusement du déficit commercial des biens ne permet pas à lui seul de savoir si l’économie a progressé ou reculé.",
+          "uncertainty": "Il s’agit d’une estimation préliminaire qui exclut les services. Elle ne permet pas de savoir si la hausse de la valeur des importations en dollars tient aux prix, aux volumes ou à un changement dans les types de biens importés. Les chiffres des stocks ne permettent pas de dire si les entreprises ont volontairement constitué des réserves ou si elles se sont retrouvées avec des invendus.",
+          "watch": "Le rapport plus complet sur le commerce des biens et des services est à suivre. L’évolution des ventes au détail, comparée à celle des stocks, aidera à voir si les achats des clients permettent d’écouler les marchandises accumulées.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Total annuel historique des importations et des exportations de services"
+              "label": "Solde commercial des biens"
+            },
+            {
+              "id": "m2",
+              "label": "Importations de biens"
+            },
+            {
+              "id": "m3",
+              "label": "Exportations de biens"
+            },
+            {
+              "id": "m4",
+              "label": "Croissance des stocks du commerce de gros"
+            },
+            {
+              "id": "m5",
+              "label": "Croissance des stocks du commerce de détail"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "Le projet américain de droits de douane remet les choix de fournisseurs en question",
-          "summary": "Le représentant américain au Commerce a publié des propositions de droits de douane visant la Chine et d’autres économies manufacturières, puis les a soumises à consultation publique.",
-          "impact": "Le coût de l’importation de marchandises pourrait changer, mais la proposition ne dit pas ce que les importateurs paieront au bout du compte.",
-          "what": "Les services du représentant au Commerce ont présenté leurs conclusions sur les pratiques manufacturières séparément des mesures proposées en réponse. L’avis concernant la Chine prévoit des règles différentes selon les listes de produits, avec notamment des exemptions et une compensation liée à une autre mesure douanière. Il décrit également une option de portée plus large si les discussions ne répondent pas aux préoccupations des autorités commerciales américaines. Pour une entreprise, la question concrète est de savoir de quelle catégorie douanière relèvent ses marchandises. Appliquer le taux mis en avant à toutes les expéditions ferait passer à côté des distinctions précisées dans l’avis.",
-          "why": "Si un droit de douane entre en vigueur, l’importateur doit décider s’il en absorbe le coût, demande à ses fournisseurs de baisser leurs prix ou le répercute sur ses clients. Ce choix dépend des contrats, de la concurrence et de la facilité avec laquelle les acheteurs peuvent se tourner vers d’autres produits. Déplacer la production ou trouver un autre fournisseur prend du temps et ne résout pas forcément le problème si cette solution est aussi visée. Les ménages pourraient voir les prix augmenter dans certaines catégories, mais l’avis ne dit pas quelle part du surcoût éventuel se retrouverait dans les prix en magasin.",
-          "uncertainty": "Il s’agit de propositions, pas de nouveaux droits déjà perçus au titre de cette mesure. Les produits visés, les compensations, les exemptions et les dates d’entrée en vigueur pourraient changer après la consultation et les auditions.",
-          "watch": "À suivre : les avis définitifs et les instructions douanières, puis les informations publiées par les entreprises qui chiffrent leur exposition selon les produits ou les marchés où elles s’approvisionnent.",
-          "metricLabels": []
-        },
-        {
-          "id": "f4",
-          "title": "Les ménages américains ont dépensé plus en dollars, mais acheté un peu moins",
-          "summary": "Les dépenses des ménages américains ont augmenté en dollars, mais ont légèrement reculé une fois la hausse des prix prise en compte, alors même que leur revenu après impôts a gagné en pouvoir d’achat.",
-          "impact": "Des recettes en hausse ne signifient pas forcément que les clients achètent davantage. Le rapport ne permet pas non plus de savoir si la hausse du revenu durera.",
-          "what": "Le Bureau américain d’analyse économique a mesuré les dépenses des ménages et l’évolution des prix de leurs achats. Avant correction de l’inflation, les dépenses ont augmenté, surtout dans les services, qui expliquent l’essentiel de la hausse en dollars. Après correction de l’inflation, l’arrondi du tableau publié fait apparaître des dépenses stables, même si le communiqué signale un léger recul. Le revenu après impôts a progressé même après correction de l’inflation. Les notes techniques citent notamment les salaires, les dividendes perçus et un remboursement de cotisations à Medicare parmi les facteurs qui ont contribué à cette hausse.",
-          "why": "Un magasin peut encaisser davantage sans vendre plus de produits si les prix montent. Cette distinction compte pour les embauches et la gestion des stocks : une hausse des recettes ne signifie pas forcément qu’il faut commander plus de marchandises ou prévoir davantage de créneaux de travail. Pour les ménages, la hausse du revenu après impôts, corrigé de l’inflation, donne un peu plus de marge pour dépenser ou épargner. Mais un remboursement ne soutient pas leur budget à venir comme le ferait une hausse durable des salaires. Le communiqué distingue aussi l’inflation globale d’une mesure qui exclut l’alimentation et l’énergie, dont les prix peuvent varier fortement.",
-          "uncertainty": "Ces chiffres sont des estimations susceptibles d’être révisées, et cette publication a déjà modifié des estimations antérieures. Ils décrivent les ménages dans leur ensemble, sans indiquer la marge de manœuvre financière d’une famille en particulier ni ce que les clients dépenseront pendant les fêtes.",
-          "watch": "La prochaine publication sur les revenus et les dépenses permettra de voir si la consommation repart après correction de l’inflation et si la croissance du revenu se maintient sans le même apport du remboursement.",
+          "title": "Chine : les bénéfices industriels progressent de façon inégale",
+          "summary": "Depuis le début de l’année, les bénéfices des grandes entreprises industrielles chinoises ont progressé plus vite que leur chiffre d’affaires. Ils ont augmenté dans l’industrie manufacturière, mais reculé dans les services aux collectivités.",
+          "impact": "Cette amélioration pourrait donner à certains producteurs davantage de marge pour investir, sans pour autant signifier que leurs fournisseurs sont payés plus rapidement.",
+          "what": "Le Bureau national des statistiques a fait état d’une hausse des bénéfices cumulés des entreprises industrielles qui dépassent son seuil de déclaration. Il a aussi publié un chiffre distinct, en hausse, pour le dernier mois : il ne faut pas le confondre avec le chiffre cumulé. Le détail par secteur montre que les bénéfices ont augmenté dans l’industrie manufacturière et baissé dans le secteur qui regroupe les fournisseurs d’électricité, de chaleur, de gaz et d’eau. La publication indique également une hausse des créances clients et un allongement des délais moyens de paiement.",
+          "why": "Quand les bénéfices augmentent plus vite que les ventes, le groupe dans son ensemble conserve une plus grande part de son chiffre d’affaires sous forme de bénéfice. Ce résultat global peut toutefois masquer de fortes différences entre secteurs. Des bénéfices plus élevés peuvent aider certains producteurs à financer des achats de matériel ou à absorber des hausses de coûts. La situation de trésorerie peut être moins favorable : quand les clients mettent plus de temps à payer, une entreprise peut comptabiliser des ventes et dégager un bénéfice tout en ayant besoin de financement pour payer ses salaires, ses stocks ou ses fournisseurs.",
+          "uncertainty": "Ces données viennent d’une enquête auprès de grandes entreprises industrielles. Elles ne couvrent pas toutes les entreprises et ne portent pas uniquement sur les sociétés cotées. Il s’agit de bénéfices comptables, et non de flux de trésorerie d’exploitation. L’enquête ne permet pas de savoir si une entreprise donnée encaisse davantage d’argent.",
+          "watch": "Dans la prochaine publication, les bénéfices par secteur seront à comparer aux délais de paiement et à la vitesse à laquelle les stocks se renouvellent. Les tableaux de flux de trésorerie des entreprises manufacturières cotées permettront de voir si ces tendances se confirment.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Inflation globale des prix à la consommation en glissement annuel"
+              "label": "Bénéfices industriels cumulés"
             },
             {
               "id": "m2",
-              "label": "Inflation sous-jacente des prix à la consommation en glissement annuel"
+              "label": "Croissance des bénéfices industriels cumulés"
             },
             {
               "id": "m3",
-              "label": "Variation mensuelle des dépenses en dollars courants"
+              "label": "Croissance des bénéfices industriels sur le dernier mois"
             },
             {
               "id": "m4",
-              "label": "Variation mensuelle des dépenses corrigées de l’inflation, valeur arrondie"
+              "label": "Croissance du chiffre d’affaires industriel cumulé"
             },
             {
               "id": "m5",
-              "label": "Variation mensuelle du revenu après impôts corrigé de l’inflation"
+              "label": "Croissance des bénéfices cumulés de l’industrie manufacturière"
+            },
+            {
+              "id": "m6",
+              "label": "Croissance des bénéfices cumulés des services aux collectivités"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "La Chine appelle à renforcer le soutien au marché boursier",
+          "summary": "Le Conseil des affaires d’État a appelé à renforcer la stabilisation du marché, à accroître la participation des investisseurs institutionnels de long terme et à recourir davantage aux dividendes et aux rachats d’actions.",
+          "impact": "Ces mesures pourraient aider le marché à mieux résister à une vague de ventes, mais le compte rendu ne montre pas que de nouveaux capitaux y ont été investis.",
+          "what": "Le compte rendu de la réunion demande que les investisseurs soutenus par l’État jouent un rôle plus important dans la stabilisation du marché et que les dispositifs qui facilitent les échanges soient améliorés. Il appelle aussi à mieux favoriser la participation des assureurs, des régimes de retraite d’entreprise et des caisses de sécurité sociale. Il demande enfin aux sociétés cotées de verser davantage de dividendes et de racheter davantage d’actions, et appelle à sanctionner plus sévèrement les fraudes financières et les ventes irrégulières d’actions.",
+          "why": "Lorsque des acheteurs restent présents pendant une vague de ventes, il peut être plus facile d’échanger des actions sans faire fortement bouger les cours. Les fonds qui gèrent l’épargne à long terme peuvent soutenir cette demande si leurs règles de placement et leurs incitations le permettent. Les dividendes et les rachats d’actions fonctionnent autrement : les dividendes versent une partie de la trésorerie de l’entreprise aux actionnaires, tandis que les rachats utilisent cette trésorerie pour acheter ses propres actions. Ces opérations ne génèrent pas de bénéfice d’exploitation. Pour les ménages exposés à la Bourse par l’intermédiaire de fonds et pour les entreprises qui se financent en émettant des actions, il importe donc de distinguer le soutien au marché d’une amélioration des résultats des entreprises.",
+          "uncertainty": "Le compte rendu ne précise ni montant de nouveaux financements, ni calendrier d’achats, ni obligation d’investir une part donnée des fonds. Il ne montre pas que des investisseurs en particulier ont effectué des transactions et ne permet pas d’établir les effets des mesures sur les cours des actions.",
+          "watch": "À suivre : les règles d’application publiées par les autorités de régulation, les modifications annoncées des modalités de placement des investisseurs institutionnels et les communiqués des sociétés faisant état de dividendes déclarés ou de rachats effectivement réalisés.",
+          "metricLabels": []
         }
       ]
     },
     "es": {
-      "status": "Esta edición repasa novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan para ayudar a entender el contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de publicación de cada nota: los informes recientes de empresas se presentan como material de contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión.",
-        "cn": "Los índices que seguimos subieron en sus respectivas últimas sesiones verificadas. Los cierres corresponden a las fechas indicadas, no a la negociación actual."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión bursátil.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice con datos disponibles conserva la fecha de su propia sesión bursátil."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "China impulsa las exportaciones de servicios junto con las de bienes",
-          "summary": "China publicó un plan de comercio de servicios que promueve la exportación de servicios de apoyo a la industria y propone facilitar los pagos transfronterizos a las empresas que cumplan los requisitos.",
-          "impact": "Si se aplica, el plan podría ayudar a los fabricantes a aumentar sus ingresos prestando servicios para equipos en el extranjero y facilitar el cobro a los exportadores de servicios.",
-          "what": "El plan considera el diseño, las pruebas, las reparaciones y la logística como servicios que las empresas chinas pueden vender en el extranjero junto con sus productos físicos. También pide a los bancos que faciliten la liquidación de pagos transfronterizos a las empresas que cumplan la normativa y propone reglas más claras sobre los datos y otros recursos necesarios para prestar servicios entre países. La cifra de comercio que recoge el plan es una referencia histórica. No representa un gasto nuevo ni un compromiso de alcanzar un importe determinado.",
-          "why": "Un fabricante de maquinaria puede seguir obteniendo ingresos después de la entrega si el cliente le paga por el mantenimiento o el diagnóstico de fallos. Ofrecer ese apoyo también puede facilitar la venta del equipo, porque el comprador sabe quién lo reparará. Pero prestar el servicio se complica si los pagos se retrasan o si la ley impide transferir al extranjero los datos del equipo necesarios para la asistencia remota. Para los hogares, abrir los mercados de servicios podría ampliar las opciones en ámbitos como el turismo o la atención sanitaria, aunque eso dependerá de las normas que se adopten.",
-          "uncertainty": "El plan marca una orientación. No autoriza a todas las empresas a transferir datos de clientes al extranjero, no garantiza que los servicios bancarios sean más baratos ni indica cuánto aumentarán los ingresos de las empresas que cotizan en bolsa.",
-          "watch": "Conviene seguir las normas piloto sobre la liquidación de pagos y la transferencia de datos, y luego los datos de comercio de servicios que separen las exportaciones de las importaciones y muestren qué actividades están creciendo.",
+          "id": "f1",
+          "title": "El déficit comercial de bienes de Estados Unidos se amplía al aumentar las importaciones",
+          "summary": "La Oficina del Censo informó que el déficit comercial de bienes se amplió porque el valor de las importaciones creció más que el de las exportaciones.",
+          "impact": "El aumento de las importaciones y de los inventarios hace importante distinguir entre los bienes que llegan a las empresas y los que realmente se venden a los clientes.",
+          "what": "El informe preliminar mide el valor en dólares de los bienes que entran y salen de Estados Unidos. Las exportaciones aumentaron, pero las importaciones crecieron más, por lo que se amplió el déficit comercial de bienes. El mismo informe estimó que los mayoristas y minoristas tenían más mercancía en inventario al cierre del mes analizado. Las principales cifras comerciales se ajustan para descontar los patrones estacionales habituales, pero no los cambios de precios.",
+          "why": "Tener más mercancía disponible puede ayudar a las tiendas a mantener los estantes abastecidos y facilitar a los fabricantes el acceso a los materiales que necesitan. Pero el dinero invertido en inventario queda inmovilizado hasta que se vende la mercancía. Si las ventas no cumplen las expectativas, los minoristas podrían tener que bajar los precios de sus existencias y los distribuidores podrían reducir sus próximos pedidos. Al calcular la producción nacional, se restan las importaciones para no contar el gasto en bienes fabricados en el extranjero como producción estadounidense. Un déficit comercial de bienes más amplio no basta por sí solo para saber si la economía creció o se contrajo.",
+          "uncertainty": "La estimación es preliminar, no incluye los servicios y no permite saber si el mayor valor en dólares de las importaciones se debe a los precios, al volumen importado o a un cambio en el tipo de bienes importados. Los datos de inventarios tampoco indican si las empresas acumularon mercancía a propósito o si les quedaron productos sin vender.",
+          "watch": "Consulta el informe más completo sobre el comercio de bienes y servicios y compara las próximas cifras de ventas minoristas con el crecimiento de los inventarios para ver si las compras de los clientes dan salida a la mercancía acumulada.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Total anual histórico de importaciones y exportaciones de servicios"
+              "label": "Balanza comercial de bienes"
+            },
+            {
+              "id": "m2",
+              "label": "Importaciones de bienes"
+            },
+            {
+              "id": "m3",
+              "label": "Exportaciones de bienes"
+            },
+            {
+              "id": "m4",
+              "label": "Crecimiento de los inventarios mayoristas"
+            },
+            {
+              "id": "m5",
+              "label": "Crecimiento de los inventarios minoristas"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "La propuesta arancelaria de Estados Unidos vuelve a poner el abastecimiento en revisión",
-          "summary": "La Oficina del Representante Comercial de Estados Unidos publicó una propuesta de medidas arancelarias que abarca a China y a otras economías manufactureras y la abrió a comentarios del público.",
-          "impact": "El coste de introducir mercancías en el país podría cambiar para los importadores, pero la propuesta no determina cuánto acabarán pagando.",
-          "what": "La oficina comercial publicó por separado sus conclusiones sobre las prácticas manufactureras y su propuesta de respuesta. El aviso sobre China establece un trato distinto según la lista de productos, con exenciones y un ajuste compensatorio vinculado a otra medida arancelaria. También describe una alternativa más amplia si las negociaciones no resuelven las preocupaciones de la oficina. Para una empresa, la pregunta práctica es en qué clasificación aduanera encajan sus mercancías. Aplicar el tipo arancelario anunciado a todos los envíos pasaría por alto las diferencias que el aviso especifica.",
-          "why": "Si entra en vigor un arancel, el importador tiene que decidir si asume el coste, pide a sus proveedores que bajen los precios o lo traslada a sus clientes. La decisión depende de los contratos, de la competencia y de la facilidad con que los compradores puedan cambiar de producto. Trasladar la producción o buscar otro proveedor lleva tiempo y puede no resolver el problema si la alternativa también está sujeta al arancel. Los hogares podrían ver subidas de precios en algunas categorías, pero el aviso no indica qué parte del coste adicional, si lo hay, llegaría al precio final en las tiendas.",
-          "uncertainty": "Son propuestas: todavía no se cobran nuevos aranceles en virtud de esta medida. Los productos afectados, los ajustes compensatorios, las exenciones y las fechas de entrada en vigor podrían cambiar tras los comentarios y las audiencias.",
-          "watch": "Conviene seguir los avisos definitivos y las instrucciones aduaneras, y después la información que publiquen las empresas sobre el alcance del impacto por producto o mercado de origen.",
-          "metricLabels": []
-        },
-        {
-          "id": "f4",
-          "title": "Los hogares de Estados Unidos gastaron más dólares, pero compraron un poco menos",
-          "summary": "El gasto de los consumidores estadounidenses aumentó en dólares, pero bajó ligeramente al descontar el efecto de los precios, aunque los ingresos después de impuestos ganaron poder adquisitivo.",
-          "impact": "Las empresas no pueden dar por hecho que ingresar más significa que sus clientes compran más. El informe tampoco aclara si se mantendrá la mejora de los ingresos.",
-          "what": "La Oficina de Análisis Económico midió cuánto gastaron los hogares y cómo cambiaron los precios de lo que compraron. El gasto aumentó antes de ajustar por precios, y los servicios explicaron la mayor parte del aumento en dólares. En la tabla publicada, el gasto ajustado por inflación figura sin cambios por efecto del redondeo, aunque el comunicado describe una ligera caída. Los ingresos después de impuestos también subieron en términos reales, es decir, una vez descontada la inflación. Las notas técnicas señalan que los salarios, los dividendos cobrados y un reembolso de primas de Medicare contribuyeron a los ingresos.",
-          "why": "Una tienda puede recaudar más sin vender más productos si suben los precios. Esa diferencia importa a la hora de contratar personal y gestionar las existencias: aunque aumenten los ingresos por ventas, quizá no haga falta ampliar el inventario ni añadir turnos. Para los hogares, la subida de los ingresos reales después de impuestos da cierto margen para gastar o ahorrar, pero un reembolso no sostiene los presupuestos futuros del mismo modo que un aumento duradero de los salarios. El comunicado también distingue entre la inflación general y una medida que excluye los alimentos y la energía, cuyos precios pueden variar mucho.",
-          "uncertainty": "Las cifras son estimaciones que pueden revisarse, y esta publicación ya incorpora revisiones de estimaciones anteriores. Describen a los hogares en conjunto, no el margen económico de una familia concreta ni cuánto gastarán los consumidores durante las fiestas.",
-          "watch": "La próxima publicación sobre ingresos y gastos permitirá ver si el consumo real se recupera y si el crecimiento de los ingresos se mantiene sin el mismo aporte del reembolso.",
+          "title": "Los beneficios industriales en China crecen de forma desigual",
+          "summary": "En lo que va del año, los beneficios de las empresas industriales chinas de mayor tamaño crecieron más que sus ingresos. Los beneficios aumentaron en la industria manufacturera, pero cayeron en los servicios de suministro.",
+          "impact": "La mejora podría dar a algunos productores más margen para invertir, pero no significa que los proveedores estén cobrando antes.",
+          "what": "La Oficina Nacional de Estadística informó de un aumento de los beneficios acumulados de las empresas industriales que superan el umbral fijado para el informe. También publicó por separado un aumento en el último mes, que no debe confundirse con el dato acumulado. El desglose por actividad muestra un aumento de los beneficios en la industria manufacturera y una caída en el grupo que incluye a los proveedores de electricidad, calefacción, gas y agua. El informe también señaló que aumentaron las cuentas por cobrar y se alargaron los plazos medios de cobro.",
+          "why": "Cuando los beneficios crecen más que las ventas, las empresas del grupo en su conjunto convierten una mayor parte de sus ingresos en beneficios. Sin embargo, el dato general puede ocultar grandes diferencias entre sectores. La mejora de los beneficios puede facilitar que algunos productores financien compras de equipos o afronten aumentos de costes. La situación de caja puede ser menos favorable: si los clientes tardan más en pagar, las empresas pueden contabilizar ventas y beneficios y aun así necesitar financiación para pagar salarios, comprar mercancía o pagar facturas de proveedores.",
+          "uncertainty": "La encuesta abarca a empresas industriales de mayor tamaño. No es un censo de todas las empresas ni un informe limitado a las que cotizan en bolsa. El indicador mide el beneficio contable, no el flujo de caja operativo, y la encuesta no permite saber si una empresa concreta está cobrando más dinero.",
+          "watch": "Compara los beneficios por sector del próximo informe con los plazos de cobro y la rotación de inventarios. Después, busca confirmación en los estados de flujos de efectivo de las empresas manufactureras que cotizan en bolsa.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Inflación general interanual del gasto en consumo"
+              "label": "Beneficio industrial acumulado"
             },
             {
               "id": "m2",
-              "label": "Inflación subyacente interanual del gasto en consumo"
+              "label": "Crecimiento del beneficio industrial acumulado"
             },
             {
               "id": "m3",
-              "label": "Variación mensual del gasto en dólares"
+              "label": "Crecimiento del beneficio industrial en el último mes"
             },
             {
               "id": "m4",
-              "label": "Variación mensual del gasto real, redondeada"
+              "label": "Crecimiento de los ingresos industriales acumulados"
             },
             {
               "id": "m5",
-              "label": "Variación mensual de los ingresos reales después de impuestos"
+              "label": "Crecimiento del beneficio acumulado de la industria manufacturera"
+            },
+            {
+              "id": "m6",
+              "label": "Crecimiento del beneficio acumulado de los servicios de suministro"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "China pide reforzar el apoyo al mercado bursátil",
+          "summary": "El Consejo de Estado pidió reforzar la estabilidad del mercado, aumentar la participación de los inversores institucionales a largo plazo y recurrir más a los dividendos y las recompras de acciones.",
+          "impact": "Las medidas podrían facilitar la compraventa de acciones en medio de una ola de ventas, pero el comunicado no demuestra que haya entrado dinero nuevo en el mercado.",
+          "what": "El comunicado de la reunión pide que los inversores respaldados por el Estado tengan un papel más activo en la estabilización del mercado y que se mejoren los mecanismos que facilitan la compraventa de acciones. También pide mejorar las políticas que favorecen la participación de las aseguradoras, los planes de pensiones de empresa y los fondos de la seguridad social. Además, insta a las empresas cotizadas a repartir más dividendos y a recomprar más acciones, y pide que se aplique la normativa con mayor rigor frente al fraude financiero y las ventas indebidas de acciones.",
+          "why": "Si hay compradores dispuestos a actuar durante una ola de ventas, puede ser más fácil negociar acciones sin provocar cambios bruscos de precio. Los fondos que administran ahorros a largo plazo pueden aportar esa demanda si sus reglas de inversión y sus incentivos lo permiten. Los dividendos y las recompras funcionan de otra manera: los dividendos transfieren efectivo de la empresa a los accionistas, mientras que en una recompra la empresa usa su efectivo para adquirir sus propias acciones. Ni los dividendos ni las recompras generan beneficios operativos. Por eso, los hogares que invierten en bolsa a través de fondos y las empresas que dependen de la financiación mediante acciones deben distinguir entre el apoyo al mercado y una mejora de los resultados del negocio.",
+          "uncertainty": "El comunicado no anuncia un nuevo importe de financiación, un calendario de compras ni una obligación de asignar fondos. Tampoco demuestra que determinados inversores hayan realizado operaciones ni permite saber cómo afectaron las medidas a las cotizaciones.",
+          "watch": "Consulta las normas que publiquen los reguladores para aplicar las medidas, los cambios que se hagan públicos en las condiciones de inversión de las instituciones y los avisos de las empresas que confirmen qué dividendos se han declarado o qué recompras se han realizado.",
+          "metricLabels": []
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動きを取り上げます。それぞれの公表日をご確認ください。最近の企業報告は、背景を理解するための解説として紹介しています。",
+      "status": "今号では、米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業発表は、背景を理解するための解説として紹介しています。",
       "marketSummary": {
-        "us": "終値を確認できなかった指数もあります。確認できた指数は、それぞれの取引日とともに示しています。",
-        "cn": "対象の指数はいずれも、確認できた直近の取引日に上昇しました。日付付きの終値は、その日の取引結果であり、現在の値動きを示すものではありません。"
+        "us": "終値データには確認できなかったものがあります。確認できた指数には、それぞれの取引日を表示しています。",
+        "cn": "終値データには確認できなかったものがあります。確認できた指数には、それぞれの取引日を表示しています。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "中国、モノの輸出に加え、国境を越えたサービスの提供も後押し",
-          "summary": "中国は、製造業を支えるサービスの輸出を促し、条件を満たす企業の国際決済をしやすくするよう求めるサービス貿易計画を公表しました。",
-          "impact": "計画が実行されれば、メーカーは海外に納めた設備の保守などで収益を伸ばしやすくなり、サービスを輸出する企業も代金を受け取りやすくなる可能性があります。",
-          "what": "計画では、設計、試験、修理、物流を、製品とあわせて中国企業が海外に販売できるサービスと位置づけています。また、要件を守る企業が国際決済をしやすくなるよう銀行に対応を求めるとともに、国境を越えてサービスを提供する際に使うデータなどの取り扱いを明確にする方針です。計画に記載された貿易額は、比較の基準となる過去の実績です。新たな支出を示すものでも、特定の金額を達成する約束でもありません。",
-          "why": "機械メーカーは、納品後も顧客から保守や故障診断の代金を受け取ることで、収益を得られます。買い手にとっては修理の依頼先がはっきりするため、こうしたサポートがあれば、メーカーは設備そのものも販売しやすくなります。ただし、入金が遅れたり、遠隔サポートに必要な設備データを法的に国外へ移せなかったりすると、サービスの提供は難しくなります。家計にとっては、サービス市場の開放で旅行や医療などの選択肢が広がる可能性がありますが、今後のルール次第です。",
-          "uncertainty": "計画は今後の方向性を示したものです。どの企業にも顧客データの国外移転を認めるわけではなく、銀行に支払う手数料が下がる保証もありません。上場企業の売上高がどの程度増えるかも示していません。",
-          "watch": "今後の焦点は、国際決済やデータ移転に関する試験的なルールと、その後に公表されるサービス貿易統計です。統計では、輸出と輸入の内訳や、どの分野が伸びているかが注目されます。",
+          "id": "f1",
+          "title": "米国の財貿易赤字、輸入増で拡大",
+          "summary": "米国勢調査局によると、輸入額が輸出額を上回るペースで増え、財の貿易赤字が拡大しました。",
+          "impact": "輸入と在庫が増えるなかでは、企業に入荷した商品と、実際に顧客に売れた商品を区別することが大切です。",
+          "what": "速報では、米国に出入りする財の金額をドル建てで集計しています。輸出額は増えましたが、輸入額はそれ以上に増えたため、財の貿易赤字が拡大しました。同じ発表では、対象月の末時点で卸売業者と小売業者の在庫が増えたと推計しています。主要な貿易統計は、例年の季節変動の影響を取り除いていますが、価格変動の影響は取り除いていません。",
+          "why": "在庫が増えると、小売店は品切れを防ぎやすくなり、メーカーも原材料や部品を確保しやすくなります。ただし、商品が売れるまでは、仕入れに使った資金を回収できません。売れ行きが見込みを下回れば、小売業者は値下げを迫られ、流通業者は今後の発注を減らす可能性があります。経済全体で見ると、海外で作られた財への支出を米国内の生産に含めないよう、国内総生産の計算では輸入を差し引きます。財の貿易赤字が拡大しただけでは、景気が拡大したのか縮小したのかは分かりません。",
+          "uncertainty": "速報値にはサービス貿易が含まれません。ドル建ての輸入額が増えた理由が、価格の上昇なのか、数量の増加なのか、輸入品の内訳の変化なのかは分かりません。在庫統計からも、企業が意図的に在庫を積み増したのか、売れ残りが増えたのかは判断できません。",
+          "watch": "財とサービスを含む、より詳しい貿易統計が次の確認材料です。その後の小売売上高と在庫の伸びを比べると、積み上がった在庫が顧客に売れているかを見極める手がかりになります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "サービス貿易の年間輸出入総額（過去実績）"
+              "label": "財の貿易収支"
+            },
+            {
+              "id": "m2",
+              "label": "財の輸入額"
+            },
+            {
+              "id": "m3",
+              "label": "財の輸出額"
+            },
+            {
+              "id": "m4",
+              "label": "卸売在庫の増加率"
+            },
+            {
+              "id": "m5",
+              "label": "小売在庫の増加率"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "米国の関税案、商品の調達先を改めて見直すきっかけに",
-          "summary": "米通商代表部は、中国やその他の製造業が盛んな国・地域を対象とする関税措置案を公表し、意見募集を始めました。",
-          "impact": "輸入業者が商品を国内に持ち込む費用は変わる可能性がありますが、この案で最終的な負担額が決まったわけではありません。",
-          "what": "米通商代表部は、製造をめぐる慣行についての調査結果と、対応策の案を別々に公表しました。中国に関する告示案では、対象品目のリストごとに異なる扱いを示しており、適用除外や、別の関税措置に関連する相殺措置も含まれています。協議で通商代表部の懸念が解消しなかった場合に備え、対象を広げる代替案も示しています。企業にとって重要なのは、自社の商品が税関でどの品目に分類されるかです。大きく報じられた税率をすべての貨物に当てはめると、告示案に明記された品目ごとの違いを見落とします。",
-          "why": "関税が導入されれば、輸入業者は、費用を自社で負担するか、仕入れ先に値下げを求めるか、販売価格に上乗せするかを判断することになります。その判断は、契約内容や競争状況、買い手が別の商品に切り替えやすいかどうかで変わります。生産拠点を移したり、別の仕入れ先を探したりするには時間がかかります。変更先も関税の対象なら、問題は解決しないかもしれません。家計では品目によって値上がりを感じる可能性がありますが、新たなコストのうち、どれだけが店頭価格に反映されるかは告示案からは分かりません。",
-          "uncertainty": "現時点では提案であり、この措置に基づく新たな関税の徴収が始まったわけではありません。対象品目、相殺措置、適用除外、発効日は、意見募集や公聴会を経て変わる可能性があります。",
-          "watch": "今後の焦点は、最終的な告示と税関の実務指針、その後に企業が開示する品目別・調達先の市場別の影響規模です。",
-          "metricLabels": []
-        },
-        {
-          "id": "f4",
-          "title": "米家計の支出額は増加、物価の影響を除くと小幅減",
-          "summary": "米国の個人消費支出は金額ベースで増えましたが、物価の影響を除くとわずかに減りました。税引き後所得の購買力は上がりました。",
-          "impact": "売上高が増えても、消費者が買う量まで増えたとは限りません。所得の伸びが続くかどうかも、今回の統計では分かりません。",
-          "what": "米経済分析局は、家計が支出した金額と、購入した商品やサービスの価格の変化を測りました。物価調整前の支出は増え、その増加の大半はサービスへの支出によるものでした。公表された表では、物価の影響を除いた実質支出は端数処理により横ばいと表示されていますが、発表文ではわずかに減ったと説明しています。税引き後所得は、物価の影響を除いても増えました。統計の補足資料では、所得を押し上げた要因として、賃金、受取配当、メディケアの保険料の払い戻しなどを挙げています。",
-          "why": "値上がりすれば、店は販売量が増えなくても売上高が伸びます。この違いは、雇用や在庫を考えるうえで重要です。売上高が増えても、仕入れを増やしたり、勤務シフトを増やしたりする必要はないかもしれません。家計にとって、実質の税引き後所得が増えれば、支出や貯蓄に回せる余裕が生まれます。ただし、保険料の払い戻しは、賃金の継続的な上昇と同じように今後の家計を支えるわけではありません。また、今回の発表では、全体のインフレ率と、価格が大きく変動しやすい食品とエネルギーを除いたインフレ率を分けて示しています。",
-          "uncertainty": "数値は推計値で、今後改定される可能性があります。今回の発表でも、過去の推計値が改定されました。この統計は家計全体の動きを示すもので、個々の家庭にどれだけ余裕があるかや、年末の休暇シーズンに消費者がいくら使うかは分かりません。",
-          "watch": "次回の所得・支出統計では、実質消費が持ち直すか、また保険料の払い戻しによる同様の押し上げがなくても所得の伸びが続くかが焦点です。",
+          "title": "中国の工業企業の利益が増加、業種で明暗",
+          "summary": "中国の規模の大きい工業企業では、年初からの累計利益が売上高を上回るペースで増えました。製造業が増益だったのに対し、公益事業は減益でした。",
+          "impact": "利益の改善で投資の余力が広がる企業もありそうですが、仕入れ先への支払いが早まっているとは限りません。",
+          "what": "中国国家統計局は、集計対象となる規模の工業企業で、年初からの累計利益が増えたと発表しました。直近月だけを見ても利益は増えましたが、この月の伸び率と累計の伸び率は別の指標です。業種別では、製造業の利益が増え、電力・熱・ガス・水道の供給事業を含む部門では利益が減りました。売掛金も増え、回収までにかかる期間は平均で長くなりました。",
+          "why": "利益が売上高より速いペースで増えると、対象企業全体では、売上高に占める利益の割合が高まります。ただし、全体の数字だけでは、業種ごとの大きな違いは見えにくくなります。利益が増えれば、設備の購入資金を確保したり、コスト上昇を吸収したりしやすくなる企業もあります。ただ、資金繰りまで改善するとは限りません。顧客からの入金が遅くなると、帳簿上は売上や利益が出ていても、賃金や在庫購入、仕入れ先への支払いに必要な資金を別に確保しなければならないことがあります。",
+          "uncertainty": "対象は規模の大きい工業企業で、すべての企業を調べたものでも、上場企業だけを対象にしたものでもありません。ここでいう利益は会計上の利益で、営業キャッシュフローとは異なります。この調査から、個別企業の現金回収額が増えているかどうかは分かりません。",
+          "watch": "次回の発表では、業種別の利益と、売掛金の回収期間や在庫回転率との比較が焦点です。上場メーカーのキャッシュフロー計算書でも、同じ傾向が見られるかが確認材料になります。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "個人消費支出（PCE）物価指数・総合（前年比）"
+              "label": "工業企業の累計利益"
             },
             {
               "id": "m2",
-              "label": "コア個人消費支出（PCE）物価指数（前年比）"
+              "label": "工業企業の累計利益増加率"
             },
             {
               "id": "m3",
-              "label": "名目個人消費支出（前月比）"
+              "label": "工業企業の直近月の利益増加率"
             },
             {
               "id": "m4",
-              "label": "実質個人消費支出（前月比、端数処理後）"
+              "label": "工業企業の累計売上高増加率"
             },
             {
               "id": "m5",
-              "label": "実質可処分所得（前月比）"
+              "label": "製造業の累計利益増加率"
+            },
+            {
+              "id": "m6",
+              "label": "公益事業の累計利益増加率"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "中国、株式市場への支援強化を要請",
+          "summary": "中国国務院は、株式市場の安定化策を強め、長期運用を行う機関投資家の参加を広げるとともに、配当や自社株買いを増やすよう求めました。",
+          "impact": "こうした措置は、売りが広がる局面でも取引が滞りにくくなる可能性があります。ただし、会議の発表からは、新たな資金がすでに市場に流入したとは確認できません。",
+          "what": "会議の発表では、政府の支援を受ける投資家が市場の安定化でより大きな役割を果たすことや、株式を売買しやすい状態を保つ仕組みを改善することを求めました。保険会社、企業年金、社会保障基金が市場に参加しやすくなるよう、制度の改善も求めました。あわせて、上場企業に配当や自社株買いの拡大を促し、財務不正や不適切な株式売却の取り締まりを強化するよう求めました。",
+          "why": "売りが広がったときに買い手がいれば、株価を大きく動かさずに取引しやすくなります。運用ルールや投資を促す仕組みが整えば、長期運用の資金がこうした買い需要を支える可能性があります。配当はこれとは異なり、企業の現金を株主に還元するものです。自社株買いでは、企業が手元資金で自社の株式を買い取ります。配当も自社株買いも、本業の利益を生み出すわけではありません。そのため、投資信託などを通じて株式市場の影響を受ける家計や、株式での資金調達に頼る企業にとっては、市場への支援と企業業績の改善を区別することが大切です。",
+          "uncertainty": "会議の発表では、新たに投入する資金の額や買い入れ日程、資金配分を義務づける要件は示されていません。特定の投資家が実際に取引したかどうかや、措置が株価にどのような影響を与えたかも確認できません。",
+          "watch": "今後の確認材料は、規制当局が示す実施ルール、機関投資家の運用の仕組みに関する変更の公表、そして配当の決定や自社株買いの実施を伝える上場企業の開示です。",
+          "metricLabels": []
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos EUA e na China. Confira a data de cada publicação. Os relatórios recentes de empresas são apresentados para explicar o contexto.",
+      "status": "Esta edição aborda acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes de empresas aparecem em textos explicativos para dar contexto.",
       "marketSummary": {
-        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão correspondente.",
-        "cn": "Os índices acompanhados subiram em seus pregões verificados mais recentes. Os fechamentos se referem às datas indicadas, não às negociações atuais."
+        "us": "Não foi possível confirmar algumas cotações de fechamento. Cada índice com dados disponíveis mantém sua própria data de negociação.",
+        "cn": "Não foi possível confirmar algumas cotações de fechamento. Cada índice com dados disponíveis mantém sua própria data de negociação."
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "China inclui serviços transfronteiriços na estratégia de exportação de bens",
-          "summary": "A China publicou um plano de comércio de serviços que incentiva a exportação de serviços de apoio à indústria e propõe facilitar a liquidação de pagamentos internacionais para empresas elegíveis.",
-          "impact": "Se for implementado, o plano poderá ajudar fabricantes a ganhar mais prestando assistência a equipamentos no exterior e facilitar o recebimento de pagamentos por exportadores de serviços.",
-          "what": "O plano trata design, testes, reparos e logística como serviços que empresas chinesas podem vender no exterior junto com produtos físicos. Também pede que os bancos facilitem a liquidação de pagamentos internacionais para empresas que cumprem as regras e propõe normas mais claras para o uso de dados e outros recursos necessários à prestação de serviços entre países. O valor de comércio citado no plano é uma referência histórica. Não representa novos gastos nem um compromisso de atingir determinado total.",
-          "why": "Um fabricante de máquinas pode continuar ganhando após a entrega se o cliente pagar por manutenção ou diagnóstico de falhas. Oferecer esse suporte também pode facilitar a venda do equipamento, pois o comprador sabe a quem recorrer se precisar de reparos. Mas prestar o serviço fica mais difícil se os pagamentos demoram ou se os dados do equipamento necessários ao suporte remoto não podem ser transferidos legalmente. Para as famílias, a abertura do mercado de serviços pode ampliar as opções em áreas como turismo e saúde, mas isso depende das regras que vierem a ser adotadas.",
-          "uncertainty": "O plano indica uma direção. Não dá a todas as empresas permissão para transferir dados de clientes ao exterior, não garante custos bancários menores nem informa quanto as empresas de capital aberto poderão ganhar em receita adicional.",
-          "watch": "Acompanhe as regras dos projetos-piloto sobre liquidação de pagamentos e transferência de dados. Depois, observe se os dados de comércio de serviços separam exportações de importações e mostram quais atividades estão crescendo.",
+          "id": "f1",
+          "title": "Déficit dos EUA no comércio de bens aumenta com a alta das importações",
+          "summary": "O órgão de estatísticas dos Estados Unidos informou que o déficit no comércio de bens aumentou porque o valor das importações cresceu mais que o das exportações.",
+          "impact": "Com a alta das importações e dos estoques, é importante distinguir os bens que chegam às empresas daqueles que de fato são vendidos aos clientes.",
+          "what": "O relatório preliminar mede o valor em dólares dos bens que entram e saem dos Estados Unidos. As exportações aumentaram, mas as importações cresceram mais, o que ampliou o déficit no comércio de bens. A mesma publicação estimou que atacadistas e varejistas tinham mais produtos em estoque no fim do mês de referência. Os principais dados do comércio exterior são ajustados para variações sazonais habituais, mas não para mudanças de preços.",
+          "why": "Ter mais produtos em estoque pode ajudar as lojas a manter as prateleiras abastecidas e facilitar o acesso das indústrias a insumos. Mas o dinheiro investido no estoque fica comprometido até a venda. Se as vendas ficarem abaixo do esperado, varejistas talvez precisem baixar preços para vender o estoque, e distribuidores podem reduzir pedidos futuros. No cálculo da produção da economia, as importações são subtraídas para que os gastos com bens produzidos no exterior não contem como produção dos Estados Unidos. Um déficit maior no comércio de bens, por si só, não diz se a economia cresceu ou encolheu.",
+          "uncertainty": "A estimativa é preliminar, não inclui serviços e não esclarece se a alta no valor em dólares das importações veio de mudanças nos preços, nas quantidades ou na composição dos bens importados. Os dados de estoques não mostram se as empresas reforçaram seus estoques de propósito ou se ficaram com mercadorias encalhadas.",
+          "watch": "Vale acompanhar o relatório mais completo sobre o comércio de bens e serviços e comparar as vendas posteriores do varejo com o crescimento dos estoques para ver se as compras dos clientes estão absorvendo os produtos acumulados.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Total anual histórico de importações e exportações de serviços"
+              "label": "Saldo da balança comercial de bens"
+            },
+            {
+              "id": "m2",
+              "label": "Importações de bens"
+            },
+            {
+              "id": "m3",
+              "label": "Exportações de bens"
+            },
+            {
+              "id": "m4",
+              "label": "Crescimento dos estoques no atacado"
+            },
+            {
+              "id": "m5",
+              "label": "Crescimento dos estoques no varejo"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "Proposta de tarifas dos EUA volta a colocar a origem dos produtos em revisão",
-          "summary": "O representante comercial dos EUA publicou propostas de tarifas que abrangem a China e outras economias com indústria manufatureira e abriu uma consulta pública.",
-          "impact": "Os importadores podem enfrentar mudanças no custo de trazer mercadorias para o país, mas a proposta não define quanto acabarão pagando.",
-          "what": "O órgão comercial divulgou suas conclusões sobre práticas de fabricação separadamente das medidas que propôs em resposta. O aviso sobre a China prevê tratamentos diferentes conforme a lista de produtos, incluindo isenções e uma compensação vinculada a outra medida tarifária. Também descreve uma alternativa mais abrangente caso as negociações não resolvam as preocupações do órgão. Para uma empresa, a questão prática é saber em qual classificação aduaneira suas mercadorias se enquadram. Aplicar a alíquota mais divulgada a todos os embarques deixaria de lado as diferenças previstas no aviso.",
-          "why": "Se uma tarifa entrar em vigor, o importador terá de decidir se assume o custo, pede aos fornecedores que baixem os preços ou repassa o custo aos clientes. A decisão depende dos contratos, da concorrência e da facilidade com que os compradores conseguem trocar de produto. Transferir a produção ou encontrar outro fornecedor leva tempo e pode não resolver o problema se a alternativa também estiver sujeita à tarifa. As famílias podem encontrar preços mais altos em algumas categorias, mas o aviso não mostra quanto de um eventual custo adicional chegaria às prateleiras.",
-          "uncertainty": "São propostas, não tarifas que já começaram a ser cobradas no âmbito dessa medida. A lista final de produtos abrangidos, as compensações, as isenções e as datas de entrada em vigor podem mudar após a consulta pública e as audiências.",
-          "watch": "Acompanhe os avisos definitivos e as orientações aduaneiras. Depois, veja se as empresas divulgam quanto estão expostas às tarifas por produto ou mercado de origem.",
-          "metricLabels": []
-        },
-        {
-          "id": "f4",
-          "title": "Famílias dos EUA gastaram mais em dólares, mas compraram um pouco menos",
-          "summary": "Os gastos dos consumidores nos EUA aumentaram em dólares, mas recuaram ligeiramente após o ajuste pela inflação, embora a renda após impostos tenha ganhado poder de compra.",
-          "impact": "As empresas não podem presumir que receitas maiores significam que os clientes estão comprando mais. O relatório não esclarece se o ganho de renda vai se sustentar.",
-          "what": "O Escritório de Análise Econômica dos EUA mediu quanto as famílias gastaram e como mudaram os preços do que compraram. Os gastos subiram antes do ajuste pela inflação, e os serviços responderam pela maior parte do aumento em dólares. Na tabela publicada, o arredondamento indica estabilidade nos gastos ajustados pela inflação, embora o comunicado descreva uma leve queda. A renda após impostos subiu mesmo descontada a inflação. As notas técnicas citam salários, dividendos recebidos e um reembolso do prêmio do Medicare entre os fatores que contribuíram para a alta da renda.",
-          "why": "Uma loja pode arrecadar mais sem vender mais produtos se os preços subirem. Essa diferença importa para as contratações e os estoques: uma empresa que recebe mais pode não precisar reforçar o estoque nem abrir turnos extras. Para as famílias, uma renda maior após impostos e descontada a inflação dá alguma margem para gastar ou poupar, mas um reembolso não ajuda os orçamentos futuros da mesma forma que uma alta sustentada dos salários. O comunicado também distingue a inflação geral de uma medida que exclui alimentos e energia, cujos preços podem oscilar bastante.",
-          "uncertainty": "Os dados são estimativas sujeitas a revisão, e esta divulgação já revisou estimativas anteriores. Eles descrevem as famílias em conjunto, sem indicar a folga financeira de uma família específica ou quanto os consumidores vão gastar nas festas de fim de ano.",
-          "watch": "Na próxima divulgação de renda e gastos, observe se o consumo volta a crescer após o ajuste pela inflação e se a alta da renda se sustenta sem a mesma contribuição do reembolso.",
+          "title": "Lucros industriais crescem de forma desigual na China",
+          "summary": "No acumulado do ano, o lucro das empresas industriais chinesas de maior porte cresceu mais que a receita. O lucro aumentou na indústria de transformação, mas caiu nos serviços de utilidade pública.",
+          "impact": "A melhora pode dar a alguns produtores mais margem para investir, mas não significa que os fornecedores estejam recebendo mais rápido.",
+          "what": "O órgão nacional de estatísticas da China informou que o lucro acumulado aumentou entre as empresas industriais acima do limite de porte usado para inclusão no levantamento. O órgão também divulgou separadamente uma alta no mês mais recente, que não deve ser confundida com o resultado acumulado. Os dados por setor mostram alta do lucro na indústria de transformação e queda no grupo que reúne fornecedores de eletricidade, calor, gás e água. A publicação também apontou aumento nas contas a receber e no prazo médio de recebimento.",
+          "why": "Quando o lucro cresce mais que as vendas, uma parcela maior da receita do grupo fica como lucro. Esse resultado geral, porém, pode esconder diferenças marcantes entre os setores. Lucros maiores podem ajudar alguns produtores a financiar a compra de equipamentos ou a absorver aumentos de custos. A situação do caixa pode ser menos favorável: quando os clientes demoram mais para pagar, as empresas podem registrar vendas e lucro e ainda assim precisar de financiamento para pagar salários, repor estoques ou quitar contas com fornecedores.",
+          "uncertainty": "O levantamento abrange empresas industriais de maior porte. Não é um censo de todas as empresas nem se limita às companhias listadas em bolsa. O indicador mede o lucro contábil, não o fluxo de caixa operacional, e não permite saber se uma empresa específica está recebendo mais dinheiro.",
+          "watch": "Na próxima divulgação, compare os lucros por setor com os prazos de recebimento e o giro dos estoques. Depois, veja se as demonstrações de fluxo de caixa das indústrias listadas em bolsa confirmam o que os dados indicam.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Inflação geral do consumo em relação ao mesmo período do ano anterior"
+              "label": "Lucro industrial acumulado"
             },
             {
               "id": "m2",
-              "label": "Núcleo da inflação do consumo em relação ao mesmo período do ano anterior"
+              "label": "Crescimento do lucro industrial acumulado"
             },
             {
               "id": "m3",
-              "label": "Variação mensal dos gastos em dólares"
+              "label": "Crescimento do lucro industrial no mês mais recente"
             },
             {
               "id": "m4",
-              "label": "Variação mensal dos gastos reais, com arredondamento"
+              "label": "Crescimento da receita industrial acumulada"
             },
             {
               "id": "m5",
-              "label": "Variação mensal da renda real após impostos"
+              "label": "Crescimento do lucro acumulado da indústria de transformação"
+            },
+            {
+              "id": "m6",
+              "label": "Crescimento do lucro acumulado dos serviços de utilidade pública"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "China pede mais apoio ao mercado de ações",
+          "summary": "O Conselho de Estado pediu medidas mais fortes para estabilizar o mercado, maior participação de investidores institucionais de longo prazo e mais pagamentos de dividendos e recompras de ações.",
+          "impact": "As medidas podem ajudar a manter as negociações em momentos de forte pressão de venda, mas o comunicado não confirma a entrada de dinheiro novo no mercado.",
+          "what": "O comunicado da reunião pede que investidores com apoio estatal tenham um papel maior na estabilização do mercado e que sejam aprimorados os mecanismos que ajudam a manter a liquidez, ou seja, a facilidade de comprar e vender ações. Também pede políticas que facilitem a participação de seguradoras, planos de previdência empresarial e fundos de seguridade social. Além disso, defende mais dividendos e recompras de ações por companhias listadas em bolsa e uma fiscalização mais rigorosa contra fraudes financeiras e vendas irregulares de ações.",
+          "why": "Quando há compradores dispostos a negociar em meio a uma onda de vendas, fica mais fácil comprar e vender sem provocar grandes oscilações nos preços. Recursos poupados para o longo prazo podem ajudar a sustentar essa demanda, se as regras e os incentivos de investimento permitirem. Dividendos funcionam de outra forma: transferem dinheiro do caixa da empresa para os acionistas, enquanto as recompras usam o caixa para comprar ações da própria empresa. Dividendos e recompras não geram lucro operacional. Por isso, famílias que investem no mercado por meio de fundos e empresas que dependem da emissão de ações para se financiar devem distinguir o apoio ao mercado da melhora nos resultados das empresas.",
+          "uncertainty": "O comunicado não informa novos valores de financiamento, calendário de compras nem exigências obrigatórias sobre como investir os recursos. Também não mostra se investidores específicos negociaram nem esclarece como as medidas afetaram os preços das ações.",
+          "watch": "Vale acompanhar as regras de implementação dos órgãos reguladores, as mudanças divulgadas nas condições de investimento das instituições e os comunicados das companhias sobre dividendos declarados ou recompras de fato realizadas.",
+          "metricLabels": []
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的財經動態。請留意各則消息的發布日期；近期企業報告用於解說背景。",
+      "status": "本期涵蓋美國和中國的動態。請留意各篇的發布日期；近期公司報告僅用於說明背景。",
       "marketSummary": {
-        "us": "部分收盤資料未能核實。已取得資料的指數各自保留原交易日期。",
-        "cn": "追蹤的指數在各自最近可核實的交易日均收漲。標有日期的收盤資料只反映當天的交易情況，並非即時行情。"
+        "us": "部分收盤資料無法查證。可查證的指數資料均保留各自的交易日期。",
+        "cn": "部分收盤資料無法查證。可查證的指數資料均保留各自的交易日期。"
       },
       "stories": [
         {
-          "id": "f2",
-          "title": "中國將跨境服務與商品出口並列推動",
-          "summary": "中國發布服務貿易方案，推動產業支援服務出口，並提出讓符合規定的企業更容易辦理跨境款項結算。",
-          "impact": "若方案落實，製造商可望透過為海外設備提供服務增加營收，服務出口商也可能更容易收到款項。",
-          "what": "方案將設計、檢測、維修和物流視為中國企業可隨實體商品向海外銷售的服務。方案也要求銀行簡化合規企業的跨境結算流程，並釐清跨境提供服務時，資料及其他所需資源的使用規則。方案中的貿易數據是歷史基準，不代表新增支出，也不是對達成特定貿易總額的承諾。",
-          "why": "機械製造商交付設備後，仍可透過保養或故障診斷向客戶收費。買家知道設備出了問題可以找誰修，也可能更願意購買設備。但如果收款速度慢，或遠端支援所需的設備資料無法合法跨境傳輸，這些服務就更難提供。對家庭來說，開放服務市場可能增加旅遊或醫療保健等方面的選擇，但仍要看後續規定。",
-          "uncertainty": "方案只定出方向，並不代表所有企業都能把客戶資料傳到海外，也不保證銀行服務費用會下降，或說明上市公司能增加多少營收。",
-          "watch": "留意跨境結算與資料傳輸的試辦規則，以及後續服務貿易統計如何區分出口與進口、哪些服務項目有所成長。",
+          "id": "f1",
+          "title": "美國商品進口增加，貿易逆差擴大",
+          "summary": "美國人口普查局指出，商品進口金額增幅超過出口金額，導致商品貿易逆差擴大。",
+          "impact": "進口和庫存都在增加，因此要分清楚哪些商品只是進了企業的庫房，哪些已經賣給顧客。",
+          "what": "這份初步報告以美元衡量美國進出口商品的金額。出口增加，但進口增幅更大，使商品貿易逆差進一步擴大。同份報告也估計，批發商和零售商在統計月份月底持有的庫存都有所增加。主要貿易數據已排除一般季節性波動，但未扣除價格變動的影響。",
+          "why": "庫存增加有助於商店維持貨架供應，也讓製造商更容易取得生產所需的物料。但商品賣出前，庫存會占用資金。如果銷售不如預期，零售商可能得降價出清，經銷商也可能減少後續訂單。在計算國內產出時，進口會被扣除，以免把購買外國製造商品的支出算成美國的產出。只看商品貿易逆差擴大，無法判斷經濟是成長還是萎縮。",
+          "uncertainty": "這是初步估計，不包含服務貿易，也無法判定進口金額增加是因為價格、進口量，還是進口商品組合改變。庫存數據也看不出企業是有意備貨，還是貨品賣不掉而累積。",
+          "watch": "留意涵蓋商品與服務的完整貿易報告，並將後續零售銷售與庫存增幅相比，觀察顧客的購買是否消化了新增庫存。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "歷史年度服務進出口總額"
+              "label": "商品貿易差額"
+            },
+            {
+              "id": "m2",
+              "label": "商品進口額"
+            },
+            {
+              "id": "m3",
+              "label": "商品出口額"
+            },
+            {
+              "id": "m4",
+              "label": "批發庫存增幅"
+            },
+            {
+              "id": "m5",
+              "label": "零售庫存增幅"
             }
           ]
         },
         {
           "id": "f3",
-          "title": "美國關稅提案讓企業重新檢視商品採購來源",
-          "summary": "美國貿易代表公布擬議關稅措施，涵蓋中國及其他製造業經濟體，並公開徵詢意見。",
-          "impact": "進口商將商品運入美國的成本可能改變，但提案尚未確定業者最終須負擔多少。",
-          "what": "美國貿易代表署分開公布對製造業做法的調查結果與擬議對策。針對中國的公告依不同商品清單訂出不同處理方式，包括豁免，以及與另項關稅措施連動的抵減安排。若協商未能解決貿易代表署的疑慮，公告也列出適用範圍更廣的替代方案。對企業而言，關鍵是商品屬於哪個海關稅則分類。若把新聞中的稅率套用到所有貨物，就會忽略公告明列的差異。",
-          "why": "如果關稅生效，進口商得決定是自行吸收成本、要求供應商降價，還是把成本轉嫁給客戶。這取決於合約、競爭情況，以及買家是否容易改買其他商品。轉移生產地點或另找供應商都需要時間；若替代來源也在課稅範圍內，就未必能解決問題。家庭可能會看到部分商品漲價，但公告無法說明新增成本會有多少反映在零售價格上。",
-          "uncertainty": "這些仍是提案，並非已依這項措施開始徵收的關稅。在公開徵詢意見和舉行聽證會後，最終適用的商品範圍、抵減安排、豁免項目與生效日期都可能改變。",
-          "watch": "留意最終公告與海關作業指引，再看企業是否揭露各類商品或各採購市場受到影響的程度。",
-          "metricLabels": []
-        },
-        {
-          "id": "f4",
-          "title": "美國家庭花得更多，實際消費卻略減",
-          "summary": "美國家庭的消費支出金額增加，但扣除物價變動的影響後，實質支出略降，稅後所得的購買力則有所提升。",
-          "impact": "企業不能把收款金額增加視為顧客買得更多；這份報告也還看不出所得增幅能否維持。",
-          "what": "美國經濟分析局統計家庭支出及所購商品與服務的價格變化。未扣除物價變動影響的支出金額增加，增額主要來自服務。公布的表格因取位而將實質支出顯示為持平，但新聞稿指出實質支出略為下降。扣除通膨影響後，稅後所得仍有增加。技術說明指出，薪資、收到的股利和聯邦醫療保險保費退還，都是帶動所得增加的因素。",
-          "why": "物價上漲時，店家即使沒有賣出更多商品，營收也可能增加。這個差別會影響人力與庫存安排：收款增加，不代表就需要多備貨或增加班次。對家庭來說，實質稅後所得增加，讓支出或儲蓄多些空間，但退還的保費不像持續加薪，無法同樣支撐日後的家庭預算。報告也區分整體通膨與核心通膨；後者排除價格可能大幅波動的食品與能源。",
-          "uncertainty": "這些數據是可能修正的估計值，本次公布時也已修正先前估計。數據反映家庭整體情況，並不代表個別家庭的財務餘裕，也無法說明消費者在假期期間會花多少錢。",
-          "watch": "留意下次所得與支出報告，看看實質消費是否回升，以及在沒有同樣的保費退還挹注下，所得能否維持成長。",
+          "title": "中國工業企業利潤上升，各產業表現不一",
+          "summary": "今年以來，中國規模以上工業企業的累計利潤增幅超過營收增幅；製造業利潤上升，公用事業利潤則下滑。",
+          "impact": "獲利改善可能讓部分生產商有更多投資空間，但不代表供應商能更快收到款項。",
+          "what": "中國國家統計局公布，達到統計門檻的工業企業累計利潤有所增加。報告也另列最近月份的利潤增幅，不宜與累計增幅混淆。按產業來看，製造業利潤上升，涵蓋電力、熱力、燃氣與供水的公用事業類別則下滑。報告也顯示，應收帳款增加，平均收款時間拉長。",
+          "why": "利潤增幅超過營收增幅，代表這些企業整體而言，營收中轉化為利潤的比例提高，但整體數字可能掩蓋各產業之間的明顯差異。獲利改善，可能讓部分生產商更有能力購置設備或吸收上升的成本。不過，現金狀況未必同樣好轉：如果客戶付款變慢，企業即使已認列營收和利潤，仍可能需要籌措資金來支付薪資、備貨或付清供應商帳款。",
+          "uncertainty": "這項調查涵蓋規模較大的工業企業，並非對所有企業的普查，也不只涵蓋上市公司。這裡的利潤是會計利潤，並非營業活動現金流；調查也看不出個別公司是否收到更多現金。",
+          "watch": "可將下次公布的各產業利潤數據，與收款時間及庫存週轉情況對照，再看上市製造商的現金流量表是否印證這些變化。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "整體個人消費支出物價指數年增率"
+              "label": "工業企業累計利潤"
             },
             {
               "id": "m2",
-              "label": "核心個人消費支出物價指數年增率"
+              "label": "工業企業累計利潤增幅"
             },
             {
               "id": "m3",
-              "label": "名目消費支出月變動率"
+              "label": "最近月份工業企業利潤增幅"
             },
             {
               "id": "m4",
-              "label": "實質消費支出月變動率（四捨五入後）"
+              "label": "工業企業累計營收增幅"
             },
             {
               "id": "m5",
-              "label": "實質稅後所得月變動率"
+              "label": "製造業累計利潤增幅"
+            },
+            {
+              "id": "m6",
+              "label": "公用事業累計利潤增幅"
             }
           ]
+        },
+        {
+          "id": "f4",
+          "title": "中國要求加強對股市的支持",
+          "summary": "中國國務院要求加強穩定市場的措施、擴大長期機構投資人的參與，並鼓勵上市公司發放股利及買回自家股票。",
+          "impact": "這些措施可能讓市場在遭遇賣壓時仍能維持交易，但會議摘要並未證實已有新資金進場。",
+          "what": "會議摘要要求有政府支持的投資機構在穩定市場上發揮更大作用，並完善維持市場流動性的安排，讓買賣更容易成交。摘要也要求改善政策，支持保險公司、企業退休金計畫及社會保障基金參與市場。此外，會議呼籲上市公司增加股利發放及股票買回，並要求更嚴格查處財務造假與違規出售股份。",
+          "why": "市場出現賣壓時，如果仍有買方願意承接，交易就比較容易在不造成價格大幅波動的情況下完成。若投資規則與誘因允許，著眼長期的儲蓄資金可望提供這類買盤。股利和股票買回的作用不同：發放股利是把公司的現金交給股東，股票買回則是公司用現金買進自家股票。這些做法都不會創造營業利潤，因此，透過基金投資股市的家庭，以及仰賴股權融資的企業，都應分清楚市場獲得支持和企業營運表現改善的差別。",
+          "uncertainty": "會議摘要未公布新的資金規模、買進時程或有約束力的資金配置要求，也未說明特定投資人是否已進行交易，或這些措施如何影響股價。",
+          "watch": "留意主管機關公布的執行細則、機構投資安排的公開變動，以及上市公司公告中是否有已宣告發放的股利或已實際執行的股票買回。",
+          "metricLabels": []
         }
       ]
     }
