@@ -1,98 +1,88 @@
 {
   "schemaVersion": 1,
-  "cutoffAt": "2026-11-28T10:26:10.437Z",
-  "generatedAt": "2026-11-28T10:30:35.299Z",
+  "cutoffAt": "2026-11-28T18:56:47.712Z",
+  "generatedAt": "2026-11-28T19:04:24.094Z",
   "model": "gpt-6.2-sol",
   "sources": [
     {
       "id": "src1",
-      "label": "Associated Press closing index report",
+      "label": "Associated Press — Friday US index closes",
       "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-04dab6079cf7f3dfe7285a3cc1f240a2"
     },
     {
       "id": "src2",
-      "label": "St. Louis Fed large-cap index closing data",
-      "url": "https://fred.stlouisfed.org/data/SP500"
+      "label": "FRED — broad US price index, prior close",
+      "url": "https://fred.stlouisfed.org/series/SP500"
     },
     {
       "id": "src3",
-      "label": "St. Louis Fed Nasdaq Composite closing data",
-      "url": "https://fred.stlouisfed.org/data/NASDAQCOM"
+      "label": "FRED — Nasdaq Composite, prior close",
+      "url": "https://fred.stlouisfed.org/series/NASDAQCOM"
     },
     {
       "id": "src4",
-      "label": "Exchange holiday trading schedule",
-      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule?mod=article_inline"
+      "label": "Investing.com — Shanghai Composite daily close table",
+      "url": "https://uk.investing.com/indices/shanghai-composite-historical-data"
     },
     {
       "id": "src5",
-      "label": "Xinhua Finance mainland closing report",
-      "url": "https://www.cnfin.com/gs-lb/detail/20261127/4501204_1.html"
-    },
-    {
-      "id": "src6",
-      "label": "Shanghai Composite daily closing table",
-      "url": "https://cn.investing.com/indices/shanghai-composite-historical-data"
-    },
-    {
-      "id": "src7",
-      "label": "Mainland large-cap index daily closing table",
+      "label": "Investing.com — mainland large-cap index daily close table",
       "url": "https://cn.investing.com/indices/csi300-historical-data"
     },
     {
+      "id": "src6",
+      "label": "Xinhua Finance — Friday mainland closing report",
+      "url": "https://www.cnfin.com/gs-lb/detail/20261127/4501204_1.html"
+    },
+    {
+      "id": "src7",
+      "label": "US Census Bureau — advance economic indicators release",
+      "url": "https://www.census.gov/econ/indicators/2026/advance_report2610.pdf"
+    },
+    {
       "id": "src8",
-      "label": "Interim distribution filing at the Shanghai Stock Exchange",
-      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-28/600519_20261128_3ZUX.pdf"
-    },
-    {
-      "id": "src9",
-      "label": "Issuer interim financial report",
-      "url": "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475868.PDF"
-    },
-    {
-      "id": "src10",
-      "label": "National Bureau of Statistics industrial profits release",
+      "label": "National Bureau of Statistics of China — industrial profits release",
       "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261127_1965949.html"
     },
     {
-      "id": "src11",
-      "label": "National Bureau of Statistics industrial profits commentary",
-      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261127_1965950.html"
-    },
-    {
-      "id": "src12",
-      "label": "State Council capital market readout hosted by the securities regulator",
+      "id": "src9",
+      "label": "China Securities Regulatory Commission — State Council meeting readout",
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7673432/content.shtml"
     },
     {
-      "id": "src13",
-      "label": "Bureau of Economic Analysis personal income and outlays release",
-      "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026"
+      "id": "src10",
+      "label": "Hong Kong Exchanges — Guinea engineering contract filing",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112702005.pdf"
     },
     {
-      "id": "src14",
-      "label": "Computer and server maker quarterly earnings exhibit",
+      "id": "src11",
+      "label": "Shanghai Stock Exchange — Guinea engineering contract filing",
+      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-28/601068_20261128_ENBQ.pdf"
+    },
+    {
+      "id": "src12",
+      "label": "Hong Kong Exchanges — contractor quarterly financial report",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1015/2026101501264.pdf"
+    },
+    {
+      "id": "src13",
+      "label": "Issuer filing — US hardware maker quarterly earnings release",
       "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
     },
     {
-      "id": "src15",
-      "label": "Computer and server maker prior-quarter earnings exhibit",
+      "id": "src14",
+      "label": "Issuer filing — US hardware maker prior fiscal quarter end",
       "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000039/exhibit991earnings8kq2fy27.htm"
     },
     {
+      "id": "src15",
+      "label": "US Bureau of Economic Analysis — personal income and outlays release",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+    },
+    {
       "id": "src16",
-      "label": "Chip designer leadership and oversight announcement",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/"
-    },
-    {
-      "id": "src17",
-      "label": "Chip designer quarterly earnings release",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
-    },
-    {
-      "id": "src18",
-      "label": "Chip designer prior-quarter earnings release",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+      "label": "Nasdaq Trader — Thanksgiving closure and early-close notice",
+      "url": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2026-69"
     }
   ],
   "markets": [
@@ -127,7 +117,7 @@
       "previousClose": 3900.55,
       "changePercent": 4.17,
       "sourceIds": [
-        "src7"
+        "src5"
       ]
     }
   ],
@@ -135,75 +125,225 @@
     {
       "id": "f1",
       "market": "cn",
-      "category": "company",
-      "publishedOn": "2026-11-28",
-      "company": {
-        "name": "Kweichow Moutai Co., Ltd.",
-        "ticker": "600519",
-        "exchange": "Shanghai Stock Exchange"
-      },
+      "category": "economy",
+      "publishedOn": "2026-11-27",
+      "company": null,
       "metrics": [
         {
           "id": "m1",
-          "value": 32002088985.6,
+          "value": 6737360000000,
           "unit": "CNY",
-          "periodStart": "2026-11-28",
-          "periodEnd": "2026-11-28",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
-          "basis": "guidance",
+          "basis": "reported",
           "sourceIds": [
             "src8"
           ],
-          "evidence": "The distribution-plan section gives the gross planned cash payout based on the share count used in the filing; it is not a completed payment."
+          "evidence": "Total profit in the aggregate row of the industry breakdown table."
         },
         {
           "id": "m2",
-          "value": 90703260964.48,
-          "unit": "CNY",
+          "value": 16,
+          "unit": "percent",
           "periodStart": "2026-01-01",
-          "periodEnd": "2026-06-30",
-          "comparison": "level",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src8"
           ],
-          "evidence": "The interim report's key accounting data table lists consolidated operating revenue in the current-period column."
+          "evidence": "Comparable-basis growth in total profit in the aggregate row of the industry breakdown table."
         },
         {
           "id": "m3",
-          "value": 44516880421.86,
+          "value": 118414480000000,
           "unit": "CNY",
           "periodStart": "2026-01-01",
-          "periodEnd": "2026-06-30",
+          "periodEnd": "2026-10-31",
           "comparison": "level",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src8"
           ],
-          "evidence": "The interim report's key accounting data table lists net profit attributable to listed-company shareholders."
+          "evidence": "Operating revenue in the aggregate row of the industry breakdown table."
         },
         {
           "id": "m4",
-          "value": 70690750119.06,
-          "unit": "CNY",
+          "value": 6.7,
+          "unit": "percent",
           "periodStart": "2026-01-01",
-          "periodEnd": "2026-06-30",
-          "comparison": "level",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src9"
+            "src8"
           ],
-          "evidence": "The consolidated cash flow statement lists net cash generated by operating activities in the current-period column."
+          "evidence": "Comparable-basis operating revenue growth in the aggregate row of the industry breakdown table."
+        },
+        {
+          "id": "m5",
+          "value": 20.1,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Standalone latest-month profit growth in the paragraph before the charts."
+        },
+        {
+          "id": "m6",
+          "value": 100.9,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "The industry breakdown table gives the precise year-on-year change in total profit for computer, communications and other electronic equipment manufacturing; the narrative rounds it."
+        },
+        {
+          "id": "m7",
+          "value": -26,
+          "unit": "percent",
+          "periodStart": "2026-01-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Total profit change in the motor vehicle manufacturing row of the industry breakdown table."
+        },
+        {
+          "id": "m8",
+          "value": 10.5,
+          "unit": "percent",
+          "periodStart": "2026-10-31",
+          "periodEnd": "2026-10-31",
+          "comparison": "yoy",
+          "basis": "reported",
+          "sourceIds": [
+            "src8"
+          ],
+          "evidence": "Growth in the month-end accounts receivable balance in the balance-sheet discussion."
         }
       ],
       "sourceIds": [
-        "src8",
-        "src9"
+        "src8"
       ],
-      "evidence": "The distribution filing describes a board-approved interim cash dividend and leaves the record date to the implementation notice. The interim report's key accounting data and management discussion provide the financial context and explain the operating cash flow change."
+      "evidence": "The industry breakdown shows profit growing faster than revenue and contrasts electronics gains with falling automotive profits. The balance-sheet discussion reports higher receivables and a longer average collection period."
     },
     {
       "id": "f2",
+      "market": "us",
+      "category": "economy",
+      "publishedOn": "2026-11-27",
+      "company": null,
+      "metrics": [
+        {
+          "id": "m1",
+          "value": 149478000000,
+          "unit": "USD",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Magnitude of the negative goods balance in the seasonally adjusted principal end-use trade table, latest month."
+        },
+        {
+          "id": "m2",
+          "value": 135081000000,
+          "unit": "USD",
+          "periodStart": "2026-09-01",
+          "periodEnd": "2026-09-30",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Magnitude of the negative goods balance in the seasonally adjusted principal end-use trade table, preceding month."
+        },
+        {
+          "id": "m3",
+          "value": 365297000000,
+          "unit": "USD",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Total imports in the seasonally adjusted principal end-use trade table."
+        },
+        {
+          "id": "m4",
+          "value": 215819000000,
+          "unit": "USD",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "level",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Total exports in the seasonally adjusted principal end-use trade table."
+        },
+        {
+          "id": "m5",
+          "value": 0.9,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Monthly change in estimated wholesale inventories in the release highlights."
+        },
+        {
+          "id": "m6",
+          "value": 0.8,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src7"
+          ],
+          "evidence": "Monthly change in estimated retail inventories in the release highlights."
+        }
+      ],
+      "sourceIds": [
+        "src7"
+      ],
+      "evidence": "The advance release and seasonally adjusted principal end-use table show imports rising more than exports. The release highlights also report higher estimated wholesale and retail inventories."
+    },
+    {
+      "id": "f3",
+      "market": "cn",
+      "category": "economy",
+      "publishedOn": "2026-11-27",
+      "company": null,
+      "metrics": [],
+      "sourceIds": [
+        "src9"
+      ],
+      "evidence": "The capital-market paragraph calls for stronger stabilization mechanisms, greater dividends and buybacks, more support for long-term institutional investment, and enforcement against financial fraud and improper share sales. It does not specify new funding amounts or implementation dates."
+    },
+    {
+      "id": "f6",
       "market": "us",
       "category": "economy",
       "publishedOn": "2026-11-25",
@@ -211,32 +351,6 @@
       "metrics": [
         {
           "id": "m1",
-          "value": 0.3,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The Personal Income and Related Measures table lists the monthly change in current-dollar consumer spending."
-        },
-        {
-          "id": "m2",
-          "value": 0,
-          "unit": "percent",
-          "periodStart": "2026-10-01",
-          "periodEnd": "2026-10-31",
-          "comparison": "mom",
-          "basis": "reported",
-          "sourceIds": [
-            "src13"
-          ],
-          "evidence": "The Real PCE row rounds to zero in the monthly table; the accompanying text reports a slight decline before rounding."
-        },
-        {
-          "id": "m3",
           "value": 0.5,
           "unit": "percent",
           "periodStart": "2026-10-01",
@@ -244,22 +358,48 @@
           "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src13"
+            "src15"
           ],
-          "evidence": "The Personal Income and Related Measures table lists the monthly change in inflation-adjusted disposable personal income."
+          "evidence": "Real disposable personal income change in the latest-month column of the personal income and related measures table."
         },
         {
-          "id": "m4",
-          "value": 3.8,
+          "id": "m2",
+          "value": 0.3,
           "unit": "percent",
           "periodStart": "2026-10-01",
           "periodEnd": "2026-10-31",
-          "comparison": "yoy",
+          "comparison": "mom",
           "basis": "reported",
           "sourceIds": [
-            "src13"
+            "src15"
           ],
-          "evidence": "The price-index discussion gives the annual change in the broad consumer spending price index."
+          "evidence": "Current-dollar personal consumption expenditures change in the latest-month column of the related measures table."
+        },
+        {
+          "id": "m3",
+          "value": 0,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src15"
+          ],
+          "evidence": "The related measures table shows real consumption unchanged at its published precision; the release narrative reports a slight decline."
+        },
+        {
+          "id": "m4",
+          "value": 0.3,
+          "unit": "percent",
+          "periodStart": "2026-10-01",
+          "periodEnd": "2026-10-31",
+          "comparison": "mom",
+          "basis": "reported",
+          "sourceIds": [
+            "src15"
+          ],
+          "evidence": "Headline consumption price index change in the latest-month column of the related measures table."
         },
         {
           "id": "m5",
@@ -270,27 +410,15 @@
           "comparison": "yoy",
           "basis": "reported",
           "sourceIds": [
-            "src13"
+            "src15"
           ],
-          "evidence": "The price-index discussion gives the annual change excluding food and energy."
+          "evidence": "Annual change in the consumption price index excluding food and energy in the price discussion."
         }
       ],
       "sourceIds": [
-        "src13"
+        "src15"
       ],
-      "evidence": "The main release and monthly measures table distinguish rising dollar spending from nearly flat inflation-adjusted spending. The technical notes identify an exceptional Medicare premium rebate as a contributor to the rise in government benefits."
-    },
-    {
-      "id": "f5",
-      "market": "cn",
-      "category": "economy",
-      "publishedOn": "2026-11-27",
-      "company": null,
-      "metrics": [],
-      "sourceIds": [
-        "src12"
-      ],
-      "evidence": "The capital markets paragraph of the State Council readout calls for stronger stabilization arrangements, a larger role for long-term funds, more dividends and buybacks, and tighter enforcement. It does not specify a funding amount or an implementation timetable."
+      "evidence": "The related measures table shows rising real after-tax income and rising nominal spending, but virtually unchanged real spending. The release identifies compensation, government social benefits and asset income as contributors to the increase in personal income."
     }
   ],
   "locales": {
@@ -303,554 +431,918 @@
       "stories": [
         {
           "id": "f1",
-          "title": "Premium spirits maker approves an interim cash dividend",
-          "summary": "Kweichow Moutai's board approved an interim cash distribution, with the record date still to come.",
-          "impact": "The payout would return cash to shareholders without changing the profit the company earned from selling spirits.",
-          "what": "Kweichow Moutai makes and sells premium Chinese baijiu through direct sales and distributors. The board approved the distribution under authority shareholders had already granted, so the filing says another shareholder vote is not required. The planned total is based on the share count cited in the announcement. If the share count changes before the record date, the company says it will keep the total distribution unchanged and adjust the payment per share.",
-          "why": "A cash dividend transfers resources already held by the business to eligible shareholders. It is not an expense from making or selling liquor, and it is not evidence that demand strengthened. The earlier interim report illustrates the distinction: sales increased and shareholder-attributable profit slipped, while operating cash flow rose. Management attributed much of the cash flow change to deposit movements at its finance subsidiary, not simply to customers paying for more liquor.",
-          "uncertainty": "The approval is not confirmation that cash has been paid. Consolidated operating cash flow also does not show how much cash the parent can freely distribute or how much future liquor sales will generate.",
-          "watch": "Look for the implementation notice with the record and payment dates, then check the next financial report for sales by channel and the separate drivers of operating cash flow.",
+          "title": "China’s industrial profits rise, but collections slow",
+          "summary": "China’s statistics bureau reported stronger industrial profits, with electronics manufacturers posting gains while automakers’ profits fell.",
+          "impact": "Higher accounting profits can make expansion easier to finance, but customers taking longer to pay can leave suppliers short of cash.",
+          "what": "The release covers industrial businesses above a national revenue threshold, not just listed manufacturers. Cumulative profit rose faster than operating revenue, and the latest month also showed a year-on-year profit gain. The industry breakdown is more revealing than the headline: computer, communications and other electronic equipment manufacturers posted much stronger profits, while vehicle makers moved in the opposite direction.",
+          "why": "A manufacturer can count a sale before the customer actually pays. If unpaid bills build up, or finished goods sit in storage longer, the business still has to fund payroll and materials while it waits for cash. The release showed slower collections and slower inventory turnover, so rising profits do not necessarily translate into more spending on equipment, better terms for suppliers or more hiring. The sector split also means the headline is a poor guide to any specific A-share manufacturer.",
+          "uncertainty": "The survey excludes businesses below its revenue threshold and does not provide a consolidated operating cash flow figure. The bureau adjusts the year-on-year comparison for changes in the businesses covered, so previously published totals are not a substitute for its comparable growth rates.",
+          "watch": "Look for shorter collection times and faster inventory turnover in the next release, and check listed manufacturers’ cash flow statements for evidence that higher profits are turning into cash.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Planned gross interim cash dividend"
+              "label": "Cumulative industrial profit"
             },
             {
               "id": "m2",
-              "label": "First-half operating revenue"
+              "label": "Cumulative industrial profit growth"
             },
             {
               "id": "m3",
-              "label": "First-half net profit attributable to shareholders"
+              "label": "Cumulative industrial operating revenue"
             },
             {
               "id": "m4",
-              "label": "First-half operating cash flow"
+              "label": "Cumulative industrial operating revenue growth"
+            },
+            {
+              "id": "m5",
+              "label": "Latest-month industrial profit growth"
+            },
+            {
+              "id": "m6",
+              "label": "Cumulative electronics manufacturing profit growth"
+            },
+            {
+              "id": "m7",
+              "label": "Cumulative motor vehicle manufacturing profit change"
+            },
+            {
+              "id": "m8",
+              "label": "Month-end receivables growth"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "US spending stalls after adjusting for prices",
-          "summary": "US households spent more in dollar terms, but inflation-adjusted spending edged lower before rounding.",
-          "impact": "The gap matters for businesses because higher receipts do not necessarily mean customers are buying more.",
-          "what": "The Bureau of Economic Analysis reported that after-tax household income rose even after adjusting for prices. Consumer outlays on goods and services rose in current dollars, with services accounting for most of the increase. Yet the report's measure of what households bought after adjusting for prices was essentially flat. Consumer prices were higher than a year earlier, even when food and energy were excluded.",
-          "why": "Separating prices from purchases helps explain why a retailer or service provider might take in more money without seeing stronger demand. That distinction matters for staffing and inventory decisions. Persistent inflation can also make it harder for the Federal Reserve to ease borrowing conditions, even if real spending looks soft. For households, the same tension shows up when pay buys more in principle but budgets are still strained by prices or financing costs.",
-          "uncertainty": "Part of the income increase reflected an exceptional Medicare premium rebate, so the release is not a clean signal that recurring income is growing as quickly. The aggregates also mask differences across households and can be revised.",
-          "watch": "Compare real spending and after-tax income in the next release, and check whether inflation excluding food and energy eases.",
+          "title": "US goods deficit widens as imports outpace exports",
+          "summary": "The Census Bureau’s advance report showed imports rising faster than exports as wholesalers and retailers carried more inventory.",
+          "impact": "Businesses could face higher storage and financing costs if those inventories build faster than customers buy them.",
+          "what": "The goods deficit is the dollar value of merchandise imports minus merchandise exports. It widened even though exports increased, because the value of goods entering the country rose more. The same release estimated that wholesalers and retailers ended the month with more inventory than they held the previous month. Those stock figures are measured in dollars, not in physical units.",
+          "why": "When goods show up in warehouses, it can mean businesses expect sales to pick up, want protection from supply disruptions or simply have stock they have not been able to sell. The distinction matters for households: planned stock can keep products on shelves, whereas unsold stock can eventually lead to markdowns or fewer orders from suppliers. The wider goods gap is relevant to economic growth estimates, but it does not by itself show that domestic demand weakened.",
+          "uncertainty": "These are advance estimates, adjusted for seasonal patterns but not for price changes. They do not establish whether the import increase came from greater volumes or higher prices, and the goods balance does not include services.",
+          "watch": "Compare the full trade release with the advance estimates, then check whether retail sales keep pace with inventories or stocks continue to build.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Consumer spending change before inflation"
+              "label": "Latest-month goods trade deficit"
             },
             {
               "id": "m2",
-              "label": "Inflation-adjusted consumer spending change, rounded"
+              "label": "Previous-month goods trade deficit"
             },
             {
               "id": "m3",
-              "label": "Inflation-adjusted disposable income change"
+              "label": "Goods imports"
             },
             {
               "id": "m4",
-              "label": "Annual consumer spending inflation"
+              "label": "Goods exports"
             },
             {
               "id": "m5",
-              "label": "Annual consumer spending inflation excluding food and energy"
+              "label": "Wholesale inventory change"
+            },
+            {
+              "id": "m6",
+              "label": "Retail inventory change"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "China outlines stronger support for its capital markets",
-          "summary": "The State Council called for stronger market stabilization and more support for long-term institutional investment.",
-          "impact": "The direction could change how mainland companies raise capital and return cash, but the readout does not show that new money has entered the market.",
-          "what": "The readout calls for encouraging listed companies to pay dividends and buy back shares, strengthening Central Huijin's market stabilization role, and improving the framework for insurers, enterprise annuities and social security funds to invest. It also calls for stronger enforcement against financial fraud and improper stake reductions. The readout sets out policy direction rather than issuing the detailed rules that institutions would follow.",
-          "why": "Investors with long holding periods can provide a steadier source of demand if the rules let them participate and they choose to do so. A market with more dependable liquidity may make it easier for companies to raise equity when needed. For households exposed through funds or retirement savings, enforcement and disclosure matter as much as support for trading: liquidity helps investors transact, but it cannot make a weak business more profitable.",
-          "uncertainty": "The readout does not specify how much capital is available, when rules might change, or whether purchases have occurred. It is not evidence that the policy explains the whole session's gains.",
-          "watch": "Look for regulator rules on institutional participation, disclosures of stabilization transactions, and company filings that distinguish announced buybacks from completed purchases.",
+          "id": "f3",
+          "title": "China’s State Council calls for stronger stock-market support",
+          "summary": "China’s cabinet called for stronger market stabilization tools, more dividends and buybacks, and better access for long-term institutional funds.",
+          "impact": "The measures could change who provides liquidity during selloffs and how listed companies use their cash, but the readout does not say what will be deployed or when.",
+          "what": "The meeting readout called for better use of existing measures and preparation of additional policies. It proposed strengthening the stabilization role of state-backed investors and improving the rules that guide insurance funds, corporate annuities and social security funds into the market. It also called for enforcement against financial fraud and improper reductions of shareholdings. This was a statement of policy direction, not an announcement that new funds had already entered the market.",
+          "why": "Long-term investors can make it easier to trade when other investors are selling, although their presence cannot remove the risk of losses. The dividend and buyback proposals work differently: dividends put cash directly in shareholders’ hands, while repurchases use company cash to acquire its own shares. For households exposed through funds and for businesses raising equity, the lasting effects depend on how the rules shape actual buying, payouts and disclosure.",
+          "uncertainty": "The readout gives no new funding amount, purchase timetable or eligibility rules. Friday’s rally does not establish which measures, if any, investors were pricing in.",
+          "watch": "Look for implementing rules, disclosures of institutional purchases, and filings that distinguish announced buyback authorizations from executed purchases.",
           "metricLabels": []
+        },
+        {
+          "id": "f6",
+          "title": "US spending barely moves after inflation",
+          "summary": "The earlier household report showed purchasing power rising while inflation-adjusted spending remained broadly flat.",
+          "impact": "Retailers and service providers should not read higher dollar spending as evidence that customers bought more.",
+          "what": "The Bureau of Economic Analysis found that disposable income, the income households have after personal taxes, increased even after adjusting for prices. Households spent more in dollar terms, with services accounting for most of that increase. Real spending slipped slightly in the underlying estimate and rounded to flat in the published growth table. The release attributes the broader rise in personal income to compensation, benefits and income from assets.",
+          "why": "The distinction between dollars spent and goods or services purchased is important when prices are rising. A household can pay more for the same basket, and a business can collect more revenue without selling more. Stronger real after-tax income can help households absorb future expenses or rebuild savings, but it did not produce an immediate rise in real spending in this report. The consumption price index excluding food and energy provides a separate view of inflation that is less affected by swings in those categories.",
+          "uncertainty": "An exceptional Medicare premium rebate contributed to the increase in social benefits, so part of the income gain should not be assumed to recur. The figures are national estimates subject to revision and do not show how the gains were distributed across households.",
+          "watch": "Look for real spending to pick up alongside recurring wage income, and check whether the next release revises the latest spending estimate or shows further cooling in monthly price growth.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Real disposable income change"
+            },
+            {
+              "id": "m2",
+              "label": "Nominal household spending change"
+            },
+            {
+              "id": "m3",
+              "label": "Real household spending change, rounded"
+            },
+            {
+              "id": "m4",
+              "label": "Monthly consumption price change"
+            },
+            {
+              "id": "m5",
+              "label": "Annual consumption inflation excluding food and energy"
+            }
+          ]
         }
       ]
     },
     "zh-CN": {
-      "status": "本期涵盖美国和中国的动态。请留意各条内容的发布日期；近期发布的公司报告用于帮助理解背景。",
+      "status": "本期涵盖美国和中国的财经动态。请留意各条消息的发布日期；近期发布的公司报告仅用于帮助理解背景。",
       "marketSummary": {
-        "us": "部分收盘数据未能核实。可提供数据的指数均标注各自对应的交易日期。",
-        "cn": "部分收盘数据未能核实。可提供数据的指数均标注各自对应的交易日期。"
+        "us": "部分收盘数据未能核实。凡有数据的指数，均保留各自对应的交易日期。",
+        "cn": "部分收盘数据未能核实。凡有数据的指数，均保留各自对应的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "高端白酒生产商贵州茅台批准中期现金分红",
-          "summary": "贵州茅台董事会已批准中期现金分红，股权登记日尚未到来。",
-          "impact": "这笔分红将把现金返还给股东，但不会改变公司通过销售白酒赚取的利润。",
-          "what": "贵州茅台生产高端白酒，通过直销和经销商销售。董事会依据股东此前授予的权限批准了分红，因此公告称无需再提交股东表决。拟派发的总额以公告列明的股份数量为计算依据。公司表示，如果股权登记日前股份数量发生变化，将维持分红总额不变，相应调整每股派发金额。",
-          "why": "现金分红是把公司已有的现金分给符合条件的股东。它不属于生产或销售白酒的费用，也不能说明需求走强。此前的中期报告体现了这些指标的区别：销售额增长，归属于股东的净利润小幅下降，经营现金流则有所增加。管理层表示，经营现金流的变化很大程度上与旗下财务公司的存款变动有关，不能简单理解为顾客买了更多白酒、公司收到的酒款更多。",
-          "uncertainty": "分红获批不等于现金已经发放。合并口径的经营现金流也无法说明母公司有多少现金可以自由用于分红，或未来销售白酒能带来多少现金。",
-          "watch": "关注分红实施公告中的股权登记日和发放日，再看下期财报中各销售渠道的表现，以及影响经营现金流的各项因素。",
+          "title": "中国工业企业利润增长，但回款放慢",
+          "summary": "中国国家统计局公布的数据显示，工业企业利润增长，其中电子设备制造企业利润上升，汽车制造企业利润下降。",
+          "impact": "账面利润增加，有助于企业为扩张筹措资金；但如果客户付款变慢，供应商仍可能面临现金短缺。",
+          "what": "这项统计覆盖达到国家规定营收门槛的工业企业，并不限于上市制造企业。累计利润增速高于营业收入增速，最近公布月份的利润也较上年同期增长。分行业看，比只看整体数据更能看出差异：计算机、通信和其他电子设备制造业利润明显增长，汽车制造业利润则有所下降。",
+          "why": "制造企业可以在客户实际付款前确认销售收入。如果应收账款积压，或产成品在仓库里放得更久，企业在等回款时仍要支付工资和材料费用。数据显示，企业回款和存货周转都在放慢，因此利润增长不一定意味着企业会增加设备投入、给供应商更好的交易条件或招更多员工。不同行业的表现也有差异，不能仅凭整体数据判断某家A股制造企业的经营状况。",
+          "uncertainty": "这项调查不包括未达到营收门槛的企业，也未公布汇总的经营现金流数据。统计局会根据纳入统计的企业范围变化调整同比比较口径，因此不能用此前公布的总额代替按可比口径计算的增速。",
+          "watch": "关注下次发布的数据是否显示回款周期缩短、存货周转加快，并查看上市制造企业的现金流量表，了解利润增长是否转化成了现金流入。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "拟派发中期现金分红总额（税前）"
+              "label": "工业企业累计利润总额"
             },
             {
               "id": "m2",
-              "label": "上半年营收"
+              "label": "工业企业累计利润增速"
             },
             {
               "id": "m3",
-              "label": "上半年归属于股东的净利润"
+              "label": "工业企业累计营业收入"
             },
             {
               "id": "m4",
-              "label": "上半年经营现金流"
+              "label": "工业企业累计营业收入增速"
+            },
+            {
+              "id": "m5",
+              "label": "最新月份工业企业利润增速"
+            },
+            {
+              "id": "m6",
+              "label": "电子设备制造业累计利润增速"
+            },
+            {
+              "id": "m7",
+              "label": "汽车制造业累计利润变动"
+            },
+            {
+              "id": "m8",
+              "label": "月末应收账款增速"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "扣除物价因素后，美国消费支出基本持平",
-          "summary": "按美元金额计算，美国家庭的消费支出有所增加，但扣除通胀因素后，未经舍入的数据显示支出略有下降。",
-          "impact": "这一区别对企业很重要：收到的钱变多，并不一定意味着顾客买得更多。",
-          "what": "美国经济分析局报告称，即使扣除物价因素，家庭税后收入仍有所增长。按当期价格计算，商品和服务消费支出有所增加，增量主要来自服务。但扣除物价因素后，衡量家庭实际消费的指标基本持平。消费价格高于上年同期，即使剔除食品和能源也是如此。",
-          "why": "区分价格上涨和实际购买量增加，有助于理解为什么零售商或服务商的收入可能增加，需求却没有走强。这会影响企业如何安排人手和库存。即便实际消费支出偏弱，持续的通胀也可能让美联储更难放松借贷条件。对家庭而言，这种矛盾表现为：工资的购买力按理说有所提高，但物价或借贷成本仍可能让家庭预算吃紧。",
-          "uncertainty": "收入增幅部分来自一项特殊的联邦医疗保险保费返还，因此不能仅凭这份数据判断经常性收入也在以同样的速度增长。整体数据还可能掩盖家庭之间的差异，今后也可能修订。",
-          "watch": "对照下期发布的实际消费支出和税后收入数据，并关注剔除食品和能源后的通胀是否放缓。",
+          "title": "美国进口增幅超过出口，货物贸易逆差扩大",
+          "summary": "美国人口普查局的初步报告显示，进口增幅超过出口，批发商和零售商的库存也有所增加。",
+          "impact": "如果库存积累的速度超过销售速度，企业的仓储和融资成本可能上升。",
+          "what": "货物贸易逆差是指用美元计价的货物进口额超过出口额的差额。尽管出口额有所增加，但进口额增加得更多，因此逆差扩大。同一份报告估计，批发商和零售商的月末库存均高于上月末。这些库存数据按美元金额计算，而不是按商品件数等实物数量计算。",
+          "why": "仓库里的商品增加，可能是因为企业预期销售好转，也可能是为了防范供应中断，或者只是因为商品没卖出去。对家庭来说，这些原因的区别很重要：有计划地备货有助于维持货架供应，而滞销库存最终可能促使商家降价，或减少向供应商下单。货物贸易逆差扩大与经济增长估算有关，但仅凭这一点不能断定美国国内需求走弱。",
+          "uncertainty": "这些是初步估算，已剔除季节性因素的影响，但未剔除价格变动的影响。数据无法确定进口额上升是因为进口量增加，还是因为价格上涨。货物贸易差额也不包括服务贸易。",
+          "watch": "将正式发布的完整贸易数据与初步估算对照，再看零售销售能否跟上库存增势，还是库存会继续积累。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "名义消费支出变动"
+              "label": "最新月份货物贸易逆差"
             },
             {
               "id": "m2",
-              "label": "实际消费支出变动（舍入后）"
+              "label": "上一月份货物贸易逆差"
             },
             {
               "id": "m3",
-              "label": "实际可支配收入变动"
+              "label": "货物进口额"
             },
             {
               "id": "m4",
-              "label": "个人消费支出价格同比涨幅"
+              "label": "货物出口额"
             },
             {
               "id": "m5",
-              "label": "个人消费支出价格同比涨幅（剔除食品和能源）"
+              "label": "批发库存变动"
+            },
+            {
+              "id": "m6",
+              "label": "零售库存变动"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "中国提出加大对资本市场的支持力度",
-          "summary": "国务院提出加强市场稳定工作，并加大对机构长期投资的支持。",
-          "impact": "这一政策方向可能改变中国内地企业筹集资金和向股东返还现金的方式，但会议通报并未显示已有新增资金入市。",
-          "what": "会议通报提出，鼓励上市公司分红和回购股份，强化中央汇金稳定市场的作用，并完善保险机构、企业年金和社保基金参与投资的制度。通报还提出，加大对财务造假和违规减持的查处力度。这份通报明确了政策方向，并未发布机构具体要遵守的细则。",
-          "why": "如果规则允许、长线投资者也愿意参与，他们就可能为市场提供更稳定的买入需求。市场流动性更稳定，企业在需要时可能更容易通过发行股票融资。对通过基金或养老储蓄参与市场的家庭来说，执法和信息披露与改善交易条件同样重要：流动性有助于投资者买卖，但不能让经营不佳的企业变得更赚钱。",
-          "uncertainty": "通报没有说明有多少资金可用、规则何时可能调整，或是否已经发生买入交易。它也不能证明当日整个交易时段的涨幅都由这项政策推动。",
-          "watch": "关注监管部门关于机构参与投资的规则、稳定市场相关交易的披露，以及公司公告中哪些回购只是宣布、哪些已经完成。",
+          "id": "f3",
+          "title": "中国国务院提出加大对股市的支持力度",
+          "summary": "中国国务院提出强化稳市工具，推动上市公司增加分红和回购，并为长期机构资金入市创造更好的条件。",
+          "impact": "这些措施可能改变市场遭遇抛售时由谁提供流动性，也可能影响上市公司如何使用现金，但会议通报没有说明会推出哪些措施，也没有给出时间安排。",
+          "what": "会议通报提出，更好地运用现有措施，并储备后续政策。通报建议强化有国家支持的投资机构稳定市场的作用，完善引导保险资金、企业年金和社保基金入市的规则。通报还要求查处财务造假和违规减持。这是在说明政策方向，并不是宣布已有新增资金入市。",
+          "why": "当其他投资者抛售时，长期投资者的参与可能让交易更容易成交，但并不能消除亏损风险。分红和回购的作用不同：分红是把现金直接发给股东，回购则是公司用自己的现金买回自家股票。对通过基金投资股市的家庭和通过发行股票筹资的企业来说，长期影响取决于规则会如何影响实际买入、股东回报和信息披露。",
+          "uncertainty": "通报没有公布新增资金规模、买入时间表或参与资格规则。仅凭周五股市上涨，无法判断投资者是否已把相关措施计入股价，也无法判断计入了哪些措施。",
+          "watch": "关注实施细则、机构买入情况的披露，以及上市公司公告中获准回购的计划和已经实际完成的回购。",
           "metricLabels": []
+        },
+        {
+          "id": "f6",
+          "title": "扣除通胀影响后，美国居民支出基本持平",
+          "summary": "此前发布的居民收支报告显示，居民购买力有所提高，但扣除通胀影响后的支出大体持平。",
+          "impact": "对零售商和服务提供商来说，消费者花的钱变多，不代表买到的商品或服务变多。",
+          "what": "美国经济分析局的数据显示，可支配收入，也就是居民缴纳个人税款后可用于消费或储蓄的收入，在扣除价格变动影响后仍有所增长。按美元金额计算，居民支出有所增加，增量主要来自服务支出。按原始估算，实际支出略有下降，但在公布的增速表中，经四舍五入后显示为持平。报告指出，个人收入整体上升，原因包括雇员报酬、福利和资产收入增加。",
+          "why": "物价上涨时，花出去的金额与实际买到的商品或服务需要分开看。家庭买同样的东西可能要花更多钱，企业也可能在销量没有增加的情况下获得更多营收。实际税后收入增长，可以帮助家庭应付未来开支或恢复储蓄，但这份报告并未显示实际支出随即上升。剔除食品和能源的个人消费支出价格指数提供了另一个观察通胀的角度，受这两类价格波动的影响较小。",
+          "uncertainty": "美国联邦医保的特殊保费返还带动了社会福利收入增长，因此不能假定这部分收入增幅会再次出现。这些数据是全国层面的估算，之后可能修订，也没有显示不同家庭分别获得了多少收入增长。",
+          "watch": "关注经常性工资收入增长时，实际支出是否随之回升，以及下次发布的数据是否会修订最新的支出估算，或显示消费价格月度涨幅进一步放缓。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "实际可支配收入变动"
+            },
+            {
+              "id": "m2",
+              "label": "名义居民消费支出变动"
+            },
+            {
+              "id": "m3",
+              "label": "实际居民消费支出变动（取整后）"
+            },
+            {
+              "id": "m4",
+              "label": "个人消费支出价格指数环比变动"
+            },
+            {
+              "id": "m5",
+              "label": "核心个人消费支出价格指数同比涨幅（剔除食品和能源）"
+            }
+          ]
         }
       ]
     },
     "fr": {
-      "status": "Cette édition couvre l’actualité des États-Unis et de la Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour donner du contexte.",
+      "status": "Cette édition couvre l’actualité aux États-Unis et en Chine. Vérifiez la date de chaque publication : les rapports récents des entreprises sont présentés pour donner du contexte.",
       "marketSummary": {
-        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice pour lequel des données sont disponibles est présenté à sa propre date de cotation.",
-        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice pour lequel des données sont disponibles est présenté à sa propre date de cotation."
+        "us": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible est présenté à la date de sa propre séance.",
+        "cn": "Certaines données de clôture n’ont pas pu être vérifiées. Chaque indice disponible est présenté à la date de sa propre séance."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Un producteur de spiritueux haut de gamme approuve un acompte sur dividende en numéraire",
-          "summary": "Le conseil d’administration de Kweichow Moutai a approuvé un acompte sur dividende en numéraire. La date qui déterminera quels actionnaires y auront droit reste à venir.",
-          "impact": "Le versement rendrait de l’argent aux actionnaires sans modifier le bénéfice tiré de la vente de spiritueux.",
-          "what": "Kweichow Moutai produit du baijiu, un spiritueux chinois haut de gamme, et le vend en direct et par l’intermédiaire de distributeurs. Le conseil d’administration a approuvé le versement en vertu d’une autorisation déjà donnée par les actionnaires. D’après le communiqué, il n’est donc pas nécessaire de les faire voter à nouveau. Le montant total prévu est calculé à partir du nombre d’actions indiqué dans l’annonce. Si ce nombre change avant la date qui détermine le droit au dividende, l’entreprise indique qu’elle maintiendra le montant total du versement et ajustera le montant par action.",
-          "why": "Un dividende en numéraire transfère de l’argent que l’entreprise détient déjà aux actionnaires qui y ont droit. Ce n’est pas une dépense liée à la fabrication ou à la vente de spiritueux, et ce versement ne prouve pas que la demande a augmenté. Le rapport semestriel publié auparavant illustre la différence : le chiffre d’affaires a progressé, le résultat net part du groupe a légèrement reculé et les flux de trésorerie d’exploitation ont augmenté. La direction explique une grande partie de cette évolution des flux par des mouvements de dépôts dans sa filiale financière, et pas simplement par des achats plus importants de spiritueux par les clients.",
-          "uncertainty": "L’approbation ne confirme pas que le dividende a été versé. Les flux de trésorerie d’exploitation du groupe n’indiquent ni combien la société mère peut distribuer librement, ni combien les ventes futures de spiritueux lui rapporteront en trésorerie.",
-          "watch": "Surveillez l’avis de mise en paiement, qui précisera la date déterminant le droit au dividende et la date du versement. Dans le prochain rapport financier, vérifiez les ventes par canal de distribution et les différents facteurs qui expliquent l’évolution des flux de trésorerie d’exploitation.",
+          "title": "En Chine, les bénéfices industriels progressent, mais les clients paient plus lentement",
+          "summary": "Le bureau chinois des statistiques a annoncé une hausse des bénéfices industriels. Ceux des fabricants de matériel électronique ont progressé, tandis que ceux des constructeurs automobiles ont reculé.",
+          "impact": "Des bénéfices comptables plus élevés peuvent faciliter le financement du développement des entreprises. Mais si les clients tardent à payer, les fournisseurs peuvent manquer de trésorerie.",
+          "what": "La publication couvre les entreprises industrielles dont le chiffre d’affaires dépasse un seuil fixé au niveau national, et pas seulement les fabricants cotés en Bourse. Les bénéfices cumulés ont progressé plus vite que le chiffre d’affaires, et les bénéfices du dernier mois ont aussi augmenté par rapport au même mois de l’année précédente. Le détail par secteur est plus révélateur que le résultat global : les bénéfices des fabricants d’ordinateurs, de matériel de communication et d’autres équipements électroniques ont fortement progressé, tandis que ceux des constructeurs automobiles ont reculé.",
+          "why": "Un fabricant peut comptabiliser une vente avant que le client ne la paie. Si les factures en attente de paiement s’accumulent ou si les produits finis restent plus longtemps en stock, l’entreprise doit quand même payer les salaires et les matériaux en attendant d’encaisser ses ventes. La publication fait état de délais de paiement plus longs et de stocks qui s’écoulent plus lentement. La hausse des bénéfices ne se traduit donc pas forcément par davantage de dépenses en équipements, de meilleures conditions pour les fournisseurs ou plus d’embauches. Les écarts entre secteurs font aussi du résultat global un mauvais indicateur de la situation d’un fabricant dont les actions de catégorie A sont cotées en Chine continentale.",
+          "uncertainty": "L’enquête exclut les entreprises dont le chiffre d’affaires est inférieur au seuil retenu et ne fournit pas de chiffre consolidé pour les flux de trésorerie d’exploitation. Le bureau tient compte des changements dans la liste des entreprises couvertes lorsqu’il compare les résultats d’une année sur l’autre. Les totaux déjà publiés ne peuvent donc pas remplacer ses taux de croissance calculés à périmètre comparable.",
+          "watch": "Dans la prochaine publication, vérifiez si les clients paient plus vite et si les stocks s’écoulent plus rapidement. Les tableaux de flux de trésorerie des fabricants cotés permettront de voir si la hausse des bénéfices se traduit par davantage de liquidités.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Montant brut prévu de l’acompte sur dividende en numéraire"
+              "label": "Bénéfices industriels cumulés"
             },
             {
               "id": "m2",
-              "label": "Chiffre d’affaires du premier semestre"
+              "label": "Croissance des bénéfices industriels cumulés"
             },
             {
               "id": "m3",
-              "label": "Résultat net part du groupe du premier semestre"
+              "label": "Chiffre d’affaires industriel cumulé"
             },
             {
               "id": "m4",
-              "label": "Flux de trésorerie d’exploitation du premier semestre"
+              "label": "Croissance du chiffre d’affaires industriel cumulé"
+            },
+            {
+              "id": "m5",
+              "label": "Croissance des bénéfices industriels au dernier mois"
+            },
+            {
+              "id": "m6",
+              "label": "Croissance des bénéfices cumulés de la fabrication d’équipements électroniques"
+            },
+            {
+              "id": "m7",
+              "label": "Variation des bénéfices cumulés de la construction automobile"
+            },
+            {
+              "id": "m8",
+              "label": "Croissance des créances clients en fin de mois"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "Aux États-Unis, les dépenses des ménages stagnent après correction de l’inflation",
-          "summary": "Les ménages américains ont dépensé davantage en dollars, mais leurs dépenses ont légèrement reculé avant arrondi une fois l’inflation prise en compte.",
-          "impact": "Cet écart compte pour les entreprises : des recettes plus élevées ne veulent pas forcément dire que les clients achètent davantage.",
-          "what": "Le Bureau d’analyse économique des États-Unis a indiqué que le revenu des ménages après impôts avait augmenté, même après correction de l’inflation. Les dépenses en biens et services ont progressé en dollars courants, surtout du fait des services. Pourtant, une fois l’effet des prix retiré, les achats des ménages sont restés pratiquement stables selon le rapport. Les prix à la consommation ont augmenté sur un an, même sans tenir compte de l’alimentation et de l’énergie.",
-          "why": "Distinguer l’effet des prix de celui des quantités achetées aide à comprendre pourquoi un commerçant ou un prestataire de services peut encaisser davantage sans que la demande se renforce. Cette distinction compte lorsqu’il faut ajuster les effectifs ou les stocks. Une inflation persistante peut aussi rendre plus difficile un assouplissement des conditions d’emprunt par la Réserve fédérale, même si les dépenses corrigées de l’inflation semblent peu dynamiques. Pour les ménages, cette même tension se fait sentir quand leurs revenus leur permettent en principe d’acheter davantage, mais que les prix ou le coût du crédit continuent de peser sur leur budget.",
-          "uncertainty": "La hausse des revenus tient en partie à un remboursement exceptionnel de cotisations à Medicare. Cette publication ne permet donc pas de conclure que les revenus réguliers augmentent au même rythme. Les chiffres d’ensemble masquent aussi les écarts entre ménages et peuvent être révisés.",
-          "watch": "Dans la prochaine publication, comparez l’évolution des dépenses et du revenu après impôts, en tenant compte de l’inflation, et vérifiez si l’inflation hors alimentation et énergie ralentit.",
+          "title": "Le déficit commercial américain de biens se creuse, les importations progressant plus vite que les exportations",
+          "summary": "Le rapport préliminaire du Bureau du recensement indique que les importations ont progressé plus vite que les exportations, tandis que les stocks des grossistes et des détaillants ont augmenté.",
+          "impact": "Les coûts de stockage et de financement pourraient augmenter si les stocks grossissent plus vite que les clients ne les écoulent par leurs achats.",
+          "what": "Le déficit commercial de biens correspond à la valeur en dollars des marchandises importées moins celle des marchandises exportées. Il s’est creusé malgré la hausse des exportations, parce que la valeur des importations a davantage augmenté. Selon la même publication, les grossistes et les détaillants auraient terminé le mois avec des stocks plus élevés que le mois précédent. Ces stocks sont mesurés en dollars, et non en quantités de marchandises.",
+          "why": "L’arrivée de marchandises dans les entrepôts peut signifier que les entreprises s’attendent à vendre davantage, qu’elles veulent se protéger contre des problèmes d’approvisionnement ou qu’elles n’ont tout simplement pas réussi à écouler leurs stocks. La distinction compte pour les ménages : des stocks constitués à l’avance peuvent éviter les rayons vides, tandis que des invendus peuvent finir par entraîner des baisses de prix ou une réduction des commandes auprès des fournisseurs. Le creusement du déficit de biens entre dans les estimations de la croissance économique, mais il ne suffit pas à montrer que la demande intérieure s’est affaiblie.",
+          "uncertainty": "Ces estimations préliminaires sont corrigées des variations saisonnières, mais pas des variations de prix. Elles ne permettent pas de dire si les importations ont augmenté parce que les quantités étaient plus importantes ou parce que les prix étaient plus élevés. Le solde des échanges de biens n’inclut pas les services.",
+          "watch": "Comparez le rapport complet sur le commerce extérieur aux estimations préliminaires, puis vérifiez si les ventes au détail progressent au même rythme que les stocks ou si les marchandises continuent de s’accumuler.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variation des dépenses de consommation avant correction de l’inflation"
+              "label": "Déficit commercial de biens au dernier mois"
             },
             {
               "id": "m2",
-              "label": "Variation des dépenses de consommation corrigée de l’inflation (arrondie)"
+              "label": "Déficit commercial de biens au mois précédent"
             },
             {
               "id": "m3",
-              "label": "Variation du revenu disponible corrigé de l’inflation"
+              "label": "Importations de biens"
             },
             {
               "id": "m4",
-              "label": "Inflation annuelle mesurée par les prix des dépenses de consommation"
+              "label": "Exportations de biens"
             },
             {
               "id": "m5",
-              "label": "Inflation annuelle mesurée par les prix des dépenses de consommation, hors alimentation et énergie"
+              "label": "Variation des stocks du commerce de gros"
+            },
+            {
+              "id": "m6",
+              "label": "Variation des stocks du commerce de détail"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "La Chine entend renforcer le soutien à ses marchés de capitaux",
-          "summary": "Le Conseil des affaires d’État a appelé à renforcer les mesures de stabilisation du marché et à mieux soutenir l’investissement à long terme des investisseurs institutionnels.",
-          "impact": "Cette orientation pourrait changer la façon dont les entreprises de Chine continentale lèvent des capitaux et reversent de l’argent à leurs actionnaires, mais le compte rendu ne montre pas que de nouveaux fonds ont été investis sur le marché.",
-          "what": "Le compte rendu appelle à encourager les sociétés cotées à verser des dividendes et à racheter leurs propres actions, à renforcer le rôle de Central Huijin dans la stabilisation du marché et à améliorer les règles encadrant les placements des assureurs, des régimes de retraite d’entreprise et des fonds de sécurité sociale. Il appelle aussi à lutter plus fermement contre la fraude financière et les réductions irrégulières de participations. Le texte fixe une orientation sans publier les règles détaillées que les institutions devraient suivre.",
-          "why": "Les investisseurs qui gardent leurs placements longtemps peuvent soutenir la demande de façon plus régulière si les règles leur permettent de participer et s’ils choisissent de le faire. Un marché où il est plus facile d’acheter et de vendre peut aider les entreprises à lever des fonds en émettant des actions quand elles en ont besoin. Pour les ménages qui investissent par l’intermédiaire de fonds ou de leur épargne-retraite, le respect des règles et la transparence comptent autant que le soutien aux échanges : la liquidité facilite les transactions, mais elle ne peut pas rendre plus rentable une entreprise en difficulté.",
-          "uncertainty": "Le compte rendu ne précise ni quels montants sont disponibles, ni quand les règles pourraient changer, ni si des achats ont eu lieu. Il ne prouve pas que cette orientation explique toute la hausse observée pendant la séance.",
-          "watch": "Surveillez les règles que les autorités de marché publieront sur la participation des investisseurs institutionnels, les informations rendues publiques sur les opérations de stabilisation et les communiqués des entreprises qui distinguent les rachats d’actions annoncés de ceux qui ont effectivement eu lieu.",
+          "id": "f3",
+          "title": "Le Conseil des affaires d’État chinois appelle à mieux soutenir le marché boursier",
+          "summary": "Le gouvernement chinois a demandé des outils plus efficaces pour stabiliser la Bourse, davantage de dividendes et de rachats d’actions, ainsi qu’un meilleur accès au marché pour les investisseurs institutionnels de long terme.",
+          "impact": "Ces mesures pourraient changer quels investisseurs facilitent les échanges lors des vagues de ventes et comment les sociétés cotées utilisent leur trésorerie. Le compte rendu ne précise toutefois pas quelles mesures seront mises en œuvre ni quand.",
+          "what": "Le compte rendu de la réunion appelle à mieux utiliser les mesures existantes et à en préparer de nouvelles. Il propose de renforcer le rôle des investisseurs soutenus par l’État dans la stabilisation du marché et d’améliorer les règles qui encadrent l’investissement en Bourse des fonds d’assurance, des régimes de retraite d’entreprise et des fonds de sécurité sociale. Il demande aussi de faire appliquer les règles contre la fraude financière et les cessions irrégulières de participations. Ce texte fixe une orientation : il n’annonce pas que de nouveaux capitaux sont déjà entrés sur le marché.",
+          "why": "Les investisseurs de long terme peuvent faciliter les échanges quand d’autres investisseurs vendent, mais leur présence n’élimine pas le risque de pertes. Les dividendes et les rachats d’actions fonctionnent différemment : les premiers versent de l’argent directement aux actionnaires, tandis que les seconds mobilisent la trésorerie de l’entreprise pour qu’elle rachète ses propres actions. Pour les ménages qui investissent par l’intermédiaire de fonds et pour les entreprises qui lèvent des capitaux en émettant des actions, les effets durables dépendront de la façon dont les règles influencent les achats, les versements aux actionnaires et la publication d’informations.",
+          "uncertainty": "Le compte rendu ne précise ni montant de financement supplémentaire, ni calendrier d’achat, ni critères d’éligibilité. La hausse de vendredi ne permet pas de savoir si les cours intégraient certaines de ces mesures, ni lesquelles.",
+          "watch": "Surveillez les règles d’application, les informations publiées sur les achats des investisseurs institutionnels et les déclarations qui distinguent les autorisations de rachat annoncées des rachats effectivement réalisés.",
           "metricLabels": []
+        },
+        {
+          "id": "f6",
+          "title": "Aux États-Unis, les dépenses des ménages bougent à peine après correction de l’inflation",
+          "summary": "Le rapport publié précédemment sur les ménages indiquait une hausse du pouvoir d’achat, alors que les dépenses corrigées de l’inflation restaient globalement stables.",
+          "impact": "Pour les détaillants et les prestataires de services, la hausse des dépenses en dollars ne suffit pas à conclure que les clients ont acheté davantage.",
+          "what": "Le Bureau d’analyse économique a constaté que le revenu disponible, c’est-à-dire ce qui reste aux ménages après les impôts personnels, avait augmenté même après correction de la hausse des prix. Les ménages ont dépensé davantage en dollars, principalement dans les services. Dans l’estimation avant arrondi, les dépenses réelles ont légèrement reculé, mais l’arrondi les fait apparaître stables dans le tableau publié. Le rapport attribue la hausse plus générale du revenu des particuliers aux rémunérations, aux prestations et aux revenus tirés du patrimoine.",
+          "why": "Quand les prix montent, il faut distinguer les sommes dépensées des quantités de biens et de services achetées. Un ménage peut payer plus cher pour le même panier, et une entreprise peut voir son chiffre d’affaires augmenter sans vendre davantage. La hausse du revenu après impôts, corrigé de l’inflation, peut aider les ménages à faire face à de futures dépenses ou à reconstituer leur épargne. Dans ce rapport, elle ne s’est toutefois pas traduite par une hausse immédiate des dépenses réelles. L’indice des prix à la consommation hors alimentation et énergie donne un autre aperçu de l’inflation, moins sensible aux variations de prix dans ces catégories.",
+          "uncertainty": "Un remboursement exceptionnel de cotisations à Medicare a contribué à la hausse des prestations sociales. Il ne faut donc pas supposer que toute la hausse du revenu se répétera. Les chiffres sont des estimations nationales qui peuvent être révisées et ne montrent pas comment les gains se répartissent entre les ménages.",
+          "watch": "Vérifiez si les dépenses réelles repartent à la hausse avec les revenus salariaux réguliers et si la prochaine publication révise la dernière estimation des dépenses ou fait état d’un nouveau ralentissement de la hausse mensuelle des prix.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Variation du revenu disponible réel"
+            },
+            {
+              "id": "m2",
+              "label": "Variation des dépenses des ménages en valeur nominale"
+            },
+            {
+              "id": "m3",
+              "label": "Variation des dépenses réelles des ménages, après arrondi"
+            },
+            {
+              "id": "m4",
+              "label": "Variation mensuelle des prix à la consommation"
+            },
+            {
+              "id": "m5",
+              "label": "Inflation annuelle des prix à la consommation hors alimentation et énergie"
+            }
+          ]
         }
       ]
     },
     "es": {
-      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se incluyen para dar contexto.",
+      "status": "Esta edición cubre novedades de Estados Unidos y China. Consulta la fecha de cada publicación: los informes empresariales recientes se presentan como material de contexto.",
       "marketSummary": {
-        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil.",
-        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de su propia sesión bursátil."
+        "us": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de la sesión a la que corresponde.",
+        "cn": "No se pudieron verificar algunos datos de cierre. Cada índice disponible conserva la fecha de la sesión a la que corresponde."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Un fabricante de bebidas de alta gama aprueba un dividendo a cuenta en efectivo",
-          "summary": "El consejo de administración de Kweichow Moutai aprobó un dividendo a cuenta en efectivo. Aún está pendiente la fecha de registro que determinará quién tiene derecho a cobrarlo.",
-          "impact": "El pago devolvería efectivo a los accionistas sin cambiar el beneficio que la empresa obtuvo al vender sus bebidas.",
-          "what": "Kweichow Moutai elabora baijiu chino de alta gama y lo vende directamente y a través de distribuidores. El consejo aprobó el reparto con una autorización que los accionistas ya habían concedido, por lo que, según el comunicado, no hace falta otra votación. El importe total previsto se basa en la cantidad de acciones indicada en el anuncio. Si esa cantidad cambia antes de la fecha de registro, la empresa dice que mantendrá el importe total del reparto y ajustará el pago por acción.",
-          "why": "Un dividendo en efectivo transfiere recursos que la empresa ya tiene a los accionistas con derecho a cobrarlo. No es un gasto de producción o venta de bebidas ni demuestra que la demanda haya aumentado. El informe intermedio anterior ilustra la diferencia: las ventas aumentaron y el beneficio atribuible a los accionistas bajó ligeramente, mientras que el flujo de efectivo de las actividades de explotación subió. La dirección atribuyó buena parte de ese cambio a movimientos en los depósitos de su filial financiera, no simplemente a que los clientes pagaran por más bebidas.",
-          "uncertainty": "La aprobación no confirma que el dividendo se haya pagado. El flujo de efectivo consolidado de las actividades de explotación tampoco indica cuánto efectivo puede repartir libremente la empresa matriz ni cuánto generarán las ventas futuras de bebidas.",
-          "watch": "Consulta el aviso de pago para conocer las fechas de registro y de pago. En el próximo informe financiero, fíjate en las ventas por canal y en los distintos factores que explican el flujo de efectivo de las actividades de explotación.",
+          "title": "Suben los beneficios industriales en China, pero las empresas tardan más en cobrar",
+          "summary": "La oficina de estadística de China informó de un aumento de los beneficios industriales: mejoraron los de los fabricantes de productos electrónicos y cayeron los de los fabricantes de automóviles.",
+          "impact": "El aumento de los beneficios contables puede facilitar la financiación de una ampliación del negocio, pero si los clientes tardan más en pagar, los proveedores pueden quedarse sin suficiente efectivo.",
+          "what": "El informe abarca las empresas industriales cuyos ingresos superan un umbral nacional, no solo los fabricantes que cotizan en bolsa. Los beneficios acumulados crecieron más rápido que los ingresos de explotación, y en el último mes también aumentaron respecto al mismo mes del año anterior. El desglose por actividad dice más que el dato general: los beneficios de los fabricantes de equipos informáticos, de comunicaciones y otros equipos electrónicos mejoraron notablemente, mientras que los de los fabricantes de vehículos cayeron.",
+          "why": "Un fabricante puede registrar una venta antes de que el cliente pague. Si se acumulan las facturas pendientes de cobro o los productos terminados pasan más tiempo en el almacén, la empresa tiene que seguir pagando salarios y materiales mientras espera el dinero. El informe mostró que las empresas tardaban más en cobrar y en dar salida a sus existencias. Por eso, el aumento de los beneficios no se traduce necesariamente en más gasto en equipos, mejores condiciones para los proveedores o más contrataciones. Además, las diferencias entre sectores hacen que el dato general sirva de poco para evaluar a un fabricante concreto que cotice con acciones de clase A.",
+          "uncertainty": "La encuesta excluye a las empresas cuyos ingresos no alcanzan el umbral y no ofrece una cifra consolidada de flujo de caja operativo. La oficina ajusta la comparación interanual para tener en cuenta los cambios en las empresas incluidas, por lo que los totales publicados anteriormente no sustituyen a sus tasas de crecimiento calculadas sobre una base comparable.",
+          "watch": "En el próximo informe, fíjate en si se acortan los plazos de cobro y se acelera la rotación de existencias. Los estados de flujos de efectivo de los fabricantes que cotizan en bolsa pueden mostrar si el aumento de los beneficios se está convirtiendo en efectivo.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Importe bruto previsto del dividendo a cuenta en efectivo"
+              "label": "Beneficios industriales acumulados"
             },
             {
               "id": "m2",
-              "label": "Ingresos de explotación del semestre inicial"
+              "label": "Crecimiento de los beneficios industriales acumulados"
             },
             {
               "id": "m3",
-              "label": "Beneficio neto atribuible a los accionistas del semestre inicial"
+              "label": "Ingresos de explotación industriales acumulados"
             },
             {
               "id": "m4",
-              "label": "Flujo de efectivo de las actividades de explotación del semestre inicial"
+              "label": "Crecimiento de los ingresos de explotación industriales acumulados"
+            },
+            {
+              "id": "m5",
+              "label": "Crecimiento de los beneficios industriales en el último mes"
+            },
+            {
+              "id": "m6",
+              "label": "Crecimiento de los beneficios acumulados de la fabricación de productos electrónicos"
+            },
+            {
+              "id": "m7",
+              "label": "Variación de los beneficios acumulados de la fabricación de vehículos de motor"
+            },
+            {
+              "id": "m8",
+              "label": "Crecimiento de las cuentas por cobrar al cierre del mes"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "El gasto en Estados Unidos se estanca al descontar la inflación",
-          "summary": "Los hogares estadounidenses gastaron más en dólares, pero, al descontar la inflación, el gasto bajó ligeramente antes del redondeo.",
-          "impact": "La diferencia importa a las empresas: ingresar más dinero no significa necesariamente que sus clientes estén comprando más.",
-          "what": "La Oficina de Análisis Económico informó de que los ingresos de los hogares después de impuestos aumentaron incluso al descontar la inflación. El gasto en bienes y servicios subió en dólares corrientes, y los servicios explicaron la mayor parte del aumento. Sin embargo, el gasto apenas varió al descontar el efecto de los precios. Los precios al consumidor subieron en términos interanuales, incluso si se excluyen los alimentos y la energía.",
-          "why": "Separar el efecto de los precios del volumen de compras ayuda a entender por qué un comercio o un proveedor de servicios puede ingresar más sin que aumente la demanda. Esa diferencia importa al decidir cuánto personal contratar o cuánto inventario mantener. Una inflación persistente también puede dificultar que la Reserva Federal relaje las condiciones de crédito, aunque el gasto real parezca débil. Los hogares viven una tensión similar cuando, en principio, sus ingresos les permiten comprar más, pero los precios o el coste de financiarse siguen presionando sus presupuestos.",
-          "uncertainty": "Parte del aumento de los ingresos se debió a un reembolso excepcional de primas de Medicare, así que el informe no permite concluir que los ingresos habituales crezcan al mismo ritmo. Las cifras agregadas también ocultan diferencias entre hogares y pueden revisarse.",
-          "watch": "Compara el gasto real y los ingresos después de impuestos en la próxima publicación y comprueba si se modera la inflación sin alimentos ni energía.",
+          "title": "Se amplía el déficit comercial de bienes de Estados Unidos al crecer más las importaciones que las exportaciones",
+          "summary": "El informe preliminar de la Oficina del Censo mostró que las importaciones crecieron más que las exportaciones y que aumentaron las existencias de mayoristas y minoristas.",
+          "impact": "Las empresas podrían afrontar mayores costes de almacenamiento y financiación si las existencias se acumulan más rápido de lo que los clientes las compran.",
+          "what": "El déficit comercial de bienes se calcula restando el valor en dólares de las exportaciones de mercancías al de las importaciones. El déficit aumentó pese al crecimiento de las exportaciones, porque el valor de los bienes que entraron al país subió más. El mismo informe estimó que mayoristas y minoristas cerraron el mes con más existencias que al cierre del mes anterior. Esas existencias se miden en dólares, no en unidades físicas.",
+          "why": "Cuando llegan mercancías a los almacenes, puede ser porque las empresas esperan vender más, quieren protegerse ante interrupciones del suministro o simplemente no han logrado vender lo que ya tienen. La diferencia importa para los hogares: las existencias previstas pueden mantener los productos en las estanterías, mientras que las mercancías sin vender pueden acabar dando lugar a rebajas o a menos pedidos a los proveedores. El aumento del déficit de bienes importa para las estimaciones de crecimiento económico, pero no demuestra por sí solo que se haya debilitado la demanda interna.",
+          "uncertainty": "Son estimaciones preliminares ajustadas por estacionalidad, pero no por cambios de precios. No permiten saber si el aumento de las importaciones se debió a un mayor volumen o a precios más altos. La balanza comercial de bienes no incluye los servicios.",
+          "watch": "Compara el informe completo de comercio exterior con las estimaciones preliminares y observa si las ventas minoristas crecen al ritmo de las existencias o si estas siguen acumulándose.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variación del gasto de consumo sin ajustar por inflación"
+              "label": "Déficit comercial de bienes del último mes"
             },
             {
               "id": "m2",
-              "label": "Variación del gasto de consumo ajustada por inflación (redondeada)"
+              "label": "Déficit comercial de bienes del mes anterior"
             },
             {
               "id": "m3",
-              "label": "Variación de la renta disponible real"
+              "label": "Importaciones de bienes"
             },
             {
               "id": "m4",
-              "label": "Inflación interanual del gasto de consumo"
+              "label": "Exportaciones de bienes"
             },
             {
               "id": "m5",
-              "label": "Inflación interanual del gasto de consumo sin alimentos ni energía"
+              "label": "Variación de las existencias mayoristas"
+            },
+            {
+              "id": "m6",
+              "label": "Variación de las existencias minoristas"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "China plantea reforzar el apoyo a sus mercados de capitales",
-          "summary": "El Consejo de Estado pidió reforzar la estabilización del mercado y dar más apoyo a la inversión institucional a largo plazo.",
-          "impact": "Estas directrices podrían cambiar cómo las empresas de China continental captan capital y devuelven efectivo a sus accionistas, pero el comunicado no demuestra que haya entrado dinero nuevo en el mercado.",
-          "what": "El comunicado propone animar a las empresas cotizadas a pagar dividendos y recomprar acciones, reforzar el papel de Central Huijin en la estabilización del mercado y mejorar el marco de inversión para las aseguradoras, los planes de pensiones de empresa y los fondos de la seguridad social. También pide reforzar la vigilancia y la aplicación de las normas contra el fraude financiero y las reducciones indebidas de participaciones. El comunicado marca la orientación de la política, pero no publica las reglas concretas que seguirían las instituciones.",
-          "why": "Los inversores que mantienen sus participaciones a largo plazo pueden aportar una demanda más estable si las reglas les permiten participar y deciden hacerlo. Un mercado con una liquidez más estable puede facilitar que las empresas capten capital mediante la emisión de acciones cuando lo necesiten. Para los hogares que invierten a través de fondos o ahorros para la jubilación, el cumplimiento de las normas y la transparencia importan tanto como el apoyo a la negociación: la liquidez facilita las operaciones, pero no puede hacer que una empresa débil sea más rentable.",
-          "uncertainty": "El comunicado no precisa cuánto capital hay disponible, cuándo podrían cambiar las reglas ni si ya se han hecho compras. Tampoco demuestra que esta política explique toda la subida de la sesión.",
-          "watch": "Fíjate en las reglas que publiquen los reguladores sobre la participación de las instituciones, en la información que se divulgue sobre operaciones de estabilización y en los comunicados empresariales que distingan entre recompras anunciadas y compras ya realizadas.",
+          "id": "f3",
+          "title": "El Consejo de Estado de China pide reforzar el apoyo a la bolsa",
+          "summary": "El Gobierno chino pidió reforzar los mecanismos de estabilización del mercado, aumentar los dividendos y las recompras de acciones y facilitar el acceso a la bolsa de los fondos institucionales que invierten a largo plazo.",
+          "impact": "Las medidas podrían cambiar quién aporta liquidez en momentos de fuertes ventas y cómo usan su efectivo las empresas cotizadas, pero el comunicado no dice qué medidas se aplicarán ni cuándo.",
+          "what": "El comunicado de la reunión pidió aprovechar mejor las medidas vigentes y preparar otras nuevas. Propuso reforzar el papel de los inversores respaldados por el Estado en la estabilización del mercado y mejorar las normas que regulan la entrada en bolsa de fondos de aseguradoras, planes de pensiones de empresa y fondos de la seguridad social. También pidió aplicar la normativa contra el fraude financiero y las reducciones indebidas de participaciones accionariales. El comunicado marcó una orientación de política, pero no anunció que ya hubiera entrado dinero nuevo en el mercado.",
+          "why": "Los inversores a largo plazo pueden facilitar las operaciones cuando otros inversores venden, aunque su presencia no elimina el riesgo de pérdidas. Los dividendos y las recompras funcionan de manera distinta: los dividendos entregan efectivo directamente a los accionistas, mientras que las recompras usan el efectivo de la empresa para adquirir sus propias acciones. Para los hogares que invierten a través de fondos y las empresas que buscan captar capital mediante acciones, los efectos duraderos dependerán de cómo influyan las normas en las compras efectivas, los pagos a los accionistas y la información que se haga pública.",
+          "uncertainty": "El comunicado no indica cuánto dinero nuevo se destinaría, cuándo se harían las compras ni qué requisitos se aplicarían. El repunte del viernes no permite saber si los inversores ya estaban teniendo en cuenta alguna medida en los precios ni, de ser así, cuál.",
+          "watch": "Fíjate en las normas de aplicación, en la información que se publique sobre compras institucionales y en los documentos que distingan las autorizaciones de recompra anunciadas de las compras efectivamente realizadas.",
           "metricLabels": []
+        },
+        {
+          "id": "f6",
+          "title": "El gasto en Estados Unidos apenas cambia tras descontar la inflación",
+          "summary": "El informe anterior sobre los hogares mostró que el poder adquisitivo aumentó, mientras que el gasto ajustado por inflación se mantuvo prácticamente estable.",
+          "impact": "Para los comercios y los proveedores de servicios, un mayor gasto en dólares no demuestra que los clientes hayan comprado más.",
+          "what": "La Oficina de Análisis Económico observó que la renta disponible, es decir, lo que les queda a los hogares después de pagar los impuestos personales, aumentó incluso después de ajustar por los precios. Los hogares gastaron más en dólares, y los servicios explicaron la mayor parte del aumento. El gasto real bajó ligeramente en la estimación antes del redondeo, pero en la tabla de crecimiento publicada figura como estable. El informe atribuye el aumento general de la renta personal a las remuneraciones, las prestaciones y los ingresos procedentes de activos.",
+          "why": "Cuando suben los precios, importa distinguir entre cuánto dinero se gasta y qué bienes o servicios se compran. Un hogar puede pagar más por la misma cesta, y una empresa puede ingresar más sin vender más. Una mayor renta real después de impuestos puede ayudar a los hogares a afrontar gastos futuros o a recuperar ahorros, pero en este informe no vino acompañada de un aumento inmediato del gasto real. El índice de precios del consumo que excluye los alimentos y la energía ofrece otra forma de ver la inflación, menos afectada por las oscilaciones de precios en esas categorías.",
+          "uncertainty": "Una devolución excepcional de primas de Medicare contribuyó al aumento de las prestaciones sociales, por lo que no cabe dar por hecho que se repita esa parte del aumento de la renta. Las cifras son estimaciones nacionales sujetas a revisión y no muestran cómo se repartieron las mejoras entre los hogares.",
+          "watch": "Observa si el gasto real repunta junto con los ingresos salariales habituales y si el próximo informe revisa la última estimación de gasto o muestra que el alza mensual de los precios sigue moderándose.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Variación de la renta disponible real"
+            },
+            {
+              "id": "m2",
+              "label": "Variación del gasto nominal de los hogares"
+            },
+            {
+              "id": "m3",
+              "label": "Variación del gasto real de los hogares, redondeada"
+            },
+            {
+              "id": "m4",
+              "label": "Variación mensual de los precios del consumo"
+            },
+            {
+              "id": "m5",
+              "label": "Inflación interanual del consumo sin alimentos ni energía"
+            }
+          ]
         }
       ]
     },
     "ja": {
-      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業発表は、背景を理解するための解説として紹介しています。",
+      "status": "今回は米国と中国の動きを取り上げます。各記事の公表日をご確認ください。最近の企業報告は、背景を理解するための解説として紹介しています。",
       "marketSummary": {
-        "us": "終値を確認できなかったものがあります。確認できた指数には、それぞれの取引日を記載しています。",
-        "cn": "終値を確認できなかったものがあります。確認できた指数には、それぞれの取引日を記載しています。"
+        "us": "終値データには確認できなかったものがあります。確認できた指数は、それぞれの取引日付のデータを掲載しています。",
+        "cn": "終値データには確認できなかったものがあります。確認できた指数は、それぞれの取引日付のデータを掲載しています。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "高級白酒メーカーが現金での中間配当を承認",
-          "summary": "貴州茅台の取締役会は、現金での中間配当を承認しました。配当を受け取る株主を確定する基準日はまだ先です。",
-          "impact": "配当が実施されれば、会社は株主に現金を還元しますが、酒の販売で得た利益そのものは変わりません。",
-          "what": "貴州茅台は中国の高級蒸留酒である白酒を製造し、直販や販売代理店を通じて販売しています。取締役会は株主からすでに与えられていた権限に基づいて配当を承認しました。このため、開示資料によると、改めて株主の承認を得る必要はありません。配当予定総額は、発表資料に記載された株式数に基づいています。基準日までに株式数が変わった場合、会社は配当総額を据え置き、株式当たりの配当額を調整する方針です。",
-          "why": "現金配当は、会社がすでに保有する現金を、受け取る資格のある株主に渡すものです。酒の製造や販売にかかる費用ではなく、需要が強まった証拠でもありません。先に公表された中間決算では、売上高が増えた一方、株主に帰属する純利益はやや減り、営業キャッシュフローは増えました。経営陣は、営業キャッシュフローの変化の多くが金融子会社での預金の出入りによるもので、単に酒の販売代金の受け取りが増えたためではないと説明しました。",
-          "uncertainty": "配当の承認は、現金がすでに支払われたことを意味しません。また、グループ全体の営業キャッシュフローだけでは、親会社が自由に配当に回せる現金や、今後の酒の販売で得られる現金の額は分かりません。",
-          "watch": "配当の実施公告では基準日と支払日が、次の決算では販売経路別の売上高と、営業キャッシュフローを動かした要因の内訳が注目点です。",
+          "title": "中国の工業企業は増益、売掛金の回収は遅く",
+          "summary": "中国国家統計局によると、工業企業の利益は増えました。電子機器メーカーが増益となる一方、自動車メーカーは減益でした。",
+          "impact": "会計上の利益が増えると事業拡大の資金を調達しやすくなることがありますが、取引先からの入金が遅くなると、供給業者は手元資金が不足するおそれがあります。",
+          "what": "この統計は、国が定める売上高の基準を上回る工業企業が対象で、上場メーカーに限りません。累計利益は営業収入を上回るペースで増え、直近月の利益も前年同月を上回りました。全体の数字よりも、業種別の内訳を見ると違いがよく分かります。コンピューターや通信機器などの電子機器メーカーでは利益が大きく伸びましたが、自動車メーカーでは減りました。",
+          "why": "メーカーは、取引先から実際に入金される前に売上を計上できます。未回収の代金が積み上がったり、製品が倉庫に長くとどまったりしても、入金を待つ間の人件費や材料費は賄わなければなりません。今回の統計では、売掛金の回収も在庫の回転も遅くなりました。このため、増益が設備投資の拡大、供給業者との取引条件の改善、採用の増加につながるとは限りません。業種による差もあるため、全体の数字だけでは、中国本土の株式市場に上場する個々のメーカーの状況は判断しにくいです。",
+          "uncertainty": "売上高が基準に満たない企業は調査対象外で、対象企業全体の営業キャッシュフローも公表されていません。統計局は調査対象企業の入れ替わりを調整したうえで前年と比較しているため、過去に公表された合計額を使っても、比較条件をそろえた伸び率の代わりにはなりません。",
+          "watch": "次回の発表では、回収にかかる日数が短くなり、在庫の回転が速くなるかが注目点です。上場メーカーのキャッシュフロー計算書では、増益が実際の現金収入につながっているかを確認できます。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "中間現金配当の予定総額（税引前）"
+              "label": "工業企業の累計利益"
             },
             {
               "id": "m2",
-              "label": "上期の売上高"
+              "label": "工業企業の累計利益の伸び率"
             },
             {
               "id": "m3",
-              "label": "上期の株主に帰属する純利益"
+              "label": "工業企業の累計営業収入"
             },
             {
               "id": "m4",
-              "label": "上期の営業キャッシュフロー"
+              "label": "工業企業の累計営業収入の伸び率"
+            },
+            {
+              "id": "m5",
+              "label": "工業企業の直近月の利益の伸び率"
+            },
+            {
+              "id": "m6",
+              "label": "電子機器製造業の累計利益の伸び率"
+            },
+            {
+              "id": "m7",
+              "label": "自動車製造業の累計利益の増減率"
+            },
+            {
+              "id": "m8",
+              "label": "月末の売掛金残高の伸び率"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "米国の個人消費、物価の影響を除くと伸びず",
-          "summary": "米国の家計が支払ったドルベースの金額は増えましたが、物価の影響を除いた支出は、数値を丸める前ではわずかに減りました。",
-          "impact": "企業にとってこの違いは重要です。売上が増えても、顧客が商品やサービスをより多く買ったとは限らないためです。",
-          "what": "米経済分析局によると、家計の税引き後所得は、物価の影響を除いても増えました。モノやサービスへの支出は名目ベースで増え、その伸びの大半をサービスが占めました。ただし、物価の影響を除いた実質個人消費は、ほぼ横ばいでした。消費者が支払う価格は、食品とエネルギーを除いても前年同時期を上回りました。",
-          "why": "価格の変化と実際に買われた量の変化を分けて見ると、小売店やサービス事業者の売上が増えても、需要が強まったとは限らない理由が分かります。この違いは、人員配置や在庫の判断に関わります。実質消費が弱く見えても、インフレが続けば、米連邦準備制度は借り入れ環境を緩和しにくくなることがあります。家計でも、所得で買えるものが計算上は増えていても、物価や借り入れ費用が家計を圧迫し続けることがあります。",
-          "uncertainty": "所得増の一部は、米公的医療保険メディケアの保険料が例外的に払い戻されたことによるものです。このため、今回の統計だけでは、継続的に得られる所得も同じペースで伸びているとは言えません。全体の数字には世帯ごとの差が表れず、数値は後から改定されることもあります。",
-          "watch": "次回の発表では、実質個人消費と税引き後所得の動きを比べ、食品とエネルギーを除いた物価上昇が鈍るかどうかが注目点です。",
+          "title": "米国のモノの貿易赤字が拡大、輸入の伸びが輸出を上回る",
+          "summary": "米国勢調査局の速報では、輸入の伸びが輸出を上回り、卸売業と小売業の在庫も増えました。",
+          "impact": "売れ行き以上のペースで在庫が積み上がれば、企業の保管費や資金調達費が増える可能性があります。",
+          "what": "モノの貿易赤字は、商品の輸入額から輸出額を差し引いたドル建ての金額です。輸出額は増えましたが、輸入額の増加のほうが大きかったため、赤字は拡大しました。同じ発表では、卸売業と小売業の月末在庫が前月末より増えたと推計されました。在庫は商品の個数や量ではなく、ドル建ての金額で示されています。",
+          "why": "倉庫に商品が増えるのは、企業が売上の回復を見込んでいるためかもしれません。供給の途絶に備えている場合も、単に売れ残っている場合もあります。この違いは家計にも関わります。計画的に確保した在庫は店頭での品切れを防げますが、売れ残りが増えると、いずれ値下げや仕入れ先への発注減につながることがあります。モノの貿易赤字の拡大は経済成長率の推計に関係しますが、それだけで国内需要が弱まったとは言えません。",
+          "uncertainty": "速報値には季節調整が施されていますが、価格変動は調整されていません。輸入額の増加が数量の増加によるものか、価格の上昇によるものかは分かりません。また、この貿易収支にはサービスが含まれていません。",
+          "watch": "貿易統計の本発表で速報値からの変化を確認し、小売売上高が在庫の増加に追いつくか、それとも在庫が積み上がり続けるかに注目です。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "名目個人消費支出の増減率"
+              "label": "直近月の財貿易赤字額"
             },
             {
               "id": "m2",
-              "label": "実質個人消費支出の増減率（丸め後）"
+              "label": "前月の財貿易赤字額"
             },
             {
               "id": "m3",
-              "label": "実質可処分所得の増減率"
+              "label": "財の輸入額"
             },
             {
               "id": "m4",
-              "label": "個人消費支出（PCE）物価指数の前年同月比"
+              "label": "財の輸出額"
             },
             {
               "id": "m5",
-              "label": "食品・エネルギーを除く個人消費支出（PCE）物価指数の前年同月比"
+              "label": "卸売在庫の増減率"
+            },
+            {
+              "id": "m6",
+              "label": "小売在庫の増減率"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "中国、資本市場への支援を強化する方針",
-          "summary": "中国の国務院は、市場を安定させる取り組みを強化し、機関投資家による長期投資をさらに後押しするよう求めました。",
-          "impact": "この方針は、中国本土の企業が資金を調達する方法や、株主に現金を還元する方法に影響する可能性があります。ただし、公表資料は新たな資金が市場に流入したことを示していません。",
-          "what": "公表資料では、上場企業に配当や自社株買いを促すこと、中央匯金の市場安定化の役割を強めること、保険会社や企業年金、社会保障基金が投資するための制度を整えることを求めています。また、会計不正や不適切な保有株の売却に対する取り締まりの強化も求めています。示されたのは政策の方向性であり、機関投資家が従う具体的なルールが発表されたわけではありません。",
-          "why": "長期保有を前提とする投資家は、制度上参加でき、実際に投資を選べば、より安定した買い手になり得ます。売買が成立しやすい市場では、企業が必要なときに株式を発行して資金を調達しやすくなる可能性があります。投資信託や老後に備えた資産を通じて市場の影響を受ける家計にとっては、取り締まりや情報開示も、取引を支える施策と同じくらい重要です。売買がしやすくなっても、収益力の弱い企業の利益がそれだけで増えるわけではありません。",
-          "uncertainty": "公表資料からは、投資に回せる資金の規模、ルールが変わる時期、実際に買い入れが行われたかどうかは分かりません。その取引日の上昇がすべてこの方針によるものだと示す資料でもありません。",
-          "watch": "注目点は、機関投資家の市場参加に関する規制当局のルール、市場安定化のために行われた取引の開示、それに自社株買いの発表と実際に買い付けを終えた分を区別できる企業の開示です。",
+          "id": "f3",
+          "title": "中国国務院、株式市場の下支え強化を求める",
+          "summary": "中国国務院は、市場を安定させる手段を強化し、配当や自社株買いを増やすとともに、機関投資家の長期資金が市場に入りやすくするよう求めました。",
+          "impact": "株が売り込まれる局面で誰が買い手となって取引を支えるかや、上場企業が手元資金をどう使うかが変わる可能性があります。ただし、会合の発表では、どの措置をいつ実施するかは示されていません。",
+          "what": "会合の発表では、既存の措置をより有効に使い、追加策を準備するよう求めました。政府の支援を受ける投資家が市場の安定に果たす役割を強め、保険資金や企業年金、社会保障基金が市場に投資しやすくなるようルールを整える案も示しました。また、会計不正や不適切な保有株の売却を取り締まるよう求めました。今回は政策の方向性を示したもので、新たな資金がすでに市場に入ったという発表ではありません。",
+          "why": "長期投資家がいると、ほかの投資家が売りに回るときでも取引が成立しやすくなりますが、損失のリスクがなくなるわけではありません。配当と自社株買いの仕組みは異なります。配当では株主が直接現金を受け取り、自社株買いでは企業が手元資金を使って自社の株式を買い戻します。投資信託などを通じて株式に投資する家計や、株式を発行して資金を調達する企業への長期的な影響は、ルールが実際の買い付けや株主還元、情報開示をどう変えるかに左右されます。",
+          "uncertainty": "会合の発表では、新たな資金の規模や買い付けの時期、対象となる条件は示されていません。金曜日の株価上昇だけでは、投資家が何らかの措置を織り込んでいたのか、織り込んでいたとすればどの措置だったのかは分かりません。",
+          "watch": "具体的な実施ルールや、機関投資家による買い付けの開示が注目点です。自社株買いについては、企業の開示資料で、発表された取得枠と実際に買い付けた実績を区別して見ることが大切です。",
           "metricLabels": []
+        },
+        {
+          "id": "f6",
+          "title": "米国の家計支出、物価上昇を除くとほぼ横ばい",
+          "summary": "先に公表された家計関連の統計では、家計の購買力が高まった一方、物価変動を除いた実質支出はほぼ横ばいでした。",
+          "impact": "小売業やサービス業にとって、ドル建ての支出額が増えただけでは、顧客が商品やサービスをより多く買ったとは言えません。",
+          "what": "米経済分析局によると、個人にかかる税金を差し引いた後に家計に残る可処分所得は、物価変動を除いても増えました。ドル建ての家計支出は増え、その伸びの大半をサービスが占めました。実質支出は推計上わずかに減りましたが、公表された伸び率の表では端数処理により横ばいとなりました。個人所得全体の増加には、雇用者報酬や給付、資産からの所得が寄与したとされています。",
+          "why": "物価が上がるときは、支払った金額と実際に買った商品やサービスの量を区別することが重要です。家計は同じ内容の買い物でも支払額が増えることがあり、企業は販売量が増えなくても売上高が伸びることがあります。税引き後の実質所得が増えれば、今後の出費に対応したり、貯蓄を立て直したりしやすくなりますが、今回の統計では実質支出のすぐの増加にはつながりませんでした。食品とエネルギーを除く個人消費支出物価指数を見ると、これらの品目の値動きに左右されにくい形で物価上昇を捉えられます。",
+          "uncertainty": "メディケアの保険料の例外的な払い戻しが社会給付の増加に寄与したため、所得の伸びのうち、その分が今後も続くとは限りません。数値は全国の推計値で、後から改定される可能性があり、所得の伸びが世帯ごとにどう分布したかは分かりません。",
+          "watch": "継続的に得られる賃金収入の動きとともに、実質支出が上向くかが注目点です。次回の発表では、直近の支出の推計値が改定されるか、前月比で見た物価の上昇ペースがさらに鈍るかも焦点です。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "実質可処分所得の増減率"
+            },
+            {
+              "id": "m2",
+              "label": "名目家計支出の増減率"
+            },
+            {
+              "id": "m3",
+              "label": "実質家計支出の増減率（端数処理後）"
+            },
+            {
+              "id": "m4",
+              "label": "個人消費支出物価指数の前月比"
+            },
+            {
+              "id": "m5",
+              "label": "個人消費支出物価指数の前年比（食品・エネルギーを除く）"
+            }
+          ]
         }
       ]
     },
     "pt": {
-      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios recentes das empresas são apresentados para dar contexto.",
+      "status": "Esta edição cobre acontecimentos nos Estados Unidos e na China. Confira a data de cada publicação: os relatórios empresariais recentes são apresentados para ajudar a entender o contexto.",
       "marketSummary": {
-        "us": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão a que se refere.",
-        "cn": "Não foi possível verificar alguns dados de fechamento. Cada índice com dados disponíveis mantém a data do pregão a que se refere."
+        "us": "Alguns dados de fechamento não puderam ser confirmados. Cada índice com dados disponíveis mantém a data do pregão a que se refere.",
+        "cn": "Alguns dados de fechamento não puderam ser confirmados. Cada índice com dados disponíveis mantém a data do pregão a que se refere."
       },
       "stories": [
         {
           "id": "f1",
-          "title": "Fabricante de destilados premium aprova dividendo intermediário em dinheiro",
-          "summary": "O conselho de administração da Kweichow Moutai aprovou a distribuição de um dividendo intermediário em dinheiro. A data-base para definir quem terá direito ao pagamento ainda está por vir.",
-          "impact": "O pagamento devolveria dinheiro aos acionistas sem alterar o lucro que a empresa obteve com a venda de destilados.",
-          "what": "A Kweichow Moutai produz e comercializa baijiu, um destilado chinês, no segmento premium. A empresa vende diretamente e por meio de distribuidores. O conselho aprovou a distribuição com base em uma autorização que os acionistas já haviam concedido. Por isso, segundo o comunicado, não é necessária uma nova votação dos acionistas. O valor total previsto foi calculado com base na quantidade de ações informada no anúncio. Se essa quantidade mudar antes da data-base, a empresa diz que manterá o total da distribuição e ajustará o valor por ação.",
-          "why": "Um dividendo em dinheiro transfere recursos que já estão no caixa da empresa para os acionistas com direito a recebê-lo. Não é uma despesa de produção ou venda de bebidas, nem um sinal de que a demanda aumentou. O relatório intermediário anterior ajuda a entender a diferença: as vendas cresceram e o lucro atribuível aos acionistas recuou, enquanto o fluxo de caixa operacional aumentou. A administração atribuiu boa parte dessa variação à movimentação de depósitos na subsidiária financeira, e não simplesmente ao fato de os clientes terem pago por mais bebidas.",
-          "uncertainty": "A aprovação não confirma que o pagamento foi feito. O fluxo de caixa operacional consolidado também não mostra quanto a controladora pode distribuir livremente nem quanto as vendas futuras de destilados vão gerar em caixa.",
-          "watch": "Observe o comunicado sobre a distribuição, que deve informar a data-base e a data de pagamento. No próximo relatório financeiro, confira as vendas por canal e os fatores que contribuíram para a variação do fluxo de caixa operacional.",
+          "title": "Lucro industrial da China sobe, mas clientes demoram mais para pagar",
+          "summary": "O órgão de estatísticas da China registrou alta no lucro industrial: os fabricantes de eletrônicos lucraram mais, enquanto os lucros das montadoras caíram.",
+          "impact": "Lucros contábeis maiores podem facilitar o financiamento da expansão, mas atrasos nos pagamentos dos clientes podem deixar os fornecedores com pouco dinheiro em caixa.",
+          "what": "O relatório abrange empresas industriais com receita acima de um limite nacional, não apenas fabricantes com ações em bolsa. O lucro acumulado cresceu mais que a receita operacional, e o lucro do mês mais recente também subiu em relação ao mesmo mês do ano anterior. O detalhamento por setor diz mais que o resultado geral: os lucros dos fabricantes de computadores, equipamentos de comunicação e outros aparelhos eletrônicos cresceram com bem mais força, enquanto os das montadoras caíram.",
+          "why": "Um fabricante pode registrar uma venda antes de o cliente pagar. Se as contas a receber se acumulam ou os produtos acabados ficam mais tempo no estoque, a empresa ainda precisa pagar salários e materiais enquanto espera o dinheiro entrar. O relatório mostrou que os pagamentos demoraram mais e que o giro dos estoques ficou mais lento. Por isso, o aumento dos lucros não significa necessariamente mais gastos com equipamentos, melhores condições para fornecedores ou mais contratações. As diferenças entre setores também fazem com que o resultado geral diga pouco sobre um fabricante específico com ações do tipo A.",
+          "uncertainty": "A pesquisa exclui empresas com receita abaixo do limite e não informa o fluxo de caixa operacional consolidado. O órgão ajusta a comparação com o ano anterior para levar em conta mudanças no conjunto de empresas pesquisadas. Por isso, os totais publicados anteriormente não substituem as taxas de crescimento calculadas em bases comparáveis.",
+          "watch": "Na próxima divulgação, veja se os prazos de recebimento encurtam e se os estoques giram mais rápido. Nas demonstrações de fluxo de caixa dos fabricantes com ações em bolsa, procure sinais de que os lucros maiores estão se convertendo em dinheiro em caixa.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Valor bruto previsto do dividendo intermediário em dinheiro"
+              "label": "Lucro industrial acumulado"
             },
             {
               "id": "m2",
-              "label": "Receita operacional no semestre inicial"
+              "label": "Crescimento do lucro industrial acumulado"
             },
             {
               "id": "m3",
-              "label": "Lucro líquido atribuível aos acionistas no semestre inicial"
+              "label": "Receita operacional industrial acumulada"
             },
             {
               "id": "m4",
-              "label": "Fluxo de caixa operacional no semestre inicial"
+              "label": "Crescimento da receita operacional industrial acumulada"
+            },
+            {
+              "id": "m5",
+              "label": "Crescimento do lucro industrial no mês mais recente"
+            },
+            {
+              "id": "m6",
+              "label": "Crescimento do lucro acumulado na fabricação de eletrônicos"
+            },
+            {
+              "id": "m7",
+              "label": "Variação do lucro acumulado na fabricação de veículos automotores"
+            },
+            {
+              "id": "m8",
+              "label": "Crescimento das contas a receber no fim do mês"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "Gastos das famílias nos Estados Unidos ficam praticamente estáveis após ajuste pela inflação",
-          "summary": "As famílias nos Estados Unidos gastaram mais em dólares, mas, descontada a inflação, os gastos recuaram ligeiramente antes do arredondamento.",
-          "impact": "Essa diferença importa para as empresas: faturar mais não significa necessariamente que os clientes estejam comprando mais.",
-          "what": "O Bureau de Análise Econômica dos Estados Unidos informou que a renda das famílias após impostos subiu mesmo descontada a inflação. Os gastos com bens e serviços aumentaram em dólares correntes, e os serviços responderam pela maior parte da alta. Já a medida de quanto as famílias compraram, descontado o efeito dos preços, ficou praticamente estável. Os preços ao consumidor estavam acima dos registrados no mesmo período do ano anterior, mesmo sem contar alimentos e energia.",
-          "why": "Separar o efeito dos preços do volume de compras ajuda a entender por que uma loja ou uma prestadora de serviços pode faturar mais sem que a demanda cresça. Essa diferença importa na hora de decidir sobre contratações e estoques. A inflação persistente também pode dificultar que o Federal Reserve, o banco central dos Estados Unidos, torne o crédito mais acessível, mesmo que os gastos ajustados pela inflação pareçam fracos. Para as famílias, essa tensão aparece quando, em princípio, o salário tem mais poder de compra, mas os preços ou o custo do crédito continuam apertando o orçamento.",
-          "uncertainty": "Parte da alta da renda veio de um reembolso excepcional de contribuições ao Medicare. Por isso, os dados não mostram com clareza se a renda habitual está crescendo no mesmo ritmo. Os dados agregados também escondem diferenças entre as famílias e podem ser revisados.",
-          "watch": "Na próxima divulgação, compare os gastos e a renda após impostos, ambos ajustados pela inflação, e confira se a inflação sem alimentos e energia perde força.",
+          "title": "Déficit dos Estados Unidos no comércio de bens aumenta com importações crescendo mais que exportações",
+          "summary": "O relatório preliminar do Escritório do Censo mostrou que as importações cresceram mais que as exportações e que os estoques do atacado e do varejo aumentaram.",
+          "impact": "As empresas podem ter custos maiores de armazenagem e financiamento se os estoques crescerem mais rápido que as compras dos clientes.",
+          "what": "O déficit no comércio de bens é o valor, em dólares, das importações de mercadorias menos o das exportações. Ele aumentou mesmo com a alta das exportações, pois o valor das mercadorias que entraram no país cresceu mais. O mesmo relatório estimou que atacadistas e varejistas encerraram o mês com estoques maiores que os do mês anterior. Esses estoques são medidos em dólares, não em quantidade de produtos.",
+          "why": "O acúmulo de mercadorias nos depósitos pode significar que as empresas esperam vender mais, querem se proteger de interrupções no fornecimento ou simplesmente não conseguiram vender o que tinham em estoque. A diferença importa para as famílias: estoques planejados podem manter as prateleiras abastecidas, enquanto mercadorias encalhadas podem acabar levando a descontos ou a menos pedidos aos fornecedores. O aumento do déficit no comércio de bens é relevante para as estimativas de crescimento econômico, mas, por si só, não mostra que a demanda interna enfraqueceu.",
+          "uncertainty": "As estimativas são preliminares e levam em conta padrões sazonais, mas não variações de preços. Elas não mostram se a alta das importações veio de volumes maiores ou de preços mais altos. O saldo do comércio de bens não inclui serviços.",
+          "watch": "Compare o relatório completo de comércio exterior com as estimativas preliminares. Depois, veja se as vendas no varejo acompanham o aumento dos estoques ou se as mercadorias continuam se acumulando.",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "Variação nominal dos gastos de consumo"
+              "label": "Déficit no comércio de bens no mês mais recente"
             },
             {
               "id": "m2",
-              "label": "Variação real dos gastos de consumo, arredondada"
+              "label": "Déficit no comércio de bens no mês anterior"
             },
             {
               "id": "m3",
-              "label": "Variação da renda disponível real"
+              "label": "Importações de bens"
             },
             {
               "id": "m4",
-              "label": "Inflação anual dos gastos de consumo"
+              "label": "Exportações de bens"
             },
             {
               "id": "m5",
-              "label": "Inflação anual dos gastos de consumo, excluindo alimentos e energia"
+              "label": "Variação dos estoques no atacado"
+            },
+            {
+              "id": "m6",
+              "label": "Variação dos estoques no varejo"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "China traça diretrizes para reforçar o apoio ao mercado de capitais",
-          "summary": "O Conselho de Estado defendeu medidas mais fortes para estabilizar o mercado e ampliar o apoio aos investimentos de longo prazo feitos por instituições.",
-          "impact": "Essas diretrizes podem mudar a forma como as empresas da China continental captam recursos e devolvem dinheiro aos acionistas, mas o comunicado não mostra que novos recursos tenham entrado no mercado.",
-          "what": "O comunicado defende incentivar as empresas listadas em bolsa a pagar dividendos e recomprar ações, reforçar o papel da Central Huijin na estabilização do mercado e melhorar as regras para que seguradoras, planos de previdência empresarial e fundos de seguridade social possam investir. Também pede fiscalização mais rigorosa contra fraudes financeiras e reduções irregulares de participações acionárias. O documento traça diretrizes, mas não estabelece as regras detalhadas que as instituições seguiriam.",
-          "why": "Investidores que mantêm suas aplicações por mais tempo podem gerar uma demanda mais estável se as regras permitirem sua participação e eles decidirem investir. Quando é mais fácil comprar e vender ações no mercado, as empresas podem ter mais facilidade para captar recursos com a emissão de ações quando precisarem. Para famílias que investem por meio de fundos ou da poupança para a aposentadoria, a fiscalização e a divulgação de informações importam tanto quanto o apoio às negociações. A liquidez facilita a compra e a venda, mas não torna mais lucrativa uma empresa com desempenho fraco.",
-          "uncertainty": "O comunicado não informa quanto capital está disponível, quando as regras poderiam mudar nem se houve compras. Tampouco demonstra que as diretrizes expliquem toda a alta do pregão.",
-          "watch": "Acompanhe as regras dos órgãos reguladores sobre a participação de investidores institucionais, a divulgação de operações de estabilização e os comunicados das empresas que distinguem as recompras anunciadas das compras efetivamente realizadas.",
+          "id": "f3",
+          "title": "Conselho de Estado da China pede mais apoio ao mercado de ações",
+          "summary": "O governo chinês defendeu mecanismos mais fortes para estabilizar o mercado, mais dividendos e recompras de ações, e mais facilidade para que fundos de investidores institucionais de longo prazo entrem no mercado.",
+          "impact": "As medidas podem mudar quem dá liquidez ao mercado em momentos de venda intensa e como as empresas com ações em bolsa usam seu caixa. O comunicado, porém, não diz quais medidas serão adotadas nem quando.",
+          "what": "O comunicado da reunião defendeu um melhor uso das medidas existentes e a preparação de novas políticas. Propôs reforçar o papel dos investidores com respaldo estatal na estabilização do mercado e aprimorar as regras para a entrada de recursos de seguradoras, planos de previdência empresarial e fundos de seguridade social. Também pediu fiscalização e punição para fraudes financeiras e reduções irregulares de participações acionárias. O comunicado indicou o rumo da política, mas não anunciou que novos recursos já tivessem entrado no mercado.",
+          "why": "Investidores de longo prazo podem facilitar as negociações quando outros investidores estão vendendo, mas sua presença não elimina o risco de perdas. As propostas de dividendos e recompras funcionam de maneiras diferentes: os dividendos colocam dinheiro diretamente nas mãos dos acionistas, enquanto as recompras usam o caixa da empresa para adquirir suas próprias ações. Para as famílias que têm exposição à bolsa por meio de fundos e para as empresas que captam recursos emitindo ações, os efeitos duradouros dependem de como as regras influenciam as compras efetivas, os pagamentos aos acionistas e a divulgação de informações.",
+          "uncertainty": "O comunicado não informa valores de novos recursos, cronograma de compras nem critérios de elegibilidade. A alta de sexta-feira não permite saber se os investidores já levavam alguma dessas medidas em conta nos preços, nem quais.",
+          "watch": "Acompanhe as regras de implementação, as divulgações de compras por investidores institucionais e os documentos que distinguem autorizações de recompra anunciadas de compras efetivamente realizadas.",
           "metricLabels": []
+        },
+        {
+          "id": "f6",
+          "title": "Gastos das famílias nos Estados Unidos quase não mudam após ajuste pela inflação",
+          "summary": "O relatório anterior sobre as famílias mostrou alta no poder de compra, enquanto os gastos ajustados pela inflação ficaram praticamente estáveis.",
+          "impact": "Para varejistas e prestadores de serviços, o aumento do gasto em dólares não é sinal de que os clientes compraram mais.",
+          "what": "O Escritório de Análise Econômica constatou que a renda disponível, ou seja, o que sobra da renda das famílias após os impostos pessoais, cresceu mesmo descontando a inflação. As famílias gastaram mais em dólares, e os serviços responderam pela maior parte da alta. A estimativa sem arredondamento mostrou uma leve queda nos gastos reais, mas a tabela publicada registrou estabilidade após o arredondamento. O relatório atribui a alta mais ampla da renda pessoal a remunerações, benefícios e rendimentos de ativos.",
+          "why": "Quando os preços sobem, é importante distinguir quanto se gasta em dólares de quanto se compra em bens e serviços. Uma família pode pagar mais pela mesma cesta de compras, e uma empresa pode faturar mais sem aumentar o volume de vendas. Uma renda maior após impostos e descontada a inflação pode ajudar as famílias a arcar com despesas futuras ou recompor suas economias, mas, neste relatório, não veio acompanhada de aumento imediato nos gastos reais. O índice de preços do consumo que exclui alimentos e energia oferece uma leitura da inflação menos afetada pelas oscilações de preços nessas categorias.",
+          "uncertainty": "Um reembolso excepcional de prêmios do Medicare contribuiu para a alta dos benefícios sociais. Por isso, não se deve presumir que todo o ganho de renda vá se repetir. Os dados são estimativas nacionais sujeitas a revisão e não mostram como os ganhos se distribuíram entre as famílias.",
+          "watch": "Veja se os gastos reais ganham força junto com a renda regular do trabalho e se a próxima divulgação revisa a estimativa mais recente de gastos ou mostra nova desaceleração na alta mensal dos preços.",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "Variação da renda disponível real"
+            },
+            {
+              "id": "m2",
+              "label": "Variação nominal dos gastos das famílias"
+            },
+            {
+              "id": "m3",
+              "label": "Variação real dos gastos das famílias, com arredondamento"
+            },
+            {
+              "id": "m4",
+              "label": "Variação mensal dos preços do consumo"
+            },
+            {
+              "id": "m5",
+              "label": "Inflação anual do consumo, excluindo alimentos e energia"
+            }
+          ]
         }
       ]
     },
     "zh-TW": {
-      "status": "本期涵蓋美國與中國的財經動態。請留意各篇的發布日期；近期公司報告用來補充背景。",
+      "status": "本期涵蓋美國與中國的最新動態。請留意各篇的發布日期；近期的企業報告用於說明背景。",
       "marketSummary": {
-        "us": "部分收盤資料無法核實。可查得的各項指數皆保留各自的交易日期。",
-        "cn": "部分收盤資料無法核實。可查得的各項指數皆保留各自的交易日期。"
+        "us": "部分收盤資料無法查證。可取得資料的指數均保留各自的交易日期。",
+        "cn": "部分收盤資料無法查證。可取得資料的指數均保留各自的交易日期。"
       },
       "stories": [
         {
           "id": "f1",
-          "title": "高端白酒廠商通過期中現金股利案",
-          "summary": "貴州茅台董事會已通過期中現金股利案，股權登記日尚未到來。",
-          "impact": "這筆股利若發放，將把現金返還給股東，但不會改變公司銷售白酒所賺得的利潤。",
-          "what": "貴州茅台生產高端中國白酒，透過直銷與經銷商銷售。董事會依股東先前授予的權限通過分配案，因此公告指出，無須再交由股東表決。預計發放總額是依公告所列的股數計算。公司表示，若股權登記日前股數有變，將維持發放總額不變，並調整每股股利。",
-          "why": "發放現金股利，是把公司已持有的資金交給符合資格的股東。這不是製造或銷售白酒的費用，也不能證明需求轉強。先前的期中財報就說明了這些指標的差別：營收增加、歸屬於股東的淨利小幅下滑，營業活動現金流量則增加。管理層指出，現金流量的變動有很大一部分來自旗下財務子公司的存款變動，不能單純解讀為顧客買了更多白酒、付了更多錢。",
-          "uncertainty": "股利案獲准不代表現金已經發放。合併報表上的營業活動現金流量，也看不出母公司有多少現金可以自由分配，或未來銷售白酒能帶來多少現金。",
-          "watch": "留意後續實施公告中的股權登記日與發放日，再看下期財報的各通路銷售表現，以及影響營業活動現金流量的各項因素。",
+          "title": "中國工業利潤成長，但收款變慢",
+          "summary": "中國國家統計局公布，工業企業利潤成長，其中電子設備製造商的利潤上升，汽車製造商的利潤則下滑。",
+          "impact": "帳面利潤增加，可能讓企業更容易籌措擴張所需的資金；但如果客戶付款變慢，供應商仍可能面臨現金短缺。",
+          "what": "這份統計涵蓋達到全國統一營收門檻的工業企業，不限於上市製造商。累計利潤的增幅高於營業收入，最新月份的利潤也較去年同期增加。分產業的表現比整體數字更能說明情況：電腦、通訊及其他電子設備製造商的利潤明顯成長，汽車製造商的利潤則下滑。",
+          "why": "製造商可以在客戶實際付款前認列營收。如果未收回的貨款愈積愈多，或製成品在倉庫放得更久，企業在等現金入帳時，仍得支付薪資和材料費。這份統計顯示，收款和存貨周轉都變慢了，因此利潤上升不見得會帶來更多設備支出、更有利於供應商的交易條件，或更多聘僱。各產業的表現也不同，不能只憑整體數字判斷個別Ａ股製造商的情況。",
+          "uncertainty": "這項調查不涵蓋未達營收門檻的企業，也沒有公布整體的營業活動現金流量。統計局會因應納入統計的企業變動，調整與去年同期的比較基準，因此不能用先前公布的總額取代按可比口徑計算的成長率。",
+          "watch": "留意下次公布的資料是否顯示收款時間縮短、存貨周轉加快，並從上市製造商的現金流量表觀察增加的利潤是否真的帶來更多現金。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "預計發放的期中現金股利總額（稅前）"
+              "label": "工業企業累計利潤"
             },
             {
               "id": "m2",
-              "label": "上半年營收"
+              "label": "工業企業累計利潤成長率"
             },
             {
               "id": "m3",
-              "label": "上半年歸屬於股東的淨利"
+              "label": "工業企業累計營業收入"
             },
             {
               "id": "m4",
-              "label": "上半年營業活動現金流量"
+              "label": "工業企業累計營業收入成長率"
+            },
+            {
+              "id": "m5",
+              "label": "最新月份工業企業利潤年增率"
+            },
+            {
+              "id": "m6",
+              "label": "電子設備製造業累計利潤成長率"
+            },
+            {
+              "id": "m7",
+              "label": "汽車製造業累計利潤變動"
+            },
+            {
+              "id": "m8",
+              "label": "月底應收帳款成長率"
             }
           ]
         },
         {
           "id": "f2",
-          "title": "美國消費支出扣除物價影響後停滯",
-          "summary": "美國家庭花的錢變多，但扣除物價上漲的影響後，取整前的數據顯示支出略有下滑。",
-          "impact": "這個落差對企業很重要：收到的錢變多，不代表顧客買得更多。",
-          "what": "美國經濟分析局指出，家庭稅後所得即使扣除物價變動的影響，仍有所增加。以當期價格計算，家庭在商品與服務上的支出增加，增幅主要來自服務。但扣除物價影響後，實質消費支出大致持平。消費物價高於去年同期，即使扣除食品與能源，情況也是如此。",
-          "why": "把物價變動和實際購買情況分開來看，就能理解為什麼零售商或服務業者收入增加，需求卻不見得轉強。這也會影響企業的人力安排與庫存決策。即使實質支出表現疲弱，持續的通膨仍可能讓美國聯準會更難放寬借貸條件。對家庭來說，也有類似的落差：薪資的購買力理論上有所提高，但物價或借貸成本仍可能讓預算吃緊。",
-          "uncertainty": "所得增加有部分來自特殊的聯邦醫療保險（Medicare）保費退還，因此不能單憑這份報告判斷經常性所得也以同樣速度成長。整體數據也看不出不同家庭的處境，且日後可能修正。",
-          "watch": "比較下次公布的實質消費支出和稅後所得，並觀察扣除食品與能源後的通膨是否趨緩。",
+          "title": "美國貨品進口增幅超過出口，貿易逆差擴大",
+          "summary": "美國人口普查局的初估報告顯示，貨品進口增幅超過出口，批發商和零售商的存貨也增加。",
+          "impact": "如果存貨累積得比商品賣出去還快，企業的倉儲和融資成本可能上升。",
+          "what": "貨品貿易逆差是以美元計算的貨品進口金額減去出口金額。雖然出口增加，但進口金額增加得更多，因此逆差擴大。這份報告也估計，批發商和零售商的月底存貨都比前個月多。存貨是以美元金額衡量，不是以商品件數或其他實物單位計算。",
+          "why": "倉庫裡的存貨增加，可能是企業預期銷售會好轉、想預防供應中斷，也可能只是商品賣不出去。這對家庭有不同影響：有計畫的備貨有助於讓貨架上有貨可買；賣不掉的庫存則可能讓商家日後降價，或減少向供應商下單。貨品貿易逆差擴大會影響經濟成長估計，但光憑這點不能判定國內需求轉弱。",
+          "uncertainty": "這些初估數據已排除季節因素，但未扣除價格變動的影響，因此無法判斷進口金額增加是因為進口量變多，還是價格上漲。貨品貿易差額也不包含服務貿易。",
+          "watch": "將完整的貿易報告與初估數據相比，再觀察零售銷售能否跟上存貨增幅，或是庫存繼續累積。",
           "metricLabels": [
             {
               "id": "m1",
-              "label": "名目消費支出變動"
+              "label": "最新月份貨品貿易逆差"
             },
             {
               "id": "m2",
-              "label": "實質消費支出變動（取整後）"
+              "label": "前月貨品貿易逆差"
             },
             {
               "id": "m3",
-              "label": "實質可支配所得變動"
+              "label": "貨品進口額"
             },
             {
               "id": "m4",
-              "label": "個人消費支出物價指數年增率"
+              "label": "貨品出口額"
             },
             {
               "id": "m5",
-              "label": "核心個人消費支出物價指數年增率（不含食品與能源）"
+              "label": "批發業存貨變動"
+            },
+            {
+              "id": "m6",
+              "label": "零售業存貨變動"
             }
           ]
         },
         {
-          "id": "f5",
-          "title": "中國提出加強支持資本市場的政策方向",
-          "summary": "中國國務院呼籲加強穩定市場的措施，並加大對機構長期投資的支持。",
-          "impact": "這項政策方向可能改變中國大陸企業籌資和返還現金給股東的方式，但通報並未顯示已有新資金進入市場。",
-          "what": "通報提出，應鼓勵上市公司發放股利及買回庫藏股，強化中央匯金穩定市場的作用，並完善保險機構、企業年金與社會保障基金參與投資的制度。通報也要求加強執法，查處財務造假及不當減持股份的行為。這份通報說明的是政策方向，並未公布機構須遵循的具體規則。",
-          "why": "如果規則允許，長期持有資產的投資人也願意進場，就可能為市場帶來較穩定的買盤。市場若更容易買賣，企業有需要時也可能更容易透過發行股票籌資。對於透過基金或退休儲蓄參與市場的家庭，執法與資訊揭露和支持市場交易同樣重要：流動性有助於投資人買賣，卻不能讓經營不佳的企業變得更賺錢。",
-          "uncertainty": "通報未說明有多少資金可投入、規則何時可能改變，或是否已實際買進。也不能據此認定當天的漲幅全由這項政策帶動。",
-          "watch": "留意主管機關公布的機構投資規則、穩定市場相關交易的揭露，以及公司公告中對已宣布的庫藏股買回計畫與實際完成買回的區分。",
+          "id": "f3",
+          "title": "中國國務院要求加強股市支持措施",
+          "summary": "中國國務院要求強化穩定市場的工具、增加股利發放與庫藏股買回，並讓機構的長期資金更容易進入股市。",
+          "impact": "這些措施可能改變股市出現賣壓時由誰提供流動性，也可能改變上市公司運用現金的方式。不過，會議通報未說明會採取哪些措施，或何時實施。",
+          "what": "會議通報要求更有效運用現有措施，並準備推出更多政策。通報提出要強化有政府支持的投資機構穩定市場的作用，並完善引導保險資金、企業年金和社會保障基金進入股市的規則。通報也要求查處財務造假和違規減持。這是在說明政策方向，不是宣布已有新資金進場。",
+          "why": "其他投資人賣出時，長期投資人有助於讓交易更容易成交，但不能消除虧損風險。發放股利和買回庫藏股的做法不同：現金股利是直接把現金發給股東，庫藏股買回則是公司用現金買回自家股票。對透過基金投資股市的家庭，以及發行股票籌資的企業來說，長期影響取決於規則如何影響實際買進、股利發放與資訊揭露。",
+          "uncertainty": "會議通報沒有交代新增資金的金額、買進時程或適用資格。週五的股市上漲，無法證明股價已反映哪些措施，甚至無法確定是否反映了這些措施。",
+          "watch": "留意後續執行細則、機構買進的揭露資訊，以及能區分已公布的買回授權與實際買回情況的公司申報資料。",
           "metricLabels": []
+        },
+        {
+          "id": "f6",
+          "title": "扣除通膨後，美國家庭支出幾乎持平",
+          "summary": "先前公布的家庭收支報告顯示，家庭購買力提高，但扣除通膨後的支出大致持平。",
+          "impact": "對零售商和服務業者來說，消費金額增加，不代表顧客買了更多商品或服務。",
+          "what": "美國經濟分析局指出，可支配所得，也就是家庭繳納個人稅後可運用的所得，在扣除物價變動後仍有增加。以美元計算，家庭支出上升，增幅主要來自服務支出。按取整前的估計，實質支出略為下滑，但公布的成長率表經取整後顯示持平。報告指出，整體個人所得上升來自勞動報酬、福利給付與資產所得。",
+          "why": "物價上漲時，花了多少錢和買到多少商品或服務是不同的事。家庭買同樣的東西可能要花更多錢，企業也可能在銷量沒增加的情況下提高營收。扣除物價變動後的稅後所得增加，有助於家庭負擔未來開銷或補回儲蓄，但這份報告並未顯示實質支出隨即增加。排除食品和能源的個人消費支出物價指數，則提供另一種觀察通膨的方式，較不受這些類別價格波動的影響。",
+          "uncertainty": "聯邦醫療保險（Medicare）的特殊保費退費推升了社會福利給付，因此不能假設這部分所得增幅還會出現。這些全國性估計日後可能修正，也看不出所得增幅如何分布在不同家庭之間。",
+          "watch": "觀察實質支出是否隨經常性的薪資所得增加而回升，並留意下次發布的資料是否修正最新的支出估計，或顯示物價月增幅進一步放緩。",
+          "metricLabels": [
+            {
+              "id": "m1",
+              "label": "實質可支配所得變動"
+            },
+            {
+              "id": "m2",
+              "label": "名目家庭支出變動"
+            },
+            {
+              "id": "m3",
+              "label": "實質家庭支出變動（取整後）"
+            },
+            {
+              "id": "m4",
+              "label": "個人消費支出物價月變動率"
+            },
+            {
+              "id": "m5",
+              "label": "核心個人消費支出物價年增率（不含食品與能源）"
+            }
+          ]
         }
       ]
     }
